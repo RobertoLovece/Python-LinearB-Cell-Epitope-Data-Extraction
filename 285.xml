@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<References xsi:schemaLocation="http://www.iedb.org/schema/CurationSchema http://beta.iedb.org/schema/Curation.xsd" xmlns="http://www.iedb.org/schema/CurationSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <Reference>
+        <ReferenceId>285</ReferenceId>
+        <DateLastUpdated>2016-11-03-07:00</DateLastUpdated>
+        <Article>
+            <PubmedId>15710332</PubmedId>
+            <Abstract>Based on our previous study that the monoclonal antibody (mAb) 8C6 recognizing the extracellular domain of influenza A virus M2 protein (M2e) could passively induce protective immunity in mice, epitope mapping was performed in this study. A series of eight mutated M2e were constructed and expressed. It was found in immunoblotting assay that 8C6 could not bind to two of the mutated M2e proteins, which suggested the VETPIR epitope (aa7-12) in M2e for mAb 8C6. More important, EVETPIRN-peptide (aa6-13) conjugated immunogen induced high M2e specific antibody titer (1:25,600) in mice after booster immunization, and provided mice significantly 40% higher survival rate compared with the control group in challenge assay (p=0.0215), which suggested the EVETPIRN-epitope was immunogenic and actively conferred immune protection to some extent. In addition, sequence comparison suggested the EVETPIRN sequence (aa6-13) was highly conserved in all human influenza A strains. All these data suggested the EVETPIRN sequence in M2e could be one new target for influenza vaccine design.</Abstract>
+            <ArticleYear>2005</ArticleYear>
+            <ArticlePages>631-5</ArticlePages>
+            <ArticleTitle>The epitope recognized by a monoclonal antibody in influenza A virus M2 protein is immunogenic and confers immune protection.</ArticleTitle>
+            <Authors>
+                <Author>
+                    <LastName>Zou</LastName>
+                    <ForeName>Peng</ForeName>
+                </Author>
+                <Author>
+                    <LastName>Liu</LastName>
+                    <ForeName>Wanli</ForeName>
+                </Author>
+                <Author>
+                    <LastName>Chen</LastName>
+                    <ForeName>Ying-Hua</ForeName>
+                </Author>
+            </Authors>
+            <Affiliations>Laboratory of Immunology, Department of Biology and Institute of Biomedical Science, Tsinghua University, Protein Science Laboratory of the Ministry of Education, Beijing 100084, PR China.</Affiliations>
+            <ArticleChemicalList>Antibodies, Monoclonal;Epitopes;M2 protein, Influenza A virus;Viral Matrix Proteins</ArticleChemicalList>
+            <ArticleMeshHeadingsList>Amino Acid Sequence; Animals; Antibodies, Monoclonal(immunology); Epitope Mapping; Epitopes(chemistry; immunology); Female; Immunization; Influenza A virus(immunology); Mice; Mice, Inbred BALB C; Molecular Sequence Data; Orthomyxoviridae Infections(prevention &amp; control); Viral Matrix Proteins(chemistry; immunology)</ArticleMeshHeadingsList>
+            <Journal>
+                <Volume>5</Volume>
+                <Issue>4</Issue>
+                <Title>International immunopharmacology</Title>
+                <Issn>1567-5769</Issn>
+                <MedlineTa>Int Immunopharmacol</MedlineTa>
+            </Journal>
+        </Article>
+        <Epitopes>
+            <Epitope>
+                <EpitopeName>LM2</EpitopeName>
+                <EpitopeStructure>
+                    <FragmentOfANaturalSequenceMolecule>
+                        <ChemicalType>Peptide from protein</ChemicalType>
+                        <LinearSequence>EVETPIRN</LinearSequence>
+                        <StartingPosition>6</StartingPosition>
+                        <EndingPosition>13</EndingPosition>
+                        <SourceMolecule>
+                            <GenBankId>P06821.1</GenBankId>
+                        </SourceMolecule>
+                        <SourceOrganismId>211044</SourceOrganismId>
+                    </FragmentOfANaturalSequenceMolecule>
+                </EpitopeStructure>
+                <LocationOfData>Page 632</LocationOfData>
+                <EpitopeId>14686</EpitopeId>
+                <ReferenceStartingPosition>6</ReferenceStartingPosition>
+                <ReferenceEndingPosition>13</ReferenceEndingPosition>
+                <EpitopeEvidenceCode>Not determined</EpitopeEvidenceCode>
+                <EpitopeStructureDefines>Exact Epitope</EpitopeStructureDefines>
+                <EpitopeComments>This sequence had been shown to be recognized specifically by the mAb 8C6 that have protective capacity in adoptive transfer experiments.</EpitopeComments>
+                <Assays>
+                    <BCell>
+                        <LocationOfData>Figure 2B</LocationOfData>
+                        <BCellId>4612</BCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>10090</OrganismId>
+                                <Sex>F</Sex>
+                                <Age>6 weeks</Age>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Administration in vivo</InVivoProcessType>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Epitope</EpitopeRelation>
+                                    <Object>
+                                        <FragmentOfANaturalSequenceMolecule>
+                                            <ChemicalType>Peptide from protein</ChemicalType>
+                                            <LinearSequence>EVETPIRN</LinearSequence>
+                                            <StartingPosition>6</StartingPosition>
+                                            <EndingPosition>13</EndingPosition>
+                                            <SourceMolecule>
+                                                <GenBankId>P06821.1</GenBankId>
+                                            </SourceMolecule>
+                                            <SourceOrganismId>211044</SourceOrganismId>
+                                        </FragmentOfANaturalSequenceMolecule>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenReferenceName>LM2</ImmunogenReferenceName>
+                                <ImmunogenEvidenceCode>Exact match to reference information</ImmunogenEvidenceCode>
+                                <ImmunogenContainingObject>
+                                    <ComplexedMolecule>
+                                        <ComplexType>Protein conjugate</ComplexType>
+                                        <PeptideModifications/>
+                                        <SourceMolecule>
+                                            <GenBankId>P02769.4</GenBankId>
+                                        </SourceMolecule>
+                                        <MoleculeSourceOrganismId>9913</MoleculeSourceOrganismId>
+                                    </ComplexedMolecule>
+                                </ImmunogenContainingObject>
+                                <Adjuvant>Freund's complete</Adjuvant>
+                                <Route>Intraperitoneal (i.p.)</Route>
+                                <DoseSchedule>3 doses 2 wks apart with 50 μg conjugate, first in CFA, boosts in IFA.</DoseSchedule>
+                            </FirstInVivoProcess>
+                        </Immunization>
+                        <AssayInformation>
+                            <AssayTypeId>34</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <AssayComments>Sera from peptide-BSA immunized animals (obtained 10 days after the last immunization) show  significant reactivity towards the immunizing peptide over control sera, but to a lesser extent than the reactiity seen towards the entire extracellular M2 domain, residues 2-24 (SLLTEYETPIRNEWGCRCNDSSD).</AssayComments>
+                        </AssayInformation>
+                        <AssayedAntibody>
+                            <AssayedAntibodySourceMaterial>Serum</AssayedAntibodySourceMaterial>
+                            <AssayedAntibodyPurificationStatus>Polyclonal</AssayedAntibodyPurificationStatus>
+                        </AssayedAntibody>
+                        <Antigen>
+                            <AntigenReferenceName>LM2</AntigenReferenceName>
+                            <AntigenConformation>Non-Native/Unknown</AntigenConformation>
+                            <AntigenObject>
+                                <EpitopeRelation>Epitope</EpitopeRelation>
+                                <Object>
+                                    <FragmentOfANaturalSequenceMolecule>
+                                        <ChemicalType>Peptide from protein</ChemicalType>
+                                        <LinearSequence>EVETPIRN</LinearSequence>
+                                        <StartingPosition>6</StartingPosition>
+                                        <EndingPosition>13</EndingPosition>
+                                        <SourceMolecule>
+                                            <GenBankId>P06821.1</GenBankId>
+                                        </SourceMolecule>
+                                        <SourceOrganismId>211044</SourceOrganismId>
+                                    </FragmentOfANaturalSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Exact match to reference information</AntigenEvidenceCode>
+                        </Antigen>
+                    </BCell>
+                </Assays>
+                <Assays>
+                    <BCell>
+                        <LocationOfData>Figure 3</LocationOfData>
+                        <BCellId>82</BCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>10000000</OrganismId>
+                                <Sex>F</Sex>
+                                <Age>6 weeks</Age>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Administration in vivo to prevent or reduce disease</InVivoProcessType>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Epitope</EpitopeRelation>
+                                    <Object>
+                                        <FragmentOfANaturalSequenceMolecule>
+                                            <ChemicalType>Peptide from protein</ChemicalType>
+                                            <LinearSequence>EVETPIRN</LinearSequence>
+                                            <StartingPosition>6</StartingPosition>
+                                            <EndingPosition>13</EndingPosition>
+                                            <SourceMolecule>
+                                                <GenBankId>P06821.1</GenBankId>
+                                            </SourceMolecule>
+                                            <SourceOrganismId>211044</SourceOrganismId>
+                                        </FragmentOfANaturalSequenceMolecule>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenReferenceName>LM2</ImmunogenReferenceName>
+                                <ImmunogenEvidenceCode>Exact match to reference information</ImmunogenEvidenceCode>
+                                <ImmunogenContainingObject>
+                                    <ComplexedMolecule>
+                                        <ComplexType>Protein conjugate</ComplexType>
+                                        <PeptideModifications/>
+                                        <SourceMolecule>
+                                            <GenBankId>P02769.4</GenBankId>
+                                        </SourceMolecule>
+                                        <MoleculeSourceOrganismId>9913</MoleculeSourceOrganismId>
+                                    </ComplexedMolecule>
+                                </ImmunogenContainingObject>
+                                <Adjuvant>Freund's complete</Adjuvant>
+                                <Route>Intraperitoneal (i.p.)</Route>
+                                <DoseSchedule>3 doses 2 wks apart with 50 μg conjugate, first in CFA, boosts in IFA.</DoseSchedule>
+                            </FirstInVivoProcess>
+                        </Immunization>
+                        <AssayInformation>
+                            <AssayTypeId>124</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <QuantitativeMeasurement>50.0</QuantitativeMeasurement>
+                            <NumberOfSubjectsTested>10</NumberOfSubjectsTested>
+                            <NumberOfSubjectsResponded>5</NumberOfSubjectsResponded>
+                            <ResponseFrequency>50</ResponseFrequency>
+                            <AssayComments>50% survival was observed at 14 days post challenge of peptide-BSA immunized mice with 4x10^5 pfu PR8 virus. BSA-alone immunized mice show a 10% survival.</AssayComments>
+                        </AssayInformation>
+                        <Antigen>
+                            <AntigenReferenceName>Influenza A virus (A/Puerto Rico/8/34(H1N1))</AntigenReferenceName>
+                            <AntigenConformation>Native</AntigenConformation>
+                            <AntigenObject>
+                                <EpitopeRelation>Source Organism</EpitopeRelation>
+                                <Object>
+                                    <Organism>
+                                        <SubType>Organism</SubType>
+                                        <SourceOrganismId>211044</SourceOrganismId>
+                                    </Organism>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Not determined</AntigenEvidenceCode>
+                        </Antigen>
+                    </BCell>
+                </Assays>
+            </Epitope>
+        </Epitopes>
+    </Reference>
+</References>
+

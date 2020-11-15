@@ -4,24 +4,34 @@
 import pandas as pd
 import numpy as np
 import xml.etree.ElementTree as et
-
-root = et.parse('285.xml').getroot()
+import glob
 
 path = "{http://www.iedb.org/schema/CurationSchema}"
 
 def main():
-    if (check_linear_bcell_epitopes() == True):
-        readAll()
-        epitope_array = process_epitopes()
-        assay_array = process_assays()
+    xml_files = glob.glob('*.xml')
 
-        processed_epitope_array = np.append(epitope_array,assay_array)
+    array_list = []
 
-        df = pd.DataFrame([processed_epitope_array],columns=["pubmed_id","year","epit_name","epitope_id","evid_code","epit_struc_def","sourceOrg_id","protein_id","epit_seq","start_pos","end_pos","host_id","bcell_id","class","assay_type"])
-        print(df)
+    for xml in xml_files:
+        root = et.parse(xml).getroot()
+        if (check_linear_bcell_epitopes(root) == True):
+            epitope_array = process_epitopes(root)
+            assay_array = process_assays(root)
+
+            epitope_array = np.append(epitope_array,assay_array)
+
+            array_list.append(epitope_array)
+
+    if (len(array_list) != 0):
+        final_array = np.vstack(array_list)
+
+        df = pd.DataFrame.from_records(final_array,columns=["pubmed_id","year","epit_name","epitope_id","evid_code","epit_struc_def","sourceOrg_id","protein_id","epit_seq","start_pos","end_pos","host_id","bcell_id","class","assay_type"])
+        df.to_csv('output.csv',index=False)
+
 
 # find out if it's a Linear B-Cell epitopes
-def check_linear_bcell_epitopes():
+def check_linear_bcell_epitopes(root):
 
     bcell_path = path +"Reference/"+ path +"Epitopes/"+ path +"Epitope/"+ path + "Assays/"+ path +"BCell"
     linear_path = path +"Reference/"+ path +"Epitopes/"+ path +"Epitope/"+ path +"EpitopeStructure/"+ path +"FragmentOfANaturalSequenceMolecule"
@@ -40,7 +50,7 @@ def check_linear_bcell_epitopes():
     else:
         return False
 
-def process_epitopes():
+def process_epitopes(root):
 
     # the paths to all the parameters that need processing
     pubmed_id_path = path +"Reference/"+ path +"Article/"+ path +"PubmedId"
@@ -56,50 +66,15 @@ def process_epitopes():
     end_pos_path = path +"Reference/"+ path +"Epitopes/"+ path +"Epitope/"+ path +"EpitopeStructure/"+ path +"FragmentOfANaturalSequenceMolecule/"+ path +"EndingPosition"
 
     # processes the parameter that are required
-    if(root.find(pubmed_id_path) != None):
-        pubmed_id = root.find(pubmed_id_path).text
-    else:
-        pubmed_id = "NA"
-
-    if(root.find(year_path) != None):
-        year = root.find(year_path).text
-    else:
-        year = "NA"
-
-    if(root.find(epit_name_path) != None):
-        epit_name = root.find(epit_name_path).text
-    else:
-        epit_name = "NA"
-
-    if(root.find(epitope_id_path) != None):
-        epitope_id = root.find(epitope_id_path).text
-    else:
-        epitope_id = "NA"
-
-    if(root.find(evid_code_path) != None):
-        evid_code = root.find(evid_code_path).text
-    else:
-        evid_code = "NA"
-
-    if(root.find(epit_struc_def_path) != None):
-        epit_struc_def = root.find(epit_struc_def_path).text
-    else:
-        epit_struc_def = "NA"
-
-    if(root.find(sourceorg_id_path) != None):
-        sourceorg_id = root.find(sourceorg_id_path).text
-    else:
-        sourceorg_id = "NA"
-
-    if(root.find(protein_id_path) != None):
-        protein_id = root.find(protein_id_path).text
-    else:
-        protein_id = "NA"
-
-    if(root.find(epit_seq_path) != None):
-        epit_seq = root.find(epit_seq_path).text
-    else:
-        epit_seq = "NA"
+    pubmed_id = process_epitope_data(root, pubmed_id_path)
+    year = process_epitope_data(root, year_path)
+    epit_name = process_epitope_data(root, epit_name_path)
+    epitope_id = process_epitope_data(root, epitope_id_path)
+    evid_code = process_epitope_data(root, evid_code_path)
+    epit_struc_def = process_epitope_data(root, epit_struc_def_path)
+    sourceorg_id = process_epitope_data(root, sourceorg_id_path)
+    protein_id = process_epitope_data(root, protein_id_path)
+    epit_seq = process_epitope_data(root, epit_seq_path)
 
     # If the starting or end positions are empty we check another location
     if(root.find(start_pos_path) != None):
@@ -124,7 +99,14 @@ def process_epitopes():
 
     return epitope_array
 
-def process_assays():
+def process_epitope_data(root, path):
+    if(root.find(path) != None):
+        processed = root.find(path).text
+    else:
+        processed = "NA"
+    return processed
+
+def process_assays(root):
 
     # paths for the assay parameters that need processing
     host_id_path = path +"Reference/"+ path +"Epitopes/"+ path +"Epitope/"+ path +"Assays/"+ path +"BCell/"+ path +"Immunization/"+ path +"HostOrganism/"+ path +"OrganismId"

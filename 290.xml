@@ -1,0 +1,389 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<References xsi:schemaLocation="http://www.iedb.org/schema/CurationSchema http://beta.iedb.org/schema/Curation.xsd" xmlns="http://www.iedb.org/schema/CurationSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <Reference>
+        <ReferenceId>290</ReferenceId>
+        <Keywords>OspA, Cross-reactivity, brain, neural tissue</Keywords>
+        <DateLastUpdated>2017-05-25-07:00</DateLastUpdated>
+        <Article>
+            <PubmedId>15652419</PubmedId>
+            <Abstract>Neurological sequela of chronic Lyme disease include encephalopathy, myelopathy and peripheral neuropathy. These have generally been attributed to either persistent infection or pathogen-induced autoimmunity. In this study, we investigated the presence of cross-reactive human neural epitopes that share amino acid sequences with Borrelia burgdorferi OspA protein. Sequence similarity analysis was carried out by searching known cDNA sequences from brain tissue. The cDNA database search yielded three sequences that were identical to sequences in OspA. Corresponding peptides were synthesized and antibodies were generated against them in rabbits. Antibodies against two of the homologous OspA peptides were found to react with neurons in human brain, spinal cord and dorsal root ganglia by immunohistochemistry.</Abstract>
+            <ArticleYear>2005</ArticleYear>
+            <ArticlePages>192-5</ArticlePages>
+            <ArticleTitle>Antibodies against OspA epitopes of Borrelia burgdorferi cross-react with neural tissue.</ArticleTitle>
+            <Authors>
+                <Author>
+                    <LastName>Alaedini</LastName>
+                    <ForeName>Armin</ForeName>
+                </Author>
+                <Author>
+                    <LastName>Latov</LastName>
+                    <ForeName>Norman</ForeName>
+                </Author>
+            </Authors>
+            <Affiliations>Department of Neurology and Neuroscience, Cornell University, 1300 York Ave., New York, NY 10021, USA. ara2004@med.cornell.edu</Affiliations>
+            <ArticleChemicalList>Antibodies, Bacterial;Antigens, Surface;Bacterial Outer Membrane Proteins;Bacterial Vaccines;Epitopes;Immune Sera;Lipoproteins;OspA protein</ArticleChemicalList>
+            <ArticleMeshHeadingsList>Animals; Antibodies, Bacterial(biosynthesis; metabolism); Antigens, Surface(immunology; metabolism); Bacterial Outer Membrane Proteins(immunology; metabolism); Bacterial Vaccines; Binding Sites, Antibody; Borrelia burgdorferi(immunology); Brain Chemistry(immunology); Cross Reactions; Epitopes(immunology; metabolism); Expressed Sequence Tags; Ganglia, Spinal(chemistry; immunology); Humans; Immune Sera(metabolism); Immunohistochemistry; Lipoproteins(immunology; metabolism); Neurons(chemistry; immunology); Rabbits; Sequence Homology, Nucleic Acid; Spinal Cord(chemistry; immunology)</ArticleMeshHeadingsList>
+            <Journal>
+                <Volume>159</Volume>
+                <Issue>1-2</Issue>
+                <Title>Journal of neuroimmunology</Title>
+                <Issn>0165-5728</Issn>
+                <MedlineTa>J Neuroimmunol</MedlineTa>
+            </Journal>
+        </Article>
+        <Epitopes>
+            <Epitope>
+                <EpitopeName>Peptide 1</EpitopeName>
+                <EpitopeStructure>
+                    <FragmentOfANaturalSequenceMolecule>
+                        <ChemicalType>Peptide from protein</ChemicalType>
+                        <LinearSequence>EVSEKII</LinearSequence>
+                        <StartingPosition>131</StartingPosition>
+                        <EndingPosition>137</EndingPosition>
+                        <SourceMolecule>
+                            <GenBankId>P14013.1</GenBankId>
+                        </SourceMolecule>
+                        <SourceOrganismId>139</SourceOrganismId>
+                    </FragmentOfANaturalSequenceMolecule>
+                </EpitopeStructure>
+                <LocationOfData>Table 1</LocationOfData>
+                <EpitopeId>14869</EpitopeId>
+                <ReferenceStartingPosition>132</ReferenceStartingPosition>
+                <ReferenceEndingPosition>136</ReferenceEndingPosition>
+                <EpitopeEvidenceCode>Not determined</EpitopeEvidenceCode>
+                <EpitopeStructureDefines>Exact Epitope</EpitopeStructureDefines>
+                <EpitopeComments>The homologous human cDNA for this epitope can be found in GenBank Acc. BF701776</EpitopeComments>
+                <Assays>
+                    <BCell>
+                        <LocationOfData>p. 194</LocationOfData>
+                        <BCellId>98</BCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>10000206</OrganismId>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Administration in vivo</InVivoProcessType>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Epitope</EpitopeRelation>
+                                    <Object>
+                                        <FragmentOfANaturalSequenceMolecule>
+                                            <ChemicalType>Peptide from protein</ChemicalType>
+                                            <LinearSequence>EVSEKII</LinearSequence>
+                                            <StartingPosition>131</StartingPosition>
+                                            <EndingPosition>137</EndingPosition>
+                                            <SourceMolecule>
+                                                <GenBankId>P14013.1</GenBankId>
+                                            </SourceMolecule>
+                                            <SourceOrganismId>139</SourceOrganismId>
+                                        </FragmentOfANaturalSequenceMolecule>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenReferenceName>Peptide 1</ImmunogenReferenceName>
+                                <ImmunogenEvidenceCode>Exact match to reference information</ImmunogenEvidenceCode>
+                                <ImmunogenContainingObject>
+                                    <ComplexedMolecule>
+                                        <ComplexType>Protein conjugate</ComplexType>
+                                        <PeptideModifications/>
+                                        <SourceMolecule>
+                                            <IedbAccession>SRC40074</IedbAccession>
+                                        </SourceMolecule>
+                                        <MoleculeSourceOrganismId>55429</MoleculeSourceOrganismId>
+                                    </ComplexedMolecule>
+                                </ImmunogenContainingObject>
+                                <Adjuvant>Freund's complete</Adjuvant>
+                                <DoseSchedule>5</DoseSchedule>
+                            </FirstInVivoProcess>
+                            <ImmunizationComments>New Zealand White rabbits were immunized using thedescribed KLH-conjugated peptides in Complete Freund'sAdjuvant (Sigma-Genosys). Immunizations were carried outwith injection of 200 µg of peptide conjugate on day 0, and 100 µg of the conjugate on days 14, 28, 42 and 56.</ImmunizationComments>
+                        </Immunization>
+                        <AssayInformation>
+                            <AssayTypeId>34</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <AssayComments>Antibody titre150.000 to 300.000</AssayComments>
+                        </AssayInformation>
+                        <AssayedAntibody>
+                            <AssayedAntibodySourceMaterial>Serum</AssayedAntibodySourceMaterial>
+                            <AssayedAntibodyPurificationStatus>Polyclonal</AssayedAntibodyPurificationStatus>
+                            <AssayedAntibodyHeavyChainType>IgG</AssayedAntibodyHeavyChainType>
+                        </AssayedAntibody>
+                        <Antigen>
+                            <AntigenReferenceName>Peptide 1</AntigenReferenceName>
+                            <AntigenConformation>Non-Native/Unknown</AntigenConformation>
+                            <AntigenObject>
+                                <EpitopeRelation>Epitope</EpitopeRelation>
+                                <Object>
+                                    <FragmentOfANaturalSequenceMolecule>
+                                        <ChemicalType>Peptide from protein</ChemicalType>
+                                        <LinearSequence>EVSEKII</LinearSequence>
+                                        <StartingPosition>131</StartingPosition>
+                                        <EndingPosition>137</EndingPosition>
+                                        <SourceMolecule>
+                                            <GenBankId>P14013.1</GenBankId>
+                                        </SourceMolecule>
+                                        <SourceOrganismId>139</SourceOrganismId>
+                                    </FragmentOfANaturalSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Exact match to reference information</AntigenEvidenceCode>
+                        </Antigen>
+                    </BCell>
+                </Assays>
+                <Assays>
+                    <BCell>
+                        <LocationOfData>Figure 1</LocationOfData>
+                        <BCellId>4645</BCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>9986</OrganismId>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Administration in vivo</InVivoProcessType>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Epitope</EpitopeRelation>
+                                    <Object>
+                                        <FragmentOfANaturalSequenceMolecule>
+                                            <ChemicalType>Peptide from protein</ChemicalType>
+                                            <LinearSequence>EVSEKII</LinearSequence>
+                                            <StartingPosition>131</StartingPosition>
+                                            <EndingPosition>137</EndingPosition>
+                                            <SourceMolecule>
+                                                <GenBankId>P14013.1</GenBankId>
+                                            </SourceMolecule>
+                                            <SourceOrganismId>139</SourceOrganismId>
+                                        </FragmentOfANaturalSequenceMolecule>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenReferenceName>Peptide 1</ImmunogenReferenceName>
+                                <ImmunogenEvidenceCode>Exact match to reference information</ImmunogenEvidenceCode>
+                                <ImmunogenContainingObject>
+                                    <ComplexedMolecule>
+                                        <ComplexType>Protein conjugate</ComplexType>
+                                        <PeptideModifications/>
+                                        <SourceMolecule>
+                                            <IedbAccession>SRC40074</IedbAccession>
+                                        </SourceMolecule>
+                                        <MoleculeSourceOrganismId>55429</MoleculeSourceOrganismId>
+                                    </ComplexedMolecule>
+                                </ImmunogenContainingObject>
+                                <Adjuvant>Freund's complete</Adjuvant>
+                                <DoseSchedule>5</DoseSchedule>
+                            </FirstInVivoProcess>
+                            <ImmunizationComments>New Zealand white rabbits immunized with KLH-conjugated peptides  at day 0, 14, 28, 56</ImmunizationComments>
+                        </Immunization>
+                        <AssayInformation>
+                            <AssayTypeId>38</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <AssayComments>Reactivity of anti-sera generated with peptide with neural tissues (cerebral cortex, the spinal  cord and the dorsal root ganglia) was measured.</AssayComments>
+                        </AssayInformation>
+                        <AssayedAntibody>
+                            <AssayedAntibodySourceMaterial>Serum</AssayedAntibodySourceMaterial>
+                            <AssayedAntibodyImmunoglobulinDomain>Entire Antibody</AssayedAntibodyImmunoglobulinDomain>
+                            <AssayedAntibodyPurificationStatus>Polyclonal</AssayedAntibodyPurificationStatus>
+                        </AssayedAntibody>
+                        <Antigen>
+                            <AntigenReferenceName>Human neural tissue (cortext)</AntigenReferenceName>
+                            <AntigenConformation>Non-Native/Unknown</AntigenConformation>
+                            <AntigenObject>
+                                <EpitopeRelation>Structurally Related</EpitopeRelation>
+                                <Object>
+                                    <Organism>
+                                        <SubType>Organism</SubType>
+                                        <SourceOrganismId>9606</SourceOrganismId>
+                                    </Organism>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Imperfect match</AntigenEvidenceCode>
+                        </Antigen>
+                    </BCell>
+                </Assays>
+            </Epitope>
+            <Epitope>
+                <EpitopeName>Peptide 2</EpitopeName>
+                <EpitopeStructure>
+                    <FragmentOfANaturalSequenceMolecule>
+                        <ChemicalType>Peptide from protein</ChemicalType>
+                        <LinearSequence>VFTKENTI</LinearSequence>
+                        <StartingPosition>236</StartingPosition>
+                        <EndingPosition>243</EndingPosition>
+                        <SourceMolecule>
+                            <GenBankId>P14013.1</GenBankId>
+                        </SourceMolecule>
+                        <SourceOrganismId>139</SourceOrganismId>
+                    </FragmentOfANaturalSequenceMolecule>
+                </EpitopeStructure>
+                <LocationOfData>Table 1</LocationOfData>
+                <EpitopeId>68584</EpitopeId>
+                <EpitopeEvidenceCode>Not determined</EpitopeEvidenceCode>
+                <EpitopeStructureDefines>Exact Epitope</EpitopeStructureDefines>
+                <EpitopeComments>The homologous human cDNA for this epitope can be found in GenBank Acc. AI864425.</EpitopeComments>
+                <Assays>
+                    <BCell>
+                        <LocationOfData>p. 194</LocationOfData>
+                        <BCellId>1031534</BCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>10000206</OrganismId>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Administration in vivo</InVivoProcessType>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Epitope</EpitopeRelation>
+                                    <Object>
+                                        <FragmentOfANaturalSequenceMolecule>
+                                            <ChemicalType>Peptide from protein</ChemicalType>
+                                            <LinearSequence>VFTKENTI</LinearSequence>
+                                            <StartingPosition>236</StartingPosition>
+                                            <EndingPosition>243</EndingPosition>
+                                            <SourceMolecule>
+                                                <GenBankId>P14013.1</GenBankId>
+                                            </SourceMolecule>
+                                            <SourceOrganismId>139</SourceOrganismId>
+                                        </FragmentOfANaturalSequenceMolecule>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenReferenceName>Peptide 2</ImmunogenReferenceName>
+                                <ImmunogenEvidenceCode>Exact match to reference information</ImmunogenEvidenceCode>
+                                <ImmunogenContainingObject>
+                                    <ComplexedMolecule>
+                                        <ComplexType>Protein conjugate</ComplexType>
+                                        <PeptideModifications/>
+                                        <SourceMolecule>
+                                            <IedbAccession>SRC40074</IedbAccession>
+                                        </SourceMolecule>
+                                        <MoleculeSourceOrganismId>55429</MoleculeSourceOrganismId>
+                                    </ComplexedMolecule>
+                                </ImmunogenContainingObject>
+                                <Adjuvant>Freund's complete</Adjuvant>
+                                <DoseSchedule>5</DoseSchedule>
+                            </FirstInVivoProcess>
+                            <ImmunizationComments>New Zealand White rabbits were immunized using thedescribed KLH-conjugated peptides in Complete Freund's Adjuvant (Sigma-Genosys). Immunizations were carried outwith injection of 200 µg of peptide conjugate on day 0, and 100 µg of the conjugate on days 14, 28, 42 and 56.</ImmunizationComments>
+                        </Immunization>
+                        <AssayInformation>
+                            <AssayTypeId>34</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <AssayComments>Antibody titre150.000 to 300.000</AssayComments>
+                        </AssayInformation>
+                        <AssayedAntibody>
+                            <AssayedAntibodySourceMaterial>Serum</AssayedAntibodySourceMaterial>
+                            <AssayedAntibodyPurificationStatus>Polyclonal</AssayedAntibodyPurificationStatus>
+                            <AssayedAntibodyHeavyChainType>IgG</AssayedAntibodyHeavyChainType>
+                        </AssayedAntibody>
+                        <Antigen>
+                            <AntigenReferenceName>Peptide 2</AntigenReferenceName>
+                            <AntigenConformation>Non-Native/Unknown</AntigenConformation>
+                            <AntigenObject>
+                                <EpitopeRelation>Epitope</EpitopeRelation>
+                                <Object>
+                                    <FragmentOfANaturalSequenceMolecule>
+                                        <ChemicalType>Peptide from protein</ChemicalType>
+                                        <LinearSequence>VFTKENTI</LinearSequence>
+                                        <StartingPosition>236</StartingPosition>
+                                        <EndingPosition>243</EndingPosition>
+                                        <SourceMolecule>
+                                            <GenBankId>P14013.1</GenBankId>
+                                        </SourceMolecule>
+                                        <SourceOrganismId>139</SourceOrganismId>
+                                    </FragmentOfANaturalSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Exact match to reference information</AntigenEvidenceCode>
+                        </Antigen>
+                    </BCell>
+                </Assays>
+            </Epitope>
+            <Epitope>
+                <EpitopeName>Peptide 3</EpitopeName>
+                <EpitopeStructure>
+                    <FragmentOfANaturalSequenceMolecule>
+                        <ChemicalType>Peptide from protein</ChemicalType>
+                        <LinearSequence>AKEVLKGY</LinearSequence>
+                        <StartingPosition>158</StartingPosition>
+                        <EndingPosition>165</EndingPosition>
+                        <SourceMolecule>
+                            <GenBankId>CAA32579.1</GenBankId>
+                        </SourceMolecule>
+                        <SourceOrganismId>139</SourceOrganismId>
+                    </FragmentOfANaturalSequenceMolecule>
+                </EpitopeStructure>
+                <LocationOfData>Table 1</LocationOfData>
+                <EpitopeId>2179</EpitopeId>
+                <EpitopeEvidenceCode>Not determined</EpitopeEvidenceCode>
+                <EpitopeStructureDefines>Exact Epitope</EpitopeStructureDefines>
+                <Assays>
+                    <BCell>
+                        <LocationOfData>p. 194</LocationOfData>
+                        <BCellId>1031544</BCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>10000206</OrganismId>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Administration in vivo</InVivoProcessType>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Epitope</EpitopeRelation>
+                                    <Object>
+                                        <FragmentOfANaturalSequenceMolecule>
+                                            <ChemicalType>Peptide from protein</ChemicalType>
+                                            <LinearSequence>AKEVLKGY</LinearSequence>
+                                            <StartingPosition>158</StartingPosition>
+                                            <EndingPosition>165</EndingPosition>
+                                            <SourceMolecule>
+                                                <GenBankId>CAA32579.1</GenBankId>
+                                            </SourceMolecule>
+                                            <SourceOrganismId>139</SourceOrganismId>
+                                        </FragmentOfANaturalSequenceMolecule>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenReferenceName>Peptide 3</ImmunogenReferenceName>
+                                <ImmunogenEvidenceCode>Exact match to reference information</ImmunogenEvidenceCode>
+                                <ImmunogenContainingObject>
+                                    <ComplexedMolecule>
+                                        <ComplexType>Protein conjugate</ComplexType>
+                                        <PeptideModifications/>
+                                        <SourceMolecule>
+                                            <IedbAccession>SRC40074</IedbAccession>
+                                        </SourceMolecule>
+                                        <MoleculeSourceOrganismId>55429</MoleculeSourceOrganismId>
+                                    </ComplexedMolecule>
+                                </ImmunogenContainingObject>
+                                <Adjuvant>Freund's complete</Adjuvant>
+                                <DoseSchedule>5</DoseSchedule>
+                            </FirstInVivoProcess>
+                            <ImmunizationComments>New Zealand White rabbits were immunized using the described KLH-conjugated peptides in Complete Freund's Adjuvant (Sigma-Genosys). Immunizations were carried out with injection of 200 µg of peptide conjugate on day 0, and 100 µg of the conjugate on days 14, 28, 42 and 56.</ImmunizationComments>
+                        </Immunization>
+                        <AssayInformation>
+                            <AssayTypeId>34</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <AssayComments>Antibody titre150.000 to 300.000</AssayComments>
+                        </AssayInformation>
+                        <AssayedAntibody>
+                            <AssayedAntibodySourceMaterial>Serum</AssayedAntibodySourceMaterial>
+                            <AssayedAntibodyPurificationStatus>Polyclonal</AssayedAntibodyPurificationStatus>
+                            <AssayedAntibodyHeavyChainType>IgG</AssayedAntibodyHeavyChainType>
+                        </AssayedAntibody>
+                        <Antigen>
+                            <AntigenReferenceName>Peptide 3</AntigenReferenceName>
+                            <AntigenConformation>Non-Native/Unknown</AntigenConformation>
+                            <AntigenObject>
+                                <EpitopeRelation>Epitope</EpitopeRelation>
+                                <Object>
+                                    <FragmentOfANaturalSequenceMolecule>
+                                        <ChemicalType>Peptide from protein</ChemicalType>
+                                        <LinearSequence>AKEVLKGY</LinearSequence>
+                                        <StartingPosition>158</StartingPosition>
+                                        <EndingPosition>165</EndingPosition>
+                                        <SourceMolecule>
+                                            <GenBankId>CAA32579.1</GenBankId>
+                                        </SourceMolecule>
+                                        <SourceOrganismId>139</SourceOrganismId>
+                                    </FragmentOfANaturalSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Exact match to reference information</AntigenEvidenceCode>
+                        </Antigen>
+                    </BCell>
+                </Assays>
+            </Epitope>
+        </Epitopes>
+    </Reference>
+</References>
+

@@ -7,22 +7,27 @@ import xml.etree.ElementTree as et
 import glob
 
 path = "{http://www.iedb.org/schema/CurationSchema}"
+xml_path = 'example_XML/*.xml'
 
 def main():
-    xml_files = glob.glob('*.xml')
 
+    xml_files = glob.glob(xml_path)
     array_list = []
 
     for xml in xml_files:
-        root = et.parse(xml).getroot()
-        if (check_linear_bcell_epitopes(root) == True):
-            epitope_array = process_epitopes(root)
-            assay_array = process_assays(root)
+        try:
+            root = et.parse(xml).getroot()
+            print(xml)
+            if (check_linear_bcell_epitopes(root) == True):
+                epitope_array = process_epitopes(root)
+                assay_array = process_assays(root)
 
-            epitope_array = np.append(epitope_array,assay_array)
+                epitope_array = np.append(epitope_array,assay_array)
+                array_list.append(epitope_array)
+        except et.ParseError:
+            print("Parse error in "+ xml +",invalid xml format")
 
-            array_list.append(epitope_array)
-
+    # causes memory issues eventually
     if (len(array_list) != 0):
         final_array = np.vstack(array_list)
 

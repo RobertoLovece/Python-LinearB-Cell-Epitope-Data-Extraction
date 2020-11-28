@@ -5,14 +5,20 @@ import pandas as pd
 import numpy as np
 import xml.etree.ElementTree as et
 import glob
+import os
 
 path = "{http://www.iedb.org/schema/CurationSchema}"
 xml_path = 'example_XML/*.xml'
+file_path = 'output.csv'
 
 def main():
 
     xml_files = glob.glob(xml_path)
-    array_list = []
+    #checks if output file already exists if so deletes it otherwise it will append to an existing file messing up the output
+    if (os.path.exists(file_path)):
+        os.remove(file_path)
+
+    file_empty = True
 
     for xml in xml_files:
         try:
@@ -23,17 +29,18 @@ def main():
                 assay_array = process_assays(root)
 
                 epitope_array = np.append(epitope_array,assay_array)
-                array_list.append(epitope_array)
+
+                # 15 parameters need to get passed
+                df = pd.DataFrame([epitope_array],columns=["pubmed_id","year","epit_name","epitope_id","evid_code","epit_struc_def","sourceOrg_id","protein_id","epit_seq","start_pos","end_pos","host_id","bcell_id","class","assay_type"])
+                #print(df)
+                if (file_empty == True):
+                    df.to_csv('output.csv', mode='a',index=False)
+                    file_empty = False
+                else:
+                    df.to_csv('output.csv', mode='a',index=False, header=False)
+
         except et.ParseError:
             print("Parse error in "+ xml +",invalid xml format")
-
-    # causes memory issues eventually
-    if (len(array_list) != 0):
-        final_array = np.vstack(array_list)
-
-        df = pd.DataFrame.from_records(final_array,columns=["pubmed_id","year","epit_name","epitope_id","evid_code","epit_struc_def","sourceOrg_id","protein_id","epit_seq","start_pos","end_pos","host_id","bcell_id","class","assay_type"])
-        df.to_csv('output.csv',index=False)
-
 
 # find out if it's a Linear B-Cell epitopes
 def check_linear_bcell_epitopes(root):

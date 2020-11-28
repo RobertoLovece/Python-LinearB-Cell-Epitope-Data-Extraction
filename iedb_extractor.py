@@ -12,15 +12,15 @@ xml_path = 'example_XML/*.xml'
 file_path = 'output.csv'
 
 def main():
-
-    xml_files = glob.glob(xml_path)
-    #checks if output file already exists if so deletes it otherwise it will append to an existing file messing up the output
+    # checks if output file already exists if so deletes it otherwise it will append to an existing file messing up the output
     if (os.path.exists(file_path)):
         os.remove(file_path)
 
+    # makes sure the first df added to the csv file outputs it's header
     file_empty = True
 
-    for xml in xml_files:
+    # iterates through all xml files in xml_path directory
+    for xml in glob.iglob(xml_path):
         try:
             root = et.parse(xml).getroot()
             print(xml)
@@ -28,11 +28,14 @@ def main():
                 epitope_array = process_epitopes(root)
                 assay_array = process_assays(root)
 
+                # combines the epitope and assay data into one array
                 epitope_array = np.append(epitope_array,assay_array)
 
-                # 15 parameters need to get passed
+                # 15 parameters need to get passed to the DataFrame
                 df = pd.DataFrame([epitope_array],columns=["pubmed_id","year","epit_name","epitope_id","evid_code","epit_struc_def","sourceOrg_id","protein_id","epit_seq","start_pos","end_pos","host_id","bcell_id","class","assay_type"])
-                #print(df)
+                # print(df)
+
+                # if the file is empty adds a header otherwise appends it to csv file
                 if (file_empty == True):
                     df.to_csv('output.csv', mode='a',index=False)
                     file_empty = False
@@ -42,7 +45,7 @@ def main():
         except et.ParseError:
             print("Parse error in "+ xml +",invalid xml format")
 
-# find out if it's a Linear B-Cell epitopes
+# finds out if it's a Linear B-Cell epitopes
 def check_linear_bcell_epitopes(root):
 
     bcell_path = path +"Reference/"+ path +"Epitopes/"+ path +"Epitope/"+ path + "Assays/"+ path +"BCell"
@@ -51,12 +54,14 @@ def check_linear_bcell_epitopes(root):
     bcell_array = []
     linear_array = []
 
+    # checks if xml contains bcell tag and linear
     for bcell in root.findall(bcell_path):
         bcell_array.append(bcell)
 
     for linear in root.findall(linear_path):
         linear_array.append(linear)
 
+    # if it has the tags return true otherwise false
     if (len(linear_array) != 0 and len(bcell_array) != 0):
         return True
     else:
@@ -88,7 +93,7 @@ def process_epitopes(root):
     protein_id = process_epitope_data(root, protein_id_path)
     epit_seq = process_epitope_data(root, epit_seq_path)
 
-    # If the starting or end positions are empty we check another location
+    # If the starting or end positions tags are empty we check another location
     if(root.find(start_pos_path) != None):
         start_pos = root.find(start_pos_path).text
     else:
@@ -111,6 +116,7 @@ def process_epitopes(root):
 
     return epitope_array
 
+# get the data from each parameter
 def process_epitope_data(root, path):
     if(root.find(path) != None):
         processed = root.find(path).text
@@ -118,6 +124,7 @@ def process_epitope_data(root, path):
         processed = "NA"
     return processed
 
+# process the data from each assay section of the epitope
 def process_assays(root):
 
     # paths for the assay parameters that need processing
@@ -126,6 +133,8 @@ def process_assays(root):
     class_path = path +"Reference/"+ path +"Epitopes/"+ path +"Epitope/"+ path +"Assays/"+ path +"BCell/"+ path +"AssayInformation/"+ path +"QualitativeMeasurement"
     assay_type_path = path +"Reference/"+ path +"Epitopes/"+ path +"Epitope/"+ path +"Assays/"+ path +"BCell/"+ path +"AssayInformation/"+ path +"AssayTypeId"
 
+    # finds all data from each assay parameter as each assay can have multiple tags
+    # then appends it to a string so it's outputted correctly 
     loop_list = []
 
     for host_id in root.findall(host_id_path):

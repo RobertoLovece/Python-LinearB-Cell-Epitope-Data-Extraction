@@ -25,14 +25,20 @@ def main():
             root = et.parse(xml).getroot()
             print(xml)
             if (check_linear_bcell_epitopes(root) == True):
-                epitope_array = process_epitopes(root)
+                final_array = None
+                # only getting one epitope from each file
+
+                # get the article information first
+                article_array = get_article_information(root)
+                epitope_array = process_epitope(root)
                 assay_array = process_assays(root)
 
                 # combines the epitope and assay data into one array
-                epitope_array = np.append(epitope_array,assay_array)
+                final_array = np.append(article_array, epitope_array)
+                final_array = np.append(final_array, assay_array)
 
                 # 15 parameters need to get passed to the DataFrame
-                df = pd.DataFrame([epitope_array],columns=["pubmed_id","year","epit_name","epitope_id","evid_code","epit_struc_def","sourceOrg_id","protein_id","epit_seq","start_pos","end_pos","host_id","bcell_id","class","assay_type"])
+                df = pd.DataFrame([final_array],columns=["pubmed_id","year","epit_name","epitope_id","evid_code","epit_struc_def","sourceOrg_id","protein_id","epit_seq","start_pos","end_pos","host_id","bcell_id","class","assay_type"])
                 # print(df)
 
                 # if the file is empty adds a header otherwise appends it to csv file
@@ -45,7 +51,7 @@ def main():
         except et.ParseError:
             print("Parse error in "+ xml +",invalid xml format")
 
-# finds out if it's a Linear B-Cell epitopes
+# finds out if a Linear B-Cell epitopes is present to process file
 def check_linear_bcell_epitopes(root):
 
     bcell_path = path +"Reference/"+ path +"Epitopes/"+ path +"Epitope/"+ path + "Assays/"+ path +"BCell"
@@ -67,11 +73,23 @@ def check_linear_bcell_epitopes(root):
     else:
         return False
 
-def process_epitopes(root):
+# gets the article part of the xml file
+def get_article_information(root):
+        # part of the article section
+        pubmed_id_path = path +"Reference/"+ path +"Article/"+ path +"PubmedId"
+        year_path = path +"Reference/"+ path +"Article/"+ path +"ArticleYear"
+
+        pubmed_id = process_epitope_data(root, pubmed_id_path)
+        year = process_epitope_data(root, year_path)
+
+        article_array = np.array([pubmed_id, year])
+
+        return article_array
+
+def process_epitope(root):
 
     # the paths to all the parameters that need processing
-    pubmed_id_path = path +"Reference/"+ path +"Article/"+ path +"PubmedId"
-    year_path = path +"Reference/"+ path +"Article/"+ path +"ArticleYear"
+    # part of the the epitope section
     epit_name_path = path +"Reference/"+ path +"Epitopes/"+ path +"Epitope/"+ path +"EpitopeName"
     epitope_id_path = path +"Reference/"+ path +"Epitopes/"+ path +"Epitope/"+ path +"EpitopeId"
     evid_code_path = path +"Reference/"+ path +"Epitopes/"+ path +"Epitope/"+ path +"EpitopeEvidenceCode"
@@ -83,8 +101,6 @@ def process_epitopes(root):
     end_pos_path = path +"Reference/"+ path +"Epitopes/"+ path +"Epitope/"+ path +"EpitopeStructure/"+ path +"FragmentOfANaturalSequenceMolecule/"+ path +"EndingPosition"
 
     # processes the parameter that are required
-    pubmed_id = process_epitope_data(root, pubmed_id_path)
-    year = process_epitope_data(root, year_path)
     epit_name = process_epitope_data(root, epit_name_path)
     epitope_id = process_epitope_data(root, epitope_id_path)
     evid_code = process_epitope_data(root, evid_code_path)
@@ -112,7 +128,7 @@ def process_epitopes(root):
         else:
             end_pos = "NA"
 
-    epitope_array = np.array([pubmed_id, year, epit_name, epitope_id, evid_code, epit_struc_def, sourceorg_id, protein_id, epit_seq, start_pos, end_pos])
+    epitope_array = np.array([epit_name, epitope_id, evid_code, epit_struc_def, sourceorg_id, protein_id, epit_seq, start_pos, end_pos])
 
     return epitope_array
 
@@ -134,7 +150,7 @@ def process_assays(root):
     assay_type_path = path +"Reference/"+ path +"Epitopes/"+ path +"Epitope/"+ path +"Assays/"+ path +"BCell/"+ path +"AssayInformation/"+ path +"AssayTypeId"
 
     # finds all data from each assay parameter as each assay can have multiple tags
-    # then appends it to a string so it's outputted correctly 
+    # then appends it to a string so it's outputted correctly
     loop_list = []
 
     for host_id in root.findall(host_id_path):

@@ -13,15 +13,19 @@ file_path = 'output.csv'
 
 def main():
 
+    # array of all processed epitopes
     processed_array = []
 
     # iterates through all xml files in xml_path directory
     for xml in glob.iglob(xml_path):
         try:
             root = et.parse(xml).getroot()
-            #print(xml)
+            print(xml)
             if (check_linear_bcell_epitopes(root) == True):
+                # path to each epitope
                 epitope_path = path +"Reference/"+ path +"Epitopes/"+ path +"Epitope"
+
+                # final output of each bit of data
                 final_array = None
 
                 # get the article information first
@@ -31,20 +35,22 @@ def main():
                 for epitope in root.findall(epitope_path):
                     epitope_array = process_epitope(epitope)
 
+                    if(epitope.find(path + "EpitopeName") != None):
+                        print(epitope.find(path + "EpitopeName").text)
+
                     if (check_assay(epitope) == True):
                         assay_array = process_assays(epitope)
 
                         # combines the epitope and assay data into one array
                         final_array = np.append(article_array, epitope_array)
                         final_array = np.append(final_array, assay_array)
-
-                        # 15 parameters need to get passed to the DataFrame
-                        df = pd.DataFrame([final_array],columns=["pubmed_id","year","epit_name","epitope_id","evid_code","epit_struc_def","sourceOrg_id","protein_id","epit_seq","start_pos","end_pos","host_id","bcell_id","class","assay_type"])
-
                     else:
+                        empty_array = np.array(["NA","NA","NA","NA"])
                         final_array = np.append(article_array, epitope_array)
-                        # 11 parameters need to get passed to the DataFrame
-                        df = pd.DataFrame([final_array],columns=["pubmed_id","year","epit_name","epitope_id","evid_code","epit_struc_def","sourceOrg_id","protein_id","epit_seq","start_pos","end_pos"])
+                        final_array = np.append(final_array, empty_array)
+
+                    # 15 parameters need to get passed to the DataFrame
+                    df = pd.DataFrame([final_array],columns=["pubmed_id","year","epit_name","epitope_id","evid_code","epit_struc_def","sourceOrg_id","protein_id","epit_seq","start_pos","end_pos","host_id","bcell_id","class","assay_type"])
 
                     processed_array.append(final_array)
 
@@ -137,13 +143,29 @@ def process_epitope(epitope):
 
     return epitope_array
 
+# check if there is an array present in the epitope
 def check_assay(epitope):
+    # paths to assay stuff
     assay_path = path + "Assays"
+    host_id_path = path +"Assays/"+ path +"BCell/"+ path +"Immunization/"+ path +"HostOrganism/"+ path +"OrganismId"
+    bcell_id_path = path +"Assays/"+ path +"BCell/"+ path +"BCellId"
+    class_path = path +"Assays/"+ path +"BCell/"+ path +"AssayInformation/"+ path +"QualitativeMeasurement"
+    assay_type_path = path +"Assays/"+ path +"BCell/"+ path +"AssayInformation/"+ path +"AssayTypeId"
 
+    # checks if the parametes I need are in the assay
     if(epitope.find(assay_path) == None):
         return False
     else:
-        return True
+        if (len(epitope.findall(host_id_path)) != 0):
+            return True
+        elif (len(epitope.findall(bcell_id_path)) != 0):
+            return True
+        elif (len(epitope.findall(class_path)) != 0):
+            return True
+        elif (len(epitope.findall(assay_type_path)) != 0):
+            return True
+        else:
+            return False
 
 # get the data from each parameter
 def process_epitope_data(root, path):

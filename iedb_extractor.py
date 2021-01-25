@@ -50,9 +50,10 @@ def main():
                         final_array = np.append(final_array, empty_array)
 
                     # 15 parameters need to get passed to the DataFrame
-                    df = pd.DataFrame([final_array],columns=["pubmed_id","year","epit_name","epitope_id","evid_code","epit_struc_def","sourceOrg_id","protein_id","epit_seq","start_pos","end_pos","host_id","bcell_id","class","assay_type"])
+                    df = pd.DataFrame([final_array],columns=["pubmed_id","year","epit_name","epitope_id","evid_code","epit_struc_def","sourceOrg_id","protein_id","epit_seq","start_pos","end_pos","host_id","bcell_id","assay_class","assay_type"])
 
-                    processed_array.append(final_array)
+                    if (add_to_dataframe(df) == True):
+                        processed_array.append(final_array)
 
         except et.ParseError:
             print("Parse error in "+ xml +",invalid xml format")
@@ -60,8 +61,8 @@ def main():
     if (len(processed_array) != 0):
         output_array = np.vstack(processed_array)
 
-        df = pd.DataFrame.from_records(output_array,columns=["pubmed_id","year","epit_name","epitope_id","evid_code","epit_struc_def","sourceOrg_id","protein_id","epit_seq","start_pos","end_pos","host_id","bcell_id","class","assay_type"])
-        df.to_csv('output.csv',index=False)
+        df = pd.DataFrame.from_records(output_array,columns=["pubmed_id","year","epit_name","epitope_id","evid_code","epit_struc_def","sourceOrg_id","protein_id","epit_seq","start_pos","end_pos","host_id","bcell_id","assay_class","assay_type"])
+        df.to_csv(file_path,index=False)
 
 # finds out if a Linear B-Cell epitopes is present to process file
 def check_linear_bcell_epitopes(root):
@@ -167,6 +168,16 @@ def check_assay(epitope):
         else:
             return False
 
+def add_to_dataframe(df):
+    if(df.get('protein_id')[0] == "NA"):
+        return False
+    elif(df.get('epit_seq')[0] == "NA"):
+        return False
+    elif(df.get('assay_type')[0] == "NA"):
+        return False
+    else:
+        return True
+
 # get the data from each parameter
 def process_epitope_data(root, path):
     if(root.find(path) != None):
@@ -187,26 +198,61 @@ def process_assays(epitope):
     # then appends it to a string so it's outputted correctly
     loop_list = []
 
+
     for host_id in epitope.findall(host_id_path):
-        loop_list.append('"'+ host_id.text +'"')
+        if (len(epitope.findall(host_id_path)) == 1):
+            loop_list.append('"'+ host_id.text + '"')
+        elif (len(loop_list) == 0):
+            loop_list.append('"'+ host_id.text)
+        elif (len(loop_list) == len(epitope.findall(host_id_path))-1):
+            loop_list.append(host_id.text + '"')
+        else:
+            loop_list.append(host_id.text)
         host_ids = ','.join(loop_list)
 
     loop_list.clear()
 
     for bcell_id in epitope.findall(bcell_id_path):
-        loop_list.append('"'+ bcell_id.text +'"')
+        if (len(epitope.findall(bcell_id_path)) == 1):
+            loop_list.append('"'+ bcell_id.text + '"')
+        elif (len(loop_list) == 0):
+            loop_list.append('"'+ bcell_id.text)
+        elif (len(loop_list) == len(epitope.findall(bcell_id_path))-1):
+            loop_list.append(bcell_id.text + '"')
+        else:
+            loop_list.append(bcell_id.text)
         bcell_ids = ','.join(loop_list)
 
     loop_list.clear()
 
     for assay_class in epitope.findall(class_path):
-        loop_list.append('"'+ assay_class.text +'"')
+
+        if(assay_class.text == "Positive"):
+            class_value = "1"
+        else:
+            class_value = "-1"
+
+        if (len(epitope.findall(class_path)) == 1):
+            loop_list.append('"'+ class_value +'"')
+        elif (len(loop_list) == 0):
+            loop_list.append('"'+ class_value)
+        elif (len(loop_list) == len(epitope.findall(class_path))-1):
+            loop_list.append(class_value + '"')
+        else:
+            loop_list.append(class_value)
         classes = ','.join(loop_list)
 
     loop_list.clear()
 
     for assay_type in epitope.findall(assay_type_path):
-        loop_list.append('"'+ assay_type.text +'"')
+        if (len(epitope.findall(assay_type_path)) == 1):
+            loop_list.append('"'+ assay_type.text +'"')
+        elif (len(loop_list) == 0):
+            loop_list.append('"' + assay_type.text)
+        elif (len(loop_list) == len(epitope.findall(assay_type_path))-1):
+            loop_list.append(assay_type.text + '"')
+        else:
+            loop_list.append(assay_type.text)
         assay_types = ','.join(loop_list)
 
     assay_array = np.array([host_ids, bcell_ids, classes, assay_types])

@@ -11,7 +11,7 @@ path = "{http://www.iedb.org/schema/CurationSchema}"
 xml_path = 'example_XML/*.xml'
 file_path = 'output.csv'
 
-def main():
+def iedb_extract():
 
     # array of all processed epitopes
     processed_array = []
@@ -60,9 +60,9 @@ def main():
 
     if (len(processed_array) != 0):
         output_array = np.vstack(processed_array)
-
         df = pd.DataFrame.from_records(output_array,columns=["pubmed_id","year","epit_name","epitope_id","evid_code","epit_struc_def","sourceOrg_id","protein_id","epit_seq","start_pos","end_pos","host_id","bcell_id","assay_class","assay_type"])
         df.to_csv(file_path,index=False)
+        return df
 
 # finds out if a Linear B-Cell epitopes is present to process file
 def check_linear_bcell_epitopes(root):
@@ -258,6 +258,3 @@ def process_assays(epitope):
     assay_array = np.array([host_ids, bcell_ids, classes, assay_types])
 
     return assay_array
-
-if __name__ == "__main__":
-    main()

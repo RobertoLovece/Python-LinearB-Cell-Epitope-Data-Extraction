@@ -9,7 +9,7 @@ import os
 
 path = "{http://www.iedb.org/schema/CurationSchema}"
 xml_path = 'example_XML/*.xml'
-file_path = 'output.csv'
+file_path = 'output/iedb_extractor_output.csv'
 
 def iedb_extract():
 

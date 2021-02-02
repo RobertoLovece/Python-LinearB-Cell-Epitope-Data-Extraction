@@ -20,36 +20,45 @@ def ncbi_extract(df):
     unique_df = pd.DataFrame.from_records(np.vstack(unique), columns=["protein_id"])
     unique_df.to_csv("output/unique_protein_ids.csv")
 
-    processed_array = []
+    processed_arrays = []
     results = []
-    db_return = None
+    db_return_dict = {}
 
-    queries = protein_ids_to_strings(unique)
+    count = 0
+    cooldown = 0
 
-    for query in queries:
-        db_return = Entrez.efetch(db="protein", id="ABD64214.1", retmode="xml", rettype="fasta")
-        #db_return = Entrez.efetch(db="protein", id=query, retmode="xml", rettype="fasta")
-        results.append(db_return)
-        db_return = None
-        time.sleep(3)
+    for protein_id in unique:
+        try:
+            # after 200 requests take a break
+            if (cooldown == 200):
+                time.sleep(5)
+                cooldown = 0
+            db_return = Entrez.efetch(db="protein", id=protein_id, retmode="xml", rettype="fasta")
+            db_return_dict[protein_id] = db_return
+            print("protein_id '" + protein_id + "' (" + str(count) + ") returned " + str(db_return))
+            count += 1
+            cooldown += 1
+        except:
+            print("protein_id '" + protein_id + "' (" + str(count) + ") Bad Request - Protein_Id was not found")
+            count += 1
+            cooldown += 1
 
     count = 0
 
-    for result in results:
-        record = Entrez.read(result)
-        result.close()
+    for key in db_return_dict:
+        record = Entrez.read(db_return_dict[key])
+        db_return_dict[key].close()
 
-        for d in record:
-            extras = np.array([unique[count], "NCBI protein"])
-            final_array = np.append(process_dictionary(d), extras)
+        final_array = np.append(process_dictionary(record), [key, "NCBI protein"])
+        processed_arrays.append(final_array)
+        print("processed protein_id " + str(key) + " (" + str(count) + ")")
+        count+=1
 
-            processed_array.append(final_array)
-            print("processed protein_id " + str(unique[count]) + " (" + str(count) + ")")
-            count+=1
-
-    output_array = np.vstack(processed_array)
+    output_array = np.vstack(processed_arrays)
     df = pd.DataFrame.from_records(output_array,columns=["seqtype","accver","taxid","orgname","defline","length","sequence","sid","UID","DB"])
     df.to_csv("output/ncbi_extractor_output.csv",index=False)
+
+    return df
 
 def protein_ids_to_strings(unique):
     # splits a list into multiple different list of size equal to the final int
@@ -68,43 +77,45 @@ def protein_ids_to_strings(unique):
 
 def process_dictionary(d):
 
-    if (d.get('TSeq_seqtype') != None and len(str(d.get('TSeq_seqtype'))) != 0):
-        seqtype = d.get('TSeq_seqtype')
+    element = d[0]
+
+    if (element.get('TSeq_seqtype') != None and len(str(element.get('TSeq_seqtype'))) != 0):
+        seqtype = element.get('TSeq_seqtype')
     else:
         seqtype = "NA"
 
-    if (d.get('TSeq_accver') != None and len(str(d.get('TSeq_accver'))) != 0):
-        accver = d.get('TSeq_accver')
+    if (element.get('TSeq_accver') != None and len(str(element.get('TSeq_accver'))) != 0):
+        accver = element.get('TSeq_accver')
     else:
         accver = "NA"
 
-    if (d.get('TSeq_taxid') != None and len(str(d.get('TSeq_taxid'))) != 0):
-        taxid = d.get('TSeq_taxid')
+    if (element.get('TSeq_taxid') != None and len(str(element.get('TSeq_taxid'))) != 0):
+        taxid = element.get('TSeq_taxid')
     else:
         taxid = "NA"
 
-    if (d.get('TSeq_orgname') != None and len(str(d.get('TSeq_orgname'))) != 0):
-        orgname = d.get('TSeq_orgname')
+    if (element.get('TSeq_orgname') != None and len(str(element.get('TSeq_orgname'))) != 0):
+        orgname = element.get('TSeq_orgname')
     else:
         orgname = "NA"
 
-    if (d.get('TSeq_defline') != None and len(str(d.get('TSeq_defline'))) != 0):
-        defline = d.get('TSeq_defline')
+    if (element.get('TSeq_defline') != None and len(str(element.get('TSeq_defline'))) != 0):
+        defline = element.get('TSeq_defline')
     else:
         defline = "NA"
 
-    if (d.get('TSeq_length') != None and len(str(d.get('TSeq_length'))) != 0):
-        length = d.get('TSeq_length')
+    if (element.get('TSeq_length') != None and len(str(element.get('TSeq_length'))) != 0):
+        length = element.get('TSeq_length')
     else:
         length = "NA"
 
-    if (d.get('TSeq_sequence') != None and len(str(d.get('TSeq_sequence'))) != 0):
-        sequence = d.get('TSeq_sequence')
+    if (element.get('TSeq_sequence') != None and len(str(element.get('TSeq_sequence'))) != 0):
+        sequence = element.get('TSeq_sequence')
     else:
         sequence = "NA"
 
-    if (d.get('TSeq_sid') != None and len(str(d.get('TSeq_sid'))) != 0):
-        sid = d.get('TSeq_sid')
+    if (element.get('TSeq_sid') != None and len(str(element.get('TSeq_sid'))) != 0):
+        sid = element.get('TSeq_sid')
     else:
         sid = "NA"
 

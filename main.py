@@ -9,12 +9,15 @@ import numpy as np
 
 def main():
     print("Extacting IEDB")
-    df = iedb.iedb_extract()
+    iedb_df = iedb.iedb_extract()
     print("")
     print("Finished Extacting IEDB")
     print("")
     print("Extacting NCBI")
-    ncbi.ncbi_extract(df)
+    ncbi_df = ncbi.ncbi_extract(iedb_df)
+
+    df = iedb_df.merge(ncbi_df, how='left', on='protein_id')
+    df.to_csv("output/left_join.csv", index = False)
 
 if __name__ == "__main__":
     main()

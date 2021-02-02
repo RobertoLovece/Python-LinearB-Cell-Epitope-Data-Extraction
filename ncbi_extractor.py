@@ -55,7 +55,7 @@ def ncbi_extract(df):
         count+=1
 
     output_array = np.vstack(processed_arrays)
-    df = pd.DataFrame.from_records(output_array,columns=["seqtype","accver","taxid","orgname","defline","length","sequence","sid","UID","DB"])
+    df = pd.DataFrame.from_records(output_array,columns=["seqtype","accver","taxid","orgname","defline","length","sequence","sid","protein_id","DB"])
     df.to_csv("output/ncbi_extractor_output.csv",index=False)
 
     return df

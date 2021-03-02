@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<References xsi:schemaLocation="http://www.iedb.org/schema/CurationSchema http://beta.iedb.org/schema/Curation.xsd" xmlns="http://www.iedb.org/schema/CurationSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <Reference>
+        <ReferenceId>1083</ReferenceId>
+        <DateLastUpdated>2020-09-10-07:00</DateLastUpdated>
+        <Article>
+            <PubmedId>15723805</PubmedId>
+            <Abstract>Broadly neutralizing monoclonal antibodies to HIV-1 are rare but invaluable for vaccine design. 4E10 is the broadest neutralizing antibody known and recognizes a contiguous and highly conserved epitope in the membrane-proximal region of gp41. The crystal structure of Fab 4E10 was determined at 2.2 A resolution in complex with a 13-residue peptide containing the gp41 core epitope (NWFDIT). The bound peptide adopts a helical conformation in which the key contact residues, TrpP672, PheP673, IleP675, and ThrP676, map to one face of the helix. The peptide binds in a hydrophobic pocket that may emulate its potential interaction with the host cell membrane. The long CDR H3 of the antibody extends beyond the bound peptide in an orientation that suggests that its apex could contact the viral membrane when 4E10 is bound to its membrane-proximal epitope. These structural insights should assist in the design of immunogens to elicit 4E10-like neutralizing responses.</Abstract>
+            <ArticleYear>2005</ArticleYear>
+            <ArticlePages>163-73</ArticlePages>
+            <ArticleTitle>Broadly neutralizing anti-HIV antibody 4E10 recognizes a helical conformation of a highly conserved fusion-associated motif in gp41.</ArticleTitle>
+            <Authors>
+                <Author>
+                    <LastName>Cardoso</LastName>
+                    <ForeName>Rosa M F</ForeName>
+                </Author>
+                <Author>
+                    <LastName>Zwick</LastName>
+                    <ForeName>Michael B</ForeName>
+                </Author>
+                <Author>
+                    <LastName>Stanfield</LastName>
+                    <ForeName>Robyn L</ForeName>
+                </Author>
+                <Author>
+                    <LastName>Kunert</LastName>
+                    <ForeName>Renate</ForeName>
+                </Author>
+                <Author>
+                    <LastName>Binley</LastName>
+                    <ForeName>James M</ForeName>
+                </Author>
+                <Author>
+                    <LastName>Katinger</LastName>
+                    <ForeName>Hermann</ForeName>
+                </Author>
+                <Author>
+                    <LastName>Burton</LastName>
+                    <ForeName>Dennis R</ForeName>
+                </Author>
+                <Author>
+                    <LastName>Wilson</LastName>
+                    <ForeName>Ian A</ForeName>
+                </Author>
+            </Authors>
+            <Affiliations>Department of Molecular Biology, The Scripps Research Institute, La Jolla, California 92037, USA.</Affiliations>
+            <ArticleChemicalList>Epitopes, B-Lymphocyte;HIV Antibodies;HIV Envelope Protein gp41;Immunoglobulin Fab Fragments</ArticleChemicalList>
+            <ArticleMeshHeadingsList>Amino Acid Motifs; Amino Acid Sequence; Animals; Antibody Specificity; Binding Sites, Antibody; Cell Line; Conserved Sequence; Cricetinae; Crystallography, X-Ray; Epitopes, B-Lymphocyte(immunology); HIV Antibodies(chemistry; immunology); HIV Envelope Protein gp41(chemistry; immunology; metabolism); Hydrogen Bonding; Immunoglobulin Fab Fragments(chemistry; immunology); Models, Molecular; Molecular Sequence Data; Neutralization Tests; Protein Conformation; Static Electricity</ArticleMeshHeadingsList>
+            <Journal>
+                <Volume>22</Volume>
+                <Issue>2</Issue>
+                <Title>Immunity</Title>
+                <Issn>1074-7613</Issn>
+                <MedlineTa>Immunity</MedlineTa>
+            </Journal>
+        </Article>
+        <Epitopes>
+            <Epitope>
+                <EpitopeName>HIV envelope glycoprotein (670-678)</EpitopeName>
+                <EpitopeStructure>
+                    <FragmentOfANaturalSequenceMolecule>
+                        <ChemicalType>Peptide from protein</ChemicalType>
+                        <LinearSequence>WNWFDITNW</LinearSequence>
+                        <StartingPosition>667</StartingPosition>
+                        <EndingPosition>675</EndingPosition>
+                        <SourceMolecule>
+                            <GenBankId>AAR22116.1</GenBankId>
+                        </SourceMolecule>
+                        <SourceOrganismId>11676</SourceOrganismId>
+                    </FragmentOfANaturalSequenceMolecule>
+                </EpitopeStructure>
+                <LocationOfData>Text page 164</LocationOfData>
+                <EpitopeId>146625</EpitopeId>
+                <ReferenceStartingPosition>670</ReferenceStartingPosition>
+                <ReferenceEndingPosition>678</ReferenceEndingPosition>
+                <EpitopeEvidenceCode>Representative selection</EpitopeEvidenceCode>
+                <EpitopeStructureDefines>Exact Epitope</EpitopeStructureDefines>
+                <Assays>
+                    <BCell>
+                        <LocationOfData>Tables 1 and 2, Figures 2, 3, 4 and 5, PDB 1TZG</LocationOfData>
+                        <BCellId>1835619</BCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>9606</OrganismId>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Occurrence of infectious disease</InVivoProcessType>
+                                <DiseaseState>DOID:526</DiseaseState>
+                                <DiseaseStage>Chronic</DiseaseStage>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Taxonomic Child</EpitopeRelation>
+                                    <Object>
+                                        <Organism>
+                                            <SubType>Organism</SubType>
+                                            <SourceOrganismId>505185</SourceOrganismId>
+                                        </Organism>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenEvidenceCode>Exact match to reference information</ImmunogenEvidenceCode>
+                            </FirstInVivoProcess>
+                            <ImmunizationComments>Generation of the monoclonal antibody was previously described in the reference cited: Stiegler et al. (2001) AIDS Res Hum Retroviruses 17:1757 [PMID: 11788027]. The parent mAb 4E10 was isolated from a clade B HIV-1 positive individual.</ImmunizationComments>
+                        </Immunization>
+                        <AssayInformation>
+                            <AssayTypeId>436</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <QuantitativeMeasurement>2.2</QuantitativeMeasurement>
+                            <MeasurementInequality>=</MeasurementInequality>
+                            <AssayComments>The structure of the Fab binding to the epitope was determined by X-ray crystallography.</AssayComments>
+                        </AssayInformation>
+                        <AssayedAntibody>
+                            <AssayedAntibodySourceMaterial>Purified Immunoglobulin</AssayedAntibodySourceMaterial>
+                            <AssayedAntibodyImmunoglobulinDomain>Fab</AssayedAntibodyImmunoglobulinDomain>
+                            <AssayedAntibodyPurificationStatus>Monoclonal</AssayedAntibodyPurificationStatus>
+                            <AssayedAntibodyName>Fab 4E10</AssayedAntibodyName>
+                            <AssayedAntibodyHeavyChainType>IgG1</AssayedAntibodyHeavyChainType>
+                            <AssayedAntibodyLightChainType>Kappa</AssayedAntibodyLightChainType>
+                            <AssayedAntibodyObject>
+                                <MultiChainMolecule>
+                                    <ChemicalType>Multi-Chain protein</ChemicalType>
+                                    <MoleculeName>Fab 4E10</MoleculeName>
+                                    <Chain1>
+                                        <Molecule>
+                                            <GenBankId>1TZG_H</GenBankId>
+                                        </Molecule>
+                                        <SourceOrganismId>9606</SourceOrganismId>
+                                    </Chain1>
+                                    <Chain2>
+                                        <Molecule>
+                                            <GenBankId>1TZG_L</GenBankId>
+                                        </Molecule>
+                                        <SourceOrganismId>9606</SourceOrganismId>
+                                    </Chain2>
+                                </MultiChainMolecule>
+                            </AssayedAntibodyObject>
+                        </AssayedAntibody>
+                        <Antigen>
+                            <AntigenConformation>Non-Native/Unknown</AntigenConformation>
+                            <AntigenObject>
+                                <EpitopeRelation>Structurally Related</EpitopeRelation>
+                                <Object>
+                                    <SequenceMoleculeNoNaturalSource>
+                                        <ChemicalType>Peptide, no natural source</ChemicalType>
+                                        <LinearSequence>KGWNWFDITNWGK</LinearSequence>
+                                    </SequenceMoleculeNoNaturalSource>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Exact match to reference information</AntigenEvidenceCode>
+                        </Antigen>
+                        <ThreeDimensionalStructureOfComplex>
+                            <ComplexPdbId>1TZG</ComplexPdbId>
+                            <AntibodyChain1PdbChain>H</AntibodyChain1PdbChain>
+                            <AntibodyChain2PdbChain>L</AntibodyChain2PdbChain>
+                            <AntigenChainPdbChain>P</AntigenChainPdbChain>
+                            <ViewerFlag>Y</ViewerFlag>
+                            <CuratedContacts>
+                                <EpitopeResidues>P: G669, W670, N671, W672, F673, D674, I675, T676, N677, W678, G679, K680</EpitopeResidues>
+                                <AntibodyResiduesInteractingWithAntigen>H: ; L: ;</AntibodyResiduesInteractingWithAntigen>
+                            </CuratedContacts>
+                            <CalculatedContacts>
+                                <EpitopeResidues>P: W670, N671, W672, F673, D674, I675, T676, N677, K680</EpitopeResidues>
+                                <AntibodyResiduesInteractingWithAntigen>H: T31, Y32, A33, W47, G50, V51, I52, I56, T57, N58, E95, P100F, G100D, L100C; L: K32, Y91, G92, Q93, S94, S96</AntibodyResiduesInteractingWithAntigen>
+                                <ContactAreaForAntigen>705.2</ContactAreaForAntigen>
+                                <ContactAreaForAntibody>534.9</ContactAreaForAntibody>
+                            </CalculatedContacts>
+                        </ThreeDimensionalStructureOfComplex>
+                    </BCell>
+                </Assays>
+                <Assays>
+                    <BCell>
+                        <LocationOfData>Text page 166</LocationOfData>
+                        <BCellId>1841712</BCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>9606</OrganismId>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Occurrence of infectious disease</InVivoProcessType>
+                                <DiseaseState>DOID:526</DiseaseState>
+                                <DiseaseStage>Chronic</DiseaseStage>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Taxonomic Child</EpitopeRelation>
+                                    <Object>
+                                        <Organism>
+                                            <SubType>Organism</SubType>
+                                            <SourceOrganismId>505185</SourceOrganismId>
+                                        </Organism>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenEvidenceCode>Exact match to reference information</ImmunogenEvidenceCode>
+                            </FirstInVivoProcess>
+                            <ImmunizationComments>Generation of the monoclonal antibody was previously described in the reference cited: Stiegler et al. (2001) AIDS Res Hum Retroviruses 17:1757 [PMID: 11788027]. The parent mAb 4E10 was isolated from a clade B HIV-1 positive individual.</ImmunizationComments>
+                        </Immunization>
+                        <AssayInformation>
+                            <AssayTypeId>34</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <AssayComments>The epitope-specific antibody 4E10 bound to soluble recombinant gp41 with about 4-fold higher affinity than to the epitope.</AssayComments>
+                        </AssayInformation>
+                        <AssayedAntibody>
+                            <AssayedAntibodySourceMaterial>Purified Immunoglobulin</AssayedAntibodySourceMaterial>
+                            <AssayedAntibodyImmunoglobulinDomain>Entire Antibody</AssayedAntibodyImmunoglobulinDomain>
+                            <AssayedAntibodyPurificationStatus>Monoclonal</AssayedAntibodyPurificationStatus>
+                            <AssayedAntibodyName>4E10</AssayedAntibodyName>
+                            <AssayedAntibodyHeavyChainType>IgG3</AssayedAntibodyHeavyChainType>
+                            <AssayedAntibodyObject>
+                                <MultiChainMolecule>
+                                    <ChemicalType>Multi-Chain protein</ChemicalType>
+                                    <MoleculeName>Fab 4E10</MoleculeName>
+                                    <Chain1>
+                                        <Molecule>
+                                            <GenBankId>1TZG_H</GenBankId>
+                                        </Molecule>
+                                        <SourceOrganismId>9606</SourceOrganismId>
+                                    </Chain1>
+                                    <Chain2>
+                                        <Molecule>
+                                            <GenBankId>1TZG_L</GenBankId>
+                                        </Molecule>
+                                        <SourceOrganismId>9606</SourceOrganismId>
+                                    </Chain2>
+                                </MultiChainMolecule>
+                            </AssayedAntibodyObject>
+                        </AssayedAntibody>
+                        <Antigen>
+                            <AntigenConformation>Non-Native/Unknown</AntigenConformation>
+                            <AntigenObject>
+                                <EpitopeRelation>Source Antigen</EpitopeRelation>
+                                <Object>
+                                    <AccessionSequenceMolecule>
+                                        <ChemicalType>Protein</ChemicalType>
+                                        <Molecule>
+                                            <GenBankId>AAR22116.1</GenBankId>
+                                        </Molecule>
+                                        <SourceOrganismId>11676</SourceOrganismId>
+                                    </AccessionSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Representative selection</AntigenEvidenceCode>
+                        </Antigen>
+                    </BCell>
+                </Assays>
+            </Epitope>
+        </Epitopes>
+    </Reference>
+</References>
+

@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<References xsi:schemaLocation="http://www.iedb.org/schema/CurationSchema http://beta.iedb.org/schema/Curation.xsd" xmlns="http://www.iedb.org/schema/CurationSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <Reference>
+        <ReferenceId>325</ReferenceId>
+        <DateLastUpdated>2020-09-10-07:00</DateLastUpdated>
+        <Article>
+            <PubmedId>15499564</PubmedId>
+            <Abstract>Immunotherapeutic approaches designed to induce a humoral immune response have recently been developed for possible vaccination to the treatment of Alzheimer's disease (AD). Based on the identification of Abeta(4-10) (FRHDSGY) as the predominant B-cell epitope recognized by therapeutically active antisera from transgenic AD mice, branched polypeptide conjugates with this epitope peptide were synthesized and characterized. In order to produce immunogenic constructs, the Abeta(4-10) epitope alone or together with a promiscuous T-helper cell epitope peptide (FFLLTRILTIPQSLD) were attached via thioether linkage to different branched chain polymeric polypeptides with Ser or Glu in the side chains. A single peptide containing both an Abeta(4-10) and T-helper cell epitope, joined by a dipeptide Cys-Acp spacer, was also attached through the thiol function to chloroacetylated poly[Lys(Seri-DL-Alax)] (SAK). Comparative binding studies of the conjugates with a monoclonal antibody against the beta-amyloid(1-17) peptide in mice were performed by direct ELISA. The conformational preferences of carriers and conjugates in water and in a 9:1 trifluoroethanol:water mixture (v/v) was analyzed by CD spectroscopy. Experimental data showed that the chemical nature of the carrier macromolecule, and the attachment site of the epitope to the carrier, have significant effects on antibody recognition, but have no marked influence on the solution conformation of the conjugates.</Abstract>
+            <ArticleYear>2004</ArticleYear>
+            <ArticlePages>503-11</ArticlePages>
+            <ArticleTitle>Polypeptide conjugates comprising a beta-amyloid plaque-specific epitope as new vaccine structures against Alzheimer's disease.</ArticleTitle>
+            <Authors>
+                <Author>
+                    <LastName>Manea</LastName>
+                    <ForeName>Marilena</ForeName>
+                </Author>
+                <Author>
+                    <LastName>Mezö</LastName>
+                    <ForeName>Gábor</ForeName>
+                </Author>
+                <Author>
+                    <LastName>Hudecz</LastName>
+                    <ForeName>Ferenc</ForeName>
+                </Author>
+                <Author>
+                    <LastName>Przybylski</LastName>
+                    <ForeName>Michael</ForeName>
+                </Author>
+            </Authors>
+            <Affiliations>University of Konstanz, Department of Chemistry, Laboratory of Analytical Chemistry, 78457 Konstanz, Germany.</Affiliations>
+            <ArticleChemicalList>Amyloid beta-Peptides;Antibodies, Monoclonal;Epitopes;Vaccines, Subunit;Vaccines, Synthetic</ArticleChemicalList>
+            <ArticleMeshHeadingsList>Alzheimer Disease(immunology; therapy); Amino Acid Sequence; Amyloid beta-Peptides(chemistry; immunology); Animals; Antibodies, Monoclonal; Epitopes(chemistry); Humans; Mice; Molecular Sequence Data; Plaque, Amyloid(immunology); Protein Conformation; Vaccines, Subunit(chemical synthesis; chemistry; therapeutic use); Vaccines, Synthetic(chemistry; therapeutic use)</ArticleMeshHeadingsList>
+            <Journal>
+                <Volume>76</Volume>
+                <Issue>6</Issue>
+                <Title>Biopolymers.</Title>
+                <Issn>1079-0282</Issn>
+                <MedlineTa>Biopolymers</MedlineTa>
+            </Journal>
+        </Article>
+        <Epitopes>
+            <Epitope>
+                <EpitopeName>Aβ 4-10</EpitopeName>
+                <EpitopeStructure>
+                    <FragmentOfANaturalSequenceMolecule>
+                        <ChemicalType>Peptide from protein</ChemicalType>
+                        <LinearSequence>FRHDSGY</LinearSequence>
+                        <StartingPosition>675</StartingPosition>
+                        <EndingPosition>681</EndingPosition>
+                        <SourceMolecule>
+                            <GenBankId>P05067.3</GenBankId>
+                        </SourceMolecule>
+                        <SourceOrganismId>9606</SourceOrganismId>
+                    </FragmentOfANaturalSequenceMolecule>
+                </EpitopeStructure>
+                <LocationOfData>Table I</LocationOfData>
+                <EpitopeId>104780</EpitopeId>
+                <ReferenceStartingPosition>4</ReferenceStartingPosition>
+                <ReferenceEndingPosition>10</ReferenceEndingPosition>
+                <EpitopeEvidenceCode>Representative selection</EpitopeEvidenceCode>
+                <EpitopeStructureDefines>Exact Epitope</EpitopeStructureDefines>
+                <Assays>
+                    <BCell>
+                        <LocationOfData>Figure 4</LocationOfData>
+                        <BCellId>1814663</BCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>10090</OrganismId>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Administration in vivo</InVivoProcessType>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Fragment of Source Antigen</EpitopeRelation>
+                                    <Object>
+                                        <FragmentOfANaturalSequenceMolecule>
+                                            <ChemicalType>Peptide from protein</ChemicalType>
+                                            <LinearSequence>DAEFRHDSGYEVHHQKL</LinearSequence>
+                                            <StartingPosition>672</StartingPosition>
+                                            <EndingPosition>688</EndingPosition>
+                                            <SourceMolecule>
+                                                <GenBankId>P05067.3</GenBankId>
+                                            </SourceMolecule>
+                                            <SourceOrganismId>9606</SourceOrganismId>
+                                        </FragmentOfANaturalSequenceMolecule>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenReferenceName>Aβ 1-17</ImmunogenReferenceName>
+                                <ImmunogenEvidenceCode>Exact match to reference information</ImmunogenEvidenceCode>
+                            </FirstInVivoProcess>
+                            <ImmunizationComments>The exact immunization procedure was not described in the reference.</ImmunizationComments>
+                        </Immunization>
+                        <AssayInformation>
+                            <AssayTypeId>34</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <AssayComments>The monoclonal antibody bound the epitope complexed with branched polypeptides with S or E in the side chains including the promiscuous T-helper cell epitope. The poly [Lys(1-Glu-DL-Ala)] and poly [Lys(2-Glu-DL-Ala)] bound the monoclonal antibody better than the epitope alone with the T helper cell epitope.</AssayComments>
+                        </AssayInformation>
+                        <AssayedAntibody>
+                            <AssayedAntibodySourceMaterial>Purified Immunoglobulin</AssayedAntibodySourceMaterial>
+                            <AssayedAntibodyImmunoglobulinDomain>Entire Antibody</AssayedAntibodyImmunoglobulinDomain>
+                            <AssayedAntibodyPurificationStatus>Monoclonal</AssayedAntibodyPurificationStatus>
+                            <AssayedAntibodyName>6E10</AssayedAntibodyName>
+                            <AssayedAntibodyHeavyChainType>IgG1</AssayedAntibodyHeavyChainType>
+                        </AssayedAntibody>
+                        <Antigen>
+                            <AntigenConformation>Non-Native/Unknown</AntigenConformation>
+                            <AntigenObject>
+                                <EpitopeRelation>Epitope</EpitopeRelation>
+                                <Object>
+                                    <FragmentOfANaturalSequenceMolecule>
+                                        <ChemicalType>Peptide from protein</ChemicalType>
+                                        <LinearSequence>FRHDSGY</LinearSequence>
+                                        <StartingPosition>675</StartingPosition>
+                                        <EndingPosition>681</EndingPosition>
+                                        <SourceMolecule>
+                                            <GenBankId>P05067.3</GenBankId>
+                                        </SourceMolecule>
+                                        <SourceOrganismId>9606</SourceOrganismId>
+                                    </FragmentOfANaturalSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Exact match to reference information</AntigenEvidenceCode>
+                            <AntigenContainingObject>
+                                <ComplexedMolecule>
+                                    <ComplexType>Peptide plus Multi-Chain</ComplexType>
+                                    <PeptideSequence>FFLLTRILTIPQSLD</PeptideSequence>
+                                    <PeptideModifications/>
+                                    <PeptideSourceMolecule>
+                                        <GenBankId>BAF42669.1</GenBankId>
+                                    </PeptideSourceMolecule>
+                                    <PeptideSourceOrganismId>10407</PeptideSourceOrganismId>
+                                </ComplexedMolecule>
+                            </AntigenContainingObject>
+                        </Antigen>
+                    </BCell>
+                </Assays>
+            </Epitope>
+        </Epitopes>
+    </Reference>
+</References>
+

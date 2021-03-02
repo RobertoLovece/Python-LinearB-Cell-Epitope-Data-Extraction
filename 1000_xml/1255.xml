@@ -1,0 +1,514 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<References xsi:schemaLocation="http://www.iedb.org/schema/CurationSchema http://beta.iedb.org/schema/Curation.xsd" xmlns="http://www.iedb.org/schema/CurationSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <Reference>
+        <ReferenceId>1255</ReferenceId>
+        <DateLastUpdated>2020-09-10-07:00</DateLastUpdated>
+        <Article>
+            <PubmedId>10717352</PubmedId>
+            <Abstract>Toxic shock syndrome (TSS) is caused by the staphylococcal superantigen, TSST-1. The MHC class II binding domain of TSST-1 containing a conserved sequence with other related staphylococcal enterotoxins, comprising TSST-1 residues 47-64 [(T(47-64)], was expressed as a fusion protein with either glutathione-S-transferase (GST(47-64)), filamentous phage coat protein (pIII(47-64)), or E. coli outer membrane porin protein (OprF(47-64)), or synthesized as a peptide conjugated to bovine serum albumin, BSA(47-64). GST(47-64), OprF(47-64) and BSA(47-64), but not pIII(47-64), all induced high-titer T(47-64)-specific antibodies in Balb/c mice. However, only anti-GST(47-64) antibodies inhibited (125)I-TSST-1 binding to MHC class II and abrogated TSST-1-induced T cell mitogenesis and TNFalpha secretion in human peripheral blood mononuclear cells. Purified GST(47-64) also inhibited (125)I-TSST-1 binding in a dose-dependent manner. These findings suggest that GST(47-64) may have potential as a recombinant peptide vaccine or TSST-1 receptor inhibitor against TSS.</Abstract>
+            <ArticleYear>2000</ArticleYear>
+            <ArticlePages>2312-20</ArticlePages>
+            <ArticleTitle>Recombinant expression and neutralizing activity of an MHC class II binding epitope of toxic shock syndrome toxin-1.</ArticleTitle>
+            <Authors>
+                <Author>
+                    <LastName>Rubinchik</LastName>
+                    <ForeName>E</ForeName>
+                </Author>
+                <Author>
+                    <LastName>Chow</LastName>
+                    <ForeName>A W</ForeName>
+                </Author>
+            </Authors>
+            <Affiliations>Division of Infectious Diseases, Department of Medicine, University of British Columbia, Canadian Bacterial Disease Network, and Vancouver Hospital Health Sciences Center, Vancouver, Canada.</Affiliations>
+            <ArticleChemicalList>Antibodies, Bacterial;Bacterial Toxins;Enterotoxins;Epitopes;Immune Sera;Peptide Fragments;Recombinant Fusion Proteins;Superantigens;Tumor Necrosis Factor-alpha;Vaccines, Synthetic;enterotoxin F, Staphylococcal;Glutathione Transferase</ArticleChemicalList>
+            <ArticleMeshHeadingsList>Animals; Antibodies, Bacterial(blood); Bacterial Toxins; Binding Sites; Enterotoxins(immunology); Epitopes; Glutathione Transferase(immunology); Humans; Immune Sera(immunology); Lymphocyte Activation; Mice; Mice, Inbred BALB C; Peptide Fragments(immunology); Recombinant Fusion Proteins(immunology); Staphylococcus aureus(immunology); Superantigens(immunology); Tumor Necrosis Factor-alpha(metabolism); Vaccines, Synthetic(immunology)</ArticleMeshHeadingsList>
+            <Journal>
+                <Volume>18</Volume>
+                <Issue>21</Issue>
+                <Title>Vaccine</Title>
+                <Issn>1873-2518</Issn>
+                <MedlineTa>Vaccine</MedlineTa>
+            </Journal>
+        </Article>
+        <Epitopes>
+            <Epitope>
+                <EpitopeName>TSST-1 47-64</EpitopeName>
+                <EpitopeStructure>
+                    <FragmentOfANaturalSequenceMolecule>
+                        <ChemicalType>Peptide from protein</ChemicalType>
+                        <LinearSequence>FPSPYYSPAFTKGEKVDL</LinearSequence>
+                        <StartingPosition>87</StartingPosition>
+                        <EndingPosition>104</EndingPosition>
+                        <SourceMolecule>
+                            <GenBankId>P06886.1</GenBankId>
+                        </SourceMolecule>
+                        <SourceOrganismId>1280</SourceOrganismId>
+                    </FragmentOfANaturalSequenceMolecule>
+                </EpitopeStructure>
+                <LocationOfData>Page 2312</LocationOfData>
+                <EpitopeId>17408</EpitopeId>
+                <ReferenceStartingPosition>47</ReferenceStartingPosition>
+                <ReferenceEndingPosition>64</ReferenceEndingPosition>
+                <EpitopeEvidenceCode>Not determined</EpitopeEvidenceCode>
+                <EpitopeStructureDefines>Epitope containing region/antigenic site</EpitopeStructureDefines>
+                <Assays>
+                    <BCell>
+                        <LocationOfData>Figure 2C</LocationOfData>
+                        <BCellId>18289</BCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>9986</OrganismId>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Administration in vivo</InVivoProcessType>
+                                <DiseaseState>ONTIE:0003423</DiseaseState>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Source Antigen</EpitopeRelation>
+                                    <Object>
+                                        <AccessionSequenceMolecule>
+                                            <ChemicalType>Protein</ChemicalType>
+                                            <Molecule>
+                                                <GenBankId>P06886.1</GenBankId>
+                                            </Molecule>
+                                            <SourceOrganismId>1280</SourceOrganismId>
+                                        </AccessionSequenceMolecule>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenReferenceName>Toxic shock syndrome toxin-1</ImmunogenReferenceName>
+                                <ImmunogenEvidenceCode>Not determined</ImmunogenEvidenceCode>
+                            </FirstInVivoProcess>
+                        </Immunization>
+                        <AssayInformation>
+                            <AssayTypeId>37</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <AssayComments>The recombinant peptide was expressed as a fusion protein with E. coli outer membrane porin protein and its antigenicity was examined using rabbit polyclonal antibodies.</AssayComments>
+                        </AssayInformation>
+                        <AssayedAntibody>
+                            <AssayedAntibodySourceMaterial>Serum</AssayedAntibodySourceMaterial>
+                            <AssayedAntibodyPurificationStatus>Polyclonal</AssayedAntibodyPurificationStatus>
+                            <AssayedAntibodyName>anti-TSST-1</AssayedAntibodyName>
+                        </AssayedAntibody>
+                        <Antigen>
+                            <AntigenReferenceName>TSST-1 47-64</AntigenReferenceName>
+                            <AntigenConformation>Non-Native/Unknown</AntigenConformation>
+                            <AntigenObject>
+                                <EpitopeRelation>Epitope</EpitopeRelation>
+                                <Object>
+                                    <FragmentOfANaturalSequenceMolecule>
+                                        <ChemicalType>Peptide from protein</ChemicalType>
+                                        <LinearSequence>FPSPYYSPAFTKGEKVDL</LinearSequence>
+                                        <StartingPosition>87</StartingPosition>
+                                        <EndingPosition>104</EndingPosition>
+                                        <SourceMolecule>
+                                            <GenBankId>P06886.1</GenBankId>
+                                        </SourceMolecule>
+                                        <SourceOrganismId>1280</SourceOrganismId>
+                                    </FragmentOfANaturalSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Exact match to reference information</AntigenEvidenceCode>
+                            <AntigenContainingObject>
+                                <ComplexedMolecule>
+                                    <ComplexType>Protein conjugate</ComplexType>
+                                    <PeptideModifications/>
+                                    <SourceMolecule>
+                                        <GenBankId>P07110.2</GenBankId>
+                                    </SourceMolecule>
+                                    <MoleculeSourceOrganismId>562</MoleculeSourceOrganismId>
+                                </ComplexedMolecule>
+                            </AntigenContainingObject>
+                        </Antigen>
+                    </BCell>
+                </Assays>
+                <Assays>
+                    <BCell>
+                        <LocationOfData>Figure 1A</LocationOfData>
+                        <BCellId>18287</BCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>9986</OrganismId>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Administration in vivo</InVivoProcessType>
+                                <DiseaseState>ONTIE:0003423</DiseaseState>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Source Antigen</EpitopeRelation>
+                                    <Object>
+                                        <AccessionSequenceMolecule>
+                                            <ChemicalType>Protein</ChemicalType>
+                                            <Molecule>
+                                                <GenBankId>P06886.1</GenBankId>
+                                            </Molecule>
+                                            <SourceOrganismId>1280</SourceOrganismId>
+                                        </AccessionSequenceMolecule>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenReferenceName>Toxic shock syndrome toxin-1</ImmunogenReferenceName>
+                                <ImmunogenEvidenceCode>Not determined</ImmunogenEvidenceCode>
+                            </FirstInVivoProcess>
+                        </Immunization>
+                        <AssayInformation>
+                            <AssayTypeId>34</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <AssayComments>The recombinant peptide was expressed as a fusion protein with glutathione-S-transferase and its antigenicity was examined using rabbit polyclonal antibodies.  A similar response was found when the recombinant peptide was expressed as a fusion protein with filamentous phage coat protein and when the synthesized peptide was conjugated to bovine serum albumin.</AssayComments>
+                        </AssayInformation>
+                        <AssayedAntibody>
+                            <AssayedAntibodySourceMaterial>Serum</AssayedAntibodySourceMaterial>
+                            <AssayedAntibodyPurificationStatus>Polyclonal</AssayedAntibodyPurificationStatus>
+                            <AssayedAntibodyName>anti-TSST-1</AssayedAntibodyName>
+                        </AssayedAntibody>
+                        <Antigen>
+                            <AntigenReferenceName>TSST-1 47-64</AntigenReferenceName>
+                            <AntigenConformation>Non-Native/Unknown</AntigenConformation>
+                            <AntigenObject>
+                                <EpitopeRelation>Epitope</EpitopeRelation>
+                                <Object>
+                                    <FragmentOfANaturalSequenceMolecule>
+                                        <ChemicalType>Peptide from protein</ChemicalType>
+                                        <LinearSequence>FPSPYYSPAFTKGEKVDL</LinearSequence>
+                                        <StartingPosition>87</StartingPosition>
+                                        <EndingPosition>104</EndingPosition>
+                                        <SourceMolecule>
+                                            <GenBankId>P06886.1</GenBankId>
+                                        </SourceMolecule>
+                                        <SourceOrganismId>1280</SourceOrganismId>
+                                    </FragmentOfANaturalSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Exact match to reference information</AntigenEvidenceCode>
+                            <AntigenContainingObject>
+                                <ComplexedMolecule>
+                                    <ComplexType>Protein conjugate</ComplexType>
+                                    <PeptideModifications/>
+                                    <SourceMolecule>
+                                        <IedbAccession>SRC240127</IedbAccession>
+                                    </SourceMolecule>
+                                    <MoleculeSourceOrganismId>562</MoleculeSourceOrganismId>
+                                </ComplexedMolecule>
+                            </AntigenContainingObject>
+                        </Antigen>
+                    </BCell>
+                </Assays>
+                <Assays>
+                    <BCell>
+                        <LocationOfData>Figure 1A</LocationOfData>
+                        <BCellId>18288</BCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>9986</OrganismId>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Administration in vivo</InVivoProcessType>
+                                <DiseaseState>ONTIE:0003423</DiseaseState>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Epitope</EpitopeRelation>
+                                    <Object>
+                                        <FragmentOfANaturalSequenceMolecule>
+                                            <ChemicalType>Peptide from protein</ChemicalType>
+                                            <LinearSequence>FPSPYYSPAFTKGEKVDL</LinearSequence>
+                                            <StartingPosition>87</StartingPosition>
+                                            <EndingPosition>104</EndingPosition>
+                                            <SourceMolecule>
+                                                <GenBankId>P06886.1</GenBankId>
+                                            </SourceMolecule>
+                                            <SourceOrganismId>1280</SourceOrganismId>
+                                        </FragmentOfANaturalSequenceMolecule>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenReferenceName>TSST-1 47-64</ImmunogenReferenceName>
+                                <ImmunogenEvidenceCode>Exact match to reference information</ImmunogenEvidenceCode>
+                                <ImmunogenContainingObject>
+                                    <ComplexedMolecule>
+                                        <ComplexType>Protein conjugate</ComplexType>
+                                        <PeptideModifications/>
+                                        <SourceMolecule>
+                                            <GenBankId>P02769.4</GenBankId>
+                                        </SourceMolecule>
+                                        <MoleculeSourceOrganismId>9913</MoleculeSourceOrganismId>
+                                    </ComplexedMolecule>
+                                </ImmunogenContainingObject>
+                            </FirstInVivoProcess>
+                        </Immunization>
+                        <AssayInformation>
+                            <AssayTypeId>34</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <AssayComments>The recombinant peptide was expressed as a fusion protein with glutathione-S-transferase and its antigenicity was examined using rabbit polyclonal antibodies.   A similar response was found when the recombinant peptide was expressed as a fusion protein with filamentous phage coat protein.</AssayComments>
+                        </AssayInformation>
+                        <AssayedAntibody>
+                            <AssayedAntibodySourceMaterial>Serum</AssayedAntibodySourceMaterial>
+                            <AssayedAntibodyPurificationStatus>Polyclonal</AssayedAntibodyPurificationStatus>
+                            <AssayedAntibodyName>anti-BSA47-64</AssayedAntibodyName>
+                        </AssayedAntibody>
+                        <Antigen>
+                            <AntigenReferenceName>TSST-1 47-64</AntigenReferenceName>
+                            <AntigenConformation>Non-Native/Unknown</AntigenConformation>
+                            <AntigenObject>
+                                <EpitopeRelation>Epitope</EpitopeRelation>
+                                <Object>
+                                    <FragmentOfANaturalSequenceMolecule>
+                                        <ChemicalType>Peptide from protein</ChemicalType>
+                                        <LinearSequence>FPSPYYSPAFTKGEKVDL</LinearSequence>
+                                        <StartingPosition>87</StartingPosition>
+                                        <EndingPosition>104</EndingPosition>
+                                        <SourceMolecule>
+                                            <GenBankId>P06886.1</GenBankId>
+                                        </SourceMolecule>
+                                        <SourceOrganismId>1280</SourceOrganismId>
+                                    </FragmentOfANaturalSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Exact match to reference information</AntigenEvidenceCode>
+                            <AntigenContainingObject>
+                                <ComplexedMolecule>
+                                    <ComplexType>Protein conjugate</ComplexType>
+                                    <PeptideModifications/>
+                                    <SourceMolecule>
+                                        <IedbAccession>SRC240127</IedbAccession>
+                                    </SourceMolecule>
+                                    <MoleculeSourceOrganismId>562</MoleculeSourceOrganismId>
+                                </ComplexedMolecule>
+                            </AntigenContainingObject>
+                        </Antigen>
+                    </BCell>
+                </Assays>
+                <Assays>
+                    <BCell>
+                        <LocationOfData>Figure 4</LocationOfData>
+                        <BCellId>18297</BCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>10000000</OrganismId>
+                                <Sex>F</Sex>
+                                <Age>8-10 weeks-old</Age>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Administration in vivo</InVivoProcessType>
+                                <DiseaseState>ONTIE:0003423</DiseaseState>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Epitope</EpitopeRelation>
+                                    <Object>
+                                        <FragmentOfANaturalSequenceMolecule>
+                                            <ChemicalType>Peptide from protein</ChemicalType>
+                                            <LinearSequence>FPSPYYSPAFTKGEKVDL</LinearSequence>
+                                            <StartingPosition>87</StartingPosition>
+                                            <EndingPosition>104</EndingPosition>
+                                            <SourceMolecule>
+                                                <GenBankId>P06886.1</GenBankId>
+                                            </SourceMolecule>
+                                            <SourceOrganismId>1280</SourceOrganismId>
+                                        </FragmentOfANaturalSequenceMolecule>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenReferenceName>TSST-1 47-64</ImmunogenReferenceName>
+                                <ImmunogenEvidenceCode>Exact match to reference information</ImmunogenEvidenceCode>
+                                <ImmunogenContainingObject>
+                                    <ComplexedMolecule>
+                                        <ComplexType>Protein conjugate</ComplexType>
+                                        <PeptideModifications/>
+                                        <SourceMolecule>
+                                            <IedbAccession>SRC240127</IedbAccession>
+                                        </SourceMolecule>
+                                        <MoleculeSourceOrganismId>562</MoleculeSourceOrganismId>
+                                    </ComplexedMolecule>
+                                </ImmunogenContainingObject>
+                                <Adjuvant>Freund's complete</Adjuvant>
+                                <Adjuvant>Freund's incomplete (IFA)</Adjuvant>
+                                <Route>Subcutaneous (s.c.)</Route>
+                                <DoseSchedule>Mice were given booster injections at three-week intervals, and serum samples were collected 10-12 days after each boost.</DoseSchedule>
+                            </FirstInVivoProcess>
+                        </Immunization>
+                        <AssayInformation>
+                            <AssayTypeId>316</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <AssayComments>The ability of anti-epitope antibodies to inhibit both TSST-1-induced TNF-α secretion and T cell mitogenesis was examined in human PBMC from healthy donors.  The recombinant peptide was expressed as a fusion protein with glutathione-S-transferase.  Significant inhibitory responses were not found when immunizations were performed with the recombinant peptide expressed as a fusion protein with E. coli outer membrane porin protein,  the recombinant peptide expressed as a fusion protein with filamentous phage coat protein, and when the synthesized peptide was conjugated to bovine serum albumin.  Anti-glutathione-S-transferase-peptide serum also inhibited Toxic shock syndrome toxin-1 binding to human monocytes in a dose-dependant manner.</AssayComments>
+                        </AssayInformation>
+                        <AssayedAntibody>
+                            <AssayedAntibodySourceMaterial>Serum</AssayedAntibodySourceMaterial>
+                            <AssayedAntibodyPurificationStatus>Polyclonal</AssayedAntibodyPurificationStatus>
+                            <AssayedAntibodyName>anti-GST47-64</AssayedAntibodyName>
+                        </AssayedAntibody>
+                        <Antigen>
+                            <AntigenReferenceName>Toxic shock syndrome toxin-1</AntigenReferenceName>
+                            <AntigenConformation>Native</AntigenConformation>
+                            <AntigenObject>
+                                <EpitopeRelation>Source Antigen</EpitopeRelation>
+                                <Object>
+                                    <AccessionSequenceMolecule>
+                                        <ChemicalType>Protein</ChemicalType>
+                                        <Molecule>
+                                            <GenBankId>P06886.1</GenBankId>
+                                        </Molecule>
+                                        <SourceOrganismId>1280</SourceOrganismId>
+                                    </AccessionSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Not determined</AntigenEvidenceCode>
+                        </Antigen>
+                    </BCell>
+                </Assays>
+                <Assays>
+                    <BCell>
+                        <LocationOfData>Figure 3A</LocationOfData>
+                        <BCellId>18292</BCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>10000000</OrganismId>
+                                <Sex>F</Sex>
+                                <Age>8-10 weeks-old</Age>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Administration in vivo</InVivoProcessType>
+                                <DiseaseState>ONTIE:0003423</DiseaseState>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Epitope</EpitopeRelation>
+                                    <Object>
+                                        <FragmentOfANaturalSequenceMolecule>
+                                            <ChemicalType>Peptide from protein</ChemicalType>
+                                            <LinearSequence>FPSPYYSPAFTKGEKVDL</LinearSequence>
+                                            <StartingPosition>87</StartingPosition>
+                                            <EndingPosition>104</EndingPosition>
+                                            <SourceMolecule>
+                                                <GenBankId>P06886.1</GenBankId>
+                                            </SourceMolecule>
+                                            <SourceOrganismId>1280</SourceOrganismId>
+                                        </FragmentOfANaturalSequenceMolecule>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenReferenceName>TSST-1 47-64</ImmunogenReferenceName>
+                                <ImmunogenEvidenceCode>Exact match to reference information</ImmunogenEvidenceCode>
+                                <ImmunogenContainingObject>
+                                    <ComplexedMolecule>
+                                        <ComplexType>Protein conjugate</ComplexType>
+                                        <PeptideModifications/>
+                                        <SourceMolecule>
+                                            <IedbAccession>SRC240127</IedbAccession>
+                                        </SourceMolecule>
+                                        <MoleculeSourceOrganismId>562</MoleculeSourceOrganismId>
+                                    </ComplexedMolecule>
+                                </ImmunogenContainingObject>
+                                <Adjuvant>Freund's complete</Adjuvant>
+                                <Adjuvant>Freund's incomplete (IFA)</Adjuvant>
+                                <Route>Subcutaneous (s.c.)</Route>
+                                <DoseSchedule>Mice were given booster injections at three-week intervals, and serum samples were collected 10-12 days after each boost.</DoseSchedule>
+                            </FirstInVivoProcess>
+                        </Immunization>
+                        <AssayInformation>
+                            <AssayTypeId>34</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <NumberOfSubjectsTested>8</NumberOfSubjectsTested>
+                            <NumberOfSubjectsResponded>8</NumberOfSubjectsResponded>
+                            <ResponseFrequency>100</ResponseFrequency>
+                            <AssayComments>The recombinant peptide was expressed as a fusion protein with glutathione-S-transferase and its immunogenicity was examined with pooled sera from immunized mice.  Similar responses were found when immunizations were performed with the recombinant peptide expressed as a fusion protein with E. coli outer membrane porin protein (3/3 animals),  the recombinant peptide expressed as a fusion protein with filamentous phage coat protein (2/5 animals, very weak responses), and when the synthesized peptide was conjugated to bovine serum albumin (5/5 animals).</AssayComments>
+                        </AssayInformation>
+                        <AssayedAntibody>
+                            <AssayedAntibodySourceMaterial>Serum</AssayedAntibodySourceMaterial>
+                            <AssayedAntibodyPurificationStatus>Polyclonal</AssayedAntibodyPurificationStatus>
+                            <AssayedAntibodyName>anti-GST47-64</AssayedAntibodyName>
+                            <AssayedAntibodyHeavyChainType>IgG</AssayedAntibodyHeavyChainType>
+                        </AssayedAntibody>
+                        <Antigen>
+                            <AntigenReferenceName>Toxic shock syndrome toxin-1</AntigenReferenceName>
+                            <AntigenConformation>Non-Native/Unknown</AntigenConformation>
+                            <AntigenObject>
+                                <EpitopeRelation>Source Antigen</EpitopeRelation>
+                                <Object>
+                                    <AccessionSequenceMolecule>
+                                        <ChemicalType>Protein</ChemicalType>
+                                        <Molecule>
+                                            <GenBankId>P06886.1</GenBankId>
+                                        </Molecule>
+                                        <SourceOrganismId>1280</SourceOrganismId>
+                                    </AccessionSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Not determined</AntigenEvidenceCode>
+                        </Antigen>
+                    </BCell>
+                </Assays>
+                <Assays>
+                    <BCell>
+                        <LocationOfData>Figure 2B</LocationOfData>
+                        <BCellId>18290</BCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>9986</OrganismId>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Administration in vivo</InVivoProcessType>
+                                <DiseaseState>ONTIE:0003423</DiseaseState>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Epitope</EpitopeRelation>
+                                    <Object>
+                                        <FragmentOfANaturalSequenceMolecule>
+                                            <ChemicalType>Peptide from protein</ChemicalType>
+                                            <LinearSequence>FPSPYYSPAFTKGEKVDL</LinearSequence>
+                                            <StartingPosition>87</StartingPosition>
+                                            <EndingPosition>104</EndingPosition>
+                                            <SourceMolecule>
+                                                <GenBankId>P06886.1</GenBankId>
+                                            </SourceMolecule>
+                                            <SourceOrganismId>1280</SourceOrganismId>
+                                        </FragmentOfANaturalSequenceMolecule>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenReferenceName>TSST-1 47-64</ImmunogenReferenceName>
+                                <ImmunogenEvidenceCode>Exact match to reference information</ImmunogenEvidenceCode>
+                                <ImmunogenContainingObject>
+                                    <ComplexedMolecule>
+                                        <ComplexType>Protein conjugate</ComplexType>
+                                        <PeptideModifications/>
+                                        <SourceMolecule>
+                                            <GenBankId>P02769.4</GenBankId>
+                                        </SourceMolecule>
+                                        <MoleculeSourceOrganismId>9913</MoleculeSourceOrganismId>
+                                    </ComplexedMolecule>
+                                </ImmunogenContainingObject>
+                            </FirstInVivoProcess>
+                        </Immunization>
+                        <AssayInformation>
+                            <AssayTypeId>37</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <AssayComments>The recombinant peptide was expressed as a fusion protein with E. coli outer membrane porin protein and its antigenicity was examined using rabbit polyclonal antibodies.</AssayComments>
+                        </AssayInformation>
+                        <AssayedAntibody>
+                            <AssayedAntibodySourceMaterial>Serum</AssayedAntibodySourceMaterial>
+                            <AssayedAntibodyPurificationStatus>Polyclonal</AssayedAntibodyPurificationStatus>
+                            <AssayedAntibodyName>anti-BSA47-64</AssayedAntibodyName>
+                        </AssayedAntibody>
+                        <Antigen>
+                            <AntigenReferenceName>TSST-1 47-64</AntigenReferenceName>
+                            <AntigenConformation>Non-Native/Unknown</AntigenConformation>
+                            <AntigenObject>
+                                <EpitopeRelation>Epitope</EpitopeRelation>
+                                <Object>
+                                    <FragmentOfANaturalSequenceMolecule>
+                                        <ChemicalType>Peptide from protein</ChemicalType>
+                                        <LinearSequence>FPSPYYSPAFTKGEKVDL</LinearSequence>
+                                        <StartingPosition>87</StartingPosition>
+                                        <EndingPosition>104</EndingPosition>
+                                        <SourceMolecule>
+                                            <GenBankId>P06886.1</GenBankId>
+                                        </SourceMolecule>
+                                        <SourceOrganismId>1280</SourceOrganismId>
+                                    </FragmentOfANaturalSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Exact match to reference information</AntigenEvidenceCode>
+                            <AntigenContainingObject>
+                                <ComplexedMolecule>
+                                    <ComplexType>Protein conjugate</ComplexType>
+                                    <PeptideModifications/>
+                                    <SourceMolecule>
+                                        <GenBankId>P07110.2</GenBankId>
+                                    </SourceMolecule>
+                                    <MoleculeSourceOrganismId>562</MoleculeSourceOrganismId>
+                                </ComplexedMolecule>
+                            </AntigenContainingObject>
+                        </Antigen>
+                    </BCell>
+                </Assays>
+            </Epitope>
+        </Epitopes>
+    </Reference>
+</References>
+

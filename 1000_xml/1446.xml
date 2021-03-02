@@ -1,0 +1,715 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<References xsi:schemaLocation="http://www.iedb.org/schema/CurationSchema http://beta.iedb.org/schema/Curation.xsd" xmlns="http://www.iedb.org/schema/CurationSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <Reference>
+        <ReferenceId>1446</ReferenceId>
+        <DateLastUpdated>2020-09-10-07:00</DateLastUpdated>
+        <Article>
+            <PubmedId>9584143</PubmedId>
+            <Abstract>Infection of C57BL/6 mice with lymphocytic choriomeningitis virus (LCMV) stimulates major histocompatibility complex class I-restricted cytotoxic T cells (CTLs), which normally resolve the infection. Three peptide epitopes derived from LCMV have been shown to bind the mouse class I molecule H-2 Db and to stimulate CTL responses in LCMV-infected mice. This report describes the identity and abundance of each CTL epitope after their elution from LCMV-infected cells. Based on this information, peptide abundance was found to correlate with the magnitude of each CTL response generated after infection with LCMV. Subsequent experiments, performed to determine the antiviral capacity of each CTL specificity, indicate that the quantitative hierarchy of CTL activity does not correlate with the ability to protect against LCMV infection. This report, therefore, indicates that immunodominant epitopes should be defined, not only by the strength of the CTL response that they stimulate, but also by the ability of the CTLs to protect against infection.</Abstract>
+            <ArticleYear>1998</ArticleYear>
+            <ArticlePages>1647-57</ArticlePages>
+            <ArticleTitle>Protective immunity does not correlate with the hierarchy of virus-specific cytotoxic T cell responses to naturally processed peptides.</ArticleTitle>
+            <Authors>
+                <Author>
+                    <LastName>Gallimore</LastName>
+                    <ForeName>A</ForeName>
+                </Author>
+                <Author>
+                    <LastName>Dumrese</LastName>
+                    <ForeName>T</ForeName>
+                </Author>
+                <Author>
+                    <LastName>Hengartner</LastName>
+                    <ForeName>H</ForeName>
+                </Author>
+                <Author>
+                    <LastName>Zinkernagel</LastName>
+                    <ForeName>R M</ForeName>
+                </Author>
+                <Author>
+                    <LastName>Rammensee</LastName>
+                    <ForeName>H G</ForeName>
+                </Author>
+            </Authors>
+            <Affiliations>Institute of Experimental Immunology, CH-8091 Zürich, Switzerland. awen.gallimore@ndm.ox.ac.uk.</Affiliations>
+            <ArticleChemicalList>Antigens, Viral;Peptides;Interferon-gamma</ArticleChemicalList>
+            <ArticleMeshHeadingsList>Adoptive Transfer; Animals; Antigen Presentation; Antigens, Viral(immunology); Immunity, Cellular; Interferon-gamma(immunology); Lymphocytic Choriomeningitis(immunology); Lymphocytic choriomeningitis virus(immunology); Mice; Mice, Inbred C57BL; Peptides(immunology); T-Lymphocytes, Cytotoxic(immunology)</ArticleMeshHeadingsList>
+            <Journal>
+                <Volume>187</Volume>
+                <Issue>10</Issue>
+                <Title>The Journal of experimental medicine</Title>
+                <Issn>0022-1007</Issn>
+                <MedlineTa>J Exp Med</MedlineTa>
+            </Journal>
+        </Article>
+        <Epitopes>
+            <Epitope>
+                <EpitopeName>GP33-41</EpitopeName>
+                <EpitopeStructure>
+                    <FragmentOfANaturalSequenceMolecule>
+                        <ChemicalType>Peptide from protein</ChemicalType>
+                        <LinearSequence>KAVYNFATC</LinearSequence>
+                        <StartingPosition>33</StartingPosition>
+                        <EndingPosition>41</EndingPosition>
+                        <SourceMolecule>
+                            <GenBankId>P07399.1</GenBankId>
+                        </SourceMolecule>
+                        <SourceOrganismId>11627</SourceOrganismId>
+                    </FragmentOfANaturalSequenceMolecule>
+                </EpitopeStructure>
+                <LocationOfData>Page 1653</LocationOfData>
+                <EpitopeId>30001</EpitopeId>
+                <ReferenceStartingPosition>33</ReferenceStartingPosition>
+                <ReferenceEndingPosition>41</ReferenceEndingPosition>
+                <EpitopeEvidenceCode>Representative selection</EpitopeEvidenceCode>
+                <EpitopeStructureDefines>Exact Epitope</EpitopeStructureDefines>
+                <EpitopeComments>This epitope was defined previously by measurement of peptide bindng efficiency to H-2Db and CTL killing of peptide pulsed targets.</EpitopeComments>
+                <Assays>
+                    <TCell>
+                        <LocationOfData>Figure 8</LocationOfData>
+                        <TCellId>24195</TCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>10000067</OrganismId>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Administration in vivo</InVivoProcessType>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Source Organism</EpitopeRelation>
+                                    <Object>
+                                        <Organism>
+                                            <SubType>Organism</SubType>
+                                            <SourceOrganismId>11627</SourceOrganismId>
+                                        </Organism>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenEvidenceCode>Exact match to reference information</ImmunogenEvidenceCode>
+                            </FirstInVivoProcess>
+                            <InVitroAdministration>
+                                <ProcessType>Restimulation in vitro</ProcessType>
+                                <ResponderCellType>T cell</ResponderCellType>
+                                <StimulatorCellType>T2 cells-Lymphoblast</StimulatorCellType>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Epitope</EpitopeRelation>
+                                    <Object>
+                                        <FragmentOfANaturalSequenceMolecule>
+                                            <ChemicalType>Peptide from protein</ChemicalType>
+                                            <LinearSequence>KAVYNFATC</LinearSequence>
+                                            <StartingPosition>33</StartingPosition>
+                                            <EndingPosition>41</EndingPosition>
+                                            <SourceMolecule>
+                                                <GenBankId>P07399.1</GenBankId>
+                                            </SourceMolecule>
+                                            <SourceOrganismId>11627</SourceOrganismId>
+                                        </FragmentOfANaturalSequenceMolecule>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenEvidenceCode>Exact match to reference information</ImmunogenEvidenceCode>
+                            </InVitroAdministration>
+                            <ImmunizationComments>Mice were immunized by infection with LCMV-WE for 3 months.  Splenocytes were restimulated at 10-day intervals with irradiated, peptide-pulsed T2-Db cells as APCs.</ImmunizationComments>
+                        </Immunization>
+                        <EffectorCells>
+                            <CellTissueType>Spleen</CellTissueType>
+                            <CellType>T cell CD8+</CellType>
+                            <CellCultureConditions>Cell Line / Clone</CellCultureConditions>
+                        </EffectorCells>
+                        <AntigenPresentingCells>
+                            <CellTissueType>Spleen</CellTissueType>
+                            <CellType>Macrophage</CellType>
+                            <CellCultureConditions>Direct Ex Vivo</CellCultureConditions>
+                            <AutologousOrSyngeneic>Y</AutologousOrSyngeneic>
+                        </AntigenPresentingCells>
+                        <MhcAllele>
+                            <MhcAlleleId>172</MhcAlleleId>
+                            <MhcEvidenceCode>MHC binding assay</MhcEvidenceCode>
+                        </MhcAllele>
+                        <Antigen>
+                            <AntigenObject>
+                                <EpitopeRelation>Source Organism</EpitopeRelation>
+                                <Object>
+                                    <Organism>
+                                        <SubType>Organism</SubType>
+                                        <SourceOrganismId>11627</SourceOrganismId>
+                                    </Organism>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Exact match to reference information</AntigenEvidenceCode>
+                        </Antigen>
+                        <AssayInformation>
+                            <AssayTypeId>53</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <AssayComments>Expression of interferon gamma by GP33-4-specific CTL lines was analysed by flow cytometry following incubation with LCMV-infected macrophages.</AssayComments>
+                        </AssayInformation>
+                    </TCell>
+                </Assays>
+                <Assays>
+                    <TCell>
+                        <LocationOfData>Figure 1</LocationOfData>
+                        <TCellId>24167</TCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>10000067</OrganismId>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Administration in vivo</InVivoProcessType>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Source Organism</EpitopeRelation>
+                                    <Object>
+                                        <Organism>
+                                            <SubType>Organism</SubType>
+                                            <SourceOrganismId>11627</SourceOrganismId>
+                                        </Organism>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenEvidenceCode>Exact match to reference information</ImmunogenEvidenceCode>
+                            </FirstInVivoProcess>
+                            <ImmunizationComments>Mice were immunized by infection with LCMV-WE for 8 days.</ImmunizationComments>
+                        </Immunization>
+                        <EffectorCells>
+                            <CellTissueType>Spleen</CellTissueType>
+                            <CellType>Splenocyte</CellType>
+                            <CellCultureConditions>Direct Ex Vivo</CellCultureConditions>
+                        </EffectorCells>
+                        <AntigenPresentingCells>
+                            <CellTissueType>Lymphoid</CellTissueType>
+                            <CellType>T2 cells-Lymphoblast</CellType>
+                            <CellCultureConditions>Cell Line / Clone</CellCultureConditions>
+                            <AutologousOrSyngeneic>N</AutologousOrSyngeneic>
+                            <SourceOrganismId>9606</SourceOrganismId>
+                        </AntigenPresentingCells>
+                        <MhcAllele>
+                            <MhcAlleleId>172</MhcAlleleId>
+                            <MhcEvidenceCode>MHC binding assay</MhcEvidenceCode>
+                        </MhcAllele>
+                        <Antigen>
+                            <AntigenReferenceName>GP33-41</AntigenReferenceName>
+                            <AntigenObject>
+                                <EpitopeRelation>Epitope</EpitopeRelation>
+                                <Object>
+                                    <FragmentOfANaturalSequenceMolecule>
+                                        <ChemicalType>Peptide from protein</ChemicalType>
+                                        <LinearSequence>KAVYNFATC</LinearSequence>
+                                        <StartingPosition>33</StartingPosition>
+                                        <EndingPosition>41</EndingPosition>
+                                        <SourceMolecule>
+                                            <GenBankId>P07399.1</GenBankId>
+                                        </SourceMolecule>
+                                        <SourceOrganismId>11627</SourceOrganismId>
+                                    </FragmentOfANaturalSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Exact match to reference information</AntigenEvidenceCode>
+                        </Antigen>
+                        <AssayInformation>
+                            <AssayTypeId>67</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <AssayComments>Splenocytes collected from infected mice were able to recognize and lyse T2 targets pulsed with peptide presenting in the context of H-2Db.    Similar responses were observed when splenocytes were restimulated in vitro prior to testing cytotoxicity (Figure 1B,D).</AssayComments>
+                        </AssayInformation>
+                    </TCell>
+                </Assays>
+                <Assays>
+                    <MhcLigandElution>
+                        <LocationOfData>Figure 2</LocationOfData>
+                        <MhcLigandElutionId>24189</MhcLigandElutionId>
+                        <HostOrganism>
+                            <OrganismId>10090</OrganismId>
+                        </HostOrganism>
+                        <InVivoProcess>
+                            <InVivoProcessType>No immunization</InVivoProcessType>
+                        </InVivoProcess>
+                        <InVitroAdministration>
+                            <ProcessType>Antigen administered in vitro</ProcessType>
+                            <ProcessedAntigenObject>
+                                <EpitopeRelation>Source Organism</EpitopeRelation>
+                                <Object>
+                                    <Organism>
+                                        <SubType>Organism</SubType>
+                                        <SourceOrganismId>11627</SourceOrganismId>
+                                    </Organism>
+                                </Object>
+                            </ProcessedAntigenObject>
+                            <ProcessedAntigenEvidenceCode>Exact match to reference information</ProcessedAntigenEvidenceCode>
+                        </InVitroAdministration>
+                        <MhcLigand>
+                            <MhcLigandReferenceName>GP33-41</MhcLigandReferenceName>
+                            <MhcLigandObject>
+                                <EpitopeRelation>Epitope</EpitopeRelation>
+                                <Object>
+                                    <FragmentOfANaturalSequenceMolecule>
+                                        <ChemicalType>Peptide from protein</ChemicalType>
+                                        <LinearSequence>KAVYNFATC</LinearSequence>
+                                        <StartingPosition>33</StartingPosition>
+                                        <EndingPosition>41</EndingPosition>
+                                        <SourceMolecule>
+                                            <GenBankId>P07399.1</GenBankId>
+                                        </SourceMolecule>
+                                        <SourceOrganismId>11627</SourceOrganismId>
+                                    </FragmentOfANaturalSequenceMolecule>
+                                </Object>
+                            </MhcLigandObject>
+                        </MhcLigand>
+                        <AntigenPresentingCells>
+                            <CellTissueType>Other</CellTissueType>
+                            <CellType>Other</CellType>
+                            <CellCultureConditions>Cell Line / Clone</CellCultureConditions>
+                        </AntigenPresentingCells>
+                        <MhcAllele>
+                            <MhcAlleleId>172</MhcAlleleId>
+                            <MhcEvidenceCode>Antibody purification</MhcEvidenceCode>
+                        </MhcAllele>
+                        <AssayInformation>
+                            <AssayTypeId>92</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <AssayComments>Natural H-2Db-restricted GP33-41 was eluted by immunoaffinity chromatography and then separated by reverse-phase HPLC from Db molecules purified from LCMV-infected MC57 cells.  Peptide coeluted with its corresponding active fraction.  A total of 341pg of peptide was recovered from 10e9 infected MC57 cells (Summary of figure 4).</AssayComments>
+                        </AssayInformation>
+                    </MhcLigandElution>
+                </Assays>
+            </Epitope>
+            <Epitope>
+                <EpitopeName>GP276-286</EpitopeName>
+                <EpitopeStructure>
+                    <FragmentOfANaturalSequenceMolecule>
+                        <ChemicalType>Peptide from protein</ChemicalType>
+                        <LinearSequence>SGVENPGGYCL</LinearSequence>
+                        <StartingPosition>276</StartingPosition>
+                        <EndingPosition>286</EndingPosition>
+                        <SourceMolecule>
+                            <GenBankId>P07399.1</GenBankId>
+                        </SourceMolecule>
+                        <SourceOrganismId>11627</SourceOrganismId>
+                    </FragmentOfANaturalSequenceMolecule>
+                </EpitopeStructure>
+                <LocationOfData>Page 1653</LocationOfData>
+                <EpitopeId>58282</EpitopeId>
+                <ReferenceStartingPosition>276</ReferenceStartingPosition>
+                <ReferenceEndingPosition>286</ReferenceEndingPosition>
+                <EpitopeEvidenceCode>Representative selection</EpitopeEvidenceCode>
+                <EpitopeStructureDefines>Exact Epitope</EpitopeStructureDefines>
+                <EpitopeComments>This epitope was defined previously by measurement of peptide bindng efficiency to H-2Db and CTL killing of peptide pulsed targets.</EpitopeComments>
+                <Assays>
+                    <TCell>
+                        <LocationOfData>Figure 1</LocationOfData>
+                        <TCellId>24168</TCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>10000067</OrganismId>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Administration in vivo</InVivoProcessType>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Source Organism</EpitopeRelation>
+                                    <Object>
+                                        <Organism>
+                                            <SubType>Organism</SubType>
+                                            <SourceOrganismId>11627</SourceOrganismId>
+                                        </Organism>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenEvidenceCode>Exact match to reference information</ImmunogenEvidenceCode>
+                            </FirstInVivoProcess>
+                            <ImmunizationComments>Mice were immunized by infection with LCMV-WE for 8 days.</ImmunizationComments>
+                        </Immunization>
+                        <EffectorCells>
+                            <CellTissueType>Spleen</CellTissueType>
+                            <CellType>Splenocyte</CellType>
+                            <CellCultureConditions>Direct Ex Vivo</CellCultureConditions>
+                        </EffectorCells>
+                        <AntigenPresentingCells>
+                            <CellTissueType>Lymphoid</CellTissueType>
+                            <CellType>T2 cells-Lymphoblast</CellType>
+                            <CellCultureConditions>Cell Line / Clone</CellCultureConditions>
+                            <AutologousOrSyngeneic>N</AutologousOrSyngeneic>
+                            <SourceOrganismId>9606</SourceOrganismId>
+                        </AntigenPresentingCells>
+                        <MhcAllele>
+                            <MhcAlleleId>172</MhcAlleleId>
+                            <MhcEvidenceCode>MHC binding assay</MhcEvidenceCode>
+                        </MhcAllele>
+                        <Antigen>
+                            <AntigenReferenceName>GP276-286</AntigenReferenceName>
+                            <AntigenObject>
+                                <EpitopeRelation>Epitope</EpitopeRelation>
+                                <Object>
+                                    <FragmentOfANaturalSequenceMolecule>
+                                        <ChemicalType>Peptide from protein</ChemicalType>
+                                        <LinearSequence>SGVENPGGYCL</LinearSequence>
+                                        <StartingPosition>276</StartingPosition>
+                                        <EndingPosition>286</EndingPosition>
+                                        <SourceMolecule>
+                                            <GenBankId>P07399.1</GenBankId>
+                                        </SourceMolecule>
+                                        <SourceOrganismId>11627</SourceOrganismId>
+                                    </FragmentOfANaturalSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Exact match to reference information</AntigenEvidenceCode>
+                        </Antigen>
+                        <AssayInformation>
+                            <AssayTypeId>67</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <AssayComments>Splenocytes collected from infected mice were able to recognize and lyse T2 targets pulsed with peptide presenting in the context of H-2Db.    Similar responses were observed when splenocytes were restimulated in vitro prior to testing cytotoxicity (Figure 1B,D).</AssayComments>
+                        </AssayInformation>
+                    </TCell>
+                </Assays>
+                <Assays>
+                    <TCell>
+                        <LocationOfData>Figure 8</LocationOfData>
+                        <TCellId>24196</TCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>10000067</OrganismId>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Administration in vivo</InVivoProcessType>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Source Organism</EpitopeRelation>
+                                    <Object>
+                                        <Organism>
+                                            <SubType>Organism</SubType>
+                                            <SourceOrganismId>11627</SourceOrganismId>
+                                        </Organism>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenEvidenceCode>Exact match to reference information</ImmunogenEvidenceCode>
+                            </FirstInVivoProcess>
+                            <InVitroAdministration>
+                                <ProcessType>Restimulation in vitro</ProcessType>
+                                <ResponderCellType>T cell</ResponderCellType>
+                                <StimulatorCellType>T2 cells-Lymphoblast</StimulatorCellType>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Epitope</EpitopeRelation>
+                                    <Object>
+                                        <FragmentOfANaturalSequenceMolecule>
+                                            <ChemicalType>Peptide from protein</ChemicalType>
+                                            <LinearSequence>SGVENPGGYCL</LinearSequence>
+                                            <StartingPosition>276</StartingPosition>
+                                            <EndingPosition>286</EndingPosition>
+                                            <SourceMolecule>
+                                                <GenBankId>P07399.1</GenBankId>
+                                            </SourceMolecule>
+                                            <SourceOrganismId>11627</SourceOrganismId>
+                                        </FragmentOfANaturalSequenceMolecule>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenEvidenceCode>Exact match to reference information</ImmunogenEvidenceCode>
+                            </InVitroAdministration>
+                            <ImmunizationComments>Mice were immunized by infection with LCMV-WE for 3 months.  Splenocytes were restimulated at 10-day intervals with irradiated, peptide-pulsed T2-Db cells as APCs.</ImmunizationComments>
+                        </Immunization>
+                        <EffectorCells>
+                            <CellTissueType>Spleen</CellTissueType>
+                            <CellType>T cell CD8+</CellType>
+                            <CellCultureConditions>Cell Line / Clone</CellCultureConditions>
+                        </EffectorCells>
+                        <AntigenPresentingCells>
+                            <CellTissueType>Spleen</CellTissueType>
+                            <CellType>Macrophage</CellType>
+                            <CellCultureConditions>Direct Ex Vivo</CellCultureConditions>
+                            <AutologousOrSyngeneic>Y</AutologousOrSyngeneic>
+                        </AntigenPresentingCells>
+                        <MhcAllele>
+                            <MhcAlleleId>172</MhcAlleleId>
+                            <MhcEvidenceCode>MHC binding assay</MhcEvidenceCode>
+                        </MhcAllele>
+                        <Antigen>
+                            <AntigenObject>
+                                <EpitopeRelation>Source Organism</EpitopeRelation>
+                                <Object>
+                                    <Organism>
+                                        <SubType>Organism</SubType>
+                                        <SourceOrganismId>11627</SourceOrganismId>
+                                    </Organism>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Exact match to reference information</AntigenEvidenceCode>
+                        </Antigen>
+                        <AssayInformation>
+                            <AssayTypeId>53</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <AssayComments>Expression of interferon gamma by GP276-286-specific CTL lines was analysed by flow cytometry following incubation with LCMV-infected macrophages.</AssayComments>
+                        </AssayInformation>
+                    </TCell>
+                </Assays>
+                <Assays>
+                    <MhcLigandElution>
+                        <LocationOfData>Figure 2</LocationOfData>
+                        <MhcLigandElutionId>24190</MhcLigandElutionId>
+                        <HostOrganism>
+                            <OrganismId>10090</OrganismId>
+                        </HostOrganism>
+                        <InVivoProcess>
+                            <InVivoProcessType>No immunization</InVivoProcessType>
+                        </InVivoProcess>
+                        <InVitroAdministration>
+                            <ProcessType>Antigen administered in vitro</ProcessType>
+                            <ProcessedAntigenObject>
+                                <EpitopeRelation>Source Organism</EpitopeRelation>
+                                <Object>
+                                    <Organism>
+                                        <SubType>Organism</SubType>
+                                        <SourceOrganismId>11627</SourceOrganismId>
+                                    </Organism>
+                                </Object>
+                            </ProcessedAntigenObject>
+                            <ProcessedAntigenEvidenceCode>Exact match to reference information</ProcessedAntigenEvidenceCode>
+                        </InVitroAdministration>
+                        <MhcLigand>
+                            <MhcLigandReferenceName>GP276-286</MhcLigandReferenceName>
+                            <MhcLigandObject>
+                                <EpitopeRelation>Epitope</EpitopeRelation>
+                                <Object>
+                                    <FragmentOfANaturalSequenceMolecule>
+                                        <ChemicalType>Peptide from protein</ChemicalType>
+                                        <LinearSequence>SGVENPGGYCL</LinearSequence>
+                                        <StartingPosition>276</StartingPosition>
+                                        <EndingPosition>286</EndingPosition>
+                                        <SourceMolecule>
+                                            <GenBankId>P07399.1</GenBankId>
+                                        </SourceMolecule>
+                                        <SourceOrganismId>11627</SourceOrganismId>
+                                    </FragmentOfANaturalSequenceMolecule>
+                                </Object>
+                            </MhcLigandObject>
+                        </MhcLigand>
+                        <AntigenPresentingCells>
+                            <CellTissueType>Other</CellTissueType>
+                            <CellType>Other</CellType>
+                            <CellCultureConditions>Cell Line / Clone</CellCultureConditions>
+                        </AntigenPresentingCells>
+                        <MhcAllele>
+                            <MhcAlleleId>172</MhcAlleleId>
+                            <MhcEvidenceCode>Antibody purification</MhcEvidenceCode>
+                        </MhcAllele>
+                        <AssayInformation>
+                            <AssayTypeId>92</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <AssayComments>Natural H-2Db-restricted GP276-286 was eluted by immunoaffinity chromatography and then separated by reverse-phase HPLC from Db molecules purified from LCMV-infected MC57 cells.  Peptide coeluted with its corresponding active fraction.  A total of 64pg of peptide was recovered from 10e9 infected MC57 cells (Summary of figure 4).</AssayComments>
+                        </AssayInformation>
+                    </MhcLigandElution>
+                </Assays>
+            </Epitope>
+            <Epitope>
+                <EpitopeName>NP396-404</EpitopeName>
+                <EpitopeStructure>
+                    <FragmentOfANaturalSequenceMolecule>
+                        <ChemicalType>Peptide from protein</ChemicalType>
+                        <LinearSequence>FQPQNGQFI</LinearSequence>
+                        <StartingPosition>396</StartingPosition>
+                        <EndingPosition>404</EndingPosition>
+                        <SourceMolecule>
+                            <GenBankId>P07400.1</GenBankId>
+                        </SourceMolecule>
+                        <SourceOrganismId>11627</SourceOrganismId>
+                    </FragmentOfANaturalSequenceMolecule>
+                </EpitopeStructure>
+                <LocationOfData>Page 1653</LocationOfData>
+                <EpitopeId>17516</EpitopeId>
+                <ReferenceStartingPosition>396</ReferenceStartingPosition>
+                <ReferenceEndingPosition>404</ReferenceEndingPosition>
+                <EpitopeEvidenceCode>Representative selection</EpitopeEvidenceCode>
+                <EpitopeStructureDefines>Exact Epitope</EpitopeStructureDefines>
+                <EpitopeComments>This epitope was defined previously by measurement of peptide binding efficiency to H-2Db and CTL killing of peptide pulsed targets.</EpitopeComments>
+                <Assays>
+                    <TCell>
+                        <LocationOfData>Figure 1</LocationOfData>
+                        <TCellId>24169</TCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>10000067</OrganismId>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Administration in vivo</InVivoProcessType>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Source Organism</EpitopeRelation>
+                                    <Object>
+                                        <Organism>
+                                            <SubType>Organism</SubType>
+                                            <SourceOrganismId>11627</SourceOrganismId>
+                                        </Organism>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenEvidenceCode>Exact match to reference information</ImmunogenEvidenceCode>
+                            </FirstInVivoProcess>
+                            <ImmunizationComments>Mice were immunized by infection with LCMV-WE for 8 days.</ImmunizationComments>
+                        </Immunization>
+                        <EffectorCells>
+                            <CellTissueType>Spleen</CellTissueType>
+                            <CellType>Splenocyte</CellType>
+                            <CellCultureConditions>Direct Ex Vivo</CellCultureConditions>
+                        </EffectorCells>
+                        <AntigenPresentingCells>
+                            <CellTissueType>Lymphoid</CellTissueType>
+                            <CellType>T2 cells-Lymphoblast</CellType>
+                            <CellCultureConditions>Cell Line / Clone</CellCultureConditions>
+                            <AutologousOrSyngeneic>N</AutologousOrSyngeneic>
+                            <SourceOrganismId>9606</SourceOrganismId>
+                        </AntigenPresentingCells>
+                        <MhcAllele>
+                            <MhcAlleleId>172</MhcAlleleId>
+                            <MhcEvidenceCode>MHC binding assay</MhcEvidenceCode>
+                        </MhcAllele>
+                        <Antigen>
+                            <AntigenReferenceName>NP396-404</AntigenReferenceName>
+                            <AntigenObject>
+                                <EpitopeRelation>Epitope</EpitopeRelation>
+                                <Object>
+                                    <FragmentOfANaturalSequenceMolecule>
+                                        <ChemicalType>Peptide from protein</ChemicalType>
+                                        <LinearSequence>FQPQNGQFI</LinearSequence>
+                                        <StartingPosition>396</StartingPosition>
+                                        <EndingPosition>404</EndingPosition>
+                                        <SourceMolecule>
+                                            <GenBankId>P07400.1</GenBankId>
+                                        </SourceMolecule>
+                                        <SourceOrganismId>11627</SourceOrganismId>
+                                    </FragmentOfANaturalSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Exact match to reference information</AntigenEvidenceCode>
+                        </Antigen>
+                        <AssayInformation>
+                            <AssayTypeId>67</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <AssayComments>Splenocytes collected from infected mice were able to recognize and lyse T2 targets pulsed with peptide presenting in the context of H-2Db.  Similar responses were observed when splenocytes were restimulated in vitro prior to testing cytotoxicity (Figure 1B,D).</AssayComments>
+                        </AssayInformation>
+                    </TCell>
+                </Assays>
+                <Assays>
+                    <TCell>
+                        <LocationOfData>Figure 8</LocationOfData>
+                        <TCellId>24197</TCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>10000067</OrganismId>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Administration in vivo</InVivoProcessType>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Source Organism</EpitopeRelation>
+                                    <Object>
+                                        <Organism>
+                                            <SubType>Organism</SubType>
+                                            <SourceOrganismId>11627</SourceOrganismId>
+                                        </Organism>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenEvidenceCode>Exact match to reference information</ImmunogenEvidenceCode>
+                            </FirstInVivoProcess>
+                            <InVitroAdministration>
+                                <ProcessType>Restimulation in vitro</ProcessType>
+                                <ResponderCellType>T cell</ResponderCellType>
+                                <StimulatorCellType>T2 cells-Lymphoblast</StimulatorCellType>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Epitope</EpitopeRelation>
+                                    <Object>
+                                        <FragmentOfANaturalSequenceMolecule>
+                                            <ChemicalType>Peptide from protein</ChemicalType>
+                                            <LinearSequence>FQPQNGQFI</LinearSequence>
+                                            <StartingPosition>396</StartingPosition>
+                                            <EndingPosition>404</EndingPosition>
+                                            <SourceMolecule>
+                                                <GenBankId>P07400.1</GenBankId>
+                                            </SourceMolecule>
+                                            <SourceOrganismId>11627</SourceOrganismId>
+                                        </FragmentOfANaturalSequenceMolecule>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenEvidenceCode>Exact match to reference information</ImmunogenEvidenceCode>
+                            </InVitroAdministration>
+                            <ImmunizationComments>Mice were immunized by infection with LCMV-WE for 3 months.  Splenocytes were restimulated at 10-day intervals with irradiated, peptide-pulsed T2-Db cells as APCs.</ImmunizationComments>
+                        </Immunization>
+                        <EffectorCells>
+                            <CellTissueType>Spleen</CellTissueType>
+                            <CellType>T cell CD8+</CellType>
+                            <CellCultureConditions>Cell Line / Clone</CellCultureConditions>
+                        </EffectorCells>
+                        <AntigenPresentingCells>
+                            <CellTissueType>Spleen</CellTissueType>
+                            <CellType>Macrophage</CellType>
+                            <CellCultureConditions>Direct Ex Vivo</CellCultureConditions>
+                            <AutologousOrSyngeneic>Y</AutologousOrSyngeneic>
+                        </AntigenPresentingCells>
+                        <MhcAllele>
+                            <MhcAlleleId>172</MhcAlleleId>
+                            <MhcEvidenceCode>MHC binding assay</MhcEvidenceCode>
+                        </MhcAllele>
+                        <Antigen>
+                            <AntigenObject>
+                                <EpitopeRelation>Source Organism</EpitopeRelation>
+                                <Object>
+                                    <Organism>
+                                        <SubType>Organism</SubType>
+                                        <SourceOrganismId>11627</SourceOrganismId>
+                                    </Organism>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Exact match to reference information</AntigenEvidenceCode>
+                        </Antigen>
+                        <AssayInformation>
+                            <AssayTypeId>53</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <AssayComments>Expression of interferon gamma by NP396-404-specific CTL lines was analysed by flow cytometry following incubation with LCMV-infected macrophages.</AssayComments>
+                        </AssayInformation>
+                    </TCell>
+                </Assays>
+                <Assays>
+                    <MhcLigandElution>
+                        <LocationOfData>Figure 2</LocationOfData>
+                        <MhcLigandElutionId>24191</MhcLigandElutionId>
+                        <HostOrganism>
+                            <OrganismId>10090</OrganismId>
+                        </HostOrganism>
+                        <InVivoProcess>
+                            <InVivoProcessType>No immunization</InVivoProcessType>
+                        </InVivoProcess>
+                        <InVitroAdministration>
+                            <ProcessType>Antigen administered in vitro</ProcessType>
+                            <ProcessedAntigenObject>
+                                <EpitopeRelation>Source Organism</EpitopeRelation>
+                                <Object>
+                                    <Organism>
+                                        <SubType>Organism</SubType>
+                                        <SourceOrganismId>11627</SourceOrganismId>
+                                    </Organism>
+                                </Object>
+                            </ProcessedAntigenObject>
+                            <ProcessedAntigenEvidenceCode>Exact match to reference information</ProcessedAntigenEvidenceCode>
+                        </InVitroAdministration>
+                        <MhcLigand>
+                            <MhcLigandReferenceName>NP396-404</MhcLigandReferenceName>
+                            <MhcLigandObject>
+                                <EpitopeRelation>Epitope</EpitopeRelation>
+                                <Object>
+                                    <FragmentOfANaturalSequenceMolecule>
+                                        <ChemicalType>Peptide from protein</ChemicalType>
+                                        <LinearSequence>FQPQNGQFI</LinearSequence>
+                                        <StartingPosition>396</StartingPosition>
+                                        <EndingPosition>404</EndingPosition>
+                                        <SourceMolecule>
+                                            <GenBankId>P07400.1</GenBankId>
+                                        </SourceMolecule>
+                                        <SourceOrganismId>11627</SourceOrganismId>
+                                    </FragmentOfANaturalSequenceMolecule>
+                                </Object>
+                            </MhcLigandObject>
+                        </MhcLigand>
+                        <AntigenPresentingCells>
+                            <CellTissueType>Other</CellTissueType>
+                            <CellType>Other</CellType>
+                            <CellCultureConditions>Cell Line / Clone</CellCultureConditions>
+                        </AntigenPresentingCells>
+                        <MhcAllele>
+                            <MhcAlleleId>172</MhcAlleleId>
+                            <MhcEvidenceCode>Antibody purification</MhcEvidenceCode>
+                        </MhcAllele>
+                        <AssayInformation>
+                            <AssayTypeId>92</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <AssayComments>Natural H-2Db-restricted NP396-404 was eluted by immunoaffinity chromatography and then separated by reverse-phase HPLC from Db molecules purified from LCMV-infected MC57 cells.  Peptide coeluted with its corresponding active fraction.  A total of 154pg of peptide was recovered from 10e9 infected MC57 cells (Summary of figure 4).</AssayComments>
+                        </AssayInformation>
+                    </MhcLigandElution>
+                </Assays>
+            </Epitope>
+        </Epitopes>
+    </Reference>
+</References>
+

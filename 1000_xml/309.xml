@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<References xsi:schemaLocation="http://www.iedb.org/schema/CurationSchema http://beta.iedb.org/schema/Curation.xsd" xmlns="http://www.iedb.org/schema/CurationSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <Reference>
+        <ReferenceId>309</ReferenceId>
+        <DateLastUpdated>2020-09-10-07:00</DateLastUpdated>
+        <Article>
+            <PubmedId>15534202</PubmedId>
+            <Abstract>The alpha/beta T cell receptor complex transmits signals from MHC/peptide antigens through a set of constitutively associated signaling molecules, including CD3-epsilon/gamma and CD3-epsilon/delta. We report the crystal structure at 1.9-A resolution of a complex between a human CD3-epsilon/delta ectodomain heterodimer and a single-chain fragment of the UCHT1 antibody. CD3-epsilon/delta and CD3-epsilon/gamma share a conserved interface between the Ig-fold ectodomains, with parallel packing of the two G strands. CD3-delta has a more electronegative surface and a more compact Ig fold than CD3-gamma; thus, the two CD3 heterodimers have distinctly different molecular surfaces. The UCHT1 antibody binds near an acidic region of CD3-epsilon opposite the dimer interface, occluding this region from direct interaction with the TCR. This immunodominant epitope may be a uniquely accessible surface in the TCR/CD3 complex, because there is overlap between the binding site of the UCHT1 and OKT3 antibodies. Determination of the CD3-epsilon/delta structure completes the set of TCR/CD3 globular ectodomains and contributes information about exposed CD3 surfaces.</Abstract>
+            <ArticleYear>2004</ArticleYear>
+            <ArticlePages>16268-73</ArticlePages>
+            <ArticleTitle>Crystal structure of a human CD3-epsilon/delta dimer in complex with a UCHT1 single-chain antibody fragment.</ArticleTitle>
+            <Authors>
+                <Author>
+                    <LastName>Arnett</LastName>
+                    <ForeName>Kelly L</ForeName>
+                </Author>
+                <Author>
+                    <LastName>Harrison</LastName>
+                    <ForeName>Stephen C</ForeName>
+                </Author>
+                <Author>
+                    <LastName>Wiley</LastName>
+                    <ForeName>Don C</ForeName>
+                </Author>
+            </Authors>
+            <Affiliations>Department of Biological Chemistry and Molecular Pharmacology, Howard Hughes Medical Institute, Harvard Medical School, 250 Longwood Avenue, Boston, MA 02115, USA. arnett@crystal.harvard.edu.</Affiliations>
+            <ArticleChemicalList>CD3 Complex;CD3E protein, human;CD3delta antigen;Immunoglobulin Fragments;Multiprotein Complexes;Receptors, Antigen, T-Cell, alpha-beta;Recombinant Proteins;immunoglobulin Fv</ArticleChemicalList>
+            <ArticleMeshHeadingsList>CD3 Complex(chemistry); Crystallography, X-Ray; Dimerization; Humans; Immunoglobulin Fragments(chemistry); Models, Molecular; Multiprotein Complexes; Protein Folding; Protein Structure, Quaternary; Receptors, Antigen, T-Cell, alpha-beta(chemistry); Recombinant Proteins(chemistry); Static Electricity</ArticleMeshHeadingsList>
+            <Journal>
+                <Volume>101</Volume>
+                <Issue>46</Issue>
+                <Title>Proceedings of the National Academy of Sciences of the United States of America</Title>
+                <Issn>0027-8424</Issn>
+                <MedlineTa>Proc Natl Acad Sci U S A</MedlineTa>
+            </Journal>
+        </Article>
+        <Epitopes>
+            <Epitope>
+                <EpitopeName>UCHT1 scFv epitope on CD3-epsilon chain</EpitopeName>
+                <EpitopeStructure>
+                    <DiscontinuousRegionOnAccessionSequenceMolecule>
+                        <ChemicalType>Discontinuous protein residues</ChemicalType>
+                        <DiscontinuousResidues>E56, N65, I66, G68, D69, E70, S77, Y99, R101, G102, S103, K104, P105, E106, D107</DiscontinuousResidues>
+                        <SourceMolecule>
+                            <GenBankId>P07766.2</GenBankId>
+                        </SourceMolecule>
+                        <SourceOrganismId>9606</SourceOrganismId>
+                    </DiscontinuousRegionOnAccessionSequenceMolecule>
+                </EpitopeStructure>
+                <LocationOfData>PDB 1XIW</LocationOfData>
+                <EpitopeId>77461</EpitopeId>
+                <ReferenceRegion>E35, N44, I45, G47, D48, E49, S56, Y78, R80, G81, S82, K83, P84, E85, D86</ReferenceRegion>
+                <EpitopeEvidenceCode>Representative selection</EpitopeEvidenceCode>
+                <EpitopeStructureDefines>Exact Epitope</EpitopeStructureDefines>
+                <Assays>
+                    <BCell>
+                        <LocationOfData>Figures 1, 4 and PDB 1XIW</LocationOfData>
+                        <BCellId>165</BCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>10000000</OrganismId>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Administration in vivo</InVivoProcessType>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Source Antigen</EpitopeRelation>
+                                    <Object>
+                                        <AccessionSequenceMolecule>
+                                            <ChemicalType>Protein</ChemicalType>
+                                            <Molecule>
+                                                <GenBankId>P07766.2</GenBankId>
+                                            </Molecule>
+                                            <SourceOrganismId>9606</SourceOrganismId>
+                                        </AccessionSequenceMolecule>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenReferenceName>Thymocytes</ImmunogenReferenceName>
+                                <ImmunogenEvidenceCode>Representative selection</ImmunogenEvidenceCode>
+                                <ImmunogenContainingObject>
+                                    <Cell>
+                                        <SubType>Cell</SubType>
+                                        <CellType>T cell</CellType>
+                                        <CellTissueType>Thymus</CellTissueType>
+                                        <CellCultureConditions>Direct Ex Vivo</CellCultureConditions>
+                                        <CellSourceOrganismId>9606</CellSourceOrganismId>
+                                    </Cell>
+                                </ImmunogenContainingObject>
+                                <Route>Intraperitoneal (i.p.)</Route>
+                                <DoseSchedule>3 doses of 10&lt;sup&gt;7&lt;/sup&gt; cells</DoseSchedule>
+                            </FirstInVivoProcess>
+                            <ImmunizationComments>Generation of the monoclonal antibody was previously described in the reference cited: Beverley and Callard (1981) Eur J Immunol 11:329-344 [PMID: 6788570]. The first 2 doses were with human infant thymocytes, and the third dose was with PBL from a patient with Sezary disease.</ImmunizationComments>
+                        </Immunization>
+                        <AssayInformation>
+                            <AssayTypeId>436</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <QuantitativeMeasurement>1.9</QuantitativeMeasurement>
+                            <MeasurementInequality>=</MeasurementInequality>
+                            <AssayComments>The epitope of UCHT1 scFv on the CD3 epsilon chain was determined from the crystal structure of the scFv bound to the CD3 εδ ectodomains heterodimer, solved by molecular replacement. The asymmetric unit contains two scFv-antigen complexes: (1) Antibody chains C,D and antigen chains A,B; (2) Antibody chains G,H and antigen chains E,F. The epitope is located on ε chain of the heterodimer only (chains A and E). It overlaps (includes) the epitope on CD3-epsilon recognized by OKT3 Fab [PDB: 1SY6].</AssayComments>
+                        </AssayInformation>
+                        <AssayedAntibody>
+                            <AssayedAntibodySourceMaterial>Purified Immunoglobulin</AssayedAntibodySourceMaterial>
+                            <AssayedAntibodyImmunoglobulinDomain>scFv</AssayedAntibodyImmunoglobulinDomain>
+                            <AssayedAntibodyPurificationStatus>Monoclonal</AssayedAntibodyPurificationStatus>
+                            <AssayedAntibodyName>UCHT1</AssayedAntibodyName>
+                            <AssayedAntibodyHeavyChainType>IgG1</AssayedAntibodyHeavyChainType>
+                            <AssayedAntibodyLightChainType>Kappa</AssayedAntibodyLightChainType>
+                            <AssayedAntibodyObject>
+                                <MultiChainMolecule>
+                                    <ChemicalType>Multi-Chain protein</ChemicalType>
+                                    <MoleculeName>UCHT1</MoleculeName>
+                                    <Chain1>
+                                        <Molecule>
+                                            <GenBankId>1XIW_H</GenBankId>
+                                        </Molecule>
+                                        <SourceOrganismId>10090</SourceOrganismId>
+                                    </Chain1>
+                                    <Chain2>
+                                        <Molecule>
+                                            <GenBankId>1XIW_G</GenBankId>
+                                        </Molecule>
+                                        <SourceOrganismId>10090</SourceOrganismId>
+                                    </Chain2>
+                                </MultiChainMolecule>
+                            </AssayedAntibodyObject>
+                        </AssayedAntibody>
+                        <Antigen>
+                            <AntigenReferenceName>CD3 εδ ectodomains heterodimer</AntigenReferenceName>
+                            <AntigenConformation>Native</AntigenConformation>
+                            <AntigenObject>
+                                <EpitopeRelation>Source Antigen</EpitopeRelation>
+                                <Object>
+                                    <AccessionSequenceMolecule>
+                                        <ChemicalType>Protein</ChemicalType>
+                                        <Molecule>
+                                            <GenBankId>P07766.2</GenBankId>
+                                        </Molecule>
+                                        <SourceOrganismId>9606</SourceOrganismId>
+                                    </AccessionSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Representative selection</AntigenEvidenceCode>
+                            <AntigenContainingObject>
+                                <ComplexedMolecule>
+                                    <ComplexType>Protein conjugate</ComplexType>
+                                    <PeptideModifications/>
+                                    <SourceMolecule>
+                                        <GenBankId>P04234.1</GenBankId>
+                                    </SourceMolecule>
+                                    <MoleculeSourceOrganismId>9606</MoleculeSourceOrganismId>
+                                </ComplexedMolecule>
+                            </AntigenContainingObject>
+                        </Antigen>
+                        <ThreeDimensionalStructureOfComplex>
+                            <ComplexPdbId>1XIW</ComplexPdbId>
+                            <AntibodyChain1PdbChain>D</AntibodyChain1PdbChain>
+                            <AntibodyChain2PdbChain>C</AntibodyChain2PdbChain>
+                            <AntigenChainPdbChain>A</AntigenChainPdbChain>
+                            <ViewerFlag>Y</ViewerFlag>
+                            <Comments>Contacts between chain F, which is δ-chain of the second heterodimer in the structure, and this Fab (chains D,C) are crystal contacts.</Comments>
+                            <CuratedContacts>
+                                <EpitopeResidues>A: E35, N44, I45, G47, D48, E49, S56, Y78, R80, G81, S82, K83, P84, E85, D86</EpitopeResidues>
+                                <AntibodyResiduesInteractingWithAntigen>D: ; C: ;</AntibodyResiduesInteractingWithAntigen>
+                                <InteractingAtomPairs>&lt;?xml version="1.0" encoding="UTF-8" standalone="yes"?&gt;
+&lt;dataroot generated="Aug 15, 2006"&gt;
+    &lt;contacts_xxxx&gt;
+        &lt;AtomPairID&gt;1&lt;/AtomPairID&gt;
+        &lt;BindingID&gt;1&lt;/BindingID&gt;
+        &lt;PDB_ID&gt;1xiw&lt;/PDB_ID&gt;
+        &lt;Antigen_Chain&gt;x&lt;/Antigen_Chain&gt;
+        &lt;Antigen_Residue&gt;x&lt;/Antigen_Residue&gt;
+        &lt;Antigen_Residue_Position&gt;x&lt;/Antigen_Residue_Position&gt;
+        &lt;Antigen_Residue_Atom&gt;x&lt;/Antigen_Residue_Atom&gt;
+        &lt;Immunoglobulin_Chain&gt;x&lt;/Immunoglobulin_Chain&gt;
+        &lt;Immunoglobulin_Residue&gt;x&lt;/Immunoglobulin_Residue&gt;
+        &lt;Immunoglobulin_Residue_Position&gt;x&lt;/Immunoglobulin_Residue_Position&gt;
+        &lt;Immunoglobulin_Residue_Atom&gt;x&lt;/Immunoglobulin_Residue_Atom&gt;
+        &lt;Contact_Type/&gt;
+    &lt;/contacts_xxxx&gt;
+&lt;/dataroot&gt;</InteractingAtomPairs>
+                            </CuratedContacts>
+                            <CalculatedContacts>
+                                <EpitopeResidues>A: E35, N44, I45, G46, G47, D48, E49, S56, D57, Y78, R80, G81, S82, K83, P84, E85, D86</EpitopeResidues>
+                                <AntibodyResiduesInteractingWithAntigen>C: R31, Y33, G92, N93, L95, W97; D: T30, T33, L50, N52, Y54, K55, V57, Y101, Y102, G103, D104, D106, W107</AntibodyResiduesInteractingWithAntigen>
+                                <ContactAreaForAntigen>799.1</ContactAreaForAntigen>
+                                <ContactAreaForAntibody>741.5</ContactAreaForAntibody>
+                            </CalculatedContacts>
+                        </ThreeDimensionalStructureOfComplex>
+                    </BCell>
+                </Assays>
+            </Epitope>
+        </Epitopes>
+    </Reference>
+</References>
+

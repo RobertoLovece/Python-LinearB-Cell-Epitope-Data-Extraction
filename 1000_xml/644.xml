@@ -1,0 +1,514 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<References xsi:schemaLocation="http://www.iedb.org/schema/CurationSchema http://beta.iedb.org/schema/Curation.xsd" xmlns="http://www.iedb.org/schema/CurationSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <Reference>
+        <ReferenceId>644</ReferenceId>
+        <DateLastUpdated>2020-09-10-07:00</DateLastUpdated>
+        <Article>
+            <PubmedId>15494519</PubmedId>
+            <Abstract>The T cell response to infection consists of clonal expansion of effector cells, followed by contraction to memory levels. It was previously thought that the duration of infection determines the magnitude and kinetics of the T cell response. However, recent analysis revealed that transition between the expansion and contraction phases of the Ag-specific CD8+ T cell response is not affected by experimental manipulation in the duration of infection or Ag display. We studied whether the duration of infection and Ag display influenced the kinetics of the Ag-specific CD4+ T cell response to Listeria monocytogenes (LM) infection. We found that truncating infection and Ag display with antibiotic treatment as early as 24 h postinfection had minimal impact on the expansion or contraction of CD4+ T cells; however, the magnitudes of the Ag-specific CD4+ and CD8+ T cell responses were differentially affected by the timing of antibiotic treatment. Treatment of LM-infected mice with antibiotics at 24 h postinfection did not prevent generation of detectable CD4+ and CD8+ memory T cells at 28 days after infection, vigorous secondary expansion of these memory T cells, or protection against a subsequent LM challenge. These results demonstrate that events within the first few days of infection stimulate CD4+ and CD8+ T cell responses that are capable of carrying out the full program of expansion and contraction to functional memory, independently of prolonged infection or Ag display.</Abstract>
+            <ArticleYear>2004</ArticleYear>
+            <ArticlePages>5679-87</ArticlePages>
+            <ArticleTitle>Duration of infection and antigen display have minimal influence on the kinetics of the CD4+ T cell response to Listeria monocytogenes infection.</ArticleTitle>
+            <Authors>
+                <Author>
+                    <LastName>Corbin</LastName>
+                    <ForeName>Gail A</ForeName>
+                </Author>
+                <Author>
+                    <LastName>Harty</LastName>
+                    <ForeName>John T</ForeName>
+                </Author>
+            </Authors>
+            <Affiliations>Department of Microbiology, University of Iowa, Iowa City, IA 52242, USA.</Affiliations>
+            <ArticleChemicalList>Antigens, Bacterial;Bacterial Toxins;Epitopes, T-Lymphocyte;Heat-Shock Proteins;Hemolysin Proteins;Histocompatibility Antigens Class I;Peptide Fragments;Ampicillin;hlyA protein, Listeria monocytogenes</ArticleChemicalList>
+            <ArticleMeshHeadingsList>Ampicillin(administration &amp; dosage); Animals; Antigens, Bacterial(immunology; metabolism); Bacterial Toxins(immunology; metabolism); CD4-Positive T-Lymphocytes(immunology; metabolism; microbiology); CD8-Positive T-Lymphocytes(immunology; metabolism; microbiology); Cell Line; Epitopes, T-Lymphocyte(immunology; metabolism); Female; Heat-Shock Proteins(immunology; metabolism); Hemolysin Proteins; Histocompatibility Antigens Class I(immunology; metabolism); Immunization, Secondary; Immunologic Memory; Kinetics; Listeria monocytogenes(drug effects; growth &amp; development; immunology); Listeriosis(drug therapy; immunology; microbiology); Male; Mice; Mice, Inbred C57BL; Peptide Fragments(immunology; metabolism)</ArticleMeshHeadingsList>
+            <Journal>
+                <Volume>173</Volume>
+                <Issue>9</Issue>
+                <Title>Journal of immunology (Baltimore, Md. : 1950)</Title>
+                <Issn>0022-1767</Issn>
+                <MedlineTa>J Immunol</MedlineTa>
+            </Journal>
+        </Article>
+        <Epitopes>
+            <Epitope>
+                <EpitopeName>LLO&lt;sub&gt;190-201&lt;/sub&gt;</EpitopeName>
+                <EpitopeStructure>
+                    <FragmentOfANaturalSequenceMolecule>
+                        <ChemicalType>Peptide from protein</ChemicalType>
+                        <LinearSequence>NEKYAQAYPNVS</LinearSequence>
+                        <StartingPosition>190</StartingPosition>
+                        <EndingPosition>201</EndingPosition>
+                        <SourceMolecule>
+                            <GenBankId>P13128.1</GenBankId>
+                        </SourceMolecule>
+                        <SourceOrganismId>1639</SourceOrganismId>
+                    </FragmentOfANaturalSequenceMolecule>
+                </EpitopeStructure>
+                <LocationOfData>Materials and methods</LocationOfData>
+                <EpitopeId>43662</EpitopeId>
+                <ReferenceStartingPosition>190</ReferenceStartingPosition>
+                <ReferenceEndingPosition>201</ReferenceEndingPosition>
+                <EpitopeEvidenceCode>Representative selection</EpitopeEvidenceCode>
+                <EpitopeStructureDefines>Exact Epitope</EpitopeStructureDefines>
+                <Assays>
+                    <TCell>
+                        <LocationOfData>Figure 1</LocationOfData>
+                        <TCellId>6296</TCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>10000067</OrganismId>
+                                <Age>6-10 weeks</Age>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Administration in vivo</InVivoProcessType>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Source Organism</EpitopeRelation>
+                                    <Object>
+                                        <Organism>
+                                            <SubType>Organism</SubType>
+                                            <SourceOrganismId>1639</SourceOrganismId>
+                                        </Organism>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenReferenceName>Recombinant LM expressing secreted OVA protein (rLM-OVA)</ImmunogenReferenceName>
+                                <ImmunogenEvidenceCode>Representative selection</ImmunogenEvidenceCode>
+                                <Route>Intravenous (i.v.)</Route>
+                                <DoseSchedule>1 dose of 10^4 CFU.</DoseSchedule>
+                            </FirstInVivoProcess>
+                            <InVitroAdministration>
+                                <ProcessType>Restimulation in vitro</ProcessType>
+                                <ResponderCellType>Splenocyte</ResponderCellType>
+                                <StimulatorCellType>Splenocyte</StimulatorCellType>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Epitope</EpitopeRelation>
+                                    <Object>
+                                        <FragmentOfANaturalSequenceMolecule>
+                                            <ChemicalType>Peptide from protein</ChemicalType>
+                                            <LinearSequence>NEKYAQAYPNVS</LinearSequence>
+                                            <StartingPosition>190</StartingPosition>
+                                            <EndingPosition>201</EndingPosition>
+                                            <SourceMolecule>
+                                                <GenBankId>P13128.1</GenBankId>
+                                            </SourceMolecule>
+                                            <SourceOrganismId>1639</SourceOrganismId>
+                                        </FragmentOfANaturalSequenceMolecule>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenEvidenceCode>Exact match to reference information</ImmunogenEvidenceCode>
+                            </InVitroAdministration>
+                            <ImmunizationComments>The epitope specific CD4+ T cell line was generated by stimulating splenocytes from  rLM-OVA (recombinant LM expressing secreted OVA protein) infected B6 mice with the epitope in vitro. This CFSE-labeled T cell line was mixed with splenocytes from infected mice, which were treated with or without ampicillin.</ImmunizationComments>
+                        </Immunization>
+                        <EffectorCells>
+                            <CellTissueType>Spleen</CellTissueType>
+                            <CellType>T cell CD4+</CellType>
+                            <CellCultureConditions>Cell Line / Clone</CellCultureConditions>
+                        </EffectorCells>
+                        <AntigenPresentingCells>
+                            <CellTissueType>Spleen</CellTissueType>
+                            <CellType>Splenocyte</CellType>
+                            <CellCultureConditions>Direct Ex Vivo</CellCultureConditions>
+                            <AutologousOrSyngeneic>Y</AutologousOrSyngeneic>
+                        </AntigenPresentingCells>
+                        <MhcAllele>
+                            <MhcAlleleId>181</MhcAlleleId>
+                            <MhcEvidenceCode>Cited reference</MhcEvidenceCode>
+                        </MhcAllele>
+                        <Antigen>
+                            <AntigenObject>
+                                <EpitopeRelation>Epitope</EpitopeRelation>
+                                <Object>
+                                    <FragmentOfANaturalSequenceMolecule>
+                                        <ChemicalType>Peptide from protein</ChemicalType>
+                                        <LinearSequence>NEKYAQAYPNVS</LinearSequence>
+                                        <StartingPosition>190</StartingPosition>
+                                        <EndingPosition>201</EndingPosition>
+                                        <SourceMolecule>
+                                            <GenBankId>P13128.1</GenBankId>
+                                        </SourceMolecule>
+                                        <SourceOrganismId>1639</SourceOrganismId>
+                                    </FragmentOfANaturalSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Exact match to reference information</AntigenEvidenceCode>
+                        </Antigen>
+                        <AssayInformation>
+                            <AssayTypeId>53</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <AssayComments>The epitope specific CD4+ T cells responded to the epitope in a dose-dependent manner. Ampicillin treatment at 24 h caused a rapid reduction of the epitope amount displayed on the splenocytes from the infected mice and the epitope amount fell below the level of detection on day 5, at least 2 days earlier than in control mice. CD11c+ DCs accounted for some of the epitope detectable in the spleen.</AssayComments>
+                        </AssayInformation>
+                    </TCell>
+                </Assays>
+                <Assays>
+                    <TCell>
+                        <LocationOfData>Figures 1, 2, 3, 4 and 5</LocationOfData>
+                        <TCellId>1851709</TCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>10000067</OrganismId>
+                                <Age>6-10 weeks</Age>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Administration in vivo</InVivoProcessType>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Source Organism</EpitopeRelation>
+                                    <Object>
+                                        <Organism>
+                                            <SubType>Organism</SubType>
+                                            <SourceOrganismId>1639</SourceOrganismId>
+                                        </Organism>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenReferenceName>Recombinant LM expressing secreted OVA protein (rLM-OVA)</ImmunogenReferenceName>
+                                <ImmunogenEvidenceCode>Representative selection</ImmunogenEvidenceCode>
+                                <Route>Intravenous (i.v.)</Route>
+                                <DoseSchedule>1 dose of 10^4 CFU.</DoseSchedule>
+                            </FirstInVivoProcess>
+                            <ImmunizationComments>Mice infected with rLM-OVA (recombinant LM expressing secreted OVA protein) were treated with or without ampicillin, some of these mice were challenged with rLM-OVA 28 days later. In a separate experiment, memory CD4 T cells from rLM-OVA infected mice were mixed with graded numbers of splenocytes from mice 1 and 3 days after rLM-OVA infection or from mice 3 days after infection that had received ampicillin treatment at 24 h postinfection.</ImmunizationComments>
+                        </Immunization>
+                        <EffectorCells>
+                            <CellTissueType>Spleen</CellTissueType>
+                            <CellType>T cell CD4+</CellType>
+                            <CellCultureConditions>Direct Ex Vivo</CellCultureConditions>
+                        </EffectorCells>
+                        <AntigenPresentingCells>
+                            <CellTissueType>Spleen</CellTissueType>
+                            <CellType>Splenocyte</CellType>
+                            <CellCultureConditions>Direct Ex Vivo</CellCultureConditions>
+                            <AutologousOrSyngeneic>Y</AutologousOrSyngeneic>
+                        </AntigenPresentingCells>
+                        <MhcAllele>
+                            <MhcAlleleId>181</MhcAlleleId>
+                            <MhcEvidenceCode>Cited reference</MhcEvidenceCode>
+                        </MhcAllele>
+                        <Antigen>
+                            <AntigenObject>
+                                <EpitopeRelation>Epitope</EpitopeRelation>
+                                <Object>
+                                    <FragmentOfANaturalSequenceMolecule>
+                                        <ChemicalType>Peptide from protein</ChemicalType>
+                                        <LinearSequence>NEKYAQAYPNVS</LinearSequence>
+                                        <StartingPosition>190</StartingPosition>
+                                        <EndingPosition>201</EndingPosition>
+                                        <SourceMolecule>
+                                            <GenBankId>P13128.1</GenBankId>
+                                        </SourceMolecule>
+                                        <SourceOrganismId>1639</SourceOrganismId>
+                                    </FragmentOfANaturalSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Exact match to reference information</AntigenEvidenceCode>
+                        </Antigen>
+                        <AssayInformation>
+                            <AssayTypeId>53</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <AssayComments>There was no significant difference in the rate or magnitude of contraction of the CD4+ T cell response between ampicillin-treated and control mice, however, the peak of the response was 1 day earlier in ampicillin-treated mice. This response was measured by IFN-g ICS and this response in mice that received ampicillin immediately after infection on day 7 was 10-fold lower than the control response. Ampicillin treatment after primary rLM-OVA infection did not alter secondary expansion of memory CD4+T cells in response to secondary rLM-OVA infection. Memory CD4+ splenocytes from rLM-OVA infected mice responded to the epitope in a dose-dependent manner as measured by IFN-g ELISPOT. Ampicillin treatment reduced the amount of the epitope display in the spleen early after infection.</AssayComments>
+                        </AssayInformation>
+                    </TCell>
+                </Assays>
+                <Assays>
+                    <TCell>
+                        <LocationOfData>Figure 5</LocationOfData>
+                        <TCellId>1852281</TCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>10000067</OrganismId>
+                                <Age>6-10 weeks</Age>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Administration in vivo</InVivoProcessType>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Source Organism</EpitopeRelation>
+                                    <Object>
+                                        <Organism>
+                                            <SubType>Organism</SubType>
+                                            <SourceOrganismId>1639</SourceOrganismId>
+                                        </Organism>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenReferenceName>Recombinant LM expressing secreted OVA protein (rLM-OVA)</ImmunogenReferenceName>
+                                <ImmunogenEvidenceCode>Representative selection</ImmunogenEvidenceCode>
+                                <Route>Intravenous (i.v.)</Route>
+                                <DoseSchedule>1 dose of 10^4 CFU.</DoseSchedule>
+                            </FirstInVivoProcess>
+                            <ImmunizationComments>Mice were infected with rLM-OVA (recombinant LM expressing secreted OVA protein).</ImmunizationComments>
+                        </Immunization>
+                        <AdoptiveTransfer>
+                            <RecipientOrganism>
+                                <OrganismId>10000067</OrganismId>
+                            </RecipientOrganism>
+                            <TransferredEffectorCell>
+                                <TransferredEffectorCellTissueType>Spleen</TransferredEffectorCellTissueType>
+                                <TransferredEffectorCellType>T cell CD4+</TransferredEffectorCellType>
+                                <TransferredEffectorCellCultureConditions>Direct Ex Vivo</TransferredEffectorCellCultureConditions>
+                            </TransferredEffectorCell>
+                            <InVivoProcessInRecipient>
+                                <InVivoProcessType>Administration in vivo</InVivoProcessType>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Source Organism</EpitopeRelation>
+                                    <Object>
+                                        <Organism>
+                                            <SubType>Organism</SubType>
+                                            <SourceOrganismId>1639</SourceOrganismId>
+                                        </Organism>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenReferenceName>rLM-ova</ImmunogenReferenceName>
+                                <ImmunogenEvidenceCode>Representative selection</ImmunogenEvidenceCode>
+                                <Route>Intravenous (i.v.)</Route>
+                                <DoseSchedule>1 dose of 5 X 10^5 CFU.</DoseSchedule>
+                            </InVivoProcessInRecipient>
+                            <AdoptiveTransferComments>The epitope specific CD4+ T cells from rLM-OVA (recombinant LM expressing secreted OVA protein) infected B6.PL (Thy1.1) mice at 70 days postinfection were adoptively transferred into naive B6 (Thy1.2) mice, these recipients were challenged with rLM-OVA and received or not ampicillin at 24 h postinoculation.</AdoptiveTransferComments>
+                        </AdoptiveTransfer>
+                        <EffectorCells>
+                            <CellTissueType>Spleen</CellTissueType>
+                            <CellType>T cell CD4+</CellType>
+                            <CellCultureConditions>Direct Ex Vivo</CellCultureConditions>
+                        </EffectorCells>
+                        <AntigenPresentingCells>
+                            <CellTissueType>Spleen</CellTissueType>
+                            <CellType>Splenocyte</CellType>
+                            <CellCultureConditions>Direct Ex Vivo</CellCultureConditions>
+                            <AutologousOrSyngeneic>Y</AutologousOrSyngeneic>
+                        </AntigenPresentingCells>
+                        <MhcAllele>
+                            <MhcAlleleId>181</MhcAlleleId>
+                            <MhcEvidenceCode>Cited reference</MhcEvidenceCode>
+                        </MhcAllele>
+                        <Antigen>
+                            <AntigenObject>
+                                <EpitopeRelation>Epitope</EpitopeRelation>
+                                <Object>
+                                    <FragmentOfANaturalSequenceMolecule>
+                                        <ChemicalType>Peptide from protein</ChemicalType>
+                                        <LinearSequence>NEKYAQAYPNVS</LinearSequence>
+                                        <StartingPosition>190</StartingPosition>
+                                        <EndingPosition>201</EndingPosition>
+                                        <SourceMolecule>
+                                            <GenBankId>P13128.1</GenBankId>
+                                        </SourceMolecule>
+                                        <SourceOrganismId>1639</SourceOrganismId>
+                                    </FragmentOfANaturalSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Exact match to reference information</AntigenEvidenceCode>
+                        </Antigen>
+                        <AssayInformation>
+                            <AssayTypeId>53</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <AssayComments>The secondary response of the transferred memory epitope-specific CD4+ T cells in mice that were infected and treated with ampicillin at 24 h postinfection displayed delayed contraction compared with the primary response in the same animals, and ampicillin treatment at 24 h after infection did not alter the kinetics of the secondary CD4+ T cell response to LM rechallenge.</AssayComments>
+                        </AssayInformation>
+                    </TCell>
+                </Assays>
+            </Epitope>
+            <Epitope>
+                <EpitopeName>OVA 257-264</EpitopeName>
+                <EpitopeStructure>
+                    <FragmentOfANaturalSequenceMolecule>
+                        <ChemicalType>Peptide from protein</ChemicalType>
+                        <LinearSequence>SIINFEKL</LinearSequence>
+                        <StartingPosition>258</StartingPosition>
+                        <EndingPosition>265</EndingPosition>
+                        <SourceMolecule>
+                            <GenBankId>AAA48998.1</GenBankId>
+                        </SourceMolecule>
+                        <SourceOrganismId>9031</SourceOrganismId>
+                    </FragmentOfANaturalSequenceMolecule>
+                </EpitopeStructure>
+                <LocationOfData>Materials and methods</LocationOfData>
+                <EpitopeId>58560</EpitopeId>
+                <EpitopeEvidenceCode>Representative selection</EpitopeEvidenceCode>
+                <EpitopeStructureDefines>Exact Epitope</EpitopeStructureDefines>
+                <Assays>
+                    <TCell>
+                        <LocationOfData>Figures 2, 3, 4 and 5</LocationOfData>
+                        <TCellId>1851733</TCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>10000067</OrganismId>
+                                <Age>6-10 weeks</Age>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Administration in vivo</InVivoProcessType>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Source Antigen</EpitopeRelation>
+                                    <Object>
+                                        <AccessionSequenceMolecule>
+                                            <ChemicalType>Protein</ChemicalType>
+                                            <Molecule>
+                                                <GenBankId>AAA48998.1</GenBankId>
+                                            </Molecule>
+                                            <SourceOrganismId>9031</SourceOrganismId>
+                                        </AccessionSequenceMolecule>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenReferenceName>Recombinant LM expressing secreted OVA protein (rLM-OVA)</ImmunogenReferenceName>
+                                <ImmunogenEvidenceCode>Representative selection</ImmunogenEvidenceCode>
+                                <ImmunogenContainingObject>
+                                    <RecombinantOrganism>
+                                        <SubType>Recombinant Organism</SubType>
+                                        <RecombinantOrganismId>1639</RecombinantOrganismId>
+                                    </RecombinantOrganism>
+                                </ImmunogenContainingObject>
+                                <Route>Intravenous (i.v.)</Route>
+                                <DoseSchedule>1 dose of 1 X 10^4 CFU.</DoseSchedule>
+                            </FirstInVivoProcess>
+                            <ImmunizationComments>Mice infected with rLM-OVA were treated with or without ampicillin, some of these mice were challenged with rLM-OVA 28 days later.</ImmunizationComments>
+                        </Immunization>
+                        <EffectorCells>
+                            <CellTissueType>Spleen</CellTissueType>
+                            <CellType>T cell CD8+</CellType>
+                            <CellCultureConditions>Direct Ex Vivo</CellCultureConditions>
+                        </EffectorCells>
+                        <AntigenPresentingCells>
+                            <CellTissueType>Spleen</CellTissueType>
+                            <CellType>Splenocyte</CellType>
+                            <CellCultureConditions>Direct Ex Vivo</CellCultureConditions>
+                            <AutologousOrSyngeneic>Y</AutologousOrSyngeneic>
+                        </AntigenPresentingCells>
+                        <MhcAllele>
+                            <MhcAlleleId>122</MhcAlleleId>
+                            <MhcEvidenceCode>Cited reference</MhcEvidenceCode>
+                        </MhcAllele>
+                        <Antigen>
+                            <AntigenObject>
+                                <EpitopeRelation>Epitope</EpitopeRelation>
+                                <Object>
+                                    <FragmentOfANaturalSequenceMolecule>
+                                        <ChemicalType>Peptide from protein</ChemicalType>
+                                        <LinearSequence>SIINFEKL</LinearSequence>
+                                        <StartingPosition>258</StartingPosition>
+                                        <EndingPosition>265</EndingPosition>
+                                        <SourceMolecule>
+                                            <GenBankId>AAA48998.1</GenBankId>
+                                        </SourceMolecule>
+                                        <SourceOrganismId>9031</SourceOrganismId>
+                                    </FragmentOfANaturalSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Exact match to reference information</AntigenEvidenceCode>
+                        </Antigen>
+                        <AssayInformation>
+                            <AssayTypeId>53</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <AssayComments>There was no significant difference in the rate or magnitude of contraction of the CD8+ T cell response between ampicillin-treated and control mice, however, the peak of the response was 1 day earlier in ampicillin-treated mice. The response was measured by IFN-g ICS and had a slight reduction on day 7 in mice given ampicillin immediately after infection, compared with control mice. Ampicillin treatment after primary rLM-OVA infection did not alter secondary expansion of memory CD8 T cells in response to secondary rLM-OVA infection.</AssayComments>
+                        </AssayInformation>
+                    </TCell>
+                </Assays>
+                <Assays>
+                    <TCell>
+                        <LocationOfData>Figure 5</LocationOfData>
+                        <TCellId>1852292</TCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>10000067</OrganismId>
+                                <Age>6-10 weeks</Age>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Administration in vivo</InVivoProcessType>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Source Antigen</EpitopeRelation>
+                                    <Object>
+                                        <AccessionSequenceMolecule>
+                                            <ChemicalType>Protein</ChemicalType>
+                                            <Molecule>
+                                                <GenBankId>AAA48998.1</GenBankId>
+                                            </Molecule>
+                                            <SourceOrganismId>9031</SourceOrganismId>
+                                        </AccessionSequenceMolecule>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenReferenceName>Recombinant LM expressing secreted OVA protein (rLM-OVA)</ImmunogenReferenceName>
+                                <ImmunogenEvidenceCode>Representative selection</ImmunogenEvidenceCode>
+                                <ImmunogenContainingObject>
+                                    <RecombinantOrganism>
+                                        <SubType>Recombinant Organism</SubType>
+                                        <RecombinantOrganismId>1639</RecombinantOrganismId>
+                                    </RecombinantOrganism>
+                                </ImmunogenContainingObject>
+                                <Route>Intravenous (i.v.)</Route>
+                                <DoseSchedule>1 dose of 1 X 10^4 CFU.</DoseSchedule>
+                            </FirstInVivoProcess>
+                            <ImmunizationComments>Mice infected with rLM-OVA were treated with or without ampicillin, some of these mice were rechallenged with rLM-OVA 28 days later.</ImmunizationComments>
+                        </Immunization>
+                        <AdoptiveTransfer>
+                            <RecipientOrganism>
+                                <OrganismId>10000067</OrganismId>
+                            </RecipientOrganism>
+                            <TransferredEffectorCell>
+                                <TransferredEffectorCellTissueType>Spleen</TransferredEffectorCellTissueType>
+                                <TransferredEffectorCellType>T cell CD8+</TransferredEffectorCellType>
+                                <TransferredEffectorCellCultureConditions>Direct Ex Vivo</TransferredEffectorCellCultureConditions>
+                            </TransferredEffectorCell>
+                            <InVivoProcessInRecipient>
+                                <InVivoProcessType>Administration in vivo</InVivoProcessType>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Source Antigen</EpitopeRelation>
+                                    <Object>
+                                        <AccessionSequenceMolecule>
+                                            <ChemicalType>Protein</ChemicalType>
+                                            <Molecule>
+                                                <GenBankId>AAA48998.1</GenBankId>
+                                            </Molecule>
+                                            <SourceOrganismId>9031</SourceOrganismId>
+                                        </AccessionSequenceMolecule>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenReferenceName>rLM-ova</ImmunogenReferenceName>
+                                <ImmunogenEvidenceCode>Representative selection</ImmunogenEvidenceCode>
+                                <ImmunogenContainingObject>
+                                    <RecombinantOrganism>
+                                        <SubType>Recombinant Organism</SubType>
+                                        <RecombinantOrganismId>1639</RecombinantOrganismId>
+                                    </RecombinantOrganism>
+                                </ImmunogenContainingObject>
+                                <Route>Intravenous (i.v.)</Route>
+                                <DoseSchedule>1 dose of 5 X 10^5 CFU.</DoseSchedule>
+                            </InVivoProcessInRecipient>
+                            <AdoptiveTransferComments>The epitope specific CD8+ T cells from rLM-OVA infected B6.PL (Thy1.1) mice at 70 days postinfection were adoptively transferred into naive B6 (Thy1.2) mice, these recipients were challenged with rLM-OVA and received or not ampicillin at 24 h postinoculation.</AdoptiveTransferComments>
+                        </AdoptiveTransfer>
+                        <EffectorCells>
+                            <CellTissueType>Spleen</CellTissueType>
+                            <CellType>T cell CD8+</CellType>
+                            <CellCultureConditions>Direct Ex Vivo</CellCultureConditions>
+                        </EffectorCells>
+                        <AntigenPresentingCells>
+                            <CellTissueType>Spleen</CellTissueType>
+                            <CellType>Splenocyte</CellType>
+                            <CellCultureConditions>Direct Ex Vivo</CellCultureConditions>
+                            <AutologousOrSyngeneic>Y</AutologousOrSyngeneic>
+                        </AntigenPresentingCells>
+                        <MhcAllele>
+                            <MhcAlleleId>122</MhcAlleleId>
+                            <MhcEvidenceCode>Cited reference</MhcEvidenceCode>
+                        </MhcAllele>
+                        <Antigen>
+                            <AntigenObject>
+                                <EpitopeRelation>Epitope</EpitopeRelation>
+                                <Object>
+                                    <FragmentOfANaturalSequenceMolecule>
+                                        <ChemicalType>Peptide from protein</ChemicalType>
+                                        <LinearSequence>SIINFEKL</LinearSequence>
+                                        <StartingPosition>258</StartingPosition>
+                                        <EndingPosition>265</EndingPosition>
+                                        <SourceMolecule>
+                                            <GenBankId>AAA48998.1</GenBankId>
+                                        </SourceMolecule>
+                                        <SourceOrganismId>9031</SourceOrganismId>
+                                    </FragmentOfANaturalSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Exact match to reference information</AntigenEvidenceCode>
+                        </Antigen>
+                        <AssayInformation>
+                            <AssayTypeId>53</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <AssayComments>The secondary response of the transferred memory epitope-specific CD8+ T cells in mice that were infected and treated with ampicillin at 24 h postinfection displayed delayed contraction compared with the primary response in the same mice, and ampicillin treatment at 24 h after infection did not alter the kinetics of the secondary CD8+ T cell response to LM rechallenge.</AssayComments>
+                        </AssayInformation>
+                    </TCell>
+                </Assays>
+            </Epitope>
+        </Epitopes>
+    </Reference>
+</References>
+

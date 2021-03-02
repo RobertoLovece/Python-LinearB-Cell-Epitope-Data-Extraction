@@ -19,5 +19,8 @@ def main():
     df = iedb_df.merge(ncbi_df, how='left', on='protein_id')
     df.to_csv("output/left_join.csv", index = False)
 
+def check_sequencing():
+    
+
 if __name__ == "__main__":
     main()

@@ -1,0 +1,322 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<References xsi:schemaLocation="http://www.iedb.org/schema/CurationSchema http://beta.iedb.org/schema/Curation.xsd" xmlns="http://www.iedb.org/schema/CurationSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <Reference>
+        <ReferenceId>493</ReferenceId>
+        <DateLastUpdated>2020-09-10-07:00</DateLastUpdated>
+        <Article>
+            <PubmedId>15388261</PubmedId>
+            <Abstract>Developing precise and efficient methods of monitoring immune responses against cytomegalovirus (CMV) infection in immunocompromised transplantation patients is important. With the aim of optimizing the monitoring strategy, an HLA-A24-CMVpp65 tetramer-based analysis of CMVpp65 peptide-specific CTL lines was performed. Previously, the HLA-A24-restricted CTL epitope of CMVpp65 matrix protein was identified (QYDPVAALF aa 341-349). In the present study, CMVpp65 (aa 341-349) peptide-specific CTL lines were obtained from PBLs of 12 HLA-A24+ healthy donors by two stimulations with peptide-pulsed dendritic cells (DC). Among 12 CTL lines, 9 showed HLA-A*2402-CMVpp65 tetramer staining, which was found to be strongly co-related to the amount of IFN-gamma produced by CMVpp65 peptide-restimulated CTL lines (r=0.943, P&lt;0.001). These results suggested that HLA-A*2402-CMVpp65 tetramer staining was an efficient way to monitor immune responses against CMV infection in HLA-A24+ immunocompromised hosts.</Abstract>
+            <ArticleYear>2004</ArticleYear>
+            <ArticlePages>199-205</ArticlePages>
+            <ArticleTitle>Analysis of HLA-A24-restricted CMVpp65 peptide-specific CTL with HLA-A*2402-CMVpp65 tetramer.</ArticleTitle>
+            <Authors>
+                <Author>
+                    <LastName>Akiyama</LastName>
+                    <ForeName>Yasuto</ForeName>
+                </Author>
+                <Author>
+                    <LastName>Kuzushima</LastName>
+                    <ForeName>Kiyotaka</ForeName>
+                </Author>
+                <Author>
+                    <LastName>Tsurumi</LastName>
+                    <ForeName>Tatsuya</ForeName>
+                </Author>
+                <Author>
+                    <LastName>Yamaguchi</LastName>
+                    <ForeName>Ken</ForeName>
+                </Author>
+            </Authors>
+            <Affiliations>National Cancer Center Research Institute, Growth Factor Division, 5-1-1 Tsukiji, Chuo-ku, Tokyo 104, Japan. y.akiyama@scchr.jp</Affiliations>
+            <ArticleChemicalList>HLA-A Antigens;HLA-A*24:02 antigen;HLA-A24 Antigen;Immunoglobulin G;Phosphoproteins;Viral Matrix Proteins;cytomegalovirus matrix protein 65kDa;Interferon-gamma</ArticleChemicalList>
+            <ArticleMeshHeadingsList>Apoptosis(drug effects); Cells, Cultured; Cytomegalovirus(chemistry; immunology); Dendritic Cells(immunology); HLA-A Antigens(immunology); HLA-A24 Antigen; Humans; Immunoglobulin G(blood; immunology); Interferon-gamma(biosynthesis; immunology; metabolism); Lymphocyte Activation; Phosphoproteins(chemistry; immunology); Protein Structure, Quaternary; Staining and Labeling; T-Lymphocytes, Cytotoxic(cytology; immunology; metabolism); Viral Matrix Proteins(chemistry; immunology)</ArticleMeshHeadingsList>
+            <Journal>
+                <Volume>95</Volume>
+                <Issue>2</Issue>
+                <Title>Immunology letters</Title>
+                <Issn>0165-2478</Issn>
+                <MedlineTa>Immunol Lett</MedlineTa>
+            </Journal>
+        </Article>
+        <Epitopes>
+            <Epitope>
+                <EpitopeName>CMV pp65 (341-349)</EpitopeName>
+                <EpitopeStructure>
+                    <FragmentOfANaturalSequenceMolecule>
+                        <ChemicalType>Peptide from protein</ChemicalType>
+                        <LinearSequence>QYDPVAALF</LinearSequence>
+                        <StartingPosition>341</StartingPosition>
+                        <EndingPosition>349</EndingPosition>
+                        <SourceMolecule>
+                            <GenBankId>YP_002608275.1</GenBankId>
+                        </SourceMolecule>
+                        <SourceOrganismId>10359</SourceOrganismId>
+                    </FragmentOfANaturalSequenceMolecule>
+                </EpitopeStructure>
+                <LocationOfData>Figure 1</LocationOfData>
+                <EpitopeId>52886</EpitopeId>
+                <ReferenceStartingPosition>341</ReferenceStartingPosition>
+                <ReferenceEndingPosition>349</ReferenceEndingPosition>
+                <EpitopeEvidenceCode>Representative selection</EpitopeEvidenceCode>
+                <EpitopeStructureDefines>Exact Epitope</EpitopeStructureDefines>
+                <Assays>
+                    <TCell>
+                        <LocationOfData>Table 1</LocationOfData>
+                        <TCellId>3291</TCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>9606</OrganismId>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Exposure without evidence for disease</InVivoProcessType>
+                                <DiseaseState>ONTIE:0003423</DiseaseState>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Source Organism</EpitopeRelation>
+                                    <Object>
+                                        <Organism>
+                                            <SubType>Organism</SubType>
+                                            <SourceOrganismId>10359</SourceOrganismId>
+                                        </Organism>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenReferenceName>CMV pp65 (341-349)</ImmunogenReferenceName>
+                                <ImmunogenEvidenceCode>Representative selection</ImmunogenEvidenceCode>
+                            </FirstInVivoProcess>
+                            <InVitroAdministration>
+                                <ProcessType>Restimulation in vitro</ProcessType>
+                                <ResponderCellType>T cell</ResponderCellType>
+                                <StimulatorCellType>Dendritic cell</StimulatorCellType>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Epitope</EpitopeRelation>
+                                    <Object>
+                                        <FragmentOfANaturalSequenceMolecule>
+                                            <ChemicalType>Peptide from protein</ChemicalType>
+                                            <LinearSequence>QYDPVAALF</LinearSequence>
+                                            <StartingPosition>341</StartingPosition>
+                                            <EndingPosition>349</EndingPosition>
+                                            <SourceMolecule>
+                                                <GenBankId>YP_002608275.1</GenBankId>
+                                            </SourceMolecule>
+                                            <SourceOrganismId>10359</SourceOrganismId>
+                                        </FragmentOfANaturalSequenceMolecule>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenEvidenceCode>Exact match to reference information</ImmunogenEvidenceCode>
+                            </InVitroAdministration>
+                        </Immunization>
+                        <EffectorCells>
+                            <CellTissueType>Blood</CellTissueType>
+                            <CellType>T cell CD8+</CellType>
+                            <CellCultureConditions>Short Term Restimulated</CellCultureConditions>
+                        </EffectorCells>
+                        <AntigenPresentingCells>
+                            <CellTissueType>Lymphoid</CellTissueType>
+                            <CellType>B cell</CellType>
+                            <CellCultureConditions>Cell Line / Clone (EBV transformed, B-LCL)</CellCultureConditions>
+                            <AutologousOrSyngeneic>N</AutologousOrSyngeneic>
+                        </AntigenPresentingCells>
+                        <MhcAllele>
+                            <MhcAlleleId>237</MhcAlleleId>
+                            <MhcEvidenceCode>Not determined</MhcEvidenceCode>
+                        </MhcAllele>
+                        <Antigen>
+                            <AntigenReferenceName>CMV pp65 (341-349)</AntigenReferenceName>
+                            <AntigenObject>
+                                <EpitopeRelation>Epitope</EpitopeRelation>
+                                <Object>
+                                    <FragmentOfANaturalSequenceMolecule>
+                                        <ChemicalType>Peptide from protein</ChemicalType>
+                                        <LinearSequence>QYDPVAALF</LinearSequence>
+                                        <StartingPosition>341</StartingPosition>
+                                        <EndingPosition>349</EndingPosition>
+                                        <SourceMolecule>
+                                            <GenBankId>YP_002608275.1</GenBankId>
+                                        </SourceMolecule>
+                                        <SourceOrganismId>10359</SourceOrganismId>
+                                    </FragmentOfANaturalSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Exact match to reference information</AntigenEvidenceCode>
+                        </Antigen>
+                        <AssayInformation>
+                            <AssayTypeId>48</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <NumberOfSubjectsTested>9</NumberOfSubjectsTested>
+                            <NumberOfSubjectsResponded>9</NumberOfSubjectsResponded>
+                            <ResponseFrequency>100</ResponseFrequency>
+                        </AssayInformation>
+                    </TCell>
+                </Assays>
+                <Assays>
+                    <TCell>
+                        <LocationOfData>Table 1, and figure 1</LocationOfData>
+                        <TCellId>3289</TCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>9606</OrganismId>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Exposure without evidence for disease</InVivoProcessType>
+                                <DiseaseState>ONTIE:0003423</DiseaseState>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Source Organism</EpitopeRelation>
+                                    <Object>
+                                        <Organism>
+                                            <SubType>Organism</SubType>
+                                            <SourceOrganismId>10359</SourceOrganismId>
+                                        </Organism>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenReferenceName>CMV pp65 (341-349)</ImmunogenReferenceName>
+                                <ImmunogenEvidenceCode>Representative selection</ImmunogenEvidenceCode>
+                            </FirstInVivoProcess>
+                            <InVitroAdministration>
+                                <ProcessType>Restimulation in vitro</ProcessType>
+                                <ResponderCellType>T cell</ResponderCellType>
+                                <StimulatorCellType>Dendritic cell</StimulatorCellType>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Epitope</EpitopeRelation>
+                                    <Object>
+                                        <FragmentOfANaturalSequenceMolecule>
+                                            <ChemicalType>Peptide from protein</ChemicalType>
+                                            <LinearSequence>QYDPVAALF</LinearSequence>
+                                            <StartingPosition>341</StartingPosition>
+                                            <EndingPosition>349</EndingPosition>
+                                            <SourceMolecule>
+                                                <GenBankId>YP_002608275.1</GenBankId>
+                                            </SourceMolecule>
+                                            <SourceOrganismId>10359</SourceOrganismId>
+                                        </FragmentOfANaturalSequenceMolecule>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenEvidenceCode>Exact match to reference information</ImmunogenEvidenceCode>
+                            </InVitroAdministration>
+                        </Immunization>
+                        <EffectorCells>
+                            <CellTissueType>Blood</CellTissueType>
+                            <CellType>T cell CD8+</CellType>
+                            <CellCultureConditions>Short Term Restimulated</CellCultureConditions>
+                        </EffectorCells>
+                        <AntigenPresentingCells>
+                            <CellTissueType>Lymphoid</CellTissueType>
+                            <CellType>B cell</CellType>
+                            <CellCultureConditions>Cell Line / Clone (EBV transformed, B-LCL)</CellCultureConditions>
+                            <AutologousOrSyngeneic>N</AutologousOrSyngeneic>
+                        </AntigenPresentingCells>
+                        <MhcAllele>
+                            <MhcAlleleId>237</MhcAlleleId>
+                            <MhcEvidenceCode>Not determined</MhcEvidenceCode>
+                        </MhcAllele>
+                        <Antigen>
+                            <AntigenReferenceName>CMV pp65 (341-349)</AntigenReferenceName>
+                            <AntigenObject>
+                                <EpitopeRelation>Epitope</EpitopeRelation>
+                                <Object>
+                                    <FragmentOfANaturalSequenceMolecule>
+                                        <ChemicalType>Peptide from protein</ChemicalType>
+                                        <LinearSequence>QYDPVAALF</LinearSequence>
+                                        <StartingPosition>341</StartingPosition>
+                                        <EndingPosition>349</EndingPosition>
+                                        <SourceMolecule>
+                                            <GenBankId>YP_002608275.1</GenBankId>
+                                        </SourceMolecule>
+                                        <SourceOrganismId>10359</SourceOrganismId>
+                                    </FragmentOfANaturalSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Exact match to reference information</AntigenEvidenceCode>
+                        </Antigen>
+                        <AssayInformation>
+                            <AssayTypeId>67</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <NumberOfSubjectsTested>9</NumberOfSubjectsTested>
+                            <NumberOfSubjectsResponded>9</NumberOfSubjectsResponded>
+                            <ResponseFrequency>100</ResponseFrequency>
+                        </AssayInformation>
+                    </TCell>
+                </Assays>
+                <Assays>
+                    <TCell>
+                        <LocationOfData>Table 1 and figure 3</LocationOfData>
+                        <TCellId>3290</TCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>9606</OrganismId>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Exposure without evidence for disease</InVivoProcessType>
+                                <DiseaseState>ONTIE:0003423</DiseaseState>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Source Organism</EpitopeRelation>
+                                    <Object>
+                                        <Organism>
+                                            <SubType>Organism</SubType>
+                                            <SourceOrganismId>10359</SourceOrganismId>
+                                        </Organism>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenReferenceName>CMV pp65 (341-349)</ImmunogenReferenceName>
+                                <ImmunogenEvidenceCode>Representative selection</ImmunogenEvidenceCode>
+                            </FirstInVivoProcess>
+                            <InVitroAdministration>
+                                <ProcessType>Restimulation in vitro</ProcessType>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Epitope</EpitopeRelation>
+                                    <Object>
+                                        <FragmentOfANaturalSequenceMolecule>
+                                            <ChemicalType>Peptide from protein</ChemicalType>
+                                            <LinearSequence>QYDPVAALF</LinearSequence>
+                                            <StartingPosition>341</StartingPosition>
+                                            <EndingPosition>349</EndingPosition>
+                                            <SourceMolecule>
+                                                <GenBankId>YP_002608275.1</GenBankId>
+                                            </SourceMolecule>
+                                            <SourceOrganismId>10359</SourceOrganismId>
+                                        </FragmentOfANaturalSequenceMolecule>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenEvidenceCode>Exact match to reference information</ImmunogenEvidenceCode>
+                            </InVitroAdministration>
+                        </Immunization>
+                        <EffectorCells>
+                            <CellTissueType>Blood</CellTissueType>
+                            <CellType>T cell CD8+</CellType>
+                            <CellCultureConditions>Short Term Restimulated</CellCultureConditions>
+                        </EffectorCells>
+                        <MhcAllele>
+                            <MhcAlleleId>237</MhcAlleleId>
+                            <MhcEvidenceCode>Not determined</MhcEvidenceCode>
+                        </MhcAllele>
+                        <Antigen>
+                            <AntigenReferenceName>CMV pp65 (341-349)</AntigenReferenceName>
+                            <AntigenObject>
+                                <EpitopeRelation>Epitope</EpitopeRelation>
+                                <Object>
+                                    <FragmentOfANaturalSequenceMolecule>
+                                        <ChemicalType>Peptide from protein</ChemicalType>
+                                        <LinearSequence>QYDPVAALF</LinearSequence>
+                                        <StartingPosition>341</StartingPosition>
+                                        <EndingPosition>349</EndingPosition>
+                                        <SourceMolecule>
+                                            <GenBankId>YP_002608275.1</GenBankId>
+                                        </SourceMolecule>
+                                        <SourceOrganismId>10359</SourceOrganismId>
+                                    </FragmentOfANaturalSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Exact match to reference information</AntigenEvidenceCode>
+                        </Antigen>
+                        <AssayInformation>
+                            <AssayTypeId>47</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <NumberOfSubjectsTested>9</NumberOfSubjectsTested>
+                            <NumberOfSubjectsResponded>9</NumberOfSubjectsResponded>
+                            <ResponseFrequency>100</ResponseFrequency>
+                        </AssayInformation>
+                    </TCell>
+                </Assays>
+            </Epitope>
+        </Epitopes>
+    </Reference>
+</References>
+

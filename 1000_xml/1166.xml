@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<References xsi:schemaLocation="http://www.iedb.org/schema/CurationSchema http://beta.iedb.org/schema/Curation.xsd" xmlns="http://www.iedb.org/schema/CurationSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <Reference>
+        <ReferenceId>1166</ReferenceId>
+        <DateLastUpdated>2020-09-10-07:00</DateLastUpdated>
+        <Article>
+            <PubmedId>15240703</PubmedId>
+            <Abstract>During development, thymocytes carrying TCRs mediating low-affinity interactions with MHC-bound self-peptides are positively selected for export into the mature peripheral T lymphocyte pool. Thus, exogenous administration of certain altered peptide ligands (APL) with reduced TCR affinity relative to cognate Ags may provide a tool to elicit maturation of desired TCR specificities. To test this "thymic vaccination" concept, we designed APL of the viral CTL epitopes gp33-41 and vesicular stomatitis virus nucleoprotein octapeptide N52-59 relevant for the lymphocytic choriomeningitis virus-specific P14- and vesicular stomatitis virus-specific N15-TCRs, respectively, and examined their effects on thymocytes in vivo using irradiation chimeras. Injection of APL into irradiated congenic (Ly-5.1) mice, reconstituted with T cell progenitors from the bone marrow of P14 RAG2(-/-) (Ly-5.2) or N15 RAG2(-/-) (Ly-5.2) transgenic mice, resulted in positive selection of T cells expressing the relevant specificity. Moreover, the variants led to export of virus-specific T cells to lymph nodes, but without inducing T cell proliferation. These findings show that the mature T cell repertoire can be altered by in vivo peptide administration through manipulation of thymic selection.</Abstract>
+            <ArticleYear>2004</ArticleYear>
+            <ArticlePages>1140-50</ArticlePages>
+            <ArticleTitle>Peptide variants of viral CTL epitopes mediate positive selection and emigration of Ag-specific thymocytes in vivo.</ArticleTitle>
+            <Authors>
+                <Author>
+                    <LastName>Fridkis-Hareli</LastName>
+                    <ForeName>Masha</ForeName>
+                </Author>
+                <Author>
+                    <LastName>Reche</LastName>
+                    <ForeName>Pedro A</ForeName>
+                </Author>
+                <Author>
+                    <LastName>Reinherz</LastName>
+                    <ForeName>Ellis L</ForeName>
+                </Author>
+            </Authors>
+            <Affiliations>Laboratory of Immunobiology, Department of Medical Oncology, Dana-Farber Cancer Institute, Boston, MA 02115, USA.</Affiliations>
+            <ArticleChemicalList>Antigens;Antigens, Viral;Glycoproteins;Peptide Fragments;Peptides;Viral Proteins;glycoprotein peptide 33-41, Lymphocytic choriomeningitis virus</ArticleChemicalList>
+            <ArticleMeshHeadingsList>Animals; Antigens(genetics; immunology); Antigens, Viral(genetics; immunology); Clonal Deletion(immunology); Glycoproteins(genetics; immunology); Mice; Peptide Fragments(genetics; immunology); Peptides(genetics; immunology); T-Lymphocytes, Cytotoxic(immunology); Thymus Gland(immunology); Viral Proteins(genetics; immunology)</ArticleMeshHeadingsList>
+            <Journal>
+                <Volume>173</Volume>
+                <Issue>2</Issue>
+                <Title>Journal of immunology (Baltimore, Md. : 1950)</Title>
+                <Issn>0022-1767</Issn>
+                <MedlineTa>J Immunol</MedlineTa>
+            </Journal>
+        </Article>
+        <Epitopes>
+            <Epitope>
+                <EpitopeName>GP 33-41 C9M</EpitopeName>
+                <EpitopeStructure>
+                    <SequenceMoleculeNoNaturalSource>
+                        <ChemicalType>Peptide, no natural source</ChemicalType>
+                        <LinearSequence>KAVYNFATM</LinearSequence>
+                    </SequenceMoleculeNoNaturalSource>
+                </EpitopeStructure>
+                <EpitopeRelatedObject>
+                    <RelatedObjectType>The epitope is an analog of:</RelatedObjectType>
+                    <RelatedObject>
+                        <FragmentOfANaturalSequenceMolecule>
+                            <ChemicalType>Peptide from protein</ChemicalType>
+                            <LinearSequence>KAVYNFATC</LinearSequence>
+                            <StartingPosition>33</StartingPosition>
+                            <EndingPosition>41</EndingPosition>
+                            <SourceMolecule>
+                                <GenBankId>P09991.1</GenBankId>
+                            </SourceMolecule>
+                            <SourceOrganismId>11623</SourceOrganismId>
+                        </FragmentOfANaturalSequenceMolecule>
+                    </RelatedObject>
+                </EpitopeRelatedObject>
+                <LocationOfData>Fig 1</LocationOfData>
+                <EpitopeId>30015</EpitopeId>
+                <EpitopeStructureDefines>Exact Epitope</EpitopeStructureDefines>
+                <EpitopeComments>Analog peptide of the naturally occurring GP33-41 peptide (KAVYNFATC) from LCMV, where the C-ter Cysteine is replaced by Methionine to avoid dimerization. This modification had previously been shown to stabilize the binding of the peptide to H-2D&lt;sup&gt;b&lt;/sup&gt;.</EpitopeComments>
+                <Assays>
+                    <MhcBinding>
+                        <LocationOfData>Figure 1B</LocationOfData>
+                        <MhcBindingId>1267680</MhcBindingId>
+                        <AssayInformation>
+                            <AssayTypeId>185</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <AssayComments>This peptide, as well as variants where non-anchor residues are altered, is shown to effectively stabilize Db molecules on the surface of RMA-S cells.</AssayComments>
+                        </AssayInformation>
+                        <MhcAlleleId>172</MhcAlleleId>
+                    </MhcBinding>
+                </Assays>
+            </Epitope>
+            <Epitope>
+                <EpitopeName>GP 33-41 Y4S/F6A C9M</EpitopeName>
+                <EpitopeStructure>
+                    <SequenceMoleculeNoNaturalSource>
+                        <ChemicalType>Peptide, no natural source</ChemicalType>
+                        <LinearSequence>KAVSNAATM</LinearSequence>
+                    </SequenceMoleculeNoNaturalSource>
+                </EpitopeStructure>
+                <EpitopeRelatedObject>
+                    <RelatedObjectType>The epitope is an analog of:</RelatedObjectType>
+                    <RelatedObject>
+                        <FragmentOfANaturalSequenceMolecule>
+                            <ChemicalType>Peptide from protein</ChemicalType>
+                            <LinearSequence>KAVYNFATC</LinearSequence>
+                            <StartingPosition>33</StartingPosition>
+                            <EndingPosition>41</EndingPosition>
+                            <SourceMolecule>
+                                <GenBankId>P09991.1</GenBankId>
+                            </SourceMolecule>
+                            <SourceOrganismId>11623</SourceOrganismId>
+                        </FragmentOfANaturalSequenceMolecule>
+                    </RelatedObject>
+                </EpitopeRelatedObject>
+                <LocationOfData>Fig 1</LocationOfData>
+                <EpitopeId>29987</EpitopeId>
+                <EpitopeStructureDefines>Exact Epitope</EpitopeStructureDefines>
+                <EpitopeComments>Analog peptide of the naturally occurring GP33-41 peptide (KAVYNFATC) from LCMV, where the C-ter Cysteine is replaced by Methionine to avoid dimerization. Also, residues not involved in MHC anchor positions, (Y4 and F6) are mutated .</EpitopeComments>
+                <Assays>
+                    <MhcBinding>
+                        <LocationOfData>Figure 1B</LocationOfData>
+                        <MhcBindingId>1267725</MhcBindingId>
+                        <AssayInformation>
+                            <AssayTypeId>185</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <AssayComments>This peptide  is shown to effectively stabilize Db molecules on the surface of RMA-S cells.</AssayComments>
+                        </AssayInformation>
+                        <MhcAlleleId>172</MhcAlleleId>
+                    </MhcBinding>
+                </Assays>
+            </Epitope>
+            <Epitope>
+                <EpitopeName>GP 33-41 A7E C9M</EpitopeName>
+                <EpitopeStructure>
+                    <SequenceMoleculeNoNaturalSource>
+                        <ChemicalType>Peptide, no natural source</ChemicalType>
+                        <LinearSequence>KAVYNFETM</LinearSequence>
+                    </SequenceMoleculeNoNaturalSource>
+                </EpitopeStructure>
+                <EpitopeRelatedObject>
+                    <RelatedObjectType>The epitope is an analog of:</RelatedObjectType>
+                    <RelatedObject>
+                        <FragmentOfANaturalSequenceMolecule>
+                            <ChemicalType>Peptide from protein</ChemicalType>
+                            <LinearSequence>KAVYNFATC</LinearSequence>
+                            <StartingPosition>33</StartingPosition>
+                            <EndingPosition>41</EndingPosition>
+                            <SourceMolecule>
+                                <GenBankId>P09991.1</GenBankId>
+                            </SourceMolecule>
+                            <SourceOrganismId>11623</SourceOrganismId>
+                        </FragmentOfANaturalSequenceMolecule>
+                    </RelatedObject>
+                </EpitopeRelatedObject>
+                <LocationOfData>Fig 1</LocationOfData>
+                <EpitopeId>30016</EpitopeId>
+                <EpitopeStructureDefines>Exact Epitope</EpitopeStructureDefines>
+                <EpitopeComments>Analog peptide of the naturally occurring GP33-41 peptide (KAVYNFATC) from LCMV, where the C-ter Cysteine is replaced by Methionine to avoid dimerization. Also, residue A7, not an MHC anchor positions, is mutated .</EpitopeComments>
+                <Assays>
+                    <MhcBinding>
+                        <LocationOfData>Figure 1B</LocationOfData>
+                        <MhcBindingId>1268454</MhcBindingId>
+                        <AssayInformation>
+                            <AssayTypeId>185</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <AssayComments>This peptide  is shown to effectively stabilize Db molecules on the surface of RMA-S cells.</AssayComments>
+                        </AssayInformation>
+                        <MhcAlleleId>172</MhcAlleleId>
+                    </MhcBinding>
+                </Assays>
+            </Epitope>
+        </Epitopes>
+    </Reference>
+</References>
+

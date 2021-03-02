@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<References xsi:schemaLocation="http://www.iedb.org/schema/CurationSchema http://beta.iedb.org/schema/Curation.xsd" xmlns="http://www.iedb.org/schema/CurationSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <Reference>
+        <ReferenceId>525</ReferenceId>
+        <DateLastUpdated>2020-09-10-07:00</DateLastUpdated>
+        <Article>
+            <PubmedId>15663963</PubmedId>
+            <Abstract>Mutations in DJ-1 can cause early onset parkinsonism. Various antibodies have been generated to detect this protein, one of which is a commonly used monoclonal antibody (clone 3E8). Since results of in situ examinations of DJ-1 expression with this antibody have differed from analyses with species-specific antibodies (e.g. rat), it would be useful to know the epitope for this antibody. Using GFP-tagged deletion constructs of human DJ-1, we have localized the epitope region for this antibody to within residues 56-78 of human DJ-1. Mapping this region to the published three-dimensional structure of DJ-1 indicates that this is a solvent-accessible surface epitope. Immunonegativity of E64D mutant DJ-1 with the monoclonal antibody suggests that glutamate 64 of human DJ-1 contributes to the epitope recognized by this antibody. Moreover, the loss of immunoreactivity due to such a small substitution demonstrates the remarkable sensitivity of the monoclonal antibody 3E8 to DJ-1.</Abstract>
+            <ArticleYear>2005</ArticleYear>
+            <ArticlePages>203-6</ArticlePages>
+            <ArticleTitle>Identification of the epitope of a monoclonal antibody to DJ-1.</ArticleTitle>
+            <Authors>
+                <Author>
+                    <LastName>Miller</LastName>
+                    <ForeName>David W</ForeName>
+                </Author>
+                <Author>
+                    <LastName>Wilson</LastName>
+                    <ForeName>Carmen R</ForeName>
+                </Author>
+                <Author>
+                    <LastName>Kaleem</LastName>
+                    <ForeName>Mona A</ForeName>
+                </Author>
+                <Author>
+                    <LastName>Blackinton</LastName>
+                    <ForeName>Jeff</ForeName>
+                </Author>
+                <Author>
+                    <LastName>Cookson</LastName>
+                    <ForeName>Mark R</ForeName>
+                </Author>
+            </Authors>
+            <Affiliations>Laboratory of Neurogenetics, National Institute on Aging, Bldg 35, Rm 1A-1002, 35 Convent Drive, Bethesda, MD 20892, USA. millerda@mail.nih.gov.</Affiliations>
+            <ArticleChemicalList>Antibodies, Monoclonal;Epitopes;Intracellular Signaling Peptides and Proteins;Oncogene Proteins;PARK7 protein, human;Protein Deglycase DJ-1</ArticleChemicalList>
+            <ArticleMeshHeadingsList>Amino Acid Sequence; Animals; Antibodies, Monoclonal(chemistry); Antibody Specificity; Antigen-Antibody Reactions; Blotting, Western(methods); Cell Line; Epitopes(immunology); Humans; Intracellular Signaling Peptides and Proteins; Mice; Mutagenesis, Site-Directed(immunology); Oncogene Proteins(immunology); Protein Deglycase DJ-1; Protein Structure, Secondary; Rats; Transfection(methods)</ArticleMeshHeadingsList>
+            <Journal>
+                <Volume>374</Volume>
+                <Issue>3</Issue>
+                <Title>Neuroscience letters</Title>
+                <Issn>1872-7972</Issn>
+                <MedlineTa>Neurosci Lett</MedlineTa>
+            </Journal>
+        </Article>
+        <Epitopes>
+            <Epitope>
+                <EpitopeName>DJ-1 aa 56-78</EpitopeName>
+                <EpitopeStructure>
+                    <FragmentOfANaturalSequenceMolecule>
+                        <ChemicalType>Peptide from protein</ChemicalType>
+                        <LinearSequence>ASLEDAKKEGPYDVVVLPGGNLG</LinearSequence>
+                        <StartingPosition>56</StartingPosition>
+                        <EndingPosition>78</EndingPosition>
+                        <SourceMolecule>
+                            <GenBankId>Q99497.2</GenBankId>
+                        </SourceMolecule>
+                        <SourceOrganismId>9606</SourceOrganismId>
+                    </FragmentOfANaturalSequenceMolecule>
+                </EpitopeStructure>
+                <LocationOfData>Figure 1</LocationOfData>
+                <EpitopeId>4519</EpitopeId>
+                <ReferenceStartingPosition>56</ReferenceStartingPosition>
+                <ReferenceEndingPosition>78</ReferenceEndingPosition>
+                <EpitopeEvidenceCode>Not determined</EpitopeEvidenceCode>
+                <EpitopeStructureDefines>Epitope containing region/antigenic site</EpitopeStructureDefines>
+                <EpitopeComments>Epitope was deduced from monoclonal antibody (3E8) binding to overlapping N-ter and C-ter polypeptides of DJ-1.</EpitopeComments>
+                <Assays>
+                    <BCell>
+                        <LocationOfData>Figure 2B</LocationOfData>
+                        <BCellId>3578</BCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>10090</OrganismId>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Unknown</InVivoProcessType>
+                            </FirstInVivoProcess>
+                        </Immunization>
+                        <AssayInformation>
+                            <AssayTypeId>37</AssayTypeId>
+                            <QualitativeMeasurement>Negative</QualitativeMeasurement>
+                            <AssayComments>V5-DJ-1 E64D mutant is a fusion protein produced in HEK293 cells.</AssayComments>
+                        </AssayInformation>
+                        <AssayedAntibody>
+                            <AssayedAntibodyPurificationStatus>Monoclonal</AssayedAntibodyPurificationStatus>
+                            <AssayedAntibodyName>3E8</AssayedAntibodyName>
+                        </AssayedAntibody>
+                        <Antigen>
+                            <AntigenReferenceName>V5-DJ-1 E64D mutant</AntigenReferenceName>
+                            <AntigenConformation>Non-Native/Unknown</AntigenConformation>
+                            <AntigenObject>
+                                <EpitopeRelation>Source Antigen</EpitopeRelation>
+                                <Object>
+                                    <AccessionSequenceMolecule>
+                                        <ChemicalType>Protein</ChemicalType>
+                                        <Molecule>
+                                            <GenBankId>Q99497.2</GenBankId>
+                                        </Molecule>
+                                        <SourceOrganismId>9606</SourceOrganismId>
+                                    </AccessionSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Not determined</AntigenEvidenceCode>
+                        </Antigen>
+                    </BCell>
+                </Assays>
+                <Assays>
+                    <BCell>
+                        <LocationOfData>Figure 2A</LocationOfData>
+                        <BCellId>3579</BCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>10090</OrganismId>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Unknown</InVivoProcessType>
+                            </FirstInVivoProcess>
+                        </Immunization>
+                        <AssayInformation>
+                            <AssayTypeId>37</AssayTypeId>
+                            <QualitativeMeasurement>Negative</QualitativeMeasurement>
+                            <AssayComments>The antigen is derived from rat whole brain, olfactory bulb and cortex tissue.</AssayComments>
+                        </AssayInformation>
+                        <AssayedAntibody>
+                            <AssayedAntibodyPurificationStatus>Monoclonal</AssayedAntibodyPurificationStatus>
+                            <AssayedAntibodyName>3E8</AssayedAntibodyName>
+                        </AssayedAntibody>
+                        <Antigen>
+                            <AntigenReferenceName>DJ-1</AntigenReferenceName>
+                            <AntigenConformation>Non-Native/Unknown</AntigenConformation>
+                            <AntigenObject>
+                                <EpitopeRelation>Source Antigen</EpitopeRelation>
+                                <Object>
+                                    <AccessionSequenceMolecule>
+                                        <ChemicalType>Protein</ChemicalType>
+                                        <Molecule>
+                                            <GenBankId>Q99497.2</GenBankId>
+                                        </Molecule>
+                                        <SourceOrganismId>9606</SourceOrganismId>
+                                    </AccessionSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Not determined</AntigenEvidenceCode>
+                        </Antigen>
+                    </BCell>
+                </Assays>
+                <Assays>
+                    <BCell>
+                        <LocationOfData>Figure 2B</LocationOfData>
+                        <BCellId>3577</BCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>10090</OrganismId>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Unknown</InVivoProcessType>
+                            </FirstInVivoProcess>
+                        </Immunization>
+                        <AssayInformation>
+                            <AssayTypeId>37</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <AssayComments>V5-DJ-1 is a fusion protein produced in HEK293 cells.</AssayComments>
+                        </AssayInformation>
+                        <AssayedAntibody>
+                            <AssayedAntibodyPurificationStatus>Monoclonal</AssayedAntibodyPurificationStatus>
+                            <AssayedAntibodyName>3E8</AssayedAntibodyName>
+                        </AssayedAntibody>
+                        <Antigen>
+                            <AntigenReferenceName>V5-DJ-1</AntigenReferenceName>
+                            <AntigenConformation>Non-Native/Unknown</AntigenConformation>
+                            <AntigenObject>
+                                <EpitopeRelation>Source Antigen</EpitopeRelation>
+                                <Object>
+                                    <AccessionSequenceMolecule>
+                                        <ChemicalType>Protein</ChemicalType>
+                                        <Molecule>
+                                            <GenBankId>Q99497.2</GenBankId>
+                                        </Molecule>
+                                        <SourceOrganismId>9606</SourceOrganismId>
+                                    </AccessionSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Not determined</AntigenEvidenceCode>
+                        </Antigen>
+                    </BCell>
+                </Assays>
+                <Assays>
+                    <BCell>
+                        <LocationOfData>Figure 2A</LocationOfData>
+                        <BCellId>4454</BCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>10090</OrganismId>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Unknown</InVivoProcessType>
+                            </FirstInVivoProcess>
+                        </Immunization>
+                        <AssayInformation>
+                            <AssayTypeId>37</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <AssayComments>The antigen is derived from human cortex tissue.</AssayComments>
+                        </AssayInformation>
+                        <AssayedAntibody>
+                            <AssayedAntibodyPurificationStatus>Monoclonal</AssayedAntibodyPurificationStatus>
+                            <AssayedAntibodyName>3E8</AssayedAntibodyName>
+                        </AssayedAntibody>
+                        <Antigen>
+                            <AntigenReferenceName>DJ-1</AntigenReferenceName>
+                            <AntigenConformation>Non-Native/Unknown</AntigenConformation>
+                            <AntigenObject>
+                                <EpitopeRelation>Source Antigen</EpitopeRelation>
+                                <Object>
+                                    <AccessionSequenceMolecule>
+                                        <ChemicalType>Protein</ChemicalType>
+                                        <Molecule>
+                                            <GenBankId>Q99497.2</GenBankId>
+                                        </Molecule>
+                                        <SourceOrganismId>9606</SourceOrganismId>
+                                    </AccessionSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Not determined</AntigenEvidenceCode>
+                        </Antigen>
+                    </BCell>
+                </Assays>
+            </Epitope>
+        </Epitopes>
+    </Reference>
+</References>
+

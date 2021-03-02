@@ -1,0 +1,382 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<References xsi:schemaLocation="http://www.iedb.org/schema/CurationSchema http://beta.iedb.org/schema/Curation.xsd" xmlns="http://www.iedb.org/schema/CurationSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <Reference>
+        <ReferenceId>794</ReferenceId>
+        <DateLastUpdated>2020-09-10-07:00</DateLastUpdated>
+        <Article>
+            <PubmedId>12036323</PubmedId>
+            <Abstract>The yellow fever virus 17D vaccine strain is one of the most effective and safe vaccines available. The immune response after immunization is characterized by long-lasting high titers of neutralizing antibodies. Here, we have initiated a characterization of YFV-17D-specific cellular immune responses. This study makes three points. First, we have identified two CD8 T cell epitopes and one CD4 T cell epitope. An H-2Kb-restricted dominant epitope was mapped in the NS3 protein, whereas the viral envelope protein harbored an H-2Db-restricted subdominant epitope and the I-Ab-restricted CD4 T cell epitope. Second, illustrating the concept of immunodomination, we found that after abrogation of the dominant response in H-2Kb knockout mice, the frequencies of T cells recognizing the subdominant Db-restricted epitope increased dramatically. Finally, the H-2Db-restricted epitope lacks the canonical Asn anchor residue at position 5, indicating that epitopes may be missed by strict application of the H-2Db-binding motif. Identification of these T cell epitopes will facilitate studies on the cellular immunity against YFV-based expression or immunization vectors.</Abstract>
+            <ArticleYear>2002</ArticleYear>
+            <ArticlePages>117-24</ArticlePages>
+            <ArticleTitle>Yellow fever virus 17D envelope and NS3 proteins are major targets of the antiviral T cell response in mice.</ArticleTitle>
+            <Authors>
+                <Author>
+                    <LastName>van der Most</LastName>
+                    <ForeName>Robbert G</ForeName>
+                </Author>
+                <Author>
+                    <LastName>Harrington</LastName>
+                    <ForeName>Laurie E</ForeName>
+                </Author>
+                <Author>
+                    <LastName>Giuggio</LastName>
+                    <ForeName>Vicki</ForeName>
+                </Author>
+                <Author>
+                    <LastName>Mahar</LastName>
+                    <ForeName>Patryce L</ForeName>
+                </Author>
+                <Author>
+                    <LastName>Ahmed</LastName>
+                    <ForeName>Rafi</ForeName>
+                </Author>
+            </Authors>
+            <Affiliations>Emory Vaccine Center, Emory University School of Medicine, Atlanta, Georgia 30322, USA. r.g.vandermost@vet.uu.nl.</Affiliations>
+            <ArticleChemicalList>CD4 Antigens;Epitopes;H-2 Antigens;Viral Envelope Proteins;Viral Nonstructural Proteins;Yellow Fever Vaccine;yellow fever virus envelope protein E;Interferon-gamma</ArticleChemicalList>
+            <ArticleMeshHeadingsList>Animals; CD4 Antigens(immunology); CD4-Positive T-Lymphocytes(immunology); CD8-Positive T-Lymphocytes(immunology); Cell Count; Cells, Cultured; Epitopes(analysis); Female; Flow Cytometry; H-2 Antigens(genetics; immunology); Immunity, Cellular; Interferon-gamma(analysis); Mice; Mice, Inbred C57BL; Mice, Knockout; Spleen(cytology; immunology); Time Factors; Viral Envelope Proteins(immunology); Viral Nonstructural Proteins(immunology); Yellow Fever(immunology; prevention &amp; control); Yellow Fever Vaccine(administration &amp; dosage); Yellow fever virus(immunology; metabolism)</ArticleMeshHeadingsList>
+            <Journal>
+                <Volume>296</Volume>
+                <Issue>1</Issue>
+                <Title>Virology</Title>
+                <Issn>1096-0341</Issn>
+                <MedlineTa>Virology</MedlineTa>
+            </Journal>
+        </Article>
+        <Epitopes>
+            <Epitope>
+                <EpitopeName>NS3-268</EpitopeName>
+                <EpitopeStructure>
+                    <FragmentOfANaturalSequenceMolecule>
+                        <ChemicalType>Peptide from protein</ChemicalType>
+                        <LinearSequence>ATLTYRML</LinearSequence>
+                        <StartingPosition>85</StartingPosition>
+                        <EndingPosition>92</EndingPosition>
+                        <SourceMolecule>
+                            <GenBankId>1YKS_A</GenBankId>
+                        </SourceMolecule>
+                        <SourceOrganismId>11090</SourceOrganismId>
+                    </FragmentOfANaturalSequenceMolecule>
+                </EpitopeStructure>
+                <LocationOfData>Figure 6</LocationOfData>
+                <EpitopeId>5053</EpitopeId>
+                <ReferenceStartingPosition>268</ReferenceStartingPosition>
+                <ReferenceEndingPosition>275</ReferenceEndingPosition>
+                <EpitopeEvidenceCode>Not determined</EpitopeEvidenceCode>
+                <EpitopeStructureDefines>Exact Epitope</EpitopeStructureDefines>
+                <EpitopeComments>Swissprot numbering is for genome polyprotein prior to processing.</EpitopeComments>
+                <Assays>
+                    <TCell>
+                        <LocationOfData>Figure 6</LocationOfData>
+                        <TCellId>8337</TCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>10000067</OrganismId>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Administration in vivo</InVivoProcessType>
+                                <DiseaseState>DOID:9682</DiseaseState>
+                                <DiseaseStage>Acute/Recent onset</DiseaseStage>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Source Organism</EpitopeRelation>
+                                    <Object>
+                                        <Organism>
+                                            <SubType>Organism</SubType>
+                                            <SourceOrganismId>11090</SourceOrganismId>
+                                        </Organism>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenEvidenceCode>Not determined</ImmunogenEvidenceCode>
+                                <Route>Subcutaneous (s.c.)</Route>
+                                <DoseSchedule>2 innoculations with YFV-17D virus 3-4 weeks apart.</DoseSchedule>
+                            </FirstInVivoProcess>
+                            <InVitroAdministration>
+                                <ProcessType>Restimulation in vitro</ProcessType>
+                                <ResponderCellType>Splenocyte</ResponderCellType>
+                                <StimulatorCellType>Splenocyte</StimulatorCellType>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Epitope</EpitopeRelation>
+                                    <Object>
+                                        <FragmentOfANaturalSequenceMolecule>
+                                            <ChemicalType>Peptide from protein</ChemicalType>
+                                            <LinearSequence>ATLTYRML</LinearSequence>
+                                            <StartingPosition>85</StartingPosition>
+                                            <EndingPosition>92</EndingPosition>
+                                            <SourceMolecule>
+                                                <GenBankId>1YKS_A</GenBankId>
+                                            </SourceMolecule>
+                                            <SourceOrganismId>11090</SourceOrganismId>
+                                        </FragmentOfANaturalSequenceMolecule>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenEvidenceCode>Exact match to reference information</ImmunogenEvidenceCode>
+                            </InVitroAdministration>
+                            <ImmunizationComments>Mice were infected with 10E6 PFU YFV-17D into base of tail and splenocytes harvested 5 days after second innoculation.  Splenocytes were restimulated with the epitope.</ImmunizationComments>
+                        </Immunization>
+                        <EffectorCells>
+                            <CellTissueType>Spleen</CellTissueType>
+                            <CellType>T cell CD8+</CellType>
+                            <CellCultureConditions>Short Term Restimulated</CellCultureConditions>
+                        </EffectorCells>
+                        <AntigenPresentingCells>
+                            <CellTissueType>Spleen</CellTissueType>
+                            <CellType>Splenocyte</CellType>
+                            <CellCultureConditions>Short Term Restimulated</CellCultureConditions>
+                            <AutologousOrSyngeneic>Y</AutologousOrSyngeneic>
+                        </AntigenPresentingCells>
+                        <MhcAllele>
+                            <MhcAlleleId>122</MhcAlleleId>
+                            <MhcEvidenceCode>Not determined</MhcEvidenceCode>
+                        </MhcAllele>
+                        <Antigen>
+                            <AntigenReferenceName>NS3-268</AntigenReferenceName>
+                            <AntigenObject>
+                                <EpitopeRelation>Epitope</EpitopeRelation>
+                                <Object>
+                                    <FragmentOfANaturalSequenceMolecule>
+                                        <ChemicalType>Peptide from protein</ChemicalType>
+                                        <LinearSequence>ATLTYRML</LinearSequence>
+                                        <StartingPosition>85</StartingPosition>
+                                        <EndingPosition>92</EndingPosition>
+                                        <SourceMolecule>
+                                            <GenBankId>1YKS_A</GenBankId>
+                                        </SourceMolecule>
+                                        <SourceOrganismId>11090</SourceOrganismId>
+                                    </FragmentOfANaturalSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Exact match to reference information</AntigenEvidenceCode>
+                        </Antigen>
+                        <AssayInformation>
+                            <AssayTypeId>53</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <AssayComments>Cell population of effector cells was determined to be CD4-/CD8+ by FACS.</AssayComments>
+                        </AssayInformation>
+                    </TCell>
+                </Assays>
+            </Epitope>
+            <Epitope>
+                <EpitopeName>E-4</EpitopeName>
+                <EpitopeStructure>
+                    <FragmentOfANaturalSequenceMolecule>
+                        <ChemicalType>Peptide from protein</ChemicalType>
+                        <LinearSequence>IGITDRDFI</LinearSequence>
+                        <StartingPosition>4</StartingPosition>
+                        <EndingPosition>12</EndingPosition>
+                        <SourceMolecule>
+                            <GenBankId>AAY68346.1</GenBankId>
+                        </SourceMolecule>
+                        <SourceOrganismId>11090</SourceOrganismId>
+                    </FragmentOfANaturalSequenceMolecule>
+                </EpitopeStructure>
+                <LocationOfData>Figure 6</LocationOfData>
+                <EpitopeId>26249</EpitopeId>
+                <ReferenceStartingPosition>4</ReferenceStartingPosition>
+                <ReferenceEndingPosition>12</ReferenceEndingPosition>
+                <EpitopeEvidenceCode>Not determined</EpitopeEvidenceCode>
+                <EpitopeStructureDefines>Exact Epitope</EpitopeStructureDefines>
+                <EpitopeComments>Swissprot numbering is for genome polyprotein prior to processing.</EpitopeComments>
+                <Assays>
+                    <TCell>
+                        <LocationOfData>Figure 6</LocationOfData>
+                        <TCellId>8338</TCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>10000067</OrganismId>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Administration in vivo</InVivoProcessType>
+                                <DiseaseState>DOID:9682</DiseaseState>
+                                <DiseaseStage>Acute/Recent onset</DiseaseStage>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Source Organism</EpitopeRelation>
+                                    <Object>
+                                        <Organism>
+                                            <SubType>Organism</SubType>
+                                            <SourceOrganismId>11090</SourceOrganismId>
+                                        </Organism>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenEvidenceCode>Not determined</ImmunogenEvidenceCode>
+                                <Route>Subcutaneous (s.c.)</Route>
+                                <DoseSchedule>2 innoculations with YFV-17D virus 3-4 weeks apart.</DoseSchedule>
+                            </FirstInVivoProcess>
+                            <InVitroAdministration>
+                                <ProcessType>Restimulation in vitro</ProcessType>
+                                <ResponderCellType>Splenocyte</ResponderCellType>
+                                <StimulatorCellType>Splenocyte</StimulatorCellType>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Epitope</EpitopeRelation>
+                                    <Object>
+                                        <FragmentOfANaturalSequenceMolecule>
+                                            <ChemicalType>Peptide from protein</ChemicalType>
+                                            <LinearSequence>IGITDRDFI</LinearSequence>
+                                            <StartingPosition>4</StartingPosition>
+                                            <EndingPosition>12</EndingPosition>
+                                            <SourceMolecule>
+                                                <GenBankId>AAY68346.1</GenBankId>
+                                            </SourceMolecule>
+                                            <SourceOrganismId>11090</SourceOrganismId>
+                                        </FragmentOfANaturalSequenceMolecule>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenEvidenceCode>Exact match to reference information</ImmunogenEvidenceCode>
+                            </InVitroAdministration>
+                            <ImmunizationComments>Mice were infected with 10E6 PFU YFV-17D into base of tail and splenocytes harvested 5 days after second innoculation.  Splenocytes were restimulated with the epitope.</ImmunizationComments>
+                        </Immunization>
+                        <EffectorCells>
+                            <CellTissueType>Spleen</CellTissueType>
+                            <CellType>T cell CD8+</CellType>
+                            <CellCultureConditions>Short Term Restimulated</CellCultureConditions>
+                        </EffectorCells>
+                        <AntigenPresentingCells>
+                            <CellTissueType>Spleen</CellTissueType>
+                            <CellType>Splenocyte</CellType>
+                            <CellCultureConditions>Short Term Restimulated</CellCultureConditions>
+                            <AutologousOrSyngeneic>Y</AutologousOrSyngeneic>
+                        </AntigenPresentingCells>
+                        <MhcAllele>
+                            <MhcAlleleId>172</MhcAlleleId>
+                            <MhcEvidenceCode>Not determined</MhcEvidenceCode>
+                        </MhcAllele>
+                        <Antigen>
+                            <AntigenReferenceName>E-4</AntigenReferenceName>
+                            <AntigenObject>
+                                <EpitopeRelation>Epitope</EpitopeRelation>
+                                <Object>
+                                    <FragmentOfANaturalSequenceMolecule>
+                                        <ChemicalType>Peptide from protein</ChemicalType>
+                                        <LinearSequence>IGITDRDFI</LinearSequence>
+                                        <StartingPosition>4</StartingPosition>
+                                        <EndingPosition>12</EndingPosition>
+                                        <SourceMolecule>
+                                            <GenBankId>AAY68346.1</GenBankId>
+                                        </SourceMolecule>
+                                        <SourceOrganismId>11090</SourceOrganismId>
+                                    </FragmentOfANaturalSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Exact match to reference information</AntigenEvidenceCode>
+                        </Antigen>
+                        <AssayInformation>
+                            <AssayTypeId>53</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <AssayComments>Cell population of effector cells was determined to be CD4-/CD8+ by FACS.</AssayComments>
+                        </AssayInformation>
+                    </TCell>
+                </Assays>
+            </Epitope>
+            <Epitope>
+                <EpitopeName>Peptide 42</EpitopeName>
+                <EpitopeStructure>
+                    <FragmentOfANaturalSequenceMolecule>
+                        <ChemicalType>Peptide from protein</ChemicalType>
+                        <LinearSequence>LVEFEPPHAATIRVL</LinearSequence>
+                        <StartingPosition>231</StartingPosition>
+                        <EndingPosition>245</EndingPosition>
+                        <SourceMolecule>
+                            <GenBankId>AAR86693.1</GenBankId>
+                        </SourceMolecule>
+                        <SourceOrganismId>11090</SourceOrganismId>
+                    </FragmentOfANaturalSequenceMolecule>
+                </EpitopeStructure>
+                <LocationOfData>Figure 6</LocationOfData>
+                <EpitopeId>40314</EpitopeId>
+                <ReferenceStartingPosition>231</ReferenceStartingPosition>
+                <ReferenceEndingPosition>247</ReferenceEndingPosition>
+                <EpitopeEvidenceCode>Not determined</EpitopeEvidenceCode>
+                <EpitopeStructureDefines>Exact Epitope</EpitopeStructureDefines>
+                <EpitopeComments>I-A&lt;sup&gt;b&lt;/sup&gt;-restricted CD4+ T-cell epitope. Swissprot numbering is for genome polyprotein prior to processing.</EpitopeComments>
+                <Assays>
+                    <TCell>
+                        <LocationOfData>Figure 4</LocationOfData>
+                        <TCellId>8339</TCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>10000067</OrganismId>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Administration in vivo</InVivoProcessType>
+                                <DiseaseState>DOID:9682</DiseaseState>
+                                <DiseaseStage>Acute/Recent onset</DiseaseStage>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Source Organism</EpitopeRelation>
+                                    <Object>
+                                        <Organism>
+                                            <SubType>Organism</SubType>
+                                            <SourceOrganismId>11090</SourceOrganismId>
+                                        </Organism>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenEvidenceCode>Not determined</ImmunogenEvidenceCode>
+                                <Route>Subcutaneous (s.c.)</Route>
+                                <DoseSchedule>2 innoculations with YFV-17D virus 3-4 weeks apart.</DoseSchedule>
+                            </FirstInVivoProcess>
+                            <InVitroAdministration>
+                                <ProcessType>Restimulation in vitro</ProcessType>
+                                <ResponderCellType>Splenocyte</ResponderCellType>
+                                <StimulatorCellType>Splenocyte</StimulatorCellType>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Epitope</EpitopeRelation>
+                                    <Object>
+                                        <FragmentOfANaturalSequenceMolecule>
+                                            <ChemicalType>Peptide from protein</ChemicalType>
+                                            <LinearSequence>LVEFEPPHAATIRVL</LinearSequence>
+                                            <StartingPosition>231</StartingPosition>
+                                            <EndingPosition>245</EndingPosition>
+                                            <SourceMolecule>
+                                                <GenBankId>AAR86693.1</GenBankId>
+                                            </SourceMolecule>
+                                            <SourceOrganismId>11090</SourceOrganismId>
+                                        </FragmentOfANaturalSequenceMolecule>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenEvidenceCode>Exact match to reference information</ImmunogenEvidenceCode>
+                            </InVitroAdministration>
+                            <ImmunizationComments>Mice were infected with 1x10&lt;sup&gt;6&lt;/sup&gt; PFU YFV-17D into base of tail and splenocytes harvested 5 days after second innoculation.  Splenocytes were restimulated with the epitope.</ImmunizationComments>
+                        </Immunization>
+                        <EffectorCells>
+                            <CellTissueType>Spleen</CellTissueType>
+                            <CellType>T cell CD4+</CellType>
+                            <CellCultureConditions>Short Term Restimulated</CellCultureConditions>
+                        </EffectorCells>
+                        <AntigenPresentingCells>
+                            <CellTissueType>Spleen</CellTissueType>
+                            <CellType>Splenocyte</CellType>
+                            <CellCultureConditions>Short Term Restimulated</CellCultureConditions>
+                            <AutologousOrSyngeneic>Y</AutologousOrSyngeneic>
+                        </AntigenPresentingCells>
+                        <MhcAllele>
+                            <MhcAlleleId>181</MhcAlleleId>
+                            <MhcEvidenceCode>Not determined</MhcEvidenceCode>
+                        </MhcAllele>
+                        <Antigen>
+                            <AntigenReferenceName>Peptide 42</AntigenReferenceName>
+                            <AntigenObject>
+                                <EpitopeRelation>Epitope</EpitopeRelation>
+                                <Object>
+                                    <FragmentOfANaturalSequenceMolecule>
+                                        <ChemicalType>Peptide from protein</ChemicalType>
+                                        <LinearSequence>LVEFEPPHAATIRVL</LinearSequence>
+                                        <StartingPosition>231</StartingPosition>
+                                        <EndingPosition>245</EndingPosition>
+                                        <SourceMolecule>
+                                            <GenBankId>AAR86693.1</GenBankId>
+                                        </SourceMolecule>
+                                        <SourceOrganismId>11090</SourceOrganismId>
+                                    </FragmentOfANaturalSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Exact match to reference information</AntigenEvidenceCode>
+                        </Antigen>
+                        <AssayInformation>
+                            <AssayTypeId>53</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <AssayComments>Cell population of effector cells was determined to be CD4+/CD8- by FACS.</AssayComments>
+                        </AssayInformation>
+                    </TCell>
+                </Assays>
+            </Epitope>
+        </Epitopes>
+    </Reference>
+</References>
+

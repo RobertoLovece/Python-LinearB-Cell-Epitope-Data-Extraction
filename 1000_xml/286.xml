@@ -1,0 +1,633 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<References xsi:schemaLocation="http://www.iedb.org/schema/CurationSchema http://beta.iedb.org/schema/Curation.xsd" xmlns="http://www.iedb.org/schema/CurationSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <Reference>
+        <ReferenceId>286</ReferenceId>
+        <DateLastUpdated>2020-09-10-07:00</DateLastUpdated>
+        <Article>
+            <PubmedId>15699154</PubmedId>
+            <Abstract>Murine T cell epitopes against vaccinia virus (VV) have not been characterized to date in part due to the large and complex genome of VV. We have identified and characterized two CD8+ T cell epitopes on the A47L (modified VV Ankara strain (MVA)-029) and J6R (MVA-043) proteins of VV that are Db and Kb restricted, respectively. Following i.p. immunization with VV New York City Board of Health (NYCBH) strain, MVA-029 peptide-stimulated splenocytes secreted IFN-gamma from 7 days to 7 mo postimmunization, and virus-stimulated effectors were also able to lyse MVA-029-pulsed target cells at the same time points. In contrast, MVA-043 peptide-stimulated splenocytes secreted very low levels of IFN-gamma only at day 7 but maintained the ability to lyse target cells up to 2 mo postimmunization. Both MVA-029 and MVA-043 peptide-stimulated lymph node cells degranulated similarly as assessed by Ag-induced CD107 expression. T cell responses to whole-virus stimulation remained robust and steady during the acute and memory T cell response to VV. Identification of T cell epitopes on VV will enable further studies to increase our understanding of the role of CD8+ T cells in VV infection and assist in the design of new protective strategies.</Abstract>
+            <ArticleYear>2005</ArticleYear>
+            <ArticlePages>2212-9</ArticlePages>
+            <ArticleTitle>Identification of murine poxvirus-specific CD8+ CTL epitopes with distinct functional profiles.</ArticleTitle>
+            <Authors>
+                <Author>
+                    <LastName>Mathew</LastName>
+                    <ForeName>Anuja</ForeName>
+                </Author>
+                <Author>
+                    <LastName>Terajima</LastName>
+                    <ForeName>Masanori</ForeName>
+                </Author>
+                <Author>
+                    <LastName>West</LastName>
+                    <ForeName>Kim</ForeName>
+                </Author>
+                <Author>
+                    <LastName>Green</LastName>
+                    <ForeName>Sharone</ForeName>
+                </Author>
+                <Author>
+                    <LastName>Rothman</LastName>
+                    <ForeName>Alan L</ForeName>
+                </Author>
+                <Author>
+                    <LastName>Ennis</LastName>
+                    <ForeName>Francis A</ForeName>
+                </Author>
+                <Author>
+                    <LastName>Kennedy</LastName>
+                    <ForeName>Jeffrey S</ForeName>
+                </Author>
+            </Authors>
+            <Affiliations>Center for Infectious Disease and Vaccine Research, University of Massachusetts Medical School, Worcester, MA 01655, USA. anuja.mathew@umassmed.edu.</Affiliations>
+            <ArticleChemicalList>Epitopes, T-Lymphocyte;H-2 Antigens;H-2Kb protein, mouse;Histocompatibility Antigen H-2D;Peptide Fragments;Viral Vaccines;Interferon-gamma</ArticleChemicalList>
+            <ArticleMeshHeadingsList>Amino Acid Sequence; Animals; Cell Degranulation(immunology); Cell Line, Tumor; Cells, Cultured; Cytotoxicity Tests, Immunologic(methods); Epitopes, T-Lymphocyte(immunology; physiology); H-2 Antigens(immunology); Histocompatibility Antigen H-2D; Injections, Intraperitoneal; Interferon-gamma(metabolism); Kinetics; Male; Mice; Mice, Inbred C57BL; Molecular Sequence Data; Peptide Fragments(immunology; physiology); T-Lymphocytes, Cytotoxic(immunology; metabolism; virology); Vaccinia virus(immunology); Viral Vaccines(administration &amp; dosage; immunology)</ArticleMeshHeadingsList>
+            <Journal>
+                <Volume>174</Volume>
+                <Issue>4</Issue>
+                <Title>Journal of immunology (Baltimore, Md. : 1950)</Title>
+                <Issn>0022-1767</Issn>
+                <MedlineTa>J Immunol</MedlineTa>
+            </Journal>
+        </Article>
+        <Epitopes>
+            <Epitope>
+                <EpitopeName>MVA 029E</EpitopeName>
+                <EpitopeStructure>
+                    <FragmentOfANaturalSequenceMolecule>
+                        <ChemicalType>Peptide from protein</ChemicalType>
+                        <LinearSequence>AHINALEY</LinearSequence>
+                        <StartingPosition>158</StartingPosition>
+                        <EndingPosition>165</EndingPosition>
+                        <SourceMolecule>
+                            <GenBankId>O57248.1</GenBankId>
+                        </SourceMolecule>
+                        <SourceOrganismId>467144</SourceOrganismId>
+                    </FragmentOfANaturalSequenceMolecule>
+                </EpitopeStructure>
+                <LocationOfData>Figure 1</LocationOfData>
+                <EpitopeId>1780</EpitopeId>
+                <EpitopeEvidenceCode>Exact match to reference information</EpitopeEvidenceCode>
+                <EpitopeStructureDefines>Exact Epitope</EpitopeStructureDefines>
+                <Assays>
+                    <TCell>
+                        <LocationOfData>Figures 1 and 2</LocationOfData>
+                        <TCellId>1850191</TCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>10000067</OrganismId>
+                                <Sex>M</Sex>
+                                <Age>4-8 weeks</Age>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Administration in vivo</InVivoProcessType>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Taxonomic Sibling</EpitopeRelation>
+                                    <Object>
+                                        <Organism>
+                                            <SubType>Organism</SubType>
+                                            <SourceOrganismId>10000388</SourceOrganismId>
+                                        </Organism>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenReferenceName>NYCBH</ImmunogenReferenceName>
+                                <ImmunogenEvidenceCode>Exact match to reference information</ImmunogenEvidenceCode>
+                                <Route>Intraperitoneal (i.p.)</Route>
+                                <DoseSchedule>1 dose of 1 x 10E6 PFU.</DoseSchedule>
+                            </FirstInVivoProcess>
+                            <ImmunizationComments>Mice were immunized i.p. with 10 &lt;sup&gt;6&lt;/sup&gt; PFU of NYCBH.</ImmunizationComments>
+                        </Immunization>
+                        <EffectorCells>
+                            <CellTissueType>Spleen</CellTissueType>
+                            <CellType>T cell</CellType>
+                            <CellCultureConditions>Direct Ex Vivo</CellCultureConditions>
+                        </EffectorCells>
+                        <AntigenPresentingCells>
+                            <CellTissueType>Lymphoid</CellTissueType>
+                            <CellType>EL-4 cells-Lymphoblast</CellType>
+                            <CellCultureConditions>Cell Line / Clone</CellCultureConditions>
+                            <AutologousOrSyngeneic>Y</AutologousOrSyngeneic>
+                        </AntigenPresentingCells>
+                        <MhcAllele>
+                            <MhcAlleleId>172</MhcAlleleId>
+                            <MhcEvidenceCode>MHC binding assay</MhcEvidenceCode>
+                        </MhcAllele>
+                        <Antigen>
+                            <AntigenObject>
+                                <EpitopeRelation>Epitope</EpitopeRelation>
+                                <Object>
+                                    <FragmentOfANaturalSequenceMolecule>
+                                        <ChemicalType>Peptide from protein</ChemicalType>
+                                        <LinearSequence>AHINALEY</LinearSequence>
+                                        <StartingPosition>158</StartingPosition>
+                                        <EndingPosition>165</EndingPosition>
+                                        <SourceMolecule>
+                                            <GenBankId>O57248.1</GenBankId>
+                                        </SourceMolecule>
+                                        <SourceOrganismId>467144</SourceOrganismId>
+                                    </FragmentOfANaturalSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Exact match to reference information</AntigenEvidenceCode>
+                        </Antigen>
+                        <AssayInformation>
+                            <AssayTypeId>67</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <AssayComments>CTL assays were performed using EL-4 cells pulsed with the epitope at differerent E:T ratios. Cytolytic activity was detected both early and late in the memory response (up to 15 weeks).</AssayComments>
+                        </AssayInformation>
+                    </TCell>
+                </Assays>
+                <Assays>
+                    <TCell>
+                        <LocationOfData>Table II</LocationOfData>
+                        <TCellId>1853405</TCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>10000067</OrganismId>
+                                <Sex>M</Sex>
+                                <Age>4-8 weeks</Age>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Administration in vivo</InVivoProcessType>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Taxonomic Sibling</EpitopeRelation>
+                                    <Object>
+                                        <Organism>
+                                            <SubType>Organism</SubType>
+                                            <SourceOrganismId>10000388</SourceOrganismId>
+                                        </Organism>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenReferenceName>NYCBH</ImmunogenReferenceName>
+                                <ImmunogenEvidenceCode>Exact match to reference information</ImmunogenEvidenceCode>
+                                <Route>Intraperitoneal (i.p.)</Route>
+                                <DoseSchedule>1 dose of 1 x 10E6 PFU.</DoseSchedule>
+                            </FirstInVivoProcess>
+                            <ImmunizationComments>Mice were immunized i.p. with 10 &lt;sup&gt;6&lt;/sup&gt; PFU of NYCBH.</ImmunizationComments>
+                        </Immunization>
+                        <EffectorCells>
+                            <CellTissueType>Spleen</CellTissueType>
+                            <CellType>T cell</CellType>
+                            <CellCultureConditions>Direct Ex Vivo</CellCultureConditions>
+                        </EffectorCells>
+                        <AntigenPresentingCells>
+                            <CellTissueType>Lymphoid</CellTissueType>
+                            <CellType>EL-4 cells-Lymphoblast</CellType>
+                            <CellCultureConditions>Cell Line / Clone</CellCultureConditions>
+                            <AutologousOrSyngeneic>Y</AutologousOrSyngeneic>
+                        </AntigenPresentingCells>
+                        <MhcAllele>
+                            <MhcAlleleId>172</MhcAlleleId>
+                            <MhcEvidenceCode>MHC binding assay</MhcEvidenceCode>
+                        </MhcAllele>
+                        <Antigen>
+                            <AntigenObject>
+                                <EpitopeRelation>Fragment of Source Antigen</EpitopeRelation>
+                                <Object>
+                                    <FragmentOfANaturalSequenceMolecule>
+                                        <ChemicalType>Peptide from protein</ChemicalType>
+                                        <LinearSequence>LLYAHINALEYIIKNTFNV</LinearSequence>
+                                        <StartingPosition>155</StartingPosition>
+                                        <EndingPosition>173</EndingPosition>
+                                        <SourceMolecule>
+                                            <GenBankId>O57248.1</GenBankId>
+                                        </SourceMolecule>
+                                        <SourceOrganismId>467144</SourceOrganismId>
+                                    </FragmentOfANaturalSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Exact match to reference information</AntigenEvidenceCode>
+                        </Antigen>
+                        <AssayInformation>
+                            <AssayTypeId>67</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <AssayComments>CTL assays were performed using EL-4 cells pulsed with the peptide. Cytolytic activity was detected both early and late in the memory response (up to 15 weeks).</AssayComments>
+                        </AssayInformation>
+                    </TCell>
+                </Assays>
+                <Assays>
+                    <TCell>
+                        <LocationOfData>Figure 1</LocationOfData>
+                        <TCellId>1853168</TCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>10000067</OrganismId>
+                                <Sex>M</Sex>
+                                <Age>4-8 weeks</Age>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Administration in vivo</InVivoProcessType>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Taxonomic Sibling</EpitopeRelation>
+                                    <Object>
+                                        <Organism>
+                                            <SubType>Organism</SubType>
+                                            <SourceOrganismId>10000388</SourceOrganismId>
+                                        </Organism>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenReferenceName>NYCBH</ImmunogenReferenceName>
+                                <ImmunogenEvidenceCode>Exact match to reference information</ImmunogenEvidenceCode>
+                                <Route>Intraperitoneal (i.p.)</Route>
+                                <DoseSchedule>1 dose of 1 x 10E6 PFU.</DoseSchedule>
+                            </FirstInVivoProcess>
+                            <ImmunizationComments>Mice were immunized i.p. with 10 &lt;sup&gt;6&lt;/sup&gt; PFU of NYCBH. Splenocytes were prepared 14 days after immunization.</ImmunizationComments>
+                        </Immunization>
+                        <EffectorCells>
+                            <CellTissueType>Spleen</CellTissueType>
+                            <CellType>T cell</CellType>
+                            <CellCultureConditions>Direct Ex Vivo</CellCultureConditions>
+                        </EffectorCells>
+                        <AntigenPresentingCells>
+                            <CellTissueType>Spleen</CellTissueType>
+                            <CellType>Splenocyte</CellType>
+                            <CellCultureConditions>Direct Ex Vivo</CellCultureConditions>
+                            <AutologousOrSyngeneic>Y</AutologousOrSyngeneic>
+                        </AntigenPresentingCells>
+                        <MhcAllele>
+                            <MhcAlleleId>172</MhcAlleleId>
+                            <MhcEvidenceCode>MHC binding assay</MhcEvidenceCode>
+                        </MhcAllele>
+                        <Antigen>
+                            <AntigenObject>
+                                <EpitopeRelation>Epitope</EpitopeRelation>
+                                <Object>
+                                    <FragmentOfANaturalSequenceMolecule>
+                                        <ChemicalType>Peptide from protein</ChemicalType>
+                                        <LinearSequence>AHINALEY</LinearSequence>
+                                        <StartingPosition>158</StartingPosition>
+                                        <EndingPosition>165</EndingPosition>
+                                        <SourceMolecule>
+                                            <GenBankId>O57248.1</GenBankId>
+                                        </SourceMolecule>
+                                        <SourceOrganismId>467144</SourceOrganismId>
+                                    </FragmentOfANaturalSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Exact match to reference information</AntigenEvidenceCode>
+                        </Antigen>
+                        <AssayInformation>
+                            <AssayTypeId>48</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                        </AssayInformation>
+                    </TCell>
+                </Assays>
+                <Assays>
+                    <TCell>
+                        <LocationOfData>Figures 4, 5, and 6 and Table II</LocationOfData>
+                        <TCellId>1853411</TCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>10000067</OrganismId>
+                                <Sex>M</Sex>
+                                <Age>4-8 weeks</Age>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Administration in vivo</InVivoProcessType>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Taxonomic Sibling</EpitopeRelation>
+                                    <Object>
+                                        <Organism>
+                                            <SubType>Organism</SubType>
+                                            <SourceOrganismId>10000388</SourceOrganismId>
+                                        </Organism>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenReferenceName>NYCBH</ImmunogenReferenceName>
+                                <ImmunogenEvidenceCode>Exact match to reference information</ImmunogenEvidenceCode>
+                                <Route>Intraperitoneal (i.p.)</Route>
+                                <DoseSchedule>1 dose of 1 x 10E6 PFU.</DoseSchedule>
+                            </FirstInVivoProcess>
+                            <ImmunizationComments>Mice were immunized i.p. with 10 &lt;sup&gt;6&lt;/sup&gt; PFU of NYCBH. Splenocytes were prepared 14 days after immunization.</ImmunizationComments>
+                        </Immunization>
+                        <EffectorCells>
+                            <CellTissueType>Spleen</CellTissueType>
+                            <CellType>T cell CD8+</CellType>
+                            <CellCultureConditions>Direct Ex Vivo</CellCultureConditions>
+                        </EffectorCells>
+                        <AntigenPresentingCells>
+                            <CellTissueType>Lymphoid</CellTissueType>
+                            <CellType>EL-4 cells-Lymphoblast</CellType>
+                            <CellCultureConditions>Cell Line / Clone</CellCultureConditions>
+                            <AutologousOrSyngeneic>Y</AutologousOrSyngeneic>
+                        </AntigenPresentingCells>
+                        <MhcAllele>
+                            <MhcAlleleId>172</MhcAlleleId>
+                            <MhcEvidenceCode>MHC binding assay</MhcEvidenceCode>
+                        </MhcAllele>
+                        <Antigen>
+                            <AntigenObject>
+                                <EpitopeRelation>Fragment of Source Antigen</EpitopeRelation>
+                                <Object>
+                                    <FragmentOfANaturalSequenceMolecule>
+                                        <ChemicalType>Peptide from protein</ChemicalType>
+                                        <LinearSequence>LLYAHINALEYIIKNTFNV</LinearSequence>
+                                        <StartingPosition>155</StartingPosition>
+                                        <EndingPosition>173</EndingPosition>
+                                        <SourceMolecule>
+                                            <GenBankId>O57248.1</GenBankId>
+                                        </SourceMolecule>
+                                        <SourceOrganismId>467144</SourceOrganismId>
+                                    </FragmentOfANaturalSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Exact match to reference information</AntigenEvidenceCode>
+                        </Antigen>
+                        <AssayInformation>
+                            <AssayTypeId>48</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <AssayComments>T-cells also responded to stimulation with YAHINALEY. Freshly isolated splenocytes from immunized mice were also used as APCs.</AssayComments>
+                        </AssayInformation>
+                    </TCell>
+                </Assays>
+            </Epitope>
+            <Epitope>
+                <EpitopeName>MVA029C</EpitopeName>
+                <EpitopeStructure>
+                    <FragmentOfANaturalSequenceMolecule>
+                        <ChemicalType>Peptide from protein</ChemicalType>
+                        <LinearSequence>YAHINALEY</LinearSequence>
+                        <StartingPosition>157</StartingPosition>
+                        <EndingPosition>165</EndingPosition>
+                        <SourceMolecule>
+                            <GenBankId>O57248.1</GenBankId>
+                        </SourceMolecule>
+                        <SourceOrganismId>126794</SourceOrganismId>
+                    </FragmentOfANaturalSequenceMolecule>
+                </EpitopeStructure>
+                <LocationOfData>Figure 1</LocationOfData>
+                <EpitopeId>73366</EpitopeId>
+                <EpitopeEvidenceCode>Exact match to reference information</EpitopeEvidenceCode>
+                <EpitopeStructureDefines>Exact Epitope</EpitopeStructureDefines>
+                <Assays>
+                    <MhcBinding>
+                        <LocationOfData>Figure 3</LocationOfData>
+                        <MhcBindingId>1853642</MhcBindingId>
+                        <AssayInformation>
+                            <AssayTypeId>185</AssayTypeId>
+                            <QualitativeMeasurement>Negative</QualitativeMeasurement>
+                        </AssayInformation>
+                        <MhcAlleleId>122</MhcAlleleId>
+                    </MhcBinding>
+                </Assays>
+                <Assays>
+                    <MhcBinding>
+                        <LocationOfData>Figure 3</LocationOfData>
+                        <MhcBindingId>1853643</MhcBindingId>
+                        <AssayInformation>
+                            <AssayTypeId>185</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                        </AssayInformation>
+                        <MhcAlleleId>172</MhcAlleleId>
+                    </MhcBinding>
+                </Assays>
+            </Epitope>
+            <Epitope>
+                <EpitopeName>MVA043D</EpitopeName>
+                <EpitopeStructure>
+                    <FragmentOfANaturalSequenceMolecule>
+                        <ChemicalType>Peptide from protein</ChemicalType>
+                        <LinearSequence>GLLSDHKSN</LinearSequence>
+                        <StartingPosition>543</StartingPosition>
+                        <EndingPosition>551</EndingPosition>
+                        <SourceMolecule>
+                            <GenBankId>O57204.1</GenBankId>
+                        </SourceMolecule>
+                        <SourceOrganismId>126794</SourceOrganismId>
+                    </FragmentOfANaturalSequenceMolecule>
+                </EpitopeStructure>
+                <LocationOfData>Figure 1</LocationOfData>
+                <EpitopeId>21027</EpitopeId>
+                <EpitopeEvidenceCode>Exact match to reference information</EpitopeEvidenceCode>
+                <EpitopeStructureDefines>Exact Epitope</EpitopeStructureDefines>
+                <Assays>
+                    <TCell>
+                        <LocationOfData>Figure 1</LocationOfData>
+                        <TCellId>1855253</TCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>10000067</OrganismId>
+                                <Sex>M</Sex>
+                                <Age>4-8 weeks</Age>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Administration in vivo</InVivoProcessType>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Taxonomic Sibling</EpitopeRelation>
+                                    <Object>
+                                        <Organism>
+                                            <SubType>Organism</SubType>
+                                            <SourceOrganismId>10000388</SourceOrganismId>
+                                        </Organism>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenReferenceName>NYCBH</ImmunogenReferenceName>
+                                <ImmunogenEvidenceCode>Exact match to reference information</ImmunogenEvidenceCode>
+                                <Route>Intraperitoneal (i.p.)</Route>
+                                <DoseSchedule>1 dose of 1 x 10E6 PFU.</DoseSchedule>
+                            </FirstInVivoProcess>
+                            <ImmunizationComments>Mice were immunized i.p. with 10 &lt;sup&gt;6&lt;/sup&gt; PFU of NYCBH.</ImmunizationComments>
+                        </Immunization>
+                        <EffectorCells>
+                            <CellTissueType>Spleen</CellTissueType>
+                            <CellType>T cell</CellType>
+                            <CellCultureConditions>Direct Ex Vivo</CellCultureConditions>
+                        </EffectorCells>
+                        <AntigenPresentingCells>
+                            <CellTissueType>Lymphoid</CellTissueType>
+                            <CellType>EL-4 cells-Lymphoblast</CellType>
+                            <CellCultureConditions>Cell Line / Clone</CellCultureConditions>
+                            <AutologousOrSyngeneic>Y</AutologousOrSyngeneic>
+                        </AntigenPresentingCells>
+                        <MhcAllele>
+                            <MhcAlleleId>122</MhcAlleleId>
+                            <MhcEvidenceCode>MHC binding assay</MhcEvidenceCode>
+                        </MhcAllele>
+                        <Antigen>
+                            <AntigenObject>
+                                <EpitopeRelation>Epitope</EpitopeRelation>
+                                <Object>
+                                    <FragmentOfANaturalSequenceMolecule>
+                                        <ChemicalType>Peptide from protein</ChemicalType>
+                                        <LinearSequence>GLLSDHKSN</LinearSequence>
+                                        <StartingPosition>543</StartingPosition>
+                                        <EndingPosition>551</EndingPosition>
+                                        <SourceMolecule>
+                                            <GenBankId>O57204.1</GenBankId>
+                                        </SourceMolecule>
+                                        <SourceOrganismId>126794</SourceOrganismId>
+                                    </FragmentOfANaturalSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Exact match to reference information</AntigenEvidenceCode>
+                        </Antigen>
+                        <AssayInformation>
+                            <AssayTypeId>67</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <AssayComments>CTL assays were performed using EL-4 cells pulsed with the epitope at differerent E:T ratios. Cytolytic activity was detected both early and late in the memory response (up to 15 weeks).</AssayComments>
+                        </AssayInformation>
+                    </TCell>
+                </Assays>
+                <Assays>
+                    <TCell>
+                        <LocationOfData>Table II</LocationOfData>
+                        <TCellId>1855254</TCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>10000067</OrganismId>
+                                <Sex>M</Sex>
+                                <Age>4-8 weeks</Age>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Administration in vivo</InVivoProcessType>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Taxonomic Sibling</EpitopeRelation>
+                                    <Object>
+                                        <Organism>
+                                            <SubType>Organism</SubType>
+                                            <SourceOrganismId>10000388</SourceOrganismId>
+                                        </Organism>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenReferenceName>NYCBH</ImmunogenReferenceName>
+                                <ImmunogenEvidenceCode>Exact match to reference information</ImmunogenEvidenceCode>
+                                <Route>Intraperitoneal (i.p.)</Route>
+                                <DoseSchedule>1 dose of 1 x 10E6 PFU.</DoseSchedule>
+                            </FirstInVivoProcess>
+                            <ImmunizationComments>Mice were immunized i.p. with 10 &lt;sup&gt;6&lt;/sup&gt; PFU of NYCBH.</ImmunizationComments>
+                        </Immunization>
+                        <EffectorCells>
+                            <CellTissueType>Spleen</CellTissueType>
+                            <CellType>T cell</CellType>
+                            <CellCultureConditions>Direct Ex Vivo</CellCultureConditions>
+                        </EffectorCells>
+                        <AntigenPresentingCells>
+                            <CellTissueType>Lymphoid</CellTissueType>
+                            <CellType>EL-4 cells-Lymphoblast</CellType>
+                            <CellCultureConditions>Cell Line / Clone</CellCultureConditions>
+                            <AutologousOrSyngeneic>Y</AutologousOrSyngeneic>
+                        </AntigenPresentingCells>
+                        <MhcAllele>
+                            <MhcAlleleId>122</MhcAlleleId>
+                            <MhcEvidenceCode>MHC binding assay</MhcEvidenceCode>
+                        </MhcAllele>
+                        <Antigen>
+                            <AntigenObject>
+                                <EpitopeRelation>Fragment of Source Antigen</EpitopeRelation>
+                                <Object>
+                                    <FragmentOfANaturalSequenceMolecule>
+                                        <ChemicalType>Peptide from protein</ChemicalType>
+                                        <LinearSequence>LAGLLSDHKSNVE</LinearSequence>
+                                        <StartingPosition>541</StartingPosition>
+                                        <EndingPosition>553</EndingPosition>
+                                        <SourceMolecule>
+                                            <GenBankId>O57204.1</GenBankId>
+                                        </SourceMolecule>
+                                        <SourceOrganismId>126794</SourceOrganismId>
+                                    </FragmentOfANaturalSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Exact match to reference information</AntigenEvidenceCode>
+                        </Antigen>
+                        <AssayInformation>
+                            <AssayTypeId>67</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <AssayComments>CTL assays were performed using EL-4 cells pulsed with the peptide. Cytolytic activity was detected both early and late in the memory response (up to 15 weeks).</AssayComments>
+                        </AssayInformation>
+                    </TCell>
+                </Assays>
+                <Assays>
+                    <TCell>
+                        <LocationOfData>Figures 4, 5, and 6 and Table II</LocationOfData>
+                        <TCellId>1855255</TCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>10000067</OrganismId>
+                                <Sex>M</Sex>
+                                <Age>4-8 weeks</Age>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Administration in vivo</InVivoProcessType>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Taxonomic Sibling</EpitopeRelation>
+                                    <Object>
+                                        <Organism>
+                                            <SubType>Organism</SubType>
+                                            <SourceOrganismId>10000388</SourceOrganismId>
+                                        </Organism>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenReferenceName>NYCBH</ImmunogenReferenceName>
+                                <ImmunogenEvidenceCode>Exact match to reference information</ImmunogenEvidenceCode>
+                                <Route>Intraperitoneal (i.p.)</Route>
+                                <DoseSchedule>1 dose of 1 x 10E6 PFU.</DoseSchedule>
+                            </FirstInVivoProcess>
+                            <ImmunizationComments>Mice were immunized i.p. with 10 &lt;sup&gt;6&lt;/sup&gt; PFU of NYCBH. Splenocytes were prepared 14 days after immunization.</ImmunizationComments>
+                        </Immunization>
+                        <EffectorCells>
+                            <CellTissueType>Spleen</CellTissueType>
+                            <CellType>T cell CD8+</CellType>
+                            <CellCultureConditions>Direct Ex Vivo</CellCultureConditions>
+                        </EffectorCells>
+                        <AntigenPresentingCells>
+                            <CellTissueType>Lymphoid</CellTissueType>
+                            <CellType>EL-4 cells-Lymphoblast</CellType>
+                            <CellCultureConditions>Cell Line / Clone</CellCultureConditions>
+                            <AutologousOrSyngeneic>Y</AutologousOrSyngeneic>
+                        </AntigenPresentingCells>
+                        <MhcAllele>
+                            <MhcAlleleId>122</MhcAlleleId>
+                            <MhcEvidenceCode>MHC binding assay</MhcEvidenceCode>
+                        </MhcAllele>
+                        <Antigen>
+                            <AntigenObject>
+                                <EpitopeRelation>Fragment of Source Antigen</EpitopeRelation>
+                                <Object>
+                                    <FragmentOfANaturalSequenceMolecule>
+                                        <ChemicalType>Peptide from protein</ChemicalType>
+                                        <LinearSequence>LAGLLSDHKSNVE</LinearSequence>
+                                        <StartingPosition>541</StartingPosition>
+                                        <EndingPosition>553</EndingPosition>
+                                        <SourceMolecule>
+                                            <GenBankId>O57204.1</GenBankId>
+                                        </SourceMolecule>
+                                        <SourceOrganismId>126794</SourceOrganismId>
+                                    </FragmentOfANaturalSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Exact match to reference information</AntigenEvidenceCode>
+                        </Antigen>
+                        <AssayInformation>
+                            <AssayTypeId>48</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <AssayComments>T-cells also responded to stimulation with YAHINALEY. Freshly isolated splenocytes from immunized mice were also used as APCs.</AssayComments>
+                        </AssayInformation>
+                    </TCell>
+                </Assays>
+                <Assays>
+                    <MhcBinding>
+                        <LocationOfData>Figure 3</LocationOfData>
+                        <MhcBindingId>1853644</MhcBindingId>
+                        <AssayInformation>
+                            <AssayTypeId>185</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                        </AssayInformation>
+                        <MhcAlleleId>122</MhcAlleleId>
+                    </MhcBinding>
+                </Assays>
+                <Assays>
+                    <MhcBinding>
+                        <LocationOfData>Figure 3</LocationOfData>
+                        <MhcBindingId>1853645</MhcBindingId>
+                        <AssayInformation>
+                            <AssayTypeId>185</AssayTypeId>
+                            <QualitativeMeasurement>Negative</QualitativeMeasurement>
+                        </AssayInformation>
+                        <MhcAlleleId>172</MhcAlleleId>
+                    </MhcBinding>
+                </Assays>
+            </Epitope>
+        </Epitopes>
+    </Reference>
+</References>
+

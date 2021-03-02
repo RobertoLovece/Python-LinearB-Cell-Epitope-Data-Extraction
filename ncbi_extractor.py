@@ -11,51 +11,74 @@ from Bio import SeqIO
 
 def ncbi_extract(df):
 
+    # initialize Entrez with details
     Entrez.email = "rlovece@hotmail.co.uk"
     Entrez.api_key = "ee238abcf0e852f21ef1b98fd0d440477a08"
 
+    # get unique protien ids from iedb extraction
     unique = df.protein_id.unique()
     print("unique protein_id amount = " + str(len(unique)))
 
+    # output unique protein ids to file
     unique_df = pd.DataFrame.from_records(np.vstack(unique), columns=["protein_id"])
     unique_df.to_csv("output/unique_protein_ids.csv")
 
-    processed_arrays = []
-    results = []
-    db_return_dict = {}
+    need_repeating = []
+    protein_dict = {}
+
+    ids = protein_ids_to_strings(unique)
+    unique_split = [unique[x:x+200] for x in range(0, len(unique), 200)]
 
     count = 0
-    cooldown = 0
+    while count < len(ids):
+        accver_array = []
+        id_request = ids[count]
+        unique_item = unique_split[count]
 
-    for protein_id in unique:
+        print("Processing queries " + str(count * 200) + " - " + str(count * 200 + len(unique_item)))
+
         try:
-            # after 200 requests take a break
-            if (cooldown == 200):
-                time.sleep(5)
-                cooldown = 0
-            db_return = Entrez.efetch(db="protein", id=protein_id, retmode="xml", rettype="fasta")
-            db_return_dict[protein_id] = db_return
-            print("protein_id '" + protein_id + "' (" + str(count) + ") returned " + str(db_return))
-            count += 1
-            cooldown += 1
+            handle = Entrez.efetch(db="protein", id=id_request, retmode="xml", rettype="fasta")
+            records = Entrez.read(handle)
+            handle.close()
+
+            for record in records:
+                accver = record.get('TSeq_accver')
+
+                # if the accver matches the protein_id add the record to a
+                # dictonary with the key as the protein_id
+                #print(accver + " = " + str(accver in unique_item))
+                if accver in unique_item:
+                    accver_array.append(accver)
+                    protein_dict[accver] = process_record(record)
+
+            need_repeating.extend(list(set(unique_item) - set(accver_array)))
         except:
-            print("protein_id '" + protein_id + "' (" + str(count) + ") Bad Request - Protein_Id was not found")
-            count += 1
-            cooldown += 1
+            print("Bad Request - Query id's not found")
+        count += 1
 
-    count = 0
+    print("Repeating failed " + str(len(need_repeating)) + " queries")
+    for repeat in need_repeating:
+        try:
+            handle = Entrez.efetch(db="protein", id=repeat, retmode="xml", rettype="fasta")
+            record = Entrez.read(handle)
+            handle.close()
+            protein_dict[repeat] = process_record(record[0])
 
-    for key in db_return_dict:
-        record = Entrez.read(db_return_dict[key])
-        db_return_dict[key].close()
+            print("protein_id '" + repeat + "' returned " + str(handle))
+        except:
+            print("protein_id '" + repeat + "' Bad Request - Protein_Id was not found")
 
-        final_array = np.append(process_dictionary(record), [key, "NCBI protein"])
+    processed_arrays = []
+
+    for key in protein_dict:
+        record = protein_dict[key]
+
+        final_array = np.append(record, [key, "NCBI protein"])
         processed_arrays.append(final_array)
-        print("processed protein_id " + str(key) + " (" + str(count) + ")")
-        count+=1
 
     output_array = np.vstack(processed_arrays)
-    df = pd.DataFrame.from_records(output_array,columns=["seqtype","accver","taxid","orgname","defline","length","sequence","sid","protein_id","DB"])
+    df = pd.DataFrame.from_records(output_array,columns=["accver","taxid","orgname","defline","length","sequence","sid","protein_id","DB"])
     df.to_csv("output/ncbi_extractor_output.csv",index=False)
 
     return df
@@ -75,14 +98,7 @@ def protein_ids_to_strings(unique):
 
     return queries
 
-def process_dictionary(d):
-
-    element = d[0]
-
-    if (element.get('TSeq_seqtype') != None and len(str(element.get('TSeq_seqtype'))) != 0):
-        seqtype = element.get('TSeq_seqtype')
-    else:
-        seqtype = "NA"
+def process_record(element):
 
     if (element.get('TSeq_accver') != None and len(str(element.get('TSeq_accver'))) != 0):
         accver = element.get('TSeq_accver')
@@ -119,7 +135,7 @@ def process_dictionary(d):
     else:
         sid = "NA"
 
-    lst = np.array([seqtype, accver, taxid, orgname, defline, length, sequence, sid])
+    lst = np.array([accver, taxid, orgname, defline, length, sequence, sid])
     #df = pd.DataFrame([lst], columns=["seqtype","accver","taxid","orgname","defline","length","sequence","sid"])
 
     return lst

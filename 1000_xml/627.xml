@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<References xsi:schemaLocation="http://www.iedb.org/schema/CurationSchema http://beta.iedb.org/schema/Curation.xsd" xmlns="http://www.iedb.org/schema/CurationSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <Reference>
+        <ReferenceId>627</ReferenceId>
+        <DateLastUpdated>2020-09-10-07:00</DateLastUpdated>
+        <Article>
+            <PubmedId>15033231</PubmedId>
+            <Abstract>The 58-kDa surface mannoprotein of Candida albicans (mp58) elicits strong antibody responses during infection. Epitope mapping with sera from patients with candidiasis and control individuals indicated the presence of multiple IgG-reactive continuous epitopes on the protein, expanding both the amino- and carboxy-terminal domains and several internal regions. These immunoreactive regions were similar to the ones previously identified using sera from immunized animals. Two of the epitopic regions (including the C-terminal domain) showed increased reactivity with antibodies present in sera from patients with candidiasis as compared to control individuals. Patients who survived the infection displayed increased antibody reactivity towards the C-terminal epitope as compared to those succumbing to candidiasis. A monoclonal antibody directed towards this epitopic region conferred protection in serum therapy experiments in a murine model of hematogenously disseminated candidiasis. Together, these observations indicate the carboxy-terminal antibody binding domain of C. albicans mp58 represents a protective epitope during candidiasis.</Abstract>
+            <ArticleYear>2004</ArticleYear>
+            <ArticlePages>133-8</ArticlePages>
+            <ArticleTitle>The C-terminal antibody binding domain of Candida albicans mp58 represents a protective epitope during candidiasis.</ArticleTitle>
+            <Authors>
+                <Author>
+                    <LastName>Viudes</LastName>
+                    <ForeName>Angel</ForeName>
+                </Author>
+                <Author>
+                    <LastName>Lazzell</LastName>
+                    <ForeName>Anna</ForeName>
+                </Author>
+                <Author>
+                    <LastName>Perea</LastName>
+                    <ForeName>Sofia</ForeName>
+                </Author>
+                <Author>
+                    <LastName>Kirkpatrick</LastName>
+                    <ForeName>William R</ForeName>
+                </Author>
+                <Author>
+                    <LastName>Peman</LastName>
+                    <ForeName>Javier</ForeName>
+                </Author>
+                <Author>
+                    <LastName>Patterson</LastName>
+                    <ForeName>Thomas F</ForeName>
+                </Author>
+                <Author>
+                    <LastName>Martinez</LastName>
+                    <ForeName>Jose P</ForeName>
+                </Author>
+                <Author>
+                    <LastName>López-Ribot</LastName>
+                    <ForeName>José L</ForeName>
+                </Author>
+            </Authors>
+            <Affiliations>Department of Medicine, Division of Infectious Diseases, The University of Texas Health Science Center at San Antonio, South Texas Centers for Biology in Medicine, Texas Research Park, 15355 Lambda Dr., San Antonio, TX 78245, USA.</Affiliations>
+            <ArticleChemicalList>Antibodies, Monoclonal;Epitopes;Fungal Proteins;Membrane Glycoproteins;mannoproteins</ArticleChemicalList>
+            <ArticleMeshHeadingsList>Amino Acid Sequence; Animals; Antibodies, Monoclonal; Candida albicans(immunology); Candidiasis(immunology); Enzyme-Linked Immunosorbent Assay; Epitope Mapping; Epitopes(immunology); Female; Fungal Proteins(chemistry; immunology); Membrane Glycoproteins(chemistry; immunology); Mice; Mice, Inbred BALB C; Protein Structure, Tertiary</ArticleMeshHeadingsList>
+            <Journal>
+                <Volume>232</Volume>
+                <Issue>2</Issue>
+                <Title>FEMS microbiology letters</Title>
+                <Issn>0378-1097</Issn>
+                <MedlineTa>FEMS Microbiol Lett</MedlineTa>
+            </Journal>
+        </Article>
+        <Epitopes>
+            <Epitope>
+                <EpitopeStructure>
+                    <FragmentOfANaturalSequenceMolecule>
+                        <ChemicalType>Peptide from protein</ChemicalType>
+                        <LinearSequence>HTHADGEVH</LinearSequence>
+                        <StartingPosition>290</StartingPosition>
+                        <EndingPosition>298</EndingPosition>
+                        <SourceMolecule>
+                            <GenBankId>P87020.1</GenBankId>
+                        </SourceMolecule>
+                        <SourceOrganismId>5476</SourceOrganismId>
+                    </FragmentOfANaturalSequenceMolecule>
+                </EpitopeStructure>
+                <LocationOfData>Figure 1A</LocationOfData>
+                <EpitopeId>24917</EpitopeId>
+                <ReferenceStartingPosition>290</ReferenceStartingPosition>
+                <ReferenceEndingPosition>298</ReferenceEndingPosition>
+                <EpitopeEvidenceCode>Not determined</EpitopeEvidenceCode>
+                <EpitopeStructureDefines>Exact Epitope</EpitopeStructureDefines>
+                <Assays>
+                    <BCell>
+                        <LocationOfData>Figure 2B</LocationOfData>
+                        <BCellId>6120</BCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>10000000</OrganismId>
+                                <Sex>F</Sex>
+                                <Age>6-7 weeks</Age>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Administration in vivo</InVivoProcessType>
+                                <DiseaseState>ONTIE:0003423</DiseaseState>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Source Antigen</EpitopeRelation>
+                                    <Object>
+                                        <AccessionSequenceMolecule>
+                                            <ChemicalType>Protein</ChemicalType>
+                                            <Molecule>
+                                                <GenBankId>P87020.1</GenBankId>
+                                            </Molecule>
+                                            <SourceOrganismId>5476</SourceOrganismId>
+                                        </AccessionSequenceMolecule>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenReferenceName>58-kDa surface mannoprotein (mp58)</ImmunogenReferenceName>
+                                <ImmunogenEvidenceCode>Not determined</ImmunogenEvidenceCode>
+                            </FirstInVivoProcess>
+                            <ImmunizationComments>Electrophoretically purified C. albicans mp58 (25 micrograms) was used to immunize two (BALB/c) mice.</ImmunizationComments>
+                        </Immunization>
+                        <AssayInformation>
+                            <AssayTypeId>34</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <NumberOfSubjectsTested>2</NumberOfSubjectsTested>
+                            <NumberOfSubjectsResponded>2</NumberOfSubjectsResponded>
+                            <ResponseFrequency>100</ResponseFrequency>
+                            <AssayComments>Epitope mapping (using overlapping epitopes) was performed with sera from candidiasis infected patients with normal blood donors as controls.  A 12-mer peptide (HCHTHADGEVHC), containing this 9-mer peptide, showed IgG reactivity in serum samples of patients with disseminated candidiasis.   Through a series of preliminary mapping assays performed as part of this study, it was shown that this nonapeptide is the minimal epitope accounting for the positive response.  This epitope was identified using window net, which consists of synthesizing all of the shorter overlapping sequences covering an identified antibody binding peptide, and thereby determining the minimal sequence eliciting binding activity.The contribution of individual amino acid residues to antibody binding was analyzed by a replacement-net approach, which revealed the prominent role of all three histidine residues in the recognition by mAb 3H3."".</AssayComments>
+                        </AssayInformation>
+                        <AssayedAntibody>
+                            <AssayedAntibodySourceMaterial>Serum</AssayedAntibodySourceMaterial>
+                            <AssayedAntibodyPurificationStatus>Monoclonal</AssayedAntibodyPurificationStatus>
+                            <AssayedAntibodyName>mAb 3H3</AssayedAntibodyName>
+                            <AssayedAntibodyHeavyChainType>IgG1</AssayedAntibodyHeavyChainType>
+                            <AssayedAntibodyLightChainType>Kappa</AssayedAntibodyLightChainType>
+                        </AssayedAntibody>
+                        <Antigen>
+                            <AntigenConformation>Non-Native/Unknown</AntigenConformation>
+                            <AntigenObject>
+                                <EpitopeRelation>Epitope</EpitopeRelation>
+                                <Object>
+                                    <FragmentOfANaturalSequenceMolecule>
+                                        <ChemicalType>Peptide from protein</ChemicalType>
+                                        <LinearSequence>HTHADGEVH</LinearSequence>
+                                        <StartingPosition>290</StartingPosition>
+                                        <EndingPosition>298</EndingPosition>
+                                        <SourceMolecule>
+                                            <GenBankId>P87020.1</GenBankId>
+                                        </SourceMolecule>
+                                        <SourceOrganismId>5476</SourceOrganismId>
+                                    </FragmentOfANaturalSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Exact match to reference information</AntigenEvidenceCode>
+                        </Antigen>
+                    </BCell>
+                </Assays>
+            </Epitope>
+            <Epitope>
+                <EpitopeStructure>
+                    <FragmentOfANaturalSequenceMolecule>
+                        <ChemicalType>Peptide from protein</ChemicalType>
+                        <LinearSequence>YYALDVYAYDVT</LinearSequence>
+                        <StartingPosition>221</StartingPosition>
+                        <EndingPosition>232</EndingPosition>
+                        <SourceMolecule>
+                            <GenBankId>P87020.1</GenBankId>
+                        </SourceMolecule>
+                        <SourceOrganismId>5476</SourceOrganismId>
+                    </FragmentOfANaturalSequenceMolecule>
+                </EpitopeStructure>
+                <LocationOfData>Figure 1A</LocationOfData>
+                <EpitopeId>76485</EpitopeId>
+                <ReferenceStartingPosition>221</ReferenceStartingPosition>
+                <ReferenceEndingPosition>232</ReferenceEndingPosition>
+                <EpitopeEvidenceCode>Not determined</EpitopeEvidenceCode>
+                <EpitopeStructureDefines>Epitope containing region/antigenic site</EpitopeStructureDefines>
+                <Assays>
+                    <BCell>
+                        <LocationOfData>Figure 1A</LocationOfData>
+                        <BCellId>7425</BCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>9606</OrganismId>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Occurrence of infectious disease</InVivoProcessType>
+                                <DiseaseState>DOID:1508</DiseaseState>
+                                <DiseaseStage>Acute/Recent onset</DiseaseStage>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Source Organism</EpitopeRelation>
+                                    <Object>
+                                        <Organism>
+                                            <SubType>Organism</SubType>
+                                            <SourceOrganismId>5476</SourceOrganismId>
+                                        </Organism>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenEvidenceCode>Not determined</ImmunogenEvidenceCode>
+                            </FirstInVivoProcess>
+                            <ImmunizationComments>Disease name: Disseminated candidiasis.</ImmunizationComments>
+                        </Immunization>
+                        <AssayInformation>
+                            <AssayTypeId>161</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <NumberOfSubjectsTested>6</NumberOfSubjectsTested>
+                            <NumberOfSubjectsResponded>6</NumberOfSubjectsResponded>
+                            <ResponseFrequency>100</ResponseFrequency>
+                            <AssayComments>Epitope mapping (using overlapping epitopes) was performed with sera from candidiasis infected donors with normal healthy blood donors as controls.</AssayComments>
+                        </AssayInformation>
+                        <AssayedAntibody>
+                            <AssayedAntibodySourceMaterial>Serum</AssayedAntibodySourceMaterial>
+                            <AssayedAntibodyPurificationStatus>Polyclonal</AssayedAntibodyPurificationStatus>
+                            <AssayedAntibodyHeavyChainType>IgG</AssayedAntibodyHeavyChainType>
+                        </AssayedAntibody>
+                        <Antigen>
+                            <AntigenConformation>Non-Native/Unknown</AntigenConformation>
+                            <AntigenObject>
+                                <EpitopeRelation>Epitope</EpitopeRelation>
+                                <Object>
+                                    <FragmentOfANaturalSequenceMolecule>
+                                        <ChemicalType>Peptide from protein</ChemicalType>
+                                        <LinearSequence>YYALDVYAYDVT</LinearSequence>
+                                        <StartingPosition>221</StartingPosition>
+                                        <EndingPosition>232</EndingPosition>
+                                        <SourceMolecule>
+                                            <GenBankId>P87020.1</GenBankId>
+                                        </SourceMolecule>
+                                        <SourceOrganismId>5476</SourceOrganismId>
+                                    </FragmentOfANaturalSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Exact match to reference information</AntigenEvidenceCode>
+                        </Antigen>
+                    </BCell>
+                </Assays>
+            </Epitope>
+        </Epitopes>
+    </Reference>
+</References>
+

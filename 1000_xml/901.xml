@@ -1,0 +1,661 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<References xsi:schemaLocation="http://www.iedb.org/schema/CurationSchema http://beta.iedb.org/schema/Curation.xsd" xmlns="http://www.iedb.org/schema/CurationSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <Reference>
+        <ReferenceId>901</ReferenceId>
+        <DateLastUpdated>2020-09-10-07:00</DateLastUpdated>
+        <Article>
+            <PubmedId>10024575</PubmedId>
+            <Abstract>Listeria monocytogenes is an intracellular bacterium that elicits complex cytotoxic T-lymphocyte (CTL) responses in infected mice. The responses of CTL populations that differ in antigen specificity range in magnitude from large, dominant responses to small, subdominant responses. To test the hypothesis that dominant T-cell responses inhibit subdominant responses, we eliminated the two dominant epitopes of L. monocytogenes by anchor residue mutagenesis and measured the T-cell responses to the remaining subdominant epitopes. Surprisingly, the loss of dominant T-cell responses did not enhance subdominant responses. While mice immunized with bacteria lacking dominant epitopes developed L. monocytogenes-specific immunity, their ability to respond to dominant epitopes upon rechallenge with wild-type bacteria was markedly diminished. Recall responses in mice immunized with wild-type or epitope-deficient L. monocytogenes showed that antigen presentation during recall infection is sufficient for activating memory cells yet insufficient for optimal priming of naive T lymphocytes. Our findings suggest that T-cell priming to different epitopes during L. monocytogenes infection is not competitive. Rather, T-cell populations specific for different antigens but the same pathogen expand independently.</Abstract>
+            <ArticleYear>1999</ArticleYear>
+            <ArticlePages>1303-9</ArticlePages>
+            <ArticleTitle>Noncompetitive expansion of cytotoxic T lymphocytes specific for different antigens during bacterial infection.</ArticleTitle>
+            <Authors>
+                <Author>
+                    <LastName>Vijh</LastName>
+                    <ForeName>S</ForeName>
+                </Author>
+                <Author>
+                    <LastName>Pilip</LastName>
+                    <ForeName>I M</ForeName>
+                </Author>
+                <Author>
+                    <LastName>Pamer</LastName>
+                    <ForeName>E G</ForeName>
+                </Author>
+            </Authors>
+            <Affiliations>Section of Infectious Diseases, Yale University School of Medicine, New Haven, Connecticut 06520, USA.</Affiliations>
+            <ArticleChemicalList>Antigens, Bacterial;Immunodominant Epitopes</ArticleChemicalList>
+            <ArticleMeshHeadingsList>Animals; Antigens, Bacterial(immunology); Immunization; Immunodominant Epitopes; Listeria monocytogenes(immunology); Listeriosis(immunology); Mice; Mice, Inbred BALB C; Mice, Inbred C57BL; T-Lymphocytes, Cytotoxic(immunology)</ArticleMeshHeadingsList>
+            <Journal>
+                <Volume>67</Volume>
+                <Issue>3</Issue>
+                <Title>Infection and immunity</Title>
+                <Issn>0019-9567</Issn>
+                <MedlineTa>Infect Immun</MedlineTa>
+            </Journal>
+        </Article>
+        <Epitopes>
+            <Epitope>
+                <EpitopeName>p60 217-225</EpitopeName>
+                <EpitopeStructure>
+                    <FragmentOfANaturalSequenceMolecule>
+                        <ChemicalType>Peptide from protein</ChemicalType>
+                        <LinearSequence>KYGVSVQDI</LinearSequence>
+                        <StartingPosition>217</StartingPosition>
+                        <EndingPosition>225</EndingPosition>
+                        <SourceMolecule>
+                            <GenBankId>P21171.2</GenBankId>
+                        </SourceMolecule>
+                        <SourceOrganismId>393133</SourceOrganismId>
+                    </FragmentOfANaturalSequenceMolecule>
+                </EpitopeStructure>
+                <EpitopeId>34446</EpitopeId>
+                <ReferenceStartingPosition>217</ReferenceStartingPosition>
+                <ReferenceEndingPosition>225</ReferenceEndingPosition>
+                <EpitopeEvidenceCode>Not determined</EpitopeEvidenceCode>
+                <EpitopeStructureDefines>Exact Epitope</EpitopeStructureDefines>
+                <EpitopeComments>Kd restricted epitope, of an intermediate dominant status in the immune response to source species primary infection. Also known as Protein p60 precursor and  Invasion-associated protein.</EpitopeComments>
+                <Assays>
+                    <TCell>
+                        <LocationOfData>Figure 4</LocationOfData>
+                        <TCellId>10268</TCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>10000216</OrganismId>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Administration in vivo</InVivoProcessType>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Source Organism</EpitopeRelation>
+                                    <Object>
+                                        <Organism>
+                                            <SubType>Organism</SubType>
+                                            <SourceOrganismId>393133</SourceOrganismId>
+                                        </Organism>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenEvidenceCode>Not determined</ImmunogenEvidenceCode>
+                                <Route>Intravenous (i.v.)</Route>
+                                <DoseSchedule>1 dose of 5000 bacteria.</DoseSchedule>
+                            </FirstInVivoProcess>
+                            <ImmunizationComments>WT Listeria, or mutant Ser92, with serine replacement at the Tyr anchoring residue of LLO91-99, or mutant Ser218 , with serine replacement at the Tyr anchoring residue of this epitope, or the double mutant, were used as immunogens. 1 wk after immunization, splenocytes were harvested.</ImmunizationComments>
+                        </Immunization>
+                        <EffectorCells>
+                            <CellTissueType>Spleen</CellTissueType>
+                            <CellType>Splenocyte</CellType>
+                            <CellCultureConditions>Direct Ex Vivo</CellCultureConditions>
+                        </EffectorCells>
+                        <AntigenPresentingCells>
+                            <CellTissueType>Other</CellTissueType>
+                            <CellType>P815-Mast cell</CellType>
+                            <CellCultureConditions>Cell Line / Clone</CellCultureConditions>
+                            <AutologousOrSyngeneic>N</AutologousOrSyngeneic>
+                            <SourceOrganismId>10000055</SourceOrganismId>
+                        </AntigenPresentingCells>
+                        <MhcAllele>
+                            <MhcAlleleId>124</MhcAlleleId>
+                            <MhcEvidenceCode>Not determined</MhcEvidenceCode>
+                        </MhcAllele>
+                        <Antigen>
+                            <AntigenReferenceName>p60 217-225</AntigenReferenceName>
+                            <AntigenObject>
+                                <EpitopeRelation>Epitope</EpitopeRelation>
+                                <Object>
+                                    <FragmentOfANaturalSequenceMolecule>
+                                        <ChemicalType>Peptide from protein</ChemicalType>
+                                        <LinearSequence>KYGVSVQDI</LinearSequence>
+                                        <StartingPosition>217</StartingPosition>
+                                        <EndingPosition>225</EndingPosition>
+                                        <SourceMolecule>
+                                            <GenBankId>P21171.2</GenBankId>
+                                        </SourceMolecule>
+                                        <SourceOrganismId>393133</SourceOrganismId>
+                                    </FragmentOfANaturalSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Exact match to reference information</AntigenEvidenceCode>
+                        </Antigen>
+                        <AssayInformation>
+                            <AssayTypeId>48</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <AssayComments>Infection with source species expressing a anchor residue mutant of the immunodominant epitope LLO 91-99 (previously shown not to be presented by infected cells) induces the same number of IFN-gamma releasing cells specific for this epitope as mice infected with the wild type source species, suggesting no enhancement of primary response to this epitope by lack of immunodominant epitope presentation. Infection with mutant Listeria with serine replacement at the Tyr anchoring residue 218 of this epitope (previously shown not to be presented by infected cells) or with double mutant Ser92/218 fails to induce epitope specific INF-g secretion, as expected, but also fails to enhance the response against subdominant epitopes.</AssayComments>
+                        </AssayInformation>
+                    </TCell>
+                </Assays>
+                <Assays>
+                    <TCell>
+                        <LocationOfData>Figures 5 and 6</LocationOfData>
+                        <TCellId>10269</TCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>10000216</OrganismId>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Administration in vivo</InVivoProcessType>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Source Organism</EpitopeRelation>
+                                    <Object>
+                                        <Organism>
+                                            <SubType>Organism</SubType>
+                                            <SourceOrganismId>393133</SourceOrganismId>
+                                        </Organism>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenEvidenceCode>Not determined</ImmunogenEvidenceCode>
+                                <Route>Intravenous (i.v.)</Route>
+                                <DoseSchedule>1st dose of 5000 bacteria, 2nd dose of 10&lt;sup&gt;5&lt;/sup&gt; bacteria, 3rd dose (if given) of 10&lt;sup&gt;5&lt;/sup&gt; bacteria, 3 or 4 wks apart.</DoseSchedule>
+                            </FirstInVivoProcess>
+                            <ImmunizationComments>WT Listeria, or mutant Ser92, with serine replacement at the Tyr anchoring residue of LLO91-99, or the double mutant Ser92 and  Ser218 (with serine replacement at the Tyr anchoring residue of this epitope), were used as immunogens. 1 wk after last  immunization, splenocytes were harvested.</ImmunizationComments>
+                        </Immunization>
+                        <EffectorCells>
+                            <CellTissueType>Spleen</CellTissueType>
+                            <CellType>Splenocyte</CellType>
+                            <CellCultureConditions>Direct Ex Vivo</CellCultureConditions>
+                        </EffectorCells>
+                        <AntigenPresentingCells>
+                            <CellTissueType>Other</CellTissueType>
+                            <CellType>P815-Mast cell</CellType>
+                            <CellCultureConditions>Cell Line / Clone</CellCultureConditions>
+                            <AutologousOrSyngeneic>N</AutologousOrSyngeneic>
+                            <SourceOrganismId>10000055</SourceOrganismId>
+                        </AntigenPresentingCells>
+                        <MhcAllele>
+                            <MhcAlleleId>124</MhcAlleleId>
+                            <MhcEvidenceCode>Not determined</MhcEvidenceCode>
+                        </MhcAllele>
+                        <Antigen>
+                            <AntigenReferenceName>p60 217-225</AntigenReferenceName>
+                            <AntigenObject>
+                                <EpitopeRelation>Epitope</EpitopeRelation>
+                                <Object>
+                                    <FragmentOfANaturalSequenceMolecule>
+                                        <ChemicalType>Peptide from protein</ChemicalType>
+                                        <LinearSequence>KYGVSVQDI</LinearSequence>
+                                        <StartingPosition>217</StartingPosition>
+                                        <EndingPosition>225</EndingPosition>
+                                        <SourceMolecule>
+                                            <GenBankId>P21171.2</GenBankId>
+                                        </SourceMolecule>
+                                        <SourceOrganismId>393133</SourceOrganismId>
+                                    </FragmentOfANaturalSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Exact match to reference information</AntigenEvidenceCode>
+                        </Antigen>
+                        <AssayInformation>
+                            <AssayTypeId>48</AssayTypeId>
+                            <QualitativeMeasurement>Negative</QualitativeMeasurement>
+                            <AssayComments>Secondary infection with source species expressing a anchor residue mutant (T218S) of this epitope fails to induce epitope specific INF-g secretion either if primary infection was performed with wild type or mutant. If an infection with mutant source species is followed by 1 or 2 wild type infections, still no responses are seen, indicating that the priming of T cells for this dominant epitope is markedly impaired if a preexisting immune response to Listeria not expressing this epitope is present. Similar results are seen in CB6 and BALB/c mice.</AssayComments>
+                        </AssayInformation>
+                    </TCell>
+                </Assays>
+            </Epitope>
+            <Epitope>
+                <EpitopeName>p60 449-457</EpitopeName>
+                <EpitopeStructure>
+                    <FragmentOfANaturalSequenceMolecule>
+                        <ChemicalType>Peptide from protein</ChemicalType>
+                        <LinearSequence>IYVGNGQMI</LinearSequence>
+                        <StartingPosition>449</StartingPosition>
+                        <EndingPosition>457</EndingPosition>
+                        <SourceMolecule>
+                            <GenBankId>P21171.2</GenBankId>
+                        </SourceMolecule>
+                        <SourceOrganismId>393133</SourceOrganismId>
+                    </FragmentOfANaturalSequenceMolecule>
+                </EpitopeStructure>
+                <EpitopeId>29715</EpitopeId>
+                <ReferenceStartingPosition>449</ReferenceStartingPosition>
+                <ReferenceEndingPosition>457</ReferenceEndingPosition>
+                <EpitopeEvidenceCode>Not determined</EpitopeEvidenceCode>
+                <EpitopeStructureDefines>Exact Epitope</EpitopeStructureDefines>
+                <EpitopeComments>Kd restricted epitope, of an subdominant status in the immune response to source species primary infection. Also known as Protein p60 precursor and  Invasion-associated protein.</EpitopeComments>
+                <Assays>
+                    <TCell>
+                        <LocationOfData>Figure 4</LocationOfData>
+                        <TCellId>10270</TCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>10000216</OrganismId>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Administration in vivo</InVivoProcessType>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Source Organism</EpitopeRelation>
+                                    <Object>
+                                        <Organism>
+                                            <SubType>Organism</SubType>
+                                            <SourceOrganismId>393133</SourceOrganismId>
+                                        </Organism>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenEvidenceCode>Not determined</ImmunogenEvidenceCode>
+                                <Route>Intravenous (i.v.)</Route>
+                                <DoseSchedule>1 dose of 5000 bacteria.</DoseSchedule>
+                            </FirstInVivoProcess>
+                            <ImmunizationComments>WT Listeria, or mutant Ser92, with serine replacement at the Tyr anchoring residue of LLO91-99, or mutant Ser218 , with serine replacement at the Tyr anchoring residue of this epitope, or the double mutant, were used as immunogens. 1 wk after immunization, splenocytes were harvested.</ImmunizationComments>
+                        </Immunization>
+                        <EffectorCells>
+                            <CellTissueType>Spleen</CellTissueType>
+                            <CellType>Splenocyte</CellType>
+                            <CellCultureConditions>Direct Ex Vivo</CellCultureConditions>
+                        </EffectorCells>
+                        <AntigenPresentingCells>
+                            <CellTissueType>Other</CellTissueType>
+                            <CellType>P815-Mast cell</CellType>
+                            <CellCultureConditions>Cell Line / Clone</CellCultureConditions>
+                            <AutologousOrSyngeneic>N</AutologousOrSyngeneic>
+                            <SourceOrganismId>10000055</SourceOrganismId>
+                        </AntigenPresentingCells>
+                        <MhcAllele>
+                            <MhcAlleleId>124</MhcAlleleId>
+                            <MhcEvidenceCode>Not determined</MhcEvidenceCode>
+                        </MhcAllele>
+                        <Antigen>
+                            <AntigenReferenceName>p60 449-457</AntigenReferenceName>
+                            <AntigenObject>
+                                <EpitopeRelation>Epitope</EpitopeRelation>
+                                <Object>
+                                    <FragmentOfANaturalSequenceMolecule>
+                                        <ChemicalType>Peptide from protein</ChemicalType>
+                                        <LinearSequence>IYVGNGQMI</LinearSequence>
+                                        <StartingPosition>449</StartingPosition>
+                                        <EndingPosition>457</EndingPosition>
+                                        <SourceMolecule>
+                                            <GenBankId>P21171.2</GenBankId>
+                                        </SourceMolecule>
+                                        <SourceOrganismId>393133</SourceOrganismId>
+                                    </FragmentOfANaturalSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Exact match to reference information</AntigenEvidenceCode>
+                        </Antigen>
+                        <AssayInformation>
+                            <AssayTypeId>48</AssayTypeId>
+                            <QualitativeMeasurement>Negative</QualitativeMeasurement>
+                            <AssayComments>Infection with the source species expressing anchor residue mutants of immunodominant epitopes LLO 91-99 and/or p60 217-255 (previously shown not to be presented by infected cells) induces the same low number of IFN-gamma releasing cells specific for this epitope as mice infected with the wild type source species, suggesting no enhancement of primary response to this subdominant epitope by lack of immunodominant epitope presentation.</AssayComments>
+                        </AssayInformation>
+                    </TCell>
+                </Assays>
+                <Assays>
+                    <TCell>
+                        <LocationOfData>Figures 5 and 6</LocationOfData>
+                        <TCellId>10271</TCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>10000216</OrganismId>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Administration in vivo</InVivoProcessType>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Source Organism</EpitopeRelation>
+                                    <Object>
+                                        <Organism>
+                                            <SubType>Organism</SubType>
+                                            <SourceOrganismId>393133</SourceOrganismId>
+                                        </Organism>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenEvidenceCode>Not determined</ImmunogenEvidenceCode>
+                                <Route>Intravenous (i.v.)</Route>
+                                <DoseSchedule>1st dose of 2000 bacteria, 2nd dose of 10&lt;sup&gt;5&lt;/sup&gt; bacteria 4 wk later.</DoseSchedule>
+                            </FirstInVivoProcess>
+                            <ImmunizationComments>WT Listeria, or double mutant Ser92/218, with serine replacement at the Tyr anchoring residues of immunodominant epitopes LLO91-99 and p60 217-225, were used as immunogens. 6 days after immunization, splenocytes were harvested.</ImmunizationComments>
+                        </Immunization>
+                        <EffectorCells>
+                            <CellTissueType>Spleen</CellTissueType>
+                            <CellType>Splenocyte</CellType>
+                            <CellCultureConditions>Direct Ex Vivo</CellCultureConditions>
+                        </EffectorCells>
+                        <AntigenPresentingCells>
+                            <CellTissueType>Other</CellTissueType>
+                            <CellType>P815-Mast cell</CellType>
+                            <CellCultureConditions>Cell Line / Clone</CellCultureConditions>
+                            <AutologousOrSyngeneic>N</AutologousOrSyngeneic>
+                            <SourceOrganismId>10000055</SourceOrganismId>
+                        </AntigenPresentingCells>
+                        <MhcAllele>
+                            <MhcAlleleId>124</MhcAlleleId>
+                            <MhcEvidenceCode>Not determined</MhcEvidenceCode>
+                        </MhcAllele>
+                        <Antigen>
+                            <AntigenReferenceName>p60 449-457</AntigenReferenceName>
+                            <AntigenObject>
+                                <EpitopeRelation>Epitope</EpitopeRelation>
+                                <Object>
+                                    <FragmentOfANaturalSequenceMolecule>
+                                        <ChemicalType>Peptide from protein</ChemicalType>
+                                        <LinearSequence>IYVGNGQMI</LinearSequence>
+                                        <StartingPosition>449</StartingPosition>
+                                        <EndingPosition>457</EndingPosition>
+                                        <SourceMolecule>
+                                            <GenBankId>P21171.2</GenBankId>
+                                        </SourceMolecule>
+                                        <SourceOrganismId>393133</SourceOrganismId>
+                                    </FragmentOfANaturalSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Exact match to reference information</AntigenEvidenceCode>
+                        </Antigen>
+                        <AssayInformation>
+                            <AssayTypeId>48</AssayTypeId>
+                            <QualitativeMeasurement>Negative</QualitativeMeasurement>
+                            <AssayComments>The same results, without epitope specific INF-g secretion, are seen after a primary infection with either wild type Listeria or with mutant anchor residues of immunodominant epitopes LLO 91-99 and p60 217-225 (previously shown to not be presented by APCs), followed by secondary infection with the mutant strain. This implies that the presence of immunodominant epitopes is not the cause of suppressed (subdominant) responses during T cell priming.</AssayComments>
+                        </AssayInformation>
+                    </TCell>
+                </Assays>
+            </Epitope>
+            <Epitope>
+                <EpitopeName>mpl 84-92</EpitopeName>
+                <EpitopeStructure>
+                    <FragmentOfANaturalSequenceMolecule>
+                        <ChemicalType>Peptide from protein</ChemicalType>
+                        <LinearSequence>GYLTDNDEI</LinearSequence>
+                        <StartingPosition>84</StartingPosition>
+                        <EndingPosition>92</EndingPosition>
+                        <SourceMolecule>
+                            <GenBankId>P34025.3</GenBankId>
+                        </SourceMolecule>
+                        <SourceOrganismId>393133</SourceOrganismId>
+                    </FragmentOfANaturalSequenceMolecule>
+                </EpitopeStructure>
+                <EpitopeId>23406</EpitopeId>
+                <ReferenceStartingPosition>89</ReferenceStartingPosition>
+                <ReferenceEndingPosition>92</ReferenceEndingPosition>
+                <EpitopeEvidenceCode>Not determined</EpitopeEvidenceCode>
+                <EpitopeStructureDefines>Exact Epitope</EpitopeStructureDefines>
+                <EpitopeComments>Kd restricted epitope, of an subdominant status in the immune response to source species primary infection.</EpitopeComments>
+                <Assays>
+                    <TCell>
+                        <LocationOfData>Figure 4</LocationOfData>
+                        <TCellId>10274</TCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>10000216</OrganismId>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Administration in vivo</InVivoProcessType>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Source Organism</EpitopeRelation>
+                                    <Object>
+                                        <Organism>
+                                            <SubType>Organism</SubType>
+                                            <SourceOrganismId>393133</SourceOrganismId>
+                                        </Organism>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenEvidenceCode>Not determined</ImmunogenEvidenceCode>
+                                <Route>Intravenous (i.v.)</Route>
+                                <DoseSchedule>1 dose of 5000 bacteria.</DoseSchedule>
+                            </FirstInVivoProcess>
+                            <ImmunizationComments>WT Listeria, or mutant Ser92, with serine replacement at the Tyr anchoring residue of LLO91-99, or mutant Ser218, with serine replacement at the Tyr anchoring residue of this epitope, or the double mutant, were used as immunogens. 1 wk after immunization, splenocytes were harvested.</ImmunizationComments>
+                        </Immunization>
+                        <EffectorCells>
+                            <CellTissueType>Spleen</CellTissueType>
+                            <CellType>Splenocyte</CellType>
+                            <CellCultureConditions>Direct Ex Vivo</CellCultureConditions>
+                        </EffectorCells>
+                        <AntigenPresentingCells>
+                            <CellTissueType>Other</CellTissueType>
+                            <CellType>P815-Mast cell</CellType>
+                            <CellCultureConditions>Cell Line / Clone</CellCultureConditions>
+                            <AutologousOrSyngeneic>N</AutologousOrSyngeneic>
+                            <SourceOrganismId>10000055</SourceOrganismId>
+                        </AntigenPresentingCells>
+                        <MhcAllele>
+                            <MhcAlleleId>124</MhcAlleleId>
+                            <MhcEvidenceCode>Not determined</MhcEvidenceCode>
+                        </MhcAllele>
+                        <Antigen>
+                            <AntigenReferenceName>mpl 84-92</AntigenReferenceName>
+                            <AntigenObject>
+                                <EpitopeRelation>Epitope</EpitopeRelation>
+                                <Object>
+                                    <FragmentOfANaturalSequenceMolecule>
+                                        <ChemicalType>Peptide from protein</ChemicalType>
+                                        <LinearSequence>GYLTDNDEI</LinearSequence>
+                                        <StartingPosition>84</StartingPosition>
+                                        <EndingPosition>92</EndingPosition>
+                                        <SourceMolecule>
+                                            <GenBankId>P34025.3</GenBankId>
+                                        </SourceMolecule>
+                                        <SourceOrganismId>393133</SourceOrganismId>
+                                    </FragmentOfANaturalSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Exact match to reference information</AntigenEvidenceCode>
+                        </Antigen>
+                        <AssayInformation>
+                            <AssayTypeId>48</AssayTypeId>
+                            <QualitativeMeasurement>Negative</QualitativeMeasurement>
+                            <AssayComments>Infection with the source species expressing anchor residue mutants of immunodominant epitopes LLO 91-99 and/or p60 217-255 (previously shown not to be presented by infected cells) induces the same low number of IFN-gamma releasing cells specific for this epitope as mice infected with the wild type source species, suggesting no enhancement of primary response to this subdominant epitope by lack of immunodominant epitope presentation.</AssayComments>
+                        </AssayInformation>
+                    </TCell>
+                </Assays>
+                <Assays>
+                    <TCell>
+                        <LocationOfData>Figures 5 and 6</LocationOfData>
+                        <TCellId>10275</TCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>10000216</OrganismId>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Administration in vivo</InVivoProcessType>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Source Organism</EpitopeRelation>
+                                    <Object>
+                                        <Organism>
+                                            <SubType>Organism</SubType>
+                                            <SourceOrganismId>393133</SourceOrganismId>
+                                        </Organism>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenEvidenceCode>Not determined</ImmunogenEvidenceCode>
+                                <Route>Intravenous (i.v.)</Route>
+                                <DoseSchedule>1st dose of 2000 bacteria, 2nd dose of 10&lt;sup&gt;5&lt;/sup&gt; bacteria 4 wk later.</DoseSchedule>
+                            </FirstInVivoProcess>
+                            <ImmunizationComments>WT Listeria, or double mutant Ser92/218, with serine replacement at the Tyr anchoring residues of immunodominant epitopes LLO91-99 and p60 217-225, were used as immunogens. 6 days after immunization, splenocytes were harvested.</ImmunizationComments>
+                        </Immunization>
+                        <EffectorCells>
+                            <CellTissueType>Spleen</CellTissueType>
+                            <CellType>Splenocyte</CellType>
+                            <CellCultureConditions>Direct Ex Vivo</CellCultureConditions>
+                        </EffectorCells>
+                        <AntigenPresentingCells>
+                            <CellTissueType>Other</CellTissueType>
+                            <CellType>P815-Mast cell</CellType>
+                            <CellCultureConditions>Cell Line / Clone</CellCultureConditions>
+                            <AutologousOrSyngeneic>N</AutologousOrSyngeneic>
+                            <SourceOrganismId>10000055</SourceOrganismId>
+                        </AntigenPresentingCells>
+                        <MhcAllele>
+                            <MhcAlleleId>124</MhcAlleleId>
+                            <MhcEvidenceCode>Not determined</MhcEvidenceCode>
+                        </MhcAllele>
+                        <Antigen>
+                            <AntigenReferenceName>mpl 84-92</AntigenReferenceName>
+                            <AntigenObject>
+                                <EpitopeRelation>Epitope</EpitopeRelation>
+                                <Object>
+                                    <FragmentOfANaturalSequenceMolecule>
+                                        <ChemicalType>Peptide from protein</ChemicalType>
+                                        <LinearSequence>GYLTDNDEI</LinearSequence>
+                                        <StartingPosition>84</StartingPosition>
+                                        <EndingPosition>92</EndingPosition>
+                                        <SourceMolecule>
+                                            <GenBankId>P34025.3</GenBankId>
+                                        </SourceMolecule>
+                                        <SourceOrganismId>393133</SourceOrganismId>
+                                    </FragmentOfANaturalSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Exact match to reference information</AntigenEvidenceCode>
+                        </Antigen>
+                        <AssayInformation>
+                            <AssayTypeId>48</AssayTypeId>
+                            <QualitativeMeasurement>Negative</QualitativeMeasurement>
+                            <AssayComments>The same results, without epitope specific INF-g secretion, are seen after a primary infection with either wild type Listeria or with mutant anchor residues of immunodominant epitopes LLO 91-99 and p60 217-225 (previously shown to not be presented by APCs), followed by secondary infection with the mutant strain. This implies that the presence of immunodominant epitopes is not the cause of suppressed (subdominant) responses during T cell priming.</AssayComments>
+                        </AssayInformation>
+                    </TCell>
+                </Assays>
+            </Epitope>
+            <Epitope>
+                <EpitopeName>LLO 91-99</EpitopeName>
+                <EpitopeStructure>
+                    <FragmentOfANaturalSequenceMolecule>
+                        <ChemicalType>Peptide from protein</ChemicalType>
+                        <LinearSequence>GYKDGNEYI</LinearSequence>
+                        <StartingPosition>91</StartingPosition>
+                        <EndingPosition>99</EndingPosition>
+                        <SourceMolecule>
+                            <GenBankId>P13128.1</GenBankId>
+                        </SourceMolecule>
+                        <SourceOrganismId>1639</SourceOrganismId>
+                    </FragmentOfANaturalSequenceMolecule>
+                </EpitopeStructure>
+                <EpitopeId>23376</EpitopeId>
+                <ReferenceStartingPosition>91</ReferenceStartingPosition>
+                <ReferenceEndingPosition>99</ReferenceEndingPosition>
+                <EpitopeEvidenceCode>Not determined</EpitopeEvidenceCode>
+                <EpitopeStructureDefines>Exact Epitope</EpitopeStructureDefines>
+                <EpitopeComments>Kd restricted epitope, immunodominant in the immune response to source species primary infection. Protein name stands for Listeriolysin O precursor, also known as Thiol-activated cytolysin.</EpitopeComments>
+                <Assays>
+                    <TCell>
+                        <LocationOfData>Figures 5 and 6</LocationOfData>
+                        <TCellId>13566</TCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>10000216</OrganismId>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Administration in vivo</InVivoProcessType>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Source Organism</EpitopeRelation>
+                                    <Object>
+                                        <Organism>
+                                            <SubType>Organism</SubType>
+                                            <SourceOrganismId>1639</SourceOrganismId>
+                                        </Organism>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenEvidenceCode>Not determined</ImmunogenEvidenceCode>
+                                <Route>Intravenous (i.v.)</Route>
+                                <DoseSchedule>1st dose of 2000 bacteria, 2nd dose of 10&lt;sup&gt;5&lt;/sup&gt; bacteria 4 wk later.</DoseSchedule>
+                            </FirstInVivoProcess>
+                            <ImmunizationComments>WT Listeria, or double mutant Ser92/218, with serine replacement at the Tyr anchoring residues of immunodominant epitopes LLO91-99 and p60 217-225, were used as immunogens. 6 days after immunization, splenocytes were harvested.</ImmunizationComments>
+                        </Immunization>
+                        <EffectorCells>
+                            <CellTissueType>Spleen</CellTissueType>
+                            <CellType>Splenocyte</CellType>
+                            <CellCultureConditions>Direct Ex Vivo</CellCultureConditions>
+                        </EffectorCells>
+                        <AntigenPresentingCells>
+                            <CellTissueType>Other</CellTissueType>
+                            <CellType>P815-Mast cell</CellType>
+                            <CellCultureConditions>Cell Line / Clone</CellCultureConditions>
+                            <AutologousOrSyngeneic>N</AutologousOrSyngeneic>
+                            <SourceOrganismId>10000055</SourceOrganismId>
+                        </AntigenPresentingCells>
+                        <MhcAllele>
+                            <MhcAlleleId>124</MhcAlleleId>
+                            <MhcEvidenceCode>Not determined</MhcEvidenceCode>
+                        </MhcAllele>
+                        <Antigen>
+                            <AntigenReferenceName>LLO 91-99</AntigenReferenceName>
+                            <AntigenObject>
+                                <EpitopeRelation>Epitope</EpitopeRelation>
+                                <Object>
+                                    <FragmentOfANaturalSequenceMolecule>
+                                        <ChemicalType>Peptide from protein</ChemicalType>
+                                        <LinearSequence>GYKDGNEYI</LinearSequence>
+                                        <StartingPosition>91</StartingPosition>
+                                        <EndingPosition>99</EndingPosition>
+                                        <SourceMolecule>
+                                            <GenBankId>P13128.1</GenBankId>
+                                        </SourceMolecule>
+                                        <SourceOrganismId>1639</SourceOrganismId>
+                                    </FragmentOfANaturalSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Exact match to reference information</AntigenEvidenceCode>
+                        </Antigen>
+                        <AssayInformation>
+                            <AssayTypeId>48</AssayTypeId>
+                            <QualitativeMeasurement>Negative</QualitativeMeasurement>
+                            <AssayComments>Epitope specific INF-g secretion is not seen after a secondary infection with an anchor residue mutant of this immunodominant epitope (previously shown to not be presented by APCs) after a 1st infection with wild type or mutant source species. The response to subdominant epitopes is not enhanced by the lack of response to the immunodominant epitope. The responses to the immunodominant epitopes can be markedly dismissed if a previous immunization with the mutant form of the epitope is performed. Similar results are seen in CB6 and BALB/c mice.</AssayComments>
+                        </AssayInformation>
+                    </TCell>
+                </Assays>
+                <Assays>
+                    <TCell>
+                        <LocationOfData>Figure 4</LocationOfData>
+                        <TCellId>13565</TCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>10000216</OrganismId>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Administration in vivo</InVivoProcessType>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Source Organism</EpitopeRelation>
+                                    <Object>
+                                        <Organism>
+                                            <SubType>Organism</SubType>
+                                            <SourceOrganismId>1639</SourceOrganismId>
+                                        </Organism>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenEvidenceCode>Not determined</ImmunogenEvidenceCode>
+                                <Route>Intravenous (i.v.)</Route>
+                                <DoseSchedule>1 dose of 5000 bacteria.</DoseSchedule>
+                            </FirstInVivoProcess>
+                            <ImmunizationComments>WT Listeria, or mutant Ser92, with serine replacement at the Tyr anchoring residue of LLO91-99, or mutant Ser218 , with serine replacement at the Tyr anchoring residue of this epitope, or the double mutant, were used as immunogens. 1 wk after immunization, splenocytes were harvested.</ImmunizationComments>
+                        </Immunization>
+                        <EffectorCells>
+                            <CellTissueType>Spleen</CellTissueType>
+                            <CellType>Splenocyte</CellType>
+                            <CellCultureConditions>Direct Ex Vivo</CellCultureConditions>
+                        </EffectorCells>
+                        <AntigenPresentingCells>
+                            <CellTissueType>Other</CellTissueType>
+                            <CellType>P815-Mast cell</CellType>
+                            <CellCultureConditions>Cell Line / Clone</CellCultureConditions>
+                            <AutologousOrSyngeneic>N</AutologousOrSyngeneic>
+                            <SourceOrganismId>10000055</SourceOrganismId>
+                        </AntigenPresentingCells>
+                        <MhcAllele>
+                            <MhcAlleleId>169</MhcAlleleId>
+                            <MhcEvidenceCode>Not determined</MhcEvidenceCode>
+                        </MhcAllele>
+                        <Antigen>
+                            <AntigenReferenceName>LLO 91-99</AntigenReferenceName>
+                            <AntigenObject>
+                                <EpitopeRelation>Epitope</EpitopeRelation>
+                                <Object>
+                                    <FragmentOfANaturalSequenceMolecule>
+                                        <ChemicalType>Peptide from protein</ChemicalType>
+                                        <LinearSequence>GYKDGNEYI</LinearSequence>
+                                        <StartingPosition>91</StartingPosition>
+                                        <EndingPosition>99</EndingPosition>
+                                        <SourceMolecule>
+                                            <GenBankId>P13128.1</GenBankId>
+                                        </SourceMolecule>
+                                        <SourceOrganismId>1639</SourceOrganismId>
+                                    </FragmentOfANaturalSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Exact match to reference information</AntigenEvidenceCode>
+                        </Antigen>
+                        <AssayInformation>
+                            <AssayTypeId>48</AssayTypeId>
+                            <QualitativeMeasurement>Negative</QualitativeMeasurement>
+                            <AssayComments>Infection with the source species expressing an anchor residue mutant of the epitope (previously shown not to be presented by infected cells) does not  induce IFN-gamma releasing cells specific for this epitope. The responses against subdominant epitopes is not enhanced.</AssayComments>
+                        </AssayInformation>
+                    </TCell>
+                </Assays>
+            </Epitope>
+        </Epitopes>
+    </Reference>
+</References>
+

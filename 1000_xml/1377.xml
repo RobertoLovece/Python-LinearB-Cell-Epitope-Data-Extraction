@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<References xsi:schemaLocation="http://www.iedb.org/schema/CurationSchema http://beta.iedb.org/schema/Curation.xsd" xmlns="http://www.iedb.org/schema/CurationSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <Reference>
+        <ReferenceId>1377</ReferenceId>
+        <DateLastUpdated>2018-01-24-08:00</DateLastUpdated>
+        <Article>
+            <PubmedId>11433343</PubmedId>
+            <Abstract>Mutations in viral genomes that affect T-cell-receptor recognition by CD8+ cytotoxic T lymphocytes have been shown to allow viral evasion from immune surveillance during persistent viral infections. Although CD4+ T-helper cells are crucially involved in the maintenance of effective cytotoxic T-lymphocyte and neutralizing-antibody responses, their role in viral clearance and therefore in imposing similar selective pressures on the virus is unclear. We show here that transgenic virus-specific CD4+ Tcells, transferred into mice persistently infected with lymphocytic choriomeningitis virus, select for T-helper epitope mutant viruses that are not recognized. Together with the observed antigenic variation of the same T-helper epitope during polyclonal CD4+ T-cell responses in infected pore-forming protein-deficient C57BL/6 mice, this finding indicates that viral escape from CD4+ T lymphocytes is a possible mechanism of virus persistence.</Abstract>
+            <ArticleYear>2001</ArticleYear>
+            <ArticlePages>795-800</ArticlePages>
+            <ArticleTitle>CD4+ T-cell-epitope escape mutant virus selected in vivo.</ArticleTitle>
+            <Authors>
+                <Author>
+                    <LastName>Ciurea</LastName>
+                    <ForeName>A</ForeName>
+                </Author>
+                <Author>
+                    <LastName>Hunziker</LastName>
+                    <ForeName>L</ForeName>
+                </Author>
+                <Author>
+                    <LastName>Martinic</LastName>
+                    <ForeName>M M</ForeName>
+                </Author>
+                <Author>
+                    <LastName>Oxenius</LastName>
+                    <ForeName>A</ForeName>
+                </Author>
+                <Author>
+                    <LastName>Hengartner</LastName>
+                    <ForeName>H</ForeName>
+                </Author>
+                <Author>
+                    <LastName>Zinkernagel</LastName>
+                    <ForeName>R M</ForeName>
+                </Author>
+            </Authors>
+            <Affiliations>Institute for Experimental Immunology, University Hospital, Zurich, Switzerland. adrian.ciurea@dim.usz.ch</Affiliations>
+            <ArticleChemicalList>Epitopes;DNA</ArticleChemicalList>
+            <ArticleMeshHeadingsList>Amino Acid Sequence; Animals; Base Sequence; CD4-Positive T-Lymphocytes(immunology; virology); DNA; Epitopes(chemistry; immunology); Membrane Fusion(immunology); Mice; Mice, Inbred C57BL; Mice, Transgenic; Molecular Sequence Data; Neutralization Tests; RNA Viruses(physiology)</ArticleMeshHeadingsList>
+            <Comments>11433338  Nat Med. 2001 Jul;7(7):777-8</Comments>
+            <Journal>
+                <Volume>7</Volume>
+                <Issue>7</Issue>
+                <Title>Nature medicine</Title>
+                <Issn>1078-8956</Issn>
+                <MedlineTa>Nat Med</MedlineTa>
+            </Journal>
+        </Article>
+        <Epitopes>
+            <Epitope>
+                <EpitopeName>GP 61-80</EpitopeName>
+                <EpitopeStructure>
+                    <FragmentOfANaturalSequenceMolecule>
+                        <ChemicalType>Peptide from protein</ChemicalType>
+                        <LinearSequence>GLNGPDIYKGVYQFKSVEFD</LinearSequence>
+                        <StartingPosition>61</StartingPosition>
+                        <EndingPosition>80</EndingPosition>
+                        <SourceMolecule>
+                            <GenBankId>P07399.1</GenBankId>
+                        </SourceMolecule>
+                        <SourceOrganismId>11627</SourceOrganismId>
+                    </FragmentOfANaturalSequenceMolecule>
+                </EpitopeStructure>
+                <LocationOfData>Table 1</LocationOfData>
+                <EpitopeId>21045</EpitopeId>
+                <ReferenceStartingPosition>61</ReferenceStartingPosition>
+                <ReferenceEndingPosition>80</ReferenceEndingPosition>
+                <EpitopeEvidenceCode>Not determined</EpitopeEvidenceCode>
+                <EpitopeStructureDefines>Epitope containing region/antigenic site</EpitopeStructureDefines>
+                <EpitopeComments>Escape mutants with substitutions P65T, D66N/G and K75R were isolated either from CD8 depletd mice or from presistently infected mice passively trasferred with splenocytes from epitope-specifc trasgenic TCR (SMARTA) mice.</EpitopeComments>
+                <Assays>
+                    <TCell>
+                        <LocationOfData>Figure 4A</LocationOfData>
+                        <TCellId>21606</TCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>10000651</OrganismId>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>No immunization</InVivoProcessType>
+                            </FirstInVivoProcess>
+                            <ImmunizationComments>Epitope specific TCR-Transgenic mice (SMARTA) were studied at up to 70 days post-infection.</ImmunizationComments>
+                        </Immunization>
+                        <MhcAllele>
+                            <MhcAlleleId>168</MhcAlleleId>
+                            <MhcEvidenceCode>Not determined</MhcEvidenceCode>
+                        </MhcAllele>
+                        <Antigen>
+                            <AntigenObject>
+                                <EpitopeRelation>Source Organism</EpitopeRelation>
+                                <Object>
+                                    <Organism>
+                                        <SubType>Organism</SubType>
+                                        <SourceOrganismId>11627</SourceOrganismId>
+                                    </Organism>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Not determined</AntigenEvidenceCode>
+                        </Antigen>
+                        <AssayInformation>
+                            <AssayTypeId>182</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <AssayComments>Epitope-specific TCR-transgenic (SMARTA) mice are able to control viremia upon infection with wild type virus, but not if infected with the escape mutant harboring the K75R substitution. In agreement to this finding, CD4+-mediated immunopathology (measured as weight loss) seen in wild type virus infected SMARTA mice is abrogated in escape mutant infected SMARTA mice.</AssayComments>
+                        </AssayInformation>
+                    </TCell>
+                </Assays>
+                <Assays>
+                    <TCell>
+                        <LocationOfData>Figure 2A</LocationOfData>
+                        <TCellId>21603</TCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>10000651</OrganismId>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>No immunization</InVivoProcessType>
+                            </FirstInVivoProcess>
+                            <ImmunizationComments>Naïve splenocytes from epitope specific TCR-Transgenic mice were used.</ImmunizationComments>
+                        </Immunization>
+                        <EffectorCells>
+                            <CellTissueType>Spleen</CellTissueType>
+                            <CellType>T cell CD4+</CellType>
+                            <CellCultureConditions>Direct Ex Vivo</CellCultureConditions>
+                        </EffectorCells>
+                        <MhcAllele>
+                            <MhcAlleleId>168</MhcAlleleId>
+                            <MhcEvidenceCode>Not determined</MhcEvidenceCode>
+                        </MhcAllele>
+                        <Antigen>
+                            <AntigenReferenceName>GP 61-80</AntigenReferenceName>
+                            <AntigenObject>
+                                <EpitopeRelation>Epitope</EpitopeRelation>
+                                <Object>
+                                    <FragmentOfANaturalSequenceMolecule>
+                                        <ChemicalType>Peptide from protein</ChemicalType>
+                                        <LinearSequence>GLNGPDIYKGVYQFKSVEFD</LinearSequence>
+                                        <StartingPosition>61</StartingPosition>
+                                        <EndingPosition>80</EndingPosition>
+                                        <SourceMolecule>
+                                            <GenBankId>P07399.1</GenBankId>
+                                        </SourceMolecule>
+                                        <SourceOrganismId>11627</SourceOrganismId>
+                                    </FragmentOfANaturalSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Exact match to reference information</AntigenEvidenceCode>
+                        </Antigen>
+                        <AssayInformation>
+                            <AssayTypeId>69</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <AssayComments>CD4+ cells from epitope specific TCR-transgenic mice proliferate in response to this epitope, but not in response to the peptide encoding the escape mutant substitution K75R. This lack of recognition is shown to affect TCR recognition but not MHC binding capability. This variant acts as a T cell antagonist of epitope induced CD4+ proliferation. The pressure exerted by these CD4+ T cells is independ of MHC-II restricted cytotoxic activity.</AssayComments>
+                        </AssayInformation>
+                    </TCell>
+                </Assays>
+            </Epitope>
+        </Epitopes>
+    </Reference>
+</References>
+

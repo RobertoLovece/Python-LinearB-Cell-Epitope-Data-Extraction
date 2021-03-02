@@ -1,0 +1,987 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<References xsi:schemaLocation="http://www.iedb.org/schema/CurationSchema http://beta.iedb.org/schema/Curation.xsd" xmlns="http://www.iedb.org/schema/CurationSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <Reference>
+        <ReferenceId>200028</ReferenceId>
+        <DateLastUpdated>2020-09-10-07:00</DateLastUpdated>
+        <Article>
+            <PubmedId>7536622</PubmedId>
+            <Abstract>We demonstrate that cognate peptide ligands altered at T cell receptor (TCR) contact residues and bound to class II major histocompatability complex can change the cytokine pattern of mature T cell clones. Myelin basic protein peptide 85-99-reactive Th0 T cell clones were stimulated with altered peptide ligands, which acted both as TCR antagonist and induced new mRNA synthesis and protein secretion of TGF-beta 1, while no longer inducing mRNA synthesis or protein secretion of IL-2, IL-4, IL-10, and IFN gamma. The modified peptides failed to induce a detectable calcium flux, p56lck activation, or thymidine incorporation, yet triggered nearly equal amounts of IL-4 secretion in the presence of ionomycin. Antigen-induced modulation of T cell cytokine secretion may be important in regulating the immune response.</Abstract>
+            <ArticleYear>1995</ArticleYear>
+            <ArticlePages>373-80</ArticlePages>
+            <ArticleTitle>Modulation of cytokine patterns of human autoreactive T cell clones by a single amino acid substitution of their peptide ligand.</ArticleTitle>
+            <Authors>
+                <Author>
+                    <LastName>Windhagen</LastName>
+                    <ForeName>A</ForeName>
+                </Author>
+                <Author>
+                    <LastName>Scholz</LastName>
+                    <ForeName>C</ForeName>
+                </Author>
+                <Author>
+                    <LastName>Höllsberg</LastName>
+                    <ForeName>P</ForeName>
+                </Author>
+                <Author>
+                    <LastName>Fukaura</LastName>
+                    <ForeName>H</ForeName>
+                </Author>
+                <Author>
+                    <LastName>Sette</LastName>
+                    <ForeName>A</ForeName>
+                </Author>
+                <Author>
+                    <LastName>Hafler</LastName>
+                    <ForeName>D A</ForeName>
+                </Author>
+            </Authors>
+            <Affiliations>Laboratory of Molecular Immunology, Brigham and Women's Hospital, Boston, Massachusetts, USA.</Affiliations>
+            <ArticleChemicalList>Cytokines;DNA Primers;HLA Antigens;Myelin Basic Protein;RNA, Messenger</ArticleChemicalList>
+            <ArticleMeshHeadingsList>Base Sequence; Binding Sites; Cells, Cultured; Clone Cells; Cytokines(biosynthesis; metabolism); DNA Primers; HLA Antigens(immunology; metabolism); Humans; Molecular Sequence Data; Myelin Basic Protein(chemistry; pharmacology); Polymerase Chain Reaction; RNA, Messenger(analysis); Signal Transduction; T-Lymphocytes(immunology; metabolism)</ArticleMeshHeadingsList>
+            <Journal>
+                <Volume>2</Volume>
+                <Issue>4</Issue>
+                <Title>Immunity</Title>
+                <Issn>1074-7613</Issn>
+                <MedlineTa>Immunity</MedlineTa>
+            </Journal>
+        </Article>
+        <Epitopes>
+            <Epitope>
+                <EpitopeName>MBP p85-99</EpitopeName>
+                <EpitopeStructure>
+                    <FragmentOfANaturalSequenceMolecule>
+                        <ChemicalType>Peptide from protein</ChemicalType>
+                        <LinearSequence>ENPVVHFFKNIVTPR</LinearSequence>
+                        <StartingPosition>217</StartingPosition>
+                        <EndingPosition>231</EndingPosition>
+                        <SourceMolecule>
+                            <GenBankId>P02686.3</GenBankId>
+                        </SourceMolecule>
+                        <SourceOrganismId>9606</SourceOrganismId>
+                    </FragmentOfANaturalSequenceMolecule>
+                </EpitopeStructure>
+                <LocationOfData>Table 1</LocationOfData>
+                <EpitopeId>13572</EpitopeId>
+                <EpitopeEvidenceCode>Representative selection</EpitopeEvidenceCode>
+                <EpitopeStructureDefines>Exact Epitope</EpitopeStructureDefines>
+                <Assays>
+                    <TCell>
+                        <LocationOfData>Figures 2c, 3, 4 and 5</LocationOfData>
+                        <TCellId>1660616</TCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>9606</OrganismId>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Occurrence of autoimmune disease</InVivoProcessType>
+                                <DiseaseState>DOID:2377</DiseaseState>
+                                <DiseaseStage>Unknown</DiseaseStage>
+                            </FirstInVivoProcess>
+                            <InVitroAdministration>
+                                <ProcessType>Restimulation in vitro</ProcessType>
+                                <ResponderCellType>T cell</ResponderCellType>
+                                <StimulatorCellType>Unknown/Unspecified</StimulatorCellType>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Epitope</EpitopeRelation>
+                                    <Object>
+                                        <FragmentOfANaturalSequenceMolecule>
+                                            <ChemicalType>Peptide from protein</ChemicalType>
+                                            <LinearSequence>ENPVVHFFKNIVTPR</LinearSequence>
+                                            <StartingPosition>217</StartingPosition>
+                                            <EndingPosition>231</EndingPosition>
+                                            <SourceMolecule>
+                                                <GenBankId>P02686.3</GenBankId>
+                                            </SourceMolecule>
+                                            <SourceOrganismId>9606</SourceOrganismId>
+                                        </FragmentOfANaturalSequenceMolecule>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenEvidenceCode>Exact match to reference information</ImmunogenEvidenceCode>
+                            </InVitroAdministration>
+                            <ImmunizationComments>Procedures of immunization and generation of the epitope-specific T Cell clones were not described.</ImmunizationComments>
+                        </Immunization>
+                        <EffectorCells>
+                            <CellTissueType>Lymphoid</CellTissueType>
+                            <CellType>T cell</CellType>
+                            <CellCultureConditions>Cell Line / Clone</CellCultureConditions>
+                        </EffectorCells>
+                        <AssayedTcrMolecule>
+                            <AssayedTcrMoleculeName>Ob1A12</AssayedTcrMoleculeName>
+                        </AssayedTcrMolecule>
+                        <AntigenPresentingCells>
+                            <CellTissueType>Lymphoid</CellTissueType>
+                            <CellType>B cell</CellType>
+                            <CellCultureConditions>Cell Line / Clone</CellCultureConditions>
+                            <AutologousOrSyngeneic>Y</AutologousOrSyngeneic>
+                        </AntigenPresentingCells>
+                        <MhcAllele>
+                            <MhcAlleleId>436</MhcAlleleId>
+                            <MhcEvidenceCode>MHC binding assay</MhcEvidenceCode>
+                        </MhcAllele>
+                        <Antigen>
+                            <AntigenObject>
+                                <EpitopeRelation>Epitope</EpitopeRelation>
+                                <Object>
+                                    <FragmentOfANaturalSequenceMolecule>
+                                        <ChemicalType>Peptide from protein</ChemicalType>
+                                        <LinearSequence>ENPVVHFFKNIVTPR</LinearSequence>
+                                        <StartingPosition>217</StartingPosition>
+                                        <EndingPosition>231</EndingPosition>
+                                        <SourceMolecule>
+                                            <GenBankId>P02686.3</GenBankId>
+                                        </SourceMolecule>
+                                        <SourceOrganismId>9606</SourceOrganismId>
+                                    </FragmentOfANaturalSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Exact match to reference information</AntigenEvidenceCode>
+                        </Antigen>
+                        <AssayInformation>
+                            <AssayTypeId>78</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <AssayComments>Epitope-specific T cell clone responded to the epitope.  Single amino acid substitutions H6A or H6K completely eliminated T cell response.  Expression of IL-4 mRNA by epitope-specific T cell clone was positive for wild-type and K9A analog peptide, but negative for H6A, H6D, F7A and F8A analogs.</AssayComments>
+                        </AssayInformation>
+                    </TCell>
+                </Assays>
+                <Assays>
+                    <TCell>
+                        <LocationOfData>Figures 3, 4 and 5</LocationOfData>
+                        <TCellId>1660619</TCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>9606</OrganismId>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Occurrence of autoimmune disease</InVivoProcessType>
+                                <DiseaseState>DOID:2377</DiseaseState>
+                                <DiseaseStage>Unknown</DiseaseStage>
+                            </FirstInVivoProcess>
+                            <InVitroAdministration>
+                                <ProcessType>Restimulation in vitro</ProcessType>
+                                <ResponderCellType>T cell</ResponderCellType>
+                                <StimulatorCellType>Unknown/Unspecified</StimulatorCellType>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Epitope</EpitopeRelation>
+                                    <Object>
+                                        <FragmentOfANaturalSequenceMolecule>
+                                            <ChemicalType>Peptide from protein</ChemicalType>
+                                            <LinearSequence>ENPVVHFFKNIVTPR</LinearSequence>
+                                            <StartingPosition>217</StartingPosition>
+                                            <EndingPosition>231</EndingPosition>
+                                            <SourceMolecule>
+                                                <GenBankId>P02686.3</GenBankId>
+                                            </SourceMolecule>
+                                            <SourceOrganismId>9606</SourceOrganismId>
+                                        </FragmentOfANaturalSequenceMolecule>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenEvidenceCode>Exact match to reference information</ImmunogenEvidenceCode>
+                            </InVitroAdministration>
+                            <ImmunizationComments>Procedures of immunization and generation of the epitope-specific T Cell clones were not described.</ImmunizationComments>
+                        </Immunization>
+                        <EffectorCells>
+                            <CellTissueType>Lymphoid</CellTissueType>
+                            <CellType>T cell</CellType>
+                            <CellCultureConditions>Cell Line / Clone</CellCultureConditions>
+                        </EffectorCells>
+                        <AssayedTcrMolecule>
+                            <AssayedTcrMoleculeName>Ob1A12, Ob3D1</AssayedTcrMoleculeName>
+                        </AssayedTcrMolecule>
+                        <AntigenPresentingCells>
+                            <CellTissueType>Lymphoid</CellTissueType>
+                            <CellType>B cell</CellType>
+                            <CellCultureConditions>Cell Line / Clone</CellCultureConditions>
+                            <AutologousOrSyngeneic>Y</AutologousOrSyngeneic>
+                        </AntigenPresentingCells>
+                        <MhcAllele>
+                            <MhcAlleleId>436</MhcAlleleId>
+                            <MhcEvidenceCode>MHC binding assay</MhcEvidenceCode>
+                        </MhcAllele>
+                        <Antigen>
+                            <AntigenObject>
+                                <EpitopeRelation>Epitope</EpitopeRelation>
+                                <Object>
+                                    <FragmentOfANaturalSequenceMolecule>
+                                        <ChemicalType>Peptide from protein</ChemicalType>
+                                        <LinearSequence>ENPVVHFFKNIVTPR</LinearSequence>
+                                        <StartingPosition>217</StartingPosition>
+                                        <EndingPosition>231</EndingPosition>
+                                        <SourceMolecule>
+                                            <GenBankId>P02686.3</GenBankId>
+                                        </SourceMolecule>
+                                        <SourceOrganismId>9606</SourceOrganismId>
+                                    </FragmentOfANaturalSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Exact match to reference information</AntigenEvidenceCode>
+                        </Antigen>
+                        <AssayInformation>
+                            <AssayTypeId>171</AssayTypeId>
+                            <QualitativeMeasurement>Negative</QualitativeMeasurement>
+                            <AssayComments>Stimulation of epitope-specific T cell clones with wild-type epitope did not induce significant TGF-b1 mRNA expression.  Clone Ob1A12 only responded to a peptide analogs containing single amino acid substitutions H6A and H6D, while clone Ob3D1 only responded to K9A analog.</AssayComments>
+                        </AssayInformation>
+                    </TCell>
+                </Assays>
+                <Assays>
+                    <TCell>
+                        <LocationOfData>Figures 4 and 5</LocationOfData>
+                        <TCellId>1660627</TCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>9606</OrganismId>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Occurrence of autoimmune disease</InVivoProcessType>
+                                <DiseaseState>DOID:2377</DiseaseState>
+                                <DiseaseStage>Unknown</DiseaseStage>
+                            </FirstInVivoProcess>
+                            <InVitroAdministration>
+                                <ProcessType>Restimulation in vitro</ProcessType>
+                                <ResponderCellType>T cell</ResponderCellType>
+                                <StimulatorCellType>Unknown/Unspecified</StimulatorCellType>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Epitope</EpitopeRelation>
+                                    <Object>
+                                        <FragmentOfANaturalSequenceMolecule>
+                                            <ChemicalType>Peptide from protein</ChemicalType>
+                                            <LinearSequence>ENPVVHFFKNIVTPR</LinearSequence>
+                                            <StartingPosition>217</StartingPosition>
+                                            <EndingPosition>231</EndingPosition>
+                                            <SourceMolecule>
+                                                <GenBankId>P02686.3</GenBankId>
+                                            </SourceMolecule>
+                                            <SourceOrganismId>9606</SourceOrganismId>
+                                        </FragmentOfANaturalSequenceMolecule>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenEvidenceCode>Exact match to reference information</ImmunogenEvidenceCode>
+                            </InVitroAdministration>
+                            <ImmunizationComments>Procedures of immunization and generation of the epitope-specific T Cell clones were not described.</ImmunizationComments>
+                        </Immunization>
+                        <EffectorCells>
+                            <CellTissueType>Lymphoid</CellTissueType>
+                            <CellType>T cell</CellType>
+                            <CellCultureConditions>Cell Line / Clone</CellCultureConditions>
+                        </EffectorCells>
+                        <AssayedTcrMolecule>
+                            <AssayedTcrMoleculeName>Ob1A12</AssayedTcrMoleculeName>
+                        </AssayedTcrMolecule>
+                        <AntigenPresentingCells>
+                            <CellTissueType>Lymphoid</CellTissueType>
+                            <CellType>B cell</CellType>
+                            <CellCultureConditions>Cell Line / Clone</CellCultureConditions>
+                            <AutologousOrSyngeneic>Y</AutologousOrSyngeneic>
+                        </AntigenPresentingCells>
+                        <MhcAllele>
+                            <MhcAlleleId>436</MhcAlleleId>
+                            <MhcEvidenceCode>MHC binding assay</MhcEvidenceCode>
+                        </MhcAllele>
+                        <Antigen>
+                            <AntigenObject>
+                                <EpitopeRelation>Epitope</EpitopeRelation>
+                                <Object>
+                                    <FragmentOfANaturalSequenceMolecule>
+                                        <ChemicalType>Peptide from protein</ChemicalType>
+                                        <LinearSequence>ENPVVHFFKNIVTPR</LinearSequence>
+                                        <StartingPosition>217</StartingPosition>
+                                        <EndingPosition>231</EndingPosition>
+                                        <SourceMolecule>
+                                            <GenBankId>P02686.3</GenBankId>
+                                        </SourceMolecule>
+                                        <SourceOrganismId>9606</SourceOrganismId>
+                                    </FragmentOfANaturalSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Exact match to reference information</AntigenEvidenceCode>
+                        </Antigen>
+                        <AssayInformation>
+                            <AssayTypeId>73</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <AssayComments>Epitope-specific T cell clone responded to the wild-type epitope and peptide analogs containing a single amino acid substitutions V5K and F9A.  Peptide analog F8A was positive-low.  Peptide analogs H6A, H6D, and F7A were negative.</AssayComments>
+                        </AssayInformation>
+                    </TCell>
+                </Assays>
+                <Assays>
+                    <TCell>
+                        <LocationOfData>Figure 4</LocationOfData>
+                        <TCellId>1660626</TCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>9606</OrganismId>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Occurrence of autoimmune disease</InVivoProcessType>
+                                <DiseaseState>DOID:2377</DiseaseState>
+                                <DiseaseStage>Unknown</DiseaseStage>
+                            </FirstInVivoProcess>
+                            <InVitroAdministration>
+                                <ProcessType>Restimulation in vitro</ProcessType>
+                                <ResponderCellType>T cell</ResponderCellType>
+                                <StimulatorCellType>Unknown/Unspecified</StimulatorCellType>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Epitope</EpitopeRelation>
+                                    <Object>
+                                        <FragmentOfANaturalSequenceMolecule>
+                                            <ChemicalType>Peptide from protein</ChemicalType>
+                                            <LinearSequence>ENPVVHFFKNIVTPR</LinearSequence>
+                                            <StartingPosition>217</StartingPosition>
+                                            <EndingPosition>231</EndingPosition>
+                                            <SourceMolecule>
+                                                <GenBankId>P02686.3</GenBankId>
+                                            </SourceMolecule>
+                                            <SourceOrganismId>9606</SourceOrganismId>
+                                        </FragmentOfANaturalSequenceMolecule>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenEvidenceCode>Exact match to reference information</ImmunogenEvidenceCode>
+                            </InVitroAdministration>
+                            <ImmunizationComments>Procedures of immunization and generation of the epitope-specific T Cell clones were not described.</ImmunizationComments>
+                        </Immunization>
+                        <EffectorCells>
+                            <CellTissueType>Lymphoid</CellTissueType>
+                            <CellType>T cell</CellType>
+                            <CellCultureConditions>Cell Line / Clone</CellCultureConditions>
+                        </EffectorCells>
+                        <AssayedTcrMolecule>
+                            <AssayedTcrMoleculeName>Ob1A12</AssayedTcrMoleculeName>
+                        </AssayedTcrMolecule>
+                        <AntigenPresentingCells>
+                            <CellTissueType>Lymphoid</CellTissueType>
+                            <CellType>B cell</CellType>
+                            <CellCultureConditions>Cell Line / Clone</CellCultureConditions>
+                            <AutologousOrSyngeneic>Y</AutologousOrSyngeneic>
+                        </AntigenPresentingCells>
+                        <MhcAllele>
+                            <MhcAlleleId>436</MhcAlleleId>
+                            <MhcEvidenceCode>MHC binding assay</MhcEvidenceCode>
+                        </MhcAllele>
+                        <Antigen>
+                            <AntigenObject>
+                                <EpitopeRelation>Epitope</EpitopeRelation>
+                                <Object>
+                                    <FragmentOfANaturalSequenceMolecule>
+                                        <ChemicalType>Peptide from protein</ChemicalType>
+                                        <LinearSequence>ENPVVHFFKNIVTPR</LinearSequence>
+                                        <StartingPosition>217</StartingPosition>
+                                        <EndingPosition>231</EndingPosition>
+                                        <SourceMolecule>
+                                            <GenBankId>P02686.3</GenBankId>
+                                        </SourceMolecule>
+                                        <SourceOrganismId>9606</SourceOrganismId>
+                                    </FragmentOfANaturalSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Exact match to reference information</AntigenEvidenceCode>
+                        </Antigen>
+                        <AssayInformation>
+                            <AssayTypeId>150</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <AssayComments>Epitope-specific T cell clone responded strongly to the wild-type epitope.  Peptide analogs containing a single amino acid substitution V5K and F9A were positive-low.  Peptide analogs with single residue substitutions H6A, H6D, F7A and F8A were negative.</AssayComments>
+                        </AssayInformation>
+                    </TCell>
+                </Assays>
+                <Assays>
+                    <TCell>
+                        <LocationOfData>Figure 4</LocationOfData>
+                        <TCellId>1660625</TCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>9606</OrganismId>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Occurrence of autoimmune disease</InVivoProcessType>
+                                <DiseaseState>DOID:2377</DiseaseState>
+                                <DiseaseStage>Unknown</DiseaseStage>
+                            </FirstInVivoProcess>
+                            <InVitroAdministration>
+                                <ProcessType>Restimulation in vitro</ProcessType>
+                                <ResponderCellType>T cell</ResponderCellType>
+                                <StimulatorCellType>Unknown/Unspecified</StimulatorCellType>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Epitope</EpitopeRelation>
+                                    <Object>
+                                        <FragmentOfANaturalSequenceMolecule>
+                                            <ChemicalType>Peptide from protein</ChemicalType>
+                                            <LinearSequence>ENPVVHFFKNIVTPR</LinearSequence>
+                                            <StartingPosition>217</StartingPosition>
+                                            <EndingPosition>231</EndingPosition>
+                                            <SourceMolecule>
+                                                <GenBankId>P02686.3</GenBankId>
+                                            </SourceMolecule>
+                                            <SourceOrganismId>9606</SourceOrganismId>
+                                        </FragmentOfANaturalSequenceMolecule>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenEvidenceCode>Exact match to reference information</ImmunogenEvidenceCode>
+                            </InVitroAdministration>
+                            <ImmunizationComments>Procedures of immunization and generation of the epitope-specific T Cell clones were not described.</ImmunizationComments>
+                        </Immunization>
+                        <EffectorCells>
+                            <CellTissueType>Lymphoid</CellTissueType>
+                            <CellType>T cell</CellType>
+                            <CellCultureConditions>Cell Line / Clone</CellCultureConditions>
+                        </EffectorCells>
+                        <AssayedTcrMolecule>
+                            <AssayedTcrMoleculeName>Ob1A12</AssayedTcrMoleculeName>
+                        </AssayedTcrMolecule>
+                        <AntigenPresentingCells>
+                            <CellTissueType>Lymphoid</CellTissueType>
+                            <CellType>B cell</CellType>
+                            <CellCultureConditions>Cell Line / Clone</CellCultureConditions>
+                            <AutologousOrSyngeneic>Y</AutologousOrSyngeneic>
+                        </AntigenPresentingCells>
+                        <MhcAllele>
+                            <MhcAlleleId>436</MhcAlleleId>
+                            <MhcEvidenceCode>MHC binding assay</MhcEvidenceCode>
+                        </MhcAllele>
+                        <Antigen>
+                            <AntigenObject>
+                                <EpitopeRelation>Epitope</EpitopeRelation>
+                                <Object>
+                                    <FragmentOfANaturalSequenceMolecule>
+                                        <ChemicalType>Peptide from protein</ChemicalType>
+                                        <LinearSequence>ENPVVHFFKNIVTPR</LinearSequence>
+                                        <StartingPosition>217</StartingPosition>
+                                        <EndingPosition>231</EndingPosition>
+                                        <SourceMolecule>
+                                            <GenBankId>P02686.3</GenBankId>
+                                        </SourceMolecule>
+                                        <SourceOrganismId>9606</SourceOrganismId>
+                                    </FragmentOfANaturalSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Exact match to reference information</AntigenEvidenceCode>
+                        </Antigen>
+                        <AssayInformation>
+                            <AssayTypeId>77</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <AssayComments>Epitope-specific T cell clone responded to the wild-type epitope and a peptide analog containing a single amino acid substitution F9A.  Analogs with single residue substitutions V5K, H6A, H6D, F7A and F8A were negative.</AssayComments>
+                        </AssayInformation>
+                    </TCell>
+                </Assays>
+                <Assays>
+                    <TCell>
+                        <LocationOfData>Table 1 and Figure 1</LocationOfData>
+                        <TCellId>1660609</TCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>9606</OrganismId>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Occurrence of autoimmune disease</InVivoProcessType>
+                                <DiseaseState>DOID:2377</DiseaseState>
+                                <DiseaseStage>Unknown</DiseaseStage>
+                            </FirstInVivoProcess>
+                            <InVitroAdministration>
+                                <ProcessType>Restimulation in vitro</ProcessType>
+                                <ResponderCellType>T cell</ResponderCellType>
+                                <StimulatorCellType>Unknown/Unspecified</StimulatorCellType>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Epitope</EpitopeRelation>
+                                    <Object>
+                                        <FragmentOfANaturalSequenceMolecule>
+                                            <ChemicalType>Peptide from protein</ChemicalType>
+                                            <LinearSequence>ENPVVHFFKNIVTPR</LinearSequence>
+                                            <StartingPosition>217</StartingPosition>
+                                            <EndingPosition>231</EndingPosition>
+                                            <SourceMolecule>
+                                                <GenBankId>P02686.3</GenBankId>
+                                            </SourceMolecule>
+                                            <SourceOrganismId>9606</SourceOrganismId>
+                                        </FragmentOfANaturalSequenceMolecule>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenEvidenceCode>Exact match to reference information</ImmunogenEvidenceCode>
+                            </InVitroAdministration>
+                            <ImmunizationComments>Procedures of immunization and generation of the epitope-specific T Cell clones were not described.</ImmunizationComments>
+                        </Immunization>
+                        <EffectorCells>
+                            <CellTissueType>Lymphoid</CellTissueType>
+                            <CellType>T cell</CellType>
+                            <CellCultureConditions>Cell Line / Clone</CellCultureConditions>
+                        </EffectorCells>
+                        <AssayedTcrMolecule>
+                            <AssayedTcrMoleculeName>Ob1A12</AssayedTcrMoleculeName>
+                        </AssayedTcrMolecule>
+                        <AntigenPresentingCells>
+                            <CellTissueType>Lymphoid</CellTissueType>
+                            <CellType>B cell</CellType>
+                            <CellCultureConditions>Cell Line / Clone</CellCultureConditions>
+                            <AutologousOrSyngeneic>Y</AutologousOrSyngeneic>
+                        </AntigenPresentingCells>
+                        <MhcAllele>
+                            <MhcAlleleId>436</MhcAlleleId>
+                            <MhcEvidenceCode>MHC binding assay</MhcEvidenceCode>
+                        </MhcAllele>
+                        <Antigen>
+                            <AntigenObject>
+                                <EpitopeRelation>Epitope</EpitopeRelation>
+                                <Object>
+                                    <FragmentOfANaturalSequenceMolecule>
+                                        <ChemicalType>Peptide from protein</ChemicalType>
+                                        <LinearSequence>ENPVVHFFKNIVTPR</LinearSequence>
+                                        <StartingPosition>217</StartingPosition>
+                                        <EndingPosition>231</EndingPosition>
+                                        <SourceMolecule>
+                                            <GenBankId>P02686.3</GenBankId>
+                                        </SourceMolecule>
+                                        <SourceOrganismId>9606</SourceOrganismId>
+                                    </FragmentOfANaturalSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Exact match to reference information</AntigenEvidenceCode>
+                        </Antigen>
+                        <AssayInformation>
+                            <AssayTypeId>69</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <AssayComments>Epitope-specific T cell clone responded to the epitope and mutant peptide analogs containing single amino acid substitutions V5K, F8A or K9A.  Single substitutions H6A, H6D, H6K or F7A completely eliminated T cell clone recognition, indicating amino acids H6 and F7 as critical residues.  In a TCR antagonists experiment, analogs altered at residue H6 could inhibit proliferation induced by the wild-type epitope.  Analog altered at residue F7 inhibited proliferation induced by the wild-type epitope at a much lesser degree.</AssayComments>
+                        </AssayInformation>
+                    </TCell>
+                </Assays>
+                <Assays>
+                    <MhcBinding>
+                        <LocationOfData>Table 1</LocationOfData>
+                        <MhcBindingId>201230</MhcBindingId>
+                        <AssayInformation>
+                            <AssayTypeId>1</AssayTypeId>
+                            <QualitativeMeasurement>Positive-High</QualitativeMeasurement>
+                            <QuantitativeMeasurement>4.1</QuantitativeMeasurement>
+                            <MeasurementInequality>=</MeasurementInequality>
+                        </AssayInformation>
+                        <MhcAlleleId>436</MhcAlleleId>
+                    </MhcBinding>
+                </Assays>
+            </Epitope>
+            <Epitope>
+                <EpitopeName>MBP p85-99 89K analog</EpitopeName>
+                <EpitopeStructure>
+                    <SequenceMoleculeNoNaturalSource>
+                        <ChemicalType>Peptide, no natural source</ChemicalType>
+                        <LinearSequence>ENPVKHFFKNIVTPR</LinearSequence>
+                    </SequenceMoleculeNoNaturalSource>
+                </EpitopeStructure>
+                <EpitopeRelatedObject>
+                    <RelatedObjectType>The epitope is an analog of:</RelatedObjectType>
+                    <RelatedObject>
+                        <FragmentOfANaturalSequenceMolecule>
+                            <ChemicalType>Peptide from protein</ChemicalType>
+                            <LinearSequence>ENPVVHFFKNIVTPR</LinearSequence>
+                            <StartingPosition>217</StartingPosition>
+                            <EndingPosition>231</EndingPosition>
+                            <SourceMolecule>
+                                <GenBankId>P02686.3</GenBankId>
+                            </SourceMolecule>
+                            <SourceOrganismId>9606</SourceOrganismId>
+                        </FragmentOfANaturalSequenceMolecule>
+                    </RelatedObject>
+                </EpitopeRelatedObject>
+                <LocationOfData>Table 1</LocationOfData>
+                <EpitopeId>13562</EpitopeId>
+                <EpitopeStructureDefines>Epitope containing region/antigenic site</EpitopeStructureDefines>
+                <Assays>
+                    <MhcBinding>
+                        <LocationOfData>Table 1</LocationOfData>
+                        <MhcBindingId>1660599</MhcBindingId>
+                        <AssayInformation>
+                            <AssayTypeId>1</AssayTypeId>
+                            <QualitativeMeasurement>Positive-Intermediate</QualitativeMeasurement>
+                            <QuantitativeMeasurement>404.0</QuantitativeMeasurement>
+                            <MeasurementInequality>=</MeasurementInequality>
+                        </AssayInformation>
+                        <MhcAlleleId>436</MhcAlleleId>
+                    </MhcBinding>
+                </Assays>
+            </Epitope>
+            <Epitope>
+                <EpitopeName>MBP p85-99 90A analog</EpitopeName>
+                <EpitopeStructure>
+                    <SequenceMoleculeNoNaturalSource>
+                        <ChemicalType>Peptide, no natural source</ChemicalType>
+                        <LinearSequence>ENPVVAFFKNIVTPR</LinearSequence>
+                    </SequenceMoleculeNoNaturalSource>
+                </EpitopeStructure>
+                <EpitopeRelatedObject>
+                    <RelatedObjectType>The epitope is an analog of:</RelatedObjectType>
+                    <RelatedObject>
+                        <FragmentOfANaturalSequenceMolecule>
+                            <ChemicalType>Peptide from protein</ChemicalType>
+                            <LinearSequence>ENPVVHFFKNIVTPR</LinearSequence>
+                            <StartingPosition>217</StartingPosition>
+                            <EndingPosition>231</EndingPosition>
+                            <SourceMolecule>
+                                <GenBankId>P02686.3</GenBankId>
+                            </SourceMolecule>
+                            <SourceOrganismId>9606</SourceOrganismId>
+                        </FragmentOfANaturalSequenceMolecule>
+                    </RelatedObject>
+                </EpitopeRelatedObject>
+                <LocationOfData>Table 1</LocationOfData>
+                <EpitopeId>13563</EpitopeId>
+                <EpitopeStructureDefines>Epitope containing region/antigenic site</EpitopeStructureDefines>
+                <Assays>
+                    <TCell>
+                        <LocationOfData>Figure 4</LocationOfData>
+                        <TCellId>1661594</TCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>9606</OrganismId>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Occurrence of autoimmune disease</InVivoProcessType>
+                                <DiseaseState>DOID:2377</DiseaseState>
+                                <DiseaseStage>Unknown</DiseaseStage>
+                            </FirstInVivoProcess>
+                            <InVitroAdministration>
+                                <ProcessType>Restimulation in vitro</ProcessType>
+                                <ResponderCellType>T cell</ResponderCellType>
+                                <StimulatorCellType>Unknown/Unspecified</StimulatorCellType>
+                                <ImmunogenReferenceName>wild-type MBP p85-99</ImmunogenReferenceName>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Structurally Related</EpitopeRelation>
+                                    <Object>
+                                        <FragmentOfANaturalSequenceMolecule>
+                                            <ChemicalType>Peptide from protein</ChemicalType>
+                                            <LinearSequence>ENPVVHFFKNIVTPR</LinearSequence>
+                                            <StartingPosition>217</StartingPosition>
+                                            <EndingPosition>231</EndingPosition>
+                                            <SourceMolecule>
+                                                <GenBankId>P02686.3</GenBankId>
+                                            </SourceMolecule>
+                                            <SourceOrganismId>9606</SourceOrganismId>
+                                        </FragmentOfANaturalSequenceMolecule>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenEvidenceCode>Exact match to reference information</ImmunogenEvidenceCode>
+                            </InVitroAdministration>
+                            <ImmunizationComments>Procedures of immunization and generation of the wild-type MBP p85-99 epitope-specific T Cell clones were not described.</ImmunizationComments>
+                        </Immunization>
+                        <EffectorCells>
+                            <CellTissueType>Lymphoid</CellTissueType>
+                            <CellType>T cell</CellType>
+                            <CellCultureConditions>Cell Line / Clone</CellCultureConditions>
+                        </EffectorCells>
+                        <AssayedTcrMolecule>
+                            <AssayedTcrMoleculeName>ObA12</AssayedTcrMoleculeName>
+                        </AssayedTcrMolecule>
+                        <AntigenPresentingCells>
+                            <CellTissueType>Lymphoid</CellTissueType>
+                            <CellType>B cell</CellType>
+                            <CellCultureConditions>Cell Line / Clone</CellCultureConditions>
+                            <AutologousOrSyngeneic>Y</AutologousOrSyngeneic>
+                        </AntigenPresentingCells>
+                        <MhcAllele>
+                            <MhcAlleleId>436</MhcAlleleId>
+                            <MhcEvidenceCode>MHC binding assay</MhcEvidenceCode>
+                        </MhcAllele>
+                        <Antigen>
+                            <AntigenObject>
+                                <EpitopeRelation>Epitope</EpitopeRelation>
+                                <Object>
+                                    <SequenceMoleculeNoNaturalSource>
+                                        <ChemicalType>Peptide, no natural source</ChemicalType>
+                                        <LinearSequence>ENPVVAFFKNIVTPR</LinearSequence>
+                                    </SequenceMoleculeNoNaturalSource>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Exact match to reference information</AntigenEvidenceCode>
+                        </Antigen>
+                        <AssayInformation>
+                            <AssayTypeId>196</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <AssayComments>Stimulation of wild-type-specific T cell clones with wild-type peptide did not induce significant TGF-b1 production. Only analogs containing single amino acid substitutions H6A or H6D were able to induce TFG-b1, which the author claimed was important in regulating experimental autoimmune encephalomyelitis (EAE).</AssayComments>
+                        </AssayInformation>
+                    </TCell>
+                </Assays>
+                <Assays>
+                    <MhcBinding>
+                        <LocationOfData>Table 1</LocationOfData>
+                        <MhcBindingId>1660601</MhcBindingId>
+                        <AssayInformation>
+                            <AssayTypeId>1</AssayTypeId>
+                            <QualitativeMeasurement>Positive-High</QualitativeMeasurement>
+                            <QuantitativeMeasurement>5.2</QuantitativeMeasurement>
+                            <MeasurementInequality>=</MeasurementInequality>
+                        </AssayInformation>
+                        <MhcAlleleId>436</MhcAlleleId>
+                    </MhcBinding>
+                </Assays>
+            </Epitope>
+            <Epitope>
+                <EpitopeName>MBP p85-99 90D analog</EpitopeName>
+                <EpitopeStructure>
+                    <SequenceMoleculeNoNaturalSource>
+                        <ChemicalType>Peptide, no natural source</ChemicalType>
+                        <LinearSequence>ENPVVDFFKNIVTPR</LinearSequence>
+                    </SequenceMoleculeNoNaturalSource>
+                </EpitopeStructure>
+                <EpitopeRelatedObject>
+                    <RelatedObjectType>The epitope is an analog of:</RelatedObjectType>
+                    <RelatedObject>
+                        <FragmentOfANaturalSequenceMolecule>
+                            <ChemicalType>Peptide from protein</ChemicalType>
+                            <LinearSequence>ENPVVHFFKNIVTPR</LinearSequence>
+                            <StartingPosition>217</StartingPosition>
+                            <EndingPosition>231</EndingPosition>
+                            <SourceMolecule>
+                                <GenBankId>P02686.3</GenBankId>
+                            </SourceMolecule>
+                            <SourceOrganismId>9606</SourceOrganismId>
+                        </FragmentOfANaturalSequenceMolecule>
+                    </RelatedObject>
+                </EpitopeRelatedObject>
+                <LocationOfData>Table 1</LocationOfData>
+                <EpitopeId>13564</EpitopeId>
+                <EpitopeStructureDefines>Epitope containing region/antigenic site</EpitopeStructureDefines>
+                <Assays>
+                    <TCell>
+                        <LocationOfData>Figure 4</LocationOfData>
+                        <TCellId>1661598</TCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>9606</OrganismId>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Occurrence of autoimmune disease</InVivoProcessType>
+                                <DiseaseState>DOID:2377</DiseaseState>
+                                <DiseaseStage>Unknown</DiseaseStage>
+                            </FirstInVivoProcess>
+                            <InVitroAdministration>
+                                <ProcessType>Restimulation in vitro</ProcessType>
+                                <ResponderCellType>T cell</ResponderCellType>
+                                <StimulatorCellType>Unknown/Unspecified</StimulatorCellType>
+                                <ImmunogenReferenceName>wild-type MBP p85-99</ImmunogenReferenceName>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Structurally Related</EpitopeRelation>
+                                    <Object>
+                                        <FragmentOfANaturalSequenceMolecule>
+                                            <ChemicalType>Peptide from protein</ChemicalType>
+                                            <LinearSequence>ENPVVHFFKNIVTPR</LinearSequence>
+                                            <StartingPosition>217</StartingPosition>
+                                            <EndingPosition>231</EndingPosition>
+                                            <SourceMolecule>
+                                                <GenBankId>P02686.3</GenBankId>
+                                            </SourceMolecule>
+                                            <SourceOrganismId>9606</SourceOrganismId>
+                                        </FragmentOfANaturalSequenceMolecule>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenEvidenceCode>Exact match to reference information</ImmunogenEvidenceCode>
+                            </InVitroAdministration>
+                            <ImmunizationComments>Procedures of immunization and generation of the wild-type MBP p85-99 epitope-specific T Cell clones were not described.</ImmunizationComments>
+                        </Immunization>
+                        <EffectorCells>
+                            <CellTissueType>Lymphoid</CellTissueType>
+                            <CellType>T cell</CellType>
+                            <CellCultureConditions>Cell Line / Clone</CellCultureConditions>
+                        </EffectorCells>
+                        <AssayedTcrMolecule>
+                            <AssayedTcrMoleculeName>ObA12</AssayedTcrMoleculeName>
+                        </AssayedTcrMolecule>
+                        <AntigenPresentingCells>
+                            <CellTissueType>Lymphoid</CellTissueType>
+                            <CellType>B cell</CellType>
+                            <CellCultureConditions>Cell Line / Clone</CellCultureConditions>
+                            <AutologousOrSyngeneic>Y</AutologousOrSyngeneic>
+                        </AntigenPresentingCells>
+                        <MhcAllele>
+                            <MhcAlleleId>436</MhcAlleleId>
+                            <MhcEvidenceCode>MHC binding assay</MhcEvidenceCode>
+                        </MhcAllele>
+                        <Antigen>
+                            <AntigenObject>
+                                <EpitopeRelation>Epitope</EpitopeRelation>
+                                <Object>
+                                    <SequenceMoleculeNoNaturalSource>
+                                        <ChemicalType>Peptide, no natural source</ChemicalType>
+                                        <LinearSequence>ENPVVDFFKNIVTPR</LinearSequence>
+                                    </SequenceMoleculeNoNaturalSource>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Exact match to reference information</AntigenEvidenceCode>
+                        </Antigen>
+                        <AssayInformation>
+                            <AssayTypeId>196</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <AssayComments>Stimulation of wild-type-specific T cell clones with wild-type peptide did not induce significant TGF-b1 production. Only analogs containing single amino acid substitutions H6A or H6D were able to induce TFG-b1, which the author claimed was important in regulating experimental autoimmune encephalomyelitis (EAE).</AssayComments>
+                        </AssayInformation>
+                    </TCell>
+                </Assays>
+                <Assays>
+                    <MhcBinding>
+                        <LocationOfData>Table 1</LocationOfData>
+                        <MhcBindingId>1660602</MhcBindingId>
+                        <AssayInformation>
+                            <AssayTypeId>1</AssayTypeId>
+                            <QualitativeMeasurement>Positive-Intermediate</QualitativeMeasurement>
+                            <QuantitativeMeasurement>76.0</QuantitativeMeasurement>
+                            <MeasurementInequality>=</MeasurementInequality>
+                        </AssayInformation>
+                        <MhcAlleleId>436</MhcAlleleId>
+                    </MhcBinding>
+                </Assays>
+            </Epitope>
+            <Epitope>
+                <EpitopeName>MBP p85-99 90K analog</EpitopeName>
+                <EpitopeStructure>
+                    <SequenceMoleculeNoNaturalSource>
+                        <ChemicalType>Peptide, no natural source</ChemicalType>
+                        <LinearSequence>ENPVVKFFKNIVTPR</LinearSequence>
+                    </SequenceMoleculeNoNaturalSource>
+                </EpitopeStructure>
+                <EpitopeRelatedObject>
+                    <RelatedObjectType>The epitope is an analog of:</RelatedObjectType>
+                    <RelatedObject>
+                        <FragmentOfANaturalSequenceMolecule>
+                            <ChemicalType>Peptide from protein</ChemicalType>
+                            <LinearSequence>ENPVVHFFKNIVTPR</LinearSequence>
+                            <StartingPosition>217</StartingPosition>
+                            <EndingPosition>231</EndingPosition>
+                            <SourceMolecule>
+                                <GenBankId>P02686.3</GenBankId>
+                            </SourceMolecule>
+                            <SourceOrganismId>9606</SourceOrganismId>
+                        </FragmentOfANaturalSequenceMolecule>
+                    </RelatedObject>
+                </EpitopeRelatedObject>
+                <LocationOfData>Table 1</LocationOfData>
+                <EpitopeId>13574</EpitopeId>
+                <EpitopeStructureDefines>Epitope containing region/antigenic site</EpitopeStructureDefines>
+                <Assays>
+                    <MhcBinding>
+                        <LocationOfData>Table 1</LocationOfData>
+                        <MhcBindingId>1660605</MhcBindingId>
+                        <AssayInformation>
+                            <AssayTypeId>1</AssayTypeId>
+                            <QualitativeMeasurement>Positive-High</QualitativeMeasurement>
+                            <QuantitativeMeasurement>7.0</QuantitativeMeasurement>
+                            <MeasurementInequality>=</MeasurementInequality>
+                        </AssayInformation>
+                        <MhcAlleleId>436</MhcAlleleId>
+                    </MhcBinding>
+                </Assays>
+            </Epitope>
+            <Epitope>
+                <EpitopeName>MBP p85-99 91A analog</EpitopeName>
+                <EpitopeStructure>
+                    <SequenceMoleculeNoNaturalSource>
+                        <ChemicalType>Peptide, no natural source</ChemicalType>
+                        <LinearSequence>ENPVVHAFKNIVTPR</LinearSequence>
+                    </SequenceMoleculeNoNaturalSource>
+                </EpitopeStructure>
+                <EpitopeRelatedObject>
+                    <RelatedObjectType>The epitope is an analog of:</RelatedObjectType>
+                    <RelatedObject>
+                        <FragmentOfANaturalSequenceMolecule>
+                            <ChemicalType>Peptide from protein</ChemicalType>
+                            <LinearSequence>ENPVVHFFKNIVTPR</LinearSequence>
+                            <StartingPosition>217</StartingPosition>
+                            <EndingPosition>231</EndingPosition>
+                            <SourceMolecule>
+                                <GenBankId>P02686.3</GenBankId>
+                            </SourceMolecule>
+                            <SourceOrganismId>9606</SourceOrganismId>
+                        </FragmentOfANaturalSequenceMolecule>
+                    </RelatedObject>
+                </EpitopeRelatedObject>
+                <LocationOfData>Table 1</LocationOfData>
+                <EpitopeId>13565</EpitopeId>
+                <EpitopeStructureDefines>Epitope containing region/antigenic site</EpitopeStructureDefines>
+                <Assays>
+                    <MhcBinding>
+                        <LocationOfData>Table 1</LocationOfData>
+                        <MhcBindingId>1660606</MhcBindingId>
+                        <AssayInformation>
+                            <AssayTypeId>1</AssayTypeId>
+                            <QualitativeMeasurement>Positive-High</QualitativeMeasurement>
+                            <QuantitativeMeasurement>2.1</QuantitativeMeasurement>
+                            <MeasurementInequality>=</MeasurementInequality>
+                        </AssayInformation>
+                        <MhcAlleleId>436</MhcAlleleId>
+                    </MhcBinding>
+                </Assays>
+            </Epitope>
+            <Epitope>
+                <EpitopeName>MBP p85-99 92A analog</EpitopeName>
+                <EpitopeStructure>
+                    <SequenceMoleculeNoNaturalSource>
+                        <ChemicalType>Peptide, no natural source</ChemicalType>
+                        <LinearSequence>ENPVVHFAKNIVTPR</LinearSequence>
+                    </SequenceMoleculeNoNaturalSource>
+                </EpitopeStructure>
+                <EpitopeRelatedObject>
+                    <RelatedObjectType>The epitope is an analog of:</RelatedObjectType>
+                    <RelatedObject>
+                        <FragmentOfANaturalSequenceMolecule>
+                            <ChemicalType>Peptide from protein</ChemicalType>
+                            <LinearSequence>ENPVVHFFKNIVTPR</LinearSequence>
+                            <StartingPosition>217</StartingPosition>
+                            <EndingPosition>231</EndingPosition>
+                            <SourceMolecule>
+                                <GenBankId>P02686.3</GenBankId>
+                            </SourceMolecule>
+                            <SourceOrganismId>9606</SourceOrganismId>
+                        </FragmentOfANaturalSequenceMolecule>
+                    </RelatedObject>
+                </EpitopeRelatedObject>
+                <LocationOfData>Table 1</LocationOfData>
+                <EpitopeId>13566</EpitopeId>
+                <EpitopeStructureDefines>Epitope containing region/antigenic site</EpitopeStructureDefines>
+                <Assays>
+                    <MhcBinding>
+                        <LocationOfData>Table 1</LocationOfData>
+                        <MhcBindingId>1660607</MhcBindingId>
+                        <AssayInformation>
+                            <AssayTypeId>1</AssayTypeId>
+                            <QualitativeMeasurement>Positive-Intermediate</QualitativeMeasurement>
+                            <QuantitativeMeasurement>283.0</QuantitativeMeasurement>
+                            <MeasurementInequality>=</MeasurementInequality>
+                        </AssayInformation>
+                        <MhcAlleleId>436</MhcAlleleId>
+                    </MhcBinding>
+                </Assays>
+            </Epitope>
+            <Epitope>
+                <EpitopeName>MBP p85-99 93A analog</EpitopeName>
+                <EpitopeStructure>
+                    <SequenceMoleculeNoNaturalSource>
+                        <ChemicalType>Peptide, no natural source</ChemicalType>
+                        <LinearSequence>ENPVVHFFANIVTPR</LinearSequence>
+                    </SequenceMoleculeNoNaturalSource>
+                </EpitopeStructure>
+                <EpitopeRelatedObject>
+                    <RelatedObjectType>The epitope is an analog of:</RelatedObjectType>
+                    <RelatedObject>
+                        <FragmentOfANaturalSequenceMolecule>
+                            <ChemicalType>Peptide from protein</ChemicalType>
+                            <LinearSequence>ENPVVHFFKNIVTPR</LinearSequence>
+                            <StartingPosition>217</StartingPosition>
+                            <EndingPosition>231</EndingPosition>
+                            <SourceMolecule>
+                                <GenBankId>P02686.3</GenBankId>
+                            </SourceMolecule>
+                            <SourceOrganismId>9606</SourceOrganismId>
+                        </FragmentOfANaturalSequenceMolecule>
+                    </RelatedObject>
+                </EpitopeRelatedObject>
+                <LocationOfData>Table 1</LocationOfData>
+                <EpitopeId>13567</EpitopeId>
+                <EpitopeStructureDefines>Epitope containing region/antigenic site</EpitopeStructureDefines>
+                <Assays>
+                    <MhcBinding>
+                        <LocationOfData>Table 1</LocationOfData>
+                        <MhcBindingId>1660608</MhcBindingId>
+                        <AssayInformation>
+                            <AssayTypeId>1</AssayTypeId>
+                            <QualitativeMeasurement>Positive-High</QualitativeMeasurement>
+                            <QuantitativeMeasurement>3.5</QuantitativeMeasurement>
+                            <MeasurementInequality>=</MeasurementInequality>
+                        </AssayInformation>
+                        <MhcAlleleId>436</MhcAlleleId>
+                    </MhcBinding>
+                </Assays>
+            </Epitope>
+        </Epitopes>
+    </Reference>
+</References>
+

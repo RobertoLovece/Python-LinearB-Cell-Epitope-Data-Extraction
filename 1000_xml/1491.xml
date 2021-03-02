@@ -1,0 +1,1116 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<References xsi:schemaLocation="http://www.iedb.org/schema/CurationSchema http://beta.iedb.org/schema/Curation.xsd" xmlns="http://www.iedb.org/schema/CurationSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <Reference>
+        <ReferenceId>1491</ReferenceId>
+        <DateLastUpdated>2020-09-10-07:00</DateLastUpdated>
+        <Article>
+            <PubmedId>7504010</PubmedId>
+            <Abstract>The potential value of peptide binding motifs of HLA class I molecules for the prediction of viral epitopes presented to T cells has been analyzed for two common HLA alleles. CTL generated against type A influenza virus recognize peptide epitopes derived from the nucleoprotein (NP) and basic polymerase 1 presented by HLA-A1, and epitopes derived from NP presented by HLA-A3. Distinct peptide binding motifs with characteristic anchor residues were previously identified for each of these class I molecules based on the sequences of endogenous peptides: for HLA-A1, position 3 = Asp or Glu and position 9 = Tyr; for HLA-A3, position 2 = Leu and position 9 = Lys or Tyr. Six peptides containing the HLA-A1 binding motif were identified within the sequences of the NP and basic polymerase 1 proteins, and one peptide containing the HLA-A3 motif was identified in the NP molecule. Three of the six HLA-A1 peptides and the one HLA-A3 NP peptide could bind to HLA-A1 or HLA-A3, respectively, in an in vitro peptide binding assay. Two of the HLA-A1-binding peptides could sensitize target cells for lysis by influenza virus-immune CTL populations restricted by HLA-A1 (NP 44-52 CTELKLSDY and PB1 591-599 VSDGGPNLY), and the one HLA-A3 NP peptide (NP 265-273 ILRGSVAHK) could sensitize target cells for lysis by HLA-A3-restricted influenza-immune CTL. Each peptide was also shown to be able to induce peptide-specific class I-restricted CTL in vitro, and the CTL generated against two of these peptides could specifically recognize virus-infected targets. Thus, these peptide binding motifs can be used to construct immunogenic synthetic epitopes which are capable of inducing antiviral T cell-mediated immune responses.</Abstract>
+            <ArticleYear>1993</ArticleYear>
+            <ArticlePages>5930-5</ArticlePages>
+            <ArticleTitle>HLA-A1 and HLA-A3 T cell epitopes derived from influenza virus proteins predicted from peptide binding motifs.</ArticleTitle>
+            <Authors>
+                <Author>
+                    <LastName>DiBrino</LastName>
+                    <ForeName>M</ForeName>
+                </Author>
+                <Author>
+                    <LastName>Tsuchida</LastName>
+                    <ForeName>T</ForeName>
+                </Author>
+                <Author>
+                    <LastName>Turner</LastName>
+                    <ForeName>R V</ForeName>
+                </Author>
+                <Author>
+                    <LastName>Parker</LastName>
+                    <ForeName>K C</ForeName>
+                </Author>
+                <Author>
+                    <LastName>Coligan</LastName>
+                    <ForeName>J E</ForeName>
+                </Author>
+                <Author>
+                    <LastName>Biddison</LastName>
+                    <ForeName>W E</ForeName>
+                </Author>
+            </Authors>
+            <Affiliations>Biological Resources Branch, National Institute of Allergy and Infectious Disease, National Institutes of Health, Bethesda, MD 20892.</Affiliations>
+            <ArticleChemicalList>Epitopes;HLA-A1 Antigen;HLA-A3 Antigen;NP protein, Influenza A virus;Nucleoproteins;Peptide Fragments;RNA-Binding Proteins;Viral Core Proteins;Viral Proteins;influenza virus polymerase basic protein 1</ArticleChemicalList>
+            <ArticleMeshHeadingsList>Amino Acid Sequence; Binding Sites; Epitopes; HLA-A1 Antigen(immunology); HLA-A3 Antigen(immunology); Humans; Molecular Sequence Data; Nucleoproteins(immunology); Orthomyxoviridae(immunology); Peptide Fragments(immunology); RNA-Binding Proteins; T-Lymphocytes, Cytotoxic(immunology); Viral Core Proteins(immunology); Viral Proteins(immunology)</ArticleMeshHeadingsList>
+            <Comments>Data originally imported from the HLA Ligand Database (http://hlaligand.ouhsc.edu/)</Comments>
+            <Journal>
+                <Volume>151</Volume>
+                <Issue>11</Issue>
+                <Title>Journal of immunology (Baltimore, Md. : 1950)</Title>
+                <Issn>0022-1767</Issn>
+                <MedlineTa>J Immunol</MedlineTa>
+            </Journal>
+        </Article>
+        <Epitopes>
+            <Epitope>
+                <EpitopeName>NP 32-40</EpitopeName>
+                <EpitopeStructure>
+                    <FragmentOfANaturalSequenceMolecule>
+                        <ChemicalType>Peptide from protein</ChemicalType>
+                        <LinearSequence>MIDGIGRFY</LinearSequence>
+                        <StartingPosition>32</StartingPosition>
+                        <EndingPosition>40</EndingPosition>
+                        <SourceMolecule>
+                            <GenBankId>P03467.1</GenBankId>
+                        </SourceMolecule>
+                        <SourceOrganismId>384505</SourceOrganismId>
+                    </FragmentOfANaturalSequenceMolecule>
+                </EpitopeStructure>
+                <LocationOfData>Table I</LocationOfData>
+                <EpitopeId>41691</EpitopeId>
+                <ReferenceStartingPosition>32</ReferenceStartingPosition>
+                <ReferenceEndingPosition>40</ReferenceEndingPosition>
+                <EpitopeEvidenceCode>Representative selection</EpitopeEvidenceCode>
+                <EpitopeStructureDefines>Exact Epitope</EpitopeStructureDefines>
+                <Assays>
+                    <TCell>
+                        <LocationOfData>Figure 1B</LocationOfData>
+                        <TCellId>1863995</TCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>9606</OrganismId>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Environmental exposure to endemic/ubiquitous agent without evidence for disease</InVivoProcessType>
+                                <DiseaseState>ONTIE:0003423</DiseaseState>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Taxonomic Parent</EpitopeRelation>
+                                    <Object>
+                                        <Organism>
+                                            <SubType>Organism</SubType>
+                                            <SourceOrganismId>11320</SourceOrganismId>
+                                        </Organism>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenReferenceName>Influenza A virus</ImmunogenReferenceName>
+                                <ImmunogenEvidenceCode>Representative selection</ImmunogenEvidenceCode>
+                            </FirstInVivoProcess>
+                            <InVitroAdministration>
+                                <ProcessType>Restimulation in vitro</ProcessType>
+                                <ResponderCellType>PBMC</ResponderCellType>
+                                <StimulatorCellType>PBMC</StimulatorCellType>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Taxonomic Sibling</EpitopeRelation>
+                                    <Object>
+                                        <Organism>
+                                            <SubType>Organism</SubType>
+                                            <SourceOrganismId>382814</SourceOrganismId>
+                                        </Organism>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenEvidenceCode>Exact match to reference information</ImmunogenEvidenceCode>
+                            </InVitroAdministration>
+                            <ImmunizationComments>PBL were taken from normal volunteer donors and stimulated in vitro with live influenza A/Japan/H2N2 virus.</ImmunizationComments>
+                        </Immunization>
+                        <EffectorCells>
+                            <CellTissueType>Blood</CellTissueType>
+                            <CellType>PBMC</CellType>
+                            <CellCultureConditions>Short Term Restimulated</CellCultureConditions>
+                        </EffectorCells>
+                        <AntigenPresentingCells>
+                            <CellTissueType>Lymphoid</CellTissueType>
+                            <CellType>B cell</CellType>
+                            <CellCultureConditions>Cell Line / Clone (EBV transformed, B-LCL)</CellCultureConditions>
+                            <AutologousOrSyngeneic>N</AutologousOrSyngeneic>
+                        </AntigenPresentingCells>
+                        <MhcAllele>
+                            <MhcAlleleId>233</MhcAlleleId>
+                            <MhcEvidenceCode>MHC binding assay</MhcEvidenceCode>
+                        </MhcAllele>
+                        <Antigen>
+                            <AntigenReferenceName>NP 32-40</AntigenReferenceName>
+                            <AntigenObject>
+                                <EpitopeRelation>Epitope</EpitopeRelation>
+                                <Object>
+                                    <FragmentOfANaturalSequenceMolecule>
+                                        <ChemicalType>Peptide from protein</ChemicalType>
+                                        <LinearSequence>MIDGIGRFY</LinearSequence>
+                                        <StartingPosition>32</StartingPosition>
+                                        <EndingPosition>40</EndingPosition>
+                                        <SourceMolecule>
+                                            <GenBankId>P03467.1</GenBankId>
+                                        </SourceMolecule>
+                                        <SourceOrganismId>384505</SourceOrganismId>
+                                    </FragmentOfANaturalSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Exact match to reference information</AntigenEvidenceCode>
+                        </Antigen>
+                        <AssayInformation>
+                            <AssayTypeId>67</AssayTypeId>
+                            <QualitativeMeasurement>Negative</QualitativeMeasurement>
+                        </AssayInformation>
+                    </TCell>
+                </Assays>
+                <Assays>
+                    <MhcBinding>
+                        <LocationOfData>Table I</LocationOfData>
+                        <MhcBindingId>1863996</MhcBindingId>
+                        <AssayInformation>
+                            <AssayTypeId>289</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <QuantitativeMeasurement>5.0</QuantitativeMeasurement>
+                            <MeasurementInequality>&lt;</MeasurementInequality>
+                        </AssayInformation>
+                        <MhcAlleleId>233</MhcAlleleId>
+                    </MhcBinding>
+                </Assays>
+            </Epitope>
+            <Epitope>
+                <EpitopeName>NP 44-52</EpitopeName>
+                <EpitopeStructure>
+                    <FragmentOfANaturalSequenceMolecule>
+                        <ChemicalType>Peptide from protein</ChemicalType>
+                        <LinearSequence>CTELKLSDY</LinearSequence>
+                        <StartingPosition>44</StartingPosition>
+                        <EndingPosition>52</EndingPosition>
+                        <SourceMolecule>
+                            <GenBankId>P03467.1</GenBankId>
+                        </SourceMolecule>
+                        <SourceOrganismId>384505</SourceOrganismId>
+                    </FragmentOfANaturalSequenceMolecule>
+                </EpitopeStructure>
+                <LocationOfData>Table I</LocationOfData>
+                <EpitopeId>7136</EpitopeId>
+                <ReferenceStartingPosition>44</ReferenceStartingPosition>
+                <ReferenceEndingPosition>52</ReferenceEndingPosition>
+                <EpitopeEvidenceCode>Representative selection</EpitopeEvidenceCode>
+                <EpitopeStructureDefines>Exact Epitope</EpitopeStructureDefines>
+                <Assays>
+                    <TCell>
+                        <LocationOfData>Figures 1B and 2A</LocationOfData>
+                        <TCellId>1863997</TCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>9606</OrganismId>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Environmental exposure to endemic/ubiquitous agent without evidence for disease</InVivoProcessType>
+                                <DiseaseState>ONTIE:0003423</DiseaseState>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Taxonomic Parent</EpitopeRelation>
+                                    <Object>
+                                        <Organism>
+                                            <SubType>Organism</SubType>
+                                            <SourceOrganismId>11320</SourceOrganismId>
+                                        </Organism>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenReferenceName>Influenza A virus</ImmunogenReferenceName>
+                                <ImmunogenEvidenceCode>Representative selection</ImmunogenEvidenceCode>
+                            </FirstInVivoProcess>
+                            <InVitroAdministration>
+                                <ProcessType>Restimulation in vitro</ProcessType>
+                                <ResponderCellType>PBMC</ResponderCellType>
+                                <StimulatorCellType>PBMC</StimulatorCellType>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Taxonomic Sibling</EpitopeRelation>
+                                    <Object>
+                                        <Organism>
+                                            <SubType>Organism</SubType>
+                                            <SourceOrganismId>382814</SourceOrganismId>
+                                        </Organism>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenEvidenceCode>Exact match to reference information</ImmunogenEvidenceCode>
+                            </InVitroAdministration>
+                            <ImmunizationComments>PBL were taken from normal volunteer donors and stimulated in vitro with live influenza A/Japan/H2N2 virus.</ImmunizationComments>
+                        </Immunization>
+                        <EffectorCells>
+                            <CellTissueType>Blood</CellTissueType>
+                            <CellType>PBMC</CellType>
+                            <CellCultureConditions>Short Term Restimulated</CellCultureConditions>
+                        </EffectorCells>
+                        <AntigenPresentingCells>
+                            <CellTissueType>Lymphoid</CellTissueType>
+                            <CellType>B cell</CellType>
+                            <CellCultureConditions>Cell Line / Clone (EBV transformed, B-LCL)</CellCultureConditions>
+                            <AutologousOrSyngeneic>N</AutologousOrSyngeneic>
+                        </AntigenPresentingCells>
+                        <MhcAllele>
+                            <MhcAlleleId>233</MhcAlleleId>
+                            <MhcEvidenceCode>MHC binding assay</MhcEvidenceCode>
+                        </MhcAllele>
+                        <Antigen>
+                            <AntigenReferenceName>NP 44-52</AntigenReferenceName>
+                            <AntigenObject>
+                                <EpitopeRelation>Epitope</EpitopeRelation>
+                                <Object>
+                                    <FragmentOfANaturalSequenceMolecule>
+                                        <ChemicalType>Peptide from protein</ChemicalType>
+                                        <LinearSequence>CTELKLSDY</LinearSequence>
+                                        <StartingPosition>44</StartingPosition>
+                                        <EndingPosition>52</EndingPosition>
+                                        <SourceMolecule>
+                                            <GenBankId>P03467.1</GenBankId>
+                                        </SourceMolecule>
+                                        <SourceOrganismId>384505</SourceOrganismId>
+                                    </FragmentOfANaturalSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Exact match to reference information</AntigenEvidenceCode>
+                        </Antigen>
+                        <AssayInformation>
+                            <AssayTypeId>67</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <AssayComments>Lymphoblastoid B cell lines 9023B and Hmy2.C1R cells were used as APCs and produced similar results.</AssayComments>
+                        </AssayInformation>
+                    </TCell>
+                </Assays>
+                <Assays>
+                    <TCell>
+                        <LocationOfData>Text p.5933</LocationOfData>
+                        <TCellId>1864016</TCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>9606</OrganismId>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Environmental exposure to endemic/ubiquitous agent without evidence for disease</InVivoProcessType>
+                                <DiseaseState>ONTIE:0003423</DiseaseState>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Taxonomic Parent</EpitopeRelation>
+                                    <Object>
+                                        <Organism>
+                                            <SubType>Organism</SubType>
+                                            <SourceOrganismId>11320</SourceOrganismId>
+                                        </Organism>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenReferenceName>Influenza A virus</ImmunogenReferenceName>
+                                <ImmunogenEvidenceCode>Representative selection</ImmunogenEvidenceCode>
+                            </FirstInVivoProcess>
+                            <InVitroAdministration>
+                                <ProcessType>Restimulation in vitro</ProcessType>
+                                <ResponderCellType>PBMC</ResponderCellType>
+                                <StimulatorCellType>PBMC</StimulatorCellType>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Epitope</EpitopeRelation>
+                                    <Object>
+                                        <FragmentOfANaturalSequenceMolecule>
+                                            <ChemicalType>Peptide from protein</ChemicalType>
+                                            <LinearSequence>CTELKLSDY</LinearSequence>
+                                            <StartingPosition>44</StartingPosition>
+                                            <EndingPosition>52</EndingPosition>
+                                            <SourceMolecule>
+                                                <GenBankId>P03467.1</GenBankId>
+                                            </SourceMolecule>
+                                            <SourceOrganismId>384505</SourceOrganismId>
+                                        </FragmentOfANaturalSequenceMolecule>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenEvidenceCode>Exact match to reference information</ImmunogenEvidenceCode>
+                            </InVitroAdministration>
+                            <ImmunizationComments>PBL were taken from normal healthy donors and stimulated in vitro with the epitope.</ImmunizationComments>
+                        </Immunization>
+                        <EffectorCells>
+                            <CellTissueType>Blood</CellTissueType>
+                            <CellType>PBMC</CellType>
+                            <CellCultureConditions>Short Term Restimulated</CellCultureConditions>
+                        </EffectorCells>
+                        <AntigenPresentingCells>
+                            <CellTissueType>Lymphoid</CellTissueType>
+                            <CellType>C1R cells-B cell</CellType>
+                            <CellCultureConditions>Cell Line / Clone</CellCultureConditions>
+                            <AutologousOrSyngeneic>N</AutologousOrSyngeneic>
+                        </AntigenPresentingCells>
+                        <MhcAllele>
+                            <MhcAlleleId>233</MhcAlleleId>
+                            <MhcEvidenceCode>MHC binding assay</MhcEvidenceCode>
+                        </MhcAllele>
+                        <Antigen>
+                            <AntigenReferenceName>Nucleoprotein</AntigenReferenceName>
+                            <AntigenObject>
+                                <EpitopeRelation>Source Antigen</EpitopeRelation>
+                                <Object>
+                                    <AccessionSequenceMolecule>
+                                        <ChemicalType>Protein</ChemicalType>
+                                        <Molecule>
+                                            <GenBankId>P03467.1</GenBankId>
+                                        </Molecule>
+                                        <SourceOrganismId>384505</SourceOrganismId>
+                                    </AccessionSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Representative selection</AntigenEvidenceCode>
+                            <AntigenContainingObject>
+                                <RecombinantOrganism>
+                                    <SubType>Recombinant Organism</SubType>
+                                    <RecombinantOrganismId>10245</RecombinantOrganismId>
+                                </RecombinantOrganism>
+                            </AntigenContainingObject>
+                        </Antigen>
+                        <AssayInformation>
+                            <AssayTypeId>67</AssayTypeId>
+                            <QualitativeMeasurement>Negative</QualitativeMeasurement>
+                        </AssayInformation>
+                    </TCell>
+                </Assays>
+                <Assays>
+                    <MhcBinding>
+                        <LocationOfData>Table I</LocationOfData>
+                        <MhcBindingId>1863999</MhcBindingId>
+                        <AssayInformation>
+                            <AssayTypeId>289</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <QuantitativeMeasurement>300.0</QuantitativeMeasurement>
+                            <MeasurementInequality>=</MeasurementInequality>
+                        </AssayInformation>
+                        <MhcAlleleId>233</MhcAlleleId>
+                    </MhcBinding>
+                </Assays>
+            </Epitope>
+            <Epitope>
+                <EpitopeName>PB1 74-82</EpitopeName>
+                <EpitopeStructure>
+                    <FragmentOfANaturalSequenceMolecule>
+                        <ChemicalType>Peptide from protein</ChemicalType>
+                        <LinearSequence>PEDNEPSGY</LinearSequence>
+                        <StartingPosition>74</StartingPosition>
+                        <EndingPosition>82</EndingPosition>
+                        <SourceMolecule>
+                            <GenBankId>P03431.2</GenBankId>
+                        </SourceMolecule>
+                        <SourceOrganismId>211044</SourceOrganismId>
+                    </FragmentOfANaturalSequenceMolecule>
+                </EpitopeStructure>
+                <LocationOfData>Table I</LocationOfData>
+                <EpitopeId>47253</EpitopeId>
+                <ReferenceStartingPosition>74</ReferenceStartingPosition>
+                <ReferenceEndingPosition>82</ReferenceEndingPosition>
+                <EpitopeEvidenceCode>Representative selection</EpitopeEvidenceCode>
+                <EpitopeStructureDefines>Exact Epitope</EpitopeStructureDefines>
+                <Assays>
+                    <TCell>
+                        <LocationOfData>Figure 1B</LocationOfData>
+                        <TCellId>1864000</TCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>9606</OrganismId>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Environmental exposure to endemic/ubiquitous agent without evidence for disease</InVivoProcessType>
+                                <DiseaseState>ONTIE:0003423</DiseaseState>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Taxonomic Parent</EpitopeRelation>
+                                    <Object>
+                                        <Organism>
+                                            <SubType>Organism</SubType>
+                                            <SourceOrganismId>11320</SourceOrganismId>
+                                        </Organism>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenReferenceName>Influenza A virus</ImmunogenReferenceName>
+                                <ImmunogenEvidenceCode>Representative selection</ImmunogenEvidenceCode>
+                            </FirstInVivoProcess>
+                            <InVitroAdministration>
+                                <ProcessType>Restimulation in vitro</ProcessType>
+                                <ResponderCellType>PBMC</ResponderCellType>
+                                <StimulatorCellType>PBMC</StimulatorCellType>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Taxonomic Sibling</EpitopeRelation>
+                                    <Object>
+                                        <Organism>
+                                            <SubType>Organism</SubType>
+                                            <SourceOrganismId>382814</SourceOrganismId>
+                                        </Organism>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenEvidenceCode>Exact match to reference information</ImmunogenEvidenceCode>
+                            </InVitroAdministration>
+                            <ImmunizationComments>PBL were taken from normal volunteer donors and stimulated in vitro with live influenza A/Japan/H2N2 virus.</ImmunizationComments>
+                        </Immunization>
+                        <EffectorCells>
+                            <CellTissueType>Blood</CellTissueType>
+                            <CellType>PBMC</CellType>
+                            <CellCultureConditions>Short Term Restimulated</CellCultureConditions>
+                        </EffectorCells>
+                        <AntigenPresentingCells>
+                            <CellTissueType>Lymphoid</CellTissueType>
+                            <CellType>B cell</CellType>
+                            <CellCultureConditions>Cell Line / Clone (EBV transformed, B-LCL)</CellCultureConditions>
+                            <AutologousOrSyngeneic>N</AutologousOrSyngeneic>
+                        </AntigenPresentingCells>
+                        <MhcAllele>
+                            <MhcAlleleId>233</MhcAlleleId>
+                            <MhcEvidenceCode>MHC binding assay</MhcEvidenceCode>
+                        </MhcAllele>
+                        <Antigen>
+                            <AntigenReferenceName>PB1 74-82</AntigenReferenceName>
+                            <AntigenObject>
+                                <EpitopeRelation>Epitope</EpitopeRelation>
+                                <Object>
+                                    <FragmentOfANaturalSequenceMolecule>
+                                        <ChemicalType>Peptide from protein</ChemicalType>
+                                        <LinearSequence>PEDNEPSGY</LinearSequence>
+                                        <StartingPosition>74</StartingPosition>
+                                        <EndingPosition>82</EndingPosition>
+                                        <SourceMolecule>
+                                            <GenBankId>P03431.2</GenBankId>
+                                        </SourceMolecule>
+                                        <SourceOrganismId>211044</SourceOrganismId>
+                                    </FragmentOfANaturalSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Exact match to reference information</AntigenEvidenceCode>
+                        </Antigen>
+                        <AssayInformation>
+                            <AssayTypeId>67</AssayTypeId>
+                            <QualitativeMeasurement>Negative</QualitativeMeasurement>
+                        </AssayInformation>
+                    </TCell>
+                </Assays>
+                <Assays>
+                    <MhcBinding>
+                        <LocationOfData>Table I</LocationOfData>
+                        <MhcBindingId>1864001</MhcBindingId>
+                        <AssayInformation>
+                            <AssayTypeId>289</AssayTypeId>
+                            <QualitativeMeasurement>Negative</QualitativeMeasurement>
+                        </AssayInformation>
+                        <MhcAlleleId>233</MhcAlleleId>
+                    </MhcBinding>
+                </Assays>
+            </Epitope>
+            <Epitope>
+                <EpitopeName>PB1 489-497</EpitopeName>
+                <EpitopeStructure>
+                    <FragmentOfANaturalSequenceMolecule>
+                        <ChemicalType>Peptide from protein</ChemicalType>
+                        <LinearSequence>TFEFTSFFY</LinearSequence>
+                        <StartingPosition>489</StartingPosition>
+                        <EndingPosition>497</EndingPosition>
+                        <SourceMolecule>
+                            <GenBankId>P03431.2</GenBankId>
+                        </SourceMolecule>
+                        <SourceOrganismId>211044</SourceOrganismId>
+                    </FragmentOfANaturalSequenceMolecule>
+                </EpitopeStructure>
+                <LocationOfData>Table I</LocationOfData>
+                <EpitopeId>63635</EpitopeId>
+                <ReferenceStartingPosition>489</ReferenceStartingPosition>
+                <ReferenceEndingPosition>497</ReferenceEndingPosition>
+                <EpitopeEvidenceCode>Representative selection</EpitopeEvidenceCode>
+                <EpitopeStructureDefines>Exact Epitope</EpitopeStructureDefines>
+                <Assays>
+                    <TCell>
+                        <LocationOfData>Figure 1B</LocationOfData>
+                        <TCellId>1864002</TCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>9606</OrganismId>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Environmental exposure to endemic/ubiquitous agent without evidence for disease</InVivoProcessType>
+                                <DiseaseState>ONTIE:0003423</DiseaseState>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Taxonomic Parent</EpitopeRelation>
+                                    <Object>
+                                        <Organism>
+                                            <SubType>Organism</SubType>
+                                            <SourceOrganismId>11320</SourceOrganismId>
+                                        </Organism>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenReferenceName>Influenza A virus</ImmunogenReferenceName>
+                                <ImmunogenEvidenceCode>Representative selection</ImmunogenEvidenceCode>
+                            </FirstInVivoProcess>
+                            <InVitroAdministration>
+                                <ProcessType>Restimulation in vitro</ProcessType>
+                                <ResponderCellType>PBMC</ResponderCellType>
+                                <StimulatorCellType>PBMC</StimulatorCellType>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Taxonomic Sibling</EpitopeRelation>
+                                    <Object>
+                                        <Organism>
+                                            <SubType>Organism</SubType>
+                                            <SourceOrganismId>382814</SourceOrganismId>
+                                        </Organism>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenEvidenceCode>Exact match to reference information</ImmunogenEvidenceCode>
+                            </InVitroAdministration>
+                            <ImmunizationComments>PBL were taken from normal volunteer donors and stimulated in vitro with live influenza A/Japan/H2N2 virus.</ImmunizationComments>
+                        </Immunization>
+                        <EffectorCells>
+                            <CellTissueType>Blood</CellTissueType>
+                            <CellType>PBMC</CellType>
+                            <CellCultureConditions>Short Term Restimulated</CellCultureConditions>
+                        </EffectorCells>
+                        <AntigenPresentingCells>
+                            <CellTissueType>Lymphoid</CellTissueType>
+                            <CellType>B cell</CellType>
+                            <CellCultureConditions>Cell Line / Clone (EBV transformed, B-LCL)</CellCultureConditions>
+                            <AutologousOrSyngeneic>N</AutologousOrSyngeneic>
+                        </AntigenPresentingCells>
+                        <MhcAllele>
+                            <MhcAlleleId>233</MhcAlleleId>
+                            <MhcEvidenceCode>MHC binding assay</MhcEvidenceCode>
+                        </MhcAllele>
+                        <Antigen>
+                            <AntigenReferenceName>PB1 489-497</AntigenReferenceName>
+                            <AntigenObject>
+                                <EpitopeRelation>Epitope</EpitopeRelation>
+                                <Object>
+                                    <FragmentOfANaturalSequenceMolecule>
+                                        <ChemicalType>Peptide from protein</ChemicalType>
+                                        <LinearSequence>TFEFTSFFY</LinearSequence>
+                                        <StartingPosition>489</StartingPosition>
+                                        <EndingPosition>497</EndingPosition>
+                                        <SourceMolecule>
+                                            <GenBankId>P03431.2</GenBankId>
+                                        </SourceMolecule>
+                                        <SourceOrganismId>211044</SourceOrganismId>
+                                    </FragmentOfANaturalSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Exact match to reference information</AntigenEvidenceCode>
+                        </Antigen>
+                        <AssayInformation>
+                            <AssayTypeId>67</AssayTypeId>
+                            <QualitativeMeasurement>Negative</QualitativeMeasurement>
+                        </AssayInformation>
+                    </TCell>
+                </Assays>
+                <Assays>
+                    <MhcBinding>
+                        <LocationOfData>Table I</LocationOfData>
+                        <MhcBindingId>1864003</MhcBindingId>
+                        <AssayInformation>
+                            <AssayTypeId>289</AssayTypeId>
+                            <QualitativeMeasurement>Negative</QualitativeMeasurement>
+                        </AssayInformation>
+                        <MhcAlleleId>233</MhcAlleleId>
+                    </MhcBinding>
+                </Assays>
+            </Epitope>
+            <Epitope>
+                <EpitopeName>PB1 591-599</EpitopeName>
+                <EpitopeStructure>
+                    <FragmentOfANaturalSequenceMolecule>
+                        <ChemicalType>Peptide from protein</ChemicalType>
+                        <LinearSequence>VSDGGPNLY</LinearSequence>
+                        <StartingPosition>591</StartingPosition>
+                        <EndingPosition>599</EndingPosition>
+                        <SourceMolecule>
+                            <GenBankId>P03431.2</GenBankId>
+                        </SourceMolecule>
+                        <SourceOrganismId>211044</SourceOrganismId>
+                    </FragmentOfANaturalSequenceMolecule>
+                </EpitopeStructure>
+                <LocationOfData>Table I</LocationOfData>
+                <EpitopeId>70898</EpitopeId>
+                <ReferenceStartingPosition>591</ReferenceStartingPosition>
+                <ReferenceEndingPosition>599</ReferenceEndingPosition>
+                <EpitopeEvidenceCode>Representative selection</EpitopeEvidenceCode>
+                <EpitopeStructureDefines>Exact Epitope</EpitopeStructureDefines>
+                <Assays>
+                    <TCell>
+                        <LocationOfData>Figure 3B</LocationOfData>
+                        <TCellId>1864017</TCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>9606</OrganismId>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Environmental exposure to endemic/ubiquitous agent without evidence for disease</InVivoProcessType>
+                                <DiseaseState>ONTIE:0003423</DiseaseState>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Taxonomic Parent</EpitopeRelation>
+                                    <Object>
+                                        <Organism>
+                                            <SubType>Organism</SubType>
+                                            <SourceOrganismId>11320</SourceOrganismId>
+                                        </Organism>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenReferenceName>Influenza A virus</ImmunogenReferenceName>
+                                <ImmunogenEvidenceCode>Representative selection</ImmunogenEvidenceCode>
+                            </FirstInVivoProcess>
+                            <InVitroAdministration>
+                                <ProcessType>Restimulation in vitro</ProcessType>
+                                <ResponderCellType>PBMC</ResponderCellType>
+                                <StimulatorCellType>PBMC</StimulatorCellType>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Epitope</EpitopeRelation>
+                                    <Object>
+                                        <FragmentOfANaturalSequenceMolecule>
+                                            <ChemicalType>Peptide from protein</ChemicalType>
+                                            <LinearSequence>VSDGGPNLY</LinearSequence>
+                                            <StartingPosition>591</StartingPosition>
+                                            <EndingPosition>599</EndingPosition>
+                                            <SourceMolecule>
+                                                <GenBankId>P03431.2</GenBankId>
+                                            </SourceMolecule>
+                                            <SourceOrganismId>211044</SourceOrganismId>
+                                        </FragmentOfANaturalSequenceMolecule>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenEvidenceCode>Exact match to reference information</ImmunogenEvidenceCode>
+                            </InVitroAdministration>
+                            <ImmunizationComments>PBL were taken from normal healthy donors and stimulated in vitro with the epitope.</ImmunizationComments>
+                        </Immunization>
+                        <EffectorCells>
+                            <CellTissueType>Blood</CellTissueType>
+                            <CellType>PBMC</CellType>
+                            <CellCultureConditions>Short Term Restimulated</CellCultureConditions>
+                        </EffectorCells>
+                        <AntigenPresentingCells>
+                            <CellTissueType>Lymphoid</CellTissueType>
+                            <CellType>C1R cells-B cell</CellType>
+                            <CellCultureConditions>Cell Line / Clone</CellCultureConditions>
+                            <AutologousOrSyngeneic>N</AutologousOrSyngeneic>
+                        </AntigenPresentingCells>
+                        <MhcAllele>
+                            <MhcAlleleId>233</MhcAlleleId>
+                            <MhcEvidenceCode>MHC binding assay</MhcEvidenceCode>
+                        </MhcAllele>
+                        <Antigen>
+                            <AntigenReferenceName>RNA-directed RNA polymerase subnit P1 (PB1)</AntigenReferenceName>
+                            <AntigenObject>
+                                <EpitopeRelation>Source Antigen</EpitopeRelation>
+                                <Object>
+                                    <AccessionSequenceMolecule>
+                                        <ChemicalType>Protein</ChemicalType>
+                                        <Molecule>
+                                            <GenBankId>P03431.2</GenBankId>
+                                        </Molecule>
+                                        <SourceOrganismId>211044</SourceOrganismId>
+                                    </AccessionSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Representative selection</AntigenEvidenceCode>
+                            <AntigenContainingObject>
+                                <RecombinantOrganism>
+                                    <SubType>Recombinant Organism</SubType>
+                                    <RecombinantOrganismId>10245</RecombinantOrganismId>
+                                </RecombinantOrganism>
+                            </AntigenContainingObject>
+                        </Antigen>
+                        <AssayInformation>
+                            <AssayTypeId>67</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                        </AssayInformation>
+                    </TCell>
+                </Assays>
+                <Assays>
+                    <TCell>
+                        <LocationOfData>Figures 1, 2 and 3</LocationOfData>
+                        <TCellId>1864005</TCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>9606</OrganismId>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Environmental exposure to endemic/ubiquitous agent without evidence for disease</InVivoProcessType>
+                                <DiseaseState>ONTIE:0003423</DiseaseState>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Taxonomic Parent</EpitopeRelation>
+                                    <Object>
+                                        <Organism>
+                                            <SubType>Organism</SubType>
+                                            <SourceOrganismId>11320</SourceOrganismId>
+                                        </Organism>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenReferenceName>Influenza A virus</ImmunogenReferenceName>
+                                <ImmunogenEvidenceCode>Representative selection</ImmunogenEvidenceCode>
+                            </FirstInVivoProcess>
+                            <InVitroAdministration>
+                                <ProcessType>Restimulation in vitro</ProcessType>
+                                <ResponderCellType>PBMC</ResponderCellType>
+                                <StimulatorCellType>PBMC</StimulatorCellType>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Taxonomic Sibling</EpitopeRelation>
+                                    <Object>
+                                        <Organism>
+                                            <SubType>Organism</SubType>
+                                            <SourceOrganismId>382814</SourceOrganismId>
+                                        </Organism>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenEvidenceCode>Exact match to reference information</ImmunogenEvidenceCode>
+                            </InVitroAdministration>
+                            <ImmunizationComments>PBL were taken from normal volunteer donors and stimulated in vitro with live influenza A/Japan/H2N2 virus.</ImmunizationComments>
+                        </Immunization>
+                        <EffectorCells>
+                            <CellTissueType>Blood</CellTissueType>
+                            <CellType>PBMC</CellType>
+                            <CellCultureConditions>Short Term Restimulated</CellCultureConditions>
+                        </EffectorCells>
+                        <AntigenPresentingCells>
+                            <CellTissueType>Lymphoid</CellTissueType>
+                            <CellType>B cell</CellType>
+                            <CellCultureConditions>Cell Line / Clone (EBV transformed, B-LCL)</CellCultureConditions>
+                            <AutologousOrSyngeneic>N</AutologousOrSyngeneic>
+                        </AntigenPresentingCells>
+                        <MhcAllele>
+                            <MhcAlleleId>233</MhcAlleleId>
+                            <MhcEvidenceCode>MHC binding assay</MhcEvidenceCode>
+                        </MhcAllele>
+                        <Antigen>
+                            <AntigenReferenceName>PB1 591-599</AntigenReferenceName>
+                            <AntigenObject>
+                                <EpitopeRelation>Epitope</EpitopeRelation>
+                                <Object>
+                                    <FragmentOfANaturalSequenceMolecule>
+                                        <ChemicalType>Peptide from protein</ChemicalType>
+                                        <LinearSequence>VSDGGPNLY</LinearSequence>
+                                        <StartingPosition>591</StartingPosition>
+                                        <EndingPosition>599</EndingPosition>
+                                        <SourceMolecule>
+                                            <GenBankId>P03431.2</GenBankId>
+                                        </SourceMolecule>
+                                        <SourceOrganismId>211044</SourceOrganismId>
+                                    </FragmentOfANaturalSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Exact match to reference information</AntigenEvidenceCode>
+                        </Antigen>
+                        <AssayInformation>
+                            <AssayTypeId>67</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <AssayComments>Lymphoblastoid B cell lines 9023B and Hmy2.C1R cells were used as APCs and produced similar results.</AssayComments>
+                        </AssayInformation>
+                    </TCell>
+                </Assays>
+                <Assays>
+                    <MhcBinding>
+                        <LocationOfData>Table I</LocationOfData>
+                        <MhcBindingId>1864006</MhcBindingId>
+                        <AssayInformation>
+                            <AssayTypeId>289</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <QuantitativeMeasurement>2400.0</QuantitativeMeasurement>
+                            <MeasurementInequality>=</MeasurementInequality>
+                        </AssayInformation>
+                        <MhcAlleleId>233</MhcAlleleId>
+                    </MhcBinding>
+                </Assays>
+            </Epitope>
+            <Epitope>
+                <EpitopeName>PB1 612-620</EpitopeName>
+                <EpitopeStructure>
+                    <FragmentOfANaturalSequenceMolecule>
+                        <ChemicalType>Peptide from protein</ChemicalType>
+                        <LinearSequence>KWELMDEDY</LinearSequence>
+                        <StartingPosition>612</StartingPosition>
+                        <EndingPosition>620</EndingPosition>
+                        <SourceMolecule>
+                            <GenBankId>P03431.2</GenBankId>
+                        </SourceMolecule>
+                        <SourceOrganismId>211044</SourceOrganismId>
+                    </FragmentOfANaturalSequenceMolecule>
+                </EpitopeStructure>
+                <LocationOfData>Table I</LocationOfData>
+                <EpitopeId>34292</EpitopeId>
+                <ReferenceStartingPosition>612</ReferenceStartingPosition>
+                <ReferenceEndingPosition>620</ReferenceEndingPosition>
+                <EpitopeEvidenceCode>Representative selection</EpitopeEvidenceCode>
+                <EpitopeStructureDefines>Exact Epitope</EpitopeStructureDefines>
+                <Assays>
+                    <TCell>
+                        <LocationOfData>Figure 1B</LocationOfData>
+                        <TCellId>1864007</TCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>9606</OrganismId>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Environmental exposure to endemic/ubiquitous agent without evidence for disease</InVivoProcessType>
+                                <DiseaseState>ONTIE:0003423</DiseaseState>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Taxonomic Parent</EpitopeRelation>
+                                    <Object>
+                                        <Organism>
+                                            <SubType>Organism</SubType>
+                                            <SourceOrganismId>11320</SourceOrganismId>
+                                        </Organism>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenReferenceName>Influenza A virus</ImmunogenReferenceName>
+                                <ImmunogenEvidenceCode>Representative selection</ImmunogenEvidenceCode>
+                            </FirstInVivoProcess>
+                            <InVitroAdministration>
+                                <ProcessType>Restimulation in vitro</ProcessType>
+                                <ResponderCellType>PBMC</ResponderCellType>
+                                <StimulatorCellType>PBMC</StimulatorCellType>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Taxonomic Sibling</EpitopeRelation>
+                                    <Object>
+                                        <Organism>
+                                            <SubType>Organism</SubType>
+                                            <SourceOrganismId>382814</SourceOrganismId>
+                                        </Organism>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenEvidenceCode>Exact match to reference information</ImmunogenEvidenceCode>
+                            </InVitroAdministration>
+                            <ImmunizationComments>PBL were taken from normal volunteer donors and stimulated in vitro with live influenza A/Japan/H2N2 virus.</ImmunizationComments>
+                        </Immunization>
+                        <EffectorCells>
+                            <CellTissueType>Blood</CellTissueType>
+                            <CellType>PBMC</CellType>
+                            <CellCultureConditions>Short Term Restimulated</CellCultureConditions>
+                        </EffectorCells>
+                        <AntigenPresentingCells>
+                            <CellTissueType>Lymphoid</CellTissueType>
+                            <CellType>B cell</CellType>
+                            <CellCultureConditions>Cell Line / Clone (EBV transformed, B-LCL)</CellCultureConditions>
+                            <AutologousOrSyngeneic>N</AutologousOrSyngeneic>
+                        </AntigenPresentingCells>
+                        <MhcAllele>
+                            <MhcAlleleId>233</MhcAlleleId>
+                            <MhcEvidenceCode>MHC binding assay</MhcEvidenceCode>
+                        </MhcAllele>
+                        <Antigen>
+                            <AntigenReferenceName>PB1 612-620</AntigenReferenceName>
+                            <AntigenObject>
+                                <EpitopeRelation>Epitope</EpitopeRelation>
+                                <Object>
+                                    <FragmentOfANaturalSequenceMolecule>
+                                        <ChemicalType>Peptide from protein</ChemicalType>
+                                        <LinearSequence>KWELMDEDY</LinearSequence>
+                                        <StartingPosition>612</StartingPosition>
+                                        <EndingPosition>620</EndingPosition>
+                                        <SourceMolecule>
+                                            <GenBankId>P03431.2</GenBankId>
+                                        </SourceMolecule>
+                                        <SourceOrganismId>211044</SourceOrganismId>
+                                    </FragmentOfANaturalSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Exact match to reference information</AntigenEvidenceCode>
+                        </Antigen>
+                        <AssayInformation>
+                            <AssayTypeId>67</AssayTypeId>
+                            <QualitativeMeasurement>Negative</QualitativeMeasurement>
+                        </AssayInformation>
+                    </TCell>
+                </Assays>
+                <Assays>
+                    <MhcBinding>
+                        <LocationOfData>Table I</LocationOfData>
+                        <MhcBindingId>1864008</MhcBindingId>
+                        <AssayInformation>
+                            <AssayTypeId>289</AssayTypeId>
+                            <QualitativeMeasurement>Negative</QualitativeMeasurement>
+                        </AssayInformation>
+                        <MhcAlleleId>233</MhcAlleleId>
+                    </MhcBinding>
+                </Assays>
+            </Epitope>
+            <Epitope>
+                <EpitopeName>NP 265-273</EpitopeName>
+                <EpitopeStructure>
+                    <FragmentOfANaturalSequenceMolecule>
+                        <ChemicalType>Peptide from protein</ChemicalType>
+                        <LinearSequence>ILRGSVAHK</LinearSequence>
+                        <StartingPosition>265</StartingPosition>
+                        <EndingPosition>273</EndingPosition>
+                        <SourceMolecule>
+                            <GenBankId>P03467.1</GenBankId>
+                        </SourceMolecule>
+                        <SourceOrganismId>384505</SourceOrganismId>
+                    </FragmentOfANaturalSequenceMolecule>
+                </EpitopeStructure>
+                <LocationOfData>Table I</LocationOfData>
+                <EpitopeId>27283</EpitopeId>
+                <ReferenceStartingPosition>265</ReferenceStartingPosition>
+                <ReferenceEndingPosition>273</ReferenceEndingPosition>
+                <EpitopeEvidenceCode>Representative selection</EpitopeEvidenceCode>
+                <EpitopeStructureDefines>Exact Epitope</EpitopeStructureDefines>
+                <Assays>
+                    <TCell>
+                        <LocationOfData>Figures 1, 2 and 3</LocationOfData>
+                        <TCellId>1864010</TCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>9606</OrganismId>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Environmental exposure to endemic/ubiquitous agent without evidence for disease</InVivoProcessType>
+                                <DiseaseState>ONTIE:0003423</DiseaseState>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Taxonomic Parent</EpitopeRelation>
+                                    <Object>
+                                        <Organism>
+                                            <SubType>Organism</SubType>
+                                            <SourceOrganismId>11320</SourceOrganismId>
+                                        </Organism>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenReferenceName>Influenza A virus</ImmunogenReferenceName>
+                                <ImmunogenEvidenceCode>Representative selection</ImmunogenEvidenceCode>
+                            </FirstInVivoProcess>
+                            <InVitroAdministration>
+                                <ProcessType>Restimulation in vitro</ProcessType>
+                                <ResponderCellType>PBMC</ResponderCellType>
+                                <StimulatorCellType>PBMC</StimulatorCellType>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Taxonomic Sibling</EpitopeRelation>
+                                    <Object>
+                                        <Organism>
+                                            <SubType>Organism</SubType>
+                                            <SourceOrganismId>382814</SourceOrganismId>
+                                        </Organism>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenEvidenceCode>Exact match to reference information</ImmunogenEvidenceCode>
+                            </InVitroAdministration>
+                            <ImmunizationComments>PBL were taken from normal volunteer donors and stimulated in vitro with live influenza A/Japan/H2N2 virus.</ImmunizationComments>
+                        </Immunization>
+                        <EffectorCells>
+                            <CellTissueType>Blood</CellTissueType>
+                            <CellType>PBMC</CellType>
+                            <CellCultureConditions>Short Term Restimulated</CellCultureConditions>
+                        </EffectorCells>
+                        <AntigenPresentingCells>
+                            <CellTissueType>Lymphoid</CellTissueType>
+                            <CellType>C1R cells-B cell</CellType>
+                            <CellCultureConditions>Cell Line / Clone</CellCultureConditions>
+                            <AutologousOrSyngeneic>N</AutologousOrSyngeneic>
+                        </AntigenPresentingCells>
+                        <MhcAllele>
+                            <MhcAlleleId>242</MhcAlleleId>
+                            <MhcEvidenceCode>MHC binding assay</MhcEvidenceCode>
+                        </MhcAllele>
+                        <Antigen>
+                            <AntigenReferenceName>NP 265-273</AntigenReferenceName>
+                            <AntigenObject>
+                                <EpitopeRelation>Epitope</EpitopeRelation>
+                                <Object>
+                                    <FragmentOfANaturalSequenceMolecule>
+                                        <ChemicalType>Peptide from protein</ChemicalType>
+                                        <LinearSequence>ILRGSVAHK</LinearSequence>
+                                        <StartingPosition>265</StartingPosition>
+                                        <EndingPosition>273</EndingPosition>
+                                        <SourceMolecule>
+                                            <GenBankId>P03467.1</GenBankId>
+                                        </SourceMolecule>
+                                        <SourceOrganismId>384505</SourceOrganismId>
+                                    </FragmentOfANaturalSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Exact match to reference information</AntigenEvidenceCode>
+                        </Antigen>
+                        <AssayInformation>
+                            <AssayTypeId>67</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <AssayComments>Lymphoblastoid B cell lines 9023B and Hmy2.C1R cells were used as APCs and produced similar results.</AssayComments>
+                        </AssayInformation>
+                    </TCell>
+                </Assays>
+                <Assays>
+                    <TCell>
+                        <LocationOfData>Figure 3A</LocationOfData>
+                        <TCellId>1864019</TCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>9606</OrganismId>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Environmental exposure to endemic/ubiquitous agent without evidence for disease</InVivoProcessType>
+                                <DiseaseState>ONTIE:0003423</DiseaseState>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Taxonomic Parent</EpitopeRelation>
+                                    <Object>
+                                        <Organism>
+                                            <SubType>Organism</SubType>
+                                            <SourceOrganismId>11320</SourceOrganismId>
+                                        </Organism>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenReferenceName>Influenza A virus</ImmunogenReferenceName>
+                                <ImmunogenEvidenceCode>Representative selection</ImmunogenEvidenceCode>
+                            </FirstInVivoProcess>
+                            <InVitroAdministration>
+                                <ProcessType>Restimulation in vitro</ProcessType>
+                                <ResponderCellType>PBMC</ResponderCellType>
+                                <StimulatorCellType>PBMC</StimulatorCellType>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Epitope</EpitopeRelation>
+                                    <Object>
+                                        <FragmentOfANaturalSequenceMolecule>
+                                            <ChemicalType>Peptide from protein</ChemicalType>
+                                            <LinearSequence>ILRGSVAHK</LinearSequence>
+                                            <StartingPosition>265</StartingPosition>
+                                            <EndingPosition>273</EndingPosition>
+                                            <SourceMolecule>
+                                                <GenBankId>P03467.1</GenBankId>
+                                            </SourceMolecule>
+                                            <SourceOrganismId>384505</SourceOrganismId>
+                                        </FragmentOfANaturalSequenceMolecule>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenEvidenceCode>Exact match to reference information</ImmunogenEvidenceCode>
+                            </InVitroAdministration>
+                            <ImmunizationComments>PBL were taken from normal healthy donors and stimulated in vitro with the epitope.</ImmunizationComments>
+                        </Immunization>
+                        <EffectorCells>
+                            <CellTissueType>Blood</CellTissueType>
+                            <CellType>PBMC</CellType>
+                            <CellCultureConditions>Short Term Restimulated</CellCultureConditions>
+                        </EffectorCells>
+                        <AntigenPresentingCells>
+                            <CellTissueType>Lymphoid</CellTissueType>
+                            <CellType>C1R cells-B cell</CellType>
+                            <CellCultureConditions>Cell Line / Clone</CellCultureConditions>
+                            <AutologousOrSyngeneic>N</AutologousOrSyngeneic>
+                        </AntigenPresentingCells>
+                        <MhcAllele>
+                            <MhcAlleleId>242</MhcAlleleId>
+                            <MhcEvidenceCode>MHC binding assay</MhcEvidenceCode>
+                        </MhcAllele>
+                        <Antigen>
+                            <AntigenReferenceName>Nucleoprotein</AntigenReferenceName>
+                            <AntigenObject>
+                                <EpitopeRelation>Source Antigen</EpitopeRelation>
+                                <Object>
+                                    <AccessionSequenceMolecule>
+                                        <ChemicalType>Protein</ChemicalType>
+                                        <Molecule>
+                                            <GenBankId>P03467.1</GenBankId>
+                                        </Molecule>
+                                        <SourceOrganismId>384505</SourceOrganismId>
+                                    </AccessionSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Representative selection</AntigenEvidenceCode>
+                            <AntigenContainingObject>
+                                <RecombinantOrganism>
+                                    <SubType>Recombinant Organism</SubType>
+                                    <RecombinantOrganismId>10245</RecombinantOrganismId>
+                                </RecombinantOrganism>
+                            </AntigenContainingObject>
+                        </Antigen>
+                        <AssayInformation>
+                            <AssayTypeId>67</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                        </AssayInformation>
+                    </TCell>
+                </Assays>
+                <Assays>
+                    <MhcBinding>
+                        <LocationOfData>Table I</LocationOfData>
+                        <MhcBindingId>1864011</MhcBindingId>
+                        <AssayInformation>
+                            <AssayTypeId>289</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <QuantitativeMeasurement>1020.0</QuantitativeMeasurement>
+                            <MeasurementInequality>=</MeasurementInequality>
+                        </AssayInformation>
+                        <MhcAlleleId>242</MhcAlleleId>
+                    </MhcBinding>
+                </Assays>
+            </Epitope>
+        </Epitopes>
+    </Reference>
+</References>
+

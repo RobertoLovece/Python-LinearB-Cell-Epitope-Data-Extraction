@@ -1,0 +1,1291 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<References xsi:schemaLocation="http://www.iedb.org/schema/CurationSchema http://beta.iedb.org/schema/Curation.xsd" xmlns="http://www.iedb.org/schema/CurationSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <Reference>
+        <ReferenceId>832</ReferenceId>
+        <DateLastUpdated>2020-09-10-07:00</DateLastUpdated>
+        <Article>
+            <PubmedId>10359579</PubmedId>
+            <Abstract>In studying the subdominant status of two cysteine-containing influenza virus nuclear protein (NP) determinants (NP39-47 and NP218-226) restricted by H-2Kd, we found that the antigenicity of synthetic peptides was enhanced 10-100-fold by treatment with reducing agents, despite the fact that the affinity for Kd was not enhanced. Reducing agents also markedly enhanced the immunogenicity of cysteine-containing peptides, as measured by propagation of long-term T cell lines in vitro. Similar enhancing effects were obtained by substituting cysteine with alanine or serine in the synthetic peptides, demonstrating that sulfhydryl modification of cysteine is responsible for the impaired antigenicity and immunogenicity of NP39-47 and NP218-226. We found similar effects for two widely studied, cysteine-containing peptides from lymphocytic choriomeningitis virus. The major modifications of cysteine-containing synthetic peptides are cysteinylation and dimerization occurring through cysteine residues. We demonstrate that both of these modifications occur in cells synthesizing a cytosolic NP218-226 minigene product and, further, that T cells specific for cysteinylated NP218-226 are induced by influenza virus infection in mice, demonstrating that this modification occurs in vivo. These findings demonstrate that posttranslational modifications affect the immunogenicity and antigenicity of cysteine-containing viral peptides and that this must be considered in studying the status of such peptides in immunodominance hierarchies.</Abstract>
+            <ArticleYear>1999</ArticleYear>
+            <ArticlePages>1757-64</ArticlePages>
+            <ArticleTitle>Modification of cysteine residues in vitro and in vivo affects the immunogenicity and antigenicity of major histocompatibility complex class I-restricted viral determinants.</ArticleTitle>
+            <Authors>
+                <Author>
+                    <LastName>Chen</LastName>
+                    <ForeName>W</ForeName>
+                </Author>
+                <Author>
+                    <LastName>Yewdell</LastName>
+                    <ForeName>J W</ForeName>
+                </Author>
+                <Author>
+                    <LastName>Levine</LastName>
+                    <ForeName>R L</ForeName>
+                </Author>
+                <Author>
+                    <LastName>Bennink</LastName>
+                    <ForeName>J R</ForeName>
+                </Author>
+            </Authors>
+            <Affiliations>Laboratory of Viral Diseases, National Institute of Allergy and Infectious Diseases, National Institutes of Health, Bethesda, MD, USA.</Affiliations>
+            <ArticleChemicalList>Antigens, Viral;H-2 Antigens;H-2K(K) antigen;Immunodominant Epitopes;Nucleocapsid Proteins;Nucleoproteins;Peptide Fragments;Viral Core Proteins;Cysteine</ArticleChemicalList>
+            <ArticleMeshHeadingsList>Amino Acid Sequence; Amino Acid Substitution; Animals; Antigens, Viral(chemistry); Cell Line; Cysteine(chemistry); Female; H-2 Antigens(metabolism); Immunodominant Epitopes(chemistry); In Vitro Techniques; Influenza A virus(immunology); Mice; Mice, Inbred BALB C; Mice, Inbred C57BL; Nucleocapsid Proteins; Nucleoproteins; Oxidation-Reduction; Peptide Fragments(chemistry; immunology); T-Lymphocytes(immunology); Viral Core Proteins(chemistry; immunology)</ArticleMeshHeadingsList>
+            <Journal>
+                <Volume>189</Volume>
+                <Issue>11</Issue>
+                <Title>The Journal of experimental medicine</Title>
+                <Issn>0022-1007</Issn>
+                <MedlineTa>J Exp Med</MedlineTa>
+            </Journal>
+        </Article>
+        <Epitopes>
+            <Epitope>
+                <EpitopeName>NP 218-226</EpitopeName>
+                <EpitopeStructure>
+                    <FragmentOfANaturalSequenceMolecule>
+                        <ChemicalType>Peptide from protein</ChemicalType>
+                        <LinearSequence>AYERMCNIL</LinearSequence>
+                        <StartingPosition>218</StartingPosition>
+                        <EndingPosition>226</EndingPosition>
+                        <SourceMolecule>
+                            <IedbAccession>SRC124</IedbAccession>
+                        </SourceMolecule>
+                        <SourceOrganismId>211044</SourceOrganismId>
+                    </FragmentOfANaturalSequenceMolecule>
+                </EpitopeStructure>
+                <LocationOfData>Table I</LocationOfData>
+                <EpitopeId>5757</EpitopeId>
+                <ReferenceStartingPosition>218</ReferenceStartingPosition>
+                <ReferenceEndingPosition>226</ReferenceEndingPosition>
+                <EpitopeEvidenceCode>Not determined</EpitopeEvidenceCode>
+                <EpitopeStructureDefines>Exact Epitope</EpitopeStructureDefines>
+                <EpitopeComments>The cysteine residue in this epitope is important for its immunogenicity and antigenicity. Cysteinylated and dimeric forms are poorly recognized by T cell lines specific for the reduced (SH) version, and vice versa.</EpitopeComments>
+                <Assays>
+                    <TCell>
+                        <LocationOfData>Figure 2D</LocationOfData>
+                        <TCellId>9029</TCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>10000000</OrganismId>
+                                <Sex>F</Sex>
+                                <Age>8-10 wk</Age>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Administration in vivo</InVivoProcessType>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Source Organism</EpitopeRelation>
+                                    <Object>
+                                        <Organism>
+                                            <SubType>Organism</SubType>
+                                            <SourceOrganismId>211044</SourceOrganismId>
+                                        </Organism>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenEvidenceCode>Not determined</ImmunogenEvidenceCode>
+                                <Route>Intraperitoneal (i.p.)</Route>
+                            </FirstInVivoProcess>
+                            <InVitroAdministration>
+                                <ProcessType>Restimulation in vitro</ProcessType>
+                                <ResponderCellType>T cell</ResponderCellType>
+                                <StimulatorCellType>Splenocyte</StimulatorCellType>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Epitope</EpitopeRelation>
+                                    <Object>
+                                        <FragmentOfANaturalSequenceMolecule>
+                                            <ChemicalType>Peptide from protein</ChemicalType>
+                                            <LinearSequence>AYERMCNIL</LinearSequence>
+                                            <StartingPosition>218</StartingPosition>
+                                            <EndingPosition>226</EndingPosition>
+                                            <SourceMolecule>
+                                                <IedbAccession>SRC124</IedbAccession>
+                                            </SourceMolecule>
+                                            <SourceOrganismId>211044</SourceOrganismId>
+                                        </FragmentOfANaturalSequenceMolecule>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenEvidenceCode>Exact match to reference information</ImmunogenEvidenceCode>
+                            </InVitroAdministration>
+                        </Immunization>
+                        <EffectorCells>
+                            <CellTissueType>Spleen</CellTissueType>
+                            <CellType>T cell CD8+</CellType>
+                            <CellCultureConditions>Cell Line / Clone</CellCultureConditions>
+                        </EffectorCells>
+                        <AntigenPresentingCells>
+                            <CellTissueType>Other</CellTissueType>
+                            <CellType>P815-Mast cell</CellType>
+                            <CellCultureConditions>Cell Line / Clone</CellCultureConditions>
+                            <AutologousOrSyngeneic>N</AutologousOrSyngeneic>
+                            <SourceOrganismId>10000055</SourceOrganismId>
+                        </AntigenPresentingCells>
+                        <MhcAllele>
+                            <MhcAlleleId>169</MhcAlleleId>
+                            <MhcEvidenceCode>Not determined</MhcEvidenceCode>
+                        </MhcAllele>
+                        <Antigen>
+                            <AntigenReferenceName>NP 218-226</AntigenReferenceName>
+                            <AntigenObject>
+                                <EpitopeRelation>Epitope</EpitopeRelation>
+                                <Object>
+                                    <FragmentOfANaturalSequenceMolecule>
+                                        <ChemicalType>Peptide from protein</ChemicalType>
+                                        <LinearSequence>AYERMCNIL</LinearSequence>
+                                        <StartingPosition>218</StartingPosition>
+                                        <EndingPosition>226</EndingPosition>
+                                        <SourceMolecule>
+                                            <IedbAccession>SRC124</IedbAccession>
+                                        </SourceMolecule>
+                                        <SourceOrganismId>211044</SourceOrganismId>
+                                    </FragmentOfANaturalSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Exact match to reference information</AntigenEvidenceCode>
+                        </Antigen>
+                        <AssayInformation>
+                            <AssayTypeId>67</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <AssayComments>T cell lines derived from infected mice and stimulated with  peptide loaded APCs for 4 days lysed peptide pulsed P815 cells.  Substitution of Cys for Ala or Ser enhances recognition by T cell lines. The same effect is seen with reducing agents and is not related to the MHC restriction.</AssayComments>
+                        </AssayInformation>
+                    </TCell>
+                </Assays>
+                <Assays>
+                    <TCell>
+                        <LocationOfData>Figure 8</LocationOfData>
+                        <TCellId>9028</TCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>10000000</OrganismId>
+                                <Sex>F</Sex>
+                                <Age>8-10 wk</Age>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Administration in vivo</InVivoProcessType>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Source Organism</EpitopeRelation>
+                                    <Object>
+                                        <Organism>
+                                            <SubType>Organism</SubType>
+                                            <SourceOrganismId>211044</SourceOrganismId>
+                                        </Organism>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenEvidenceCode>Not determined</ImmunogenEvidenceCode>
+                                <Route>Intraperitoneal (i.p.)</Route>
+                            </FirstInVivoProcess>
+                            <InVitroAdministration>
+                                <ProcessType>Restimulation in vitro</ProcessType>
+                                <ResponderCellType>T cell</ResponderCellType>
+                                <StimulatorCellType>Splenocyte</StimulatorCellType>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Epitope</EpitopeRelation>
+                                    <Object>
+                                        <FragmentOfANaturalSequenceMolecule>
+                                            <ChemicalType>Peptide from protein</ChemicalType>
+                                            <LinearSequence>AYERMCNIL</LinearSequence>
+                                            <StartingPosition>218</StartingPosition>
+                                            <EndingPosition>226</EndingPosition>
+                                            <SourceMolecule>
+                                                <IedbAccession>SRC124</IedbAccession>
+                                            </SourceMolecule>
+                                            <SourceOrganismId>211044</SourceOrganismId>
+                                        </FragmentOfANaturalSequenceMolecule>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenEvidenceCode>Exact match to reference information</ImmunogenEvidenceCode>
+                            </InVitroAdministration>
+                        </Immunization>
+                        <EffectorCells>
+                            <CellTissueType>Spleen</CellTissueType>
+                            <CellType>T cell CD8+</CellType>
+                            <CellCultureConditions>Cell Line / Clone</CellCultureConditions>
+                        </EffectorCells>
+                        <AntigenPresentingCells>
+                            <CellTissueType>Other</CellTissueType>
+                            <CellType>P815-Mast cell</CellType>
+                            <CellCultureConditions>Cell Line / Clone</CellCultureConditions>
+                            <AutologousOrSyngeneic>N</AutologousOrSyngeneic>
+                            <SourceOrganismId>10000055</SourceOrganismId>
+                        </AntigenPresentingCells>
+                        <MhcAllele>
+                            <MhcAlleleId>169</MhcAlleleId>
+                            <MhcEvidenceCode>Not determined</MhcEvidenceCode>
+                        </MhcAllele>
+                        <Antigen>
+                            <AntigenReferenceName>NP 218-226</AntigenReferenceName>
+                            <AntigenObject>
+                                <EpitopeRelation>Epitope</EpitopeRelation>
+                                <Object>
+                                    <FragmentOfANaturalSequenceMolecule>
+                                        <ChemicalType>Peptide from protein</ChemicalType>
+                                        <LinearSequence>AYERMCNIL</LinearSequence>
+                                        <StartingPosition>218</StartingPosition>
+                                        <EndingPosition>226</EndingPosition>
+                                        <SourceMolecule>
+                                            <IedbAccession>SRC124</IedbAccession>
+                                        </SourceMolecule>
+                                        <SourceOrganismId>211044</SourceOrganismId>
+                                    </FragmentOfANaturalSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Exact match to reference information</AntigenEvidenceCode>
+                        </Antigen>
+                        <AssayInformation>
+                            <AssayTypeId>67</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <AssayComments>T cell lines derived from infected mice and stimulated with  peptide loaded APCs for 4 days lysed peptide pulsed P815 cells. T cell lines raised for the monomeric form of the epitope recognizes the monomeric form more effecively than the cysteinylated peptide pulsed APCs.</AssayComments>
+                        </AssayInformation>
+                    </TCell>
+                </Assays>
+                <Assays>
+                    <MhcBinding>
+                        <LocationOfData>Figures 1, 2, and 6</LocationOfData>
+                        <MhcBindingId>9181</MhcBindingId>
+                        <AssayInformation>
+                            <AssayTypeId>185</AssayTypeId>
+                            <QualitativeMeasurement>Negative</QualitativeMeasurement>
+                            <AssayComments>The monomeric form of this epitope obtained by incubation with reducing agents or by Cys mutation to Ser or Ala has diminished affinity for MHC when compared to the wild type peptide in the oxidized (cysteinylated or dimeric) form.</AssayComments>
+                        </AssayInformation>
+                        <MhcAlleleId>124</MhcAlleleId>
+                    </MhcBinding>
+                </Assays>
+            </Epitope>
+            <Epitope>
+                <EpitopeName>NP 147-155</EpitopeName>
+                <EpitopeStructure>
+                    <FragmentOfANaturalSequenceMolecule>
+                        <ChemicalType>Peptide from protein</ChemicalType>
+                        <LinearSequence>TYQRTRALV</LinearSequence>
+                        <StartingPosition>147</StartingPosition>
+                        <EndingPosition>155</EndingPosition>
+                        <SourceMolecule>
+                            <IedbAccession>SRC124</IedbAccession>
+                        </SourceMolecule>
+                        <SourceOrganismId>211044</SourceOrganismId>
+                    </FragmentOfANaturalSequenceMolecule>
+                </EpitopeStructure>
+                <LocationOfData>Table I</LocationOfData>
+                <EpitopeId>67436</EpitopeId>
+                <ReferenceStartingPosition>147</ReferenceStartingPosition>
+                <ReferenceEndingPosition>155</ReferenceEndingPosition>
+                <EpitopeEvidenceCode>Not determined</EpitopeEvidenceCode>
+                <EpitopeStructureDefines>Exact Epitope</EpitopeStructureDefines>
+                <EpitopeComments>This immunodominant epitope lacking cysteine residues is unaffected in its antigenicity by the use of reducing agents during CTL activity assays.</EpitopeComments>
+                <Assays>
+                    <TCell>
+                        <LocationOfData>Figure 3</LocationOfData>
+                        <TCellId>9033</TCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>10000000</OrganismId>
+                                <Sex>F</Sex>
+                                <Age>8-10 wk</Age>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Administration in vivo</InVivoProcessType>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Source Organism</EpitopeRelation>
+                                    <Object>
+                                        <Organism>
+                                            <SubType>Organism</SubType>
+                                            <SourceOrganismId>211044</SourceOrganismId>
+                                        </Organism>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenEvidenceCode>Not determined</ImmunogenEvidenceCode>
+                                <Route>Intraperitoneal (i.p.)</Route>
+                            </FirstInVivoProcess>
+                            <InVitroAdministration>
+                                <ProcessType>Restimulation in vitro</ProcessType>
+                                <ResponderCellType>T cell</ResponderCellType>
+                                <StimulatorCellType>Splenocyte</StimulatorCellType>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Epitope</EpitopeRelation>
+                                    <Object>
+                                        <FragmentOfANaturalSequenceMolecule>
+                                            <ChemicalType>Peptide from protein</ChemicalType>
+                                            <LinearSequence>TYQRTRALV</LinearSequence>
+                                            <StartingPosition>147</StartingPosition>
+                                            <EndingPosition>155</EndingPosition>
+                                            <SourceMolecule>
+                                                <IedbAccession>SRC124</IedbAccession>
+                                            </SourceMolecule>
+                                            <SourceOrganismId>211044</SourceOrganismId>
+                                        </FragmentOfANaturalSequenceMolecule>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenEvidenceCode>Exact match to reference information</ImmunogenEvidenceCode>
+                            </InVitroAdministration>
+                        </Immunization>
+                        <EffectorCells>
+                            <CellTissueType>Spleen</CellTissueType>
+                            <CellType>T cell CD8+</CellType>
+                            <CellCultureConditions>Cell Line / Clone</CellCultureConditions>
+                        </EffectorCells>
+                        <AntigenPresentingCells>
+                            <CellTissueType>Other</CellTissueType>
+                            <CellType>P815-Mast cell</CellType>
+                            <CellCultureConditions>Cell Line / Clone</CellCultureConditions>
+                            <AutologousOrSyngeneic>N</AutologousOrSyngeneic>
+                            <SourceOrganismId>10000055</SourceOrganismId>
+                        </AntigenPresentingCells>
+                        <MhcAllele>
+                            <MhcAlleleId>169</MhcAlleleId>
+                            <MhcEvidenceCode>Not determined</MhcEvidenceCode>
+                        </MhcAllele>
+                        <Antigen>
+                            <AntigenReferenceName>NP 147-155</AntigenReferenceName>
+                            <AntigenObject>
+                                <EpitopeRelation>Epitope</EpitopeRelation>
+                                <Object>
+                                    <FragmentOfANaturalSequenceMolecule>
+                                        <ChemicalType>Peptide from protein</ChemicalType>
+                                        <LinearSequence>TYQRTRALV</LinearSequence>
+                                        <StartingPosition>147</StartingPosition>
+                                        <EndingPosition>155</EndingPosition>
+                                        <SourceMolecule>
+                                            <IedbAccession>SRC124</IedbAccession>
+                                        </SourceMolecule>
+                                        <SourceOrganismId>211044</SourceOrganismId>
+                                    </FragmentOfANaturalSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Exact match to reference information</AntigenEvidenceCode>
+                        </Antigen>
+                        <AssayInformation>
+                            <AssayTypeId>67</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <AssayComments>T cell lines derived from infected mice and stimulated with  peptide loaded APCs for 4 days lysed peptide pulsed P815 cells. The same results are seen with or without incubation with reducing agents.</AssayComments>
+                        </AssayInformation>
+                    </TCell>
+                </Assays>
+                <Assays>
+                    <MhcBinding>
+                        <LocationOfData>Figure 1</LocationOfData>
+                        <MhcBindingId>9183</MhcBindingId>
+                        <AssayInformation>
+                            <AssayTypeId>185</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <AssayComments>This epitope has lower affinity for MHC than the subdominant peptides NP39-47 and NP218-226 from the source protein.</AssayComments>
+                        </AssayInformation>
+                        <MhcAlleleId>124</MhcAlleleId>
+                    </MhcBinding>
+                </Assays>
+            </Epitope>
+            <Epitope>
+                <EpitopeName>NP 218-226</EpitopeName>
+                <EpitopeStructure>
+                    <FragmentOfANaturalSequenceMolecule>
+                        <ChemicalType>Peptide from protein</ChemicalType>
+                        <LinearSequence>AYERMCNIL</LinearSequence>
+                        <ModifiedResidues>C6</ModifiedResidues>
+                        <Modifications>Cysteinylation</Modifications>
+                        <StartingPosition>218</StartingPosition>
+                        <EndingPosition>226</EndingPosition>
+                        <SourceMolecule>
+                            <IedbAccession>SRC124</IedbAccession>
+                        </SourceMolecule>
+                        <SourceOrganismId>211044</SourceOrganismId>
+                    </FragmentOfANaturalSequenceMolecule>
+                </EpitopeStructure>
+                <LocationOfData>Table I</LocationOfData>
+                <EpitopeId>5756</EpitopeId>
+                <ReferenceStartingPosition>218</ReferenceStartingPosition>
+                <ReferenceEndingPosition>226</ReferenceEndingPosition>
+                <EpitopeEvidenceCode>Not determined</EpitopeEvidenceCode>
+                <EpitopeStructureDefines>Exact Epitope</EpitopeStructureDefines>
+                <EpitopeComments>The cysteine residue in this epitope is shown to be oxidized to a cysteinylated form, and to be important for its immunogenicity and antigenicity, since oxidized form is poorly recognized by T cell lines specific for the reduced (SH) version, and vice versa.</EpitopeComments>
+                <Assays>
+                    <TCell>
+                        <LocationOfData>Figure 8</LocationOfData>
+                        <TCellId>9594</TCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>10000000</OrganismId>
+                                <Sex>F</Sex>
+                                <Age>8-10 wk</Age>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Administration in vivo</InVivoProcessType>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Source Organism</EpitopeRelation>
+                                    <Object>
+                                        <Organism>
+                                            <SubType>Organism</SubType>
+                                            <SourceOrganismId>211044</SourceOrganismId>
+                                        </Organism>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenEvidenceCode>Not determined</ImmunogenEvidenceCode>
+                                <Route>Intraperitoneal (i.p.)</Route>
+                            </FirstInVivoProcess>
+                            <InVitroAdministration>
+                                <ProcessType>Restimulation in vitro</ProcessType>
+                                <ResponderCellType>T cell</ResponderCellType>
+                                <StimulatorCellType>Splenocyte</StimulatorCellType>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Epitope</EpitopeRelation>
+                                    <Object>
+                                        <FragmentOfANaturalSequenceMolecule>
+                                            <ChemicalType>Peptide from protein</ChemicalType>
+                                            <LinearSequence>AYERMCNIL</LinearSequence>
+                                            <ModifiedResidues>C6</ModifiedResidues>
+                                            <Modifications>Cysteinylation</Modifications>
+                                            <StartingPosition>218</StartingPosition>
+                                            <EndingPosition>226</EndingPosition>
+                                            <SourceMolecule>
+                                                <IedbAccession>SRC124</IedbAccession>
+                                            </SourceMolecule>
+                                            <SourceOrganismId>211044</SourceOrganismId>
+                                        </FragmentOfANaturalSequenceMolecule>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenEvidenceCode>Exact match to reference information</ImmunogenEvidenceCode>
+                            </InVitroAdministration>
+                            <ImmunizationComments>Stimulation was performed with cysteinylated  form of epitope.</ImmunizationComments>
+                        </Immunization>
+                        <EffectorCells>
+                            <CellTissueType>Spleen</CellTissueType>
+                            <CellType>T cell CD8+</CellType>
+                            <CellCultureConditions>Cell Line / Clone</CellCultureConditions>
+                        </EffectorCells>
+                        <AntigenPresentingCells>
+                            <CellTissueType>Other</CellTissueType>
+                            <CellType>P815-Mast cell</CellType>
+                            <CellCultureConditions>Cell Line / Clone</CellCultureConditions>
+                            <AutologousOrSyngeneic>N</AutologousOrSyngeneic>
+                            <SourceOrganismId>10000055</SourceOrganismId>
+                        </AntigenPresentingCells>
+                        <MhcAllele>
+                            <MhcAlleleId>169</MhcAlleleId>
+                            <MhcEvidenceCode>Not determined</MhcEvidenceCode>
+                        </MhcAllele>
+                        <Antigen>
+                            <AntigenReferenceName>NP 218-226</AntigenReferenceName>
+                            <AntigenObject>
+                                <EpitopeRelation>Epitope</EpitopeRelation>
+                                <Object>
+                                    <FragmentOfANaturalSequenceMolecule>
+                                        <ChemicalType>Peptide from protein</ChemicalType>
+                                        <LinearSequence>AYERMCNIL</LinearSequence>
+                                        <ModifiedResidues>C6</ModifiedResidues>
+                                        <Modifications>Cysteinylation</Modifications>
+                                        <StartingPosition>218</StartingPosition>
+                                        <EndingPosition>226</EndingPosition>
+                                        <SourceMolecule>
+                                            <IedbAccession>SRC124</IedbAccession>
+                                        </SourceMolecule>
+                                        <SourceOrganismId>211044</SourceOrganismId>
+                                    </FragmentOfANaturalSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Exact match to reference information</AntigenEvidenceCode>
+                        </Antigen>
+                        <AssayInformation>
+                            <AssayTypeId>67</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <AssayComments>T cell lines derived from infected mice and stimulated with  peptide loaded APCs for 4 days lysed peptide pulsed P815 cells. T cell lines raised for the cysteinylated form of the epitope recognizes the cysteinylated form more effecively than the monomeric (reduced) peptide pulsed APCs.</AssayComments>
+                        </AssayInformation>
+                    </TCell>
+                </Assays>
+                <Assays>
+                    <TCell>
+                        <LocationOfData>Figure 6</LocationOfData>
+                        <TCellId>9601</TCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>10000000</OrganismId>
+                                <Sex>F</Sex>
+                                <Age>8-10 wk</Age>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Administration in vivo</InVivoProcessType>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Source Organism</EpitopeRelation>
+                                    <Object>
+                                        <Organism>
+                                            <SubType>Organism</SubType>
+                                            <SourceOrganismId>211044</SourceOrganismId>
+                                        </Organism>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenEvidenceCode>Not determined</ImmunogenEvidenceCode>
+                                <Route>Intraperitoneal (i.p.)</Route>
+                            </FirstInVivoProcess>
+                            <InVitroAdministration>
+                                <ProcessType>Restimulation in vitro</ProcessType>
+                                <ResponderCellType>T cell</ResponderCellType>
+                                <StimulatorCellType>Splenocyte</StimulatorCellType>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Epitope</EpitopeRelation>
+                                    <Object>
+                                        <FragmentOfANaturalSequenceMolecule>
+                                            <ChemicalType>Peptide from protein</ChemicalType>
+                                            <LinearSequence>AYERMCNIL</LinearSequence>
+                                            <ModifiedResidues>C6</ModifiedResidues>
+                                            <Modifications>Cysteinylation</Modifications>
+                                            <StartingPosition>218</StartingPosition>
+                                            <EndingPosition>226</EndingPosition>
+                                            <SourceMolecule>
+                                                <IedbAccession>SRC124</IedbAccession>
+                                            </SourceMolecule>
+                                            <SourceOrganismId>211044</SourceOrganismId>
+                                        </FragmentOfANaturalSequenceMolecule>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenEvidenceCode>Exact match to reference information</ImmunogenEvidenceCode>
+                            </InVitroAdministration>
+                            <ImmunizationComments>Stimulation was performed with unmodified (reduced) form of epitope.</ImmunizationComments>
+                        </Immunization>
+                        <EffectorCells>
+                            <CellTissueType>Spleen</CellTissueType>
+                            <CellType>T cell CD8+</CellType>
+                            <CellCultureConditions>Cell Line / Clone</CellCultureConditions>
+                        </EffectorCells>
+                        <AntigenPresentingCells>
+                            <CellTissueType>Other</CellTissueType>
+                            <CellType>P815-Mast cell</CellType>
+                            <CellCultureConditions>Cell Line / Clone</CellCultureConditions>
+                            <AutologousOrSyngeneic>N</AutologousOrSyngeneic>
+                            <SourceOrganismId>10000055</SourceOrganismId>
+                        </AntigenPresentingCells>
+                        <MhcAllele>
+                            <MhcAlleleId>169</MhcAlleleId>
+                            <MhcEvidenceCode>Not determined</MhcEvidenceCode>
+                        </MhcAllele>
+                        <Antigen>
+                            <AntigenReferenceName>NP 218-226</AntigenReferenceName>
+                            <AntigenObject>
+                                <EpitopeRelation>Epitope</EpitopeRelation>
+                                <Object>
+                                    <FragmentOfANaturalSequenceMolecule>
+                                        <ChemicalType>Peptide from protein</ChemicalType>
+                                        <LinearSequence>AYERMCNIL</LinearSequence>
+                                        <ModifiedResidues>C6</ModifiedResidues>
+                                        <Modifications>Cysteinylation</Modifications>
+                                        <StartingPosition>218</StartingPosition>
+                                        <EndingPosition>226</EndingPosition>
+                                        <SourceMolecule>
+                                            <IedbAccession>SRC124</IedbAccession>
+                                        </SourceMolecule>
+                                        <SourceOrganismId>211044</SourceOrganismId>
+                                    </FragmentOfANaturalSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Exact match to reference information</AntigenEvidenceCode>
+                        </Antigen>
+                        <AssayInformation>
+                            <AssayTypeId>67</AssayTypeId>
+                            <QualitativeMeasurement>Negative</QualitativeMeasurement>
+                            <AssayComments>T cell lines derived from infected mice and stimulated with peptide loaded APCs for 4 days did not lyse peptide pulsed P815 cells. The cysteinylated form of the epitope is much less efficient than the monomeric form at lysis by T cell lines raised against the monomeric form of the epitope.</AssayComments>
+                        </AssayInformation>
+                    </TCell>
+                </Assays>
+                <Assays>
+                    <MhcBinding>
+                        <LocationOfData>Figure 6</LocationOfData>
+                        <MhcBindingId>9596</MhcBindingId>
+                        <AssayInformation>
+                            <AssayTypeId>185</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <AssayComments>The cysteinylated form of the epitope has a ~10 fold higher binding affinity for MHC molecules than the reduced (SH) form.</AssayComments>
+                        </AssayInformation>
+                        <MhcAlleleId>124</MhcAlleleId>
+                    </MhcBinding>
+                </Assays>
+            </Epitope>
+            <Epitope>
+                <EpitopeName>NP 218-226</EpitopeName>
+                <EpitopeStructure>
+                    <FragmentOfANaturalSequenceMolecule>
+                        <ChemicalType>Peptide from protein</ChemicalType>
+                        <LinearSequence>AYERMCNIL</LinearSequence>
+                        <ModifiedResidues>C6</ModifiedResidues>
+                        <Modifications>Cysteinylation</Modifications>
+                        <StartingPosition>218</StartingPosition>
+                        <EndingPosition>226</EndingPosition>
+                        <SourceMolecule>
+                            <IedbAccession>SRC124</IedbAccession>
+                        </SourceMolecule>
+                        <SourceOrganismId>211044</SourceOrganismId>
+                    </FragmentOfANaturalSequenceMolecule>
+                </EpitopeStructure>
+                <LocationOfData>Table I</LocationOfData>
+                <EpitopeId>5756</EpitopeId>
+                <ReferenceStartingPosition>218</ReferenceStartingPosition>
+                <ReferenceEndingPosition>226</ReferenceEndingPosition>
+                <EpitopeEvidenceCode>Not determined</EpitopeEvidenceCode>
+                <EpitopeStructureDefines>Exact Epitope</EpitopeStructureDefines>
+                <EpitopeComments>The cysteine residue in this epitope is shown to be oxidized to a dimeric form, and to be important for its immunogenicity and antigenicity, since oxidized form is poorly recognized by T cell lines specific for the reduced (SH) version, and vice versa.</EpitopeComments>
+                <Assays>
+                    <TCell>
+                        <LocationOfData>Figure 6</LocationOfData>
+                        <TCellId>9598</TCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>10000000</OrganismId>
+                                <Sex>F</Sex>
+                                <Age>8-10 wk</Age>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Administration in vivo</InVivoProcessType>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Source Organism</EpitopeRelation>
+                                    <Object>
+                                        <Organism>
+                                            <SubType>Organism</SubType>
+                                            <SourceOrganismId>211044</SourceOrganismId>
+                                        </Organism>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenEvidenceCode>Not determined</ImmunogenEvidenceCode>
+                                <Route>Intraperitoneal (i.p.)</Route>
+                            </FirstInVivoProcess>
+                            <InVitroAdministration>
+                                <ProcessType>Restimulation in vitro</ProcessType>
+                                <ResponderCellType>T cell</ResponderCellType>
+                                <StimulatorCellType>Splenocyte</StimulatorCellType>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Epitope</EpitopeRelation>
+                                    <Object>
+                                        <FragmentOfANaturalSequenceMolecule>
+                                            <ChemicalType>Peptide from protein</ChemicalType>
+                                            <LinearSequence>AYERMCNIL</LinearSequence>
+                                            <ModifiedResidues>C6</ModifiedResidues>
+                                            <Modifications>Cysteinylation</Modifications>
+                                            <StartingPosition>218</StartingPosition>
+                                            <EndingPosition>226</EndingPosition>
+                                            <SourceMolecule>
+                                                <IedbAccession>SRC124</IedbAccession>
+                                            </SourceMolecule>
+                                            <SourceOrganismId>211044</SourceOrganismId>
+                                        </FragmentOfANaturalSequenceMolecule>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenEvidenceCode>Exact match to reference information</ImmunogenEvidenceCode>
+                            </InVitroAdministration>
+                            <ImmunizationComments>Stimulation was performed with unmodified (reduced) form of epitope.</ImmunizationComments>
+                        </Immunization>
+                        <EffectorCells>
+                            <CellTissueType>Spleen</CellTissueType>
+                            <CellType>T cell CD8+</CellType>
+                            <CellCultureConditions>Cell Line / Clone</CellCultureConditions>
+                        </EffectorCells>
+                        <AntigenPresentingCells>
+                            <CellTissueType>Other</CellTissueType>
+                            <CellType>P815-Mast cell</CellType>
+                            <CellCultureConditions>Cell Line / Clone</CellCultureConditions>
+                            <AutologousOrSyngeneic>N</AutologousOrSyngeneic>
+                            <SourceOrganismId>10000055</SourceOrganismId>
+                        </AntigenPresentingCells>
+                        <MhcAllele>
+                            <MhcAlleleId>169</MhcAlleleId>
+                            <MhcEvidenceCode>Not determined</MhcEvidenceCode>
+                        </MhcAllele>
+                        <Antigen>
+                            <AntigenReferenceName>NP 218-226</AntigenReferenceName>
+                            <AntigenObject>
+                                <EpitopeRelation>Epitope</EpitopeRelation>
+                                <Object>
+                                    <FragmentOfANaturalSequenceMolecule>
+                                        <ChemicalType>Peptide from protein</ChemicalType>
+                                        <LinearSequence>AYERMCNIL</LinearSequence>
+                                        <ModifiedResidues>C6</ModifiedResidues>
+                                        <Modifications>Cysteinylation</Modifications>
+                                        <StartingPosition>218</StartingPosition>
+                                        <EndingPosition>226</EndingPosition>
+                                        <SourceMolecule>
+                                            <IedbAccession>SRC124</IedbAccession>
+                                        </SourceMolecule>
+                                        <SourceOrganismId>211044</SourceOrganismId>
+                                    </FragmentOfANaturalSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Exact match to reference information</AntigenEvidenceCode>
+                        </Antigen>
+                        <AssayInformation>
+                            <AssayTypeId>67</AssayTypeId>
+                            <QualitativeMeasurement>Negative</QualitativeMeasurement>
+                            <AssayComments>T cell lines derived from infected mice and stimulated with peptide loaded APCs for 4 days did not lyse peptide pulsed P815 cells. The dimeric form of the epitope is is much less efficient than the monomeric form at lysis by T cell lines raised against the monomeric form of the epitope.</AssayComments>
+                        </AssayInformation>
+                    </TCell>
+                </Assays>
+                <Assays>
+                    <MhcBinding>
+                        <LocationOfData>Figure 6</LocationOfData>
+                        <MhcBindingId>9599</MhcBindingId>
+                        <AssayInformation>
+                            <AssayTypeId>185</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <AssayComments>The dimeric form of the epitope has a ~10 fold higher binding affinity for MHC molecules than the reduced (SH) form.</AssayComments>
+                        </AssayInformation>
+                        <MhcAlleleId>124</MhcAlleleId>
+                    </MhcBinding>
+                </Assays>
+            </Epitope>
+            <Epitope>
+                <EpitopeName>NP 39-47</EpitopeName>
+                <EpitopeStructure>
+                    <FragmentOfANaturalSequenceMolecule>
+                        <ChemicalType>Peptide from protein</ChemicalType>
+                        <LinearSequence>FYIQMCTEL</LinearSequence>
+                        <StartingPosition>39</StartingPosition>
+                        <EndingPosition>47</EndingPosition>
+                        <SourceMolecule>
+                            <IedbAccession>SRC124</IedbAccession>
+                        </SourceMolecule>
+                        <SourceOrganismId>211044</SourceOrganismId>
+                    </FragmentOfANaturalSequenceMolecule>
+                </EpitopeStructure>
+                <LocationOfData>Table I</LocationOfData>
+                <EpitopeId>18406</EpitopeId>
+                <ReferenceStartingPosition>39</ReferenceStartingPosition>
+                <ReferenceEndingPosition>47</ReferenceEndingPosition>
+                <EpitopeEvidenceCode>Not determined</EpitopeEvidenceCode>
+                <EpitopeStructureDefines>Exact Epitope</EpitopeStructureDefines>
+                <EpitopeComments>The cysteine residue in this epitope is important for its immunogenicity and antigenicity. Cysteinylated and dimeric forms are poorly recognized by T cell lines specific for the reduced (SH) version, and vice versa.</EpitopeComments>
+                <Assays>
+                    <TCell>
+                        <LocationOfData>Figure 2C</LocationOfData>
+                        <TCellId>9610</TCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>10000000</OrganismId>
+                                <Sex>F</Sex>
+                                <Age>8-10 wk</Age>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Administration in vivo</InVivoProcessType>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Source Organism</EpitopeRelation>
+                                    <Object>
+                                        <Organism>
+                                            <SubType>Organism</SubType>
+                                            <SourceOrganismId>211044</SourceOrganismId>
+                                        </Organism>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenEvidenceCode>Not determined</ImmunogenEvidenceCode>
+                                <Route>Intraperitoneal (i.p.)</Route>
+                            </FirstInVivoProcess>
+                            <InVitroAdministration>
+                                <ProcessType>Restimulation in vitro</ProcessType>
+                                <ResponderCellType>T cell</ResponderCellType>
+                                <StimulatorCellType>Splenocyte</StimulatorCellType>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Epitope</EpitopeRelation>
+                                    <Object>
+                                        <FragmentOfANaturalSequenceMolecule>
+                                            <ChemicalType>Peptide from protein</ChemicalType>
+                                            <LinearSequence>FYIQMCTEL</LinearSequence>
+                                            <StartingPosition>39</StartingPosition>
+                                            <EndingPosition>47</EndingPosition>
+                                            <SourceMolecule>
+                                                <IedbAccession>SRC124</IedbAccession>
+                                            </SourceMolecule>
+                                            <SourceOrganismId>211044</SourceOrganismId>
+                                        </FragmentOfANaturalSequenceMolecule>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenEvidenceCode>Exact match to reference information</ImmunogenEvidenceCode>
+                            </InVitroAdministration>
+                            <ImmunizationComments>Stimulation was performed with unmodified (reduced) form of epitope.</ImmunizationComments>
+                        </Immunization>
+                        <EffectorCells>
+                            <CellTissueType>Spleen</CellTissueType>
+                            <CellType>T cell CD8+</CellType>
+                            <CellCultureConditions>Cell Line / Clone</CellCultureConditions>
+                        </EffectorCells>
+                        <AntigenPresentingCells>
+                            <CellTissueType>Other</CellTissueType>
+                            <CellType>P815-Mast cell</CellType>
+                            <CellCultureConditions>Cell Line / Clone</CellCultureConditions>
+                            <AutologousOrSyngeneic>N</AutologousOrSyngeneic>
+                            <SourceOrganismId>10000055</SourceOrganismId>
+                        </AntigenPresentingCells>
+                        <MhcAllele>
+                            <MhcAlleleId>169</MhcAlleleId>
+                            <MhcEvidenceCode>Not determined</MhcEvidenceCode>
+                        </MhcAllele>
+                        <Antigen>
+                            <AntigenReferenceName>NP 39-47</AntigenReferenceName>
+                            <AntigenObject>
+                                <EpitopeRelation>Epitope</EpitopeRelation>
+                                <Object>
+                                    <FragmentOfANaturalSequenceMolecule>
+                                        <ChemicalType>Peptide from protein</ChemicalType>
+                                        <LinearSequence>FYIQMCTEL</LinearSequence>
+                                        <StartingPosition>39</StartingPosition>
+                                        <EndingPosition>47</EndingPosition>
+                                        <SourceMolecule>
+                                            <IedbAccession>SRC124</IedbAccession>
+                                        </SourceMolecule>
+                                        <SourceOrganismId>211044</SourceOrganismId>
+                                    </FragmentOfANaturalSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Exact match to reference information</AntigenEvidenceCode>
+                        </Antigen>
+                        <AssayInformation>
+                            <AssayTypeId>67</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <AssayComments>T cell lines derived from infected mice and stimulated with  peptide loaded APCs for 4 days lysed peptide pulsed P815 cells.  Substitution of Cys for Ala or Ser enhances recognition by T cell lines. The same effect is seen with reducing agents and is not related to the MHC restriction.  .</AssayComments>
+                        </AssayInformation>
+                    </TCell>
+                </Assays>
+                <Assays>
+                    <TCell>
+                        <LocationOfData>Figure 8</LocationOfData>
+                        <TCellId>9609</TCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>10000000</OrganismId>
+                                <Sex>F</Sex>
+                                <Age>8-10 wk</Age>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Administration in vivo</InVivoProcessType>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Source Organism</EpitopeRelation>
+                                    <Object>
+                                        <Organism>
+                                            <SubType>Organism</SubType>
+                                            <SourceOrganismId>211044</SourceOrganismId>
+                                        </Organism>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenEvidenceCode>Not determined</ImmunogenEvidenceCode>
+                                <Route>Intraperitoneal (i.p.)</Route>
+                            </FirstInVivoProcess>
+                            <InVitroAdministration>
+                                <ProcessType>Restimulation in vitro</ProcessType>
+                                <ResponderCellType>T cell</ResponderCellType>
+                                <StimulatorCellType>Splenocyte</StimulatorCellType>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Epitope</EpitopeRelation>
+                                    <Object>
+                                        <FragmentOfANaturalSequenceMolecule>
+                                            <ChemicalType>Peptide from protein</ChemicalType>
+                                            <LinearSequence>FYIQMCTEL</LinearSequence>
+                                            <StartingPosition>39</StartingPosition>
+                                            <EndingPosition>47</EndingPosition>
+                                            <SourceMolecule>
+                                                <IedbAccession>SRC124</IedbAccession>
+                                            </SourceMolecule>
+                                            <SourceOrganismId>211044</SourceOrganismId>
+                                        </FragmentOfANaturalSequenceMolecule>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenEvidenceCode>Exact match to reference information</ImmunogenEvidenceCode>
+                            </InVitroAdministration>
+                            <ImmunizationComments>Stimulation was performed with unmodified (reduced) form of epitope.</ImmunizationComments>
+                        </Immunization>
+                        <EffectorCells>
+                            <CellTissueType>Spleen</CellTissueType>
+                            <CellType>T cell CD8+</CellType>
+                            <CellCultureConditions>Cell Line / Clone</CellCultureConditions>
+                        </EffectorCells>
+                        <AntigenPresentingCells>
+                            <CellTissueType>Other</CellTissueType>
+                            <CellType>P815-Mast cell</CellType>
+                            <CellCultureConditions>Cell Line / Clone</CellCultureConditions>
+                            <AutologousOrSyngeneic>N</AutologousOrSyngeneic>
+                            <SourceOrganismId>10000055</SourceOrganismId>
+                        </AntigenPresentingCells>
+                        <MhcAllele>
+                            <MhcAlleleId>169</MhcAlleleId>
+                            <MhcEvidenceCode>Not determined</MhcEvidenceCode>
+                        </MhcAllele>
+                        <Antigen>
+                            <AntigenReferenceName>NP 39-47</AntigenReferenceName>
+                            <AntigenObject>
+                                <EpitopeRelation>Epitope</EpitopeRelation>
+                                <Object>
+                                    <FragmentOfANaturalSequenceMolecule>
+                                        <ChemicalType>Peptide from protein</ChemicalType>
+                                        <LinearSequence>FYIQMCTEL</LinearSequence>
+                                        <StartingPosition>39</StartingPosition>
+                                        <EndingPosition>47</EndingPosition>
+                                        <SourceMolecule>
+                                            <IedbAccession>SRC124</IedbAccession>
+                                        </SourceMolecule>
+                                        <SourceOrganismId>211044</SourceOrganismId>
+                                    </FragmentOfANaturalSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Exact match to reference information</AntigenEvidenceCode>
+                        </Antigen>
+                        <AssayInformation>
+                            <AssayTypeId>67</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <AssayComments>T cell lines derived from infected mice and stimulated with  peptide loaded APCs for 4 days lysed peptide pulsed P815 cells. T cell lines raised for the monomeric form of the epitope recognizes the monomeric form more effecively than the cysteinylated peptide pulsed APCs. Similar results are stated to be found with the epitope NP218.</AssayComments>
+                        </AssayInformation>
+                    </TCell>
+                </Assays>
+                <Assays>
+                    <MhcBinding>
+                        <LocationOfData>Figures 1 and 2</LocationOfData>
+                        <MhcBindingId>9611</MhcBindingId>
+                        <AssayInformation>
+                            <AssayTypeId>185</AssayTypeId>
+                            <QualitativeMeasurement>Negative</QualitativeMeasurement>
+                            <AssayComments>The monomeric form of this epitope obtained by Cys mutation to Ser or Ala has similar affinity for MHC molecules as the wild type form.</AssayComments>
+                        </AssayInformation>
+                        <MhcAlleleId>124</MhcAlleleId>
+                    </MhcBinding>
+                </Assays>
+            </Epitope>
+            <Epitope>
+                <EpitopeName>NP 39-47</EpitopeName>
+                <EpitopeStructure>
+                    <FragmentOfANaturalSequenceMolecule>
+                        <ChemicalType>Peptide from protein</ChemicalType>
+                        <LinearSequence>FYIQMCTEL</LinearSequence>
+                        <ModifiedResidues>C6</ModifiedResidues>
+                        <Modifications>Cysteinylation</Modifications>
+                        <StartingPosition>39</StartingPosition>
+                        <EndingPosition>47</EndingPosition>
+                        <SourceMolecule>
+                            <IedbAccession>SRC124</IedbAccession>
+                        </SourceMolecule>
+                        <SourceOrganismId>211044</SourceOrganismId>
+                    </FragmentOfANaturalSequenceMolecule>
+                </EpitopeStructure>
+                <LocationOfData>Table I</LocationOfData>
+                <EpitopeId>18405</EpitopeId>
+                <ReferenceStartingPosition>218</ReferenceStartingPosition>
+                <ReferenceEndingPosition>226</ReferenceEndingPosition>
+                <EpitopeEvidenceCode>Not determined</EpitopeEvidenceCode>
+                <EpitopeStructureDefines>Exact Epitope</EpitopeStructureDefines>
+                <EpitopeComments>The cysteine residue in this epitope is shown to be oxidized to a cysteinylated form, and to be important for its immunogenicity and antigenicity, since oxidized form is poorly recognized by T cell lines specific for the reduced (SH) version, and vice versa.</EpitopeComments>
+                <Assays>
+                    <TCell>
+                        <LocationOfData>Figure 6</LocationOfData>
+                        <TCellId>9614</TCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>10000000</OrganismId>
+                                <Sex>F</Sex>
+                                <Age>8-10 wk</Age>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Administration in vivo</InVivoProcessType>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Source Organism</EpitopeRelation>
+                                    <Object>
+                                        <Organism>
+                                            <SubType>Organism</SubType>
+                                            <SourceOrganismId>211044</SourceOrganismId>
+                                        </Organism>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenEvidenceCode>Not determined</ImmunogenEvidenceCode>
+                                <Route>Intraperitoneal (i.p.)</Route>
+                            </FirstInVivoProcess>
+                            <InVitroAdministration>
+                                <ProcessType>Restimulation in vitro</ProcessType>
+                                <ResponderCellType>T cell</ResponderCellType>
+                                <StimulatorCellType>Splenocyte</StimulatorCellType>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Epitope</EpitopeRelation>
+                                    <Object>
+                                        <FragmentOfANaturalSequenceMolecule>
+                                            <ChemicalType>Peptide from protein</ChemicalType>
+                                            <LinearSequence>FYIQMCTEL</LinearSequence>
+                                            <ModifiedResidues>C6</ModifiedResidues>
+                                            <Modifications>Cysteinylation</Modifications>
+                                            <StartingPosition>39</StartingPosition>
+                                            <EndingPosition>47</EndingPosition>
+                                            <SourceMolecule>
+                                                <IedbAccession>SRC124</IedbAccession>
+                                            </SourceMolecule>
+                                            <SourceOrganismId>211044</SourceOrganismId>
+                                        </FragmentOfANaturalSequenceMolecule>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenEvidenceCode>Exact match to reference information</ImmunogenEvidenceCode>
+                            </InVitroAdministration>
+                            <ImmunizationComments>Stimulation was performed with unmodified (reduced) form of epitope.</ImmunizationComments>
+                        </Immunization>
+                        <EffectorCells>
+                            <CellTissueType>Spleen</CellTissueType>
+                            <CellType>T cell CD8+</CellType>
+                            <CellCultureConditions>Cell Line / Clone</CellCultureConditions>
+                        </EffectorCells>
+                        <AntigenPresentingCells>
+                            <CellTissueType>Other</CellTissueType>
+                            <CellType>P815-Mast cell</CellType>
+                            <CellCultureConditions>Cell Line / Clone</CellCultureConditions>
+                            <AutologousOrSyngeneic>N</AutologousOrSyngeneic>
+                            <SourceOrganismId>10000055</SourceOrganismId>
+                        </AntigenPresentingCells>
+                        <MhcAllele>
+                            <MhcAlleleId>169</MhcAlleleId>
+                            <MhcEvidenceCode>Not determined</MhcEvidenceCode>
+                        </MhcAllele>
+                        <Antigen>
+                            <AntigenReferenceName>NP 39-47</AntigenReferenceName>
+                            <AntigenObject>
+                                <EpitopeRelation>Epitope</EpitopeRelation>
+                                <Object>
+                                    <FragmentOfANaturalSequenceMolecule>
+                                        <ChemicalType>Peptide from protein</ChemicalType>
+                                        <LinearSequence>FYIQMCTEL</LinearSequence>
+                                        <ModifiedResidues>C6</ModifiedResidues>
+                                        <Modifications>Cysteinylation</Modifications>
+                                        <StartingPosition>39</StartingPosition>
+                                        <EndingPosition>47</EndingPosition>
+                                        <SourceMolecule>
+                                            <IedbAccession>SRC124</IedbAccession>
+                                        </SourceMolecule>
+                                        <SourceOrganismId>211044</SourceOrganismId>
+                                    </FragmentOfANaturalSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Exact match to reference information</AntigenEvidenceCode>
+                        </Antigen>
+                        <AssayInformation>
+                            <AssayTypeId>67</AssayTypeId>
+                            <QualitativeMeasurement>Negative</QualitativeMeasurement>
+                            <AssayComments>T cell lines derived from infected mice and stimulated with peptide loaded APCs for 4 days did not lyse peptide pulsed P815 cells. The cysteinylated form of the epitope is much less efficient than the monomeric form at lysis by T cell lines raised against the monomeric form of the epitope.</AssayComments>
+                        </AssayInformation>
+                    </TCell>
+                </Assays>
+                <Assays>
+                    <TCell>
+                        <LocationOfData>Figure 8</LocationOfData>
+                        <TCellId>9612</TCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>10000000</OrganismId>
+                                <Sex>F</Sex>
+                                <Age>8-10 wk</Age>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Administration in vivo</InVivoProcessType>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Source Organism</EpitopeRelation>
+                                    <Object>
+                                        <Organism>
+                                            <SubType>Organism</SubType>
+                                            <SourceOrganismId>211044</SourceOrganismId>
+                                        </Organism>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenEvidenceCode>Not determined</ImmunogenEvidenceCode>
+                                <Route>Intraperitoneal (i.p.)</Route>
+                            </FirstInVivoProcess>
+                            <InVitroAdministration>
+                                <ProcessType>Restimulation in vitro</ProcessType>
+                                <ResponderCellType>T cell</ResponderCellType>
+                                <StimulatorCellType>Splenocyte</StimulatorCellType>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Epitope</EpitopeRelation>
+                                    <Object>
+                                        <FragmentOfANaturalSequenceMolecule>
+                                            <ChemicalType>Peptide from protein</ChemicalType>
+                                            <LinearSequence>FYIQMCTEL</LinearSequence>
+                                            <ModifiedResidues>C6</ModifiedResidues>
+                                            <Modifications>Cysteinylation</Modifications>
+                                            <StartingPosition>39</StartingPosition>
+                                            <EndingPosition>47</EndingPosition>
+                                            <SourceMolecule>
+                                                <IedbAccession>SRC124</IedbAccession>
+                                            </SourceMolecule>
+                                            <SourceOrganismId>211044</SourceOrganismId>
+                                        </FragmentOfANaturalSequenceMolecule>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenEvidenceCode>Exact match to reference information</ImmunogenEvidenceCode>
+                            </InVitroAdministration>
+                            <ImmunizationComments>Stimulation was performed with cysteinylated  form of epitope.</ImmunizationComments>
+                        </Immunization>
+                        <EffectorCells>
+                            <CellTissueType>Spleen</CellTissueType>
+                            <CellType>T cell CD8+</CellType>
+                            <CellCultureConditions>Cell Line / Clone</CellCultureConditions>
+                        </EffectorCells>
+                        <AntigenPresentingCells>
+                            <CellTissueType>Other</CellTissueType>
+                            <CellType>P815-Mast cell</CellType>
+                            <CellCultureConditions>Cell Line / Clone</CellCultureConditions>
+                            <AutologousOrSyngeneic>N</AutologousOrSyngeneic>
+                            <SourceOrganismId>10000055</SourceOrganismId>
+                        </AntigenPresentingCells>
+                        <MhcAllele>
+                            <MhcAlleleId>169</MhcAlleleId>
+                            <MhcEvidenceCode>Not determined</MhcEvidenceCode>
+                        </MhcAllele>
+                        <Antigen>
+                            <AntigenReferenceName>NP 39-47</AntigenReferenceName>
+                            <AntigenObject>
+                                <EpitopeRelation>Epitope</EpitopeRelation>
+                                <Object>
+                                    <FragmentOfANaturalSequenceMolecule>
+                                        <ChemicalType>Peptide from protein</ChemicalType>
+                                        <LinearSequence>FYIQMCTEL</LinearSequence>
+                                        <ModifiedResidues>C6</ModifiedResidues>
+                                        <Modifications>Cysteinylation</Modifications>
+                                        <StartingPosition>39</StartingPosition>
+                                        <EndingPosition>47</EndingPosition>
+                                        <SourceMolecule>
+                                            <IedbAccession>SRC124</IedbAccession>
+                                        </SourceMolecule>
+                                        <SourceOrganismId>211044</SourceOrganismId>
+                                    </FragmentOfANaturalSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Exact match to reference information</AntigenEvidenceCode>
+                        </Antigen>
+                        <AssayInformation>
+                            <AssayTypeId>67</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <AssayComments>T cell lines derived from infected mice and stimulated with  peptide loaded APCs for 4 days lysed peptide pulsed P815 cells. T cell lines raised against the cysteinylated form of the epitope recognizes the cysteinylated form more effectively than the monomeric (reduced) form when used with peptide pulsed APCs.</AssayComments>
+                        </AssayInformation>
+                    </TCell>
+                </Assays>
+                <Assays>
+                    <MhcBinding>
+                        <LocationOfData>Figure 6</LocationOfData>
+                        <MhcBindingId>9613</MhcBindingId>
+                        <AssayInformation>
+                            <AssayTypeId>185</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <AssayComments>The cysteinylated form of the epitope has a ~10 fold higher binding affinity for MHC molecules than the reduced (SH) form. The results are stated to be similar to those of epitope NP218.</AssayComments>
+                        </AssayInformation>
+                        <MhcAlleleId>124</MhcAlleleId>
+                    </MhcBinding>
+                </Assays>
+            </Epitope>
+            <Epitope>
+                <EpitopeName>NP 39-47</EpitopeName>
+                <EpitopeStructure>
+                    <FragmentOfANaturalSequenceMolecule>
+                        <ChemicalType>Peptide from protein</ChemicalType>
+                        <LinearSequence>FYIQMCTEL</LinearSequence>
+                        <ModifiedResidues>C6</ModifiedResidues>
+                        <Modifications>Cysteinylation</Modifications>
+                        <StartingPosition>39</StartingPosition>
+                        <EndingPosition>47</EndingPosition>
+                        <SourceMolecule>
+                            <IedbAccession>SRC124</IedbAccession>
+                        </SourceMolecule>
+                        <SourceOrganismId>211044</SourceOrganismId>
+                    </FragmentOfANaturalSequenceMolecule>
+                </EpitopeStructure>
+                <LocationOfData>Table I</LocationOfData>
+                <EpitopeId>18405</EpitopeId>
+                <ReferenceStartingPosition>39</ReferenceStartingPosition>
+                <ReferenceEndingPosition>47</ReferenceEndingPosition>
+                <EpitopeEvidenceCode>Not determined</EpitopeEvidenceCode>
+                <EpitopeStructureDefines>Exact Epitope</EpitopeStructureDefines>
+                <EpitopeComments>The cysteine residue in this epitope is shown to be oxidized to a dimeric form, and to be important for its immunogenicity and antigenicity, since oxidized form is poorly recognized by T cell lines specific for the reduced (SH) version, and vice versa.</EpitopeComments>
+                <Assays>
+                    <TCell>
+                        <LocationOfData>Figure 6</LocationOfData>
+                        <TCellId>9615</TCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>10000000</OrganismId>
+                                <Sex>F</Sex>
+                                <Age>8-10 wk</Age>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Administration in vivo</InVivoProcessType>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Source Organism</EpitopeRelation>
+                                    <Object>
+                                        <Organism>
+                                            <SubType>Organism</SubType>
+                                            <SourceOrganismId>211044</SourceOrganismId>
+                                        </Organism>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenEvidenceCode>Not determined</ImmunogenEvidenceCode>
+                                <Route>Intraperitoneal (i.p.)</Route>
+                            </FirstInVivoProcess>
+                            <InVitroAdministration>
+                                <ProcessType>Restimulation in vitro</ProcessType>
+                                <ResponderCellType>T cell</ResponderCellType>
+                                <StimulatorCellType>Splenocyte</StimulatorCellType>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Epitope</EpitopeRelation>
+                                    <Object>
+                                        <FragmentOfANaturalSequenceMolecule>
+                                            <ChemicalType>Peptide from protein</ChemicalType>
+                                            <LinearSequence>FYIQMCTEL</LinearSequence>
+                                            <ModifiedResidues>C6</ModifiedResidues>
+                                            <Modifications>Cysteinylation</Modifications>
+                                            <StartingPosition>39</StartingPosition>
+                                            <EndingPosition>47</EndingPosition>
+                                            <SourceMolecule>
+                                                <IedbAccession>SRC124</IedbAccession>
+                                            </SourceMolecule>
+                                            <SourceOrganismId>211044</SourceOrganismId>
+                                        </FragmentOfANaturalSequenceMolecule>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenEvidenceCode>Exact match to reference information</ImmunogenEvidenceCode>
+                            </InVitroAdministration>
+                            <ImmunizationComments>Stimulation was performed with unmodified (reduced) form of epitope.</ImmunizationComments>
+                        </Immunization>
+                        <EffectorCells>
+                            <CellTissueType>Spleen</CellTissueType>
+                            <CellType>T cell CD8+</CellType>
+                            <CellCultureConditions>Cell Line / Clone</CellCultureConditions>
+                        </EffectorCells>
+                        <AntigenPresentingCells>
+                            <CellTissueType>Other</CellTissueType>
+                            <CellType>P815-Mast cell</CellType>
+                            <CellCultureConditions>Cell Line / Clone</CellCultureConditions>
+                            <AutologousOrSyngeneic>N</AutologousOrSyngeneic>
+                            <SourceOrganismId>10000055</SourceOrganismId>
+                        </AntigenPresentingCells>
+                        <MhcAllele>
+                            <MhcAlleleId>169</MhcAlleleId>
+                            <MhcEvidenceCode>Not determined</MhcEvidenceCode>
+                        </MhcAllele>
+                        <Antigen>
+                            <AntigenReferenceName>NP 39-47</AntigenReferenceName>
+                            <AntigenObject>
+                                <EpitopeRelation>Epitope</EpitopeRelation>
+                                <Object>
+                                    <FragmentOfANaturalSequenceMolecule>
+                                        <ChemicalType>Peptide from protein</ChemicalType>
+                                        <LinearSequence>FYIQMCTEL</LinearSequence>
+                                        <ModifiedResidues>C6</ModifiedResidues>
+                                        <Modifications>Cysteinylation</Modifications>
+                                        <StartingPosition>39</StartingPosition>
+                                        <EndingPosition>47</EndingPosition>
+                                        <SourceMolecule>
+                                            <IedbAccession>SRC124</IedbAccession>
+                                        </SourceMolecule>
+                                        <SourceOrganismId>211044</SourceOrganismId>
+                                    </FragmentOfANaturalSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Exact match to reference information</AntigenEvidenceCode>
+                        </Antigen>
+                        <AssayInformation>
+                            <AssayTypeId>67</AssayTypeId>
+                            <QualitativeMeasurement>Negative</QualitativeMeasurement>
+                            <AssayComments>T cell lines derived from infected mice and stimulated with peptide loaded APCs for 4 days did not lyse peptide pulsed P815 cells. The dimeric form of the epitope is is much less efficient than the monomeric form at lysis by T cell lines raised against the monomeric form of the epitope. The results are stated to be similar to those of epitope NP218.</AssayComments>
+                        </AssayInformation>
+                    </TCell>
+                </Assays>
+                <Assays>
+                    <MhcBinding>
+                        <LocationOfData>Figure 6</LocationOfData>
+                        <MhcBindingId>9616</MhcBindingId>
+                        <AssayInformation>
+                            <AssayTypeId>185</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <AssayComments>The dimeric form of the epitope has a ~10 fold higher binding affinity for MHC molecules than the reduced (SH) form. The results are stated to be similar to those of epitope NP218.</AssayComments>
+                        </AssayInformation>
+                        <MhcAlleleId>124</MhcAlleleId>
+                    </MhcBinding>
+                </Assays>
+            </Epitope>
+        </Epitopes>
+    </Reference>
+</References>
+

@@ -1,0 +1,335 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<References xsi:schemaLocation="http://www.iedb.org/schema/CurationSchema http://beta.iedb.org/schema/Curation.xsd" xmlns="http://www.iedb.org/schema/CurationSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <Reference>
+        <ReferenceId>639</ReferenceId>
+        <DateLastUpdated>2020-09-10-07:00</DateLastUpdated>
+        <Article>
+            <PubmedId>15269380</PubmedId>
+            <Abstract>Dendritic cells (DCs) have been used successfully to induce CD8 T cells that control virus infections and growth of tumours. The efficacy of DC-mediated immunization for the control of neurotropic Borna disease virus (BDV) in mice was evaluated. Certain strains of mice only rarely develop spontaneous neurological disease, despite massive BDV replication in the brain. Resistance to disease is due to immunological ignorance toward BDV antigen in the central nervous system. Ignorance in mice can be broken by immunization with DCs coated with TELEISSI, a peptide derived from the N protein of BDV, which represents the immunodominant cytotoxic T lymphocyte epitope in H-2(k) mice. Immunization with TELEISSI-coated DCs further induced solid protective immunity against intravenous challenge with a recombinant vaccinia virus expressing BDV-N. Interestingly, however, this immunization scheme induced only moderate protection against intracerebral challenge with BDV, suggesting that immune memory raised against a shared antigen may be sufficient to control a peripherally replicating virus, but not a highly neurotropic virus that is able to avoid activation of T cells. This difference might be due to the lack of BDV-specific CD4 T cells and/or inefficient reactivation of DC-primed, BDV-specific CD8 T cells by the locally restricted BDV infection. Thus, a successful vaccine against persistent viruses with strong neurotropism should probably induce antiviral CD8 (as well as CD4) T-cell responses and should favour the accumulation of virus-specific memory T cells in cervical lymph nodes.</Abstract>
+            <ArticleYear>2004</ArticleYear>
+            <ArticlePages>2379-87</ArticlePages>
+            <ArticleTitle>Immunization with dendritic cells can break immunological ignorance toward a persisting virus in the central nervous system and induce partial protection against intracerebral viral challenge.</ArticleTitle>
+            <Authors>
+                <Author>
+                    <LastName>Fassnacht</LastName>
+                    <ForeName>Ulrike</ForeName>
+                </Author>
+                <Author>
+                    <LastName>Ackermann</LastName>
+                    <ForeName>Andreas</ForeName>
+                </Author>
+                <Author>
+                    <LastName>Staeheli</LastName>
+                    <ForeName>Peter</ForeName>
+                </Author>
+                <Author>
+                    <LastName>Hausmann</LastName>
+                    <ForeName>Jürgen</ForeName>
+                </Author>
+            </Authors>
+            <Affiliations>Department of Virology, University of Freiburg, Hermann-Herder-Str. 11, D-79104 Freiburg, Germany.</Affiliations>
+            <ArticleChemicalList>Nucleocapsid Proteins;Peptide Fragments</ArticleChemicalList>
+            <ArticleMeshHeadingsList>Animals; Borna disease virus(immunology); Brain(virology); Dendritic Cells(immunology); Immunization; Immunologic Memory; Mice; Nucleocapsid Proteins(immunology); Peptide Fragments(immunology)</ArticleMeshHeadingsList>
+            <Journal>
+                <Volume>85</Volume>
+                <Issue>Pt 8</Issue>
+                <Title>The Journal of general virology</Title>
+                <Issn>1465-2099</Issn>
+                <MedlineTa>J Gen Virol</MedlineTa>
+            </Journal>
+        </Article>
+        <Epitopes>
+            <Epitope>
+                <EpitopeStructure>
+                    <FragmentOfANaturalSequenceMolecule>
+                        <ChemicalType>Peptide from protein</ChemicalType>
+                        <LinearSequence>TELEISSI</LinearSequence>
+                        <StartingPosition>129</StartingPosition>
+                        <EndingPosition>136</EndingPosition>
+                        <SourceMolecule>
+                            <GenBankId>Q01552.2</GenBankId>
+                        </SourceMolecule>
+                        <SourceOrganismId>12455</SourceOrganismId>
+                    </FragmentOfANaturalSequenceMolecule>
+                </EpitopeStructure>
+                <LocationOfData>Figure 1</LocationOfData>
+                <EpitopeId>63436</EpitopeId>
+                <EpitopeEvidenceCode>Not determined</EpitopeEvidenceCode>
+                <EpitopeStructureDefines>Exact Epitope</EpitopeStructureDefines>
+                <Assays>
+                    <TCell>
+                        <LocationOfData>Figures 1C and 1D</LocationOfData>
+                        <TCellId>6224</TCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>10000626</OrganismId>
+                                <MhcAlleleTypesPresent>
+                                    <MhcAlleleId>125</MhcAlleleId>
+                                </MhcAlleleTypesPresent>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Administration in vivo</InVivoProcessType>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Epitope</EpitopeRelation>
+                                    <Object>
+                                        <FragmentOfANaturalSequenceMolecule>
+                                            <ChemicalType>Peptide from protein</ChemicalType>
+                                            <LinearSequence>TELEISSI</LinearSequence>
+                                            <StartingPosition>129</StartingPosition>
+                                            <EndingPosition>136</EndingPosition>
+                                            <SourceMolecule>
+                                                <GenBankId>Q01552.2</GenBankId>
+                                            </SourceMolecule>
+                                            <SourceOrganismId>12455</SourceOrganismId>
+                                        </FragmentOfANaturalSequenceMolecule>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenEvidenceCode>Exact match to reference information</ImmunogenEvidenceCode>
+                                <ImmunogenContainingObject>
+                                    <PulsedCell>
+                                        <SubType>Pulsed Cell</SubType>
+                                        <CellType>Dendritic cell</CellType>
+                                        <CellSourceOrganismId>10090</CellSourceOrganismId>
+                                    </PulsedCell>
+                                </ImmunogenContainingObject>
+                                <Route>Intravenous (i.v.)</Route>
+                                <DoseSchedule>Vaccination was performed by injecting 200 microliters of dendritic cell suspension.  Animals were immunized twice at an interval of 1 week with  peptide-loaded dendritic cells from MRL mice.</DoseSchedule>
+                            </FirstInVivoProcess>
+                            <InVitroAdministration>
+                                <ProcessType>Restimulation in vitro</ProcessType>
+                                <ResponderCellType>Splenocyte</ResponderCellType>
+                                <StimulatorCellType>Splenocyte</StimulatorCellType>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Epitope</EpitopeRelation>
+                                    <Object>
+                                        <FragmentOfANaturalSequenceMolecule>
+                                            <ChemicalType>Peptide from protein</ChemicalType>
+                                            <LinearSequence>TELEISSI</LinearSequence>
+                                            <StartingPosition>129</StartingPosition>
+                                            <EndingPosition>136</EndingPosition>
+                                            <SourceMolecule>
+                                                <GenBankId>Q01552.2</GenBankId>
+                                            </SourceMolecule>
+                                            <SourceOrganismId>12455</SourceOrganismId>
+                                        </FragmentOfANaturalSequenceMolecule>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenEvidenceCode>Exact match to reference information</ImmunogenEvidenceCode>
+                            </InVitroAdministration>
+                        </Immunization>
+                        <EffectorCells>
+                            <CellTissueType>Spleen</CellTissueType>
+                            <CellType>T cell CD8+</CellType>
+                            <CellCultureConditions>Short Term Restimulated</CellCultureConditions>
+                        </EffectorCells>
+                        <MhcAllele>
+                            <MhcAlleleId>125</MhcAlleleId>
+                            <MhcEvidenceCode>Not determined</MhcEvidenceCode>
+                        </MhcAllele>
+                        <Antigen>
+                            <AntigenObject>
+                                <EpitopeRelation>Epitope</EpitopeRelation>
+                                <Object>
+                                    <FragmentOfANaturalSequenceMolecule>
+                                        <ChemicalType>Peptide from protein</ChemicalType>
+                                        <LinearSequence>TELEISSI</LinearSequence>
+                                        <StartingPosition>129</StartingPosition>
+                                        <EndingPosition>136</EndingPosition>
+                                        <SourceMolecule>
+                                            <GenBankId>Q01552.2</GenBankId>
+                                        </SourceMolecule>
+                                        <SourceOrganismId>12455</SourceOrganismId>
+                                    </FragmentOfANaturalSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Exact match to reference information</AntigenEvidenceCode>
+                        </Antigen>
+                        <AssayInformation>
+                            <AssayTypeId>47</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <QuantitativeMeasurement>5.1</QuantitativeMeasurement>
+                            <AssayComments>It was also shown that cultures containing &gt;10% tetramer-positive CD8+ T cells displayed high TELEISSI-specific lytic activity,whereas cultures that contained only around 1–2% tetramer-positive CD8 T cells had moderate CTL activity.</AssayComments>
+                        </AssayInformation>
+                    </TCell>
+                </Assays>
+                <Assays>
+                    <TCell>
+                        <LocationOfData>Figures 1A and 1B</LocationOfData>
+                        <TCellId>6223</TCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>10000626</OrganismId>
+                                <MhcAlleleTypesPresent>
+                                    <MhcAlleleId>125</MhcAlleleId>
+                                </MhcAlleleTypesPresent>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Administration in vivo</InVivoProcessType>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Epitope</EpitopeRelation>
+                                    <Object>
+                                        <FragmentOfANaturalSequenceMolecule>
+                                            <ChemicalType>Peptide from protein</ChemicalType>
+                                            <LinearSequence>TELEISSI</LinearSequence>
+                                            <StartingPosition>129</StartingPosition>
+                                            <EndingPosition>136</EndingPosition>
+                                            <SourceMolecule>
+                                                <GenBankId>Q01552.2</GenBankId>
+                                            </SourceMolecule>
+                                            <SourceOrganismId>12455</SourceOrganismId>
+                                        </FragmentOfANaturalSequenceMolecule>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenEvidenceCode>Exact match to reference information</ImmunogenEvidenceCode>
+                                <ImmunogenContainingObject>
+                                    <PulsedCell>
+                                        <SubType>Pulsed Cell</SubType>
+                                        <CellType>Dendritic cell</CellType>
+                                        <CellSourceOrganismId>10090</CellSourceOrganismId>
+                                    </PulsedCell>
+                                </ImmunogenContainingObject>
+                                <Route>Intravenous (i.v.)</Route>
+                                <DoseSchedule>Vaccination was performed by injecting 200 microliters of dendritic cell suspension.  Animals were immunized twice at an interval of 1 week with  peptide-loaded dendritic cells from MRL mice.</DoseSchedule>
+                            </FirstInVivoProcess>
+                            <InVitroAdministration>
+                                <ProcessType>Restimulation in vitro</ProcessType>
+                                <ResponderCellType>Splenocyte</ResponderCellType>
+                                <StimulatorCellType>Splenocyte</StimulatorCellType>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Epitope</EpitopeRelation>
+                                    <Object>
+                                        <FragmentOfANaturalSequenceMolecule>
+                                            <ChemicalType>Peptide from protein</ChemicalType>
+                                            <LinearSequence>TELEISSI</LinearSequence>
+                                            <StartingPosition>129</StartingPosition>
+                                            <EndingPosition>136</EndingPosition>
+                                            <SourceMolecule>
+                                                <GenBankId>Q01552.2</GenBankId>
+                                            </SourceMolecule>
+                                            <SourceOrganismId>12455</SourceOrganismId>
+                                        </FragmentOfANaturalSequenceMolecule>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenEvidenceCode>Exact match to reference information</ImmunogenEvidenceCode>
+                            </InVitroAdministration>
+                        </Immunization>
+                        <EffectorCells>
+                            <CellTissueType>Spleen</CellTissueType>
+                            <CellType>T cell CD8+</CellType>
+                            <CellCultureConditions>Short Term Restimulated</CellCultureConditions>
+                        </EffectorCells>
+                        <AntigenPresentingCells>
+                            <CellType>Other</CellType>
+                            <CellCultureConditions>Cell Line / Clone</CellCultureConditions>
+                            <AutologousOrSyngeneic>N</AutologousOrSyngeneic>
+                        </AntigenPresentingCells>
+                        <MhcAllele>
+                            <MhcAlleleId>125</MhcAlleleId>
+                            <MhcEvidenceCode>Not determined</MhcEvidenceCode>
+                        </MhcAllele>
+                        <Antigen>
+                            <AntigenObject>
+                                <EpitopeRelation>Epitope</EpitopeRelation>
+                                <Object>
+                                    <FragmentOfANaturalSequenceMolecule>
+                                        <ChemicalType>Peptide from protein</ChemicalType>
+                                        <LinearSequence>TELEISSI</LinearSequence>
+                                        <StartingPosition>129</StartingPosition>
+                                        <EndingPosition>136</EndingPosition>
+                                        <SourceMolecule>
+                                            <GenBankId>Q01552.2</GenBankId>
+                                        </SourceMolecule>
+                                        <SourceOrganismId>12455</SourceOrganismId>
+                                    </FragmentOfANaturalSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Exact match to reference information</AntigenEvidenceCode>
+                        </Antigen>
+                        <AssayInformation>
+                            <AssayTypeId>67</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <AssayComments>To improve detection of TELEISSI-specific CD8+ T cells after dendritic cell immunization, an additional booster immunization with peptide-pulsed DCs in F1 (MRLxB10.BR) mice was performed. Following this vaccination scheme high levels of lytic activity after secondary in vitro restimulation of splenocytes from immunized mice were obtained. Target cells were peptide-pulsed L929 cells.  A similar experiment was also performed using peptide-pulsed RDM-4 cells as targets with responses detected at low levels.</AssayComments>
+                        </AssayInformation>
+                    </TCell>
+                </Assays>
+                <Assays>
+                    <TCell>
+                        <LocationOfData>Figures 3A and 3C</LocationOfData>
+                        <TCellId>6225</TCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>10000626</OrganismId>
+                                <MhcAlleleTypesPresent>
+                                    <MhcAlleleId>125</MhcAlleleId>
+                                </MhcAlleleTypesPresent>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Administration in vivo to prevent or reduce disease</InVivoProcessType>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Epitope</EpitopeRelation>
+                                    <Object>
+                                        <FragmentOfANaturalSequenceMolecule>
+                                            <ChemicalType>Peptide from protein</ChemicalType>
+                                            <LinearSequence>TELEISSI</LinearSequence>
+                                            <StartingPosition>129</StartingPosition>
+                                            <EndingPosition>136</EndingPosition>
+                                            <SourceMolecule>
+                                                <GenBankId>Q01552.2</GenBankId>
+                                            </SourceMolecule>
+                                            <SourceOrganismId>12455</SourceOrganismId>
+                                        </FragmentOfANaturalSequenceMolecule>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenEvidenceCode>Exact match to reference information</ImmunogenEvidenceCode>
+                                <ImmunogenContainingObject>
+                                    <PulsedCell>
+                                        <SubType>Pulsed Cell</SubType>
+                                        <CellType>Dendritic cell</CellType>
+                                        <CellSourceOrganismId>10090</CellSourceOrganismId>
+                                    </PulsedCell>
+                                </ImmunogenContainingObject>
+                                <Route>Intravenous (i.v.)</Route>
+                                <DoseSchedule>Vaccination was performed by injecting 200 microliters of dendritic cell suspension.  Animals were immunized twice at an interval of 1 week with  peptide-loaded dendritic cells from MRL mice.</DoseSchedule>
+                            </FirstInVivoProcess>
+                        </Immunization>
+                        <MhcAllele>
+                            <MhcAlleleId>125</MhcAlleleId>
+                            <MhcEvidenceCode>Not determined</MhcEvidenceCode>
+                        </MhcAllele>
+                        <Antigen>
+                            <AntigenReferenceName>N protein</AntigenReferenceName>
+                            <AntigenObject>
+                                <EpitopeRelation>Source Antigen</EpitopeRelation>
+                                <Object>
+                                    <AccessionSequenceMolecule>
+                                        <ChemicalType>Protein</ChemicalType>
+                                        <Molecule>
+                                            <GenBankId>Q01552.2</GenBankId>
+                                        </Molecule>
+                                        <SourceOrganismId>12455</SourceOrganismId>
+                                    </AccessionSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Not determined</AntigenEvidenceCode>
+                            <AntigenContainingObject>
+                                <RecombinantOrganism>
+                                    <SubType>Recombinant Organism</SubType>
+                                    <RecombinantOrganismId>10245</RecombinantOrganismId>
+                                </RecombinantOrganism>
+                            </AntigenContainingObject>
+                        </Antigen>
+                        <AssayInformation>
+                            <AssayTypeId>182</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <NumberOfSubjectsTested>5</NumberOfSubjectsTested>
+                            <NumberOfSubjectsResponded>5</NumberOfSubjectsResponded>
+                            <ResponseFrequency>100</ResponseFrequency>
+                            <AssayComments>To measure protective immunity induced by immunization with TELEISSI-loaded dendritic cells,  vaccinated B10.BR mice were challenged with vaccinia virus expressing Borna Disease Virus N protein.  Vaccinia virus replication was assessed in the ovaries. Animals that were immunized with TELEISSI-loaded dendritic cells showed solid protection against challenge with Vaccinai virus-N protein. Virus spread in brain neurons was also shown to be significantly reduced after immunization and challenge (4 out of 6 animals had no virus antigen in the CNS).  It was also shown that immunization with peptide-loaded dendritic cells can break immunological ignorance in Borna Virus-infected mice.</AssayComments>
+                        </AssayInformation>
+                    </TCell>
+                </Assays>
+            </Epitope>
+        </Epitopes>
+    </Reference>
+</References>
+

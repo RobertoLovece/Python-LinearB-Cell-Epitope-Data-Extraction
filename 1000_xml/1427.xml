@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<References xsi:schemaLocation="http://www.iedb.org/schema/CurationSchema http://beta.iedb.org/schema/Curation.xsd" xmlns="http://www.iedb.org/schema/CurationSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <Reference>
+        <ReferenceId>1427</ReferenceId>
+        <DateLastUpdated>2020-09-10-07:00</DateLastUpdated>
+        <Article>
+            <PubmedId>9765498</PubmedId>
+            <Abstract>We defined the epitopes recognized by three influenza A virus-specific, H-2Kd-restricted CD8(+) cytotoxic T-lymphocyte (CTL) clones: H1-specific clone A-12, H2-specific clone F-4, and H1- and H2-cross-reactive clone B7-B7. The A-12 and B7-B7 clones recognized the same peptide, which comprises amino acids 533 to 541 (IYSTVASSL) of A/PR/8 hemagglutinin (HA). The F-4 and B7-B7 clones both recognized the peptide which comprise amino acids 529 to 537 (IYATVAGSL) of A/Jap HA. Amino acids 533 to 541 of A/PR/8 HA are compatible with amino acids 529 to 537 of A/Jap HA. Amino acid S at positions 3 and 7 was responsible for recognition by H1-specific clone A-12, while amino acid G at position 7 was responsible for recognition by H2-specific clone F-4. Two conserved amino acids, T at position 4 and A at position 6, were responsible for recognition by H1-, and H2-cross-reactive clone B7-B7. These results indicate that a single nine-amino-acid region is recognized by HA-specific CTL clones of three different subtype specificities and that the amino acids responsible for the recognition by the CTL clones are different.</Abstract>
+            <ArticleYear>1998</ArticleYear>
+            <ArticlePages>9404-6</ArticlePages>
+            <ArticleTitle>Definition of amino acid residues on the epitope responsible for recognition by influenza A virus H1-specific, H2-specific, and H1- and H2-cross-reactive murine cytotoxic T-lymphocyte clones.</ArticleTitle>
+            <Authors>
+                <Author>
+                    <LastName>Tamura</LastName>
+                    <ForeName>M</ForeName>
+                </Author>
+                <Author>
+                    <LastName>Kuwano</LastName>
+                    <ForeName>K</ForeName>
+                </Author>
+                <Author>
+                    <LastName>Kurane</LastName>
+                    <ForeName>I</ForeName>
+                </Author>
+                <Author>
+                    <LastName>Ennis</LastName>
+                    <ForeName>F A</ForeName>
+                </Author>
+            </Authors>
+            <Affiliations>Center for Infectious Disease and Vaccine Research, University of Massachusetts Medical Center, Worcester, Massachusetts, USA.</Affiliations>
+            <ArticleChemicalList>Epitopes;H-2 Antigens;H-2K(K) antigen;Hemagglutinin Glycoproteins, Influenza Virus</ArticleChemicalList>
+            <ArticleMeshHeadingsList>Amino Acid Sequence; Animals; Clone Cells; Cross Reactions; Epitopes(genetics); H-2 Antigens; Hemagglutinin Glycoproteins, Influenza Virus(genetics; immunology); Influenza A virus(genetics; immunology); Male; Mice; Mice, Inbred BALB C; T-Lymphocytes, Cytotoxic(immunology)</ArticleMeshHeadingsList>
+            <Journal>
+                <Volume>72</Volume>
+                <Issue>11</Issue>
+                <Title>Journal of virology</Title>
+                <Issn>1098-5514</Issn>
+                <MedlineTa>J Virol</MedlineTa>
+            </Journal>
+        </Article>
+        <Epitopes>
+            <Epitope>
+                <EpitopeStructure>
+                    <FragmentOfANaturalSequenceMolecule>
+                        <ChemicalType>Peptide from protein</ChemicalType>
+                        <LinearSequence>IYSTVASSL</LinearSequence>
+                        <StartingPosition>533</StartingPosition>
+                        <EndingPosition>541</EndingPosition>
+                        <SourceMolecule>
+                            <IedbAccession>SRC133</IedbAccession>
+                        </SourceMolecule>
+                        <SourceOrganismId>211044</SourceOrganismId>
+                    </FragmentOfANaturalSequenceMolecule>
+                </EpitopeStructure>
+                <LocationOfData>Table 2</LocationOfData>
+                <EpitopeId>29690</EpitopeId>
+                <ReferenceStartingPosition>533</ReferenceStartingPosition>
+                <ReferenceEndingPosition>541</ReferenceEndingPosition>
+                <EpitopeEvidenceCode>Not determined</EpitopeEvidenceCode>
+                <EpitopeStructureDefines>Exact Epitope</EpitopeStructureDefines>
+                <EpitopeComments>Amino acid substitution studies revealed that S3 and S7 are essential for recognition by T cell clones.</EpitopeComments>
+                <Assays>
+                    <TCell>
+                        <LocationOfData>Figure 1</LocationOfData>
+                        <TCellId>22176</TCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>10000000</OrganismId>
+                                <Sex>M</Sex>
+                                <Age>4-5 weeks-old</Age>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Administration in vivo</InVivoProcessType>
+                                <DiseaseState>ONTIE:0003423</DiseaseState>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Source Organism</EpitopeRelation>
+                                    <Object>
+                                        <Organism>
+                                            <SubType>Organism</SubType>
+                                            <SourceOrganismId>211044</SourceOrganismId>
+                                        </Organism>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenEvidenceCode>Not determined</ImmunogenEvidenceCode>
+                            </FirstInVivoProcess>
+                            <InVitroAdministration>
+                                <ProcessType>Restimulation in vitro</ProcessType>
+                            </InVitroAdministration>
+                        </Immunization>
+                        <EffectorCells>
+                            <CellTissueType>Spleen</CellTissueType>
+                            <CellType>T cell</CellType>
+                            <CellCultureConditions>Cell Line / Clone</CellCultureConditions>
+                        </EffectorCells>
+                        <AntigenPresentingCells>
+                            <CellTissueType>Other</CellTissueType>
+                            <CellType>P815-Mast cell</CellType>
+                            <CellCultureConditions>Cell Line / Clone</CellCultureConditions>
+                            <AutologousOrSyngeneic>N</AutologousOrSyngeneic>
+                        </AntigenPresentingCells>
+                        <MhcAllele>
+                            <MhcAlleleId>124</MhcAlleleId>
+                            <MhcEvidenceCode>Not determined</MhcEvidenceCode>
+                        </MhcAllele>
+                        <Antigen>
+                            <AntigenObject>
+                                <EpitopeRelation>Epitope</EpitopeRelation>
+                                <Object>
+                                    <FragmentOfANaturalSequenceMolecule>
+                                        <ChemicalType>Peptide from protein</ChemicalType>
+                                        <LinearSequence>IYSTVASSL</LinearSequence>
+                                        <StartingPosition>533</StartingPosition>
+                                        <EndingPosition>541</EndingPosition>
+                                        <SourceMolecule>
+                                            <IedbAccession>SRC133</IedbAccession>
+                                        </SourceMolecule>
+                                        <SourceOrganismId>211044</SourceOrganismId>
+                                    </FragmentOfANaturalSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Exact match to reference information</AntigenEvidenceCode>
+                        </Antigen>
+                        <AssayInformation>
+                            <AssayTypeId>67</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <AssayComments>This epitope was recognized by two virus-specific clones: an H1-specific clone, and an H1- and H2-cross-reactive clone.  Another epitope (IYSTVAGSL), which was a hybrid of the two epitopes described in this reference, was recognized by two virus-specific clones: an H2-specific clone, and an H1- and H2-cross-reactive clone.</AssayComments>
+                        </AssayInformation>
+                    </TCell>
+                </Assays>
+            </Epitope>
+            <Epitope>
+                <EpitopeStructure>
+                    <FragmentOfANaturalSequenceMolecule>
+                        <ChemicalType>Peptide from protein</ChemicalType>
+                        <LinearSequence>IYATVAGSL</LinearSequence>
+                        <StartingPosition>529</StartingPosition>
+                        <EndingPosition>537</EndingPosition>
+                        <SourceMolecule>
+                            <GenBankId>P03451.1</GenBankId>
+                        </SourceMolecule>
+                        <SourceOrganismId>387161</SourceOrganismId>
+                    </FragmentOfANaturalSequenceMolecule>
+                </EpitopeStructure>
+                <LocationOfData>Table 2</LocationOfData>
+                <EpitopeId>29560</EpitopeId>
+                <ReferenceStartingPosition>529</ReferenceStartingPosition>
+                <ReferenceEndingPosition>537</ReferenceEndingPosition>
+                <EpitopeEvidenceCode>Not determined</EpitopeEvidenceCode>
+                <EpitopeStructureDefines>Exact Epitope</EpitopeStructureDefines>
+                <EpitopeComments>Amino acid substitution studies revealed that T4 and A6 are essential for recognition by T cell clones.</EpitopeComments>
+                <Assays>
+                    <TCell>
+                        <LocationOfData>Figure 1</LocationOfData>
+                        <TCellId>22178</TCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>10000000</OrganismId>
+                                <Sex>M</Sex>
+                                <Age>4-5 weeks-old</Age>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Administration in vivo</InVivoProcessType>
+                                <DiseaseState>ONTIE:0003423</DiseaseState>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Source Organism</EpitopeRelation>
+                                    <Object>
+                                        <Organism>
+                                            <SubType>Organism</SubType>
+                                            <SourceOrganismId>387161</SourceOrganismId>
+                                        </Organism>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenEvidenceCode>Not determined</ImmunogenEvidenceCode>
+                            </FirstInVivoProcess>
+                            <InVitroAdministration>
+                                <ProcessType>Restimulation in vitro</ProcessType>
+                            </InVitroAdministration>
+                        </Immunization>
+                        <EffectorCells>
+                            <CellTissueType>Spleen</CellTissueType>
+                            <CellType>T cell</CellType>
+                            <CellCultureConditions>Cell Line / Clone</CellCultureConditions>
+                        </EffectorCells>
+                        <AntigenPresentingCells>
+                            <CellTissueType>Other</CellTissueType>
+                            <CellType>P815-Mast cell</CellType>
+                            <CellCultureConditions>Cell Line / Clone</CellCultureConditions>
+                            <AutologousOrSyngeneic>N</AutologousOrSyngeneic>
+                        </AntigenPresentingCells>
+                        <MhcAllele>
+                            <MhcAlleleId>124</MhcAlleleId>
+                            <MhcEvidenceCode>Not determined</MhcEvidenceCode>
+                        </MhcAllele>
+                        <Antigen>
+                            <AntigenObject>
+                                <EpitopeRelation>Epitope</EpitopeRelation>
+                                <Object>
+                                    <FragmentOfANaturalSequenceMolecule>
+                                        <ChemicalType>Peptide from protein</ChemicalType>
+                                        <LinearSequence>IYATVAGSL</LinearSequence>
+                                        <StartingPosition>529</StartingPosition>
+                                        <EndingPosition>537</EndingPosition>
+                                        <SourceMolecule>
+                                            <GenBankId>P03451.1</GenBankId>
+                                        </SourceMolecule>
+                                        <SourceOrganismId>387161</SourceOrganismId>
+                                    </FragmentOfANaturalSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Exact match to reference information</AntigenEvidenceCode>
+                        </Antigen>
+                        <AssayInformation>
+                            <AssayTypeId>67</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <AssayComments>This epitope was recognized by a virus-specific, H1- and H2-cross-reactive clone.  Another epitope (IYSTVAGSL), which was a hybrid of the two epitopes described in this reference, was recognized by two virus-specific clones: an H2-specific clone, and an H1- and H2-cross-reactive clone.</AssayComments>
+                        </AssayInformation>
+                    </TCell>
+                </Assays>
+            </Epitope>
+        </Epitopes>
+    </Reference>
+</References>
+

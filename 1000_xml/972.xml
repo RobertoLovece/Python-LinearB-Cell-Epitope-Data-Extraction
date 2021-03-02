@@ -1,0 +1,613 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<References xsi:schemaLocation="http://www.iedb.org/schema/CurationSchema http://beta.iedb.org/schema/Curation.xsd" xmlns="http://www.iedb.org/schema/CurationSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <Reference>
+        <ReferenceId>972</ReferenceId>
+        <DateLastUpdated>2020-09-10-07:00</DateLastUpdated>
+        <Article>
+            <PubmedId>7679858</PubmedId>
+            <Abstract>The nonstructural protein NS1 of influenza A/PR/8/34 virus has previously been reported to be recognized by murine Kk-restricted cytotoxic T lymphocytes (CTL), although the sequence of the epitope was not defined. A Kk-specific motif has previously been published and consists of a glutamic acid or (less frequently) an aspartic acid at position 2 and an isoleucine at the carboxyl terminus of a peptide eight or nine residues long. This motif was used here to predict the sequence of the NS1 epitope, which was defined as a nonapeptide corresponding to amino acid residues 152-160, sequence EEGAIVGEI. This is the first CTL epitope to be defined within the NS1 protein of the influenza A virus. A model of how this epitope could bind to the Kk molecule was produced by homology modelling from an X-ray crystal structure of a human HLA/peptide complex.</Abstract>
+            <ArticleYear>1993</ArticleYear>
+            <ArticlePages>289-95</ArticlePages>
+            <ArticleTitle>Precise prediction of a Kk-restricted cytotoxic T cell epitope in the NS1 protein of influenza virus using an MHC allele-specific motif.</ArticleTitle>
+            <Authors>
+                <Author>
+                    <LastName>Cossins</LastName>
+                    <ForeName>J</ForeName>
+                </Author>
+                <Author>
+                    <LastName>Gould</LastName>
+                    <ForeName>K G</ForeName>
+                </Author>
+                <Author>
+                    <LastName>Smith</LastName>
+                    <ForeName>M</ForeName>
+                </Author>
+                <Author>
+                    <LastName>Driscoll</LastName>
+                    <ForeName>P</ForeName>
+                </Author>
+                <Author>
+                    <LastName>Brownlee</LastName>
+                    <ForeName>G G</ForeName>
+                </Author>
+            </Authors>
+            <Affiliations>Sir William Dunn School of Pathology, University of Oxford, United Kingdom.</Affiliations>
+            <ArticleChemicalList>Epitopes;Viral Nonstructural Proteins</ArticleChemicalList>
+            <ArticleMeshHeadingsList>Alleles; Amino Acid Sequence; Animals; Binding Sites; Cell Line; Epitopes(chemistry); Influenza A virus(immunology); Major Histocompatibility Complex(immunology); Mice; Models, Molecular; Molecular Sequence Data; T-Lymphocytes, Cytotoxic(immunology); Viral Nonstructural Proteins(immunology)</ArticleMeshHeadingsList>
+            <Journal>
+                <Volume>193</Volume>
+                <Issue>1</Issue>
+                <Title>Virology</Title>
+                <Issn>0042-6822</Issn>
+                <MedlineTa>Virology</MedlineTa>
+            </Journal>
+        </Article>
+        <Epitopes>
+            <Epitope>
+                <EpitopeName>Influenza NS1 (152-160)</EpitopeName>
+                <EpitopeStructure>
+                    <FragmentOfANaturalSequenceMolecule>
+                        <ChemicalType>Peptide from protein</ChemicalType>
+                        <LinearSequence>EEGAIVGEI</LinearSequence>
+                        <StartingPosition>152</StartingPosition>
+                        <EndingPosition>160</EndingPosition>
+                        <SourceMolecule>
+                            <GenBankId>P03496.1</GenBankId>
+                        </SourceMolecule>
+                        <SourceOrganismId>211044</SourceOrganismId>
+                    </FragmentOfANaturalSequenceMolecule>
+                </EpitopeStructure>
+                <LocationOfData>Table 1</LocationOfData>
+                <EpitopeId>11640</EpitopeId>
+                <ReferenceStartingPosition>152</ReferenceStartingPosition>
+                <ReferenceEndingPosition>160</ReferenceEndingPosition>
+                <EpitopeEvidenceCode>Not determined</EpitopeEvidenceCode>
+                <EpitopeStructureDefines>Exact Epitope</EpitopeStructureDefines>
+                <Assays>
+                    <TCell>
+                        <LocationOfData>Figure 4</LocationOfData>
+                        <TCellId>11908</TCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>10000228</OrganismId>
+                                <Sex>F</Sex>
+                                <Age>3 months-old</Age>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Administration in vivo</InVivoProcessType>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Source Antigen</EpitopeRelation>
+                                    <Object>
+                                        <AccessionSequenceMolecule>
+                                            <ChemicalType>Protein</ChemicalType>
+                                            <Molecule>
+                                                <GenBankId>P03496.1</GenBankId>
+                                            </Molecule>
+                                            <SourceOrganismId>211044</SourceOrganismId>
+                                        </AccessionSequenceMolecule>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenEvidenceCode>Not determined</ImmunogenEvidenceCode>
+                                <ImmunogenContainingObject>
+                                    <RecombinantOrganism>
+                                        <SubType>Recombinant Organism</SubType>
+                                        <RecombinantOrganismId>10245</RecombinantOrganismId>
+                                    </RecombinantOrganism>
+                                </ImmunogenContainingObject>
+                                <Route>Intravenous (i.v.)</Route>
+                            </FirstInVivoProcess>
+                            <InVitroAdministration>
+                                <ProcessType>Restimulation in vitro</ProcessType>
+                                <ResponderCellType>Splenocyte</ResponderCellType>
+                                <StimulatorCellType>Splenocyte</StimulatorCellType>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Source Organism</EpitopeRelation>
+                                    <Object>
+                                        <Organism>
+                                            <SubType>Organism</SubType>
+                                            <SourceOrganismId>211044</SourceOrganismId>
+                                        </Organism>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenEvidenceCode>Not determined</ImmunogenEvidenceCode>
+                            </InVitroAdministration>
+                            <ImmunizationComments>Two weeks after immunization, spleen cells were stimulated in vitro with influenza A/PR/8/34-infected feeder spleen cells.</ImmunizationComments>
+                        </Immunization>
+                        <EffectorCells>
+                            <CellTissueType>Spleen</CellTissueType>
+                            <CellType>T cell</CellType>
+                            <CellCultureConditions>Cell Line / Clone</CellCultureConditions>
+                        </EffectorCells>
+                        <AntigenPresentingCells>
+                            <CellTissueType>Central nervous system (CNS)</CellTissueType>
+                            <CellType>Other</CellType>
+                            <CellCultureConditions>Cell Line / Clone</CellCultureConditions>
+                            <AutologousOrSyngeneic>N</AutologousOrSyngeneic>
+                        </AntigenPresentingCells>
+                        <MhcAllele>
+                            <MhcAlleleId>125</MhcAlleleId>
+                            <MhcEvidenceCode>Not determined</MhcEvidenceCode>
+                        </MhcAllele>
+                        <Antigen>
+                            <AntigenReferenceName>Influenza NS1 (152-160)</AntigenReferenceName>
+                            <AntigenObject>
+                                <EpitopeRelation>Epitope</EpitopeRelation>
+                                <Object>
+                                    <FragmentOfANaturalSequenceMolecule>
+                                        <ChemicalType>Peptide from protein</ChemicalType>
+                                        <LinearSequence>EEGAIVGEI</LinearSequence>
+                                        <StartingPosition>152</StartingPosition>
+                                        <EndingPosition>160</EndingPosition>
+                                        <SourceMolecule>
+                                            <GenBankId>P03496.1</GenBankId>
+                                        </SourceMolecule>
+                                        <SourceOrganismId>211044</SourceOrganismId>
+                                    </FragmentOfANaturalSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Exact match to reference information</AntigenEvidenceCode>
+                        </Antigen>
+                        <AssayInformation>
+                            <AssayTypeId>67</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <AssayComments>The target cells were NA neuroblastoma cells, which were matched with the CTL at the K&lt;sup&gt;k&lt;/sup&gt; locus.</AssayComments>
+                        </AssayInformation>
+                    </TCell>
+                </Assays>
+                <Assays>
+                    <TCell>
+                        <LocationOfData>Figure 2</LocationOfData>
+                        <TCellId>11873</TCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>10000228</OrganismId>
+                                <Sex>F</Sex>
+                                <Age>3 months-old</Age>
+                                <MhcAlleleTypesPresent>
+                                    <MhcAlleleId>125</MhcAlleleId>
+                                    <MhcAlleleId>174</MhcAlleleId>
+                                </MhcAlleleTypesPresent>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Administration in vivo</InVivoProcessType>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Source Antigen</EpitopeRelation>
+                                    <Object>
+                                        <AccessionSequenceMolecule>
+                                            <ChemicalType>Protein</ChemicalType>
+                                            <Molecule>
+                                                <GenBankId>P03496.1</GenBankId>
+                                            </Molecule>
+                                            <SourceOrganismId>211044</SourceOrganismId>
+                                        </AccessionSequenceMolecule>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenEvidenceCode>Not determined</ImmunogenEvidenceCode>
+                                <ImmunogenContainingObject>
+                                    <RecombinantOrganism>
+                                        <SubType>Recombinant Organism</SubType>
+                                        <RecombinantOrganismId>10245</RecombinantOrganismId>
+                                    </RecombinantOrganism>
+                                </ImmunogenContainingObject>
+                                <Route>Intravenous (i.v.)</Route>
+                            </FirstInVivoProcess>
+                            <InVitroAdministration>
+                                <ProcessType>Restimulation in vitro</ProcessType>
+                                <ResponderCellType>Splenocyte</ResponderCellType>
+                                <StimulatorCellType>Splenocyte</StimulatorCellType>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Source Organism</EpitopeRelation>
+                                    <Object>
+                                        <Organism>
+                                            <SubType>Organism</SubType>
+                                            <SourceOrganismId>211044</SourceOrganismId>
+                                        </Organism>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenEvidenceCode>Not determined</ImmunogenEvidenceCode>
+                            </InVitroAdministration>
+                            <ImmunizationComments>Two weeks after immunization, spleen cells were stimulated in vitro with influenza A/PR/8/34-infected feeder spleen cells.</ImmunizationComments>
+                        </Immunization>
+                        <EffectorCells>
+                            <CellTissueType>Spleen</CellTissueType>
+                            <CellType>T cell</CellType>
+                            <CellCultureConditions>Cell Line / Clone</CellCultureConditions>
+                        </EffectorCells>
+                        <AntigenPresentingCells>
+                            <CellTissueType>Other</CellTissueType>
+                            <CellType>L cells-Fibroblast</CellType>
+                            <CellCultureConditions>Cell Line / Clone</CellCultureConditions>
+                            <AutologousOrSyngeneic>N</AutologousOrSyngeneic>
+                        </AntigenPresentingCells>
+                        <MhcAllele>
+                            <MhcAlleleId>125</MhcAlleleId>
+                            <MhcEvidenceCode>MHC binding assay</MhcEvidenceCode>
+                        </MhcAllele>
+                        <Antigen>
+                            <AntigenReferenceName>Influenza NS1 (152-160)</AntigenReferenceName>
+                            <AntigenObject>
+                                <EpitopeRelation>Epitope</EpitopeRelation>
+                                <Object>
+                                    <FragmentOfANaturalSequenceMolecule>
+                                        <ChemicalType>Peptide from protein</ChemicalType>
+                                        <LinearSequence>EEGAIVGEI</LinearSequence>
+                                        <StartingPosition>152</StartingPosition>
+                                        <EndingPosition>160</EndingPosition>
+                                        <SourceMolecule>
+                                            <GenBankId>P03496.1</GenBankId>
+                                        </SourceMolecule>
+                                        <SourceOrganismId>211044</SourceOrganismId>
+                                    </FragmentOfANaturalSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Exact match to reference information</AntigenEvidenceCode>
+                        </Antigen>
+                        <AssayInformation>
+                            <AssayTypeId>67</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <AssayComments>Removal of the amino and carboxy-terminal residues (EEGAIVGE, and EGAIVGEI) resulted in a very significant or complete loss of recognition by CTL, respectively.</AssayComments>
+                        </AssayInformation>
+                    </TCell>
+                </Assays>
+                <Assays>
+                    <MhcBinding>
+                        <LocationOfData>Figure 3</LocationOfData>
+                        <MhcBindingId>14462</MhcBindingId>
+                        <AssayInformation>
+                            <AssayTypeId>226</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <AssayComments>A functional competition assay was used to investigate the binding of the epitope to the K&lt;sup&gt;k&lt;/sup&gt; molecule, and it was shown that the epitope significantly inhibited the binding of a known  K&lt;sup&gt;k&lt;/sup&gt; binder (IEGGWTGMIDGW).  The truncated versions of the epitope, however, reduced or completely stopped this inhibition.</AssayComments>
+                        </AssayInformation>
+                        <MhcAlleleId>125</MhcAlleleId>
+                    </MhcBinding>
+                </Assays>
+            </Epitope>
+            <Epitope>
+                <EpitopeName>Influenza NP (50-57)</EpitopeName>
+                <EpitopeStructure>
+                    <FragmentOfANaturalSequenceMolecule>
+                        <ChemicalType>Peptide from protein</ChemicalType>
+                        <LinearSequence>SDYEGRLI</LinearSequence>
+                        <StartingPosition>50</StartingPosition>
+                        <EndingPosition>57</EndingPosition>
+                        <SourceMolecule>
+                            <GenBankId>Q67228</GenBankId>
+                        </SourceMolecule>
+                        <SourceOrganismId>211044</SourceOrganismId>
+                    </FragmentOfANaturalSequenceMolecule>
+                </EpitopeStructure>
+                <LocationOfData>Table 1</LocationOfData>
+                <EpitopeId>57322</EpitopeId>
+                <ReferenceStartingPosition>50</ReferenceStartingPosition>
+                <ReferenceEndingPosition>57</ReferenceEndingPosition>
+                <EpitopeEvidenceCode>Not determined</EpitopeEvidenceCode>
+                <EpitopeStructureDefines>Exact Epitope</EpitopeStructureDefines>
+                <Assays>
+                    <TCell>
+                        <LocationOfData>Table 1</LocationOfData>
+                        <TCellId>11919</TCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>10000228</OrganismId>
+                                <Sex>F</Sex>
+                                <Age>3 months-old</Age>
+                                <MhcAlleleTypesPresent>
+                                    <MhcAlleleId>125</MhcAlleleId>
+                                    <MhcAlleleId>174</MhcAlleleId>
+                                </MhcAlleleTypesPresent>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Administration in vivo</InVivoProcessType>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Source Antigen</EpitopeRelation>
+                                    <Object>
+                                        <AccessionSequenceMolecule>
+                                            <ChemicalType>Protein</ChemicalType>
+                                            <Molecule>
+                                                <GenBankId>Q67228</GenBankId>
+                                            </Molecule>
+                                            <SourceOrganismId>211044</SourceOrganismId>
+                                        </AccessionSequenceMolecule>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenEvidenceCode>Not determined</ImmunogenEvidenceCode>
+                                <ImmunogenContainingObject>
+                                    <RecombinantOrganism>
+                                        <SubType>Recombinant Organism</SubType>
+                                        <RecombinantOrganismId>10245</RecombinantOrganismId>
+                                    </RecombinantOrganism>
+                                </ImmunogenContainingObject>
+                                <Route>Intravenous (i.v.)</Route>
+                            </FirstInVivoProcess>
+                            <InVitroAdministration>
+                                <ProcessType>Restimulation in vitro</ProcessType>
+                                <ResponderCellType>Splenocyte</ResponderCellType>
+                                <StimulatorCellType>Splenocyte</StimulatorCellType>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Source Organism</EpitopeRelation>
+                                    <Object>
+                                        <Organism>
+                                            <SubType>Organism</SubType>
+                                            <SourceOrganismId>211044</SourceOrganismId>
+                                        </Organism>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenEvidenceCode>Not determined</ImmunogenEvidenceCode>
+                            </InVitroAdministration>
+                            <ImmunizationComments>Two weeks after immunization, spleen cells were stimulated in vitro with influenza A/PR/8/34-infected feeder spleen cells.</ImmunizationComments>
+                        </Immunization>
+                        <EffectorCells>
+                            <CellTissueType>Spleen</CellTissueType>
+                            <CellType>T cell</CellType>
+                            <CellCultureConditions>Cell Line / Clone</CellCultureConditions>
+                        </EffectorCells>
+                        <AntigenPresentingCells>
+                            <CellTissueType>Other</CellTissueType>
+                            <CellType>L cells-Fibroblast</CellType>
+                            <CellCultureConditions>Cell Line / Clone</CellCultureConditions>
+                            <AutologousOrSyngeneic>N</AutologousOrSyngeneic>
+                        </AntigenPresentingCells>
+                        <MhcAllele>
+                            <MhcAlleleId>120</MhcAlleleId>
+                            <MhcEvidenceCode>T cell assay -Biological process measured</MhcEvidenceCode>
+                        </MhcAllele>
+                        <Antigen>
+                            <AntigenReferenceName>Influenza NP (50-57)</AntigenReferenceName>
+                            <AntigenObject>
+                                <EpitopeRelation>Epitope</EpitopeRelation>
+                                <Object>
+                                    <FragmentOfANaturalSequenceMolecule>
+                                        <ChemicalType>Peptide from protein</ChemicalType>
+                                        <LinearSequence>SDYEGRLI</LinearSequence>
+                                        <StartingPosition>50</StartingPosition>
+                                        <EndingPosition>57</EndingPosition>
+                                        <SourceMolecule>
+                                            <GenBankId>Q67228</GenBankId>
+                                        </SourceMolecule>
+                                        <SourceOrganismId>211044</SourceOrganismId>
+                                    </FragmentOfANaturalSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Exact match to reference information</AntigenEvidenceCode>
+                        </Antigen>
+                        <AssayInformation>
+                            <AssayTypeId>67</AssayTypeId>
+                            <QualitativeMeasurement>Negative</QualitativeMeasurement>
+                        </AssayInformation>
+                    </TCell>
+                </Assays>
+            </Epitope>
+            <Epitope>
+                <EpitopeName>Influenza HA (259-266)</EpitopeName>
+                <EpitopeStructure>
+                    <FragmentOfANaturalSequenceMolecule>
+                        <ChemicalType>Peptide from protein</ChemicalType>
+                        <LinearSequence>FEANGNLI</LinearSequence>
+                        <StartingPosition>259</StartingPosition>
+                        <EndingPosition>266</EndingPosition>
+                        <SourceMolecule>
+                            <IedbAccession>SRC133</IedbAccession>
+                        </SourceMolecule>
+                        <SourceOrganismId>211044</SourceOrganismId>
+                    </FragmentOfANaturalSequenceMolecule>
+                </EpitopeStructure>
+                <LocationOfData>Table 1</LocationOfData>
+                <EpitopeId>15483</EpitopeId>
+                <ReferenceStartingPosition>259</ReferenceStartingPosition>
+                <ReferenceEndingPosition>266</ReferenceEndingPosition>
+                <EpitopeEvidenceCode>Not determined</EpitopeEvidenceCode>
+                <EpitopeStructureDefines>Exact Epitope</EpitopeStructureDefines>
+                <Assays>
+                    <TCell>
+                        <LocationOfData>Table 1</LocationOfData>
+                        <TCellId>11921</TCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>10000228</OrganismId>
+                                <Sex>F</Sex>
+                                <Age>3 months-old</Age>
+                                <MhcAlleleTypesPresent>
+                                    <MhcAlleleId>125</MhcAlleleId>
+                                    <MhcAlleleId>174</MhcAlleleId>
+                                </MhcAlleleTypesPresent>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Administration in vivo</InVivoProcessType>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Source Antigen</EpitopeRelation>
+                                    <Object>
+                                        <AccessionSequenceMolecule>
+                                            <ChemicalType>Protein</ChemicalType>
+                                            <Molecule>
+                                                <IedbAccession>SRC133</IedbAccession>
+                                            </Molecule>
+                                            <SourceOrganismId>211044</SourceOrganismId>
+                                        </AccessionSequenceMolecule>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenEvidenceCode>Internal Identifier-no external match available</ImmunogenEvidenceCode>
+                                <ImmunogenContainingObject>
+                                    <RecombinantOrganism>
+                                        <SubType>Recombinant Organism</SubType>
+                                        <RecombinantOrganismId>10245</RecombinantOrganismId>
+                                    </RecombinantOrganism>
+                                </ImmunogenContainingObject>
+                                <Route>Intravenous (i.v.)</Route>
+                            </FirstInVivoProcess>
+                            <InVitroAdministration>
+                                <ProcessType>Restimulation in vitro</ProcessType>
+                                <ResponderCellType>Splenocyte</ResponderCellType>
+                                <StimulatorCellType>Splenocyte</StimulatorCellType>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Source Organism</EpitopeRelation>
+                                    <Object>
+                                        <Organism>
+                                            <SubType>Organism</SubType>
+                                            <SourceOrganismId>211044</SourceOrganismId>
+                                        </Organism>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenEvidenceCode>Not determined</ImmunogenEvidenceCode>
+                            </InVitroAdministration>
+                            <ImmunizationComments>Two weeks after immunization, spleen cells were stimulated in vitro with influenza A/PR/8/34-infected feeder spleen cells.</ImmunizationComments>
+                        </Immunization>
+                        <EffectorCells>
+                            <CellTissueType>Spleen</CellTissueType>
+                            <CellType>T cell</CellType>
+                            <CellCultureConditions>Cell Line / Clone</CellCultureConditions>
+                        </EffectorCells>
+                        <AntigenPresentingCells>
+                            <CellTissueType>Other</CellTissueType>
+                            <CellType>L cells-Fibroblast</CellType>
+                            <CellCultureConditions>Cell Line / Clone</CellCultureConditions>
+                            <AutologousOrSyngeneic>N</AutologousOrSyngeneic>
+                        </AntigenPresentingCells>
+                        <MhcAllele>
+                            <MhcAlleleId>120</MhcAlleleId>
+                            <MhcEvidenceCode>T cell assay -Biological process measured</MhcEvidenceCode>
+                        </MhcAllele>
+                        <Antigen>
+                            <AntigenReferenceName>Influenza HA (259-266)</AntigenReferenceName>
+                            <AntigenObject>
+                                <EpitopeRelation>Epitope</EpitopeRelation>
+                                <Object>
+                                    <FragmentOfANaturalSequenceMolecule>
+                                        <ChemicalType>Peptide from protein</ChemicalType>
+                                        <LinearSequence>FEANGNLI</LinearSequence>
+                                        <StartingPosition>259</StartingPosition>
+                                        <EndingPosition>266</EndingPosition>
+                                        <SourceMolecule>
+                                            <IedbAccession>SRC133</IedbAccession>
+                                        </SourceMolecule>
+                                        <SourceOrganismId>211044</SourceOrganismId>
+                                    </FragmentOfANaturalSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Exact match to reference information</AntigenEvidenceCode>
+                        </Antigen>
+                        <AssayInformation>
+                            <AssayTypeId>67</AssayTypeId>
+                            <QualitativeMeasurement>Negative</QualitativeMeasurement>
+                        </AssayInformation>
+                    </TCell>
+                </Assays>
+            </Epitope>
+            <Epitope>
+                <EpitopeName>Influenza HA (354-362)</EpitopeName>
+                <EpitopeStructure>
+                    <FragmentOfANaturalSequenceMolecule>
+                        <ChemicalType>Peptide from protein</ChemicalType>
+                        <LinearSequence>IEGGWTGMI</LinearSequence>
+                        <StartingPosition>354</StartingPosition>
+                        <EndingPosition>362</EndingPosition>
+                        <SourceMolecule>
+                            <IedbAccession>SRC133</IedbAccession>
+                        </SourceMolecule>
+                        <SourceOrganismId>211044</SourceOrganismId>
+                    </FragmentOfANaturalSequenceMolecule>
+                </EpitopeStructure>
+                <LocationOfData>Table 1</LocationOfData>
+                <EpitopeId>25818</EpitopeId>
+                <ReferenceStartingPosition>354</ReferenceStartingPosition>
+                <ReferenceEndingPosition>362</ReferenceEndingPosition>
+                <EpitopeEvidenceCode>Not determined</EpitopeEvidenceCode>
+                <EpitopeStructureDefines>Exact Epitope</EpitopeStructureDefines>
+                <Assays>
+                    <TCell>
+                        <LocationOfData>Table 1</LocationOfData>
+                        <TCellId>11922</TCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>10000228</OrganismId>
+                                <Sex>F</Sex>
+                                <Age>3 months-old</Age>
+                                <MhcAlleleTypesPresent>
+                                    <MhcAlleleId>125</MhcAlleleId>
+                                    <MhcAlleleId>174</MhcAlleleId>
+                                </MhcAlleleTypesPresent>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Administration in vivo</InVivoProcessType>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Source Antigen</EpitopeRelation>
+                                    <Object>
+                                        <AccessionSequenceMolecule>
+                                            <ChemicalType>Protein</ChemicalType>
+                                            <Molecule>
+                                                <IedbAccession>SRC133</IedbAccession>
+                                            </Molecule>
+                                            <SourceOrganismId>211044</SourceOrganismId>
+                                        </AccessionSequenceMolecule>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenEvidenceCode>Internal Identifier-no external match available</ImmunogenEvidenceCode>
+                                <ImmunogenContainingObject>
+                                    <RecombinantOrganism>
+                                        <SubType>Recombinant Organism</SubType>
+                                        <RecombinantOrganismId>10245</RecombinantOrganismId>
+                                    </RecombinantOrganism>
+                                </ImmunogenContainingObject>
+                                <Route>Intravenous (i.v.)</Route>
+                            </FirstInVivoProcess>
+                            <InVitroAdministration>
+                                <ProcessType>Restimulation in vitro</ProcessType>
+                                <ResponderCellType>Splenocyte</ResponderCellType>
+                                <StimulatorCellType>Splenocyte</StimulatorCellType>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Source Organism</EpitopeRelation>
+                                    <Object>
+                                        <Organism>
+                                            <SubType>Organism</SubType>
+                                            <SourceOrganismId>211044</SourceOrganismId>
+                                        </Organism>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenEvidenceCode>Not determined</ImmunogenEvidenceCode>
+                            </InVitroAdministration>
+                            <ImmunizationComments>Two weeks after immunization, spleen cells were stimulated in vitro with influenza A/PR/8/34-infected feeder spleen cells.</ImmunizationComments>
+                        </Immunization>
+                        <EffectorCells>
+                            <CellTissueType>Spleen</CellTissueType>
+                            <CellType>T cell</CellType>
+                            <CellCultureConditions>Cell Line / Clone</CellCultureConditions>
+                        </EffectorCells>
+                        <AntigenPresentingCells>
+                            <CellTissueType>Other</CellTissueType>
+                            <CellType>L cells-Fibroblast</CellType>
+                            <CellCultureConditions>Cell Line / Clone</CellCultureConditions>
+                            <AutologousOrSyngeneic>N</AutologousOrSyngeneic>
+                        </AntigenPresentingCells>
+                        <MhcAllele>
+                            <MhcAlleleId>120</MhcAlleleId>
+                            <MhcEvidenceCode>T cell assay -Biological process measured</MhcEvidenceCode>
+                        </MhcAllele>
+                        <Antigen>
+                            <AntigenReferenceName>Influenza HA (354-362)</AntigenReferenceName>
+                            <AntigenObject>
+                                <EpitopeRelation>Epitope</EpitopeRelation>
+                                <Object>
+                                    <FragmentOfANaturalSequenceMolecule>
+                                        <ChemicalType>Peptide from protein</ChemicalType>
+                                        <LinearSequence>IEGGWTGMI</LinearSequence>
+                                        <StartingPosition>354</StartingPosition>
+                                        <EndingPosition>362</EndingPosition>
+                                        <SourceMolecule>
+                                            <IedbAccession>SRC133</IedbAccession>
+                                        </SourceMolecule>
+                                        <SourceOrganismId>211044</SourceOrganismId>
+                                    </FragmentOfANaturalSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Exact match to reference information</AntigenEvidenceCode>
+                        </Antigen>
+                        <AssayInformation>
+                            <AssayTypeId>67</AssayTypeId>
+                            <QualitativeMeasurement>Negative</QualitativeMeasurement>
+                        </AssayInformation>
+                    </TCell>
+                </Assays>
+            </Epitope>
+        </Epitopes>
+    </Reference>
+</References>
+

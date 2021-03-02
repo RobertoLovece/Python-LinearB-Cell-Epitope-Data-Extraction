@@ -8,7 +8,7 @@ import glob
 import os
 
 path = "{http://www.iedb.org/schema/CurationSchema}"
-xml_path = 'example_XML/*.xml'
+xml_path = '1000_xml/*.xml'
 file_path = 'output/iedb_extractor_output.csv'
 
 def iedb_extract():
@@ -17,6 +17,7 @@ def iedb_extract():
     processed_array = []
 
     # iterates through all xml files in xml_path directory
+    # replace glob maybe
     for xml in glob.iglob(xml_path):
         try:
             root = et.parse(xml).getroot()

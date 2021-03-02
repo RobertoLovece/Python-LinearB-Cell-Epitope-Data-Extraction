@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<References xsi:schemaLocation="http://www.iedb.org/schema/CurationSchema http://beta.iedb.org/schema/Curation.xsd" xmlns="http://www.iedb.org/schema/CurationSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <Reference>
+        <ReferenceId>1045</ReferenceId>
+        <DateLastUpdated>2020-09-10-07:00</DateLastUpdated>
+        <Article>
+            <PubmedId>11090168</PubmedId>
+            <Abstract>The recall of CD8(+) T-cell memory established by infecting H-2(b) mice with an H1N1 influenza A virus provided a measure of protection against an extremely virulent H7N7 virus. The numbers of CD8(+) effector and memory T cells specific for the shared, immunodominant D(b)NP(366) epitope were greatly increased subsequent to the H7N7 challenge, and though lung titers remained as high as those in naive controls for 5 days or more, the virus was cleared more rapidly. Expanding the CD8(+) memory T-cell pool (&lt;0.5 to &gt;10%) by sequential priming with two different influenza A viruses (H3N2--&gt;H1N1) gave much better protection. Though the H7N7 virus initially grew to equivalent titers in the lungs of naive and double-primed mice, the replicative phase was substantially controlled within 3 days. This tertiary H7N7 challenge caused little increase in the magnitude of the CD8(+) D(b)NP(366)(+) T-cell pool, and only a portion of the memory population in the lymphoid tissue could be shown to proliferate. The great majority of the CD8(+) D(b)NP(366)(+) set that localized to the infected respiratory tract had, however, cycled at least once, though recent cell division was shown not to be a prerequisite for T-cell extravasation. The selective induction of CD8(+) T-cell memory can thus greatly limit the damage caused by a virulent influenza A virus, with the extent of protection being directly related to the number of available responders. Furthermore, a large pool of CD8(+) memory T cells may be only partially utilized to deal with a potentially lethal influenza infection.</Abstract>
+            <ArticleYear>2000</ArticleYear>
+            <ArticlePages>11690-6</ArticlePages>
+            <ArticleTitle>Profound protection against respiratory challenge with a lethal H7N7 influenza A virus by increasing the magnitude of CD8(+) T-cell memory.</ArticleTitle>
+            <Authors>
+                <Author>
+                    <LastName>Christensen</LastName>
+                    <ForeName>J P</ForeName>
+                </Author>
+                <Author>
+                    <LastName>Doherty</LastName>
+                    <ForeName>P C</ForeName>
+                </Author>
+                <Author>
+                    <LastName>Branum</LastName>
+                    <ForeName>K C</ForeName>
+                </Author>
+                <Author>
+                    <LastName>Riberdy</LastName>
+                    <ForeName>J M</ForeName>
+                </Author>
+            </Authors>
+            <Affiliations>Department of Immunology, St. Jude Children's Research Hospital, Memphis, Tennessee 38105, USA.</Affiliations>
+            <ArticleChemicalList>Influenza Vaccines;Vaccines, Inactivated</ArticleChemicalList>
+            <ArticleMeshHeadingsList>Animals; CD8-Positive T-Lymphocytes(immunology); Female; Immunologic Memory; Influenza A Virus, H7N7 Subtype; Influenza A virus(immunology); Influenza Vaccines; Mice; Orthomyxoviridae Infections(immunology; prevention &amp; control); Vaccines, Inactivated</ArticleMeshHeadingsList>
+            <Journal>
+                <Volume>74</Volume>
+                <Issue>24</Issue>
+                <Title>Journal of virology</Title>
+                <Issn>1098-5514</Issn>
+                <MedlineTa>J Virol</MedlineTa>
+            </Journal>
+        </Article>
+        <Epitopes>
+            <Epitope>
+                <EpitopeName>NP 366-374</EpitopeName>
+                <EpitopeStructure>
+                    <FragmentOfANaturalSequenceMolecule>
+                        <ChemicalType>Peptide from protein</ChemicalType>
+                        <LinearSequence>ASNENMETM</LinearSequence>
+                        <StartingPosition>366</StartingPosition>
+                        <EndingPosition>374</EndingPosition>
+                        <SourceMolecule>
+                            <IedbAccession>SRC124</IedbAccession>
+                        </SourceMolecule>
+                        <SourceOrganismId>211044</SourceOrganismId>
+                    </FragmentOfANaturalSequenceMolecule>
+                </EpitopeStructure>
+                <LocationOfData>Text p. 11691</LocationOfData>
+                <EpitopeId>4602</EpitopeId>
+                <ReferenceStartingPosition>366</ReferenceStartingPosition>
+                <ReferenceEndingPosition>374</ReferenceEndingPosition>
+                <EpitopeEvidenceCode>Not determined</EpitopeEvidenceCode>
+                <EpitopeStructureDefines>Exact Epitope</EpitopeStructureDefines>
+                <Assays>
+                    <TCell>
+                        <LocationOfData>Figures 3, 4</LocationOfData>
+                        <TCellId>1007183</TCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>10000067</OrganismId>
+                                <Sex>F</Sex>
+                                <Age>8-10 weeks-old</Age>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Administration in vivo</InVivoProcessType>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Source Organism</EpitopeRelation>
+                                    <Object>
+                                        <Organism>
+                                            <SubType>Organism</SubType>
+                                            <SourceOrganismId>211044</SourceOrganismId>
+                                        </Organism>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenReferenceName>Influenza A virus (A/Puerto Rico/8/34(H1N1))</ImmunogenReferenceName>
+                                <ImmunogenEvidenceCode>Not determined</ImmunogenEvidenceCode>
+                                <Route>Intraperitoneal (i.p.)</Route>
+                            </FirstInVivoProcess>
+                            <ImmunizationComments>H1N1-primed mice that had been further infected i.n. with an H3N2 virus were challenged with mouse-adapted A/equine/London/72 (H7N7) Influenza A virus.</ImmunizationComments>
+                        </Immunization>
+                        <EffectorCells>
+                            <CellTissueType>Bronchial Aveolar Lavage (BAL)</CellTissueType>
+                            <CellType>T cell CD8+</CellType>
+                            <CellCultureConditions>Direct Ex Vivo</CellCultureConditions>
+                        </EffectorCells>
+                        <MhcAllele>
+                            <MhcAlleleId>172</MhcAlleleId>
+                            <MhcEvidenceCode>Not determined</MhcEvidenceCode>
+                        </MhcAllele>
+                        <Antigen>
+                            <AntigenReferenceName>NP 366-374</AntigenReferenceName>
+                            <AntigenObject>
+                                <EpitopeRelation>Epitope</EpitopeRelation>
+                                <Object>
+                                    <FragmentOfANaturalSequenceMolecule>
+                                        <ChemicalType>Peptide from protein</ChemicalType>
+                                        <LinearSequence>ASNENMETM</LinearSequence>
+                                        <StartingPosition>366</StartingPosition>
+                                        <EndingPosition>374</EndingPosition>
+                                        <SourceMolecule>
+                                            <IedbAccession>SRC124</IedbAccession>
+                                        </SourceMolecule>
+                                        <SourceOrganismId>211044</SourceOrganismId>
+                                    </FragmentOfANaturalSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Exact match to reference information</AntigenEvidenceCode>
+                        </Antigen>
+                        <AssayInformation>
+                            <AssayTypeId>47</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <AssayComments>The total number of CD8&lt;sup&gt;+&lt;/sup&gt; D&lt;sup&gt;b&lt;/sup&gt;NP&lt;sub&gt;366&lt;/sub&gt;&lt;sup&gt;+&lt;/sup&gt; T cells were quantified in mediastinal lymph node, spleen, and bronchoalveolar lavage populations after primary, secondary, and tertiary influenza infection.  Naive mice, mice that had been exposed i.p. to an H1N1 virus, and H1N1-primed mice that had been further infected i.n. with an H3N2 virus were used.  The bronchoalveolar lavage levels in the tertiary group did not reach levels found in the secondary response group, and were shown to rapidly control infection, while the levels in the mediastinal lymph node and spleen were comparable between the two groups.  This CD8&lt;sup&gt;+&lt;/sup&gt; T cell response was found to be protective after treatment of double-primed mice with monoclonal antibodies to CD8 cells resulted in increased viral titers.</AssayComments>
+                        </AssayInformation>
+                    </TCell>
+                </Assays>
+                <Assays>
+                    <TCell>
+                        <LocationOfData>Figures 5, 6</LocationOfData>
+                        <TCellId>1007395</TCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>10000067</OrganismId>
+                                <Sex>F</Sex>
+                                <Age>8-10 weeks-old</Age>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Administration in vivo</InVivoProcessType>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Source Organism</EpitopeRelation>
+                                    <Object>
+                                        <Organism>
+                                            <SubType>Organism</SubType>
+                                            <SourceOrganismId>211044</SourceOrganismId>
+                                        </Organism>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenReferenceName>Influenza A virus (A/Puerto Rico/8/34(H1N1))</ImmunogenReferenceName>
+                                <ImmunogenEvidenceCode>Not determined</ImmunogenEvidenceCode>
+                                <Route>Intraperitoneal (i.p.)</Route>
+                            </FirstInVivoProcess>
+                            <ImmunizationComments>H1N1-primed mice that had been further infected i.n. with an H3N2 virus were challenged with mouse-adapted A/equine/London/72 (H7N7) Influenza A virus.</ImmunizationComments>
+                        </Immunization>
+                        <EffectorCells>
+                            <CellTissueType>Bronchial Aveolar Lavage (BAL)</CellTissueType>
+                            <CellType>T cell CD8+</CellType>
+                            <CellCultureConditions>Direct Ex Vivo</CellCultureConditions>
+                        </EffectorCells>
+                        <AntigenPresentingCells>
+                            <CellTissueType>Bronchial Aveolar Lavage (BAL)</CellTissueType>
+                            <CellType>T cell</CellType>
+                            <CellCultureConditions>Direct Ex Vivo</CellCultureConditions>
+                        </AntigenPresentingCells>
+                        <MhcAllele>
+                            <MhcAlleleId>172</MhcAlleleId>
+                            <MhcEvidenceCode>Not determined</MhcEvidenceCode>
+                        </MhcAllele>
+                        <Antigen>
+                            <AntigenReferenceName>NP 366-374</AntigenReferenceName>
+                            <AntigenObject>
+                                <EpitopeRelation>Epitope</EpitopeRelation>
+                                <Object>
+                                    <FragmentOfANaturalSequenceMolecule>
+                                        <ChemicalType>Peptide from protein</ChemicalType>
+                                        <LinearSequence>ASNENMETM</LinearSequence>
+                                        <StartingPosition>366</StartingPosition>
+                                        <EndingPosition>374</EndingPosition>
+                                        <SourceMolecule>
+                                            <IedbAccession>SRC124</IedbAccession>
+                                        </SourceMolecule>
+                                        <SourceOrganismId>211044</SourceOrganismId>
+                                    </FragmentOfANaturalSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Exact match to reference information</AntigenEvidenceCode>
+                        </Antigen>
+                        <AssayInformation>
+                            <AssayTypeId>200</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <AssayComments>H1N1-primed mice that had been further infected i.n. with an H3N2 virus were challenged with H7N7 virus.  This tertiary H7N7 challenge was shown to cause little increase in the magnitude of of the CD8&lt;sup&gt;+&lt;/sup&gt; D&lt;sup&gt;b&lt;/sup&gt;NP&lt;sub&gt;366&lt;/sub&gt;&lt;sup&gt;+&lt;/sup&gt; T cell pool, and only a portion of the memory population in the lymphoid tissue could be shown to proliferate.  Although the majority of CD8&lt;sup&gt;+&lt;/sup&gt; D&lt;sup&gt;b&lt;/sup&gt;NP&lt;sub&gt;366&lt;/sub&gt;&lt;sup&gt;+&lt;/sup&gt; T cells that localized to the infected respiratory tract had cycled at least once, recent cell division was not a prerequisite for T cell extravasation.</AssayComments>
+                        </AssayInformation>
+                    </TCell>
+                </Assays>
+            </Epitope>
+        </Epitopes>
+    </Reference>
+</References>
+

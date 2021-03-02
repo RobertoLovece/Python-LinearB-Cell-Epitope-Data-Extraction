@@ -1,0 +1,717 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<References xsi:schemaLocation="http://www.iedb.org/schema/CurationSchema http://beta.iedb.org/schema/Curation.xsd" xmlns="http://www.iedb.org/schema/CurationSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <Reference>
+        <ReferenceId>1233</ReferenceId>
+        <DateLastUpdated>2020-09-10-07:00</DateLastUpdated>
+        <Article>
+            <PubmedId>12648842</PubmedId>
+            <Abstract>The identification of T cell epitopes is crucial for the understanding of the host response during infections with pathogenic microorganisms. Generally, the identification of relevant T cell responses is based on the analysis of T cell lines propagated in vitro. We used an ex vivo approach for the analysis of the CD8 T cell response against Listeria monocytogenes that is based upon the fractionation of naturally processed antigenic peptides and subsequent analysis with T cells in an enzyme-linked immunospot (ELISPOT) assay. Our data indicate that the direct ex vivo ELISPOT analysis of peptides extracted from infected tissues represents a versatile and potent test system for the analysis of the CD8 T cell immunome of microorganisms that furthermore requires neither the knowledge of the microbial genome nor of the specificity of responding T cells.</Abstract>
+            <ArticleYear>2003</ArticleYear>
+            <ArticlePages>235-42</ArticlePages>
+            <ArticleTitle>CD8 T cell immunome analysis of Listeria monocytogenes.</ArticleTitle>
+            <Authors>
+                <Author>
+                    <LastName>Kamm</LastName>
+                    <ForeName>Christian</ForeName>
+                </Author>
+                <Author>
+                    <LastName>Skoberne</LastName>
+                    <ForeName>Mojca</ForeName>
+                </Author>
+                <Author>
+                    <LastName>Geginat</LastName>
+                    <ForeName>Gernot</ForeName>
+                </Author>
+            </Authors>
+            <Affiliations>Institut für Medizinische Mikrobiologie und Hygiene, Fakultät für Klinische Medizin Mannheim der Universität Heidelberg, Theodor-Kutzer-Ufer 1-3, 68167 Mannheim, Germany.</Affiliations>
+            <ArticleChemicalList>Antigens, Bacterial;Epitopes;H-2 Antigens;Peptide Fragments</ArticleChemicalList>
+            <ArticleMeshHeadingsList>Animals; Antigen Presentation; Antigens, Bacterial(immunology); CD8-Positive T-Lymphocytes(immunology); Cell Line; Enzyme-Linked Immunosorbent Assay; Epitopes(immunology); Female; H-2 Antigens(immunology); L Cells(microbiology); Listeria monocytogenes(immunology); Listeriosis(immunology; microbiology); Mice; Mice, Inbred BALB C; Peptide Fragments(immunology; isolation &amp; purification); Spleen(immunology); Transfection</ArticleMeshHeadingsList>
+            <Journal>
+                <Volume>35</Volume>
+                <Issue>3</Issue>
+                <Title>FEMS immunology and medical microbiology</Title>
+                <Issn>1574-695X</Issn>
+                <MedlineTa>FEMS Immunol Med Microbiol</MedlineTa>
+            </Journal>
+        </Article>
+        <Epitopes>
+            <Epitope>
+                <EpitopeName>LLO 91-99</EpitopeName>
+                <EpitopeStructure>
+                    <FragmentOfANaturalSequenceMolecule>
+                        <ChemicalType>Peptide from protein</ChemicalType>
+                        <LinearSequence>GYKDGNEYI</LinearSequence>
+                        <StartingPosition>91</StartingPosition>
+                        <EndingPosition>99</EndingPosition>
+                        <SourceMolecule>
+                            <GenBankId>P13128.1</GenBankId>
+                        </SourceMolecule>
+                        <SourceOrganismId>1639</SourceOrganismId>
+                    </FragmentOfANaturalSequenceMolecule>
+                </EpitopeStructure>
+                <LocationOfData>Author Communication</LocationOfData>
+                <EpitopeId>23376</EpitopeId>
+                <ReferenceStartingPosition>91</ReferenceStartingPosition>
+                <ReferenceEndingPosition>99</ReferenceEndingPosition>
+                <EpitopeEvidenceCode>Representative selection</EpitopeEvidenceCode>
+                <EpitopeStructureDefines>Exact Epitope</EpitopeStructureDefines>
+                <Assays>
+                    <TCell>
+                        <LocationOfData>Figure 1</LocationOfData>
+                        <TCellId>17947</TCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>10000000</OrganismId>
+                                <Sex>F</Sex>
+                                <Age>8-10 wk</Age>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Administration in vivo</InVivoProcessType>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Taxonomic Child</EpitopeRelation>
+                                    <Object>
+                                        <Organism>
+                                            <SubType>Organism</SubType>
+                                            <SourceOrganismId>1334565</SourceOrganismId>
+                                        </Organism>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenEvidenceCode>Exact match to reference information</ImmunogenEvidenceCode>
+                                <Route>Intravenous (i.v.)</Route>
+                                <DoseSchedule>1 dose of 10&lt;sup&gt;3&lt;/sup&gt; CFU.</DoseSchedule>
+                            </FirstInVivoProcess>
+                            <InVitroAdministration>
+                                <ProcessType>Restimulation in vitro</ProcessType>
+                                <ResponderCellType>Splenocyte</ResponderCellType>
+                                <StimulatorCellType>Splenocyte</StimulatorCellType>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Epitope</EpitopeRelation>
+                                    <Object>
+                                        <FragmentOfANaturalSequenceMolecule>
+                                            <ChemicalType>Peptide from protein</ChemicalType>
+                                            <LinearSequence>GYKDGNEYI</LinearSequence>
+                                            <StartingPosition>91</StartingPosition>
+                                            <EndingPosition>99</EndingPosition>
+                                            <SourceMolecule>
+                                                <GenBankId>P13128.1</GenBankId>
+                                            </SourceMolecule>
+                                            <SourceOrganismId>1639</SourceOrganismId>
+                                        </FragmentOfANaturalSequenceMolecule>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenEvidenceCode>Exact match to reference information</ImmunogenEvidenceCode>
+                            </InVitroAdministration>
+                            <ImmunizationComments>Spleens were harvested 14 days after immunization.  In vitro restimulation was used to enhance the sensitivity of the ELISPOT assay, providing a higher signal-to-noise ratio.</ImmunizationComments>
+                        </Immunization>
+                        <EffectorCells>
+                            <CellTissueType>Spleen</CellTissueType>
+                            <CellType>T cell CD8+</CellType>
+                            <CellCultureConditions>Short Term Restimulated</CellCultureConditions>
+                        </EffectorCells>
+                        <AntigenPresentingCells>
+                            <CellTissueType>Spleen</CellTissueType>
+                            <CellType>Splenocyte</CellType>
+                            <CellCultureConditions>Direct Ex Vivo</CellCultureConditions>
+                            <AutologousOrSyngeneic>Y</AutologousOrSyngeneic>
+                        </AntigenPresentingCells>
+                        <MhcAllele>
+                            <MhcAlleleId>124</MhcAlleleId>
+                            <MhcEvidenceCode>MHC binding assay</MhcEvidenceCode>
+                        </MhcAllele>
+                        <Antigen>
+                            <AntigenReferenceName>LLO 91-99</AntigenReferenceName>
+                            <AntigenObject>
+                                <EpitopeRelation>Epitope</EpitopeRelation>
+                                <Object>
+                                    <FragmentOfANaturalSequenceMolecule>
+                                        <ChemicalType>Peptide from protein</ChemicalType>
+                                        <LinearSequence>GYKDGNEYI</LinearSequence>
+                                        <StartingPosition>91</StartingPosition>
+                                        <EndingPosition>99</EndingPosition>
+                                        <SourceMolecule>
+                                            <GenBankId>P13128.1</GenBankId>
+                                        </SourceMolecule>
+                                        <SourceOrganismId>1639</SourceOrganismId>
+                                    </FragmentOfANaturalSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Exact match to reference information</AntigenEvidenceCode>
+                        </Antigen>
+                        <AssayInformation>
+                            <AssayTypeId>48</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <AssayComments>IFN-g secretion in response to this peptide by immune splenocytes is enhanced by previous restimulation with peptide in vitro, with the minimum concentration of epitope needed reduced from 10^-11 in direct ELISPOT to 10^-12 in stimulation -enhanced ELISPOT.</AssayComments>
+                        </AssayInformation>
+                    </TCell>
+                </Assays>
+                <Assays>
+                    <MhcLigandElution>
+                        <LocationOfData>Figure 2</LocationOfData>
+                        <MhcLigandElutionId>17948</MhcLigandElutionId>
+                        <HostOrganism>
+                            <OrganismId>10090</OrganismId>
+                        </HostOrganism>
+                        <InVivoProcess>
+                            <InVivoProcessType>No immunization</InVivoProcessType>
+                        </InVivoProcess>
+                        <InVitroAdministration>
+                            <ProcessType>Antigen administered in vitro</ProcessType>
+                            <ProcessedAntigenObject>
+                                <EpitopeRelation>Taxonomic Child</EpitopeRelation>
+                                <Object>
+                                    <Organism>
+                                        <SubType>Organism</SubType>
+                                        <SourceOrganismId>1334565</SourceOrganismId>
+                                    </Organism>
+                                </Object>
+                            </ProcessedAntigenObject>
+                            <ProcessedAntigenEvidenceCode>Representative selection</ProcessedAntigenEvidenceCode>
+                        </InVitroAdministration>
+                        <AntigenProcessingComments>Naturally processed antigenic peptides were extracted from in vitro infected macrophage-like P388D1 (P388) cells.</AntigenProcessingComments>
+                        <MhcLigand>
+                            <MhcLigandReferenceName>LLO 91-99</MhcLigandReferenceName>
+                            <MhcLigandObject>
+                                <EpitopeRelation>Epitope</EpitopeRelation>
+                                <Object>
+                                    <FragmentOfANaturalSequenceMolecule>
+                                        <ChemicalType>Peptide from protein</ChemicalType>
+                                        <LinearSequence>GYKDGNEYI</LinearSequence>
+                                        <StartingPosition>91</StartingPosition>
+                                        <EndingPosition>99</EndingPosition>
+                                        <SourceMolecule>
+                                            <GenBankId>P13128.1</GenBankId>
+                                        </SourceMolecule>
+                                        <SourceOrganismId>1639</SourceOrganismId>
+                                    </FragmentOfANaturalSequenceMolecule>
+                                </Object>
+                            </MhcLigandObject>
+                        </MhcLigand>
+                        <AntigenPresentingCells>
+                            <CellTissueType>Lymphoid</CellTissueType>
+                            <CellType>Mononuclear cell</CellType>
+                            <CellCultureConditions>Cell Line / Clone</CellCultureConditions>
+                        </AntigenPresentingCells>
+                        <MhcAllele>
+                            <MhcAlleleId>124</MhcAlleleId>
+                            <MhcEvidenceCode>Inferred by motif or alleles present</MhcEvidenceCode>
+                        </MhcAllele>
+                        <AssayInformation>
+                            <AssayTypeId>92</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <AssayComments>Fractions 27/28 form HPLC are shown to correspond to the epitope by recognition by epitope specific T cells. Stimulation provided by that fraction is similar in both a direct ELISPOT assay or with previous restimulation with the same HPLC fraction, but enhanced sensitivity is obtained with the latter. Similar results are obtained when the fractions are derived from splenocytes acutely infected in vivo. The Kd restriction of the presentation was confirmed for the eluted fractions.  Peptides eluted from P338 cells were separated by HPLC and used to stimulate splenocytes from immunized mice.</AssayComments>
+                        </AssayInformation>
+                    </MhcLigandElution>
+                </Assays>
+            </Epitope>
+            <Epitope>
+                <EpitopeName>p60 217-225</EpitopeName>
+                <EpitopeStructure>
+                    <FragmentOfANaturalSequenceMolecule>
+                        <ChemicalType>Peptide from protein</ChemicalType>
+                        <LinearSequence>KYGVSVQDI</LinearSequence>
+                        <StartingPosition>217</StartingPosition>
+                        <EndingPosition>225</EndingPosition>
+                        <SourceMolecule>
+                            <GenBankId>P21171.2</GenBankId>
+                        </SourceMolecule>
+                        <SourceOrganismId>1639</SourceOrganismId>
+                    </FragmentOfANaturalSequenceMolecule>
+                </EpitopeStructure>
+                <LocationOfData>Author Communication</LocationOfData>
+                <EpitopeId>34446</EpitopeId>
+                <ReferenceStartingPosition>217</ReferenceStartingPosition>
+                <ReferenceEndingPosition>225</ReferenceEndingPosition>
+                <EpitopeEvidenceCode>Representative selection</EpitopeEvidenceCode>
+                <EpitopeStructureDefines>Exact Epitope</EpitopeStructureDefines>
+                <EpitopeComments>Formerly known as Invasion-associated protein.</EpitopeComments>
+                <Assays>
+                    <TCell>
+                        <LocationOfData>Figure 1</LocationOfData>
+                        <TCellId>17952</TCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>10000000</OrganismId>
+                                <Sex>F</Sex>
+                                <Age>8-10 wk</Age>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Administration in vivo</InVivoProcessType>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Taxonomic Child</EpitopeRelation>
+                                    <Object>
+                                        <Organism>
+                                            <SubType>Organism</SubType>
+                                            <SourceOrganismId>1334565</SourceOrganismId>
+                                        </Organism>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenEvidenceCode>Exact match to reference information</ImmunogenEvidenceCode>
+                                <Route>Intravenous (i.v.)</Route>
+                                <DoseSchedule>1 dose of 10&lt;sup&gt;3&lt;/sup&gt; CFU.</DoseSchedule>
+                            </FirstInVivoProcess>
+                            <InVitroAdministration>
+                                <ProcessType>Restimulation in vitro</ProcessType>
+                                <ResponderCellType>Splenocyte</ResponderCellType>
+                                <StimulatorCellType>Splenocyte</StimulatorCellType>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Epitope</EpitopeRelation>
+                                    <Object>
+                                        <FragmentOfANaturalSequenceMolecule>
+                                            <ChemicalType>Peptide from protein</ChemicalType>
+                                            <LinearSequence>KYGVSVQDI</LinearSequence>
+                                            <StartingPosition>217</StartingPosition>
+                                            <EndingPosition>225</EndingPosition>
+                                            <SourceMolecule>
+                                                <GenBankId>P21171.2</GenBankId>
+                                            </SourceMolecule>
+                                            <SourceOrganismId>1639</SourceOrganismId>
+                                        </FragmentOfANaturalSequenceMolecule>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenEvidenceCode>Exact match to reference information</ImmunogenEvidenceCode>
+                            </InVitroAdministration>
+                            <ImmunizationComments>Spleens were harvested 14 days after immunization.  In vitro restimulation was used to enhance the sensitivity of the ELISPOT assay, providing a higher signal-to-noise ratio.</ImmunizationComments>
+                        </Immunization>
+                        <EffectorCells>
+                            <CellTissueType>Spleen</CellTissueType>
+                            <CellType>T cell CD8+</CellType>
+                            <CellCultureConditions>Short Term Restimulated</CellCultureConditions>
+                        </EffectorCells>
+                        <AntigenPresentingCells>
+                            <CellTissueType>Spleen</CellTissueType>
+                            <CellType>Splenocyte</CellType>
+                            <CellCultureConditions>Direct Ex Vivo</CellCultureConditions>
+                            <AutologousOrSyngeneic>Y</AutologousOrSyngeneic>
+                        </AntigenPresentingCells>
+                        <MhcAllele>
+                            <MhcAlleleId>124</MhcAlleleId>
+                            <MhcEvidenceCode>MHC binding assay</MhcEvidenceCode>
+                        </MhcAllele>
+                        <Antigen>
+                            <AntigenReferenceName>p60 217-225</AntigenReferenceName>
+                            <AntigenObject>
+                                <EpitopeRelation>Epitope</EpitopeRelation>
+                                <Object>
+                                    <FragmentOfANaturalSequenceMolecule>
+                                        <ChemicalType>Peptide from protein</ChemicalType>
+                                        <LinearSequence>KYGVSVQDI</LinearSequence>
+                                        <StartingPosition>217</StartingPosition>
+                                        <EndingPosition>225</EndingPosition>
+                                        <SourceMolecule>
+                                            <GenBankId>P21171.2</GenBankId>
+                                        </SourceMolecule>
+                                        <SourceOrganismId>1639</SourceOrganismId>
+                                    </FragmentOfANaturalSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Exact match to reference information</AntigenEvidenceCode>
+                        </Antigen>
+                        <AssayInformation>
+                            <AssayTypeId>48</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <AssayComments>Detection of IFN-g secreting cells in response to this peptide from immune splenocytes is enhanced by previous restimulation with peptide in vitro, with the minimum concentration needed reduced from 10^-11 in direct ELISPOT to 10^-12 in stimulation -enhanced ELISPOT.</AssayComments>
+                        </AssayInformation>
+                    </TCell>
+                </Assays>
+                <Assays>
+                    <MhcLigandElution>
+                        <LocationOfData>Figure 2</LocationOfData>
+                        <MhcLigandElutionId>17953</MhcLigandElutionId>
+                        <HostOrganism>
+                            <OrganismId>10090</OrganismId>
+                        </HostOrganism>
+                        <InVivoProcess>
+                            <InVivoProcessType>No immunization</InVivoProcessType>
+                        </InVivoProcess>
+                        <InVitroAdministration>
+                            <ProcessType>Antigen administered in vitro</ProcessType>
+                            <ProcessedAntigenObject>
+                                <EpitopeRelation>Taxonomic Child</EpitopeRelation>
+                                <Object>
+                                    <Organism>
+                                        <SubType>Organism</SubType>
+                                        <SourceOrganismId>1334565</SourceOrganismId>
+                                    </Organism>
+                                </Object>
+                            </ProcessedAntigenObject>
+                            <ProcessedAntigenEvidenceCode>Representative selection</ProcessedAntigenEvidenceCode>
+                        </InVitroAdministration>
+                        <AntigenProcessingComments>Naturally processed antigenic peptides were extracted from in vitro infected macrophage-like P388D1 (P388) cells.</AntigenProcessingComments>
+                        <MhcLigand>
+                            <MhcLigandReferenceName>p60 217-225</MhcLigandReferenceName>
+                            <MhcLigandObject>
+                                <EpitopeRelation>Epitope</EpitopeRelation>
+                                <Object>
+                                    <FragmentOfANaturalSequenceMolecule>
+                                        <ChemicalType>Peptide from protein</ChemicalType>
+                                        <LinearSequence>KYGVSVQDI</LinearSequence>
+                                        <StartingPosition>217</StartingPosition>
+                                        <EndingPosition>225</EndingPosition>
+                                        <SourceMolecule>
+                                            <GenBankId>P21171.2</GenBankId>
+                                        </SourceMolecule>
+                                        <SourceOrganismId>1639</SourceOrganismId>
+                                    </FragmentOfANaturalSequenceMolecule>
+                                </Object>
+                            </MhcLigandObject>
+                        </MhcLigand>
+                        <AntigenPresentingCells>
+                            <CellTissueType>Lymphoid</CellTissueType>
+                            <CellType>Mononuclear cell</CellType>
+                            <CellCultureConditions>Cell Line / Clone</CellCultureConditions>
+                        </AntigenPresentingCells>
+                        <MhcAllele>
+                            <MhcAlleleId>124</MhcAlleleId>
+                            <MhcEvidenceCode>Inferred by motif or alleles present</MhcEvidenceCode>
+                        </MhcAllele>
+                        <AssayInformation>
+                            <AssayTypeId>92</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <AssayComments>Fractions 32/33 from HPLC are shown to correspond to the epitope through recognition by epitope specific T cells. Stimulation provided by that fraction is similar in both a direct ELISPOT assay or with previous restimulation with the same HPLC fraction, but enhanced sensitivity is obtained with the latter. Similar results are obtained when the fractions are derived from splenocytes acutely infected in vivo. The Kd restriction of the presentation was confirmed for the eluted fractions.  Peptides eluted from P338 cells were separated by HPLC and used to stimulate splenocytes from immunized mice.</AssayComments>
+                        </AssayInformation>
+                    </MhcLigandElution>
+                </Assays>
+            </Epitope>
+            <Epitope>
+                <EpitopeName>p60 449-457</EpitopeName>
+                <EpitopeStructure>
+                    <FragmentOfANaturalSequenceMolecule>
+                        <ChemicalType>Peptide from protein</ChemicalType>
+                        <LinearSequence>IYVGNGQMI</LinearSequence>
+                        <StartingPosition>449</StartingPosition>
+                        <EndingPosition>457</EndingPosition>
+                        <SourceMolecule>
+                            <GenBankId>P21171.2</GenBankId>
+                        </SourceMolecule>
+                        <SourceOrganismId>1639</SourceOrganismId>
+                    </FragmentOfANaturalSequenceMolecule>
+                </EpitopeStructure>
+                <LocationOfData>Author Communication</LocationOfData>
+                <EpitopeId>29715</EpitopeId>
+                <ReferenceStartingPosition>449</ReferenceStartingPosition>
+                <ReferenceEndingPosition>457</ReferenceEndingPosition>
+                <EpitopeEvidenceCode>Representative selection</EpitopeEvidenceCode>
+                <EpitopeStructureDefines>Exact Epitope</EpitopeStructureDefines>
+                <EpitopeComments>Formerly known as Invasion-associated protein.</EpitopeComments>
+                <Assays>
+                    <TCell>
+                        <LocationOfData>Figure 1</LocationOfData>
+                        <TCellId>17959</TCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>10000000</OrganismId>
+                                <Sex>F</Sex>
+                                <Age>8-10 wk</Age>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Administration in vivo</InVivoProcessType>
+                                <DiseaseState>DOID:11573</DiseaseState>
+                                <DiseaseStage>Post</DiseaseStage>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Taxonomic Child</EpitopeRelation>
+                                    <Object>
+                                        <Organism>
+                                            <SubType>Organism</SubType>
+                                            <SourceOrganismId>1334565</SourceOrganismId>
+                                        </Organism>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenEvidenceCode>Exact match to reference information</ImmunogenEvidenceCode>
+                                <Route>Intravenous (i.v.)</Route>
+                                <DoseSchedule>1 dose of 10&lt;sup&gt;3&lt;/sup&gt; CFU.</DoseSchedule>
+                            </FirstInVivoProcess>
+                            <InVitroAdministration>
+                                <ProcessType>Restimulation in vitro</ProcessType>
+                                <ResponderCellType>Splenocyte</ResponderCellType>
+                                <StimulatorCellType>Splenocyte</StimulatorCellType>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Epitope</EpitopeRelation>
+                                    <Object>
+                                        <FragmentOfANaturalSequenceMolecule>
+                                            <ChemicalType>Peptide from protein</ChemicalType>
+                                            <LinearSequence>IYVGNGQMI</LinearSequence>
+                                            <StartingPosition>449</StartingPosition>
+                                            <EndingPosition>457</EndingPosition>
+                                            <SourceMolecule>
+                                                <GenBankId>P21171.2</GenBankId>
+                                            </SourceMolecule>
+                                            <SourceOrganismId>1639</SourceOrganismId>
+                                        </FragmentOfANaturalSequenceMolecule>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenEvidenceCode>Exact match to reference information</ImmunogenEvidenceCode>
+                            </InVitroAdministration>
+                            <ImmunizationComments>Spleens were harvested 14 days after immunization.  In vitro restimulation was used to enhance the sensitivity of the ELISPOT assay, providing a higher signal-to-noise ratio.</ImmunizationComments>
+                        </Immunization>
+                        <EffectorCells>
+                            <CellTissueType>Spleen</CellTissueType>
+                            <CellType>T cell CD8+</CellType>
+                            <CellCultureConditions>Short Term Restimulated</CellCultureConditions>
+                        </EffectorCells>
+                        <AntigenPresentingCells>
+                            <CellTissueType>Spleen</CellTissueType>
+                            <CellType>Splenocyte</CellType>
+                            <CellCultureConditions>Direct Ex Vivo</CellCultureConditions>
+                            <AutologousOrSyngeneic>Y</AutologousOrSyngeneic>
+                        </AntigenPresentingCells>
+                        <MhcAllele>
+                            <MhcAlleleId>124</MhcAlleleId>
+                            <MhcEvidenceCode>MHC binding assay</MhcEvidenceCode>
+                        </MhcAllele>
+                        <Antigen>
+                            <AntigenReferenceName>p60 449-457</AntigenReferenceName>
+                            <AntigenObject>
+                                <EpitopeRelation>Epitope</EpitopeRelation>
+                                <Object>
+                                    <FragmentOfANaturalSequenceMolecule>
+                                        <ChemicalType>Peptide from protein</ChemicalType>
+                                        <LinearSequence>IYVGNGQMI</LinearSequence>
+                                        <StartingPosition>449</StartingPosition>
+                                        <EndingPosition>457</EndingPosition>
+                                        <SourceMolecule>
+                                            <GenBankId>P21171.2</GenBankId>
+                                        </SourceMolecule>
+                                        <SourceOrganismId>1639</SourceOrganismId>
+                                    </FragmentOfANaturalSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Exact match to reference information</AntigenEvidenceCode>
+                        </Antigen>
+                        <AssayInformation>
+                            <AssayTypeId>48</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <AssayComments>IFN-g secretion in response to this peptide by immune splenocytes is enhanced by previous restimulation with peptide in vitro, with the minimum concentration of epitope needed reduced from 10^-9 in direct ELISPOT to 10^-10 in stimulation -enhanced ELISPOT.</AssayComments>
+                        </AssayInformation>
+                    </TCell>
+                </Assays>
+                <Assays>
+                    <MhcLigandElution>
+                        <LocationOfData>Figure 2</LocationOfData>
+                        <MhcLigandElutionId>17960</MhcLigandElutionId>
+                        <HostOrganism>
+                            <OrganismId>10090</OrganismId>
+                        </HostOrganism>
+                        <InVivoProcess>
+                            <InVivoProcessType>No immunization</InVivoProcessType>
+                        </InVivoProcess>
+                        <InVitroAdministration>
+                            <ProcessType>Antigen administered in vitro</ProcessType>
+                            <ProcessedAntigenObject>
+                                <EpitopeRelation>Taxonomic Child</EpitopeRelation>
+                                <Object>
+                                    <Organism>
+                                        <SubType>Organism</SubType>
+                                        <SourceOrganismId>1334565</SourceOrganismId>
+                                    </Organism>
+                                </Object>
+                            </ProcessedAntigenObject>
+                            <ProcessedAntigenEvidenceCode>Representative selection</ProcessedAntigenEvidenceCode>
+                        </InVitroAdministration>
+                        <MhcLigand>
+                            <MhcLigandReferenceName>p60 449-457</MhcLigandReferenceName>
+                            <MhcLigandObject>
+                                <EpitopeRelation>Epitope</EpitopeRelation>
+                                <Object>
+                                    <FragmentOfANaturalSequenceMolecule>
+                                        <ChemicalType>Peptide from protein</ChemicalType>
+                                        <LinearSequence>IYVGNGQMI</LinearSequence>
+                                        <StartingPosition>449</StartingPosition>
+                                        <EndingPosition>457</EndingPosition>
+                                        <SourceMolecule>
+                                            <GenBankId>P21171.2</GenBankId>
+                                        </SourceMolecule>
+                                        <SourceOrganismId>1639</SourceOrganismId>
+                                    </FragmentOfANaturalSequenceMolecule>
+                                </Object>
+                            </MhcLigandObject>
+                        </MhcLigand>
+                        <AntigenPresentingCells>
+                            <CellTissueType>Lymphoid</CellTissueType>
+                            <CellType>Mononuclear cell</CellType>
+                            <CellCultureConditions>Cell Line / Clone</CellCultureConditions>
+                        </AntigenPresentingCells>
+                        <MhcAllele>
+                            <MhcAlleleId>124</MhcAlleleId>
+                            <MhcEvidenceCode>Inferred by motif or alleles present</MhcEvidenceCode>
+                        </MhcAllele>
+                        <AssayInformation>
+                            <AssayTypeId>92</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <AssayComments>Recognition of fractions 29-31 from HPLC by epitope specific T cells was weak. Immune splenocytes were not stimulated by that fraction in either a direct ELISPOT assay or with previous restimulation with the same HPLC fraction. Similar results were obtained when the fractions were derived from splenocytes acutely infected in vivo. Fraction 33, also shown to weakly stimulate the epitope specific T cell line, was able to stimulate immune splenocytes, but also contained another, highly immunodominant epitope, leaving natural processing unconfirmed.  Peptides eluted from P338 cells were separated by HPLC and used to stimulate splenocytes from immunized mice.</AssayComments>
+                        </AssayInformation>
+                    </MhcLigandElution>
+                </Assays>
+            </Epitope>
+            <Epitope>
+                <EpitopeName>p60 476-484</EpitopeName>
+                <EpitopeStructure>
+                    <FragmentOfANaturalSequenceMolecule>
+                        <ChemicalType>Peptide from protein</ChemicalType>
+                        <LinearSequence>KYLVGFGRV</LinearSequence>
+                        <StartingPosition>476</StartingPosition>
+                        <EndingPosition>484</EndingPosition>
+                        <SourceMolecule>
+                            <GenBankId>P21171.2</GenBankId>
+                        </SourceMolecule>
+                        <SourceOrganismId>1639</SourceOrganismId>
+                    </FragmentOfANaturalSequenceMolecule>
+                </EpitopeStructure>
+                <LocationOfData>Author Communication</LocationOfData>
+                <EpitopeId>34523</EpitopeId>
+                <ReferenceStartingPosition>476</ReferenceStartingPosition>
+                <ReferenceEndingPosition>484</ReferenceEndingPosition>
+                <EpitopeEvidenceCode>Representative selection</EpitopeEvidenceCode>
+                <EpitopeStructureDefines>Exact Epitope</EpitopeStructureDefines>
+                <EpitopeComments>Formerly known as Invasion-associated protein.</EpitopeComments>
+                <Assays>
+                    <TCell>
+                        <LocationOfData>Figure 1</LocationOfData>
+                        <TCellId>17961</TCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>10000000</OrganismId>
+                                <Sex>F</Sex>
+                                <Age>8-10 wk</Age>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Administration in vivo</InVivoProcessType>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Taxonomic Child</EpitopeRelation>
+                                    <Object>
+                                        <Organism>
+                                            <SubType>Organism</SubType>
+                                            <SourceOrganismId>1334565</SourceOrganismId>
+                                        </Organism>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenEvidenceCode>Exact match to reference information</ImmunogenEvidenceCode>
+                                <Route>Intravenous (i.v.)</Route>
+                                <DoseSchedule>1 dose of 10&lt;sup&gt;3&lt;/sup&gt; CFU.</DoseSchedule>
+                            </FirstInVivoProcess>
+                            <InVitroAdministration>
+                                <ProcessType>Restimulation in vitro</ProcessType>
+                                <ResponderCellType>Splenocyte</ResponderCellType>
+                                <StimulatorCellType>Splenocyte</StimulatorCellType>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Epitope</EpitopeRelation>
+                                    <Object>
+                                        <FragmentOfANaturalSequenceMolecule>
+                                            <ChemicalType>Peptide from protein</ChemicalType>
+                                            <LinearSequence>KYLVGFGRV</LinearSequence>
+                                            <StartingPosition>476</StartingPosition>
+                                            <EndingPosition>484</EndingPosition>
+                                            <SourceMolecule>
+                                                <GenBankId>P21171.2</GenBankId>
+                                            </SourceMolecule>
+                                            <SourceOrganismId>1639</SourceOrganismId>
+                                        </FragmentOfANaturalSequenceMolecule>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenEvidenceCode>Exact match to reference information</ImmunogenEvidenceCode>
+                            </InVitroAdministration>
+                            <ImmunizationComments>Spleens were harvested 14 days after immunization.  In vitro restimulation was used to enhance the sensitivity of the ELISPOT assay, providing a higher signal-to-noise ratio.</ImmunizationComments>
+                        </Immunization>
+                        <EffectorCells>
+                            <CellTissueType>Spleen</CellTissueType>
+                            <CellType>T cell CD8+</CellType>
+                            <CellCultureConditions>Short Term Restimulated</CellCultureConditions>
+                        </EffectorCells>
+                        <AntigenPresentingCells>
+                            <CellTissueType>Spleen</CellTissueType>
+                            <CellType>Splenocyte</CellType>
+                            <CellCultureConditions>Direct Ex Vivo</CellCultureConditions>
+                            <AutologousOrSyngeneic>Y</AutologousOrSyngeneic>
+                        </AntigenPresentingCells>
+                        <MhcAllele>
+                            <MhcAlleleId>124</MhcAlleleId>
+                            <MhcEvidenceCode>MHC binding assay</MhcEvidenceCode>
+                        </MhcAllele>
+                        <Antigen>
+                            <AntigenReferenceName>p60 476-484</AntigenReferenceName>
+                            <AntigenObject>
+                                <EpitopeRelation>Epitope</EpitopeRelation>
+                                <Object>
+                                    <FragmentOfANaturalSequenceMolecule>
+                                        <ChemicalType>Peptide from protein</ChemicalType>
+                                        <LinearSequence>KYLVGFGRV</LinearSequence>
+                                        <StartingPosition>476</StartingPosition>
+                                        <EndingPosition>484</EndingPosition>
+                                        <SourceMolecule>
+                                            <GenBankId>P21171.2</GenBankId>
+                                        </SourceMolecule>
+                                        <SourceOrganismId>1639</SourceOrganismId>
+                                    </FragmentOfANaturalSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Exact match to reference information</AntigenEvidenceCode>
+                        </Antigen>
+                        <AssayInformation>
+                            <AssayTypeId>48</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <AssayComments>Detection of IFN-g secreting cells in response to this peptide from immune splenocytes is enhanced by previous restimulation with peptide in vitro, with the minimum concentration needed reduced from 10^-10 in direct ELISPOT to 10^-11 in stimulation -enhanced ELISPOT.</AssayComments>
+                        </AssayInformation>
+                    </TCell>
+                </Assays>
+                <Assays>
+                    <MhcLigandElution>
+                        <LocationOfData>Figure 2</LocationOfData>
+                        <MhcLigandElutionId>17964</MhcLigandElutionId>
+                        <HostOrganism>
+                            <OrganismId>10090</OrganismId>
+                        </HostOrganism>
+                        <InVivoProcess>
+                            <InVivoProcessType>No immunization</InVivoProcessType>
+                        </InVivoProcess>
+                        <InVitroAdministration>
+                            <ProcessType>Antigen administered in vitro</ProcessType>
+                            <ProcessedAntigenObject>
+                                <EpitopeRelation>Taxonomic Child</EpitopeRelation>
+                                <Object>
+                                    <Organism>
+                                        <SubType>Organism</SubType>
+                                        <SourceOrganismId>1334565</SourceOrganismId>
+                                    </Organism>
+                                </Object>
+                            </ProcessedAntigenObject>
+                            <ProcessedAntigenEvidenceCode>Representative selection</ProcessedAntigenEvidenceCode>
+                        </InVitroAdministration>
+                        <AntigenProcessingComments>Naturally processed antigenic peptides were extracted from in vitro infected macrophage-like P388D1 (P388) cells.</AntigenProcessingComments>
+                        <MhcLigand>
+                            <MhcLigandReferenceName>p60 476-484</MhcLigandReferenceName>
+                            <MhcLigandObject>
+                                <EpitopeRelation>Epitope</EpitopeRelation>
+                                <Object>
+                                    <FragmentOfANaturalSequenceMolecule>
+                                        <ChemicalType>Peptide from protein</ChemicalType>
+                                        <LinearSequence>KYLVGFGRV</LinearSequence>
+                                        <StartingPosition>476</StartingPosition>
+                                        <EndingPosition>484</EndingPosition>
+                                        <SourceMolecule>
+                                            <GenBankId>P21171.2</GenBankId>
+                                        </SourceMolecule>
+                                        <SourceOrganismId>1639</SourceOrganismId>
+                                    </FragmentOfANaturalSequenceMolecule>
+                                </Object>
+                            </MhcLigandObject>
+                        </MhcLigand>
+                        <AntigenPresentingCells>
+                            <CellTissueType>Lymphoid</CellTissueType>
+                            <CellType>Mononuclear cell</CellType>
+                            <CellCultureConditions>Cell Line / Clone</CellCultureConditions>
+                        </AntigenPresentingCells>
+                        <MhcAllele>
+                            <MhcAlleleId>124</MhcAlleleId>
+                            <MhcEvidenceCode>Inferred by motif or alleles present</MhcEvidenceCode>
+                        </MhcAllele>
+                        <AssayInformation>
+                            <AssayTypeId>92</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <AssayComments>Fractions 37/38 from HPLC correspond to the epitope through recognition by epitope specific T cells. Stimulation provided by these fractions is not seen in either a direct ELISPOT assay or with previous restimulation with the same HPLC fractions, which had been shown to increase sensitivity, suggesting that low levels of this peptide are generated in vivo.  Peptides eluted from acutely infected spleen cells were separated by HPLC and used to stimulate immune splenocytes.</AssayComments>
+                        </AssayInformation>
+                    </MhcLigandElution>
+                </Assays>
+            </Epitope>
+        </Epitopes>
+    </Reference>
+</References>
+

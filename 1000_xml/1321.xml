@@ -1,0 +1,626 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<References xsi:schemaLocation="http://www.iedb.org/schema/CurationSchema http://beta.iedb.org/schema/Curation.xsd" xmlns="http://www.iedb.org/schema/CurationSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <Reference>
+        <ReferenceId>1321</ReferenceId>
+        <DateLastUpdated>2020-09-10-07:00</DateLastUpdated>
+        <Article>
+            <PubmedId>12441082</PubmedId>
+            <Abstract>Particulate vector systems for the presentation of immunogenic epitopes provide an alternate and powerful approach for the delivery of immunogens of interest. In this article, we have exploited a viral protein of unknown function, bluetongue virus (BTV) nonstructural protein NS1, which forms distinct tubular aggregates in infected cells, as an immunogen delivery system. Tubules are helical assemblies of NS1 protein that present the C-terminus of the protein to the outer edge effectively displaying appended residues in a regular and repeating array akin to the coat of a filamentous phage. To assess the breadth of response induced following tubule-based immunization, two different immunodominant foreign peptides were inserted at the C-terminus of NS1 and chimeric tubules generated following expression in the baculovirus expression system. Both constructs, one carrying a peptide of foot and mouth disease virus (FMDV) (aa 135-144 of VP1) and the other, a peptide of influenza A virus (aa 186-205 of HA), effectively assembled into tubules and were easily purified. Subsequently, using in vitro assay systems, we demonstrated that each purified chimeric particle was capable of eliciting strong immune responses. Further, NS1-FMDV chimeric tubules could induce a potent immune response that could protect against disease.</Abstract>
+            <ArticleYear>2002</ArticleYear>
+            <ArticlePages>383-92</ArticlePages>
+            <ArticleTitle>Virus-derived tubular structure displaying foreign sequences on the surface elicit CD4+ Th cell and protective humoral responses.</ArticleTitle>
+            <Authors>
+                <Author>
+                    <LastName>Ghosh</LastName>
+                    <ForeName>M K</ForeName>
+                </Author>
+                <Author>
+                    <LastName>Borca</LastName>
+                    <ForeName>M V</ForeName>
+                </Author>
+                <Author>
+                    <LastName>Roy</LastName>
+                    <ForeName>Polly</ForeName>
+                </Author>
+            </Authors>
+            <Affiliations>Department of Medicine, University of Alabama at Birmingham, 35294, USA.</Affiliations>
+            <ArticleChemicalList>Capsid Proteins;Hemagglutinin Glycoproteins, Influenza Virus;NS1 protein, bluetongue virus;Recombinant Fusion Proteins;VP1 protein, Foot-and-mouth disease virus;Viral Nonstructural Proteins;Viral Vaccines</ArticleChemicalList>
+            <ArticleMeshHeadingsList>Animals; Baculoviridae; Bluetongue virus(immunology; ultrastructure); CD4-Positive T-Lymphocytes(immunology); Capsid Proteins(chemistry; immunology); Hemagglutinin Glycoproteins, Influenza Virus(chemistry; immunology); Immunization; Lymphocyte Activation; Male; Mice; Mice, Inbred BALB C; Recombinant Fusion Proteins(immunology); Recombination, Genetic; Spodoptera; Viral Nonstructural Proteins(genetics; immunology; ultrastructure); Viral Vaccines(immunology)</ArticleMeshHeadingsList>
+            <Journal>
+                <Volume>302</Volume>
+                <Issue>2</Issue>
+                <Title>Virology</Title>
+                <Issn>0042-6822</Issn>
+                <MedlineTa>Virology</MedlineTa>
+            </Journal>
+        </Article>
+        <Epitopes>
+            <Epitope>
+                <EpitopeName>FMDV VP1 aa 135-144</EpitopeName>
+                <EpitopeStructure>
+                    <FragmentOfANaturalSequenceMolecule>
+                        <ChemicalType>Peptide from protein</ChemicalType>
+                        <LinearSequence>RYSRNAVPNV</LinearSequence>
+                        <StartingPosition>135</StartingPosition>
+                        <EndingPosition>144</EndingPosition>
+                        <SourceMolecule>
+                            <GenBankId>CAC48181.1</GenBankId>
+                        </SourceMolecule>
+                        <SourceOrganismId>12118</SourceOrganismId>
+                    </FragmentOfANaturalSequenceMolecule>
+                </EpitopeStructure>
+                <LocationOfData>Figure 6</LocationOfData>
+                <EpitopeId>56657</EpitopeId>
+                <ReferenceStartingPosition>135</ReferenceStartingPosition>
+                <ReferenceEndingPosition>144</ReferenceEndingPosition>
+                <EpitopeEvidenceCode>Not determined</EpitopeEvidenceCode>
+                <EpitopeStructureDefines>Exact Epitope</EpitopeStructureDefines>
+                <Assays>
+                    <BCell>
+                        <LocationOfData>Figure 6</LocationOfData>
+                        <BCellId>20966</BCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>10000000</OrganismId>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Administration in vivo</InVivoProcessType>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Structurally Related</EpitopeRelation>
+                                    <Object>
+                                        <SequenceMoleculeNoNaturalSource>
+                                            <ChemicalType>Peptide, no natural source</ChemicalType>
+                                            <LinearSequence>SYSRNAVPNV</LinearSequence>
+                                        </SequenceMoleculeNoNaturalSource>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenReferenceName>Analog of FMDV VP1 aa 135-144</ImmunogenReferenceName>
+                                <ImmunogenEvidenceCode>Exact match to reference information</ImmunogenEvidenceCode>
+                                <ImmunogenContainingObject>
+                                    <ComplexedMolecule>
+                                        <ComplexType>Protein conjugate</ComplexType>
+                                        <PeptideModifications/>
+                                    </ComplexedMolecule>
+                                </ImmunogenContainingObject>
+                                <Adjuvant>Freund's incomplete (IFA)</Adjuvant>
+                                <Route>Intraperitoneal (i.p.)</Route>
+                                <DoseSchedule>3 dose(s) of 50 ug chimeric protein (NS1 tu</DoseSchedule>
+                            </FirstInVivoProcess>
+                            <ImmunizationComments>One prime immunization and two boosts every 2 weeks. Sera were obtained 10 days after the last shot. The carrier was composed of NS1 tubules.</ImmunizationComments>
+                        </Immunization>
+                        <AssayInformation>
+                            <AssayTypeId>34</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <NumberOfSubjectsTested>7</NumberOfSubjectsTested>
+                            <NumberOfSubjectsResponded>7</NumberOfSubjectsResponded>
+                            <ResponseFrequency>100</ResponseFrequency>
+                            <AssayComments>All sera tested reacted with the assay antigens in the form of a peptide containing the epitope or the source species.</AssayComments>
+                        </AssayInformation>
+                        <AssayedAntibody>
+                            <AssayedAntibodySourceMaterial>Serum</AssayedAntibodySourceMaterial>
+                            <AssayedAntibodyImmunoglobulinDomain>Entire Antibody</AssayedAntibodyImmunoglobulinDomain>
+                            <AssayedAntibodyPurificationStatus>Polyclonal</AssayedAntibodyPurificationStatus>
+                            <AssayedAntibodyHeavyChainType>IgG</AssayedAntibodyHeavyChainType>
+                        </AssayedAntibody>
+                        <Antigen>
+                            <AntigenReferenceName>FMDV VP1 aa 135-160</AntigenReferenceName>
+                            <AntigenConformation>Non-Native/Unknown</AntigenConformation>
+                            <AntigenObject>
+                                <EpitopeRelation>Fragment of Source Antigen</EpitopeRelation>
+                                <Object>
+                                    <FragmentOfANaturalSequenceMolecule>
+                                        <ChemicalType>Peptide from protein</ChemicalType>
+                                        <LinearSequence>RYSRNAVPNVRGDLQVLAQKVARTLP</LinearSequence>
+                                        <StartingPosition>135</StartingPosition>
+                                        <EndingPosition>160</EndingPosition>
+                                        <SourceMolecule>
+                                            <GenBankId>CAC48181.1</GenBankId>
+                                        </SourceMolecule>
+                                        <SourceOrganismId>12118</SourceOrganismId>
+                                    </FragmentOfANaturalSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Exact match to reference information</AntigenEvidenceCode>
+                        </Antigen>
+                    </BCell>
+                </Assays>
+                <Assays>
+                    <BCell>
+                        <LocationOfData>Text/p. 388</LocationOfData>
+                        <BCellId>20967</BCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>10090</OrganismId>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Administration in vivo to prevent or reduce disease</InVivoProcessType>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Structurally Related</EpitopeRelation>
+                                    <Object>
+                                        <SequenceMoleculeNoNaturalSource>
+                                            <ChemicalType>Peptide, no natural source</ChemicalType>
+                                            <LinearSequence>SYSRNAVPNV</LinearSequence>
+                                        </SequenceMoleculeNoNaturalSource>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenReferenceName>Analog of FMDV VP1 aa 135-144</ImmunogenReferenceName>
+                                <ImmunogenEvidenceCode>Exact match to reference information</ImmunogenEvidenceCode>
+                                <ImmunogenContainingObject>
+                                    <ComplexedMolecule>
+                                        <ComplexType>Protein conjugate</ComplexType>
+                                        <PeptideModifications/>
+                                    </ComplexedMolecule>
+                                </ImmunogenContainingObject>
+                                <Adjuvant>Freund's incomplete (IFA)</Adjuvant>
+                                <Route>Intraperitoneal (i.p.)</Route>
+                                <DoseSchedule>3 dose(s) of 50 ug chimeric protein (NS1 tu</DoseSchedule>
+                            </FirstInVivoProcess>
+                            <ImmunizationComments>One prime immunization and two boosts every 2 weeks. Sera were obtained 10 days after the last shot. The carrier was composed of NS1 tubules.</ImmunizationComments>
+                        </Immunization>
+                        <AssayInformation>
+                            <AssayTypeId>125</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <AssayComments>Survival of animals inoculated with viremic blood from virus-challenged animals (challenge: lethal dose of FMDV O1 Campos i.p.) was determined. Challenged animals were previously immunized with chimeric protein (NS1 tubules + epitope) or native protein (NS1 tubules only), and viremic blood for further inoculation was obtained 48 hours post-infection. Sixty percent of animals inoculated with blood from chimeric protein-immunized animals survived while all animals inoculated with blood from native NS1-immunized animals died suggesting that the chimeric protein-immunized animals were protected from the challenge.</AssayComments>
+                        </AssayInformation>
+                        <AssayedAntibody>
+                            <AssayedAntibodySourceMaterial>Other</AssayedAntibodySourceMaterial>
+                        </AssayedAntibody>
+                        <Antigen>
+                            <AntigenReferenceName>Foot-and-mouth disease virus</AntigenReferenceName>
+                            <AntigenConformation>Native</AntigenConformation>
+                            <AntigenObject>
+                                <EpitopeRelation>Source Organism</EpitopeRelation>
+                                <Object>
+                                    <Organism>
+                                        <SubType>Organism</SubType>
+                                        <SourceOrganismId>12118</SourceOrganismId>
+                                    </Organism>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Representative selection</AntigenEvidenceCode>
+                        </Antigen>
+                    </BCell>
+                </Assays>
+            </Epitope>
+            <Epitope>
+                <EpitopeName>HA aa 186-205</EpitopeName>
+                <EpitopeStructure>
+                    <FragmentOfANaturalSequenceMolecule>
+                        <ChemicalType>Peptide from protein</ChemicalType>
+                        <LinearSequence>STNQEQTSLYVQASGRVTVS</LinearSequence>
+                        <StartingPosition>186</StartingPosition>
+                        <EndingPosition>205</EndingPosition>
+                        <SourceMolecule>
+                            <GenBankId>P04663.1</GenBankId>
+                        </SourceMolecule>
+                        <SourceOrganismId>11320</SourceOrganismId>
+                    </FragmentOfANaturalSequenceMolecule>
+                </EpitopeStructure>
+                <LocationOfData>Figure 5</LocationOfData>
+                <EpitopeId>61797</EpitopeId>
+                <ReferenceStartingPosition>186</ReferenceStartingPosition>
+                <ReferenceEndingPosition>205</ReferenceEndingPosition>
+                <EpitopeEvidenceCode>Not determined</EpitopeEvidenceCode>
+                <EpitopeStructureDefines>Epitope containing region/antigenic site</EpitopeStructureDefines>
+                <Assays>
+                    <TCell>
+                        <LocationOfData>Figure 5</LocationOfData>
+                        <TCellId>20964</TCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>10000047</OrganismId>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Administration in vivo</InVivoProcessType>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Source Organism</EpitopeRelation>
+                                    <Object>
+                                        <Organism>
+                                            <SubType>Organism</SubType>
+                                            <SourceOrganismId>11320</SourceOrganismId>
+                                        </Organism>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenEvidenceCode>Representative selection</ImmunogenEvidenceCode>
+                                <Route>Intranasal</Route>
+                            </FirstInVivoProcess>
+                            <InVitroAdministration>
+                                <ProcessType>Restimulation in vitro</ProcessType>
+                            </InVitroAdministration>
+                        </Immunization>
+                        <EffectorCells>
+                            <CellTissueType>Spleen</CellTissueType>
+                            <CellType>T cell CD4+</CellType>
+                            <CellCultureConditions>Cell Line / Clone</CellCultureConditions>
+                        </EffectorCells>
+                        <AntigenPresentingCells>
+                            <CellTissueType>Spleen</CellTissueType>
+                            <CellType>Splenocyte</CellType>
+                            <CellCultureConditions>Direct Ex Vivo</CellCultureConditions>
+                            <AutologousOrSyngeneic>Y</AutologousOrSyngeneic>
+                        </AntigenPresentingCells>
+                        <MhcAllele>
+                            <MhcAlleleId>168</MhcAlleleId>
+                            <MhcEvidenceCode>Not determined</MhcEvidenceCode>
+                        </MhcAllele>
+                        <Antigen>
+                            <AntigenReferenceName>HA aa 186-205</AntigenReferenceName>
+                            <AntigenObject>
+                                <EpitopeRelation>Epitope</EpitopeRelation>
+                                <Object>
+                                    <FragmentOfANaturalSequenceMolecule>
+                                        <ChemicalType>Peptide from protein</ChemicalType>
+                                        <LinearSequence>STNQEQTSLYVQASGRVTVS</LinearSequence>
+                                        <StartingPosition>186</StartingPosition>
+                                        <EndingPosition>205</EndingPosition>
+                                        <SourceMolecule>
+                                            <GenBankId>P04663.1</GenBankId>
+                                        </SourceMolecule>
+                                        <SourceOrganismId>11320</SourceOrganismId>
+                                    </FragmentOfANaturalSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Exact match to reference information</AntigenEvidenceCode>
+                            <AntigenContainingObject>
+                                <ComplexedMolecule>
+                                    <ComplexType>Protein conjugate</ComplexType>
+                                    <PeptideModifications/>
+                                </ComplexedMolecule>
+                            </AntigenContainingObject>
+                        </Antigen>
+                        <AssayInformation>
+                            <AssayTypeId>73</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <AssayComments>Chimeric protein (NS1 tubule+epitope) or epitope alone, at the various concentrations used (0.6-20.0 ug/ml), stimulated CD4+ T-cells to release of IFNγ. Antigen presenting cells were syngeneic spleen cells. .</AssayComments>
+                        </AssayInformation>
+                    </TCell>
+                </Assays>
+                <Assays>
+                    <TCell>
+                        <LocationOfData>Figure 4</LocationOfData>
+                        <TCellId>20962</TCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>10000000</OrganismId>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Administration in vivo</InVivoProcessType>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Source Organism</EpitopeRelation>
+                                    <Object>
+                                        <Organism>
+                                            <SubType>Organism</SubType>
+                                            <SourceOrganismId>11320</SourceOrganismId>
+                                        </Organism>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenEvidenceCode>Representative selection</ImmunogenEvidenceCode>
+                                <Route>Intranasal</Route>
+                            </FirstInVivoProcess>
+                            <InVitroAdministration>
+                                <ProcessType>Restimulation in vitro</ProcessType>
+                            </InVitroAdministration>
+                        </Immunization>
+                        <EffectorCells>
+                            <CellTissueType>Spleen</CellTissueType>
+                            <CellType>T cell CD4+</CellType>
+                            <CellCultureConditions>Cell Line / Clone</CellCultureConditions>
+                        </EffectorCells>
+                        <AntigenPresentingCells>
+                            <CellTissueType>Spleen</CellTissueType>
+                            <CellType>Splenocyte</CellType>
+                            <CellCultureConditions>Direct Ex Vivo</CellCultureConditions>
+                            <AutologousOrSyngeneic>Y</AutologousOrSyngeneic>
+                        </AntigenPresentingCells>
+                        <MhcAllele>
+                            <MhcAlleleId>170</MhcAlleleId>
+                            <MhcEvidenceCode>Not determined</MhcEvidenceCode>
+                        </MhcAllele>
+                        <Antigen>
+                            <AntigenReferenceName>HA aa 186-205</AntigenReferenceName>
+                            <AntigenObject>
+                                <EpitopeRelation>Epitope</EpitopeRelation>
+                                <Object>
+                                    <FragmentOfANaturalSequenceMolecule>
+                                        <ChemicalType>Peptide from protein</ChemicalType>
+                                        <LinearSequence>STNQEQTSLYVQASGRVTVS</LinearSequence>
+                                        <StartingPosition>186</StartingPosition>
+                                        <EndingPosition>205</EndingPosition>
+                                        <SourceMolecule>
+                                            <GenBankId>P04663.1</GenBankId>
+                                        </SourceMolecule>
+                                        <SourceOrganismId>11320</SourceOrganismId>
+                                    </FragmentOfANaturalSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Exact match to reference information</AntigenEvidenceCode>
+                            <AntigenContainingObject>
+                                <ComplexedMolecule>
+                                    <ComplexType>Protein conjugate</ComplexType>
+                                    <PeptideModifications/>
+                                </ComplexedMolecule>
+                            </AntigenContainingObject>
+                        </Antigen>
+                        <AssayInformation>
+                            <AssayTypeId>69</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <AssayComments>The T-cell proliferation observed was dose-dependent and deemed specific to the epitope even though the assay antigen was a chimeric protein (Blue tongue virus nonstructural protein (NS1) tubules carrying the epitope) because the control experiment with native NS1 did not show a response. The chimeric protein also stimulated T cell proliferation much better than the epitope/peptide alone. Antigen presenting cells were syngeneic spleen cells. .</AssayComments>
+                        </AssayInformation>
+                    </TCell>
+                </Assays>
+                <Assays>
+                    <TCell>
+                        <LocationOfData>Figure 4</LocationOfData>
+                        <TCellId>20963</TCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>10000000</OrganismId>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Administration in vivo</InVivoProcessType>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Source Organism</EpitopeRelation>
+                                    <Object>
+                                        <Organism>
+                                            <SubType>Organism</SubType>
+                                            <SourceOrganismId>11320</SourceOrganismId>
+                                        </Organism>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenEvidenceCode>Representative selection</ImmunogenEvidenceCode>
+                                <Route>Intranasal</Route>
+                            </FirstInVivoProcess>
+                            <InVitroAdministration>
+                                <ProcessType>Restimulation in vitro</ProcessType>
+                            </InVitroAdministration>
+                        </Immunization>
+                        <EffectorCells>
+                            <CellTissueType>Spleen</CellTissueType>
+                            <CellType>T cell CD4+</CellType>
+                            <CellCultureConditions>Cell Line / Clone</CellCultureConditions>
+                        </EffectorCells>
+                        <AntigenPresentingCells>
+                            <CellTissueType>Spleen</CellTissueType>
+                            <CellType>Splenocyte</CellType>
+                            <CellCultureConditions>Direct Ex Vivo</CellCultureConditions>
+                            <AutologousOrSyngeneic>Y</AutologousOrSyngeneic>
+                        </AntigenPresentingCells>
+                        <MhcAllele>
+                            <MhcAlleleId>170</MhcAlleleId>
+                            <MhcEvidenceCode>Not determined</MhcEvidenceCode>
+                        </MhcAllele>
+                        <Antigen>
+                            <AntigenReferenceName>HA aa 186-205</AntigenReferenceName>
+                            <AntigenObject>
+                                <EpitopeRelation>Epitope</EpitopeRelation>
+                                <Object>
+                                    <FragmentOfANaturalSequenceMolecule>
+                                        <ChemicalType>Peptide from protein</ChemicalType>
+                                        <LinearSequence>STNQEQTSLYVQASGRVTVS</LinearSequence>
+                                        <StartingPosition>186</StartingPosition>
+                                        <EndingPosition>205</EndingPosition>
+                                        <SourceMolecule>
+                                            <GenBankId>P04663.1</GenBankId>
+                                        </SourceMolecule>
+                                        <SourceOrganismId>11320</SourceOrganismId>
+                                    </FragmentOfANaturalSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Exact match to reference information</AntigenEvidenceCode>
+                        </Antigen>
+                        <AssayInformation>
+                            <AssayTypeId>69</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                        </AssayInformation>
+                    </TCell>
+                </Assays>
+                <Assays>
+                    <TCell>
+                        <LocationOfData>Figure 5</LocationOfData>
+                        <TCellId>20965</TCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>10000000</OrganismId>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Administration in vivo</InVivoProcessType>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Source Organism</EpitopeRelation>
+                                    <Object>
+                                        <Organism>
+                                            <SubType>Organism</SubType>
+                                            <SourceOrganismId>11320</SourceOrganismId>
+                                        </Organism>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenEvidenceCode>Representative selection</ImmunogenEvidenceCode>
+                                <Route>Intranasal</Route>
+                            </FirstInVivoProcess>
+                            <InVitroAdministration>
+                                <ProcessType>Restimulation in vitro</ProcessType>
+                            </InVitroAdministration>
+                        </Immunization>
+                        <EffectorCells>
+                            <CellTissueType>Spleen</CellTissueType>
+                            <CellType>T cell CD4+</CellType>
+                            <CellCultureConditions>Cell Line / Clone</CellCultureConditions>
+                        </EffectorCells>
+                        <AntigenPresentingCells>
+                            <CellTissueType>Spleen</CellTissueType>
+                            <CellType>Splenocyte</CellType>
+                            <CellCultureConditions>Direct Ex Vivo</CellCultureConditions>
+                            <AutologousOrSyngeneic>Y</AutologousOrSyngeneic>
+                        </AntigenPresentingCells>
+                        <MhcAllele>
+                            <MhcAlleleId>170</MhcAlleleId>
+                            <MhcEvidenceCode>Not determined</MhcEvidenceCode>
+                        </MhcAllele>
+                        <Antigen>
+                            <AntigenReferenceName>HA aa 186-205</AntigenReferenceName>
+                            <AntigenObject>
+                                <EpitopeRelation>Epitope</EpitopeRelation>
+                                <Object>
+                                    <FragmentOfANaturalSequenceMolecule>
+                                        <ChemicalType>Peptide from protein</ChemicalType>
+                                        <LinearSequence>STNQEQTSLYVQASGRVTVS</LinearSequence>
+                                        <StartingPosition>186</StartingPosition>
+                                        <EndingPosition>205</EndingPosition>
+                                        <SourceMolecule>
+                                            <GenBankId>P04663.1</GenBankId>
+                                        </SourceMolecule>
+                                        <SourceOrganismId>11320</SourceOrganismId>
+                                    </FragmentOfANaturalSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Exact match to reference information</AntigenEvidenceCode>
+                            <AntigenContainingObject>
+                                <ComplexedMolecule>
+                                    <ComplexType>Protein conjugate</ComplexType>
+                                    <PeptideModifications/>
+                                </ComplexedMolecule>
+                            </AntigenContainingObject>
+                        </Antigen>
+                        <AssayInformation>
+                            <AssayTypeId>73</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <AssayComments>Chimeric protein (NS1+epitope) or epitope alone, at the various concentrations used (0.6-20.0 ug/ml), stimulated CD4+ T-cells to release of IFNγ; release levels for chimeric protein were slightly lower than with epitope. Antigen presenting cells were syngeneic spleen cells. .</AssayComments>
+                        </AssayInformation>
+                    </TCell>
+                </Assays>
+                <Assays>
+                    <TCell>
+                        <LocationOfData>Figure 4</LocationOfData>
+                        <TCellId>20961</TCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>10000047</OrganismId>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Administration in vivo</InVivoProcessType>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Source Organism</EpitopeRelation>
+                                    <Object>
+                                        <Organism>
+                                            <SubType>Organism</SubType>
+                                            <SourceOrganismId>11320</SourceOrganismId>
+                                        </Organism>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenEvidenceCode>Representative selection</ImmunogenEvidenceCode>
+                                <Route>Intranasal</Route>
+                            </FirstInVivoProcess>
+                            <InVitroAdministration>
+                                <ProcessType>Restimulation in vitro</ProcessType>
+                            </InVitroAdministration>
+                        </Immunization>
+                        <EffectorCells>
+                            <CellTissueType>Spleen</CellTissueType>
+                            <CellType>T cell CD4+</CellType>
+                            <CellCultureConditions>Cell Line / Clone</CellCultureConditions>
+                        </EffectorCells>
+                        <AntigenPresentingCells>
+                            <CellTissueType>Spleen</CellTissueType>
+                            <CellType>Splenocyte</CellType>
+                            <CellCultureConditions>Direct Ex Vivo</CellCultureConditions>
+                            <AutologousOrSyngeneic>Y</AutologousOrSyngeneic>
+                        </AntigenPresentingCells>
+                        <MhcAllele>
+                            <MhcAlleleId>168</MhcAlleleId>
+                            <MhcEvidenceCode>Not determined</MhcEvidenceCode>
+                        </MhcAllele>
+                        <Antigen>
+                            <AntigenReferenceName>HA aa 186-205</AntigenReferenceName>
+                            <AntigenObject>
+                                <EpitopeRelation>Epitope</EpitopeRelation>
+                                <Object>
+                                    <FragmentOfANaturalSequenceMolecule>
+                                        <ChemicalType>Peptide from protein</ChemicalType>
+                                        <LinearSequence>STNQEQTSLYVQASGRVTVS</LinearSequence>
+                                        <StartingPosition>186</StartingPosition>
+                                        <EndingPosition>205</EndingPosition>
+                                        <SourceMolecule>
+                                            <GenBankId>P04663.1</GenBankId>
+                                        </SourceMolecule>
+                                        <SourceOrganismId>11320</SourceOrganismId>
+                                    </FragmentOfANaturalSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Exact match to reference information</AntigenEvidenceCode>
+                        </Antigen>
+                        <AssayInformation>
+                            <AssayTypeId>69</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                        </AssayInformation>
+                    </TCell>
+                </Assays>
+                <Assays>
+                    <TCell>
+                        <LocationOfData>Figure 4</LocationOfData>
+                        <TCellId>20960</TCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>10000047</OrganismId>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Administration in vivo</InVivoProcessType>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Source Organism</EpitopeRelation>
+                                    <Object>
+                                        <Organism>
+                                            <SubType>Organism</SubType>
+                                            <SourceOrganismId>11320</SourceOrganismId>
+                                        </Organism>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenEvidenceCode>Representative selection</ImmunogenEvidenceCode>
+                                <Route>Intranasal</Route>
+                            </FirstInVivoProcess>
+                            <InVitroAdministration>
+                                <ProcessType>Restimulation in vitro</ProcessType>
+                            </InVitroAdministration>
+                        </Immunization>
+                        <EffectorCells>
+                            <CellTissueType>Spleen</CellTissueType>
+                            <CellType>T cell CD4+</CellType>
+                            <CellCultureConditions>Cell Line / Clone</CellCultureConditions>
+                        </EffectorCells>
+                        <AntigenPresentingCells>
+                            <CellTissueType>Spleen</CellTissueType>
+                            <CellType>Splenocyte</CellType>
+                            <CellCultureConditions>Direct Ex Vivo</CellCultureConditions>
+                            <AutologousOrSyngeneic>Y</AutologousOrSyngeneic>
+                        </AntigenPresentingCells>
+                        <MhcAllele>
+                            <MhcAlleleId>168</MhcAlleleId>
+                            <MhcEvidenceCode>Not determined</MhcEvidenceCode>
+                        </MhcAllele>
+                        <Antigen>
+                            <AntigenObject>
+                                <EpitopeRelation>Epitope</EpitopeRelation>
+                                <Object>
+                                    <FragmentOfANaturalSequenceMolecule>
+                                        <ChemicalType>Peptide from protein</ChemicalType>
+                                        <LinearSequence>STNQEQTSLYVQASGRVTVS</LinearSequence>
+                                        <StartingPosition>186</StartingPosition>
+                                        <EndingPosition>205</EndingPosition>
+                                        <SourceMolecule>
+                                            <GenBankId>P04663.1</GenBankId>
+                                        </SourceMolecule>
+                                        <SourceOrganismId>11320</SourceOrganismId>
+                                    </FragmentOfANaturalSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Exact match to reference information</AntigenEvidenceCode>
+                        </Antigen>
+                        <AssayInformation>
+                            <AssayTypeId>69</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <AssayComments>The T-cell proliferation observed was dose-dependent and deemed specific to the epitope even though the assay antigen was a chimeric protein (Blue tongue virus nonstructural protein (NS1) tubules carrying the epitope) because the control experiment with native NS1 did not show a response. The chimeric protein also stimulated T cell proliferation much better than the epitope/peptide alone. Antigen presenting cells were syngeneic spleen cells.</AssayComments>
+                        </AssayInformation>
+                    </TCell>
+                </Assays>
+            </Epitope>
+        </Epitopes>
+    </Reference>
+</References>
+

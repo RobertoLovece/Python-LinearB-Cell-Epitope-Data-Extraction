@@ -1,0 +1,326 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<References xsi:schemaLocation="http://www.iedb.org/schema/CurationSchema http://beta.iedb.org/schema/Curation.xsd" xmlns="http://www.iedb.org/schema/CurationSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <Reference>
+        <ReferenceId>928</ReferenceId>
+        <DateLastUpdated>2020-09-10-07:00</DateLastUpdated>
+        <Article>
+            <PubmedId>1673146</PubmedId>
+            <Abstract>We have studied the role of APC protein transport in presentation of class II MHC-restricted T cell determinants of influenza virus glycoproteins that have distinct Ag processing requirements. Two I-Ed-restricted epitopes were analyzed: hemagglutinin (HA) 111-119, which is processed by the exogenous/endocytic pathway, and neuraminidase (NA) 79-93, which has a requirement for cytosolic processing. NA 79-93 is presented from infectious but not non-replicative virus under ordinary conditions. This requirement for viral biosynthesis could be bypassed by using a soluble inhibitor of NA,2,3-dehydro-2-deoxy-N-acetyl neuraminic acid (DDAN), to facilitate cytosolic introduction of virus. APC exposed to UV virus/DDAN present HA and NA determinants derived directly from proteins of the input virus particles. This allows presentation of both endocytically and cytosolically processed epitopes in the same experiment using noninfectious virus. The inhibitor brefeldin A (BFA) was used to interrupt host protein transport at various times relative to virus/DDAN addition. We observed that BFA added simultaneously with virus blocked recognition of NA 79-93 but not HA 111-119. This distinction was found to be based upon different expression kinetics of the HA and NA determinants. Expression of NA 79-93 required 6 to 9 h, whereas HA 111-119 was presented by 1 h after Ag addition. When APC were incubated with BFA at intervals before virus addition, presentation of HA 111-119 was also blocked as a function of time. Data indicate that about 5 h of BFA treatment is needed to deplete host protein pools required for presentation of I-Ed-restricted T cell determinants processed from either endosomes or the cytosol.</Abstract>
+            <ArticleYear>1991</ArticleYear>
+            <ArticlePages>2944-51</ArticlePages>
+            <ArticleTitle>Class II MHC-restricted T cell determinants processed from either endosomes or the cytosol show similar requirements for host protein transport but different kinetics of presentation.</ArticleTitle>
+            <Authors>
+                <Author>
+                    <LastName>Hackett</LastName>
+                    <ForeName>C J</ForeName>
+                </Author>
+                <Author>
+                    <LastName>Yewdell</LastName>
+                    <ForeName>J W</ForeName>
+                </Author>
+                <Author>
+                    <LastName>Bennink</LastName>
+                    <ForeName>J R</ForeName>
+                </Author>
+                <Author>
+                    <LastName>Wysocka</LastName>
+                    <ForeName>M</ForeName>
+                </Author>
+            </Authors>
+            <Affiliations>Wistar Institute, Philadelphia, PA 19104.</Affiliations>
+            <ArticleChemicalList>Antigens, Viral;Cyclopentanes;Hemagglutinins, Viral;Histocompatibility Antigens Class II;I-E-antigen;Peptide Fragments;Brefeldin A;Neuraminidase</ArticleChemicalList>
+            <ArticleMeshHeadingsList>Animals; Antigen-Presenting Cells(immunology); Antigens, Viral(immunology); Biological Transport; Brefeldin A; Cyclopentanes(administration &amp; dosage); Cytosol(metabolism); Drug Administration Schedule; Endosomes(metabolism); Hemagglutinins, Viral(immunology); Histocompatibility Antigens Class II(immunology); Influenza A virus(immunology); Major Histocompatibility Complex; Mice; Neuraminidase(antagonists &amp; inhibitors; immunology); Peptide Fragments(immunology); T-Lymphocytes(immunology); Time Factors</ArticleMeshHeadingsList>
+            <Journal>
+                <Volume>146</Volume>
+                <Issue>9</Issue>
+                <Title>Journal of immunology (Baltimore, Md. : 1950)</Title>
+                <Issn>0022-1767</Issn>
+                <MedlineTa>J Immunol</MedlineTa>
+            </Journal>
+        </Article>
+        <Epitopes>
+            <Epitope>
+                <EpitopeName>NA 79-93</EpitopeName>
+                <EpitopeStructure>
+                    <FragmentOfANaturalSequenceMolecule>
+                        <ChemicalType>Peptide from protein</ChemicalType>
+                        <LinearSequence>IRGWAIYSKDNSIRI</LinearSequence>
+                        <StartingPosition>79</StartingPosition>
+                        <EndingPosition>93</EndingPosition>
+                        <SourceMolecule>
+                            <GenBankId>P03468.2</GenBankId>
+                        </SourceMolecule>
+                        <SourceOrganismId>211044</SourceOrganismId>
+                    </FragmentOfANaturalSequenceMolecule>
+                </EpitopeStructure>
+                <LocationOfData>Authors' communication</LocationOfData>
+                <EpitopeId>28308</EpitopeId>
+                <ReferenceStartingPosition>79</ReferenceStartingPosition>
+                <ReferenceEndingPosition>93</ReferenceEndingPosition>
+                <EpitopeEvidenceCode>Not determined</EpitopeEvidenceCode>
+                <EpitopeStructureDefines>Exact Epitope</EpitopeStructureDefines>
+                <Assays>
+                    <TCell>
+                        <LocationOfData>Figure 1C</LocationOfData>
+                        <TCellId>24163</TCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>10000000</OrganismId>
+                                <Sex>F</Sex>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Administration in vivo</InVivoProcessType>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Source Organism</EpitopeRelation>
+                                    <Object>
+                                        <Organism>
+                                            <SubType>Organism</SubType>
+                                            <SourceOrganismId>211044</SourceOrganismId>
+                                        </Organism>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenEvidenceCode>Not determined</ImmunogenEvidenceCode>
+                                <Route>Intraperitoneal (i.p.)</Route>
+                                <DoseSchedule>500 hemagglutinin units</DoseSchedule>
+                            </FirstInVivoProcess>
+                            <InVitroAdministration>
+                                <ProcessType>Restimulation in vitro</ProcessType>
+                                <ResponderCellType>T cell</ResponderCellType>
+                                <StimulatorCellType>Splenocyte</StimulatorCellType>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Epitope</EpitopeRelation>
+                                    <Object>
+                                        <FragmentOfANaturalSequenceMolecule>
+                                            <ChemicalType>Peptide from protein</ChemicalType>
+                                            <LinearSequence>IRGWAIYSKDNSIRI</LinearSequence>
+                                            <StartingPosition>79</StartingPosition>
+                                            <EndingPosition>93</EndingPosition>
+                                            <SourceMolecule>
+                                                <GenBankId>P03468.2</GenBankId>
+                                            </SourceMolecule>
+                                            <SourceOrganismId>211044</SourceOrganismId>
+                                        </FragmentOfANaturalSequenceMolecule>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenEvidenceCode>Exact match to reference information</ImmunogenEvidenceCode>
+                            </InVitroAdministration>
+                            <ImmunizationComments>The origin of the T cell hybridoma was previously described, as well as its epitope specificity and restrictive MHC II allele, in reference (PMID 1898970).  T cell hybridoma was obtained by stimulating virus infected splenocytes with the epitopic peptide. Responding cells were fused to BW5147 cells.</ImmunizationComments>
+                        </Immunization>
+                        <EffectorCells>
+                            <CellTissueType>Lymphoid</CellTissueType>
+                            <CellType>T cell</CellType>
+                            <CellCultureConditions>Cell Line / Clone (Hybridoma)</CellCultureConditions>
+                        </EffectorCells>
+                        <AssayedTcrMolecule>
+                            <AssayedTcrMoleculeName>NA 7/11 6.1</AssayedTcrMoleculeName>
+                        </AssayedTcrMolecule>
+                        <AntigenPresentingCells>
+                            <CellTissueType>Lymphoid</CellTissueType>
+                            <CellType>B cell</CellType>
+                            <CellCultureConditions>Cell Line / Clone</CellCultureConditions>
+                            <AutologousOrSyngeneic>Y</AutologousOrSyngeneic>
+                        </AntigenPresentingCells>
+                        <MhcAllele>
+                            <MhcAlleleId>116</MhcAlleleId>
+                            <MhcEvidenceCode>Not determined</MhcEvidenceCode>
+                        </MhcAllele>
+                        <Antigen>
+                            <AntigenReferenceName>NA 79-93</AntigenReferenceName>
+                            <AntigenObject>
+                                <EpitopeRelation>Epitope</EpitopeRelation>
+                                <Object>
+                                    <FragmentOfANaturalSequenceMolecule>
+                                        <ChemicalType>Peptide from protein</ChemicalType>
+                                        <LinearSequence>IRGWAIYSKDNSIRI</LinearSequence>
+                                        <StartingPosition>79</StartingPosition>
+                                        <EndingPosition>93</EndingPosition>
+                                        <SourceMolecule>
+                                            <GenBankId>P03468.2</GenBankId>
+                                        </SourceMolecule>
+                                        <SourceOrganismId>211044</SourceOrganismId>
+                                    </FragmentOfANaturalSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Exact match to reference information</AntigenEvidenceCode>
+                        </Antigen>
+                        <AssayInformation>
+                            <AssayTypeId>62</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <AssayComments>Peptide loaded cells readily present this epitope to a epitope-specific T cell hybridoma in a exocytosis independent manner, demonstrated by the fact that presentation is not affected by the presence of brefeldin A (BFA). Stimulation of the T cell hybridoma was measured by the stimulation capacity of its supernatant to induce proliferation of the indicator IL-2-dependent CTLL cell line.</AssayComments>
+                        </AssayInformation>
+                    </TCell>
+                </Assays>
+                <Assays>
+                    <TCell>
+                        <LocationOfData>Figure 1A</LocationOfData>
+                        <TCellId>24162</TCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>10000000</OrganismId>
+                                <Sex>F</Sex>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Administration in vivo</InVivoProcessType>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Source Organism</EpitopeRelation>
+                                    <Object>
+                                        <Organism>
+                                            <SubType>Organism</SubType>
+                                            <SourceOrganismId>211044</SourceOrganismId>
+                                        </Organism>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenEvidenceCode>Not determined</ImmunogenEvidenceCode>
+                                <Route>Intraperitoneal (i.p.)</Route>
+                                <DoseSchedule>500 hemagglutinin units</DoseSchedule>
+                            </FirstInVivoProcess>
+                            <InVitroAdministration>
+                                <ProcessType>Restimulation in vitro</ProcessType>
+                                <ResponderCellType>T cell</ResponderCellType>
+                                <StimulatorCellType>Splenocyte</StimulatorCellType>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Epitope</EpitopeRelation>
+                                    <Object>
+                                        <FragmentOfANaturalSequenceMolecule>
+                                            <ChemicalType>Peptide from protein</ChemicalType>
+                                            <LinearSequence>IRGWAIYSKDNSIRI</LinearSequence>
+                                            <StartingPosition>79</StartingPosition>
+                                            <EndingPosition>93</EndingPosition>
+                                            <SourceMolecule>
+                                                <GenBankId>P03468.2</GenBankId>
+                                            </SourceMolecule>
+                                            <SourceOrganismId>211044</SourceOrganismId>
+                                        </FragmentOfANaturalSequenceMolecule>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenEvidenceCode>Exact match to reference information</ImmunogenEvidenceCode>
+                            </InVitroAdministration>
+                            <ImmunizationComments>The origin of the T cell hybridoma was previously described, as well as its epitope specificity and restrictive MHC II allele, in reference (PMID 1898970).  T cell hybridoma was obtained by stimulating virus infected splenocytes with the epitopic peptide. Responding cells were fused to BW5147 cells.</ImmunizationComments>
+                        </Immunization>
+                        <EffectorCells>
+                            <CellTissueType>Lymphoid</CellTissueType>
+                            <CellType>T cell</CellType>
+                            <CellCultureConditions>Cell Line / Clone (Hybridoma)</CellCultureConditions>
+                        </EffectorCells>
+                        <AssayedTcrMolecule>
+                            <AssayedTcrMoleculeName>NA 7/11 6.1</AssayedTcrMoleculeName>
+                        </AssayedTcrMolecule>
+                        <AntigenPresentingCells>
+                            <CellTissueType>Lymphoid</CellTissueType>
+                            <CellType>B cell</CellType>
+                            <CellCultureConditions>Cell Line / Clone</CellCultureConditions>
+                            <AutologousOrSyngeneic>Y</AutologousOrSyngeneic>
+                        </AntigenPresentingCells>
+                        <MhcAllele>
+                            <MhcAlleleId>116</MhcAlleleId>
+                            <MhcEvidenceCode>Not determined</MhcEvidenceCode>
+                        </MhcAllele>
+                        <Antigen>
+                            <AntigenObject>
+                                <EpitopeRelation>Source Organism</EpitopeRelation>
+                                <Object>
+                                    <Organism>
+                                        <SubType>Organism</SubType>
+                                        <SourceOrganismId>211044</SourceOrganismId>
+                                    </Organism>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Not determined</AntigenEvidenceCode>
+                        </Antigen>
+                        <AssayInformation>
+                            <AssayTypeId>62</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <AssayComments>Virus infected cells readily present this epitope to a epitope-specific T cell hybridoma. This requires exocytosis as demonstrated by the fact that presentation is abrogated in the presence of brefeldin A (BFA). Stimulation of the T cell hybridoma is measured by the stimulation capacity of its supernatant to induce proliferation of the indicator IL-2-dependent CTLL cell line.</AssayComments>
+                        </AssayInformation>
+                    </TCell>
+                </Assays>
+                <Assays>
+                    <TCell>
+                        <LocationOfData>Figure 2</LocationOfData>
+                        <TCellId>24165</TCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>10000000</OrganismId>
+                                <Sex>F</Sex>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Administration in vivo</InVivoProcessType>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Source Organism</EpitopeRelation>
+                                    <Object>
+                                        <Organism>
+                                            <SubType>Organism</SubType>
+                                            <SourceOrganismId>211044</SourceOrganismId>
+                                        </Organism>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenEvidenceCode>Not determined</ImmunogenEvidenceCode>
+                                <Route>Intraperitoneal (i.p.)</Route>
+                                <DoseSchedule>500 hemagglutinin units</DoseSchedule>
+                            </FirstInVivoProcess>
+                            <InVitroAdministration>
+                                <ProcessType>Restimulation in vitro</ProcessType>
+                                <ResponderCellType>T cell</ResponderCellType>
+                                <StimulatorCellType>Splenocyte</StimulatorCellType>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Epitope</EpitopeRelation>
+                                    <Object>
+                                        <FragmentOfANaturalSequenceMolecule>
+                                            <ChemicalType>Peptide from protein</ChemicalType>
+                                            <LinearSequence>IRGWAIYSKDNSIRI</LinearSequence>
+                                            <StartingPosition>79</StartingPosition>
+                                            <EndingPosition>93</EndingPosition>
+                                            <SourceMolecule>
+                                                <GenBankId>P03468.2</GenBankId>
+                                            </SourceMolecule>
+                                            <SourceOrganismId>211044</SourceOrganismId>
+                                        </FragmentOfANaturalSequenceMolecule>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenEvidenceCode>Exact match to reference information</ImmunogenEvidenceCode>
+                            </InVitroAdministration>
+                            <ImmunizationComments>The origin of the T cell hybridoma was previously described, as well as its epitope specificity and restrictive MHC II allele, in reference (PMID 1898970).  T cell hybridoma was obtained by stimulating virus infected splenocytes with the epitopic peptide. Responding cells were fused to BW5147 cells.</ImmunizationComments>
+                        </Immunization>
+                        <EffectorCells>
+                            <CellTissueType>Lymphoid</CellTissueType>
+                            <CellType>T cell</CellType>
+                            <CellCultureConditions>Cell Line / Clone (Hybridoma)</CellCultureConditions>
+                        </EffectorCells>
+                        <AssayedTcrMolecule>
+                            <AssayedTcrMoleculeName>NA 7/11 6.1</AssayedTcrMoleculeName>
+                        </AssayedTcrMolecule>
+                        <AntigenPresentingCells>
+                            <CellTissueType>Lymphoid</CellTissueType>
+                            <CellType>B cell</CellType>
+                            <CellCultureConditions>Cell Line / Clone</CellCultureConditions>
+                            <AutologousOrSyngeneic>Y</AutologousOrSyngeneic>
+                        </AntigenPresentingCells>
+                        <MhcAllele>
+                            <MhcAlleleId>116</MhcAlleleId>
+                            <MhcEvidenceCode>Not determined</MhcEvidenceCode>
+                        </MhcAllele>
+                        <Antigen>
+                            <AntigenReferenceName>UV-PR8</AntigenReferenceName>
+                            <AntigenObject>
+                                <EpitopeRelation>Source Organism</EpitopeRelation>
+                                <Object>
+                                    <Organism>
+                                        <SubType>Organism</SubType>
+                                        <SourceOrganismId>211044</SourceOrganismId>
+                                    </Organism>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Not determined</AntigenEvidenceCode>
+                        </Antigen>
+                        <AssayInformation>
+                            <AssayTypeId>62</AssayTypeId>
+                            <QualitativeMeasurement>Negative</QualitativeMeasurement>
+                            <AssayComments>Non-infective (UV-treated) virus exposed cells are unable to present this epitope to a epitope-specific T cell hybridoma. This is reverted by the addition of DDAN, which inhibits the receptor-destroying activity of viral neuraminidase, allowing for its cytosolic entry and processing in the absence of viral protein biosynthesis. This pathway requires the fusion capability of hemagglutinin protein and also requires exocytosis of host (MHC II) proteins, since presentation in the presence of DDAN is abrogated in the presence of brefeldin A (BFA). This processing is delayed in comparison to typical endosomal processing. Stimulation of the T cell hybridoma is measured by the stimulation capacity of its supernatant to induce proliferation of the indicator IL-2-dependent CTLL cell line.</AssayComments>
+                        </AssayInformation>
+                    </TCell>
+                </Assays>
+            </Epitope>
+        </Epitopes>
+    </Reference>
+</References>
+

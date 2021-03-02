@@ -1,0 +1,473 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<References xsi:schemaLocation="http://www.iedb.org/schema/CurationSchema http://beta.iedb.org/schema/Curation.xsd" xmlns="http://www.iedb.org/schema/CurationSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <Reference>
+        <ReferenceId>1297</ReferenceId>
+        <DateLastUpdated>2020-09-10-07:00</DateLastUpdated>
+        <Article>
+            <PubmedId>12218131</PubmedId>
+            <Abstract>TCR recognition of class I MHC is dependent on the composition of the antigenic peptide and the MHC. Single amino acid substitutions in either the MHC or the peptide may dramatically alter recognition. While the major interactions between TCR and the peptide/MHC complex appear to be focused on the complementarity-determining region (CDR)3, it is also clear from the cocrystal structure of class I MHC and TCR that the amino and carboxyl ends of the peptide may play a role through interactions with the CDR1. In this work we show that gp33 variants substituted at the peptidic termini at the putative CDR1 contact regions show improved recognition in B6 mice. The rank order of recognition is different using the P14 transgenic T cells, suggesting that one reason for improved recognition is a change in the TCR repertoire that recognizes the peptide. However, the affinity of the TCR by some of the peptide/MHC complex with increased recognition is improved, as shown by increased tetramer binding to P14 T cells. These substitutions at the termini of the peptide-binding cleft cause localized conformational changes as seen by changes in mAb binding and crystallographic structures. The different peptide structures also show different conformations in the center of the peptide, but these are shown to be energetically similar and thus most likely have no significance with respect to TCR recognition. Therefore, small conformational changes, localized to the CDR1 contact regions, may play a significant role in TCR recognition.</Abstract>
+            <ArticleYear>2002</ArticleYear>
+            <ArticlePages>3137-45</ArticlePages>
+            <ArticleTitle>Peptidic termini play a significant role in TCR recognition.</ArticleTitle>
+            <Authors>
+                <Author>
+                    <LastName>Wang</LastName>
+                    <ForeName>Bo</ForeName>
+                </Author>
+                <Author>
+                    <LastName>Sharma</LastName>
+                    <ForeName>Ashawni</ForeName>
+                </Author>
+                <Author>
+                    <LastName>Maile</LastName>
+                    <ForeName>Robert</ForeName>
+                </Author>
+                <Author>
+                    <LastName>Saad</LastName>
+                    <ForeName>Mohamed</ForeName>
+                </Author>
+                <Author>
+                    <LastName>Collins</LastName>
+                    <ForeName>Edward J</ForeName>
+                </Author>
+                <Author>
+                    <LastName>Frelinger</LastName>
+                    <ForeName>Jeffrey A</ForeName>
+                </Author>
+            </Authors>
+            <Affiliations>Department of Microbiology and Immunology, University of North Carolina, Chapel Hill, NC 27599, USA.</Affiliations>
+            <ArticleChemicalList>Antigens, Viral;Glycoproteins;H-2 Antigens;Histocompatibility Antigen H-2D;Oligopeptides;Peptide Fragments;Receptors, Antigen, T-Cell;Viral Proteins;glycoprotein peptide 33-41, Lymphocytic choriomeningitis virus</ArticleChemicalList>
+            <ArticleMeshHeadingsList>Amino Acid Substitution(genetics; immunology); Animals; Antigens, Viral(immunology; metabolism); CD8-Positive T-Lymphocytes(immunology; metabolism); Cells, Cultured; Cytotoxicity Tests, Immunologic; Glycoproteins(immunology; metabolism); H-2 Antigens(immunology; metabolism); Histocompatibility Antigen H-2D; Lymphocytic choriomeningitis virus(immunology); Mice; Mice, Inbred C57BL; Mice, Knockout; Mice, Transgenic; Oligopeptides(immunology; metabolism; physiology); Peptide Fragments(immunology; metabolism); Protein Binding(immunology); Protein Conformation; Receptors, Antigen, T-Cell(genetics; metabolism); Viral Proteins(immunology; metabolism)</ArticleMeshHeadingsList>
+            <Journal>
+                <Volume>169</Volume>
+                <Issue>6</Issue>
+                <Title>Journal of immunology (Baltimore, Md. : 1950)</Title>
+                <Issn>0022-1767</Issn>
+                <MedlineTa>J Immunol</MedlineTa>
+            </Journal>
+        </Article>
+        <Epitopes>
+            <Epitope>
+                <EpitopeName>gp33</EpitopeName>
+                <EpitopeStructure>
+                    <FragmentOfANaturalSequenceMolecule>
+                        <ChemicalType>Peptide from protein</ChemicalType>
+                        <LinearSequence>KAVYNFATC</LinearSequence>
+                        <StartingPosition>33</StartingPosition>
+                        <EndingPosition>41</EndingPosition>
+                        <SourceMolecule>
+                            <GenBankId>P09991.1</GenBankId>
+                        </SourceMolecule>
+                        <SourceOrganismId>11624</SourceOrganismId>
+                    </FragmentOfANaturalSequenceMolecule>
+                </EpitopeStructure>
+                <LocationOfData>Table 1</LocationOfData>
+                <EpitopeId>30001</EpitopeId>
+                <ReferenceStartingPosition>33</ReferenceStartingPosition>
+                <ReferenceEndingPosition>41</ReferenceEndingPosition>
+                <EpitopeEvidenceCode>Not determined</EpitopeEvidenceCode>
+                <EpitopeStructureDefines>Exact Epitope</EpitopeStructureDefines>
+                <Assays>
+                    <TCell>
+                        <LocationOfData>Figure 1</LocationOfData>
+                        <TCellId>1031846</TCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>10000067</OrganismId>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Administration in vivo</InVivoProcessType>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Source Organism</EpitopeRelation>
+                                    <Object>
+                                        <Organism>
+                                            <SubType>Organism</SubType>
+                                            <SourceOrganismId>11624</SourceOrganismId>
+                                        </Organism>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenReferenceName>Lymphocytic choriomeningitis virus (strain Armstrong)</ImmunogenReferenceName>
+                                <ImmunogenEvidenceCode>Not determined</ImmunogenEvidenceCode>
+                            </FirstInVivoProcess>
+                            <ImmunizationComments>Mice were immunized with virus and splenocytes were harvested 7 days later.</ImmunizationComments>
+                        </Immunization>
+                        <EffectorCells>
+                            <CellTissueType>Spleen</CellTissueType>
+                            <CellType>Splenocyte</CellType>
+                            <CellCultureConditions>Direct Ex Vivo</CellCultureConditions>
+                        </EffectorCells>
+                        <AntigenPresentingCells>
+                            <CellTissueType>Lymphoid</CellTissueType>
+                            <CellType>EL-4 cells-Lymphoblast</CellType>
+                            <CellCultureConditions>Cell Line / Clone</CellCultureConditions>
+                        </AntigenPresentingCells>
+                        <MhcAllele>
+                            <MhcAlleleId>172</MhcAlleleId>
+                            <MhcEvidenceCode>Not determined</MhcEvidenceCode>
+                        </MhcAllele>
+                        <Antigen>
+                            <AntigenReferenceName>gp33</AntigenReferenceName>
+                            <AntigenObject>
+                                <EpitopeRelation>Epitope</EpitopeRelation>
+                                <Object>
+                                    <FragmentOfANaturalSequenceMolecule>
+                                        <ChemicalType>Peptide from protein</ChemicalType>
+                                        <LinearSequence>KAVYNFATC</LinearSequence>
+                                        <StartingPosition>33</StartingPosition>
+                                        <EndingPosition>41</EndingPosition>
+                                        <SourceMolecule>
+                                            <GenBankId>P09991.1</GenBankId>
+                                        </SourceMolecule>
+                                        <SourceOrganismId>11624</SourceOrganismId>
+                                    </FragmentOfANaturalSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Exact match to reference information</AntigenEvidenceCode>
+                        </Antigen>
+                        <AssayInformation>
+                            <AssayTypeId>67</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <AssayComments>Polyclonal splenocytes from LCMV-infected animals are shown to recognize peptide pulsed APCs. The recognition by the same splenocytes of variant peptides with substitutions at the N and/or C termini was also analyzed, showing that in the case of C9M, recognition was similar to the wild type peptide, while K1S and K1A/C9M were more effectively recognized, and K1S/C9M was much more efficient at sensitizing cells than the WT peptide. These differences are not due to differential MCH binding (WT peptide is even slightly better binder). The differences are attributed to the engagement of a broader repertoire of T cells, since studies at the clonal level with P14 TCR transgenic mice show that the double-substituted peptides are less efficiently recognized in that setup, implying they are not inherently more strongly recognized by TCRs.</AssayComments>
+                        </AssayInformation>
+                    </TCell>
+                </Assays>
+                <Assays>
+                    <TCell>
+                        <LocationOfData>Figures 3 to 5</LocationOfData>
+                        <TCellId>1031847</TCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>10000287</OrganismId>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Administration in vivo</InVivoProcessType>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Source Organism</EpitopeRelation>
+                                    <Object>
+                                        <Organism>
+                                            <SubType>Organism</SubType>
+                                            <SourceOrganismId>11624</SourceOrganismId>
+                                        </Organism>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenReferenceName>Lymphocytic choriomeningitis virus (strain Armstrong)</ImmunogenReferenceName>
+                                <ImmunogenEvidenceCode>Not determined</ImmunogenEvidenceCode>
+                            </FirstInVivoProcess>
+                            <ImmunizationComments>Mice were immunized with virus and splenocytes were harvested 7 days later.</ImmunizationComments>
+                        </Immunization>
+                        <EffectorCells>
+                            <CellTissueType>Spleen</CellTissueType>
+                            <CellType>Splenocyte</CellType>
+                            <CellCultureConditions>Direct Ex Vivo</CellCultureConditions>
+                        </EffectorCells>
+                        <AssayedTcrMolecule>
+                            <AssayedTcrMoleculeName>P14</AssayedTcrMoleculeName>
+                        </AssayedTcrMolecule>
+                        <AntigenPresentingCells>
+                            <CellTissueType>Lymphoid</CellTissueType>
+                            <CellType>EL-4 cells-Lymphoblast</CellType>
+                            <CellCultureConditions>Cell Line / Clone</CellCultureConditions>
+                        </AntigenPresentingCells>
+                        <MhcAllele>
+                            <MhcAlleleId>172</MhcAlleleId>
+                            <MhcEvidenceCode>Not determined</MhcEvidenceCode>
+                        </MhcAllele>
+                        <Antigen>
+                            <AntigenReferenceName>gp33</AntigenReferenceName>
+                            <AntigenObject>
+                                <EpitopeRelation>Epitope</EpitopeRelation>
+                                <Object>
+                                    <FragmentOfANaturalSequenceMolecule>
+                                        <ChemicalType>Peptide from protein</ChemicalType>
+                                        <LinearSequence>KAVYNFATC</LinearSequence>
+                                        <StartingPosition>33</StartingPosition>
+                                        <EndingPosition>41</EndingPosition>
+                                        <SourceMolecule>
+                                            <GenBankId>P09991.1</GenBankId>
+                                        </SourceMolecule>
+                                        <SourceOrganismId>11624</SourceOrganismId>
+                                    </FragmentOfANaturalSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Exact match to reference information</AntigenEvidenceCode>
+                        </Antigen>
+                        <AssayInformation>
+                            <AssayTypeId>67</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <AssayComments>Splenocytes from LCMV-infected P14 TCR transgenic animals are shown to recognize peptide pulsed APCs. The recognition by the same splenocytes of variant peptides with substitutions at the N and/or C termini was also analyzed, showing that in the case of C9M, recognition was higher to the wild type peptide, while K1S/C9M was less effectively recognized, and K1A/C9M and K1S were much less efficient at sensitizing cells than the WT peptide. These effects are not due to differential MHC binding, and are different than the ones seen with WT B6 mice, implying that a differential affinity towards these variants by P14 TCR is accountable for these effects. This is confirmed by the ability of peptide tetramers to stain cells and induce proliferation in a level similar to the CTL activity,  and in the case of the C9M variant, the affinity is so high that it is capable of inducing proliferation even in the absence of costimulatory CD8 molecules.</AssayComments>
+                        </AssayInformation>
+                    </TCell>
+                </Assays>
+                <Assays>
+                    <MhcBinding>
+                        <LocationOfData>Fig 2</LocationOfData>
+                        <MhcBindingId>19565</MhcBindingId>
+                        <AssayInformation>
+                            <AssayTypeId>185</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <AssayComments>Similar results are obtained with several epitopic variants where the termini residues are mutated, implying Db binding is not affected by those substitutions, while T cell responses are affected.  TAP  deficient T2 cells transfected with Db MHC molecules were incubated with peptide and stained with anti-peptide antibody.</AssayComments>
+                        </AssayInformation>
+                        <MhcAlleleId>172</MhcAlleleId>
+                    </MhcBinding>
+                </Assays>
+            </Epitope>
+            <Epitope>
+                <EpitopeName>C9M analogue of LCMV immunodominant epitope gp33</EpitopeName>
+                <EpitopeStructure>
+                    <SequenceMoleculeNoNaturalSource>
+                        <ChemicalType>Peptide, no natural source</ChemicalType>
+                        <LinearSequence>KAVYNFATM</LinearSequence>
+                    </SequenceMoleculeNoNaturalSource>
+                </EpitopeStructure>
+                <EpitopeRelatedObject>
+                    <RelatedObjectType>The epitope is an analog of:</RelatedObjectType>
+                    <RelatedObject>
+                        <FragmentOfANaturalSequenceMolecule>
+                            <ChemicalType>Peptide from protein</ChemicalType>
+                            <LinearSequence>KAVYNFATC</LinearSequence>
+                            <StartingPosition>33</StartingPosition>
+                            <EndingPosition>41</EndingPosition>
+                            <SourceMolecule>
+                                <GenBankId>P09991.1</GenBankId>
+                            </SourceMolecule>
+                            <SourceOrganismId>11623</SourceOrganismId>
+                        </FragmentOfANaturalSequenceMolecule>
+                    </RelatedObject>
+                </EpitopeRelatedObject>
+                <LocationOfData>Table 1</LocationOfData>
+                <EpitopeId>30015</EpitopeId>
+                <EpitopeStructureDefines>Exact Epitope</EpitopeStructureDefines>
+                <EpitopeComments>Variant of epitope gp33 from LCMV,  where C9 is changed to M.</EpitopeComments>
+                <Assays>
+                    <MhcBinding>
+                        <LocationOfData>Fig 2</LocationOfData>
+                        <MhcBindingId>19566</MhcBindingId>
+                        <AssayInformation>
+                            <AssayTypeId>185</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <AssayComments>Similar results are obtained with several epitopic variants originated form gp33 sequence,  where the termini residues are mutated, implying Db binding is not affected by those substitutions, while T cell responses are affected.  TAP  deficient T2 cells transfected with Db MHC molecules were incubated with peptide and stained with anti-peptide antibody.</AssayComments>
+                        </AssayInformation>
+                        <MhcAlleleId>172</MhcAlleleId>
+                    </MhcBinding>
+                </Assays>
+                <Assays>
+                    <MhcBinding>
+                        <MhcBindingId>1207338</MhcBindingId>
+                        <AssayInformation>
+                            <AssayTypeId>175</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <QuantitativeMeasurement>2.7</QuantitativeMeasurement>
+                            <MeasurementInequality>=</MeasurementInequality>
+                        </AssayInformation>
+                        <MhcAlleleId>172</MhcAlleleId>
+                        <ThreeDimensionalStructureOfComplex>
+                            <ComplexPdbId>1FFN</ComplexPdbId>
+                            <MhcChain1PdbChain>A</MhcChain1PdbChain>
+                            <MhcChain2PdbChain>B</MhcChain2PdbChain>
+                            <EpitopePdbChain>C</EpitopePdbChain>
+                            <EpitopeResidues>C: K1, A2, V3, Y4, N5, F6, A7, T8, M9</EpitopeResidues>
+                            <ViewerFlag>Y</ViewerFlag>
+                            <Comments>The structures of C9M, K1A/C9M, and K1S/C9M gp33 variants bound to H-2-D(b) are very similar. A major difference seen in the structures is the position of the Phe at P6. In K1A/C9M, it has the same conformations that in C9M. In the structure of K1S/C9M, the P6 Phe rotates and is directed towards the solvent. Comparing the interactions of C9M, K1A/C9M, and K1S/C9M with the peptide-binding cleft shows changes around position P1 of the peptide. The wild-type P1 lysine in C9M does not make any contacts with residues in binding cleft. The P1 serine in K1S/C9M makes hydrogen bonds with Lys66 and Glu163 of D(b). As a consequence of the smaller P1 side chains (alanine and serine), Trp167 of D(b) moves toward the P1 position in both K1A/C9M and K1S/C9M as compared with C9M, that may make the P14 TCR to contact in this area. The major difference seen between K1A/C9M and K1S/C9M is the presence of negatively charged bulge in K1S/C9M.</Comments>
+                            <CuratedContacts>
+                                <EpitopeResidues>C: K1, A2, V3, Y4, N5, F6, A7, T8, M9</EpitopeResidues>
+                                <EpitopeResiduesInteractingWithMhc>C: ;</EpitopeResiduesInteractingWithMhc>
+                                <MhcResiduesInteractingWithEpitope>A: ;</MhcResiduesInteractingWithEpitope>
+                            </CuratedContacts>
+                            <CalculatedContacts>
+                                <EpitopeResiduesInteractingWithMhc>C: K1, A2, V3, Y4, N5, F6, A7, T8, M9</EpitopeResiduesInteractingWithMhc>
+                                <MhcResiduesInteractingWithEpitope>A: M5, Y7, Y45, Y59, E63, K66, Q70, W73, V76, S77, N80, Y84, L95, Q97, S99, F116, Y123, T143, K146, W147, S150, H155, Y156, Y159, W167, Y171</MhcResiduesInteractingWithEpitope>
+                                <ContactAreaForEpitope>1172.1</ContactAreaForEpitope>
+                                <ContactAreaForMhc>721.5</ContactAreaForMhc>
+                            </CalculatedContacts>
+                        </ThreeDimensionalStructureOfComplex>
+                    </MhcBinding>
+                </Assays>
+            </Epitope>
+            <Epitope>
+                <EpitopeName>K1S</EpitopeName>
+                <EpitopeStructure>
+                    <SequenceMoleculeNoNaturalSource>
+                        <ChemicalType>Peptide, no natural source</ChemicalType>
+                        <LinearSequence>SAVYNFATC</LinearSequence>
+                    </SequenceMoleculeNoNaturalSource>
+                </EpitopeStructure>
+                <EpitopeRelatedObject>
+                    <RelatedObjectType>The epitope is an analog of:</RelatedObjectType>
+                    <RelatedObject>
+                        <FragmentOfANaturalSequenceMolecule>
+                            <ChemicalType>Peptide from protein</ChemicalType>
+                            <LinearSequence>KAVYNFATC</LinearSequence>
+                            <StartingPosition>33</StartingPosition>
+                            <EndingPosition>41</EndingPosition>
+                            <SourceMolecule>
+                                <GenBankId>P09991.1</GenBankId>
+                            </SourceMolecule>
+                            <SourceOrganismId>11623</SourceOrganismId>
+                        </FragmentOfANaturalSequenceMolecule>
+                    </RelatedObject>
+                </EpitopeRelatedObject>
+                <LocationOfData>Table 1</LocationOfData>
+                <EpitopeId>57043</EpitopeId>
+                <EpitopeStructureDefines>Exact Epitope</EpitopeStructureDefines>
+                <EpitopeComments>Variant of epitope gp33 from LCMV,  where K1 is chaged to S.</EpitopeComments>
+                <Assays>
+                    <MhcBinding>
+                        <LocationOfData>Fig 2</LocationOfData>
+                        <MhcBindingId>19570</MhcBindingId>
+                        <AssayInformation>
+                            <AssayTypeId>185</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <AssayComments>Similar results are obtained with several epitopic variants originated form gp33 sequence,  where the termini residues are mutated, implying Db binding is not affected by those substitutions, while T cell responses are affected.  TAP  deficient T2 cells transfected with Db MHC molecules were incubated with peptide and stained with anti-peptide antibody.</AssayComments>
+                        </AssayInformation>
+                        <MhcAlleleId>172</MhcAlleleId>
+                    </MhcBinding>
+                </Assays>
+            </Epitope>
+            <Epitope>
+                <EpitopeName>K1A/C9M analogue of LCMV immunodominant epitope gp33</EpitopeName>
+                <EpitopeStructure>
+                    <SequenceMoleculeNoNaturalSource>
+                        <ChemicalType>Peptide, no natural source</ChemicalType>
+                        <LinearSequence>AAVYNFATM</LinearSequence>
+                    </SequenceMoleculeNoNaturalSource>
+                </EpitopeStructure>
+                <EpitopeRelatedObject>
+                    <RelatedObjectType>The epitope is an analog of:</RelatedObjectType>
+                    <RelatedObject>
+                        <FragmentOfANaturalSequenceMolecule>
+                            <ChemicalType>Peptide from protein</ChemicalType>
+                            <LinearSequence>KAVYNFATC</LinearSequence>
+                            <StartingPosition>33</StartingPosition>
+                            <EndingPosition>41</EndingPosition>
+                            <SourceMolecule>
+                                <GenBankId>P09991.1</GenBankId>
+                            </SourceMolecule>
+                            <SourceOrganismId>11623</SourceOrganismId>
+                        </FragmentOfANaturalSequenceMolecule>
+                    </RelatedObject>
+                </EpitopeRelatedObject>
+                <LocationOfData>Table 1</LocationOfData>
+                <EpitopeId>508</EpitopeId>
+                <EpitopeStructureDefines>Exact Epitope</EpitopeStructureDefines>
+                <EpitopeComments>Variant of epitope gp33 from LCMV,  where K1 is changed to A and C9 is changed to M.</EpitopeComments>
+                <Assays>
+                    <MhcBinding>
+                        <LocationOfData>Fig 2</LocationOfData>
+                        <MhcBindingId>19572</MhcBindingId>
+                        <AssayInformation>
+                            <AssayTypeId>185</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <AssayComments>Similar results are obtained with several epitopic variants originated form gp33 sequence,  where the termini residues are mutated, implying Db binding is not affected by those substitutions, while T cell responses are affected.  TAP  deficient T2 cells transfected with Db MHC molecules were incubated with peptide and stained with anti-peptide antibody.</AssayComments>
+                        </AssayInformation>
+                        <MhcAlleleId>172</MhcAlleleId>
+                    </MhcBinding>
+                </Assays>
+                <Assays>
+                    <MhcBinding>
+                        <MhcBindingId>1207340</MhcBindingId>
+                        <AssayInformation>
+                            <AssayTypeId>175</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <QuantitativeMeasurement>2.65</QuantitativeMeasurement>
+                            <MeasurementInequality>=</MeasurementInequality>
+                        </AssayInformation>
+                        <MhcAlleleId>172</MhcAlleleId>
+                        <ThreeDimensionalStructureOfComplex>
+                            <ComplexPdbId>1FFO</ComplexPdbId>
+                            <MhcChain1PdbChain>A</MhcChain1PdbChain>
+                            <MhcChain2PdbChain>B</MhcChain2PdbChain>
+                            <EpitopePdbChain>C</EpitopePdbChain>
+                            <EpitopeResidues>C: A1, A2, V3, Y4, N5, F6, A7, T8, M9</EpitopeResidues>
+                            <ViewerFlag>Y</ViewerFlag>
+                            <Comments>Interacting residues and contacts are not discussed in the paper. The structures of C9M, K1A/C9M, and K1S/C9M gp33 variants bound toH-2 D(b) are very similar. A major difference seen in the structures is the position of the Phe at P6. In K1A/C9M, it has the same conformations that in C9M. In the structure of K1S/C9M, the P6 Phe rotates and is directed towards the solvent. Comparing the interactions of C9M, K1A/C9M, and K1S/C9M with the peptide-binding cleft shows changes around position P1 of the peptide. The wild-type P1 lysine in C9M does not make any contacts with residues in binding cleft. The P1 serine in K1S/C9M makes hydrogen bonds with Lys66 and Glu163 of D(b). As a consequence of the smaller P1 side chains (alanine and serine), Trp167 of D(b) moves toward the P1 position in both K1A/C9M and K1S/C9M as compared with C9M, that may make the P14 TCR to contact in this area. The major difference seen between K1A/C9M and K1S/C9M is the presence of negatively charged bulge in K1S/C9M.</Comments>
+                            <CuratedContacts>
+                                <EpitopeResidues>C: A1, A2, V3, Y4, N5, F6, A7, T8, M9</EpitopeResidues>
+                                <EpitopeResiduesInteractingWithMhc>C: ;</EpitopeResiduesInteractingWithMhc>
+                                <MhcResiduesInteractingWithEpitope>A: ;</MhcResiduesInteractingWithEpitope>
+                            </CuratedContacts>
+                            <CalculatedContacts>
+                                <EpitopeResiduesInteractingWithMhc>C: A1, A2, V3, Y4, N5, F6, A7, T8, M9</EpitopeResiduesInteractingWithMhc>
+                                <MhcResiduesInteractingWithEpitope>A: M5, Y7, Y45, E63, K66, G69, Q70, W73, F74, S77, N80, Y84, Q97, S99, F116, Y123, T143, K146, W147, S150, H155, Y156, Y159, E163, W167, Y171</MhcResiduesInteractingWithEpitope>
+                                <ContactAreaForEpitope>1112.6</ContactAreaForEpitope>
+                                <ContactAreaForMhc>644.2</ContactAreaForMhc>
+                            </CalculatedContacts>
+                        </ThreeDimensionalStructureOfComplex>
+                    </MhcBinding>
+                </Assays>
+            </Epitope>
+            <Epitope>
+                <EpitopeName>K1S/C9M analogue of LCMV immunodominant epitope gp33</EpitopeName>
+                <EpitopeStructure>
+                    <SequenceMoleculeNoNaturalSource>
+                        <ChemicalType>Peptide, no natural source</ChemicalType>
+                        <LinearSequence>SAVYNFATM</LinearSequence>
+                    </SequenceMoleculeNoNaturalSource>
+                </EpitopeStructure>
+                <EpitopeRelatedObject>
+                    <RelatedObjectType>The epitope is an analog of:</RelatedObjectType>
+                    <RelatedObject>
+                        <FragmentOfANaturalSequenceMolecule>
+                            <ChemicalType>Peptide from protein</ChemicalType>
+                            <LinearSequence>KAVYNFATC</LinearSequence>
+                            <StartingPosition>33</StartingPosition>
+                            <EndingPosition>41</EndingPosition>
+                            <SourceMolecule>
+                                <GenBankId>P09991.1</GenBankId>
+                            </SourceMolecule>
+                            <SourceOrganismId>11623</SourceOrganismId>
+                        </FragmentOfANaturalSequenceMolecule>
+                    </RelatedObject>
+                </EpitopeRelatedObject>
+                <LocationOfData>Table 1</LocationOfData>
+                <EpitopeId>57044</EpitopeId>
+                <EpitopeStructureDefines>Exact Epitope</EpitopeStructureDefines>
+                <EpitopeComments>Variant of epitope gp33 from LCMV,  where K1 is changed to S and C9 is changed to M.</EpitopeComments>
+                <Assays>
+                    <MhcBinding>
+                        <LocationOfData>Fig 2</LocationOfData>
+                        <MhcBindingId>19573</MhcBindingId>
+                        <AssayInformation>
+                            <AssayTypeId>185</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <AssayComments>Similar results are obtained with several epitopic variants originated form gp33 sequence,  where the termini residues are mutated, implying Db binding is not affected by those substitutions, while T cell responses are affected.  TAP  deficient T2 cells transfected with Db MHC molecules were incubated with peptide and stained with anti-peptide antibody.</AssayComments>
+                        </AssayInformation>
+                        <MhcAlleleId>172</MhcAlleleId>
+                    </MhcBinding>
+                </Assays>
+                <Assays>
+                    <MhcBinding>
+                        <MhcBindingId>1207339</MhcBindingId>
+                        <AssayInformation>
+                            <AssayTypeId>175</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <QuantitativeMeasurement>2.6</QuantitativeMeasurement>
+                            <MeasurementInequality>=</MeasurementInequality>
+                        </AssayInformation>
+                        <MhcAlleleId>172</MhcAlleleId>
+                        <ThreeDimensionalStructureOfComplex>
+                            <ComplexPdbId>1FFP</ComplexPdbId>
+                            <MhcChain1PdbChain>A</MhcChain1PdbChain>
+                            <MhcChain2PdbChain>B</MhcChain2PdbChain>
+                            <EpitopePdbChain>C</EpitopePdbChain>
+                            <EpitopeResidues>C: S1, A2, V3, Y4, N5, F6, A7, T8, M9</EpitopeResidues>
+                            <ViewerFlag>Y</ViewerFlag>
+                            <Comments>Interacting residues and contacts are not discussed in the paper. The structures of C9M, K1A/C9M, and K1S/C9M gp33 variants bound toH-2 D(b) are very similar. A major difference seen in the structures is the position of the Phe at P6. In K1A/C9M, it has the same conformations that in C9M. In the structure of K1S/C9M, the P6 Phe rotates and is directed towards the solvent. Comparing the interactions of C9M, K1A/C9M, and K1S/C9M with the peptide-binding cleft shows changes around position P1 of the peptide. The wild-type P1 lysine in C9M does not make any contacts with residues in binding cleft. The P1 serine in K1S/C9M makes hydrogen bonds with Lys66 and Glu163 of D(b). As a consequence of the smaller P1 side chains (alanine and serine), Trp167 of D(b) moves toward the P1 position in both K1A/C9M and K1S/C9M as compared with C9M, that may make the P14 TCR to contact in this area. The major difference seen between K1A/C9M and K1S/C9M is the presence of negatively charged bulge in K1S/C9M.</Comments>
+                            <CuratedContacts>
+                                <EpitopeResidues>C: S1, A2, V3, Y4, N5, F6, A7, T8, M9</EpitopeResidues>
+                                <EpitopeResiduesInteractingWithMhc>C: ;</EpitopeResiduesInteractingWithMhc>
+                                <MhcResiduesInteractingWithEpitope>A: ;</MhcResiduesInteractingWithEpitope>
+                            </CuratedContacts>
+                            <CalculatedContacts>
+                                <EpitopeResiduesInteractingWithMhc>C: S1, A2, V3, Y4, N5, F6, A7, T8, M9</EpitopeResiduesInteractingWithMhc>
+                                <MhcResiduesInteractingWithEpitope>A: M5, Y7, Y45, E63, K66, Q70, W73, F74, V76, S77, N80, Y84, L95, Q97, S99, Y123, T143, K146, W147, S150, A152, H155, Y156, Y159, E163, W167, Y171</MhcResiduesInteractingWithEpitope>
+                                <ContactAreaForEpitope>1138.7</ContactAreaForEpitope>
+                                <ContactAreaForMhc>671.5</ContactAreaForMhc>
+                            </CalculatedContacts>
+                        </ThreeDimensionalStructureOfComplex>
+                    </MhcBinding>
+                </Assays>
+            </Epitope>
+        </Epitopes>
+    </Reference>
+</References>
+

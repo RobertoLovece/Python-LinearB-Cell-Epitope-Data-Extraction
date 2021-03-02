@@ -1,0 +1,533 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<References xsi:schemaLocation="http://www.iedb.org/schema/CurationSchema http://beta.iedb.org/schema/Curation.xsd" xmlns="http://www.iedb.org/schema/CurationSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <Reference>
+        <ReferenceId>1200</ReferenceId>
+        <DateLastUpdated>2020-09-10-07:00</DateLastUpdated>
+        <Article>
+            <PubmedId>11709777</PubmedId>
+            <Abstract>Dengue is an increasingly important cause of morbidity and mortality in the tropics, but vaccine development has been impeded by a poor understanding of disease pathogenesis and, in particular, of immunologic enhancement. In a large case-control study of Vietnamese patients with dengue hemorrhagic fever (DHF), variation at the HLA-A locus was significantly associated with susceptibility to DHF (P=.02), and specific HLA-A susceptibility and resistance alleles were identified. HLA-A-specific epitopes were predicted from binding motifs, and ELISPOT analyses of patients with DHF revealed high frequencies of circulating CD8 T lymphocytes that recognized both serotype-specific and -cross-reactive dengue virus epitopes. Thus, strong CD8 T cell responses are induced by natural dengue virus infection, and HLA class I genetic variation is a risk factor for DHF. These genetic and immunologic data support both protective and pathogenic roles for dengue virus-specific CD8 T cell responses in severe disease. The potentially pathogenic role of serotype-cross-reactive CD8 T cells poses yet another obstacle to successful dengue vaccine development.</Abstract>
+            <ArticleYear>2001</ArticleYear>
+            <ArticlePages>1369-73</ArticlePages>
+            <ArticleTitle>Strong HLA class I--restricted T cell responses in dengue hemorrhagic fever: a double-edged sword?</ArticleTitle>
+            <Authors>
+                <Author>
+                    <LastName>Loke</LastName>
+                    <ForeName>H</ForeName>
+                </Author>
+                <Author>
+                    <LastName>Bethell</LastName>
+                    <ForeName>D B</ForeName>
+                </Author>
+                <Author>
+                    <LastName>Phuong</LastName>
+                    <ForeName>C X</ForeName>
+                </Author>
+                <Author>
+                    <LastName>Dung</LastName>
+                    <ForeName>M</ForeName>
+                </Author>
+                <Author>
+                    <LastName>Schneider</LastName>
+                    <ForeName>J</ForeName>
+                </Author>
+                <Author>
+                    <LastName>White</LastName>
+                    <ForeName>N J</ForeName>
+                </Author>
+                <Author>
+                    <LastName>Day</LastName>
+                    <ForeName>N P</ForeName>
+                </Author>
+                <Author>
+                    <LastName>Farrar</LastName>
+                    <ForeName>J</ForeName>
+                </Author>
+                <Author>
+                    <LastName>Hill</LastName>
+                    <ForeName>A V</ForeName>
+                </Author>
+            </Authors>
+            <ArticleChemicalList>Antigens, Viral;Epitopes;HLA-A Antigens;Interferon-gamma</ArticleChemicalList>
+            <ArticleMeshHeadingsList>Adolescent; Adult; Antigens, Viral(immunology); CD8-Positive T-Lymphocytes(immunology); Case-Control Studies; Cells, Cultured; Child; Child, Preschool; Dengue Virus(immunology); Epitopes(immunology); Female; Genetic Predisposition to Disease; Genetic Variation; HLA-A Antigens(genetics); Humans; Interferon-gamma(biosynthesis); Lymphocyte Activation; Major Histocompatibility Complex; Male; Polymorphism, Genetic; Severe Dengue(genetics; immunology)</ArticleMeshHeadingsList>
+            <Comments>Data originally imported from the HLA Ligand Database (http://hlaligand.ouhsc.edu/)</Comments>
+            <Journal>
+                <Volume>184</Volume>
+                <Issue>11</Issue>
+                <Title>The Journal of infectious diseases</Title>
+                <Issn>1537-6613</Issn>
+                <MedlineTa>J Infect Dis</MedlineTa>
+            </Journal>
+        </Article>
+        <Epitopes>
+            <Epitope>
+                <EpitopeName>39399</EpitopeName>
+                <EpitopeStructure>
+                    <FragmentOfANaturalSequenceMolecule>
+                        <ChemicalType>Peptide from protein</ChemicalType>
+                        <LinearSequence>TVWFVPSIK</LinearSequence>
+                        <StartingPosition>358</StartingPosition>
+                        <EndingPosition>366</EndingPosition>
+                        <SourceMolecule>
+                            <GenBankId>NP_739587.1</GenBankId>
+                        </SourceMolecule>
+                        <SourceOrganismId>11065</SourceOrganismId>
+                    </FragmentOfANaturalSequenceMolecule>
+                </EpitopeStructure>
+                <LocationOfData>Table 3</LocationOfData>
+                <EpitopeId>67210</EpitopeId>
+                <EpitopeEvidenceCode>Not determined</EpitopeEvidenceCode>
+                <EpitopeStructureDefines>Exact Epitope</EpitopeStructureDefines>
+                <Assays>
+                    <TCell>
+                        <LocationOfData>Table 3</LocationOfData>
+                        <TCellId>17201</TCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>9606</OrganismId>
+                                <GeoLocId>http://purl.obolibrary.org/obo/GAZ_00003756</GeoLocId>
+                                <Sex>F</Sex>
+                                <Age>16 years-old</Age>
+                                <MhcAlleleTypesPresent>
+                                    <MhcAlleleId>142</MhcAlleleId>
+                                    <MhcAlleleId>143</MhcAlleleId>
+                                    <MhcAlleleId>295</MhcAlleleId>
+                                    <MhcAlleleId>37</MhcAlleleId>
+                                </MhcAlleleTypesPresent>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Occurrence of infectious disease</InVivoProcessType>
+                                <DiseaseState>DOID:12206</DiseaseState>
+                                <DiseaseStage>Post</DiseaseStage>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Source Organism</EpitopeRelation>
+                                    <Object>
+                                        <Organism>
+                                            <SubType>Organism</SubType>
+                                            <SourceOrganismId>11065</SourceOrganismId>
+                                        </Organism>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenEvidenceCode>Not determined</ImmunogenEvidenceCode>
+                            </FirstInVivoProcess>
+                        </Immunization>
+                        <EffectorCells>
+                            <CellTissueType>Blood</CellTissueType>
+                            <CellType>T cell CD8+</CellType>
+                            <CellCultureConditions>Direct Ex Vivo</CellCultureConditions>
+                        </EffectorCells>
+                        <AntigenPresentingCells>
+                            <CellTissueType>Blood</CellTissueType>
+                            <CellType>PBMC</CellType>
+                            <CellCultureConditions>Direct Ex Vivo</CellCultureConditions>
+                            <AutologousOrSyngeneic>Y</AutologousOrSyngeneic>
+                        </AntigenPresentingCells>
+                        <MhcAllele>
+                            <MhcAlleleId>303</MhcAlleleId>
+                            <MhcEvidenceCode>T cell assay -T cell subset identification</MhcEvidenceCode>
+                        </MhcAllele>
+                        <Antigen>
+                            <AntigenReferenceName>11-13</AntigenReferenceName>
+                            <AntigenObject>
+                                <EpitopeRelation>Epitope</EpitopeRelation>
+                                <Object>
+                                    <FragmentOfANaturalSequenceMolecule>
+                                        <ChemicalType>Peptide from protein</ChemicalType>
+                                        <LinearSequence>TVWFVPSIK</LinearSequence>
+                                        <StartingPosition>358</StartingPosition>
+                                        <EndingPosition>366</EndingPosition>
+                                        <SourceMolecule>
+                                            <GenBankId>NP_739587.1</GenBankId>
+                                        </SourceMolecule>
+                                        <SourceOrganismId>11065</SourceOrganismId>
+                                    </FragmentOfANaturalSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Exact match to reference information</AntigenEvidenceCode>
+                        </Antigen>
+                        <AssayInformation>
+                            <AssayTypeId>48</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <NumberOfSubjectsTested>1</NumberOfSubjectsTested>
+                            <NumberOfSubjectsResponded>1</NumberOfSubjectsResponded>
+                            <ResponseFrequency>100</ResponseFrequency>
+                            <AssayComments>The authors also showed that children with the HLA-A*33 allele were statistically less likely to develop Dengue Hemorrhagic Fever and children with the HLA-A*24 allele were statistically at increased risk of developing Dengue Hemorrhagic Fever.</AssayComments>
+                        </AssayInformation>
+                    </TCell>
+                </Assays>
+            </Epitope>
+            <Epitope>
+                <EpitopeName>24-5</EpitopeName>
+                <EpitopeStructure>
+                    <FragmentOfANaturalSequenceMolecule>
+                        <ChemicalType>Peptide from protein</ChemicalType>
+                        <LinearSequence>NYADRRWCF</LinearSequence>
+                        <StartingPosition>556</StartingPosition>
+                        <EndingPosition>564</EndingPosition>
+                        <SourceMolecule>
+                            <GenBankId>NP_739587.1</GenBankId>
+                        </SourceMolecule>
+                        <SourceOrganismId>11065</SourceOrganismId>
+                    </FragmentOfANaturalSequenceMolecule>
+                </EpitopeStructure>
+                <LocationOfData>Table 3</LocationOfData>
+                <EpitopeId>46576</EpitopeId>
+                <EpitopeEvidenceCode>Not determined</EpitopeEvidenceCode>
+                <EpitopeStructureDefines>Exact Epitope</EpitopeStructureDefines>
+                <Assays>
+                    <TCell>
+                        <LocationOfData>Table 3</LocationOfData>
+                        <TCellId>17207</TCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>9606</OrganismId>
+                                <GeoLocId>http://purl.obolibrary.org/obo/GAZ_00003756</GeoLocId>
+                                <Age>5-30 years-old</Age>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Occurrence of infectious disease</InVivoProcessType>
+                                <DiseaseState>DOID:12206</DiseaseState>
+                                <DiseaseStage>Post</DiseaseStage>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Source Organism</EpitopeRelation>
+                                    <Object>
+                                        <Organism>
+                                            <SubType>Organism</SubType>
+                                            <SourceOrganismId>11065</SourceOrganismId>
+                                        </Organism>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenEvidenceCode>Not determined</ImmunogenEvidenceCode>
+                            </FirstInVivoProcess>
+                            <ImmunizationComments>Three female subjects were in the convalescent phase of infection, while one male was in the acute phase.</ImmunizationComments>
+                        </Immunization>
+                        <EffectorCells>
+                            <CellTissueType>Blood</CellTissueType>
+                            <CellType>T cell CD8+</CellType>
+                            <CellCultureConditions>Direct Ex Vivo</CellCultureConditions>
+                        </EffectorCells>
+                        <AntigenPresentingCells>
+                            <CellTissueType>Blood</CellTissueType>
+                            <CellType>PBMC</CellType>
+                            <CellCultureConditions>Direct Ex Vivo</CellCultureConditions>
+                            <AutologousOrSyngeneic>Y</AutologousOrSyngeneic>
+                        </AntigenPresentingCells>
+                        <MhcAllele>
+                            <MhcAlleleId>303</MhcAlleleId>
+                            <MhcEvidenceCode>T cell assay -T cell subset identification</MhcEvidenceCode>
+                        </MhcAllele>
+                        <Antigen>
+                            <AntigenReferenceName>24-5</AntigenReferenceName>
+                            <AntigenObject>
+                                <EpitopeRelation>Epitope</EpitopeRelation>
+                                <Object>
+                                    <FragmentOfANaturalSequenceMolecule>
+                                        <ChemicalType>Peptide from protein</ChemicalType>
+                                        <LinearSequence>NYADRRWCF</LinearSequence>
+                                        <StartingPosition>556</StartingPosition>
+                                        <EndingPosition>564</EndingPosition>
+                                        <SourceMolecule>
+                                            <GenBankId>NP_739587.1</GenBankId>
+                                        </SourceMolecule>
+                                        <SourceOrganismId>11065</SourceOrganismId>
+                                    </FragmentOfANaturalSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Exact match to reference information</AntigenEvidenceCode>
+                        </Antigen>
+                        <AssayInformation>
+                            <AssayTypeId>48</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <NumberOfSubjectsTested>4</NumberOfSubjectsTested>
+                            <NumberOfSubjectsResponded>4</NumberOfSubjectsResponded>
+                            <ResponseFrequency>100</ResponseFrequency>
+                            <AssayComments>All subjects were typed for the 5 most common HLA-A alleles and 10 most common HLA-B alleles in the population.  Three of four positive responders were found to express the HLA-A*24 allele and the HLA-B*35 allele.  The authors also showed that children with the HLA-A*33 allele were statistically less likely to develop Dengue Hemorrhagic Fever and children with the HLA-A*24 allele were statistically at increased risk of developing Dengue Hemorrhagic Fever.</AssayComments>
+                        </AssayInformation>
+                    </TCell>
+                </Assays>
+            </Epitope>
+            <Epitope>
+                <EpitopeName>39406</EpitopeName>
+                <EpitopeStructure>
+                    <FragmentOfANaturalSequenceMolecule>
+                        <ChemicalType>Peptide from protein</ChemicalType>
+                        <LinearSequence>YILRDVSKK</LinearSequence>
+                        <StartingPosition>517</StartingPosition>
+                        <EndingPosition>525</EndingPosition>
+                        <SourceMolecule>
+                            <GenBankId>NP_739590.2</GenBankId>
+                        </SourceMolecule>
+                        <SourceOrganismId>11065</SourceOrganismId>
+                    </FragmentOfANaturalSequenceMolecule>
+                </EpitopeStructure>
+                <LocationOfData>Table 3</LocationOfData>
+                <EpitopeId>74305</EpitopeId>
+                <EpitopeEvidenceCode>Not determined</EpitopeEvidenceCode>
+                <EpitopeStructureDefines>Exact Epitope</EpitopeStructureDefines>
+                <Assays>
+                    <TCell>
+                        <LocationOfData>Table 3</LocationOfData>
+                        <TCellId>17208</TCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>9606</OrganismId>
+                                <GeoLocId>http://purl.obolibrary.org/obo/GAZ_00003756</GeoLocId>
+                                <Sex>F</Sex>
+                                <Age>5-10 years-old</Age>
+                                <MhcAlleleTypesPresent>
+                                    <MhcAlleleId>237</MhcAlleleId>
+                                    <MhcAlleleId>281</MhcAlleleId>
+                                </MhcAlleleTypesPresent>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Occurrence of infectious disease</InVivoProcessType>
+                                <DiseaseState>DOID:12206</DiseaseState>
+                                <DiseaseStage>Post</DiseaseStage>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Source Organism</EpitopeRelation>
+                                    <Object>
+                                        <Organism>
+                                            <SubType>Organism</SubType>
+                                            <SourceOrganismId>11065</SourceOrganismId>
+                                        </Organism>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenEvidenceCode>Not determined</ImmunogenEvidenceCode>
+                            </FirstInVivoProcess>
+                        </Immunization>
+                        <EffectorCells>
+                            <CellTissueType>Blood</CellTissueType>
+                            <CellType>T cell CD8+</CellType>
+                            <CellCultureConditions>Direct Ex Vivo</CellCultureConditions>
+                        </EffectorCells>
+                        <AntigenPresentingCells>
+                            <CellTissueType>Blood</CellTissueType>
+                            <CellType>PBMC</CellType>
+                            <CellCultureConditions>Direct Ex Vivo</CellCultureConditions>
+                            <AutologousOrSyngeneic>Y</AutologousOrSyngeneic>
+                        </AntigenPresentingCells>
+                        <MhcAllele>
+                            <MhcAlleleId>303</MhcAlleleId>
+                            <MhcEvidenceCode>T cell assay -T cell subset identification</MhcEvidenceCode>
+                        </MhcAllele>
+                        <Antigen>
+                            <AntigenReferenceName>11-20</AntigenReferenceName>
+                            <AntigenObject>
+                                <EpitopeRelation>Epitope</EpitopeRelation>
+                                <Object>
+                                    <FragmentOfANaturalSequenceMolecule>
+                                        <ChemicalType>Peptide from protein</ChemicalType>
+                                        <LinearSequence>YILRDVSKK</LinearSequence>
+                                        <StartingPosition>517</StartingPosition>
+                                        <EndingPosition>525</EndingPosition>
+                                        <SourceMolecule>
+                                            <GenBankId>NP_739590.2</GenBankId>
+                                        </SourceMolecule>
+                                        <SourceOrganismId>11065</SourceOrganismId>
+                                    </FragmentOfANaturalSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Exact match to reference information</AntigenEvidenceCode>
+                        </Antigen>
+                        <AssayInformation>
+                            <AssayTypeId>48</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <NumberOfSubjectsTested>2</NumberOfSubjectsTested>
+                            <NumberOfSubjectsResponded>2</NumberOfSubjectsResponded>
+                            <ResponseFrequency>100</ResponseFrequency>
+                            <AssayComments>HLA-A and HLA-B types for one patient were not determined.  The authors also showed that children with the HLA-A*33 allele were statistically less likely to develop Dengue Hemorrhagic Fever and children with the HLA-A*24 allele were statistically at increased risk of developing Dengue Hemorrhagic Fever.</AssayComments>
+                        </AssayInformation>
+                    </TCell>
+                </Assays>
+            </Epitope>
+            <Epitope>
+                <EpitopeName>39404</EpitopeName>
+                <EpitopeStructure>
+                    <FragmentOfANaturalSequenceMolecule>
+                        <ChemicalType>Peptide from protein</ChemicalType>
+                        <LinearSequence>DVFFTPPEK</LinearSequence>
+                        <StartingPosition>2622</StartingPosition>
+                        <EndingPosition>2630</EndingPosition>
+                        <SourceMolecule>
+                            <GenBankId>AAA42941.1</GenBankId>
+                        </SourceMolecule>
+                        <SourceOrganismId>11065</SourceOrganismId>
+                    </FragmentOfANaturalSequenceMolecule>
+                </EpitopeStructure>
+                <LocationOfData>Table 3</LocationOfData>
+                <EpitopeId>10587</EpitopeId>
+                <EpitopeEvidenceCode>Not determined</EpitopeEvidenceCode>
+                <EpitopeStructureDefines>Exact Epitope</EpitopeStructureDefines>
+                <Assays>
+                    <TCell>
+                        <LocationOfData>Table 3</LocationOfData>
+                        <TCellId>17209</TCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>9606</OrganismId>
+                                <GeoLocId>http://purl.obolibrary.org/obo/GAZ_00003756</GeoLocId>
+                                <MhcAlleleTypesPresent>
+                                    <MhcAlleleId>143</MhcAlleleId>
+                                    <MhcAlleleId>234</MhcAlleleId>
+                                </MhcAlleleTypesPresent>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Occurrence of infectious disease</InVivoProcessType>
+                                <DiseaseState>DOID:12206</DiseaseState>
+                                <DiseaseStage>Acute/Recent onset</DiseaseStage>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Source Organism</EpitopeRelation>
+                                    <Object>
+                                        <Organism>
+                                            <SubType>Organism</SubType>
+                                            <SourceOrganismId>11065</SourceOrganismId>
+                                        </Organism>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenEvidenceCode>Not determined</ImmunogenEvidenceCode>
+                            </FirstInVivoProcess>
+                        </Immunization>
+                        <EffectorCells>
+                            <CellTissueType>Blood</CellTissueType>
+                            <CellType>T cell CD8+</CellType>
+                            <CellCultureConditions>Direct Ex Vivo</CellCultureConditions>
+                        </EffectorCells>
+                        <AntigenPresentingCells>
+                            <CellTissueType>Blood</CellTissueType>
+                            <CellType>PBMC</CellType>
+                            <CellCultureConditions>Direct Ex Vivo</CellCultureConditions>
+                            <AutologousOrSyngeneic>Y</AutologousOrSyngeneic>
+                        </AntigenPresentingCells>
+                        <MhcAllele>
+                            <MhcAlleleId>303</MhcAlleleId>
+                            <MhcEvidenceCode>T cell assay -T cell subset identification</MhcEvidenceCode>
+                        </MhcAllele>
+                        <Antigen>
+                            <AntigenReferenceName>11-18</AntigenReferenceName>
+                            <AntigenObject>
+                                <EpitopeRelation>Epitope</EpitopeRelation>
+                                <Object>
+                                    <FragmentOfANaturalSequenceMolecule>
+                                        <ChemicalType>Peptide from protein</ChemicalType>
+                                        <LinearSequence>DVFFTPPEK</LinearSequence>
+                                        <StartingPosition>2622</StartingPosition>
+                                        <EndingPosition>2630</EndingPosition>
+                                        <SourceMolecule>
+                                            <GenBankId>AAA42941.1</GenBankId>
+                                        </SourceMolecule>
+                                        <SourceOrganismId>11065</SourceOrganismId>
+                                    </FragmentOfANaturalSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Exact match to reference information</AntigenEvidenceCode>
+                        </Antigen>
+                        <AssayInformation>
+                            <AssayTypeId>48</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <NumberOfSubjectsTested>1</NumberOfSubjectsTested>
+                            <NumberOfSubjectsResponded>1</NumberOfSubjectsResponded>
+                            <ResponseFrequency>100</ResponseFrequency>
+                            <AssayComments>The HLA-B type for this patient was not determined.  The authors also showed that children with the HLA-A*33 allele were statistically less likely to develop Dengue Hemorrhagic Fever and children with the HLA-A*24 allele were statistically at increased risk of developing Dengue Hemorrhagic Fever.</AssayComments>
+                        </AssayInformation>
+                    </TCell>
+                </Assays>
+            </Epitope>
+            <Epitope>
+                <EpitopeName>33E</EpitopeName>
+                <EpitopeStructure>
+                    <FragmentOfANaturalSequenceMolecule>
+                        <ChemicalType>Peptide from protein</ChemicalType>
+                        <LinearSequence>EALRGLPIR</LinearSequence>
+                        <StartingPosition>233</StartingPosition>
+                        <EndingPosition>241</EndingPosition>
+                        <SourceMolecule>
+                            <GenBankId>NP_739587.1</GenBankId>
+                        </SourceMolecule>
+                        <SourceOrganismId>11065</SourceOrganismId>
+                    </FragmentOfANaturalSequenceMolecule>
+                </EpitopeStructure>
+                <LocationOfData>Table 3</LocationOfData>
+                <EpitopeId>11125</EpitopeId>
+                <EpitopeEvidenceCode>Not determined</EpitopeEvidenceCode>
+                <EpitopeStructureDefines>Exact Epitope</EpitopeStructureDefines>
+                <Assays>
+                    <TCell>
+                        <LocationOfData>Table 3</LocationOfData>
+                        <TCellId>17210</TCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>9606</OrganismId>
+                                <GeoLocId>http://purl.obolibrary.org/obo/GAZ_00003756</GeoLocId>
+                                <Sex>M</Sex>
+                                <Age>14 years-old</Age>
+                                <MhcAlleleTypesPresent>
+                                    <MhcAlleleId>142</MhcAlleleId>
+                                    <MhcAlleleId>247</MhcAlleleId>
+                                    <MhcAlleleId>295</MhcAlleleId>
+                                    <MhcAlleleId>296</MhcAlleleId>
+                                </MhcAlleleTypesPresent>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Occurrence of infectious disease</InVivoProcessType>
+                                <DiseaseState>DOID:12206</DiseaseState>
+                                <DiseaseStage>Post</DiseaseStage>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Source Organism</EpitopeRelation>
+                                    <Object>
+                                        <Organism>
+                                            <SubType>Organism</SubType>
+                                            <SourceOrganismId>11065</SourceOrganismId>
+                                        </Organism>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenEvidenceCode>Not determined</ImmunogenEvidenceCode>
+                            </FirstInVivoProcess>
+                        </Immunization>
+                        <EffectorCells>
+                            <CellTissueType>Blood</CellTissueType>
+                            <CellType>T cell CD8+</CellType>
+                            <CellCultureConditions>Direct Ex Vivo</CellCultureConditions>
+                        </EffectorCells>
+                        <AntigenPresentingCells>
+                            <CellTissueType>Blood</CellTissueType>
+                            <CellType>PBMC</CellType>
+                            <CellCultureConditions>Direct Ex Vivo</CellCultureConditions>
+                            <AutologousOrSyngeneic>Y</AutologousOrSyngeneic>
+                        </AntigenPresentingCells>
+                        <MhcAllele>
+                            <MhcAlleleId>303</MhcAlleleId>
+                            <MhcEvidenceCode>T cell assay -T cell subset identification</MhcEvidenceCode>
+                        </MhcAllele>
+                        <Antigen>
+                            <AntigenReferenceName>33E</AntigenReferenceName>
+                            <AntigenObject>
+                                <EpitopeRelation>Epitope</EpitopeRelation>
+                                <Object>
+                                    <FragmentOfANaturalSequenceMolecule>
+                                        <ChemicalType>Peptide from protein</ChemicalType>
+                                        <LinearSequence>EALRGLPIR</LinearSequence>
+                                        <StartingPosition>233</StartingPosition>
+                                        <EndingPosition>241</EndingPosition>
+                                        <SourceMolecule>
+                                            <GenBankId>NP_739587.1</GenBankId>
+                                        </SourceMolecule>
+                                        <SourceOrganismId>11065</SourceOrganismId>
+                                    </FragmentOfANaturalSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Exact match to reference information</AntigenEvidenceCode>
+                        </Antigen>
+                        <AssayInformation>
+                            <AssayTypeId>48</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <NumberOfSubjectsTested>1</NumberOfSubjectsTested>
+                            <NumberOfSubjectsResponded>1</NumberOfSubjectsResponded>
+                            <ResponseFrequency>100</ResponseFrequency>
+                            <AssayComments>The authors also showed that children with the HLA-A*33 allele were statistically less likely to develop Dengue Hemorrhagic Fever and children with the HLA-A*24 allele were statistically at increased risk of developing Dengue Hemorrhagic Fever.</AssayComments>
+                        </AssayInformation>
+                    </TCell>
+                </Assays>
+            </Epitope>
+        </Epitopes>
+    </Reference>
+</References>
+

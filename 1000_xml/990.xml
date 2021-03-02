@@ -1,0 +1,311 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<References xsi:schemaLocation="http://www.iedb.org/schema/CurationSchema http://beta.iedb.org/schema/Curation.xsd" xmlns="http://www.iedb.org/schema/CurationSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <Reference>
+        <ReferenceId>990</ReferenceId>
+        <DateLastUpdated>2020-09-10-07:00</DateLastUpdated>
+        <Article>
+            <PubmedId>7853538</PubmedId>
+            <Abstract>Antibody responses to Four Corners hantavirus (FCV) infections in the deer mouse (Peromyscus maniculatus) were characterized by using FCV nucleocapsid protein (N), glycoprotein 1 (G1), and glycoprotein 2 (G2) recombinant polypeptides in Western immunoblot assays. Strong immunoglobulin G reactivities to FCV N were observed among FCV-infected wild P. maniculatus mice (n = 34) and in laboratory-infected P. maniculatus mice (n = 11). No immunoglobulin G antibody reactivities to FCV G1 or G2 linear determinants were detected. The strongest N responses were mapped to an amino-proximal segment between amino acids 17 and 59 (QLVTARQKLKDAERAVELDPDDVNKSTLQSRRAAVSALETKLG). FCV N antibodies cross-reacted with recombinant N proteins encoded by Puumala, Seoul, and Hantaan viruses.</Abstract>
+            <ArticleYear>1995</ArticleYear>
+            <ArticlePages>1939-43</ArticlePages>
+            <ArticleTitle>Antibody responses to Four Corners hantavirus infections in the deer mouse (Peromyscus maniculatus): identification of an immunodominant region of the viral nucleocapsid protein.</ArticleTitle>
+            <Authors>
+                <Author>
+                    <LastName>Yamada</LastName>
+                    <ForeName>T</ForeName>
+                </Author>
+                <Author>
+                    <LastName>Hjelle</LastName>
+                    <ForeName>B</ForeName>
+                </Author>
+                <Author>
+                    <LastName>Lanzi</LastName>
+                    <ForeName>R</ForeName>
+                </Author>
+                <Author>
+                    <LastName>Morris</LastName>
+                    <ForeName>C</ForeName>
+                </Author>
+                <Author>
+                    <LastName>Anderson</LastName>
+                    <ForeName>B</ForeName>
+                </Author>
+                <Author>
+                    <LastName>Jenison</LastName>
+                    <ForeName>S</ForeName>
+                </Author>
+            </Authors>
+            <Affiliations>Department of Medicine, University of New Mexico School of Medicine, Albuquerque 87131-5271.</Affiliations>
+            <ArticleChemicalList>Antibodies, Viral;Antigens, Viral;Recombinant Proteins;Viral Core Proteins</ArticleChemicalList>
+            <ArticleMeshHeadingsList>Amino Acid Sequence; Animals; Antibodies, Viral(immunology); Antigens, Viral(immunology); Capsid(immunology); Epitope Mapping; Hantavirus(immunology); Humans; Molecular Sequence Data; Peromyscus(immunology); Recombinant Proteins(immunology); Viral Core Proteins(immunology)</ArticleMeshHeadingsList>
+            <Journal>
+                <Volume>69</Volume>
+                <Issue>3</Issue>
+                <Title>Journal of virology</Title>
+                <Issn>1098-5514</Issn>
+                <MedlineTa>J Virol</MedlineTa>
+            </Journal>
+        </Article>
+        <Epitopes>
+            <Epitope>
+                <EpitopeName>FCV N linear determinant</EpitopeName>
+                <EpitopeStructure>
+                    <FragmentOfANaturalSequenceMolecule>
+                        <ChemicalType>Peptide from protein</ChemicalType>
+                        <LinearSequence>QLVTARQKLKDAERAVELDPDDVNKSTLQSRRAAVSALETKLG</LinearSequence>
+                        <StartingPosition>17</StartingPosition>
+                        <EndingPosition>59</EndingPosition>
+                        <SourceMolecule>
+                            <GenBankId>AAB26941.1</GenBankId>
+                        </SourceMolecule>
+                        <SourceOrganismId>31621</SourceOrganismId>
+                    </FragmentOfANaturalSequenceMolecule>
+                </EpitopeStructure>
+                <LocationOfData>Abstract</LocationOfData>
+                <EpitopeId>51577</EpitopeId>
+                <ReferenceStartingPosition>17</ReferenceStartingPosition>
+                <ReferenceEndingPosition>59</ReferenceEndingPosition>
+                <EpitopeEvidenceCode>Not determined</EpitopeEvidenceCode>
+                <EpitopeStructureDefines>Epitope containing region/antigenic site</EpitopeStructureDefines>
+                <EpitopeComments>Epitopic region determined by Western Blot analysis of N-terminal and C-terminal truncations of FCV N protein.</EpitopeComments>
+                <Assays>
+                    <BCell>
+                        <LocationOfData>Table 2</LocationOfData>
+                        <BCellId>12099</BCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>10042</OrganismId>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Exposure with existing immune reactivity without evidence for disease</InVivoProcessType>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Source Organism</EpitopeRelation>
+                                    <Object>
+                                        <Organism>
+                                            <SubType>Organism</SubType>
+                                            <SourceOrganismId>31621</SourceOrganismId>
+                                        </Organism>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenEvidenceCode>Not determined</ImmunogenEvidenceCode>
+                            </FirstInVivoProcess>
+                        </Immunization>
+                        <AssayInformation>
+                            <AssayTypeId>37</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <AssayComments>C-terminal and N-terminal truncations of N protein were assayed by Western Blot.</AssayComments>
+                        </AssayInformation>
+                        <AssayedAntibody>
+                            <AssayedAntibodySourceMaterial>Serum</AssayedAntibodySourceMaterial>
+                            <AssayedAntibodyPurificationStatus>Polyclonal</AssayedAntibodyPurificationStatus>
+                            <AssayedAntibodyName>anti-FCV N protein Ab</AssayedAntibodyName>
+                            <AssayedAntibodyHeavyChainType>IgG</AssayedAntibodyHeavyChainType>
+                        </AssayedAntibody>
+                        <Antigen>
+                            <AntigenReferenceName>pFCV-S-CEx220 (residues 1-59 of N protein)</AntigenReferenceName>
+                            <AntigenConformation>Non-Native/Unknown</AntigenConformation>
+                            <AntigenObject>
+                                <EpitopeRelation>Fragment of Source Antigen</EpitopeRelation>
+                                <Object>
+                                    <FragmentOfANaturalSequenceMolecule>
+                                        <ChemicalType>Peptide from protein</ChemicalType>
+                                        <LinearSequence>MSTLKEVQDNITLHEQQLVTARQKLKDAERAVELDPDDVNKSTLQSRRAAVSALETKLG</LinearSequence>
+                                        <StartingPosition>1</StartingPosition>
+                                        <EndingPosition>59</EndingPosition>
+                                        <SourceMolecule>
+                                            <GenBankId>AAB26941.1</GenBankId>
+                                        </SourceMolecule>
+                                        <SourceOrganismId>31621</SourceOrganismId>
+                                    </FragmentOfANaturalSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Exact match to reference information</AntigenEvidenceCode>
+                        </Antigen>
+                    </BCell>
+                </Assays>
+                <Assays>
+                    <BCell>
+                        <LocationOfData>Table 2</LocationOfData>
+                        <BCellId>12098</BCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>10042</OrganismId>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Exposure with existing immune reactivity without evidence for disease</InVivoProcessType>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Source Organism</EpitopeRelation>
+                                    <Object>
+                                        <Organism>
+                                            <SubType>Organism</SubType>
+                                            <SourceOrganismId>31621</SourceOrganismId>
+                                        </Organism>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenEvidenceCode>Not determined</ImmunogenEvidenceCode>
+                            </FirstInVivoProcess>
+                        </Immunization>
+                        <AssayInformation>
+                            <AssayTypeId>37</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <AssayComments>C-terminal and N-terminal truncations of N protein were assayed by Western Blot.</AssayComments>
+                        </AssayInformation>
+                        <AssayedAntibody>
+                            <AssayedAntibodySourceMaterial>Serum</AssayedAntibodySourceMaterial>
+                            <AssayedAntibodyPurificationStatus>Polyclonal</AssayedAntibodyPurificationStatus>
+                            <AssayedAntibodyName>anti-FCV N protein Ab</AssayedAntibodyName>
+                            <AssayedAntibodyHeavyChainType>IgG</AssayedAntibodyHeavyChainType>
+                        </AssayedAntibody>
+                        <Antigen>
+                            <AntigenReferenceName>pFCV-S-NEx91 (residues 17-112 of N protein)</AntigenReferenceName>
+                            <AntigenConformation>Non-Native/Unknown</AntigenConformation>
+                            <AntigenObject>
+                                <EpitopeRelation>Fragment of Source Antigen</EpitopeRelation>
+                                <Object>
+                                    <FragmentOfANaturalSequenceMolecule>
+                                        <ChemicalType>Peptide from protein</ChemicalType>
+                                        <LinearSequence>QLVTARQKLKDAERAVELDPDDVNKSTLQSRRAAVSALETKLGELKRELADLIAAQKLASKPVDPTGIEPDDHLKEKSSLRYGNVLDVNSIDLEEP</LinearSequence>
+                                        <StartingPosition>17</StartingPosition>
+                                        <EndingPosition>112</EndingPosition>
+                                        <SourceMolecule>
+                                            <GenBankId>AAB26941.1</GenBankId>
+                                        </SourceMolecule>
+                                        <SourceOrganismId>31621</SourceOrganismId>
+                                    </FragmentOfANaturalSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Exact match to reference information</AntigenEvidenceCode>
+                        </Antigen>
+                    </BCell>
+                </Assays>
+                <Assays>
+                    <BCell>
+                        <LocationOfData>Figure 2</LocationOfData>
+                        <BCellId>16170</BCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>10042</OrganismId>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Administration in vivo</InVivoProcessType>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Taxonomic Sibling</EpitopeRelation>
+                                    <Object>
+                                        <FragmentOfANaturalSequenceMolecule>
+                                            <ChemicalType>Peptide from protein</ChemicalType>
+                                            <LinearSequence>GIEPDDHLKERSSLRYGNVLDVNAIDIEEPSGQTADWYTIGVYVIGFTLPIILKALYMLSTRGRQTVKENKGTRYRFKDDTSFEDINGIRRPKHLYVSMPTAQSTMKAEELTPGRFRTIVCGLFPTQIQVRNIMSPVMGVI</LinearSequence>
+                                            <StartingPosition>83</StartingPosition>
+                                            <EndingPosition>223</EndingPosition>
+                                            <SourceMolecule>
+                                                <GenBankId>AAB01662.1</GenBankId>
+                                            </SourceMolecule>
+                                            <SourceOrganismId>1980486</SourceOrganismId>
+                                        </FragmentOfANaturalSequenceMolecule>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenReferenceName>PUU 83-223L</ImmunogenReferenceName>
+                                <ImmunogenEvidenceCode>Exact match to reference information</ImmunogenEvidenceCode>
+                            </FirstInVivoProcess>
+                        </Immunization>
+                        <AssayInformation>
+                            <AssayTypeId>37</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <AssayComments>C-terminal and N-terminal truncations of N protein were assayed for binding to puumala virus mAb by Western Blot. mAb GB04-BF07 has been shown to cross-react strongly with Prospect Hill virus and Seoul and weakly with Haantan virus. This assay maps the epitope to a segment of N-protein between aa 17 and 59.</AssayComments>
+                        </AssayInformation>
+                        <AssayedAntibody>
+                            <AssayedAntibodySourceMaterial>Purified Immunoglobulin</AssayedAntibodySourceMaterial>
+                            <AssayedAntibodyImmunoglobulinDomain>Entire Antibody</AssayedAntibodyImmunoglobulinDomain>
+                            <AssayedAntibodyPurificationStatus>Monoclonal</AssayedAntibodyPurificationStatus>
+                            <AssayedAntibodyName>mAb GB04-BF07</AssayedAntibodyName>
+                            <AssayedAntibodyHeavyChainType>IgG</AssayedAntibodyHeavyChainType>
+                        </AssayedAntibody>
+                        <Antigen>
+                            <AntigenReferenceName>pFCV-S-CEx220 (residues 1-59 of N protein)</AntigenReferenceName>
+                            <AntigenConformation>Non-Native/Unknown</AntigenConformation>
+                            <AntigenObject>
+                                <EpitopeRelation>Fragment of Source Antigen</EpitopeRelation>
+                                <Object>
+                                    <FragmentOfANaturalSequenceMolecule>
+                                        <ChemicalType>Peptide from protein</ChemicalType>
+                                        <LinearSequence>MSTLKEVQDNITLHEQQLVTARQKLKDAERAVELDPDDVNKSTLQSRRAAVSALETKLG</LinearSequence>
+                                        <StartingPosition>1</StartingPosition>
+                                        <EndingPosition>59</EndingPosition>
+                                        <SourceMolecule>
+                                            <GenBankId>AAB26941.1</GenBankId>
+                                        </SourceMolecule>
+                                        <SourceOrganismId>31621</SourceOrganismId>
+                                    </FragmentOfANaturalSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Exact match to reference information</AntigenEvidenceCode>
+                        </Antigen>
+                    </BCell>
+                </Assays>
+                <Assays>
+                    <BCell>
+                        <LocationOfData>Figure 2</LocationOfData>
+                        <BCellId>16173</BCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>10042</OrganismId>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Administration in vivo</InVivoProcessType>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Taxonomic Sibling</EpitopeRelation>
+                                    <Object>
+                                        <FragmentOfANaturalSequenceMolecule>
+                                            <ChemicalType>Peptide from protein</ChemicalType>
+                                            <LinearSequence>GIEPDDHLKERSSLRYGNVLDVNAIDIEEPSGQTADWYTIGVYVIGFTLPIILKALYMLSTRGRQTVKENKGTRYRFKDDTSFEDINGIRRPKHLYVSMPTAQSTMKAEELTPGRFRTIVCGLFPTQIQVRNIMSPVMGVI</LinearSequence>
+                                            <StartingPosition>83</StartingPosition>
+                                            <EndingPosition>223</EndingPosition>
+                                            <SourceMolecule>
+                                                <GenBankId>AAB01662.1</GenBankId>
+                                            </SourceMolecule>
+                                            <SourceOrganismId>1980486</SourceOrganismId>
+                                        </FragmentOfANaturalSequenceMolecule>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenReferenceName>PUU 83-223L</ImmunogenReferenceName>
+                                <ImmunogenEvidenceCode>Exact match to reference information</ImmunogenEvidenceCode>
+                            </FirstInVivoProcess>
+                        </Immunization>
+                        <AssayInformation>
+                            <AssayTypeId>37</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <AssayComments>C-terminal and N-terminal truncations of N protein were assayed for binding to puumala virus mAb by Western Blot. mAb GB04-BF07 has been shown to cross-react strongly with Prospect Hill virus and Seoul and weakly with Haantan virus. This assay maps the epitope to a segment of N-protein between aa 17 and 59.</AssayComments>
+                        </AssayInformation>
+                        <AssayedAntibody>
+                            <AssayedAntibodySourceMaterial>Purified Immunoglobulin</AssayedAntibodySourceMaterial>
+                            <AssayedAntibodyImmunoglobulinDomain>Entire Antibody</AssayedAntibodyImmunoglobulinDomain>
+                            <AssayedAntibodyPurificationStatus>Monoclonal</AssayedAntibodyPurificationStatus>
+                            <AssayedAntibodyName>mAb GB04-BF07</AssayedAntibodyName>
+                            <AssayedAntibodyHeavyChainType>IgG</AssayedAntibodyHeavyChainType>
+                        </AssayedAntibody>
+                        <Antigen>
+                            <AntigenReferenceName>pFCV-S-NEx91 (residues 17-112 of N protein)</AntigenReferenceName>
+                            <AntigenConformation>Non-Native/Unknown</AntigenConformation>
+                            <AntigenObject>
+                                <EpitopeRelation>Fragment of Source Antigen</EpitopeRelation>
+                                <Object>
+                                    <FragmentOfANaturalSequenceMolecule>
+                                        <ChemicalType>Peptide from protein</ChemicalType>
+                                        <LinearSequence>QLVTARQKLKDAERAVELDPDDVNKSTLQSRRAAVSALETKLGELKRELADLIAAQKLASKPVDPTGIEPDDHLKEKSSLRYGNVLDVNSIDLEEP</LinearSequence>
+                                        <StartingPosition>17</StartingPosition>
+                                        <EndingPosition>112</EndingPosition>
+                                        <SourceMolecule>
+                                            <GenBankId>AAB26941.1</GenBankId>
+                                        </SourceMolecule>
+                                        <SourceOrganismId>31621</SourceOrganismId>
+                                    </FragmentOfANaturalSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Exact match to reference information</AntigenEvidenceCode>
+                        </Antigen>
+                    </BCell>
+                </Assays>
+            </Epitope>
+        </Epitopes>
+    </Reference>
+</References>
+

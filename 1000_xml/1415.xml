@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<References xsi:schemaLocation="http://www.iedb.org/schema/CurationSchema http://beta.iedb.org/schema/Curation.xsd" xmlns="http://www.iedb.org/schema/CurationSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <Reference>
+        <ReferenceId>1415</ReferenceId>
+        <DateLastUpdated>2020-09-10-07:00</DateLastUpdated>
+        <Article>
+            <PubmedId>10571992</PubmedId>
+            <Abstract>The use of a mass spectrometric-based immunoassay to survey the antigenic identity of a type A influenza strain is described. Antigenic surveillance of the influenza virus remains a critical step in the identification of new viral strains and the subsequent use of such strains or synthetic constructs in vaccine preparations. The immunoassay is shown to be capable of detecting a determinant of a single hemagglutinin antigen, responsible for the initial stages of infection, in a mixture of viral proteins with high sensitivity and specificity. The determinant comprises residues 207-225 of the hemagglutinin HA1 chain of the type A strain which occupies a highly accessible region of beta-sheet atop the antigen. Peptide determinants are identified without the need to immobilize antibody or isolate antibody-peptide complexes which are shown to be preserved during mass spectrometric analysis. This immunoassay achieves optimal sensitivity (femtomole level) with minimal sample handling and is amenable to high sample throughput and automation. Determinants are identified by a direct comparison of the matrix-assisted laser desorption ionization mass spectra obtained for an antibody reaction mixture and unreacted control. The sequence and antigenic identity of a component antigen can be rapidly identified by searching protein databases with the mass spectral data in conjunction with tandem mass spectrometric sequencing.</Abstract>
+            <ArticleYear>1999</ArticleYear>
+            <ArticlePages>14185-91</ArticlePages>
+            <ArticleTitle>Antigenic surveillance of the influenza virus by mass spectrometry.</ArticleTitle>
+            <Authors>
+                <Author>
+                    <LastName>Kiselar</LastName>
+                    <ForeName>J G</ForeName>
+                </Author>
+                <Author>
+                    <LastName>Downard</LastName>
+                    <ForeName>K M</ForeName>
+                </Author>
+            </Authors>
+            <Affiliations>Department of Biochemistry, Albert Einstein College of Medicine, Bronx, New York 10461-1602, USA.</Affiliations>
+            <ArticleChemicalList>Antibodies, Monoclonal;Antigens, Surface;Antigens, Viral;Epitopes;Hemagglutinin Glycoproteins, Influenza Virus;Peptides</ArticleChemicalList>
+            <ArticleMeshHeadingsList>Amino Acid Sequence; Antibodies, Monoclonal(chemistry; metabolism); Antigens, Surface(chemistry; immunology; metabolism); Antigens, Viral(chemistry; immunology; metabolism); Binding Sites, Antibody; Epitopes(chemistry; immunology; metabolism); Hemagglutinin Glycoproteins, Influenza Virus(chemistry; immunology; metabolism); Immunoassay(methods); Immunologic Surveillance; Influenza A virus(chemistry; immunology); Models, Molecular; Molecular Sequence Data; Peptides(chemistry; immunology; metabolism); Species Specificity; Spectrometry, Mass, Matrix-Assisted Laser Desorption-Ionization(methods)</ArticleMeshHeadingsList>
+            <Journal>
+                <Volume>38</Volume>
+                <Issue>43</Issue>
+                <Title>Biochemistry</Title>
+                <Issn>0006-2960</Issn>
+                <MedlineTa>Biochemistry</MedlineTa>
+            </Journal>
+        </Article>
+        <Epitopes>
+            <Epitope>
+                <EpitopeName>HM 207-225</EpitopeName>
+                <EpitopeStructure>
+                    <FragmentOfANaturalSequenceMolecule>
+                        <ChemicalType>Peptide from protein</ChemicalType>
+                        <LinearSequence>AIYHTENAYVSVVSSHYNR</LinearSequence>
+                        <StartingPosition>207</StartingPosition>
+                        <EndingPosition>225</EndingPosition>
+                        <SourceMolecule>
+                            <GenBankId>P12590.2</GenBankId>
+                        </SourceMolecule>
+                        <SourceOrganismId>11320</SourceOrganismId>
+                    </FragmentOfANaturalSequenceMolecule>
+                </EpitopeStructure>
+                <LocationOfData>Figure 2</LocationOfData>
+                <EpitopeId>2136</EpitopeId>
+                <ReferenceStartingPosition>207</ReferenceStartingPosition>
+                <ReferenceEndingPosition>225</ReferenceEndingPosition>
+                <EpitopeEvidenceCode>Not determined</EpitopeEvidenceCode>
+                <EpitopeStructureDefines>Epitope containing region/antigenic site</EpitopeStructureDefines>
+                <Assays>
+                    <BCell>
+                        <LocationOfData>Figures 2-5; Tables 1 and 2</LocationOfData>
+                        <BCellId>22119</BCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>10090</OrganismId>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Unknown</InVivoProcessType>
+                            </FirstInVivoProcess>
+                        </Immunization>
+                        <AssayInformation>
+                            <AssayTypeId>248</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <AssayComments>The mass spectrometric-based immunoassay described here is a newly devised method that identifies epitopes of monoclonal antibodies; purified proteins or a mixture of proteins isolated from viruses or other biological materials may be used as the starting material. The disappearance or significant reduction of a major ion peak from the mass spectrum of a control experiment (non-reaction of protease-digested starting material with the test antibody) indicates antibody binding to a proteolytic fragment that is or contains the epitope. Protein databases are searched for the sequence of the epitope corresponding to the missing or reduced ion peak. In this case, the epitope sequence was also used in a BLAST search and results showed conservation of this sequence across many strains of influenza. Verification of the identity of the epitope found by this method was by way of binding studies with synthetic peptides that represent the entire or part of the discovered epitope, and parallel experiments utilizing a different protease to digest the starting material. The epitope of the monoclonal antibody IVC102 was confirmed by its binding to synthetic peptides with sequences AIYHTENAYVSVVSSHYNR and AIYHTENA. Binding is demonstrated by the disappearance or reduction of the corresponding ion peaks in the mass spectrum after the mixture (containing the peptides as well as other irrelevant peptides (negative controls)) is incubated with the antibody. In the case of the shorter peptide, only a reduction rather than a complete disappearance of the peptide occurred demonstrating that its sequence is critical to binding --- it could be the minimal epitope, however it is not the optimal epitope since with the larger peptide complete disappearance of the ion peak was observed.</AssayComments>
+                        </AssayInformation>
+                        <AssayedAntibody>
+                            <AssayedAntibodyPurificationStatus>Monoclonal</AssayedAntibodyPurificationStatus>
+                            <AssayedAntibodyName>IVC102</AssayedAntibodyName>
+                        </AssayedAntibody>
+                        <Antigen>
+                            <AntigenReferenceName>HM 207-225</AntigenReferenceName>
+                            <AntigenConformation>Non-Native/Unknown</AntigenConformation>
+                            <AntigenObject>
+                                <EpitopeRelation>Epitope</EpitopeRelation>
+                                <Object>
+                                    <FragmentOfANaturalSequenceMolecule>
+                                        <ChemicalType>Peptide from protein</ChemicalType>
+                                        <LinearSequence>AIYHTENAYVSVVSSHYNR</LinearSequence>
+                                        <StartingPosition>207</StartingPosition>
+                                        <EndingPosition>225</EndingPosition>
+                                        <SourceMolecule>
+                                            <GenBankId>P12590.2</GenBankId>
+                                        </SourceMolecule>
+                                        <SourceOrganismId>11320</SourceOrganismId>
+                                    </FragmentOfANaturalSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Exact match to reference information</AntigenEvidenceCode>
+                        </Antigen>
+                    </BCell>
+                </Assays>
+            </Epitope>
+        </Epitopes>
+    </Reference>
+</References>
+

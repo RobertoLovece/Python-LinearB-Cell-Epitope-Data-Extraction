@@ -1,0 +1,1477 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<References xsi:schemaLocation="http://www.iedb.org/schema/CurationSchema http://beta.iedb.org/schema/Curation.xsd" xmlns="http://www.iedb.org/schema/CurationSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <Reference>
+        <ReferenceId>1316</ReferenceId>
+        <DateLastUpdated>2020-09-10-07:00</DateLastUpdated>
+        <Article>
+            <PubmedId>10880734</PubmedId>
+            <Abstract>Copolymer 1 [Cop 1, poly (Y, E, A, K)] is a random synthetic amino acid copolymer effective in the treatment of relapsing forms of multiple sclerosis (MS), a disease that is linked to HLA-DR2 (DRB1*1501). Another copolymer [poly (Y, A, K)] was also identified that binds to rheumatoid arthritis (RA)-associated HLA-DR1 (DRB1*0101) or HLA-DR4 (DRB1*0401) molecules and inhibits the response of HLA-DR1- and -DR4-restricted T cell clones to an immunodominant epitope of collagen type II (CII) 261-273 (a candidate autoantigen in RA). In the present study various peptides have been synthesized based on binding "motifs" of Cop 1 for HLA-DR1 and -DR4 molecules. Those peptides with K at P-1 or K at P8 were particularly effective as inhibitors of binding of CII 261-273, of Cop 1 and of the influenza virus hemagglutinin peptide 306-318 to these class II proteins. Moreover, several of them were also potent inhibitors of the CII 261-273-reactive T cell clones. These findings suggest that small peptides or their more stable derivatives may be able to substitute for copolymers in the treatment of RA, and by implication of MS.</Abstract>
+            <ArticleYear>2000</ArticleYear>
+            <ArticlePages>640-50</ArticlePages>
+            <ArticleTitle>Synthetic peptides that inhibit binding of the collagen type II 261-273 epitope to rheumatoid arthritis-associated HLA-DR1 and -DR4 molecules and collagen-specific T-cell responses.</ArticleTitle>
+            <Authors>
+                <Author>
+                    <LastName>Fridkis-Hareli</LastName>
+                    <ForeName>M</ForeName>
+                </Author>
+                <Author>
+                    <LastName>Rosloniec</LastName>
+                    <ForeName>E F</ForeName>
+                </Author>
+                <Author>
+                    <LastName>Fugger</LastName>
+                    <ForeName>L</ForeName>
+                </Author>
+                <Author>
+                    <LastName>Strominger</LastName>
+                    <ForeName>J L</ForeName>
+                </Author>
+            </Authors>
+            <Affiliations>Department of Clinical Immunology, Aarhus University Hospital, Denmark.</Affiliations>
+            <ArticleChemicalList>Epitopes, T-Lymphocyte;HLA-DR1 Antigen;HLA-DR4 Antigen;Peptides;Collagen</ArticleChemicalList>
+            <ArticleMeshHeadingsList>Animals; Arthritis, Rheumatoid(immunology); Collagen(immunology); Epitopes, T-Lymphocyte(immunology); HLA-DR1 Antigen(immunology); HLA-DR4 Antigen(immunology); Mice; Peptides(chemical synthesis; immunology); Protein Binding; T-Lymphocytes(immunology)</ArticleMeshHeadingsList>
+            <Journal>
+                <Volume>61</Volume>
+                <Issue>7</Issue>
+                <Title>Human immunology</Title>
+                <Issn>0198-8859</Issn>
+                <MedlineTa>Hum Immunol</MedlineTa>
+            </Journal>
+        </Article>
+        <Epitopes>
+            <Epitope>
+                <EpitopeName>CII 261-273</EpitopeName>
+                <EpitopeStructure>
+                    <FragmentOfANaturalSequenceMolecule>
+                        <ChemicalType>Peptide from protein</ChemicalType>
+                        <LinearSequence>AGFKGEQGPKGEP</LinearSequence>
+                        <StartingPosition>461</StartingPosition>
+                        <EndingPosition>473</EndingPosition>
+                        <SourceMolecule>
+                            <GenBankId>AAC41772.1</GenBankId>
+                        </SourceMolecule>
+                        <SourceOrganismId>9606</SourceOrganismId>
+                    </FragmentOfANaturalSequenceMolecule>
+                </EpitopeStructure>
+                <LocationOfData>Table 1</LocationOfData>
+                <EpitopeId>1509</EpitopeId>
+                <ReferenceStartingPosition>261</ReferenceStartingPosition>
+                <ReferenceEndingPosition>273</ReferenceEndingPosition>
+                <EpitopeEvidenceCode>Not determined</EpitopeEvidenceCode>
+                <EpitopeStructureDefines>Exact Epitope</EpitopeStructureDefines>
+                <Assays>
+                    <TCell>
+                        <LocationOfData>Table 1</LocationOfData>
+                        <TCellId>1006457</TCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>10000610</OrganismId>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Unknown</InVivoProcessType>
+                            </FirstInVivoProcess>
+                            <InVitroAdministration>
+                                <ProcessType>Restimulation in vitro</ProcessType>
+                            </InVitroAdministration>
+                        </Immunization>
+                        <EffectorCells>
+                            <CellType>T cell</CellType>
+                            <CellCultureConditions>Cell Line / Clone (Hybridoma)</CellCultureConditions>
+                        </EffectorCells>
+                        <AssayedTcrMolecule>
+                            <AssayedTcrMoleculeName>3838, D3</AssayedTcrMoleculeName>
+                        </AssayedTcrMolecule>
+                        <AntigenPresentingCells>
+                            <CellTissueType>Other</CellTissueType>
+                            <CellType>L cells-Fibroblast</CellType>
+                            <CellCultureConditions>Cell Line / Clone</CellCultureConditions>
+                            <SourceOrganismId>10090</SourceOrganismId>
+                        </AntigenPresentingCells>
+                        <MhcAllele>
+                            <MhcAlleleId>341</MhcAlleleId>
+                            <MhcEvidenceCode>Not determined</MhcEvidenceCode>
+                        </MhcAllele>
+                        <Antigen>
+                            <AntigenReferenceName>CII 261-273</AntigenReferenceName>
+                            <AntigenObject>
+                                <EpitopeRelation>Epitope</EpitopeRelation>
+                                <Object>
+                                    <FragmentOfANaturalSequenceMolecule>
+                                        <ChemicalType>Peptide from protein</ChemicalType>
+                                        <LinearSequence>AGFKGEQGPKGEP</LinearSequence>
+                                        <StartingPosition>461</StartingPosition>
+                                        <EndingPosition>473</EndingPosition>
+                                        <SourceMolecule>
+                                            <GenBankId>AAC41772.1</GenBankId>
+                                        </SourceMolecule>
+                                        <SourceOrganismId>9606</SourceOrganismId>
+                                    </FragmentOfANaturalSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Exact match to reference information</AntigenEvidenceCode>
+                        </Antigen>
+                        <AssayInformation>
+                            <AssayTypeId>62</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <AssayComments>Epitope-specific T-cell clones released IL-2 in response to the epitope; release was detected in a cytokine bioassay of CTLL proliferation and inhibited by HA 306-318 and a number of synthetic peptides that were analogues of the epitope.</AssayComments>
+                        </AssayInformation>
+                    </TCell>
+                </Assays>
+                <Assays>
+                    <TCell>
+                        <LocationOfData>Table 1</LocationOfData>
+                        <TCellId>20478</TCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>10000601</OrganismId>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Unknown</InVivoProcessType>
+                            </FirstInVivoProcess>
+                            <InVitroAdministration>
+                                <ProcessType>Restimulation in vitro</ProcessType>
+                            </InVitroAdministration>
+                        </Immunization>
+                        <EffectorCells>
+                            <CellType>T cell</CellType>
+                            <CellCultureConditions>Cell Line / Clone (Hybridoma)</CellCultureConditions>
+                        </EffectorCells>
+                        <AssayedTcrMolecule>
+                            <AssayedTcrMoleculeName>3.19, 19.3</AssayedTcrMoleculeName>
+                        </AssayedTcrMolecule>
+                        <AntigenPresentingCells>
+                            <CellTissueType>Other</CellTissueType>
+                            <CellType>L cells-Fibroblast</CellType>
+                            <CellCultureConditions>Cell Line / Clone</CellCultureConditions>
+                            <SourceOrganismId>10090</SourceOrganismId>
+                        </AntigenPresentingCells>
+                        <MhcAllele>
+                            <MhcAlleleId>327</MhcAlleleId>
+                            <MhcEvidenceCode>Not determined</MhcEvidenceCode>
+                        </MhcAllele>
+                        <Antigen>
+                            <AntigenReferenceName>CII 261-273</AntigenReferenceName>
+                            <AntigenObject>
+                                <EpitopeRelation>Epitope</EpitopeRelation>
+                                <Object>
+                                    <FragmentOfANaturalSequenceMolecule>
+                                        <ChemicalType>Peptide from protein</ChemicalType>
+                                        <LinearSequence>AGFKGEQGPKGEP</LinearSequence>
+                                        <StartingPosition>461</StartingPosition>
+                                        <EndingPosition>473</EndingPosition>
+                                        <SourceMolecule>
+                                            <GenBankId>AAC41772.1</GenBankId>
+                                        </SourceMolecule>
+                                        <SourceOrganismId>9606</SourceOrganismId>
+                                    </FragmentOfANaturalSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Exact match to reference information</AntigenEvidenceCode>
+                        </Antigen>
+                        <AssayInformation>
+                            <AssayTypeId>62</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <AssayComments>Epitope-specific T-cell clones released IL-2 in response to the epitope; release was detected in a cytokine bioassay of CTLL proliferation and inhibited by HA 306-318 and a number of synthetic peptides that were analogues of the epitope.</AssayComments>
+                        </AssayInformation>
+                    </TCell>
+                </Assays>
+                <Assays>
+                    <MhcBinding>
+                        <LocationOfData>Table 1</LocationOfData>
+                        <MhcBindingId>1006461</MhcBindingId>
+                        <AssayInformation>
+                            <AssayTypeId>295</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                        </AssayInformation>
+                        <MhcAlleleId>341</MhcAlleleId>
+                    </MhcBinding>
+                </Assays>
+                <Assays>
+                    <MhcBinding>
+                        <LocationOfData>Table 1</LocationOfData>
+                        <MhcBindingId>1006460</MhcBindingId>
+                        <AssayInformation>
+                            <AssayTypeId>295</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                        </AssayInformation>
+                        <MhcAlleleId>327</MhcAlleleId>
+                    </MhcBinding>
+                </Assays>
+            </Epitope>
+            <Epitope>
+                <EpitopeName>HA 306-318</EpitopeName>
+                <EpitopeStructure>
+                    <FragmentOfANaturalSequenceMolecule>
+                        <ChemicalType>Peptide from protein</ChemicalType>
+                        <LinearSequence>PKYVKQNTLKLAT</LinearSequence>
+                        <StartingPosition>306</StartingPosition>
+                        <EndingPosition>318</EndingPosition>
+                        <SourceMolecule>
+                            <GenBankId>AAA43143.1</GenBankId>
+                        </SourceMolecule>
+                        <SourceOrganismId>11320</SourceOrganismId>
+                    </FragmentOfANaturalSequenceMolecule>
+                </EpitopeStructure>
+                <LocationOfData>Table 1</LocationOfData>
+                <EpitopeId>48237</EpitopeId>
+                <ReferenceStartingPosition>306</ReferenceStartingPosition>
+                <ReferenceEndingPosition>318</ReferenceEndingPosition>
+                <EpitopeEvidenceCode>Not determined</EpitopeEvidenceCode>
+                <EpitopeStructureDefines>Exact Epitope</EpitopeStructureDefines>
+                <Assays>
+                    <MhcBinding>
+                        <LocationOfData>Table 1, Figures 1 and 2</LocationOfData>
+                        <MhcBindingId>1006523</MhcBindingId>
+                        <AssayInformation>
+                            <AssayTypeId>295</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                        </AssayInformation>
+                        <MhcAlleleId>327</MhcAlleleId>
+                    </MhcBinding>
+                </Assays>
+                <Assays>
+                    <MhcBinding>
+                        <LocationOfData>Table 1, Figures 1 and 2</LocationOfData>
+                        <MhcBindingId>1006524</MhcBindingId>
+                        <AssayInformation>
+                            <AssayTypeId>295</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                        </AssayInformation>
+                        <MhcAlleleId>341</MhcAlleleId>
+                    </MhcBinding>
+                </Assays>
+            </Epitope>
+            <Epitope>
+                <EpitopeStructure>
+                    <SequenceMoleculeNoNaturalSource>
+                        <ChemicalType>Peptide, no natural source</ChemicalType>
+                        <LinearSequence>AAAYAAAAAAKAAAA</LinearSequence>
+                    </SequenceMoleculeNoNaturalSource>
+                </EpitopeStructure>
+                <LocationOfData>Table 1</LocationOfData>
+                <EpitopeId>67</EpitopeId>
+                <EpitopeStructureDefines>Epitope containing region/antigenic site</EpitopeStructureDefines>
+                <EpitopeComments>This is a synthetic peptide being used to study the sequence requirements for binding to HLA-DR1 and -DR4 molecules.</EpitopeComments>
+                <Assays>
+                    <MhcBinding>
+                        <LocationOfData>Table 1</LocationOfData>
+                        <MhcBindingId>1006525</MhcBindingId>
+                        <AssayInformation>
+                            <AssayTypeId>273</AssayTypeId>
+                            <QualitativeMeasurement>Negative</QualitativeMeasurement>
+                            <QuantitativeMeasurement>150000.0</QuantitativeMeasurement>
+                            <MeasurementInequality>&gt;</MeasurementInequality>
+                        </AssayInformation>
+                        <MhcAlleleId>327</MhcAlleleId>
+                    </MhcBinding>
+                </Assays>
+                <Assays>
+                    <MhcBinding>
+                        <LocationOfData>Table 1</LocationOfData>
+                        <MhcBindingId>1006528</MhcBindingId>
+                        <AssayInformation>
+                            <AssayTypeId>273</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <QuantitativeMeasurement>27000.0</QuantitativeMeasurement>
+                        </AssayInformation>
+                        <MhcAlleleId>341</MhcAlleleId>
+                    </MhcBinding>
+                </Assays>
+            </Epitope>
+            <Epitope>
+                <EpitopeStructure>
+                    <SequenceMoleculeNoNaturalSource>
+                        <ChemicalType>Peptide, no natural source</ChemicalType>
+                        <LinearSequence>AEKYAAAAAAKAAAA</LinearSequence>
+                    </SequenceMoleculeNoNaturalSource>
+                </EpitopeStructure>
+                <LocationOfData>Table 1</LocationOfData>
+                <EpitopeId>1030</EpitopeId>
+                <EpitopeStructureDefines>Epitope containing region/antigenic site</EpitopeStructureDefines>
+                <EpitopeComments>This is a synthetic peptide being used to study the sequence requirements for binding to HLA-DR1 and -DR4 molecules.</EpitopeComments>
+                <Assays>
+                    <MhcBinding>
+                        <LocationOfData>Table 1</LocationOfData>
+                        <MhcBindingId>1006841</MhcBindingId>
+                        <AssayInformation>
+                            <AssayTypeId>273</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <QuantitativeMeasurement>100000.0</QuantitativeMeasurement>
+                        </AssayInformation>
+                        <MhcAlleleId>327</MhcAlleleId>
+                    </MhcBinding>
+                </Assays>
+                <Assays>
+                    <MhcBinding>
+                        <LocationOfData>Table 1</LocationOfData>
+                        <MhcBindingId>1006840</MhcBindingId>
+                        <AssayInformation>
+                            <AssayTypeId>273</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <QuantitativeMeasurement>11000.0</QuantitativeMeasurement>
+                        </AssayInformation>
+                        <MhcAlleleId>341</MhcAlleleId>
+                    </MhcBinding>
+                </Assays>
+            </Epitope>
+            <Epitope>
+                <EpitopeStructure>
+                    <SequenceMoleculeNoNaturalSource>
+                        <ChemicalType>Peptide, no natural source</ChemicalType>
+                        <LinearSequence>AKEYAAAAAAKAAAA</LinearSequence>
+                    </SequenceMoleculeNoNaturalSource>
+                </EpitopeStructure>
+                <LocationOfData>Table 1</LocationOfData>
+                <EpitopeId>2182</EpitopeId>
+                <EpitopeStructureDefines>Epitope containing region/antigenic site</EpitopeStructureDefines>
+                <EpitopeComments>This is a synthetic peptide being used to study the sequence requirements for binding to HLA-DR1 and -DR4 molecules.</EpitopeComments>
+                <Assays>
+                    <MhcBinding>
+                        <LocationOfData>Table 1</LocationOfData>
+                        <MhcBindingId>1006842</MhcBindingId>
+                        <AssayInformation>
+                            <AssayTypeId>273</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <QuantitativeMeasurement>9000.0</QuantitativeMeasurement>
+                        </AssayInformation>
+                        <MhcAlleleId>341</MhcAlleleId>
+                    </MhcBinding>
+                </Assays>
+                <Assays>
+                    <MhcBinding>
+                        <LocationOfData>Table 1</LocationOfData>
+                        <MhcBindingId>1006843</MhcBindingId>
+                        <AssayInformation>
+                            <AssayTypeId>273</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <QuantitativeMeasurement>66000.0</QuantitativeMeasurement>
+                        </AssayInformation>
+                        <MhcAlleleId>327</MhcAlleleId>
+                    </MhcBinding>
+                </Assays>
+            </Epitope>
+            <Epitope>
+                <EpitopeStructure>
+                    <SequenceMoleculeNoNaturalSource>
+                        <ChemicalType>Peptide, no natural source</ChemicalType>
+                        <LinearSequence>AKKYAAAAAAKAAAA</LinearSequence>
+                    </SequenceMoleculeNoNaturalSource>
+                </EpitopeStructure>
+                <LocationOfData>Table 1</LocationOfData>
+                <EpitopeId>2227</EpitopeId>
+                <EpitopeStructureDefines>Epitope containing region/antigenic site</EpitopeStructureDefines>
+                <EpitopeComments>This is a synthetic peptide being used to study the sequence requirements for binding to HLA-DR1 and -DR4 molecules.</EpitopeComments>
+                <Assays>
+                    <MhcBinding>
+                        <LocationOfData>Table 1</LocationOfData>
+                        <MhcBindingId>1006844</MhcBindingId>
+                        <AssayInformation>
+                            <AssayTypeId>273</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <QuantitativeMeasurement>9000.0</QuantitativeMeasurement>
+                        </AssayInformation>
+                        <MhcAlleleId>341</MhcAlleleId>
+                    </MhcBinding>
+                </Assays>
+                <Assays>
+                    <MhcBinding>
+                        <LocationOfData>Table 1</LocationOfData>
+                        <MhcBindingId>1006845</MhcBindingId>
+                        <AssayInformation>
+                            <AssayTypeId>273</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <QuantitativeMeasurement>66000.0</QuantitativeMeasurement>
+                        </AssayInformation>
+                        <MhcAlleleId>327</MhcAlleleId>
+                    </MhcBinding>
+                </Assays>
+            </Epitope>
+            <Epitope>
+                <EpitopeStructure>
+                    <SequenceMoleculeNoNaturalSource>
+                        <ChemicalType>Peptide, no natural source</ChemicalType>
+                        <LinearSequence>AEAYAAAAAAKAAAA</LinearSequence>
+                    </SequenceMoleculeNoNaturalSource>
+                </EpitopeStructure>
+                <LocationOfData>Table 1</LocationOfData>
+                <EpitopeId>844</EpitopeId>
+                <EpitopeStructureDefines>Epitope containing region/antigenic site</EpitopeStructureDefines>
+                <EpitopeComments>This is a synthetic peptide being used to study the sequence requirements for binding to HLA-DR1 and -DR4 molecules.</EpitopeComments>
+                <Assays>
+                    <MhcBinding>
+                        <LocationOfData>Table 1</LocationOfData>
+                        <MhcBindingId>1006847</MhcBindingId>
+                        <AssayInformation>
+                            <AssayTypeId>273</AssayTypeId>
+                            <QualitativeMeasurement>Negative</QualitativeMeasurement>
+                            <QuantitativeMeasurement>150000.0</QuantitativeMeasurement>
+                            <MeasurementInequality>&gt;</MeasurementInequality>
+                        </AssayInformation>
+                        <MhcAlleleId>327</MhcAlleleId>
+                    </MhcBinding>
+                </Assays>
+                <Assays>
+                    <MhcBinding>
+                        <LocationOfData>Table 1</LocationOfData>
+                        <MhcBindingId>1006846</MhcBindingId>
+                        <AssayInformation>
+                            <AssayTypeId>273</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <QuantitativeMeasurement>40000.0</QuantitativeMeasurement>
+                        </AssayInformation>
+                        <MhcAlleleId>341</MhcAlleleId>
+                    </MhcBinding>
+                </Assays>
+            </Epitope>
+            <Epitope>
+                <EpitopeStructure>
+                    <SequenceMoleculeNoNaturalSource>
+                        <ChemicalType>Peptide, no natural source</ChemicalType>
+                        <LinearSequence>KEAYAAAAAAKAAAA</LinearSequence>
+                    </SequenceMoleculeNoNaturalSource>
+                </EpitopeStructure>
+                <LocationOfData>Table 1</LocationOfData>
+                <EpitopeId>30314</EpitopeId>
+                <EpitopeStructureDefines>Epitope containing region/antigenic site</EpitopeStructureDefines>
+                <EpitopeComments>This is a synthetic peptide being used to study the sequence requirements for binding to HLA-DR1 and -DR4 molecules.</EpitopeComments>
+                <Assays>
+                    <MhcBinding>
+                        <LocationOfData>Table 1</LocationOfData>
+                        <MhcBindingId>1006848</MhcBindingId>
+                        <AssayInformation>
+                            <AssayTypeId>273</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <QuantitativeMeasurement>6000.0</QuantitativeMeasurement>
+                        </AssayInformation>
+                        <MhcAlleleId>341</MhcAlleleId>
+                    </MhcBinding>
+                </Assays>
+                <Assays>
+                    <MhcBinding>
+                        <LocationOfData>Table 1</LocationOfData>
+                        <MhcBindingId>1006849</MhcBindingId>
+                        <AssayInformation>
+                            <AssayTypeId>273</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <QuantitativeMeasurement>85000.0</QuantitativeMeasurement>
+                        </AssayInformation>
+                        <MhcAlleleId>327</MhcAlleleId>
+                    </MhcBinding>
+                </Assays>
+            </Epitope>
+            <Epitope>
+                <EpitopeStructure>
+                    <SequenceMoleculeNoNaturalSource>
+                        <ChemicalType>Peptide, no natural source</ChemicalType>
+                        <LinearSequence>AEEYAAAAAAKAAAA</LinearSequence>
+                    </SequenceMoleculeNoNaturalSource>
+                </EpitopeStructure>
+                <LocationOfData>Table 1</LocationOfData>
+                <EpitopeId>896</EpitopeId>
+                <EpitopeStructureDefines>Epitope containing region/antigenic site</EpitopeStructureDefines>
+                <EpitopeComments>This is a synthetic peptide being used to study the sequence requirements for binding to HLA-DR1 and -DR4 molecules.</EpitopeComments>
+                <Assays>
+                    <MhcBinding>
+                        <LocationOfData>Table 1</LocationOfData>
+                        <MhcBindingId>1006850</MhcBindingId>
+                        <AssayInformation>
+                            <AssayTypeId>273</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <QuantitativeMeasurement>3000.0</QuantitativeMeasurement>
+                        </AssayInformation>
+                        <MhcAlleleId>341</MhcAlleleId>
+                    </MhcBinding>
+                </Assays>
+                <Assays>
+                    <MhcBinding>
+                        <LocationOfData>Table 1</LocationOfData>
+                        <MhcBindingId>1006851</MhcBindingId>
+                        <AssayInformation>
+                            <AssayTypeId>273</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <QuantitativeMeasurement>80000.0</QuantitativeMeasurement>
+                        </AssayInformation>
+                        <MhcAlleleId>327</MhcAlleleId>
+                    </MhcBinding>
+                </Assays>
+            </Epitope>
+            <Epitope>
+                <EpitopeStructure>
+                    <SequenceMoleculeNoNaturalSource>
+                        <ChemicalType>Peptide, no natural source</ChemicalType>
+                        <LinearSequence>AAEYAAAAAAKAAAA</LinearSequence>
+                    </SequenceMoleculeNoNaturalSource>
+                </EpitopeStructure>
+                <LocationOfData>Table 1</LocationOfData>
+                <EpitopeId>126</EpitopeId>
+                <EpitopeStructureDefines>Epitope containing region/antigenic site</EpitopeStructureDefines>
+                <EpitopeComments>This is a synthetic peptide being used to study the sequence requirements for binding to HLA-DR1 and -DR4 molecules.</EpitopeComments>
+                <Assays>
+                    <MhcBinding>
+                        <LocationOfData>Table 1</LocationOfData>
+                        <MhcBindingId>1006852</MhcBindingId>
+                        <AssayInformation>
+                            <AssayTypeId>273</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <QuantitativeMeasurement>3000.0</QuantitativeMeasurement>
+                        </AssayInformation>
+                        <MhcAlleleId>341</MhcAlleleId>
+                    </MhcBinding>
+                </Assays>
+                <Assays>
+                    <MhcBinding>
+                        <LocationOfData>Table 1</LocationOfData>
+                        <MhcBindingId>1006853</MhcBindingId>
+                        <AssayInformation>
+                            <AssayTypeId>273</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <QuantitativeMeasurement>42000.0</QuantitativeMeasurement>
+                        </AssayInformation>
+                        <MhcAlleleId>327</MhcAlleleId>
+                    </MhcBinding>
+                </Assays>
+            </Epitope>
+            <Epitope>
+                <EpitopeStructure>
+                    <SequenceMoleculeNoNaturalSource>
+                        <ChemicalType>Peptide, no natural source</ChemicalType>
+                        <LinearSequence>EKAYAAAAAAKAAAA</LinearSequence>
+                    </SequenceMoleculeNoNaturalSource>
+                </EpitopeStructure>
+                <LocationOfData>Table 1</LocationOfData>
+                <EpitopeId>12634</EpitopeId>
+                <EpitopeStructureDefines>Epitope containing region/antigenic site</EpitopeStructureDefines>
+                <EpitopeComments>This is a synthetic peptide being used to study the sequence requirements for binding to HLA-DR1 and -DR4 molecules.</EpitopeComments>
+                <Assays>
+                    <MhcBinding>
+                        <LocationOfData>Table 1</LocationOfData>
+                        <MhcBindingId>1006855</MhcBindingId>
+                        <AssayInformation>
+                            <AssayTypeId>273</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <QuantitativeMeasurement>130000.0</QuantitativeMeasurement>
+                        </AssayInformation>
+                        <MhcAlleleId>327</MhcAlleleId>
+                    </MhcBinding>
+                </Assays>
+                <Assays>
+                    <MhcBinding>
+                        <LocationOfData>Table 1</LocationOfData>
+                        <MhcBindingId>1006854</MhcBindingId>
+                        <AssayInformation>
+                            <AssayTypeId>273</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <QuantitativeMeasurement>7000.0</QuantitativeMeasurement>
+                        </AssayInformation>
+                        <MhcAlleleId>341</MhcAlleleId>
+                    </MhcBinding>
+                </Assays>
+            </Epitope>
+            <Epitope>
+                <EpitopeStructure>
+                    <SequenceMoleculeNoNaturalSource>
+                        <ChemicalType>Peptide, no natural source</ChemicalType>
+                        <LinearSequence>AAKYEAAAAAKAAAA</LinearSequence>
+                    </SequenceMoleculeNoNaturalSource>
+                </EpitopeStructure>
+                <LocationOfData>Table 1</LocationOfData>
+                <EpitopeId>261</EpitopeId>
+                <EpitopeStructureDefines>Epitope containing region/antigenic site</EpitopeStructureDefines>
+                <EpitopeComments>This is a synthetic peptide being used to study the sequence requirements for binding to HLA-DR1 and -DR4 molecules.</EpitopeComments>
+                <Assays>
+                    <MhcBinding>
+                        <LocationOfData>Table 1</LocationOfData>
+                        <MhcBindingId>1006856</MhcBindingId>
+                        <AssayInformation>
+                            <AssayTypeId>273</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <QuantitativeMeasurement>5000.0</QuantitativeMeasurement>
+                        </AssayInformation>
+                        <MhcAlleleId>341</MhcAlleleId>
+                    </MhcBinding>
+                </Assays>
+                <Assays>
+                    <MhcBinding>
+                        <LocationOfData>Table 1</LocationOfData>
+                        <MhcBindingId>1006857</MhcBindingId>
+                        <AssayInformation>
+                            <AssayTypeId>273</AssayTypeId>
+                            <QualitativeMeasurement>Negative</QualitativeMeasurement>
+                            <QuantitativeMeasurement>150000.0</QuantitativeMeasurement>
+                            <MeasurementInequality>&gt;</MeasurementInequality>
+                        </AssayInformation>
+                        <MhcAlleleId>327</MhcAlleleId>
+                    </MhcBinding>
+                </Assays>
+            </Epitope>
+            <Epitope>
+                <EpitopeStructure>
+                    <SequenceMoleculeNoNaturalSource>
+                        <ChemicalType>Peptide, no natural source</ChemicalType>
+                        <LinearSequence>AAKYAEAAAAKAAAA</LinearSequence>
+                    </SequenceMoleculeNoNaturalSource>
+                </EpitopeStructure>
+                <LocationOfData>Table 1</LocationOfData>
+                <EpitopeId>259</EpitopeId>
+                <EpitopeStructureDefines>Epitope containing region/antigenic site</EpitopeStructureDefines>
+                <EpitopeComments>This is a synthetic peptide being used to study the sequence requirements for binding to HLA-DR1 and -DR4 molecules.</EpitopeComments>
+                <Assays>
+                    <MhcBinding>
+                        <LocationOfData>Table 1</LocationOfData>
+                        <MhcBindingId>1006859</MhcBindingId>
+                        <AssayInformation>
+                            <AssayTypeId>273</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <QuantitativeMeasurement>38000.0</QuantitativeMeasurement>
+                        </AssayInformation>
+                        <MhcAlleleId>327</MhcAlleleId>
+                    </MhcBinding>
+                </Assays>
+                <Assays>
+                    <MhcBinding>
+                        <LocationOfData>Table 1</LocationOfData>
+                        <MhcBindingId>1006858</MhcBindingId>
+                        <AssayInformation>
+                            <AssayTypeId>273</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <QuantitativeMeasurement>2000.0</QuantitativeMeasurement>
+                        </AssayInformation>
+                        <MhcAlleleId>341</MhcAlleleId>
+                    </MhcBinding>
+                </Assays>
+            </Epitope>
+            <Epitope>
+                <EpitopeStructure>
+                    <SequenceMoleculeNoNaturalSource>
+                        <ChemicalType>Peptide, no natural source</ChemicalType>
+                        <LinearSequence>EAAYAAAAAAKAAAA</LinearSequence>
+                    </SequenceMoleculeNoNaturalSource>
+                </EpitopeStructure>
+                <LocationOfData>Table 1</LocationOfData>
+                <EpitopeId>10999</EpitopeId>
+                <EpitopeStructureDefines>Epitope containing region/antigenic site</EpitopeStructureDefines>
+                <EpitopeComments>This is a synthetic peptide being used to study the sequence requirements for binding to HLA-DR1 and -DR4 molecules.</EpitopeComments>
+                <Assays>
+                    <MhcBinding>
+                        <LocationOfData>Table 1</LocationOfData>
+                        <MhcBindingId>1006860</MhcBindingId>
+                        <AssayInformation>
+                            <AssayTypeId>273</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <QuantitativeMeasurement>9000.0</QuantitativeMeasurement>
+                        </AssayInformation>
+                        <MhcAlleleId>341</MhcAlleleId>
+                    </MhcBinding>
+                </Assays>
+                <Assays>
+                    <MhcBinding>
+                        <LocationOfData>Table 1</LocationOfData>
+                        <MhcBindingId>1006861</MhcBindingId>
+                        <AssayInformation>
+                            <AssayTypeId>273</AssayTypeId>
+                            <QualitativeMeasurement>Negative</QualitativeMeasurement>
+                            <QuantitativeMeasurement>150000.0</QuantitativeMeasurement>
+                            <MeasurementInequality>&gt;</MeasurementInequality>
+                        </AssayInformation>
+                        <MhcAlleleId>327</MhcAlleleId>
+                    </MhcBinding>
+                </Assays>
+            </Epitope>
+            <Epitope>
+                <EpitopeStructure>
+                    <SequenceMoleculeNoNaturalSource>
+                        <ChemicalType>Peptide, no natural source</ChemicalType>
+                        <LinearSequence>EKKYAAAAAAKAAAA</LinearSequence>
+                    </SequenceMoleculeNoNaturalSource>
+                </EpitopeStructure>
+                <LocationOfData>Table 1</LocationOfData>
+                <EpitopeId>12786</EpitopeId>
+                <EpitopeStructureDefines>Epitope containing region/antigenic site</EpitopeStructureDefines>
+                <EpitopeComments>This is a synthetic peptide being used to study the sequence requirements for binding to HLA-DR1 and -DR4 molecules.</EpitopeComments>
+                <Assays>
+                    <MhcBinding>
+                        <LocationOfData>Table 1</LocationOfData>
+                        <MhcBindingId>1006862</MhcBindingId>
+                        <AssayInformation>
+                            <AssayTypeId>273</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <QuantitativeMeasurement>5000.0</QuantitativeMeasurement>
+                        </AssayInformation>
+                        <MhcAlleleId>341</MhcAlleleId>
+                    </MhcBinding>
+                </Assays>
+                <Assays>
+                    <MhcBinding>
+                        <LocationOfData>Table 1</LocationOfData>
+                        <MhcBindingId>1006863</MhcBindingId>
+                        <AssayInformation>
+                            <AssayTypeId>273</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <QuantitativeMeasurement>56000.0</QuantitativeMeasurement>
+                        </AssayInformation>
+                        <MhcAlleleId>327</MhcAlleleId>
+                    </MhcBinding>
+                </Assays>
+            </Epitope>
+            <Epitope>
+                <EpitopeStructure>
+                    <SequenceMoleculeNoNaturalSource>
+                        <ChemicalType>Peptide, no natural source</ChemicalType>
+                        <LinearSequence>EAKYAAAAAAKAAAA</LinearSequence>
+                    </SequenceMoleculeNoNaturalSource>
+                </EpitopeStructure>
+                <LocationOfData>Table 1</LocationOfData>
+                <EpitopeId>11106</EpitopeId>
+                <EpitopeStructureDefines>Epitope containing region/antigenic site</EpitopeStructureDefines>
+                <EpitopeComments>This is a synthetic peptide being used to study the sequence requirements for binding to HLA-DR1 and -DR4 molecules.</EpitopeComments>
+                <Assays>
+                    <MhcBinding>
+                        <LocationOfData>Table 1</LocationOfData>
+                        <MhcBindingId>1006864</MhcBindingId>
+                        <AssayInformation>
+                            <AssayTypeId>273</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <QuantitativeMeasurement>5000.0</QuantitativeMeasurement>
+                        </AssayInformation>
+                        <MhcAlleleId>341</MhcAlleleId>
+                    </MhcBinding>
+                </Assays>
+                <Assays>
+                    <MhcBinding>
+                        <LocationOfData>Table 1</LocationOfData>
+                        <MhcBindingId>1006865</MhcBindingId>
+                        <AssayInformation>
+                            <AssayTypeId>273</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <QuantitativeMeasurement>33000.0</QuantitativeMeasurement>
+                        </AssayInformation>
+                        <MhcAlleleId>327</MhcAlleleId>
+                    </MhcBinding>
+                </Assays>
+            </Epitope>
+            <Epitope>
+                <EpitopeStructure>
+                    <SequenceMoleculeNoNaturalSource>
+                        <ChemicalType>Peptide, no natural source</ChemicalType>
+                        <LinearSequence>AEKYAAAAAAAAAAA</LinearSequence>
+                    </SequenceMoleculeNoNaturalSource>
+                </EpitopeStructure>
+                <LocationOfData>Table 1</LocationOfData>
+                <EpitopeId>1029</EpitopeId>
+                <EpitopeStructureDefines>Epitope containing region/antigenic site</EpitopeStructureDefines>
+                <EpitopeComments>This is a synthetic peptide being used to study the sequence requirements for binding to HLA-DR1 and -DR4 molecules.</EpitopeComments>
+                <Assays>
+                    <MhcBinding>
+                        <LocationOfData>Table 1</LocationOfData>
+                        <MhcBindingId>1006869</MhcBindingId>
+                        <AssayInformation>
+                            <AssayTypeId>273</AssayTypeId>
+                            <QualitativeMeasurement>Negative</QualitativeMeasurement>
+                            <QuantitativeMeasurement>150000.0</QuantitativeMeasurement>
+                            <MeasurementInequality>&gt;</MeasurementInequality>
+                        </AssayInformation>
+                        <MhcAlleleId>341</MhcAlleleId>
+                    </MhcBinding>
+                </Assays>
+                <Assays>
+                    <MhcBinding>
+                        <LocationOfData>Table 1</LocationOfData>
+                        <MhcBindingId>1006870</MhcBindingId>
+                        <AssayInformation>
+                            <AssayTypeId>273</AssayTypeId>
+                            <QualitativeMeasurement>Negative</QualitativeMeasurement>
+                            <QuantitativeMeasurement>1000000.0</QuantitativeMeasurement>
+                            <MeasurementInequality>&gt;</MeasurementInequality>
+                        </AssayInformation>
+                        <MhcAlleleId>327</MhcAlleleId>
+                    </MhcBinding>
+                </Assays>
+            </Epitope>
+            <Epitope>
+                <EpitopeStructure>
+                    <SequenceMoleculeNoNaturalSource>
+                        <ChemicalType>Peptide, no natural source</ChemicalType>
+                        <LinearSequence>AKEYAAAAAAAAAAA</LinearSequence>
+                    </SequenceMoleculeNoNaturalSource>
+                </EpitopeStructure>
+                <LocationOfData>Table 1</LocationOfData>
+                <EpitopeId>2181</EpitopeId>
+                <EpitopeStructureDefines>Epitope containing region/antigenic site</EpitopeStructureDefines>
+                <EpitopeComments>This is a synthetic peptide being used to study the sequence requirements for binding to HLA-DR1 and -DR4 molecules.</EpitopeComments>
+                <Assays>
+                    <MhcBinding>
+                        <LocationOfData>Table 1</LocationOfData>
+                        <MhcBindingId>1006872</MhcBindingId>
+                        <AssayInformation>
+                            <AssayTypeId>273</AssayTypeId>
+                            <QualitativeMeasurement>Negative</QualitativeMeasurement>
+                            <QuantitativeMeasurement>1000000.0</QuantitativeMeasurement>
+                            <MeasurementInequality>&gt;</MeasurementInequality>
+                        </AssayInformation>
+                        <MhcAlleleId>327</MhcAlleleId>
+                    </MhcBinding>
+                </Assays>
+                <Assays>
+                    <MhcBinding>
+                        <LocationOfData>Table 1</LocationOfData>
+                        <MhcBindingId>1006871</MhcBindingId>
+                        <AssayInformation>
+                            <AssayTypeId>273</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <QuantitativeMeasurement>130000.0</QuantitativeMeasurement>
+                        </AssayInformation>
+                        <MhcAlleleId>341</MhcAlleleId>
+                    </MhcBinding>
+                </Assays>
+            </Epitope>
+            <Epitope>
+                <EpitopeStructure>
+                    <SequenceMoleculeNoNaturalSource>
+                        <ChemicalType>Peptide, no natural source</ChemicalType>
+                        <LinearSequence>AKKYEAAAAAAAAAA</LinearSequence>
+                    </SequenceMoleculeNoNaturalSource>
+                </EpitopeStructure>
+                <LocationOfData>Table 1</LocationOfData>
+                <EpitopeId>2229</EpitopeId>
+                <EpitopeStructureDefines>Epitope containing region/antigenic site</EpitopeStructureDefines>
+                <EpitopeComments>This is a synthetic peptide being used to study the sequence requirements for binding to HLA-DR1 and -DR4 molecules.</EpitopeComments>
+                <Assays>
+                    <MhcBinding>
+                        <LocationOfData>Table 1</LocationOfData>
+                        <MhcBindingId>1006877</MhcBindingId>
+                        <AssayInformation>
+                            <AssayTypeId>273</AssayTypeId>
+                            <QualitativeMeasurement>Negative</QualitativeMeasurement>
+                            <QuantitativeMeasurement>1000000.0</QuantitativeMeasurement>
+                            <MeasurementInequality>&gt;</MeasurementInequality>
+                        </AssayInformation>
+                        <MhcAlleleId>327</MhcAlleleId>
+                    </MhcBinding>
+                </Assays>
+                <Assays>
+                    <MhcBinding>
+                        <LocationOfData>Table 1</LocationOfData>
+                        <MhcBindingId>1006876</MhcBindingId>
+                        <AssayInformation>
+                            <AssayTypeId>273</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <QuantitativeMeasurement>50000.0</QuantitativeMeasurement>
+                        </AssayInformation>
+                        <MhcAlleleId>341</MhcAlleleId>
+                    </MhcBinding>
+                </Assays>
+            </Epitope>
+            <Epitope>
+                <EpitopeStructure>
+                    <SequenceMoleculeNoNaturalSource>
+                        <ChemicalType>Peptide, no natural source</ChemicalType>
+                        <LinearSequence>AKKYAEAAAAAAAAA</LinearSequence>
+                    </SequenceMoleculeNoNaturalSource>
+                </EpitopeStructure>
+                <LocationOfData>Table 1</LocationOfData>
+                <EpitopeId>2228</EpitopeId>
+                <EpitopeStructureDefines>Epitope containing region/antigenic site</EpitopeStructureDefines>
+                <EpitopeComments>This is a synthetic peptide being used to study the sequence requirements for binding to HLA-DR1 and -DR4 molecules.</EpitopeComments>
+                <Assays>
+                    <MhcBinding>
+                        <LocationOfData>Table 1</LocationOfData>
+                        <MhcBindingId>1006879</MhcBindingId>
+                        <AssayInformation>
+                            <AssayTypeId>273</AssayTypeId>
+                            <QualitativeMeasurement>Negative</QualitativeMeasurement>
+                            <QuantitativeMeasurement>1000000.0</QuantitativeMeasurement>
+                            <MeasurementInequality>&gt;</MeasurementInequality>
+                        </AssayInformation>
+                        <MhcAlleleId>327</MhcAlleleId>
+                    </MhcBinding>
+                </Assays>
+                <Assays>
+                    <MhcBinding>
+                        <LocationOfData>Table 1</LocationOfData>
+                        <MhcBindingId>1006878</MhcBindingId>
+                        <AssayInformation>
+                            <AssayTypeId>273</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <QuantitativeMeasurement>78000.0</QuantitativeMeasurement>
+                        </AssayInformation>
+                        <MhcAlleleId>341</MhcAlleleId>
+                    </MhcBinding>
+                </Assays>
+            </Epitope>
+            <Epitope>
+                <EpitopeStructure>
+                    <SequenceMoleculeNoNaturalSource>
+                        <ChemicalType>Peptide, no natural source</ChemicalType>
+                        <LinearSequence>AEAYKAAAAAAAAAA</LinearSequence>
+                    </SequenceMoleculeNoNaturalSource>
+                </EpitopeStructure>
+                <LocationOfData>Table 1</LocationOfData>
+                <EpitopeId>845</EpitopeId>
+                <EpitopeStructureDefines>Epitope containing region/antigenic site</EpitopeStructureDefines>
+                <EpitopeComments>This is a synthetic peptide being used to study the sequence requirements for binding to HLA-DR1 and -DR4 molecules.</EpitopeComments>
+                <Assays>
+                    <MhcBinding>
+                        <LocationOfData>Table 1</LocationOfData>
+                        <MhcBindingId>1006880</MhcBindingId>
+                        <AssayInformation>
+                            <AssayTypeId>273</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <QuantitativeMeasurement>44000.0</QuantitativeMeasurement>
+                        </AssayInformation>
+                        <MhcAlleleId>341</MhcAlleleId>
+                    </MhcBinding>
+                </Assays>
+                <Assays>
+                    <MhcBinding>
+                        <LocationOfData>Table 1</LocationOfData>
+                        <MhcBindingId>1006881</MhcBindingId>
+                        <AssayInformation>
+                            <AssayTypeId>273</AssayTypeId>
+                            <QualitativeMeasurement>Negative</QualitativeMeasurement>
+                            <QuantitativeMeasurement>1000000.0</QuantitativeMeasurement>
+                            <MeasurementInequality>&gt;</MeasurementInequality>
+                        </AssayInformation>
+                        <MhcAlleleId>327</MhcAlleleId>
+                    </MhcBinding>
+                </Assays>
+            </Epitope>
+            <Epitope>
+                <EpitopeStructure>
+                    <SequenceMoleculeNoNaturalSource>
+                        <ChemicalType>Peptide, no natural source</ChemicalType>
+                        <LinearSequence>KEAYAAAAAAAAAAA</LinearSequence>
+                    </SequenceMoleculeNoNaturalSource>
+                </EpitopeStructure>
+                <LocationOfData>Table 1</LocationOfData>
+                <EpitopeId>30313</EpitopeId>
+                <EpitopeStructureDefines>Epitope containing region/antigenic site</EpitopeStructureDefines>
+                <EpitopeComments>This is a synthetic peptide being used to study the sequence requirements for binding to HLA-DR1 and -DR4 molecules.</EpitopeComments>
+                <Assays>
+                    <MhcBinding>
+                        <LocationOfData>Table 1</LocationOfData>
+                        <MhcBindingId>1006883</MhcBindingId>
+                        <AssayInformation>
+                            <AssayTypeId>273</AssayTypeId>
+                            <QualitativeMeasurement>Negative</QualitativeMeasurement>
+                            <QuantitativeMeasurement>1000000.0</QuantitativeMeasurement>
+                            <MeasurementInequality>&gt;</MeasurementInequality>
+                        </AssayInformation>
+                        <MhcAlleleId>341</MhcAlleleId>
+                    </MhcBinding>
+                </Assays>
+                <Assays>
+                    <MhcBinding>
+                        <LocationOfData>Table 1</LocationOfData>
+                        <MhcBindingId>1006884</MhcBindingId>
+                        <AssayInformation>
+                            <AssayTypeId>273</AssayTypeId>
+                            <QualitativeMeasurement>Negative</QualitativeMeasurement>
+                            <QuantitativeMeasurement>1000000.0</QuantitativeMeasurement>
+                            <MeasurementInequality>&gt;</MeasurementInequality>
+                        </AssayInformation>
+                        <MhcAlleleId>327</MhcAlleleId>
+                    </MhcBinding>
+                </Assays>
+            </Epitope>
+            <Epitope>
+                <EpitopeStructure>
+                    <SequenceMoleculeNoNaturalSource>
+                        <ChemicalType>Peptide, no natural source</ChemicalType>
+                        <LinearSequence>AEEYKAAAAAAAAAA</LinearSequence>
+                    </SequenceMoleculeNoNaturalSource>
+                </EpitopeStructure>
+                <LocationOfData>Table 1</LocationOfData>
+                <EpitopeId>897</EpitopeId>
+                <EpitopeStructureDefines>Epitope containing region/antigenic site</EpitopeStructureDefines>
+                <EpitopeComments>This is a synthetic peptide being used to study the sequence requirements for binding to HLA-DR1 and -DR4 molecules.</EpitopeComments>
+                <Assays>
+                    <MhcBinding>
+                        <LocationOfData>Table 1</LocationOfData>
+                        <MhcBindingId>1006885</MhcBindingId>
+                        <AssayInformation>
+                            <AssayTypeId>273</AssayTypeId>
+                            <QualitativeMeasurement>Negative</QualitativeMeasurement>
+                            <QuantitativeMeasurement>150000.0</QuantitativeMeasurement>
+                            <MeasurementInequality>&gt;</MeasurementInequality>
+                        </AssayInformation>
+                        <MhcAlleleId>341</MhcAlleleId>
+                    </MhcBinding>
+                </Assays>
+                <Assays>
+                    <MhcBinding>
+                        <LocationOfData>Table 1</LocationOfData>
+                        <MhcBindingId>1006886</MhcBindingId>
+                        <AssayInformation>
+                            <AssayTypeId>273</AssayTypeId>
+                            <QualitativeMeasurement>Negative</QualitativeMeasurement>
+                            <QuantitativeMeasurement>1000000.0</QuantitativeMeasurement>
+                            <MeasurementInequality>&gt;</MeasurementInequality>
+                        </AssayInformation>
+                        <MhcAlleleId>327</MhcAlleleId>
+                    </MhcBinding>
+                </Assays>
+            </Epitope>
+            <Epitope>
+                <EpitopeStructure>
+                    <SequenceMoleculeNoNaturalSource>
+                        <ChemicalType>Peptide, no natural source</ChemicalType>
+                        <LinearSequence>AAEYKAAAAAAAAAA</LinearSequence>
+                    </SequenceMoleculeNoNaturalSource>
+                </EpitopeStructure>
+                <LocationOfData>Table 1</LocationOfData>
+                <EpitopeId>128</EpitopeId>
+                <EpitopeStructureDefines>Epitope containing region/antigenic site</EpitopeStructureDefines>
+                <EpitopeComments>This is a synthetic peptide being used to study the sequence requirements for binding to HLA-DR1 and -DR4 molecules.</EpitopeComments>
+                <Assays>
+                    <MhcBinding>
+                        <LocationOfData>Table 1</LocationOfData>
+                        <MhcBindingId>1006888</MhcBindingId>
+                        <AssayInformation>
+                            <AssayTypeId>273</AssayTypeId>
+                            <QualitativeMeasurement>Negative</QualitativeMeasurement>
+                            <QuantitativeMeasurement>1000000.0</QuantitativeMeasurement>
+                            <MeasurementInequality>&gt;</MeasurementInequality>
+                        </AssayInformation>
+                        <MhcAlleleId>327</MhcAlleleId>
+                    </MhcBinding>
+                </Assays>
+                <Assays>
+                    <MhcBinding>
+                        <LocationOfData>Table 1</LocationOfData>
+                        <MhcBindingId>1006887</MhcBindingId>
+                        <AssayInformation>
+                            <AssayTypeId>273</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <QuantitativeMeasurement>23000.0</QuantitativeMeasurement>
+                        </AssayInformation>
+                        <MhcAlleleId>341</MhcAlleleId>
+                    </MhcBinding>
+                </Assays>
+            </Epitope>
+            <Epitope>
+                <EpitopeStructure>
+                    <SequenceMoleculeNoNaturalSource>
+                        <ChemicalType>Peptide, no natural source</ChemicalType>
+                        <LinearSequence>EKAYAAAAAAAAAAA</LinearSequence>
+                    </SequenceMoleculeNoNaturalSource>
+                </EpitopeStructure>
+                <LocationOfData>Table 1</LocationOfData>
+                <EpitopeId>12633</EpitopeId>
+                <EpitopeStructureDefines>Epitope containing region/antigenic site</EpitopeStructureDefines>
+                <EpitopeComments>This is a synthetic peptide being used to study the sequence requirements for binding to HLA-DR1 and -DR4 molecules.</EpitopeComments>
+                <Assays>
+                    <MhcBinding>
+                        <LocationOfData>Table 1</LocationOfData>
+                        <MhcBindingId>1006890</MhcBindingId>
+                        <AssayInformation>
+                            <AssayTypeId>273</AssayTypeId>
+                            <QualitativeMeasurement>Negative</QualitativeMeasurement>
+                            <QuantitativeMeasurement>1000000.0</QuantitativeMeasurement>
+                            <MeasurementInequality>&gt;</MeasurementInequality>
+                        </AssayInformation>
+                        <MhcAlleleId>327</MhcAlleleId>
+                    </MhcBinding>
+                </Assays>
+                <Assays>
+                    <MhcBinding>
+                        <LocationOfData>Table 1</LocationOfData>
+                        <MhcBindingId>1006889</MhcBindingId>
+                        <AssayInformation>
+                            <AssayTypeId>273</AssayTypeId>
+                            <QualitativeMeasurement>Negative</QualitativeMeasurement>
+                            <QuantitativeMeasurement>1000000.0</QuantitativeMeasurement>
+                            <MeasurementInequality>&gt;</MeasurementInequality>
+                        </AssayInformation>
+                        <MhcAlleleId>341</MhcAlleleId>
+                    </MhcBinding>
+                </Assays>
+            </Epitope>
+            <Epitope>
+                <EpitopeStructure>
+                    <SequenceMoleculeNoNaturalSource>
+                        <ChemicalType>Peptide, no natural source</ChemicalType>
+                        <LinearSequence>AAKYEAAAAAAAAAA</LinearSequence>
+                    </SequenceMoleculeNoNaturalSource>
+                </EpitopeStructure>
+                <LocationOfData>Table 1</LocationOfData>
+                <EpitopeId>260</EpitopeId>
+                <EpitopeStructureDefines>Epitope containing region/antigenic site</EpitopeStructureDefines>
+                <EpitopeComments>This is a synthetic peptide being used to study the sequence requirements for binding to HLA-DR1 and -DR4 molecules.</EpitopeComments>
+                <Assays>
+                    <MhcBinding>
+                        <LocationOfData>Table 1</LocationOfData>
+                        <MhcBindingId>1006892</MhcBindingId>
+                        <AssayInformation>
+                            <AssayTypeId>273</AssayTypeId>
+                            <QualitativeMeasurement>Negative</QualitativeMeasurement>
+                            <QuantitativeMeasurement>1000000.0</QuantitativeMeasurement>
+                            <MeasurementInequality>&gt;</MeasurementInequality>
+                        </AssayInformation>
+                        <MhcAlleleId>327</MhcAlleleId>
+                    </MhcBinding>
+                </Assays>
+                <Assays>
+                    <MhcBinding>
+                        <LocationOfData>Table 1</LocationOfData>
+                        <MhcBindingId>1006891</MhcBindingId>
+                        <AssayInformation>
+                            <AssayTypeId>273</AssayTypeId>
+                            <QualitativeMeasurement>Negative</QualitativeMeasurement>
+                            <QuantitativeMeasurement>1000000.0</QuantitativeMeasurement>
+                            <MeasurementInequality>&gt;</MeasurementInequality>
+                        </AssayInformation>
+                        <MhcAlleleId>341</MhcAlleleId>
+                    </MhcBinding>
+                </Assays>
+            </Epitope>
+            <Epitope>
+                <EpitopeStructure>
+                    <SequenceMoleculeNoNaturalSource>
+                        <ChemicalType>Peptide, no natural source</ChemicalType>
+                        <LinearSequence>AAKYAEAAAAAAAAA</LinearSequence>
+                    </SequenceMoleculeNoNaturalSource>
+                </EpitopeStructure>
+                <LocationOfData>Table 1</LocationOfData>
+                <EpitopeId>258</EpitopeId>
+                <EpitopeStructureDefines>Epitope containing region/antigenic site</EpitopeStructureDefines>
+                <EpitopeComments>This is a synthetic peptide being used to study the sequence requirements for binding to HLA-DR1 and -DR4 molecules.</EpitopeComments>
+                <Assays>
+                    <MhcBinding>
+                        <LocationOfData>Table 1</LocationOfData>
+                        <MhcBindingId>1006893</MhcBindingId>
+                        <AssayInformation>
+                            <AssayTypeId>273</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <QuantitativeMeasurement>60000.0</QuantitativeMeasurement>
+                        </AssayInformation>
+                        <MhcAlleleId>341</MhcAlleleId>
+                    </MhcBinding>
+                </Assays>
+                <Assays>
+                    <MhcBinding>
+                        <LocationOfData>Table 1</LocationOfData>
+                        <MhcBindingId>1006894</MhcBindingId>
+                        <AssayInformation>
+                            <AssayTypeId>273</AssayTypeId>
+                            <QualitativeMeasurement>Negative</QualitativeMeasurement>
+                            <QuantitativeMeasurement>1000000.0</QuantitativeMeasurement>
+                            <MeasurementInequality>&gt;</MeasurementInequality>
+                        </AssayInformation>
+                        <MhcAlleleId>327</MhcAlleleId>
+                    </MhcBinding>
+                </Assays>
+            </Epitope>
+            <Epitope>
+                <EpitopeStructure>
+                    <SequenceMoleculeNoNaturalSource>
+                        <ChemicalType>Peptide, no natural source</ChemicalType>
+                        <LinearSequence>EKKYAAAAAAAAAAA</LinearSequence>
+                    </SequenceMoleculeNoNaturalSource>
+                </EpitopeStructure>
+                <LocationOfData>Table 1</LocationOfData>
+                <EpitopeId>12785</EpitopeId>
+                <EpitopeStructureDefines>Epitope containing region/antigenic site</EpitopeStructureDefines>
+                <EpitopeComments>This is a synthetic peptide being used to study the sequence requirements for binding to HLA-DR1 and -DR4 molecules.</EpitopeComments>
+                <Assays>
+                    <MhcBinding>
+                        <LocationOfData>Table 1</LocationOfData>
+                        <MhcBindingId>1006896</MhcBindingId>
+                        <AssayInformation>
+                            <AssayTypeId>273</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <QuantitativeMeasurement>28000.0</QuantitativeMeasurement>
+                        </AssayInformation>
+                        <MhcAlleleId>341</MhcAlleleId>
+                    </MhcBinding>
+                </Assays>
+                <Assays>
+                    <MhcBinding>
+                        <LocationOfData>Table 1</LocationOfData>
+                        <MhcBindingId>1006897</MhcBindingId>
+                        <AssayInformation>
+                            <AssayTypeId>273</AssayTypeId>
+                            <QualitativeMeasurement>Negative</QualitativeMeasurement>
+                            <QuantitativeMeasurement>1000000.0</QuantitativeMeasurement>
+                            <MeasurementInequality>&gt;</MeasurementInequality>
+                        </AssayInformation>
+                        <MhcAlleleId>327</MhcAlleleId>
+                    </MhcBinding>
+                </Assays>
+            </Epitope>
+            <Epitope>
+                <EpitopeStructure>
+                    <SequenceMoleculeNoNaturalSource>
+                        <ChemicalType>Peptide, no natural source</ChemicalType>
+                        <LinearSequence>EAKYAAAAAAAAAAA</LinearSequence>
+                    </SequenceMoleculeNoNaturalSource>
+                </EpitopeStructure>
+                <LocationOfData>Table 1</LocationOfData>
+                <EpitopeId>11105</EpitopeId>
+                <EpitopeStructureDefines>Epitope containing region/antigenic site</EpitopeStructureDefines>
+                <EpitopeComments>This is a synthetic peptide being used to study the sequence requirements for binding to HLA-DR1 and -DR4 molecules.</EpitopeComments>
+                <Assays>
+                    <MhcBinding>
+                        <LocationOfData>Table 1</LocationOfData>
+                        <MhcBindingId>1006899</MhcBindingId>
+                        <AssayInformation>
+                            <AssayTypeId>273</AssayTypeId>
+                            <QualitativeMeasurement>Negative</QualitativeMeasurement>
+                            <QuantitativeMeasurement>1000000.0</QuantitativeMeasurement>
+                            <MeasurementInequality>&gt;</MeasurementInequality>
+                        </AssayInformation>
+                        <MhcAlleleId>327</MhcAlleleId>
+                    </MhcBinding>
+                </Assays>
+                <Assays>
+                    <MhcBinding>
+                        <LocationOfData>Table 1</LocationOfData>
+                        <MhcBindingId>1006898</MhcBindingId>
+                        <AssayInformation>
+                            <AssayTypeId>273</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <QuantitativeMeasurement>100000.0</QuantitativeMeasurement>
+                        </AssayInformation>
+                        <MhcAlleleId>341</MhcAlleleId>
+                    </MhcBinding>
+                </Assays>
+            </Epitope>
+            <Epitope>
+                <EpitopeStructure>
+                    <SequenceMoleculeNoNaturalSource>
+                        <ChemicalType>Peptide, no natural source</ChemicalType>
+                        <LinearSequence>AEYAKAAAAAAAAAA</LinearSequence>
+                    </SequenceMoleculeNoNaturalSource>
+                </EpitopeStructure>
+                <LocationOfData>Table 1</LocationOfData>
+                <EpitopeId>1237</EpitopeId>
+                <EpitopeStructureDefines>Epitope containing region/antigenic site</EpitopeStructureDefines>
+                <EpitopeComments>This is a synthetic peptide being used to study the sequence requirements for binding to HLA-DR1 and -DR4 molecules.</EpitopeComments>
+                <Assays>
+                    <MhcBinding>
+                        <LocationOfData>Table 1</LocationOfData>
+                        <MhcBindingId>1006902</MhcBindingId>
+                        <AssayInformation>
+                            <AssayTypeId>273</AssayTypeId>
+                            <QualitativeMeasurement>Negative</QualitativeMeasurement>
+                            <QuantitativeMeasurement>1000000.0</QuantitativeMeasurement>
+                            <MeasurementInequality>&gt;</MeasurementInequality>
+                        </AssayInformation>
+                        <MhcAlleleId>327</MhcAlleleId>
+                    </MhcBinding>
+                </Assays>
+                <Assays>
+                    <MhcBinding>
+                        <LocationOfData>Table 1</LocationOfData>
+                        <MhcBindingId>1006901</MhcBindingId>
+                        <AssayInformation>
+                            <AssayTypeId>273</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <QuantitativeMeasurement>70000.0</QuantitativeMeasurement>
+                        </AssayInformation>
+                        <MhcAlleleId>341</MhcAlleleId>
+                    </MhcBinding>
+                </Assays>
+            </Epitope>
+            <Epitope>
+                <EpitopeStructure>
+                    <SequenceMoleculeNoNaturalSource>
+                        <ChemicalType>Peptide, no natural source</ChemicalType>
+                        <LinearSequence>AEKAYAAAAAAAAAA</LinearSequence>
+                    </SequenceMoleculeNoNaturalSource>
+                </EpitopeStructure>
+                <LocationOfData>Table 1</LocationOfData>
+                <EpitopeId>1009</EpitopeId>
+                <EpitopeStructureDefines>Epitope containing region/antigenic site</EpitopeStructureDefines>
+                <EpitopeComments>This is a synthetic peptide being used to study the sequence requirements for binding to HLA-DR1 and -DR4 molecules.</EpitopeComments>
+                <Assays>
+                    <MhcBinding>
+                        <LocationOfData>Table 1</LocationOfData>
+                        <MhcBindingId>1006904</MhcBindingId>
+                        <AssayInformation>
+                            <AssayTypeId>273</AssayTypeId>
+                            <QualitativeMeasurement>Negative</QualitativeMeasurement>
+                            <QuantitativeMeasurement>1000000.0</QuantitativeMeasurement>
+                            <MeasurementInequality>&gt;</MeasurementInequality>
+                        </AssayInformation>
+                        <MhcAlleleId>327</MhcAlleleId>
+                    </MhcBinding>
+                </Assays>
+                <Assays>
+                    <MhcBinding>
+                        <LocationOfData>Table 1</LocationOfData>
+                        <MhcBindingId>1006903</MhcBindingId>
+                        <AssayInformation>
+                            <AssayTypeId>273</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <QuantitativeMeasurement>100000.0</QuantitativeMeasurement>
+                        </AssayInformation>
+                        <MhcAlleleId>341</MhcAlleleId>
+                    </MhcBinding>
+                </Assays>
+            </Epitope>
+            <Epitope>
+                <EpitopeStructure>
+                    <SequenceMoleculeNoNaturalSource>
+                        <ChemicalType>Peptide, no natural source</ChemicalType>
+                        <LinearSequence>EKYAAAAAAAAAAAA</LinearSequence>
+                    </SequenceMoleculeNoNaturalSource>
+                </EpitopeStructure>
+                <LocationOfData>Table 1</LocationOfData>
+                <EpitopeId>12908</EpitopeId>
+                <EpitopeStructureDefines>Epitope containing region/antigenic site</EpitopeStructureDefines>
+                <EpitopeComments>This is a synthetic peptide being used to study the sequence requirements for binding to HLA-DR1 and -DR4 molecules.</EpitopeComments>
+                <Assays>
+                    <MhcBinding>
+                        <LocationOfData>Table 1</LocationOfData>
+                        <MhcBindingId>1006906</MhcBindingId>
+                        <AssayInformation>
+                            <AssayTypeId>273</AssayTypeId>
+                            <QualitativeMeasurement>Negative</QualitativeMeasurement>
+                            <QuantitativeMeasurement>1000000.0</QuantitativeMeasurement>
+                            <MeasurementInequality>&gt;</MeasurementInequality>
+                        </AssayInformation>
+                        <MhcAlleleId>327</MhcAlleleId>
+                    </MhcBinding>
+                </Assays>
+                <Assays>
+                    <MhcBinding>
+                        <LocationOfData>Table 1</LocationOfData>
+                        <MhcBindingId>1006905</MhcBindingId>
+                        <AssayInformation>
+                            <AssayTypeId>273</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <QuantitativeMeasurement>140000.0</QuantitativeMeasurement>
+                        </AssayInformation>
+                        <MhcAlleleId>341</MhcAlleleId>
+                    </MhcBinding>
+                </Assays>
+            </Epitope>
+            <Epitope>
+                <EpitopeStructure>
+                    <SequenceMoleculeNoNaturalSource>
+                        <ChemicalType>Peptide, no natural source</ChemicalType>
+                        <LinearSequence>AYKAEAAAAAAAAAA</LinearSequence>
+                    </SequenceMoleculeNoNaturalSource>
+                </EpitopeStructure>
+                <LocationOfData>Table 1</LocationOfData>
+                <EpitopeId>5848</EpitopeId>
+                <EpitopeStructureDefines>Epitope containing region/antigenic site</EpitopeStructureDefines>
+                <EpitopeComments>This is a synthetic peptide being used to study the sequence requirements for binding to HLA-DR1 and -DR4 molecules.</EpitopeComments>
+                <Assays>
+                    <MhcBinding>
+                        <LocationOfData>Table 1</LocationOfData>
+                        <MhcBindingId>1006907</MhcBindingId>
+                        <AssayInformation>
+                            <AssayTypeId>273</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <QuantitativeMeasurement>78000.0</QuantitativeMeasurement>
+                        </AssayInformation>
+                        <MhcAlleleId>341</MhcAlleleId>
+                    </MhcBinding>
+                </Assays>
+                <Assays>
+                    <MhcBinding>
+                        <LocationOfData>Table 1</LocationOfData>
+                        <MhcBindingId>1006908</MhcBindingId>
+                        <AssayInformation>
+                            <AssayTypeId>273</AssayTypeId>
+                            <QualitativeMeasurement>Negative</QualitativeMeasurement>
+                            <QuantitativeMeasurement>1000000.0</QuantitativeMeasurement>
+                            <MeasurementInequality>&gt;</MeasurementInequality>
+                        </AssayInformation>
+                        <MhcAlleleId>327</MhcAlleleId>
+                    </MhcBinding>
+                </Assays>
+            </Epitope>
+            <Epitope>
+                <EpitopeStructure>
+                    <SequenceMoleculeNoNaturalSource>
+                        <ChemicalType>Peptide, no natural source</ChemicalType>
+                        <LinearSequence>AKYAEAAAAAAAAAA</LinearSequence>
+                    </SequenceMoleculeNoNaturalSource>
+                </EpitopeStructure>
+                <LocationOfData>Table 1</LocationOfData>
+                <EpitopeId>2325</EpitopeId>
+                <EpitopeStructureDefines>Epitope containing region/antigenic site</EpitopeStructureDefines>
+                <EpitopeComments>This is a synthetic peptide being used to study the sequence requirements for binding to HLA-DR1 and -DR4 molecules.</EpitopeComments>
+                <Assays>
+                    <MhcBinding>
+                        <LocationOfData>Table 1</LocationOfData>
+                        <MhcBindingId>1006910</MhcBindingId>
+                        <AssayInformation>
+                            <AssayTypeId>273</AssayTypeId>
+                            <QualitativeMeasurement>Negative</QualitativeMeasurement>
+                            <QuantitativeMeasurement>1000000.0</QuantitativeMeasurement>
+                            <MeasurementInequality>&gt;</MeasurementInequality>
+                        </AssayInformation>
+                        <MhcAlleleId>327</MhcAlleleId>
+                    </MhcBinding>
+                </Assays>
+                <Assays>
+                    <MhcBinding>
+                        <LocationOfData>Table 1</LocationOfData>
+                        <MhcBindingId>1006909</MhcBindingId>
+                        <AssayInformation>
+                            <AssayTypeId>273</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <QuantitativeMeasurement>110000.0</QuantitativeMeasurement>
+                        </AssayInformation>
+                        <MhcAlleleId>341</MhcAlleleId>
+                    </MhcBinding>
+                </Assays>
+            </Epitope>
+            <Epitope>
+                <EpitopeStructure>
+                    <SequenceMoleculeNoNaturalSource>
+                        <ChemicalType>Peptide, no natural source</ChemicalType>
+                        <LinearSequence>APKYVKQNTLKLATA</LinearSequence>
+                    </SequenceMoleculeNoNaturalSource>
+                </EpitopeStructure>
+                <EpitopeRelatedObject>
+                    <RelatedObjectType>The epitope is an analog of:</RelatedObjectType>
+                    <RelatedObject>
+                        <FragmentOfANaturalSequenceMolecule>
+                            <ChemicalType>Peptide from protein</ChemicalType>
+                            <LinearSequence>PKYVKQNTLKLAT</LinearSequence>
+                            <StartingPosition>306</StartingPosition>
+                            <EndingPosition>318</EndingPosition>
+                            <SourceMolecule>
+                                <GenBankId>AAA43143.1</GenBankId>
+                            </SourceMolecule>
+                            <SourceOrganismId>11320</SourceOrganismId>
+                        </FragmentOfANaturalSequenceMolecule>
+                    </RelatedObject>
+                </EpitopeRelatedObject>
+                <LocationOfData>Table 1</LocationOfData>
+                <EpitopeId>3631</EpitopeId>
+                <EpitopeStructureDefines>Epitope containing region/antigenic site</EpitopeStructureDefines>
+                <EpitopeComments>This is a synthetic peptide being used to study the sequence requirements for binding to HLA-DR1 and -DR4 molecules.</EpitopeComments>
+                <Assays>
+                    <MhcBinding>
+                        <LocationOfData>Table 1</LocationOfData>
+                        <MhcBindingId>1006911</MhcBindingId>
+                        <AssayInformation>
+                            <AssayTypeId>273</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <QuantitativeMeasurement>28000.0</QuantitativeMeasurement>
+                        </AssayInformation>
+                        <MhcAlleleId>341</MhcAlleleId>
+                    </MhcBinding>
+                </Assays>
+                <Assays>
+                    <MhcBinding>
+                        <LocationOfData>Table 1</LocationOfData>
+                        <MhcBindingId>1006912</MhcBindingId>
+                        <AssayInformation>
+                            <AssayTypeId>273</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <QuantitativeMeasurement>13000.0</QuantitativeMeasurement>
+                        </AssayInformation>
+                        <MhcAlleleId>327</MhcAlleleId>
+                    </MhcBinding>
+                </Assays>
+            </Epitope>
+        </Epitopes>
+    </Reference>
+</References>
+

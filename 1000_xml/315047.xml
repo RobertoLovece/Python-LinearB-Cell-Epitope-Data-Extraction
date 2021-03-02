@@ -1,0 +1,452 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<References xsi:schemaLocation="http://www.iedb.org/schema/CurationSchema http://beta.iedb.org/schema/Curation.xsd" xmlns="http://www.iedb.org/schema/CurationSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <Reference>
+        <ReferenceId>315047</ReferenceId>
+        <DateLastUpdated>2020-09-10-07:00</DateLastUpdated>
+        <Article>
+            <PubmedId>7539551</PubmedId>
+            <Abstract>Minor histocompatibility antigen disparities between human leukocyte antigen (HLA)-matched bone marrow donors and recipients are a major risk factor for graft versus host disease (GVHD). An HLA-A2.1-restricted cytotoxic T cell clone that recognized the minor histocompatibility antigen HA-2 was previously isolated from a patient with severe GVHD after HLA-identical bone marrow transplantation. The HLA-A2.1-bound peptide representing HA-2 has now been identified. This peptide appears to originate from a member of the non-filament-forming class I myosin family. Because HA-2 has a phenotype frequency of 95 percent in the HLA-A2.1-positive population, it is a candidate for immunotherapeutic intervention in bone marrow transplantation.</Abstract>
+            <ArticleYear>1995</ArticleYear>
+            <ArticlePages>1476-80</ArticlePages>
+            <ArticleTitle>Identification of a graft versus host disease-associated human minor histocompatibility antigen.</ArticleTitle>
+            <Authors>
+                <Author>
+                    <LastName>den Haan</LastName>
+                    <ForeName>J M</ForeName>
+                </Author>
+                <Author>
+                    <LastName>Sherman</LastName>
+                    <ForeName>N E</ForeName>
+                </Author>
+                <Author>
+                    <LastName>Blokland</LastName>
+                    <ForeName>E</ForeName>
+                </Author>
+                <Author>
+                    <LastName>Huczko</LastName>
+                    <ForeName>E</ForeName>
+                </Author>
+                <Author>
+                    <LastName>Koning</LastName>
+                    <ForeName>F</ForeName>
+                </Author>
+                <Author>
+                    <LastName>Drijfhout</LastName>
+                    <ForeName>J W</ForeName>
+                </Author>
+                <Author>
+                    <LastName>Skipper</LastName>
+                    <ForeName>J</ForeName>
+                </Author>
+                <Author>
+                    <LastName>Shabanowitz</LastName>
+                    <ForeName>J</ForeName>
+                </Author>
+                <Author>
+                    <LastName>Hunt</LastName>
+                    <ForeName>D F</ForeName>
+                </Author>
+                <Author>
+                    <LastName>Engelhard</LastName>
+                    <ForeName>V H</ForeName>
+                </Author>
+            </Authors>
+            <Affiliations>Department of Immunohaematology, University Hospital, Leiden, Netherlands.</Affiliations>
+            <ArticleChemicalList>Epitopes;HA-2 antigen;HLA-A2 Antigen;Minor Histocompatibility Antigens;Neoplasm Proteins;Oligopeptides</ArticleChemicalList>
+            <ArticleMeshHeadingsList>Amino Acid Sequence; Bone Marrow Transplantation; Epitopes; Female; Graft vs Host Disease(immunology); HLA-A2 Antigen(immunology); Humans; Mass Spectrometry; Minor Histocompatibility Antigens(chemistry; immunology); Molecular Sequence Data; Neoplasm Proteins(chemistry; immunology); Oligopeptides(chemistry; immunology); T-Lymphocytes, Cytotoxic(immunology)</ArticleMeshHeadingsList>
+            <Comments>Data originally imported from the Database of Functional Molecular Immunology, FIMM (http://sdmc.lit.org.sg:8080/fimm/) and from the HLA Ligand Database (http://hlaligand.ouhsc.edu/)</Comments>
+            <Journal>
+                <Volume>268</Volume>
+                <Issue>5216</Issue>
+                <Title>Science (New York, N.Y.)</Title>
+                <Issn>1095-9203</Issn>
+                <MedlineTa>Science</MedlineTa>
+            </Journal>
+        </Article>
+        <Epitopes>
+            <Epitope>
+                <EpitopeName>HA-2 (HLA-2.1 eluted peptide)</EpitopeName>
+                <EpitopeStructure>
+                    <FragmentOfANaturalSequenceMolecule>
+                        <ChemicalType>Peptide from protein</ChemicalType>
+                        <LinearSequence>YIGEVLVSV</LinearSequence>
+                        <StartingPosition>41</StartingPosition>
+                        <EndingPosition>49</EndingPosition>
+                        <SourceMolecule>
+                            <GenBankId>NP_149043.2</GenBankId>
+                        </SourceMolecule>
+                        <SourceOrganismId>9606</SourceOrganismId>
+                    </FragmentOfANaturalSequenceMolecule>
+                </EpitopeStructure>
+                <LocationOfData>Figure 5</LocationOfData>
+                <EpitopeId>138937</EpitopeId>
+                <EpitopeEvidenceCode>Representative selection</EpitopeEvidenceCode>
+                <EpitopeStructureDefines>Exact Epitope</EpitopeStructureDefines>
+                <Assays>
+                    <TCell>
+                        <LocationOfData>Figures 2 and 4</LocationOfData>
+                        <TCellId>1809636</TCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>9606</OrganismId>
+                                <Sex>M</Sex>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>No immunization</InVivoProcessType>
+                            </FirstInVivoProcess>
+                        </Immunization>
+                        <AdoptiveTransfer>
+                            <RecipientOrganism>
+                                <OrganismId>9606</OrganismId>
+                                <Sex>F</Sex>
+                            </RecipientOrganism>
+                            <TransferredEffectorCell>
+                                <TransferredEffectorCellTissueType>Bone Marrow</TransferredEffectorCellTissueType>
+                                <TransferredEffectorCellType>Stem cell</TransferredEffectorCellType>
+                                <TransferredEffectorCellCultureConditions>Direct Ex Vivo</TransferredEffectorCellCultureConditions>
+                            </TransferredEffectorCell>
+                            <InVivoProcessInRecipient>
+                                <InVivoProcessType>Transplant/transfusion</InVivoProcessType>
+                                <DiseaseState>ONTIE:0003422</DiseaseState>
+                                <DiseaseStage>Acute/Recent onset</DiseaseStage>
+                            </InVivoProcessInRecipient>
+                            <AdoptiveTransferComments>HA-2 specific T cell clone 5H17 was derived from PBMCs of a female patient who had undergone bone marrow transplant from her HLA-identical father and subsequently developed acute GVHD followed by chronic GVHD. Posttransplant PBL from patients were stimulated with irradiated patients' pretransplant PBL as host-specific minor histocompatibility antigen presenting cells. T cell clones 5H17 and 5H13 demonstrate identical reactivity patterns against unrelated HLA-A2.1-positive individuals.</AdoptiveTransferComments>
+                        </AdoptiveTransfer>
+                        <EffectorCells>
+                            <CellTissueType>Blood</CellTissueType>
+                            <CellType>T cell CD8+</CellType>
+                            <CellCultureConditions>Cell Line / Clone</CellCultureConditions>
+                        </EffectorCells>
+                        <AntigenPresentingCells>
+                            <CellTissueType>Lymphoid</CellTissueType>
+                            <CellType>T2 cells-Lymphoblast</CellType>
+                            <CellCultureConditions>Cell Line / Clone</CellCultureConditions>
+                            <AutologousOrSyngeneic>Y</AutologousOrSyngeneic>
+                        </AntigenPresentingCells>
+                        <MhcAllele>
+                            <MhcAlleleId>143</MhcAlleleId>
+                            <MhcEvidenceCode>MHC binding assay</MhcEvidenceCode>
+                        </MhcAllele>
+                        <Antigen>
+                            <AntigenObject>
+                                <EpitopeRelation>Epitope</EpitopeRelation>
+                                <Object>
+                                    <FragmentOfANaturalSequenceMolecule>
+                                        <ChemicalType>Peptide from protein</ChemicalType>
+                                        <LinearSequence>YIGEVLVSV</LinearSequence>
+                                        <StartingPosition>41</StartingPosition>
+                                        <EndingPosition>49</EndingPosition>
+                                        <SourceMolecule>
+                                            <GenBankId>NP_149043.2</GenBankId>
+                                        </SourceMolecule>
+                                        <SourceOrganismId>9606</SourceOrganismId>
+                                    </FragmentOfANaturalSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Exact match to reference information</AntigenEvidenceCode>
+                        </Antigen>
+                        <AssayInformation>
+                            <AssayTypeId>67</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <AssayComments>HA-2 specific T cell clones 5H17 and 5H13 lysed T2 pulsed with the epitope. The epitope sensitized target cells at a lower concentration than the related peptides, YLGEVLVSV and YLGEVIVSV, suggesting it is the actual HA-2 epitope.</AssayComments>
+                        </AssayInformation>
+                    </TCell>
+                </Assays>
+                <Assays>
+                    <MhcLigandElution>
+                        <LocationOfData>Figures 1, 2 and 3</LocationOfData>
+                        <MhcLigandElutionId>1809635</MhcLigandElutionId>
+                        <HostOrganism>
+                            <OrganismId>9606</OrganismId>
+                        </HostOrganism>
+                        <InVivoProcess>
+                            <InVivoProcessType>No immunization</InVivoProcessType>
+                        </InVivoProcess>
+                        <MhcLigand>
+                            <MhcLigandObject>
+                                <EpitopeRelation>Epitope</EpitopeRelation>
+                                <Object>
+                                    <FragmentOfANaturalSequenceMolecule>
+                                        <ChemicalType>Peptide from protein</ChemicalType>
+                                        <LinearSequence>YIGEVLVSV</LinearSequence>
+                                        <StartingPosition>41</StartingPosition>
+                                        <EndingPosition>49</EndingPosition>
+                                        <SourceMolecule>
+                                            <GenBankId>NP_149043.2</GenBankId>
+                                        </SourceMolecule>
+                                        <SourceOrganismId>9606</SourceOrganismId>
+                                    </FragmentOfANaturalSequenceMolecule>
+                                </Object>
+                            </MhcLigandObject>
+                        </MhcLigand>
+                        <AntigenPresentingCells>
+                            <CellTissueType>Blood</CellTissueType>
+                            <CellType>B cell</CellType>
+                            <CellCultureConditions>Cell Line / Clone (EBV transformed, B-LCL)</CellCultureConditions>
+                        </AntigenPresentingCells>
+                        <MhcAllele>
+                            <MhcAlleleId>143</MhcAlleleId>
+                            <MhcEvidenceCode>Antibody purification</MhcEvidenceCode>
+                        </MhcAllele>
+                        <AssayInformation>
+                            <AssayTypeId>233</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <AssayComments>HLA-A*0201 bound peptides were isolated from B lymphoblastoid cell lines expressing HA-2 and fractionated by HPLC. The fractions were analyzed for their capacity to reconstitute recognition by an HA-2-specific CTL. The sequences of the peptides in the active fraction were Y(L/I)GEV(L/I)VSV and S(L/I)DFGT(L/I)QV, but only synthetic peptide mixture Y(L/I)GEV(L/I)VSV reconstituted the CTL lytic activity. Synthetic peptides YIGEVLVSV, YLGEVLVSV, and YLGEVIVSV, and not YIGEVIVSV, coeluted with the naturally processed peptide. Peptide YIGEVLVSV sensitized target cells at a lower concentration than the other two peptides, suggesting it is the actual HA-2 epitope.</AssayComments>
+                        </AssayInformation>
+                    </MhcLigandElution>
+                </Assays>
+                <Assays>
+                    <MhcBinding>
+                        <LocationOfData>Figure 5</LocationOfData>
+                        <MhcBindingId>1809632</MhcBindingId>
+                        <AssayInformation>
+                            <AssayTypeId>273</AssayTypeId>
+                            <QualitativeMeasurement>Positive-High</QualitativeMeasurement>
+                            <QuantitativeMeasurement>6.7</QuantitativeMeasurement>
+                        </AssayInformation>
+                        <MhcAlleleId>143</MhcAlleleId>
+                    </MhcBinding>
+                </Assays>
+            </Epitope>
+            <Epitope>
+                <EpitopeName>HA-2 (HLA-2.1 eluted peptide)</EpitopeName>
+                <EpitopeStructure>
+                    <SequenceMoleculeNoNaturalSource>
+                        <ChemicalType>Peptide, no natural source</ChemicalType>
+                        <LinearSequence>YLGEVLVSV</LinearSequence>
+                    </SequenceMoleculeNoNaturalSource>
+                </EpitopeStructure>
+                <EpitopeRelatedObject>
+                    <RelatedObjectType>The epitope is an analog of:</RelatedObjectType>
+                    <RelatedObject>
+                        <FragmentOfANaturalSequenceMolecule>
+                            <ChemicalType>Peptide from protein</ChemicalType>
+                            <LinearSequence>YIGEVLVSV</LinearSequence>
+                            <StartingPosition>41</StartingPosition>
+                            <EndingPosition>49</EndingPosition>
+                            <SourceMolecule>
+                                <GenBankId>NP_149043.2</GenBankId>
+                            </SourceMolecule>
+                            <SourceOrganismId>9606</SourceOrganismId>
+                        </FragmentOfANaturalSequenceMolecule>
+                    </RelatedObject>
+                </EpitopeRelatedObject>
+                <LocationOfData>Figure 5</LocationOfData>
+                <EpitopeId>140774</EpitopeId>
+                <EpitopeStructureDefines>Exact Epitope</EpitopeStructureDefines>
+                <Assays>
+                    <TCell>
+                        <LocationOfData>Figure 4</LocationOfData>
+                        <TCellId>1809637</TCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>9606</OrganismId>
+                                <Sex>M</Sex>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>No immunization</InVivoProcessType>
+                            </FirstInVivoProcess>
+                        </Immunization>
+                        <AdoptiveTransfer>
+                            <RecipientOrganism>
+                                <OrganismId>9606</OrganismId>
+                                <Sex>F</Sex>
+                            </RecipientOrganism>
+                            <TransferredEffectorCell>
+                                <TransferredEffectorCellTissueType>Bone Marrow</TransferredEffectorCellTissueType>
+                                <TransferredEffectorCellType>Stem cell</TransferredEffectorCellType>
+                                <TransferredEffectorCellCultureConditions>Direct Ex Vivo</TransferredEffectorCellCultureConditions>
+                            </TransferredEffectorCell>
+                            <InVivoProcessInRecipient>
+                                <InVivoProcessType>Transplant/transfusion</InVivoProcessType>
+                                <DiseaseState>ONTIE:0003422</DiseaseState>
+                                <DiseaseStage>Acute/Recent onset</DiseaseStage>
+                            </InVivoProcessInRecipient>
+                            <AdoptiveTransferComments>HA-2 specific T cell clone 5H17 was derived from PBMCs of a female patient who had undergone bone marrow transplant from her HLA-identical father and subsequently developed acute GVHD followed by chronic GVHD. Posttransplant PBL from patients were stimulated with irradiated patients' pretransplant PBL as host-specific minor histocompatibility antigen presenting cells. T cell clones 5H17 and 5H13 demonstrate identical reactivity patterns against unrelated HLA-A2.1-positive individuals.</AdoptiveTransferComments>
+                        </AdoptiveTransfer>
+                        <EffectorCells>
+                            <CellTissueType>Blood</CellTissueType>
+                            <CellType>T cell CD8+</CellType>
+                            <CellCultureConditions>Cell Line / Clone</CellCultureConditions>
+                        </EffectorCells>
+                        <AntigenPresentingCells>
+                            <CellTissueType>Lymphoid</CellTissueType>
+                            <CellType>T2 cells-Lymphoblast</CellType>
+                            <CellCultureConditions>Cell Line / Clone</CellCultureConditions>
+                            <AutologousOrSyngeneic>Y</AutologousOrSyngeneic>
+                        </AntigenPresentingCells>
+                        <MhcAllele>
+                            <MhcAlleleId>143</MhcAlleleId>
+                            <MhcEvidenceCode>MHC binding assay</MhcEvidenceCode>
+                        </MhcAllele>
+                        <Antigen>
+                            <AntigenObject>
+                                <EpitopeRelation>Epitope</EpitopeRelation>
+                                <Object>
+                                    <SequenceMoleculeNoNaturalSource>
+                                        <ChemicalType>Peptide, no natural source</ChemicalType>
+                                        <LinearSequence>YLGEVLVSV</LinearSequence>
+                                    </SequenceMoleculeNoNaturalSource>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Exact match to reference information</AntigenEvidenceCode>
+                        </Antigen>
+                        <AssayInformation>
+                            <AssayTypeId>67</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <AssayComments>HA-2 specific T cell clones 5H17 and 5H13 lysed T2 pulsed with the epitope.</AssayComments>
+                        </AssayInformation>
+                    </TCell>
+                </Assays>
+                <Assays>
+                    <MhcBinding>
+                        <LocationOfData>Figure 5</LocationOfData>
+                        <MhcBindingId>1809633</MhcBindingId>
+                        <AssayInformation>
+                            <AssayTypeId>273</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <QuantitativeMeasurement>17.0</QuantitativeMeasurement>
+                        </AssayInformation>
+                        <MhcAlleleId>143</MhcAlleleId>
+                    </MhcBinding>
+                </Assays>
+            </Epitope>
+            <Epitope>
+                <EpitopeName>HA-2 (HLA-2.1 eluted peptide)</EpitopeName>
+                <EpitopeStructure>
+                    <SequenceMoleculeNoNaturalSource>
+                        <ChemicalType>Peptide, no natural source</ChemicalType>
+                        <LinearSequence>YLGEVIVSV</LinearSequence>
+                    </SequenceMoleculeNoNaturalSource>
+                </EpitopeStructure>
+                <EpitopeRelatedObject>
+                    <RelatedObjectType>The epitope is an analog of:</RelatedObjectType>
+                    <RelatedObject>
+                        <FragmentOfANaturalSequenceMolecule>
+                            <ChemicalType>Peptide from protein</ChemicalType>
+                            <LinearSequence>YIGEVLVSV</LinearSequence>
+                            <StartingPosition>41</StartingPosition>
+                            <EndingPosition>49</EndingPosition>
+                            <SourceMolecule>
+                                <GenBankId>NP_149043.2</GenBankId>
+                            </SourceMolecule>
+                            <SourceOrganismId>9606</SourceOrganismId>
+                        </FragmentOfANaturalSequenceMolecule>
+                    </RelatedObject>
+                </EpitopeRelatedObject>
+                <LocationOfData>Figure 5</LocationOfData>
+                <EpitopeId>140773</EpitopeId>
+                <EpitopeStructureDefines>Exact Epitope</EpitopeStructureDefines>
+                <Assays>
+                    <TCell>
+                        <LocationOfData>Figure 4</LocationOfData>
+                        <TCellId>1809638</TCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>9606</OrganismId>
+                                <Sex>M</Sex>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>No immunization</InVivoProcessType>
+                            </FirstInVivoProcess>
+                        </Immunization>
+                        <AdoptiveTransfer>
+                            <RecipientOrganism>
+                                <OrganismId>9606</OrganismId>
+                                <Sex>F</Sex>
+                            </RecipientOrganism>
+                            <TransferredEffectorCell>
+                                <TransferredEffectorCellTissueType>Bone Marrow</TransferredEffectorCellTissueType>
+                                <TransferredEffectorCellType>Stem cell</TransferredEffectorCellType>
+                                <TransferredEffectorCellCultureConditions>Direct Ex Vivo</TransferredEffectorCellCultureConditions>
+                            </TransferredEffectorCell>
+                            <InVivoProcessInRecipient>
+                                <InVivoProcessType>Transplant/transfusion</InVivoProcessType>
+                                <DiseaseState>ONTIE:0003422</DiseaseState>
+                                <DiseaseStage>Acute/Recent onset</DiseaseStage>
+                            </InVivoProcessInRecipient>
+                            <AdoptiveTransferComments>HA-2 specific T cell clone 5H17 was derived from PBMCs of a female patient who had undergone bone marrow transplant from her HLA-identical father and subsequently developed acute GVHD followed by chronic GVHD. Posttransplant PBL from patients were stimulated with irradiated patients' pretransplant PBL as host-specific minor histocompatibility antigen presenting cells. T cell clones 5H17 and 5H13 demonstrate identical reactivity patterns against unrelated HLA-A2.1-positive individuals.</AdoptiveTransferComments>
+                        </AdoptiveTransfer>
+                        <EffectorCells>
+                            <CellTissueType>Blood</CellTissueType>
+                            <CellType>T cell CD8+</CellType>
+                            <CellCultureConditions>Cell Line / Clone</CellCultureConditions>
+                        </EffectorCells>
+                        <AntigenPresentingCells>
+                            <CellTissueType>Lymphoid</CellTissueType>
+                            <CellType>T2 cells-Lymphoblast</CellType>
+                            <CellCultureConditions>Cell Line / Clone</CellCultureConditions>
+                            <AutologousOrSyngeneic>Y</AutologousOrSyngeneic>
+                        </AntigenPresentingCells>
+                        <MhcAllele>
+                            <MhcAlleleId>143</MhcAlleleId>
+                            <MhcEvidenceCode>MHC binding assay</MhcEvidenceCode>
+                        </MhcAllele>
+                        <Antigen>
+                            <AntigenObject>
+                                <EpitopeRelation>Epitope</EpitopeRelation>
+                                <Object>
+                                    <SequenceMoleculeNoNaturalSource>
+                                        <ChemicalType>Peptide, no natural source</ChemicalType>
+                                        <LinearSequence>YLGEVIVSV</LinearSequence>
+                                    </SequenceMoleculeNoNaturalSource>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Exact match to reference information</AntigenEvidenceCode>
+                        </Antigen>
+                        <AssayInformation>
+                            <AssayTypeId>67</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <AssayComments>HA-2 specific T cell clones 5H17 and 5H13 lysed T2 pulsed with the epitope.</AssayComments>
+                        </AssayInformation>
+                    </TCell>
+                </Assays>
+                <Assays>
+                    <MhcBinding>
+                        <LocationOfData>Figure 5</LocationOfData>
+                        <MhcBindingId>1809634</MhcBindingId>
+                        <AssayInformation>
+                            <AssayTypeId>273</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <QuantitativeMeasurement>27.0</QuantitativeMeasurement>
+                        </AssayInformation>
+                        <MhcAlleleId>143</MhcAlleleId>
+                    </MhcBinding>
+                </Assays>
+            </Epitope>
+            <Epitope>
+                <EpitopeName>Influenza M1 peptide</EpitopeName>
+                <EpitopeStructure>
+                    <FragmentOfANaturalSequenceMolecule>
+                        <ChemicalType>Peptide from protein</ChemicalType>
+                        <LinearSequence>GILGFVFTL</LinearSequence>
+                        <StartingPosition>58</StartingPosition>
+                        <EndingPosition>66</EndingPosition>
+                        <SourceMolecule>
+                            <GenBankId>AAC80155.1</GenBankId>
+                        </SourceMolecule>
+                        <SourceOrganismId>41857</SourceOrganismId>
+                    </FragmentOfANaturalSequenceMolecule>
+                </EpitopeStructure>
+                <LocationOfData>Figure 5</LocationOfData>
+                <EpitopeId>20354</EpitopeId>
+                <EpitopeEvidenceCode>Representative selection</EpitopeEvidenceCode>
+                <EpitopeStructureDefines>Exact Epitope</EpitopeStructureDefines>
+                <Assays>
+                    <MhcBinding>
+                        <LocationOfData>Figure 5</LocationOfData>
+                        <MhcBindingId>1811238</MhcBindingId>
+                        <AssayInformation>
+                            <AssayTypeId>273</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <QuantitativeMeasurement>30.0</QuantitativeMeasurement>
+                            <MeasurementInequality>&lt;=</MeasurementInequality>
+                        </AssayInformation>
+                        <MhcAlleleId>143</MhcAlleleId>
+                    </MhcBinding>
+                </Assays>
+            </Epitope>
+        </Epitopes>
+    </Reference>
+</References>
+

@@ -1,0 +1,378 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<References xsi:schemaLocation="http://www.iedb.org/schema/CurationSchema http://beta.iedb.org/schema/Curation.xsd" xmlns="http://www.iedb.org/schema/CurationSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <Reference>
+        <ReferenceId>315022</ReferenceId>
+        <DateLastUpdated>2020-09-10-07:00</DateLastUpdated>
+        <Article>
+            <PubmedId>2480387</PubmedId>
+            <Abstract>An influenza B virus nucleoprotein (BNP) peptide, residues 82-94, defined by limited sequence homology with an HLA-A2-restricted peptide from influenza A matrix protein, was recognized by HLA-A2-restricted CTL. Reciprocal inhibition of T cell recognition by the two peptides suggest that the BNP peptide may have lower avidity for HLA-A2 molecules than the matrix peptide. The interaction between this peptide and HLA-A2 was explored by studying the CTL recognition of BNP 82-94 presented by mutant HLA-A2 molecules. Mutations at residues 9, 99, 70, 74, 152 and 156 were found to abolish T cell recognition of the BNP peptide. These results were compared with results previously obtained with the influenza A matrix peptide and suggest that the two peptides bind differently in the peptide binding site.</Abstract>
+            <ArticleYear>1989</ArticleYear>
+            <ArticlePages>4098-103</ArticlePages>
+            <ArticleTitle>Comparison between two peptide epitopes presented to cytotoxic T lymphocytes by HLA-A2. Evidence for discrete locations within HLA-A2.</ArticleTitle>
+            <Authors>
+                <Author>
+                    <LastName>Robbins</LastName>
+                    <ForeName>P A</ForeName>
+                </Author>
+                <Author>
+                    <LastName>Lettice</LastName>
+                    <ForeName>L A</ForeName>
+                </Author>
+                <Author>
+                    <LastName>Rota</LastName>
+                    <ForeName>P</ForeName>
+                </Author>
+                <Author>
+                    <LastName>Santos-Aguado</LastName>
+                    <ForeName>J</ForeName>
+                </Author>
+                <Author>
+                    <LastName>Rothbard</LastName>
+                    <ForeName>J</ForeName>
+                </Author>
+                <Author>
+                    <LastName>McMichael</LastName>
+                    <ForeName>A J</ForeName>
+                </Author>
+                <Author>
+                    <LastName>Strominger</LastName>
+                    <ForeName>J L</ForeName>
+                </Author>
+            </Authors>
+            <Affiliations>Institute of Molecular Medicine, John Radcliffe Hospital, Oxford, England.</Affiliations>
+            <ArticleChemicalList>Epitopes;HLA-A2 Antigen;Nucleoproteins;Peptides;Viral Matrix Proteins</ArticleChemicalList>
+            <ArticleMeshHeadingsList>Amino Acid Sequence; Cross Reactions; Epitopes(genetics; immunology); HLA-A2 Antigen(analysis; genetics; immunology); Humans; Influenza B virus(immunology); Mutation; Nucleoproteins(immunology); Peptides(genetics; immunology); T-Lymphocytes, Cytotoxic(immunology); Viral Matrix Proteins(immunology)</ArticleMeshHeadingsList>
+            <Comments>Data originally imported from the Database of Functional Molecular Immunology, FIMM (http://sdmc.lit.org.sg:8080/fimm/) and from the HLA Ligand Database (http://hlaligand.ouhsc.edu/)</Comments>
+            <Journal>
+                <Volume>143</Volume>
+                <Issue>12</Issue>
+                <Title>Journal of immunology (Baltimore, Md. : 1950)</Title>
+                <Issn>0022-1767</Issn>
+                <MedlineTa>J Immunol</MedlineTa>
+            </Journal>
+        </Article>
+        <Epitopes>
+            <Epitope>
+                <EpitopeName>BNP</EpitopeName>
+                <EpitopeStructure>
+                    <FragmentOfANaturalSequenceMolecule>
+                        <ChemicalType>Peptide from protein</ChemicalType>
+                        <LinearSequence>MVVKLGEFYNQMM</LinearSequence>
+                        <StartingPosition>82</StartingPosition>
+                        <EndingPosition>94</EndingPosition>
+                        <SourceMolecule>
+                            <GenBankId>P04665.1</GenBankId>
+                        </SourceMolecule>
+                        <SourceOrganismId>518987</SourceOrganismId>
+                    </FragmentOfANaturalSequenceMolecule>
+                </EpitopeStructure>
+                <LocationOfData>Figure 1B</LocationOfData>
+                <EpitopeId>43003</EpitopeId>
+                <ReferenceStartingPosition>82</ReferenceStartingPosition>
+                <ReferenceEndingPosition>94</ReferenceEndingPosition>
+                <EpitopeEvidenceCode>Not determined</EpitopeEvidenceCode>
+                <EpitopeStructureDefines>Epitope containing region/antigenic site</EpitopeStructureDefines>
+                <EpitopeComments>The following refers to the epitope id as found in the original FIMM database: P000035.</EpitopeComments>
+                <Assays>
+                    <TCell>
+                        <LocationOfData>Figure 2C</LocationOfData>
+                        <TCellId>1005060</TCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>9606</OrganismId>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Environmental exposure to endemic/ubiquitous agent without evidence for disease</InVivoProcessType>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Taxonomic Parent</EpitopeRelation>
+                                    <Object>
+                                        <Organism>
+                                            <SubType>Organism</SubType>
+                                            <SourceOrganismId>11520</SourceOrganismId>
+                                        </Organism>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenReferenceName>Influenza B virus</ImmunogenReferenceName>
+                                <ImmunogenEvidenceCode>Not determined</ImmunogenEvidenceCode>
+                            </FirstInVivoProcess>
+                            <InVitroAdministration>
+                                <ProcessType>Restimulation in vitro</ProcessType>
+                                <ResponderCellType>PBMC</ResponderCellType>
+                                <StimulatorCellType>B cell</StimulatorCellType>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Epitope</EpitopeRelation>
+                                    <Object>
+                                        <FragmentOfANaturalSequenceMolecule>
+                                            <ChemicalType>Peptide from protein</ChemicalType>
+                                            <LinearSequence>MVVKLGEFYNQMM</LinearSequence>
+                                            <StartingPosition>82</StartingPosition>
+                                            <EndingPosition>94</EndingPosition>
+                                            <SourceMolecule>
+                                                <GenBankId>P04665.1</GenBankId>
+                                            </SourceMolecule>
+                                            <SourceOrganismId>518987</SourceOrganismId>
+                                        </FragmentOfANaturalSequenceMolecule>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenEvidenceCode>Exact match to reference information</ImmunogenEvidenceCode>
+                            </InVitroAdministration>
+                        </Immunization>
+                        <EffectorCells>
+                            <CellTissueType>Blood</CellTissueType>
+                            <CellType>T cell</CellType>
+                            <CellCultureConditions>Cell Line / Clone</CellCultureConditions>
+                        </EffectorCells>
+                        <AntigenPresentingCells>
+                            <CellTissueType>Lymphoid</CellTissueType>
+                            <CellType>B cell</CellType>
+                            <CellCultureConditions>Cell Line / Clone (EBV transformed, B-LCL)</CellCultureConditions>
+                            <SourceOrganismId>9606</SourceOrganismId>
+                        </AntigenPresentingCells>
+                        <MhcAllele>
+                            <MhcAlleleId>235</MhcAlleleId>
+                            <MhcEvidenceCode>Not determined</MhcEvidenceCode>
+                        </MhcAllele>
+                        <Antigen>
+                            <AntigenReferenceName>Influenza B virus (B/Hong Kong/1973)</AntigenReferenceName>
+                            <AntigenObject>
+                                <EpitopeRelation>Taxonomic Sibling</EpitopeRelation>
+                                <Object>
+                                    <Organism>
+                                        <SubType>Organism</SubType>
+                                        <SourceOrganismId>427826</SourceOrganismId>
+                                    </Organism>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Not determined</AntigenEvidenceCode>
+                        </Antigen>
+                        <AssayInformation>
+                            <AssayTypeId>67</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <AssayComments>This CTL line showed strict HLA-A2-restricted specificity for the epitope, and recognized influenza B virus.  Mutations at residues 9, 70, 74, 99, 152, and 156 of HLA-A2 were shown to abolish T cell recognition of the epitope.  Data originally imported from the Database of Functional Molecular Immunology, FIMM (http://sdmc.lit.org.sg:8080/fimm/) and from the HLA Ligand Database (http://hlaligand.ouhsc.edu/). The original data included, Peptide Binding: moderate.</AssayComments>
+                        </AssayInformation>
+                    </TCell>
+                </Assays>
+                <Assays>
+                    <TCell>
+                        <LocationOfData>Figure 2B</LocationOfData>
+                        <TCellId>1005058</TCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>9606</OrganismId>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Environmental exposure to endemic/ubiquitous agent without evidence for disease</InVivoProcessType>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Taxonomic Parent</EpitopeRelation>
+                                    <Object>
+                                        <Organism>
+                                            <SubType>Organism</SubType>
+                                            <SourceOrganismId>11520</SourceOrganismId>
+                                        </Organism>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenReferenceName>Influenza B virus</ImmunogenReferenceName>
+                                <ImmunogenEvidenceCode>Not determined</ImmunogenEvidenceCode>
+                            </FirstInVivoProcess>
+                            <InVitroAdministration>
+                                <ProcessType>Restimulation in vitro</ProcessType>
+                                <ResponderCellType>PBMC</ResponderCellType>
+                                <StimulatorCellType>B cell</StimulatorCellType>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Epitope</EpitopeRelation>
+                                    <Object>
+                                        <FragmentOfANaturalSequenceMolecule>
+                                            <ChemicalType>Peptide from protein</ChemicalType>
+                                            <LinearSequence>MVVKLGEFYNQMM</LinearSequence>
+                                            <StartingPosition>82</StartingPosition>
+                                            <EndingPosition>94</EndingPosition>
+                                            <SourceMolecule>
+                                                <GenBankId>P04665.1</GenBankId>
+                                            </SourceMolecule>
+                                            <SourceOrganismId>518987</SourceOrganismId>
+                                        </FragmentOfANaturalSequenceMolecule>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenEvidenceCode>Exact match to reference information</ImmunogenEvidenceCode>
+                            </InVitroAdministration>
+                        </Immunization>
+                        <EffectorCells>
+                            <CellTissueType>Blood</CellTissueType>
+                            <CellType>T cell</CellType>
+                            <CellCultureConditions>Cell Line / Clone</CellCultureConditions>
+                        </EffectorCells>
+                        <AntigenPresentingCells>
+                            <CellTissueType>Lymphoid</CellTissueType>
+                            <CellType>B cell</CellType>
+                            <CellCultureConditions>Cell Line / Clone (EBV transformed, B-LCL)</CellCultureConditions>
+                            <SourceOrganismId>9606</SourceOrganismId>
+                        </AntigenPresentingCells>
+                        <MhcAllele>
+                            <MhcAlleleId>235</MhcAlleleId>
+                            <MhcEvidenceCode>Not determined</MhcEvidenceCode>
+                        </MhcAllele>
+                        <Antigen>
+                            <AntigenReferenceName>Nucleoprotein</AntigenReferenceName>
+                            <AntigenObject>
+                                <EpitopeRelation>Source Antigen</EpitopeRelation>
+                                <Object>
+                                    <AccessionSequenceMolecule>
+                                        <ChemicalType>Protein</ChemicalType>
+                                        <Molecule>
+                                            <GenBankId>P04665.1</GenBankId>
+                                        </Molecule>
+                                        <SourceOrganismId>518987</SourceOrganismId>
+                                    </AccessionSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Not determined</AntigenEvidenceCode>
+                            <AntigenContainingObject>
+                                <RecombinantOrganism>
+                                    <SubType>Recombinant Organism</SubType>
+                                    <RecombinantOrganismId>10245</RecombinantOrganismId>
+                                </RecombinantOrganism>
+                            </AntigenContainingObject>
+                        </Antigen>
+                        <AssayInformation>
+                            <AssayTypeId>67</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <AssayComments>This CTL line showed strict HLA-A2-restricted specificity for the epitope, and recognized recombinant vaccinia virus expressing influenza B nucleoprotein.  Mutations at residues 9, 70, 74, 99, 152, and 156 of HLA-A2 were shown to abolish T cell recognition of the epitope.  Data originally imported from the Database of Functional Molecular Immunology, FIMM (http://sdmc.lit.org.sg:8080/fimm/) and from the HLA Ligand Database (http://hlaligand.ouhsc.edu/). The original data included, Peptide Binding: moderate.</AssayComments>
+                        </AssayInformation>
+                    </TCell>
+                </Assays>
+                <Assays>
+                    <TCell>
+                        <LocationOfData>Figure 1C</LocationOfData>
+                        <TCellId>315091</TCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>9606</OrganismId>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Environmental exposure to endemic/ubiquitous agent without evidence for disease</InVivoProcessType>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Taxonomic Parent</EpitopeRelation>
+                                    <Object>
+                                        <Organism>
+                                            <SubType>Organism</SubType>
+                                            <SourceOrganismId>11520</SourceOrganismId>
+                                        </Organism>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenReferenceName>Influenza B virus</ImmunogenReferenceName>
+                                <ImmunogenEvidenceCode>Not determined</ImmunogenEvidenceCode>
+                            </FirstInVivoProcess>
+                            <InVitroAdministration>
+                                <ProcessType>Restimulation in vitro</ProcessType>
+                                <ResponderCellType>PBMC</ResponderCellType>
+                                <StimulatorCellType>B cell</StimulatorCellType>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Epitope</EpitopeRelation>
+                                    <Object>
+                                        <FragmentOfANaturalSequenceMolecule>
+                                            <ChemicalType>Peptide from protein</ChemicalType>
+                                            <LinearSequence>MVVKLGEFYNQMM</LinearSequence>
+                                            <StartingPosition>82</StartingPosition>
+                                            <EndingPosition>94</EndingPosition>
+                                            <SourceMolecule>
+                                                <GenBankId>P04665.1</GenBankId>
+                                            </SourceMolecule>
+                                            <SourceOrganismId>518987</SourceOrganismId>
+                                        </FragmentOfANaturalSequenceMolecule>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenEvidenceCode>Exact match to reference information</ImmunogenEvidenceCode>
+                            </InVitroAdministration>
+                        </Immunization>
+                        <EffectorCells>
+                            <CellTissueType>Blood</CellTissueType>
+                            <CellType>T cell</CellType>
+                            <CellCultureConditions>Short Term Restimulated</CellCultureConditions>
+                        </EffectorCells>
+                        <AntigenPresentingCells>
+                            <CellTissueType>Lymphoid</CellTissueType>
+                            <CellType>B cell</CellType>
+                            <CellCultureConditions>Cell Line / Clone (EBV transformed, B-LCL)</CellCultureConditions>
+                            <SourceOrganismId>9606</SourceOrganismId>
+                        </AntigenPresentingCells>
+                        <MhcAllele>
+                            <MhcAlleleId>235</MhcAlleleId>
+                            <MhcEvidenceCode>Not determined</MhcEvidenceCode>
+                        </MhcAllele>
+                        <Antigen>
+                            <AntigenReferenceName>BNP</AntigenReferenceName>
+                            <AntigenObject>
+                                <EpitopeRelation>Epitope</EpitopeRelation>
+                                <Object>
+                                    <FragmentOfANaturalSequenceMolecule>
+                                        <ChemicalType>Peptide from protein</ChemicalType>
+                                        <LinearSequence>MVVKLGEFYNQMM</LinearSequence>
+                                        <StartingPosition>82</StartingPosition>
+                                        <EndingPosition>94</EndingPosition>
+                                        <SourceMolecule>
+                                            <GenBankId>P04665.1</GenBankId>
+                                        </SourceMolecule>
+                                        <SourceOrganismId>518987</SourceOrganismId>
+                                    </FragmentOfANaturalSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Exact match to reference information</AntigenEvidenceCode>
+                        </Antigen>
+                        <AssayInformation>
+                            <AssayTypeId>67</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <AssayComments>Mutations at residues 9, 70, 74, 99, 152, and 156 of HLA-A2 were shown to abolish T cell recognition of the epitope.  Data originally imported from the Database of Functional Molecular Immunology, FIMM (http://sdmc.lit.org.sg:8080/fimm/) and from the HLA Ligand Database (http://hlaligand.ouhsc.edu/). The original data included, Peptide Binding: moderate.</AssayComments>
+                        </AssayInformation>
+                    </TCell>
+                </Assays>
+                <Assays>
+                    <MhcBinding>
+                        <LocationOfData>Figure 3</LocationOfData>
+                        <MhcBindingId>1005384</MhcBindingId>
+                        <AssayInformation>
+                            <AssayTypeId>226</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <AssayComments>A CTL line specific for the influenza A matrix peptide was specifically inhibited by the presence of this epitope.</AssayComments>
+                        </AssayInformation>
+                        <MhcAlleleId>235</MhcAlleleId>
+                    </MhcBinding>
+                </Assays>
+            </Epitope>
+            <Epitope>
+                <EpitopeName>Matrix</EpitopeName>
+                <EpitopeStructure>
+                    <FragmentOfANaturalSequenceMolecule>
+                        <ChemicalType>Peptide from protein</ChemicalType>
+                        <LinearSequence>TKGILGFVFTLTV</LinearSequence>
+                        <StartingPosition>56</StartingPosition>
+                        <EndingPosition>68</EndingPosition>
+                        <SourceMolecule>
+                            <GenBankId>P03485.1</GenBankId>
+                        </SourceMolecule>
+                        <SourceOrganismId>11320</SourceOrganismId>
+                    </FragmentOfANaturalSequenceMolecule>
+                </EpitopeStructure>
+                <LocationOfData>Figure 1B</LocationOfData>
+                <EpitopeId>64576</EpitopeId>
+                <ReferenceStartingPosition>56</ReferenceStartingPosition>
+                <ReferenceEndingPosition>68</ReferenceEndingPosition>
+                <EpitopeEvidenceCode>Not determined</EpitopeEvidenceCode>
+                <EpitopeStructureDefines>Epitope containing region/antigenic site</EpitopeStructureDefines>
+                <EpitopeComments>The following refers to the epitope id as found in the original FIMM database: P000035 No particular strain is specified in the manuscript, a representative Swiss-prot ID containing the epitope is provided  here.</EpitopeComments>
+                <Assays>
+                    <MhcBinding>
+                        <LocationOfData>Figure 3</LocationOfData>
+                        <MhcBindingId>1005386</MhcBindingId>
+                        <AssayInformation>
+                            <AssayTypeId>226</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <AssayComments>A CTL line specific for an influenza B virus nucleoprotein peptide spanning residues 82-94 (MVVKLGEFYNQMM) was specifically inhibited by the presence of this epitope.</AssayComments>
+                        </AssayInformation>
+                        <MhcAlleleId>235</MhcAlleleId>
+                    </MhcBinding>
+                </Assays>
+            </Epitope>
+        </Epitopes>
+    </Reference>
+</References>
+

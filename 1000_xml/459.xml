@@ -1,0 +1,1884 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<References xsi:schemaLocation="http://www.iedb.org/schema/CurationSchema http://beta.iedb.org/schema/Curation.xsd" xmlns="http://www.iedb.org/schema/CurationSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <Reference>
+        <ReferenceId>459</ReferenceId>
+        <DateLastUpdated>2020-09-10-07:00</DateLastUpdated>
+        <Article>
+            <PubmedId>15338326</PubmedId>
+            <Abstract>Monoclonal antibody E5/G6 recognized a linear epitope common to hantavirus nucleocapsid proteins. Using synthetic peptides, we identified epitope E5/G6 as the 9 mer YEDVNGIRK (NP 165-173), in which D167, G170, I171, and R172 are indispensable. Furthermore, all the peptides synthesized using various hantavirus sequences bound MAb E5/G6 consistently, despite the existence of several amino acid variations in this region. These results indicate that MAb E5/G6 is a useful tool for detecting hantavirus antigen in rodent or patient tissues using Western blotting or other immunohistochemical assays.</Abstract>
+            <ArticleYear>2004</ArticleYear>
+            <ArticlePages>2427-34</ArticlePages>
+            <ArticleTitle>Epitope analysis of monoclonal antibody E5/G6, which binds to a linear epitope in the nucleocapsid protein of hantaviruses.</ArticleTitle>
+            <Authors>
+                <Author>
+                    <LastName>Okumura</LastName>
+                    <ForeName>M</ForeName>
+                </Author>
+                <Author>
+                    <LastName>Yoshimatsu</LastName>
+                    <ForeName>K</ForeName>
+                </Author>
+                <Author>
+                    <LastName>Araki</LastName>
+                    <ForeName>K</ForeName>
+                </Author>
+                <Author>
+                    <LastName>Lee</LastName>
+                    <ForeName>B-H</ForeName>
+                </Author>
+                <Author>
+                    <LastName>Asano</LastName>
+                    <ForeName>A</ForeName>
+                </Author>
+                <Author>
+                    <LastName>Agui</LastName>
+                    <ForeName>T</ForeName>
+                </Author>
+                <Author>
+                    <LastName>Arikawa</LastName>
+                    <ForeName>J</ForeName>
+                </Author>
+            </Authors>
+            <Affiliations>Institute for Animal Experimentation, Graduate School of Medicine, Hokkaido University, Sapporo, Japan.</Affiliations>
+            <ArticleChemicalList>Antibodies, Monoclonal;Antibodies, Viral;Epitopes;Nucleocapsid Proteins;nucleocapsid protein, Puumala virus</ArticleChemicalList>
+            <ArticleMeshHeadingsList>Amino Acid Sequence; Antibodies, Monoclonal(immunology); Antibodies, Viral(chemistry; immunology); Epitopes(chemistry; immunology); Hantavirus(chemistry; immunology); Molecular Sequence Data; Nucleocapsid(chemistry; immunology); Nucleocapsid Proteins</ArticleMeshHeadingsList>
+            <Journal>
+                <Volume>149</Volume>
+                <Issue>12</Issue>
+                <Title>Archives of virology</Title>
+                <Issn>1432-8798</Issn>
+                <MedlineTa>Arch Virol</MedlineTa>
+            </Journal>
+        </Article>
+        <Epitopes>
+            <Epitope>
+                <EpitopeName>HTNV NP 165-174</EpitopeName>
+                <EpitopeStructure>
+                    <FragmentOfANaturalSequenceMolecule>
+                        <ChemicalType>Peptide from protein</ChemicalType>
+                        <LinearSequence>FEDVNGIRKP</LinearSequence>
+                        <StartingPosition>165</StartingPosition>
+                        <EndingPosition>174</EndingPosition>
+                        <SourceMolecule>
+                            <GenBankId>P05133.1</GenBankId>
+                        </SourceMolecule>
+                        <SourceOrganismId>11602</SourceOrganismId>
+                    </FragmentOfANaturalSequenceMolecule>
+                </EpitopeStructure>
+                <LocationOfData>Table 1</LocationOfData>
+                <EpitopeId>15510</EpitopeId>
+                <EpitopeEvidenceCode>Representative selection</EpitopeEvidenceCode>
+                <EpitopeStructureDefines>Exact Epitope</EpitopeStructureDefines>
+                <EpitopeComments>This epitope sequence was conserved in Hantaan (HTNV), Dobrava (DOBV), Saarameaa (SAAV), Amur (AMRV), Dabie Shan virus and MULV.</EpitopeComments>
+                <Assays>
+                    <BCell>
+                        <LocationOfData>Table 1</LocationOfData>
+                        <BCellId>1854094</BCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>10000000</OrganismId>
+                                <Sex>F</Sex>
+                                <Age>5 weeks</Age>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Administration in vivo</InVivoProcessType>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Taxonomic Child</EpitopeRelation>
+                                    <Object>
+                                        <Organism>
+                                            <SubType>Organism</SubType>
+                                            <SourceOrganismId>11602</SourceOrganismId>
+                                        </Organism>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenReferenceName>Nucleoprotein of HTNV strain 76-118</ImmunogenReferenceName>
+                                <ImmunogenEvidenceCode>Exact match to reference information</ImmunogenEvidenceCode>
+                                <Adjuvant>Freund's complete</Adjuvant>
+                                <Adjuvant>Freund's incomplete (IFA)</Adjuvant>
+                                <Route>Intramuscular</Route>
+                                <DoseSchedule>3 to 5 doses of 5X10^6 Vero cells lysate, administered at intervals of 2 weeks.</DoseSchedule>
+                            </FirstInVivoProcess>
+                            <ImmunizationComments>The mAb was generated by fusing spleen cells from mice immunized with denatured NP of HTNV strain 76-118 with P3-X63.Ag8.U1. The details of the immunization procedure were described in the cited reference: Yoshimatsu K, 1996. J Gen Virol 77: 695–704. [PMID: 8627258].</ImmunizationComments>
+                        </Immunization>
+                        <AssayInformation>
+                            <AssayTypeId>37</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <AssayComments>The mAb E5/G6 cross-reacted to the epitope common in HTNV, DOBV, SAAV, AMRV, MULV and Dabie Shan virus by immunostaining assay.</AssayComments>
+                        </AssayInformation>
+                        <AssayedAntibody>
+                            <AssayedAntibodySourceMaterial>Culture Supernatant</AssayedAntibodySourceMaterial>
+                            <AssayedAntibodyImmunoglobulinDomain>Entire Antibody</AssayedAntibodyImmunoglobulinDomain>
+                            <AssayedAntibodyPurificationStatus>Monoclonal</AssayedAntibodyPurificationStatus>
+                            <AssayedAntibodyName>E5/G6</AssayedAntibodyName>
+                            <AssayedAntibodyHeavyChainType>IgG</AssayedAntibodyHeavyChainType>
+                        </AssayedAntibody>
+                        <Antigen>
+                            <AntigenConformation>Non-Native/Unknown</AntigenConformation>
+                            <AntigenObject>
+                                <EpitopeRelation>Epitope</EpitopeRelation>
+                                <Object>
+                                    <FragmentOfANaturalSequenceMolecule>
+                                        <ChemicalType>Peptide from protein</ChemicalType>
+                                        <LinearSequence>FEDVNGIRKP</LinearSequence>
+                                        <StartingPosition>165</StartingPosition>
+                                        <EndingPosition>174</EndingPosition>
+                                        <SourceMolecule>
+                                            <GenBankId>P05133.1</GenBankId>
+                                        </SourceMolecule>
+                                        <SourceOrganismId>11602</SourceOrganismId>
+                                    </FragmentOfANaturalSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Exact match to reference information</AntigenEvidenceCode>
+                        </Antigen>
+                    </BCell>
+                </Assays>
+            </Epitope>
+            <Epitope>
+                <EpitopeName>TULV NP 165-174</EpitopeName>
+                <EpitopeStructure>
+                    <FragmentOfANaturalSequenceMolecule>
+                        <ChemicalType>Peptide from protein</ChemicalType>
+                        <LinearSequence>YEEINGIRRP</LinearSequence>
+                        <StartingPosition>165</StartingPosition>
+                        <EndingPosition>174</EndingPosition>
+                        <SourceMolecule>
+                            <GenBankId>AAG60020.1</GenBankId>
+                        </SourceMolecule>
+                        <SourceOrganismId>1980494</SourceOrganismId>
+                    </FragmentOfANaturalSequenceMolecule>
+                </EpitopeStructure>
+                <LocationOfData>Table 1</LocationOfData>
+                <EpitopeId>73645</EpitopeId>
+                <EpitopeEvidenceCode>Representative selection</EpitopeEvidenceCode>
+                <EpitopeStructureDefines>Exact Epitope</EpitopeStructureDefines>
+                <Assays>
+                    <BCell>
+                        <LocationOfData>Table 1</LocationOfData>
+                        <BCellId>1854095</BCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>10000000</OrganismId>
+                                <Sex>F</Sex>
+                                <Age>5 weeks</Age>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Administration in vivo</InVivoProcessType>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Taxonomic Sibling</EpitopeRelation>
+                                    <Object>
+                                        <Organism>
+                                            <SubType>Organism</SubType>
+                                            <SourceOrganismId>11602</SourceOrganismId>
+                                        </Organism>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenReferenceName>Nucleoprotein of HTNV strain 76-118</ImmunogenReferenceName>
+                                <ImmunogenEvidenceCode>Exact match to reference information</ImmunogenEvidenceCode>
+                                <Adjuvant>Freund's complete</Adjuvant>
+                                <Adjuvant>Freund's incomplete (IFA)</Adjuvant>
+                                <Route>Intramuscular</Route>
+                                <DoseSchedule>3 to 5 doses of 5X10^6 Vero cells lysate, administered at intervals of 2 weeks.</DoseSchedule>
+                            </FirstInVivoProcess>
+                            <ImmunizationComments>The mAb was generated by fusing spleen cells from mice immunized with denatured NP of HTNV strain 76-118 with P3-X63.Ag8.U1. The details of the immunization procedure were described in the cited reference: Yoshimatsu K, 1996. J Gen Virol 77: 695–704. [PMID: 8627258].</ImmunizationComments>
+                        </Immunization>
+                        <AssayInformation>
+                            <AssayTypeId>37</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                        </AssayInformation>
+                        <AssayedAntibody>
+                            <AssayedAntibodySourceMaterial>Culture Supernatant</AssayedAntibodySourceMaterial>
+                            <AssayedAntibodyImmunoglobulinDomain>Entire Antibody</AssayedAntibodyImmunoglobulinDomain>
+                            <AssayedAntibodyPurificationStatus>Monoclonal</AssayedAntibodyPurificationStatus>
+                            <AssayedAntibodyName>E5/G6</AssayedAntibodyName>
+                            <AssayedAntibodyHeavyChainType>IgG</AssayedAntibodyHeavyChainType>
+                        </AssayedAntibody>
+                        <Antigen>
+                            <AntigenConformation>Non-Native/Unknown</AntigenConformation>
+                            <AntigenObject>
+                                <EpitopeRelation>Epitope</EpitopeRelation>
+                                <Object>
+                                    <FragmentOfANaturalSequenceMolecule>
+                                        <ChemicalType>Peptide from protein</ChemicalType>
+                                        <LinearSequence>YEEINGIRRP</LinearSequence>
+                                        <StartingPosition>165</StartingPosition>
+                                        <EndingPosition>174</EndingPosition>
+                                        <SourceMolecule>
+                                            <GenBankId>AAG60020.1</GenBankId>
+                                        </SourceMolecule>
+                                        <SourceOrganismId>1980494</SourceOrganismId>
+                                    </FragmentOfANaturalSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Exact match to reference information</AntigenEvidenceCode>
+                        </Antigen>
+                    </BCell>
+                </Assays>
+            </Epitope>
+            <Epitope>
+                <EpitopeName>TOPV NP 165-174</EpitopeName>
+                <EpitopeStructure>
+                    <FragmentOfANaturalSequenceMolecule>
+                        <ChemicalType>Peptide from protein</ChemicalType>
+                        <LinearSequence>FEDVNGIRRP</LinearSequence>
+                        <StartingPosition>165</StartingPosition>
+                        <EndingPosition>174</EndingPosition>
+                        <SourceMolecule>
+                            <GenBankId>CAB42097.1</GenBankId>
+                        </SourceMolecule>
+                        <SourceOrganismId>83192</SourceOrganismId>
+                    </FragmentOfANaturalSequenceMolecule>
+                </EpitopeStructure>
+                <LocationOfData>Table 1</LocationOfData>
+                <EpitopeId>15511</EpitopeId>
+                <EpitopeEvidenceCode>Representative selection</EpitopeEvidenceCode>
+                <EpitopeStructureDefines>Exact Epitope</EpitopeStructureDefines>
+                <Assays>
+                    <BCell>
+                        <LocationOfData>Table 1</LocationOfData>
+                        <BCellId>1854096</BCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>10000000</OrganismId>
+                                <Sex>F</Sex>
+                                <Age>5 weeks</Age>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Administration in vivo</InVivoProcessType>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Taxonomic Sibling</EpitopeRelation>
+                                    <Object>
+                                        <Organism>
+                                            <SubType>Organism</SubType>
+                                            <SourceOrganismId>11602</SourceOrganismId>
+                                        </Organism>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenReferenceName>Nucleoprotein of HTNV strain 76-118</ImmunogenReferenceName>
+                                <ImmunogenEvidenceCode>Exact match to reference information</ImmunogenEvidenceCode>
+                                <Adjuvant>Freund's complete</Adjuvant>
+                                <Adjuvant>Freund's incomplete (IFA)</Adjuvant>
+                                <Route>Intramuscular</Route>
+                                <DoseSchedule>3 to 5 doses of 5X10^6 Vero cells lysate, administered at intervals of 2 weeks.</DoseSchedule>
+                            </FirstInVivoProcess>
+                            <ImmunizationComments>The mAb was generated by fusing spleen cells from mice immunized with denatured NP of HTNV strain 76-118 with P3-X63.Ag8.U1. The details of the immunization procedure were described in the cited reference: Yoshimatsu K, 1996. J Gen Virol 77: 695–704. [PMID: 8627258].</ImmunizationComments>
+                        </Immunization>
+                        <AssayInformation>
+                            <AssayTypeId>37</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                        </AssayInformation>
+                        <AssayedAntibody>
+                            <AssayedAntibodySourceMaterial>Culture Supernatant</AssayedAntibodySourceMaterial>
+                            <AssayedAntibodyImmunoglobulinDomain>Entire Antibody</AssayedAntibodyImmunoglobulinDomain>
+                            <AssayedAntibodyPurificationStatus>Monoclonal</AssayedAntibodyPurificationStatus>
+                            <AssayedAntibodyName>E5/G6</AssayedAntibodyName>
+                            <AssayedAntibodyHeavyChainType>IgG</AssayedAntibodyHeavyChainType>
+                        </AssayedAntibody>
+                        <Antigen>
+                            <AntigenConformation>Non-Native/Unknown</AntigenConformation>
+                            <AntigenObject>
+                                <EpitopeRelation>Epitope</EpitopeRelation>
+                                <Object>
+                                    <FragmentOfANaturalSequenceMolecule>
+                                        <ChemicalType>Peptide from protein</ChemicalType>
+                                        <LinearSequence>FEDVNGIRRP</LinearSequence>
+                                        <StartingPosition>165</StartingPosition>
+                                        <EndingPosition>174</EndingPosition>
+                                        <SourceMolecule>
+                                            <GenBankId>CAB42097.1</GenBankId>
+                                        </SourceMolecule>
+                                        <SourceOrganismId>83192</SourceOrganismId>
+                                    </FragmentOfANaturalSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Exact match to reference information</AntigenEvidenceCode>
+                        </Antigen>
+                    </BCell>
+                </Assays>
+            </Epitope>
+            <Epitope>
+                <EpitopeName>PHV NP 165-174</EpitopeName>
+                <EpitopeStructure>
+                    <FragmentOfANaturalSequenceMolecule>
+                        <ChemicalType>Peptide from protein</ChemicalType>
+                        <LinearSequence>YEDVNGIRRP</LinearSequence>
+                        <StartingPosition>165</StartingPosition>
+                        <EndingPosition>174</EndingPosition>
+                        <SourceMolecule>
+                            <GenBankId>P22047.1</GenBankId>
+                        </SourceMolecule>
+                        <SourceOrganismId>1980485</SourceOrganismId>
+                    </FragmentOfANaturalSequenceMolecule>
+                </EpitopeStructure>
+                <LocationOfData>Table 1</LocationOfData>
+                <EpitopeId>73640</EpitopeId>
+                <EpitopeEvidenceCode>Representative selection</EpitopeEvidenceCode>
+                <EpitopeStructureDefines>Exact Epitope</EpitopeStructureDefines>
+                <EpitopeComments>This epitope sequence was conserved in Prospect Hill virus (PHV) and Bloodland Lake virus (BLLV).</EpitopeComments>
+                <Assays>
+                    <BCell>
+                        <LocationOfData>Table 1</LocationOfData>
+                        <BCellId>1854097</BCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>10000000</OrganismId>
+                                <Sex>F</Sex>
+                                <Age>5 weeks</Age>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Administration in vivo</InVivoProcessType>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Taxonomic Sibling</EpitopeRelation>
+                                    <Object>
+                                        <Organism>
+                                            <SubType>Organism</SubType>
+                                            <SourceOrganismId>11602</SourceOrganismId>
+                                        </Organism>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenReferenceName>Nucleoprotein of HTNV strain 76-118</ImmunogenReferenceName>
+                                <ImmunogenEvidenceCode>Exact match to reference information</ImmunogenEvidenceCode>
+                                <Adjuvant>Freund's complete</Adjuvant>
+                                <Adjuvant>Freund's incomplete (IFA)</Adjuvant>
+                                <Route>Intramuscular</Route>
+                                <DoseSchedule>3 to 5 doses of 5X10^6 Vero cells lysate, administered at intervals of 2 weeks.</DoseSchedule>
+                            </FirstInVivoProcess>
+                            <ImmunizationComments>The mAb was generated by fusing spleen cells from mice immunized with denatured NP of HTNV strain 76-118 with P3-X63.Ag8.U1. The details of the immunization procedure were described in the cited reference: Yoshimatsu K, 1996. J Gen Virol 77: 695–704. [PMID: 8627258].</ImmunizationComments>
+                        </Immunization>
+                        <AssayInformation>
+                            <AssayTypeId>37</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <AssayComments>The mAb E5/G6 cross reacted to the epitope, which was common in PHV and BLLV by immunostaining assay.</AssayComments>
+                        </AssayInformation>
+                        <AssayedAntibody>
+                            <AssayedAntibodySourceMaterial>Culture Supernatant</AssayedAntibodySourceMaterial>
+                            <AssayedAntibodyImmunoglobulinDomain>Entire Antibody</AssayedAntibodyImmunoglobulinDomain>
+                            <AssayedAntibodyPurificationStatus>Monoclonal</AssayedAntibodyPurificationStatus>
+                            <AssayedAntibodyName>E5/G6</AssayedAntibodyName>
+                            <AssayedAntibodyHeavyChainType>IgG</AssayedAntibodyHeavyChainType>
+                        </AssayedAntibody>
+                        <Antigen>
+                            <AntigenConformation>Non-Native/Unknown</AntigenConformation>
+                            <AntigenObject>
+                                <EpitopeRelation>Epitope</EpitopeRelation>
+                                <Object>
+                                    <FragmentOfANaturalSequenceMolecule>
+                                        <ChemicalType>Peptide from protein</ChemicalType>
+                                        <LinearSequence>YEDVNGIRRP</LinearSequence>
+                                        <StartingPosition>165</StartingPosition>
+                                        <EndingPosition>174</EndingPosition>
+                                        <SourceMolecule>
+                                            <GenBankId>P22047.1</GenBankId>
+                                        </SourceMolecule>
+                                        <SourceOrganismId>1980485</SourceOrganismId>
+                                    </FragmentOfANaturalSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Exact match to reference information</AntigenEvidenceCode>
+                        </Antigen>
+                    </BCell>
+                </Assays>
+            </Epitope>
+            <Epitope>
+                <EpitopeName>KHAV NP 165-174</EpitopeName>
+                <EpitopeStructure>
+                    <FragmentOfANaturalSequenceMolecule>
+                        <ChemicalType>Peptide from protein</ChemicalType>
+                        <LinearSequence>YDDVNGIRRP</LinearSequence>
+                        <SourceMolecule>
+                            <IedbAccession>SRC276218</IedbAccession>
+                        </SourceMolecule>
+                        <SourceOrganismId>74537</SourceOrganismId>
+                    </FragmentOfANaturalSequenceMolecule>
+                </EpitopeStructure>
+                <LocationOfData>Table 1</LocationOfData>
+                <EpitopeId>151072</EpitopeId>
+                <EpitopeEvidenceCode>Internal Identifier-no external match available</EpitopeEvidenceCode>
+                <EpitopeStructureDefines>Exact Epitope</EpitopeStructureDefines>
+                <Assays>
+                    <BCell>
+                        <LocationOfData>Table 1</LocationOfData>
+                        <BCellId>1854098</BCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>10000000</OrganismId>
+                                <Sex>F</Sex>
+                                <Age>5 weeks</Age>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Administration in vivo</InVivoProcessType>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Taxonomic Sibling</EpitopeRelation>
+                                    <Object>
+                                        <Organism>
+                                            <SubType>Organism</SubType>
+                                            <SourceOrganismId>11602</SourceOrganismId>
+                                        </Organism>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenReferenceName>Nucleoprotein of HTNV strain 76-118</ImmunogenReferenceName>
+                                <ImmunogenEvidenceCode>Exact match to reference information</ImmunogenEvidenceCode>
+                                <Adjuvant>Freund's complete</Adjuvant>
+                                <Adjuvant>Freund's incomplete (IFA)</Adjuvant>
+                                <Route>Intramuscular</Route>
+                                <DoseSchedule>3 to 5 doses of 5X10^6 Vero cells lysate, administered at intervals of 2 weeks.</DoseSchedule>
+                            </FirstInVivoProcess>
+                            <ImmunizationComments>The mAb was generated by fusing spleen cells from mice immunized with denatured NP of HTNV strain 76-118 with P3-X63.Ag8.U1. The details of the immunization procedure were described in the cited reference: Yoshimatsu K, 1996. J Gen Virol 77: 695–704. [PMID: 8627258].</ImmunizationComments>
+                        </Immunization>
+                        <AssayInformation>
+                            <AssayTypeId>37</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                        </AssayInformation>
+                        <AssayedAntibody>
+                            <AssayedAntibodySourceMaterial>Culture Supernatant</AssayedAntibodySourceMaterial>
+                            <AssayedAntibodyImmunoglobulinDomain>Entire Antibody</AssayedAntibodyImmunoglobulinDomain>
+                            <AssayedAntibodyPurificationStatus>Monoclonal</AssayedAntibodyPurificationStatus>
+                            <AssayedAntibodyName>E5/G6</AssayedAntibodyName>
+                            <AssayedAntibodyHeavyChainType>IgG</AssayedAntibodyHeavyChainType>
+                        </AssayedAntibody>
+                        <Antigen>
+                            <AntigenConformation>Non-Native/Unknown</AntigenConformation>
+                            <AntigenObject>
+                                <EpitopeRelation>Epitope</EpitopeRelation>
+                                <Object>
+                                    <FragmentOfANaturalSequenceMolecule>
+                                        <ChemicalType>Peptide from protein</ChemicalType>
+                                        <LinearSequence>YDDVNGIRRP</LinearSequence>
+                                        <SourceMolecule>
+                                            <IedbAccession>SRC276218</IedbAccession>
+                                        </SourceMolecule>
+                                        <SourceOrganismId>74537</SourceOrganismId>
+                                    </FragmentOfANaturalSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Exact match to reference information</AntigenEvidenceCode>
+                        </Antigen>
+                    </BCell>
+                </Assays>
+            </Epitope>
+            <Epitope>
+                <EpitopeName>SNV NP 165-174</EpitopeName>
+                <EpitopeStructure>
+                    <FragmentOfANaturalSequenceMolecule>
+                        <ChemicalType>Peptide from protein</ChemicalType>
+                        <LinearSequence>YEEVNGIRKP</LinearSequence>
+                        <StartingPosition>165</StartingPosition>
+                        <EndingPosition>174</EndingPosition>
+                        <SourceMolecule>
+                            <GenBankId>Q89462</GenBankId>
+                        </SourceMolecule>
+                        <SourceOrganismId>1980491</SourceOrganismId>
+                    </FragmentOfANaturalSequenceMolecule>
+                </EpitopeStructure>
+                <LocationOfData>Table 1</LocationOfData>
+                <EpitopeId>73650</EpitopeId>
+                <EpitopeEvidenceCode>Representative selection</EpitopeEvidenceCode>
+                <EpitopeStructureDefines>Exact Epitope</EpitopeStructureDefines>
+                <EpitopeComments>The epitope sequence was conserved in Sin Nombre virus (SNV), New York virus (NYV) and El Moro Canyon hantavirus (ELMCV).</EpitopeComments>
+                <Assays>
+                    <BCell>
+                        <LocationOfData>Table 1</LocationOfData>
+                        <BCellId>1854099</BCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>10000000</OrganismId>
+                                <Sex>F</Sex>
+                                <Age>5 weeks</Age>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Administration in vivo</InVivoProcessType>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Taxonomic Sibling</EpitopeRelation>
+                                    <Object>
+                                        <Organism>
+                                            <SubType>Organism</SubType>
+                                            <SourceOrganismId>11602</SourceOrganismId>
+                                        </Organism>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenReferenceName>Nucleoprotein of HTNV strain 76-118</ImmunogenReferenceName>
+                                <ImmunogenEvidenceCode>Exact match to reference information</ImmunogenEvidenceCode>
+                                <Adjuvant>Freund's complete</Adjuvant>
+                                <Adjuvant>Freund's incomplete (IFA)</Adjuvant>
+                                <Route>Intramuscular</Route>
+                                <DoseSchedule>3 to 5 doses of 5X10^6 Vero cells lysate, administered at intervals of 2 weeks.</DoseSchedule>
+                            </FirstInVivoProcess>
+                            <ImmunizationComments>The mAb was generated by fusing spleen cells from mice immunized with denatured NP of HTNV strain 76-118 with P3-X63.Ag8.U1. The details of the immunization procedure were described in the cited reference: Yoshimatsu K, 1996. J Gen Virol 77: 695–704. [PMID: 8627258].</ImmunizationComments>
+                        </Immunization>
+                        <AssayInformation>
+                            <AssayTypeId>37</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <AssayComments>The mAb E5/G6 cross-reacted to the epitope, which was common in SNV, NYV, ELMCV by immunostaining assay.</AssayComments>
+                        </AssayInformation>
+                        <AssayedAntibody>
+                            <AssayedAntibodySourceMaterial>Culture Supernatant</AssayedAntibodySourceMaterial>
+                            <AssayedAntibodyImmunoglobulinDomain>Entire Antibody</AssayedAntibodyImmunoglobulinDomain>
+                            <AssayedAntibodyPurificationStatus>Monoclonal</AssayedAntibodyPurificationStatus>
+                            <AssayedAntibodyName>E5/G6</AssayedAntibodyName>
+                            <AssayedAntibodyHeavyChainType>IgG</AssayedAntibodyHeavyChainType>
+                        </AssayedAntibody>
+                        <Antigen>
+                            <AntigenConformation>Non-Native/Unknown</AntigenConformation>
+                            <AntigenObject>
+                                <EpitopeRelation>Epitope</EpitopeRelation>
+                                <Object>
+                                    <FragmentOfANaturalSequenceMolecule>
+                                        <ChemicalType>Peptide from protein</ChemicalType>
+                                        <LinearSequence>YEEVNGIRKP</LinearSequence>
+                                        <StartingPosition>165</StartingPosition>
+                                        <EndingPosition>174</EndingPosition>
+                                        <SourceMolecule>
+                                            <GenBankId>Q89462</GenBankId>
+                                        </SourceMolecule>
+                                        <SourceOrganismId>1980491</SourceOrganismId>
+                                    </FragmentOfANaturalSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Exact match to reference information</AntigenEvidenceCode>
+                        </Antigen>
+                    </BCell>
+                </Assays>
+            </Epitope>
+            <Epitope>
+                <EpitopeName>ANDV NP 165-174</EpitopeName>
+                <EpitopeStructure>
+                    <FragmentOfANaturalSequenceMolecule>
+                        <ChemicalType>Peptide from protein</ChemicalType>
+                        <LinearSequence>FEEVNGIRKP</LinearSequence>
+                        <StartingPosition>165</StartingPosition>
+                        <EndingPosition>174</EndingPosition>
+                        <SourceMolecule>
+                            <GenBankId>AAO86636.1</GenBankId>
+                        </SourceMolecule>
+                        <SourceOrganismId>1980456</SourceOrganismId>
+                    </FragmentOfANaturalSequenceMolecule>
+                </EpitopeStructure>
+                <LocationOfData>Table 1</LocationOfData>
+                <EpitopeId>15523</EpitopeId>
+                <EpitopeEvidenceCode>Representative selection</EpitopeEvidenceCode>
+                <EpitopeStructureDefines>Exact Epitope</EpitopeStructureDefines>
+                <EpitopeComments>The epitope sequence was conserved in Andes virus (ANDV), Laguna Negra (LANV) and Cano Delgadito virus (CADV).</EpitopeComments>
+                <Assays>
+                    <BCell>
+                        <LocationOfData>Table 1</LocationOfData>
+                        <BCellId>1854100</BCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>10000000</OrganismId>
+                                <Sex>F</Sex>
+                                <Age>5 weeks</Age>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Administration in vivo</InVivoProcessType>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Taxonomic Sibling</EpitopeRelation>
+                                    <Object>
+                                        <Organism>
+                                            <SubType>Organism</SubType>
+                                            <SourceOrganismId>11602</SourceOrganismId>
+                                        </Organism>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenReferenceName>Nucleoprotein of HTNV strain 76-118</ImmunogenReferenceName>
+                                <ImmunogenEvidenceCode>Exact match to reference information</ImmunogenEvidenceCode>
+                                <Adjuvant>Freund's complete</Adjuvant>
+                                <Adjuvant>Freund's incomplete (IFA)</Adjuvant>
+                                <Route>Intramuscular</Route>
+                                <DoseSchedule>3 to 5 doses of 5X10^6 Vero cells lysate, administered at intervals of 2 weeks.</DoseSchedule>
+                            </FirstInVivoProcess>
+                            <ImmunizationComments>The mAb was generated by fusing spleen cells from mice immunized with denatured NP of HTNV strain 76-118 with P3-X63.Ag8.U1. The details of the immunization procedure were described in the cited reference: Yoshimatsu K, 1996. J Gen Virol 77: 695–704. [PMID: 8627258].</ImmunizationComments>
+                        </Immunization>
+                        <AssayInformation>
+                            <AssayTypeId>37</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <AssayComments>The mAb E5/G6 cross-reacted to the epitope, which was common in ANDV, LANV, CADV by immunostaining assay.</AssayComments>
+                        </AssayInformation>
+                        <AssayedAntibody>
+                            <AssayedAntibodySourceMaterial>Culture Supernatant</AssayedAntibodySourceMaterial>
+                            <AssayedAntibodyImmunoglobulinDomain>Entire Antibody</AssayedAntibodyImmunoglobulinDomain>
+                            <AssayedAntibodyPurificationStatus>Monoclonal</AssayedAntibodyPurificationStatus>
+                            <AssayedAntibodyName>E5/G6</AssayedAntibodyName>
+                            <AssayedAntibodyHeavyChainType>IgG</AssayedAntibodyHeavyChainType>
+                        </AssayedAntibody>
+                        <Antigen>
+                            <AntigenConformation>Non-Native/Unknown</AntigenConformation>
+                            <AntigenObject>
+                                <EpitopeRelation>Epitope</EpitopeRelation>
+                                <Object>
+                                    <FragmentOfANaturalSequenceMolecule>
+                                        <ChemicalType>Peptide from protein</ChemicalType>
+                                        <LinearSequence>FEEVNGIRKP</LinearSequence>
+                                        <StartingPosition>165</StartingPosition>
+                                        <EndingPosition>174</EndingPosition>
+                                        <SourceMolecule>
+                                            <GenBankId>AAO86636.1</GenBankId>
+                                        </SourceMolecule>
+                                        <SourceOrganismId>1980456</SourceOrganismId>
+                                    </FragmentOfANaturalSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Exact match to reference information</AntigenEvidenceCode>
+                        </Antigen>
+                    </BCell>
+                </Assays>
+            </Epitope>
+            <Epitope>
+                <EpitopeName>RIOMV NP 165-174</EpitopeName>
+                <EpitopeStructure>
+                    <FragmentOfANaturalSequenceMolecule>
+                        <ChemicalType>Peptide from protein</ChemicalType>
+                        <LinearSequence>FEEINGIRKP</LinearSequence>
+                        <StartingPosition>165</StartingPosition>
+                        <EndingPosition>174</EndingPosition>
+                        <SourceMolecule>
+                            <GenBankId>AAC58450.1</GenBankId>
+                        </SourceMolecule>
+                        <SourceOrganismId>46920</SourceOrganismId>
+                    </FragmentOfANaturalSequenceMolecule>
+                </EpitopeStructure>
+                <LocationOfData>Table 1</LocationOfData>
+                <EpitopeId>15517</EpitopeId>
+                <EpitopeEvidenceCode>Representative selection</EpitopeEvidenceCode>
+                <EpitopeStructureDefines>Exact Epitope</EpitopeStructureDefines>
+                <Assays>
+                    <BCell>
+                        <LocationOfData>Table 1</LocationOfData>
+                        <BCellId>1854101</BCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>10000000</OrganismId>
+                                <Sex>F</Sex>
+                                <Age>5 weeks</Age>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Administration in vivo</InVivoProcessType>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Taxonomic Sibling</EpitopeRelation>
+                                    <Object>
+                                        <Organism>
+                                            <SubType>Organism</SubType>
+                                            <SourceOrganismId>11602</SourceOrganismId>
+                                        </Organism>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenReferenceName>Nucleoprotein of HTNV strain 76-118</ImmunogenReferenceName>
+                                <ImmunogenEvidenceCode>Exact match to reference information</ImmunogenEvidenceCode>
+                                <Adjuvant>Freund's complete</Adjuvant>
+                                <Adjuvant>Freund's incomplete (IFA)</Adjuvant>
+                                <Route>Intramuscular</Route>
+                                <DoseSchedule>3 to 5 doses of 5X10^6 Vero cells lysate, administered at intervals of 2 weeks.</DoseSchedule>
+                            </FirstInVivoProcess>
+                            <ImmunizationComments>The mAb was generated by fusing spleen cells from mice immunized with denatured NP of HTNV strain 76-118 with P3-X63.Ag8.U1. The details of the immunization procedure were described in the cited reference: Yoshimatsu K, 1996. J Gen Virol 77: 695–704. [PMID: 8627258].</ImmunizationComments>
+                        </Immunization>
+                        <AssayInformation>
+                            <AssayTypeId>37</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                        </AssayInformation>
+                        <AssayedAntibody>
+                            <AssayedAntibodySourceMaterial>Culture Supernatant</AssayedAntibodySourceMaterial>
+                            <AssayedAntibodyImmunoglobulinDomain>Entire Antibody</AssayedAntibodyImmunoglobulinDomain>
+                            <AssayedAntibodyPurificationStatus>Monoclonal</AssayedAntibodyPurificationStatus>
+                            <AssayedAntibodyName>E5/G6</AssayedAntibodyName>
+                            <AssayedAntibodyHeavyChainType>IgG</AssayedAntibodyHeavyChainType>
+                        </AssayedAntibody>
+                        <Antigen>
+                            <AntigenConformation>Non-Native/Unknown</AntigenConformation>
+                            <AntigenObject>
+                                <EpitopeRelation>Epitope</EpitopeRelation>
+                                <Object>
+                                    <FragmentOfANaturalSequenceMolecule>
+                                        <ChemicalType>Peptide from protein</ChemicalType>
+                                        <LinearSequence>FEEINGIRKP</LinearSequence>
+                                        <StartingPosition>165</StartingPosition>
+                                        <EndingPosition>174</EndingPosition>
+                                        <SourceMolecule>
+                                            <GenBankId>AAC58450.1</GenBankId>
+                                        </SourceMolecule>
+                                        <SourceOrganismId>46920</SourceOrganismId>
+                                    </FragmentOfANaturalSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Exact match to reference information</AntigenEvidenceCode>
+                        </Antigen>
+                    </BCell>
+                </Assays>
+            </Epitope>
+            <Epitope>
+                <EpitopeName>RIOS NP 165-174</EpitopeName>
+                <EpitopeStructure>
+                    <FragmentOfANaturalSequenceMolecule>
+                        <ChemicalType>Peptide from protein</ChemicalType>
+                        <LinearSequence>FEEVNGIRRP</LinearSequence>
+                        <StartingPosition>165</StartingPosition>
+                        <EndingPosition>174</EndingPosition>
+                        <SourceMolecule>
+                            <GenBankId>AAC54066.1</GenBankId>
+                        </SourceMolecule>
+                        <SourceOrganismId>37207</SourceOrganismId>
+                    </FragmentOfANaturalSequenceMolecule>
+                </EpitopeStructure>
+                <LocationOfData>Table 1</LocationOfData>
+                <EpitopeId>15524</EpitopeId>
+                <EpitopeEvidenceCode>Representative selection</EpitopeEvidenceCode>
+                <EpitopeStructureDefines>Exact Epitope</EpitopeStructureDefines>
+                <Assays>
+                    <BCell>
+                        <LocationOfData>Table 1</LocationOfData>
+                        <BCellId>1854102</BCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>10000000</OrganismId>
+                                <Sex>F</Sex>
+                                <Age>5 weeks</Age>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Administration in vivo</InVivoProcessType>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Taxonomic Sibling</EpitopeRelation>
+                                    <Object>
+                                        <Organism>
+                                            <SubType>Organism</SubType>
+                                            <SourceOrganismId>11602</SourceOrganismId>
+                                        </Organism>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenReferenceName>Nucleoprotein of HTNV strain 76-118</ImmunogenReferenceName>
+                                <ImmunogenEvidenceCode>Exact match to reference information</ImmunogenEvidenceCode>
+                                <Adjuvant>Freund's complete</Adjuvant>
+                                <Adjuvant>Freund's incomplete (IFA)</Adjuvant>
+                                <Route>Intramuscular</Route>
+                                <DoseSchedule>3 to 5 doses of 5X10^6 Vero cells lysate, administered at intervals of 2 weeks.</DoseSchedule>
+                            </FirstInVivoProcess>
+                            <ImmunizationComments>The mAb was generated by fusing spleen cells from mice immunized with denatured NP of HTNV strain 76-118 with P3-X63.Ag8.U1. The details of the immunization procedure were described in the cited reference: Yoshimatsu K, 1996. J Gen Virol 77: 695–704. [PMID: 8627258].</ImmunizationComments>
+                        </Immunization>
+                        <AssayInformation>
+                            <AssayTypeId>37</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                        </AssayInformation>
+                        <AssayedAntibody>
+                            <AssayedAntibodySourceMaterial>Culture Supernatant</AssayedAntibodySourceMaterial>
+                            <AssayedAntibodyImmunoglobulinDomain>Entire Antibody</AssayedAntibodyImmunoglobulinDomain>
+                            <AssayedAntibodyPurificationStatus>Monoclonal</AssayedAntibodyPurificationStatus>
+                            <AssayedAntibodyName>E5/G6</AssayedAntibodyName>
+                            <AssayedAntibodyHeavyChainType>IgG</AssayedAntibodyHeavyChainType>
+                        </AssayedAntibody>
+                        <Antigen>
+                            <AntigenConformation>Non-Native/Unknown</AntigenConformation>
+                            <AntigenObject>
+                                <EpitopeRelation>Epitope</EpitopeRelation>
+                                <Object>
+                                    <FragmentOfANaturalSequenceMolecule>
+                                        <ChemicalType>Peptide from protein</ChemicalType>
+                                        <LinearSequence>FEEVNGIRRP</LinearSequence>
+                                        <StartingPosition>165</StartingPosition>
+                                        <EndingPosition>174</EndingPosition>
+                                        <SourceMolecule>
+                                            <GenBankId>AAC54066.1</GenBankId>
+                                        </SourceMolecule>
+                                        <SourceOrganismId>37207</SourceOrganismId>
+                                    </FragmentOfANaturalSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Exact match to reference information</AntigenEvidenceCode>
+                        </Antigen>
+                    </BCell>
+                </Assays>
+            </Epitope>
+            <Epitope>
+                <EpitopeName>ISLAV NP 165-174</EpitopeName>
+                <EpitopeStructure>
+                    <FragmentOfANaturalSequenceMolecule>
+                        <ChemicalType>Peptide from protein</ChemicalType>
+                        <LinearSequence>FEEINGIRRP</LinearSequence>
+                        <StartingPosition>165</StartingPosition>
+                        <EndingPosition>174</EndingPosition>
+                        <SourceMolecule>
+                            <GenBankId>AAC54656.1</GenBankId>
+                        </SourceMolecule>
+                        <SourceOrganismId>42097</SourceOrganismId>
+                    </FragmentOfANaturalSequenceMolecule>
+                </EpitopeStructure>
+                <LocationOfData>Table 1</LocationOfData>
+                <EpitopeId>15518</EpitopeId>
+                <EpitopeEvidenceCode>Representative selection</EpitopeEvidenceCode>
+                <EpitopeStructureDefines>Exact Epitope</EpitopeStructureDefines>
+                <Assays>
+                    <BCell>
+                        <LocationOfData>Table 1</LocationOfData>
+                        <BCellId>1854103</BCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>10000000</OrganismId>
+                                <Sex>F</Sex>
+                                <Age>5 weeks</Age>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Administration in vivo</InVivoProcessType>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Taxonomic Sibling</EpitopeRelation>
+                                    <Object>
+                                        <Organism>
+                                            <SubType>Organism</SubType>
+                                            <SourceOrganismId>11602</SourceOrganismId>
+                                        </Organism>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenReferenceName>Nucleoprotein of HTNV strain 76-118</ImmunogenReferenceName>
+                                <ImmunogenEvidenceCode>Exact match to reference information</ImmunogenEvidenceCode>
+                                <Adjuvant>Freund's complete</Adjuvant>
+                                <Adjuvant>Freund's incomplete (IFA)</Adjuvant>
+                                <Route>Intramuscular</Route>
+                                <DoseSchedule>3 to 5 doses of 5X10^6 Vero cells lysate, administered at intervals of 2 weeks.</DoseSchedule>
+                            </FirstInVivoProcess>
+                            <ImmunizationComments>The mAb was generated by fusing spleen cells from mice immunized with denatured NP of HTNV strain 76-118 with P3-X63.Ag8.U1. The details of the immunization procedure were described in the cited reference: Yoshimatsu K, 1996. J Gen Virol 77: 695–704. [PMID: 8627258].</ImmunizationComments>
+                        </Immunization>
+                        <AssayInformation>
+                            <AssayTypeId>37</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                        </AssayInformation>
+                        <AssayedAntibody>
+                            <AssayedAntibodySourceMaterial>Culture Supernatant</AssayedAntibodySourceMaterial>
+                            <AssayedAntibodyImmunoglobulinDomain>Entire Antibody</AssayedAntibodyImmunoglobulinDomain>
+                            <AssayedAntibodyPurificationStatus>Monoclonal</AssayedAntibodyPurificationStatus>
+                            <AssayedAntibodyName>E5/G6</AssayedAntibodyName>
+                            <AssayedAntibodyHeavyChainType>IgG</AssayedAntibodyHeavyChainType>
+                        </AssayedAntibody>
+                        <Antigen>
+                            <AntigenConformation>Non-Native/Unknown</AntigenConformation>
+                            <AntigenObject>
+                                <EpitopeRelation>Epitope</EpitopeRelation>
+                                <Object>
+                                    <FragmentOfANaturalSequenceMolecule>
+                                        <ChemicalType>Peptide from protein</ChemicalType>
+                                        <LinearSequence>FEEINGIRRP</LinearSequence>
+                                        <StartingPosition>165</StartingPosition>
+                                        <EndingPosition>174</EndingPosition>
+                                        <SourceMolecule>
+                                            <GenBankId>AAC54656.1</GenBankId>
+                                        </SourceMolecule>
+                                        <SourceOrganismId>42097</SourceOrganismId>
+                                    </FragmentOfANaturalSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Exact match to reference information</AntigenEvidenceCode>
+                        </Antigen>
+                    </BCell>
+                </Assays>
+            </Epitope>
+            <Epitope>
+                <EpitopeName>BAYV NP 165-174</EpitopeName>
+                <EpitopeStructure>
+                    <FragmentOfANaturalSequenceMolecule>
+                        <ChemicalType>Peptide from protein</ChemicalType>
+                        <LinearSequence>YDDVNGIRKP</LinearSequence>
+                        <StartingPosition>165</StartingPosition>
+                        <EndingPosition>174</EndingPosition>
+                        <SourceMolecule>
+                            <GenBankId>AAA61691.1</GenBankId>
+                        </SourceMolecule>
+                        <SourceOrganismId>1980459</SourceOrganismId>
+                    </FragmentOfANaturalSequenceMolecule>
+                </EpitopeStructure>
+                <LocationOfData>Table 1</LocationOfData>
+                <EpitopeId>73529</EpitopeId>
+                <EpitopeEvidenceCode>Representative selection</EpitopeEvidenceCode>
+                <EpitopeStructureDefines>Exact Epitope</EpitopeStructureDefines>
+                <Assays>
+                    <BCell>
+                        <LocationOfData>Table 1</LocationOfData>
+                        <BCellId>1854104</BCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>10000000</OrganismId>
+                                <Sex>F</Sex>
+                                <Age>5 weeks</Age>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Administration in vivo</InVivoProcessType>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Taxonomic Sibling</EpitopeRelation>
+                                    <Object>
+                                        <Organism>
+                                            <SubType>Organism</SubType>
+                                            <SourceOrganismId>11602</SourceOrganismId>
+                                        </Organism>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenReferenceName>Nucleoprotein of HTNV strain 76-118</ImmunogenReferenceName>
+                                <ImmunogenEvidenceCode>Exact match to reference information</ImmunogenEvidenceCode>
+                                <Adjuvant>Freund's complete</Adjuvant>
+                                <Adjuvant>Freund's incomplete (IFA)</Adjuvant>
+                                <Route>Intramuscular</Route>
+                                <DoseSchedule>3 to 5 doses of 5X10^6 Vero cells lysate, administered at intervals of 2 weeks.</DoseSchedule>
+                            </FirstInVivoProcess>
+                            <ImmunizationComments>The mAb was generated by fusing spleen cells from mice immunized with denatured NP of HTNV strain 76-118 with P3-X63.Ag8.U1. The details of the immunization procedure were described in the cited reference: Yoshimatsu K, 1996. J Gen Virol 77: 695–704. [PMID: 8627258].</ImmunizationComments>
+                        </Immunization>
+                        <AssayInformation>
+                            <AssayTypeId>37</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                        </AssayInformation>
+                        <AssayedAntibody>
+                            <AssayedAntibodySourceMaterial>Culture Supernatant</AssayedAntibodySourceMaterial>
+                            <AssayedAntibodyImmunoglobulinDomain>Entire Antibody</AssayedAntibodyImmunoglobulinDomain>
+                            <AssayedAntibodyPurificationStatus>Monoclonal</AssayedAntibodyPurificationStatus>
+                            <AssayedAntibodyName>E5/G6</AssayedAntibodyName>
+                            <AssayedAntibodyHeavyChainType>IgG</AssayedAntibodyHeavyChainType>
+                        </AssayedAntibody>
+                        <Antigen>
+                            <AntigenConformation>Non-Native/Unknown</AntigenConformation>
+                            <AntigenObject>
+                                <EpitopeRelation>Epitope</EpitopeRelation>
+                                <Object>
+                                    <FragmentOfANaturalSequenceMolecule>
+                                        <ChemicalType>Peptide from protein</ChemicalType>
+                                        <LinearSequence>YDDVNGIRKP</LinearSequence>
+                                        <StartingPosition>165</StartingPosition>
+                                        <EndingPosition>174</EndingPosition>
+                                        <SourceMolecule>
+                                            <GenBankId>AAA61691.1</GenBankId>
+                                        </SourceMolecule>
+                                        <SourceOrganismId>1980459</SourceOrganismId>
+                                    </FragmentOfANaturalSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Exact match to reference information</AntigenEvidenceCode>
+                        </Antigen>
+                    </BCell>
+                </Assays>
+            </Epitope>
+            <Epitope>
+                <EpitopeName>PUUV NP 165-174</EpitopeName>
+                <EpitopeStructure>
+                    <FragmentOfANaturalSequenceMolecule>
+                        <ChemicalType>Peptide from protein</ChemicalType>
+                        <LinearSequence>FEDINGIRRP</LinearSequence>
+                        <StartingPosition>165</StartingPosition>
+                        <EndingPosition>174</EndingPosition>
+                        <SourceMolecule>
+                            <GenBankId>CAC34856.1</GenBankId>
+                        </SourceMolecule>
+                        <SourceOrganismId>1980486</SourceOrganismId>
+                    </FragmentOfANaturalSequenceMolecule>
+                </EpitopeStructure>
+                <LocationOfData>Table 1</LocationOfData>
+                <EpitopeId>150982</EpitopeId>
+                <EpitopeEvidenceCode>Representative selection</EpitopeEvidenceCode>
+                <EpitopeStructureDefines>Exact Epitope</EpitopeStructureDefines>
+                <Assays>
+                    <BCell>
+                        <LocationOfData>Table 1</LocationOfData>
+                        <BCellId>1854105</BCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>10000000</OrganismId>
+                                <Sex>F</Sex>
+                                <Age>5 weeks</Age>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Administration in vivo</InVivoProcessType>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Taxonomic Sibling</EpitopeRelation>
+                                    <Object>
+                                        <Organism>
+                                            <SubType>Organism</SubType>
+                                            <SourceOrganismId>11602</SourceOrganismId>
+                                        </Organism>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenReferenceName>Nucleoprotein of HTNV strain 76-118</ImmunogenReferenceName>
+                                <ImmunogenEvidenceCode>Exact match to reference information</ImmunogenEvidenceCode>
+                                <Adjuvant>Freund's complete</Adjuvant>
+                                <Adjuvant>Freund's incomplete (IFA)</Adjuvant>
+                                <Route>Intramuscular</Route>
+                                <DoseSchedule>3 to 5 doses of 5X10^6 Vero cells lysate, administered at intervals of 2 weeks.</DoseSchedule>
+                            </FirstInVivoProcess>
+                            <ImmunizationComments>The mAb was generated by fusing spleen cells from mice immunized with denatured NP of HTNV strain 76-118 with P3-X63.Ag8.U1. The details of the immunization procedure were described in the cited reference: Yoshimatsu K, 1996. J Gen Virol 77: 695–704. [PMID: 8627258].</ImmunizationComments>
+                        </Immunization>
+                        <AssayInformation>
+                            <AssayTypeId>37</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                        </AssayInformation>
+                        <AssayedAntibody>
+                            <AssayedAntibodySourceMaterial>Culture Supernatant</AssayedAntibodySourceMaterial>
+                            <AssayedAntibodyImmunoglobulinDomain>Entire Antibody</AssayedAntibodyImmunoglobulinDomain>
+                            <AssayedAntibodyPurificationStatus>Monoclonal</AssayedAntibodyPurificationStatus>
+                            <AssayedAntibodyName>E5/G6</AssayedAntibodyName>
+                            <AssayedAntibodyHeavyChainType>IgG</AssayedAntibodyHeavyChainType>
+                        </AssayedAntibody>
+                        <Antigen>
+                            <AntigenConformation>Non-Native/Unknown</AntigenConformation>
+                            <AntigenObject>
+                                <EpitopeRelation>Epitope</EpitopeRelation>
+                                <Object>
+                                    <FragmentOfANaturalSequenceMolecule>
+                                        <ChemicalType>Peptide from protein</ChemicalType>
+                                        <LinearSequence>FEDINGIRRP</LinearSequence>
+                                        <StartingPosition>165</StartingPosition>
+                                        <EndingPosition>174</EndingPosition>
+                                        <SourceMolecule>
+                                            <GenBankId>CAC34856.1</GenBankId>
+                                        </SourceMolecule>
+                                        <SourceOrganismId>1980486</SourceOrganismId>
+                                    </FragmentOfANaturalSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Exact match to reference information</AntigenEvidenceCode>
+                        </Antigen>
+                    </BCell>
+                </Assays>
+            </Epitope>
+            <Epitope>
+                <EpitopeName>E5/G6 epitope</EpitopeName>
+                <EpitopeStructure>
+                    <FragmentOfANaturalSequenceMolecule>
+                        <ChemicalType>Peptide from protein</ChemicalType>
+                        <LinearSequence>YEDVNGIRK</LinearSequence>
+                        <StartingPosition>165</StartingPosition>
+                        <EndingPosition>173</EndingPosition>
+                        <SourceMolecule>
+                            <GenBankId>BAA86853.1</GenBankId>
+                        </SourceMolecule>
+                        <SourceOrganismId>11610</SourceOrganismId>
+                    </FragmentOfANaturalSequenceMolecule>
+                </EpitopeStructure>
+                <LocationOfData>Text page 2429 and table 1</LocationOfData>
+                <EpitopeId>151073</EpitopeId>
+                <EpitopeEvidenceCode>Representative selection</EpitopeEvidenceCode>
+                <EpitopeStructureDefines>Exact Epitope</EpitopeStructureDefines>
+                <EpitopeComments>The epitope sequence was identified based on the SEOV sequence, but common to hantavirus nucleocapsid proteins and is also present in BCCV.</EpitopeComments>
+                <Assays>
+                    <BCell>
+                        <LocationOfData>Figures 1, 2 and table 1</LocationOfData>
+                        <BCellId>1853924</BCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>10000000</OrganismId>
+                                <Sex>F</Sex>
+                                <Age>5 weeks</Age>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Administration in vivo</InVivoProcessType>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Taxonomic Sibling</EpitopeRelation>
+                                    <Object>
+                                        <Organism>
+                                            <SubType>Organism</SubType>
+                                            <SourceOrganismId>11602</SourceOrganismId>
+                                        </Organism>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenReferenceName>Nucleoprotein of HTNV strain 76-118</ImmunogenReferenceName>
+                                <ImmunogenEvidenceCode>Exact match to reference information</ImmunogenEvidenceCode>
+                                <Adjuvant>Freund's complete</Adjuvant>
+                                <Adjuvant>Freund's incomplete (IFA)</Adjuvant>
+                                <Route>Intramuscular</Route>
+                                <DoseSchedule>3 to 5 doses of 5X10^6 Vero cells lysate, administered at intervals of 2 weeks.</DoseSchedule>
+                            </FirstInVivoProcess>
+                            <ImmunizationComments>The mAb was generated by fusing spleen cells from mice immunized with denatured NP of HTNV strain 76-118 with P3-X63.Ag8.U1. The details of the immunization procedure were described in the cited reference: Yoshimatsu K, 1996. J Gen Virol 77: 695–704. [PMID: 8627258].</ImmunizationComments>
+                        </Immunization>
+                        <AssayInformation>
+                            <AssayTypeId>37</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <AssayComments>The epitope was identified as the most effective minimum epitope for E5/G6 mAb binding by using thirty two 10-residue peptides (between NP140 and 180 of SEO/SR-11, 9 residue overlapping) and different truncates between residue 165 Try and residue 174 Pro. Residues D167, G170, I171, and R172 were indispensable residues, and Y165, E166, K173, and P174 were necessary for an effective reaction but not indispensable.</AssayComments>
+                        </AssayInformation>
+                        <AssayedAntibody>
+                            <AssayedAntibodySourceMaterial>Culture Supernatant</AssayedAntibodySourceMaterial>
+                            <AssayedAntibodyImmunoglobulinDomain>Entire Antibody</AssayedAntibodyImmunoglobulinDomain>
+                            <AssayedAntibodyPurificationStatus>Monoclonal</AssayedAntibodyPurificationStatus>
+                            <AssayedAntibodyName>E5/G6</AssayedAntibodyName>
+                            <AssayedAntibodyHeavyChainType>IgG</AssayedAntibodyHeavyChainType>
+                        </AssayedAntibody>
+                        <Antigen>
+                            <AntigenConformation>Non-Native/Unknown</AntigenConformation>
+                            <AntigenObject>
+                                <EpitopeRelation>Epitope</EpitopeRelation>
+                                <Object>
+                                    <FragmentOfANaturalSequenceMolecule>
+                                        <ChemicalType>Peptide from protein</ChemicalType>
+                                        <LinearSequence>YEDVNGIRK</LinearSequence>
+                                        <StartingPosition>165</StartingPosition>
+                                        <EndingPosition>173</EndingPosition>
+                                        <SourceMolecule>
+                                            <GenBankId>BAA86853.1</GenBankId>
+                                        </SourceMolecule>
+                                        <SourceOrganismId>11610</SourceOrganismId>
+                                    </FragmentOfANaturalSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Exact match to reference information</AntigenEvidenceCode>
+                        </Antigen>
+                    </BCell>
+                </Assays>
+                <Assays>
+                    <BCell>
+                        <LocationOfData>Table 1</LocationOfData>
+                        <BCellId>1854090</BCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>10000000</OrganismId>
+                                <Sex>F</Sex>
+                                <Age>5 weeks</Age>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Administration in vivo</InVivoProcessType>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Taxonomic Sibling</EpitopeRelation>
+                                    <Object>
+                                        <Organism>
+                                            <SubType>Organism</SubType>
+                                            <SourceOrganismId>11602</SourceOrganismId>
+                                        </Organism>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenReferenceName>Nucleoprotein of HTNV strain 76-118</ImmunogenReferenceName>
+                                <ImmunogenEvidenceCode>Exact match to reference information</ImmunogenEvidenceCode>
+                                <Adjuvant>Freund's complete</Adjuvant>
+                                <Adjuvant>Freund's incomplete (IFA)</Adjuvant>
+                                <Route>Intramuscular</Route>
+                                <DoseSchedule>3 to 5 doses of 5X10^6 Vero cells lysate, administered at intervals of 2 weeks.</DoseSchedule>
+                            </FirstInVivoProcess>
+                            <ImmunizationComments>The mAb was generated by fusing spleen cells from mice immunized with denatured NP of HTNV strain 76-118 with P3-X63.Ag8.U1. The details of the immunization procedure were described in the cited reference: Yoshimatsu K, 1996. J Gen Virol 77: 695–704. [PMID: 8627258].</ImmunizationComments>
+                        </Immunization>
+                        <AssayInformation>
+                            <AssayTypeId>37</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <AssayComments>The epitope specific mAb cross reacted to BAYV fragment 165-174 by immunostaining assay.</AssayComments>
+                        </AssayInformation>
+                        <AssayedAntibody>
+                            <AssayedAntibodySourceMaterial>Culture Supernatant</AssayedAntibodySourceMaterial>
+                            <AssayedAntibodyImmunoglobulinDomain>Entire Antibody</AssayedAntibodyImmunoglobulinDomain>
+                            <AssayedAntibodyPurificationStatus>Monoclonal</AssayedAntibodyPurificationStatus>
+                            <AssayedAntibodyName>E5/G6</AssayedAntibodyName>
+                            <AssayedAntibodyHeavyChainType>IgG</AssayedAntibodyHeavyChainType>
+                        </AssayedAntibody>
+                        <Antigen>
+                            <AntigenReferenceName>BAYV 165-174</AntigenReferenceName>
+                            <AntigenConformation>Non-Native/Unknown</AntigenConformation>
+                            <AntigenObject>
+                                <EpitopeRelation>Taxonomic Sibling</EpitopeRelation>
+                                <Object>
+                                    <FragmentOfANaturalSequenceMolecule>
+                                        <ChemicalType>Peptide from protein</ChemicalType>
+                                        <LinearSequence>YDDVNGIRKP</LinearSequence>
+                                        <StartingPosition>165</StartingPosition>
+                                        <EndingPosition>174</EndingPosition>
+                                        <SourceMolecule>
+                                            <GenBankId>AAA61691.1</GenBankId>
+                                        </SourceMolecule>
+                                        <SourceOrganismId>1980459</SourceOrganismId>
+                                    </FragmentOfANaturalSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Exact match to reference information</AntigenEvidenceCode>
+                        </Antigen>
+                    </BCell>
+                </Assays>
+                <Assays>
+                    <BCell>
+                        <LocationOfData>Table 1</LocationOfData>
+                        <BCellId>1854091</BCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>10000000</OrganismId>
+                                <Sex>F</Sex>
+                                <Age>5 weeks</Age>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Administration in vivo</InVivoProcessType>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Taxonomic Sibling</EpitopeRelation>
+                                    <Object>
+                                        <Organism>
+                                            <SubType>Organism</SubType>
+                                            <SourceOrganismId>11602</SourceOrganismId>
+                                        </Organism>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenReferenceName>Nucleoprotein of HTNV strain 76-118</ImmunogenReferenceName>
+                                <ImmunogenEvidenceCode>Exact match to reference information</ImmunogenEvidenceCode>
+                                <Adjuvant>Freund's complete</Adjuvant>
+                                <Adjuvant>Freund's incomplete (IFA)</Adjuvant>
+                                <Route>Intramuscular</Route>
+                                <DoseSchedule>3 to 5 doses of 5X10^6 Vero cells lysate, administered at intervals of 2 weeks.</DoseSchedule>
+                            </FirstInVivoProcess>
+                            <ImmunizationComments>The mAb was generated by fusing spleen cells from mice immunized with denatured NP of HTNV strain 76-118 with P3-X63.Ag8.U1. The details of the immunization procedure were described in the cited reference: Yoshimatsu K, 1996. J Gen Virol 77: 695–704. [PMID: 8627258].</ImmunizationComments>
+                        </Immunization>
+                        <AssayInformation>
+                            <AssayTypeId>37</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <AssayComments>The epitope specific mAb cross reacted to PUUV fragment 165-174 by immunostaining assay.</AssayComments>
+                        </AssayInformation>
+                        <AssayedAntibody>
+                            <AssayedAntibodySourceMaterial>Culture Supernatant</AssayedAntibodySourceMaterial>
+                            <AssayedAntibodyImmunoglobulinDomain>Entire Antibody</AssayedAntibodyImmunoglobulinDomain>
+                            <AssayedAntibodyPurificationStatus>Monoclonal</AssayedAntibodyPurificationStatus>
+                            <AssayedAntibodyName>E5/G6</AssayedAntibodyName>
+                            <AssayedAntibodyHeavyChainType>IgG</AssayedAntibodyHeavyChainType>
+                        </AssayedAntibody>
+                        <Antigen>
+                            <AntigenReferenceName>PUUV 165-174</AntigenReferenceName>
+                            <AntigenConformation>Non-Native/Unknown</AntigenConformation>
+                            <AntigenObject>
+                                <EpitopeRelation>Taxonomic Sibling</EpitopeRelation>
+                                <Object>
+                                    <FragmentOfANaturalSequenceMolecule>
+                                        <ChemicalType>Peptide from protein</ChemicalType>
+                                        <LinearSequence>FEDINGIRRP</LinearSequence>
+                                        <StartingPosition>165</StartingPosition>
+                                        <EndingPosition>174</EndingPosition>
+                                        <SourceMolecule>
+                                            <GenBankId>CAC34856.1</GenBankId>
+                                        </SourceMolecule>
+                                        <SourceOrganismId>1980486</SourceOrganismId>
+                                    </FragmentOfANaturalSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Exact match to reference information</AntigenEvidenceCode>
+                        </Antigen>
+                    </BCell>
+                </Assays>
+                <Assays>
+                    <BCell>
+                        <LocationOfData>Table 1</LocationOfData>
+                        <BCellId>1853934</BCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>10000000</OrganismId>
+                                <Sex>F</Sex>
+                                <Age>5 weeks</Age>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Administration in vivo</InVivoProcessType>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Taxonomic Sibling</EpitopeRelation>
+                                    <Object>
+                                        <Organism>
+                                            <SubType>Organism</SubType>
+                                            <SourceOrganismId>11602</SourceOrganismId>
+                                        </Organism>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenReferenceName>Nucleoprotein of HTNV strain 76-118</ImmunogenReferenceName>
+                                <ImmunogenEvidenceCode>Exact match to reference information</ImmunogenEvidenceCode>
+                                <Adjuvant>Freund's complete</Adjuvant>
+                                <Adjuvant>Freund's incomplete (IFA)</Adjuvant>
+                                <Route>Intramuscular</Route>
+                                <DoseSchedule>3 to 5 doses of 5X10^6 Vero cells lysate, administered at intervals of 2 weeks.</DoseSchedule>
+                            </FirstInVivoProcess>
+                            <ImmunizationComments>The mAb was generated by fusing spleen cells from mice immunized with denatured NP of HTNV strain 76-118 with P3-X63.Ag8.U1. The details of the immunization procedure were described in the cited reference: Yoshimatsu K, 1996. J Gen Virol 77: 695–704. [PMID: 8627258].</ImmunizationComments>
+                        </Immunization>
+                        <AssayInformation>
+                            <AssayTypeId>37</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <AssayComments>The epitope specific mAb cross reacted to TULV fragment 165-174 by immunostaining assay.</AssayComments>
+                        </AssayInformation>
+                        <AssayedAntibody>
+                            <AssayedAntibodySourceMaterial>Culture Supernatant</AssayedAntibodySourceMaterial>
+                            <AssayedAntibodyImmunoglobulinDomain>Entire Antibody</AssayedAntibodyImmunoglobulinDomain>
+                            <AssayedAntibodyPurificationStatus>Monoclonal</AssayedAntibodyPurificationStatus>
+                            <AssayedAntibodyName>E5/G6</AssayedAntibodyName>
+                            <AssayedAntibodyHeavyChainType>IgG</AssayedAntibodyHeavyChainType>
+                        </AssayedAntibody>
+                        <Antigen>
+                            <AntigenReferenceName>TULV NP 165-174</AntigenReferenceName>
+                            <AntigenConformation>Non-Native/Unknown</AntigenConformation>
+                            <AntigenObject>
+                                <EpitopeRelation>Taxonomic Sibling</EpitopeRelation>
+                                <Object>
+                                    <FragmentOfANaturalSequenceMolecule>
+                                        <ChemicalType>Peptide from protein</ChemicalType>
+                                        <LinearSequence>YEEINGIRRP</LinearSequence>
+                                        <StartingPosition>165</StartingPosition>
+                                        <EndingPosition>174</EndingPosition>
+                                        <SourceMolecule>
+                                            <GenBankId>AAG60020.1</GenBankId>
+                                        </SourceMolecule>
+                                        <SourceOrganismId>1980494</SourceOrganismId>
+                                    </FragmentOfANaturalSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Exact match to reference information</AntigenEvidenceCode>
+                        </Antigen>
+                    </BCell>
+                </Assays>
+                <Assays>
+                    <BCell>
+                        <LocationOfData>Table 1</LocationOfData>
+                        <BCellId>1853935</BCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>10000000</OrganismId>
+                                <Sex>F</Sex>
+                                <Age>5 weeks</Age>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Administration in vivo</InVivoProcessType>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Taxonomic Sibling</EpitopeRelation>
+                                    <Object>
+                                        <Organism>
+                                            <SubType>Organism</SubType>
+                                            <SourceOrganismId>11602</SourceOrganismId>
+                                        </Organism>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenReferenceName>Nucleoprotein of HTNV strain 76-118</ImmunogenReferenceName>
+                                <ImmunogenEvidenceCode>Exact match to reference information</ImmunogenEvidenceCode>
+                                <Adjuvant>Freund's complete</Adjuvant>
+                                <Adjuvant>Freund's incomplete (IFA)</Adjuvant>
+                                <Route>Intramuscular</Route>
+                                <DoseSchedule>3 to 5 doses of 5X10^6 Vero cells lysate, administered at intervals of 2 weeks.</DoseSchedule>
+                            </FirstInVivoProcess>
+                            <ImmunizationComments>The mAb was generated by fusing spleen cells from mice immunized with denatured NP of HTNV strain 76-118 with P3-X63.Ag8.U1. The details of the immunization procedure were described in the cited reference: Yoshimatsu K, 1996. J Gen Virol 77: 695–704. [PMID: 8627258].</ImmunizationComments>
+                        </Immunization>
+                        <AssayInformation>
+                            <AssayTypeId>37</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <AssayComments>The epitope specific mAb cross reacted to TOPV fragment 165-174 by immunostaining assay.</AssayComments>
+                        </AssayInformation>
+                        <AssayedAntibody>
+                            <AssayedAntibodySourceMaterial>Culture Supernatant</AssayedAntibodySourceMaterial>
+                            <AssayedAntibodyImmunoglobulinDomain>Entire Antibody</AssayedAntibodyImmunoglobulinDomain>
+                            <AssayedAntibodyPurificationStatus>Monoclonal</AssayedAntibodyPurificationStatus>
+                            <AssayedAntibodyName>E5/G6</AssayedAntibodyName>
+                            <AssayedAntibodyHeavyChainType>IgG</AssayedAntibodyHeavyChainType>
+                        </AssayedAntibody>
+                        <Antigen>
+                            <AntigenReferenceName>TOPV 165-174</AntigenReferenceName>
+                            <AntigenConformation>Non-Native/Unknown</AntigenConformation>
+                            <AntigenObject>
+                                <EpitopeRelation>Taxonomic Sibling</EpitopeRelation>
+                                <Object>
+                                    <FragmentOfANaturalSequenceMolecule>
+                                        <ChemicalType>Peptide from protein</ChemicalType>
+                                        <LinearSequence>FEDVNGIRRP</LinearSequence>
+                                        <StartingPosition>165</StartingPosition>
+                                        <EndingPosition>174</EndingPosition>
+                                        <SourceMolecule>
+                                            <GenBankId>CAB42097.1</GenBankId>
+                                        </SourceMolecule>
+                                        <SourceOrganismId>83192</SourceOrganismId>
+                                    </FragmentOfANaturalSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Exact match to reference information</AntigenEvidenceCode>
+                        </Antigen>
+                    </BCell>
+                </Assays>
+                <Assays>
+                    <BCell>
+                        <LocationOfData>Table 1</LocationOfData>
+                        <BCellId>1853936</BCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>10000000</OrganismId>
+                                <Sex>F</Sex>
+                                <Age>5 weeks</Age>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Administration in vivo</InVivoProcessType>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Taxonomic Sibling</EpitopeRelation>
+                                    <Object>
+                                        <Organism>
+                                            <SubType>Organism</SubType>
+                                            <SourceOrganismId>11602</SourceOrganismId>
+                                        </Organism>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenReferenceName>Nucleoprotein of HTNV strain 76-118</ImmunogenReferenceName>
+                                <ImmunogenEvidenceCode>Exact match to reference information</ImmunogenEvidenceCode>
+                                <Adjuvant>Freund's complete</Adjuvant>
+                                <Adjuvant>Freund's incomplete (IFA)</Adjuvant>
+                                <Route>Intramuscular</Route>
+                                <DoseSchedule>3 to 5 doses of 5X10^6 Vero cells lysate, administered at intervals of 2 weeks.</DoseSchedule>
+                            </FirstInVivoProcess>
+                            <ImmunizationComments>The mAb was generated by fusing spleen cells from mice immunized with denatured NP of HTNV strain 76-118 with P3-X63.Ag8.U1. The details of the immunization procedure were described in the cited reference: Yoshimatsu K, 1996. J Gen Virol 77: 695–704. [PMID: 8627258].</ImmunizationComments>
+                        </Immunization>
+                        <AssayInformation>
+                            <AssayTypeId>37</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <AssayComments>The epitope specific mAb cross reacted to PHV, BLLV 165-174 fragment by immunostaining assay.</AssayComments>
+                        </AssayInformation>
+                        <AssayedAntibody>
+                            <AssayedAntibodySourceMaterial>Culture Supernatant</AssayedAntibodySourceMaterial>
+                            <AssayedAntibodyImmunoglobulinDomain>Entire Antibody</AssayedAntibodyImmunoglobulinDomain>
+                            <AssayedAntibodyPurificationStatus>Monoclonal</AssayedAntibodyPurificationStatus>
+                            <AssayedAntibodyName>E5/G6</AssayedAntibodyName>
+                            <AssayedAntibodyHeavyChainType>IgG</AssayedAntibodyHeavyChainType>
+                        </AssayedAntibody>
+                        <Antigen>
+                            <AntigenReferenceName>PHV NP165-174</AntigenReferenceName>
+                            <AntigenConformation>Non-Native/Unknown</AntigenConformation>
+                            <AntigenObject>
+                                <EpitopeRelation>Taxonomic Sibling</EpitopeRelation>
+                                <Object>
+                                    <FragmentOfANaturalSequenceMolecule>
+                                        <ChemicalType>Peptide from protein</ChemicalType>
+                                        <LinearSequence>YEDVNGIRRP</LinearSequence>
+                                        <StartingPosition>165</StartingPosition>
+                                        <EndingPosition>174</EndingPosition>
+                                        <SourceMolecule>
+                                            <GenBankId>P22047.1</GenBankId>
+                                        </SourceMolecule>
+                                        <SourceOrganismId>1980485</SourceOrganismId>
+                                    </FragmentOfANaturalSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Exact match to reference information</AntigenEvidenceCode>
+                        </Antigen>
+                    </BCell>
+                </Assays>
+                <Assays>
+                    <BCell>
+                        <LocationOfData>Table 1</LocationOfData>
+                        <BCellId>1853937</BCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>10000000</OrganismId>
+                                <Sex>F</Sex>
+                                <Age>5 weeks</Age>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Administration in vivo</InVivoProcessType>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Taxonomic Sibling</EpitopeRelation>
+                                    <Object>
+                                        <Organism>
+                                            <SubType>Organism</SubType>
+                                            <SourceOrganismId>11602</SourceOrganismId>
+                                        </Organism>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenReferenceName>Nucleoprotein of HTNV strain 76-118</ImmunogenReferenceName>
+                                <ImmunogenEvidenceCode>Exact match to reference information</ImmunogenEvidenceCode>
+                                <Adjuvant>Freund's complete</Adjuvant>
+                                <Adjuvant>Freund's incomplete (IFA)</Adjuvant>
+                                <Route>Intramuscular</Route>
+                                <DoseSchedule>3 to 5 doses of 5X10^6 Vero cells lysate, administered at intervals of 2 weeks.</DoseSchedule>
+                            </FirstInVivoProcess>
+                            <ImmunizationComments>The mAb was generated by fusing spleen cells from mice immunized with denatured NP of HTNV strain 76-118 with P3-X63.Ag8.U1. The details of the immunization procedure were described in the cited reference: Yoshimatsu K, 1996. J Gen Virol 77: 695–704. [PMID: 8627258].</ImmunizationComments>
+                        </Immunization>
+                        <AssayInformation>
+                            <AssayTypeId>37</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <AssayComments>The epitope specific mAb cross reacted to KHAV (Vladivostok strain) NP 165-174 fragment by immunostaining assay.</AssayComments>
+                        </AssayInformation>
+                        <AssayedAntibody>
+                            <AssayedAntibodySourceMaterial>Culture Supernatant</AssayedAntibodySourceMaterial>
+                            <AssayedAntibodyImmunoglobulinDomain>Entire Antibody</AssayedAntibodyImmunoglobulinDomain>
+                            <AssayedAntibodyPurificationStatus>Monoclonal</AssayedAntibodyPurificationStatus>
+                            <AssayedAntibodyName>E5/G6</AssayedAntibodyName>
+                            <AssayedAntibodyHeavyChainType>IgG</AssayedAntibodyHeavyChainType>
+                        </AssayedAntibody>
+                        <Antigen>
+                            <AntigenReferenceName>KHAV (Vladivostok strain) NP 165-174</AntigenReferenceName>
+                            <AntigenConformation>Non-Native/Unknown</AntigenConformation>
+                            <AntigenObject>
+                                <EpitopeRelation>Taxonomic Sibling</EpitopeRelation>
+                                <Object>
+                                    <FragmentOfANaturalSequenceMolecule>
+                                        <ChemicalType>Peptide from protein</ChemicalType>
+                                        <LinearSequence>FDDVNGIRRP</LinearSequence>
+                                        <StartingPosition>165</StartingPosition>
+                                        <EndingPosition>174</EndingPosition>
+                                        <SourceMolecule>
+                                            <GenBankId>BAA25145.1</GenBankId>
+                                        </SourceMolecule>
+                                        <SourceOrganismId>74537</SourceOrganismId>
+                                    </FragmentOfANaturalSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Exact match to reference information</AntigenEvidenceCode>
+                        </Antigen>
+                    </BCell>
+                </Assays>
+                <Assays>
+                    <BCell>
+                        <LocationOfData>Table 1</LocationOfData>
+                        <BCellId>1853939</BCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>10000000</OrganismId>
+                                <Sex>F</Sex>
+                                <Age>5 weeks</Age>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Administration in vivo</InVivoProcessType>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Taxonomic Sibling</EpitopeRelation>
+                                    <Object>
+                                        <Organism>
+                                            <SubType>Organism</SubType>
+                                            <SourceOrganismId>11602</SourceOrganismId>
+                                        </Organism>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenReferenceName>Nucleoprotein of HTNV strain 76-118</ImmunogenReferenceName>
+                                <ImmunogenEvidenceCode>Exact match to reference information</ImmunogenEvidenceCode>
+                                <Adjuvant>Freund's complete</Adjuvant>
+                                <Adjuvant>Freund's incomplete (IFA)</Adjuvant>
+                                <Route>Intramuscular</Route>
+                                <DoseSchedule>3 to 5 doses of 5X10^6 Vero cells lysate, administered at intervals of 2 weeks.</DoseSchedule>
+                            </FirstInVivoProcess>
+                            <ImmunizationComments>The mAb was generated by fusing spleen cells from mice immunized with denatured NP of HTNV strain 76-118 with P3-X63.Ag8.U1. The details of the immunization procedure were described in the cited reference: Yoshimatsu K, 1996. J Gen Virol 77: 695–704. [PMID: 8627258].</ImmunizationComments>
+                        </Immunization>
+                        <AssayInformation>
+                            <AssayTypeId>37</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <AssayComments>The epitope specific mAb cross reacted to ANDV, LANV, CADV fragment 165-174 by immunostaining assay.</AssayComments>
+                        </AssayInformation>
+                        <AssayedAntibody>
+                            <AssayedAntibodySourceMaterial>Culture Supernatant</AssayedAntibodySourceMaterial>
+                            <AssayedAntibodyImmunoglobulinDomain>Entire Antibody</AssayedAntibodyImmunoglobulinDomain>
+                            <AssayedAntibodyPurificationStatus>Monoclonal</AssayedAntibodyPurificationStatus>
+                            <AssayedAntibodyName>E5/G6</AssayedAntibodyName>
+                            <AssayedAntibodyHeavyChainType>IgG</AssayedAntibodyHeavyChainType>
+                        </AssayedAntibody>
+                        <Antigen>
+                            <AntigenReferenceName>ANDV NP 165-174</AntigenReferenceName>
+                            <AntigenConformation>Non-Native/Unknown</AntigenConformation>
+                            <AntigenObject>
+                                <EpitopeRelation>Taxonomic Sibling</EpitopeRelation>
+                                <Object>
+                                    <FragmentOfANaturalSequenceMolecule>
+                                        <ChemicalType>Peptide from protein</ChemicalType>
+                                        <LinearSequence>FEEVNGIRKP</LinearSequence>
+                                        <StartingPosition>165</StartingPosition>
+                                        <EndingPosition>174</EndingPosition>
+                                        <SourceMolecule>
+                                            <GenBankId>AAK11225.1</GenBankId>
+                                        </SourceMolecule>
+                                        <SourceOrganismId>1980456</SourceOrganismId>
+                                    </FragmentOfANaturalSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Exact match to reference information</AntigenEvidenceCode>
+                        </Antigen>
+                    </BCell>
+                </Assays>
+                <Assays>
+                    <BCell>
+                        <LocationOfData>Table 1</LocationOfData>
+                        <BCellId>1853942</BCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>10000000</OrganismId>
+                                <Sex>F</Sex>
+                                <Age>5 weeks</Age>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Administration in vivo</InVivoProcessType>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Taxonomic Sibling</EpitopeRelation>
+                                    <Object>
+                                        <Organism>
+                                            <SubType>Organism</SubType>
+                                            <SourceOrganismId>11602</SourceOrganismId>
+                                        </Organism>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenReferenceName>Nucleoprotein of HTNV strain 76-118</ImmunogenReferenceName>
+                                <ImmunogenEvidenceCode>Exact match to reference information</ImmunogenEvidenceCode>
+                                <Adjuvant>Freund's complete</Adjuvant>
+                                <Adjuvant>Freund's incomplete (IFA)</Adjuvant>
+                                <Route>Intramuscular</Route>
+                                <DoseSchedule>3 to 5 doses of 5X10^6 Vero cells lysate, administered at intervals of 2 weeks.</DoseSchedule>
+                            </FirstInVivoProcess>
+                            <ImmunizationComments>The mAb was generated by fusing spleen cells from mice immunized with denatured NP of HTNV strain 76-118 with P3-X63.Ag8.U1. The details of the immunization procedure were described in the cited reference: Yoshimatsu K, 1996. J Gen Virol 77: 695–704. [PMID: 8627258].</ImmunizationComments>
+                        </Immunization>
+                        <AssayInformation>
+                            <AssayTypeId>37</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <AssayComments>The epitope specific mAb cross reacted to ISLAV fragment 165-174 by immunostaining assay.</AssayComments>
+                        </AssayInformation>
+                        <AssayedAntibody>
+                            <AssayedAntibodySourceMaterial>Culture Supernatant</AssayedAntibodySourceMaterial>
+                            <AssayedAntibodyImmunoglobulinDomain>Entire Antibody</AssayedAntibodyImmunoglobulinDomain>
+                            <AssayedAntibodyPurificationStatus>Monoclonal</AssayedAntibodyPurificationStatus>
+                            <AssayedAntibodyName>E5/G6</AssayedAntibodyName>
+                            <AssayedAntibodyHeavyChainType>IgG</AssayedAntibodyHeavyChainType>
+                        </AssayedAntibody>
+                        <Antigen>
+                            <AntigenReferenceName>ISLAV NP 165-174</AntigenReferenceName>
+                            <AntigenConformation>Non-Native/Unknown</AntigenConformation>
+                            <AntigenObject>
+                                <EpitopeRelation>Taxonomic Sibling</EpitopeRelation>
+                                <Object>
+                                    <FragmentOfANaturalSequenceMolecule>
+                                        <ChemicalType>Peptide from protein</ChemicalType>
+                                        <LinearSequence>FEEINGIRRP</LinearSequence>
+                                        <StartingPosition>165</StartingPosition>
+                                        <EndingPosition>174</EndingPosition>
+                                        <SourceMolecule>
+                                            <GenBankId>AAC54656.1</GenBankId>
+                                        </SourceMolecule>
+                                        <SourceOrganismId>42097</SourceOrganismId>
+                                    </FragmentOfANaturalSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Exact match to reference information</AntigenEvidenceCode>
+                        </Antigen>
+                    </BCell>
+                </Assays>
+                <Assays>
+                    <BCell>
+                        <LocationOfData>Table 1</LocationOfData>
+                        <BCellId>1853941</BCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>10000000</OrganismId>
+                                <Sex>F</Sex>
+                                <Age>5 weeks</Age>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Administration in vivo</InVivoProcessType>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Taxonomic Sibling</EpitopeRelation>
+                                    <Object>
+                                        <Organism>
+                                            <SubType>Organism</SubType>
+                                            <SourceOrganismId>11602</SourceOrganismId>
+                                        </Organism>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenReferenceName>Nucleoprotein of HTNV strain 76-118</ImmunogenReferenceName>
+                                <ImmunogenEvidenceCode>Exact match to reference information</ImmunogenEvidenceCode>
+                                <Adjuvant>Freund's complete</Adjuvant>
+                                <Adjuvant>Freund's incomplete (IFA)</Adjuvant>
+                                <Route>Intramuscular</Route>
+                                <DoseSchedule>3 to 5 doses of 5X10^6 Vero cells lysate, administered at intervals of 2 weeks.</DoseSchedule>
+                            </FirstInVivoProcess>
+                            <ImmunizationComments>The mAb was generated by fusing spleen cells from mice immunized with denatured NP of HTNV strain 76-118 with P3-X63.Ag8.U1. The details of the immunization procedure were described in the cited reference: Yoshimatsu K, 1996. J Gen Virol 77: 695–704. [PMID: 8627258].</ImmunizationComments>
+                        </Immunization>
+                        <AssayInformation>
+                            <AssayTypeId>37</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <AssayComments>The epitope specific mAb cross reacted to RIOS fragment 165-174 by immunostaining assay.</AssayComments>
+                        </AssayInformation>
+                        <AssayedAntibody>
+                            <AssayedAntibodySourceMaterial>Culture Supernatant</AssayedAntibodySourceMaterial>
+                            <AssayedAntibodyImmunoglobulinDomain>Entire Antibody</AssayedAntibodyImmunoglobulinDomain>
+                            <AssayedAntibodyPurificationStatus>Monoclonal</AssayedAntibodyPurificationStatus>
+                            <AssayedAntibodyName>E5/G6</AssayedAntibodyName>
+                            <AssayedAntibodyHeavyChainType>IgG</AssayedAntibodyHeavyChainType>
+                        </AssayedAntibody>
+                        <Antigen>
+                            <AntigenReferenceName>RIOS NP 165-174</AntigenReferenceName>
+                            <AntigenConformation>Non-Native/Unknown</AntigenConformation>
+                            <AntigenObject>
+                                <EpitopeRelation>Taxonomic Sibling</EpitopeRelation>
+                                <Object>
+                                    <FragmentOfANaturalSequenceMolecule>
+                                        <ChemicalType>Peptide from protein</ChemicalType>
+                                        <LinearSequence>FEEVNGIRRP</LinearSequence>
+                                        <StartingPosition>165</StartingPosition>
+                                        <EndingPosition>174</EndingPosition>
+                                        <SourceMolecule>
+                                            <GenBankId>AAC54066.1</GenBankId>
+                                        </SourceMolecule>
+                                        <SourceOrganismId>37207</SourceOrganismId>
+                                    </FragmentOfANaturalSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Exact match to reference information</AntigenEvidenceCode>
+                        </Antigen>
+                    </BCell>
+                </Assays>
+                <Assays>
+                    <BCell>
+                        <LocationOfData>Table 1</LocationOfData>
+                        <BCellId>1853938</BCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>10000000</OrganismId>
+                                <Sex>F</Sex>
+                                <Age>5 weeks</Age>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Administration in vivo</InVivoProcessType>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Taxonomic Sibling</EpitopeRelation>
+                                    <Object>
+                                        <Organism>
+                                            <SubType>Organism</SubType>
+                                            <SourceOrganismId>11602</SourceOrganismId>
+                                        </Organism>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenReferenceName>Nucleoprotein of HTNV strain 76-118</ImmunogenReferenceName>
+                                <ImmunogenEvidenceCode>Exact match to reference information</ImmunogenEvidenceCode>
+                                <Adjuvant>Freund's complete</Adjuvant>
+                                <Adjuvant>Freund's incomplete (IFA)</Adjuvant>
+                                <Route>Intramuscular</Route>
+                                <DoseSchedule>3 to 5 doses of 5X10^6 Vero cells lysate, administered at intervals of 2 weeks.</DoseSchedule>
+                            </FirstInVivoProcess>
+                            <ImmunizationComments>The mAb was generated by fusing spleen cells from mice immunized with denatured NP of HTNV strain 76-118 with P3-X63.Ag8.U1. The details of the immunization procedure were described in the cited reference: Yoshimatsu K, 1996. J Gen Virol 77: 695–704. [PMID: 8627258].</ImmunizationComments>
+                        </Immunization>
+                        <AssayInformation>
+                            <AssayTypeId>37</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <AssayComments>The epitope specific mAb cross reacted to SNV, NYV, ELMCV 165-174 framents by immunostaining assay.</AssayComments>
+                        </AssayInformation>
+                        <AssayedAntibody>
+                            <AssayedAntibodySourceMaterial>Culture Supernatant</AssayedAntibodySourceMaterial>
+                            <AssayedAntibodyImmunoglobulinDomain>Entire Antibody</AssayedAntibodyImmunoglobulinDomain>
+                            <AssayedAntibodyPurificationStatus>Monoclonal</AssayedAntibodyPurificationStatus>
+                            <AssayedAntibodyName>E5/G6</AssayedAntibodyName>
+                            <AssayedAntibodyHeavyChainType>IgG</AssayedAntibodyHeavyChainType>
+                        </AssayedAntibody>
+                        <Antigen>
+                            <AntigenReferenceName>SNV NP 165-174</AntigenReferenceName>
+                            <AntigenConformation>Non-Native/Unknown</AntigenConformation>
+                            <AntigenObject>
+                                <EpitopeRelation>Taxonomic Sibling</EpitopeRelation>
+                                <Object>
+                                    <FragmentOfANaturalSequenceMolecule>
+                                        <ChemicalType>Peptide from protein</ChemicalType>
+                                        <LinearSequence>YEEVNGIRKP</LinearSequence>
+                                        <StartingPosition>165</StartingPosition>
+                                        <EndingPosition>174</EndingPosition>
+                                        <SourceMolecule>
+                                            <GenBankId>2124409C</GenBankId>
+                                        </SourceMolecule>
+                                        <SourceOrganismId>1980491</SourceOrganismId>
+                                    </FragmentOfANaturalSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Exact match to reference information</AntigenEvidenceCode>
+                        </Antigen>
+                    </BCell>
+                </Assays>
+                <Assays>
+                    <BCell>
+                        <LocationOfData>Table 1</LocationOfData>
+                        <BCellId>1853940</BCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>10000000</OrganismId>
+                                <Sex>F</Sex>
+                                <Age>5 weeks</Age>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Administration in vivo</InVivoProcessType>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Taxonomic Sibling</EpitopeRelation>
+                                    <Object>
+                                        <Organism>
+                                            <SubType>Organism</SubType>
+                                            <SourceOrganismId>11602</SourceOrganismId>
+                                        </Organism>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenReferenceName>Nucleoprotein of HTNV strain 76-118</ImmunogenReferenceName>
+                                <ImmunogenEvidenceCode>Exact match to reference information</ImmunogenEvidenceCode>
+                                <Adjuvant>Freund's complete</Adjuvant>
+                                <Adjuvant>Freund's incomplete (IFA)</Adjuvant>
+                                <Route>Intramuscular</Route>
+                                <DoseSchedule>3 to 5 doses of 5X10^6 Vero cells lysate, administered at intervals of 2 weeks.</DoseSchedule>
+                            </FirstInVivoProcess>
+                            <ImmunizationComments>The mAb was generated by fusing spleen cells from mice immunized with denatured NP of HTNV strain 76-118 with P3-X63.Ag8.U1. The details of the immunization procedure were described in the cited reference: Yoshimatsu K, 1996. J Gen Virol 77: 695–704. [PMID: 8627258].</ImmunizationComments>
+                        </Immunization>
+                        <AssayInformation>
+                            <AssayTypeId>37</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <AssayComments>The epitope specific mAb cross reacted to RIOMV fragment 165-174 by immunostaining assay.</AssayComments>
+                        </AssayInformation>
+                        <AssayedAntibody>
+                            <AssayedAntibodySourceMaterial>Culture Supernatant</AssayedAntibodySourceMaterial>
+                            <AssayedAntibodyImmunoglobulinDomain>Entire Antibody</AssayedAntibodyImmunoglobulinDomain>
+                            <AssayedAntibodyPurificationStatus>Monoclonal</AssayedAntibodyPurificationStatus>
+                            <AssayedAntibodyName>E5/G6</AssayedAntibodyName>
+                            <AssayedAntibodyHeavyChainType>IgG</AssayedAntibodyHeavyChainType>
+                        </AssayedAntibody>
+                        <Antigen>
+                            <AntigenReferenceName>RIOMV NP 165-174</AntigenReferenceName>
+                            <AntigenConformation>Non-Native/Unknown</AntigenConformation>
+                            <AntigenObject>
+                                <EpitopeRelation>Taxonomic Sibling</EpitopeRelation>
+                                <Object>
+                                    <FragmentOfANaturalSequenceMolecule>
+                                        <ChemicalType>Peptide from protein</ChemicalType>
+                                        <LinearSequence>FEEINGIRKP</LinearSequence>
+                                        <StartingPosition>165</StartingPosition>
+                                        <EndingPosition>174</EndingPosition>
+                                        <SourceMolecule>
+                                            <GenBankId>AAC58450.1</GenBankId>
+                                        </SourceMolecule>
+                                        <SourceOrganismId>46920</SourceOrganismId>
+                                    </FragmentOfANaturalSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Exact match to reference information</AntigenEvidenceCode>
+                        </Antigen>
+                    </BCell>
+                </Assays>
+                <Assays>
+                    <BCell>
+                        <LocationOfData>Table 1</LocationOfData>
+                        <BCellId>1853933</BCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>10000000</OrganismId>
+                                <Sex>F</Sex>
+                                <Age>5 weeks</Age>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Administration in vivo</InVivoProcessType>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Taxonomic Sibling</EpitopeRelation>
+                                    <Object>
+                                        <Organism>
+                                            <SubType>Organism</SubType>
+                                            <SourceOrganismId>11602</SourceOrganismId>
+                                        </Organism>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenReferenceName>Nucleoprotein of HTNV strain 76-118</ImmunogenReferenceName>
+                                <ImmunogenEvidenceCode>Exact match to reference information</ImmunogenEvidenceCode>
+                                <Adjuvant>Freund's complete</Adjuvant>
+                                <Adjuvant>Freund's incomplete (IFA)</Adjuvant>
+                                <Route>Intramuscular</Route>
+                                <DoseSchedule>3 to 5 doses of 5X10^6 Vero cells lysate, administered at intervals of 2 weeks.</DoseSchedule>
+                            </FirstInVivoProcess>
+                            <ImmunizationComments>The mAb was generated by fusing spleen cells from mice immunized with denatured NP of HTNV strain 76-118 with P3-X63.Ag8.U1. The details of the immunization procedure were described in the cited reference: Yoshimatsu K, 1996. J Gen Virol 77: 695–704. [PMID: 8627258].</ImmunizationComments>
+                        </Immunization>
+                        <AssayInformation>
+                            <AssayTypeId>37</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <AssayComments>The epitope specific mAb cross reacted to HTNV, DOBV, SAAV, AMRV, Dabie Shan virus fragment 165-174 by immunostaining assay.</AssayComments>
+                        </AssayInformation>
+                        <AssayedAntibody>
+                            <AssayedAntibodySourceMaterial>Culture Supernatant</AssayedAntibodySourceMaterial>
+                            <AssayedAntibodyImmunoglobulinDomain>Entire Antibody</AssayedAntibodyImmunoglobulinDomain>
+                            <AssayedAntibodyPurificationStatus>Monoclonal</AssayedAntibodyPurificationStatus>
+                            <AssayedAntibodyName>E5/G6</AssayedAntibodyName>
+                            <AssayedAntibodyHeavyChainType>IgG</AssayedAntibodyHeavyChainType>
+                        </AssayedAntibody>
+                        <Antigen>
+                            <AntigenReferenceName>HTNV NP 165-174</AntigenReferenceName>
+                            <AntigenConformation>Non-Native/Unknown</AntigenConformation>
+                            <AntigenObject>
+                                <EpitopeRelation>Taxonomic Sibling</EpitopeRelation>
+                                <Object>
+                                    <FragmentOfANaturalSequenceMolecule>
+                                        <ChemicalType>Peptide from protein</ChemicalType>
+                                        <LinearSequence>FEDVNGIRKP</LinearSequence>
+                                        <StartingPosition>165</StartingPosition>
+                                        <EndingPosition>174</EndingPosition>
+                                        <SourceMolecule>
+                                            <GenBankId>Q0Z949</GenBankId>
+                                        </SourceMolecule>
+                                        <SourceOrganismId>1980471</SourceOrganismId>
+                                    </FragmentOfANaturalSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Exact match to reference information</AntigenEvidenceCode>
+                        </Antigen>
+                    </BCell>
+                </Assays>
+            </Epitope>
+        </Epitopes>
+    </Reference>
+</References>
+

@@ -1,0 +1,521 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<References xsi:schemaLocation="http://www.iedb.org/schema/CurationSchema http://beta.iedb.org/schema/Curation.xsd" xmlns="http://www.iedb.org/schema/CurationSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <Reference>
+        <ReferenceId>604</ReferenceId>
+        <DateLastUpdated>2020-09-10-07:00</DateLastUpdated>
+        <Article>
+            <PubmedId>15269714</PubmedId>
+            <Abstract>The immunogenicity of adenovirus (Ad) vectors is enhanced by virus-specific memory immune responses present in most individuals as a result of past exposure to these ubiquitous pathogens. We previously identified the first human T-cell epitope from the major capsid protein hexon, H910-924, and found that it is highly conserved among different Ad serotypes. Memory/effector T-cell responses to H910-924 were detected in 14 of 18 (78%) healthy adults by an interferon-gamma ELISPOT assay. Hexon peptide-specific CD4 T-cell lines were generated from three HLA-typed donors and analyzed using a panel of HLA homozygous B-cell lines and monoclonal antibodies to HLA class II loci. These studies reveal that the hexon epitope is restricted by HLA DP4, a class II allele present in 75% of the population. Analysis of overlapping peptides and peptides with single residue mutations identified a HLA DP4-binding motif. Additionally, antibodies to the hexon peptide were detected in all donor sera by dot blot assay and ELISA. Therefore, most individuals exhibit both memory B- and T-cell responses to this highly conserved epitope on hexon, an obligate component of all Ad vectors, including 'gutted' vectors. These data suggest that current strategies for the use of Ad gene therapy vectors will not evade memory immune responses to Ad.</Abstract>
+            <ArticleYear>2004</ArticleYear>
+            <ArticlePages>1408-15</ArticlePages>
+            <ArticleTitle>Adenovirus hexon T-cell epitope is recognized by most adults and is restricted by HLA DP4, the most common class II allele.</ArticleTitle>
+            <Authors>
+                <Author>
+                    <LastName>Tang</LastName>
+                    <ForeName>J</ForeName>
+                </Author>
+                <Author>
+                    <LastName>Olive</LastName>
+                    <ForeName>M</ForeName>
+                </Author>
+                <Author>
+                    <LastName>Champagne</LastName>
+                    <ForeName>K</ForeName>
+                </Author>
+                <Author>
+                    <LastName>Flomenberg</LastName>
+                    <ForeName>N</ForeName>
+                </Author>
+                <Author>
+                    <LastName>Eisenlohr</LastName>
+                    <ForeName>L</ForeName>
+                </Author>
+                <Author>
+                    <LastName>Hsu</LastName>
+                    <ForeName>S</ForeName>
+                </Author>
+                <Author>
+                    <LastName>Flomenberg</LastName>
+                    <ForeName>P</ForeName>
+                </Author>
+            </Authors>
+            <Affiliations>Department of Microbiology and Immunology, Thomas Jefferson University, Philadelphia, PA 19107, USA.</Affiliations>
+            <ArticleChemicalList>Antibodies;Capsid Proteins;Epitopes;HLA-DP Antigens;HLA-DP beta-Chains;HLA-DPw4 antigen;hexon capsid protein, Adenovirus</ArticleChemicalList>
+            <ArticleMeshHeadingsList>Adenoviridae(immunology); Adolescent; Adult; Aged; Antibodies(analysis); Capsid Proteins(immunology); Cell Line; Enzyme-Linked Immunosorbent Assay; Epitopes(immunology); Genetic Therapy(adverse effects; methods); Genetic Vectors(immunology); HLA-DP Antigens(immunology); HLA-DP beta-Chains; Histocompatibility Testing; Humans; Immunologic Memory; Middle Aged; T-Lymphocytes(immunology)</ArticleMeshHeadingsList>
+            <Journal>
+                <Volume>11</Volume>
+                <Issue>18</Issue>
+                <Title>Gene therapy</Title>
+                <Issn>1476-5462</Issn>
+                <MedlineTa>Gene Ther</MedlineTa>
+            </Journal>
+        </Article>
+        <Epitopes>
+            <Epitope>
+                <EpitopeName>H910-924</EpitopeName>
+                <EpitopeStructure>
+                    <FragmentOfANaturalSequenceMolecule>
+                        <ChemicalType>Peptide from protein</ChemicalType>
+                        <LinearSequence>DEPTLLYVLFEVFDV</LinearSequence>
+                        <StartingPosition>911</StartingPosition>
+                        <EndingPosition>925</EndingPosition>
+                        <SourceMolecule>
+                            <GenBankId>P04133.3</GenBankId>
+                        </SourceMolecule>
+                        <SourceOrganismId>28285</SourceOrganismId>
+                    </FragmentOfANaturalSequenceMolecule>
+                </EpitopeStructure>
+                <LocationOfData>Abstract</LocationOfData>
+                <EpitopeId>8127</EpitopeId>
+                <ReferenceStartingPosition>910</ReferenceStartingPosition>
+                <ReferenceEndingPosition>924</ReferenceEndingPosition>
+                <EpitopeEvidenceCode>Representative selection</EpitopeEvidenceCode>
+                <EpitopeStructureDefines>Exact Epitope</EpitopeStructureDefines>
+                <Assays>
+                    <BCell>
+                        <LocationOfData>Figure 3</LocationOfData>
+                        <BCellId>5590</BCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>9606</OrganismId>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Environmental exposure to endemic/ubiquitous agent without evidence for disease</InVivoProcessType>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Source Organism</EpitopeRelation>
+                                    <Object>
+                                        <Organism>
+                                            <SubType>Organism</SubType>
+                                            <SourceOrganismId>28285</SourceOrganismId>
+                                        </Organism>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenReferenceName>Adenovirus</ImmunogenReferenceName>
+                                <ImmunogenEvidenceCode>Not determined</ImmunogenEvidenceCode>
+                            </FirstInVivoProcess>
+                            <ImmunizationComments>Exposure is assumed.</ImmunizationComments>
+                        </Immunization>
+                        <AssayInformation>
+                            <AssayTypeId>37</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <NumberOfSubjectsTested>12</NumberOfSubjectsTested>
+                            <NumberOfSubjectsResponded>12</NumberOfSubjectsResponded>
+                            <ResponseFrequency>100</ResponseFrequency>
+                        </AssayInformation>
+                        <AssayedAntibody>
+                            <AssayedAntibodySourceMaterial>Serum</AssayedAntibodySourceMaterial>
+                            <AssayedAntibodyPurificationStatus>Polyclonal</AssayedAntibodyPurificationStatus>
+                        </AssayedAntibody>
+                        <Antigen>
+                            <AntigenReferenceName>H910-924</AntigenReferenceName>
+                            <AntigenConformation>Non-Native/Unknown</AntigenConformation>
+                            <AntigenObject>
+                                <EpitopeRelation>Epitope</EpitopeRelation>
+                                <Object>
+                                    <FragmentOfANaturalSequenceMolecule>
+                                        <ChemicalType>Peptide from protein</ChemicalType>
+                                        <LinearSequence>DEPTLLYVLFEVFDV</LinearSequence>
+                                        <StartingPosition>911</StartingPosition>
+                                        <EndingPosition>925</EndingPosition>
+                                        <SourceMolecule>
+                                            <GenBankId>P04133.3</GenBankId>
+                                        </SourceMolecule>
+                                        <SourceOrganismId>28285</SourceOrganismId>
+                                    </FragmentOfANaturalSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Exact match to reference information</AntigenEvidenceCode>
+                        </Antigen>
+                    </BCell>
+                </Assays>
+                <Assays>
+                    <TCell>
+                        <LocationOfData>Figure 2B</LocationOfData>
+                        <TCellId>5589</TCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>9606</OrganismId>
+                                <MhcAlleleTypesPresent>
+                                    <MhcAlleleId>69</MhcAlleleId>
+                                </MhcAlleleTypesPresent>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Environmental exposure to endemic/ubiquitous agent without evidence for disease</InVivoProcessType>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Source Organism</EpitopeRelation>
+                                    <Object>
+                                        <Organism>
+                                            <SubType>Organism</SubType>
+                                            <SourceOrganismId>28285</SourceOrganismId>
+                                        </Organism>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenReferenceName>Adenovirus</ImmunogenReferenceName>
+                                <ImmunogenEvidenceCode>Not determined</ImmunogenEvidenceCode>
+                            </FirstInVivoProcess>
+                            <InVitroAdministration>
+                                <ProcessType>Restimulation in vitro</ProcessType>
+                                <ResponderCellType>PBMC</ResponderCellType>
+                                <StimulatorCellType>PBMC</StimulatorCellType>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Epitope</EpitopeRelation>
+                                    <Object>
+                                        <FragmentOfANaturalSequenceMolecule>
+                                            <ChemicalType>Peptide from protein</ChemicalType>
+                                            <LinearSequence>DEPTLLYVLFEVFDV</LinearSequence>
+                                            <StartingPosition>911</StartingPosition>
+                                            <EndingPosition>925</EndingPosition>
+                                            <SourceMolecule>
+                                                <GenBankId>P04133.3</GenBankId>
+                                            </SourceMolecule>
+                                            <SourceOrganismId>28285</SourceOrganismId>
+                                        </FragmentOfANaturalSequenceMolecule>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenEvidenceCode>Exact match to reference information</ImmunogenEvidenceCode>
+                            </InVitroAdministration>
+                            <ImmunizationComments>Any adult human - including these donors - is expected to have been infected by adenoviruses, as they are ubiquitious.</ImmunizationComments>
+                        </Immunization>
+                        <EffectorCells>
+                            <CellType>T cell CD4+</CellType>
+                            <CellCultureConditions>Cell Line / Clone</CellCultureConditions>
+                        </EffectorCells>
+                        <AntigenPresentingCells>
+                            <CellTissueType>Lymphoid</CellTissueType>
+                            <CellType>B cell</CellType>
+                            <CellCultureConditions>Cell Line / Clone (EBV transformed, B-LCL)</CellCultureConditions>
+                            <AutologousOrSyngeneic>N</AutologousOrSyngeneic>
+                        </AntigenPresentingCells>
+                        <MhcAllele>
+                            <MhcAlleleId>69</MhcAlleleId>
+                            <MhcEvidenceCode>Not determined</MhcEvidenceCode>
+                        </MhcAllele>
+                        <Antigen>
+                            <AntigenReferenceName>H910-924</AntigenReferenceName>
+                            <AntigenObject>
+                                <EpitopeRelation>Epitope</EpitopeRelation>
+                                <Object>
+                                    <FragmentOfANaturalSequenceMolecule>
+                                        <ChemicalType>Peptide from protein</ChemicalType>
+                                        <LinearSequence>DEPTLLYVLFEVFDV</LinearSequence>
+                                        <StartingPosition>911</StartingPosition>
+                                        <EndingPosition>925</EndingPosition>
+                                        <SourceMolecule>
+                                            <GenBankId>P04133.3</GenBankId>
+                                        </SourceMolecule>
+                                        <SourceOrganismId>28285</SourceOrganismId>
+                                    </FragmentOfANaturalSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Exact match to reference information</AntigenEvidenceCode>
+                        </Antigen>
+                        <AssayInformation>
+                            <AssayTypeId>67</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <AssayComments>A killing assay was used to confirm the HLA restriction using DB4 matched and mismatched cell lines.</AssayComments>
+                        </AssayInformation>
+                    </TCell>
+                </Assays>
+                <Assays>
+                    <TCell>
+                        <LocationOfData>Text</LocationOfData>
+                        <TCellId>7370</TCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>9606</OrganismId>
+                                <MhcAlleleTypesPresent>
+                                    <MhcAlleleId>69</MhcAlleleId>
+                                </MhcAlleleTypesPresent>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Environmental exposure to endemic/ubiquitous agent without evidence for disease</InVivoProcessType>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Source Organism</EpitopeRelation>
+                                    <Object>
+                                        <Organism>
+                                            <SubType>Organism</SubType>
+                                            <SourceOrganismId>28285</SourceOrganismId>
+                                        </Organism>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenReferenceName>Adenovirus</ImmunogenReferenceName>
+                                <ImmunogenEvidenceCode>Not determined</ImmunogenEvidenceCode>
+                            </FirstInVivoProcess>
+                            <ImmunizationComments>Any adult human - including these donors - is expected to have been infected by adenoviruses, as they are ubiquitious.</ImmunizationComments>
+                        </Immunization>
+                        <EffectorCells>
+                            <CellTissueType>Blood</CellTissueType>
+                            <CellType>PBMC</CellType>
+                            <CellCultureConditions>Direct Ex Vivo</CellCultureConditions>
+                        </EffectorCells>
+                        <AntigenPresentingCells>
+                            <CellTissueType>Blood</CellTissueType>
+                            <CellType>PBMC</CellType>
+                            <CellCultureConditions>Direct Ex Vivo</CellCultureConditions>
+                            <AutologousOrSyngeneic>Y</AutologousOrSyngeneic>
+                        </AntigenPresentingCells>
+                        <MhcAllele>
+                            <MhcAlleleId>69</MhcAlleleId>
+                            <MhcEvidenceCode>Not determined</MhcEvidenceCode>
+                        </MhcAllele>
+                        <Antigen>
+                            <AntigenReferenceName>H910-924</AntigenReferenceName>
+                            <AntigenObject>
+                                <EpitopeRelation>Epitope</EpitopeRelation>
+                                <Object>
+                                    <FragmentOfANaturalSequenceMolecule>
+                                        <ChemicalType>Peptide from protein</ChemicalType>
+                                        <LinearSequence>DEPTLLYVLFEVFDV</LinearSequence>
+                                        <StartingPosition>911</StartingPosition>
+                                        <EndingPosition>925</EndingPosition>
+                                        <SourceMolecule>
+                                            <GenBankId>P04133.3</GenBankId>
+                                        </SourceMolecule>
+                                        <SourceOrganismId>28285</SourceOrganismId>
+                                    </FragmentOfANaturalSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Exact match to reference information</AntigenEvidenceCode>
+                        </Antigen>
+                        <AssayInformation>
+                            <AssayTypeId>48</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <NumberOfSubjectsTested>5</NumberOfSubjectsTested>
+                            <NumberOfSubjectsResponded>5</NumberOfSubjectsResponded>
+                            <ResponseFrequency>100</ResponseFrequency>
+                            <AssayComments>A similar assay of 18 donors which were not MHC allele typed revealed that 14 donors responded to the epitope. T cell lines were derived from 3 of the 14  responders, which demonstrated the HLA-DP4 restriction of the epitope.  Overall, the data indicates a broad response among the adult human population against this epitope.</AssayComments>
+                        </AssayInformation>
+                    </TCell>
+                </Assays>
+            </Epitope>
+            <Epitope>
+                <EpitopeName>H913-921</EpitopeName>
+                <EpitopeStructure>
+                    <FragmentOfANaturalSequenceMolecule>
+                        <ChemicalType>Peptide from protein</ChemicalType>
+                        <LinearSequence>TLLYVLFEV</LinearSequence>
+                        <StartingPosition>914</StartingPosition>
+                        <EndingPosition>922</EndingPosition>
+                        <SourceMolecule>
+                            <GenBankId>P04133.3</GenBankId>
+                        </SourceMolecule>
+                        <SourceOrganismId>28285</SourceOrganismId>
+                    </FragmentOfANaturalSequenceMolecule>
+                </EpitopeStructure>
+                <LocationOfData>Table 3</LocationOfData>
+                <EpitopeId>64950</EpitopeId>
+                <ReferenceStartingPosition>913</ReferenceStartingPosition>
+                <ReferenceEndingPosition>921</ReferenceEndingPosition>
+                <EpitopeEvidenceCode>Representative selection</EpitopeEvidenceCode>
+                <EpitopeStructureDefines>Exact Epitope</EpitopeStructureDefines>
+                <Assays>
+                    <BCell>
+                        <LocationOfData>Figure 3</LocationOfData>
+                        <BCellId>5592</BCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>9606</OrganismId>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Environmental exposure to endemic/ubiquitous agent without evidence for disease</InVivoProcessType>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Source Organism</EpitopeRelation>
+                                    <Object>
+                                        <Organism>
+                                            <SubType>Organism</SubType>
+                                            <SourceOrganismId>28285</SourceOrganismId>
+                                        </Organism>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenReferenceName>Adenovirus</ImmunogenReferenceName>
+                                <ImmunogenEvidenceCode>Not determined</ImmunogenEvidenceCode>
+                            </FirstInVivoProcess>
+                            <ImmunizationComments>Exposure is assumed.</ImmunizationComments>
+                        </Immunization>
+                        <AssayInformation>
+                            <AssayTypeId>37</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <NumberOfSubjectsTested>12</NumberOfSubjectsTested>
+                            <NumberOfSubjectsResponded>12</NumberOfSubjectsResponded>
+                            <ResponseFrequency>100</ResponseFrequency>
+                        </AssayInformation>
+                        <AssayedAntibody>
+                            <AssayedAntibodySourceMaterial>Serum</AssayedAntibodySourceMaterial>
+                            <AssayedAntibodyPurificationStatus>Polyclonal</AssayedAntibodyPurificationStatus>
+                        </AssayedAntibody>
+                        <Antigen>
+                            <AntigenReferenceName>H913-921</AntigenReferenceName>
+                            <AntigenConformation>Non-Native/Unknown</AntigenConformation>
+                            <AntigenObject>
+                                <EpitopeRelation>Epitope</EpitopeRelation>
+                                <Object>
+                                    <FragmentOfANaturalSequenceMolecule>
+                                        <ChemicalType>Peptide from protein</ChemicalType>
+                                        <LinearSequence>TLLYVLFEV</LinearSequence>
+                                        <StartingPosition>914</StartingPosition>
+                                        <EndingPosition>922</EndingPosition>
+                                        <SourceMolecule>
+                                            <GenBankId>P04133.3</GenBankId>
+                                        </SourceMolecule>
+                                        <SourceOrganismId>28285</SourceOrganismId>
+                                    </FragmentOfANaturalSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Exact match to reference information</AntigenEvidenceCode>
+                        </Antigen>
+                    </BCell>
+                </Assays>
+                <Assays>
+                    <TCell>
+                        <LocationOfData>Table 3</LocationOfData>
+                        <TCellId>5591</TCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>9606</OrganismId>
+                                <MhcAlleleTypesPresent>
+                                    <MhcAlleleId>69</MhcAlleleId>
+                                </MhcAlleleTypesPresent>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Environmental exposure to endemic/ubiquitous agent without evidence for disease</InVivoProcessType>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Source Organism</EpitopeRelation>
+                                    <Object>
+                                        <Organism>
+                                            <SubType>Organism</SubType>
+                                            <SourceOrganismId>28285</SourceOrganismId>
+                                        </Organism>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenReferenceName>Adenovirus</ImmunogenReferenceName>
+                                <ImmunogenEvidenceCode>Not determined</ImmunogenEvidenceCode>
+                            </FirstInVivoProcess>
+                            <ImmunizationComments>Any adult human - including these donors - is expected to have been infected by adenoviruses, as they are ubiquitious.</ImmunizationComments>
+                        </Immunization>
+                        <EffectorCells>
+                            <CellTissueType>Blood</CellTissueType>
+                            <CellType>PBMC</CellType>
+                            <CellCultureConditions>Direct Ex Vivo</CellCultureConditions>
+                        </EffectorCells>
+                        <AntigenPresentingCells>
+                            <CellTissueType>Blood</CellTissueType>
+                            <CellType>PBMC</CellType>
+                            <CellCultureConditions>Direct Ex Vivo</CellCultureConditions>
+                            <AutologousOrSyngeneic>Y</AutologousOrSyngeneic>
+                        </AntigenPresentingCells>
+                        <MhcAllele>
+                            <MhcAlleleId>69</MhcAlleleId>
+                            <MhcEvidenceCode>Not determined</MhcEvidenceCode>
+                        </MhcAllele>
+                        <Antigen>
+                            <AntigenReferenceName>H913-921</AntigenReferenceName>
+                            <AntigenObject>
+                                <EpitopeRelation>Epitope</EpitopeRelation>
+                                <Object>
+                                    <FragmentOfANaturalSequenceMolecule>
+                                        <ChemicalType>Peptide from protein</ChemicalType>
+                                        <LinearSequence>TLLYVLFEV</LinearSequence>
+                                        <StartingPosition>914</StartingPosition>
+                                        <EndingPosition>922</EndingPosition>
+                                        <SourceMolecule>
+                                            <GenBankId>P04133.3</GenBankId>
+                                        </SourceMolecule>
+                                        <SourceOrganismId>28285</SourceOrganismId>
+                                    </FragmentOfANaturalSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Exact match to reference information</AntigenEvidenceCode>
+                        </Antigen>
+                        <AssayInformation>
+                            <AssayTypeId>48</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <NumberOfSubjectsTested>2</NumberOfSubjectsTested>
+                            <NumberOfSubjectsResponded>2</NumberOfSubjectsResponded>
+                            <ResponseFrequency>100</ResponseFrequency>
+                            <AssayComments>A screen of peptide truncation from the originally identified 15-mer epitope 910-924 was performed. This peptide turned out to be the core of the 15-mer, eliciting approximately 70% of the response to the 15-mer.</AssayComments>
+                        </AssayInformation>
+                    </TCell>
+                </Assays>
+            </Epitope>
+            <Epitope>
+                <EpitopeName>H511-519</EpitopeName>
+                <EpitopeStructure>
+                    <FragmentOfANaturalSequenceMolecule>
+                        <ChemicalType>Peptide from protein</ChemicalType>
+                        <LinearSequence>GLVDCYINL</LinearSequence>
+                        <StartingPosition>512</StartingPosition>
+                        <EndingPosition>520</EndingPosition>
+                        <SourceMolecule>
+                            <GenBankId>P04133.3</GenBankId>
+                        </SourceMolecule>
+                        <SourceOrganismId>28285</SourceOrganismId>
+                    </FragmentOfANaturalSequenceMolecule>
+                </EpitopeStructure>
+                <LocationOfData>page 1411</LocationOfData>
+                <EpitopeId>21184</EpitopeId>
+                <ReferenceStartingPosition>511</ReferenceStartingPosition>
+                <ReferenceEndingPosition>519</ReferenceEndingPosition>
+                <EpitopeEvidenceCode>Representative selection</EpitopeEvidenceCode>
+                <EpitopeStructureDefines>Exact Epitope</EpitopeStructureDefines>
+                <Assays>
+                    <BCell>
+                        <LocationOfData>Figure 3</LocationOfData>
+                        <BCellId>5594</BCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>9606</OrganismId>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Environmental exposure to endemic/ubiquitous agent without evidence for disease</InVivoProcessType>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Source Organism</EpitopeRelation>
+                                    <Object>
+                                        <Organism>
+                                            <SubType>Organism</SubType>
+                                            <SourceOrganismId>28285</SourceOrganismId>
+                                        </Organism>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenReferenceName>Adenovirus</ImmunogenReferenceName>
+                                <ImmunogenEvidenceCode>Not determined</ImmunogenEvidenceCode>
+                            </FirstInVivoProcess>
+                            <ImmunizationComments>Exposure is assumed.</ImmunizationComments>
+                        </Immunization>
+                        <AssayInformation>
+                            <AssayTypeId>37</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <NumberOfSubjectsTested>6</NumberOfSubjectsTested>
+                            <NumberOfSubjectsResponded>6</NumberOfSubjectsResponded>
+                            <ResponseFrequency>100</ResponseFrequency>
+                        </AssayInformation>
+                        <AssayedAntibody>
+                            <AssayedAntibodySourceMaterial>Serum</AssayedAntibodySourceMaterial>
+                            <AssayedAntibodyPurificationStatus>Polyclonal</AssayedAntibodyPurificationStatus>
+                        </AssayedAntibody>
+                        <Antigen>
+                            <AntigenReferenceName>H511-519</AntigenReferenceName>
+                            <AntigenConformation>Non-Native/Unknown</AntigenConformation>
+                            <AntigenObject>
+                                <EpitopeRelation>Epitope</EpitopeRelation>
+                                <Object>
+                                    <FragmentOfANaturalSequenceMolecule>
+                                        <ChemicalType>Peptide from protein</ChemicalType>
+                                        <LinearSequence>GLVDCYINL</LinearSequence>
+                                        <StartingPosition>512</StartingPosition>
+                                        <EndingPosition>520</EndingPosition>
+                                        <SourceMolecule>
+                                            <GenBankId>P04133.3</GenBankId>
+                                        </SourceMolecule>
+                                        <SourceOrganismId>28285</SourceOrganismId>
+                                    </FragmentOfANaturalSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Exact match to reference information</AntigenEvidenceCode>
+                        </Antigen>
+                    </BCell>
+                </Assays>
+            </Epitope>
+        </Epitopes>
+    </Reference>
+</References>
+

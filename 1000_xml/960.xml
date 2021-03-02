@@ -1,0 +1,1075 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<References xsi:schemaLocation="http://www.iedb.org/schema/CurationSchema http://beta.iedb.org/schema/Curation.xsd" xmlns="http://www.iedb.org/schema/CurationSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <Reference>
+        <ReferenceId>960</ReferenceId>
+        <DateLastUpdated>2020-09-10-07:00</DateLastUpdated>
+        <Article>
+            <PubmedId>2333291</PubmedId>
+            <Abstract>T-cell recognition of peptides that are bound and presented by class I major histocompatibility complex molecules is highly specific. At present it is unclear what role class I peptide binding plays relative to T-cell receptor specificity in determination of immune recognition. A previous study from our group demonstrated that the HLA-A2.1 molecule could bind to 25% of the members of a panel of unrelated synthetic peptides as assessed by a functional peptide competition assay. To determine the peptide-binding specificity of another HLA class I molecule, we have examined the capacity of this panel of peptides to compete for the presentation of influenza virus nucleoprotein peptide NP-(335-350) by HLA-B37 to NP-peptide-specific HLA-B37-restricted cytotoxic T-lymphocyte lines. Forty-two percent of peptides tested were capable of inhibiting NP-(335-350) presentation by HLA-B37. Remarkably, none of these HLA-B37-binding peptides belong to the subset that was previously shown to bind to the HLA-A2.1 molecule. Only the NP-(335-350) peptide was capable of binding to both HLA-A2.1 and HLA-B37. These findings demonstrate that the peptide-binding specificities of HLA-B37 and HLA-A2.1 are largely nonoverlapping and suggest that, from the universe of peptides, individual HLA class I molecules can bind to clearly distinct subsets of these peptides.</Abstract>
+            <ArticleYear>1990</ArticleYear>
+            <ArticlePages>3420-4</ArticlePages>
+            <ArticleTitle>HLA-B37 and HLA-A2.1 molecules bind largely nonoverlapping sets of peptides.</ArticleTitle>
+            <Authors>
+                <Author>
+                    <LastName>Carreno</LastName>
+                    <ForeName>B M</ForeName>
+                </Author>
+                <Author>
+                    <LastName>Anderson</LastName>
+                    <ForeName>R W</ForeName>
+                </Author>
+                <Author>
+                    <LastName>Coligan</LastName>
+                    <ForeName>J E</ForeName>
+                </Author>
+                <Author>
+                    <LastName>Biddison</LastName>
+                    <ForeName>W E</ForeName>
+                </Author>
+            </Authors>
+            <Affiliations>Molecular Immunology Section, National Institute of Neurological Disorders and Stroke, National Institutes of Health, Bethesda, MD 20892.</Affiliations>
+            <ArticleChemicalList>HLA-A2 Antigen;HLA-B Antigens;HLA-B37 Antigen;Peptides</ArticleChemicalList>
+            <ArticleMeshHeadingsList>Adult; Amino Acid Sequence; Binding, Competitive; Cells, Cultured; HLA-A2 Antigen(genetics; immunology); HLA-B Antigens(genetics; immunology); HLA-B37 Antigen; Humans; Kinetics; Molecular Sequence Data; Peptides(chemical synthesis); Protein Binding; Structure-Activity Relationship; T-Lymphocytes(immunology); T-Lymphocytes, Cytotoxic(immunology)</ArticleMeshHeadingsList>
+            <Journal>
+                <Volume>87</Volume>
+                <Issue>9</Issue>
+                <Title>Proceedings of the National Academy of Sciences of the United States of America</Title>
+                <Issn>0027-8424</Issn>
+                <MedlineTa>Proc Natl Acad Sci U S A</MedlineTa>
+            </Journal>
+        </Article>
+        <Epitopes>
+            <Epitope>
+                <EpitopeName>FLU NP-(335-350)</EpitopeName>
+                <EpitopeStructure>
+                    <FragmentOfANaturalSequenceMolecule>
+                        <ChemicalType>Peptide from protein</ChemicalType>
+                        <LinearSequence>SAAFEDLRVLSFIRG</LinearSequence>
+                        <StartingPosition>335</StartingPosition>
+                        <EndingPosition>349</EndingPosition>
+                        <SourceMolecule>
+                            <GenBankId>P03467.1</GenBankId>
+                        </SourceMolecule>
+                        <SourceOrganismId>384505</SourceOrganismId>
+                    </FragmentOfANaturalSequenceMolecule>
+                </EpitopeStructure>
+                <LocationOfData>Table 1</LocationOfData>
+                <EpitopeId>56698</EpitopeId>
+                <EpitopeEvidenceCode>Representative selection</EpitopeEvidenceCode>
+                <EpitopeStructureDefines>Epitope containing region/antigenic site</EpitopeStructureDefines>
+                <EpitopeComments>An extra C-terminal tyrosine residue was added during peptide synthesis.</EpitopeComments>
+                <Assays>
+                    <TCell>
+                        <LocationOfData>Figure 1</LocationOfData>
+                        <TCellId>11677</TCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>9606</OrganismId>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Environmental exposure to endemic/ubiquitous agent without evidence for disease</InVivoProcessType>
+                                <DiseaseState>ONTIE:0003423</DiseaseState>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Taxonomic Parent</EpitopeRelation>
+                                    <Object>
+                                        <Organism>
+                                            <SubType>Organism</SubType>
+                                            <SourceOrganismId>11320</SourceOrganismId>
+                                        </Organism>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenEvidenceCode>Representative selection</ImmunogenEvidenceCode>
+                            </FirstInVivoProcess>
+                            <InVitroAdministration>
+                                <ProcessType>Restimulation in vitro</ProcessType>
+                                <ResponderCellType>Lymphocyte</ResponderCellType>
+                                <StimulatorCellType>Lymphocyte</StimulatorCellType>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Epitope</EpitopeRelation>
+                                    <Object>
+                                        <FragmentOfANaturalSequenceMolecule>
+                                            <ChemicalType>Peptide from protein</ChemicalType>
+                                            <LinearSequence>SAAFEDLRVLSFIRG</LinearSequence>
+                                            <StartingPosition>335</StartingPosition>
+                                            <EndingPosition>349</EndingPosition>
+                                            <SourceMolecule>
+                                                <GenBankId>P03467.1</GenBankId>
+                                            </SourceMolecule>
+                                            <SourceOrganismId>384505</SourceOrganismId>
+                                        </FragmentOfANaturalSequenceMolecule>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenEvidenceCode>Exact match to reference information</ImmunogenEvidenceCode>
+                            </InVitroAdministration>
+                            <ImmunizationComments>Peripheral blood lymphocytes (PBL) from normal, HLA-B37+ adult volunteers were restimulated with the epitope in vitro.</ImmunizationComments>
+                        </Immunization>
+                        <EffectorCells>
+                            <CellTissueType>Blood</CellTissueType>
+                            <CellType>T cell CD8+</CellType>
+                            <CellCultureConditions>Cell Line / Clone</CellCultureConditions>
+                        </EffectorCells>
+                        <AntigenPresentingCells>
+                            <CellTissueType>Blood</CellTissueType>
+                            <CellType>B cell</CellType>
+                            <CellCultureConditions>Cell Line / Clone</CellCultureConditions>
+                            <AutologousOrSyngeneic>Y</AutologousOrSyngeneic>
+                        </AntigenPresentingCells>
+                        <MhcAllele>
+                            <MhcAlleleId>282</MhcAlleleId>
+                            <MhcEvidenceCode>MHC binding assay</MhcEvidenceCode>
+                        </MhcAllele>
+                        <Antigen>
+                            <AntigenReferenceName>FLU NP-(335-350)</AntigenReferenceName>
+                            <AntigenObject>
+                                <EpitopeRelation>Epitope</EpitopeRelation>
+                                <Object>
+                                    <FragmentOfANaturalSequenceMolecule>
+                                        <ChemicalType>Peptide from protein</ChemicalType>
+                                        <LinearSequence>SAAFEDLRVLSFIRG</LinearSequence>
+                                        <StartingPosition>335</StartingPosition>
+                                        <EndingPosition>349</EndingPosition>
+                                        <SourceMolecule>
+                                            <GenBankId>P03467.1</GenBankId>
+                                        </SourceMolecule>
+                                        <SourceOrganismId>384505</SourceOrganismId>
+                                    </FragmentOfANaturalSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Exact match to reference information</AntigenEvidenceCode>
+                        </Antigen>
+                        <AssayInformation>
+                            <AssayTypeId>67</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                        </AssayInformation>
+                    </TCell>
+                </Assays>
+                <Assays>
+                    <TCell>
+                        <LocationOfData>Figure 1</LocationOfData>
+                        <TCellId>11684</TCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>9606</OrganismId>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Environmental exposure to endemic/ubiquitous agent without evidence for disease</InVivoProcessType>
+                                <DiseaseState>ONTIE:0003423</DiseaseState>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Taxonomic Parent</EpitopeRelation>
+                                    <Object>
+                                        <Organism>
+                                            <SubType>Organism</SubType>
+                                            <SourceOrganismId>11320</SourceOrganismId>
+                                        </Organism>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenEvidenceCode>Representative selection</ImmunogenEvidenceCode>
+                            </FirstInVivoProcess>
+                            <InVitroAdministration>
+                                <ProcessType>Restimulation in vitro</ProcessType>
+                                <ResponderCellType>Lymphocyte</ResponderCellType>
+                                <StimulatorCellType>Lymphocyte</StimulatorCellType>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Epitope</EpitopeRelation>
+                                    <Object>
+                                        <FragmentOfANaturalSequenceMolecule>
+                                            <ChemicalType>Peptide from protein</ChemicalType>
+                                            <LinearSequence>SAAFEDLRVLSFIRG</LinearSequence>
+                                            <StartingPosition>335</StartingPosition>
+                                            <EndingPosition>349</EndingPosition>
+                                            <SourceMolecule>
+                                                <GenBankId>P03467.1</GenBankId>
+                                            </SourceMolecule>
+                                            <SourceOrganismId>384505</SourceOrganismId>
+                                        </FragmentOfANaturalSequenceMolecule>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenEvidenceCode>Exact match to reference information</ImmunogenEvidenceCode>
+                            </InVitroAdministration>
+                            <ImmunizationComments>Peripheral blood lymphocytes (PBL) from normal, HLA-B37+ adult volunteers were restimulated with the epitope in vitro.</ImmunizationComments>
+                        </Immunization>
+                        <EffectorCells>
+                            <CellTissueType>Blood</CellTissueType>
+                            <CellType>T cell CD8+</CellType>
+                            <CellCultureConditions>Cell Line / Clone</CellCultureConditions>
+                        </EffectorCells>
+                        <AntigenPresentingCells>
+                            <CellTissueType>Blood</CellTissueType>
+                            <CellType>B cell</CellType>
+                            <CellCultureConditions>Cell Line / Clone</CellCultureConditions>
+                            <AutologousOrSyngeneic>Y</AutologousOrSyngeneic>
+                        </AntigenPresentingCells>
+                        <MhcAllele>
+                            <MhcAlleleId>282</MhcAlleleId>
+                            <MhcEvidenceCode>MHC binding assay</MhcEvidenceCode>
+                        </MhcAllele>
+                        <Antigen>
+                            <AntigenReferenceName>Influenza A virus (A/NT/60/68/(H3N2))</AntigenReferenceName>
+                            <AntigenObject>
+                                <EpitopeRelation>Source Organism</EpitopeRelation>
+                                <Object>
+                                    <Organism>
+                                        <SubType>Organism</SubType>
+                                        <SourceOrganismId>384505</SourceOrganismId>
+                                    </Organism>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Exact match to reference information</AntigenEvidenceCode>
+                        </Antigen>
+                        <AssayInformation>
+                            <AssayTypeId>67</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <AssayComments>The epitope-specific CTL line reacted with Influenza A/nt/60/68 virus.</AssayComments>
+                        </AssayInformation>
+                    </TCell>
+                </Assays>
+                <Assays>
+                    <MhcBinding>
+                        <LocationOfData>Figure 4B</LocationOfData>
+                        <MhcBindingId>1864615</MhcBindingId>
+                        <AssayInformation>
+                            <AssayTypeId>226</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <AssayComments>The epitope inhibited the binding of M1-(55-73) to HLA-A2.1 and inhibited the lysis of target cells by a HLA-A2.1-restricted M1-(55-73)-peptide-specific CTL line in a &lt;SUP&gt;51&lt;/SUP&gt;Cr-release assay.</AssayComments>
+                        </AssayInformation>
+                        <MhcAlleleId>143</MhcAlleleId>
+                    </MhcBinding>
+                </Assays>
+                <Assays>
+                    <MhcBinding>
+                        <LocationOfData>Figure 4C</LocationOfData>
+                        <MhcBindingId>1864616</MhcBindingId>
+                        <AssayInformation>
+                            <AssayTypeId>226</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <AssayComments>The epitope inhibited the binding of NP-(335-350) to HLA-B37 and inhibited the lysis of target cells by a HLA-B37-restricted NP-(335-350)-peptide-specific CTL line in a &lt;SUP&gt;51&lt;/SUP&gt;Cr-release assay.</AssayComments>
+                        </AssayInformation>
+                        <MhcAlleleId>282</MhcAlleleId>
+                    </MhcBinding>
+                </Assays>
+            </Epitope>
+            <Epitope>
+                <EpitopeName>PY CS 6-repeat</EpitopeName>
+                <EpitopeStructure>
+                    <FragmentOfANaturalSequenceMolecule>
+                        <ChemicalType>Peptide from protein</ChemicalType>
+                        <LinearSequence>QGPGAPQGPGAPQGPGAPQGPGAP</LinearSequence>
+                        <StartingPosition>139</StartingPosition>
+                        <EndingPosition>162</EndingPosition>
+                        <SourceMolecule>
+                            <GenBankId>P06914.1</GenBankId>
+                        </SourceMolecule>
+                        <SourceOrganismId>73239</SourceOrganismId>
+                    </FragmentOfANaturalSequenceMolecule>
+                </EpitopeStructure>
+                <LocationOfData>Table 1</LocationOfData>
+                <EpitopeId>50933</EpitopeId>
+                <EpitopeEvidenceCode>Representative selection</EpitopeEvidenceCode>
+                <EpitopeStructureDefines>Epitope containing region/antigenic site</EpitopeStructureDefines>
+                <Assays>
+                    <MhcBinding>
+                        <LocationOfData>Figures 2 and 3</LocationOfData>
+                        <MhcBindingId>11666</MhcBindingId>
+                        <AssayInformation>
+                            <AssayTypeId>226</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <AssayComments>The epitope inhibited the binding of NP-(335-350) to HLA-B37 and inhibited the lysis of target cells by a HLA-B37-restricted NP-(335-350)-peptide-specific CTL line in a &lt;SUP&gt;51&lt;/SUP&gt;Cr-release assay.</AssayComments>
+                        </AssayInformation>
+                        <MhcAlleleId>282</MhcAlleleId>
+                    </MhcBinding>
+                </Assays>
+            </Epitope>
+            <Epitope>
+                <EpitopeName>FLU NP-(50-63)</EpitopeName>
+                <EpitopeStructure>
+                    <FragmentOfANaturalSequenceMolecule>
+                        <ChemicalType>Peptide from protein</ChemicalType>
+                        <LinearSequence>SDYEGRLIQNSLTI</LinearSequence>
+                        <StartingPosition>50</StartingPosition>
+                        <EndingPosition>63</EndingPosition>
+                        <SourceMolecule>
+                            <GenBankId>P03467.1</GenBankId>
+                        </SourceMolecule>
+                        <SourceOrganismId>384505</SourceOrganismId>
+                    </FragmentOfANaturalSequenceMolecule>
+                </EpitopeStructure>
+                <LocationOfData>Table 1</LocationOfData>
+                <EpitopeId>57325</EpitopeId>
+                <EpitopeEvidenceCode>Representative selection</EpitopeEvidenceCode>
+                <EpitopeStructureDefines>Epitope containing region/antigenic site</EpitopeStructureDefines>
+                <Assays>
+                    <MhcBinding>
+                        <LocationOfData>Figures 2 and 3</LocationOfData>
+                        <MhcBindingId>11692</MhcBindingId>
+                        <AssayInformation>
+                            <AssayTypeId>226</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <AssayComments>The epitope inhibited the binding of NP-(335-350) to HLA-B37 and inhibited the lysis of target cells by a HLA-B37-restricted NP-(335-350)-peptide-specific CTL line in a &lt;SUP&gt;51&lt;/SUP&gt;Cr-release assay.</AssayComments>
+                        </AssayInformation>
+                        <MhcAlleleId>282</MhcAlleleId>
+                    </MhcBinding>
+                </Assays>
+            </Epitope>
+            <Epitope>
+                <EpitopeName>TRY repeat</EpitopeName>
+                <EpitopeStructure>
+                    <FragmentOfANaturalSequenceMolecule>
+                        <ChemicalType>Peptide from protein</ChemicalType>
+                        <LinearSequence>DKKESGDSEDKKESGDSE</LinearSequence>
+                        <StartingPosition>670</StartingPosition>
+                        <EndingPosition>687</EndingPosition>
+                        <SourceMolecule>
+                            <GenBankId>CAA83656.1</GenBankId>
+                        </SourceMolecule>
+                        <SourceOrganismId>5693</SourceOrganismId>
+                    </FragmentOfANaturalSequenceMolecule>
+                </EpitopeStructure>
+                <LocationOfData>Table 1</LocationOfData>
+                <EpitopeId>8908</EpitopeId>
+                <EpitopeEvidenceCode>Representative selection</EpitopeEvidenceCode>
+                <EpitopeStructureDefines>Epitope containing region/antigenic site</EpitopeStructureDefines>
+                <EpitopeComments>An extra N-terminal Cysteine residue was added during peptide synthesis.</EpitopeComments>
+                <Assays>
+                    <MhcBinding>
+                        <LocationOfData>Figures 2 and 3</LocationOfData>
+                        <MhcBindingId>11693</MhcBindingId>
+                        <AssayInformation>
+                            <AssayTypeId>226</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <AssayComments>The epitope inhibited the binding of NP-(335-350) to HLA-B37 and inhibited the lysis of target cells by a HLA-B37-restricted NP-(335-350)-peptide-specific CTL line in a &lt;SUP&gt;51&lt;/SUP&gt;Cr-release assay.</AssayComments>
+                        </AssayInformation>
+                        <MhcAlleleId>282</MhcAlleleId>
+                    </MhcBinding>
+                </Assays>
+            </Epitope>
+            <Epitope>
+                <EpitopeName>PF HRP-II-(1-15)</EpitopeName>
+                <EpitopeStructure>
+                    <FragmentOfANaturalSequenceMolecule>
+                        <ChemicalType>Peptide from protein</ChemicalType>
+                        <LinearSequence>AHHAHHAADAHHAAD</LinearSequence>
+                        <StartingPosition>180</StartingPosition>
+                        <EndingPosition>194</EndingPosition>
+                        <SourceMolecule>
+                            <GenBankId>P05227.1</GenBankId>
+                        </SourceMolecule>
+                        <SourceOrganismId>5833</SourceOrganismId>
+                    </FragmentOfANaturalSequenceMolecule>
+                </EpitopeStructure>
+                <LocationOfData>Table 1</LocationOfData>
+                <EpitopeId>1774</EpitopeId>
+                <EpitopeEvidenceCode>Representative selection</EpitopeEvidenceCode>
+                <EpitopeStructureDefines>Epitope containing region/antigenic site</EpitopeStructureDefines>
+                <Assays>
+                    <MhcBinding>
+                        <LocationOfData>Figure 3</LocationOfData>
+                        <MhcBindingId>11695</MhcBindingId>
+                        <AssayInformation>
+                            <AssayTypeId>226</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <AssayComments>The epitope inhibited the binding of NP-(335-350) to HLA-B37 and inhibited the lysis of target cells by a HLA-B37-restricted NP-(335-350)-peptide-specific CTL line in a &lt;SUP&gt;51&lt;/SUP&gt;Cr-release assay.</AssayComments>
+                        </AssayInformation>
+                        <MhcAlleleId>282</MhcAlleleId>
+                    </MhcBinding>
+                </Assays>
+            </Epitope>
+            <Epitope>
+                <EpitopeName>RNAP-(1557-1577)</EpitopeName>
+                <EpitopeStructure>
+                    <FragmentOfANaturalSequenceMolecule>
+                        <ChemicalType>Peptide from protein</ChemicalType>
+                        <LinearSequence>SPTSPSYSPTSPSYSPTSPSY</LinearSequence>
+                        <StartingPosition>1557</StartingPosition>
+                        <EndingPosition>1577</EndingPosition>
+                        <SourceMolecule>
+                            <GenBankId>P04050.2</GenBankId>
+                        </SourceMolecule>
+                        <SourceOrganismId>4932</SourceOrganismId>
+                    </FragmentOfANaturalSequenceMolecule>
+                </EpitopeStructure>
+                <LocationOfData>Table 1</LocationOfData>
+                <EpitopeId>60301</EpitopeId>
+                <EpitopeEvidenceCode>Representative selection</EpitopeEvidenceCode>
+                <EpitopeStructureDefines>Epitope containing region/antigenic site</EpitopeStructureDefines>
+                <Assays>
+                    <MhcBinding>
+                        <LocationOfData>Figure 3</LocationOfData>
+                        <MhcBindingId>11696</MhcBindingId>
+                        <AssayInformation>
+                            <AssayTypeId>226</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <AssayComments>The epitope inhibited the binding of NP-(335-350) to HLA-B37 and inhibited the lysis of target cells by a HLA-B37-restricted NP-(335-350)-peptide-specific CTL line in a &lt;SUP&gt;51&lt;/SUP&gt;Cr-release assay.</AssayComments>
+                        </AssayInformation>
+                        <MhcAlleleId>282</MhcAlleleId>
+                    </MhcBinding>
+                </Assays>
+            </Epitope>
+            <Epitope>
+                <EpitopeName>FLU PB1-(537-548)</EpitopeName>
+                <EpitopeStructure>
+                    <FragmentOfANaturalSequenceMolecule>
+                        <ChemicalType>Peptide from protein</ChemicalType>
+                        <LinearSequence>NDLGPATAQMAL</LinearSequence>
+                        <StartingPosition>537</StartingPosition>
+                        <EndingPosition>548</EndingPosition>
+                        <SourceMolecule>
+                            <GenBankId>P03432.1</GenBankId>
+                        </SourceMolecule>
+                        <SourceOrganismId>384505</SourceOrganismId>
+                    </FragmentOfANaturalSequenceMolecule>
+                </EpitopeStructure>
+                <LocationOfData>Table 1</LocationOfData>
+                <EpitopeId>43484</EpitopeId>
+                <EpitopeEvidenceCode>Representative selection</EpitopeEvidenceCode>
+                <EpitopeStructureDefines>Epitope containing region/antigenic site</EpitopeStructureDefines>
+                <Assays>
+                    <MhcBinding>
+                        <LocationOfData>Figure 3</LocationOfData>
+                        <MhcBindingId>11698</MhcBindingId>
+                        <AssayInformation>
+                            <AssayTypeId>226</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <AssayComments>The epitope inhibited the binding of NP-(335-350) to HLA-B37 and inhibited the lysis of target cells by a HLA-B37-restricted NP-(335-350)-peptide-specific CTL line in a &lt;SUP&gt;51&lt;/SUP&gt;Cr-release assay.</AssayComments>
+                        </AssayInformation>
+                        <MhcAlleleId>282</MhcAlleleId>
+                    </MhcBinding>
+                </Assays>
+            </Epitope>
+            <Epitope>
+                <EpitopeName>FLU M1-(17-31)</EpitopeName>
+                <EpitopeStructure>
+                    <FragmentOfANaturalSequenceMolecule>
+                        <ChemicalType>Peptide from protein</ChemicalType>
+                        <LinearSequence>SGPLKAEIAQRLEDV</LinearSequence>
+                        <StartingPosition>17</StartingPosition>
+                        <EndingPosition>31</EndingPosition>
+                        <SourceMolecule>
+                            <GenBankId>P35937.1</GenBankId>
+                        </SourceMolecule>
+                        <SourceOrganismId>11320</SourceOrganismId>
+                    </FragmentOfANaturalSequenceMolecule>
+                </EpitopeStructure>
+                <LocationOfData>Table 1</LocationOfData>
+                <EpitopeId>58177</EpitopeId>
+                <EpitopeEvidenceCode>Representative selection</EpitopeEvidenceCode>
+                <EpitopeStructureDefines>Epitope containing region/antigenic site</EpitopeStructureDefines>
+                <Assays>
+                    <MhcBinding>
+                        <LocationOfData>Figure 3</LocationOfData>
+                        <MhcBindingId>11701</MhcBindingId>
+                        <AssayInformation>
+                            <AssayTypeId>226</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <AssayComments>The epitope inhibited the binding of NP-(335-350) to HLA-B37 and inhibited the lysis of target cells by a HLA-B37-restricted NP-(335-350)-peptide-specific CTL line in a &lt;SUP&gt;51&lt;/SUP&gt;Cr-release assay.</AssayComments>
+                        </AssayInformation>
+                        <MhcAlleleId>282</MhcAlleleId>
+                    </MhcBinding>
+                </Assays>
+            </Epitope>
+            <Epitope>
+                <EpitopeName>PY CS 4-repeat</EpitopeName>
+                <EpitopeStructure>
+                    <FragmentOfANaturalSequenceMolecule>
+                        <ChemicalType>Peptide from protein</ChemicalType>
+                        <LinearSequence>PPQQPPQQPPQQPPQQ</LinearSequence>
+                        <StartingPosition>231</StartingPosition>
+                        <EndingPosition>246</EndingPosition>
+                        <SourceMolecule>
+                            <GenBankId>P06914.1</GenBankId>
+                        </SourceMolecule>
+                        <SourceOrganismId>73239</SourceOrganismId>
+                    </FragmentOfANaturalSequenceMolecule>
+                </EpitopeStructure>
+                <LocationOfData>Table 1</LocationOfData>
+                <EpitopeId>48898</EpitopeId>
+                <EpitopeEvidenceCode>Representative selection</EpitopeEvidenceCode>
+                <EpitopeStructureDefines>Epitope containing region/antigenic site</EpitopeStructureDefines>
+                <EpitopeComments>An extra N-terminal tyrosine residue was added during peptide synthesis.</EpitopeComments>
+                <Assays>
+                    <MhcBinding>
+                        <LocationOfData>Figures 2 and 3</LocationOfData>
+                        <MhcBindingId>11708</MhcBindingId>
+                        <AssayInformation>
+                            <AssayTypeId>226</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <AssayComments>The epitope inhibited the binding of NP-(335-350) to HLA-B37 and inhibited the lysis of target cells by a HLA-B37-restricted NP-(335-350)-peptide-specific CTL line in a &lt;SUP&gt;51&lt;/SUP&gt;Cr-release assay.</AssayComments>
+                        </AssayInformation>
+                        <MhcAlleleId>282</MhcAlleleId>
+                    </MhcBinding>
+                </Assays>
+            </Epitope>
+            <Epitope>
+                <EpitopeName>FLU B/Lee/40</EpitopeName>
+                <EpitopeStructure>
+                    <FragmentOfANaturalSequenceMolecule>
+                        <ChemicalType>Peptide from protein</ChemicalType>
+                        <LinearSequence>KALIGASICFLK</LinearSequence>
+                        <StartingPosition>57</StartingPosition>
+                        <EndingPosition>68</EndingPosition>
+                        <SourceMolecule>
+                            <GenBankId>P03489.1</GenBankId>
+                        </SourceMolecule>
+                        <SourceOrganismId>518987</SourceOrganismId>
+                    </FragmentOfANaturalSequenceMolecule>
+                </EpitopeStructure>
+                <LocationOfData>Table 1</LocationOfData>
+                <EpitopeId>29859</EpitopeId>
+                <EpitopeEvidenceCode>Representative selection</EpitopeEvidenceCode>
+                <EpitopeStructureDefines>Epitope containing region/antigenic site</EpitopeStructureDefines>
+                <Assays>
+                    <MhcBinding>
+                        <LocationOfData>Figures 2 and 3</LocationOfData>
+                        <MhcBindingId>11709</MhcBindingId>
+                        <AssayInformation>
+                            <AssayTypeId>226</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <AssayComments>The epitope inhibited the binding of NP-(335-350) to HLA-B37 and inhibited the lysis of target cells by a HLA-B37-restricted NP-(335-350)-peptide-specific CTL line in a &lt;SUP&gt;51&lt;/SUP&gt;Cr-release assay.</AssayComments>
+                        </AssayInformation>
+                        <MhcAlleleId>282</MhcAlleleId>
+                    </MhcBinding>
+                </Assays>
+            </Epitope>
+            <Epitope>
+                <EpitopeName>FLU HA-(127-140)</EpitopeName>
+                <EpitopeStructure>
+                    <FragmentOfANaturalSequenceMolecule>
+                        <ChemicalType>Peptide from protein</ChemicalType>
+                        <LinearSequence>NTTKGVTAACSHAG</LinearSequence>
+                        <StartingPosition>144</StartingPosition>
+                        <EndingPosition>157</EndingPosition>
+                        <SourceMolecule>
+                            <IedbAccession>SRC133</IedbAccession>
+                        </SourceMolecule>
+                        <SourceOrganismId>211044</SourceOrganismId>
+                    </FragmentOfANaturalSequenceMolecule>
+                </EpitopeStructure>
+                <LocationOfData>Table 1</LocationOfData>
+                <EpitopeId>46284</EpitopeId>
+                <ReferenceStartingPosition>127</ReferenceStartingPosition>
+                <ReferenceEndingPosition>140</ReferenceEndingPosition>
+                <EpitopeEvidenceCode>Representative selection</EpitopeEvidenceCode>
+                <EpitopeStructureDefines>Epitope containing region/antigenic site</EpitopeStructureDefines>
+                <Assays>
+                    <MhcBinding>
+                        <LocationOfData>Figures 2 and 3</LocationOfData>
+                        <MhcBindingId>11710</MhcBindingId>
+                        <AssayInformation>
+                            <AssayTypeId>226</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <AssayComments>The epitope inhibited the binding of NP-(335-350) to HLA-B37 and inhibited the lysis of target cells by a HLA-B37-restricted NP-(335-350)-peptide-specific CTL line in a &lt;SUP&gt;51&lt;/SUP&gt;Cr-release assay.</AssayComments>
+                        </AssayInformation>
+                        <MhcAlleleId>282</MhcAlleleId>
+                    </MhcBinding>
+                </Assays>
+            </Epitope>
+            <Epitope>
+                <EpitopeName>FLU HA-(518-528)</EpitopeName>
+                <EpitopeStructure>
+                    <FragmentOfANaturalSequenceMolecule>
+                        <ChemicalType>Peptide from protein</ChemicalType>
+                        <LinearSequence>IYSTVASSLVL</LinearSequence>
+                        <StartingPosition>533</StartingPosition>
+                        <EndingPosition>543</EndingPosition>
+                        <SourceMolecule>
+                            <IedbAccession>SRC133</IedbAccession>
+                        </SourceMolecule>
+                        <SourceOrganismId>211044</SourceOrganismId>
+                    </FragmentOfANaturalSequenceMolecule>
+                </EpitopeStructure>
+                <LocationOfData>Table 1</LocationOfData>
+                <EpitopeId>29691</EpitopeId>
+                <ReferenceStartingPosition>518</ReferenceStartingPosition>
+                <ReferenceEndingPosition>528</ReferenceEndingPosition>
+                <EpitopeEvidenceCode>Representative selection</EpitopeEvidenceCode>
+                <EpitopeStructureDefines>Exact Epitope</EpitopeStructureDefines>
+                <Assays>
+                    <MhcBinding>
+                        <LocationOfData>Figure 3</LocationOfData>
+                        <MhcBindingId>11711</MhcBindingId>
+                        <AssayInformation>
+                            <AssayTypeId>226</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <AssayComments>The epitope inhibited the binding of NP-(335-350) to HLA-B37 and inhibited the lysis of target cells by a HLA-B37-restricted NP-(335-350)-peptide-specific CTL line in a &lt;SUP&gt;51&lt;/SUP&gt;Cr-release assay.</AssayComments>
+                        </AssayInformation>
+                        <MhcAlleleId>282</MhcAlleleId>
+                    </MhcBinding>
+                </Assays>
+            </Epitope>
+            <Epitope>
+                <EpitopeName>RV VP4-(86-100)</EpitopeName>
+                <EpitopeStructure>
+                    <FragmentOfANaturalSequenceMolecule>
+                        <ChemicalType>Peptide from protein</ChemicalType>
+                        <LinearSequence>PTNQQVVLEGTNKTD</LinearSequence>
+                        <StartingPosition>86</StartingPosition>
+                        <EndingPosition>100</EndingPosition>
+                        <SourceMolecule>
+                            <GenBankId>P11200.2</GenBankId>
+                        </SourceMolecule>
+                        <SourceOrganismId>10960</SourceOrganismId>
+                    </FragmentOfANaturalSequenceMolecule>
+                </EpitopeStructure>
+                <LocationOfData>Table 1</LocationOfData>
+                <EpitopeId>49727</EpitopeId>
+                <EpitopeEvidenceCode>Representative selection</EpitopeEvidenceCode>
+                <EpitopeStructureDefines>Epitope containing region/antigenic site</EpitopeStructureDefines>
+                <EpitopeComments>An extra N-terminal cysteine residue was added during peptide synthesis.</EpitopeComments>
+                <Assays>
+                    <MhcBinding>
+                        <LocationOfData>Figure 3</LocationOfData>
+                        <MhcBindingId>11712</MhcBindingId>
+                        <AssayInformation>
+                            <AssayTypeId>226</AssayTypeId>
+                            <QualitativeMeasurement>Negative</QualitativeMeasurement>
+                        </AssayInformation>
+                        <MhcAlleleId>282</MhcAlleleId>
+                    </MhcBinding>
+                </Assays>
+            </Epitope>
+            <Epitope>
+                <EpitopeName>FLU PB1-(246-257)</EpitopeName>
+                <EpitopeStructure>
+                    <FragmentOfANaturalSequenceMolecule>
+                        <ChemicalType>Peptide from protein</ChemicalType>
+                        <LinearSequence>MQIRGFVYFVET</LinearSequence>
+                        <StartingPosition>246</StartingPosition>
+                        <EndingPosition>257</EndingPosition>
+                        <SourceMolecule>
+                            <GenBankId>P03432.1</GenBankId>
+                        </SourceMolecule>
+                        <SourceOrganismId>384505</SourceOrganismId>
+                    </FragmentOfANaturalSequenceMolecule>
+                </EpitopeStructure>
+                <LocationOfData>Table 1</LocationOfData>
+                <EpitopeId>42374</EpitopeId>
+                <EpitopeEvidenceCode>Representative selection</EpitopeEvidenceCode>
+                <EpitopeStructureDefines>Epitope containing region/antigenic site</EpitopeStructureDefines>
+                <Assays>
+                    <MhcBinding>
+                        <LocationOfData>Figure 3</LocationOfData>
+                        <MhcBindingId>11713</MhcBindingId>
+                        <AssayInformation>
+                            <AssayTypeId>226</AssayTypeId>
+                            <QualitativeMeasurement>Negative</QualitativeMeasurement>
+                        </AssayInformation>
+                        <MhcAlleleId>282</MhcAlleleId>
+                    </MhcBinding>
+                </Assays>
+            </Epitope>
+            <Epitope>
+                <EpitopeName>FLU HA-(307-318)</EpitopeName>
+                <EpitopeStructure>
+                    <FragmentOfANaturalSequenceMolecule>
+                        <ChemicalType>Peptide from protein</ChemicalType>
+                        <LinearSequence>PRYVRQNTLRLA</LinearSequence>
+                        <SourceMolecule>
+                            <IedbAccession>SRC133</IedbAccession>
+                        </SourceMolecule>
+                        <SourceOrganismId>211044</SourceOrganismId>
+                    </FragmentOfANaturalSequenceMolecule>
+                </EpitopeStructure>
+                <LocationOfData>Table 1</LocationOfData>
+                <EpitopeId>49284</EpitopeId>
+                <ReferenceStartingPosition>307</ReferenceStartingPosition>
+                <ReferenceEndingPosition>318</ReferenceEndingPosition>
+                <EpitopeEvidenceCode>Internal Identifier-no external match available</EpitopeEvidenceCode>
+                <EpitopeStructureDefines>Epitope containing region/antigenic site</EpitopeStructureDefines>
+                <Assays>
+                    <MhcBinding>
+                        <LocationOfData>Figure 3</LocationOfData>
+                        <MhcBindingId>1864600</MhcBindingId>
+                        <AssayInformation>
+                            <AssayTypeId>226</AssayTypeId>
+                            <QualitativeMeasurement>Negative</QualitativeMeasurement>
+                        </AssayInformation>
+                        <MhcAlleleId>282</MhcAlleleId>
+                    </MhcBinding>
+                </Assays>
+            </Epitope>
+            <Epitope>
+                <EpitopeName>FLU NP-(365-380)</EpitopeName>
+                <EpitopeStructure>
+                    <FragmentOfANaturalSequenceMolecule>
+                        <ChemicalType>Peptide from protein</ChemicalType>
+                        <LinearSequence>IASNENMDAMESSTLE</LinearSequence>
+                        <StartingPosition>365</StartingPosition>
+                        <EndingPosition>380</EndingPosition>
+                        <SourceMolecule>
+                            <GenBankId>P03467.1</GenBankId>
+                        </SourceMolecule>
+                        <SourceOrganismId>384505</SourceOrganismId>
+                    </FragmentOfANaturalSequenceMolecule>
+                </EpitopeStructure>
+                <LocationOfData>Table 1</LocationOfData>
+                <EpitopeId>25435</EpitopeId>
+                <EpitopeEvidenceCode>Representative selection</EpitopeEvidenceCode>
+                <EpitopeStructureDefines>Epitope containing region/antigenic site</EpitopeStructureDefines>
+                <Assays>
+                    <MhcBinding>
+                        <LocationOfData>Figures 2 and 3</LocationOfData>
+                        <MhcBindingId>1864601</MhcBindingId>
+                        <AssayInformation>
+                            <AssayTypeId>226</AssayTypeId>
+                            <QualitativeMeasurement>Negative</QualitativeMeasurement>
+                        </AssayInformation>
+                        <MhcAlleleId>282</MhcAlleleId>
+                    </MhcBinding>
+                </Assays>
+            </Epitope>
+            <Epitope>
+                <EpitopeName>FLU HA-(111-120)</EpitopeName>
+                <EpitopeStructure>
+                    <FragmentOfANaturalSequenceMolecule>
+                        <ChemicalType>Peptide from protein</ChemicalType>
+                        <LinearSequence>FERFEIFPKE</LinearSequence>
+                        <StartingPosition>128</StartingPosition>
+                        <EndingPosition>137</EndingPosition>
+                        <SourceMolecule>
+                            <IedbAccession>SRC133</IedbAccession>
+                        </SourceMolecule>
+                        <SourceOrganismId>211044</SourceOrganismId>
+                    </FragmentOfANaturalSequenceMolecule>
+                </EpitopeStructure>
+                <LocationOfData>Table 1</LocationOfData>
+                <EpitopeId>15631</EpitopeId>
+                <ReferenceStartingPosition>111</ReferenceStartingPosition>
+                <ReferenceEndingPosition>120</ReferenceEndingPosition>
+                <EpitopeEvidenceCode>Representative selection</EpitopeEvidenceCode>
+                <EpitopeStructureDefines>Exact Epitope</EpitopeStructureDefines>
+                <Assays>
+                    <MhcBinding>
+                        <LocationOfData>Figures 2 and 3</LocationOfData>
+                        <MhcBindingId>1864602</MhcBindingId>
+                        <AssayInformation>
+                            <AssayTypeId>226</AssayTypeId>
+                            <QualitativeMeasurement>Negative</QualitativeMeasurement>
+                        </AssayInformation>
+                        <MhcAlleleId>282</MhcAlleleId>
+                    </MhcBinding>
+                </Assays>
+            </Epitope>
+            <Epitope>
+                <EpitopeName>SM 97.3-(347-364)</EpitopeName>
+                <EpitopeStructure>
+                    <FragmentOfANaturalSequenceMolecule>
+                        <ChemicalType>Peptide from protein</ChemicalType>
+                        <LinearSequence>GDIGVMQADMDDAINAKQ</LinearSequence>
+                        <StartingPosition>649</StartingPosition>
+                        <EndingPosition>666</EndingPosition>
+                        <SourceMolecule>
+                            <GenBankId>P06198.2</GenBankId>
+                        </SourceMolecule>
+                        <SourceOrganismId>6183</SourceOrganismId>
+                    </FragmentOfANaturalSequenceMolecule>
+                </EpitopeStructure>
+                <LocationOfData>Table 1</LocationOfData>
+                <EpitopeId>19003</EpitopeId>
+                <ReferenceStartingPosition>347</ReferenceStartingPosition>
+                <ReferenceEndingPosition>364</ReferenceEndingPosition>
+                <EpitopeEvidenceCode>Representative selection</EpitopeEvidenceCode>
+                <EpitopeStructureDefines>Epitope containing region/antigenic site</EpitopeStructureDefines>
+                <Assays>
+                    <MhcBinding>
+                        <LocationOfData>Figure 3</LocationOfData>
+                        <MhcBindingId>1864603</MhcBindingId>
+                        <AssayInformation>
+                            <AssayTypeId>226</AssayTypeId>
+                            <QualitativeMeasurement>Negative</QualitativeMeasurement>
+                        </AssayInformation>
+                        <MhcAlleleId>282</MhcAlleleId>
+                    </MhcBinding>
+                </Assays>
+            </Epitope>
+            <Epitope>
+                <EpitopeName>DV NS4a-(102-119)</EpitopeName>
+                <EpitopeStructure>
+                    <FragmentOfANaturalSequenceMolecule>
+                        <ChemicalType>Peptide from protein</ChemicalType>
+                        <LinearSequence>MVLLIPEPEKQRTPQDNQ</LinearSequence>
+                        <StartingPosition>2208</StartingPosition>
+                        <EndingPosition>2225</EndingPosition>
+                        <SourceMolecule>
+                            <GenBankId>AAG45435.1</GenBankId>
+                        </SourceMolecule>
+                        <SourceOrganismId>11070</SourceOrganismId>
+                    </FragmentOfANaturalSequenceMolecule>
+                </EpitopeStructure>
+                <LocationOfData>Table 1</LocationOfData>
+                <EpitopeId>42964</EpitopeId>
+                <ReferenceStartingPosition>102</ReferenceStartingPosition>
+                <ReferenceEndingPosition>119</ReferenceEndingPosition>
+                <EpitopeEvidenceCode>Representative selection</EpitopeEvidenceCode>
+                <EpitopeStructureDefines>Epitope containing region/antigenic site</EpitopeStructureDefines>
+                <EpitopeComments>An extra N-terminal cysteine residue was added during peptide synthesis.</EpitopeComments>
+                <Assays>
+                    <MhcBinding>
+                        <LocationOfData>Figure 3</LocationOfData>
+                        <MhcBindingId>1864604</MhcBindingId>
+                        <AssayInformation>
+                            <AssayTypeId>226</AssayTypeId>
+                            <QualitativeMeasurement>Negative</QualitativeMeasurement>
+                        </AssayInformation>
+                        <MhcAlleleId>282</MhcAlleleId>
+                    </MhcBinding>
+                </Assays>
+            </Epitope>
+            <Epitope>
+                <EpitopeName>FLU PB2-(187-195)</EpitopeName>
+                <EpitopeStructure>
+                    <FragmentOfANaturalSequenceMolecule>
+                        <ChemicalType>Peptide from protein</ChemicalType>
+                        <LinearSequence>ERELVRKTR</LinearSequence>
+                        <StartingPosition>208</StartingPosition>
+                        <EndingPosition>216</EndingPosition>
+                        <SourceMolecule>
+                            <GenBankId>P03429.2</GenBankId>
+                        </SourceMolecule>
+                        <SourceOrganismId>384505</SourceOrganismId>
+                    </FragmentOfANaturalSequenceMolecule>
+                </EpitopeStructure>
+                <LocationOfData>Table 1</LocationOfData>
+                <EpitopeId>13981</EpitopeId>
+                <ReferenceStartingPosition>187</ReferenceStartingPosition>
+                <ReferenceEndingPosition>195</ReferenceEndingPosition>
+                <EpitopeEvidenceCode>Representative selection</EpitopeEvidenceCode>
+                <EpitopeStructureDefines>Exact Epitope</EpitopeStructureDefines>
+                <Assays>
+                    <MhcBinding>
+                        <LocationOfData>Figure 3</LocationOfData>
+                        <MhcBindingId>1864605</MhcBindingId>
+                        <AssayInformation>
+                            <AssayTypeId>226</AssayTypeId>
+                            <QualitativeMeasurement>Negative</QualitativeMeasurement>
+                        </AssayInformation>
+                        <MhcAlleleId>282</MhcAlleleId>
+                    </MhcBinding>
+                </Assays>
+            </Epitope>
+            <Epitope>
+                <EpitopeName>FLU PB2-(303-313)</EpitopeName>
+                <EpitopeStructure>
+                    <FragmentOfANaturalSequenceMolecule>
+                        <ChemicalType>Peptide from protein</ChemicalType>
+                        <LinearSequence>SFGGFTFKRTS</LinearSequence>
+                        <StartingPosition>324</StartingPosition>
+                        <EndingPosition>334</EndingPosition>
+                        <SourceMolecule>
+                            <GenBankId>P03429.2</GenBankId>
+                        </SourceMolecule>
+                        <SourceOrganismId>384505</SourceOrganismId>
+                    </FragmentOfANaturalSequenceMolecule>
+                </EpitopeStructure>
+                <LocationOfData>Table 1</LocationOfData>
+                <EpitopeId>57777</EpitopeId>
+                <ReferenceStartingPosition>303</ReferenceStartingPosition>
+                <ReferenceEndingPosition>313</ReferenceEndingPosition>
+                <EpitopeEvidenceCode>Representative selection</EpitopeEvidenceCode>
+                <EpitopeStructureDefines>Exact Epitope</EpitopeStructureDefines>
+                <Assays>
+                    <MhcBinding>
+                        <LocationOfData>Figure 3</LocationOfData>
+                        <MhcBindingId>1864606</MhcBindingId>
+                        <AssayInformation>
+                            <AssayTypeId>226</AssayTypeId>
+                            <QualitativeMeasurement>Negative</QualitativeMeasurement>
+                        </AssayInformation>
+                        <MhcAlleleId>282</MhcAlleleId>
+                    </MhcBinding>
+                </Assays>
+            </Epitope>
+            <Epitope>
+                <EpitopeName>HIV gp120 des-R</EpitopeName>
+                <EpitopeStructure>
+                    <SequenceMoleculeNoNaturalSource>
+                        <ChemicalType>Peptide, no natural source</ChemicalType>
+                        <LinearSequence>IQGPGAFVTIGK</LinearSequence>
+                    </SequenceMoleculeNoNaturalSource>
+                </EpitopeStructure>
+                <EpitopeRelatedObject>
+                    <RelatedObjectType>The epitope is an analog of:</RelatedObjectType>
+                    <RelatedObject>
+                        <FragmentOfANaturalSequenceMolecule>
+                            <ChemicalType>Peptide from protein</ChemicalType>
+                            <LinearSequence>IQRGPGRAFVTIGK</LinearSequence>
+                            <StartingPosition>281</StartingPosition>
+                            <EndingPosition>294</EndingPosition>
+                            <SourceMolecule>
+                                <GenBankId>NP_579894.2</GenBankId>
+                            </SourceMolecule>
+                            <SourceOrganismId>11676</SourceOrganismId>
+                        </FragmentOfANaturalSequenceMolecule>
+                    </RelatedObject>
+                </EpitopeRelatedObject>
+                <LocationOfData>Table 1</LocationOfData>
+                <EpitopeId>28161</EpitopeId>
+                <EpitopeStructureDefines>Exact Epitope</EpitopeStructureDefines>
+                <Assays>
+                    <MhcBinding>
+                        <LocationOfData>Figure 3</LocationOfData>
+                        <MhcBindingId>1864607</MhcBindingId>
+                        <AssayInformation>
+                            <AssayTypeId>226</AssayTypeId>
+                            <QualitativeMeasurement>Negative</QualitativeMeasurement>
+                        </AssayInformation>
+                        <MhcAlleleId>282</MhcAlleleId>
+                    </MhcBinding>
+                </Assays>
+            </Epitope>
+            <Epitope>
+                <EpitopeName>LCMV GP-(272-293)</EpitopeName>
+                <EpitopeStructure>
+                    <FragmentOfANaturalSequenceMolecule>
+                        <ChemicalType>Peptide from protein</ChemicalType>
+                        <LinearSequence>LSDSSGVENPGGYCLTKWMILA</LinearSequence>
+                        <StartingPosition>272</StartingPosition>
+                        <EndingPosition>293</EndingPosition>
+                        <SourceMolecule>
+                            <GenBankId>P07399.1</GenBankId>
+                        </SourceMolecule>
+                        <SourceOrganismId>11627</SourceOrganismId>
+                    </FragmentOfANaturalSequenceMolecule>
+                </EpitopeStructure>
+                <LocationOfData>Table 1</LocationOfData>
+                <EpitopeId>39321</EpitopeId>
+                <EpitopeEvidenceCode>Representative selection</EpitopeEvidenceCode>
+                <EpitopeStructureDefines>Epitope containing region/antigenic site</EpitopeStructureDefines>
+                <Assays>
+                    <MhcBinding>
+                        <LocationOfData>Figure 3</LocationOfData>
+                        <MhcBindingId>1864608</MhcBindingId>
+                        <AssayInformation>
+                            <AssayTypeId>226</AssayTypeId>
+                            <QualitativeMeasurement>Negative</QualitativeMeasurement>
+                        </AssayInformation>
+                        <MhcAlleleId>282</MhcAlleleId>
+                    </MhcBinding>
+                </Assays>
+            </Epitope>
+            <Epitope>
+                <EpitopeName>HAV VP4-(1-23)</EpitopeName>
+                <EpitopeStructure>
+                    <FragmentOfANaturalSequenceMolecule>
+                        <ChemicalType>Peptide from protein</ChemicalType>
+                        <LinearSequence>MNMSKQGIFQTVGSGLDHILSLA</LinearSequence>
+                        <StartingPosition>1</StartingPosition>
+                        <EndingPosition>23</EndingPosition>
+                        <SourceMolecule>
+                            <GenBankId>P06441.1</GenBankId>
+                        </SourceMolecule>
+                        <SourceOrganismId>12092</SourceOrganismId>
+                    </FragmentOfANaturalSequenceMolecule>
+                </EpitopeStructure>
+                <LocationOfData>Table 1</LocationOfData>
+                <EpitopeId>42220</EpitopeId>
+                <EpitopeEvidenceCode>Representative selection</EpitopeEvidenceCode>
+                <EpitopeStructureDefines>Epitope containing region/antigenic site</EpitopeStructureDefines>
+                <EpitopeComments>An extra C-terminal cysteine residue was added during peptide synthesis.</EpitopeComments>
+                <Assays>
+                    <MhcBinding>
+                        <LocationOfData>Figure 3</LocationOfData>
+                        <MhcBindingId>1864609</MhcBindingId>
+                        <AssayInformation>
+                            <AssayTypeId>226</AssayTypeId>
+                            <QualitativeMeasurement>Negative</QualitativeMeasurement>
+                        </AssayInformation>
+                        <MhcAlleleId>282</MhcAlleleId>
+                    </MhcBinding>
+                </Assays>
+            </Epitope>
+            <Epitope>
+                <EpitopeName>AT III-(281-298)</EpitopeName>
+                <EpitopeStructure>
+                    <FragmentOfANaturalSequenceMolecule>
+                        <ChemicalType>Peptide from protein</ChemicalType>
+                        <LinearSequence>MVLILPKPEKSLAKVEKE</LinearSequence>
+                        <StartingPosition>313</StartingPosition>
+                        <EndingPosition>330</EndingPosition>
+                        <SourceMolecule>
+                            <GenBankId>P01008.1</GenBankId>
+                        </SourceMolecule>
+                        <SourceOrganismId>9606</SourceOrganismId>
+                    </FragmentOfANaturalSequenceMolecule>
+                </EpitopeStructure>
+                <LocationOfData>Table 1</LocationOfData>
+                <EpitopeId>42961</EpitopeId>
+                <ReferenceStartingPosition>281</ReferenceStartingPosition>
+                <ReferenceEndingPosition>298</ReferenceEndingPosition>
+                <EpitopeEvidenceCode>Representative selection</EpitopeEvidenceCode>
+                <EpitopeStructureDefines>Epitope containing region/antigenic site</EpitopeStructureDefines>
+                <EpitopeComments>An extra N-terminal Cysteine residue was added during peptide synthesis.</EpitopeComments>
+                <Assays>
+                    <MhcBinding>
+                        <LocationOfData>Figure 3</LocationOfData>
+                        <MhcBindingId>1864610</MhcBindingId>
+                        <AssayInformation>
+                            <AssayTypeId>226</AssayTypeId>
+                            <QualitativeMeasurement>Negative</QualitativeMeasurement>
+                        </AssayInformation>
+                        <MhcAlleleId>282</MhcAlleleId>
+                    </MhcBinding>
+                </Assays>
+            </Epitope>
+            <Epitope>
+                <EpitopeName>FLU PB1-(403-414)</EpitopeName>
+                <EpitopeStructure>
+                    <FragmentOfANaturalSequenceMolecule>
+                        <ChemicalType>Peptide from protein</ChemicalType>
+                        <LinearSequence>LSPGMMMGMFNM</LinearSequence>
+                        <StartingPosition>403</StartingPosition>
+                        <EndingPosition>414</EndingPosition>
+                        <SourceMolecule>
+                            <GenBankId>P03432.1</GenBankId>
+                        </SourceMolecule>
+                        <SourceOrganismId>384505</SourceOrganismId>
+                    </FragmentOfANaturalSequenceMolecule>
+                </EpitopeStructure>
+                <LocationOfData>Table 1</LocationOfData>
+                <EpitopeId>39535</EpitopeId>
+                <EpitopeEvidenceCode>Representative selection</EpitopeEvidenceCode>
+                <EpitopeStructureDefines>Epitope containing region/antigenic site</EpitopeStructureDefines>
+                <Assays>
+                    <MhcBinding>
+                        <LocationOfData>Figure 3</LocationOfData>
+                        <MhcBindingId>1864611</MhcBindingId>
+                        <AssayInformation>
+                            <AssayTypeId>226</AssayTypeId>
+                            <QualitativeMeasurement>Negative</QualitativeMeasurement>
+                        </AssayInformation>
+                        <MhcAlleleId>282</MhcAlleleId>
+                    </MhcBinding>
+                </Assays>
+            </Epitope>
+            <Epitope>
+                <EpitopeName>FLU M1-(55-73)</EpitopeName>
+                <EpitopeStructure>
+                    <FragmentOfANaturalSequenceMolecule>
+                        <ChemicalType>Peptide from protein</ChemicalType>
+                        <LinearSequence>LTKGILGFVFTLTVPSERG</LinearSequence>
+                        <StartingPosition>55</StartingPosition>
+                        <EndingPosition>73</EndingPosition>
+                        <SourceMolecule>
+                            <GenBankId>P35937.1</GenBankId>
+                        </SourceMolecule>
+                        <SourceOrganismId>11320</SourceOrganismId>
+                    </FragmentOfANaturalSequenceMolecule>
+                </EpitopeStructure>
+                <LocationOfData>Table 1</LocationOfData>
+                <EpitopeId>39989</EpitopeId>
+                <EpitopeEvidenceCode>Representative selection</EpitopeEvidenceCode>
+                <EpitopeStructureDefines>Epitope containing region/antigenic site</EpitopeStructureDefines>
+                <Assays>
+                    <MhcBinding>
+                        <LocationOfData>Figure 3</LocationOfData>
+                        <MhcBindingId>1864612</MhcBindingId>
+                        <AssayInformation>
+                            <AssayTypeId>226</AssayTypeId>
+                            <QualitativeMeasurement>Negative</QualitativeMeasurement>
+                        </AssayInformation>
+                        <MhcAlleleId>282</MhcAlleleId>
+                    </MhcBinding>
+                </Assays>
+            </Epitope>
+        </Epitopes>
+    </Reference>
+</References>
+

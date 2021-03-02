@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<References xsi:schemaLocation="http://www.iedb.org/schema/CurationSchema http://beta.iedb.org/schema/Curation.xsd" xmlns="http://www.iedb.org/schema/CurationSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <Reference>
+        <ReferenceId>315017</ReferenceId>
+        <DateLastUpdated>2020-09-10-07:00</DateLastUpdated>
+        <Article>
+            <PubmedId>1709722</PubmedId>
+            <Abstract>The crystal structures of major histocompatibility complex (MHC) molecules contain a groove occupied by heterogeneous material thought to represent peptides central to immune recognition, although until now relatively little characterization of the peptides has been possible. Exact information about the contents of MHC grooves is now provided. Moreover, each MHC class I allele has its individual rules to which peptides presented in the groove adhere.</Abstract>
+            <ArticleYear>1991</ArticleYear>
+            <ArticlePages>290-6</ArticlePages>
+            <ArticleTitle>Allele-specific motifs revealed by sequencing of self-peptides eluted from MHC molecules.</ArticleTitle>
+            <Authors>
+                <Author>
+                    <LastName>Falk</LastName>
+                    <ForeName>K</ForeName>
+                </Author>
+                <Author>
+                    <LastName>Rötzschke</LastName>
+                    <ForeName>O</ForeName>
+                </Author>
+                <Author>
+                    <LastName>Stevanović</LastName>
+                    <ForeName>S</ForeName>
+                </Author>
+                <Author>
+                    <LastName>Jung</LastName>
+                    <ForeName>G</ForeName>
+                </Author>
+                <Author>
+                    <LastName>Rammensee</LastName>
+                    <ForeName>H G</ForeName>
+                </Author>
+            </Authors>
+            <Affiliations>Max-Planck-Institut für Biologie, Abteilung Immungenetik, Tübingen, Germany.</Affiliations>
+            <ArticleChemicalList>Epitopes;Gene Products, gag;H-2 Antigens;HLA-A2 Antigen;Macromolecular Substances;Peptides</ArticleChemicalList>
+            <ArticleMeshHeadingsList>Alleles; Amino Acid Sequence; Animals; Chromatography, High Pressure Liquid; Epitopes(analysis; genetics); Gene Products, gag(genetics); H-2 Antigens(genetics); HIV(genetics); HLA-A2 Antigen(genetics); Macromolecular Substances; Major Histocompatibility Complex; Molecular Sequence Data; Peptides(genetics; isolation &amp; purification); Sequence Homology, Nucleic Acid</ArticleMeshHeadingsList>
+            <Journal>
+                <Volume>351</Volume>
+                <Issue>6324</Issue>
+                <Title>Nature</Title>
+                <Issn>1476-4687</Issn>
+                <MedlineTa>Nature</MedlineTa>
+            </Journal>
+        </Article>
+        <Epitopes>
+            <Epitope>
+                <EpitopeName>Self-peptide of P815</EpitopeName>
+                <EpitopeStructure>
+                    <FragmentOfANaturalSequenceMolecule>
+                        <ChemicalType>Peptide from protein</ChemicalType>
+                        <LinearSequence>SYFPEITHI</LinearSequence>
+                        <StartingPosition>367</StartingPosition>
+                        <EndingPosition>375</EndingPosition>
+                        <SourceMolecule>
+                            <GenBankId>P52332.1</GenBankId>
+                        </SourceMolecule>
+                        <SourceOrganismId>10090</SourceOrganismId>
+                    </FragmentOfANaturalSequenceMolecule>
+                </EpitopeStructure>
+                <LocationOfData>Table 1</LocationOfData>
+                <EpitopeId>62543</EpitopeId>
+                <ReferenceStartingPosition>367</ReferenceStartingPosition>
+                <ReferenceEndingPosition>375</ReferenceEndingPosition>
+                <EpitopeEvidenceCode>Representative selection</EpitopeEvidenceCode>
+                <EpitopeStructureDefines>Exact Epitope</EpitopeStructureDefines>
+                <EpitopeComments>Naturally processed peptide was eluted from immunoprecipitated K&lt;sup&gt;d&lt;/sup&gt; molecules and sequenced. Identity was confirmed by its coelution with synthetic peptide. Source protein deduced by BLAST search.</EpitopeComments>
+                <Assays>
+                    <MhcLigandElution>
+                        <LocationOfData>Figure 1</LocationOfData>
+                        <MhcLigandElutionId>1267645</MhcLigandElutionId>
+                        <HostOrganism>
+                            <OrganismId>10090</OrganismId>
+                        </HostOrganism>
+                        <InVivoProcess>
+                            <InVivoProcessType>No immunization</InVivoProcessType>
+                        </InVivoProcess>
+                        <MhcLigand>
+                            <MhcLigandReferenceName>Self-peptide of P815</MhcLigandReferenceName>
+                            <MhcLigandObject>
+                                <EpitopeRelation>Epitope</EpitopeRelation>
+                                <Object>
+                                    <FragmentOfANaturalSequenceMolecule>
+                                        <ChemicalType>Peptide from protein</ChemicalType>
+                                        <LinearSequence>SYFPEITHI</LinearSequence>
+                                        <StartingPosition>367</StartingPosition>
+                                        <EndingPosition>375</EndingPosition>
+                                        <SourceMolecule>
+                                            <GenBankId>P52332.1</GenBankId>
+                                        </SourceMolecule>
+                                        <SourceOrganismId>10090</SourceOrganismId>
+                                    </FragmentOfANaturalSequenceMolecule>
+                                </Object>
+                            </MhcLigandObject>
+                        </MhcLigand>
+                        <AntigenPresentingCells>
+                            <CellTissueType>Other</CellTissueType>
+                            <CellType>P815-Mast cell</CellType>
+                            <CellCultureConditions>Cell Line / Clone</CellCultureConditions>
+                        </AntigenPresentingCells>
+                        <MhcAllele>
+                            <MhcAlleleId>124</MhcAlleleId>
+                            <MhcEvidenceCode>Antibody purification</MhcEvidenceCode>
+                        </MhcAllele>
+                        <AssayInformation>
+                            <AssayTypeId>252</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <AssayComments>The epitope was the dominant HPLC peak of self peptides and was estimated to occupy about 5% of K&lt;sup&gt;d&lt;/sup&gt; molecules of P815 cells.</AssayComments>
+                        </AssayInformation>
+                    </MhcLigandElution>
+                </Assays>
+            </Epitope>
+        </Epitopes>
+    </Reference>
+</References>
+

@@ -1,0 +1,540 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<References xsi:schemaLocation="http://www.iedb.org/schema/CurationSchema http://beta.iedb.org/schema/Curation.xsd" xmlns="http://www.iedb.org/schema/CurationSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <Reference>
+        <ReferenceId>1358</ReferenceId>
+        <DateLastUpdated>2020-09-10-07:00</DateLastUpdated>
+        <Article>
+            <PubmedId>11119563</PubmedId>
+            <Abstract>Protective monoclonal antibodies (MAbs) to the major outer membrane protein (MOMP) of species of the family Chlamydiaceae, which is the primary vaccine candidate antigen, recognize nonlinear epitopes conferred by the oligomeric conformation of the molecule. Protective MAbs failed to recognize oligomeric MOMP of the variant strain LLG, which bears amino acid substitutions in variable segments (VSs) 1, 2, and 4, and competed with monomer-specific MAbs mapping to these VSs in reference strain 577. The results suggest that multiple sites located in the three VSs contribute to the epitope of protective MAbs.</Abstract>
+            <ArticleYear>2001</ArticleYear>
+            <ArticlePages>607-12</ArticlePages>
+            <ArticleTitle>Identification of protective epitopes by sequencing of the major outer membrane protein gene of a variant strain of Chlamydia psittaci serotype 1 (Chlamydophila abortus).</ArticleTitle>
+            <Authors>
+                <Author>
+                    <LastName>Vretou</LastName>
+                    <ForeName>E</ForeName>
+                </Author>
+                <Author>
+                    <LastName>Psarrou</LastName>
+                    <ForeName>E</ForeName>
+                </Author>
+                <Author>
+                    <LastName>Kaisar</LastName>
+                    <ForeName>M</ForeName>
+                </Author>
+                <Author>
+                    <LastName>Vlisidou</LastName>
+                    <ForeName>I</ForeName>
+                </Author>
+                <Author>
+                    <LastName>Salti-Montesanto</LastName>
+                    <ForeName>V</ForeName>
+                </Author>
+                <Author>
+                    <LastName>Longbottom</LastName>
+                    <ForeName>D</ForeName>
+                </Author>
+            </Authors>
+            <Affiliations>Department of Microbiology, Hellenic Pasteur Institute, Athens 115 21, Greece. evretou@netor.gr.</Affiliations>
+            <ArticleChemicalList>Antibodies, Monoclonal;Bacterial Outer Membrane Proteins;Porins</ArticleChemicalList>
+            <ArticleMeshHeadingsList>Amino Acid Sequence; Antibodies, Monoclonal(immunology); Bacterial Outer Membrane Proteins(chemistry; genetics; immunology); Chlamydophila psittaci(immunology); Epitope Mapping; Molecular Sequence Data; Porins(immunology)</ArticleMeshHeadingsList>
+            <Journal>
+                <Volume>69</Volume>
+                <Issue>1</Issue>
+                <Title>Infection and immunity</Title>
+                <Issn>0019-9567</Issn>
+                <MedlineTa>Infect Immun</MedlineTa>
+            </Journal>
+        </Article>
+        <Epitopes>
+            <Epitope>
+                <EpitopeName>A11</EpitopeName>
+                <EpitopeStructure>
+                    <DiscontinuousRegionOnAccessionSequenceMolecule>
+                        <ChemicalType>Discontinuous protein residues</ChemicalType>
+                        <DiscontinuousResidues>N96, I165, A326, S330</DiscontinuousResidues>
+                        <SourceMolecule>
+                            <GenBankId>P16567.1</GenBankId>
+                        </SourceMolecule>
+                        <SourceOrganismId>10000559</SourceOrganismId>
+                    </DiscontinuousRegionOnAccessionSequenceMolecule>
+                </EpitopeStructure>
+                <LocationOfData>Table 1</LocationOfData>
+                <EpitopeId>77555</EpitopeId>
+                <ReferenceRegion>N96, I165, A326, S330</ReferenceRegion>
+                <EpitopeEvidenceCode>Not determined</EpitopeEvidenceCode>
+                <EpitopeStructureDefines>Partial Epitope</EpitopeStructureDefines>
+                <EpitopeComments>Sequencing of the escape mutant of C. abortus strain 577 led to the identification of the conformational epitope or critical amino acid involved in the binding of the monoclonal antibodies A11.  The location of the epitope was confirmed by the analysis of the competitive interaction between anti-monomeric and anti-oligomeric monoclonal antibodies.</EpitopeComments>
+                <Assays>
+                    <BCell>
+                        <LocationOfData>Table 1</LocationOfData>
+                        <BCellId>21524</BCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>10090</OrganismId>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Administration in vivo</InVivoProcessType>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Source Organism</EpitopeRelation>
+                                    <Object>
+                                        <Organism>
+                                            <SubType>Organism</SubType>
+                                            <SourceOrganismId>10000559</SourceOrganismId>
+                                        </Organism>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenReferenceName>Chlamydophila abortus</ImmunogenReferenceName>
+                                <ImmunogenEvidenceCode>Not determined</ImmunogenEvidenceCode>
+                            </FirstInVivoProcess>
+                            <ImmunizationComments>Details about the immunization procedure to generate the monoclonal antibody not presented.</ImmunizationComments>
+                        </Immunization>
+                        <AssayInformation>
+                            <AssayTypeId>316</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <AssayComments>Monoclonal antibodies F3 and 1B8 also inhibited Chlamydophila abortus strain 577 to infect hamster kidney cells (HaK, ATCC no. CCL15).</AssayComments>
+                        </AssayInformation>
+                        <AssayedAntibody>
+                            <AssayedAntibodyPurificationStatus>Monoclonal</AssayedAntibodyPurificationStatus>
+                            <AssayedAntibodyName>A11</AssayedAntibodyName>
+                        </AssayedAntibody>
+                        <Antigen>
+                            <AntigenReferenceName>Chlamydophila abortus</AntigenReferenceName>
+                            <AntigenConformation>Native</AntigenConformation>
+                            <AntigenObject>
+                                <EpitopeRelation>Source Organism</EpitopeRelation>
+                                <Object>
+                                    <Organism>
+                                        <SubType>Organism</SubType>
+                                        <SourceOrganismId>10000559</SourceOrganismId>
+                                    </Organism>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Not determined</AntigenEvidenceCode>
+                        </Antigen>
+                    </BCell>
+                </Assays>
+                <Assays>
+                    <BCell>
+                        <LocationOfData>Figure 1</LocationOfData>
+                        <BCellId>21527</BCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>10090</OrganismId>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Administration in vivo</InVivoProcessType>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Source Organism</EpitopeRelation>
+                                    <Object>
+                                        <Organism>
+                                            <SubType>Organism</SubType>
+                                            <SourceOrganismId>10000559</SourceOrganismId>
+                                        </Organism>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenReferenceName>Chlamydophila abortus</ImmunogenReferenceName>
+                                <ImmunogenEvidenceCode>Not determined</ImmunogenEvidenceCode>
+                            </FirstInVivoProcess>
+                            <ImmunizationComments>Details about the immunization procedure to generate the monoclonal antibody were not presented.</ImmunizationComments>
+                        </Immunization>
+                        <AssayInformation>
+                            <AssayTypeId>37</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <AssayComments>Binding of monoclonal antibody to MOMP monomer probed with heated chlamydial elementary body (EB) of strain 577.</AssayComments>
+                        </AssayInformation>
+                        <AssayedAntibody>
+                            <AssayedAntibodyPurificationStatus>Monoclonal</AssayedAntibodyPurificationStatus>
+                            <AssayedAntibodyName>A11</AssayedAntibodyName>
+                        </AssayedAntibody>
+                        <Antigen>
+                            <AntigenReferenceName>Major outer membrane protein precursor</AntigenReferenceName>
+                            <AntigenConformation>Non-Native/Unknown</AntigenConformation>
+                            <AntigenObject>
+                                <EpitopeRelation>Source Antigen</EpitopeRelation>
+                                <Object>
+                                    <AccessionSequenceMolecule>
+                                        <ChemicalType>Protein</ChemicalType>
+                                        <Molecule>
+                                            <GenBankId>P16567.1</GenBankId>
+                                        </Molecule>
+                                        <SourceOrganismId>10000559</SourceOrganismId>
+                                    </AccessionSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Not determined</AntigenEvidenceCode>
+                        </Antigen>
+                    </BCell>
+                </Assays>
+            </Epitope>
+            <Epitope>
+                <EpitopeName>188-VS1</EpitopeName>
+                <EpitopeStructure>
+                    <FragmentOfANaturalSequenceMolecule>
+                        <ChemicalType>Peptide from protein</ChemicalType>
+                        <LinearSequence>PTGTAAANYKTP</LinearSequence>
+                        <StartingPosition>89</StartingPosition>
+                        <EndingPosition>100</EndingPosition>
+                        <SourceMolecule>
+                            <GenBankId>P16567.1</GenBankId>
+                        </SourceMolecule>
+                        <SourceOrganismId>83555</SourceOrganismId>
+                    </FragmentOfANaturalSequenceMolecule>
+                </EpitopeStructure>
+                <LocationOfData>Table 1</LocationOfData>
+                <EpitopeId>49645</EpitopeId>
+                <ReferenceStartingPosition>89</ReferenceStartingPosition>
+                <ReferenceEndingPosition>100</ReferenceEndingPosition>
+                <EpitopeEvidenceCode>Not determined</EpitopeEvidenceCode>
+                <EpitopeStructureDefines>Exact Epitope</EpitopeStructureDefines>
+                <Assays>
+                    <BCell>
+                        <LocationOfData>Table 1</LocationOfData>
+                        <BCellId>1269673</BCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>10090</OrganismId>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Administration in vivo</InVivoProcessType>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Source Organism</EpitopeRelation>
+                                    <Object>
+                                        <Organism>
+                                            <SubType>Organism</SubType>
+                                            <SourceOrganismId>83555</SourceOrganismId>
+                                        </Organism>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenReferenceName>Chlamydophila abortus</ImmunogenReferenceName>
+                                <ImmunogenEvidenceCode>Not determined</ImmunogenEvidenceCode>
+                            </FirstInVivoProcess>
+                            <ImmunizationComments>Details about the immunizatiobn were not available.</ImmunizationComments>
+                        </Immunization>
+                        <AssayInformation>
+                            <AssayTypeId>316</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <QuantitativeMeasurement>30.0</QuantitativeMeasurement>
+                            <AssayComments>Substitution of asparagine by aspartic acid in position 96 decreased the binding of Mab 188 by 20%.</AssayComments>
+                        </AssayInformation>
+                        <AssayedAntibody>
+                            <AssayedAntibodyPurificationStatus>Monoclonal</AssayedAntibodyPurificationStatus>
+                            <AssayedAntibodyName>Mab 188</AssayedAntibodyName>
+                        </AssayedAntibody>
+                        <Antigen>
+                            <AntigenReferenceName>Chlamydophila abortus</AntigenReferenceName>
+                            <AntigenConformation>Native</AntigenConformation>
+                            <AntigenObject>
+                                <EpitopeRelation>Source Organism</EpitopeRelation>
+                                <Object>
+                                    <Organism>
+                                        <SubType>Organism</SubType>
+                                        <SourceOrganismId>83555</SourceOrganismId>
+                                    </Organism>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Not determined</AntigenEvidenceCode>
+                        </Antigen>
+                    </BCell>
+                </Assays>
+                <Assays>
+                    <BCell>
+                        <LocationOfData>Figure 1</LocationOfData>
+                        <BCellId>1269710</BCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>10090</OrganismId>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Administration in vivo</InVivoProcessType>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Source Organism</EpitopeRelation>
+                                    <Object>
+                                        <Organism>
+                                            <SubType>Organism</SubType>
+                                            <SourceOrganismId>83555</SourceOrganismId>
+                                        </Organism>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenReferenceName>Chlamydophila abortus</ImmunogenReferenceName>
+                                <ImmunogenEvidenceCode>Not determined</ImmunogenEvidenceCode>
+                            </FirstInVivoProcess>
+                            <ImmunizationComments>Details about the immunizatiobn were not available.</ImmunizationComments>
+                        </Immunization>
+                        <AssayInformation>
+                            <AssayTypeId>37</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                        </AssayInformation>
+                        <AssayedAntibody>
+                            <AssayedAntibodyPurificationStatus>Monoclonal</AssayedAntibodyPurificationStatus>
+                            <AssayedAntibodyName>Mab 188</AssayedAntibodyName>
+                        </AssayedAntibody>
+                        <Antigen>
+                            <AntigenReferenceName>Major outer membrane protein precursor</AntigenReferenceName>
+                            <AntigenConformation>Non-Native/Unknown</AntigenConformation>
+                            <AntigenObject>
+                                <EpitopeRelation>Source Antigen</EpitopeRelation>
+                                <Object>
+                                    <AccessionSequenceMolecule>
+                                        <ChemicalType>Protein</ChemicalType>
+                                        <Molecule>
+                                            <GenBankId>P16567.1</GenBankId>
+                                        </Molecule>
+                                        <SourceOrganismId>83555</SourceOrganismId>
+                                    </AccessionSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Not determined</AntigenEvidenceCode>
+                        </Antigen>
+                    </BCell>
+                </Assays>
+            </Epitope>
+            <Epitope>
+                <EpitopeName>4/11-VS2</EpitopeName>
+                <EpitopeStructure>
+                    <FragmentOfANaturalSequenceMolecule>
+                        <ChemicalType>Peptide from protein</ChemicalType>
+                        <LinearSequence>GSSIAADQLP</LinearSequence>
+                        <StartingPosition>162</StartingPosition>
+                        <EndingPosition>171</EndingPosition>
+                        <SourceMolecule>
+                            <GenBankId>P16567.1</GenBankId>
+                        </SourceMolecule>
+                        <SourceOrganismId>83555</SourceOrganismId>
+                    </FragmentOfANaturalSequenceMolecule>
+                </EpitopeStructure>
+                <LocationOfData>Table 1</LocationOfData>
+                <EpitopeId>22509</EpitopeId>
+                <ReferenceStartingPosition>162</ReferenceStartingPosition>
+                <ReferenceEndingPosition>171</ReferenceEndingPosition>
+                <EpitopeEvidenceCode>Not determined</EpitopeEvidenceCode>
+                <EpitopeStructureDefines>Exact Epitope</EpitopeStructureDefines>
+                <Assays>
+                    <BCell>
+                        <LocationOfData>Figure 1</LocationOfData>
+                        <BCellId>1269711</BCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>10090</OrganismId>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Administration in vivo</InVivoProcessType>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Source Organism</EpitopeRelation>
+                                    <Object>
+                                        <Organism>
+                                            <SubType>Organism</SubType>
+                                            <SourceOrganismId>83555</SourceOrganismId>
+                                        </Organism>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenReferenceName>Chlamydophila abortus</ImmunogenReferenceName>
+                                <ImmunogenEvidenceCode>Not determined</ImmunogenEvidenceCode>
+                            </FirstInVivoProcess>
+                            <ImmunizationComments>Details about the immunizatiobn were not available.</ImmunizationComments>
+                        </Immunization>
+                        <AssayInformation>
+                            <AssayTypeId>37</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <AssayComments>The monoclonal antibody bound to MOMP monomere and oligomer.</AssayComments>
+                        </AssayInformation>
+                        <AssayedAntibody>
+                            <AssayedAntibodyPurificationStatus>Monoclonal</AssayedAntibodyPurificationStatus>
+                            <AssayedAntibodyName>Mab 4/11</AssayedAntibodyName>
+                        </AssayedAntibody>
+                        <Antigen>
+                            <AntigenReferenceName>Major outer membrane protein precursor</AntigenReferenceName>
+                            <AntigenConformation>Non-Native/Unknown</AntigenConformation>
+                            <AntigenObject>
+                                <EpitopeRelation>Source Antigen</EpitopeRelation>
+                                <Object>
+                                    <AccessionSequenceMolecule>
+                                        <ChemicalType>Protein</ChemicalType>
+                                        <Molecule>
+                                            <GenBankId>P16567.1</GenBankId>
+                                        </Molecule>
+                                        <SourceOrganismId>83555</SourceOrganismId>
+                                    </AccessionSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Not determined</AntigenEvidenceCode>
+                        </Antigen>
+                    </BCell>
+                </Assays>
+                <Assays>
+                    <BCell>
+                        <LocationOfData>Table 1</LocationOfData>
+                        <BCellId>1269708</BCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>10090</OrganismId>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Administration in vivo</InVivoProcessType>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Source Organism</EpitopeRelation>
+                                    <Object>
+                                        <Organism>
+                                            <SubType>Organism</SubType>
+                                            <SourceOrganismId>83555</SourceOrganismId>
+                                        </Organism>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenReferenceName>Chlamydophila abortus</ImmunogenReferenceName>
+                                <ImmunogenEvidenceCode>Not determined</ImmunogenEvidenceCode>
+                            </FirstInVivoProcess>
+                            <ImmunizationComments>Details about the immunizatiobn were not available.</ImmunizationComments>
+                        </Immunization>
+                        <AssayInformation>
+                            <AssayTypeId>316</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <QuantitativeMeasurement>30.0</QuantitativeMeasurement>
+                            <MeasurementInequality>=</MeasurementInequality>
+                        </AssayInformation>
+                        <AssayedAntibody>
+                            <AssayedAntibodyPurificationStatus>Monoclonal</AssayedAntibodyPurificationStatus>
+                            <AssayedAntibodyName>Mab 4/11</AssayedAntibodyName>
+                        </AssayedAntibody>
+                        <Antigen>
+                            <AntigenReferenceName>Chlamydophila abortus</AntigenReferenceName>
+                            <AntigenConformation>Native</AntigenConformation>
+                            <AntigenObject>
+                                <EpitopeRelation>Source Organism</EpitopeRelation>
+                                <Object>
+                                    <Organism>
+                                        <SubType>Organism</SubType>
+                                        <SourceOrganismId>83555</SourceOrganismId>
+                                    </Organism>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Not determined</AntigenEvidenceCode>
+                        </Antigen>
+                    </BCell>
+                </Assays>
+            </Epitope>
+            <Epitope>
+                <EpitopeName>202-VS4</EpitopeName>
+                <EpitopeStructure>
+                    <FragmentOfANaturalSequenceMolecule>
+                        <ChemicalType>Peptide from protein</ChemicalType>
+                        <LinearSequence>AAVLNLTTWNPTLL</LinearSequence>
+                        <StartingPosition>308</StartingPosition>
+                        <EndingPosition>321</EndingPosition>
+                        <SourceMolecule>
+                            <GenBankId>P16567.1</GenBankId>
+                        </SourceMolecule>
+                        <SourceOrganismId>83555</SourceOrganismId>
+                    </FragmentOfANaturalSequenceMolecule>
+                </EpitopeStructure>
+                <LocationOfData>Table 1</LocationOfData>
+                <EpitopeId>494</EpitopeId>
+                <ReferenceStartingPosition>308</ReferenceStartingPosition>
+                <ReferenceEndingPosition>321</ReferenceEndingPosition>
+                <EpitopeEvidenceCode>Not determined</EpitopeEvidenceCode>
+                <EpitopeStructureDefines>Epitope containing region/antigenic site</EpitopeStructureDefines>
+                <Assays>
+                    <BCell>
+                        <LocationOfData>Figure 1</LocationOfData>
+                        <BCellId>1269712</BCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>10090</OrganismId>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Administration in vivo</InVivoProcessType>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Source Organism</EpitopeRelation>
+                                    <Object>
+                                        <Organism>
+                                            <SubType>Organism</SubType>
+                                            <SourceOrganismId>83555</SourceOrganismId>
+                                        </Organism>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenReferenceName>Chlamydophila abortus</ImmunogenReferenceName>
+                                <ImmunogenEvidenceCode>Not determined</ImmunogenEvidenceCode>
+                            </FirstInVivoProcess>
+                            <ImmunizationComments>Details about the immunizatiobn were not available.</ImmunizationComments>
+                        </Immunization>
+                        <AssayInformation>
+                            <AssayTypeId>37</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                        </AssayInformation>
+                        <AssayedAntibody>
+                            <AssayedAntibodyPurificationStatus>Monoclonal</AssayedAntibodyPurificationStatus>
+                            <AssayedAntibodyName>Mab 202</AssayedAntibodyName>
+                        </AssayedAntibody>
+                        <Antigen>
+                            <AntigenReferenceName>Major outer membrane protein precursor</AntigenReferenceName>
+                            <AntigenConformation>Non-Native/Unknown</AntigenConformation>
+                            <AntigenObject>
+                                <EpitopeRelation>Source Antigen</EpitopeRelation>
+                                <Object>
+                                    <AccessionSequenceMolecule>
+                                        <ChemicalType>Protein</ChemicalType>
+                                        <Molecule>
+                                            <GenBankId>P16567.1</GenBankId>
+                                        </Molecule>
+                                        <SourceOrganismId>83555</SourceOrganismId>
+                                    </AccessionSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Not determined</AntigenEvidenceCode>
+                        </Antigen>
+                    </BCell>
+                </Assays>
+                <Assays>
+                    <BCell>
+                        <LocationOfData>Table 1</LocationOfData>
+                        <BCellId>1269709</BCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>10090</OrganismId>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Administration in vivo</InVivoProcessType>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Source Organism</EpitopeRelation>
+                                    <Object>
+                                        <Organism>
+                                            <SubType>Organism</SubType>
+                                            <SourceOrganismId>83555</SourceOrganismId>
+                                        </Organism>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenReferenceName>Chlamydophila abortus</ImmunogenReferenceName>
+                                <ImmunogenEvidenceCode>Not determined</ImmunogenEvidenceCode>
+                            </FirstInVivoProcess>
+                            <ImmunizationComments>Details about the immunizatiobn were not available.</ImmunizationComments>
+                        </Immunization>
+                        <AssayInformation>
+                            <AssayTypeId>316</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <QuantitativeMeasurement>45.0</QuantitativeMeasurement>
+                            <MeasurementInequality>=</MeasurementInequality>
+                        </AssayInformation>
+                        <AssayedAntibody>
+                            <AssayedAntibodyPurificationStatus>Monoclonal</AssayedAntibodyPurificationStatus>
+                            <AssayedAntibodyName>Mab 202</AssayedAntibodyName>
+                        </AssayedAntibody>
+                        <Antigen>
+                            <AntigenReferenceName>Chlamydophila abortus</AntigenReferenceName>
+                            <AntigenConformation>Native</AntigenConformation>
+                            <AntigenObject>
+                                <EpitopeRelation>Source Organism</EpitopeRelation>
+                                <Object>
+                                    <Organism>
+                                        <SubType>Organism</SubType>
+                                        <SourceOrganismId>83555</SourceOrganismId>
+                                    </Organism>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Not determined</AntigenEvidenceCode>
+                        </Antigen>
+                    </BCell>
+                </Assays>
+            </Epitope>
+        </Epitopes>
+    </Reference>
+</References>
+

@@ -1,0 +1,1233 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<References xsi:schemaLocation="http://www.iedb.org/schema/CurationSchema http://beta.iedb.org/schema/Curation.xsd" xmlns="http://www.iedb.org/schema/CurationSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <Reference>
+        <ReferenceId>693</ReferenceId>
+        <DateLastUpdated>2020-09-10-07:00</DateLastUpdated>
+        <Article>
+            <PubmedId>14715573</PubmedId>
+            <Abstract>Previous work in our laboratory showed that the ESAT-6 protein of Mycobacterium tuberculosis and Mycobacterium bovis induces strong antibody responses in a large proportion ( approximately 90%) of experimentally or naturally infected nonhuman primates. Here, the antibody response to ESAT-6 in tuberculous monkeys was characterized at the epitope level by measuring antibodies to overlapping, synthetic peptides spanning the ESAT-6 sequence. The antibody response against the COOH-terminal portion of the protein was the strongest in both experimentally and naturally infected animals. Moreover, these antibodies became detectable the earliest during experimental infection, suggesting an ordered expansion of ESAT-6-specific B-cell clones in the course of infection. The data support use of synthetic peptides in lieu of the full-length ESAT-6 protein in diagnostic antibody detection assays.</Abstract>
+            <ArticleYear>2004</ArticleYear>
+            <ArticlePages>222-6</ArticlePages>
+            <ArticleTitle>Recognition of ESAT-6 sequences by antibodies in sera of tuberculous nonhuman primates.</ArticleTitle>
+            <Authors>
+                <Author>
+                    <LastName>Kanaujia</LastName>
+                    <ForeName>G V</ForeName>
+                </Author>
+                <Author>
+                    <LastName>Motzel</LastName>
+                    <ForeName>S</ForeName>
+                </Author>
+                <Author>
+                    <LastName>Garcia</LastName>
+                    <ForeName>M A</ForeName>
+                </Author>
+                <Author>
+                    <LastName>Andersen</LastName>
+                    <ForeName>P</ForeName>
+                </Author>
+                <Author>
+                    <LastName>Gennaro</LastName>
+                    <ForeName>M L</ForeName>
+                </Author>
+            </Authors>
+            <Affiliations>Public Health Research Institute, Newark, New Jersey. Merck Research Laboratories, West Point, Pennsylvania. Department of Comparative Medicine, Stanford University, Stanford, California Statens Serum Institute, Copenhagen, Denmark.</Affiliations>
+            <ArticleChemicalList>Antibodies, Bacterial;Antigens, Bacterial;Bacterial Proteins;ESAT-6 protein, Mycobacterium tuberculosis;Epitopes</ArticleChemicalList>
+            <ArticleMeshHeadingsList>Amino Acid Sequence; Animals; Antibodies, Bacterial(blood); Antigens, Bacterial(genetics); Bacterial Proteins; Chlorocebus aethiops; Epitopes(genetics); Female; Macaca fascicularis; Macaca mulatta; Male; Molecular Sequence Data; Monkey Diseases(diagnosis; immunology); Mycobacterium bovis(genetics; immunology); Mycobacterium tuberculosis(genetics; immunology); Tuberculosis(diagnosis; immunology; veterinary)</ArticleMeshHeadingsList>
+            <Journal>
+                <Volume>11</Volume>
+                <Issue>1</Issue>
+                <Title>Clinical and diagnostic laboratory immunology</Title>
+                <Issn>1071-412X</Issn>
+                <MedlineTa>Clin Diagn Lab Immunol</MedlineTa>
+            </Journal>
+        </Article>
+        <Epitopes>
+            <Epitope>
+                <EpitopeName>P1</EpitopeName>
+                <EpitopeStructure>
+                    <FragmentOfANaturalSequenceMolecule>
+                        <ChemicalType>Peptide from protein</ChemicalType>
+                        <LinearSequence>MTEQQWNFAGIEAAASAIQG</LinearSequence>
+                        <StartingPosition>1</StartingPosition>
+                        <EndingPosition>20</EndingPosition>
+                        <SourceMolecule>
+                            <GenBankId>P0A564.2</GenBankId>
+                        </SourceMolecule>
+                        <SourceOrganismId>652616</SourceOrganismId>
+                    </FragmentOfANaturalSequenceMolecule>
+                </EpitopeStructure>
+                <LocationOfData>Figure 1</LocationOfData>
+                <EpitopeId>42797</EpitopeId>
+                <ReferenceStartingPosition>1</ReferenceStartingPosition>
+                <ReferenceEndingPosition>20</ReferenceEndingPosition>
+                <EpitopeEvidenceCode>Representative selection</EpitopeEvidenceCode>
+                <EpitopeStructureDefines>Epitope containing region/antigenic site</EpitopeStructureDefines>
+                <EpitopeComments>This protein is identical to its homolog form M.bovis, which is also used in the study.</EpitopeComments>
+                <Assays>
+                    <BCell>
+                        <LocationOfData>Figure 4B</LocationOfData>
+                        <BCellId>6813</BCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>9541</OrganismId>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Occurrence of infectious disease</InVivoProcessType>
+                                <DiseaseState>DOID:399</DiseaseState>
+                                <DiseaseStage>Chronic</DiseaseStage>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Taxonomic Sibling</EpitopeRelation>
+                                    <Object>
+                                        <Organism>
+                                            <SubType>Organism</SubType>
+                                            <SourceOrganismId>1765</SourceOrganismId>
+                                        </Organism>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenReferenceName>Mycobacterium bovis</ImmunogenReferenceName>
+                                <ImmunogenEvidenceCode>Not determined</ImmunogenEvidenceCode>
+                            </FirstInVivoProcess>
+                            <ImmunizationComments>One group of primates consisted of 12 cynomolgus macaques and 3 rhesus macaques naturally infected with Mycobacterium bovis. An additional 5 baboons which were natually infected with a related species, Mycobacterium tuberculosis, with identical sequence at the ESAT-6 Ag, were included in the study. The animals were confirmed to have TB at necropsy by histopathology of major organs and acid-fast staining of infected tissue, or by M.tuberculosis-specific nucleic acid amplification (Baboons).</ImmunizationComments>
+                        </Immunization>
+                        <AssayInformation>
+                            <AssayTypeId>34</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <NumberOfSubjectsTested>20</NumberOfSubjectsTested>
+                            <NumberOfSubjectsResponded>1</NumberOfSubjectsResponded>
+                            <ResponseFrequency>5</ResponseFrequency>
+                            <AssayComments>There was no reported statistical difference in the reactivity of sera from M. bovis or M. tuberulosis infected animals.  Data from all three species of primate with both types of infection were shown as a cumulative number of responders.</AssayComments>
+                        </AssayInformation>
+                        <AssayedAntibody>
+                            <AssayedAntibodySourceMaterial>Serum</AssayedAntibodySourceMaterial>
+                            <AssayedAntibodyPurificationStatus>Polyclonal</AssayedAntibodyPurificationStatus>
+                            <AssayedAntibodyName>anti-ESAT Ab</AssayedAntibodyName>
+                            <AssayedAntibodyHeavyChainType>IgG</AssayedAntibodyHeavyChainType>
+                        </AssayedAntibody>
+                        <Antigen>
+                            <AntigenReferenceName>P1</AntigenReferenceName>
+                            <AntigenConformation>Non-Native/Unknown</AntigenConformation>
+                            <AntigenObject>
+                                <EpitopeRelation>Epitope</EpitopeRelation>
+                                <Object>
+                                    <FragmentOfANaturalSequenceMolecule>
+                                        <ChemicalType>Peptide from protein</ChemicalType>
+                                        <LinearSequence>MTEQQWNFAGIEAAASAIQG</LinearSequence>
+                                        <StartingPosition>1</StartingPosition>
+                                        <EndingPosition>20</EndingPosition>
+                                        <SourceMolecule>
+                                            <GenBankId>P0A564.2</GenBankId>
+                                        </SourceMolecule>
+                                        <SourceOrganismId>652616</SourceOrganismId>
+                                    </FragmentOfANaturalSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Exact match to reference information</AntigenEvidenceCode>
+                        </Antigen>
+                    </BCell>
+                </Assays>
+                <Assays>
+                    <BCell>
+                        <LocationOfData>Figure 3</LocationOfData>
+                        <BCellId>6810</BCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>9544</OrganismId>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Administration in vivo</InVivoProcessType>
+                                <DiseaseState>DOID:399</DiseaseState>
+                                <DiseaseStage>Chronic</DiseaseStage>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Source Organism</EpitopeRelation>
+                                    <Object>
+                                        <Organism>
+                                            <SubType>Organism</SubType>
+                                            <SourceOrganismId>652616</SourceOrganismId>
+                                        </Organism>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenReferenceName>Mycobacterium tuberculosis</ImmunogenReferenceName>
+                                <ImmunogenEvidenceCode>Not determined</ImmunogenEvidenceCode>
+                                <Route>Intratracheal</Route>
+                                <DoseSchedule>Single innoculation with 100 CFU</DoseSchedule>
+                            </FirstInVivoProcess>
+                            <ImmunizationComments>TB was confirmed at necropsy by histopathology of major organs, acid-fast or fluorescent staining of infected tissue, culture methods, and bacterial nucleic acid amplification.</ImmunizationComments>
+                        </Immunization>
+                        <AssayInformation>
+                            <AssayTypeId>34</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <NumberOfSubjectsTested>11</NumberOfSubjectsTested>
+                            <NumberOfSubjectsResponded>3</NumberOfSubjectsResponded>
+                            <ResponseFrequency>27.3</ResponseFrequency>
+                            <AssayComments>Among the 11 monkeys infected experimentally were 5 rhesus macaques, 4 cynomolgus macaque (Macaca fascicularis) and 2 Aftrican Green monkeys (Cercopithecus aethiops). Results were combined for all three species of monkey.</AssayComments>
+                        </AssayInformation>
+                        <AssayedAntibody>
+                            <AssayedAntibodySourceMaterial>Serum</AssayedAntibodySourceMaterial>
+                            <AssayedAntibodyPurificationStatus>Polyclonal</AssayedAntibodyPurificationStatus>
+                            <AssayedAntibodyName>anti-ESAT Ab</AssayedAntibodyName>
+                            <AssayedAntibodyHeavyChainType>IgG</AssayedAntibodyHeavyChainType>
+                        </AssayedAntibody>
+                        <Antigen>
+                            <AntigenReferenceName>P1</AntigenReferenceName>
+                            <AntigenConformation>Non-Native/Unknown</AntigenConformation>
+                            <AntigenObject>
+                                <EpitopeRelation>Epitope</EpitopeRelation>
+                                <Object>
+                                    <FragmentOfANaturalSequenceMolecule>
+                                        <ChemicalType>Peptide from protein</ChemicalType>
+                                        <LinearSequence>MTEQQWNFAGIEAAASAIQG</LinearSequence>
+                                        <StartingPosition>1</StartingPosition>
+                                        <EndingPosition>20</EndingPosition>
+                                        <SourceMolecule>
+                                            <GenBankId>P0A564.2</GenBankId>
+                                        </SourceMolecule>
+                                        <SourceOrganismId>652616</SourceOrganismId>
+                                    </FragmentOfANaturalSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Exact match to reference information</AntigenEvidenceCode>
+                        </Antigen>
+                    </BCell>
+                </Assays>
+            </Epitope>
+            <Epitope>
+                <EpitopeName>P2</EpitopeName>
+                <EpitopeStructure>
+                    <FragmentOfANaturalSequenceMolecule>
+                        <ChemicalType>Peptide from protein</ChemicalType>
+                        <LinearSequence>EAAASAIQGNVTSIHSLLDEGKQS</LinearSequence>
+                        <StartingPosition>12</StartingPosition>
+                        <EndingPosition>35</EndingPosition>
+                        <SourceMolecule>
+                            <GenBankId>P0A564.2</GenBankId>
+                        </SourceMolecule>
+                        <SourceOrganismId>652616</SourceOrganismId>
+                    </FragmentOfANaturalSequenceMolecule>
+                </EpitopeStructure>
+                <LocationOfData>Figure 1</LocationOfData>
+                <EpitopeId>10984</EpitopeId>
+                <ReferenceStartingPosition>12</ReferenceStartingPosition>
+                <ReferenceEndingPosition>35</ReferenceEndingPosition>
+                <EpitopeEvidenceCode>Not determined</EpitopeEvidenceCode>
+                <EpitopeStructureDefines>Epitope containing region/antigenic site</EpitopeStructureDefines>
+                <EpitopeComments>This protein is identical to its homolog form M.bovis, which is also used in the study.</EpitopeComments>
+                <Assays>
+                    <BCell>
+                        <LocationOfData>Figure 3</LocationOfData>
+                        <BCellId>6814</BCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>9544</OrganismId>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Administration in vivo</InVivoProcessType>
+                                <DiseaseState>DOID:399</DiseaseState>
+                                <DiseaseStage>Chronic</DiseaseStage>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Source Organism</EpitopeRelation>
+                                    <Object>
+                                        <Organism>
+                                            <SubType>Organism</SubType>
+                                            <SourceOrganismId>652616</SourceOrganismId>
+                                        </Organism>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenReferenceName>Mycobacterium tuberculosis</ImmunogenReferenceName>
+                                <ImmunogenEvidenceCode>Not determined</ImmunogenEvidenceCode>
+                                <Route>Intratracheal</Route>
+                                <DoseSchedule>Single innoculation with 100 CFU</DoseSchedule>
+                            </FirstInVivoProcess>
+                            <ImmunizationComments>TB was confirmed at necropsy by histopathology of major organs, acid-fast or fluorescent staining of infected tissue, culture methods, and bacterial nucleic acid amplification.</ImmunizationComments>
+                        </Immunization>
+                        <AssayInformation>
+                            <AssayTypeId>34</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <NumberOfSubjectsTested>11</NumberOfSubjectsTested>
+                            <NumberOfSubjectsResponded>7</NumberOfSubjectsResponded>
+                            <ResponseFrequency>63.6</ResponseFrequency>
+                            <AssayComments>Among the 11 monkeys infected experimentally were 5 rhesus macaques, 4 cynomolgus macaque (Macaca fascicularis) and 2 Aftrican Green monkeys (Cercopithecus aethiops). Results were combined for all three species of monkey.</AssayComments>
+                        </AssayInformation>
+                        <AssayedAntibody>
+                            <AssayedAntibodySourceMaterial>Serum</AssayedAntibodySourceMaterial>
+                            <AssayedAntibodyPurificationStatus>Polyclonal</AssayedAntibodyPurificationStatus>
+                            <AssayedAntibodyName>anti-ESAT Ab</AssayedAntibodyName>
+                            <AssayedAntibodyHeavyChainType>IgG</AssayedAntibodyHeavyChainType>
+                        </AssayedAntibody>
+                        <Antigen>
+                            <AntigenReferenceName>P2</AntigenReferenceName>
+                            <AntigenConformation>Non-Native/Unknown</AntigenConformation>
+                            <AntigenObject>
+                                <EpitopeRelation>Epitope</EpitopeRelation>
+                                <Object>
+                                    <FragmentOfANaturalSequenceMolecule>
+                                        <ChemicalType>Peptide from protein</ChemicalType>
+                                        <LinearSequence>EAAASAIQGNVTSIHSLLDEGKQS</LinearSequence>
+                                        <StartingPosition>12</StartingPosition>
+                                        <EndingPosition>35</EndingPosition>
+                                        <SourceMolecule>
+                                            <GenBankId>P0A564.2</GenBankId>
+                                        </SourceMolecule>
+                                        <SourceOrganismId>652616</SourceOrganismId>
+                                    </FragmentOfANaturalSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Exact match to reference information</AntigenEvidenceCode>
+                        </Antigen>
+                    </BCell>
+                </Assays>
+                <Assays>
+                    <BCell>
+                        <LocationOfData>Figure 4B</LocationOfData>
+                        <BCellId>6815</BCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>9541</OrganismId>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Occurrence of infectious disease</InVivoProcessType>
+                                <DiseaseState>DOID:399</DiseaseState>
+                                <DiseaseStage>Chronic</DiseaseStage>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Taxonomic Sibling</EpitopeRelation>
+                                    <Object>
+                                        <Organism>
+                                            <SubType>Organism</SubType>
+                                            <SourceOrganismId>1765</SourceOrganismId>
+                                        </Organism>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenReferenceName>Mycobacterium bovis</ImmunogenReferenceName>
+                                <ImmunogenEvidenceCode>Not determined</ImmunogenEvidenceCode>
+                            </FirstInVivoProcess>
+                            <ImmunizationComments>One group of primates consisted of 12 cynomolgus macaques and 3 rhesus macaques naturally infected with Mycobacterium bovis. An additional 5 baboons which were natually infected with a related species, Mycobacterium tuberculosis, with identical sequence at the ESAT-6 Ag, were included in the study. The animals were confirmed to have TB at necropsy by histopathology of major organs and acid-fast staining of infected tissue, or by M.tuberculosis-specific nucleic acid amplification (Baboons).</ImmunizationComments>
+                        </Immunization>
+                        <AssayInformation>
+                            <AssayTypeId>34</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <NumberOfSubjectsTested>20</NumberOfSubjectsTested>
+                            <NumberOfSubjectsResponded>6</NumberOfSubjectsResponded>
+                            <ResponseFrequency>30</ResponseFrequency>
+                            <AssayComments>There was no reported statistical difference in the reactivity of sera from M. bovis or M. tuberulosis infected animals.  Data from all three species of primate with both types of infection were shown as a cumulative number of responders.</AssayComments>
+                        </AssayInformation>
+                        <AssayedAntibody>
+                            <AssayedAntibodySourceMaterial>Serum</AssayedAntibodySourceMaterial>
+                            <AssayedAntibodyPurificationStatus>Polyclonal</AssayedAntibodyPurificationStatus>
+                            <AssayedAntibodyName>anti-ESAT Ab</AssayedAntibodyName>
+                            <AssayedAntibodyHeavyChainType>IgG</AssayedAntibodyHeavyChainType>
+                        </AssayedAntibody>
+                        <Antigen>
+                            <AntigenReferenceName>P2</AntigenReferenceName>
+                            <AntigenConformation>Non-Native/Unknown</AntigenConformation>
+                            <AntigenObject>
+                                <EpitopeRelation>Epitope</EpitopeRelation>
+                                <Object>
+                                    <FragmentOfANaturalSequenceMolecule>
+                                        <ChemicalType>Peptide from protein</ChemicalType>
+                                        <LinearSequence>EAAASAIQGNVTSIHSLLDEGKQS</LinearSequence>
+                                        <StartingPosition>12</StartingPosition>
+                                        <EndingPosition>35</EndingPosition>
+                                        <SourceMolecule>
+                                            <GenBankId>P0A564.2</GenBankId>
+                                        </SourceMolecule>
+                                        <SourceOrganismId>652616</SourceOrganismId>
+                                    </FragmentOfANaturalSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Exact match to reference information</AntigenEvidenceCode>
+                        </Antigen>
+                    </BCell>
+                </Assays>
+            </Epitope>
+            <Epitope>
+                <EpitopeName>P3</EpitopeName>
+                <EpitopeStructure>
+                    <FragmentOfANaturalSequenceMolecule>
+                        <ChemicalType>Peptide from protein</ChemicalType>
+                        <LinearSequence>VTSIHSLLDEGKQSLTKLAAAWGG</LinearSequence>
+                        <StartingPosition>22</StartingPosition>
+                        <EndingPosition>45</EndingPosition>
+                        <SourceMolecule>
+                            <GenBankId>P0A564.2</GenBankId>
+                        </SourceMolecule>
+                        <SourceOrganismId>652616</SourceOrganismId>
+                    </FragmentOfANaturalSequenceMolecule>
+                </EpitopeStructure>
+                <LocationOfData>Figure 1</LocationOfData>
+                <EpitopeId>71492</EpitopeId>
+                <ReferenceStartingPosition>22</ReferenceStartingPosition>
+                <ReferenceEndingPosition>45</ReferenceEndingPosition>
+                <EpitopeEvidenceCode>Not determined</EpitopeEvidenceCode>
+                <EpitopeStructureDefines>Epitope containing region/antigenic site</EpitopeStructureDefines>
+                <EpitopeComments>This protein is identical to its homolog form M.bovis, which is also used in the study.</EpitopeComments>
+                <Assays>
+                    <BCell>
+                        <LocationOfData>Figure 3</LocationOfData>
+                        <BCellId>6816</BCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>9544</OrganismId>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Administration in vivo</InVivoProcessType>
+                                <DiseaseState>DOID:399</DiseaseState>
+                                <DiseaseStage>Chronic</DiseaseStage>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Source Organism</EpitopeRelation>
+                                    <Object>
+                                        <Organism>
+                                            <SubType>Organism</SubType>
+                                            <SourceOrganismId>652616</SourceOrganismId>
+                                        </Organism>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenReferenceName>Mycobacterium tuberculosis</ImmunogenReferenceName>
+                                <ImmunogenEvidenceCode>Not determined</ImmunogenEvidenceCode>
+                                <Route>Intratracheal</Route>
+                                <DoseSchedule>Single innoculation with 100 CFU</DoseSchedule>
+                            </FirstInVivoProcess>
+                            <ImmunizationComments>TB was confirmed at necropsy by histopathology of major organs, acid-fast or fluorescent staining of infected tissue, culture methods, and bacterial nucleic acid amplification.</ImmunizationComments>
+                        </Immunization>
+                        <AssayInformation>
+                            <AssayTypeId>34</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <NumberOfSubjectsTested>11</NumberOfSubjectsTested>
+                            <NumberOfSubjectsResponded>7</NumberOfSubjectsResponded>
+                            <ResponseFrequency>63.6</ResponseFrequency>
+                            <AssayComments>Among the 11 monkeys infected experimentally were 5 rhesus macaques, 4 cynomolgus macaque (Macaca fascicularis) and 2 Aftrican Green monkeys (Cercopithecus aethiops). Results were combined for all three species of monkey.</AssayComments>
+                        </AssayInformation>
+                        <AssayedAntibody>
+                            <AssayedAntibodySourceMaterial>Serum</AssayedAntibodySourceMaterial>
+                            <AssayedAntibodyPurificationStatus>Polyclonal</AssayedAntibodyPurificationStatus>
+                            <AssayedAntibodyName>anti-ESAT Ab</AssayedAntibodyName>
+                            <AssayedAntibodyHeavyChainType>IgG</AssayedAntibodyHeavyChainType>
+                        </AssayedAntibody>
+                        <Antigen>
+                            <AntigenReferenceName>P3</AntigenReferenceName>
+                            <AntigenConformation>Non-Native/Unknown</AntigenConformation>
+                            <AntigenObject>
+                                <EpitopeRelation>Epitope</EpitopeRelation>
+                                <Object>
+                                    <FragmentOfANaturalSequenceMolecule>
+                                        <ChemicalType>Peptide from protein</ChemicalType>
+                                        <LinearSequence>VTSIHSLLDEGKQSLTKLAAAWGG</LinearSequence>
+                                        <StartingPosition>22</StartingPosition>
+                                        <EndingPosition>45</EndingPosition>
+                                        <SourceMolecule>
+                                            <GenBankId>P0A564.2</GenBankId>
+                                        </SourceMolecule>
+                                        <SourceOrganismId>652616</SourceOrganismId>
+                                    </FragmentOfANaturalSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Exact match to reference information</AntigenEvidenceCode>
+                        </Antigen>
+                    </BCell>
+                </Assays>
+                <Assays>
+                    <BCell>
+                        <LocationOfData>Figure 4B</LocationOfData>
+                        <BCellId>6817</BCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>9541</OrganismId>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Occurrence of infectious disease</InVivoProcessType>
+                                <DiseaseState>DOID:399</DiseaseState>
+                                <DiseaseStage>Chronic</DiseaseStage>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Taxonomic Sibling</EpitopeRelation>
+                                    <Object>
+                                        <Organism>
+                                            <SubType>Organism</SubType>
+                                            <SourceOrganismId>1765</SourceOrganismId>
+                                        </Organism>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenReferenceName>Mycobacterium bovis</ImmunogenReferenceName>
+                                <ImmunogenEvidenceCode>Not determined</ImmunogenEvidenceCode>
+                            </FirstInVivoProcess>
+                            <ImmunizationComments>One group of primates consisted of 12 cynomolgus macaques and 3 rhesus macaques naturally infected with Mycobacterium bovis. An additional 5 baboons which were natually infected with a related species, Mycobacterium tuberculosis, with identical sequence at the ESAT-6 Ag, were included in the study. The animals were confirmed to have TB at necropsy by histopathology of major organs and acid-fast staining of infected tissue, or by M.tuberculosis-specific nucleic acid amplification (Baboons).</ImmunizationComments>
+                        </Immunization>
+                        <AssayInformation>
+                            <AssayTypeId>34</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <NumberOfSubjectsTested>20</NumberOfSubjectsTested>
+                            <NumberOfSubjectsResponded>10</NumberOfSubjectsResponded>
+                            <ResponseFrequency>50</ResponseFrequency>
+                            <AssayComments>There was no reported statistical difference in the reactivity of sera from M. bovis or M. tuberulosis infected animals.  Data from all three species of primate with both types of infection were shown as a cumulative number of responders.</AssayComments>
+                        </AssayInformation>
+                        <AssayedAntibody>
+                            <AssayedAntibodySourceMaterial>Serum</AssayedAntibodySourceMaterial>
+                            <AssayedAntibodyPurificationStatus>Polyclonal</AssayedAntibodyPurificationStatus>
+                            <AssayedAntibodyName>anti-ESAT Ab</AssayedAntibodyName>
+                            <AssayedAntibodyHeavyChainType>IgG</AssayedAntibodyHeavyChainType>
+                        </AssayedAntibody>
+                        <Antigen>
+                            <AntigenReferenceName>P3</AntigenReferenceName>
+                            <AntigenConformation>Non-Native/Unknown</AntigenConformation>
+                            <AntigenObject>
+                                <EpitopeRelation>Epitope</EpitopeRelation>
+                                <Object>
+                                    <FragmentOfANaturalSequenceMolecule>
+                                        <ChemicalType>Peptide from protein</ChemicalType>
+                                        <LinearSequence>VTSIHSLLDEGKQSLTKLAAAWGG</LinearSequence>
+                                        <StartingPosition>22</StartingPosition>
+                                        <EndingPosition>45</EndingPosition>
+                                        <SourceMolecule>
+                                            <GenBankId>P0A564.2</GenBankId>
+                                        </SourceMolecule>
+                                        <SourceOrganismId>652616</SourceOrganismId>
+                                    </FragmentOfANaturalSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Exact match to reference information</AntigenEvidenceCode>
+                        </Antigen>
+                    </BCell>
+                </Assays>
+            </Epitope>
+            <Epitope>
+                <EpitopeName>P4</EpitopeName>
+                <EpitopeStructure>
+                    <FragmentOfANaturalSequenceMolecule>
+                        <ChemicalType>Peptide from protein</ChemicalType>
+                        <LinearSequence>GKQSLTKLAAAWGGSGSEAYQGVQ</LinearSequence>
+                        <StartingPosition>32</StartingPosition>
+                        <EndingPosition>55</EndingPosition>
+                        <SourceMolecule>
+                            <GenBankId>P0A564.2</GenBankId>
+                        </SourceMolecule>
+                        <SourceOrganismId>652616</SourceOrganismId>
+                    </FragmentOfANaturalSequenceMolecule>
+                </EpitopeStructure>
+                <LocationOfData>Figure 1</LocationOfData>
+                <EpitopeId>20670</EpitopeId>
+                <ReferenceStartingPosition>32</ReferenceStartingPosition>
+                <ReferenceEndingPosition>55</ReferenceEndingPosition>
+                <EpitopeEvidenceCode>Not determined</EpitopeEvidenceCode>
+                <EpitopeStructureDefines>Epitope containing region/antigenic site</EpitopeStructureDefines>
+                <EpitopeComments>This protein is identical to its homolog form M.bovis, which is also used in the study.</EpitopeComments>
+                <Assays>
+                    <BCell>
+                        <LocationOfData>Figure 4B</LocationOfData>
+                        <BCellId>6852</BCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>9541</OrganismId>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Occurrence of infectious disease</InVivoProcessType>
+                                <DiseaseState>DOID:399</DiseaseState>
+                                <DiseaseStage>Chronic</DiseaseStage>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Taxonomic Sibling</EpitopeRelation>
+                                    <Object>
+                                        <Organism>
+                                            <SubType>Organism</SubType>
+                                            <SourceOrganismId>1765</SourceOrganismId>
+                                        </Organism>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenReferenceName>Mycobacterium bovis</ImmunogenReferenceName>
+                                <ImmunogenEvidenceCode>Not determined</ImmunogenEvidenceCode>
+                            </FirstInVivoProcess>
+                            <ImmunizationComments>One group of primates consisted of 12 cynomolgus macaques and 3 rhesus macaques naturally infected with Mycobacterium bovis. An additional 5 baboons which were natually infected with a related species, Mycobacterium tuberculosis, with identical sequence at the ESAT-6 Ag, were included in the study. The animals were confirmed to have TB at necropsy by histopathology of major organs and acid-fast staining of infected tissue, or by M.tuberculosis-specific nucleic acid amplification (Baboons).</ImmunizationComments>
+                        </Immunization>
+                        <AssayInformation>
+                            <AssayTypeId>34</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <NumberOfSubjectsTested>20</NumberOfSubjectsTested>
+                            <NumberOfSubjectsResponded>3</NumberOfSubjectsResponded>
+                            <ResponseFrequency>15</ResponseFrequency>
+                            <AssayComments>There was no reported statistical difference in the reactivity of sera from M. bovis or M. tuberulosis infected animals.  Data from all three species of primate with both types of infection were shown as a cumulative number of responders.</AssayComments>
+                        </AssayInformation>
+                        <AssayedAntibody>
+                            <AssayedAntibodySourceMaterial>Serum</AssayedAntibodySourceMaterial>
+                            <AssayedAntibodyPurificationStatus>Polyclonal</AssayedAntibodyPurificationStatus>
+                            <AssayedAntibodyName>anti-ESAT Ab</AssayedAntibodyName>
+                            <AssayedAntibodyHeavyChainType>IgG</AssayedAntibodyHeavyChainType>
+                        </AssayedAntibody>
+                        <Antigen>
+                            <AntigenReferenceName>P4</AntigenReferenceName>
+                            <AntigenConformation>Non-Native/Unknown</AntigenConformation>
+                            <AntigenObject>
+                                <EpitopeRelation>Epitope</EpitopeRelation>
+                                <Object>
+                                    <FragmentOfANaturalSequenceMolecule>
+                                        <ChemicalType>Peptide from protein</ChemicalType>
+                                        <LinearSequence>GKQSLTKLAAAWGGSGSEAYQGVQ</LinearSequence>
+                                        <StartingPosition>32</StartingPosition>
+                                        <EndingPosition>55</EndingPosition>
+                                        <SourceMolecule>
+                                            <GenBankId>P0A564.2</GenBankId>
+                                        </SourceMolecule>
+                                        <SourceOrganismId>652616</SourceOrganismId>
+                                    </FragmentOfANaturalSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Exact match to reference information</AntigenEvidenceCode>
+                        </Antigen>
+                    </BCell>
+                </Assays>
+                <Assays>
+                    <BCell>
+                        <LocationOfData>Figure 3</LocationOfData>
+                        <BCellId>6851</BCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>9544</OrganismId>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Administration in vivo</InVivoProcessType>
+                                <DiseaseState>DOID:399</DiseaseState>
+                                <DiseaseStage>Chronic</DiseaseStage>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Source Organism</EpitopeRelation>
+                                    <Object>
+                                        <Organism>
+                                            <SubType>Organism</SubType>
+                                            <SourceOrganismId>652616</SourceOrganismId>
+                                        </Organism>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenReferenceName>Mycobacterium tuberculosis</ImmunogenReferenceName>
+                                <ImmunogenEvidenceCode>Not determined</ImmunogenEvidenceCode>
+                                <Route>Intratracheal</Route>
+                                <DoseSchedule>Single innoculation with 100 CFU</DoseSchedule>
+                            </FirstInVivoProcess>
+                            <ImmunizationComments>TB was confirmed at necropsy by histopathology of major organs, acid-fast or fluorescent staining of infected tissue, culture methods, and bacterial nucleic acid amplification.</ImmunizationComments>
+                        </Immunization>
+                        <AssayInformation>
+                            <AssayTypeId>34</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <NumberOfSubjectsTested>11</NumberOfSubjectsTested>
+                            <NumberOfSubjectsResponded>4</NumberOfSubjectsResponded>
+                            <ResponseFrequency>36.4</ResponseFrequency>
+                            <AssayComments>Among the 11 monkeys infected experimentally were 5 rhesus macaques, 4 cynomolgus macaque (Macaca fascicularis) and 2 Aftrican Green monkeys (Cercopithecus aethiops). Results were combined for all three species of monkey.</AssayComments>
+                        </AssayInformation>
+                        <AssayedAntibody>
+                            <AssayedAntibodySourceMaterial>Serum</AssayedAntibodySourceMaterial>
+                            <AssayedAntibodyPurificationStatus>Polyclonal</AssayedAntibodyPurificationStatus>
+                            <AssayedAntibodyName>anti-ESAT Ab</AssayedAntibodyName>
+                            <AssayedAntibodyHeavyChainType>IgG</AssayedAntibodyHeavyChainType>
+                        </AssayedAntibody>
+                        <Antigen>
+                            <AntigenReferenceName>P4</AntigenReferenceName>
+                            <AntigenConformation>Non-Native/Unknown</AntigenConformation>
+                            <AntigenObject>
+                                <EpitopeRelation>Epitope</EpitopeRelation>
+                                <Object>
+                                    <FragmentOfANaturalSequenceMolecule>
+                                        <ChemicalType>Peptide from protein</ChemicalType>
+                                        <LinearSequence>GKQSLTKLAAAWGGSGSEAYQGVQ</LinearSequence>
+                                        <StartingPosition>32</StartingPosition>
+                                        <EndingPosition>55</EndingPosition>
+                                        <SourceMolecule>
+                                            <GenBankId>P0A564.2</GenBankId>
+                                        </SourceMolecule>
+                                        <SourceOrganismId>652616</SourceOrganismId>
+                                    </FragmentOfANaturalSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Exact match to reference information</AntigenEvidenceCode>
+                        </Antigen>
+                    </BCell>
+                </Assays>
+            </Epitope>
+            <Epitope>
+                <EpitopeName>P5</EpitopeName>
+                <EpitopeStructure>
+                    <FragmentOfANaturalSequenceMolecule>
+                        <ChemicalType>Peptide from protein</ChemicalType>
+                        <LinearSequence>AWGGSGSEAYQGVQQKWDATATEL</LinearSequence>
+                        <StartingPosition>42</StartingPosition>
+                        <EndingPosition>65</EndingPosition>
+                        <SourceMolecule>
+                            <GenBankId>P0A564.2</GenBankId>
+                        </SourceMolecule>
+                        <SourceOrganismId>652616</SourceOrganismId>
+                    </FragmentOfANaturalSequenceMolecule>
+                </EpitopeStructure>
+                <LocationOfData>Figure 1</LocationOfData>
+                <EpitopeId>5661</EpitopeId>
+                <ReferenceStartingPosition>32</ReferenceStartingPosition>
+                <ReferenceEndingPosition>55</ReferenceEndingPosition>
+                <EpitopeEvidenceCode>Not determined</EpitopeEvidenceCode>
+                <EpitopeStructureDefines>Epitope containing region/antigenic site</EpitopeStructureDefines>
+                <EpitopeComments>This protein is identical to its homolog form M.bovis, which is also used in the study.</EpitopeComments>
+                <Assays>
+                    <BCell>
+                        <LocationOfData>Figure 3</LocationOfData>
+                        <BCellId>6854</BCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>9544</OrganismId>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Administration in vivo</InVivoProcessType>
+                                <DiseaseState>DOID:399</DiseaseState>
+                                <DiseaseStage>Chronic</DiseaseStage>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Source Organism</EpitopeRelation>
+                                    <Object>
+                                        <Organism>
+                                            <SubType>Organism</SubType>
+                                            <SourceOrganismId>652616</SourceOrganismId>
+                                        </Organism>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenReferenceName>Mycobacterium tuberculosis</ImmunogenReferenceName>
+                                <ImmunogenEvidenceCode>Not determined</ImmunogenEvidenceCode>
+                                <Route>Intratracheal</Route>
+                                <DoseSchedule>Single innoculation with 100 CFU</DoseSchedule>
+                            </FirstInVivoProcess>
+                            <ImmunizationComments>TB was confirmed at necropsy by histopathology of major organs, acid-fast or fluorescent staining of infected tissue, culture methods, and bacterial nucleic acid amplification.</ImmunizationComments>
+                        </Immunization>
+                        <AssayInformation>
+                            <AssayTypeId>34</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <NumberOfSubjectsTested>11</NumberOfSubjectsTested>
+                            <NumberOfSubjectsResponded>9</NumberOfSubjectsResponded>
+                            <ResponseFrequency>81.8</ResponseFrequency>
+                            <AssayComments>Among the 11 monkeys infected experimentally were 5 rhesus macaques, 4 cynomolgus macaque (Macaca fascicularis) and 2 Aftrican Green monkeys (Cercopithecus aethiops). Results were combined for all three species of monkey.</AssayComments>
+                        </AssayInformation>
+                        <AssayedAntibody>
+                            <AssayedAntibodySourceMaterial>Serum</AssayedAntibodySourceMaterial>
+                            <AssayedAntibodyPurificationStatus>Polyclonal</AssayedAntibodyPurificationStatus>
+                            <AssayedAntibodyName>anti-ESAT Ab</AssayedAntibodyName>
+                            <AssayedAntibodyHeavyChainType>IgG</AssayedAntibodyHeavyChainType>
+                        </AssayedAntibody>
+                        <Antigen>
+                            <AntigenReferenceName>P5</AntigenReferenceName>
+                            <AntigenConformation>Non-Native/Unknown</AntigenConformation>
+                            <AntigenObject>
+                                <EpitopeRelation>Epitope</EpitopeRelation>
+                                <Object>
+                                    <FragmentOfANaturalSequenceMolecule>
+                                        <ChemicalType>Peptide from protein</ChemicalType>
+                                        <LinearSequence>AWGGSGSEAYQGVQQKWDATATEL</LinearSequence>
+                                        <StartingPosition>42</StartingPosition>
+                                        <EndingPosition>65</EndingPosition>
+                                        <SourceMolecule>
+                                            <GenBankId>P0A564.2</GenBankId>
+                                        </SourceMolecule>
+                                        <SourceOrganismId>652616</SourceOrganismId>
+                                    </FragmentOfANaturalSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Exact match to reference information</AntigenEvidenceCode>
+                        </Antigen>
+                    </BCell>
+                </Assays>
+                <Assays>
+                    <BCell>
+                        <LocationOfData>Figure 4B</LocationOfData>
+                        <BCellId>6855</BCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>9541</OrganismId>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Occurrence of infectious disease</InVivoProcessType>
+                                <DiseaseState>DOID:399</DiseaseState>
+                                <DiseaseStage>Chronic</DiseaseStage>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Taxonomic Sibling</EpitopeRelation>
+                                    <Object>
+                                        <Organism>
+                                            <SubType>Organism</SubType>
+                                            <SourceOrganismId>1765</SourceOrganismId>
+                                        </Organism>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenReferenceName>Mycobacterium bovis</ImmunogenReferenceName>
+                                <ImmunogenEvidenceCode>Not determined</ImmunogenEvidenceCode>
+                            </FirstInVivoProcess>
+                            <ImmunizationComments>One group of primates consisted of 12 cynomolgus macaques and 3 rhesus macaques naturally infected with Mycobacterium bovis. An additional 5 baboons which were natually infected with a related species, Mycobacterium tuberculosis, with identical sequence at the ESAT-6 Ag, were included in the study. The animals were confirmed to have TB at necropsy by histopathology of major organs and acid-fast staining of infected tissue, or by M.tuberculosis-specific nucleic acid amplification (Baboons).</ImmunizationComments>
+                        </Immunization>
+                        <AssayInformation>
+                            <AssayTypeId>34</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <NumberOfSubjectsTested>20</NumberOfSubjectsTested>
+                            <NumberOfSubjectsResponded>19</NumberOfSubjectsResponded>
+                            <ResponseFrequency>95</ResponseFrequency>
+                            <AssayComments>There was no reported statistical difference in the reactivity of sera from M. bovis or M. tuberulosis infected animals.  Data from all three species of primate with both types of infection were shown as a cumulative number of responders.</AssayComments>
+                        </AssayInformation>
+                        <AssayedAntibody>
+                            <AssayedAntibodySourceMaterial>Serum</AssayedAntibodySourceMaterial>
+                            <AssayedAntibodyPurificationStatus>Polyclonal</AssayedAntibodyPurificationStatus>
+                            <AssayedAntibodyName>anti-ESAT Ab</AssayedAntibodyName>
+                            <AssayedAntibodyHeavyChainType>IgG</AssayedAntibodyHeavyChainType>
+                        </AssayedAntibody>
+                        <Antigen>
+                            <AntigenReferenceName>P5</AntigenReferenceName>
+                            <AntigenConformation>Non-Native/Unknown</AntigenConformation>
+                            <AntigenObject>
+                                <EpitopeRelation>Epitope</EpitopeRelation>
+                                <Object>
+                                    <FragmentOfANaturalSequenceMolecule>
+                                        <ChemicalType>Peptide from protein</ChemicalType>
+                                        <LinearSequence>AWGGSGSEAYQGVQQKWDATATEL</LinearSequence>
+                                        <StartingPosition>42</StartingPosition>
+                                        <EndingPosition>65</EndingPosition>
+                                        <SourceMolecule>
+                                            <GenBankId>P0A564.2</GenBankId>
+                                        </SourceMolecule>
+                                        <SourceOrganismId>652616</SourceOrganismId>
+                                    </FragmentOfANaturalSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Exact match to reference information</AntigenEvidenceCode>
+                        </Antigen>
+                    </BCell>
+                </Assays>
+            </Epitope>
+            <Epitope>
+                <EpitopeName>P6</EpitopeName>
+                <EpitopeStructure>
+                    <FragmentOfANaturalSequenceMolecule>
+                        <ChemicalType>Peptide from protein</ChemicalType>
+                        <LinearSequence>QGVQQKWDATATELNNALQNLART</LinearSequence>
+                        <StartingPosition>52</StartingPosition>
+                        <EndingPosition>75</EndingPosition>
+                        <SourceMolecule>
+                            <GenBankId>P0A564.2</GenBankId>
+                        </SourceMolecule>
+                        <SourceOrganismId>652616</SourceOrganismId>
+                    </FragmentOfANaturalSequenceMolecule>
+                </EpitopeStructure>
+                <LocationOfData>Figure 1</LocationOfData>
+                <EpitopeId>50981</EpitopeId>
+                <ReferenceStartingPosition>52</ReferenceStartingPosition>
+                <ReferenceEndingPosition>75</ReferenceEndingPosition>
+                <EpitopeEvidenceCode>Not determined</EpitopeEvidenceCode>
+                <EpitopeStructureDefines>Epitope containing region/antigenic site</EpitopeStructureDefines>
+                <EpitopeComments>This protein is identical to its homolog form M.bovis, which is also used in the study.</EpitopeComments>
+                <Assays>
+                    <BCell>
+                        <LocationOfData>Figure 3</LocationOfData>
+                        <BCellId>6856</BCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>9544</OrganismId>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Administration in vivo</InVivoProcessType>
+                                <DiseaseState>DOID:399</DiseaseState>
+                                <DiseaseStage>Chronic</DiseaseStage>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Source Organism</EpitopeRelation>
+                                    <Object>
+                                        <Organism>
+                                            <SubType>Organism</SubType>
+                                            <SourceOrganismId>652616</SourceOrganismId>
+                                        </Organism>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenReferenceName>Mycobacterium tuberculosis</ImmunogenReferenceName>
+                                <ImmunogenEvidenceCode>Not determined</ImmunogenEvidenceCode>
+                                <Route>Intratracheal</Route>
+                                <DoseSchedule>Single innoculation with 100 CFU</DoseSchedule>
+                            </FirstInVivoProcess>
+                            <ImmunizationComments>TB was confirmed at necropsy by histopathology of major organs, acid-fast or fluorescent staining of infected tissue, culture methods, and bacterial nucleic acid amplification.</ImmunizationComments>
+                        </Immunization>
+                        <AssayInformation>
+                            <AssayTypeId>34</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <NumberOfSubjectsTested>11</NumberOfSubjectsTested>
+                            <NumberOfSubjectsResponded>7</NumberOfSubjectsResponded>
+                            <ResponseFrequency>63.6</ResponseFrequency>
+                            <AssayComments>Among the 11 monkeys infected experimentally were 5 rhesus macaques, 4 cynomolgus macaque (Macaca fascicularis) and 2 Aftrican Green monkeys (Cercopithecus aethiops). Results were combined for all three species of monkey.</AssayComments>
+                        </AssayInformation>
+                        <AssayedAntibody>
+                            <AssayedAntibodySourceMaterial>Serum</AssayedAntibodySourceMaterial>
+                            <AssayedAntibodyPurificationStatus>Polyclonal</AssayedAntibodyPurificationStatus>
+                            <AssayedAntibodyName>anti-ESAT Ab</AssayedAntibodyName>
+                            <AssayedAntibodyHeavyChainType>IgG</AssayedAntibodyHeavyChainType>
+                        </AssayedAntibody>
+                        <Antigen>
+                            <AntigenReferenceName>P6</AntigenReferenceName>
+                            <AntigenConformation>Non-Native/Unknown</AntigenConformation>
+                            <AntigenObject>
+                                <EpitopeRelation>Epitope</EpitopeRelation>
+                                <Object>
+                                    <FragmentOfANaturalSequenceMolecule>
+                                        <ChemicalType>Peptide from protein</ChemicalType>
+                                        <LinearSequence>QGVQQKWDATATELNNALQNLART</LinearSequence>
+                                        <StartingPosition>52</StartingPosition>
+                                        <EndingPosition>75</EndingPosition>
+                                        <SourceMolecule>
+                                            <GenBankId>P0A564.2</GenBankId>
+                                        </SourceMolecule>
+                                        <SourceOrganismId>652616</SourceOrganismId>
+                                    </FragmentOfANaturalSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Exact match to reference information</AntigenEvidenceCode>
+                        </Antigen>
+                    </BCell>
+                </Assays>
+                <Assays>
+                    <BCell>
+                        <LocationOfData>Figure 4B</LocationOfData>
+                        <BCellId>6857</BCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>9541</OrganismId>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Occurrence of infectious disease</InVivoProcessType>
+                                <DiseaseState>DOID:399</DiseaseState>
+                                <DiseaseStage>Chronic</DiseaseStage>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Taxonomic Sibling</EpitopeRelation>
+                                    <Object>
+                                        <Organism>
+                                            <SubType>Organism</SubType>
+                                            <SourceOrganismId>1765</SourceOrganismId>
+                                        </Organism>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenReferenceName>Mycobacterium bovis</ImmunogenReferenceName>
+                                <ImmunogenEvidenceCode>Not determined</ImmunogenEvidenceCode>
+                            </FirstInVivoProcess>
+                            <ImmunizationComments>One group of primates consisted of 12 cynomolgus macaques and 3 rhesus macaques naturally infected with Mycobacterium bovis. An additional 5 baboons which were natually infected with a related species, Mycobacterium tuberculosis, with identical sequence at the ESAT-6 Ag, were included in the study. The animals were confirmed to have TB at necropsy by histopathology of major organs and acid-fast staining of infected tissue, or by M.tuberculosis-specific nucleic acid amplification (Baboons).</ImmunizationComments>
+                        </Immunization>
+                        <AssayInformation>
+                            <AssayTypeId>34</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <NumberOfSubjectsTested>20</NumberOfSubjectsTested>
+                            <NumberOfSubjectsResponded>15</NumberOfSubjectsResponded>
+                            <ResponseFrequency>75</ResponseFrequency>
+                            <AssayComments>There was no reported statistical difference in the reactivity of sera from M. bovis or M. tuberulosis infected animals.  Data from all three species of primate with both types of infection were shown as a cumulative number of responders.</AssayComments>
+                        </AssayInformation>
+                        <AssayedAntibody>
+                            <AssayedAntibodySourceMaterial>Serum</AssayedAntibodySourceMaterial>
+                            <AssayedAntibodyPurificationStatus>Polyclonal</AssayedAntibodyPurificationStatus>
+                            <AssayedAntibodyName>anti-ESAT Ab</AssayedAntibodyName>
+                            <AssayedAntibodyHeavyChainType>IgG</AssayedAntibodyHeavyChainType>
+                        </AssayedAntibody>
+                        <Antigen>
+                            <AntigenReferenceName>P6</AntigenReferenceName>
+                            <AntigenConformation>Non-Native/Unknown</AntigenConformation>
+                            <AntigenObject>
+                                <EpitopeRelation>Epitope</EpitopeRelation>
+                                <Object>
+                                    <FragmentOfANaturalSequenceMolecule>
+                                        <ChemicalType>Peptide from protein</ChemicalType>
+                                        <LinearSequence>QGVQQKWDATATELNNALQNLART</LinearSequence>
+                                        <StartingPosition>52</StartingPosition>
+                                        <EndingPosition>75</EndingPosition>
+                                        <SourceMolecule>
+                                            <GenBankId>P0A564.2</GenBankId>
+                                        </SourceMolecule>
+                                        <SourceOrganismId>652616</SourceOrganismId>
+                                    </FragmentOfANaturalSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Exact match to reference information</AntigenEvidenceCode>
+                        </Antigen>
+                    </BCell>
+                </Assays>
+            </Epitope>
+            <Epitope>
+                <EpitopeName>P7</EpitopeName>
+                <EpitopeStructure>
+                    <FragmentOfANaturalSequenceMolecule>
+                        <ChemicalType>Peptide from protein</ChemicalType>
+                        <LinearSequence>ATELNNALQNLARTISEAGQAMAS</LinearSequence>
+                        <StartingPosition>62</StartingPosition>
+                        <EndingPosition>85</EndingPosition>
+                        <SourceMolecule>
+                            <GenBankId>P0A564.2</GenBankId>
+                        </SourceMolecule>
+                        <SourceOrganismId>652616</SourceOrganismId>
+                    </FragmentOfANaturalSequenceMolecule>
+                </EpitopeStructure>
+                <LocationOfData>Figure 1</LocationOfData>
+                <EpitopeId>4942</EpitopeId>
+                <ReferenceStartingPosition>62</ReferenceStartingPosition>
+                <ReferenceEndingPosition>84</ReferenceEndingPosition>
+                <EpitopeEvidenceCode>Not determined</EpitopeEvidenceCode>
+                <EpitopeStructureDefines>Epitope containing region/antigenic site</EpitopeStructureDefines>
+                <EpitopeComments>This protein is identical to its homolog form M.bovis, which is also used in the study.</EpitopeComments>
+                <Assays>
+                    <BCell>
+                        <LocationOfData>Figure 4B</LocationOfData>
+                        <BCellId>6859</BCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>9541</OrganismId>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Occurrence of infectious disease</InVivoProcessType>
+                                <DiseaseState>DOID:399</DiseaseState>
+                                <DiseaseStage>Chronic</DiseaseStage>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Taxonomic Sibling</EpitopeRelation>
+                                    <Object>
+                                        <Organism>
+                                            <SubType>Organism</SubType>
+                                            <SourceOrganismId>1765</SourceOrganismId>
+                                        </Organism>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenReferenceName>Mycobacterium bovis</ImmunogenReferenceName>
+                                <ImmunogenEvidenceCode>Not determined</ImmunogenEvidenceCode>
+                            </FirstInVivoProcess>
+                            <ImmunizationComments>One group of primates consisted of 12 cynomolgus macaques and 3 rhesus macaques naturally infected with Mycobacterium bovis. An additional 5 baboons which were natually infected with a related species, Mycobacterium tuberculosis, with identical sequence at the ESAT-6 Ag, were included in the study. The animals were confirmed to have TB at necropsy by histopathology of major organs and acid-fast staining of infected tissue, or by M.tuberculosis-specific nucleic acid amplification (Baboons).</ImmunizationComments>
+                        </Immunization>
+                        <AssayInformation>
+                            <AssayTypeId>34</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <NumberOfSubjectsTested>20</NumberOfSubjectsTested>
+                            <NumberOfSubjectsResponded>11</NumberOfSubjectsResponded>
+                            <ResponseFrequency>55</ResponseFrequency>
+                            <AssayComments>There was no reported statistical difference in the reactivity of sera from M. bovis or M. tuberulosis infected animals.  Data from all three species of primate with both types of infection were shown as a cumulative number of responders.</AssayComments>
+                        </AssayInformation>
+                        <AssayedAntibody>
+                            <AssayedAntibodySourceMaterial>Serum</AssayedAntibodySourceMaterial>
+                            <AssayedAntibodyPurificationStatus>Polyclonal</AssayedAntibodyPurificationStatus>
+                            <AssayedAntibodyName>anti-ESAT Ab</AssayedAntibodyName>
+                            <AssayedAntibodyHeavyChainType>IgG</AssayedAntibodyHeavyChainType>
+                        </AssayedAntibody>
+                        <Antigen>
+                            <AntigenReferenceName>P7</AntigenReferenceName>
+                            <AntigenConformation>Non-Native/Unknown</AntigenConformation>
+                            <AntigenObject>
+                                <EpitopeRelation>Epitope</EpitopeRelation>
+                                <Object>
+                                    <FragmentOfANaturalSequenceMolecule>
+                                        <ChemicalType>Peptide from protein</ChemicalType>
+                                        <LinearSequence>ATELNNALQNLARTISEAGQAMAS</LinearSequence>
+                                        <StartingPosition>62</StartingPosition>
+                                        <EndingPosition>85</EndingPosition>
+                                        <SourceMolecule>
+                                            <GenBankId>P0A564.2</GenBankId>
+                                        </SourceMolecule>
+                                        <SourceOrganismId>652616</SourceOrganismId>
+                                    </FragmentOfANaturalSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Exact match to reference information</AntigenEvidenceCode>
+                        </Antigen>
+                    </BCell>
+                </Assays>
+                <Assays>
+                    <BCell>
+                        <LocationOfData>Figure 3</LocationOfData>
+                        <BCellId>6858</BCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>9544</OrganismId>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Administration in vivo</InVivoProcessType>
+                                <DiseaseState>DOID:399</DiseaseState>
+                                <DiseaseStage>Chronic</DiseaseStage>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Source Organism</EpitopeRelation>
+                                    <Object>
+                                        <Organism>
+                                            <SubType>Organism</SubType>
+                                            <SourceOrganismId>652616</SourceOrganismId>
+                                        </Organism>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenReferenceName>Mycobacterium tuberculosis</ImmunogenReferenceName>
+                                <ImmunogenEvidenceCode>Not determined</ImmunogenEvidenceCode>
+                                <Route>Intratracheal</Route>
+                                <DoseSchedule>Single innoculation with 100 CFU</DoseSchedule>
+                            </FirstInVivoProcess>
+                            <ImmunizationComments>TB was confirmed at necropsy by histopathology of major organs, acid-fast or fluorescent staining of infected tissue, culture methods, and bacterial nucleic acid amplification.</ImmunizationComments>
+                        </Immunization>
+                        <AssayInformation>
+                            <AssayTypeId>34</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <NumberOfSubjectsTested>11</NumberOfSubjectsTested>
+                            <NumberOfSubjectsResponded>8</NumberOfSubjectsResponded>
+                            <ResponseFrequency>72.7</ResponseFrequency>
+                            <AssayComments>Among the 11 monkeys infected experimentally were 5 rhesus macaques, 4 cynomolgus macaque (Macaca fascicularis) and 2 Aftrican Green monkeys (Cercopithecus aethiops). Results were combined for all three species of monkey.</AssayComments>
+                        </AssayInformation>
+                        <AssayedAntibody>
+                            <AssayedAntibodySourceMaterial>Serum</AssayedAntibodySourceMaterial>
+                            <AssayedAntibodyPurificationStatus>Polyclonal</AssayedAntibodyPurificationStatus>
+                            <AssayedAntibodyName>anti-ESAT Ab</AssayedAntibodyName>
+                            <AssayedAntibodyHeavyChainType>IgG</AssayedAntibodyHeavyChainType>
+                        </AssayedAntibody>
+                        <Antigen>
+                            <AntigenReferenceName>P7</AntigenReferenceName>
+                            <AntigenConformation>Non-Native/Unknown</AntigenConformation>
+                            <AntigenObject>
+                                <EpitopeRelation>Epitope</EpitopeRelation>
+                                <Object>
+                                    <FragmentOfANaturalSequenceMolecule>
+                                        <ChemicalType>Peptide from protein</ChemicalType>
+                                        <LinearSequence>ATELNNALQNLARTISEAGQAMAS</LinearSequence>
+                                        <StartingPosition>62</StartingPosition>
+                                        <EndingPosition>85</EndingPosition>
+                                        <SourceMolecule>
+                                            <GenBankId>P0A564.2</GenBankId>
+                                        </SourceMolecule>
+                                        <SourceOrganismId>652616</SourceOrganismId>
+                                    </FragmentOfANaturalSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Exact match to reference information</AntigenEvidenceCode>
+                        </Antigen>
+                    </BCell>
+                </Assays>
+            </Epitope>
+            <Epitope>
+                <EpitopeName>P8</EpitopeName>
+                <EpitopeStructure>
+                    <FragmentOfANaturalSequenceMolecule>
+                        <ChemicalType>Peptide from protein</ChemicalType>
+                        <LinearSequence>LARTISEAGQAMASTEGNVTGMFA</LinearSequence>
+                        <StartingPosition>72</StartingPosition>
+                        <EndingPosition>95</EndingPosition>
+                        <SourceMolecule>
+                            <GenBankId>P0A564.2</GenBankId>
+                        </SourceMolecule>
+                        <SourceOrganismId>652616</SourceOrganismId>
+                    </FragmentOfANaturalSequenceMolecule>
+                </EpitopeStructure>
+                <LocationOfData>Figure 1</LocationOfData>
+                <EpitopeId>34949</EpitopeId>
+                <ReferenceStartingPosition>72</ReferenceStartingPosition>
+                <ReferenceEndingPosition>95</ReferenceEndingPosition>
+                <EpitopeEvidenceCode>Not determined</EpitopeEvidenceCode>
+                <EpitopeStructureDefines>Epitope containing region/antigenic site</EpitopeStructureDefines>
+                <EpitopeComments>This protein is identical to its homolog form M.bovis, which is also used in the study.</EpitopeComments>
+                <Assays>
+                    <BCell>
+                        <LocationOfData>Figure 4B</LocationOfData>
+                        <BCellId>6861</BCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>9541</OrganismId>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Occurrence of infectious disease</InVivoProcessType>
+                                <DiseaseState>DOID:399</DiseaseState>
+                                <DiseaseStage>Chronic</DiseaseStage>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Taxonomic Sibling</EpitopeRelation>
+                                    <Object>
+                                        <Organism>
+                                            <SubType>Organism</SubType>
+                                            <SourceOrganismId>1765</SourceOrganismId>
+                                        </Organism>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenReferenceName>Mycobacterium bovis</ImmunogenReferenceName>
+                                <ImmunogenEvidenceCode>Not determined</ImmunogenEvidenceCode>
+                            </FirstInVivoProcess>
+                            <ImmunizationComments>One group of primates consisted of 12 cynomolgus macaques and 3 rhesus macaques naturally infected with Mycobacterium bovis. An additional 5 baboons which were natually infected with a related species, Mycobacterium tuberculosis, with identical sequence at the ESAT-6 Ag, were included in the study. The animals were confirmed to have TB at necropsy by histopathology of major organs and acid-fast staining of infected tissue, or by M.tuberculosis-specific nucleic acid amplification (Baboons).</ImmunizationComments>
+                        </Immunization>
+                        <AssayInformation>
+                            <AssayTypeId>34</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <NumberOfSubjectsTested>20</NumberOfSubjectsTested>
+                            <NumberOfSubjectsResponded>16</NumberOfSubjectsResponded>
+                            <ResponseFrequency>80</ResponseFrequency>
+                            <AssayComments>There was no reported statistical difference in the reactivity of sera from M. bovis or M. tuberulosis infected animals.  Data from all three species of primate with both types of infection were shown as a cumulative number of responders.</AssayComments>
+                        </AssayInformation>
+                        <AssayedAntibody>
+                            <AssayedAntibodySourceMaterial>Serum</AssayedAntibodySourceMaterial>
+                            <AssayedAntibodyPurificationStatus>Polyclonal</AssayedAntibodyPurificationStatus>
+                            <AssayedAntibodyName>anti-ESAT Ab</AssayedAntibodyName>
+                            <AssayedAntibodyHeavyChainType>IgG</AssayedAntibodyHeavyChainType>
+                        </AssayedAntibody>
+                        <Antigen>
+                            <AntigenReferenceName>P8</AntigenReferenceName>
+                            <AntigenConformation>Non-Native/Unknown</AntigenConformation>
+                            <AntigenObject>
+                                <EpitopeRelation>Epitope</EpitopeRelation>
+                                <Object>
+                                    <FragmentOfANaturalSequenceMolecule>
+                                        <ChemicalType>Peptide from protein</ChemicalType>
+                                        <LinearSequence>LARTISEAGQAMASTEGNVTGMFA</LinearSequence>
+                                        <StartingPosition>72</StartingPosition>
+                                        <EndingPosition>95</EndingPosition>
+                                        <SourceMolecule>
+                                            <GenBankId>P0A564.2</GenBankId>
+                                        </SourceMolecule>
+                                        <SourceOrganismId>652616</SourceOrganismId>
+                                    </FragmentOfANaturalSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Exact match to reference information</AntigenEvidenceCode>
+                        </Antigen>
+                    </BCell>
+                </Assays>
+                <Assays>
+                    <BCell>
+                        <LocationOfData>Figure 3</LocationOfData>
+                        <BCellId>6860</BCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>9544</OrganismId>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Administration in vivo</InVivoProcessType>
+                                <DiseaseState>DOID:399</DiseaseState>
+                                <DiseaseStage>Chronic</DiseaseStage>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Source Organism</EpitopeRelation>
+                                    <Object>
+                                        <Organism>
+                                            <SubType>Organism</SubType>
+                                            <SourceOrganismId>652616</SourceOrganismId>
+                                        </Organism>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenReferenceName>Mycobacterium tuberculosis</ImmunogenReferenceName>
+                                <ImmunogenEvidenceCode>Not determined</ImmunogenEvidenceCode>
+                                <Route>Intratracheal</Route>
+                                <DoseSchedule>Single innoculation with 100 CFU</DoseSchedule>
+                            </FirstInVivoProcess>
+                            <ImmunizationComments>TB was confirmed at necropsy by histopathology of major organs, acid-fast or fluorescent staining of infected tissue, culture methods, and bacterial nucleic acid amplification.</ImmunizationComments>
+                        </Immunization>
+                        <AssayInformation>
+                            <AssayTypeId>34</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <NumberOfSubjectsTested>11</NumberOfSubjectsTested>
+                            <NumberOfSubjectsResponded>10</NumberOfSubjectsResponded>
+                            <ResponseFrequency>90.9</ResponseFrequency>
+                            <AssayComments>Among the 11 monkeys infected experimentally were 5 rhesus macaques, 4 cynomolgus macaque (Macaca fascicularis) and 2 Aftrican Green monkeys (Cercopithecus aethiops). Results were combined for all three species of monkey.</AssayComments>
+                        </AssayInformation>
+                        <AssayedAntibody>
+                            <AssayedAntibodySourceMaterial>Serum</AssayedAntibodySourceMaterial>
+                            <AssayedAntibodyPurificationStatus>Polyclonal</AssayedAntibodyPurificationStatus>
+                            <AssayedAntibodyName>anti-ESAT Ab</AssayedAntibodyName>
+                            <AssayedAntibodyHeavyChainType>IgG</AssayedAntibodyHeavyChainType>
+                        </AssayedAntibody>
+                        <Antigen>
+                            <AntigenReferenceName>P8</AntigenReferenceName>
+                            <AntigenConformation>Non-Native/Unknown</AntigenConformation>
+                            <AntigenObject>
+                                <EpitopeRelation>Epitope</EpitopeRelation>
+                                <Object>
+                                    <FragmentOfANaturalSequenceMolecule>
+                                        <ChemicalType>Peptide from protein</ChemicalType>
+                                        <LinearSequence>LARTISEAGQAMASTEGNVTGMFA</LinearSequence>
+                                        <StartingPosition>72</StartingPosition>
+                                        <EndingPosition>95</EndingPosition>
+                                        <SourceMolecule>
+                                            <GenBankId>P0A564.2</GenBankId>
+                                        </SourceMolecule>
+                                        <SourceOrganismId>652616</SourceOrganismId>
+                                    </FragmentOfANaturalSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Exact match to reference information</AntigenEvidenceCode>
+                        </Antigen>
+                    </BCell>
+                </Assays>
+            </Epitope>
+        </Epitopes>
+    </Reference>
+</References>
+

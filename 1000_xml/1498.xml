@@ -1,0 +1,314 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<References xsi:schemaLocation="http://www.iedb.org/schema/CurationSchema http://beta.iedb.org/schema/Curation.xsd" xmlns="http://www.iedb.org/schema/CurationSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <Reference>
+        <ReferenceId>1498</ReferenceId>
+        <DateLastUpdated>2020-09-10-07:00</DateLastUpdated>
+        <Article>
+            <PubmedId>7494246</PubmedId>
+            <Abstract>We have used T-cell receptor beta-chain transgenic mice to determine the effects of a limited T-cell receptor repertoire on major histocompatibility complex class I-restricted epitope selection during the course of an influenza virus infection. Analysis of T-cell hybridomas generated from wild-type and transgenic mice demonstrated that the viral epitope recognized depended on the available T-cell receptor repertoire. Wild-type T-cell hybridomas recognized epitopes derived from the nucleoprotein and basic polymerase molecules, whereas hybridomas generated from transgenic mice recognized epitopes derived from the nonstructural protein and the matrix protein. There was no overlap in specificity between the two panels of hybridomas. This reciprocal pattern of specificity was also apparent in cytoxicity assays with brochoalveolar lavage cells isolated from the lungs of influenza virus-infected mice. T-cell receptor usage in the transgenic hybridomas was very restricted, with only one V alpha element used for ech of the two viral epitopes recognized. In the case of the hybridomas reactive to the nonstructural protein, sequence analysis showed that they all expressed V alpha 4J alpha 32 chains associated with the same junctional amino acids (Leu-Leu) that were encoded by five different nucleotide sequences, indicating a strong selection for T-cell receptor usage. Taken together, these data demonstrate that the available T-cell receptor repertoire can have a profound effect on the immunodominance of class I-restricted epitopes during a viral infection.</Abstract>
+            <ArticleYear>1995</ArticleYear>
+            <ArticlePages>7416-22</ArticlePages>
+            <ArticleTitle>Immunodominance of major histocompatibility complex class I-restricted influenza virus epitopes can be influenced by the T-cell receptor repertoire.</ArticleTitle>
+            <Authors>
+                <Author>
+                    <LastName>Daly</LastName>
+                    <ForeName>K</ForeName>
+                </Author>
+                <Author>
+                    <LastName>Nguyen</LastName>
+                    <ForeName>P</ForeName>
+                </Author>
+                <Author>
+                    <LastName>Woodland</LastName>
+                    <ForeName>D L</ForeName>
+                </Author>
+                <Author>
+                    <LastName>Blackman</LastName>
+                    <ForeName>M A</ForeName>
+                </Author>
+            </Authors>
+            <Affiliations>Department of Immunology, St. Jude Children's Research Hospital, Memphis, Tennessee 38105, USA.</Affiliations>
+            <ArticleChemicalList>Epitopes;Histocompatibility Antigens Class I;Interleukin-2;Receptors, Antigen, T-Cell;Receptors, Antigen, T-Cell, alpha-beta</ArticleChemicalList>
+            <ArticleMeshHeadingsList>Amino Acid Sequence; Animals; Base Sequence; Bronchoalveolar Lavage Fluid(immunology); Cytotoxicity, Immunologic; Epitopes(analysis; immunology); Genes, MHC Class I; Histocompatibility Antigens Class I(immunology); Hybridomas; Influenza A virus(immunology); Interleukin-2(biosynthesis); L Cells; Lymph Nodes(immunology); Mice; Mice, Inbred CBA; Mice, Transgenic; Molecular Sequence Data; Phenotype; Receptors, Antigen, T-Cell(immunology); Receptors, Antigen, T-Cell, alpha-beta(biosynthesis; genetics); Species Specificity; T-Lymphocytes(immunology; virology)</ArticleMeshHeadingsList>
+            <Journal>
+                <Volume>69</Volume>
+                <Issue>12</Issue>
+                <Title>Journal of virology</Title>
+                <Issn>1098-5514</Issn>
+                <MedlineTa>J Virol</MedlineTa>
+            </Journal>
+        </Article>
+        <Epitopes>
+            <Epitope>
+                <EpitopeName>NP 50-57</EpitopeName>
+                <EpitopeStructure>
+                    <FragmentOfANaturalSequenceMolecule>
+                        <ChemicalType>Peptide from protein</ChemicalType>
+                        <LinearSequence>SDYEGRLI</LinearSequence>
+                        <StartingPosition>50</StartingPosition>
+                        <EndingPosition>57</EndingPosition>
+                        <SourceMolecule>
+                            <GenBankId>Q91UL1</GenBankId>
+                        </SourceMolecule>
+                        <SourceOrganismId>132504</SourceOrganismId>
+                    </FragmentOfANaturalSequenceMolecule>
+                </EpitopeStructure>
+                <EpitopeId>57322</EpitopeId>
+                <ReferenceStartingPosition>50</ReferenceStartingPosition>
+                <ReferenceEndingPosition>57</ReferenceEndingPosition>
+                <EpitopeEvidenceCode>Not determined</EpitopeEvidenceCode>
+                <EpitopeStructureDefines>Exact Epitope</EpitopeStructureDefines>
+                <Assays>
+                    <TCell>
+                        <LocationOfData>Table 2</LocationOfData>
+                        <TCellId>1003858</TCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>10000233</OrganismId>
+                                <Age>6-10 weeks</Age>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Administration in vivo</InVivoProcessType>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Source Organism</EpitopeRelation>
+                                    <Object>
+                                        <Organism>
+                                            <SubType>Organism</SubType>
+                                            <SourceOrganismId>132504</SourceOrganismId>
+                                        </Organism>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenReferenceName>Influenza A virus (A/X-31(H3N2))</ImmunogenReferenceName>
+                                <ImmunogenEvidenceCode>Not determined</ImmunogenEvidenceCode>
+                                <Route>Intranasal</Route>
+                                <DoseSchedule>1</DoseSchedule>
+                            </FirstInVivoProcess>
+                            <InVitroAdministration>
+                                <ProcessType>Restimulation in vitro</ProcessType>
+                                <ResponderCellType>T cell CD8+</ResponderCellType>
+                                <StimulatorCellType>Splenocyte</StimulatorCellType>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Source Organism</EpitopeRelation>
+                                    <Object>
+                                        <Organism>
+                                            <SubType>Organism</SubType>
+                                            <SourceOrganismId>132504</SourceOrganismId>
+                                        </Organism>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenEvidenceCode>Not determined</ImmunogenEvidenceCode>
+                            </InVitroAdministration>
+                            <ImmunizationComments>Mice were immunized intranasally with influenza A virus (strain A/HKx31), and lymph nodes were harvested 4 weeks later.  CD8+ T cells were purified from mediastinal lymph nodes of influenza PR8-infected mice at 4 weeks post-infection. T cells were stimulated twice in vitro with influenza A/HKx31-infected irradiated spleen cells in the presence of 30% IL-2 supernatant. Activated cells were fused to the T cell thymoma BW5147 and cloned by limiting dilution.</ImmunizationComments>
+                        </Immunization>
+                        <EffectorCells>
+                            <CellType>T cell</CellType>
+                            <CellCultureConditions>Cell Line / Clone (Hybridoma)</CellCultureConditions>
+                        </EffectorCells>
+                        <AssayedTcrMolecule>
+                            <AssayedTcrMoleculeName>K14.31.E3, K14.34.E5, K14.33.D8, K14.40.C9</AssayedTcrMoleculeName>
+                        </AssayedTcrMolecule>
+                        <AntigenPresentingCells>
+                            <CellTissueType>Other</CellTissueType>
+                            <CellType>L cells-Fibroblast</CellType>
+                            <CellCultureConditions>Cell Line / Clone</CellCultureConditions>
+                        </AntigenPresentingCells>
+                        <MhcAllele>
+                            <MhcAlleleId>125</MhcAlleleId>
+                            <MhcEvidenceCode>Cited reference</MhcEvidenceCode>
+                        </MhcAllele>
+                        <Antigen>
+                            <AntigenReferenceName>NP</AntigenReferenceName>
+                            <AntigenObject>
+                                <EpitopeRelation>Source Antigen</EpitopeRelation>
+                                <Object>
+                                    <AccessionSequenceMolecule>
+                                        <ChemicalType>Protein</ChemicalType>
+                                        <Molecule>
+                                            <GenBankId>Q91UL1</GenBankId>
+                                        </Molecule>
+                                        <SourceOrganismId>132504</SourceOrganismId>
+                                    </AccessionSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Not determined</AntigenEvidenceCode>
+                            <AntigenContainingObject>
+                                <RecombinantOrganism>
+                                    <SubType>Recombinant Organism</SubType>
+                                    <RecombinantOrganismId>10245</RecombinantOrganismId>
+                                </RecombinantOrganism>
+                            </AntigenContainingObject>
+                        </Antigen>
+                        <AssayInformation>
+                            <AssayTypeId>62</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <AssayComments>Influenza virus-specific T-cell hybridomas were analyzed for their ability to secrete IL-2 in response to L929 cells infected with recombinant vaccinia virus expressing individual influenza A proteins. Four hybridomas (K14.31.E3, K14.34.E5, K14.33.D8 and K14.40.C9) specific for the influenza NP 50-57 epitope recognized and secreted IL:-2 in response to L929 cells infected with recombinant vaccinia virus expressing NP from influenza A/PR8.</AssayComments>
+                        </AssayInformation>
+                    </TCell>
+                </Assays>
+                <Assays>
+                    <TCell>
+                        <LocationOfData>Table 3 footnote and text</LocationOfData>
+                        <TCellId>1003859</TCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>10000233</OrganismId>
+                                <Age>6-10 weeks</Age>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Administration in vivo</InVivoProcessType>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Source Organism</EpitopeRelation>
+                                    <Object>
+                                        <Organism>
+                                            <SubType>Organism</SubType>
+                                            <SourceOrganismId>132504</SourceOrganismId>
+                                        </Organism>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenReferenceName>Influenza A virus (A/X-31(H3N2))</ImmunogenReferenceName>
+                                <ImmunogenEvidenceCode>Not determined</ImmunogenEvidenceCode>
+                                <Route>Intranasal</Route>
+                                <DoseSchedule>1</DoseSchedule>
+                            </FirstInVivoProcess>
+                            <InVitroAdministration>
+                                <ProcessType>Restimulation in vitro</ProcessType>
+                                <ResponderCellType>T cell CD8+</ResponderCellType>
+                                <StimulatorCellType>Splenocyte</StimulatorCellType>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Source Organism</EpitopeRelation>
+                                    <Object>
+                                        <Organism>
+                                            <SubType>Organism</SubType>
+                                            <SourceOrganismId>132504</SourceOrganismId>
+                                        </Organism>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenEvidenceCode>Not determined</ImmunogenEvidenceCode>
+                            </InVitroAdministration>
+                            <ImmunizationComments>Mice were immunized intranasally with influenza A virus (strain A/HKx31), and lymph nodes were harvested 4 weeks later. T cells were stimulated twice in vitro with influenza A/HKx31-infected irradiated spleen cells. Activated cells were fused to the T cell thymoma BW5147 and cloned by limiting dilution.</ImmunizationComments>
+                        </Immunization>
+                        <EffectorCells>
+                            <CellType>T cell</CellType>
+                            <CellCultureConditions>Cell Line / Clone (Hybridoma)</CellCultureConditions>
+                        </EffectorCells>
+                        <AssayedTcrMolecule>
+                            <AssayedTcrMoleculeName>K14.31.E3, K14.34.E5, K14.33.D8, K14.40.C9</AssayedTcrMoleculeName>
+                        </AssayedTcrMolecule>
+                        <AntigenPresentingCells>
+                            <CellTissueType>Other</CellTissueType>
+                            <CellType>L cells-Fibroblast</CellType>
+                            <CellCultureConditions>Cell Line / Clone</CellCultureConditions>
+                        </AntigenPresentingCells>
+                        <MhcAllele>
+                            <MhcAlleleId>125</MhcAlleleId>
+                            <MhcEvidenceCode>Cited reference</MhcEvidenceCode>
+                        </MhcAllele>
+                        <Antigen>
+                            <AntigenReferenceName>NP 50-57</AntigenReferenceName>
+                            <AntigenObject>
+                                <EpitopeRelation>Epitope</EpitopeRelation>
+                                <Object>
+                                    <FragmentOfANaturalSequenceMolecule>
+                                        <ChemicalType>Peptide from protein</ChemicalType>
+                                        <LinearSequence>SDYEGRLI</LinearSequence>
+                                        <StartingPosition>50</StartingPosition>
+                                        <EndingPosition>57</EndingPosition>
+                                        <SourceMolecule>
+                                            <GenBankId>Q91UL1</GenBankId>
+                                        </SourceMolecule>
+                                        <SourceOrganismId>132504</SourceOrganismId>
+                                    </FragmentOfANaturalSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Exact match to reference information</AntigenEvidenceCode>
+                        </Antigen>
+                        <AssayInformation>
+                            <AssayTypeId>62</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <AssayComments>Influenza virus-specific T-cell hybridomas were analyzed for their ability to secrete IL-2 in response to L929 cells infected with recombinant vaccinia virus expressing individual influenza A proteins. Four hybridomas (K14.31.E3, K14.34.E5, K14.33.D8 and K14.40.C9) specific for the influenza NP were found to recognize the NP 50-57 epitope.</AssayComments>
+                        </AssayInformation>
+                    </TCell>
+                </Assays>
+                <Assays>
+                    <TCell>
+                        <LocationOfData>Table 1</LocationOfData>
+                        <TCellId>1003857</TCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>10000233</OrganismId>
+                                <Age>6-10 weeks</Age>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Administration in vivo</InVivoProcessType>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Source Organism</EpitopeRelation>
+                                    <Object>
+                                        <Organism>
+                                            <SubType>Organism</SubType>
+                                            <SourceOrganismId>132504</SourceOrganismId>
+                                        </Organism>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenReferenceName>Influenza A virus (A/X-31(H3N2))</ImmunogenReferenceName>
+                                <ImmunogenEvidenceCode>Not determined</ImmunogenEvidenceCode>
+                                <Route>Intranasal</Route>
+                                <DoseSchedule>1</DoseSchedule>
+                            </FirstInVivoProcess>
+                            <InVitroAdministration>
+                                <ProcessType>Restimulation in vitro</ProcessType>
+                                <ResponderCellType>T cell CD8+</ResponderCellType>
+                                <StimulatorCellType>Splenocyte</StimulatorCellType>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Source Organism</EpitopeRelation>
+                                    <Object>
+                                        <Organism>
+                                            <SubType>Organism</SubType>
+                                            <SourceOrganismId>132504</SourceOrganismId>
+                                        </Organism>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenEvidenceCode>Not determined</ImmunogenEvidenceCode>
+                            </InVitroAdministration>
+                            <ImmunizationComments>Mice were immunized intranasally with influenza A virus (strain A/HKx31), and lymph nodes were harvested 4 weeks later.  CD8+ T cells were purified from mediastinal lymph nodes of influenza PR8-infected mice at 4 weeks post-infection. T cells were stimulated twice in vitro with influenza A/HKx31-infected irradiated spleen cells in the presence of 30% IL-2 supernatant. Activated cells were fused to the T cell thymoma BW5147 and cloned by limiting dilution.</ImmunizationComments>
+                        </Immunization>
+                        <EffectorCells>
+                            <CellType>T cell</CellType>
+                            <CellCultureConditions>Cell Line / Clone (Hybridoma)</CellCultureConditions>
+                        </EffectorCells>
+                        <AssayedTcrMolecule>
+                            <AssayedTcrMoleculeName>K14.31.E3, K14.34.E5, K14.33.D8, K14.40.C9</AssayedTcrMoleculeName>
+                        </AssayedTcrMolecule>
+                        <AntigenPresentingCells>
+                            <CellTissueType>Other</CellTissueType>
+                            <CellType>L cells-Fibroblast</CellType>
+                            <CellCultureConditions>Cell Line / Clone</CellCultureConditions>
+                        </AntigenPresentingCells>
+                        <MhcAllele>
+                            <MhcAlleleId>125</MhcAlleleId>
+                            <MhcEvidenceCode>Cited reference</MhcEvidenceCode>
+                        </MhcAllele>
+                        <Antigen>
+                            <AntigenReferenceName>Influenza A virus (A/X-31(H3N2))</AntigenReferenceName>
+                            <AntigenObject>
+                                <EpitopeRelation>Source Organism</EpitopeRelation>
+                                <Object>
+                                    <Organism>
+                                        <SubType>Organism</SubType>
+                                        <SourceOrganismId>132504</SourceOrganismId>
+                                    </Organism>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Not determined</AntigenEvidenceCode>
+                        </Antigen>
+                        <AssayInformation>
+                            <AssayTypeId>62</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <AssayComments>Influenza virus-specific T-cell hybridomas were analyzed for their ability to secrete IL-2 in response to different target cells infected with influenza virus A/HKx31. Four hybridomas (K14.31.E3, K14.34.E5, K14.33.D8 and K14.40.C9) recognized and secreted IL:-2 in response to L929 cells (H-2Kk and H-2Dk) or CH12.1.6 cells (H-2Kk and H-2Dd) infected with influenza A/HKx31. These four hybridomas were later shown to be specific for the influenza NP 50-57 epitope.</AssayComments>
+                        </AssayInformation>
+                    </TCell>
+                </Assays>
+            </Epitope>
+        </Epitopes>
+    </Reference>
+</References>
+

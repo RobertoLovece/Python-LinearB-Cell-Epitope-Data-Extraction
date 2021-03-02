@@ -1,0 +1,1581 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<References xsi:schemaLocation="http://www.iedb.org/schema/CurationSchema http://beta.iedb.org/schema/Curation.xsd" xmlns="http://www.iedb.org/schema/CurationSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <Reference>
+        <ReferenceId>1135</ReferenceId>
+        <DateLastUpdated>2020-09-10-07:00</DateLastUpdated>
+        <Article>
+            <PubmedId>14764701</PubmedId>
+            <Abstract>TCRs possess considerable cross-reactivity toward structurally related Ags. Because the signaling threshold for negative selection is lower than that required for activation of mature T cells, the question arises as to which extent thymic deletion of self-specific T cells affects T cell responsiveness toward foreign peptides. In this study we show, in three different mouse models systems, that the polyclonal CD8(+) T cell repertoire has a marked ability to react against the majority of Ags related to self despite self-tolerance, even in cases where self and foreign differ only marginally at a single TCR-contact residue. Thus, while individual T cells are markedly cross-reactive, the ability to distinguish between closely related Ags is introduced at the polyclonal T cell level.</Abstract>
+            <ArticleYear>2004</ArticleYear>
+            <ArticlePages>2324-31</ArticlePages>
+            <ArticleTitle>The impact of self-tolerance on the polyclonal CD8+ T cell repertoire.</ArticleTitle>
+            <Authors>
+                <Author>
+                    <LastName>Kessels</LastName>
+                    <ForeName>Helmut W H G</ForeName>
+                </Author>
+                <Author>
+                    <LastName>de Visser</LastName>
+                    <ForeName>Karin E</ForeName>
+                </Author>
+                <Author>
+                    <LastName>Tirion</LastName>
+                    <ForeName>Felicia H</ForeName>
+                </Author>
+                <Author>
+                    <LastName>Coccoris</LastName>
+                    <ForeName>Miriam</ForeName>
+                </Author>
+                <Author>
+                    <LastName>Kruisbeek</LastName>
+                    <ForeName>Ada M</ForeName>
+                </Author>
+                <Author>
+                    <LastName>Schumacher</LastName>
+                    <ForeName>Ton N M</ForeName>
+                </Author>
+            </Authors>
+            <Affiliations>Department of Immunology, The Netherlands Cancer Institute, Amsterdam, The Netherlands.</Affiliations>
+            <ArticleChemicalList>Antigens, Polyomavirus Transforming;Antigens, Viral;Epitopes, T-Lymphocyte;H-Y Antigen;Immunodominant Epitopes;Ligands;Peptide Fragments;Viral Core Proteins;nucleoprotein (366-374), influenza virus</ArticleChemicalList>
+            <ArticleMeshHeadingsList>Amino Acid Substitution(immunology); Animals; Antigens, Polyomavirus Transforming(immunology); Antigens, Viral(immunology); CD8-Positive T-Lymphocytes(cytology; immunology; metabolism); Cell Differentiation(genetics; immunology); Cells, Cultured; Clonal Deletion(genetics; immunology); Clone Cells; Epitopes, T-Lymphocyte(genetics; immunology); Female; H-Y Antigen(immunology); Immunodominant Epitopes(immunology); Influenza A virus(immunology); Ligands; Male; Mice; Mice, Inbred C57BL; Mice, Transgenic; Peptide Fragments(immunology); Protein Binding(immunology); Self Tolerance(genetics; immunology); Viral Core Proteins(immunology)</ArticleMeshHeadingsList>
+            <Journal>
+                <Volume>172</Volume>
+                <Issue>4</Issue>
+                <Title>Journal of immunology (Baltimore, Md. : 1950)</Title>
+                <Issn>0022-1767</Issn>
+                <MedlineTa>J Immunol</MedlineTa>
+            </Journal>
+        </Article>
+        <Epitopes>
+            <Epitope>
+                <EpitopeName>NP366-374</EpitopeName>
+                <EpitopeStructure>
+                    <FragmentOfANaturalSequenceMolecule>
+                        <ChemicalType>Peptide from protein</ChemicalType>
+                        <LinearSequence>ASNENMDAM</LinearSequence>
+                        <StartingPosition>366</StartingPosition>
+                        <EndingPosition>374</EndingPosition>
+                        <SourceMolecule>
+                            <GenBankId>P22435.2</GenBankId>
+                        </SourceMolecule>
+                        <SourceOrganismId>506350</SourceOrganismId>
+                    </FragmentOfANaturalSequenceMolecule>
+                </EpitopeStructure>
+                <LocationOfData>Figure 2</LocationOfData>
+                <EpitopeId>4578</EpitopeId>
+                <ReferenceStartingPosition>366</ReferenceStartingPosition>
+                <ReferenceEndingPosition>374</ReferenceEndingPosition>
+                <EpitopeEvidenceCode>Representative selection</EpitopeEvidenceCode>
+                <EpitopeStructureDefines>Exact Epitope</EpitopeStructureDefines>
+                <Assays>
+                    <TCell>
+                        <LocationOfData>Figures 3A and 4, Table I</LocationOfData>
+                        <TCellId>16159</TCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>10000066</OrganismId>
+                                <Age>6-10 wk</Age>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Administration in vivo</InVivoProcessType>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Epitope</EpitopeRelation>
+                                    <Object>
+                                        <FragmentOfANaturalSequenceMolecule>
+                                            <ChemicalType>Peptide from protein</ChemicalType>
+                                            <LinearSequence>ASNENMDAM</LinearSequence>
+                                            <StartingPosition>366</StartingPosition>
+                                            <EndingPosition>374</EndingPosition>
+                                            <SourceMolecule>
+                                                <GenBankId>P22435.2</GenBankId>
+                                            </SourceMolecule>
+                                            <SourceOrganismId>506350</SourceOrganismId>
+                                        </FragmentOfANaturalSequenceMolecule>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenEvidenceCode>Exact match to reference information</ImmunogenEvidenceCode>
+                                <Adjuvant>Freund's complete</Adjuvant>
+                                <Route>Subcutaneous (s.c.)</Route>
+                                <DoseSchedule>1 dose of 100 micrograms peptide</DoseSchedule>
+                            </FirstInVivoProcess>
+                            <InVitroAdministration>
+                                <ProcessType>Restimulation in vitro</ProcessType>
+                                <ResponderCellType>Splenocyte</ResponderCellType>
+                                <StimulatorCellType>Splenocyte</StimulatorCellType>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Epitope</EpitopeRelation>
+                                    <Object>
+                                        <FragmentOfANaturalSequenceMolecule>
+                                            <ChemicalType>Peptide from protein</ChemicalType>
+                                            <LinearSequence>ASNENMDAM</LinearSequence>
+                                            <StartingPosition>366</StartingPosition>
+                                            <EndingPosition>374</EndingPosition>
+                                            <SourceMolecule>
+                                                <GenBankId>P22435.2</GenBankId>
+                                            </SourceMolecule>
+                                            <SourceOrganismId>506350</SourceOrganismId>
+                                        </FragmentOfANaturalSequenceMolecule>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenEvidenceCode>Exact match to reference information</ImmunogenEvidenceCode>
+                            </InVitroAdministration>
+                            <ImmunizationComments>At day 8 after inoculation, splenocytes were harvested and cultured. Immunized animals are transgenic for fragment 328-498 of NP, including the epitope, under the control of MHC-I promoter. For 3 days starting at immunizing day, mice were also injected i.p. with 100 micrograms of anti-CD40 Ab.  Splenocytes were cultured for 14 days in the presence of peptide and IL-2.</ImmunizationComments>
+                        </Immunization>
+                        <EffectorCells>
+                            <CellTissueType>Spleen</CellTissueType>
+                            <CellType>T cell CD8+</CellType>
+                            <CellCultureConditions>Short Term Restimulated</CellCultureConditions>
+                        </EffectorCells>
+                        <MhcAllele>
+                            <MhcAlleleId>172</MhcAlleleId>
+                            <MhcEvidenceCode>T cell assay -Single MHC type present</MhcEvidenceCode>
+                        </MhcAllele>
+                        <Antigen>
+                            <AntigenReferenceName>NP366-374</AntigenReferenceName>
+                            <AntigenObject>
+                                <EpitopeRelation>Epitope</EpitopeRelation>
+                                <Object>
+                                    <FragmentOfANaturalSequenceMolecule>
+                                        <ChemicalType>Peptide from protein</ChemicalType>
+                                        <LinearSequence>ASNENMDAM</LinearSequence>
+                                        <StartingPosition>366</StartingPosition>
+                                        <EndingPosition>374</EndingPosition>
+                                        <SourceMolecule>
+                                            <GenBankId>P22435.2</GenBankId>
+                                        </SourceMolecule>
+                                        <SourceOrganismId>506350</SourceOrganismId>
+                                    </FragmentOfANaturalSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Exact match to reference information</AntigenEvidenceCode>
+                        </Antigen>
+                        <AssayInformation>
+                            <AssayTypeId>47</AssayTypeId>
+                            <QualitativeMeasurement>Negative</QualitativeMeasurement>
+                            <AssayComments>Mice transgenic for a fragment of NP encompassing the epitope are incapable of responding with epitope specific CD8+ cells to peptide immunization, while normal B10 mice do respond. When immunized with a mutant form of the epitope (ASNENMETM), B10NP mice are able to mount a response against it, comparable to that of normal B10 mice, implying that self-tolerance to an epitope does not necessarily affect responsiveness to a structurally similar peptide.</AssayComments>
+                        </AssayInformation>
+                    </TCell>
+                </Assays>
+                <Assays>
+                    <TCell>
+                        <LocationOfData>Figure 2A</LocationOfData>
+                        <TCellId>16146</TCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>10000066</OrganismId>
+                                <Age>6-10 wk</Age>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Administration in vivo</InVivoProcessType>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Source Organism</EpitopeRelation>
+                                    <Object>
+                                        <Organism>
+                                            <SubType>Organism</SubType>
+                                            <SourceOrganismId>506350</SourceOrganismId>
+                                        </Organism>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenEvidenceCode>Exact match to reference information</ImmunogenEvidenceCode>
+                                <Route>Intranasal</Route>
+                                <DoseSchedule>1 dose of 0.1 HAU</DoseSchedule>
+                            </FirstInVivoProcess>
+                            <ImmunizationComments>At day 8 after inoculation, lungs were harvested and assayed for epitope specific CD8+ cells. Immunized animals are transgenic for fragment 328-498 of HK/1/68 Nucleoprotein, containing the epitope, under the control of MHC-I promoter.</ImmunizationComments>
+                        </Immunization>
+                        <EffectorCells>
+                            <CellTissueType>Lung</CellTissueType>
+                            <CellType>T cell CD8+</CellType>
+                            <CellCultureConditions>Direct Ex Vivo</CellCultureConditions>
+                        </EffectorCells>
+                        <MhcAllele>
+                            <MhcAlleleId>172</MhcAlleleId>
+                            <MhcEvidenceCode>Cited reference</MhcEvidenceCode>
+                        </MhcAllele>
+                        <Antigen>
+                            <AntigenReferenceName>NP366-374</AntigenReferenceName>
+                            <AntigenObject>
+                                <EpitopeRelation>Epitope</EpitopeRelation>
+                                <Object>
+                                    <FragmentOfANaturalSequenceMolecule>
+                                        <ChemicalType>Peptide from protein</ChemicalType>
+                                        <LinearSequence>ASNENMDAM</LinearSequence>
+                                        <StartingPosition>366</StartingPosition>
+                                        <EndingPosition>374</EndingPosition>
+                                        <SourceMolecule>
+                                            <GenBankId>P22435.2</GenBankId>
+                                        </SourceMolecule>
+                                        <SourceOrganismId>506350</SourceOrganismId>
+                                    </FragmentOfANaturalSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Exact match to reference information</AntigenEvidenceCode>
+                        </Antigen>
+                        <AssayInformation>
+                            <AssayTypeId>47</AssayTypeId>
+                            <QualitativeMeasurement>Negative</QualitativeMeasurement>
+                            <AssayComments>Mice transgenic for a fragment of NP encompassing the epitope develop self-tolerance and are thus incapable of responding with epitope specific CD8+ cells to A/HK/1/68 infection. When infected with a virus (X-31) encoding a mutant form of the epitope (ASNENMETM), they are able to mount a response against this version of epitope,  implying that self-tolerance to an epitope does not necessarily affect responsiveness to a structurally similar peptide.</AssayComments>
+                        </AssayInformation>
+                    </TCell>
+                </Assays>
+                <Assays>
+                    <TCell>
+                        <LocationOfData>Figure 3B and 3E</LocationOfData>
+                        <TCellId>16154</TCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>10000066</OrganismId>
+                                <Age>6-10 wk</Age>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Administration in vivo</InVivoProcessType>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Epitope</EpitopeRelation>
+                                    <Object>
+                                        <FragmentOfANaturalSequenceMolecule>
+                                            <ChemicalType>Peptide from protein</ChemicalType>
+                                            <LinearSequence>ASNENMDAM</LinearSequence>
+                                            <StartingPosition>366</StartingPosition>
+                                            <EndingPosition>374</EndingPosition>
+                                            <SourceMolecule>
+                                                <GenBankId>P22435.2</GenBankId>
+                                            </SourceMolecule>
+                                            <SourceOrganismId>506350</SourceOrganismId>
+                                        </FragmentOfANaturalSequenceMolecule>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenReferenceName>NP366-374</ImmunogenReferenceName>
+                                <ImmunogenEvidenceCode>Exact match to reference information</ImmunogenEvidenceCode>
+                                <Adjuvant>Freund's complete</Adjuvant>
+                                <Route>Subcutaneous (s.c.)</Route>
+                                <DoseSchedule>1 dose of 100 micrograms peptide</DoseSchedule>
+                            </FirstInVivoProcess>
+                            <InVitroAdministration>
+                                <ProcessType>Restimulation in vitro</ProcessType>
+                                <ResponderCellType>Splenocyte</ResponderCellType>
+                                <StimulatorCellType>Splenocyte</StimulatorCellType>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Epitope</EpitopeRelation>
+                                    <Object>
+                                        <FragmentOfANaturalSequenceMolecule>
+                                            <ChemicalType>Peptide from protein</ChemicalType>
+                                            <LinearSequence>ASNENMDAM</LinearSequence>
+                                            <StartingPosition>366</StartingPosition>
+                                            <EndingPosition>374</EndingPosition>
+                                            <SourceMolecule>
+                                                <GenBankId>P22435.2</GenBankId>
+                                            </SourceMolecule>
+                                            <SourceOrganismId>506350</SourceOrganismId>
+                                        </FragmentOfANaturalSequenceMolecule>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenEvidenceCode>Exact match to reference information</ImmunogenEvidenceCode>
+                            </InVitroAdministration>
+                            <ImmunizationComments>At day 10 after inoculation, spleens were harvested and cultured. Immunized animals are B10 mice transgenic for fragment 328-498 of NP, containing the epitope, under the control of MHC-I promoter. For 3 days starting at immunizing day, mice were also injected i.p. with 100 micrograms of anti-CD40 Ab. Splenocytes were cultured for 14 days in the presence of peptide and IL-2.</ImmunizationComments>
+                        </Immunization>
+                        <EffectorCells>
+                            <CellTissueType>Spleen</CellTissueType>
+                            <CellType>T cell CD8+</CellType>
+                            <CellCultureConditions>Short Term Restimulated</CellCultureConditions>
+                        </EffectorCells>
+                        <MhcAllele>
+                            <MhcAlleleId>172</MhcAlleleId>
+                            <MhcEvidenceCode>Cited reference</MhcEvidenceCode>
+                        </MhcAllele>
+                        <Antigen>
+                            <AntigenReferenceName>NP366-374</AntigenReferenceName>
+                            <AntigenObject>
+                                <EpitopeRelation>Epitope</EpitopeRelation>
+                                <Object>
+                                    <FragmentOfANaturalSequenceMolecule>
+                                        <ChemicalType>Peptide from protein</ChemicalType>
+                                        <LinearSequence>ASNENMDAM</LinearSequence>
+                                        <StartingPosition>366</StartingPosition>
+                                        <EndingPosition>374</EndingPosition>
+                                        <SourceMolecule>
+                                            <GenBankId>P22435.2</GenBankId>
+                                        </SourceMolecule>
+                                        <SourceOrganismId>506350</SourceOrganismId>
+                                    </FragmentOfANaturalSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Exact match to reference information</AntigenEvidenceCode>
+                        </Antigen>
+                        <AssayInformation>
+                            <AssayTypeId>53</AssayTypeId>
+                            <QualitativeMeasurement>Negative</QualitativeMeasurement>
+                            <AssayComments>Mice transgenic for a fragment of NP encompassing the epitope are incapable of responding with epitope specific CD8+ cells to peptide immunization, while normal B10 mice do respond. When immunized with a mutant form of the epitope (ASNENMETM), B10NP mice are able to mount a response against it, comparable to that of normal B10 mice, implying that self-tolerance to an epitope does not necessarily affect responsiveness to a structurally similar peptide.</AssayComments>
+                        </AssayInformation>
+                    </TCell>
+                </Assays>
+                <Assays>
+                    <TCell>
+                        <LocationOfData>Figures 2, 3 and 4, Table I</LocationOfData>
+                        <TCellId>3110142</TCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>10000066</OrganismId>
+                                <Age>6-10 wk</Age>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Administration in vivo</InVivoProcessType>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Epitope</EpitopeRelation>
+                                    <Object>
+                                        <FragmentOfANaturalSequenceMolecule>
+                                            <ChemicalType>Peptide from protein</ChemicalType>
+                                            <LinearSequence>ASNENMDAM</LinearSequence>
+                                            <StartingPosition>366</StartingPosition>
+                                            <EndingPosition>374</EndingPosition>
+                                            <SourceMolecule>
+                                                <GenBankId>P22435.2</GenBankId>
+                                            </SourceMolecule>
+                                            <SourceOrganismId>506350</SourceOrganismId>
+                                        </FragmentOfANaturalSequenceMolecule>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenEvidenceCode>Exact match to reference information</ImmunogenEvidenceCode>
+                                <Adjuvant>Freund's complete</Adjuvant>
+                                <Route>Subcutaneous (s.c.)</Route>
+                                <DoseSchedule>1 dose of 100 micrograms peptide</DoseSchedule>
+                            </FirstInVivoProcess>
+                            <InVitroAdministration>
+                                <ProcessType>Restimulation in vitro</ProcessType>
+                                <ResponderCellType>Splenocyte</ResponderCellType>
+                                <StimulatorCellType>Splenocyte</StimulatorCellType>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Epitope</EpitopeRelation>
+                                    <Object>
+                                        <FragmentOfANaturalSequenceMolecule>
+                                            <ChemicalType>Peptide from protein</ChemicalType>
+                                            <LinearSequence>ASNENMDAM</LinearSequence>
+                                            <StartingPosition>366</StartingPosition>
+                                            <EndingPosition>374</EndingPosition>
+                                            <SourceMolecule>
+                                                <GenBankId>P22435.2</GenBankId>
+                                            </SourceMolecule>
+                                            <SourceOrganismId>506350</SourceOrganismId>
+                                        </FragmentOfANaturalSequenceMolecule>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenEvidenceCode>Exact match to reference information</ImmunogenEvidenceCode>
+                            </InVitroAdministration>
+                            <ImmunizationComments>At day 8 after inoculation, splenocytes were harvested and cultured. Immunized animals are transgenic for fragment 328-498 of NP, including the epitope, under the control of MHC-I promoter. For 3 days starting at immunizing day, mice were also injected i.p. with 100 micrograms of anti-CD40 Ab.  Splenocytes were cultured for 14 days in the presence of peptide and IL-2. Mice were immunized either with the epitope or with single substitution variants of the epitope.</ImmunizationComments>
+                        </Immunization>
+                        <EffectorCells>
+                            <CellTissueType>Spleen</CellTissueType>
+                            <CellType>T cell CD8+</CellType>
+                            <CellCultureConditions>Short Term Restimulated</CellCultureConditions>
+                        </EffectorCells>
+                        <MhcAllele>
+                            <MhcAlleleId>172</MhcAlleleId>
+                            <MhcEvidenceCode>T cell assay -Single MHC type present</MhcEvidenceCode>
+                        </MhcAllele>
+                        <Antigen>
+                            <AntigenReferenceName>NP366-374</AntigenReferenceName>
+                            <AntigenObject>
+                                <EpitopeRelation>Epitope</EpitopeRelation>
+                                <Object>
+                                    <FragmentOfANaturalSequenceMolecule>
+                                        <ChemicalType>Peptide from protein</ChemicalType>
+                                        <LinearSequence>ASNENMDAM</LinearSequence>
+                                        <StartingPosition>366</StartingPosition>
+                                        <EndingPosition>374</EndingPosition>
+                                        <SourceMolecule>
+                                            <GenBankId>P22435.2</GenBankId>
+                                        </SourceMolecule>
+                                        <SourceOrganismId>506350</SourceOrganismId>
+                                    </FragmentOfANaturalSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Exact match to reference information</AntigenEvidenceCode>
+                        </Antigen>
+                        <AssayInformation>
+                            <AssayTypeId>360</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <AssayComments>Mice transgenic for a fragment of NP of A/HK/1/68, encompassing the epitope and immunized with the epitope  do not produce epitope specific responses after immunization with the epitope or with the virus. When immunized with single residue epitope variants, they also fail to generate epitope-specific responses, implying that the response to a structurally related peptide does not necessarily break the self- tolerance. In one variant, however, a significant ( but of low avidity) response against the wild type epitope was mounted. Responses against the variant peptides are seen in transgenic mice for 5 of the 8 variants assayed and in 2 cases, the functionality of the response (IFN-g production and MHC-tetramer staining) was proven similar to that of normal B10 mice. Notably, variants in position 1 are not able to induce a response, correlating with the inaccessibility to TCR of that position in Db presented peptides.</AssayComments>
+                        </AssayInformation>
+                    </TCell>
+                </Assays>
+                <Assays>
+                    <TCell>
+                        <LocationOfData>Figure 2A</LocationOfData>
+                        <TCellId>16147</TCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>10002138</OrganismId>
+                                <Age>6-10 wk</Age>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Administration in vivo</InVivoProcessType>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Source Organism</EpitopeRelation>
+                                    <Object>
+                                        <Organism>
+                                            <SubType>Organism</SubType>
+                                            <SourceOrganismId>506350</SourceOrganismId>
+                                        </Organism>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenEvidenceCode>Exact match to reference information</ImmunogenEvidenceCode>
+                                <Route>Intranasal</Route>
+                                <DoseSchedule>1 dose of 0.1 HAU</DoseSchedule>
+                            </FirstInVivoProcess>
+                            <ImmunizationComments>At day 8 after innoculation, lungs were harvested and assayed for epitope specific CD8+ cells.</ImmunizationComments>
+                        </Immunization>
+                        <EffectorCells>
+                            <CellTissueType>Lung</CellTissueType>
+                            <CellType>T cell CD8+</CellType>
+                            <CellCultureConditions>Direct Ex Vivo</CellCultureConditions>
+                        </EffectorCells>
+                        <MhcAllele>
+                            <MhcAlleleId>172</MhcAlleleId>
+                            <MhcEvidenceCode>Cited reference</MhcEvidenceCode>
+                        </MhcAllele>
+                        <Antigen>
+                            <AntigenReferenceName>NP366-374</AntigenReferenceName>
+                            <AntigenObject>
+                                <EpitopeRelation>Epitope</EpitopeRelation>
+                                <Object>
+                                    <FragmentOfANaturalSequenceMolecule>
+                                        <ChemicalType>Peptide from protein</ChemicalType>
+                                        <LinearSequence>ASNENMDAM</LinearSequence>
+                                        <StartingPosition>366</StartingPosition>
+                                        <EndingPosition>374</EndingPosition>
+                                        <SourceMolecule>
+                                            <GenBankId>P22435.2</GenBankId>
+                                        </SourceMolecule>
+                                        <SourceOrganismId>506350</SourceOrganismId>
+                                    </FragmentOfANaturalSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Exact match to reference information</AntigenEvidenceCode>
+                        </Antigen>
+                        <AssayInformation>
+                            <AssayTypeId>47</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <AssayComments>Normal B10 (C57BL/10) mice respond with epitope specific CD8+ cells to A/HK/1/68 infection while mice transgenic for a fragment of NP containing the epitope develop self-tolerance and do not mount epitope specific responses.</AssayComments>
+                        </AssayInformation>
+                    </TCell>
+                </Assays>
+                <Assays>
+                    <TCell>
+                        <LocationOfData>Figure 3B and 3E</LocationOfData>
+                        <TCellId>3110023</TCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>10002138</OrganismId>
+                                <Age>6-10 wk</Age>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Administration in vivo</InVivoProcessType>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Epitope</EpitopeRelation>
+                                    <Object>
+                                        <FragmentOfANaturalSequenceMolecule>
+                                            <ChemicalType>Peptide from protein</ChemicalType>
+                                            <LinearSequence>ASNENMDAM</LinearSequence>
+                                            <StartingPosition>366</StartingPosition>
+                                            <EndingPosition>374</EndingPosition>
+                                            <SourceMolecule>
+                                                <GenBankId>P22435.2</GenBankId>
+                                            </SourceMolecule>
+                                            <SourceOrganismId>506350</SourceOrganismId>
+                                        </FragmentOfANaturalSequenceMolecule>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenReferenceName>NP366-374</ImmunogenReferenceName>
+                                <ImmunogenEvidenceCode>Exact match to reference information</ImmunogenEvidenceCode>
+                                <Adjuvant>Freund's complete</Adjuvant>
+                                <Route>Subcutaneous (s.c.)</Route>
+                                <DoseSchedule>1 dose of 100 micrograms peptide</DoseSchedule>
+                            </FirstInVivoProcess>
+                            <InVitroAdministration>
+                                <ProcessType>Restimulation in vitro</ProcessType>
+                                <ResponderCellType>Splenocyte</ResponderCellType>
+                                <StimulatorCellType>Splenocyte</StimulatorCellType>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Epitope</EpitopeRelation>
+                                    <Object>
+                                        <FragmentOfANaturalSequenceMolecule>
+                                            <ChemicalType>Peptide from protein</ChemicalType>
+                                            <LinearSequence>ASNENMDAM</LinearSequence>
+                                            <StartingPosition>366</StartingPosition>
+                                            <EndingPosition>374</EndingPosition>
+                                            <SourceMolecule>
+                                                <GenBankId>P22435.2</GenBankId>
+                                            </SourceMolecule>
+                                            <SourceOrganismId>506350</SourceOrganismId>
+                                        </FragmentOfANaturalSequenceMolecule>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenEvidenceCode>Exact match to reference information</ImmunogenEvidenceCode>
+                            </InVitroAdministration>
+                            <ImmunizationComments>At day 10 after inoculation, spleens were harvested and cultured.  For 3 days starting at immunizing day, mice were also injected i.p. with 100 micrograms of anti-CD40 Ab. Splenocytes were cultured for 14 days in the presence of peptide and IL-2.</ImmunizationComments>
+                        </Immunization>
+                        <EffectorCells>
+                            <CellTissueType>Spleen</CellTissueType>
+                            <CellType>T cell CD8+</CellType>
+                            <CellCultureConditions>Short Term Restimulated</CellCultureConditions>
+                        </EffectorCells>
+                        <MhcAllele>
+                            <MhcAlleleId>172</MhcAlleleId>
+                            <MhcEvidenceCode>Cited reference</MhcEvidenceCode>
+                        </MhcAllele>
+                        <Antigen>
+                            <AntigenReferenceName>NP366-374</AntigenReferenceName>
+                            <AntigenObject>
+                                <EpitopeRelation>Epitope</EpitopeRelation>
+                                <Object>
+                                    <FragmentOfANaturalSequenceMolecule>
+                                        <ChemicalType>Peptide from protein</ChemicalType>
+                                        <LinearSequence>ASNENMDAM</LinearSequence>
+                                        <StartingPosition>366</StartingPosition>
+                                        <EndingPosition>374</EndingPosition>
+                                        <SourceMolecule>
+                                            <GenBankId>P22435.2</GenBankId>
+                                        </SourceMolecule>
+                                        <SourceOrganismId>506350</SourceOrganismId>
+                                    </FragmentOfANaturalSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Exact match to reference information</AntigenEvidenceCode>
+                        </Antigen>
+                        <AssayInformation>
+                            <AssayTypeId>53</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <AssayComments>Normal B10 mice respond with epitope specific CD8+ cells to peptide immunization.</AssayComments>
+                        </AssayInformation>
+                    </TCell>
+                </Assays>
+                <Assays>
+                    <TCell>
+                        <LocationOfData>Figures 3A and 4, Table I</LocationOfData>
+                        <TCellId>3110027</TCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>10002138</OrganismId>
+                                <Age>6-10 wk</Age>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Administration in vivo</InVivoProcessType>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Epitope</EpitopeRelation>
+                                    <Object>
+                                        <FragmentOfANaturalSequenceMolecule>
+                                            <ChemicalType>Peptide from protein</ChemicalType>
+                                            <LinearSequence>ASNENMDAM</LinearSequence>
+                                            <StartingPosition>366</StartingPosition>
+                                            <EndingPosition>374</EndingPosition>
+                                            <SourceMolecule>
+                                                <GenBankId>P22435.2</GenBankId>
+                                            </SourceMolecule>
+                                            <SourceOrganismId>506350</SourceOrganismId>
+                                        </FragmentOfANaturalSequenceMolecule>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenReferenceName>NP366-374</ImmunogenReferenceName>
+                                <ImmunogenEvidenceCode>Exact match to reference information</ImmunogenEvidenceCode>
+                                <Adjuvant>Freund's complete</Adjuvant>
+                                <Route>Subcutaneous (s.c.)</Route>
+                                <DoseSchedule>1 dose of 100 micrograms peptide</DoseSchedule>
+                            </FirstInVivoProcess>
+                            <InVitroAdministration>
+                                <ProcessType>Restimulation in vitro</ProcessType>
+                                <ResponderCellType>Splenocyte</ResponderCellType>
+                                <StimulatorCellType>Splenocyte</StimulatorCellType>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Epitope</EpitopeRelation>
+                                    <Object>
+                                        <FragmentOfANaturalSequenceMolecule>
+                                            <ChemicalType>Peptide from protein</ChemicalType>
+                                            <LinearSequence>ASNENMDAM</LinearSequence>
+                                            <StartingPosition>366</StartingPosition>
+                                            <EndingPosition>374</EndingPosition>
+                                            <SourceMolecule>
+                                                <GenBankId>P22435.2</GenBankId>
+                                            </SourceMolecule>
+                                            <SourceOrganismId>506350</SourceOrganismId>
+                                        </FragmentOfANaturalSequenceMolecule>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenEvidenceCode>Exact match to reference information</ImmunogenEvidenceCode>
+                            </InVitroAdministration>
+                            <ImmunizationComments>At day 10 after inoculation, spleens were harvested and cultured. For 3 days starting at immunizing day, mice were also injected i.p. with 100 micrograms of anti-CD40 Ab. Splenocytes were cultured for 14 days in the presence of peptide and IL-2.</ImmunizationComments>
+                        </Immunization>
+                        <EffectorCells>
+                            <CellTissueType>Spleen</CellTissueType>
+                            <CellType>T cell CD8+</CellType>
+                            <CellCultureConditions>Short Term Restimulated</CellCultureConditions>
+                        </EffectorCells>
+                        <MhcAllele>
+                            <MhcAlleleId>172</MhcAlleleId>
+                            <MhcEvidenceCode>Cited reference</MhcEvidenceCode>
+                        </MhcAllele>
+                        <Antigen>
+                            <AntigenReferenceName>NP366-374</AntigenReferenceName>
+                            <AntigenObject>
+                                <EpitopeRelation>Epitope</EpitopeRelation>
+                                <Object>
+                                    <FragmentOfANaturalSequenceMolecule>
+                                        <ChemicalType>Peptide from protein</ChemicalType>
+                                        <LinearSequence>ASNENMDAM</LinearSequence>
+                                        <StartingPosition>366</StartingPosition>
+                                        <EndingPosition>374</EndingPosition>
+                                        <SourceMolecule>
+                                            <GenBankId>P22435.2</GenBankId>
+                                        </SourceMolecule>
+                                        <SourceOrganismId>506350</SourceOrganismId>
+                                    </FragmentOfANaturalSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Exact match to reference information</AntigenEvidenceCode>
+                        </Antigen>
+                        <AssayInformation>
+                            <AssayTypeId>47</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <AssayComments>Normal B10 mice respond with epitope specific CD8+ cells  to peptide immunization. They also respond to single residue variant peptides.</AssayComments>
+                        </AssayInformation>
+                    </TCell>
+                </Assays>
+            </Epitope>
+            <Epitope>
+                <EpitopeName>NP366-374</EpitopeName>
+                <EpitopeStructure>
+                    <FragmentOfANaturalSequenceMolecule>
+                        <ChemicalType>Peptide from protein</ChemicalType>
+                        <LinearSequence>ASNENMETM</LinearSequence>
+                        <StartingPosition>366</StartingPosition>
+                        <EndingPosition>374</EndingPosition>
+                        <SourceMolecule>
+                            <GenBankId>Q91UL1</GenBankId>
+                        </SourceMolecule>
+                        <SourceOrganismId>132504</SourceOrganismId>
+                    </FragmentOfANaturalSequenceMolecule>
+                </EpitopeStructure>
+                <LocationOfData>Figure 2</LocationOfData>
+                <EpitopeId>4602</EpitopeId>
+                <ReferenceStartingPosition>366</ReferenceStartingPosition>
+                <ReferenceEndingPosition>374</ReferenceEndingPosition>
+                <EpitopeEvidenceCode>Representative selection</EpitopeEvidenceCode>
+                <EpitopeStructureDefines>Exact Epitope</EpitopeStructureDefines>
+                <Assays>
+                    <TCell>
+                        <LocationOfData>Figure 3D and 3E</LocationOfData>
+                        <TCellId>16158</TCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>10000066</OrganismId>
+                                <Age>6-10 wk</Age>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Administration in vivo</InVivoProcessType>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Epitope</EpitopeRelation>
+                                    <Object>
+                                        <FragmentOfANaturalSequenceMolecule>
+                                            <ChemicalType>Peptide from protein</ChemicalType>
+                                            <LinearSequence>ASNENMETM</LinearSequence>
+                                            <StartingPosition>366</StartingPosition>
+                                            <EndingPosition>374</EndingPosition>
+                                            <SourceMolecule>
+                                                <GenBankId>Q91UL1</GenBankId>
+                                            </SourceMolecule>
+                                            <SourceOrganismId>132504</SourceOrganismId>
+                                        </FragmentOfANaturalSequenceMolecule>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenReferenceName>NP366-374</ImmunogenReferenceName>
+                                <ImmunogenEvidenceCode>Exact match to reference information</ImmunogenEvidenceCode>
+                                <Adjuvant>Freund's complete</Adjuvant>
+                                <Route>Subcutaneous (s.c.)</Route>
+                                <DoseSchedule>1 dose of 100 micrograms peptide</DoseSchedule>
+                            </FirstInVivoProcess>
+                            <InVitroAdministration>
+                                <ProcessType>Restimulation in vitro</ProcessType>
+                                <ResponderCellType>Splenocyte</ResponderCellType>
+                                <StimulatorCellType>Splenocyte</StimulatorCellType>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Epitope</EpitopeRelation>
+                                    <Object>
+                                        <FragmentOfANaturalSequenceMolecule>
+                                            <ChemicalType>Peptide from protein</ChemicalType>
+                                            <LinearSequence>ASNENMETM</LinearSequence>
+                                            <StartingPosition>366</StartingPosition>
+                                            <EndingPosition>374</EndingPosition>
+                                            <SourceMolecule>
+                                                <GenBankId>Q91UL1</GenBankId>
+                                            </SourceMolecule>
+                                            <SourceOrganismId>132504</SourceOrganismId>
+                                        </FragmentOfANaturalSequenceMolecule>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenEvidenceCode>Exact match to reference information</ImmunogenEvidenceCode>
+                            </InVitroAdministration>
+                            <ImmunizationComments>At day 8 after inoculation, splenocytes were harvested and cultured. Immunized animals are transgenic for fragment 328-498 of A/HK/1/68 including the similar epitope ASNENMDAM, under the control of MHC-I promoter. Normal B10 mice were also immunized.  Splenocytes were cultured for 14 days in the presence of peptide and IL-2.</ImmunizationComments>
+                        </Immunization>
+                        <EffectorCells>
+                            <CellTissueType>Spleen</CellTissueType>
+                            <CellType>T cell CD8+</CellType>
+                            <CellCultureConditions>Short Term Restimulated</CellCultureConditions>
+                        </EffectorCells>
+                        <MhcAllele>
+                            <MhcAlleleId>172</MhcAlleleId>
+                            <MhcEvidenceCode>Cited reference</MhcEvidenceCode>
+                        </MhcAllele>
+                        <Antigen>
+                            <AntigenReferenceName>NP366-374</AntigenReferenceName>
+                            <AntigenObject>
+                                <EpitopeRelation>Epitope</EpitopeRelation>
+                                <Object>
+                                    <FragmentOfANaturalSequenceMolecule>
+                                        <ChemicalType>Peptide from protein</ChemicalType>
+                                        <LinearSequence>ASNENMETM</LinearSequence>
+                                        <StartingPosition>366</StartingPosition>
+                                        <EndingPosition>374</EndingPosition>
+                                        <SourceMolecule>
+                                            <GenBankId>Q91UL1</GenBankId>
+                                        </SourceMolecule>
+                                        <SourceOrganismId>132504</SourceOrganismId>
+                                    </FragmentOfANaturalSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Exact match to reference information</AntigenEvidenceCode>
+                        </Antigen>
+                        <AssayInformation>
+                            <AssayTypeId>53</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <AssayComments>Both normal B10 mice and mice transgenic for a fragment of nucleoprotein from HK/1/68, encompassing a variant of this epitope (ASNENMDAM), to which they are tolerant, mount an equally strong and sensitive epitope specific CD8+ response after peptide immunization. These results show that self-tolerance to a peptide does not necessarily affect responsiveness to a structurally similar epitope.</AssayComments>
+                        </AssayInformation>
+                    </TCell>
+                </Assays>
+                <Assays>
+                    <TCell>
+                        <LocationOfData>Figure 2B</LocationOfData>
+                        <TCellId>16149</TCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>10000066</OrganismId>
+                                <Age>6-10 wk</Age>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Administration in vivo</InVivoProcessType>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Source Organism</EpitopeRelation>
+                                    <Object>
+                                        <Organism>
+                                            <SubType>Organism</SubType>
+                                            <SourceOrganismId>132504</SourceOrganismId>
+                                        </Organism>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenEvidenceCode>Exact match to reference information</ImmunogenEvidenceCode>
+                                <Route>Intranasal</Route>
+                                <DoseSchedule>1 dose of 200 HAU</DoseSchedule>
+                            </FirstInVivoProcess>
+                            <ImmunizationComments>At day 8 after inoculation, lungs were harvested and assayed for epitope specific CD8+ cells. Immunized animals are transgenic for fragment 328-498 of NP of A/HK/1/68, under the control of MHC-I promoter. Normal B10 mice were also immunized/.</ImmunizationComments>
+                        </Immunization>
+                        <EffectorCells>
+                            <CellTissueType>Lung</CellTissueType>
+                            <CellType>T cell CD8+</CellType>
+                            <CellCultureConditions>Direct Ex Vivo</CellCultureConditions>
+                        </EffectorCells>
+                        <MhcAllele>
+                            <MhcAlleleId>172</MhcAlleleId>
+                            <MhcEvidenceCode>Cited reference</MhcEvidenceCode>
+                        </MhcAllele>
+                        <Antigen>
+                            <AntigenReferenceName>NP366-374</AntigenReferenceName>
+                            <AntigenObject>
+                                <EpitopeRelation>Epitope</EpitopeRelation>
+                                <Object>
+                                    <FragmentOfANaturalSequenceMolecule>
+                                        <ChemicalType>Peptide from protein</ChemicalType>
+                                        <LinearSequence>ASNENMETM</LinearSequence>
+                                        <StartingPosition>366</StartingPosition>
+                                        <EndingPosition>374</EndingPosition>
+                                        <SourceMolecule>
+                                            <GenBankId>Q91UL1</GenBankId>
+                                        </SourceMolecule>
+                                        <SourceOrganismId>132504</SourceOrganismId>
+                                    </FragmentOfANaturalSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Exact match to reference information</AntigenEvidenceCode>
+                        </Antigen>
+                        <AssayInformation>
+                            <AssayTypeId>47</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <AssayComments>Both normal B10 mice and mice transgenic for a fragment of nucleoprotein from HK/1/68, encompassing the a variant of this epitope (ASNENMDAM) to which they are tolerant, mount equally strong epitope specific CD8+ responses to X-31 infection, implying that self-tolerance to a peptide does not necessarily affect responsiveness to a structurally similar epitope.</AssayComments>
+                        </AssayInformation>
+                    </TCell>
+                </Assays>
+                <Assays>
+                    <TCell>
+                        <LocationOfData>Figure 3C</LocationOfData>
+                        <TCellId>3110038</TCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>10002138</OrganismId>
+                                <Age>6-10 wk</Age>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Administration in vivo</InVivoProcessType>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Epitope</EpitopeRelation>
+                                    <Object>
+                                        <FragmentOfANaturalSequenceMolecule>
+                                            <ChemicalType>Peptide from protein</ChemicalType>
+                                            <LinearSequence>ASNENMETM</LinearSequence>
+                                            <StartingPosition>366</StartingPosition>
+                                            <EndingPosition>374</EndingPosition>
+                                            <SourceMolecule>
+                                                <GenBankId>Q91UL1</GenBankId>
+                                            </SourceMolecule>
+                                            <SourceOrganismId>132504</SourceOrganismId>
+                                        </FragmentOfANaturalSequenceMolecule>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenReferenceName>NP366-374</ImmunogenReferenceName>
+                                <ImmunogenEvidenceCode>Exact match to reference information</ImmunogenEvidenceCode>
+                                <Adjuvant>Freund's complete</Adjuvant>
+                                <Route>Subcutaneous (s.c.)</Route>
+                                <DoseSchedule>1 dose of 100 micrograms peptide</DoseSchedule>
+                            </FirstInVivoProcess>
+                            <InVitroAdministration>
+                                <ProcessType>Restimulation in vitro</ProcessType>
+                                <ResponderCellType>Splenocyte</ResponderCellType>
+                                <StimulatorCellType>Splenocyte</StimulatorCellType>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Epitope</EpitopeRelation>
+                                    <Object>
+                                        <FragmentOfANaturalSequenceMolecule>
+                                            <ChemicalType>Peptide from protein</ChemicalType>
+                                            <LinearSequence>ASNENMETM</LinearSequence>
+                                            <StartingPosition>366</StartingPosition>
+                                            <EndingPosition>374</EndingPosition>
+                                            <SourceMolecule>
+                                                <GenBankId>Q91UL1</GenBankId>
+                                            </SourceMolecule>
+                                            <SourceOrganismId>132504</SourceOrganismId>
+                                        </FragmentOfANaturalSequenceMolecule>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenEvidenceCode>Exact match to reference information</ImmunogenEvidenceCode>
+                            </InVitroAdministration>
+                            <ImmunizationComments>At day 10 after inoculation, spleens were harvested and cultured. For 3 days starting at immunizing day, mice were also injected i.p. with 100 micrograms of anti-CD40 Ab. Splenocytes were cultured for 14 days in the presence of peptide and IL-2.</ImmunizationComments>
+                        </Immunization>
+                        <EffectorCells>
+                            <CellTissueType>Spleen</CellTissueType>
+                            <CellType>T cell CD8+</CellType>
+                            <CellCultureConditions>Short Term Restimulated</CellCultureConditions>
+                        </EffectorCells>
+                        <MhcAllele>
+                            <MhcAlleleId>172</MhcAlleleId>
+                            <MhcEvidenceCode>Cited reference</MhcEvidenceCode>
+                        </MhcAllele>
+                        <Antigen>
+                            <AntigenReferenceName>NP366-374</AntigenReferenceName>
+                            <AntigenObject>
+                                <EpitopeRelation>Epitope</EpitopeRelation>
+                                <Object>
+                                    <FragmentOfANaturalSequenceMolecule>
+                                        <ChemicalType>Peptide from protein</ChemicalType>
+                                        <LinearSequence>ASNENMETM</LinearSequence>
+                                        <StartingPosition>366</StartingPosition>
+                                        <EndingPosition>374</EndingPosition>
+                                        <SourceMolecule>
+                                            <GenBankId>Q91UL1</GenBankId>
+                                        </SourceMolecule>
+                                        <SourceOrganismId>132504</SourceOrganismId>
+                                    </FragmentOfANaturalSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Exact match to reference information</AntigenEvidenceCode>
+                        </Antigen>
+                        <AssayInformation>
+                            <AssayTypeId>47</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <AssayComments>Normal B10 mice respond with epitope specific CD8+ cells  to peptide immunization.</AssayComments>
+                        </AssayInformation>
+                    </TCell>
+                </Assays>
+                <Assays>
+                    <TCell>
+                        <LocationOfData>Figures 2 and 3</LocationOfData>
+                        <TCellId>3110143</TCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>10000066</OrganismId>
+                                <Age>6-10 wk</Age>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Administration in vivo</InVivoProcessType>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Epitope</EpitopeRelation>
+                                    <Object>
+                                        <FragmentOfANaturalSequenceMolecule>
+                                            <ChemicalType>Peptide from protein</ChemicalType>
+                                            <LinearSequence>ASNENMETM</LinearSequence>
+                                            <StartingPosition>366</StartingPosition>
+                                            <EndingPosition>374</EndingPosition>
+                                            <SourceMolecule>
+                                                <GenBankId>Q91UL1</GenBankId>
+                                            </SourceMolecule>
+                                            <SourceOrganismId>132504</SourceOrganismId>
+                                        </FragmentOfANaturalSequenceMolecule>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenReferenceName>NP366-374</ImmunogenReferenceName>
+                                <ImmunogenEvidenceCode>Exact match to reference information</ImmunogenEvidenceCode>
+                                <Adjuvant>Freund's complete</Adjuvant>
+                                <Route>Subcutaneous (s.c.)</Route>
+                                <DoseSchedule>1 dose of 100 micrograms peptide</DoseSchedule>
+                            </FirstInVivoProcess>
+                            <InVitroAdministration>
+                                <ProcessType>Restimulation in vitro</ProcessType>
+                                <ResponderCellType>Splenocyte</ResponderCellType>
+                                <StimulatorCellType>Splenocyte</StimulatorCellType>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Epitope</EpitopeRelation>
+                                    <Object>
+                                        <FragmentOfANaturalSequenceMolecule>
+                                            <ChemicalType>Peptide from protein</ChemicalType>
+                                            <LinearSequence>ASNENMETM</LinearSequence>
+                                            <StartingPosition>366</StartingPosition>
+                                            <EndingPosition>374</EndingPosition>
+                                            <SourceMolecule>
+                                                <GenBankId>Q91UL1</GenBankId>
+                                            </SourceMolecule>
+                                            <SourceOrganismId>132504</SourceOrganismId>
+                                        </FragmentOfANaturalSequenceMolecule>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenEvidenceCode>Exact match to reference information</ImmunogenEvidenceCode>
+                            </InVitroAdministration>
+                            <ImmunizationComments>At day 8 after inoculation, splenocytes were harvested and cultured. Immunized animals are transgenic for fragment 328-498 of A/HK/1/68 including the similar epitope ASNENMDAM, under the control of MHC-I promoter. Normal B10 mice were also immunized.  Splenocytes were cultured for 14 days in the presence of peptide and IL-2.</ImmunizationComments>
+                        </Immunization>
+                        <EffectorCells>
+                            <CellTissueType>Spleen</CellTissueType>
+                            <CellType>T cell CD8+</CellType>
+                            <CellCultureConditions>Short Term Restimulated</CellCultureConditions>
+                        </EffectorCells>
+                        <MhcAllele>
+                            <MhcAlleleId>172</MhcAlleleId>
+                            <MhcEvidenceCode>Cited reference</MhcEvidenceCode>
+                        </MhcAllele>
+                        <Antigen>
+                            <AntigenReferenceName>NP366-374</AntigenReferenceName>
+                            <AntigenObject>
+                                <EpitopeRelation>Epitope</EpitopeRelation>
+                                <Object>
+                                    <FragmentOfANaturalSequenceMolecule>
+                                        <ChemicalType>Peptide from protein</ChemicalType>
+                                        <LinearSequence>ASNENMETM</LinearSequence>
+                                        <StartingPosition>366</StartingPosition>
+                                        <EndingPosition>374</EndingPosition>
+                                        <SourceMolecule>
+                                            <GenBankId>Q91UL1</GenBankId>
+                                        </SourceMolecule>
+                                        <SourceOrganismId>132504</SourceOrganismId>
+                                    </FragmentOfANaturalSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Exact match to reference information</AntigenEvidenceCode>
+                        </Antigen>
+                        <AssayInformation>
+                            <AssayTypeId>360</AssayTypeId>
+                            <QualitativeMeasurement>Negative</QualitativeMeasurement>
+                            <AssayComments>Mice transgenic for a fragment of nucleoprotein from HK/1/68, encompassing a variant of this epitope (ASNENMDAM), to which they are tolerant, mount an strong and sensitive epitope specific CD8+ response after peptide or X-31 virus immunization, similar to normal B10 mice. These results show that self-tolerance to a peptide does not necessarily affect responsiveness to a structurally similar epitope.</AssayComments>
+                        </AssayInformation>
+                    </TCell>
+                </Assays>
+            </Epitope>
+            <Epitope>
+                <EpitopeName>HY 738-746</EpitopeName>
+                <EpitopeStructure>
+                    <FragmentOfANaturalSequenceMolecule>
+                        <ChemicalType>Peptide from protein</ChemicalType>
+                        <LinearSequence>KCSRNRQYL</LinearSequence>
+                        <StartingPosition>738</StartingPosition>
+                        <EndingPosition>746</EndingPosition>
+                        <SourceMolecule>
+                            <GenBankId>Q62240.2</GenBankId>
+                        </SourceMolecule>
+                        <SourceOrganismId>10090</SourceOrganismId>
+                    </FragmentOfANaturalSequenceMolecule>
+                </EpitopeStructure>
+                <LocationOfData>Figure 6</LocationOfData>
+                <EpitopeId>30086</EpitopeId>
+                <ReferenceStartingPosition>738</ReferenceStartingPosition>
+                <ReferenceEndingPosition>746</ReferenceEndingPosition>
+                <EpitopeEvidenceCode>Representative selection</EpitopeEvidenceCode>
+                <EpitopeStructureDefines>Exact Epitope</EpitopeStructureDefines>
+                <Assays>
+                    <TCell>
+                        <LocationOfData>Figure 6 and Table II</LocationOfData>
+                        <TCellId>3110144</TCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>10000067</OrganismId>
+                                <Sex>M</Sex>
+                                <Age>8-12 wk</Age>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Administration in vivo</InVivoProcessType>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Epitope</EpitopeRelation>
+                                    <Object>
+                                        <FragmentOfANaturalSequenceMolecule>
+                                            <ChemicalType>Peptide from protein</ChemicalType>
+                                            <LinearSequence>KCSRNRQYL</LinearSequence>
+                                            <StartingPosition>738</StartingPosition>
+                                            <EndingPosition>746</EndingPosition>
+                                            <SourceMolecule>
+                                                <GenBankId>Q62240.2</GenBankId>
+                                            </SourceMolecule>
+                                            <SourceOrganismId>10090</SourceOrganismId>
+                                        </FragmentOfANaturalSequenceMolecule>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenReferenceName>HY 738-746</ImmunogenReferenceName>
+                                <ImmunogenEvidenceCode>Exact match to reference information</ImmunogenEvidenceCode>
+                                <Adjuvant>Freund's complete</Adjuvant>
+                                <Route>Subcutaneous (s.c.)</Route>
+                                <DoseSchedule>1 dose of 100 micrograms peptide</DoseSchedule>
+                            </FirstInVivoProcess>
+                            <InVitroAdministration>
+                                <ProcessType>Restimulation in vitro</ProcessType>
+                                <ResponderCellType>Splenocyte</ResponderCellType>
+                                <StimulatorCellType>Splenocyte</StimulatorCellType>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Epitope</EpitopeRelation>
+                                    <Object>
+                                        <FragmentOfANaturalSequenceMolecule>
+                                            <ChemicalType>Peptide from protein</ChemicalType>
+                                            <LinearSequence>KCSRNRQYL</LinearSequence>
+                                            <StartingPosition>738</StartingPosition>
+                                            <EndingPosition>746</EndingPosition>
+                                            <SourceMolecule>
+                                                <GenBankId>Q62240.2</GenBankId>
+                                            </SourceMolecule>
+                                            <SourceOrganismId>10090</SourceOrganismId>
+                                        </FragmentOfANaturalSequenceMolecule>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenEvidenceCode>Exact match to reference information</ImmunogenEvidenceCode>
+                            </InVitroAdministration>
+                            <ImmunizationComments>Also single residue variants of epitope were used as immunogens. At day 8 after inoculation, splenocytes were harvested and cultured. For 3 days starting at immunizing day, mice were also injected i.p. with 100 micrograms of anti-CD40 Ab.  Splenocytes were cultured for 14 days in the presence of peptide and IL-2.</ImmunizationComments>
+                        </Immunization>
+                        <EffectorCells>
+                            <CellTissueType>Spleen</CellTissueType>
+                            <CellType>T cell CD8+</CellType>
+                            <CellCultureConditions>Short Term Restimulated</CellCultureConditions>
+                        </EffectorCells>
+                        <MhcAllele>
+                            <MhcAlleleId>172</MhcAlleleId>
+                            <MhcEvidenceCode>Cited reference</MhcEvidenceCode>
+                        </MhcAllele>
+                        <Antigen>
+                            <AntigenReferenceName>HY 738-746</AntigenReferenceName>
+                            <AntigenObject>
+                                <EpitopeRelation>Epitope</EpitopeRelation>
+                                <Object>
+                                    <FragmentOfANaturalSequenceMolecule>
+                                        <ChemicalType>Peptide from protein</ChemicalType>
+                                        <LinearSequence>KCSRNRQYL</LinearSequence>
+                                        <StartingPosition>738</StartingPosition>
+                                        <EndingPosition>746</EndingPosition>
+                                        <SourceMolecule>
+                                            <GenBankId>Q62240.2</GenBankId>
+                                        </SourceMolecule>
+                                        <SourceOrganismId>10090</SourceOrganismId>
+                                    </FragmentOfANaturalSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Exact match to reference information</AntigenEvidenceCode>
+                        </Antigen>
+                        <AssayInformation>
+                            <AssayTypeId>360</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <AssayComments>Male mice, expressing HY antigen, do not produce epitope specific responses, while females do. When immunized with single substitution variants they do mount a response against the immunogen in 4 out of 8 variants assayed, implying that self-tolerance to an epitope does not necessarily affect responsiveness to a structurally similar peptide. In some substituted variant- immunized mice, responses against the wild type epitope are seen, implying that the response to a structurally related peptide may break the self- tolerance, although further evaluation is required to asses the relevance of this anti-self response in vivo.</AssayComments>
+                        </AssayInformation>
+                    </TCell>
+                </Assays>
+                <Assays>
+                    <TCell>
+                        <LocationOfData>Figure 6 and Table II</LocationOfData>
+                        <TCellId>16163</TCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>10000067</OrganismId>
+                                <Sex>M</Sex>
+                                <Age>8-12 wk</Age>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Administration in vivo</InVivoProcessType>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Epitope</EpitopeRelation>
+                                    <Object>
+                                        <FragmentOfANaturalSequenceMolecule>
+                                            <ChemicalType>Peptide from protein</ChemicalType>
+                                            <LinearSequence>KCSRNRQYL</LinearSequence>
+                                            <StartingPosition>738</StartingPosition>
+                                            <EndingPosition>746</EndingPosition>
+                                            <SourceMolecule>
+                                                <GenBankId>Q62240.2</GenBankId>
+                                            </SourceMolecule>
+                                            <SourceOrganismId>10090</SourceOrganismId>
+                                        </FragmentOfANaturalSequenceMolecule>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenReferenceName>HY 738-746</ImmunogenReferenceName>
+                                <ImmunogenEvidenceCode>Exact match to reference information</ImmunogenEvidenceCode>
+                                <Adjuvant>Freund's complete</Adjuvant>
+                                <Route>Subcutaneous (s.c.)</Route>
+                                <DoseSchedule>1 dose of 100 micrograms peptide</DoseSchedule>
+                            </FirstInVivoProcess>
+                            <InVitroAdministration>
+                                <ProcessType>Restimulation in vitro</ProcessType>
+                                <ResponderCellType>Splenocyte</ResponderCellType>
+                                <StimulatorCellType>Splenocyte</StimulatorCellType>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Epitope</EpitopeRelation>
+                                    <Object>
+                                        <FragmentOfANaturalSequenceMolecule>
+                                            <ChemicalType>Peptide from protein</ChemicalType>
+                                            <LinearSequence>KCSRNRQYL</LinearSequence>
+                                            <StartingPosition>738</StartingPosition>
+                                            <EndingPosition>746</EndingPosition>
+                                            <SourceMolecule>
+                                                <GenBankId>Q62240.2</GenBankId>
+                                            </SourceMolecule>
+                                            <SourceOrganismId>10090</SourceOrganismId>
+                                        </FragmentOfANaturalSequenceMolecule>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenEvidenceCode>Exact match to reference information</ImmunogenEvidenceCode>
+                            </InVitroAdministration>
+                            <ImmunizationComments>Also single residue variants of epitope were used as immunogens. At day 8 after inoculation, splenocytes were harvested and cultured. For 3 days starting at immunizing day, mice were also injected i.p. with 100 micrograms of anti-CD40 Ab.  Splenocytes were cultured for 14 days in the presence of peptide and IL-2.</ImmunizationComments>
+                        </Immunization>
+                        <EffectorCells>
+                            <CellTissueType>Spleen</CellTissueType>
+                            <CellType>T cell CD8+</CellType>
+                            <CellCultureConditions>Short Term Restimulated</CellCultureConditions>
+                        </EffectorCells>
+                        <MhcAllele>
+                            <MhcAlleleId>172</MhcAlleleId>
+                            <MhcEvidenceCode>Cited reference</MhcEvidenceCode>
+                        </MhcAllele>
+                        <Antigen>
+                            <AntigenReferenceName>HY 738-746</AntigenReferenceName>
+                            <AntigenObject>
+                                <EpitopeRelation>Epitope</EpitopeRelation>
+                                <Object>
+                                    <FragmentOfANaturalSequenceMolecule>
+                                        <ChemicalType>Peptide from protein</ChemicalType>
+                                        <LinearSequence>KCSRNRQYL</LinearSequence>
+                                        <StartingPosition>738</StartingPosition>
+                                        <EndingPosition>746</EndingPosition>
+                                        <SourceMolecule>
+                                            <GenBankId>Q62240.2</GenBankId>
+                                        </SourceMolecule>
+                                        <SourceOrganismId>10090</SourceOrganismId>
+                                    </FragmentOfANaturalSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Exact match to reference information</AntigenEvidenceCode>
+                        </Antigen>
+                        <AssayInformation>
+                            <AssayTypeId>47</AssayTypeId>
+                            <QualitativeMeasurement>Negative</QualitativeMeasurement>
+                            <AssayComments>In vitro responsiveness to peptides was assayed by the in vitro expansion of tetramer positive CD8+ cells. Male mice, expressing HY antigen, do not produce epitope specific responses, while females do. When immunized with single substitution variants they do mount a response against the immunogen in 4 out of 8 variants assayed, implying that self-tolerance to an epitope does not necessarily affect responsiveness to a structurally similar peptide. In some substituted variant- immunized mice, responses against the wild type epitope are seen, implying that the response to a structurally related peptide may break the self- tolerance, although further evaluation is required to asses the relevance of this anti-self response in vivo.</AssayComments>
+                        </AssayInformation>
+                    </TCell>
+                </Assays>
+                <Assays>
+                    <TCell>
+                        <LocationOfData>Figure 6 and Table II</LocationOfData>
+                        <TCellId>3110127</TCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>10000067</OrganismId>
+                                <Sex>F</Sex>
+                                <Age>8-12 wk</Age>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Administration in vivo</InVivoProcessType>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Epitope</EpitopeRelation>
+                                    <Object>
+                                        <FragmentOfANaturalSequenceMolecule>
+                                            <ChemicalType>Peptide from protein</ChemicalType>
+                                            <LinearSequence>KCSRNRQYL</LinearSequence>
+                                            <StartingPosition>738</StartingPosition>
+                                            <EndingPosition>746</EndingPosition>
+                                            <SourceMolecule>
+                                                <GenBankId>Q62240.2</GenBankId>
+                                            </SourceMolecule>
+                                            <SourceOrganismId>10090</SourceOrganismId>
+                                        </FragmentOfANaturalSequenceMolecule>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenReferenceName>HY 738-746</ImmunogenReferenceName>
+                                <ImmunogenEvidenceCode>Exact match to reference information</ImmunogenEvidenceCode>
+                                <Adjuvant>Freund's complete</Adjuvant>
+                                <Route>Subcutaneous (s.c.)</Route>
+                                <DoseSchedule>1 dose of 100 micrograms peptide</DoseSchedule>
+                            </FirstInVivoProcess>
+                            <InVitroAdministration>
+                                <ProcessType>Restimulation in vitro</ProcessType>
+                                <ResponderCellType>Splenocyte</ResponderCellType>
+                                <StimulatorCellType>Splenocyte</StimulatorCellType>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Epitope</EpitopeRelation>
+                                    <Object>
+                                        <FragmentOfANaturalSequenceMolecule>
+                                            <ChemicalType>Peptide from protein</ChemicalType>
+                                            <LinearSequence>KCSRNRQYL</LinearSequence>
+                                            <StartingPosition>738</StartingPosition>
+                                            <EndingPosition>746</EndingPosition>
+                                            <SourceMolecule>
+                                                <GenBankId>Q62240.2</GenBankId>
+                                            </SourceMolecule>
+                                            <SourceOrganismId>10090</SourceOrganismId>
+                                        </FragmentOfANaturalSequenceMolecule>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenEvidenceCode>Exact match to reference information</ImmunogenEvidenceCode>
+                            </InVitroAdministration>
+                            <ImmunizationComments>Also single residue variants of epitope were used as immunogens. At day 8 after inoculation, splenocytes were harvested and cultured. For 3 days starting at immunizing day, mice were also injected i.p. with 100 micrograms of anti-CD40 Ab.  Splenocytes were cultured for 14 days in the presence of peptide and IL-2.</ImmunizationComments>
+                        </Immunization>
+                        <EffectorCells>
+                            <CellTissueType>Spleen</CellTissueType>
+                            <CellType>T cell CD8+</CellType>
+                            <CellCultureConditions>Short Term Restimulated</CellCultureConditions>
+                        </EffectorCells>
+                        <MhcAllele>
+                            <MhcAlleleId>172</MhcAlleleId>
+                            <MhcEvidenceCode>Cited reference</MhcEvidenceCode>
+                        </MhcAllele>
+                        <Antigen>
+                            <AntigenReferenceName>HY 738-746</AntigenReferenceName>
+                            <AntigenObject>
+                                <EpitopeRelation>Epitope</EpitopeRelation>
+                                <Object>
+                                    <FragmentOfANaturalSequenceMolecule>
+                                        <ChemicalType>Peptide from protein</ChemicalType>
+                                        <LinearSequence>KCSRNRQYL</LinearSequence>
+                                        <StartingPosition>738</StartingPosition>
+                                        <EndingPosition>746</EndingPosition>
+                                        <SourceMolecule>
+                                            <GenBankId>Q62240.2</GenBankId>
+                                        </SourceMolecule>
+                                        <SourceOrganismId>10090</SourceOrganismId>
+                                    </FragmentOfANaturalSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Exact match to reference information</AntigenEvidenceCode>
+                        </Antigen>
+                        <AssayInformation>
+                            <AssayTypeId>47</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <AssayComments>In vitro responsiveness to peptides was assayed by the in vitro expansion of tetramer positive CD8+ cells. Male mice, expressing HY antigen, do not produce epitope specific responses, while females do. When immunized with single substitution variants they do mount a response against the immunogen in 4 out of 8 variants assayed, implying that self-tolerance to an epitope does not necessarily affect responsiveness to a structurally similar peptide. In some substituted variant- immunized mice, responses against the wild type epitope are seen, implying that the response to a structurally related peptide may break the self- tolerance, although further evaluation is required to asses the relevance of this anti-self response in vivo.</AssayComments>
+                        </AssayInformation>
+                    </TCell>
+                </Assays>
+            </Epitope>
+            <Epitope>
+                <EpitopeName>Tag 404-411</EpitopeName>
+                <EpitopeStructure>
+                    <FragmentOfANaturalSequenceMolecule>
+                        <ChemicalType>Peptide from protein</ChemicalType>
+                        <LinearSequence>VVYDFLKC</LinearSequence>
+                        <StartingPosition>404</StartingPosition>
+                        <EndingPosition>411</EndingPosition>
+                        <SourceMolecule>
+                            <GenBankId>P03070.2</GenBankId>
+                        </SourceMolecule>
+                        <SourceOrganismId>1891767</SourceOrganismId>
+                    </FragmentOfANaturalSequenceMolecule>
+                </EpitopeStructure>
+                <LocationOfData>Figure 7</LocationOfData>
+                <EpitopeId>71895</EpitopeId>
+                <ReferenceStartingPosition>404</ReferenceStartingPosition>
+                <ReferenceEndingPosition>411</ReferenceEndingPosition>
+                <EpitopeEvidenceCode>Representative selection</EpitopeEvidenceCode>
+                <EpitopeStructureDefines>Exact Epitope</EpitopeStructureDefines>
+                <Assays>
+                    <TCell>
+                        <LocationOfData>Figure 7 Table III</LocationOfData>
+                        <TCellId>16169</TCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>10000105</OrganismId>
+                                <Age>8-12 wk</Age>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Administration in vivo</InVivoProcessType>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Epitope</EpitopeRelation>
+                                    <Object>
+                                        <FragmentOfANaturalSequenceMolecule>
+                                            <ChemicalType>Peptide from protein</ChemicalType>
+                                            <LinearSequence>VVYDFLKC</LinearSequence>
+                                            <StartingPosition>404</StartingPosition>
+                                            <EndingPosition>411</EndingPosition>
+                                            <SourceMolecule>
+                                                <GenBankId>P03070.2</GenBankId>
+                                            </SourceMolecule>
+                                            <SourceOrganismId>1891767</SourceOrganismId>
+                                        </FragmentOfANaturalSequenceMolecule>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenReferenceName>Tag 404-411</ImmunogenReferenceName>
+                                <ImmunogenEvidenceCode>Exact match to reference information</ImmunogenEvidenceCode>
+                                <Adjuvant>Freund's complete</Adjuvant>
+                                <Route>Subcutaneous (s.c.)</Route>
+                                <DoseSchedule>1 dose of 100 micrograms peptide</DoseSchedule>
+                            </FirstInVivoProcess>
+                            <InVitroAdministration>
+                                <ProcessType>Restimulation in vitro</ProcessType>
+                                <ResponderCellType>Splenocyte</ResponderCellType>
+                                <StimulatorCellType>Splenocyte</StimulatorCellType>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Epitope</EpitopeRelation>
+                                    <Object>
+                                        <FragmentOfANaturalSequenceMolecule>
+                                            <ChemicalType>Peptide from protein</ChemicalType>
+                                            <LinearSequence>VVYDFLKC</LinearSequence>
+                                            <StartingPosition>404</StartingPosition>
+                                            <EndingPosition>411</EndingPosition>
+                                            <SourceMolecule>
+                                                <GenBankId>P03070.2</GenBankId>
+                                            </SourceMolecule>
+                                            <SourceOrganismId>1891767</SourceOrganismId>
+                                        </FragmentOfANaturalSequenceMolecule>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenEvidenceCode>Exact match to reference information</ImmunogenEvidenceCode>
+                            </InVitroAdministration>
+                            <ImmunizationComments>Also single residue variants of epitope were used as immunogens. At day 8 after inoculation, splenocytes were harvested and cultured. Immunized animals are transgenic for SV40  large T Ag, under the control of the rat probasin regulatory elements.  For 3 days starting at immunizing day, mice were also injected i.p. with 100 micrograms of anti-CD40 Ab.  Splenocytes were cultured for 14 days in the presence of peptide and IL-2.</ImmunizationComments>
+                        </Immunization>
+                        <EffectorCells>
+                            <CellTissueType>Spleen</CellTissueType>
+                            <CellType>T cell CD8+</CellType>
+                            <CellCultureConditions>Short Term Restimulated</CellCultureConditions>
+                        </EffectorCells>
+                        <MhcAllele>
+                            <MhcAlleleId>122</MhcAlleleId>
+                            <MhcEvidenceCode>Cited reference</MhcEvidenceCode>
+                        </MhcAllele>
+                        <Antigen>
+                            <AntigenReferenceName>Tag 404-411</AntigenReferenceName>
+                            <AntigenObject>
+                                <EpitopeRelation>Epitope</EpitopeRelation>
+                                <Object>
+                                    <FragmentOfANaturalSequenceMolecule>
+                                        <ChemicalType>Peptide from protein</ChemicalType>
+                                        <LinearSequence>VVYDFLKC</LinearSequence>
+                                        <StartingPosition>404</StartingPosition>
+                                        <EndingPosition>411</EndingPosition>
+                                        <SourceMolecule>
+                                            <GenBankId>P03070.2</GenBankId>
+                                        </SourceMolecule>
+                                        <SourceOrganismId>1891767</SourceOrganismId>
+                                    </FragmentOfANaturalSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Exact match to reference information</AntigenEvidenceCode>
+                        </Antigen>
+                        <AssayInformation>
+                            <AssayTypeId>47</AssayTypeId>
+                            <QualitativeMeasurement>Negative</QualitativeMeasurement>
+                            <AssayComments>In vitro responsiveness to peptides was assayed by the in vitro expansion of tetramer positive CD8+ cells. Mice transgenic for Large T antigen (TRAMP mice) do not produce epitope specific responses, while normal B6 mice do. When immunized with single substitution variants, TRAMP mice do mount a response against the immunogen, implying that self-tolerance to an epitope does not necessarily affect responsiveness to a structurally similar peptide. In the P1 substituted variant- immunized mice, responses against the wild type epitope are seen, implying that the response to a structurally related peptide may break the self- tolerance, although further evaluation is required to asses the relevance of this anti-self response in vivo. In a P6 variant which induces a strong response, no response against the wild type epitope is mounted.</AssayComments>
+                        </AssayInformation>
+                    </TCell>
+                </Assays>
+                <Assays>
+                    <TCell>
+                        <LocationOfData>Figure 7 Table III</LocationOfData>
+                        <TCellId>3110154</TCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>10000105</OrganismId>
+                                <Age>8-12 wk</Age>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Administration in vivo</InVivoProcessType>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Epitope</EpitopeRelation>
+                                    <Object>
+                                        <FragmentOfANaturalSequenceMolecule>
+                                            <ChemicalType>Peptide from protein</ChemicalType>
+                                            <LinearSequence>VVYDFLKC</LinearSequence>
+                                            <StartingPosition>404</StartingPosition>
+                                            <EndingPosition>411</EndingPosition>
+                                            <SourceMolecule>
+                                                <GenBankId>P03070.2</GenBankId>
+                                            </SourceMolecule>
+                                            <SourceOrganismId>1891767</SourceOrganismId>
+                                        </FragmentOfANaturalSequenceMolecule>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenReferenceName>Tag 404-411</ImmunogenReferenceName>
+                                <ImmunogenEvidenceCode>Exact match to reference information</ImmunogenEvidenceCode>
+                                <Adjuvant>Freund's complete</Adjuvant>
+                                <Route>Subcutaneous (s.c.)</Route>
+                                <DoseSchedule>1 dose of 100 micrograms peptide</DoseSchedule>
+                            </FirstInVivoProcess>
+                            <InVitroAdministration>
+                                <ProcessType>Restimulation in vitro</ProcessType>
+                                <ResponderCellType>Splenocyte</ResponderCellType>
+                                <StimulatorCellType>Splenocyte</StimulatorCellType>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Epitope</EpitopeRelation>
+                                    <Object>
+                                        <FragmentOfANaturalSequenceMolecule>
+                                            <ChemicalType>Peptide from protein</ChemicalType>
+                                            <LinearSequence>VVYDFLKC</LinearSequence>
+                                            <StartingPosition>404</StartingPosition>
+                                            <EndingPosition>411</EndingPosition>
+                                            <SourceMolecule>
+                                                <GenBankId>P03070.2</GenBankId>
+                                            </SourceMolecule>
+                                            <SourceOrganismId>1891767</SourceOrganismId>
+                                        </FragmentOfANaturalSequenceMolecule>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenEvidenceCode>Exact match to reference information</ImmunogenEvidenceCode>
+                            </InVitroAdministration>
+                            <ImmunizationComments>Also single residue variants of epitope were used as immunogens. At day 8 after inoculation, splenocytes were harvested and cultured. Immunized animals are transgenic for SV40  large T Ag, under the control of the rat probasin regulatory elements.  For 3 days starting at immunizing day, mice were also injected i.p. with 100 micrograms of anti-CD40 Ab.  Splenocytes were cultured for 14 days in the presence of peptide and IL-2.</ImmunizationComments>
+                        </Immunization>
+                        <EffectorCells>
+                            <CellTissueType>Spleen</CellTissueType>
+                            <CellType>T cell CD8+</CellType>
+                            <CellCultureConditions>Short Term Restimulated</CellCultureConditions>
+                        </EffectorCells>
+                        <MhcAllele>
+                            <MhcAlleleId>122</MhcAlleleId>
+                            <MhcEvidenceCode>Cited reference</MhcEvidenceCode>
+                        </MhcAllele>
+                        <Antigen>
+                            <AntigenReferenceName>Tag 404-411</AntigenReferenceName>
+                            <AntigenObject>
+                                <EpitopeRelation>Epitope</EpitopeRelation>
+                                <Object>
+                                    <FragmentOfANaturalSequenceMolecule>
+                                        <ChemicalType>Peptide from protein</ChemicalType>
+                                        <LinearSequence>VVYDFLKC</LinearSequence>
+                                        <StartingPosition>404</StartingPosition>
+                                        <EndingPosition>411</EndingPosition>
+                                        <SourceMolecule>
+                                            <GenBankId>P03070.2</GenBankId>
+                                        </SourceMolecule>
+                                        <SourceOrganismId>1891767</SourceOrganismId>
+                                    </FragmentOfANaturalSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Exact match to reference information</AntigenEvidenceCode>
+                        </Antigen>
+                        <AssayInformation>
+                            <AssayTypeId>360</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <AssayComments>Mice transgenic for Large T antigen (TRAMP mice) do not produce epitope specific responses, while normal B6 mice do. When immunized with single substitution variants, TRAMP mice do mount a response against the immunogen, implying that self-tolerance to an epitope does not necessarily affect responsiveness to a structurally similar peptide. In the P1 substituted variant- immunized mice, responses against the wild type epitope are seen, implying that the response to a structurally related peptide may break the self- tolerance, although further evaluation is required to asses the relevance of this anti-self response in vivo. In a P6 variant which induces a strong response, no response against the wild type epitope is mounted.</AssayComments>
+                        </AssayInformation>
+                    </TCell>
+                </Assays>
+                <Assays>
+                    <TCell>
+                        <LocationOfData>Figure 7 Table III</LocationOfData>
+                        <TCellId>3110128</TCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>10000067</OrganismId>
+                                <Age>8-12 wk</Age>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Administration in vivo</InVivoProcessType>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Epitope</EpitopeRelation>
+                                    <Object>
+                                        <FragmentOfANaturalSequenceMolecule>
+                                            <ChemicalType>Peptide from protein</ChemicalType>
+                                            <LinearSequence>VVYDFLKC</LinearSequence>
+                                            <StartingPosition>404</StartingPosition>
+                                            <EndingPosition>411</EndingPosition>
+                                            <SourceMolecule>
+                                                <GenBankId>P03070.2</GenBankId>
+                                            </SourceMolecule>
+                                            <SourceOrganismId>1891767</SourceOrganismId>
+                                        </FragmentOfANaturalSequenceMolecule>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenReferenceName>Tag 404-411</ImmunogenReferenceName>
+                                <ImmunogenEvidenceCode>Exact match to reference information</ImmunogenEvidenceCode>
+                                <Adjuvant>Freund's complete</Adjuvant>
+                                <Route>Subcutaneous (s.c.)</Route>
+                                <DoseSchedule>1 dose of 100 micrograms peptide</DoseSchedule>
+                            </FirstInVivoProcess>
+                            <InVitroAdministration>
+                                <ProcessType>Restimulation in vitro</ProcessType>
+                                <ResponderCellType>Splenocyte</ResponderCellType>
+                                <StimulatorCellType>Splenocyte</StimulatorCellType>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Epitope</EpitopeRelation>
+                                    <Object>
+                                        <FragmentOfANaturalSequenceMolecule>
+                                            <ChemicalType>Peptide from protein</ChemicalType>
+                                            <LinearSequence>VVYDFLKC</LinearSequence>
+                                            <StartingPosition>404</StartingPosition>
+                                            <EndingPosition>411</EndingPosition>
+                                            <SourceMolecule>
+                                                <GenBankId>P03070.2</GenBankId>
+                                            </SourceMolecule>
+                                            <SourceOrganismId>1891767</SourceOrganismId>
+                                        </FragmentOfANaturalSequenceMolecule>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenEvidenceCode>Exact match to reference information</ImmunogenEvidenceCode>
+                            </InVitroAdministration>
+                            <ImmunizationComments>Also single residue variants of epitope were used as immunogens. At day 8 after inoculation, splenocytes were harvested and cultured. Immunized animals are transgenic for SV40  large T Ag, under the control of the rat probasin regulatory elements.  For 3 days starting at immunizing day, mice were also injected i.p. with 100 micrograms of anti-CD40 Ab.  Splenocytes were cultured for 14 days in the presence of peptide and IL-2.</ImmunizationComments>
+                        </Immunization>
+                        <EffectorCells>
+                            <CellTissueType>Spleen</CellTissueType>
+                            <CellType>T cell CD8+</CellType>
+                            <CellCultureConditions>Short Term Restimulated</CellCultureConditions>
+                        </EffectorCells>
+                        <MhcAllele>
+                            <MhcAlleleId>122</MhcAlleleId>
+                            <MhcEvidenceCode>Cited reference</MhcEvidenceCode>
+                        </MhcAllele>
+                        <Antigen>
+                            <AntigenReferenceName>Tag 404-411</AntigenReferenceName>
+                            <AntigenObject>
+                                <EpitopeRelation>Epitope</EpitopeRelation>
+                                <Object>
+                                    <FragmentOfANaturalSequenceMolecule>
+                                        <ChemicalType>Peptide from protein</ChemicalType>
+                                        <LinearSequence>VVYDFLKC</LinearSequence>
+                                        <StartingPosition>404</StartingPosition>
+                                        <EndingPosition>411</EndingPosition>
+                                        <SourceMolecule>
+                                            <GenBankId>P03070.2</GenBankId>
+                                        </SourceMolecule>
+                                        <SourceOrganismId>1891767</SourceOrganismId>
+                                    </FragmentOfANaturalSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Exact match to reference information</AntigenEvidenceCode>
+                        </Antigen>
+                        <AssayInformation>
+                            <AssayTypeId>47</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <AssayComments>In vitro responsiveness to peptides was assayed by the in vitro expansion of tetramer positive CD8+ cells. Mice transgenic for Large T antigen (TRAMP mice) do not produce epitope specific responses, while normal B6 mice do. When immunized with single substitution variants, TRAMP mice do mount a response against the immunogen, implying that self-tolerance to an epitope does not necessarily affect responsiveness to a structurally similar peptide. In the P1 substituted variant- immunized mice, responses against the wild type epitope are seen, implying that the response to a structurally related peptide may break the self- tolerance, although further evaluation is required to asses the relevance of this anti-self response in vivo. In a P6 variant which induces a strong response, no response against the wild type epitope is mounted.</AssayComments>
+                        </AssayInformation>
+                    </TCell>
+                </Assays>
+            </Epitope>
+        </Epitopes>
+    </Reference>
+</References>
+

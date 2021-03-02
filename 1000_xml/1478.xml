@@ -1,0 +1,658 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<References xsi:schemaLocation="http://www.iedb.org/schema/CurationSchema http://beta.iedb.org/schema/Curation.xsd" xmlns="http://www.iedb.org/schema/CurationSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <Reference>
+        <ReferenceId>1478</ReferenceId>
+        <DateLastUpdated>2020-09-10-07:00</DateLastUpdated>
+        <Article>
+            <PubmedId>8752895</PubmedId>
+            <Abstract>One of the two class I MHC (H-2Kd)-restricted immunogenic regions identified on the influenza virus strain A/Japan/57 (H2N2) hemagglutinin (HA) encompasses two distinct, partially overlapping epitopes. These epitopes map to residues 204 to 212 (JHA 204-212) and 210 to 219 (JHA 210-219), respectively. When we investigated the magnitude of the CTL responses of H-2d BALB/c mice to these two epitopes, we found that the JHA 204-212 nonamer epitope is immunodominant, eliciting vigorous CTL responses in BALB/c mice immunized with A/Japan/57 virus. In contrast, the CTL response to the JHA 210-219 decamer epitope was weak and variable. The subdominance of the JHA 210-219 was not due to low affinity binding of JHA 210-219 to H-2Kd or to inefficient processing of this epitope in vivo. Rather, an analysis of CTL precursor (pCTL) frequency by limiting dilution showed that the frequency of pCTL to the JHA 210-219 epitope was at least 10-fold lower than the frequency of pCTL to the JHA 204-212 epitope, implying that the low and variable response to the JHA 210-219 epitope was due to a limited number of CD8+ T cell precursors directed to JHA 210-219. This hypothesis was further supported by the finding of limited heterogeneity in reactivity pattern displayed by short term bulk cultures of the JHA 210-219-specific CTLs for cross-reactive epitopes. Implications of these findings for vaccine design and for T lymphocyte function and repertoire development are discussed.</Abstract>
+            <ArticleYear>1996</ArticleYear>
+            <ArticlePages>505-11</ArticlePages>
+            <ArticleTitle>The weak CD8+ CTL response to an influenza hemagglutinin epitope reflects limited T cell availability.</ArticleTitle>
+            <Authors>
+                <Author>
+                    <LastName>Cao</LastName>
+                    <ForeName>W</ForeName>
+                </Author>
+                <Author>
+                    <LastName>Myers-Powell</LastName>
+                    <ForeName>B A</ForeName>
+                </Author>
+                <Author>
+                    <LastName>Braciale</LastName>
+                    <ForeName>T J</ForeName>
+                </Author>
+            </Authors>
+            <Affiliations>Beirne B. Carter Center for Immunology Research, University of Virginia Health Sciences Center, Charlottesville 22908, USA.</Affiliations>
+            <ArticleChemicalList>Epitopes;Hemagglutinins, Viral;Receptors, Antigen, T-Cell</ArticleChemicalList>
+            <ArticleMeshHeadingsList>Amino Acid Sequence; Animals; Antigen Presentation; Epitopes(immunology); Hemagglutinins, Viral(immunology); Influenza A virus(immunology); Lymphocyte Count; Mice; Mice, Inbred BALB C; Molecular Sequence Data; Multigene Family(immunology); Receptors, Antigen, T-Cell(genetics); T-Lymphocyte Subsets(classification; immunology); T-Lymphocytes, Cytotoxic(immunology); Tumor Cells, Cultured</ArticleMeshHeadingsList>
+            <Journal>
+                <Volume>157</Volume>
+                <Issue>2</Issue>
+                <Title>Journal of immunology (Baltimore, Md. : 1950)</Title>
+                <Issn>0022-1767</Issn>
+                <MedlineTa>J Immunol</MedlineTa>
+            </Journal>
+        </Article>
+        <Epitopes>
+            <Epitope>
+                <EpitopeName>JHA 204-212</EpitopeName>
+                <EpitopeStructure>
+                    <FragmentOfANaturalSequenceMolecule>
+                        <ChemicalType>Peptide from protein</ChemicalType>
+                        <LinearSequence>LYQNVGTYV</LinearSequence>
+                        <StartingPosition>204</StartingPosition>
+                        <EndingPosition>212</EndingPosition>
+                        <SourceMolecule>
+                            <GenBankId>P03451.1</GenBankId>
+                        </SourceMolecule>
+                        <SourceOrganismId>387161</SourceOrganismId>
+                    </FragmentOfANaturalSequenceMolecule>
+                </EpitopeStructure>
+                <LocationOfData>Page 505</LocationOfData>
+                <EpitopeId>40910</EpitopeId>
+                <ReferenceStartingPosition>204</ReferenceStartingPosition>
+                <ReferenceEndingPosition>212</ReferenceEndingPosition>
+                <EpitopeEvidenceCode>Not determined</EpitopeEvidenceCode>
+                <EpitopeStructureDefines>Exact Epitope</EpitopeStructureDefines>
+                <EpitopeComments>The swiss-prot entry is for the precursor protein, containing Hemagglutinin HA1 and Hemagglutinin HA2 chains.</EpitopeComments>
+                <Assays>
+                    <TCell>
+                        <LocationOfData>Figure 3c</LocationOfData>
+                        <TCellId>24490</TCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>10000000</OrganismId>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Administration in vivo</InVivoProcessType>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Epitope</EpitopeRelation>
+                                    <Object>
+                                        <FragmentOfANaturalSequenceMolecule>
+                                            <ChemicalType>Peptide from protein</ChemicalType>
+                                            <LinearSequence>LYQNVGTYV</LinearSequence>
+                                            <StartingPosition>204</StartingPosition>
+                                            <EndingPosition>212</EndingPosition>
+                                            <SourceMolecule>
+                                                <GenBankId>P03451.1</GenBankId>
+                                            </SourceMolecule>
+                                            <SourceOrganismId>387161</SourceOrganismId>
+                                        </FragmentOfANaturalSequenceMolecule>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenEvidenceCode>Exact match to reference information</ImmunogenEvidenceCode>
+                                <ImmunogenContainingObject>
+                                    <RecombinantOrganism>
+                                        <SubType>Recombinant Organism</SubType>
+                                        <RecombinantOrganismId>11034</RecombinantOrganismId>
+                                    </RecombinantOrganism>
+                                </ImmunogenContainingObject>
+                                <Route>Intraperitoneal (i.p.)</Route>
+                            </FirstInVivoProcess>
+                            <InVitroAdministration>
+                                <ProcessType>Restimulation in vitro</ProcessType>
+                                <ResponderCellType>Splenocyte</ResponderCellType>
+                                <StimulatorCellType>Splenocyte</StimulatorCellType>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Source Organism</EpitopeRelation>
+                                    <Object>
+                                        <Organism>
+                                            <SubType>Organism</SubType>
+                                            <SourceOrganismId>387161</SourceOrganismId>
+                                        </Organism>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenEvidenceCode>Not determined</ImmunogenEvidenceCode>
+                            </InVitroAdministration>
+                            <ImmunizationComments>No details on the immunization dose is provided.  3 weeks after immunization, splenocytes were harvested and stimulated 7 days with influenza A/Japan virus-infected autologous splenocytes.</ImmunizationComments>
+                        </Immunization>
+                        <EffectorCells>
+                            <CellTissueType>Spleen</CellTissueType>
+                            <CellType>T cell CD8+</CellType>
+                            <CellCultureConditions>Short Term Restimulated</CellCultureConditions>
+                        </EffectorCells>
+                        <AntigenPresentingCells>
+                            <CellTissueType>Other</CellTissueType>
+                            <CellType>P815-Mast cell</CellType>
+                            <CellCultureConditions>Cell Line / Clone</CellCultureConditions>
+                            <AutologousOrSyngeneic>N</AutologousOrSyngeneic>
+                        </AntigenPresentingCells>
+                        <MhcAllele>
+                            <MhcAlleleId>124</MhcAlleleId>
+                            <MhcEvidenceCode>Not determined</MhcEvidenceCode>
+                        </MhcAllele>
+                        <Antigen>
+                            <AntigenReferenceName>JHA 204-212</AntigenReferenceName>
+                            <AntigenObject>
+                                <EpitopeRelation>Epitope</EpitopeRelation>
+                                <Object>
+                                    <FragmentOfANaturalSequenceMolecule>
+                                        <ChemicalType>Peptide from protein</ChemicalType>
+                                        <LinearSequence>LYQNVGTYV</LinearSequence>
+                                        <StartingPosition>204</StartingPosition>
+                                        <EndingPosition>212</EndingPosition>
+                                        <SourceMolecule>
+                                            <GenBankId>P03451.1</GenBankId>
+                                        </SourceMolecule>
+                                        <SourceOrganismId>387161</SourceOrganismId>
+                                    </FragmentOfANaturalSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Exact match to reference information</AntigenEvidenceCode>
+                        </Antigen>
+                        <AssayInformation>
+                            <AssayTypeId>67</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <NumberOfSubjectsTested>4</NumberOfSubjectsTested>
+                            <NumberOfSubjectsResponded>4</NumberOfSubjectsResponded>
+                            <ResponseFrequency>100</ResponseFrequency>
+                            <AssayComments>Strong cytotoxic activity is seen against cells loaded with this peptide by splenocytes from epitope minigene-immunized mice.</AssayComments>
+                        </AssayInformation>
+                    </TCell>
+                </Assays>
+                <Assays>
+                    <TCell>
+                        <LocationOfData>Figure 3d</LocationOfData>
+                        <TCellId>24492</TCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>10000000</OrganismId>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Administration in vivo</InVivoProcessType>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Epitope</EpitopeRelation>
+                                    <Object>
+                                        <FragmentOfANaturalSequenceMolecule>
+                                            <ChemicalType>Peptide from protein</ChemicalType>
+                                            <LinearSequence>LYQNVGTYV</LinearSequence>
+                                            <StartingPosition>204</StartingPosition>
+                                            <EndingPosition>212</EndingPosition>
+                                            <SourceMolecule>
+                                                <GenBankId>P03451.1</GenBankId>
+                                            </SourceMolecule>
+                                            <SourceOrganismId>387161</SourceOrganismId>
+                                        </FragmentOfANaturalSequenceMolecule>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenReferenceName>JHA 204-212</ImmunogenReferenceName>
+                                <ImmunogenEvidenceCode>Exact match to reference information</ImmunogenEvidenceCode>
+                                <ImmunogenContainingObject>
+                                    <RecombinantOrganism>
+                                        <SubType>Recombinant Organism</SubType>
+                                        <RecombinantOrganismId>11034</RecombinantOrganismId>
+                                    </RecombinantOrganism>
+                                </ImmunogenContainingObject>
+                                <Route>Intraperitoneal (i.p.)</Route>
+                            </FirstInVivoProcess>
+                            <InVitroAdministration>
+                                <ProcessType>Restimulation in vitro</ProcessType>
+                                <ResponderCellType>Splenocyte</ResponderCellType>
+                                <StimulatorCellType>Splenocyte</StimulatorCellType>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Source Organism</EpitopeRelation>
+                                    <Object>
+                                        <Organism>
+                                            <SubType>Organism</SubType>
+                                            <SourceOrganismId>387161</SourceOrganismId>
+                                        </Organism>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenEvidenceCode>Not determined</ImmunogenEvidenceCode>
+                            </InVitroAdministration>
+                            <ImmunizationComments>No details on the immunization dose is provided.  3 weeks after immunization, splenocytes were harvested and stimulated 7 days with influenza A/Japan virus-infected autologous splenocytes.</ImmunizationComments>
+                        </Immunization>
+                        <EffectorCells>
+                            <CellTissueType>Spleen</CellTissueType>
+                            <CellType>T cell CD8+</CellType>
+                            <CellCultureConditions>Short Term Restimulated</CellCultureConditions>
+                        </EffectorCells>
+                        <AntigenPresentingCells>
+                            <CellTissueType>Other</CellTissueType>
+                            <CellType>P815-Mast cell</CellType>
+                            <CellCultureConditions>Cell Line / Clone</CellCultureConditions>
+                            <AutologousOrSyngeneic>N</AutologousOrSyngeneic>
+                        </AntigenPresentingCells>
+                        <MhcAllele>
+                            <MhcAlleleId>124</MhcAlleleId>
+                            <MhcEvidenceCode>Not determined</MhcEvidenceCode>
+                        </MhcAllele>
+                        <Antigen>
+                            <AntigenReferenceName>Influenza A virus (A/Japan/305/57(H2N2))</AntigenReferenceName>
+                            <AntigenObject>
+                                <EpitopeRelation>Source Organism</EpitopeRelation>
+                                <Object>
+                                    <Organism>
+                                        <SubType>Organism</SubType>
+                                        <SourceOrganismId>387161</SourceOrganismId>
+                                    </Organism>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Not determined</AntigenEvidenceCode>
+                        </Antigen>
+                        <AssayInformation>
+                            <AssayTypeId>67</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <NumberOfSubjectsTested>4</NumberOfSubjectsTested>
+                            <NumberOfSubjectsResponded>4</NumberOfSubjectsResponded>
+                            <ResponseFrequency>100</ResponseFrequency>
+                            <AssayComments>Strong cytotoxic activity is seen against cells infected with Influenza A/Japan/57 by splenocytes from epitope minigene-immunized mice. Similar results are seen against cells infected with Influenza A/AA/57, while no response is seen against Influenza A/Zhang/4/57.</AssayComments>
+                        </AssayInformation>
+                    </TCell>
+                </Assays>
+                <Assays>
+                    <TCell>
+                        <LocationOfData>Figure 1</LocationOfData>
+                        <TCellId>24489</TCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>10000000</OrganismId>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Administration in vivo</InVivoProcessType>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Source Organism</EpitopeRelation>
+                                    <Object>
+                                        <Organism>
+                                            <SubType>Organism</SubType>
+                                            <SourceOrganismId>387161</SourceOrganismId>
+                                        </Organism>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenReferenceName>Influenza A virus (A/Japan/305/57(H2N2))</ImmunogenReferenceName>
+                                <ImmunogenEvidenceCode>Not determined</ImmunogenEvidenceCode>
+                                <Route>Intraperitoneal (i.p.)</Route>
+                                <DoseSchedule>1 dose of ~10^3 hemagglutinin units (HAU)</DoseSchedule>
+                            </FirstInVivoProcess>
+                            <InVitroAdministration>
+                                <ProcessType>Restimulation in vitro</ProcessType>
+                                <ResponderCellType>Splenocyte</ResponderCellType>
+                                <StimulatorCellType>Splenocyte</StimulatorCellType>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Epitope</EpitopeRelation>
+                                    <Object>
+                                        <FragmentOfANaturalSequenceMolecule>
+                                            <ChemicalType>Peptide from protein</ChemicalType>
+                                            <LinearSequence>LYQNVGTYV</LinearSequence>
+                                            <StartingPosition>204</StartingPosition>
+                                            <EndingPosition>212</EndingPosition>
+                                            <SourceMolecule>
+                                                <GenBankId>P03451.1</GenBankId>
+                                            </SourceMolecule>
+                                            <SourceOrganismId>387161</SourceOrganismId>
+                                        </FragmentOfANaturalSequenceMolecule>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenEvidenceCode>Exact match to reference information</ImmunogenEvidenceCode>
+                            </InVitroAdministration>
+                            <ImmunizationComments>3 weeks after immunization, splenocytes were harvested and stimulated 5 days with virus-infected autologous splenocytes.</ImmunizationComments>
+                        </Immunization>
+                        <EffectorCells>
+                            <CellTissueType>Spleen</CellTissueType>
+                            <CellType>T cell CD8+</CellType>
+                            <CellCultureConditions>Short Term Restimulated</CellCultureConditions>
+                        </EffectorCells>
+                        <AntigenPresentingCells>
+                            <CellTissueType>Other</CellTissueType>
+                            <CellType>P815-Mast cell</CellType>
+                            <CellCultureConditions>Cell Line / Clone</CellCultureConditions>
+                            <AutologousOrSyngeneic>N</AutologousOrSyngeneic>
+                        </AntigenPresentingCells>
+                        <MhcAllele>
+                            <MhcAlleleId>124</MhcAlleleId>
+                            <MhcEvidenceCode>Not determined</MhcEvidenceCode>
+                        </MhcAllele>
+                        <Antigen>
+                            <AntigenReferenceName>JHA 204-212</AntigenReferenceName>
+                            <AntigenObject>
+                                <EpitopeRelation>Epitope</EpitopeRelation>
+                                <Object>
+                                    <FragmentOfANaturalSequenceMolecule>
+                                        <ChemicalType>Peptide from protein</ChemicalType>
+                                        <LinearSequence>LYQNVGTYV</LinearSequence>
+                                        <StartingPosition>204</StartingPosition>
+                                        <EndingPosition>212</EndingPosition>
+                                        <SourceMolecule>
+                                            <GenBankId>P03451.1</GenBankId>
+                                        </SourceMolecule>
+                                        <SourceOrganismId>387161</SourceOrganismId>
+                                    </FragmentOfANaturalSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Exact match to reference information</AntigenEvidenceCode>
+                        </Antigen>
+                        <AssayInformation>
+                            <AssayTypeId>67</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <NumberOfSubjectsTested>5</NumberOfSubjectsTested>
+                            <NumberOfSubjectsResponded>5</NumberOfSubjectsResponded>
+                            <ResponseFrequency>100</ResponseFrequency>
+                            <AssayComments>Strong cytotoxic activity is seen against cells loaded with this peptide by splenocytes of virus-primed mice. This activity is seen to correlate with a high frequency of precursor CTLs as determined by limiting dilution assay, ranging from 1/20,000 to 1/60,000 nucleated splenocytes.</AssayComments>
+                        </AssayInformation>
+                    </TCell>
+                </Assays>
+                <Assays>
+                    <MhcBinding>
+                        <LocationOfData>Figure 2</LocationOfData>
+                        <MhcBindingId>24493</MhcBindingId>
+                        <AssayInformation>
+                            <AssayTypeId>226</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <AssayComments>This peptide is able to compete binding to MHC of peptide HA 523-545 in its presentation to a T cell clone specific for the latter.</AssayComments>
+                        </AssayInformation>
+                        <MhcAlleleId>124</MhcAlleleId>
+                    </MhcBinding>
+                </Assays>
+            </Epitope>
+            <Epitope>
+                <EpitopeName>JHA 210-219</EpitopeName>
+                <EpitopeStructure>
+                    <FragmentOfANaturalSequenceMolecule>
+                        <ChemicalType>Peptide from protein</ChemicalType>
+                        <LinearSequence>TYVSVGTSTL</LinearSequence>
+                        <StartingPosition>210</StartingPosition>
+                        <EndingPosition>219</EndingPosition>
+                        <SourceMolecule>
+                            <GenBankId>P03451.1</GenBankId>
+                        </SourceMolecule>
+                        <SourceOrganismId>387161</SourceOrganismId>
+                    </FragmentOfANaturalSequenceMolecule>
+                </EpitopeStructure>
+                <LocationOfData>Page 505</LocationOfData>
+                <EpitopeId>67501</EpitopeId>
+                <ReferenceStartingPosition>210</ReferenceStartingPosition>
+                <ReferenceEndingPosition>219</ReferenceEndingPosition>
+                <EpitopeEvidenceCode>Not determined</EpitopeEvidenceCode>
+                <EpitopeStructureDefines>Exact Epitope</EpitopeStructureDefines>
+                <EpitopeComments>This epitope overlaps with another Kd-restricted epitope, HA 204-212. The swiss-prot entry is for the precursor protein, containing Hemagglutinin HA1 and Hemagglutinin HA2 chains.</EpitopeComments>
+                <Assays>
+                    <TCell>
+                        <LocationOfData>Figure 1</LocationOfData>
+                        <TCellId>24494</TCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>10000000</OrganismId>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Administration in vivo</InVivoProcessType>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Source Organism</EpitopeRelation>
+                                    <Object>
+                                        <Organism>
+                                            <SubType>Organism</SubType>
+                                            <SourceOrganismId>387161</SourceOrganismId>
+                                        </Organism>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenReferenceName>Influenza A virus (A/Japan/305/57(H2N2))</ImmunogenReferenceName>
+                                <ImmunogenEvidenceCode>Not determined</ImmunogenEvidenceCode>
+                                <Route>Intraperitoneal (i.p.)</Route>
+                                <DoseSchedule>1 dose of ~10^3 hemagglutinin units (HAU)</DoseSchedule>
+                            </FirstInVivoProcess>
+                            <InVitroAdministration>
+                                <ProcessType>Restimulation in vitro</ProcessType>
+                                <ResponderCellType>Splenocyte</ResponderCellType>
+                                <StimulatorCellType>Splenocyte</StimulatorCellType>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Epitope</EpitopeRelation>
+                                    <Object>
+                                        <FragmentOfANaturalSequenceMolecule>
+                                            <ChemicalType>Peptide from protein</ChemicalType>
+                                            <LinearSequence>TYVSVGTSTL</LinearSequence>
+                                            <StartingPosition>210</StartingPosition>
+                                            <EndingPosition>219</EndingPosition>
+                                            <SourceMolecule>
+                                                <GenBankId>P03451.1</GenBankId>
+                                            </SourceMolecule>
+                                            <SourceOrganismId>387161</SourceOrganismId>
+                                        </FragmentOfANaturalSequenceMolecule>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenEvidenceCode>Exact match to reference information</ImmunogenEvidenceCode>
+                            </InVitroAdministration>
+                            <ImmunizationComments>3 weeks after immunization, splenocytes were harvested and stimulated 5 days with virus-infected autologous splenocytes.</ImmunizationComments>
+                        </Immunization>
+                        <EffectorCells>
+                            <CellTissueType>Spleen</CellTissueType>
+                            <CellType>T cell CD8+</CellType>
+                            <CellCultureConditions>Short Term Restimulated</CellCultureConditions>
+                        </EffectorCells>
+                        <AntigenPresentingCells>
+                            <CellTissueType>Other</CellTissueType>
+                            <CellType>P815-Mast cell</CellType>
+                            <CellCultureConditions>Cell Line / Clone</CellCultureConditions>
+                            <AutologousOrSyngeneic>N</AutologousOrSyngeneic>
+                        </AntigenPresentingCells>
+                        <MhcAllele>
+                            <MhcAlleleId>124</MhcAlleleId>
+                            <MhcEvidenceCode>Not determined</MhcEvidenceCode>
+                        </MhcAllele>
+                        <Antigen>
+                            <AntigenReferenceName>JHA 210-219</AntigenReferenceName>
+                            <AntigenObject>
+                                <EpitopeRelation>Epitope</EpitopeRelation>
+                                <Object>
+                                    <FragmentOfANaturalSequenceMolecule>
+                                        <ChemicalType>Peptide from protein</ChemicalType>
+                                        <LinearSequence>TYVSVGTSTL</LinearSequence>
+                                        <StartingPosition>210</StartingPosition>
+                                        <EndingPosition>219</EndingPosition>
+                                        <SourceMolecule>
+                                            <GenBankId>P03451.1</GenBankId>
+                                        </SourceMolecule>
+                                        <SourceOrganismId>387161</SourceOrganismId>
+                                    </FragmentOfANaturalSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Exact match to reference information</AntigenEvidenceCode>
+                        </Antigen>
+                        <AssayInformation>
+                            <AssayTypeId>67</AssayTypeId>
+                            <QualitativeMeasurement>Negative</QualitativeMeasurement>
+                            <NumberOfSubjectsTested>5</NumberOfSubjectsTested>
+                            <NumberOfSubjectsResponded>0</NumberOfSubjectsResponded>
+                            <AssayComments>Weak and variable cytotoxic activity is seen against cells loaded with this peptide by splenocytes from virus-primed mice. This activity is seen to correlate with a low frequency of precursor CTLs as determined by limiting dilution assay, ranging from 1/200,000 to 1/1,200,000 nucleated splenocytes. The heterogeneity of the response, as measured by TCR Vβ usage, in nevertheless similar to that seen in the response against the whole virus or the overlapping, strongly antigenic epitope HA 204-212. Also, splenocytes stimulated in vitro with this peptide are able to lyse peptide target cells, but that reactivity is shown to be cross-reactive with other peptides (the homologous peptide from Influenza A/AA/57, as well as with peptide 49-58 from MOPC21 IgVH).</AssayComments>
+                        </AssayInformation>
+                    </TCell>
+                </Assays>
+                <Assays>
+                    <TCell>
+                        <LocationOfData>Figure 3b</LocationOfData>
+                        <TCellId>24496</TCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>10000000</OrganismId>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Administration in vivo</InVivoProcessType>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Epitope</EpitopeRelation>
+                                    <Object>
+                                        <FragmentOfANaturalSequenceMolecule>
+                                            <ChemicalType>Peptide from protein</ChemicalType>
+                                            <LinearSequence>TYVSVGTSTL</LinearSequence>
+                                            <StartingPosition>210</StartingPosition>
+                                            <EndingPosition>219</EndingPosition>
+                                            <SourceMolecule>
+                                                <GenBankId>P03451.1</GenBankId>
+                                            </SourceMolecule>
+                                            <SourceOrganismId>387161</SourceOrganismId>
+                                        </FragmentOfANaturalSequenceMolecule>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenReferenceName>JHA 210-219</ImmunogenReferenceName>
+                                <ImmunogenEvidenceCode>Exact match to reference information</ImmunogenEvidenceCode>
+                                <ImmunogenContainingObject>
+                                    <RecombinantOrganism>
+                                        <SubType>Recombinant Organism</SubType>
+                                        <RecombinantOrganismId>11034</RecombinantOrganismId>
+                                    </RecombinantOrganism>
+                                </ImmunogenContainingObject>
+                                <Route>Intraperitoneal (i.p.)</Route>
+                            </FirstInVivoProcess>
+                            <InVitroAdministration>
+                                <ProcessType>Restimulation in vitro</ProcessType>
+                                <ResponderCellType>Splenocyte</ResponderCellType>
+                                <StimulatorCellType>Splenocyte</StimulatorCellType>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Source Organism</EpitopeRelation>
+                                    <Object>
+                                        <Organism>
+                                            <SubType>Organism</SubType>
+                                            <SourceOrganismId>387161</SourceOrganismId>
+                                        </Organism>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenEvidenceCode>Not determined</ImmunogenEvidenceCode>
+                            </InVitroAdministration>
+                            <ImmunizationComments>No details on the immunization dose is provided.  3 weeks after immunization, splenocytes were harvested and stimulated 7 days with influenza A/Japan virus-infected autologous splenocytes.</ImmunizationComments>
+                        </Immunization>
+                        <EffectorCells>
+                            <CellTissueType>Spleen</CellTissueType>
+                            <CellType>T cell CD8+</CellType>
+                            <CellCultureConditions>Short Term Restimulated</CellCultureConditions>
+                        </EffectorCells>
+                        <AntigenPresentingCells>
+                            <CellTissueType>Other</CellTissueType>
+                            <CellType>P815-Mast cell</CellType>
+                            <CellCultureConditions>Cell Line / Clone</CellCultureConditions>
+                            <AutologousOrSyngeneic>N</AutologousOrSyngeneic>
+                        </AntigenPresentingCells>
+                        <MhcAllele>
+                            <MhcAlleleId>124</MhcAlleleId>
+                            <MhcEvidenceCode>Not determined</MhcEvidenceCode>
+                        </MhcAllele>
+                        <Antigen>
+                            <AntigenReferenceName>Influenza A virus (A/Japan/305/57(H2N2))</AntigenReferenceName>
+                            <AntigenObject>
+                                <EpitopeRelation>Source Organism</EpitopeRelation>
+                                <Object>
+                                    <Organism>
+                                        <SubType>Organism</SubType>
+                                        <SourceOrganismId>387161</SourceOrganismId>
+                                    </Organism>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Not determined</AntigenEvidenceCode>
+                        </Antigen>
+                        <AssayInformation>
+                            <AssayTypeId>67</AssayTypeId>
+                            <QualitativeMeasurement>Negative</QualitativeMeasurement>
+                            <NumberOfSubjectsTested>4</NumberOfSubjectsTested>
+                            <NumberOfSubjectsResponded>0</NumberOfSubjectsResponded>
+                            <AssayComments>No significant cytotoxic activity is seen against cells infected with Influenza A/Japan/57 by splenocytes from epitope minigene-immunized mice. Similar results are seen against cells infected with Influenza A/AA/57 and Influenza A/Zhang/4/57.</AssayComments>
+                        </AssayInformation>
+                    </TCell>
+                </Assays>
+                <Assays>
+                    <TCell>
+                        <LocationOfData>Figure 3a</LocationOfData>
+                        <TCellId>24495</TCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>10000000</OrganismId>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Administration in vivo</InVivoProcessType>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Epitope</EpitopeRelation>
+                                    <Object>
+                                        <FragmentOfANaturalSequenceMolecule>
+                                            <ChemicalType>Peptide from protein</ChemicalType>
+                                            <LinearSequence>TYVSVGTSTL</LinearSequence>
+                                            <StartingPosition>210</StartingPosition>
+                                            <EndingPosition>219</EndingPosition>
+                                            <SourceMolecule>
+                                                <GenBankId>P03451.1</GenBankId>
+                                            </SourceMolecule>
+                                            <SourceOrganismId>387161</SourceOrganismId>
+                                        </FragmentOfANaturalSequenceMolecule>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenEvidenceCode>Exact match to reference information</ImmunogenEvidenceCode>
+                                <ImmunogenContainingObject>
+                                    <RecombinantOrganism>
+                                        <SubType>Recombinant Organism</SubType>
+                                        <RecombinantOrganismId>11034</RecombinantOrganismId>
+                                    </RecombinantOrganism>
+                                </ImmunogenContainingObject>
+                                <Route>Intraperitoneal (i.p.)</Route>
+                            </FirstInVivoProcess>
+                            <InVitroAdministration>
+                                <ProcessType>Restimulation in vitro</ProcessType>
+                                <ResponderCellType>Splenocyte</ResponderCellType>
+                                <StimulatorCellType>Splenocyte</StimulatorCellType>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Source Organism</EpitopeRelation>
+                                    <Object>
+                                        <Organism>
+                                            <SubType>Organism</SubType>
+                                            <SourceOrganismId>387161</SourceOrganismId>
+                                        </Organism>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenEvidenceCode>Not determined</ImmunogenEvidenceCode>
+                            </InVitroAdministration>
+                            <ImmunizationComments>No details on the immunization dose is provided.  3 weeks after immunization, splenocytes were harvested and stimulated 7 days with influenza A/Japan virus-infected autologous splenocytes.</ImmunizationComments>
+                        </Immunization>
+                        <EffectorCells>
+                            <CellTissueType>Spleen</CellTissueType>
+                            <CellType>T cell CD8+</CellType>
+                            <CellCultureConditions>Short Term Restimulated</CellCultureConditions>
+                        </EffectorCells>
+                        <AntigenPresentingCells>
+                            <CellTissueType>Other</CellTissueType>
+                            <CellType>P815-Mast cell</CellType>
+                            <CellCultureConditions>Cell Line / Clone</CellCultureConditions>
+                            <AutologousOrSyngeneic>N</AutologousOrSyngeneic>
+                        </AntigenPresentingCells>
+                        <MhcAllele>
+                            <MhcAlleleId>124</MhcAlleleId>
+                            <MhcEvidenceCode>Not determined</MhcEvidenceCode>
+                        </MhcAllele>
+                        <Antigen>
+                            <AntigenReferenceName>JHA 210-219</AntigenReferenceName>
+                            <AntigenObject>
+                                <EpitopeRelation>Epitope</EpitopeRelation>
+                                <Object>
+                                    <FragmentOfANaturalSequenceMolecule>
+                                        <ChemicalType>Peptide from protein</ChemicalType>
+                                        <LinearSequence>TYVSVGTSTL</LinearSequence>
+                                        <StartingPosition>210</StartingPosition>
+                                        <EndingPosition>219</EndingPosition>
+                                        <SourceMolecule>
+                                            <GenBankId>P03451.1</GenBankId>
+                                        </SourceMolecule>
+                                        <SourceOrganismId>387161</SourceOrganismId>
+                                    </FragmentOfANaturalSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Exact match to reference information</AntigenEvidenceCode>
+                        </Antigen>
+                        <AssayInformation>
+                            <AssayTypeId>67</AssayTypeId>
+                            <QualitativeMeasurement>Negative</QualitativeMeasurement>
+                            <NumberOfSubjectsTested>4</NumberOfSubjectsTested>
+                            <NumberOfSubjectsResponded>0</NumberOfSubjectsResponded>
+                            <AssayComments>No significant cytotoxic activity is seen against cells loaded with this peptide by splenocytes from epitope minigene-immunized mice.</AssayComments>
+                        </AssayInformation>
+                    </TCell>
+                </Assays>
+                <Assays>
+                    <MhcBinding>
+                        <LocationOfData>Figure 2</LocationOfData>
+                        <MhcBindingId>24497</MhcBindingId>
+                        <AssayInformation>
+                            <AssayTypeId>226</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <AssayComments>This peptide is able to compete binding to MHC of peptide HA 523-545 in its presentation to a T cell clone specific for the latter. The level of competition is similar to that of overlapping peptide HA 204-212, showing that MHC binding activity is not the cause of this epitope weak immunogenicity.</AssayComments>
+                        </AssayInformation>
+                        <MhcAlleleId>124</MhcAlleleId>
+                    </MhcBinding>
+                </Assays>
+            </Epitope>
+        </Epitopes>
+    </Reference>
+</References>
+

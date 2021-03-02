@@ -1,0 +1,287 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<References xsi:schemaLocation="http://www.iedb.org/schema/CurationSchema http://beta.iedb.org/schema/Curation.xsd" xmlns="http://www.iedb.org/schema/CurationSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <Reference>
+        <ReferenceId>1071</ReferenceId>
+        <DateLastUpdated>2020-09-10-07:00</DateLastUpdated>
+        <Article>
+            <PubmedId>9354468</PubmedId>
+            <Abstract>Genetic predisposition to rheumatoid arthritis (RA) is linked to the MHC class II allele HLA-DR4. The charge of the amino acid at DRbeta71 in the peptide-binding site appears to be critical in discriminating DR molecules linked to increased disease susceptibility. We have determined the 2.5 A x-ray structure of the DR4 molecule with the strongest linkage to RA (DRB1*0401) complexed with a human collagen II peptide. Details of a predicted salt bridge between lysine DRbeta71 and aspartic acid at the P4 peptide position suggest how it may participate in both antigen binding and TCR activation. A model is proposed for the DR4 recognition of collagen II (261-273), an antigen immunodominant in human-transgenic mouse models of RA.</Abstract>
+            <ArticleYear>1997</ArticleYear>
+            <ArticlePages>473-81</ArticlePages>
+            <ArticleTitle>X-ray crystal structure of HLA-DR4 (DRA*0101, DRB1*0401) complexed with a peptide from human collagen II.</ArticleTitle>
+            <Authors>
+                <Author>
+                    <LastName>Dessen</LastName>
+                    <ForeName>A</ForeName>
+                </Author>
+                <Author>
+                    <LastName>Lawrence</LastName>
+                    <ForeName>C M</ForeName>
+                </Author>
+                <Author>
+                    <LastName>Cupo</LastName>
+                    <ForeName>S</ForeName>
+                </Author>
+                <Author>
+                    <LastName>Zaller</LastName>
+                    <ForeName>D M</ForeName>
+                </Author>
+                <Author>
+                    <LastName>Wiley</LastName>
+                    <ForeName>D C</ForeName>
+                </Author>
+            </Authors>
+            <Affiliations>Laboratory of Molecular Medicine, The Children's Hospital, Boston, Massachusetts 02115, USA. dessen@xtal22.tch.harvard.edu.</Affiliations>
+            <ArticleChemicalList>Enterotoxins;HLA-DR4 Antigen;Peptides;Recombinant Proteins;Superantigens;enterotoxin B, staphylococcal;Collagen</ArticleChemicalList>
+            <ArticleMeshHeadingsList>Alleles; Amino Acid Sequence; Animals; Arthritis, Rheumatoid(immunology); Binding Sites; Collagen(chemistry; immunology; ultrastructure); Crystallography, X-Ray; Dimerization; Enterotoxins(chemistry); Epitope Mapping; HLA-DR4 Antigen(genetics; ultrastructure); Humans; Mice; Mice, Transgenic; Models, Molecular; Peptides(chemistry; immunology); Protein Conformation; Protein Structure, Tertiary; Recombinant Proteins; Superantigens(chemistry)</ArticleMeshHeadingsList>
+            <Journal>
+                <Volume>7</Volume>
+                <Issue>4</Issue>
+                <Title>Immunity</Title>
+                <Issn>1074-7613</Issn>
+                <MedlineTa>Immunity</MedlineTa>
+            </Journal>
+        </Article>
+        <Epitopes>
+            <Epitope>
+                <EpitopeName>collagen II peptide 1168-1180</EpitopeName>
+                <EpitopeStructure>
+                    <FragmentOfANaturalSequenceMolecule>
+                        <ChemicalType>Peptide from protein</ChemicalType>
+                        <LinearSequence>QYMRADQAAGGLR</LinearSequence>
+                        <StartingPosition>1168</StartingPosition>
+                        <EndingPosition>1180</EndingPosition>
+                        <SourceMolecule>
+                            <IedbAccession>SRC920</IedbAccession>
+                        </SourceMolecule>
+                        <SourceOrganismId>9606</SourceOrganismId>
+                    </FragmentOfANaturalSequenceMolecule>
+                </EpitopeStructure>
+                <LocationOfData>Materials and methods</LocationOfData>
+                <EpitopeId>53007</EpitopeId>
+                <EpitopeEvidenceCode>Representative selection</EpitopeEvidenceCode>
+                <EpitopeStructureDefines>Exact Epitope</EpitopeStructureDefines>
+                <EpitopeComments>The peptide residues Q1, Q7, L12 were substituted by Ala in the PDB structural model. Residue R13 does not exist in the model.</EpitopeComments>
+                <Assays>
+                    <MhcBinding>
+                        <LocationOfData>Figures 1 to 4</LocationOfData>
+                        <MhcBindingId>1212456</MhcBindingId>
+                        <AssayInformation>
+                            <AssayTypeId>175</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <QuantitativeMeasurement>2.5</QuantitativeMeasurement>
+                            <MeasurementInequality>=</MeasurementInequality>
+                        </AssayInformation>
+                        <MhcAlleleId>47</MhcAlleleId>
+                        <ThreeDimensionalStructureOfComplex>
+                            <ComplexPdbId>2SEB</ComplexPdbId>
+                            <MhcChain1PdbChain>A</MhcChain1PdbChain>
+                            <MhcChain2PdbChain>B</MhcChain2PdbChain>
+                            <EpitopePdbChain>E</EpitopePdbChain>
+                            <EpitopeResidues>E: A1168, Y1169, M1170, R1171, A1172, D1173, A1174, A1175, A1176, G1177, G1178, A1179</EpitopeResidues>
+                            <ViewerFlag>Y</ViewerFlag>
+                            <Comments>The crystal also contains Staphylococcus aureus enterotoxin B (SEB). The peptide residues Q1, Q7, L12 were substituted by Ala in the structural model. Residue R13 does not exist in the model. 16 HLA residues differing between DR1 and DR4 were substituted by Ala. In the peptide QYMRADQAAGGLR third residue M is P1. Side chains at P-1, P2, and P5 project prominently towards the TCR, but P-2, P3, P4, P6, P7, P8 and P9 are also exposed and therefore may be recognized by TCR as well. There are 11 hydrogen bonds between main-chain peptide atoms and DR4, forming a network of hydrogen bonds to conserved class II residues that has been found in all class II MHC/peptide complexes to date of publication. Two hydrogen bonds to the peptide main chain at P10 (leu, or A1179 in the structure), formed by Asp-β57 and Arg-α76 in MHC binding cleft, are not observed in this structure because the peptide C-terminus is solvent exposed and appear to be partly disordered beyond the Gly at P9 (G1178) in this crystal. Lys-β71 makes two other hydrogen bonds, one to the P4 Asp (D1173) side chain and another to the carbonyl of P5 (A1174). There are also several water-mediated hydrogen bonds between peptide and MHC II.</Comments>
+                            <CuratedContacts>
+                                <EpitopeResidues>E: A1168, Y1169, M1170, R1171, A1172, D1173, A1174, A1175, A1176, G1177, G1178, A1179</EpitopeResidues>
+                                <EpitopeResiduesInteractingWithMhc>E: A1168, Y1169, M1170, R1171, A1172, D1173, A1174, A1175, A1176, G1177, G1178, A1179</EpitopeResiduesInteractingWithMhc>
+                                <MhcResiduesInteractingWithEpitope>A: ; B: ;</MhcResiduesInteractingWithEpitope>
+                                <InteractingAtomPairs>&lt;?xml version="1.0" encoding="UTF-8" standalone="yes"?&gt;
+&lt;dataroot generated="Oct 11, 2007"&gt;
+    &lt;contacts_xxxx&gt;
+        &lt;AtomPairID&gt;1&lt;/AtomPairID&gt;
+        &lt;BindingID&gt;1&lt;/BindingID&gt;
+        &lt;PDB_ID&gt;2seb&lt;/PDB_ID&gt;
+        &lt;Antigen_Chain&gt;E&lt;/Antigen_Chain&gt;
+        &lt;Antigen_Residue&gt;A (Ala)&lt;/Antigen_Residue&gt;
+        &lt;Antigen_Residue_Position&gt;1168&lt;/Antigen_Residue_Position&gt;
+        &lt;Antigen_Residue_Atom&gt;O&lt;/Antigen_Residue_Atom&gt;
+        &lt;Immunoglobulin_Chain&gt;A&lt;/Immunoglobulin_Chain&gt;
+        &lt;Immunoglobulin_Residue&gt;S (Ser)&lt;/Immunoglobulin_Residue&gt;
+        &lt;Immunoglobulin_Residue_Position&gt;53&lt;/Immunoglobulin_Residue_Position&gt;
+        &lt;Immunoglobulin_Residue_Atom&gt;N&lt;/Immunoglobulin_Residue_Atom&gt;
+        &lt;Contact_Type&gt;Hydrogen bond&lt;/Contact_Type&gt;
+    &lt;/contacts_xxxx&gt;
+    &lt;contacts_xxxx&gt;
+        &lt;AtomPairID&gt;2&lt;/AtomPairID&gt;
+        &lt;BindingID&gt;1&lt;/BindingID&gt;
+        &lt;PDB_ID&gt;2seb&lt;/PDB_ID&gt;
+        &lt;Antigen_Chain&gt;E&lt;/Antigen_Chain&gt;
+        &lt;Antigen_Residue&gt;M (Met)&lt;/Antigen_Residue&gt;
+        &lt;Antigen_Residue_Position&gt;1170&lt;/Antigen_Residue_Position&gt;
+        &lt;Antigen_Residue_Atom&gt;N&lt;/Antigen_Residue_Atom&gt;
+        &lt;Immunoglobulin_Chain&gt;A&lt;/Immunoglobulin_Chain&gt;
+        &lt;Immunoglobulin_Residue&gt;S (Ser)&lt;/Immunoglobulin_Residue&gt;
+        &lt;Immunoglobulin_Residue_Position&gt;53&lt;/Immunoglobulin_Residue_Position&gt;
+        &lt;Immunoglobulin_Residue_Atom&gt;O&lt;/Immunoglobulin_Residue_Atom&gt;
+        &lt;Contact_Type&gt;Hydrogen bond&lt;/Contact_Type&gt;
+    &lt;/contacts_xxxx&gt;
+    &lt;contacts_xxxx&gt;
+        &lt;AtomPairID&gt;3&lt;/AtomPairID&gt;
+        &lt;BindingID&gt;1&lt;/BindingID&gt;
+        &lt;PDB_ID&gt;2seb&lt;/PDB_ID&gt;
+        &lt;Antigen_Chain&gt;E&lt;/Antigen_Chain&gt;
+        &lt;Antigen_Residue&gt;Y (Tyr)&lt;/Antigen_Residue&gt;
+        &lt;Antigen_Residue_Position&gt;1169&lt;/Antigen_Residue_Position&gt;
+        &lt;Antigen_Residue_Atom&gt;O&lt;/Antigen_Residue_Atom&gt;
+        &lt;Immunoglobulin_Chain&gt;B&lt;/Immunoglobulin_Chain&gt;
+        &lt;Immunoglobulin_Residue&gt;H (His)&lt;/Immunoglobulin_Residue&gt;
+        &lt;Immunoglobulin_Residue_Position&gt;81&lt;/Immunoglobulin_Residue_Position&gt;
+        &lt;Immunoglobulin_Residue_Atom&gt;NE2&lt;/Immunoglobulin_Residue_Atom&gt;
+        &lt;Contact_Type&gt;Hydrogen bond&lt;/Contact_Type&gt;
+    &lt;/contacts_xxxx&gt;
+    &lt;contacts_xxxx&gt;
+        &lt;AtomPairID&gt;4&lt;/AtomPairID&gt;
+        &lt;BindingID&gt;1&lt;/BindingID&gt;
+        &lt;PDB_ID&gt;2seb&lt;/PDB_ID&gt;
+        &lt;Antigen_Chain&gt;E&lt;/Antigen_Chain&gt;
+        &lt;Antigen_Residue&gt;R (Arg)&lt;/Antigen_Residue&gt;
+        &lt;Antigen_Residue_Position&gt;1171&lt;/Antigen_Residue_Position&gt;
+        &lt;Antigen_Residue_Atom&gt;O&lt;/Antigen_Residue_Atom&gt;
+        &lt;Immunoglobulin_Chain&gt;B&lt;/Immunoglobulin_Chain&gt;
+        &lt;Immunoglobulin_Residue&gt;N (Asn)&lt;/Immunoglobulin_Residue&gt;
+        &lt;Immunoglobulin_Residue_Position&gt;82&lt;/Immunoglobulin_Residue_Position&gt;
+        &lt;Immunoglobulin_Residue_Atom&gt;ND2&lt;/Immunoglobulin_Residue_Atom&gt;
+        &lt;Contact_Type&gt;Hydrogen bond&lt;/Contact_Type&gt;
+    &lt;/contacts_xxxx&gt;
+    &lt;contacts_xxxx&gt;
+        &lt;AtomPairID&gt;5&lt;/AtomPairID&gt;
+        &lt;BindingID&gt;1&lt;/BindingID&gt;
+        &lt;PDB_ID&gt;2seb&lt;/PDB_ID&gt;
+        &lt;Antigen_Chain&gt;E&lt;/Antigen_Chain&gt;
+        &lt;Antigen_Residue&gt;R (Arg)&lt;/Antigen_Residue&gt;
+        &lt;Antigen_Residue_Position&gt;1171&lt;/Antigen_Residue_Position&gt;
+        &lt;Antigen_Residue_Atom&gt;N&lt;/Antigen_Residue_Atom&gt;
+        &lt;Immunoglobulin_Chain&gt;B&lt;/Immunoglobulin_Chain&gt;
+        &lt;Immunoglobulin_Residue&gt;N (Asn)&lt;/Immunoglobulin_Residue&gt;
+        &lt;Immunoglobulin_Residue_Position&gt;82&lt;/Immunoglobulin_Residue_Position&gt;
+        &lt;Immunoglobulin_Residue_Atom&gt;OD1&lt;/Immunoglobulin_Residue_Atom&gt;
+        &lt;Contact_Type&gt;Hydrogen bond&lt;/Contact_Type&gt;
+    &lt;/contacts_xxxx&gt;
+    &lt;contacts_xxxx&gt;
+        &lt;AtomPairID&gt;6&lt;/AtomPairID&gt;
+        &lt;BindingID&gt;1&lt;/BindingID&gt;
+        &lt;PDB_ID&gt;2seb&lt;/PDB_ID&gt;
+        &lt;Antigen_Chain&gt;E&lt;/Antigen_Chain&gt;
+        &lt;Antigen_Residue&gt;D (Asp)&lt;/Antigen_Residue&gt;
+        &lt;Antigen_Residue_Position&gt;1173&lt;/Antigen_Residue_Position&gt;
+        &lt;Antigen_Residue_Atom&gt;OD2&lt;/Antigen_Residue_Atom&gt;
+        &lt;Immunoglobulin_Chain&gt;B&lt;/Immunoglobulin_Chain&gt;
+        &lt;Immunoglobulin_Residue&gt;K (Lys)&lt;/Immunoglobulin_Residue&gt;
+        &lt;Immunoglobulin_Residue_Position&gt;71&lt;/Immunoglobulin_Residue_Position&gt;
+        &lt;Immunoglobulin_Residue_Atom&gt;NZ&lt;/Immunoglobulin_Residue_Atom&gt;
+        &lt;Contact_Type&gt;Salt bridge&lt;/Contact_Type&gt;
+    &lt;/contacts_xxxx&gt;
+    &lt;contacts_xxxx&gt;
+        &lt;AtomPairID&gt;7&lt;/AtomPairID&gt;
+        &lt;BindingID&gt;1&lt;/BindingID&gt;
+        &lt;PDB_ID&gt;2seb&lt;/PDB_ID&gt;
+        &lt;Antigen_Chain&gt;E&lt;/Antigen_Chain&gt;
+        &lt;Antigen_Residue&gt;D (Asp)&lt;/Antigen_Residue&gt;
+        &lt;Antigen_Residue_Position&gt;1173&lt;/Antigen_Residue_Position&gt;
+        &lt;Antigen_Residue_Atom&gt;O&lt;/Antigen_Residue_Atom&gt;
+        &lt;Immunoglobulin_Chain&gt;A&lt;/Immunoglobulin_Chain&gt;
+        &lt;Immunoglobulin_Residue&gt;N (Asn)&lt;/Immunoglobulin_Residue&gt;
+        &lt;Immunoglobulin_Residue_Position&gt;62&lt;/Immunoglobulin_Residue_Position&gt;
+        &lt;Immunoglobulin_Residue_Atom&gt;ND2&lt;/Immunoglobulin_Residue_Atom&gt;
+        &lt;Contact_Type&gt;Hydrogen bond&lt;/Contact_Type&gt;
+    &lt;/contacts_xxxx&gt;
+    &lt;contacts_xxxx&gt;
+        &lt;AtomPairID&gt;8&lt;/AtomPairID&gt;
+        &lt;BindingID&gt;1&lt;/BindingID&gt;
+        &lt;PDB_ID&gt;2seb&lt;/PDB_ID&gt;
+        &lt;Antigen_Chain&gt;E&lt;/Antigen_Chain&gt;
+        &lt;Antigen_Residue&gt;A (Ala)&lt;/Antigen_Residue&gt;
+        &lt;Antigen_Residue_Position&gt;1174&lt;/Antigen_Residue_Position&gt;
+        &lt;Antigen_Residue_Atom&gt;O&lt;/Antigen_Residue_Atom&gt;
+        &lt;Immunoglobulin_Chain&gt;B&lt;/Immunoglobulin_Chain&gt;
+        &lt;Immunoglobulin_Residue&gt;K (Lys)&lt;/Immunoglobulin_Residue&gt;
+        &lt;Immunoglobulin_Residue_Position&gt;71&lt;/Immunoglobulin_Residue_Position&gt;
+        &lt;Immunoglobulin_Residue_Atom&gt;NZ&lt;/Immunoglobulin_Residue_Atom&gt;
+        &lt;Contact_Type&gt;Hydrogen bond&lt;/Contact_Type&gt;
+    &lt;/contacts_xxxx&gt;
+    &lt;contacts_xxxx&gt;
+        &lt;AtomPairID&gt;9&lt;/AtomPairID&gt;
+        &lt;BindingID&gt;1&lt;/BindingID&gt;
+        &lt;PDB_ID&gt;2seb&lt;/PDB_ID&gt;
+        &lt;Antigen_Chain&gt;E&lt;/Antigen_Chain&gt;
+        &lt;Antigen_Residue&gt;A (Ala)&lt;/Antigen_Residue&gt;
+        &lt;Antigen_Residue_Position&gt;1175&lt;/Antigen_Residue_Position&gt;
+        &lt;Antigen_Residue_Atom&gt;N&lt;/Antigen_Residue_Atom&gt;
+        &lt;Immunoglobulin_Chain&gt;A&lt;/Immunoglobulin_Chain&gt;
+        &lt;Immunoglobulin_Residue&gt;N (Asn)&lt;/Immunoglobulin_Residue&gt;
+        &lt;Immunoglobulin_Residue_Position&gt;62&lt;/Immunoglobulin_Residue_Position&gt;
+        &lt;Immunoglobulin_Residue_Atom&gt;OD1&lt;/Immunoglobulin_Residue_Atom&gt;
+        &lt;Contact_Type&gt;Hydrogen bond&lt;/Contact_Type&gt;
+    &lt;/contacts_xxxx&gt;
+    &lt;contacts_xxxx&gt;
+        &lt;AtomPairID&gt;10&lt;/AtomPairID&gt;
+        &lt;BindingID&gt;1&lt;/BindingID&gt;
+        &lt;PDB_ID&gt;2seb&lt;/PDB_ID&gt;
+        &lt;Antigen_Chain&gt;E&lt;/Antigen_Chain&gt;
+        &lt;Antigen_Residue&gt;A (Ala)&lt;/Antigen_Residue&gt;
+        &lt;Antigen_Residue_Position&gt;1176&lt;/Antigen_Residue_Position&gt;
+        &lt;Antigen_Residue_Atom&gt;O&lt;/Antigen_Residue_Atom&gt;
+        &lt;Immunoglobulin_Chain&gt;A&lt;/Immunoglobulin_Chain&gt;
+        &lt;Immunoglobulin_Residue&gt;N (Asn)&lt;/Immunoglobulin_Residue&gt;
+        &lt;Immunoglobulin_Residue_Position&gt;69&lt;/Immunoglobulin_Residue_Position&gt;
+        &lt;Immunoglobulin_Residue_Atom&gt;ND2&lt;/Immunoglobulin_Residue_Atom&gt;
+        &lt;Contact_Type&gt;Hydrogen bond&lt;/Contact_Type&gt;
+    &lt;/contacts_xxxx&gt;
+    &lt;contacts_xxxx&gt;
+        &lt;AtomPairID&gt;11&lt;/AtomPairID&gt;
+        &lt;BindingID&gt;1&lt;/BindingID&gt;
+        &lt;PDB_ID&gt;2seb&lt;/PDB_ID&gt;
+        &lt;Antigen_Chain&gt;E&lt;/Antigen_Chain&gt;
+        &lt;Antigen_Residue&gt;G (Gly)&lt;/Antigen_Residue&gt;
+        &lt;Antigen_Residue_Position&gt;1177&lt;/Antigen_Residue_Position&gt;
+        &lt;Antigen_Residue_Atom&gt;O&lt;/Antigen_Residue_Atom&gt;
+        &lt;Immunoglobulin_Chain&gt;B&lt;/Immunoglobulin_Chain&gt;
+        &lt;Immunoglobulin_Residue&gt;W (Trp)&lt;/Immunoglobulin_Residue&gt;
+        &lt;Immunoglobulin_Residue_Position&gt;61&lt;/Immunoglobulin_Residue_Position&gt;
+        &lt;Immunoglobulin_Residue_Atom&gt;NE1&lt;/Immunoglobulin_Residue_Atom&gt;
+        &lt;Contact_Type&gt;Hydrogen bond&lt;/Contact_Type&gt;
+    &lt;/contacts_xxxx&gt;
+    &lt;contacts_xxxx&gt;
+        &lt;AtomPairID&gt;12&lt;/AtomPairID&gt;
+        &lt;BindingID&gt;1&lt;/BindingID&gt;
+        &lt;PDB_ID&gt;2seb&lt;/PDB_ID&gt;
+        &lt;Antigen_Chain&gt;E&lt;/Antigen_Chain&gt;
+        &lt;Antigen_Residue&gt;G (Gly)&lt;/Antigen_Residue&gt;
+        &lt;Antigen_Residue_Position&gt;1178&lt;/Antigen_Residue_Position&gt;
+        &lt;Antigen_Residue_Atom&gt;N&lt;/Antigen_Residue_Atom&gt;
+        &lt;Immunoglobulin_Chain&gt;A&lt;/Immunoglobulin_Chain&gt;
+        &lt;Immunoglobulin_Residue&gt;N (Asn)&lt;/Immunoglobulin_Residue&gt;
+        &lt;Immunoglobulin_Residue_Position&gt;69&lt;/Immunoglobulin_Residue_Position&gt;
+        &lt;Immunoglobulin_Residue_Atom&gt;OD1&lt;/Immunoglobulin_Residue_Atom&gt;
+        &lt;Contact_Type&gt;Hydrogen bond&lt;/Contact_Type&gt;
+    &lt;/contacts_xxxx&gt;
+    &lt;contacts_xxxx&gt;
+        &lt;AtomPairID&gt;13&lt;/AtomPairID&gt;
+        &lt;BindingID&gt;1&lt;/BindingID&gt;
+        &lt;PDB_ID&gt;2seb&lt;/PDB_ID&gt;
+        &lt;Antigen_Chain&gt;E&lt;/Antigen_Chain&gt;
+        &lt;Antigen_Residue&gt;R (Arg)&lt;/Antigen_Residue&gt;
+        &lt;Antigen_Residue_Position&gt;1171&lt;/Antigen_Residue_Position&gt;
+        &lt;Antigen_Residue_Atom&gt;NH1&lt;/Antigen_Residue_Atom&gt;
+        &lt;Immunoglobulin_Chain&gt;B&lt;/Immunoglobulin_Chain&gt;
+        &lt;Immunoglobulin_Residue&gt;T (Thr)&lt;/Immunoglobulin_Residue&gt;
+        &lt;Immunoglobulin_Residue_Position&gt;77&lt;/Immunoglobulin_Residue_Position&gt;
+        &lt;Immunoglobulin_Residue_Atom&gt;O&lt;/Immunoglobulin_Residue_Atom&gt;
+        &lt;Contact_Type&gt;Hydrogen bond&lt;/Contact_Type&gt;
+    &lt;/contacts_xxxx&gt;
+&lt;/dataroot&gt;</InteractingAtomPairs>
+                            </CuratedContacts>
+                            <CalculatedContacts>
+                                <EpitopeResiduesInteractingWithMhc>E: A1168, Y1169, M1170, R1171, A1172, D1173, A1174, A1175, A1176, G1177, G1178, A1179</EpitopeResiduesInteractingWithMhc>
+                                <MhcResiduesInteractingWithEpitope>A: Q9, E11, F22, F24, F32, F51, A52, S53, F54, E55, N62, V65, D66, N69, I72, R76; B: H13, F26, Y30, Y47, D57, Y60, W61, K71, T77, Y78, H81, N82, V85</MhcResiduesInteractingWithEpitope>
+                                <ContactAreaForEpitope>1093.5</ContactAreaForEpitope>
+                                <ContactAreaForMhc>773.3</ContactAreaForMhc>
+                            </CalculatedContacts>
+                        </ThreeDimensionalStructureOfComplex>
+                    </MhcBinding>
+                </Assays>
+            </Epitope>
+        </Epitopes>
+    </Reference>
+</References>
+

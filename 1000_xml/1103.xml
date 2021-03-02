@@ -1,0 +1,365 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<References xsi:schemaLocation="http://www.iedb.org/schema/CurationSchema http://beta.iedb.org/schema/Curation.xsd" xmlns="http://www.iedb.org/schema/CurationSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <Reference>
+        <ReferenceId>1103</ReferenceId>
+        <DateLastUpdated>2020-09-10-07:00</DateLastUpdated>
+        <Article>
+            <PubmedId>11796635</PubmedId>
+            <Abstract>Few human CD8(+) T-cell epitopes in mycobacterial antigens have been described to date. Here we have identified a novel HLA-B*35-restricted CD8(+) T-cell epitope in Mycobacterium tuberculosis Rv2903c based on a reverse immunogenetics approach. Peptide-specific CD8 T cells were able to kill M. tuberculosis-infected macrophages and produce gamma interferon and tumor necrosis factor alpha.</Abstract>
+            <ArticleYear>2002</ArticleYear>
+            <ArticlePages>981-4</ArticlePages>
+            <ArticleTitle>HLA-B*35-restricted CD8(+)-T-cell epitope in Mycobacterium tuberculosis Rv2903c.</ArticleTitle>
+            <Authors>
+                <Author>
+                    <LastName>Klein</LastName>
+                    <ForeName>Michèl R</ForeName>
+                </Author>
+                <Author>
+                    <LastName>Hammond</LastName>
+                    <ForeName>Abdulrahman S</ForeName>
+                </Author>
+                <Author>
+                    <LastName>Smith</LastName>
+                    <ForeName>Steve M</ForeName>
+                </Author>
+                <Author>
+                    <LastName>Jaye</LastName>
+                    <ForeName>Assan</ForeName>
+                </Author>
+                <Author>
+                    <LastName>Lukey</LastName>
+                    <ForeName>Pauline T</ForeName>
+                </Author>
+                <Author>
+                    <LastName>McAdam</LastName>
+                    <ForeName>Keith P W J</ForeName>
+                </Author>
+            </Authors>
+            <Affiliations>TB Research Programme, MRC Laboratories, Fajara, The Gambia. petiet@stanford.edu.</Affiliations>
+            <ArticleChemicalList>Antigens, Bacterial;Epitopes, T-Lymphocyte;HLA-B35 Antigen;Peptides;Tumor Necrosis Factor-alpha;Interferon-gamma</ArticleChemicalList>
+            <ArticleMeshHeadingsList>Antigens, Bacterial(immunology); CD8-Positive T-Lymphocytes(immunology); Cytotoxicity Tests, Immunologic; Epitope Mapping; Epitopes, T-Lymphocyte(immunology); HLA-B35 Antigen(immunology); Humans; Interferon-gamma(analysis); Leukocytes, Mononuclear(immunology); Macrophages(immunology; microbiology); Mycobacterium tuberculosis(immunology); Peptides(immunology); Tumor Necrosis Factor-alpha(analysis)</ArticleMeshHeadingsList>
+            <Journal>
+                <Volume>70</Volume>
+                <Issue>2</Issue>
+                <Title>Infection and immunity</Title>
+                <Issn>0019-9567</Issn>
+                <MedlineTa>Infect Immun</MedlineTa>
+            </Journal>
+        </Article>
+        <Epitopes>
+            <Epitope>
+                <EpitopeName>SP201/9</EpitopeName>
+                <EpitopeStructure>
+                    <FragmentOfANaturalSequenceMolecule>
+                        <ChemicalType>Peptide from protein</ChemicalType>
+                        <LinearSequence>EPYLDPATM</LinearSequence>
+                        <StartingPosition>201</StartingPosition>
+                        <EndingPosition>209</EndingPosition>
+                        <SourceMolecule>
+                            <GenBankId>Q10789.1</GenBankId>
+                        </SourceMolecule>
+                        <SourceOrganismId>1773</SourceOrganismId>
+                    </FragmentOfANaturalSequenceMolecule>
+                </EpitopeStructure>
+                <LocationOfData>Figure 1</LocationOfData>
+                <EpitopeId>13787</EpitopeId>
+                <ReferenceStartingPosition>201</ReferenceStartingPosition>
+                <ReferenceEndingPosition>209</ReferenceEndingPosition>
+                <EpitopeEvidenceCode>Not determined</EpitopeEvidenceCode>
+                <EpitopeStructureDefines>Exact Epitope</EpitopeStructureDefines>
+                <Assays>
+                    <TCell>
+                        <LocationOfData>Figure 2D</LocationOfData>
+                        <TCellId>1462080</TCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>9606</OrganismId>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Administration in vivo</InVivoProcessType>
+                                <DiseaseState>ONTIE:0003423</DiseaseState>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Taxonomic Sibling</EpitopeRelation>
+                                    <Object>
+                                        <Organism>
+                                            <SubType>Organism</SubType>
+                                            <SourceOrganismId>33892</SourceOrganismId>
+                                        </Organism>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenReferenceName>Mycobacterium bovis BCG</ImmunogenReferenceName>
+                                <ImmunogenEvidenceCode>Not determined</ImmunogenEvidenceCode>
+                            </FirstInVivoProcess>
+                            <InVitroAdministration>
+                                <ProcessType>Restimulation in vitro</ProcessType>
+                                <ResponderCellType>PBMC</ResponderCellType>
+                                <StimulatorCellType>PBMC</StimulatorCellType>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Source Organism</EpitopeRelation>
+                                    <Object>
+                                        <Organism>
+                                            <SubType>Organism</SubType>
+                                            <SourceOrganismId>1773</SourceOrganismId>
+                                        </Organism>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenEvidenceCode>Not determined</ImmunogenEvidenceCode>
+                            </InVitroAdministration>
+                        </Immunization>
+                        <EffectorCells>
+                            <CellTissueType>Blood</CellTissueType>
+                            <CellType>T cell CD8+</CellType>
+                            <CellCultureConditions>Short Term Restimulated</CellCultureConditions>
+                        </EffectorCells>
+                        <AntigenPresentingCells>
+                            <CellTissueType>Lymphoid</CellTissueType>
+                            <CellType>RMA-lymphocyte</CellType>
+                            <CellCultureConditions>Cell Line / Clone</CellCultureConditions>
+                        </AntigenPresentingCells>
+                        <MhcAllele>
+                            <MhcAlleleId>195</MhcAlleleId>
+                            <MhcEvidenceCode>MHC binding assay</MhcEvidenceCode>
+                        </MhcAllele>
+                        <Antigen>
+                            <AntigenReferenceName>SP201/9</AntigenReferenceName>
+                            <AntigenObject>
+                                <EpitopeRelation>Epitope</EpitopeRelation>
+                                <Object>
+                                    <FragmentOfANaturalSequenceMolecule>
+                                        <ChemicalType>Peptide from protein</ChemicalType>
+                                        <LinearSequence>EPYLDPATM</LinearSequence>
+                                        <StartingPosition>201</StartingPosition>
+                                        <EndingPosition>209</EndingPosition>
+                                        <SourceMolecule>
+                                            <GenBankId>Q10789.1</GenBankId>
+                                        </SourceMolecule>
+                                        <SourceOrganismId>1773</SourceOrganismId>
+                                    </FragmentOfANaturalSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Exact match to reference information</AntigenEvidenceCode>
+                        </Antigen>
+                        <AssayInformation>
+                            <AssayTypeId>57</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <AssayComments>A similar response was shown for IFNg.  T cells efficiently killed macrophages pulsed with the peptide, as well as macrophages infected with Mycobacterium tuberculosis.</AssayComments>
+                        </AssayInformation>
+                    </TCell>
+                </Assays>
+                <Assays>
+                    <TCell>
+                        <LocationOfData>Figure 2D</LocationOfData>
+                        <TCellId>15236</TCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>9606</OrganismId>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Administration in vivo</InVivoProcessType>
+                                <DiseaseState>ONTIE:0003423</DiseaseState>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Taxonomic Sibling</EpitopeRelation>
+                                    <Object>
+                                        <Organism>
+                                            <SubType>Organism</SubType>
+                                            <SourceOrganismId>33892</SourceOrganismId>
+                                        </Organism>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenReferenceName>Mycobacterium bovis BCG</ImmunogenReferenceName>
+                                <ImmunogenEvidenceCode>Not determined</ImmunogenEvidenceCode>
+                            </FirstInVivoProcess>
+                            <InVitroAdministration>
+                                <ProcessType>Restimulation in vitro</ProcessType>
+                                <ResponderCellType>PBMC</ResponderCellType>
+                                <StimulatorCellType>PBMC</StimulatorCellType>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Source Organism</EpitopeRelation>
+                                    <Object>
+                                        <Organism>
+                                            <SubType>Organism</SubType>
+                                            <SourceOrganismId>1773</SourceOrganismId>
+                                        </Organism>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenEvidenceCode>Not determined</ImmunogenEvidenceCode>
+                            </InVitroAdministration>
+                        </Immunization>
+                        <EffectorCells>
+                            <CellTissueType>Blood</CellTissueType>
+                            <CellType>T cell CD8+</CellType>
+                            <CellCultureConditions>Short Term Restimulated</CellCultureConditions>
+                        </EffectorCells>
+                        <AntigenPresentingCells>
+                            <CellTissueType>Lymphoid</CellTissueType>
+                            <CellType>RMA-lymphocyte</CellType>
+                            <CellCultureConditions>Cell Line / Clone</CellCultureConditions>
+                        </AntigenPresentingCells>
+                        <MhcAllele>
+                            <MhcAlleleId>195</MhcAlleleId>
+                            <MhcEvidenceCode>MHC binding assay</MhcEvidenceCode>
+                        </MhcAllele>
+                        <Antigen>
+                            <AntigenReferenceName>SP201/9</AntigenReferenceName>
+                            <AntigenObject>
+                                <EpitopeRelation>Epitope</EpitopeRelation>
+                                <Object>
+                                    <FragmentOfANaturalSequenceMolecule>
+                                        <ChemicalType>Peptide from protein</ChemicalType>
+                                        <LinearSequence>EPYLDPATM</LinearSequence>
+                                        <StartingPosition>201</StartingPosition>
+                                        <EndingPosition>209</EndingPosition>
+                                        <SourceMolecule>
+                                            <GenBankId>Q10789.1</GenBankId>
+                                        </SourceMolecule>
+                                        <SourceOrganismId>1773</SourceOrganismId>
+                                    </FragmentOfANaturalSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Exact match to reference information</AntigenEvidenceCode>
+                        </Antigen>
+                        <AssayInformation>
+                            <AssayTypeId>53</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <QuantitativeMeasurement>22.5</QuantitativeMeasurement>
+                            <AssayComments>A similar response was shown for TNF α.  T cells efficiently killed macrophages pulsed with the peptide, as well as macrophages infected with Mycobacterium tuberculosis.</AssayComments>
+                        </AssayInformation>
+                    </TCell>
+                </Assays>
+                <Assays>
+                    <MhcBinding>
+                        <LocationOfData>Figure 1</LocationOfData>
+                        <MhcBindingId>15185</MhcBindingId>
+                        <AssayInformation>
+                            <AssayTypeId>24</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <AssayComments>This binding assay was performed using Tap-deficient RMA-S cells transfected with HLA-B*3501.</AssayComments>
+                        </AssayInformation>
+                        <MhcAlleleId>195</MhcAlleleId>
+                    </MhcBinding>
+                </Assays>
+            </Epitope>
+            <Epitope>
+                <EpitopeStructure>
+                    <FragmentOfANaturalSequenceMolecule>
+                        <ChemicalType>Peptide from protein</ChemicalType>
+                        <LinearSequence>VPPGRVWVMG</LinearSequence>
+                        <StartingPosition>228</StartingPosition>
+                        <EndingPosition>237</EndingPosition>
+                        <SourceMolecule>
+                            <GenBankId>Q10789.1</GenBankId>
+                        </SourceMolecule>
+                        <SourceOrganismId>1773</SourceOrganismId>
+                    </FragmentOfANaturalSequenceMolecule>
+                </EpitopeStructure>
+                <LocationOfData>Figure 1</LocationOfData>
+                <EpitopeId>70416</EpitopeId>
+                <EpitopeEvidenceCode>Not determined</EpitopeEvidenceCode>
+                <EpitopeStructureDefines>Exact Epitope</EpitopeStructureDefines>
+                <Assays>
+                    <MhcBinding>
+                        <LocationOfData>Figure 1</LocationOfData>
+                        <MhcBindingId>15237</MhcBindingId>
+                        <AssayInformation>
+                            <AssayTypeId>24</AssayTypeId>
+                            <QualitativeMeasurement>Negative</QualitativeMeasurement>
+                            <AssayComments>This binding assay was performed using Tap-deficient RMA-S cells transfected with HLA-B*3501.</AssayComments>
+                        </AssayInformation>
+                        <MhcAlleleId>195</MhcAlleleId>
+                    </MhcBinding>
+                </Assays>
+            </Epitope>
+            <Epitope>
+                <EpitopeStructure>
+                    <FragmentOfANaturalSequenceMolecule>
+                        <ChemicalType>Peptide from protein</ChemicalType>
+                        <LinearSequence>VPPDENDLVK</LinearSequence>
+                        <StartingPosition>165</StartingPosition>
+                        <EndingPosition>174</EndingPosition>
+                        <SourceMolecule>
+                            <GenBankId>Q10789.1</GenBankId>
+                        </SourceMolecule>
+                        <SourceOrganismId>1773</SourceOrganismId>
+                    </FragmentOfANaturalSequenceMolecule>
+                </EpitopeStructure>
+                <LocationOfData>Figure 1</LocationOfData>
+                <EpitopeId>70408</EpitopeId>
+                <EpitopeEvidenceCode>Not determined</EpitopeEvidenceCode>
+                <EpitopeStructureDefines>Exact Epitope</EpitopeStructureDefines>
+                <Assays>
+                    <MhcBinding>
+                        <LocationOfData>Figure 1</LocationOfData>
+                        <MhcBindingId>15240</MhcBindingId>
+                        <AssayInformation>
+                            <AssayTypeId>24</AssayTypeId>
+                            <QualitativeMeasurement>Negative</QualitativeMeasurement>
+                            <AssayComments>This binding assay was performed using Tap-deficient RMA-S cells transfected with HLA-B*3501.</AssayComments>
+                        </AssayInformation>
+                        <MhcAlleleId>195</MhcAlleleId>
+                    </MhcBinding>
+                </Assays>
+            </Epitope>
+            <Epitope>
+                <EpitopeStructure>
+                    <FragmentOfANaturalSequenceMolecule>
+                        <ChemicalType>Peptide from protein</ChemicalType>
+                        <LinearSequence>GPPSWNVGYK</LinearSequence>
+                        <StartingPosition>134</StartingPosition>
+                        <EndingPosition>143</EndingPosition>
+                        <SourceMolecule>
+                            <GenBankId>Q10789.1</GenBankId>
+                        </SourceMolecule>
+                        <SourceOrganismId>1773</SourceOrganismId>
+                    </FragmentOfANaturalSequenceMolecule>
+                </EpitopeStructure>
+                <LocationOfData>Figure 1</LocationOfData>
+                <EpitopeId>21736</EpitopeId>
+                <EpitopeEvidenceCode>Not determined</EpitopeEvidenceCode>
+                <EpitopeStructureDefines>Exact Epitope</EpitopeStructureDefines>
+                <Assays>
+                    <MhcBinding>
+                        <LocationOfData>Figure 1</LocationOfData>
+                        <MhcBindingId>15241</MhcBindingId>
+                        <AssayInformation>
+                            <AssayTypeId>24</AssayTypeId>
+                            <QualitativeMeasurement>Negative</QualitativeMeasurement>
+                            <AssayComments>This binding assay was performed using Tap-deficient RMA-S cells transfected with HLA-B*3501.</AssayComments>
+                        </AssayInformation>
+                        <MhcAlleleId>195</MhcAlleleId>
+                    </MhcBinding>
+                </Assays>
+            </Epitope>
+            <Epitope>
+                <EpitopeStructure>
+                    <FragmentOfANaturalSequenceMolecule>
+                        <ChemicalType>Peptide from protein</ChemicalType>
+                        <LinearSequence>QPGPAEPELS</LinearSequence>
+                        <StartingPosition>12</StartingPosition>
+                        <EndingPosition>21</EndingPosition>
+                        <SourceMolecule>
+                            <GenBankId>Q10789.1</GenBankId>
+                        </SourceMolecule>
+                        <SourceOrganismId>1773</SourceOrganismId>
+                    </FragmentOfANaturalSequenceMolecule>
+                </EpitopeStructure>
+                <LocationOfData>Figure 1</LocationOfData>
+                <EpitopeId>51843</EpitopeId>
+                <EpitopeEvidenceCode>Not determined</EpitopeEvidenceCode>
+                <EpitopeStructureDefines>Exact Epitope</EpitopeStructureDefines>
+                <Assays>
+                    <MhcBinding>
+                        <LocationOfData>Figure 1</LocationOfData>
+                        <MhcBindingId>15242</MhcBindingId>
+                        <AssayInformation>
+                            <AssayTypeId>24</AssayTypeId>
+                            <QualitativeMeasurement>Negative</QualitativeMeasurement>
+                            <AssayComments>This binding assay was performed using Tap-deficient RMA-S cells transfected with HLA-B*3501.</AssayComments>
+                        </AssayInformation>
+                        <MhcAlleleId>195</MhcAlleleId>
+                    </MhcBinding>
+                </Assays>
+            </Epitope>
+        </Epitopes>
+    </Reference>
+</References>
+

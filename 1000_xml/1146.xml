@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<References xsi:schemaLocation="http://www.iedb.org/schema/CurationSchema http://beta.iedb.org/schema/Curation.xsd" xmlns="http://www.iedb.org/schema/CurationSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <Reference>
+        <ReferenceId>1146</ReferenceId>
+        <DateLastUpdated>2020-09-10-07:00</DateLastUpdated>
+        <Article>
+            <PubmedId>7518164</PubmedId>
+            <Abstract>Two neutralization-resistant variants of dengue virus type 2 were selected using the neutralizing monoclonal antibody G8D11. Virus N-GV4 was derived from the New Guinea C strain and virus P-GV3 from the PUO-218 strain. Both variants had an identical change at nucleotide 919 in the E gene, causing a substitution of glutamic acid for lysine at residue 307 in the E glycoprotein. The substitution abolished the ability of antibody G8D11 to bind to the E glycoprotein in radioimmunoprecipitation experiments. The epitope was sensitive to treatment with SDS and was dependent on the formation of a disulfide bridge. This dependency was determined by mutagenesis of Cys residues 11 and 12 in the E glycoprotein.</Abstract>
+            <ArticleYear>1994</ArticleYear>
+            <ArticlePages>885-90</ArticlePages>
+            <ArticleTitle>Localization of a neutralizing epitope on the envelope protein of dengue virus type 2.</ArticleTitle>
+            <Authors>
+                <Author>
+                    <LastName>Lin</LastName>
+                    <ForeName>B</ForeName>
+                </Author>
+                <Author>
+                    <LastName>Parrish</LastName>
+                    <ForeName>C R</ForeName>
+                </Author>
+                <Author>
+                    <LastName>Murray</LastName>
+                    <ForeName>J M</ForeName>
+                </Author>
+                <Author>
+                    <LastName>Wright</LastName>
+                    <ForeName>P J</ForeName>
+                </Author>
+            </Authors>
+            <Affiliations>Department of Microbiology, Monash University, Clayton, Victoria, Australia.</Affiliations>
+            <ArticleChemicalList>Antibodies, Monoclonal;Antibodies, Viral;DNA Primers;E-glycoprotein, Dengue virus type 2;Epitopes;Viral Envelope Proteins</ArticleChemicalList>
+            <ArticleMeshHeadingsList>Antibodies, Monoclonal(immunology); Antibodies, Viral(immunology); Base Sequence; DNA Primers(chemistry); Dengue Virus(immunology); Epitopes; Molecular Sequence Data; Mutagenesis, Site-Directed; Neutralization Tests; Protein Denaturation; Structure-Activity Relationship; Viral Envelope Proteins(immunology)</ArticleMeshHeadingsList>
+            <Journal>
+                <Volume>202</Volume>
+                <Issue>2</Issue>
+                <Title>Virology</Title>
+                <Issn>0042-6822</Issn>
+                <MedlineTa>Virology</MedlineTa>
+            </Journal>
+        </Article>
+        <Epitopes>
+            <Epitope>
+                <EpitopeStructure>
+                    <DiscontinuousRegionOnAccessionSequenceMolecule>
+                        <ChemicalType>Discontinuous protein residues</ChemicalType>
+                        <DiscontinuousResidues>K307</DiscontinuousResidues>
+                        <SourceMolecule>
+                            <GenBankId>AAT90433.1</GenBankId>
+                        </SourceMolecule>
+                        <SourceOrganismId>11060</SourceOrganismId>
+                    </DiscontinuousRegionOnAccessionSequenceMolecule>
+                </EpitopeStructure>
+                <LocationOfData>Abstract</LocationOfData>
+                <EpitopeId>77075</EpitopeId>
+                <ReferenceRegion>K307</ReferenceRegion>
+                <EpitopeEvidenceCode>Not determined</EpitopeEvidenceCode>
+                <EpitopeStructureDefines>Partial Epitope</EpitopeStructureDefines>
+                <Assays>
+                    <BCell>
+                        <LocationOfData>Figure 2</LocationOfData>
+                        <BCellId>15973</BCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>10000000</OrganismId>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Administration in vivo</InVivoProcessType>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Source Organism</EpitopeRelation>
+                                    <Object>
+                                        <Organism>
+                                            <SubType>Organism</SubType>
+                                            <SourceOrganismId>11060</SourceOrganismId>
+                                        </Organism>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenReferenceName>Dengue virus type 2</ImmunogenReferenceName>
+                                <ImmunogenEvidenceCode>Not determined</ImmunogenEvidenceCode>
+                                <Route>Intraperitoneal (i.p.)</Route>
+                            </FirstInVivoProcess>
+                            <ImmunizationComments>The virus strain was grown in C6/36 cells. Mice were boosted 4 days prior to the fusion. Positive clones were selected by indirect fluorescent antibody.</ImmunizationComments>
+                        </Immunization>
+                        <AssayInformation>
+                            <AssayTypeId>39</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <AssayComments>mAb G8D11 immunoprecipitated E glycoprotein of only parental viruses and failed to precipitate more than trace amounts of E glycoprotein from viral mutants (N-GV4 and P-GV3). The viral mutants had a substitution of lysine at residue 307 for glutamic acid. This study shows that lysine at position 307 of E glycoprotein is a key residue which affects the binding to viral mutants. The reactivity of the epitope was dependent on the disulphide bridge between Cys-11 and Cys-12.</AssayComments>
+                        </AssayInformation>
+                        <AssayedAntibody>
+                            <AssayedAntibodyPurificationStatus>Monoclonal</AssayedAntibodyPurificationStatus>
+                            <AssayedAntibodyName>G8D11</AssayedAntibodyName>
+                            <AssayedAntibodyHeavyChainType>IgG2a</AssayedAntibodyHeavyChainType>
+                        </AssayedAntibody>
+                        <Antigen>
+                            <AntigenReferenceName>Dengue virus type 2</AntigenReferenceName>
+                            <AntigenConformation>Native</AntigenConformation>
+                            <AntigenObject>
+                                <EpitopeRelation>Source Organism</EpitopeRelation>
+                                <Object>
+                                    <Organism>
+                                        <SubType>Organism</SubType>
+                                        <SourceOrganismId>11060</SourceOrganismId>
+                                    </Organism>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Not determined</AntigenEvidenceCode>
+                        </Antigen>
+                    </BCell>
+                </Assays>
+            </Epitope>
+        </Epitopes>
+    </Reference>
+</References>
+

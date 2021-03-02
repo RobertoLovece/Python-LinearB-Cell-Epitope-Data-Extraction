@@ -1,0 +1,2143 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<References xsi:schemaLocation="http://www.iedb.org/schema/CurationSchema http://beta.iedb.org/schema/Curation.xsd" xmlns="http://www.iedb.org/schema/CurationSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <Reference>
+        <ReferenceId>1253</ReferenceId>
+        <DateLastUpdated>2020-09-10-07:00</DateLastUpdated>
+        <Article>
+            <PubmedId>12055626</PubmedId>
+            <Abstract>We show here that T cell cross-reactivity between heterologous viruses influences the immunodominance of virus-specific CD8(+) T cells by two mechanisms. First, T cells specific for cross-reactive epitopes dominate acute responses to viral infections; second, within the memory pool, T cells specific for cross-reactive epitopes are maintained while those specific for non-cross-reactive epitopes are selectively lost. These findings suggest an immunological paradigm in which viral infections shape the available T cell repertoire, causing alterations in the hierarchies of both the primary and memory CD8(+) T cell responses elicited by subsequent viral infections. Thus, immunodominance is a function of the host's previous exposure to unrelated pathogens, and this may have an impact on protective immunity and immunopathology.</Abstract>
+            <ArticleYear>2002</ArticleYear>
+            <ArticlePages>627-34</ArticlePages>
+            <ArticleTitle>T cell immunodominance and maintenance of memory regulated by unexpectedly cross-reactive pathogens.</ArticleTitle>
+            <Authors>
+                <Author>
+                    <LastName>Brehm</LastName>
+                    <ForeName>Michael A</ForeName>
+                </Author>
+                <Author>
+                    <LastName>Pinto</LastName>
+                    <ForeName>Amelia K</ForeName>
+                </Author>
+                <Author>
+                    <LastName>Daniels</LastName>
+                    <ForeName>Keith A</ForeName>
+                </Author>
+                <Author>
+                    <LastName>Schneck</LastName>
+                    <ForeName>Jonathan P</ForeName>
+                </Author>
+                <Author>
+                    <LastName>Welsh</LastName>
+                    <ForeName>Raymond M</ForeName>
+                </Author>
+                <Author>
+                    <LastName>Selin</LastName>
+                    <ForeName>Liisa K</ForeName>
+                </Author>
+            </Authors>
+            <Affiliations>Department of Pathology and Progranm in Immunology and Virology, University of Massachusetts Medical School, Worcester, MA 01655, USA.</Affiliations>
+            <ArticleChemicalList>Antigens, Viral;Epitopes, T-Lymphocyte;H-2 Antigens;H-2Kb protein, mouse;Immunodominant Epitopes;Nucleoproteins;Peptides;Viral Proteins</ArticleChemicalList>
+            <ArticleMeshHeadingsList>Animals; Antigens, Viral(immunology); CD8-Positive T-Lymphocytes(immunology); Cell Line; Cricetinae; Cross Reactions; Epitopes, T-Lymphocyte(immunology); H-2 Antigens(immunology); Immunodominant Epitopes(immunology); Immunologic Memory(immunology); Lymphocytic choriomeningitis virus(immunology); Male; Mice; Mice, Inbred C57BL; Nucleoproteins(immunology); Peptides(immunology); Pichinde virus(immunology); Viral Proteins(immunology)</ArticleMeshHeadingsList>
+            <Journal>
+                <Volume>3</Volume>
+                <Issue>7</Issue>
+                <Title>Nature immunology</Title>
+                <Issn>1529-2908</Issn>
+                <MedlineTa>Nat Immunol</MedlineTa>
+            </Journal>
+        </Article>
+        <Epitopes>
+            <Epitope>
+                <EpitopeName>LCMV GP33</EpitopeName>
+                <EpitopeStructure>
+                    <FragmentOfANaturalSequenceMolecule>
+                        <ChemicalType>Peptide from protein</ChemicalType>
+                        <LinearSequence>KAVYNFATC</LinearSequence>
+                        <StartingPosition>33</StartingPosition>
+                        <EndingPosition>41</EndingPosition>
+                        <SourceMolecule>
+                            <GenBankId>P09991.1</GenBankId>
+                        </SourceMolecule>
+                        <SourceOrganismId>11624</SourceOrganismId>
+                    </FragmentOfANaturalSequenceMolecule>
+                </EpitopeStructure>
+                <LocationOfData>Page 628</LocationOfData>
+                <EpitopeId>30001</EpitopeId>
+                <ReferenceStartingPosition>33</ReferenceStartingPosition>
+                <ReferenceEndingPosition>41</ReferenceEndingPosition>
+                <EpitopeEvidenceCode>Not determined</EpitopeEvidenceCode>
+                <EpitopeStructureDefines>Exact Epitope</EpitopeStructureDefines>
+                <Assays>
+                    <TCell>
+                        <LocationOfData>Figure 1</LocationOfData>
+                        <TCellId>18439</TCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>10000067</OrganismId>
+                                <Sex>M</Sex>
+                                <Age>2-18 mo</Age>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Administration in vivo</InVivoProcessType>
+                                <DiseaseState>DOID:12155</DiseaseState>
+                                <DiseaseStage>Acute/Recent onset</DiseaseStage>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Source Organism</EpitopeRelation>
+                                    <Object>
+                                        <Organism>
+                                            <SubType>Organism</SubType>
+                                            <SourceOrganismId>11624</SourceOrganismId>
+                                        </Organism>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenEvidenceCode>Not determined</ImmunogenEvidenceCode>
+                                <Route>Intraperitoneal (i.p.)</Route>
+                                <DoseSchedule>1 dose of 5x10&lt;sup&gt;4&lt;/sup&gt; PFU</DoseSchedule>
+                            </FirstInVivoProcess>
+                            <ImmunizationComments>Splenocytes were harvested either 7-9 days after infection (acute response) or &gt;6 wk after infection (memory response).</ImmunizationComments>
+                        </Immunization>
+                        <EffectorCells>
+                            <CellTissueType>Spleen</CellTissueType>
+                            <CellType>T cell CD8+</CellType>
+                            <CellCultureConditions>Direct Ex Vivo</CellCultureConditions>
+                        </EffectorCells>
+                        <AntigenPresentingCells>
+                            <CellTissueType>Spleen</CellTissueType>
+                            <CellType>Splenocyte</CellType>
+                            <CellCultureConditions>Direct Ex Vivo</CellCultureConditions>
+                            <AutologousOrSyngeneic>Y</AutologousOrSyngeneic>
+                        </AntigenPresentingCells>
+                        <MhcAllele>
+                            <MhcAlleleId>172</MhcAlleleId>
+                            <MhcEvidenceCode>Not determined</MhcEvidenceCode>
+                        </MhcAllele>
+                        <Antigen>
+                            <AntigenReferenceName>LCMV GP33</AntigenReferenceName>
+                            <AntigenObject>
+                                <EpitopeRelation>Epitope</EpitopeRelation>
+                                <Object>
+                                    <FragmentOfANaturalSequenceMolecule>
+                                        <ChemicalType>Peptide from protein</ChemicalType>
+                                        <LinearSequence>KAVYNFATC</LinearSequence>
+                                        <StartingPosition>33</StartingPosition>
+                                        <EndingPosition>41</EndingPosition>
+                                        <SourceMolecule>
+                                            <GenBankId>P09991.1</GenBankId>
+                                        </SourceMolecule>
+                                        <SourceOrganismId>11624</SourceOrganismId>
+                                    </FragmentOfANaturalSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Exact match to reference information</AntigenEvidenceCode>
+                        </Antigen>
+                        <AssayInformation>
+                            <AssayTypeId>53</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <QuantitativeMeasurement>17.0</QuantitativeMeasurement>
+                            <AssayComments>The percentage of CD8+ cells producing IFNg in response to this immunodominant epitope is high in acutely LCMV infected animals, as is the memory population 6 weeks after infection (3.2%). This is paralleled by a strong cytotoxic response to source species infected cells.  Splenocytes were incubated with peptides in the presence of 10U/ml hrIL2 previous to staining and FACS analysis.</AssayComments>
+                        </AssayInformation>
+                    </TCell>
+                </Assays>
+                <Assays>
+                    <TCell>
+                        <LocationOfData>Figure 1</LocationOfData>
+                        <TCellId>18441</TCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>10000067</OrganismId>
+                                <Sex>M</Sex>
+                                <Age>2-18 mo</Age>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Administration in vivo</InVivoProcessType>
+                                <DiseaseState>DOID:934</DiseaseState>
+                                <DiseaseStage>Acute/Recent onset</DiseaseStage>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Taxonomic Sibling</EpitopeRelation>
+                                    <Object>
+                                        <Organism>
+                                            <SubType>Organism</SubType>
+                                            <SourceOrganismId>2169993</SourceOrganismId>
+                                        </Organism>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenReferenceName>Pichinde virus</ImmunogenReferenceName>
+                                <ImmunogenEvidenceCode>Not determined</ImmunogenEvidenceCode>
+                                <Route>Intraperitoneal (i.p.)</Route>
+                                <DoseSchedule>1 dose of 2x10&lt;sup&gt;7&lt;/sup&gt; PFU of PV</DoseSchedule>
+                            </FirstInVivoProcess>
+                            <ImmunizationComments>Splenocytes were harvested either 7-9 days after infection (acute response) or &gt;6 wk after infection (memory response).</ImmunizationComments>
+                        </Immunization>
+                        <EffectorCells>
+                            <CellTissueType>Spleen</CellTissueType>
+                            <CellType>T cell CD8+</CellType>
+                            <CellCultureConditions>Direct Ex Vivo</CellCultureConditions>
+                        </EffectorCells>
+                        <AntigenPresentingCells>
+                            <CellTissueType>Spleen</CellTissueType>
+                            <CellType>Splenocyte</CellType>
+                            <CellCultureConditions>Direct Ex Vivo</CellCultureConditions>
+                            <AutologousOrSyngeneic>Y</AutologousOrSyngeneic>
+                        </AntigenPresentingCells>
+                        <MhcAllele>
+                            <MhcAlleleId>172</MhcAlleleId>
+                            <MhcEvidenceCode>Not determined</MhcEvidenceCode>
+                        </MhcAllele>
+                        <Antigen>
+                            <AntigenReferenceName>LCMV GP33</AntigenReferenceName>
+                            <AntigenObject>
+                                <EpitopeRelation>Epitope</EpitopeRelation>
+                                <Object>
+                                    <FragmentOfANaturalSequenceMolecule>
+                                        <ChemicalType>Peptide from protein</ChemicalType>
+                                        <LinearSequence>KAVYNFATC</LinearSequence>
+                                        <StartingPosition>33</StartingPosition>
+                                        <EndingPosition>41</EndingPosition>
+                                        <SourceMolecule>
+                                            <GenBankId>P09991.1</GenBankId>
+                                        </SourceMolecule>
+                                        <SourceOrganismId>11624</SourceOrganismId>
+                                    </FragmentOfANaturalSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Exact match to reference information</AntigenEvidenceCode>
+                        </Antigen>
+                        <AssayInformation>
+                            <AssayTypeId>53</AssayTypeId>
+                            <QualitativeMeasurement>Negative</QualitativeMeasurement>
+                            <QuantitativeMeasurement>0.2</QuantitativeMeasurement>
+                            <AssayComments>The percentage of CD8+ cells producing IFNg in response to this immunodominant epitope is almost null in mice infected with heterologous virus Pichinde virus (PV), implying the lack of cross-reactivity in the response against source species correlates with a lack of cross-recognition of immunodominant epitopes.  Splenocytes were incubated with peptides in the presence of 10U/ml hrIL2 previous to staining and FACS analysis.</AssayComments>
+                        </AssayInformation>
+                    </TCell>
+                </Assays>
+                <Assays>
+                    <TCell>
+                        <LocationOfData>Figure 4</LocationOfData>
+                        <TCellId>18448</TCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>10000067</OrganismId>
+                                <Sex>M</Sex>
+                                <Age>2-18 mo</Age>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Administration in vivo</InVivoProcessType>
+                                <DiseaseState>DOID:12155</DiseaseState>
+                                <DiseaseStage>Acute/Recent onset</DiseaseStage>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Source Organism</EpitopeRelation>
+                                    <Object>
+                                        <Organism>
+                                            <SubType>Organism</SubType>
+                                            <SourceOrganismId>11624</SourceOrganismId>
+                                        </Organism>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenEvidenceCode>Not determined</ImmunogenEvidenceCode>
+                                <Route>Intraperitoneal (i.p.)</Route>
+                                <DoseSchedule>1 dose of 2x10&lt;sup&gt;7&lt;/sup&gt; pfu PV, and &gt;6wk later, 1 dose of 5x10&lt;sup&gt;4&lt;/sup&gt; pfu LCMV</DoseSchedule>
+                            </FirstInVivoProcess>
+                            <ImmunizationComments>Splenocytes were harvested either 4-9 days after LCMV infection (acute response) or &gt;6 wk after infection (memory response).PBMCs were recoleted 8 days after infection.</ImmunizationComments>
+                        </Immunization>
+                        <EffectorCells>
+                            <CellTissueType>Spleen</CellTissueType>
+                            <CellType>T cell CD8+</CellType>
+                            <CellCultureConditions>Direct Ex Vivo</CellCultureConditions>
+                        </EffectorCells>
+                        <AntigenPresentingCells>
+                            <CellTissueType>Spleen</CellTissueType>
+                            <CellType>Splenocyte</CellType>
+                            <CellCultureConditions>Direct Ex Vivo</CellCultureConditions>
+                            <AutologousOrSyngeneic>Y</AutologousOrSyngeneic>
+                        </AntigenPresentingCells>
+                        <MhcAllele>
+                            <MhcAlleleId>172</MhcAlleleId>
+                            <MhcEvidenceCode>Not determined</MhcEvidenceCode>
+                        </MhcAllele>
+                        <Antigen>
+                            <AntigenReferenceName>LCMV GP33</AntigenReferenceName>
+                            <AntigenObject>
+                                <EpitopeRelation>Epitope</EpitopeRelation>
+                                <Object>
+                                    <FragmentOfANaturalSequenceMolecule>
+                                        <ChemicalType>Peptide from protein</ChemicalType>
+                                        <LinearSequence>KAVYNFATC</LinearSequence>
+                                        <StartingPosition>33</StartingPosition>
+                                        <EndingPosition>41</EndingPosition>
+                                        <SourceMolecule>
+                                            <GenBankId>P09991.1</GenBankId>
+                                        </SourceMolecule>
+                                        <SourceOrganismId>11624</SourceOrganismId>
+                                    </FragmentOfANaturalSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Exact match to reference information</AntigenEvidenceCode>
+                        </Antigen>
+                        <AssayInformation>
+                            <AssayTypeId>53</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <QuantitativeMeasurement>3.9</QuantitativeMeasurement>
+                            <AssayComments>The percentage of CD8+ cells producing IFNg in response to this immunodominant epitope is reduced from 17-18% in acutely LCMV infected naïve mice animals to less than 4% in acutely LCMV infected Pichinde virus (PV) immune mice, while responses against a subdominant cross-reactive epitope are enhanced, implying that previous heterologous infections can alter immunodominance hierarchies during subsequent infections, suppressing the T cell response against non-cross-reactive epitopes. This is evident at day 6 post LCMV infection (suppl. data) and persists in the memory population 6 weeks after LCMV infection (5 to 2% reduction). This is also evident in the PBMCs and is not due to a lack of functional cells, as FACS analysis with MHC-peptides shows a similar reduction.  Splenocytes were incubated with peptides in the presence of 10U/ml hrIL2 previous to staining and FACS analysis.</AssayComments>
+                        </AssayInformation>
+                    </TCell>
+                </Assays>
+            </Epitope>
+            <Epitope>
+                <EpitopeName>LCMV GP276</EpitopeName>
+                <EpitopeStructure>
+                    <FragmentOfANaturalSequenceMolecule>
+                        <ChemicalType>Peptide from protein</ChemicalType>
+                        <LinearSequence>SGVENPGGYCL</LinearSequence>
+                        <StartingPosition>276</StartingPosition>
+                        <EndingPosition>286</EndingPosition>
+                        <SourceMolecule>
+                            <GenBankId>P09991.1</GenBankId>
+                        </SourceMolecule>
+                        <SourceOrganismId>11624</SourceOrganismId>
+                    </FragmentOfANaturalSequenceMolecule>
+                </EpitopeStructure>
+                <LocationOfData>Page 628</LocationOfData>
+                <EpitopeId>58282</EpitopeId>
+                <ReferenceStartingPosition>276</ReferenceStartingPosition>
+                <ReferenceEndingPosition>286</ReferenceEndingPosition>
+                <EpitopeEvidenceCode>Not determined</EpitopeEvidenceCode>
+                <EpitopeStructureDefines>Exact Epitope</EpitopeStructureDefines>
+                <Assays>
+                    <TCell>
+                        <LocationOfData>Figure 1</LocationOfData>
+                        <TCellId>18447</TCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>10000067</OrganismId>
+                                <Sex>M</Sex>
+                                <Age>2-18 mo</Age>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Administration in vivo</InVivoProcessType>
+                                <DiseaseState>DOID:934</DiseaseState>
+                                <DiseaseStage>Acute/Recent onset</DiseaseStage>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Taxonomic Sibling</EpitopeRelation>
+                                    <Object>
+                                        <Organism>
+                                            <SubType>Organism</SubType>
+                                            <SourceOrganismId>2169993</SourceOrganismId>
+                                        </Organism>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenReferenceName>Pichinde virus</ImmunogenReferenceName>
+                                <ImmunogenEvidenceCode>Not determined</ImmunogenEvidenceCode>
+                                <Route>Intraperitoneal (i.p.)</Route>
+                                <DoseSchedule>1 dose of 2x10&lt;sup&gt;7&lt;/sup&gt; PFU of PV</DoseSchedule>
+                            </FirstInVivoProcess>
+                            <ImmunizationComments>Splenocytes were harvested 7-9 days after infection (acute response).</ImmunizationComments>
+                        </Immunization>
+                        <EffectorCells>
+                            <CellTissueType>Spleen</CellTissueType>
+                            <CellType>T cell CD8+</CellType>
+                            <CellCultureConditions>Direct Ex Vivo</CellCultureConditions>
+                        </EffectorCells>
+                        <AntigenPresentingCells>
+                            <CellTissueType>Spleen</CellTissueType>
+                            <CellType>Splenocyte</CellType>
+                            <CellCultureConditions>Direct Ex Vivo</CellCultureConditions>
+                            <AutologousOrSyngeneic>Y</AutologousOrSyngeneic>
+                        </AntigenPresentingCells>
+                        <MhcAllele>
+                            <MhcAlleleId>172</MhcAlleleId>
+                            <MhcEvidenceCode>Not determined</MhcEvidenceCode>
+                        </MhcAllele>
+                        <Antigen>
+                            <AntigenReferenceName>LCMV GP276</AntigenReferenceName>
+                            <AntigenObject>
+                                <EpitopeRelation>Epitope</EpitopeRelation>
+                                <Object>
+                                    <FragmentOfANaturalSequenceMolecule>
+                                        <ChemicalType>Peptide from protein</ChemicalType>
+                                        <LinearSequence>SGVENPGGYCL</LinearSequence>
+                                        <StartingPosition>276</StartingPosition>
+                                        <EndingPosition>286</EndingPosition>
+                                        <SourceMolecule>
+                                            <GenBankId>P09991.1</GenBankId>
+                                        </SourceMolecule>
+                                        <SourceOrganismId>11624</SourceOrganismId>
+                                    </FragmentOfANaturalSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Exact match to reference information</AntigenEvidenceCode>
+                        </Antigen>
+                        <AssayInformation>
+                            <AssayTypeId>53</AssayTypeId>
+                            <QualitativeMeasurement>Negative</QualitativeMeasurement>
+                            <QuantitativeMeasurement>0.1</QuantitativeMeasurement>
+                            <AssayComments>The percentage of CD8+ cells producing IFNg in response to this immunodominant LCMV epitope is almost null in mice infected with heterologous Pichinde virus (PV), implying the lack of cross-reactivity in the response against source species correlates with a lack of cross-recognition of immunodominant epitopes.  Splenocytes were incubated with peptides in the presence of 10U/ml hrIL2 previous to staining and FACS analysis.</AssayComments>
+                        </AssayInformation>
+                    </TCell>
+                </Assays>
+                <Assays>
+                    <TCell>
+                        <LocationOfData>Figure 1</LocationOfData>
+                        <TCellId>18445</TCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>10000067</OrganismId>
+                                <Sex>M</Sex>
+                                <Age>2-18 mo</Age>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Administration in vivo</InVivoProcessType>
+                                <DiseaseState>DOID:12155</DiseaseState>
+                                <DiseaseStage>Acute/Recent onset</DiseaseStage>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Source Organism</EpitopeRelation>
+                                    <Object>
+                                        <Organism>
+                                            <SubType>Organism</SubType>
+                                            <SourceOrganismId>11624</SourceOrganismId>
+                                        </Organism>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenEvidenceCode>Not determined</ImmunogenEvidenceCode>
+                                <Route>Intraperitoneal (i.p.)</Route>
+                                <DoseSchedule>1 dose of 5x10&lt;sup&gt;4&lt;/sup&gt; PFU</DoseSchedule>
+                            </FirstInVivoProcess>
+                            <ImmunizationComments>Splenocytes were harvested 7-9 days after infection (acute response).</ImmunizationComments>
+                        </Immunization>
+                        <EffectorCells>
+                            <CellTissueType>Spleen</CellTissueType>
+                            <CellType>T cell CD8+</CellType>
+                            <CellCultureConditions>Direct Ex Vivo</CellCultureConditions>
+                        </EffectorCells>
+                        <AntigenPresentingCells>
+                            <CellTissueType>Spleen</CellTissueType>
+                            <CellType>Splenocyte</CellType>
+                            <CellCultureConditions>Direct Ex Vivo</CellCultureConditions>
+                            <AutologousOrSyngeneic>Y</AutologousOrSyngeneic>
+                        </AntigenPresentingCells>
+                        <MhcAllele>
+                            <MhcAlleleId>172</MhcAlleleId>
+                            <MhcEvidenceCode>Not determined</MhcEvidenceCode>
+                        </MhcAllele>
+                        <Antigen>
+                            <AntigenReferenceName>LCMV GP276</AntigenReferenceName>
+                            <AntigenObject>
+                                <EpitopeRelation>Epitope</EpitopeRelation>
+                                <Object>
+                                    <FragmentOfANaturalSequenceMolecule>
+                                        <ChemicalType>Peptide from protein</ChemicalType>
+                                        <LinearSequence>SGVENPGGYCL</LinearSequence>
+                                        <StartingPosition>276</StartingPosition>
+                                        <EndingPosition>286</EndingPosition>
+                                        <SourceMolecule>
+                                            <GenBankId>P09991.1</GenBankId>
+                                        </SourceMolecule>
+                                        <SourceOrganismId>11624</SourceOrganismId>
+                                    </FragmentOfANaturalSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Exact match to reference information</AntigenEvidenceCode>
+                        </Antigen>
+                        <AssayInformation>
+                            <AssayTypeId>53</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <QuantitativeMeasurement>6.2</QuantitativeMeasurement>
+                            <AssayComments>The percentage of CD8+ cells producing IFNg in response to this immunodominant epitope is high in acutely infected animals. This is paralleled by a strong cytotoxic response to source species infected cells.  Splenocytes were incubated with peptides in the presence of 10U/ml hrIL2 previous to staining and FACS analysis.</AssayComments>
+                        </AssayInformation>
+                    </TCell>
+                </Assays>
+                <Assays>
+                    <TCell>
+                        <LocationOfData>Figure 4</LocationOfData>
+                        <TCellId>18450</TCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>10000067</OrganismId>
+                                <Sex>M</Sex>
+                                <Age>2-18 mo</Age>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Administration in vivo</InVivoProcessType>
+                                <DiseaseState>DOID:12155</DiseaseState>
+                                <DiseaseStage>Acute/Recent onset</DiseaseStage>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Source Organism</EpitopeRelation>
+                                    <Object>
+                                        <Organism>
+                                            <SubType>Organism</SubType>
+                                            <SourceOrganismId>11624</SourceOrganismId>
+                                        </Organism>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenEvidenceCode>Not determined</ImmunogenEvidenceCode>
+                                <Route>Intraperitoneal (i.p.)</Route>
+                                <DoseSchedule>1 dose of 2x10&lt;sup&gt;7&lt;/sup&gt; pfu PV, and &gt;6wk later, 1 dose of 5x10&lt;sup&gt;4&lt;/sup&gt; pfu LCMV</DoseSchedule>
+                            </FirstInVivoProcess>
+                            <ImmunizationComments>Splenocytes were harvested either 7-9 days after LCMV infection (acute response) or &gt;6 wk after infection (memory response).PBMCs were recoleted 8 days after infection.</ImmunizationComments>
+                        </Immunization>
+                        <EffectorCells>
+                            <CellTissueType>Spleen</CellTissueType>
+                            <CellType>T cell CD8+</CellType>
+                            <CellCultureConditions>Direct Ex Vivo</CellCultureConditions>
+                        </EffectorCells>
+                        <AntigenPresentingCells>
+                            <CellTissueType>Spleen</CellTissueType>
+                            <CellType>Splenocyte</CellType>
+                            <CellCultureConditions>Direct Ex Vivo</CellCultureConditions>
+                            <AutologousOrSyngeneic>Y</AutologousOrSyngeneic>
+                        </AntigenPresentingCells>
+                        <MhcAllele>
+                            <MhcAlleleId>172</MhcAlleleId>
+                            <MhcEvidenceCode>Not determined</MhcEvidenceCode>
+                        </MhcAllele>
+                        <Antigen>
+                            <AntigenReferenceName>LCMV GP276</AntigenReferenceName>
+                            <AntigenObject>
+                                <EpitopeRelation>Epitope</EpitopeRelation>
+                                <Object>
+                                    <FragmentOfANaturalSequenceMolecule>
+                                        <ChemicalType>Peptide from protein</ChemicalType>
+                                        <LinearSequence>SGVENPGGYCL</LinearSequence>
+                                        <StartingPosition>276</StartingPosition>
+                                        <EndingPosition>286</EndingPosition>
+                                        <SourceMolecule>
+                                            <GenBankId>P09991.1</GenBankId>
+                                        </SourceMolecule>
+                                        <SourceOrganismId>11624</SourceOrganismId>
+                                    </FragmentOfANaturalSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Exact match to reference information</AntigenEvidenceCode>
+                        </Antigen>
+                        <AssayInformation>
+                            <AssayTypeId>53</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <QuantitativeMeasurement>3.9</QuantitativeMeasurement>
+                            <AssayComments>The percentage of CD8+ cells producing IFNg in response to this immunodominant epitope is reduced from 10-6% in acutely LCMV infected naïve mice animals to less than 4% in acutely LCMV infected Pichinde virus (PV) immune mice, while responses against a subdominant cross-reactive epitope are enhanced, implying that previous heterologous infections can alter immunodominance hierarchies during subsequent infections, suppressing the T cell response against non-cross-reactive epitopes. This effect persists in the memory population 6 weeks after LCMV infection (1.8 to &lt;1% reduction) and is also evident in the PBMC population.  Splenocytes were incubated with peptides in the presence of 10U/ml hrIL2 previous to staining and FACS analysis.</AssayComments>
+                        </AssayInformation>
+                    </TCell>
+                </Assays>
+            </Epitope>
+            <Epitope>
+                <EpitopeName>LCMV NP396</EpitopeName>
+                <EpitopeStructure>
+                    <FragmentOfANaturalSequenceMolecule>
+                        <ChemicalType>Peptide from protein</ChemicalType>
+                        <LinearSequence>FQPQNGQFI</LinearSequence>
+                        <StartingPosition>396</StartingPosition>
+                        <EndingPosition>404</EndingPosition>
+                        <SourceMolecule>
+                            <GenBankId>P09992.1</GenBankId>
+                        </SourceMolecule>
+                        <SourceOrganismId>11624</SourceOrganismId>
+                    </FragmentOfANaturalSequenceMolecule>
+                </EpitopeStructure>
+                <LocationOfData>Page 628</LocationOfData>
+                <EpitopeId>17516</EpitopeId>
+                <ReferenceStartingPosition>396</ReferenceStartingPosition>
+                <ReferenceEndingPosition>404</ReferenceEndingPosition>
+                <EpitopeEvidenceCode>Not determined</EpitopeEvidenceCode>
+                <EpitopeStructureDefines>Exact Epitope</EpitopeStructureDefines>
+                <Assays>
+                    <TCell>
+                        <LocationOfData>Figure 1</LocationOfData>
+                        <TCellId>18463</TCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>10000067</OrganismId>
+                                <Sex>M</Sex>
+                                <Age>2-18 mo</Age>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Administration in vivo</InVivoProcessType>
+                                <DiseaseState>DOID:12155</DiseaseState>
+                                <DiseaseStage>Acute/Recent onset</DiseaseStage>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Source Organism</EpitopeRelation>
+                                    <Object>
+                                        <Organism>
+                                            <SubType>Organism</SubType>
+                                            <SourceOrganismId>11624</SourceOrganismId>
+                                        </Organism>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenEvidenceCode>Not determined</ImmunogenEvidenceCode>
+                                <Route>Intraperitoneal (i.p.)</Route>
+                                <DoseSchedule>1 dose of 5x10&lt;sup&gt;4&lt;/sup&gt; PFU</DoseSchedule>
+                            </FirstInVivoProcess>
+                            <ImmunizationComments>Splenocytes were harvested either 7-9 days after infection (acute response) or &gt;6 wk after infection (memory response).</ImmunizationComments>
+                        </Immunization>
+                        <EffectorCells>
+                            <CellTissueType>Spleen</CellTissueType>
+                            <CellType>T cell CD8+</CellType>
+                            <CellCultureConditions>Direct Ex Vivo</CellCultureConditions>
+                        </EffectorCells>
+                        <AntigenPresentingCells>
+                            <CellTissueType>Spleen</CellTissueType>
+                            <CellType>Splenocyte</CellType>
+                            <CellCultureConditions>Direct Ex Vivo</CellCultureConditions>
+                            <AutologousOrSyngeneic>Y</AutologousOrSyngeneic>
+                        </AntigenPresentingCells>
+                        <MhcAllele>
+                            <MhcAlleleId>172</MhcAlleleId>
+                            <MhcEvidenceCode>Not determined</MhcEvidenceCode>
+                        </MhcAllele>
+                        <Antigen>
+                            <AntigenReferenceName>LCMV NP396</AntigenReferenceName>
+                            <AntigenObject>
+                                <EpitopeRelation>Epitope</EpitopeRelation>
+                                <Object>
+                                    <FragmentOfANaturalSequenceMolecule>
+                                        <ChemicalType>Peptide from protein</ChemicalType>
+                                        <LinearSequence>FQPQNGQFI</LinearSequence>
+                                        <StartingPosition>396</StartingPosition>
+                                        <EndingPosition>404</EndingPosition>
+                                        <SourceMolecule>
+                                            <GenBankId>P09992.1</GenBankId>
+                                        </SourceMolecule>
+                                        <SourceOrganismId>11624</SourceOrganismId>
+                                    </FragmentOfANaturalSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Exact match to reference information</AntigenEvidenceCode>
+                        </Antigen>
+                        <AssayInformation>
+                            <AssayTypeId>53</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <QuantitativeMeasurement>20.0</QuantitativeMeasurement>
+                            <AssayComments>The percentage of CD8+ cells producing IFNg in response to this immunodominant epitope is high in acutely LCMV infected animals, as is the memory population 6 weeks after infection (2.9%). This is paralleled by a strong cytotoxic response to source species infected cells.  Splenocytes were incubated with peptides in the presence of 10U/ml hrIL2 previous to staining and FACS analysis.</AssayComments>
+                        </AssayInformation>
+                    </TCell>
+                </Assays>
+                <Assays>
+                    <TCell>
+                        <LocationOfData>Figure 1</LocationOfData>
+                        <TCellId>18464</TCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>10000067</OrganismId>
+                                <Sex>M</Sex>
+                                <Age>2-18 mo</Age>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Administration in vivo</InVivoProcessType>
+                                <DiseaseState>DOID:934</DiseaseState>
+                                <DiseaseStage>Acute/Recent onset</DiseaseStage>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Taxonomic Sibling</EpitopeRelation>
+                                    <Object>
+                                        <Organism>
+                                            <SubType>Organism</SubType>
+                                            <SourceOrganismId>2169993</SourceOrganismId>
+                                        </Organism>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenReferenceName>Pichinde virus</ImmunogenReferenceName>
+                                <ImmunogenEvidenceCode>Not determined</ImmunogenEvidenceCode>
+                                <Route>Intraperitoneal (i.p.)</Route>
+                                <DoseSchedule>1 dose of 2x10&lt;sup&gt;7&lt;/sup&gt; PFU of PV</DoseSchedule>
+                            </FirstInVivoProcess>
+                            <ImmunizationComments>Splenocytes were harvested either 7-9 days after infection (acute response) or &gt;6 wk after infection (memory response).</ImmunizationComments>
+                        </Immunization>
+                        <EffectorCells>
+                            <CellTissueType>Spleen</CellTissueType>
+                            <CellType>T cell CD8+</CellType>
+                            <CellCultureConditions>Direct Ex Vivo</CellCultureConditions>
+                        </EffectorCells>
+                        <AntigenPresentingCells>
+                            <CellTissueType>Spleen</CellTissueType>
+                            <CellType>Splenocyte</CellType>
+                            <CellCultureConditions>Direct Ex Vivo</CellCultureConditions>
+                            <AutologousOrSyngeneic>Y</AutologousOrSyngeneic>
+                        </AntigenPresentingCells>
+                        <MhcAllele>
+                            <MhcAlleleId>172</MhcAlleleId>
+                            <MhcEvidenceCode>Not determined</MhcEvidenceCode>
+                        </MhcAllele>
+                        <Antigen>
+                            <AntigenReferenceName>LCMV NP396</AntigenReferenceName>
+                            <AntigenObject>
+                                <EpitopeRelation>Epitope</EpitopeRelation>
+                                <Object>
+                                    <FragmentOfANaturalSequenceMolecule>
+                                        <ChemicalType>Peptide from protein</ChemicalType>
+                                        <LinearSequence>FQPQNGQFI</LinearSequence>
+                                        <StartingPosition>396</StartingPosition>
+                                        <EndingPosition>404</EndingPosition>
+                                        <SourceMolecule>
+                                            <GenBankId>P09992.1</GenBankId>
+                                        </SourceMolecule>
+                                        <SourceOrganismId>11624</SourceOrganismId>
+                                    </FragmentOfANaturalSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Exact match to reference information</AntigenEvidenceCode>
+                        </Antigen>
+                        <AssayInformation>
+                            <AssayTypeId>53</AssayTypeId>
+                            <QualitativeMeasurement>Negative</QualitativeMeasurement>
+                            <QuantitativeMeasurement>0.1</QuantitativeMeasurement>
+                            <AssayComments>The percentage of CD8+ cells producing IFNg in response to this immunodominant epitope is almost null in mice infected with heterologous virus Pichinde virus (PV), as are memory responses 6 weeks after infection (&lt;0.05%).  Splenocytes were incubated with peptides in the presence of 10U/ml hrIL2 previous to staining and FACS analysis.</AssayComments>
+                        </AssayInformation>
+                    </TCell>
+                </Assays>
+                <Assays>
+                    <TCell>
+                        <LocationOfData>Figure 4</LocationOfData>
+                        <TCellId>18580</TCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>10000067</OrganismId>
+                                <Sex>M</Sex>
+                                <Age>2-18 mo</Age>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Administration in vivo</InVivoProcessType>
+                                <DiseaseState>DOID:12155</DiseaseState>
+                                <DiseaseStage>Acute/Recent onset</DiseaseStage>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Source Organism</EpitopeRelation>
+                                    <Object>
+                                        <Organism>
+                                            <SubType>Organism</SubType>
+                                            <SourceOrganismId>11624</SourceOrganismId>
+                                        </Organism>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenEvidenceCode>Not determined</ImmunogenEvidenceCode>
+                                <Route>Intraperitoneal (i.p.)</Route>
+                                <DoseSchedule>1 dose of 2x10&lt;sup&gt;7&lt;/sup&gt; pfu PV, and &gt;6wk later, 1 dose of 5x10&lt;sup&gt;4&lt;/sup&gt; pfu LCMV</DoseSchedule>
+                            </FirstInVivoProcess>
+                            <ImmunizationComments>Splenocytes were harvested either 4-9 days after LCMV infection (acute response) or &gt;6 wk after infection (memory response). PBMCs were recoleted 8 days after infection.</ImmunizationComments>
+                        </Immunization>
+                        <EffectorCells>
+                            <CellTissueType>Spleen</CellTissueType>
+                            <CellType>T cell CD8+</CellType>
+                            <CellCultureConditions>Direct Ex Vivo</CellCultureConditions>
+                        </EffectorCells>
+                        <AntigenPresentingCells>
+                            <CellTissueType>Spleen</CellTissueType>
+                            <CellType>Splenocyte</CellType>
+                            <CellCultureConditions>Direct Ex Vivo</CellCultureConditions>
+                            <AutologousOrSyngeneic>Y</AutologousOrSyngeneic>
+                        </AntigenPresentingCells>
+                        <MhcAllele>
+                            <MhcAlleleId>172</MhcAlleleId>
+                            <MhcEvidenceCode>Not determined</MhcEvidenceCode>
+                        </MhcAllele>
+                        <Antigen>
+                            <AntigenReferenceName>LCMV NP396</AntigenReferenceName>
+                            <AntigenObject>
+                                <EpitopeRelation>Epitope</EpitopeRelation>
+                                <Object>
+                                    <FragmentOfANaturalSequenceMolecule>
+                                        <ChemicalType>Peptide from protein</ChemicalType>
+                                        <LinearSequence>FQPQNGQFI</LinearSequence>
+                                        <StartingPosition>396</StartingPosition>
+                                        <EndingPosition>404</EndingPosition>
+                                        <SourceMolecule>
+                                            <GenBankId>P09992.1</GenBankId>
+                                        </SourceMolecule>
+                                        <SourceOrganismId>11624</SourceOrganismId>
+                                    </FragmentOfANaturalSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Exact match to reference information</AntigenEvidenceCode>
+                        </Antigen>
+                        <AssayInformation>
+                            <AssayTypeId>53</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <QuantitativeMeasurement>9.1</QuantitativeMeasurement>
+                            <AssayComments>The percentage of CD8+ cells producing IFNg in response to this immunodominant epitope is reduced from 21% in acutely LCMV infected naïve mice animals to 9.1% in acutely LCMV infected, Pichinde virus (PV) immune mice, while responses against a subdominant cross-reactive epitope are enhanced, implying that previous heterologous infections can alter immunodominance hierarchies during subsequent infections, suppressing the T cell response against non-cross-reactive epitopes. This is evident at day 6 post LCMV infection (suppl. data) and persists in the memory population 6 weeks after LCMV infection (3 to 1.8% reduction). This is also evident in the PBMCs and is not due to a lack of functional cells, as FACS analysis with MHC-peptides shows a similar reduction.  Splenocytes were incubated with peptides in the presence of 10U/ml hrIL2 previous to staining and FACS analysis.</AssayComments>
+                        </AssayInformation>
+                    </TCell>
+                </Assays>
+                <Assays>
+                    <TCell>
+                        <LocationOfData>Figure 2</LocationOfData>
+                        <TCellId>18579</TCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>10000067</OrganismId>
+                                <Sex>M</Sex>
+                                <Age>2-18 mo</Age>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Administration in vivo</InVivoProcessType>
+                                <DiseaseState>DOID:12155</DiseaseState>
+                                <DiseaseStage>Acute/Recent onset</DiseaseStage>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Source Organism</EpitopeRelation>
+                                    <Object>
+                                        <Organism>
+                                            <SubType>Organism</SubType>
+                                            <SourceOrganismId>11624</SourceOrganismId>
+                                        </Organism>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenEvidenceCode>Not determined</ImmunogenEvidenceCode>
+                                <Route>Intraperitoneal (i.p.)</Route>
+                                <DoseSchedule>1 dose of 5x10&lt;sup&gt;4&lt;/sup&gt; PFU</DoseSchedule>
+                            </FirstInVivoProcess>
+                            <ImmunizationComments>Splenocytes were harvested 7-9 days after infection (acute response).</ImmunizationComments>
+                        </Immunization>
+                        <EffectorCells>
+                            <CellTissueType>Spleen</CellTissueType>
+                            <CellType>T cell CD8+</CellType>
+                            <CellCultureConditions>Direct Ex Vivo</CellCultureConditions>
+                        </EffectorCells>
+                        <AntigenPresentingCells>
+                            <CellTissueType>Lymphoid</CellTissueType>
+                            <CellType>RMA-lymphocyte</CellType>
+                            <CellCultureConditions>Cell Line / Clone</CellCultureConditions>
+                            <AutologousOrSyngeneic>N</AutologousOrSyngeneic>
+                        </AntigenPresentingCells>
+                        <MhcAllele>
+                            <MhcAlleleId>172</MhcAlleleId>
+                            <MhcEvidenceCode>Not determined</MhcEvidenceCode>
+                        </MhcAllele>
+                        <Antigen>
+                            <AntigenReferenceName>LCMV NP396</AntigenReferenceName>
+                            <AntigenObject>
+                                <EpitopeRelation>Epitope</EpitopeRelation>
+                                <Object>
+                                    <FragmentOfANaturalSequenceMolecule>
+                                        <ChemicalType>Peptide from protein</ChemicalType>
+                                        <LinearSequence>FQPQNGQFI</LinearSequence>
+                                        <StartingPosition>396</StartingPosition>
+                                        <EndingPosition>404</EndingPosition>
+                                        <SourceMolecule>
+                                            <GenBankId>P09992.1</GenBankId>
+                                        </SourceMolecule>
+                                        <SourceOrganismId>11624</SourceOrganismId>
+                                    </FragmentOfANaturalSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Exact match to reference information</AntigenEvidenceCode>
+                        </Antigen>
+                        <AssayInformation>
+                            <AssayTypeId>67</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <AssayComments>CD8+ mediated cytotoxicity to this immunodominant epitope is stron in LCMV infected mice and almost null in mice infected with heterologous virus Pichinde virus (PV), implying the lack of cross-reactivity in the response against source species correlates with lack of cross-recognition of immunodominant epitopes.</AssayComments>
+                        </AssayInformation>
+                    </TCell>
+                </Assays>
+            </Epitope>
+            <Epitope>
+                <EpitopeName>LCMV NP205</EpitopeName>
+                <EpitopeStructure>
+                    <FragmentOfANaturalSequenceMolecule>
+                        <ChemicalType>Peptide from protein</ChemicalType>
+                        <LinearSequence>YTVKYPNL</LinearSequence>
+                        <StartingPosition>205</StartingPosition>
+                        <EndingPosition>212</EndingPosition>
+                        <SourceMolecule>
+                            <GenBankId>P09992.1</GenBankId>
+                        </SourceMolecule>
+                        <SourceOrganismId>11624</SourceOrganismId>
+                    </FragmentOfANaturalSequenceMolecule>
+                </EpitopeStructure>
+                <LocationOfData>Page 628</LocationOfData>
+                <EpitopeId>76205</EpitopeId>
+                <ReferenceStartingPosition>205</ReferenceStartingPosition>
+                <ReferenceEndingPosition>212</ReferenceEndingPosition>
+                <EpitopeEvidenceCode>Not determined</EpitopeEvidenceCode>
+                <EpitopeStructureDefines>Exact Epitope</EpitopeStructureDefines>
+                <Assays>
+                    <TCell>
+                        <LocationOfData>Figure 1</LocationOfData>
+                        <TCellId>18469</TCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>10000067</OrganismId>
+                                <Sex>M</Sex>
+                                <Age>2-18 mo</Age>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Administration in vivo</InVivoProcessType>
+                                <DiseaseState>DOID:12155</DiseaseState>
+                                <DiseaseStage>Acute/Recent onset</DiseaseStage>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Source Organism</EpitopeRelation>
+                                    <Object>
+                                        <Organism>
+                                            <SubType>Organism</SubType>
+                                            <SourceOrganismId>11624</SourceOrganismId>
+                                        </Organism>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenEvidenceCode>Not determined</ImmunogenEvidenceCode>
+                                <Route>Intraperitoneal (i.p.)</Route>
+                                <DoseSchedule>1 dose of 5x10&lt;sup&gt;4&lt;/sup&gt; PFU</DoseSchedule>
+                            </FirstInVivoProcess>
+                            <ImmunizationComments>Splenocytes were harvested either 7-9 days after infection (acute response) or &gt;6 wk after infection (memory response).</ImmunizationComments>
+                        </Immunization>
+                        <EffectorCells>
+                            <CellTissueType>Spleen</CellTissueType>
+                            <CellType>T cell CD8+</CellType>
+                            <CellCultureConditions>Direct Ex Vivo</CellCultureConditions>
+                        </EffectorCells>
+                        <AntigenPresentingCells>
+                            <CellTissueType>Spleen</CellTissueType>
+                            <CellType>Splenocyte</CellType>
+                            <CellCultureConditions>Direct Ex Vivo</CellCultureConditions>
+                            <AutologousOrSyngeneic>Y</AutologousOrSyngeneic>
+                        </AntigenPresentingCells>
+                        <MhcAllele>
+                            <MhcAlleleId>122</MhcAlleleId>
+                            <MhcEvidenceCode>Not determined</MhcEvidenceCode>
+                        </MhcAllele>
+                        <Antigen>
+                            <AntigenReferenceName>LCMV NP205</AntigenReferenceName>
+                            <AntigenObject>
+                                <EpitopeRelation>Epitope</EpitopeRelation>
+                                <Object>
+                                    <FragmentOfANaturalSequenceMolecule>
+                                        <ChemicalType>Peptide from protein</ChemicalType>
+                                        <LinearSequence>YTVKYPNL</LinearSequence>
+                                        <StartingPosition>205</StartingPosition>
+                                        <EndingPosition>212</EndingPosition>
+                                        <SourceMolecule>
+                                            <GenBankId>P09992.1</GenBankId>
+                                        </SourceMolecule>
+                                        <SourceOrganismId>11624</SourceOrganismId>
+                                    </FragmentOfANaturalSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Exact match to reference information</AntigenEvidenceCode>
+                        </Antigen>
+                        <AssayInformation>
+                            <AssayTypeId>53</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <QuantitativeMeasurement>3.6</QuantitativeMeasurement>
+                            <AssayComments>The percentage of CD8+ cells producing IFNg in response to this subdominant epitope is low in acutely LCMV infected animals, as is the memory population 6 weeks after infection (0.7%).  Splenocytes were incubated with peptides in the presence of 10U/ml hrIL2 previous to staining and FACS analysis.</AssayComments>
+                        </AssayInformation>
+                    </TCell>
+                </Assays>
+                <Assays>
+                    <TCell>
+                        <LocationOfData>Figure 4</LocationOfData>
+                        <TCellId>18519</TCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>10000067</OrganismId>
+                                <Sex>M</Sex>
+                                <Age>2-18 mo</Age>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Administration in vivo</InVivoProcessType>
+                                <DiseaseState>DOID:12155</DiseaseState>
+                                <DiseaseStage>Acute/Recent onset</DiseaseStage>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Source Organism</EpitopeRelation>
+                                    <Object>
+                                        <Organism>
+                                            <SubType>Organism</SubType>
+                                            <SourceOrganismId>11624</SourceOrganismId>
+                                        </Organism>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenEvidenceCode>Not determined</ImmunogenEvidenceCode>
+                                <Route>Intraperitoneal (i.p.)</Route>
+                                <DoseSchedule>1 dose of 2x10&lt;sup&gt;7&lt;/sup&gt; pfu PV, and &gt;6wk later, 1 dose of 5x10&lt;sup&gt;4&lt;/sup&gt; pfu LCMV</DoseSchedule>
+                            </FirstInVivoProcess>
+                            <ImmunizationComments>Splenocytes were harvested either 4-9 days after LCMV infection (acute response) or &gt;6 wk after infection (memory response). PBMCs were recoleted 8 days after infection.</ImmunizationComments>
+                        </Immunization>
+                        <EffectorCells>
+                            <CellTissueType>Spleen</CellTissueType>
+                            <CellType>T cell CD8+</CellType>
+                            <CellCultureConditions>Direct Ex Vivo</CellCultureConditions>
+                        </EffectorCells>
+                        <AntigenPresentingCells>
+                            <CellTissueType>Spleen</CellTissueType>
+                            <CellType>Splenocyte</CellType>
+                            <CellCultureConditions>Direct Ex Vivo</CellCultureConditions>
+                            <AutologousOrSyngeneic>Y</AutologousOrSyngeneic>
+                        </AntigenPresentingCells>
+                        <MhcAllele>
+                            <MhcAlleleId>122</MhcAlleleId>
+                            <MhcEvidenceCode>Not determined</MhcEvidenceCode>
+                        </MhcAllele>
+                        <Antigen>
+                            <AntigenReferenceName>LCMV NP205</AntigenReferenceName>
+                            <AntigenObject>
+                                <EpitopeRelation>Epitope</EpitopeRelation>
+                                <Object>
+                                    <FragmentOfANaturalSequenceMolecule>
+                                        <ChemicalType>Peptide from protein</ChemicalType>
+                                        <LinearSequence>YTVKYPNL</LinearSequence>
+                                        <StartingPosition>205</StartingPosition>
+                                        <EndingPosition>212</EndingPosition>
+                                        <SourceMolecule>
+                                            <GenBankId>P09992.1</GenBankId>
+                                        </SourceMolecule>
+                                        <SourceOrganismId>11624</SourceOrganismId>
+                                    </FragmentOfANaturalSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Exact match to reference information</AntigenEvidenceCode>
+                        </Antigen>
+                        <AssayInformation>
+                            <AssayTypeId>53</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <QuantitativeMeasurement>30.0</QuantitativeMeasurement>
+                            <AssayComments>The percentage of CD8+ cells producing IFNg in response to this subdominant epitope is augmented from 3.6-3.8% in acutely LCMV infected naïve mice animals to 30% in acutely LCMV infected Pichinde virus (PV) immune mice, while responses against a immunodominant non-cross-reactive epitopes are diminished, implying that previous heterologous (but not homologous, suppl. data) infections can alter immunodominance hierarchies during subsequent infections, enhancing the T cell response against cross-reactive epitopes. This is also evident in the PBMC population and in FACS analysis with MHC-peptide staining. This enhancement can be detected at day 5 post LCMV infection (suppl. data) and persists in the memory population 6 weeks after LCMV infection (0.5 to 4% increase) and is also detected with the inverse schedule, in LCMV immune mice after acute infection with PV, demonstrating a true cross-reactivity mediated phenomena.  Splenocytes were incubated with peptides in the presence of 10U/ml hrIL2 previous to staining and FACS analysis.</AssayComments>
+                        </AssayInformation>
+                    </TCell>
+                </Assays>
+                <Assays>
+                    <TCell>
+                        <LocationOfData>Figure 2</LocationOfData>
+                        <TCellId>18518</TCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>10000067</OrganismId>
+                                <Sex>M</Sex>
+                                <Age>2-18 mo</Age>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Administration in vivo</InVivoProcessType>
+                                <DiseaseState>DOID:12155</DiseaseState>
+                                <DiseaseStage>Acute/Recent onset</DiseaseStage>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Source Organism</EpitopeRelation>
+                                    <Object>
+                                        <Organism>
+                                            <SubType>Organism</SubType>
+                                            <SourceOrganismId>11624</SourceOrganismId>
+                                        </Organism>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenEvidenceCode>Not determined</ImmunogenEvidenceCode>
+                                <Route>Intraperitoneal (i.p.)</Route>
+                                <DoseSchedule>1 dose of 5x10&lt;sup&gt;4&lt;/sup&gt; PFU</DoseSchedule>
+                            </FirstInVivoProcess>
+                            <ImmunizationComments>Splenocytes were harvested 7-9 days after infection (acute response).</ImmunizationComments>
+                        </Immunization>
+                        <EffectorCells>
+                            <CellTissueType>Spleen</CellTissueType>
+                            <CellType>T cell CD8+</CellType>
+                            <CellCultureConditions>Direct Ex Vivo</CellCultureConditions>
+                        </EffectorCells>
+                        <AntigenPresentingCells>
+                            <CellTissueType>Lymphoid</CellTissueType>
+                            <CellType>RMA-lymphocyte</CellType>
+                            <CellCultureConditions>Cell Line / Clone</CellCultureConditions>
+                            <AutologousOrSyngeneic>N</AutologousOrSyngeneic>
+                        </AntigenPresentingCells>
+                        <MhcAllele>
+                            <MhcAlleleId>122</MhcAlleleId>
+                            <MhcEvidenceCode>Not determined</MhcEvidenceCode>
+                        </MhcAllele>
+                        <Antigen>
+                            <AntigenReferenceName>LCMV NP205</AntigenReferenceName>
+                            <AntigenObject>
+                                <EpitopeRelation>Epitope</EpitopeRelation>
+                                <Object>
+                                    <FragmentOfANaturalSequenceMolecule>
+                                        <ChemicalType>Peptide from protein</ChemicalType>
+                                        <LinearSequence>YTVKYPNL</LinearSequence>
+                                        <StartingPosition>205</StartingPosition>
+                                        <EndingPosition>212</EndingPosition>
+                                        <SourceMolecule>
+                                            <GenBankId>P09992.1</GenBankId>
+                                        </SourceMolecule>
+                                        <SourceOrganismId>11624</SourceOrganismId>
+                                    </FragmentOfANaturalSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Exact match to reference information</AntigenEvidenceCode>
+                        </Antigen>
+                        <AssayInformation>
+                            <AssayTypeId>67</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <AssayComments>Peptide loaded cells are similarly lysed by cells from acutely LCMV or heterologous Pichinde virus (PV) infected mice, implying a cross-reactive response, proven to be mediated by the homologous cross-reactive epitope NP205 from PV (YTVKFPNM). No cross-recognition by splenocytes from acutely LCMV infected mice is seen in cytotoxicity assays to PV infected cells, suggesting that this cross-reactive subdominant epitope does not influence a strong cross reactive response to the whole virus.</AssayComments>
+                        </AssayInformation>
+                    </TCell>
+                </Assays>
+                <Assays>
+                    <TCell>
+                        <LocationOfData>Figure 1</LocationOfData>
+                        <TCellId>18470</TCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>10000067</OrganismId>
+                                <Sex>M</Sex>
+                                <Age>2-18 mo</Age>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Administration in vivo</InVivoProcessType>
+                                <DiseaseState>DOID:934</DiseaseState>
+                                <DiseaseStage>Acute/Recent onset</DiseaseStage>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Taxonomic Sibling</EpitopeRelation>
+                                    <Object>
+                                        <Organism>
+                                            <SubType>Organism</SubType>
+                                            <SourceOrganismId>2169993</SourceOrganismId>
+                                        </Organism>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenReferenceName>Pichinde virus</ImmunogenReferenceName>
+                                <ImmunogenEvidenceCode>Not determined</ImmunogenEvidenceCode>
+                                <Route>Intraperitoneal (i.p.)</Route>
+                                <DoseSchedule>1 dose of 2x10&lt;sup&gt;7&lt;/sup&gt; PFU of PV</DoseSchedule>
+                            </FirstInVivoProcess>
+                            <ImmunizationComments>Splenocytes were harvested either 7-9 days after infection (acute response) or &gt;6 wk after infection (memory response).</ImmunizationComments>
+                        </Immunization>
+                        <EffectorCells>
+                            <CellTissueType>Spleen</CellTissueType>
+                            <CellType>T cell CD8+</CellType>
+                            <CellCultureConditions>Direct Ex Vivo</CellCultureConditions>
+                        </EffectorCells>
+                        <AntigenPresentingCells>
+                            <CellTissueType>Spleen</CellTissueType>
+                            <CellType>Splenocyte</CellType>
+                            <CellCultureConditions>Direct Ex Vivo</CellCultureConditions>
+                            <AutologousOrSyngeneic>Y</AutologousOrSyngeneic>
+                        </AntigenPresentingCells>
+                        <MhcAllele>
+                            <MhcAlleleId>122</MhcAlleleId>
+                            <MhcEvidenceCode>Not determined</MhcEvidenceCode>
+                        </MhcAllele>
+                        <Antigen>
+                            <AntigenReferenceName>LCMV NP205</AntigenReferenceName>
+                            <AntigenObject>
+                                <EpitopeRelation>Epitope</EpitopeRelation>
+                                <Object>
+                                    <FragmentOfANaturalSequenceMolecule>
+                                        <ChemicalType>Peptide from protein</ChemicalType>
+                                        <LinearSequence>YTVKYPNL</LinearSequence>
+                                        <StartingPosition>205</StartingPosition>
+                                        <EndingPosition>212</EndingPosition>
+                                        <SourceMolecule>
+                                            <GenBankId>P09992.1</GenBankId>
+                                        </SourceMolecule>
+                                        <SourceOrganismId>11624</SourceOrganismId>
+                                    </FragmentOfANaturalSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Exact match to reference information</AntigenEvidenceCode>
+                        </Antigen>
+                        <AssayInformation>
+                            <AssayTypeId>53</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <QuantitativeMeasurement>0.5</QuantitativeMeasurement>
+                            <AssayComments>The percentage of CD8+ cells producing IFNg in response to this subdominant LCMV epitope is low but significant in mice infected with heterologous Pichinde virus (PV), either acutely or 6 weeks after infection (0.1%) implying a cross-reactive response, proven to be mediated by the homologous cross-reactive epitope NP205 from PV (YTVKFPNM).  Splenocytes were incubated with peptides in the presence of 10U/ml hrIL2 previous to staining and FACS analysis.</AssayComments>
+                        </AssayInformation>
+                    </TCell>
+                </Assays>
+            </Epitope>
+            <Epitope>
+                <EpitopeName>PV NP38</EpitopeName>
+                <EpitopeStructure>
+                    <FragmentOfANaturalSequenceMolecule>
+                        <ChemicalType>Peptide from protein</ChemicalType>
+                        <LinearSequence>SALDFHKV</LinearSequence>
+                        <StartingPosition>38</StartingPosition>
+                        <EndingPosition>45</EndingPosition>
+                        <SourceMolecule>
+                            <GenBankId>P03541.1</GenBankId>
+                        </SourceMolecule>
+                        <SourceOrganismId>2169993</SourceOrganismId>
+                    </FragmentOfANaturalSequenceMolecule>
+                </EpitopeStructure>
+                <LocationOfData>Page 628</LocationOfData>
+                <EpitopeId>56850</EpitopeId>
+                <ReferenceStartingPosition>38</ReferenceStartingPosition>
+                <ReferenceEndingPosition>45</ReferenceEndingPosition>
+                <EpitopeEvidenceCode>Not determined</EpitopeEvidenceCode>
+                <EpitopeStructureDefines>Exact Epitope</EpitopeStructureDefines>
+                <Assays>
+                    <TCell>
+                        <LocationOfData>Figure 1</LocationOfData>
+                        <TCellId>18533</TCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>10000067</OrganismId>
+                                <Sex>M</Sex>
+                                <Age>2-18 mo</Age>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Administration in vivo</InVivoProcessType>
+                                <DiseaseState>DOID:934</DiseaseState>
+                                <DiseaseStage>Acute/Recent onset</DiseaseStage>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Source Organism</EpitopeRelation>
+                                    <Object>
+                                        <Organism>
+                                            <SubType>Organism</SubType>
+                                            <SourceOrganismId>2169993</SourceOrganismId>
+                                        </Organism>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenEvidenceCode>Not determined</ImmunogenEvidenceCode>
+                                <Route>Intraperitoneal (i.p.)</Route>
+                                <DoseSchedule>1 dose of 2x10&lt;sup&gt;7&lt;/sup&gt; PFU</DoseSchedule>
+                            </FirstInVivoProcess>
+                            <ImmunizationComments>Splenocytes were harvested either 7-9 days after infection (acute response) or &gt;6 wk after infection (memory response).</ImmunizationComments>
+                        </Immunization>
+                        <EffectorCells>
+                            <CellTissueType>Spleen</CellTissueType>
+                            <CellType>T cell CD8+</CellType>
+                            <CellCultureConditions>Direct Ex Vivo</CellCultureConditions>
+                        </EffectorCells>
+                        <AntigenPresentingCells>
+                            <CellTissueType>Spleen</CellTissueType>
+                            <CellType>Splenocyte</CellType>
+                            <CellCultureConditions>Direct Ex Vivo</CellCultureConditions>
+                            <AutologousOrSyngeneic>Y</AutologousOrSyngeneic>
+                        </AntigenPresentingCells>
+                        <MhcAllele>
+                            <MhcAlleleId>122</MhcAlleleId>
+                            <MhcEvidenceCode>Not determined</MhcEvidenceCode>
+                        </MhcAllele>
+                        <Antigen>
+                            <AntigenReferenceName>PV NP38</AntigenReferenceName>
+                            <AntigenObject>
+                                <EpitopeRelation>Epitope</EpitopeRelation>
+                                <Object>
+                                    <FragmentOfANaturalSequenceMolecule>
+                                        <ChemicalType>Peptide from protein</ChemicalType>
+                                        <LinearSequence>SALDFHKV</LinearSequence>
+                                        <StartingPosition>38</StartingPosition>
+                                        <EndingPosition>45</EndingPosition>
+                                        <SourceMolecule>
+                                            <GenBankId>P03541.1</GenBankId>
+                                        </SourceMolecule>
+                                        <SourceOrganismId>2169993</SourceOrganismId>
+                                    </FragmentOfANaturalSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Exact match to reference information</AntigenEvidenceCode>
+                        </Antigen>
+                        <AssayInformation>
+                            <AssayTypeId>53</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <QuantitativeMeasurement>28.0</QuantitativeMeasurement>
+                            <AssayComments>The percentage of CD8+ cells producing IFNg in response to this immunodominant epitope is high in acutely Pichinde virus (PV) infected animals, as is the memory population 6 weeks after infection (3.4%). This is paralleled by a strong cytotoxic response to source species infected cells.  Splenocytes were incubated with peptides in the presence of 10U/ml hrIL2 previous to staining and FACS analysis.</AssayComments>
+                        </AssayInformation>
+                    </TCell>
+                </Assays>
+                <Assays>
+                    <TCell>
+                        <LocationOfData>Figure 6</LocationOfData>
+                        <TCellId>18552</TCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>10000067</OrganismId>
+                                <Sex>M</Sex>
+                                <Age>2-18 mo</Age>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Administration in vivo</InVivoProcessType>
+                                <DiseaseState>DOID:934</DiseaseState>
+                                <DiseaseStage>Acute/Recent onset</DiseaseStage>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Source Organism</EpitopeRelation>
+                                    <Object>
+                                        <Organism>
+                                            <SubType>Organism</SubType>
+                                            <SourceOrganismId>2169993</SourceOrganismId>
+                                        </Organism>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenEvidenceCode>Not determined</ImmunogenEvidenceCode>
+                                <Route>Intraperitoneal (i.p.)</Route>
+                                <DoseSchedule>1 dose of 5x10&lt;sup&gt;4&lt;/sup&gt; pfu LCMV, and &gt;6wk later, 1 dose of 2x10&lt;sup&gt;7&lt;/sup&gt; pfu PV</DoseSchedule>
+                            </FirstInVivoProcess>
+                            <ImmunizationComments>Splenocytes were harvested either 4-9 days after PV infection (acute response) or &gt;6 wk after infection (memory response).</ImmunizationComments>
+                        </Immunization>
+                        <EffectorCells>
+                            <CellTissueType>Spleen</CellTissueType>
+                            <CellType>T cell CD8+</CellType>
+                            <CellCultureConditions>Direct Ex Vivo</CellCultureConditions>
+                        </EffectorCells>
+                        <AntigenPresentingCells>
+                            <CellTissueType>Spleen</CellTissueType>
+                            <CellType>Splenocyte</CellType>
+                            <CellCultureConditions>Direct Ex Vivo</CellCultureConditions>
+                            <AutologousOrSyngeneic>Y</AutologousOrSyngeneic>
+                        </AntigenPresentingCells>
+                        <MhcAllele>
+                            <MhcAlleleId>122</MhcAlleleId>
+                            <MhcEvidenceCode>Not determined</MhcEvidenceCode>
+                        </MhcAllele>
+                        <Antigen>
+                            <AntigenReferenceName>PV NP38</AntigenReferenceName>
+                            <AntigenObject>
+                                <EpitopeRelation>Epitope</EpitopeRelation>
+                                <Object>
+                                    <FragmentOfANaturalSequenceMolecule>
+                                        <ChemicalType>Peptide from protein</ChemicalType>
+                                        <LinearSequence>SALDFHKV</LinearSequence>
+                                        <StartingPosition>38</StartingPosition>
+                                        <EndingPosition>45</EndingPosition>
+                                        <SourceMolecule>
+                                            <GenBankId>P03541.1</GenBankId>
+                                        </SourceMolecule>
+                                        <SourceOrganismId>2169993</SourceOrganismId>
+                                    </FragmentOfANaturalSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Exact match to reference information</AntigenEvidenceCode>
+                        </Antigen>
+                        <AssayInformation>
+                            <AssayTypeId>53</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <QuantitativeMeasurement>4.4</QuantitativeMeasurement>
+                            <AssayComments>The percentage of CD8+ cells producing IFNg in response to this immunodominant epitope is reduced from 28% in acutely Pichinde virus (PV) infected naïve mice animals to 4.4% in acutely Pichinde virus (PV) infected, LCMV immune mice, while responses against a subdominant cross-reactive epitope are enhanced, implying that previous heterologous infections can alter immunodominance hierarchies during subsequent infections, suppressing the T cell response against non-cross-reactive epitopes.  Splenocytes were incubated with peptides in the presence of 10U/ml hrIL2 previous to staining and FACS analysis.</AssayComments>
+                        </AssayInformation>
+                    </TCell>
+                </Assays>
+                <Assays>
+                    <TCell>
+                        <LocationOfData>Figure 1</LocationOfData>
+                        <TCellId>18534</TCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>10000067</OrganismId>
+                                <Sex>M</Sex>
+                                <Age>2-18 mo</Age>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Administration in vivo</InVivoProcessType>
+                                <DiseaseState>DOID:12155</DiseaseState>
+                                <DiseaseStage>Acute/Recent onset</DiseaseStage>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Taxonomic Sibling</EpitopeRelation>
+                                    <Object>
+                                        <Organism>
+                                            <SubType>Organism</SubType>
+                                            <SourceOrganismId>11624</SourceOrganismId>
+                                        </Organism>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenReferenceName>LCMV</ImmunogenReferenceName>
+                                <ImmunogenEvidenceCode>Not determined</ImmunogenEvidenceCode>
+                                <Route>Intraperitoneal (i.p.)</Route>
+                                <DoseSchedule>1 dose of 5x10&lt;sup&gt;4&lt;/sup&gt; PFU of LCMV</DoseSchedule>
+                            </FirstInVivoProcess>
+                            <ImmunizationComments>Splenocytes were harvested either 7-9 days after infection (acute response) or &gt;6 wk after infection (memory response).</ImmunizationComments>
+                        </Immunization>
+                        <EffectorCells>
+                            <CellTissueType>Spleen</CellTissueType>
+                            <CellType>T cell CD8+</CellType>
+                            <CellCultureConditions>Direct Ex Vivo</CellCultureConditions>
+                        </EffectorCells>
+                        <AntigenPresentingCells>
+                            <CellTissueType>Spleen</CellTissueType>
+                            <CellType>Splenocyte</CellType>
+                            <CellCultureConditions>Direct Ex Vivo</CellCultureConditions>
+                            <AutologousOrSyngeneic>Y</AutologousOrSyngeneic>
+                        </AntigenPresentingCells>
+                        <MhcAllele>
+                            <MhcAlleleId>122</MhcAlleleId>
+                            <MhcEvidenceCode>Not determined</MhcEvidenceCode>
+                        </MhcAllele>
+                        <Antigen>
+                            <AntigenReferenceName>PV NP38</AntigenReferenceName>
+                            <AntigenObject>
+                                <EpitopeRelation>Epitope</EpitopeRelation>
+                                <Object>
+                                    <FragmentOfANaturalSequenceMolecule>
+                                        <ChemicalType>Peptide from protein</ChemicalType>
+                                        <LinearSequence>SALDFHKV</LinearSequence>
+                                        <StartingPosition>38</StartingPosition>
+                                        <EndingPosition>45</EndingPosition>
+                                        <SourceMolecule>
+                                            <GenBankId>P03541.1</GenBankId>
+                                        </SourceMolecule>
+                                        <SourceOrganismId>2169993</SourceOrganismId>
+                                    </FragmentOfANaturalSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Exact match to reference information</AntigenEvidenceCode>
+                        </Antigen>
+                        <AssayInformation>
+                            <AssayTypeId>53</AssayTypeId>
+                            <QualitativeMeasurement>Negative</QualitativeMeasurement>
+                            <QuantitativeMeasurement>0.2</QuantitativeMeasurement>
+                            <AssayComments>The percentage of CD8+ cells producing IFNg in response to this immunodominant Pichinde virus (PV) epitope is almost null in mice infected with heterologous virus LCMV, either acutely or 6 weeks after infection (0.06%) implying the lack of cross-reactivity in the response against source species correlates with a lack of cross-recognition of the immunodominant epitopes.  Splenocytes were incubated with peptides in the presence of 10U/ml hrIL2 previous to staining and FACS analysis.</AssayComments>
+                        </AssayInformation>
+                    </TCell>
+                </Assays>
+            </Epitope>
+            <Epitope>
+                <EpitopeName>PV NP16</EpitopeName>
+                <EpitopeStructure>
+                    <FragmentOfANaturalSequenceMolecule>
+                        <ChemicalType>Peptide from protein</ChemicalType>
+                        <LinearSequence>RGLSNWTHPV</LinearSequence>
+                        <StartingPosition>16</StartingPosition>
+                        <EndingPosition>25</EndingPosition>
+                        <SourceMolecule>
+                            <GenBankId>P03541.1</GenBankId>
+                        </SourceMolecule>
+                        <SourceOrganismId>2169993</SourceOrganismId>
+                    </FragmentOfANaturalSequenceMolecule>
+                </EpitopeStructure>
+                <LocationOfData>Page 628</LocationOfData>
+                <EpitopeId>53919</EpitopeId>
+                <ReferenceStartingPosition>16</ReferenceStartingPosition>
+                <ReferenceEndingPosition>25</ReferenceEndingPosition>
+                <EpitopeEvidenceCode>Not determined</EpitopeEvidenceCode>
+                <EpitopeStructureDefines>Exact Epitope</EpitopeStructureDefines>
+                <Assays>
+                    <TCell>
+                        <LocationOfData>Figure 6</LocationOfData>
+                        <TCellId>18571</TCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>10000067</OrganismId>
+                                <Sex>M</Sex>
+                                <Age>2-18 mo</Age>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Administration in vivo</InVivoProcessType>
+                                <DiseaseState>DOID:934</DiseaseState>
+                                <DiseaseStage>Acute/Recent onset</DiseaseStage>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Source Organism</EpitopeRelation>
+                                    <Object>
+                                        <Organism>
+                                            <SubType>Organism</SubType>
+                                            <SourceOrganismId>2169993</SourceOrganismId>
+                                        </Organism>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenEvidenceCode>Not determined</ImmunogenEvidenceCode>
+                                <Route>Intraperitoneal (i.p.)</Route>
+                                <DoseSchedule>1 dose of 5x10&lt;sup&gt;4&lt;/sup&gt; pfu LCMV, and &gt;6wk later, 1 dose of 2x10&lt;sup&gt;7&lt;/sup&gt; pfu PV</DoseSchedule>
+                            </FirstInVivoProcess>
+                            <ImmunizationComments>Splenocytes were harvested either 4-9 days after PV infection (acute response) or &gt;6 wk after infection (memory response).</ImmunizationComments>
+                        </Immunization>
+                        <EffectorCells>
+                            <CellTissueType>Spleen</CellTissueType>
+                            <CellType>T cell CD8+</CellType>
+                            <CellCultureConditions>Direct Ex Vivo</CellCultureConditions>
+                        </EffectorCells>
+                        <AntigenPresentingCells>
+                            <CellTissueType>Spleen</CellTissueType>
+                            <CellType>Splenocyte</CellType>
+                            <CellCultureConditions>Direct Ex Vivo</CellCultureConditions>
+                            <AutologousOrSyngeneic>Y</AutologousOrSyngeneic>
+                        </AntigenPresentingCells>
+                        <MhcAllele>
+                            <MhcAlleleId>172</MhcAlleleId>
+                            <MhcEvidenceCode>Not determined</MhcEvidenceCode>
+                        </MhcAllele>
+                        <Antigen>
+                            <AntigenReferenceName>PV NP16</AntigenReferenceName>
+                            <AntigenObject>
+                                <EpitopeRelation>Epitope</EpitopeRelation>
+                                <Object>
+                                    <FragmentOfANaturalSequenceMolecule>
+                                        <ChemicalType>Peptide from protein</ChemicalType>
+                                        <LinearSequence>RGLSNWTHPV</LinearSequence>
+                                        <StartingPosition>16</StartingPosition>
+                                        <EndingPosition>25</EndingPosition>
+                                        <SourceMolecule>
+                                            <GenBankId>P03541.1</GenBankId>
+                                        </SourceMolecule>
+                                        <SourceOrganismId>2169993</SourceOrganismId>
+                                    </FragmentOfANaturalSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Exact match to reference information</AntigenEvidenceCode>
+                        </Antigen>
+                        <AssayInformation>
+                            <AssayTypeId>53</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <QuantitativeMeasurement>4.7</QuantitativeMeasurement>
+                            <AssayComments>The percentage of CD8+ cells producing IFNg in response to this immunodominant epitope is reduced from 11-20% in acutely Pichinde virus (PV) infected naïve mice animals to 2.9-4.7% in acutely (PV) infected, LCMV immune mice, while responses against a subdominant cross-reactive epitope are enhanced, implying that previous heterologous infections can alter immunodominance hierarchies during subsequent infections, suppressing the T cell response against non-cross-reactive epitopes.  Splenocytes were incubated with peptides in the presence of 10U/ml hrIL2 previous to staining and FACS analysis.</AssayComments>
+                        </AssayInformation>
+                    </TCell>
+                </Assays>
+                <Assays>
+                    <TCell>
+                        <LocationOfData>Figure 1</LocationOfData>
+                        <TCellId>18569</TCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>10000067</OrganismId>
+                                <Sex>M</Sex>
+                                <Age>2-18 mo</Age>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Administration in vivo</InVivoProcessType>
+                                <DiseaseState>DOID:934</DiseaseState>
+                                <DiseaseStage>Acute/Recent onset</DiseaseStage>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Source Organism</EpitopeRelation>
+                                    <Object>
+                                        <Organism>
+                                            <SubType>Organism</SubType>
+                                            <SourceOrganismId>2169993</SourceOrganismId>
+                                        </Organism>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenEvidenceCode>Not determined</ImmunogenEvidenceCode>
+                                <Route>Intraperitoneal (i.p.)</Route>
+                                <DoseSchedule>1 dose of 2x10&lt;sup&gt;7&lt;/sup&gt; PFU</DoseSchedule>
+                            </FirstInVivoProcess>
+                            <ImmunizationComments>Splenocytes were harvested either 7-9 days after infection (acute response) or &gt;6 wk after infection (memory response).</ImmunizationComments>
+                        </Immunization>
+                        <EffectorCells>
+                            <CellTissueType>Spleen</CellTissueType>
+                            <CellType>T cell CD8+</CellType>
+                            <CellCultureConditions>Direct Ex Vivo</CellCultureConditions>
+                        </EffectorCells>
+                        <AntigenPresentingCells>
+                            <CellTissueType>Spleen</CellTissueType>
+                            <CellType>Splenocyte</CellType>
+                            <CellCultureConditions>Direct Ex Vivo</CellCultureConditions>
+                            <AutologousOrSyngeneic>Y</AutologousOrSyngeneic>
+                        </AntigenPresentingCells>
+                        <MhcAllele>
+                            <MhcAlleleId>172</MhcAlleleId>
+                            <MhcEvidenceCode>Not determined</MhcEvidenceCode>
+                        </MhcAllele>
+                        <Antigen>
+                            <AntigenReferenceName>PV NP16</AntigenReferenceName>
+                            <AntigenObject>
+                                <EpitopeRelation>Epitope</EpitopeRelation>
+                                <Object>
+                                    <FragmentOfANaturalSequenceMolecule>
+                                        <ChemicalType>Peptide from protein</ChemicalType>
+                                        <LinearSequence>RGLSNWTHPV</LinearSequence>
+                                        <StartingPosition>16</StartingPosition>
+                                        <EndingPosition>25</EndingPosition>
+                                        <SourceMolecule>
+                                            <GenBankId>P03541.1</GenBankId>
+                                        </SourceMolecule>
+                                        <SourceOrganismId>2169993</SourceOrganismId>
+                                    </FragmentOfANaturalSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Exact match to reference information</AntigenEvidenceCode>
+                        </Antigen>
+                        <AssayInformation>
+                            <AssayTypeId>53</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <QuantitativeMeasurement>11.0</QuantitativeMeasurement>
+                            <AssayComments>The percentage of CD8+ cells producing IFNg in response to this immunodominant epitope is high in acutely Pichinde virus (PV) infected animals, as is the memory population 6 weeks after infection (1.9%). This is paralleled by a strong cytotoxic response to source species infected cells.  Splenocytes were incubated with peptides in the presence of 10U/ml hrIL2 previous to staining and FACS analysis.</AssayComments>
+                        </AssayInformation>
+                    </TCell>
+                </Assays>
+                <Assays>
+                    <TCell>
+                        <LocationOfData>Figure 1</LocationOfData>
+                        <TCellId>18570</TCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>10000067</OrganismId>
+                                <Sex>M</Sex>
+                                <Age>2-18 mo</Age>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Administration in vivo</InVivoProcessType>
+                                <DiseaseState>DOID:12155</DiseaseState>
+                                <DiseaseStage>Acute/Recent onset</DiseaseStage>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Taxonomic Sibling</EpitopeRelation>
+                                    <Object>
+                                        <Organism>
+                                            <SubType>Organism</SubType>
+                                            <SourceOrganismId>11624</SourceOrganismId>
+                                        </Organism>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenReferenceName>LCMV</ImmunogenReferenceName>
+                                <ImmunogenEvidenceCode>Not determined</ImmunogenEvidenceCode>
+                                <Route>Intraperitoneal (i.p.)</Route>
+                                <DoseSchedule>1 dose of 5x10&lt;sup&gt;4&lt;/sup&gt; PFU of LCMV</DoseSchedule>
+                            </FirstInVivoProcess>
+                            <ImmunizationComments>Splenocytes were harvested either 7-9 days after infection (acute response) or &gt;6 wk after infection (memory response).</ImmunizationComments>
+                        </Immunization>
+                        <EffectorCells>
+                            <CellTissueType>Spleen</CellTissueType>
+                            <CellType>T cell CD8+</CellType>
+                            <CellCultureConditions>Direct Ex Vivo</CellCultureConditions>
+                        </EffectorCells>
+                        <AntigenPresentingCells>
+                            <CellTissueType>Spleen</CellTissueType>
+                            <CellType>Splenocyte</CellType>
+                            <CellCultureConditions>Direct Ex Vivo</CellCultureConditions>
+                            <AutologousOrSyngeneic>Y</AutologousOrSyngeneic>
+                        </AntigenPresentingCells>
+                        <MhcAllele>
+                            <MhcAlleleId>172</MhcAlleleId>
+                            <MhcEvidenceCode>Not determined</MhcEvidenceCode>
+                        </MhcAllele>
+                        <Antigen>
+                            <AntigenReferenceName>PV NP16</AntigenReferenceName>
+                            <AntigenObject>
+                                <EpitopeRelation>Epitope</EpitopeRelation>
+                                <Object>
+                                    <FragmentOfANaturalSequenceMolecule>
+                                        <ChemicalType>Peptide from protein</ChemicalType>
+                                        <LinearSequence>RGLSNWTHPV</LinearSequence>
+                                        <StartingPosition>16</StartingPosition>
+                                        <EndingPosition>25</EndingPosition>
+                                        <SourceMolecule>
+                                            <GenBankId>P03541.1</GenBankId>
+                                        </SourceMolecule>
+                                        <SourceOrganismId>2169993</SourceOrganismId>
+                                    </FragmentOfANaturalSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Exact match to reference information</AntigenEvidenceCode>
+                        </Antigen>
+                        <AssayInformation>
+                            <AssayTypeId>53</AssayTypeId>
+                            <QualitativeMeasurement>Negative</QualitativeMeasurement>
+                            <QuantitativeMeasurement>0.2</QuantitativeMeasurement>
+                            <AssayComments>The percentage of CD8+ cells producing IFNg in response to this immunodominant Pichinde virus (PV) epitope is almost null in mice infected with heterologous virus LCMV, either acutely or 6 weeks after infection (&lt;0.05%) implying the lack of cross-reactivity in the response against source species correlates with lack of cross-recognition of immunodominant epitopes.  Splenocytes were incubated with peptides in the presence of 10U/ml hrIL2 previous to staining and FACS analysis.</AssayComments>
+                        </AssayInformation>
+                    </TCell>
+                </Assays>
+            </Epitope>
+            <Epitope>
+                <EpitopeName>PV NP122</EpitopeName>
+                <EpitopeStructure>
+                    <FragmentOfANaturalSequenceMolecule>
+                        <ChemicalType>Peptide from protein</ChemicalType>
+                        <LinearSequence>VYEGNLTNTQL</LinearSequence>
+                        <StartingPosition>122</StartingPosition>
+                        <EndingPosition>132</EndingPosition>
+                        <SourceMolecule>
+                            <GenBankId>P03541.1</GenBankId>
+                        </SourceMolecule>
+                        <SourceOrganismId>2169993</SourceOrganismId>
+                    </FragmentOfANaturalSequenceMolecule>
+                </EpitopeStructure>
+                <LocationOfData>Page 628</LocationOfData>
+                <EpitopeId>72011</EpitopeId>
+                <ReferenceStartingPosition>122</ReferenceStartingPosition>
+                <ReferenceEndingPosition>132</ReferenceEndingPosition>
+                <EpitopeEvidenceCode>Not determined</EpitopeEvidenceCode>
+                <EpitopeStructureDefines>Exact Epitope</EpitopeStructureDefines>
+                <Assays>
+                    <TCell>
+                        <LocationOfData>Figure 1</LocationOfData>
+                        <TCellId>18573</TCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>10000067</OrganismId>
+                                <Sex>M</Sex>
+                                <Age>2-18 mo</Age>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Administration in vivo</InVivoProcessType>
+                                <DiseaseState>DOID:12155</DiseaseState>
+                                <DiseaseStage>Acute/Recent onset</DiseaseStage>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Taxonomic Sibling</EpitopeRelation>
+                                    <Object>
+                                        <Organism>
+                                            <SubType>Organism</SubType>
+                                            <SourceOrganismId>11624</SourceOrganismId>
+                                        </Organism>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenReferenceName>LCMV</ImmunogenReferenceName>
+                                <ImmunogenEvidenceCode>Not determined</ImmunogenEvidenceCode>
+                                <Route>Intraperitoneal (i.p.)</Route>
+                                <DoseSchedule>1 dose of 5x10&lt;sup&gt;4&lt;/sup&gt; PFU of LCMV</DoseSchedule>
+                            </FirstInVivoProcess>
+                            <ImmunizationComments>Splenocytes were harvested either 7-9 days after infection (acute response) or &gt;6 wk after infection (memory response).</ImmunizationComments>
+                        </Immunization>
+                        <EffectorCells>
+                            <CellTissueType>Spleen</CellTissueType>
+                            <CellType>T cell CD8+</CellType>
+                            <CellCultureConditions>Direct Ex Vivo</CellCultureConditions>
+                        </EffectorCells>
+                        <AntigenPresentingCells>
+                            <CellTissueType>Spleen</CellTissueType>
+                            <CellType>Splenocyte</CellType>
+                            <CellCultureConditions>Direct Ex Vivo</CellCultureConditions>
+                            <AutologousOrSyngeneic>Y</AutologousOrSyngeneic>
+                        </AntigenPresentingCells>
+                        <MhcAllele>
+                            <MhcAlleleId>172</MhcAlleleId>
+                            <MhcEvidenceCode>Not determined</MhcEvidenceCode>
+                        </MhcAllele>
+                        <Antigen>
+                            <AntigenReferenceName>PV NP122</AntigenReferenceName>
+                            <AntigenObject>
+                                <EpitopeRelation>Epitope</EpitopeRelation>
+                                <Object>
+                                    <FragmentOfANaturalSequenceMolecule>
+                                        <ChemicalType>Peptide from protein</ChemicalType>
+                                        <LinearSequence>VYEGNLTNTQL</LinearSequence>
+                                        <StartingPosition>122</StartingPosition>
+                                        <EndingPosition>132</EndingPosition>
+                                        <SourceMolecule>
+                                            <GenBankId>P03541.1</GenBankId>
+                                        </SourceMolecule>
+                                        <SourceOrganismId>2169993</SourceOrganismId>
+                                    </FragmentOfANaturalSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Exact match to reference information</AntigenEvidenceCode>
+                        </Antigen>
+                        <AssayInformation>
+                            <AssayTypeId>53</AssayTypeId>
+                            <QualitativeMeasurement>Negative</QualitativeMeasurement>
+                            <QuantitativeMeasurement>0.2</QuantitativeMeasurement>
+                            <AssayComments>The percentage of CD8+ cells producing IFNg in response to this immunodominant Pichinde virus (PV) epitope is almost null in mice infected with heterologous virus LCMV, either acutely or 6 weeks after infection (&lt;0.05%) implying the lack of cross-reactivity in the response against source species correlates with lack of cross-recognition of immunodominant epitopes.  Splenocytes were incubated with peptides in the presence of 10U/ml hrIL2 previous to staining and FACS analysis.</AssayComments>
+                        </AssayInformation>
+                    </TCell>
+                </Assays>
+                <Assays>
+                    <TCell>
+                        <LocationOfData>Figure 6</LocationOfData>
+                        <TCellId>18574</TCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>10000067</OrganismId>
+                                <Sex>M</Sex>
+                                <Age>2-18 mo</Age>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Administration in vivo</InVivoProcessType>
+                                <DiseaseState>DOID:934</DiseaseState>
+                                <DiseaseStage>Acute/Recent onset</DiseaseStage>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Source Organism</EpitopeRelation>
+                                    <Object>
+                                        <Organism>
+                                            <SubType>Organism</SubType>
+                                            <SourceOrganismId>2169993</SourceOrganismId>
+                                        </Organism>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenEvidenceCode>Not determined</ImmunogenEvidenceCode>
+                                <Route>Intraperitoneal (i.p.)</Route>
+                                <DoseSchedule>1 dose of 5x10&lt;sup&gt;4&lt;/sup&gt; pfu LCMV, and &gt;6wk later, 1 dose of 2x10&lt;sup&gt;7&lt;/sup&gt; pfu PV</DoseSchedule>
+                            </FirstInVivoProcess>
+                            <ImmunizationComments>Splenocytes were harvested either 4-9 days after PV infection (acute response) or &gt;6 wk after infection (memory response).</ImmunizationComments>
+                        </Immunization>
+                        <EffectorCells>
+                            <CellTissueType>Spleen</CellTissueType>
+                            <CellType>T cell CD8+</CellType>
+                            <CellCultureConditions>Direct Ex Vivo</CellCultureConditions>
+                        </EffectorCells>
+                        <AntigenPresentingCells>
+                            <CellTissueType>Spleen</CellTissueType>
+                            <CellType>Splenocyte</CellType>
+                            <CellCultureConditions>Direct Ex Vivo</CellCultureConditions>
+                            <AutologousOrSyngeneic>Y</AutologousOrSyngeneic>
+                        </AntigenPresentingCells>
+                        <MhcAllele>
+                            <MhcAlleleId>172</MhcAlleleId>
+                            <MhcEvidenceCode>Not determined</MhcEvidenceCode>
+                        </MhcAllele>
+                        <Antigen>
+                            <AntigenReferenceName>PV NP122</AntigenReferenceName>
+                            <AntigenObject>
+                                <EpitopeRelation>Epitope</EpitopeRelation>
+                                <Object>
+                                    <FragmentOfANaturalSequenceMolecule>
+                                        <ChemicalType>Peptide from protein</ChemicalType>
+                                        <LinearSequence>VYEGNLTNTQL</LinearSequence>
+                                        <StartingPosition>122</StartingPosition>
+                                        <EndingPosition>132</EndingPosition>
+                                        <SourceMolecule>
+                                            <GenBankId>P03541.1</GenBankId>
+                                        </SourceMolecule>
+                                        <SourceOrganismId>2169993</SourceOrganismId>
+                                    </FragmentOfANaturalSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Exact match to reference information</AntigenEvidenceCode>
+                        </Antigen>
+                        <AssayInformation>
+                            <AssayTypeId>53</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <QuantitativeMeasurement>3.9</QuantitativeMeasurement>
+                            <AssayComments>The percentage of CD8+ cells producing IFNg in response to this immunodominant epitope is reduced from 22-25% in acutely Pichinde virus (PV) infected naïve mice animals to 7.7-3.9% in acutely PV infected, LCMV immune mice, while responses against a subdominant cross-reactive epitope are enhanced, implying that previous heterologous infections can alter immunodominance hierarchies during subsequent infections, suppressing the T cell response against non-cross-reactive epitopes.  Splenocytes were incubated with peptides in the presence of 10U/ml hrIL2 previous to staining and FACS analysis.</AssayComments>
+                        </AssayInformation>
+                    </TCell>
+                </Assays>
+                <Assays>
+                    <TCell>
+                        <LocationOfData>Figure 1</LocationOfData>
+                        <TCellId>18572</TCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>10000067</OrganismId>
+                                <Sex>M</Sex>
+                                <Age>2-18 mo</Age>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Administration in vivo</InVivoProcessType>
+                                <DiseaseState>DOID:934</DiseaseState>
+                                <DiseaseStage>Acute/Recent onset</DiseaseStage>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Source Organism</EpitopeRelation>
+                                    <Object>
+                                        <Organism>
+                                            <SubType>Organism</SubType>
+                                            <SourceOrganismId>2169993</SourceOrganismId>
+                                        </Organism>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenEvidenceCode>Not determined</ImmunogenEvidenceCode>
+                                <Route>Intraperitoneal (i.p.)</Route>
+                                <DoseSchedule>1 dose of 2x10&lt;sup&gt;7&lt;/sup&gt; PFU</DoseSchedule>
+                            </FirstInVivoProcess>
+                            <ImmunizationComments>Splenocytes were harvested either 7-9 days after infection (acute response) or &gt;6 wk after infection (memory response).</ImmunizationComments>
+                        </Immunization>
+                        <EffectorCells>
+                            <CellTissueType>Spleen</CellTissueType>
+                            <CellType>T cell CD8+</CellType>
+                            <CellCultureConditions>Direct Ex Vivo</CellCultureConditions>
+                        </EffectorCells>
+                        <AntigenPresentingCells>
+                            <CellTissueType>Spleen</CellTissueType>
+                            <CellType>Splenocyte</CellType>
+                            <CellCultureConditions>Direct Ex Vivo</CellCultureConditions>
+                            <AutologousOrSyngeneic>Y</AutologousOrSyngeneic>
+                        </AntigenPresentingCells>
+                        <MhcAllele>
+                            <MhcAlleleId>172</MhcAlleleId>
+                            <MhcEvidenceCode>Not determined</MhcEvidenceCode>
+                        </MhcAllele>
+                        <Antigen>
+                            <AntigenReferenceName>PV NP122</AntigenReferenceName>
+                            <AntigenObject>
+                                <EpitopeRelation>Epitope</EpitopeRelation>
+                                <Object>
+                                    <FragmentOfANaturalSequenceMolecule>
+                                        <ChemicalType>Peptide from protein</ChemicalType>
+                                        <LinearSequence>VYEGNLTNTQL</LinearSequence>
+                                        <StartingPosition>122</StartingPosition>
+                                        <EndingPosition>132</EndingPosition>
+                                        <SourceMolecule>
+                                            <GenBankId>P03541.1</GenBankId>
+                                        </SourceMolecule>
+                                        <SourceOrganismId>2169993</SourceOrganismId>
+                                    </FragmentOfANaturalSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Exact match to reference information</AntigenEvidenceCode>
+                        </Antigen>
+                        <AssayInformation>
+                            <AssayTypeId>53</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <QuantitativeMeasurement>22.0</QuantitativeMeasurement>
+                            <AssayComments>The percentage of CD8+ cells producing IFNg in response to this immunodominant epitope is high in acutely Pichinde virus (PV) infected animals, as is the memory population 6 weeks after infection (2.5%). This is paralleled by a strong cytotoxic response to source species infected cells.  Splenocytes were incubated with peptides in the presence of 10U/ml hrIL2 previous to staining and FACS analysis.</AssayComments>
+                        </AssayInformation>
+                    </TCell>
+                </Assays>
+            </Epitope>
+            <Epitope>
+                <EpitopeName>PV NP205</EpitopeName>
+                <EpitopeStructure>
+                    <FragmentOfANaturalSequenceMolecule>
+                        <ChemicalType>Peptide from protein</ChemicalType>
+                        <LinearSequence>YTVKFPNM</LinearSequence>
+                        <StartingPosition>205</StartingPosition>
+                        <EndingPosition>212</EndingPosition>
+                        <SourceMolecule>
+                            <GenBankId>P03541.1</GenBankId>
+                        </SourceMolecule>
+                        <SourceOrganismId>2169993</SourceOrganismId>
+                    </FragmentOfANaturalSequenceMolecule>
+                </EpitopeStructure>
+                <LocationOfData>Page 628</LocationOfData>
+                <EpitopeId>76204</EpitopeId>
+                <ReferenceStartingPosition>205</ReferenceStartingPosition>
+                <ReferenceEndingPosition>212</ReferenceEndingPosition>
+                <EpitopeEvidenceCode>Not determined</EpitopeEvidenceCode>
+                <EpitopeStructureDefines>Exact Epitope</EpitopeStructureDefines>
+                <Assays>
+                    <TCell>
+                        <LocationOfData>Figure 6</LocationOfData>
+                        <TCellId>18578</TCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>10000067</OrganismId>
+                                <Sex>M</Sex>
+                                <Age>2-18 mo</Age>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Administration in vivo</InVivoProcessType>
+                                <DiseaseState>DOID:934</DiseaseState>
+                                <DiseaseStage>Acute/Recent onset</DiseaseStage>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Source Organism</EpitopeRelation>
+                                    <Object>
+                                        <Organism>
+                                            <SubType>Organism</SubType>
+                                            <SourceOrganismId>2169993</SourceOrganismId>
+                                        </Organism>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenEvidenceCode>Not determined</ImmunogenEvidenceCode>
+                                <Route>Intraperitoneal (i.p.)</Route>
+                                <DoseSchedule>1 dose of 5x10&lt;sup&gt;4&lt;/sup&gt; pfu LCMV, and &gt;6wk later, 1 dose of 2x10&lt;sup&gt;7&lt;/sup&gt; pfu PV</DoseSchedule>
+                            </FirstInVivoProcess>
+                            <ImmunizationComments>Splenocytes were harvested either 4-9 days after PV infection (acute response) or &gt;6 wk after infection (memory response).</ImmunizationComments>
+                        </Immunization>
+                        <EffectorCells>
+                            <CellTissueType>Spleen</CellTissueType>
+                            <CellType>T cell CD8+</CellType>
+                            <CellCultureConditions>Direct Ex Vivo</CellCultureConditions>
+                        </EffectorCells>
+                        <AntigenPresentingCells>
+                            <CellTissueType>Spleen</CellTissueType>
+                            <CellType>Splenocyte</CellType>
+                            <CellCultureConditions>Direct Ex Vivo</CellCultureConditions>
+                            <AutologousOrSyngeneic>Y</AutologousOrSyngeneic>
+                        </AntigenPresentingCells>
+                        <MhcAllele>
+                            <MhcAlleleId>122</MhcAlleleId>
+                            <MhcEvidenceCode>Not determined</MhcEvidenceCode>
+                        </MhcAllele>
+                        <Antigen>
+                            <AntigenReferenceName>PV NP205</AntigenReferenceName>
+                            <AntigenObject>
+                                <EpitopeRelation>Epitope</EpitopeRelation>
+                                <Object>
+                                    <FragmentOfANaturalSequenceMolecule>
+                                        <ChemicalType>Peptide from protein</ChemicalType>
+                                        <LinearSequence>YTVKFPNM</LinearSequence>
+                                        <StartingPosition>205</StartingPosition>
+                                        <EndingPosition>212</EndingPosition>
+                                        <SourceMolecule>
+                                            <GenBankId>P03541.1</GenBankId>
+                                        </SourceMolecule>
+                                        <SourceOrganismId>2169993</SourceOrganismId>
+                                    </FragmentOfANaturalSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Exact match to reference information</AntigenEvidenceCode>
+                        </Antigen>
+                        <AssayInformation>
+                            <AssayTypeId>53</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <QuantitativeMeasurement>30.0</QuantitativeMeasurement>
+                            <AssayComments>The percentage of CD8+ cells producing IFNg in response to this subdominant epitope is augmented from 0.7-0.9% in acutely Pichinde virus (PV) infected naïve mice animals to 6-11% in acutely PV infected, LCMV immune mice, while responses against immunodominant non-cross-reactive epitopes are diminished, implying that previous heterologous (but not homologous, suppl. data) infections can alter immunodominance hierarchies during subsequent infections, enhancing the T cell response against cross-reactive epitopes. This enhancement is also seen in PBMCs, persists in the memory population 6 weeks after LCMV infection (0.6 to 2% increase), and is also detected in the inversely administered shedule, in PV immune mice after acute infection with LCMV, demonstrating a true cross-reactivity mediated phenomena.  Splenocytes were incubated with peptides in the presence of 10U/ml hrIL2 previous to staining and FACS analysis.</AssayComments>
+                        </AssayInformation>
+                    </TCell>
+                </Assays>
+                <Assays>
+                    <TCell>
+                        <LocationOfData>Figure 1</LocationOfData>
+                        <TCellId>18576</TCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>10000067</OrganismId>
+                                <Sex>M</Sex>
+                                <Age>2-18 mo</Age>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Administration in vivo</InVivoProcessType>
+                                <DiseaseState>DOID:12155</DiseaseState>
+                                <DiseaseStage>Acute/Recent onset</DiseaseStage>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Taxonomic Sibling</EpitopeRelation>
+                                    <Object>
+                                        <Organism>
+                                            <SubType>Organism</SubType>
+                                            <SourceOrganismId>11624</SourceOrganismId>
+                                        </Organism>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenReferenceName>LCMV</ImmunogenReferenceName>
+                                <ImmunogenEvidenceCode>Not determined</ImmunogenEvidenceCode>
+                                <Route>Intraperitoneal (i.p.)</Route>
+                                <DoseSchedule>1 dose of 5x10&lt;sup&gt;4&lt;/sup&gt; PFU of LCMV</DoseSchedule>
+                            </FirstInVivoProcess>
+                            <ImmunizationComments>Splenocytes were harvested either 7-9 days after infection (acute response) or &gt;6 wk after infection (memory response).</ImmunizationComments>
+                        </Immunization>
+                        <EffectorCells>
+                            <CellTissueType>Spleen</CellTissueType>
+                            <CellType>T cell CD8+</CellType>
+                            <CellCultureConditions>Direct Ex Vivo</CellCultureConditions>
+                        </EffectorCells>
+                        <AntigenPresentingCells>
+                            <CellTissueType>Spleen</CellTissueType>
+                            <CellType>Splenocyte</CellType>
+                            <CellCultureConditions>Direct Ex Vivo</CellCultureConditions>
+                            <AutologousOrSyngeneic>Y</AutologousOrSyngeneic>
+                        </AntigenPresentingCells>
+                        <MhcAllele>
+                            <MhcAlleleId>122</MhcAlleleId>
+                            <MhcEvidenceCode>Not determined</MhcEvidenceCode>
+                        </MhcAllele>
+                        <Antigen>
+                            <AntigenReferenceName>PV NP205</AntigenReferenceName>
+                            <AntigenObject>
+                                <EpitopeRelation>Epitope</EpitopeRelation>
+                                <Object>
+                                    <FragmentOfANaturalSequenceMolecule>
+                                        <ChemicalType>Peptide from protein</ChemicalType>
+                                        <LinearSequence>YTVKFPNM</LinearSequence>
+                                        <StartingPosition>205</StartingPosition>
+                                        <EndingPosition>212</EndingPosition>
+                                        <SourceMolecule>
+                                            <GenBankId>P03541.1</GenBankId>
+                                        </SourceMolecule>
+                                        <SourceOrganismId>2169993</SourceOrganismId>
+                                    </FragmentOfANaturalSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Exact match to reference information</AntigenEvidenceCode>
+                        </Antigen>
+                        <AssayInformation>
+                            <AssayTypeId>53</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <QuantitativeMeasurement>2.2</QuantitativeMeasurement>
+                            <AssayComments>The percentage of CD8+ cells producing IFNg in response to this subdominant Pichinde virus (PV) epitope is low but significant in mice infected with heterologous virus LCMV, either acutely or 6 weeks after infection (0.6%) implying a cross-reactive response, proven to be mediated by a homologous cross-reactive epitope NP205 from PV (YTVKFPNM).  Splenocytes were incubated with peptides in the presence of 10U/ml hrIL2 previous to staining and FACS analysis.</AssayComments>
+                        </AssayInformation>
+                    </TCell>
+                </Assays>
+                <Assays>
+                    <TCell>
+                        <LocationOfData>Figure 2</LocationOfData>
+                        <TCellId>18577</TCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>10000067</OrganismId>
+                                <Sex>M</Sex>
+                                <Age>2-18 mo</Age>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Administration in vivo</InVivoProcessType>
+                                <DiseaseState>DOID:934</DiseaseState>
+                                <DiseaseStage>Acute/Recent onset</DiseaseStage>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Source Organism</EpitopeRelation>
+                                    <Object>
+                                        <Organism>
+                                            <SubType>Organism</SubType>
+                                            <SourceOrganismId>2169993</SourceOrganismId>
+                                        </Organism>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenEvidenceCode>Not determined</ImmunogenEvidenceCode>
+                                <Route>Intraperitoneal (i.p.)</Route>
+                                <DoseSchedule>1 dose of 2x10&lt;sup&gt;7&lt;/sup&gt; PFU</DoseSchedule>
+                            </FirstInVivoProcess>
+                            <ImmunizationComments>Splenocytes were harvested 7-9 days after infection (acute response).</ImmunizationComments>
+                        </Immunization>
+                        <EffectorCells>
+                            <CellTissueType>Spleen</CellTissueType>
+                            <CellType>T cell CD8+</CellType>
+                            <CellCultureConditions>Direct Ex Vivo</CellCultureConditions>
+                        </EffectorCells>
+                        <AntigenPresentingCells>
+                            <CellTissueType>Lymphoid</CellTissueType>
+                            <CellType>RMA-lymphocyte</CellType>
+                            <CellCultureConditions>Cell Line / Clone</CellCultureConditions>
+                            <AutologousOrSyngeneic>N</AutologousOrSyngeneic>
+                        </AntigenPresentingCells>
+                        <MhcAllele>
+                            <MhcAlleleId>122</MhcAlleleId>
+                            <MhcEvidenceCode>Not determined</MhcEvidenceCode>
+                        </MhcAllele>
+                        <Antigen>
+                            <AntigenReferenceName>PV NP205</AntigenReferenceName>
+                            <AntigenObject>
+                                <EpitopeRelation>Epitope</EpitopeRelation>
+                                <Object>
+                                    <FragmentOfANaturalSequenceMolecule>
+                                        <ChemicalType>Peptide from protein</ChemicalType>
+                                        <LinearSequence>YTVKFPNM</LinearSequence>
+                                        <StartingPosition>205</StartingPosition>
+                                        <EndingPosition>212</EndingPosition>
+                                        <SourceMolecule>
+                                            <GenBankId>P03541.1</GenBankId>
+                                        </SourceMolecule>
+                                        <SourceOrganismId>2169993</SourceOrganismId>
+                                    </FragmentOfANaturalSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Exact match to reference information</AntigenEvidenceCode>
+                        </Antigen>
+                        <AssayInformation>
+                            <AssayTypeId>67</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <AssayComments>Peptide loaded cells are similarly lysed by cells from acutely Pichinde virus (PV) or heterologous LCMV infected mice, implying a cross-reactive response, proven to be mediated by homologous cross-reactive epitope NP205 from LCMV (YTVKYPNL). No cross-recognition by splenocytes from acutely LCMV infected mice is seen in cytotoxicity assays to PV infected cells, demonstrating that this cross-reactive subdominant epitope does not influence strong cross reactive responses to the whole virus.</AssayComments>
+                        </AssayInformation>
+                    </TCell>
+                </Assays>
+                <Assays>
+                    <TCell>
+                        <LocationOfData>Figure 1</LocationOfData>
+                        <TCellId>18575</TCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>10000067</OrganismId>
+                                <Sex>M</Sex>
+                                <Age>2-18 mo</Age>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Administration in vivo</InVivoProcessType>
+                                <DiseaseState>DOID:934</DiseaseState>
+                                <DiseaseStage>Acute/Recent onset</DiseaseStage>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Source Organism</EpitopeRelation>
+                                    <Object>
+                                        <Organism>
+                                            <SubType>Organism</SubType>
+                                            <SourceOrganismId>2169993</SourceOrganismId>
+                                        </Organism>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenEvidenceCode>Not determined</ImmunogenEvidenceCode>
+                                <Route>Intraperitoneal (i.p.)</Route>
+                                <DoseSchedule>1 dose of 2x10&lt;sup&gt;7&lt;/sup&gt; PFU</DoseSchedule>
+                            </FirstInVivoProcess>
+                            <ImmunizationComments>Splenocytes were harvested either 7-9 days after infection (acute response) or &gt;6 wk after infection (memory response).</ImmunizationComments>
+                        </Immunization>
+                        <EffectorCells>
+                            <CellTissueType>Spleen</CellTissueType>
+                            <CellType>T cell CD8+</CellType>
+                            <CellCultureConditions>Direct Ex Vivo</CellCultureConditions>
+                        </EffectorCells>
+                        <AntigenPresentingCells>
+                            <CellTissueType>Spleen</CellTissueType>
+                            <CellType>Splenocyte</CellType>
+                            <CellCultureConditions>Direct Ex Vivo</CellCultureConditions>
+                            <AutologousOrSyngeneic>Y</AutologousOrSyngeneic>
+                        </AntigenPresentingCells>
+                        <MhcAllele>
+                            <MhcAlleleId>122</MhcAlleleId>
+                            <MhcEvidenceCode>Not determined</MhcEvidenceCode>
+                        </MhcAllele>
+                        <Antigen>
+                            <AntigenReferenceName>PV NP205</AntigenReferenceName>
+                            <AntigenObject>
+                                <EpitopeRelation>Epitope</EpitopeRelation>
+                                <Object>
+                                    <FragmentOfANaturalSequenceMolecule>
+                                        <ChemicalType>Peptide from protein</ChemicalType>
+                                        <LinearSequence>YTVKFPNM</LinearSequence>
+                                        <StartingPosition>205</StartingPosition>
+                                        <EndingPosition>212</EndingPosition>
+                                        <SourceMolecule>
+                                            <GenBankId>P03541.1</GenBankId>
+                                        </SourceMolecule>
+                                        <SourceOrganismId>2169993</SourceOrganismId>
+                                    </FragmentOfANaturalSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Exact match to reference information</AntigenEvidenceCode>
+                        </Antigen>
+                        <AssayInformation>
+                            <AssayTypeId>53</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <QuantitativeMeasurement>0.9</QuantitativeMeasurement>
+                            <AssayComments>The percentage of CD8+ cells producing IFNg in response to this subdominant epitope is low in acutely Pichinde virus (PV) infected animals, as is the memory population 6 weeks after infection (0.6%).  Splenocytes were incubated with peptides in the presence of 10U/ml hrIL2 previous to staining and FACS analysis.</AssayComments>
+                        </AssayInformation>
+                    </TCell>
+                </Assays>
+            </Epitope>
+        </Epitopes>
+    </Reference>
+</References>
+

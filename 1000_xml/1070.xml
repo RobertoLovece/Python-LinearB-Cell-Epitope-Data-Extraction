@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<References xsi:schemaLocation="http://www.iedb.org/schema/CurationSchema http://beta.iedb.org/schema/Curation.xsd" xmlns="http://www.iedb.org/schema/CurationSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <Reference>
+        <ReferenceId>1070</ReferenceId>
+        <DateLastUpdated>2018-03-26-07:00</DateLastUpdated>
+        <Article>
+            <PubmedId>8152483</PubmedId>
+            <Abstract>The structure of a bacterial superantigen, Staphylococcus aureus enterotoxin B, bound to a human class II histocompatibility complex molecule (HLA-DR1) has been determined by X-ray crystallography. The superantigen binds as an intact protein outside the conventional peptide antigen-binding site of the class II major histocompatibility complex (MHC) molecule. No large conformational changes occur upon complex formation in either the DR1 or the enterotoxin B molecules. The structure of the complex helps explain how different class II molecules and superantigens associate and suggests a model for ternary complex formation with the T-cell antigen receptor (TCR), in which unconventional TCR-MHC contacts are possible.</Abstract>
+            <ArticleYear>1994</ArticleYear>
+            <ArticlePages>711-8</ArticlePages>
+            <ArticleTitle>Three-dimensional structure of a human class II histocompatibility molecule complexed with superantigen.</ArticleTitle>
+            <Authors>
+                <Author>
+                    <LastName>Jardetzky</LastName>
+                    <ForeName>T S</ForeName>
+                </Author>
+                <Author>
+                    <LastName>Brown</LastName>
+                    <ForeName>J H</ForeName>
+                </Author>
+                <Author>
+                    <LastName>Gorga</LastName>
+                    <ForeName>J C</ForeName>
+                </Author>
+                <Author>
+                    <LastName>Stern</LastName>
+                    <ForeName>L J</ForeName>
+                </Author>
+                <Author>
+                    <LastName>Urban</LastName>
+                    <ForeName>R G</ForeName>
+                </Author>
+                <Author>
+                    <LastName>Chi</LastName>
+                    <ForeName>Y I</ForeName>
+                </Author>
+                <Author>
+                    <LastName>Stauffacher</LastName>
+                    <ForeName>C</ForeName>
+                </Author>
+                <Author>
+                    <LastName>Strominger</LastName>
+                    <ForeName>J L</ForeName>
+                </Author>
+                <Author>
+                    <LastName>Wiley</LastName>
+                    <ForeName>D C</ForeName>
+                </Author>
+            </Authors>
+            <Affiliations>Department of Biochemistry and Molecular Biology, Harvard University, Cambridge, Massachusetts 02138.</Affiliations>
+            <ArticleChemicalList>Enterotoxins;HLA-DR1 Antigen;Macromolecular Substances;Receptors, Antigen, T-Cell;Superantigens;enterotoxin B, staphylococcal</ArticleChemicalList>
+            <ArticleMeshHeadingsList>Amino Acid Sequence; Animals; Crystallography, X-Ray; Enterotoxins(chemistry; immunology); HLA-DR1 Antigen(chemistry); Humans; Macromolecular Substances; Mice; Models, Molecular; Molecular Sequence Data; Receptors, Antigen, T-Cell(metabolism); Staphylococcus aureus(immunology); Superantigens(chemistry; immunology)</ArticleMeshHeadingsList>
+            <Journal>
+                <Volume>368</Volume>
+                <Issue>6473</Issue>
+                <Title>Nature</Title>
+                <Issn>1476-4687</Issn>
+                <MedlineTa>Nature</MedlineTa>
+            </Journal>
+        </Article>
+        <Epitopes>
+            <Epitope>
+                <EpitopeName>Poly-Ala (1-13)</EpitopeName>
+                <EpitopeStructure>
+                    <SequenceMoleculeNoNaturalSource>
+                        <ChemicalType>Peptide, no natural source</ChemicalType>
+                        <LinearSequence>AAAAAAAAAAAAA</LinearSequence>
+                    </SequenceMoleculeNoNaturalSource>
+                </EpitopeStructure>
+                <EpitopeId>2</EpitopeId>
+                <ReferenceStartingPosition>1</ReferenceStartingPosition>
+                <ReferenceEndingPosition>13</ReferenceEndingPosition>
+                <EpitopeStructureDefines>Exact Epitope</EpitopeStructureDefines>
+                <Assays>
+                    <MhcBinding>
+                        <MhcBindingId>1488216</MhcBindingId>
+                        <AssayInformation>
+                            <AssayTypeId>175</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <QuantitativeMeasurement>2.7</QuantitativeMeasurement>
+                            <MeasurementInequality>=</MeasurementInequality>
+                            <AssayComments>The crystal structure contains the MHC/epitope complex bound to the superantigen (SAG) staphylococcal enterotoxin type B (SEB). SAG PDB chain is D, H. There are two MHC/epitope-SAG complexes in the asymmetric unit that form a dimer. Chains in each molecule are: complex I: ABCD , complex II: EFGH. The order of the chains in each complex is:  α-chain, β-chain, epitope chain, SAG chain. Interpretable electron density, for the epitope, was found for the main-chain of a 13 residue peptide. Epitope side-chain density was also good in this region. The peptide conformation is based on fitting a polyalanine chain into the observed electron density corresponding to a mixture of self-peptides bound to the HLA-DR1 molecule. Electron density was disordered for the MHC residues 105 - 111 and SAG residues  2 - 9, 127 -153, and 171 -175. The SAG region with the best ordered electron density was the N-terminal domain of the molecule.</AssayComments>
+                        </AssayInformation>
+                        <MhcAlleleId>52</MhcAlleleId>
+                        <ThreeDimensionalStructureOfComplex>
+                            <ComplexPdbId>1SEB</ComplexPdbId>
+                            <MhcChain1PdbChain>A</MhcChain1PdbChain>
+                            <MhcChain2PdbChain>B</MhcChain2PdbChain>
+                            <EpitopePdbChain>C</EpitopePdbChain>
+                            <EpitopeResidues>C: (UNK)1, (UNK)2, (UNK)3, (UNK)4, (UNK)5, (UNK)6, (UNK)7, (UNK)8, (UNK)9, (UNK)10, (UNK)11, (UNK)12, (UNK)13</EpitopeResidues>
+                            <ViewerFlag>Y</ViewerFlag>
+                            <CuratedContacts>
+                                <EpitopeResidues>C: (UNK)1, (UNK)2, (UNK)3, (UNK)4, (UNK)5, (UNK)6, (UNK)7, (UNK)8, (UNK)9, (UNK)10, (UNK)11, (UNK)12, (UNK)13</EpitopeResidues>
+                                <EpitopeResiduesInteractingWithMhc>C: ;</EpitopeResiduesInteractingWithMhc>
+                                <MhcResiduesInteractingWithEpitope>A: ; B: ;</MhcResiduesInteractingWithEpitope>
+                            </CuratedContacts>
+                            <CalculatedContacts>
+                                <EpitopeResiduesInteractingWithMhc>C: (UNK)1, (UNK)2, (UNK)3, (UNK)4, (UNK)5, (UNK)6, (UNK)7, (UNK)8, (UNK)9, (UNK)10, (UNK)11, (UNK)12, (UNK)13</EpitopeResiduesInteractingWithMhc>
+                                <MhcResiduesInteractingWithEpitope>A: Q9, F24, F51, A52, S53, F54, N62, V65, D66, N69, I72, R76; B: L11, F13, D57, Y60, W61, R71, Y78, H81, N82, V85</MhcResiduesInteractingWithEpitope>
+                                <ContactAreaForEpitope>892.3</ContactAreaForEpitope>
+                                <ContactAreaForMhc>721.1</ContactAreaForMhc>
+                            </CalculatedContacts>
+                        </ThreeDimensionalStructureOfComplex>
+                    </MhcBinding>
+                </Assays>
+            </Epitope>
+        </Epitopes>
+    </Reference>
+</References>
+

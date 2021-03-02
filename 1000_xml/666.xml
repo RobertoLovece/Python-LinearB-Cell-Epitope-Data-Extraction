@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<References xsi:schemaLocation="http://www.iedb.org/schema/CurationSchema http://beta.iedb.org/schema/Curation.xsd" xmlns="http://www.iedb.org/schema/CurationSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <Reference>
+        <ReferenceId>666</ReferenceId>
+        <DateLastUpdated>2020-09-10-07:00</DateLastUpdated>
+        <Article>
+            <PubmedId>14981753</PubmedId>
+            <Abstract>Prediction analysis of TH-cell epitopes in the VP3 capsid protein of the hepatitis A virus (HAV) revealed the occurrence of a putative TH epitope in the 102-121 region complying with all the algorithms tested. To confirm these predictions, spleen T lymphocytes obtained from BALB/c mice previously immunised with HAV, were stimulated in vitro with different concentrations of synthetic peptides 102-121 and 110-121 of VP3. The ability of these peptides to stimulate CD4+ T-helper lymphocytes proliferation was evaluated by an immunological flow cytometry detection of bromodeoxyuridine incorporation. Using this method, it is concluded that the amino terminal part of the VP3 102-121 sequence contains a T cell epitope.</Abstract>
+            <ArticleYear>2004</ArticleYear>
+            <ArticlePages>525-32</ArticlePages>
+            <ArticleTitle>A novel CD4+ T-helper lymphocyte epitope in the VP3 protein of hepatitis A virus.</ArticleTitle>
+            <Authors>
+                <Author>
+                    <LastName>Sánchez</LastName>
+                    <ForeName>Glòria</ForeName>
+                </Author>
+                <Author>
+                    <LastName>Pintó</LastName>
+                    <ForeName>Rosa M</ForeName>
+                </Author>
+                <Author>
+                    <LastName>Bosch</LastName>
+                    <ForeName>Albert</ForeName>
+                </Author>
+            </Authors>
+            <ArticleChemicalList>Antigens, Viral;Capsid Proteins;Epitopes, T-Lymphocyte;Peptide Fragments;VP3 peptide (110-121), hepatitis A virus;Bromodeoxyuridine</ArticleChemicalList>
+            <ArticleMeshHeadingsList>Amino Acid Sequence; Animals; Antigens, Viral(immunology); Bromodeoxyuridine(metabolism); Capsid Proteins(immunology); Epitopes, T-Lymphocyte(analysis; chemistry); Hepatitis A virus(immunology); Immunization; Lymphocyte Activation; Mice; Mice, Inbred BALB C; Molecular Sequence Data; Peptide Fragments(immunology); T-Lymphocytes, Helper-Inducer(immunology)</ArticleMeshHeadingsList>
+            <Journal>
+                <Volume>72</Volume>
+                <Issue>4</Issue>
+                <Title>Journal of medical virology</Title>
+                <Issn>0146-6615</Issn>
+                <MedlineTa>J Med Virol</MedlineTa>
+            </Journal>
+        </Article>
+        <Epitopes>
+            <Epitope>
+                <EpitopeName>VP3(102-121)</EpitopeName>
+                <EpitopeStructure>
+                    <FragmentOfANaturalSequenceMolecule>
+                        <ChemicalType>Peptide from protein</ChemicalType>
+                        <LinearSequence>ASICQMFCFWRGDLVFDFQV</LinearSequence>
+                        <StartingPosition>347</StartingPosition>
+                        <EndingPosition>366</EndingPosition>
+                        <SourceMolecule>
+                            <GenBankId>P08617.1</GenBankId>
+                        </SourceMolecule>
+                        <SourceOrganismId>12098</SourceOrganismId>
+                    </FragmentOfANaturalSequenceMolecule>
+                </EpitopeStructure>
+                <LocationOfData>Page 526</LocationOfData>
+                <EpitopeId>4467</EpitopeId>
+                <ReferenceStartingPosition>102</ReferenceStartingPosition>
+                <ReferenceEndingPosition>121</ReferenceEndingPosition>
+                <EpitopeEvidenceCode>Not determined</EpitopeEvidenceCode>
+                <EpitopeStructureDefines>Epitope containing region/antigenic site</EpitopeStructureDefines>
+                <Assays>
+                    <TCell>
+                        <LocationOfData>Figure 3B</LocationOfData>
+                        <TCellId>6427</TCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>10000000</OrganismId>
+                                <Sex>F</Sex>
+                                <Age>6 weeks old</Age>
+                                <MhcAlleleTypesPresent>
+                                    <MhcAlleleId>170</MhcAlleleId>
+                                </MhcAlleleTypesPresent>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Administration in vivo</InVivoProcessType>
+                                <DiseaseState>ONTIE:0003423</DiseaseState>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Source Organism</EpitopeRelation>
+                                    <Object>
+                                        <Organism>
+                                            <SubType>Organism</SubType>
+                                            <SourceOrganismId>12098</SourceOrganismId>
+                                        </Organism>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenReferenceName>Hepatitis A virus (STRAIN HM-175)</ImmunogenReferenceName>
+                                <ImmunogenEvidenceCode>Not determined</ImmunogenEvidenceCode>
+                                <Adjuvant>Freund's complete</Adjuvant>
+                                <Adjuvant>Freund's incomplete (IFA)</Adjuvant>
+                                <Route>Subcutaneous (s.c.)</Route>
+                                <DoseSchedule>Mice were injected with 3.7 ng of virus particles, diluted 1:2 in Freund's complete adjuvant, in a final volume of 0.2 ml. A booster dose in Freund's incomplete adjuvant was administered 2 weeks later.</DoseSchedule>
+                            </FirstInVivoProcess>
+                        </Immunization>
+                        <EffectorCells>
+                            <CellTissueType>Spleen</CellTissueType>
+                            <CellType>T cell CD4+</CellType>
+                            <CellCultureConditions>Direct Ex Vivo</CellCultureConditions>
+                        </EffectorCells>
+                        <AntigenPresentingCells>
+                            <CellTissueType>Spleen</CellTissueType>
+                            <CellType>Splenocyte</CellType>
+                            <CellCultureConditions>Direct Ex Vivo</CellCultureConditions>
+                            <AutologousOrSyngeneic>Y</AutologousOrSyngeneic>
+                        </AntigenPresentingCells>
+                        <MhcAllele>
+                            <MhcAlleleId>170</MhcAlleleId>
+                            <MhcEvidenceCode>Not determined</MhcEvidenceCode>
+                        </MhcAllele>
+                        <Antigen>
+                            <AntigenReferenceName>VP3(102-121)</AntigenReferenceName>
+                            <AntigenObject>
+                                <EpitopeRelation>Epitope</EpitopeRelation>
+                                <Object>
+                                    <FragmentOfANaturalSequenceMolecule>
+                                        <ChemicalType>Peptide from protein</ChemicalType>
+                                        <LinearSequence>ASICQMFCFWRGDLVFDFQV</LinearSequence>
+                                        <StartingPosition>347</StartingPosition>
+                                        <EndingPosition>366</EndingPosition>
+                                        <SourceMolecule>
+                                            <GenBankId>P08617.1</GenBankId>
+                                        </SourceMolecule>
+                                        <SourceOrganismId>12098</SourceOrganismId>
+                                    </FragmentOfANaturalSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Exact match to reference information</AntigenEvidenceCode>
+                        </Antigen>
+                        <AssayInformation>
+                            <AssayTypeId>200</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <NumberOfSubjectsTested>3</NumberOfSubjectsTested>
+                            <NumberOfSubjectsResponded>3</NumberOfSubjectsResponded>
+                            <ResponseFrequency>100</ResponseFrequency>
+                            <AssayComments>The percentage of proliferative CD4+ lymphocytes after 10 days of stimulation with peptide was higher than that resulting after 6 days.  The stimulation index, defined as the ratio between the percentage of proliferative CD4+ lymphocytes stimulated with the antigen and the percentage of proliferative CD4+ lymphocytes stimulated with culture medium, was also calculated and shown to produce positive responses in comparison to controls.  Similar results were also shown for a peptide spanning amino acids 110-121 of VP3.</AssayComments>
+                        </AssayInformation>
+                    </TCell>
+                </Assays>
+            </Epitope>
+        </Epitopes>
+    </Reference>
+</References>
+

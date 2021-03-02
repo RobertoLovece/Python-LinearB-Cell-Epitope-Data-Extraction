@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<References xsi:schemaLocation="http://www.iedb.org/schema/CurationSchema http://beta.iedb.org/schema/Curation.xsd" xmlns="http://www.iedb.org/schema/CurationSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <Reference>
+        <ReferenceId>425</ReferenceId>
+        <DateLastUpdated>2020-09-10-07:00</DateLastUpdated>
+        <Article>
+            <PubmedId>15507310</PubmedId>
+            <Abstract>I have used indirect ELISA with overlapping synthetic peptides representing the GP5 ectodomain to study the generation and specificity of peptide-binding Abs in pigs that were infected in utero with porcine reproductive and respiratory syndrome virus (PRRSV) strain VR2332 and in North American field sera submitted for PRRSV infection diagnosis. Peptide-binding Abs appeared in sera of the VR2332-infected pigs within about 30 days post-farrowing (dpf), reaching maximum titers 100-200 dpf and then decreasing slowly to about half of maximum titer by about 400 dpf. The formation of peptide-binding Abs and of virus neutralizing Abs correlated and their initial appearance coincided with disappearance of virus from the circulation. The Abs were specific for VR2332-specific peptides. In contrast, anti-N-protein Abs as measured by HerdCheck ELISA appeared within 7 dpf, reached maximum levels at about 100 dpf and had decreased below detectable levels by about 200 dpf. Twenty-seven field serum samples with virus neutralizing activity all possessed high levels of peptide binding Abs, but the Abs bound about equally to VR2332 and strain Lelystad virus (LV)-specific peptides. The indirect ELISA results using various large peptides and competition ELISA using small peptides (8 or 9 amino acids long) confirmed that the epitope recognized by the Abs is located in the GP5 ectodomain sequence 37SHLQLIYNL of VR2332. Use of mutated peptides in the competition ELISA showed that 42I to T and 38HL to TY substitutions blocked Ab recognition, whereas deletion of 41L had no effect. In addition, 26 serum samples submitted by two farms for diagnostic tests were found to possess low levels of Abs that bound to GP5 ectodomain peptides, even though the sera were sero-negative in the HerdChek ELISA and lacked neutralizing activity. Competition ELISA showed that the Abs recognized one or more epitopes located downstream of the PRRSV neutralization epitope. An epitope(s) located in the same area was recognized by Abs generated in mice by immunization with a GP5 ectodomain peptide conjugated to BSA. These Abs also lacked neutralizing activity.</Abstract>
+            <ArticleYear>2004</ArticleYear>
+            <ArticlePages>263-75</ArticlePages>
+            <ArticleTitle>The primary GP5 neutralization epitope of North American isolates of porcine reproductive and respiratory syndrome virus.</ArticleTitle>
+            <Authors>
+                <Author>
+                    <LastName>Plagemann</LastName>
+                    <ForeName>Peter G W</ForeName>
+                </Author>
+            </Authors>
+            <Affiliations>Department of Microbiology, University of Minnesota, MMC 196, Minneapolis, MN 55455, USA. plage001@umn.edu</Affiliations>
+            <ArticleChemicalList>Antibodies, Viral;Antigens, Viral;Epitopes;Viral Envelope Proteins;glycoprotein 5, PRRSV</ArticleChemicalList>
+            <ArticleMeshHeadingsList>Amino Acid Sequence; Animals; Antibodies, Viral(biosynthesis; blood); Antigens, Viral(immunology); Enzyme-Linked Immunosorbent Assay(veterinary); Epitopes(chemistry; immunology); Female; Mice; Molecular Sequence Data; Neutralization Tests(veterinary); North America; Porcine Reproductive and Respiratory Syndrome(immunology; virology); Porcine respiratory and reproductive syndrome virus(immunology); Pregnancy; Pregnancy Complications, Infectious(immunology; veterinary; virology); Swine(virology); Time Factors; Viral Envelope Proteins(immunology)</ArticleMeshHeadingsList>
+            <Journal>
+                <Volume>102</Volume>
+                <Issue>3</Issue>
+                <Title>Veterinary immunology and immunopathology</Title>
+                <Issn>0165-2427</Issn>
+                <MedlineTa>Vet Immunol Immunopathol</MedlineTa>
+            </Journal>
+        </Article>
+        <Epitopes>
+            <Epitope>
+                <EpitopeName>VR-P6</EpitopeName>
+                <EpitopeStructure>
+                    <FragmentOfANaturalSequenceMolecule>
+                        <ChemicalType>Peptide from protein</ChemicalType>
+                        <LinearSequence>SSHLQLIYNLTLTLCELNGTDWLAN</LinearSequence>
+                        <SourceMolecule>
+                            <IedbAccession>SRC293734</IedbAccession>
+                        </SourceMolecule>
+                        <SourceOrganismId>28344</SourceOrganismId>
+                    </FragmentOfANaturalSequenceMolecule>
+                </EpitopeStructure>
+                <LocationOfData>Table 1 p.264</LocationOfData>
+                <EpitopeId>225970</EpitopeId>
+                <ReferenceStartingPosition>37</ReferenceStartingPosition>
+                <ReferenceEndingPosition>45</ReferenceEndingPosition>
+                <EpitopeEvidenceCode>Internal Identifier-no external match available</EpitopeEvidenceCode>
+                <EpitopeStructureDefines>Exact Epitope</EpitopeStructureDefines>
+                <Assays>
+                    <BCell>
+                        <LocationOfData>Figure 5C</LocationOfData>
+                        <BCellId>1735</BCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>10090</OrganismId>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Administration in vivo</InVivoProcessType>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Fragment of Source Antigen</EpitopeRelation>
+                                    <Object>
+                                        <FragmentOfANaturalSequenceMolecule>
+                                            <ChemicalType>Peptide from protein</ChemicalType>
+                                            <LinearSequence>SSHLQLIYNLTLTLCELNGTDWLAN</LinearSequence>
+                                            <SourceMolecule>
+                                                <IedbAccession>SRC293734</IedbAccession>
+                                            </SourceMolecule>
+                                            <SourceOrganismId>28344</SourceOrganismId>
+                                        </FragmentOfANaturalSequenceMolecule>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenReferenceName>VR-P1</ImmunogenReferenceName>
+                                <ImmunogenEvidenceCode>Exact match to reference information</ImmunogenEvidenceCode>
+                                <ImmunogenContainingObject>
+                                    <ComplexedMolecule>
+                                        <ComplexType>Protein conjugate</ComplexType>
+                                        <PeptideModifications/>
+                                        <SourceMolecule>
+                                            <GenBankId>P02769.4</GenBankId>
+                                        </SourceMolecule>
+                                        <MoleculeSourceOrganismId>9913</MoleculeSourceOrganismId>
+                                    </ComplexedMolecule>
+                                </ImmunogenContainingObject>
+                                <Adjuvant>Freund's complete</Adjuvant>
+                                <Adjuvant>Freund's incomplete (IFA)</Adjuvant>
+                                <Route>Intraperitoneal (i.p.)</Route>
+                                <DoseSchedule>3</DoseSchedule>
+                            </FirstInVivoProcess>
+                            <ImmunizationComments>Mice were injected at 13 d and 28 d post-initial innoculation and bled 8 days after last injection.</ImmunizationComments>
+                        </Immunization>
+                        <AssayInformation>
+                            <AssayTypeId>311</AssayTypeId>
+                            <QualitativeMeasurement>Negative</QualitativeMeasurement>
+                            <NumberOfSubjectsTested>2</NumberOfSubjectsTested>
+                            <AssayComments>A competitive ELISA using the epitope to compete with the epitopic region VR-P3 (contains the minimal epitope sequence) was performed.</AssayComments>
+                        </AssayInformation>
+                        <AssayedAntibody>
+                            <AssayedAntibodySourceMaterial>Serum</AssayedAntibodySourceMaterial>
+                            <AssayedAntibodyPurificationStatus>Polyclonal</AssayedAntibodyPurificationStatus>
+                            <AssayedAntibodyName>mouse anti-VR-P1</AssayedAntibodyName>
+                        </AssayedAntibody>
+                        <Antigen>
+                            <AntigenReferenceName>VR-P6</AntigenReferenceName>
+                            <AntigenConformation>Non-Native/Unknown</AntigenConformation>
+                            <AntigenObject>
+                                <EpitopeRelation>Epitope</EpitopeRelation>
+                                <Object>
+                                    <FragmentOfANaturalSequenceMolecule>
+                                        <ChemicalType>Peptide from protein</ChemicalType>
+                                        <LinearSequence>SSHLQLIYNLTLTLCELNGTDWLAN</LinearSequence>
+                                        <SourceMolecule>
+                                            <IedbAccession>SRC293734</IedbAccession>
+                                        </SourceMolecule>
+                                        <SourceOrganismId>28344</SourceOrganismId>
+                                    </FragmentOfANaturalSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Exact match to reference information</AntigenEvidenceCode>
+                        </Antigen>
+                    </BCell>
+                </Assays>
+                <Assays>
+                    <BCell>
+                        <LocationOfData>Figure 3A</LocationOfData>
+                        <BCellId>1669</BCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>9823</OrganismId>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Administration in vivo</InVivoProcessType>
+                                <DiseaseState>DOID:934</DiseaseState>
+                                <DiseaseStage>Chronic</DiseaseStage>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Source Organism</EpitopeRelation>
+                                    <Object>
+                                        <Organism>
+                                            <SubType>Organism</SubType>
+                                            <SourceOrganismId>28344</SourceOrganismId>
+                                        </Organism>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenEvidenceCode>Not determined</ImmunogenEvidenceCode>
+                                <Route>In utero</Route>
+                            </FirstInVivoProcess>
+                            <ImmunizationComments>Sows were infected intranasally with virus.  The offpring used in study was infected at birth and bled at 103 days post-farrowing.</ImmunizationComments>
+                        </Immunization>
+                        <AssayInformation>
+                            <AssayTypeId>311</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <NumberOfSubjectsTested>1</NumberOfSubjectsTested>
+                            <AssayComments>A competitive ELISA using the epitope to compete with the epitopic region VR-P3 (contains the minimal epitope sequence) was performed.</AssayComments>
+                        </AssayInformation>
+                        <AssayedAntibody>
+                            <AssayedAntibodySourceMaterial>Serum</AssayedAntibodySourceMaterial>
+                            <AssayedAntibodyPurificationStatus>Polyclonal</AssayedAntibodyPurificationStatus>
+                            <AssayedAntibodyName>Immune Pig Serum</AssayedAntibodyName>
+                        </AssayedAntibody>
+                        <Antigen>
+                            <AntigenReferenceName>VR-P6</AntigenReferenceName>
+                            <AntigenConformation>Non-Native/Unknown</AntigenConformation>
+                            <AntigenObject>
+                                <EpitopeRelation>Epitope</EpitopeRelation>
+                                <Object>
+                                    <FragmentOfANaturalSequenceMolecule>
+                                        <ChemicalType>Peptide from protein</ChemicalType>
+                                        <LinearSequence>SSHLQLIYNLTLTLCELNGTDWLAN</LinearSequence>
+                                        <SourceMolecule>
+                                            <IedbAccession>SRC293734</IedbAccession>
+                                        </SourceMolecule>
+                                        <SourceOrganismId>28344</SourceOrganismId>
+                                    </FragmentOfANaturalSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Exact match to reference information</AntigenEvidenceCode>
+                        </Antigen>
+                    </BCell>
+                </Assays>
+            </Epitope>
+        </Epitopes>
+    </Reference>
+</References>
+

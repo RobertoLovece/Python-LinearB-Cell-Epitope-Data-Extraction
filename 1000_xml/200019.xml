@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<References xsi:schemaLocation="http://www.iedb.org/schema/CurationSchema http://beta.iedb.org/schema/Curation.xsd" xmlns="http://www.iedb.org/schema/CurationSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <Reference>
+        <ReferenceId>200019</ReferenceId>
+        <DateLastUpdated>2020-09-10-07:00</DateLastUpdated>
+        <Article>
+            <PubmedId>3194755</PubmedId>
+            <Abstract>Low molecular weight material associated with affinity-purified class II major histocompatibility complex (MHC) molecules of mouse (Ia) had the expected properties of peptides bound to the antigen binding site of Ia. Thus, the low molecular weight material derived from the I-Ad isotype was efficient in inhibiting the binding of 125I-labeled I-Ad-specific peptide to I-Ad, but did not significantly inhibit the binding of an I-Ed-specific peptide to I-Ed; the reciprocal isotype-specific inhibition was demonstrated with low molecular weight material derived from I-Ed. The inhibitory material was predominantly peptide in nature, as shown by its susceptibility to protease digestion. It was heterogeneous as measured by gel filtration (mean molecular weight approximately 3000), and when characterized by high-performance liquid chromatography, it eluted over a wide concentration of solvent. Such self peptide-MHC complexes may have broad significance in the biology of T cell responses, including generation of the T cell repertoire, the specificity of mixed lymphocyte responses, and the immune surveillance of self and nonself antigens in peripheral lymphoid tissues.</Abstract>
+            <ArticleYear>1988</ArticleYear>
+            <ArticlePages>1045-7</ArticlePages>
+            <ArticleTitle>Autologous peptides constitutively occupy the antigen binding site on Ia.</ArticleTitle>
+            <Authors>
+                <Author>
+                    <LastName>Buus</LastName>
+                    <ForeName>S</ForeName>
+                </Author>
+                <Author>
+                    <LastName>Sette</LastName>
+                    <ForeName>A</ForeName>
+                </Author>
+                <Author>
+                    <LastName>Colon</LastName>
+                    <ForeName>S M</ForeName>
+                </Author>
+                <Author>
+                    <LastName>Grey</LastName>
+                    <ForeName>H M</ForeName>
+                </Author>
+            </Authors>
+            <Affiliations>Department of Medicine, National Jewish Center for Immunology and Respiratory Medicine, Denver, CO 80206.</Affiliations>
+            <ArticleChemicalList>Autoantigens;Histocompatibility Antigens Class II;Peptides;Ovalbumin</ArticleChemicalList>
+            <ArticleMeshHeadingsList>Animals; Autoantigens(immunology); Binding Sites; Chromatography, High Pressure Liquid; Histocompatibility Antigens Class II(isolation &amp; purification; metabolism); Mice; Molecular Weight; Ovalbumin(metabolism); Peptides(metabolism)</ArticleMeshHeadingsList>
+            <Journal>
+                <Volume>242</Volume>
+                <Issue>4881</Issue>
+                <Title>Science</Title>
+                <Issn>1095-9203</Issn>
+                <MedlineTa>Science</MedlineTa>
+            </Journal>
+        </Article>
+        <Epitopes>
+            <Epitope>
+                <EpitopeName>Ova (323-336)</EpitopeName>
+                <EpitopeStructure>
+                    <FragmentOfANaturalSequenceMolecule>
+                        <ChemicalType>Peptide from protein</ChemicalType>
+                        <LinearSequence>ISQAVHAAHAEINE</LinearSequence>
+                        <StartingPosition>324</StartingPosition>
+                        <EndingPosition>337</EndingPosition>
+                        <SourceMolecule>
+                            <GenBankId>AAA48998.1</GenBankId>
+                        </SourceMolecule>
+                        <SourceOrganismId>9031</SourceOrganismId>
+                    </FragmentOfANaturalSequenceMolecule>
+                </EpitopeStructure>
+                <LocationOfData>Reference cited</LocationOfData>
+                <EpitopeId>28673</EpitopeId>
+                <ReferenceStartingPosition>323</ReferenceStartingPosition>
+                <ReferenceEndingPosition>336</ReferenceEndingPosition>
+                <EpitopeEvidenceCode>Exact match to reference information</EpitopeEvidenceCode>
+                <EpitopeStructureDefines>Exact Epitope</EpitopeStructureDefines>
+                <EpitopeComments>The epitope sequence is from the reference cited: Buus at al. (1986) Cell 47: 1071-7. [PMID: 3490919]  The data was originally imported from the TopBank database and recurated.</EpitopeComments>
+                <Assays>
+                    <MhcBinding>
+                        <LocationOfData>Table 1</LocationOfData>
+                        <MhcBindingId>1479639</MhcBindingId>
+                        <AssayInformation>
+                            <AssayTypeId>417</AssayTypeId>
+                            <QualitativeMeasurement>Positive-Low</QualitativeMeasurement>
+                            <QuantitativeMeasurement>2000.0</QuantitativeMeasurement>
+                            <AssayComments>The epitope competed the binding of  the radiolabelled peptide Ova(323-339) to I-Ad. Protease treatment of  the epitopic peptide abrogated the ability to compete binding.</AssayComments>
+                        </AssayInformation>
+                        <MhcAlleleId>183</MhcAlleleId>
+                    </MhcBinding>
+                </Assays>
+            </Epitope>
+        </Epitopes>
+    </Reference>
+</References>
+

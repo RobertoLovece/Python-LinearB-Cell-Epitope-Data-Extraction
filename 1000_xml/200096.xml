@@ -1,0 +1,1869 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<References xsi:schemaLocation="http://www.iedb.org/schema/CurationSchema http://beta.iedb.org/schema/Curation.xsd" xmlns="http://www.iedb.org/schema/CurationSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <Reference>
+        <ReferenceId>200096</ReferenceId>
+        <DateLastUpdated>2020-09-10-07:00</DateLastUpdated>
+        <Article>
+            <PubmedId>9831133</PubmedId>
+            <Abstract>Using short term CTL lines derived from HLA A2/Kb transgenic mice and IFN-gamma release assays we demonstrate that the NS4.1769 epitope, is generated from natural processing of the NS4 antigen, and presented in the context of the A2/Kb molecules. Interestingly, T cell recognition of the naturally processed form of the NS4. 1769 epitope was associated with significant IFN-gamma release, but no direct cytolytic activity. Epitopes of this phenotype might be of interest, in terms of therapy of chronic HCV infection by associating the benefit of localized lymphokine release with low or absent direct cytopathicity.</Abstract>
+            <ArticleYear>1998</ArticleYear>
+            <ArticlePages>776-82</ArticlePages>
+            <ArticleTitle>Recognition of a novel naturally processed, A2 restricted, HCV-NS4 epitope triggers IFN-gamma release in absence of detectable cytopathicity.</ArticleTitle>
+            <Authors>
+                <Author>
+                    <LastName>Alexander</LastName>
+                    <ForeName>J</ForeName>
+                </Author>
+                <Author>
+                    <LastName>Del Guercio</LastName>
+                    <ForeName>M F</ForeName>
+                </Author>
+                <Author>
+                    <LastName>Fikes</LastName>
+                    <ForeName>J D</ForeName>
+                </Author>
+                <Author>
+                    <LastName>Chesnut</LastName>
+                    <ForeName>R W</ForeName>
+                </Author>
+                <Author>
+                    <LastName>Chisari</LastName>
+                    <ForeName>F V</ForeName>
+                </Author>
+                <Author>
+                    <LastName>Chang</LastName>
+                    <ForeName>K M</ForeName>
+                </Author>
+                <Author>
+                    <LastName>Appella</LastName>
+                    <ForeName>E</ForeName>
+                </Author>
+                <Author>
+                    <LastName>Sette</LastName>
+                    <ForeName>A</ForeName>
+                </Author>
+            </Authors>
+            <Affiliations>Epimmune Inc., San Diego, CA 92121, USA. jalexander@epimmune.com.</Affiliations>
+            <ArticleChemicalList>Antigens, Viral;Epitopes, T-Lymphocyte;Peptide Fragments;Viral Nonstructural Proteins;Chromium;Interferon-gamma</ArticleChemicalList>
+            <ArticleMeshHeadingsList>Animals; Antigens, Viral(immunology); B-Lymphocytes(immunology); Cell Line; Chromium(metabolism); Epitopes, T-Lymphocyte(immunology); Hepacivirus(immunology); Interferon-gamma(biosynthesis; immunology); Mice; Mice, Transgenic; Peptide Fragments(biosynthesis; immunology); T-Lymphocytes, Cytotoxic(immunology); Viral Nonstructural Proteins(biosynthesis; immunology)</ArticleMeshHeadingsList>
+            <Journal>
+                <Volume>59</Volume>
+                <Issue>12</Issue>
+                <Title>Human immunology</Title>
+                <Issn>0198-8859</Issn>
+                <MedlineTa>Hum Immunol</MedlineTa>
+            </Journal>
+        </Article>
+        <Epitopes>
+            <Epitope>
+                <EpitopeName>NS1/E2 (686)</EpitopeName>
+                <EpitopeStructure>
+                    <FragmentOfANaturalSequenceMolecule>
+                        <ChemicalType>Peptide from protein</ChemicalType>
+                        <LinearSequence>ALSTGLIHL</LinearSequence>
+                        <StartingPosition>684</StartingPosition>
+                        <EndingPosition>692</EndingPosition>
+                        <SourceMolecule>
+                            <GenBankId>BAB18806.1</GenBankId>
+                        </SourceMolecule>
+                        <SourceOrganismId>11103</SourceOrganismId>
+                    </FragmentOfANaturalSequenceMolecule>
+                </EpitopeStructure>
+                <LocationOfData>Table 1</LocationOfData>
+                <EpitopeId>2901</EpitopeId>
+                <ReferenceStartingPosition>686</ReferenceStartingPosition>
+                <ReferenceEndingPosition>694</ReferenceEndingPosition>
+                <EpitopeEvidenceCode>Representative selection</EpitopeEvidenceCode>
+                <EpitopeStructureDefines>Exact Epitope</EpitopeStructureDefines>
+                <Assays>
+                    <TCell>
+                        <LocationOfData>Table 1</LocationOfData>
+                        <TCellId>1501721</TCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>10000084</OrganismId>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Administration in vivo</InVivoProcessType>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Epitope</EpitopeRelation>
+                                    <Object>
+                                        <FragmentOfANaturalSequenceMolecule>
+                                            <ChemicalType>Peptide from protein</ChemicalType>
+                                            <LinearSequence>ALSTGLIHL</LinearSequence>
+                                            <StartingPosition>684</StartingPosition>
+                                            <EndingPosition>692</EndingPosition>
+                                            <SourceMolecule>
+                                                <GenBankId>BAB18806.1</GenBankId>
+                                            </SourceMolecule>
+                                            <SourceOrganismId>11103</SourceOrganismId>
+                                        </FragmentOfANaturalSequenceMolecule>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenReferenceName>NS1/E2 (686)</ImmunogenReferenceName>
+                                <ImmunogenEvidenceCode>Exact match to reference information</ImmunogenEvidenceCode>
+                                <Adjuvant>Freund's incomplete (IFA)</Adjuvant>
+                                <Route>Subcutaneous (s.c.)</Route>
+                                <DoseSchedule>1 dose of 50ug.</DoseSchedule>
+                            </FirstInVivoProcess>
+                            <InVitroAdministration>
+                                <ProcessType>Restimulation in vitro</ProcessType>
+                                <ResponderCellType>Splenocyte</ResponderCellType>
+                                <StimulatorCellType>B cell</StimulatorCellType>
+                                <ImmunogenReferenceName>NS1/E2 (686)</ImmunogenReferenceName>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Epitope</EpitopeRelation>
+                                    <Object>
+                                        <FragmentOfANaturalSequenceMolecule>
+                                            <ChemicalType>Peptide from protein</ChemicalType>
+                                            <LinearSequence>ALSTGLIHL</LinearSequence>
+                                            <StartingPosition>684</StartingPosition>
+                                            <EndingPosition>692</EndingPosition>
+                                            <SourceMolecule>
+                                                <GenBankId>BAB18806.1</GenBankId>
+                                            </SourceMolecule>
+                                            <SourceOrganismId>11103</SourceOrganismId>
+                                        </FragmentOfANaturalSequenceMolecule>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenEvidenceCode>Exact match to reference information</ImmunogenEvidenceCode>
+                            </InVitroAdministration>
+                            <ImmunizationComments>Mice were immunized with the epitope mixed with the helper epitope HBV core 128-140. Short term CTL lines were prepared by CTL mixing with irradiated, peptide pulsed syngenics LPS blasts and irradiated syngeneic spleen cells.</ImmunizationComments>
+                        </Immunization>
+                        <EffectorCells>
+                            <CellTissueType>Spleen</CellTissueType>
+                            <CellType>Splenocyte</CellType>
+                            <CellCultureConditions>Cell Line / Clone</CellCultureConditions>
+                        </EffectorCells>
+                        <AntigenPresentingCells>
+                            <CellTissueType>Blood</CellTissueType>
+                            <CellType>B cell</CellType>
+                            <CellCultureConditions>Direct Ex Vivo</CellCultureConditions>
+                            <AutologousOrSyngeneic>Y</AutologousOrSyngeneic>
+                        </AntigenPresentingCells>
+                        <MhcAllele>
+                            <MhcAlleleId>143</MhcAlleleId>
+                            <MhcEvidenceCode>T cell assay -Single MHC type present</MhcEvidenceCode>
+                        </MhcAllele>
+                        <Antigen>
+                            <AntigenReferenceName>NS1/E2 (686)</AntigenReferenceName>
+                            <AntigenObject>
+                                <EpitopeRelation>Epitope</EpitopeRelation>
+                                <Object>
+                                    <FragmentOfANaturalSequenceMolecule>
+                                        <ChemicalType>Peptide from protein</ChemicalType>
+                                        <LinearSequence>ALSTGLIHL</LinearSequence>
+                                        <StartingPosition>684</StartingPosition>
+                                        <EndingPosition>692</EndingPosition>
+                                        <SourceMolecule>
+                                            <GenBankId>BAB18806.1</GenBankId>
+                                        </SourceMolecule>
+                                        <SourceOrganismId>11103</SourceOrganismId>
+                                    </FragmentOfANaturalSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Exact match to reference information</AntigenEvidenceCode>
+                        </Antigen>
+                        <AssayInformation>
+                            <AssayTypeId>67</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <NumberOfSubjectsTested>11</NumberOfSubjectsTested>
+                            <NumberOfSubjectsResponded>4</NumberOfSubjectsResponded>
+                            <ResponseFrequency>36.4</ResponseFrequency>
+                        </AssayInformation>
+                    </TCell>
+                </Assays>
+                <Assays>
+                    <MhcBinding>
+                        <LocationOfData>Table 1</LocationOfData>
+                        <MhcBindingId>205422</MhcBindingId>
+                        <AssayInformation>
+                            <AssayTypeId>417</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <QuantitativeMeasurement>312.5</QuantitativeMeasurement>
+                        </AssayInformation>
+                        <MhcAlleleId>143</MhcAlleleId>
+                    </MhcBinding>
+                </Assays>
+            </Epitope>
+            <Epitope>
+                <EpitopeName>Core (132)</EpitopeName>
+                <EpitopeStructure>
+                    <FragmentOfANaturalSequenceMolecule>
+                        <ChemicalType>Peptide from protein</ChemicalType>
+                        <LinearSequence>DLMGYIPLV</LinearSequence>
+                        <StartingPosition>132</StartingPosition>
+                        <EndingPosition>140</EndingPosition>
+                        <SourceMolecule>
+                            <GenBankId>BAB18806.1</GenBankId>
+                        </SourceMolecule>
+                        <SourceOrganismId>11103</SourceOrganismId>
+                    </FragmentOfANaturalSequenceMolecule>
+                </EpitopeStructure>
+                <LocationOfData>Table 1</LocationOfData>
+                <EpitopeId>9203</EpitopeId>
+                <ReferenceStartingPosition>132</ReferenceStartingPosition>
+                <ReferenceEndingPosition>140</ReferenceEndingPosition>
+                <EpitopeEvidenceCode>Representative selection</EpitopeEvidenceCode>
+                <EpitopeStructureDefines>Exact Epitope</EpitopeStructureDefines>
+                <Assays>
+                    <TCell>
+                        <LocationOfData>Table 2</LocationOfData>
+                        <TCellId>1501786</TCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>10000084</OrganismId>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Administration in vivo</InVivoProcessType>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Epitope</EpitopeRelation>
+                                    <Object>
+                                        <FragmentOfANaturalSequenceMolecule>
+                                            <ChemicalType>Peptide from protein</ChemicalType>
+                                            <LinearSequence>DLMGYIPLV</LinearSequence>
+                                            <StartingPosition>132</StartingPosition>
+                                            <EndingPosition>140</EndingPosition>
+                                            <SourceMolecule>
+                                                <GenBankId>BAB18806.1</GenBankId>
+                                            </SourceMolecule>
+                                            <SourceOrganismId>11103</SourceOrganismId>
+                                        </FragmentOfANaturalSequenceMolecule>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenReferenceName>Core (132)</ImmunogenReferenceName>
+                                <ImmunogenEvidenceCode>Exact match to reference information</ImmunogenEvidenceCode>
+                                <Adjuvant>Freund's incomplete (IFA)</Adjuvant>
+                                <Route>Subcutaneous (s.c.)</Route>
+                                <DoseSchedule>1 dose of 50ug.</DoseSchedule>
+                            </FirstInVivoProcess>
+                            <InVitroAdministration>
+                                <ProcessType>Restimulation in vitro</ProcessType>
+                                <ResponderCellType>Splenocyte</ResponderCellType>
+                                <StimulatorCellType>B cell</StimulatorCellType>
+                                <ImmunogenReferenceName>Core (132)</ImmunogenReferenceName>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Epitope</EpitopeRelation>
+                                    <Object>
+                                        <FragmentOfANaturalSequenceMolecule>
+                                            <ChemicalType>Peptide from protein</ChemicalType>
+                                            <LinearSequence>DLMGYIPLV</LinearSequence>
+                                            <StartingPosition>132</StartingPosition>
+                                            <EndingPosition>140</EndingPosition>
+                                            <SourceMolecule>
+                                                <GenBankId>BAB18806.1</GenBankId>
+                                            </SourceMolecule>
+                                            <SourceOrganismId>11103</SourceOrganismId>
+                                        </FragmentOfANaturalSequenceMolecule>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenEvidenceCode>Exact match to reference information</ImmunogenEvidenceCode>
+                            </InVitroAdministration>
+                            <ImmunizationComments>Mice were immunized with the epitope mixed with the helper epitope HBV core 128-140. Short term CTL lines were prepared by CTL mixing with irradiated, peptide pulsed syngenics LPS blasts and irradiated syngeneic spleen cells.</ImmunizationComments>
+                        </Immunization>
+                        <EffectorCells>
+                            <CellTissueType>Spleen</CellTissueType>
+                            <CellType>Splenocyte</CellType>
+                            <CellCultureConditions>Cell Line / Clone</CellCultureConditions>
+                        </EffectorCells>
+                        <AntigenPresentingCells>
+                            <CellTissueType>Blood</CellTissueType>
+                            <CellType>B cell</CellType>
+                            <CellCultureConditions>Cell Line / Clone</CellCultureConditions>
+                            <AutologousOrSyngeneic>Y</AutologousOrSyngeneic>
+                        </AntigenPresentingCells>
+                        <MhcAllele>
+                            <MhcAlleleId>143</MhcAlleleId>
+                            <MhcEvidenceCode>T cell assay -Single MHC type present</MhcEvidenceCode>
+                        </MhcAllele>
+                        <Antigen>
+                            <AntigenReferenceName>HCV</AntigenReferenceName>
+                            <AntigenObject>
+                                <EpitopeRelation>Source Organism</EpitopeRelation>
+                                <Object>
+                                    <Organism>
+                                        <SubType>Organism</SubType>
+                                        <SourceOrganismId>11103</SourceOrganismId>
+                                    </Organism>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Exact match to reference information</AntigenEvidenceCode>
+                            <AntigenContainingObject>
+                                <TransfectedCell>
+                                    <SubType>Transfected Cell</SubType>
+                                    <CellType>B cell</CellType>
+                                </TransfectedCell>
+                            </AntigenContainingObject>
+                        </Antigen>
+                        <AssayInformation>
+                            <AssayTypeId>67</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                        </AssayInformation>
+                    </TCell>
+                </Assays>
+                <Assays>
+                    <TCell>
+                        <LocationOfData>Table 2</LocationOfData>
+                        <TCellId>1501783</TCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>10000084</OrganismId>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Administration in vivo</InVivoProcessType>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Epitope</EpitopeRelation>
+                                    <Object>
+                                        <FragmentOfANaturalSequenceMolecule>
+                                            <ChemicalType>Peptide from protein</ChemicalType>
+                                            <LinearSequence>DLMGYIPLV</LinearSequence>
+                                            <StartingPosition>132</StartingPosition>
+                                            <EndingPosition>140</EndingPosition>
+                                            <SourceMolecule>
+                                                <GenBankId>BAB18806.1</GenBankId>
+                                            </SourceMolecule>
+                                            <SourceOrganismId>11103</SourceOrganismId>
+                                        </FragmentOfANaturalSequenceMolecule>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenReferenceName>Core (132)</ImmunogenReferenceName>
+                                <ImmunogenEvidenceCode>Exact match to reference information</ImmunogenEvidenceCode>
+                                <Adjuvant>Freund's incomplete (IFA)</Adjuvant>
+                                <Route>Subcutaneous (s.c.)</Route>
+                                <DoseSchedule>1 dose of 50ug.</DoseSchedule>
+                            </FirstInVivoProcess>
+                            <InVitroAdministration>
+                                <ProcessType>Restimulation in vitro</ProcessType>
+                                <ResponderCellType>Splenocyte</ResponderCellType>
+                                <StimulatorCellType>B cell</StimulatorCellType>
+                                <ImmunogenReferenceName>Core (132)</ImmunogenReferenceName>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Epitope</EpitopeRelation>
+                                    <Object>
+                                        <FragmentOfANaturalSequenceMolecule>
+                                            <ChemicalType>Peptide from protein</ChemicalType>
+                                            <LinearSequence>DLMGYIPLV</LinearSequence>
+                                            <StartingPosition>132</StartingPosition>
+                                            <EndingPosition>140</EndingPosition>
+                                            <SourceMolecule>
+                                                <GenBankId>BAB18806.1</GenBankId>
+                                            </SourceMolecule>
+                                            <SourceOrganismId>11103</SourceOrganismId>
+                                        </FragmentOfANaturalSequenceMolecule>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenEvidenceCode>Exact match to reference information</ImmunogenEvidenceCode>
+                            </InVitroAdministration>
+                            <ImmunizationComments>The immunogen is mixed epitopes including this epitope and the helper epitope HBV core 128-140. Short term CTL lines were prepared by CTL mixing with irradiated, peptide pulsed syngenics LPS blasts and irradiated syngeneic spleen cells.</ImmunizationComments>
+                        </Immunization>
+                        <EffectorCells>
+                            <CellTissueType>Spleen</CellTissueType>
+                            <CellType>Splenocyte</CellType>
+                            <CellCultureConditions>Cell Line / Clone</CellCultureConditions>
+                        </EffectorCells>
+                        <AntigenPresentingCells>
+                            <CellTissueType>Blood</CellTissueType>
+                            <CellType>B cell</CellType>
+                            <CellCultureConditions>Cell Line / Clone</CellCultureConditions>
+                            <AutologousOrSyngeneic>Y</AutologousOrSyngeneic>
+                        </AntigenPresentingCells>
+                        <MhcAllele>
+                            <MhcAlleleId>143</MhcAlleleId>
+                            <MhcEvidenceCode>T cell assay -Single MHC type present</MhcEvidenceCode>
+                        </MhcAllele>
+                        <Antigen>
+                            <AntigenReferenceName>HCV</AntigenReferenceName>
+                            <AntigenObject>
+                                <EpitopeRelation>Source Organism</EpitopeRelation>
+                                <Object>
+                                    <Organism>
+                                        <SubType>Organism</SubType>
+                                        <SourceOrganismId>11103</SourceOrganismId>
+                                    </Organism>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Exact match to reference information</AntigenEvidenceCode>
+                            <AntigenContainingObject>
+                                <TransfectedCell>
+                                    <SubType>Transfected Cell</SubType>
+                                    <CellType>B cell</CellType>
+                                </TransfectedCell>
+                            </AntigenContainingObject>
+                        </Antigen>
+                        <AssayInformation>
+                            <AssayTypeId>73</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                        </AssayInformation>
+                    </TCell>
+                </Assays>
+                <Assays>
+                    <TCell>
+                        <LocationOfData>Table 1 and figure 1A</LocationOfData>
+                        <TCellId>1501765</TCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>10000084</OrganismId>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Administration in vivo</InVivoProcessType>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Epitope</EpitopeRelation>
+                                    <Object>
+                                        <FragmentOfANaturalSequenceMolecule>
+                                            <ChemicalType>Peptide from protein</ChemicalType>
+                                            <LinearSequence>DLMGYIPLV</LinearSequence>
+                                            <StartingPosition>132</StartingPosition>
+                                            <EndingPosition>140</EndingPosition>
+                                            <SourceMolecule>
+                                                <GenBankId>BAB18806.1</GenBankId>
+                                            </SourceMolecule>
+                                            <SourceOrganismId>11103</SourceOrganismId>
+                                        </FragmentOfANaturalSequenceMolecule>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenReferenceName>Core (132)</ImmunogenReferenceName>
+                                <ImmunogenEvidenceCode>Exact match to reference information</ImmunogenEvidenceCode>
+                                <Adjuvant>Freund's incomplete (IFA)</Adjuvant>
+                                <Route>Subcutaneous (s.c.)</Route>
+                                <DoseSchedule>1 dose of 50ug.</DoseSchedule>
+                            </FirstInVivoProcess>
+                            <InVitroAdministration>
+                                <ProcessType>Restimulation in vitro</ProcessType>
+                                <ResponderCellType>Splenocyte</ResponderCellType>
+                                <StimulatorCellType>B cell</StimulatorCellType>
+                                <ImmunogenReferenceName>Core (132)</ImmunogenReferenceName>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Epitope</EpitopeRelation>
+                                    <Object>
+                                        <FragmentOfANaturalSequenceMolecule>
+                                            <ChemicalType>Peptide from protein</ChemicalType>
+                                            <LinearSequence>DLMGYIPLV</LinearSequence>
+                                            <StartingPosition>132</StartingPosition>
+                                            <EndingPosition>140</EndingPosition>
+                                            <SourceMolecule>
+                                                <GenBankId>BAB18806.1</GenBankId>
+                                            </SourceMolecule>
+                                            <SourceOrganismId>11103</SourceOrganismId>
+                                        </FragmentOfANaturalSequenceMolecule>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenEvidenceCode>Exact match to reference information</ImmunogenEvidenceCode>
+                            </InVitroAdministration>
+                            <ImmunizationComments>Mice were immunized with the epitope mixed with the helper epitope HBV core 128-140. Short term CTL lines were prepared by CTL mixing with irradiated, peptide pulsed syngenics LPS blasts and irradiated syngeneic spleen cells.</ImmunizationComments>
+                        </Immunization>
+                        <EffectorCells>
+                            <CellTissueType>Spleen</CellTissueType>
+                            <CellType>Splenocyte</CellType>
+                            <CellCultureConditions>Cell Line / Clone</CellCultureConditions>
+                        </EffectorCells>
+                        <AntigenPresentingCells>
+                            <CellTissueType>Blood</CellTissueType>
+                            <CellType>B cell</CellType>
+                            <CellCultureConditions>Direct Ex Vivo</CellCultureConditions>
+                            <AutologousOrSyngeneic>Y</AutologousOrSyngeneic>
+                        </AntigenPresentingCells>
+                        <MhcAllele>
+                            <MhcAlleleId>143</MhcAlleleId>
+                            <MhcEvidenceCode>T cell assay -Single MHC type present</MhcEvidenceCode>
+                        </MhcAllele>
+                        <Antigen>
+                            <AntigenReferenceName>Core (132)</AntigenReferenceName>
+                            <AntigenObject>
+                                <EpitopeRelation>Epitope</EpitopeRelation>
+                                <Object>
+                                    <FragmentOfANaturalSequenceMolecule>
+                                        <ChemicalType>Peptide from protein</ChemicalType>
+                                        <LinearSequence>DLMGYIPLV</LinearSequence>
+                                        <StartingPosition>132</StartingPosition>
+                                        <EndingPosition>140</EndingPosition>
+                                        <SourceMolecule>
+                                            <GenBankId>BAB18806.1</GenBankId>
+                                        </SourceMolecule>
+                                        <SourceOrganismId>11103</SourceOrganismId>
+                                    </FragmentOfANaturalSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Exact match to reference information</AntigenEvidenceCode>
+                        </Antigen>
+                        <AssayInformation>
+                            <AssayTypeId>67</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <NumberOfSubjectsTested>6</NumberOfSubjectsTested>
+                            <NumberOfSubjectsResponded>5</NumberOfSubjectsResponded>
+                            <ResponseFrequency>83.3</ResponseFrequency>
+                        </AssayInformation>
+                    </TCell>
+                </Assays>
+                <Assays>
+                    <TCell>
+                        <LocationOfData>Figure 1B</LocationOfData>
+                        <TCellId>1501775</TCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>10000084</OrganismId>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Administration in vivo</InVivoProcessType>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Epitope</EpitopeRelation>
+                                    <Object>
+                                        <FragmentOfANaturalSequenceMolecule>
+                                            <ChemicalType>Peptide from protein</ChemicalType>
+                                            <LinearSequence>DLMGYIPLV</LinearSequence>
+                                            <StartingPosition>132</StartingPosition>
+                                            <EndingPosition>140</EndingPosition>
+                                            <SourceMolecule>
+                                                <GenBankId>BAB18806.1</GenBankId>
+                                            </SourceMolecule>
+                                            <SourceOrganismId>11103</SourceOrganismId>
+                                        </FragmentOfANaturalSequenceMolecule>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenReferenceName>Core (132)</ImmunogenReferenceName>
+                                <ImmunogenEvidenceCode>Exact match to reference information</ImmunogenEvidenceCode>
+                                <Adjuvant>Freund's incomplete (IFA)</Adjuvant>
+                                <Route>Subcutaneous (s.c.)</Route>
+                                <DoseSchedule>1 dose of 50ug.</DoseSchedule>
+                            </FirstInVivoProcess>
+                            <InVitroAdministration>
+                                <ProcessType>Restimulation in vitro</ProcessType>
+                                <ResponderCellType>Splenocyte</ResponderCellType>
+                                <StimulatorCellType>B cell</StimulatorCellType>
+                                <ImmunogenReferenceName>Core (132)</ImmunogenReferenceName>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Epitope</EpitopeRelation>
+                                    <Object>
+                                        <FragmentOfANaturalSequenceMolecule>
+                                            <ChemicalType>Peptide from protein</ChemicalType>
+                                            <LinearSequence>DLMGYIPLV</LinearSequence>
+                                            <StartingPosition>132</StartingPosition>
+                                            <EndingPosition>140</EndingPosition>
+                                            <SourceMolecule>
+                                                <GenBankId>BAB18806.1</GenBankId>
+                                            </SourceMolecule>
+                                            <SourceOrganismId>11103</SourceOrganismId>
+                                        </FragmentOfANaturalSequenceMolecule>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenEvidenceCode>Exact match to reference information</ImmunogenEvidenceCode>
+                            </InVitroAdministration>
+                            <ImmunizationComments>The immunogen is mixed epitopes including this epitope and the helper epitope HBV core 128-140. Short term CTL lines were prepared by CTL mixing with irradiated, peptide pulsed syngenics LPS blasts and irradiated syngeneic spleen cells.</ImmunizationComments>
+                        </Immunization>
+                        <EffectorCells>
+                            <CellTissueType>Spleen</CellTissueType>
+                            <CellType>Splenocyte</CellType>
+                            <CellCultureConditions>Cell Line / Clone</CellCultureConditions>
+                        </EffectorCells>
+                        <AntigenPresentingCells>
+                            <CellTissueType>Blood</CellTissueType>
+                            <CellType>B cell</CellType>
+                            <CellCultureConditions>Direct Ex Vivo</CellCultureConditions>
+                            <AutologousOrSyngeneic>Y</AutologousOrSyngeneic>
+                        </AntigenPresentingCells>
+                        <MhcAllele>
+                            <MhcAlleleId>143</MhcAlleleId>
+                            <MhcEvidenceCode>T cell assay -Single MHC type present</MhcEvidenceCode>
+                        </MhcAllele>
+                        <Antigen>
+                            <AntigenReferenceName>Core (132)</AntigenReferenceName>
+                            <AntigenObject>
+                                <EpitopeRelation>Epitope</EpitopeRelation>
+                                <Object>
+                                    <FragmentOfANaturalSequenceMolecule>
+                                        <ChemicalType>Peptide from protein</ChemicalType>
+                                        <LinearSequence>DLMGYIPLV</LinearSequence>
+                                        <StartingPosition>132</StartingPosition>
+                                        <EndingPosition>140</EndingPosition>
+                                        <SourceMolecule>
+                                            <GenBankId>BAB18806.1</GenBankId>
+                                        </SourceMolecule>
+                                        <SourceOrganismId>11103</SourceOrganismId>
+                                    </FragmentOfANaturalSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Exact match to reference information</AntigenEvidenceCode>
+                        </Antigen>
+                        <AssayInformation>
+                            <AssayTypeId>73</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                        </AssayInformation>
+                    </TCell>
+                </Assays>
+                <Assays>
+                    <MhcBinding>
+                        <LocationOfData>Table 1</LocationOfData>
+                        <MhcBindingId>205423</MhcBindingId>
+                        <AssayInformation>
+                            <AssayTypeId>417</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <QuantitativeMeasurement>80.0</QuantitativeMeasurement>
+                        </AssayInformation>
+                        <MhcAlleleId>143</MhcAlleleId>
+                    </MhcBinding>
+                </Assays>
+            </Epitope>
+            <Epitope>
+                <EpitopeName>NS1/E2 (728)</EpitopeName>
+                <EpitopeStructure>
+                    <FragmentOfANaturalSequenceMolecule>
+                        <ChemicalType>Peptide from protein</ChemicalType>
+                        <LinearSequence>FLLLADARV</LinearSequence>
+                        <StartingPosition>723</StartingPosition>
+                        <EndingPosition>731</EndingPosition>
+                        <SourceMolecule>
+                            <GenBankId>BAB18806.1</GenBankId>
+                        </SourceMolecule>
+                        <SourceOrganismId>11103</SourceOrganismId>
+                    </FragmentOfANaturalSequenceMolecule>
+                </EpitopeStructure>
+                <LocationOfData>Table 1</LocationOfData>
+                <EpitopeId>16725</EpitopeId>
+                <ReferenceStartingPosition>728</ReferenceStartingPosition>
+                <ReferenceEndingPosition>736</ReferenceEndingPosition>
+                <EpitopeEvidenceCode>Representative selection</EpitopeEvidenceCode>
+                <EpitopeStructureDefines>Exact Epitope</EpitopeStructureDefines>
+                <Assays>
+                    <TCell>
+                        <LocationOfData>Table 1</LocationOfData>
+                        <TCellId>1501766</TCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>10000084</OrganismId>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Administration in vivo</InVivoProcessType>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Epitope</EpitopeRelation>
+                                    <Object>
+                                        <FragmentOfANaturalSequenceMolecule>
+                                            <ChemicalType>Peptide from protein</ChemicalType>
+                                            <LinearSequence>FLLLADARV</LinearSequence>
+                                            <StartingPosition>723</StartingPosition>
+                                            <EndingPosition>731</EndingPosition>
+                                            <SourceMolecule>
+                                                <GenBankId>BAB18806.1</GenBankId>
+                                            </SourceMolecule>
+                                            <SourceOrganismId>11103</SourceOrganismId>
+                                        </FragmentOfANaturalSequenceMolecule>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenReferenceName>NS1/E2 (728)</ImmunogenReferenceName>
+                                <ImmunogenEvidenceCode>Exact match to reference information</ImmunogenEvidenceCode>
+                                <Adjuvant>Freund's incomplete (IFA)</Adjuvant>
+                                <Route>Subcutaneous (s.c.)</Route>
+                                <DoseSchedule>1 dose of 50ug.</DoseSchedule>
+                            </FirstInVivoProcess>
+                            <InVitroAdministration>
+                                <ProcessType>Restimulation in vitro</ProcessType>
+                                <ResponderCellType>Splenocyte</ResponderCellType>
+                                <StimulatorCellType>B cell</StimulatorCellType>
+                                <ImmunogenReferenceName>NS1/E2 (728)</ImmunogenReferenceName>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Epitope</EpitopeRelation>
+                                    <Object>
+                                        <FragmentOfANaturalSequenceMolecule>
+                                            <ChemicalType>Peptide from protein</ChemicalType>
+                                            <LinearSequence>FLLLADARV</LinearSequence>
+                                            <StartingPosition>723</StartingPosition>
+                                            <EndingPosition>731</EndingPosition>
+                                            <SourceMolecule>
+                                                <GenBankId>BAB18806.1</GenBankId>
+                                            </SourceMolecule>
+                                            <SourceOrganismId>11103</SourceOrganismId>
+                                        </FragmentOfANaturalSequenceMolecule>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenEvidenceCode>Exact match to reference information</ImmunogenEvidenceCode>
+                            </InVitroAdministration>
+                            <ImmunizationComments>Mice were immunized with the epitope mixed with the helper epitope HBV core 128-140. Short term CTL lines were prepared by CTL mixing with irradiated, peptide pulsed syngenics LPS blasts and irradiated syngeneic spleen cells.</ImmunizationComments>
+                        </Immunization>
+                        <EffectorCells>
+                            <CellTissueType>Spleen</CellTissueType>
+                            <CellType>Splenocyte</CellType>
+                            <CellCultureConditions>Cell Line / Clone</CellCultureConditions>
+                        </EffectorCells>
+                        <AntigenPresentingCells>
+                            <CellTissueType>Blood</CellTissueType>
+                            <CellType>B cell</CellType>
+                            <CellCultureConditions>Direct Ex Vivo</CellCultureConditions>
+                            <AutologousOrSyngeneic>Y</AutologousOrSyngeneic>
+                        </AntigenPresentingCells>
+                        <MhcAllele>
+                            <MhcAlleleId>143</MhcAlleleId>
+                            <MhcEvidenceCode>T cell assay -Single MHC type present</MhcEvidenceCode>
+                        </MhcAllele>
+                        <Antigen>
+                            <AntigenReferenceName>NS1/E2 (728)</AntigenReferenceName>
+                            <AntigenObject>
+                                <EpitopeRelation>Epitope</EpitopeRelation>
+                                <Object>
+                                    <FragmentOfANaturalSequenceMolecule>
+                                        <ChemicalType>Peptide from protein</ChemicalType>
+                                        <LinearSequence>FLLLADARV</LinearSequence>
+                                        <StartingPosition>723</StartingPosition>
+                                        <EndingPosition>731</EndingPosition>
+                                        <SourceMolecule>
+                                            <GenBankId>BAB18806.1</GenBankId>
+                                        </SourceMolecule>
+                                        <SourceOrganismId>11103</SourceOrganismId>
+                                    </FragmentOfANaturalSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Exact match to reference information</AntigenEvidenceCode>
+                        </Antigen>
+                        <AssayInformation>
+                            <AssayTypeId>67</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <NumberOfSubjectsTested>6</NumberOfSubjectsTested>
+                            <NumberOfSubjectsResponded>5</NumberOfSubjectsResponded>
+                            <ResponseFrequency>83.3</ResponseFrequency>
+                        </AssayInformation>
+                    </TCell>
+                </Assays>
+                <Assays>
+                    <MhcBinding>
+                        <LocationOfData>Table 1</LocationOfData>
+                        <MhcBindingId>205424</MhcBindingId>
+                        <AssayInformation>
+                            <AssayTypeId>417</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <QuantitativeMeasurement>18.2</QuantitativeMeasurement>
+                        </AssayInformation>
+                        <MhcAlleleId>143</MhcAlleleId>
+                    </MhcBinding>
+                </Assays>
+            </Epitope>
+            <Epitope>
+                <EpitopeName>NS4 (1769)</EpitopeName>
+                <EpitopeStructure>
+                    <FragmentOfANaturalSequenceMolecule>
+                        <ChemicalType>Peptide from protein</ChemicalType>
+                        <LinearSequence>HMWNFISGI</LinearSequence>
+                        <StartingPosition>1764</StartingPosition>
+                        <EndingPosition>1772</EndingPosition>
+                        <SourceMolecule>
+                            <GenBankId>BAB18806.1</GenBankId>
+                        </SourceMolecule>
+                        <SourceOrganismId>11103</SourceOrganismId>
+                    </FragmentOfANaturalSequenceMolecule>
+                </EpitopeStructure>
+                <LocationOfData>Table 1</LocationOfData>
+                <EpitopeId>24357</EpitopeId>
+                <ReferenceStartingPosition>1590</ReferenceStartingPosition>
+                <ReferenceEndingPosition>1598</ReferenceEndingPosition>
+                <EpitopeEvidenceCode>Representative selection</EpitopeEvidenceCode>
+                <EpitopeStructureDefines>Exact Epitope</EpitopeStructureDefines>
+                <Assays>
+                    <TCell>
+                        <LocationOfData>Table 2</LocationOfData>
+                        <TCellId>1501780</TCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>10000084</OrganismId>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Administration in vivo</InVivoProcessType>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Epitope</EpitopeRelation>
+                                    <Object>
+                                        <FragmentOfANaturalSequenceMolecule>
+                                            <ChemicalType>Peptide from protein</ChemicalType>
+                                            <LinearSequence>HMWNFISGI</LinearSequence>
+                                            <StartingPosition>1764</StartingPosition>
+                                            <EndingPosition>1772</EndingPosition>
+                                            <SourceMolecule>
+                                                <GenBankId>BAB18806.1</GenBankId>
+                                            </SourceMolecule>
+                                            <SourceOrganismId>11103</SourceOrganismId>
+                                        </FragmentOfANaturalSequenceMolecule>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenReferenceName>NS4 (1769)</ImmunogenReferenceName>
+                                <ImmunogenEvidenceCode>Exact match to reference information</ImmunogenEvidenceCode>
+                                <Adjuvant>Freund's incomplete (IFA)</Adjuvant>
+                                <Route>Subcutaneous (s.c.)</Route>
+                                <DoseSchedule>1 dose of 50ug.</DoseSchedule>
+                            </FirstInVivoProcess>
+                            <InVitroAdministration>
+                                <ProcessType>Restimulation in vitro</ProcessType>
+                                <ResponderCellType>Splenocyte</ResponderCellType>
+                                <StimulatorCellType>B cell</StimulatorCellType>
+                                <ImmunogenReferenceName>NS4 (1769)</ImmunogenReferenceName>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Epitope</EpitopeRelation>
+                                    <Object>
+                                        <FragmentOfANaturalSequenceMolecule>
+                                            <ChemicalType>Peptide from protein</ChemicalType>
+                                            <LinearSequence>HMWNFISGI</LinearSequence>
+                                            <StartingPosition>1764</StartingPosition>
+                                            <EndingPosition>1772</EndingPosition>
+                                            <SourceMolecule>
+                                                <GenBankId>BAB18806.1</GenBankId>
+                                            </SourceMolecule>
+                                            <SourceOrganismId>11103</SourceOrganismId>
+                                        </FragmentOfANaturalSequenceMolecule>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenEvidenceCode>Exact match to reference information</ImmunogenEvidenceCode>
+                            </InVitroAdministration>
+                            <ImmunizationComments>Mice were immunized with the epitope mixed with the helper epitope HBV core 128-140. Short term CTL lines were prepared by CTL mixing with irradiated, peptide pulsed syngenics LPS blasts and irradiated syngeneic spleen cells.</ImmunizationComments>
+                        </Immunization>
+                        <EffectorCells>
+                            <CellTissueType>Spleen</CellTissueType>
+                            <CellType>Splenocyte</CellType>
+                            <CellCultureConditions>Cell Line / Clone</CellCultureConditions>
+                        </EffectorCells>
+                        <AntigenPresentingCells>
+                            <CellTissueType>Blood</CellTissueType>
+                            <CellType>B cell</CellType>
+                            <CellCultureConditions>Cell Line / Clone</CellCultureConditions>
+                            <AutologousOrSyngeneic>Y</AutologousOrSyngeneic>
+                        </AntigenPresentingCells>
+                        <MhcAllele>
+                            <MhcAlleleId>143</MhcAlleleId>
+                            <MhcEvidenceCode>T cell assay -Single MHC type present</MhcEvidenceCode>
+                        </MhcAllele>
+                        <Antigen>
+                            <AntigenReferenceName>HCV</AntigenReferenceName>
+                            <AntigenObject>
+                                <EpitopeRelation>Source Organism</EpitopeRelation>
+                                <Object>
+                                    <Organism>
+                                        <SubType>Organism</SubType>
+                                        <SourceOrganismId>11103</SourceOrganismId>
+                                    </Organism>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Exact match to reference information</AntigenEvidenceCode>
+                            <AntigenContainingObject>
+                                <TransfectedCell>
+                                    <SubType>Transfected Cell</SubType>
+                                    <CellType>B cell</CellType>
+                                </TransfectedCell>
+                            </AntigenContainingObject>
+                        </Antigen>
+                        <AssayInformation>
+                            <AssayTypeId>73</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                        </AssayInformation>
+                    </TCell>
+                </Assays>
+                <Assays>
+                    <TCell>
+                        <LocationOfData>Table 1 and figure 1A</LocationOfData>
+                        <TCellId>1501767</TCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>10000084</OrganismId>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Administration in vivo</InVivoProcessType>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Epitope</EpitopeRelation>
+                                    <Object>
+                                        <FragmentOfANaturalSequenceMolecule>
+                                            <ChemicalType>Peptide from protein</ChemicalType>
+                                            <LinearSequence>HMWNFISGI</LinearSequence>
+                                            <StartingPosition>1764</StartingPosition>
+                                            <EndingPosition>1772</EndingPosition>
+                                            <SourceMolecule>
+                                                <GenBankId>BAB18806.1</GenBankId>
+                                            </SourceMolecule>
+                                            <SourceOrganismId>11103</SourceOrganismId>
+                                        </FragmentOfANaturalSequenceMolecule>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenReferenceName>NS4 (1769)</ImmunogenReferenceName>
+                                <ImmunogenEvidenceCode>Exact match to reference information</ImmunogenEvidenceCode>
+                                <Adjuvant>Freund's incomplete (IFA)</Adjuvant>
+                                <Route>Subcutaneous (s.c.)</Route>
+                                <DoseSchedule>1 dose of 50ug.</DoseSchedule>
+                            </FirstInVivoProcess>
+                            <InVitroAdministration>
+                                <ProcessType>Restimulation in vitro</ProcessType>
+                                <ResponderCellType>Splenocyte</ResponderCellType>
+                                <StimulatorCellType>B cell</StimulatorCellType>
+                                <ImmunogenReferenceName>NS4 (1769)</ImmunogenReferenceName>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Epitope</EpitopeRelation>
+                                    <Object>
+                                        <FragmentOfANaturalSequenceMolecule>
+                                            <ChemicalType>Peptide from protein</ChemicalType>
+                                            <LinearSequence>HMWNFISGI</LinearSequence>
+                                            <StartingPosition>1764</StartingPosition>
+                                            <EndingPosition>1772</EndingPosition>
+                                            <SourceMolecule>
+                                                <GenBankId>BAB18806.1</GenBankId>
+                                            </SourceMolecule>
+                                            <SourceOrganismId>11103</SourceOrganismId>
+                                        </FragmentOfANaturalSequenceMolecule>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenEvidenceCode>Exact match to reference information</ImmunogenEvidenceCode>
+                            </InVitroAdministration>
+                            <ImmunizationComments>Mice were immunized with the epitope mixed with the helper epitope HBV core 128-140. Short term CTL lines were prepared by CTL mixing with irradiated, peptide pulsed syngenics LPS blasts and irradiated syngeneic spleen cells.</ImmunizationComments>
+                        </Immunization>
+                        <EffectorCells>
+                            <CellTissueType>Spleen</CellTissueType>
+                            <CellType>Splenocyte</CellType>
+                            <CellCultureConditions>Cell Line / Clone</CellCultureConditions>
+                        </EffectorCells>
+                        <AntigenPresentingCells>
+                            <CellTissueType>Blood</CellTissueType>
+                            <CellType>B cell</CellType>
+                            <CellCultureConditions>Direct Ex Vivo</CellCultureConditions>
+                            <AutologousOrSyngeneic>Y</AutologousOrSyngeneic>
+                        </AntigenPresentingCells>
+                        <MhcAllele>
+                            <MhcAlleleId>143</MhcAlleleId>
+                            <MhcEvidenceCode>T cell assay -Single MHC type present</MhcEvidenceCode>
+                        </MhcAllele>
+                        <Antigen>
+                            <AntigenReferenceName>NS4 (1769)</AntigenReferenceName>
+                            <AntigenObject>
+                                <EpitopeRelation>Epitope</EpitopeRelation>
+                                <Object>
+                                    <FragmentOfANaturalSequenceMolecule>
+                                        <ChemicalType>Peptide from protein</ChemicalType>
+                                        <LinearSequence>HMWNFISGI</LinearSequence>
+                                        <StartingPosition>1764</StartingPosition>
+                                        <EndingPosition>1772</EndingPosition>
+                                        <SourceMolecule>
+                                            <GenBankId>BAB18806.1</GenBankId>
+                                        </SourceMolecule>
+                                        <SourceOrganismId>11103</SourceOrganismId>
+                                    </FragmentOfANaturalSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Exact match to reference information</AntigenEvidenceCode>
+                        </Antigen>
+                        <AssayInformation>
+                            <AssayTypeId>67</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <NumberOfSubjectsTested>6</NumberOfSubjectsTested>
+                            <NumberOfSubjectsResponded>6</NumberOfSubjectsResponded>
+                            <ResponseFrequency>100</ResponseFrequency>
+                        </AssayInformation>
+                    </TCell>
+                </Assays>
+                <Assays>
+                    <TCell>
+                        <LocationOfData>Figure 1B</LocationOfData>
+                        <TCellId>1501773</TCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>10000084</OrganismId>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Administration in vivo</InVivoProcessType>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Epitope</EpitopeRelation>
+                                    <Object>
+                                        <FragmentOfANaturalSequenceMolecule>
+                                            <ChemicalType>Peptide from protein</ChemicalType>
+                                            <LinearSequence>HMWNFISGI</LinearSequence>
+                                            <StartingPosition>1764</StartingPosition>
+                                            <EndingPosition>1772</EndingPosition>
+                                            <SourceMolecule>
+                                                <GenBankId>BAB18806.1</GenBankId>
+                                            </SourceMolecule>
+                                            <SourceOrganismId>11103</SourceOrganismId>
+                                        </FragmentOfANaturalSequenceMolecule>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenReferenceName>NS4 (1769)</ImmunogenReferenceName>
+                                <ImmunogenEvidenceCode>Exact match to reference information</ImmunogenEvidenceCode>
+                                <Adjuvant>Freund's incomplete (IFA)</Adjuvant>
+                                <Route>Subcutaneous (s.c.)</Route>
+                                <DoseSchedule>1 dose of 50ug.</DoseSchedule>
+                            </FirstInVivoProcess>
+                            <InVitroAdministration>
+                                <ProcessType>Restimulation in vitro</ProcessType>
+                                <ResponderCellType>Splenocyte</ResponderCellType>
+                                <StimulatorCellType>B cell</StimulatorCellType>
+                                <ImmunogenReferenceName>NS4 (1769)</ImmunogenReferenceName>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Epitope</EpitopeRelation>
+                                    <Object>
+                                        <FragmentOfANaturalSequenceMolecule>
+                                            <ChemicalType>Peptide from protein</ChemicalType>
+                                            <LinearSequence>HMWNFISGI</LinearSequence>
+                                            <StartingPosition>1764</StartingPosition>
+                                            <EndingPosition>1772</EndingPosition>
+                                            <SourceMolecule>
+                                                <GenBankId>BAB18806.1</GenBankId>
+                                            </SourceMolecule>
+                                            <SourceOrganismId>11103</SourceOrganismId>
+                                        </FragmentOfANaturalSequenceMolecule>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenEvidenceCode>Exact match to reference information</ImmunogenEvidenceCode>
+                            </InVitroAdministration>
+                            <ImmunizationComments>The immunogen is mixed epitopes including this epitope and the helper epitope HBV core 128-140. Short term CTL lines were prepared by CTL mixing with irradiated, peptide pulsed syngenics LPS blasts and irradiated syngeneic spleen cells.</ImmunizationComments>
+                        </Immunization>
+                        <EffectorCells>
+                            <CellTissueType>Spleen</CellTissueType>
+                            <CellType>Splenocyte</CellType>
+                            <CellCultureConditions>Cell Line / Clone</CellCultureConditions>
+                        </EffectorCells>
+                        <AntigenPresentingCells>
+                            <CellTissueType>Blood</CellTissueType>
+                            <CellType>B cell</CellType>
+                            <CellCultureConditions>Direct Ex Vivo</CellCultureConditions>
+                            <AutologousOrSyngeneic>Y</AutologousOrSyngeneic>
+                        </AntigenPresentingCells>
+                        <MhcAllele>
+                            <MhcAlleleId>143</MhcAlleleId>
+                            <MhcEvidenceCode>T cell assay -Single MHC type present</MhcEvidenceCode>
+                        </MhcAllele>
+                        <Antigen>
+                            <AntigenReferenceName>NS4 (1769)</AntigenReferenceName>
+                            <AntigenObject>
+                                <EpitopeRelation>Epitope</EpitopeRelation>
+                                <Object>
+                                    <FragmentOfANaturalSequenceMolecule>
+                                        <ChemicalType>Peptide from protein</ChemicalType>
+                                        <LinearSequence>HMWNFISGI</LinearSequence>
+                                        <StartingPosition>1764</StartingPosition>
+                                        <EndingPosition>1772</EndingPosition>
+                                        <SourceMolecule>
+                                            <GenBankId>BAB18806.1</GenBankId>
+                                        </SourceMolecule>
+                                        <SourceOrganismId>11103</SourceOrganismId>
+                                    </FragmentOfANaturalSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Exact match to reference information</AntigenEvidenceCode>
+                        </Antigen>
+                        <AssayInformation>
+                            <AssayTypeId>73</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                        </AssayInformation>
+                    </TCell>
+                </Assays>
+                <Assays>
+                    <MhcBinding>
+                        <LocationOfData>Table 1</LocationOfData>
+                        <MhcBindingId>205425</MhcBindingId>
+                        <AssayInformation>
+                            <AssayTypeId>417</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <QuantitativeMeasurement>15.2</QuantitativeMeasurement>
+                        </AssayInformation>
+                        <MhcAlleleId>143</MhcAlleleId>
+                    </MhcBinding>
+                </Assays>
+            </Epitope>
+            <Epitope>
+                <EpitopeName>NS4 (1851)</EpitopeName>
+                <EpitopeStructure>
+                    <FragmentOfANaturalSequenceMolecule>
+                        <ChemicalType>Peptide from protein</ChemicalType>
+                        <LinearSequence>ILAGYGAGV</LinearSequence>
+                        <StartingPosition>1851</StartingPosition>
+                        <EndingPosition>1859</EndingPosition>
+                        <SourceMolecule>
+                            <GenBankId>BAB18806.1</GenBankId>
+                        </SourceMolecule>
+                        <SourceOrganismId>11103</SourceOrganismId>
+                    </FragmentOfANaturalSequenceMolecule>
+                </EpitopeStructure>
+                <LocationOfData>Table 1</LocationOfData>
+                <EpitopeId>26954</EpitopeId>
+                <ReferenceStartingPosition>1851</ReferenceStartingPosition>
+                <ReferenceEndingPosition>1859</ReferenceEndingPosition>
+                <EpitopeEvidenceCode>Representative selection</EpitopeEvidenceCode>
+                <EpitopeStructureDefines>Exact Epitope</EpitopeStructureDefines>
+                <Assays>
+                    <TCell>
+                        <LocationOfData>Table 1 and figure 1A</LocationOfData>
+                        <TCellId>1501768</TCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>10000084</OrganismId>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Administration in vivo</InVivoProcessType>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Epitope</EpitopeRelation>
+                                    <Object>
+                                        <FragmentOfANaturalSequenceMolecule>
+                                            <ChemicalType>Peptide from protein</ChemicalType>
+                                            <LinearSequence>ILAGYGAGV</LinearSequence>
+                                            <StartingPosition>1851</StartingPosition>
+                                            <EndingPosition>1859</EndingPosition>
+                                            <SourceMolecule>
+                                                <GenBankId>BAB18806.1</GenBankId>
+                                            </SourceMolecule>
+                                            <SourceOrganismId>11103</SourceOrganismId>
+                                        </FragmentOfANaturalSequenceMolecule>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenReferenceName>NS4 (1851)</ImmunogenReferenceName>
+                                <ImmunogenEvidenceCode>Exact match to reference information</ImmunogenEvidenceCode>
+                                <Adjuvant>Freund's incomplete (IFA)</Adjuvant>
+                                <Route>Subcutaneous (s.c.)</Route>
+                                <DoseSchedule>1 dose of 50ug.</DoseSchedule>
+                            </FirstInVivoProcess>
+                            <InVitroAdministration>
+                                <ProcessType>Restimulation in vitro</ProcessType>
+                                <ResponderCellType>Splenocyte</ResponderCellType>
+                                <StimulatorCellType>B cell</StimulatorCellType>
+                                <ImmunogenReferenceName>NS4 (1851)</ImmunogenReferenceName>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Epitope</EpitopeRelation>
+                                    <Object>
+                                        <FragmentOfANaturalSequenceMolecule>
+                                            <ChemicalType>Peptide from protein</ChemicalType>
+                                            <LinearSequence>ILAGYGAGV</LinearSequence>
+                                            <StartingPosition>1851</StartingPosition>
+                                            <EndingPosition>1859</EndingPosition>
+                                            <SourceMolecule>
+                                                <GenBankId>BAB18806.1</GenBankId>
+                                            </SourceMolecule>
+                                            <SourceOrganismId>11103</SourceOrganismId>
+                                        </FragmentOfANaturalSequenceMolecule>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenEvidenceCode>Exact match to reference information</ImmunogenEvidenceCode>
+                            </InVitroAdministration>
+                            <ImmunizationComments>Mice were immunized with the epitope mixed with the helper epitope HBV core 128-140. Short term CTL lines were prepared by CTL mixing with irradiated, peptide pulsed syngenics LPS blasts and irradiated syngeneic spleen cells.</ImmunizationComments>
+                        </Immunization>
+                        <EffectorCells>
+                            <CellTissueType>Spleen</CellTissueType>
+                            <CellType>Splenocyte</CellType>
+                            <CellCultureConditions>Cell Line / Clone</CellCultureConditions>
+                        </EffectorCells>
+                        <AntigenPresentingCells>
+                            <CellTissueType>Blood</CellTissueType>
+                            <CellType>B cell</CellType>
+                            <CellCultureConditions>Direct Ex Vivo</CellCultureConditions>
+                            <AutologousOrSyngeneic>Y</AutologousOrSyngeneic>
+                        </AntigenPresentingCells>
+                        <MhcAllele>
+                            <MhcAlleleId>143</MhcAlleleId>
+                            <MhcEvidenceCode>T cell assay -Single MHC type present</MhcEvidenceCode>
+                        </MhcAllele>
+                        <Antigen>
+                            <AntigenReferenceName>NS4 (1851)</AntigenReferenceName>
+                            <AntigenObject>
+                                <EpitopeRelation>Epitope</EpitopeRelation>
+                                <Object>
+                                    <FragmentOfANaturalSequenceMolecule>
+                                        <ChemicalType>Peptide from protein</ChemicalType>
+                                        <LinearSequence>ILAGYGAGV</LinearSequence>
+                                        <StartingPosition>1851</StartingPosition>
+                                        <EndingPosition>1859</EndingPosition>
+                                        <SourceMolecule>
+                                            <GenBankId>BAB18806.1</GenBankId>
+                                        </SourceMolecule>
+                                        <SourceOrganismId>11103</SourceOrganismId>
+                                    </FragmentOfANaturalSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Exact match to reference information</AntigenEvidenceCode>
+                        </Antigen>
+                        <AssayInformation>
+                            <AssayTypeId>67</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <NumberOfSubjectsTested>6</NumberOfSubjectsTested>
+                            <NumberOfSubjectsResponded>3</NumberOfSubjectsResponded>
+                            <ResponseFrequency>50</ResponseFrequency>
+                        </AssayInformation>
+                    </TCell>
+                </Assays>
+                <Assays>
+                    <TCell>
+                        <LocationOfData>Table 2</LocationOfData>
+                        <TCellId>1501785</TCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>10000084</OrganismId>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Administration in vivo</InVivoProcessType>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Epitope</EpitopeRelation>
+                                    <Object>
+                                        <FragmentOfANaturalSequenceMolecule>
+                                            <ChemicalType>Peptide from protein</ChemicalType>
+                                            <LinearSequence>ILAGYGAGV</LinearSequence>
+                                            <StartingPosition>1851</StartingPosition>
+                                            <EndingPosition>1859</EndingPosition>
+                                            <SourceMolecule>
+                                                <GenBankId>BAB18806.1</GenBankId>
+                                            </SourceMolecule>
+                                            <SourceOrganismId>11103</SourceOrganismId>
+                                        </FragmentOfANaturalSequenceMolecule>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenReferenceName>NS4 (1851)</ImmunogenReferenceName>
+                                <ImmunogenEvidenceCode>Exact match to reference information</ImmunogenEvidenceCode>
+                                <Adjuvant>Freund's incomplete (IFA)</Adjuvant>
+                                <Route>Subcutaneous (s.c.)</Route>
+                                <DoseSchedule>1 dose of 50ug.</DoseSchedule>
+                            </FirstInVivoProcess>
+                            <InVitroAdministration>
+                                <ProcessType>Restimulation in vitro</ProcessType>
+                                <ResponderCellType>Splenocyte</ResponderCellType>
+                                <StimulatorCellType>B cell</StimulatorCellType>
+                                <ImmunogenReferenceName>NS4 (1851)</ImmunogenReferenceName>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Epitope</EpitopeRelation>
+                                    <Object>
+                                        <FragmentOfANaturalSequenceMolecule>
+                                            <ChemicalType>Peptide from protein</ChemicalType>
+                                            <LinearSequence>ILAGYGAGV</LinearSequence>
+                                            <StartingPosition>1851</StartingPosition>
+                                            <EndingPosition>1859</EndingPosition>
+                                            <SourceMolecule>
+                                                <GenBankId>BAB18806.1</GenBankId>
+                                            </SourceMolecule>
+                                            <SourceOrganismId>11103</SourceOrganismId>
+                                        </FragmentOfANaturalSequenceMolecule>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenEvidenceCode>Exact match to reference information</ImmunogenEvidenceCode>
+                            </InVitroAdministration>
+                            <ImmunizationComments>Mice were immunized with the epitope mixed with the helper epitope HBV core 128-140. Short term CTL lines were prepared by CTL mixing with irradiated, peptide pulsed syngenics LPS blasts and irradiated syngeneic spleen cells.</ImmunizationComments>
+                        </Immunization>
+                        <EffectorCells>
+                            <CellTissueType>Spleen</CellTissueType>
+                            <CellType>Splenocyte</CellType>
+                            <CellCultureConditions>Cell Line / Clone</CellCultureConditions>
+                        </EffectorCells>
+                        <AntigenPresentingCells>
+                            <CellTissueType>Blood</CellTissueType>
+                            <CellType>B cell</CellType>
+                            <CellCultureConditions>Cell Line / Clone</CellCultureConditions>
+                            <AutologousOrSyngeneic>Y</AutologousOrSyngeneic>
+                        </AntigenPresentingCells>
+                        <MhcAllele>
+                            <MhcAlleleId>143</MhcAlleleId>
+                            <MhcEvidenceCode>T cell assay -Single MHC type present</MhcEvidenceCode>
+                        </MhcAllele>
+                        <Antigen>
+                            <AntigenReferenceName>HCV</AntigenReferenceName>
+                            <AntigenObject>
+                                <EpitopeRelation>Source Organism</EpitopeRelation>
+                                <Object>
+                                    <Organism>
+                                        <SubType>Organism</SubType>
+                                        <SourceOrganismId>11103</SourceOrganismId>
+                                    </Organism>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Exact match to reference information</AntigenEvidenceCode>
+                            <AntigenContainingObject>
+                                <TransfectedCell>
+                                    <SubType>Transfected Cell</SubType>
+                                    <CellType>B cell</CellType>
+                                </TransfectedCell>
+                            </AntigenContainingObject>
+                        </Antigen>
+                        <AssayInformation>
+                            <AssayTypeId>67</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                        </AssayInformation>
+                    </TCell>
+                </Assays>
+                <Assays>
+                    <TCell>
+                        <LocationOfData>Table 2</LocationOfData>
+                        <TCellId>1501784</TCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>10000084</OrganismId>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Administration in vivo</InVivoProcessType>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Epitope</EpitopeRelation>
+                                    <Object>
+                                        <FragmentOfANaturalSequenceMolecule>
+                                            <ChemicalType>Peptide from protein</ChemicalType>
+                                            <LinearSequence>ILAGYGAGV</LinearSequence>
+                                            <StartingPosition>1851</StartingPosition>
+                                            <EndingPosition>1859</EndingPosition>
+                                            <SourceMolecule>
+                                                <GenBankId>BAB18806.1</GenBankId>
+                                            </SourceMolecule>
+                                            <SourceOrganismId>11103</SourceOrganismId>
+                                        </FragmentOfANaturalSequenceMolecule>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenReferenceName>NS4 (1851)</ImmunogenReferenceName>
+                                <ImmunogenEvidenceCode>Exact match to reference information</ImmunogenEvidenceCode>
+                                <Adjuvant>Freund's incomplete (IFA)</Adjuvant>
+                                <Route>Subcutaneous (s.c.)</Route>
+                                <DoseSchedule>1 dose of 50ug.</DoseSchedule>
+                            </FirstInVivoProcess>
+                            <InVitroAdministration>
+                                <ProcessType>Restimulation in vitro</ProcessType>
+                                <ResponderCellType>Splenocyte</ResponderCellType>
+                                <StimulatorCellType>B cell</StimulatorCellType>
+                                <ImmunogenReferenceName>NS4 (1851)</ImmunogenReferenceName>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Epitope</EpitopeRelation>
+                                    <Object>
+                                        <FragmentOfANaturalSequenceMolecule>
+                                            <ChemicalType>Peptide from protein</ChemicalType>
+                                            <LinearSequence>ILAGYGAGV</LinearSequence>
+                                            <StartingPosition>1851</StartingPosition>
+                                            <EndingPosition>1859</EndingPosition>
+                                            <SourceMolecule>
+                                                <GenBankId>BAB18806.1</GenBankId>
+                                            </SourceMolecule>
+                                            <SourceOrganismId>11103</SourceOrganismId>
+                                        </FragmentOfANaturalSequenceMolecule>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenEvidenceCode>Exact match to reference information</ImmunogenEvidenceCode>
+                            </InVitroAdministration>
+                            <ImmunizationComments>Mice were immunized with the epitope mixed with the helper epitope HBV core 128-140. Short term CTL lines were prepared by CTL mixing with irradiated, peptide pulsed syngenics LPS blasts and irradiated syngeneic spleen cells.</ImmunizationComments>
+                        </Immunization>
+                        <EffectorCells>
+                            <CellTissueType>Spleen</CellTissueType>
+                            <CellType>Splenocyte</CellType>
+                            <CellCultureConditions>Cell Line / Clone</CellCultureConditions>
+                        </EffectorCells>
+                        <AntigenPresentingCells>
+                            <CellTissueType>Blood</CellTissueType>
+                            <CellType>B cell</CellType>
+                            <CellCultureConditions>Cell Line / Clone</CellCultureConditions>
+                            <AutologousOrSyngeneic>Y</AutologousOrSyngeneic>
+                        </AntigenPresentingCells>
+                        <MhcAllele>
+                            <MhcAlleleId>143</MhcAlleleId>
+                            <MhcEvidenceCode>T cell assay -Single MHC type present</MhcEvidenceCode>
+                        </MhcAllele>
+                        <Antigen>
+                            <AntigenReferenceName>HCV</AntigenReferenceName>
+                            <AntigenObject>
+                                <EpitopeRelation>Source Organism</EpitopeRelation>
+                                <Object>
+                                    <Organism>
+                                        <SubType>Organism</SubType>
+                                        <SourceOrganismId>11103</SourceOrganismId>
+                                    </Organism>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Exact match to reference information</AntigenEvidenceCode>
+                            <AntigenContainingObject>
+                                <TransfectedCell>
+                                    <SubType>Transfected Cell</SubType>
+                                    <CellType>B cell</CellType>
+                                </TransfectedCell>
+                            </AntigenContainingObject>
+                        </Antigen>
+                        <AssayInformation>
+                            <AssayTypeId>73</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                        </AssayInformation>
+                    </TCell>
+                </Assays>
+                <Assays>
+                    <TCell>
+                        <LocationOfData>Figure 1B</LocationOfData>
+                        <TCellId>1501774</TCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>10000084</OrganismId>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Administration in vivo</InVivoProcessType>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Epitope</EpitopeRelation>
+                                    <Object>
+                                        <FragmentOfANaturalSequenceMolecule>
+                                            <ChemicalType>Peptide from protein</ChemicalType>
+                                            <LinearSequence>ILAGYGAGV</LinearSequence>
+                                            <StartingPosition>1851</StartingPosition>
+                                            <EndingPosition>1859</EndingPosition>
+                                            <SourceMolecule>
+                                                <GenBankId>BAB18806.1</GenBankId>
+                                            </SourceMolecule>
+                                            <SourceOrganismId>11103</SourceOrganismId>
+                                        </FragmentOfANaturalSequenceMolecule>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenReferenceName>NS4 (1851)</ImmunogenReferenceName>
+                                <ImmunogenEvidenceCode>Exact match to reference information</ImmunogenEvidenceCode>
+                                <Adjuvant>Freund's incomplete (IFA)</Adjuvant>
+                                <Route>Subcutaneous (s.c.)</Route>
+                                <DoseSchedule>1 dose of 50ug.</DoseSchedule>
+                            </FirstInVivoProcess>
+                            <InVitroAdministration>
+                                <ProcessType>Restimulation in vitro</ProcessType>
+                                <ResponderCellType>Splenocyte</ResponderCellType>
+                                <StimulatorCellType>B cell</StimulatorCellType>
+                                <ImmunogenReferenceName>NS4 (1851)</ImmunogenReferenceName>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Epitope</EpitopeRelation>
+                                    <Object>
+                                        <FragmentOfANaturalSequenceMolecule>
+                                            <ChemicalType>Peptide from protein</ChemicalType>
+                                            <LinearSequence>ILAGYGAGV</LinearSequence>
+                                            <StartingPosition>1851</StartingPosition>
+                                            <EndingPosition>1859</EndingPosition>
+                                            <SourceMolecule>
+                                                <GenBankId>BAB18806.1</GenBankId>
+                                            </SourceMolecule>
+                                            <SourceOrganismId>11103</SourceOrganismId>
+                                        </FragmentOfANaturalSequenceMolecule>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenEvidenceCode>Exact match to reference information</ImmunogenEvidenceCode>
+                            </InVitroAdministration>
+                            <ImmunizationComments>The immunogen is mixed epitopes including this epitope and the helper epitope HBV core 128-140. Short term CTL lines were prepared by CTL mixing with irradiated, peptide pulsed syngenics LPS blasts and irradiated syngeneic spleen cells.</ImmunizationComments>
+                        </Immunization>
+                        <EffectorCells>
+                            <CellTissueType>Spleen</CellTissueType>
+                            <CellType>Splenocyte</CellType>
+                            <CellCultureConditions>Cell Line / Clone</CellCultureConditions>
+                        </EffectorCells>
+                        <AntigenPresentingCells>
+                            <CellTissueType>Blood</CellTissueType>
+                            <CellType>B cell</CellType>
+                            <CellCultureConditions>Direct Ex Vivo</CellCultureConditions>
+                            <AutologousOrSyngeneic>Y</AutologousOrSyngeneic>
+                        </AntigenPresentingCells>
+                        <MhcAllele>
+                            <MhcAlleleId>143</MhcAlleleId>
+                            <MhcEvidenceCode>T cell assay -Single MHC type present</MhcEvidenceCode>
+                        </MhcAllele>
+                        <Antigen>
+                            <AntigenReferenceName>NS4 (1851)</AntigenReferenceName>
+                            <AntigenObject>
+                                <EpitopeRelation>Epitope</EpitopeRelation>
+                                <Object>
+                                    <FragmentOfANaturalSequenceMolecule>
+                                        <ChemicalType>Peptide from protein</ChemicalType>
+                                        <LinearSequence>ILAGYGAGV</LinearSequence>
+                                        <StartingPosition>1851</StartingPosition>
+                                        <EndingPosition>1859</EndingPosition>
+                                        <SourceMolecule>
+                                            <GenBankId>BAB18806.1</GenBankId>
+                                        </SourceMolecule>
+                                        <SourceOrganismId>11103</SourceOrganismId>
+                                    </FragmentOfANaturalSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Exact match to reference information</AntigenEvidenceCode>
+                        </Antigen>
+                        <AssayInformation>
+                            <AssayTypeId>73</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                        </AssayInformation>
+                    </TCell>
+                </Assays>
+                <Assays>
+                    <MhcBinding>
+                        <LocationOfData>Table 1</LocationOfData>
+                        <MhcBindingId>205426</MhcBindingId>
+                        <AssayInformation>
+                            <AssayTypeId>417</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <QuantitativeMeasurement>116.3</QuantitativeMeasurement>
+                        </AssayInformation>
+                        <MhcAlleleId>143</MhcAlleleId>
+                    </MhcBinding>
+                </Assays>
+            </Epitope>
+            <Epitope>
+                <EpitopeName>NS4 (1812)</EpitopeName>
+                <EpitopeStructure>
+                    <FragmentOfANaturalSequenceMolecule>
+                        <ChemicalType>Peptide from protein</ChemicalType>
+                        <LinearSequence>LLFNILGGWV</LinearSequence>
+                        <StartingPosition>1807</StartingPosition>
+                        <EndingPosition>1816</EndingPosition>
+                        <SourceMolecule>
+                            <GenBankId>BAB18806.1</GenBankId>
+                        </SourceMolecule>
+                        <SourceOrganismId>11103</SourceOrganismId>
+                    </FragmentOfANaturalSequenceMolecule>
+                </EpitopeStructure>
+                <LocationOfData>Table 1</LocationOfData>
+                <EpitopeId>37286</EpitopeId>
+                <ReferenceStartingPosition>1812</ReferenceStartingPosition>
+                <ReferenceEndingPosition>1821</ReferenceEndingPosition>
+                <EpitopeEvidenceCode>Representative selection</EpitopeEvidenceCode>
+                <EpitopeStructureDefines>Exact Epitope</EpitopeStructureDefines>
+                <Assays>
+                    <TCell>
+                        <LocationOfData>Table 1</LocationOfData>
+                        <TCellId>1501769</TCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>10000084</OrganismId>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Administration in vivo</InVivoProcessType>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Epitope</EpitopeRelation>
+                                    <Object>
+                                        <FragmentOfANaturalSequenceMolecule>
+                                            <ChemicalType>Peptide from protein</ChemicalType>
+                                            <LinearSequence>LLFNILGGWV</LinearSequence>
+                                            <StartingPosition>1807</StartingPosition>
+                                            <EndingPosition>1816</EndingPosition>
+                                            <SourceMolecule>
+                                                <GenBankId>BAB18806.1</GenBankId>
+                                            </SourceMolecule>
+                                            <SourceOrganismId>11103</SourceOrganismId>
+                                        </FragmentOfANaturalSequenceMolecule>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenReferenceName>NS4 (1812)</ImmunogenReferenceName>
+                                <ImmunogenEvidenceCode>Exact match to reference information</ImmunogenEvidenceCode>
+                                <Adjuvant>Freund's incomplete (IFA)</Adjuvant>
+                                <Route>Subcutaneous (s.c.)</Route>
+                                <DoseSchedule>1 dose of 50ug.</DoseSchedule>
+                            </FirstInVivoProcess>
+                            <InVitroAdministration>
+                                <ProcessType>Restimulation in vitro</ProcessType>
+                                <ResponderCellType>Splenocyte</ResponderCellType>
+                                <StimulatorCellType>B cell</StimulatorCellType>
+                                <ImmunogenReferenceName>NS4 (1812)</ImmunogenReferenceName>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Epitope</EpitopeRelation>
+                                    <Object>
+                                        <FragmentOfANaturalSequenceMolecule>
+                                            <ChemicalType>Peptide from protein</ChemicalType>
+                                            <LinearSequence>LLFNILGGWV</LinearSequence>
+                                            <StartingPosition>1807</StartingPosition>
+                                            <EndingPosition>1816</EndingPosition>
+                                            <SourceMolecule>
+                                                <GenBankId>BAB18806.1</GenBankId>
+                                            </SourceMolecule>
+                                            <SourceOrganismId>11103</SourceOrganismId>
+                                        </FragmentOfANaturalSequenceMolecule>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenEvidenceCode>Exact match to reference information</ImmunogenEvidenceCode>
+                            </InVitroAdministration>
+                            <ImmunizationComments>Mice were immunized with the epitope mixed with the helper epitope HBV core 128-140. Short term CTL lines were prepared by CTL mixing with irradiated, peptide pulsed syngenics LPS blasts and irradiated syngeneic spleen cells.</ImmunizationComments>
+                        </Immunization>
+                        <EffectorCells>
+                            <CellTissueType>Spleen</CellTissueType>
+                            <CellType>Splenocyte</CellType>
+                            <CellCultureConditions>Cell Line / Clone</CellCultureConditions>
+                        </EffectorCells>
+                        <AntigenPresentingCells>
+                            <CellTissueType>Blood</CellTissueType>
+                            <CellType>B cell</CellType>
+                            <CellCultureConditions>Direct Ex Vivo</CellCultureConditions>
+                            <AutologousOrSyngeneic>Y</AutologousOrSyngeneic>
+                        </AntigenPresentingCells>
+                        <MhcAllele>
+                            <MhcAlleleId>143</MhcAlleleId>
+                            <MhcEvidenceCode>T cell assay -Single MHC type present</MhcEvidenceCode>
+                        </MhcAllele>
+                        <Antigen>
+                            <AntigenReferenceName>NS4 (1812)</AntigenReferenceName>
+                            <AntigenObject>
+                                <EpitopeRelation>Epitope</EpitopeRelation>
+                                <Object>
+                                    <FragmentOfANaturalSequenceMolecule>
+                                        <ChemicalType>Peptide from protein</ChemicalType>
+                                        <LinearSequence>LLFNILGGWV</LinearSequence>
+                                        <StartingPosition>1807</StartingPosition>
+                                        <EndingPosition>1816</EndingPosition>
+                                        <SourceMolecule>
+                                            <GenBankId>BAB18806.1</GenBankId>
+                                        </SourceMolecule>
+                                        <SourceOrganismId>11103</SourceOrganismId>
+                                    </FragmentOfANaturalSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Exact match to reference information</AntigenEvidenceCode>
+                        </Antigen>
+                        <AssayInformation>
+                            <AssayTypeId>67</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <NumberOfSubjectsTested>6</NumberOfSubjectsTested>
+                            <NumberOfSubjectsResponded>6</NumberOfSubjectsResponded>
+                            <ResponseFrequency>100</ResponseFrequency>
+                        </AssayInformation>
+                    </TCell>
+                </Assays>
+                <Assays>
+                    <MhcBinding>
+                        <LocationOfData>Table 1</LocationOfData>
+                        <MhcBindingId>205427</MhcBindingId>
+                        <AssayInformation>
+                            <AssayTypeId>417</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <QuantitativeMeasurement>4.2</QuantitativeMeasurement>
+                        </AssayInformation>
+                        <MhcAlleleId>143</MhcAlleleId>
+                    </MhcBinding>
+                </Assays>
+            </Epitope>
+            <Epitope>
+                <EpitopeName>Core (35)</EpitopeName>
+                <EpitopeStructure>
+                    <FragmentOfANaturalSequenceMolecule>
+                        <ChemicalType>Peptide from protein</ChemicalType>
+                        <LinearSequence>YLLPRRGPRL</LinearSequence>
+                        <StartingPosition>35</StartingPosition>
+                        <EndingPosition>44</EndingPosition>
+                        <SourceMolecule>
+                            <GenBankId>BAB18806.1</GenBankId>
+                        </SourceMolecule>
+                        <SourceOrganismId>11103</SourceOrganismId>
+                    </FragmentOfANaturalSequenceMolecule>
+                </EpitopeStructure>
+                <LocationOfData>Table 1</LocationOfData>
+                <EpitopeId>74798</EpitopeId>
+                <ReferenceStartingPosition>35</ReferenceStartingPosition>
+                <ReferenceEndingPosition>44</ReferenceEndingPosition>
+                <EpitopeEvidenceCode>Representative selection</EpitopeEvidenceCode>
+                <EpitopeStructureDefines>Exact Epitope</EpitopeStructureDefines>
+                <Assays>
+                    <TCell>
+                        <LocationOfData>Table 1</LocationOfData>
+                        <TCellId>1501770</TCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>10000084</OrganismId>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Administration in vivo</InVivoProcessType>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Epitope</EpitopeRelation>
+                                    <Object>
+                                        <FragmentOfANaturalSequenceMolecule>
+                                            <ChemicalType>Peptide from protein</ChemicalType>
+                                            <LinearSequence>YLLPRRGPRL</LinearSequence>
+                                            <StartingPosition>35</StartingPosition>
+                                            <EndingPosition>44</EndingPosition>
+                                            <SourceMolecule>
+                                                <GenBankId>BAB18806.1</GenBankId>
+                                            </SourceMolecule>
+                                            <SourceOrganismId>11103</SourceOrganismId>
+                                        </FragmentOfANaturalSequenceMolecule>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenReferenceName>Core (35)</ImmunogenReferenceName>
+                                <ImmunogenEvidenceCode>Exact match to reference information</ImmunogenEvidenceCode>
+                                <Adjuvant>Freund's incomplete (IFA)</Adjuvant>
+                                <Route>Subcutaneous (s.c.)</Route>
+                                <DoseSchedule>1 dose of 50ug.</DoseSchedule>
+                            </FirstInVivoProcess>
+                            <InVitroAdministration>
+                                <ProcessType>Restimulation in vitro</ProcessType>
+                                <ResponderCellType>Splenocyte</ResponderCellType>
+                                <StimulatorCellType>B cell</StimulatorCellType>
+                                <ImmunogenReferenceName>Core (35)</ImmunogenReferenceName>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Epitope</EpitopeRelation>
+                                    <Object>
+                                        <FragmentOfANaturalSequenceMolecule>
+                                            <ChemicalType>Peptide from protein</ChemicalType>
+                                            <LinearSequence>YLLPRRGPRL</LinearSequence>
+                                            <StartingPosition>35</StartingPosition>
+                                            <EndingPosition>44</EndingPosition>
+                                            <SourceMolecule>
+                                                <GenBankId>BAB18806.1</GenBankId>
+                                            </SourceMolecule>
+                                            <SourceOrganismId>11103</SourceOrganismId>
+                                        </FragmentOfANaturalSequenceMolecule>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenEvidenceCode>Exact match to reference information</ImmunogenEvidenceCode>
+                            </InVitroAdministration>
+                            <ImmunizationComments>Mice were immunized with the epitope mixed with the helper epitope HBV core 128-140. Short term CTL lines were prepared by CTL mixing with irradiated, peptide pulsed syngenics LPS blasts and irradiated syngeneic spleen cells.</ImmunizationComments>
+                        </Immunization>
+                        <EffectorCells>
+                            <CellTissueType>Spleen</CellTissueType>
+                            <CellType>Splenocyte</CellType>
+                            <CellCultureConditions>Cell Line / Clone</CellCultureConditions>
+                        </EffectorCells>
+                        <AntigenPresentingCells>
+                            <CellTissueType>Blood</CellTissueType>
+                            <CellType>B cell</CellType>
+                            <CellCultureConditions>Direct Ex Vivo</CellCultureConditions>
+                            <AutologousOrSyngeneic>Y</AutologousOrSyngeneic>
+                        </AntigenPresentingCells>
+                        <MhcAllele>
+                            <MhcAlleleId>143</MhcAlleleId>
+                            <MhcEvidenceCode>T cell assay -Single MHC type present</MhcEvidenceCode>
+                        </MhcAllele>
+                        <Antigen>
+                            <AntigenReferenceName>Core (35)</AntigenReferenceName>
+                            <AntigenObject>
+                                <EpitopeRelation>Epitope</EpitopeRelation>
+                                <Object>
+                                    <FragmentOfANaturalSequenceMolecule>
+                                        <ChemicalType>Peptide from protein</ChemicalType>
+                                        <LinearSequence>YLLPRRGPRL</LinearSequence>
+                                        <StartingPosition>35</StartingPosition>
+                                        <EndingPosition>44</EndingPosition>
+                                        <SourceMolecule>
+                                            <GenBankId>BAB18806.1</GenBankId>
+                                        </SourceMolecule>
+                                        <SourceOrganismId>11103</SourceOrganismId>
+                                    </FragmentOfANaturalSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Exact match to reference information</AntigenEvidenceCode>
+                        </Antigen>
+                        <AssayInformation>
+                            <AssayTypeId>67</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <NumberOfSubjectsTested>6</NumberOfSubjectsTested>
+                            <NumberOfSubjectsResponded>4</NumberOfSubjectsResponded>
+                            <ResponseFrequency>66.7</ResponseFrequency>
+                        </AssayInformation>
+                    </TCell>
+                </Assays>
+                <Assays>
+                    <MhcBinding>
+                        <LocationOfData>Table 1</LocationOfData>
+                        <MhcBindingId>205428</MhcBindingId>
+                        <AssayInformation>
+                            <AssayTypeId>417</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <QuantitativeMeasurement>125.0</QuantitativeMeasurement>
+                        </AssayInformation>
+                        <MhcAlleleId>143</MhcAlleleId>
+                    </MhcBinding>
+                </Assays>
+            </Epitope>
+            <Epitope>
+                <EpitopeName>NS4 (1590)</EpitopeName>
+                <EpitopeStructure>
+                    <FragmentOfANaturalSequenceMolecule>
+                        <ChemicalType>Peptide from protein</ChemicalType>
+                        <LinearSequence>YLVAYQATV</LinearSequence>
+                        <StartingPosition>1585</StartingPosition>
+                        <EndingPosition>1593</EndingPosition>
+                        <SourceMolecule>
+                            <GenBankId>BAB18806.1</GenBankId>
+                        </SourceMolecule>
+                        <SourceOrganismId>11103</SourceOrganismId>
+                    </FragmentOfANaturalSequenceMolecule>
+                </EpitopeStructure>
+                <LocationOfData>Table 1</LocationOfData>
+                <EpitopeId>74961</EpitopeId>
+                <ReferenceStartingPosition>1590</ReferenceStartingPosition>
+                <ReferenceEndingPosition>1598</ReferenceEndingPosition>
+                <EpitopeEvidenceCode>Representative selection</EpitopeEvidenceCode>
+                <EpitopeStructureDefines>Exact Epitope</EpitopeStructureDefines>
+                <Assays>
+                    <TCell>
+                        <LocationOfData>Table 1</LocationOfData>
+                        <TCellId>1501771</TCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>10000084</OrganismId>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Administration in vivo</InVivoProcessType>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Epitope</EpitopeRelation>
+                                    <Object>
+                                        <FragmentOfANaturalSequenceMolecule>
+                                            <ChemicalType>Peptide from protein</ChemicalType>
+                                            <LinearSequence>YLVAYQATV</LinearSequence>
+                                            <StartingPosition>1585</StartingPosition>
+                                            <EndingPosition>1593</EndingPosition>
+                                            <SourceMolecule>
+                                                <GenBankId>BAB18806.1</GenBankId>
+                                            </SourceMolecule>
+                                            <SourceOrganismId>11103</SourceOrganismId>
+                                        </FragmentOfANaturalSequenceMolecule>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenReferenceName>NS4 (1590)</ImmunogenReferenceName>
+                                <ImmunogenEvidenceCode>Exact match to reference information</ImmunogenEvidenceCode>
+                                <Adjuvant>Freund's incomplete (IFA)</Adjuvant>
+                                <Route>Subcutaneous (s.c.)</Route>
+                                <DoseSchedule>1 dose of 50ug.</DoseSchedule>
+                            </FirstInVivoProcess>
+                            <InVitroAdministration>
+                                <ProcessType>Restimulation in vitro</ProcessType>
+                                <ResponderCellType>Splenocyte</ResponderCellType>
+                                <StimulatorCellType>B cell</StimulatorCellType>
+                                <ImmunogenReferenceName>NS4 (1590)</ImmunogenReferenceName>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Epitope</EpitopeRelation>
+                                    <Object>
+                                        <FragmentOfANaturalSequenceMolecule>
+                                            <ChemicalType>Peptide from protein</ChemicalType>
+                                            <LinearSequence>YLVAYQATV</LinearSequence>
+                                            <StartingPosition>1585</StartingPosition>
+                                            <EndingPosition>1593</EndingPosition>
+                                            <SourceMolecule>
+                                                <GenBankId>BAB18806.1</GenBankId>
+                                            </SourceMolecule>
+                                            <SourceOrganismId>11103</SourceOrganismId>
+                                        </FragmentOfANaturalSequenceMolecule>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenEvidenceCode>Exact match to reference information</ImmunogenEvidenceCode>
+                            </InVitroAdministration>
+                            <ImmunizationComments>Mice were immunized with the epitope mixed with the helper epitope HBV core 128-140. Short term CTL lines were prepared by CTL mixing with irradiated, peptide pulsed syngenics LPS blasts and irradiated syngeneic spleen cells.</ImmunizationComments>
+                        </Immunization>
+                        <EffectorCells>
+                            <CellTissueType>Spleen</CellTissueType>
+                            <CellType>Splenocyte</CellType>
+                            <CellCultureConditions>Cell Line / Clone</CellCultureConditions>
+                        </EffectorCells>
+                        <AntigenPresentingCells>
+                            <CellTissueType>Blood</CellTissueType>
+                            <CellType>B cell</CellType>
+                            <CellCultureConditions>Direct Ex Vivo</CellCultureConditions>
+                            <AutologousOrSyngeneic>Y</AutologousOrSyngeneic>
+                        </AntigenPresentingCells>
+                        <MhcAllele>
+                            <MhcAlleleId>143</MhcAlleleId>
+                            <MhcEvidenceCode>T cell assay -Single MHC type present</MhcEvidenceCode>
+                        </MhcAllele>
+                        <Antigen>
+                            <AntigenReferenceName>NS4 (1590)</AntigenReferenceName>
+                            <AntigenObject>
+                                <EpitopeRelation>Epitope</EpitopeRelation>
+                                <Object>
+                                    <FragmentOfANaturalSequenceMolecule>
+                                        <ChemicalType>Peptide from protein</ChemicalType>
+                                        <LinearSequence>YLVAYQATV</LinearSequence>
+                                        <StartingPosition>1585</StartingPosition>
+                                        <EndingPosition>1593</EndingPosition>
+                                        <SourceMolecule>
+                                            <GenBankId>BAB18806.1</GenBankId>
+                                        </SourceMolecule>
+                                        <SourceOrganismId>11103</SourceOrganismId>
+                                    </FragmentOfANaturalSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Exact match to reference information</AntigenEvidenceCode>
+                        </Antigen>
+                        <AssayInformation>
+                            <AssayTypeId>67</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <NumberOfSubjectsTested>6</NumberOfSubjectsTested>
+                            <NumberOfSubjectsResponded>5</NumberOfSubjectsResponded>
+                            <ResponseFrequency>83.3</ResponseFrequency>
+                        </AssayInformation>
+                    </TCell>
+                </Assays>
+                <Assays>
+                    <MhcBinding>
+                        <LocationOfData>Table 1</LocationOfData>
+                        <MhcBindingId>205429</MhcBindingId>
+                        <AssayInformation>
+                            <AssayTypeId>417</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <QuantitativeMeasurement>20.4</QuantitativeMeasurement>
+                        </AssayInformation>
+                        <MhcAlleleId>143</MhcAlleleId>
+                    </MhcBinding>
+                </Assays>
+            </Epitope>
+        </Epitopes>
+    </Reference>
+</References>
+

@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<References xsi:schemaLocation="http://www.iedb.org/schema/CurationSchema http://beta.iedb.org/schema/Curation.xsd" xmlns="http://www.iedb.org/schema/CurationSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <Reference>
+        <ReferenceId>977</ReferenceId>
+        <DateLastUpdated>2020-09-10-07:00</DateLastUpdated>
+        <Article>
+            <PubmedId>7687804</PubmedId>
+            <Abstract>A previously published Kk-specific motif was used to predict that an optimal Kk-restricted epitope within the nucleoprotein (NP) of influenza A/PR/8/34 virus corresponds to sequence SDYEGRLI (residues 50-57). Although this is the minimal epitope recognized by murine cytotoxic T lymphocytes (CTL), its binding affinity for the Kk molecule is increased following removal of either the N-terminal amino acid residue (S) or the N-terminal dipeptide (SD). A possible explanation for this unexpected result is that interactions between the C-terminus of the epitope and the Kk molecule contribute to the binding energy to a much greater extent than interactions between the N-terminus of the epitope and the Kk molecule.</Abstract>
+            <ArticleYear>1993</ArticleYear>
+            <ArticlePages>851-4</ArticlePages>
+            <ArticleTitle>Peptides shorter than a minimal CTL epitope may have a higher binding affinity than the epitope for the class I Kk molecule.</ArticleTitle>
+            <Authors>
+                <Author>
+                    <LastName>Cossins</LastName>
+                    <ForeName>J</ForeName>
+                </Author>
+                <Author>
+                    <LastName>Gould</LastName>
+                    <ForeName>K</ForeName>
+                </Author>
+                <Author>
+                    <LastName>Brownlee</LastName>
+                    <ForeName>G G</ForeName>
+                </Author>
+            </Authors>
+            <Affiliations>Sir William Dunn School of Pathology, University of Oxford, United Kingdom.</Affiliations>
+            <ArticleChemicalList>Epitopes;H-2 Antigens;H-2K(K) antigen;Peptides</ArticleChemicalList>
+            <ArticleMeshHeadingsList>Amino Acid Sequence; Animals; Cell Line; Epitopes; H-2 Antigens(immunology); Influenza A virus(immunology); Mice; Molecular Sequence Data; Peptides(chemical synthesis; immunology); T-Lymphocytes, Cytotoxic(immunology)</ArticleMeshHeadingsList>
+            <Journal>
+                <Volume>195</Volume>
+                <Issue>2</Issue>
+                <Title>Virology</Title>
+                <Issn>0042-6822</Issn>
+                <MedlineTa>Virology</MedlineTa>
+            </Journal>
+        </Article>
+        <Epitopes>
+            <Epitope>
+                <EpitopeStructure>
+                    <FragmentOfANaturalSequenceMolecule>
+                        <ChemicalType>Peptide from protein</ChemicalType>
+                        <LinearSequence>SDYEGRLI</LinearSequence>
+                        <StartingPosition>50</StartingPosition>
+                        <EndingPosition>57</EndingPosition>
+                        <SourceMolecule>
+                            <IedbAccession>SRC124</IedbAccession>
+                        </SourceMolecule>
+                        <SourceOrganismId>211044</SourceOrganismId>
+                    </FragmentOfANaturalSequenceMolecule>
+                </EpitopeStructure>
+                <LocationOfData>Figure 1</LocationOfData>
+                <EpitopeId>57322</EpitopeId>
+                <ReferenceStartingPosition>50</ReferenceStartingPosition>
+                <ReferenceEndingPosition>57</ReferenceEndingPosition>
+                <EpitopeEvidenceCode>Not determined</EpitopeEvidenceCode>
+                <EpitopeStructureDefines>Exact Epitope</EpitopeStructureDefines>
+                <Assays>
+                    <TCell>
+                        <LocationOfData>Figure 1A</LocationOfData>
+                        <TCellId>11953</TCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>10000228</OrganismId>
+                                <Sex>F</Sex>
+                                <Age>3 months-old</Age>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Administration in vivo</InVivoProcessType>
+                                <DiseaseState>ONTIE:0003423</DiseaseState>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Source Organism</EpitopeRelation>
+                                    <Object>
+                                        <Organism>
+                                            <SubType>Organism</SubType>
+                                            <SourceOrganismId>211044</SourceOrganismId>
+                                        </Organism>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenEvidenceCode>Not determined</ImmunogenEvidenceCode>
+                                <Route>Intravenous (i.v.)</Route>
+                            </FirstInVivoProcess>
+                            <InVitroAdministration>
+                                <ProcessType>Restimulation in vitro</ProcessType>
+                                <ResponderCellType>Splenocyte</ResponderCellType>
+                                <StimulatorCellType>Splenocyte</StimulatorCellType>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Source Antigen</EpitopeRelation>
+                                    <Object>
+                                        <AccessionSequenceMolecule>
+                                            <ChemicalType>Protein</ChemicalType>
+                                            <Molecule>
+                                                <IedbAccession>SRC124</IedbAccession>
+                                            </Molecule>
+                                            <SourceOrganismId>211044</SourceOrganismId>
+                                        </AccessionSequenceMolecule>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenEvidenceCode>Internal Identifier-no external match available</ImmunogenEvidenceCode>
+                            </InVitroAdministration>
+                            <ImmunizationComments>Effector cells were JNP3, a Kk-restricted CTL clone.  Mice were primed intravenously by injecting recombinant vaccinia virus into tail veins. Two weeks later, spleens were removedand the spleen cells were stimulated in vitro with influenzaAIPR/8/34 virus-infected, feeder spleencells. The effector spleen cells were subsequently restimulatedwith antigen at weekly intervals.</ImmunizationComments>
+                        </Immunization>
+                        <EffectorCells>
+                            <CellType>T cell</CellType>
+                            <CellCultureConditions>Cell Line / Clone</CellCultureConditions>
+                        </EffectorCells>
+                        <AntigenPresentingCells>
+                            <CellTissueType>Other</CellTissueType>
+                            <CellType>L cells-Fibroblast</CellType>
+                            <CellCultureConditions>Cell Line / Clone</CellCultureConditions>
+                            <AutologousOrSyngeneic>N</AutologousOrSyngeneic>
+                        </AntigenPresentingCells>
+                        <MhcAllele>
+                            <MhcAlleleId>125</MhcAlleleId>
+                            <MhcEvidenceCode>Not determined</MhcEvidenceCode>
+                        </MhcAllele>
+                        <Antigen>
+                            <AntigenObject>
+                                <EpitopeRelation>Epitope</EpitopeRelation>
+                                <Object>
+                                    <FragmentOfANaturalSequenceMolecule>
+                                        <ChemicalType>Peptide from protein</ChemicalType>
+                                        <LinearSequence>SDYEGRLI</LinearSequence>
+                                        <StartingPosition>50</StartingPosition>
+                                        <EndingPosition>57</EndingPosition>
+                                        <SourceMolecule>
+                                            <IedbAccession>SRC124</IedbAccession>
+                                        </SourceMolecule>
+                                        <SourceOrganismId>211044</SourceOrganismId>
+                                    </FragmentOfANaturalSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Exact match to reference information</AntigenEvidenceCode>
+                        </Antigen>
+                        <AssayInformation>
+                            <AssayTypeId>67</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                        </AssayInformation>
+                    </TCell>
+                </Assays>
+            </Epitope>
+            <Epitope>
+                <EpitopeStructure>
+                    <FragmentOfANaturalSequenceMolecule>
+                        <ChemicalType>Peptide from protein</ChemicalType>
+                        <LinearSequence>YEGRLI</LinearSequence>
+                        <StartingPosition>52</StartingPosition>
+                        <EndingPosition>57</EndingPosition>
+                        <SourceMolecule>
+                            <IedbAccession>SRC124</IedbAccession>
+                        </SourceMolecule>
+                        <SourceOrganismId>211044</SourceOrganismId>
+                    </FragmentOfANaturalSequenceMolecule>
+                </EpitopeStructure>
+                <LocationOfData>Figure 1</LocationOfData>
+                <EpitopeId>73670</EpitopeId>
+                <ReferenceStartingPosition>52</ReferenceStartingPosition>
+                <ReferenceEndingPosition>57</ReferenceEndingPosition>
+                <EpitopeEvidenceCode>Not determined</EpitopeEvidenceCode>
+                <EpitopeStructureDefines>Exact Epitope</EpitopeStructureDefines>
+                <Assays>
+                    <MhcBinding>
+                        <LocationOfData>Figure 1B</LocationOfData>
+                        <MhcBindingId>14486</MhcBindingId>
+                        <AssayInformation>
+                            <AssayTypeId>226</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <AssayComments>The octapeptide SDYEGRLI, and four other peptides homologous to this sequence, but extended or truncated by one residue at either the amino or the carboxyl terminus, were also assayed and this epitope was found to give the optimal response.  Effector cells were HA8, a cloned hemagglutinin-specific CTL recognizing the epitope IEEGGWTGMI.  The epitope was shown to efficiently inhibit binding of the hemagglutinin peptide IEGGWTGMIDGW to the K&lt;sup&gt;k&lt;/sup&gt; molecule.</AssayComments>
+                        </AssayInformation>
+                        <MhcAlleleId>125</MhcAlleleId>
+                    </MhcBinding>
+                </Assays>
+            </Epitope>
+        </Epitopes>
+    </Reference>
+</References>
+

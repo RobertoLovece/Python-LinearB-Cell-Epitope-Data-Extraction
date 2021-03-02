@@ -1,0 +1,490 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<References xsi:schemaLocation="http://www.iedb.org/schema/CurationSchema http://beta.iedb.org/schema/Curation.xsd" xmlns="http://www.iedb.org/schema/CurationSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <Reference>
+        <ReferenceId>200112</ReferenceId>
+        <DateLastUpdated>2020-09-10-07:00</DateLastUpdated>
+        <Article>
+            <PubmedId>10599997</PubmedId>
+            <Abstract>The human leukocyte antigen (HLA)-A2 restricted HBV core 18-27 epitope is immunodominant in the context of HLA-A2.1 and subdominant in the context of the other HLA-A2 supertype molecules, as defined by frequency of recognition by memory cytotoxic T lymphocyte (CTL) responses from acute hepatitis B virus (HBV) patients, and on the basis of its binding affinity to purified HLA molecules in vitro. Herein, we show that immunization with a lipopeptide containing HBV core 18-27 epitope induces CTL responses in patients expressing different HLA-A2 supertype molecules, with indistinguishable frequency and magnitude. No difference in responses was noted between patients expressing either one or two different HLA-A2 supertype molecules. Thus, complexes of HBV core 18-27 bound to different HLA-A2 supertype alleles do not appear to act as altered peptide ligands, and do not cross antagonize CTL responses. These results substantiate the immunological relevance of the HLA supertypes concept, and illustrate its potential usefulness for the development of vaccines.</Abstract>
+            <ArticleYear>1999</ArticleYear>
+            <ArticlePages>1013-7</ArticlePages>
+            <ArticleTitle>Immunization with the HBV core 18-27 epitope elicits CTL responses in humans expressing different HLA-A2 supertype molecules.</ArticleTitle>
+            <Authors>
+                <Author>
+                    <LastName>Livingston</LastName>
+                    <ForeName>B D</ForeName>
+                </Author>
+                <Author>
+                    <LastName>Crimi</LastName>
+                    <ForeName>C</ForeName>
+                </Author>
+                <Author>
+                    <LastName>Fikes</LastName>
+                    <ForeName>J</ForeName>
+                </Author>
+                <Author>
+                    <LastName>Chesnut</LastName>
+                    <ForeName>R W</ForeName>
+                </Author>
+                <Author>
+                    <LastName>Sidney</LastName>
+                    <ForeName>J</ForeName>
+                </Author>
+                <Author>
+                    <LastName>Sette</LastName>
+                    <ForeName>A</ForeName>
+                </Author>
+            </Authors>
+            <Affiliations>Epimmune, Inc., San Diego, California 92121, USA. blivingston@epimmune.com.</Affiliations>
+            <ArticleChemicalList>HLA-A2 Antigen;Hepatitis B Core Antigens;Hepatitis B Vaccines;Immunodominant Epitopes;Lipopeptides;Lipoproteins;Peptide Fragments;Theradigm-HBV</ArticleChemicalList>
+            <ArticleMeshHeadingsList>Acute Disease; Alleles; Amino Acid Sequence; HLA-A2 Antigen(classification; genetics; metabolism); Hepatitis B(genetics; immunology; therapy); Hepatitis B Core Antigens(genetics; metabolism); Hepatitis B Vaccines(pharmacology); Hepatitis B virus(genetics; immunology); Humans; Immunization; Immunodominant Epitopes(genetics; metabolism); Immunologic Memory; In Vitro Techniques; Lipopeptides; Lipoproteins(pharmacology); Peptide Fragments(pharmacology); Protein Binding; T-Lymphocytes, Cytotoxic(immunology)</ArticleMeshHeadingsList>
+            <Journal>
+                <Volume>60</Volume>
+                <Issue>11</Issue>
+                <Title>Human immunology</Title>
+                <Issn>0198-8859</Issn>
+                <MedlineTa>Hum Immunol</MedlineTa>
+            </Journal>
+        </Article>
+        <Epitopes>
+            <Epitope>
+                <EpitopeName>HBV Core 18-27</EpitopeName>
+                <EpitopeStructure>
+                    <FragmentOfANaturalSequenceMolecule>
+                        <ChemicalType>Peptide from protein</ChemicalType>
+                        <LinearSequence>FLPSDFFPSV</LinearSequence>
+                        <StartingPosition>18</StartingPosition>
+                        <EndingPosition>27</EndingPosition>
+                        <SourceMolecule>
+                            <GenBankId>CAA92251.1</GenBankId>
+                        </SourceMolecule>
+                        <SourceOrganismId>10407</SourceOrganismId>
+                    </FragmentOfANaturalSequenceMolecule>
+                </EpitopeStructure>
+                <LocationOfData>Table 1</LocationOfData>
+                <EpitopeId>16833</EpitopeId>
+                <ReferenceStartingPosition>18</ReferenceStartingPosition>
+                <ReferenceEndingPosition>27</ReferenceEndingPosition>
+                <EpitopeEvidenceCode>Representative selection</EpitopeEvidenceCode>
+                <EpitopeStructureDefines>Exact Epitope</EpitopeStructureDefines>
+                <Assays>
+                    <TCell>
+                        <LocationOfData>Figure 1</LocationOfData>
+                        <TCellId>1353010</TCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>9606</OrganismId>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Occurrence of infectious disease</InVivoProcessType>
+                                <DiseaseState>DOID:2043</DiseaseState>
+                                <DiseaseStage>Chronic</DiseaseStage>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Source Organism</EpitopeRelation>
+                                    <Object>
+                                        <Organism>
+                                            <SubType>Organism</SubType>
+                                            <SourceOrganismId>10407</SourceOrganismId>
+                                        </Organism>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenReferenceName>Hepatitis B virus</ImmunogenReferenceName>
+                                <ImmunogenEvidenceCode>Not determined</ImmunogenEvidenceCode>
+                            </FirstInVivoProcess>
+                            <InVitroAdministration>
+                                <ProcessType>Restimulation in vitro</ProcessType>
+                                <ResponderCellType>T cell</ResponderCellType>
+                                <StimulatorCellType>PBMC</StimulatorCellType>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Epitope</EpitopeRelation>
+                                    <Object>
+                                        <FragmentOfANaturalSequenceMolecule>
+                                            <ChemicalType>Peptide from protein</ChemicalType>
+                                            <LinearSequence>FLPSDFFPSV</LinearSequence>
+                                            <StartingPosition>18</StartingPosition>
+                                            <EndingPosition>27</EndingPosition>
+                                            <SourceMolecule>
+                                                <GenBankId>CAA92251.1</GenBankId>
+                                            </SourceMolecule>
+                                            <SourceOrganismId>10407</SourceOrganismId>
+                                        </FragmentOfANaturalSequenceMolecule>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenEvidenceCode>Exact match to reference information</ImmunogenEvidenceCode>
+                            </InVitroAdministration>
+                        </Immunization>
+                        <EffectorCells>
+                            <CellTissueType>Blood</CellTissueType>
+                            <CellType>T cell</CellType>
+                            <CellCultureConditions>Cell Line / Clone</CellCultureConditions>
+                        </EffectorCells>
+                        <AntigenPresentingCells>
+                            <CellTissueType>Lymphoid</CellTissueType>
+                            <CellType>B cell</CellType>
+                            <CellCultureConditions>Cell Line / Clone (EBV transformed, B-LCL)</CellCultureConditions>
+                        </AntigenPresentingCells>
+                        <MhcAllele>
+                            <MhcAlleleId>201</MhcAlleleId>
+                            <MhcEvidenceCode>Not determined</MhcEvidenceCode>
+                        </MhcAllele>
+                        <Antigen>
+                            <AntigenReferenceName>HBV Core 18-27</AntigenReferenceName>
+                            <AntigenObject>
+                                <EpitopeRelation>Epitope</EpitopeRelation>
+                                <Object>
+                                    <FragmentOfANaturalSequenceMolecule>
+                                        <ChemicalType>Peptide from protein</ChemicalType>
+                                        <LinearSequence>FLPSDFFPSV</LinearSequence>
+                                        <StartingPosition>18</StartingPosition>
+                                        <EndingPosition>27</EndingPosition>
+                                        <SourceMolecule>
+                                            <GenBankId>CAA92251.1</GenBankId>
+                                        </SourceMolecule>
+                                        <SourceOrganismId>10407</SourceOrganismId>
+                                    </FragmentOfANaturalSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Exact match to reference information</AntigenEvidenceCode>
+                        </Antigen>
+                        <AssayInformation>
+                            <AssayTypeId>67</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <AssayComments>Patients with different HLA-A2 subtypes who had received Theradigm-HBV vaccine were tested for reactivity to the peptide. Reactivity was shown for patients with HLA-A2.1, A2.3, A2.6, and A2.7 subtypes.</AssayComments>
+                        </AssayInformation>
+                    </TCell>
+                </Assays>
+                <Assays>
+                    <TCell>
+                        <LocationOfData>Figure 1</LocationOfData>
+                        <TCellId>1353001</TCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>9606</OrganismId>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Occurrence of infectious disease</InVivoProcessType>
+                                <DiseaseState>DOID:2043</DiseaseState>
+                                <DiseaseStage>Chronic</DiseaseStage>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Source Organism</EpitopeRelation>
+                                    <Object>
+                                        <Organism>
+                                            <SubType>Organism</SubType>
+                                            <SourceOrganismId>10407</SourceOrganismId>
+                                        </Organism>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenReferenceName>Hepatitis B virus</ImmunogenReferenceName>
+                                <ImmunogenEvidenceCode>Not determined</ImmunogenEvidenceCode>
+                            </FirstInVivoProcess>
+                            <InVitroAdministration>
+                                <ProcessType>Restimulation in vitro</ProcessType>
+                                <ResponderCellType>T cell</ResponderCellType>
+                                <StimulatorCellType>PBMC</StimulatorCellType>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Epitope</EpitopeRelation>
+                                    <Object>
+                                        <FragmentOfANaturalSequenceMolecule>
+                                            <ChemicalType>Peptide from protein</ChemicalType>
+                                            <LinearSequence>FLPSDFFPSV</LinearSequence>
+                                            <StartingPosition>18</StartingPosition>
+                                            <EndingPosition>27</EndingPosition>
+                                            <SourceMolecule>
+                                                <GenBankId>CAA92251.1</GenBankId>
+                                            </SourceMolecule>
+                                            <SourceOrganismId>10407</SourceOrganismId>
+                                        </FragmentOfANaturalSequenceMolecule>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenEvidenceCode>Exact match to reference information</ImmunogenEvidenceCode>
+                            </InVitroAdministration>
+                        </Immunization>
+                        <EffectorCells>
+                            <CellTissueType>Blood</CellTissueType>
+                            <CellType>T cell</CellType>
+                            <CellCultureConditions>Cell Line / Clone</CellCultureConditions>
+                        </EffectorCells>
+                        <AntigenPresentingCells>
+                            <CellTissueType>Lymphoid</CellTissueType>
+                            <CellType>B cell</CellType>
+                            <CellCultureConditions>Cell Line / Clone (EBV transformed, B-LCL)</CellCultureConditions>
+                        </AntigenPresentingCells>
+                        <MhcAllele>
+                            <MhcAlleleId>143</MhcAlleleId>
+                            <MhcEvidenceCode>Not determined</MhcEvidenceCode>
+                        </MhcAllele>
+                        <Antigen>
+                            <AntigenReferenceName>HBV Core 18-27</AntigenReferenceName>
+                            <AntigenObject>
+                                <EpitopeRelation>Epitope</EpitopeRelation>
+                                <Object>
+                                    <FragmentOfANaturalSequenceMolecule>
+                                        <ChemicalType>Peptide from protein</ChemicalType>
+                                        <LinearSequence>FLPSDFFPSV</LinearSequence>
+                                        <StartingPosition>18</StartingPosition>
+                                        <EndingPosition>27</EndingPosition>
+                                        <SourceMolecule>
+                                            <GenBankId>CAA92251.1</GenBankId>
+                                        </SourceMolecule>
+                                        <SourceOrganismId>10407</SourceOrganismId>
+                                    </FragmentOfANaturalSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Exact match to reference information</AntigenEvidenceCode>
+                        </Antigen>
+                        <AssayInformation>
+                            <AssayTypeId>67</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <AssayComments>Patients with different HLA-A2 subtypes who had received Theradigm-HBV vaccine were tested for reactivity to the peptide. Reactivity was shown for patients with HLA-A2.1, A2.3, A2.6, and A2.7 subtypes.</AssayComments>
+                        </AssayInformation>
+                    </TCell>
+                </Assays>
+                <Assays>
+                    <TCell>
+                        <LocationOfData>Figure 1</LocationOfData>
+                        <TCellId>1353012</TCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>9606</OrganismId>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Occurrence of infectious disease</InVivoProcessType>
+                                <DiseaseState>DOID:2043</DiseaseState>
+                                <DiseaseStage>Chronic</DiseaseStage>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Source Organism</EpitopeRelation>
+                                    <Object>
+                                        <Organism>
+                                            <SubType>Organism</SubType>
+                                            <SourceOrganismId>10407</SourceOrganismId>
+                                        </Organism>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenReferenceName>Hepatitis B virus</ImmunogenReferenceName>
+                                <ImmunogenEvidenceCode>Not determined</ImmunogenEvidenceCode>
+                            </FirstInVivoProcess>
+                            <InVitroAdministration>
+                                <ProcessType>Restimulation in vitro</ProcessType>
+                                <ResponderCellType>T cell</ResponderCellType>
+                                <StimulatorCellType>PBMC</StimulatorCellType>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Epitope</EpitopeRelation>
+                                    <Object>
+                                        <FragmentOfANaturalSequenceMolecule>
+                                            <ChemicalType>Peptide from protein</ChemicalType>
+                                            <LinearSequence>FLPSDFFPSV</LinearSequence>
+                                            <StartingPosition>18</StartingPosition>
+                                            <EndingPosition>27</EndingPosition>
+                                            <SourceMolecule>
+                                                <GenBankId>CAA92251.1</GenBankId>
+                                            </SourceMolecule>
+                                            <SourceOrganismId>10407</SourceOrganismId>
+                                        </FragmentOfANaturalSequenceMolecule>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenEvidenceCode>Exact match to reference information</ImmunogenEvidenceCode>
+                            </InVitroAdministration>
+                        </Immunization>
+                        <EffectorCells>
+                            <CellTissueType>Blood</CellTissueType>
+                            <CellType>T cell</CellType>
+                            <CellCultureConditions>Cell Line / Clone</CellCultureConditions>
+                        </EffectorCells>
+                        <AntigenPresentingCells>
+                            <CellTissueType>Lymphoid</CellTissueType>
+                            <CellType>B cell</CellType>
+                            <CellCultureConditions>Cell Line / Clone (EBV transformed, B-LCL)</CellCultureConditions>
+                        </AntigenPresentingCells>
+                        <MhcAllele>
+                            <MhcAlleleId>205</MhcAlleleId>
+                            <MhcEvidenceCode>Not determined</MhcEvidenceCode>
+                        </MhcAllele>
+                        <Antigen>
+                            <AntigenReferenceName>HBV Core 18-27</AntigenReferenceName>
+                            <AntigenObject>
+                                <EpitopeRelation>Epitope</EpitopeRelation>
+                                <Object>
+                                    <FragmentOfANaturalSequenceMolecule>
+                                        <ChemicalType>Peptide from protein</ChemicalType>
+                                        <LinearSequence>FLPSDFFPSV</LinearSequence>
+                                        <StartingPosition>18</StartingPosition>
+                                        <EndingPosition>27</EndingPosition>
+                                        <SourceMolecule>
+                                            <GenBankId>CAA92251.1</GenBankId>
+                                        </SourceMolecule>
+                                        <SourceOrganismId>10407</SourceOrganismId>
+                                    </FragmentOfANaturalSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Exact match to reference information</AntigenEvidenceCode>
+                        </Antigen>
+                        <AssayInformation>
+                            <AssayTypeId>67</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <AssayComments>Patients with different HLA-A2 subtypes who had received Theradigm-HBV vaccine were tested for reactivity to the peptide. Reactivity was shown for patients with HLA-A2.1, A2.3, A2.6, and A2.7 subtypes.</AssayComments>
+                        </AssayInformation>
+                    </TCell>
+                </Assays>
+                <Assays>
+                    <TCell>
+                        <LocationOfData>Figure 1</LocationOfData>
+                        <TCellId>1353011</TCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>9606</OrganismId>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Occurrence of infectious disease</InVivoProcessType>
+                                <DiseaseState>DOID:2043</DiseaseState>
+                                <DiseaseStage>Chronic</DiseaseStage>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Source Organism</EpitopeRelation>
+                                    <Object>
+                                        <Organism>
+                                            <SubType>Organism</SubType>
+                                            <SourceOrganismId>10407</SourceOrganismId>
+                                        </Organism>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenReferenceName>Hepatitis B virus</ImmunogenReferenceName>
+                                <ImmunogenEvidenceCode>Not determined</ImmunogenEvidenceCode>
+                            </FirstInVivoProcess>
+                            <InVitroAdministration>
+                                <ProcessType>Restimulation in vitro</ProcessType>
+                                <ResponderCellType>T cell</ResponderCellType>
+                                <StimulatorCellType>PBMC</StimulatorCellType>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Epitope</EpitopeRelation>
+                                    <Object>
+                                        <FragmentOfANaturalSequenceMolecule>
+                                            <ChemicalType>Peptide from protein</ChemicalType>
+                                            <LinearSequence>FLPSDFFPSV</LinearSequence>
+                                            <StartingPosition>18</StartingPosition>
+                                            <EndingPosition>27</EndingPosition>
+                                            <SourceMolecule>
+                                                <GenBankId>CAA92251.1</GenBankId>
+                                            </SourceMolecule>
+                                            <SourceOrganismId>10407</SourceOrganismId>
+                                        </FragmentOfANaturalSequenceMolecule>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenEvidenceCode>Exact match to reference information</ImmunogenEvidenceCode>
+                            </InVitroAdministration>
+                        </Immunization>
+                        <EffectorCells>
+                            <CellTissueType>Blood</CellTissueType>
+                            <CellType>T cell</CellType>
+                            <CellCultureConditions>Cell Line / Clone</CellCultureConditions>
+                        </EffectorCells>
+                        <AntigenPresentingCells>
+                            <CellTissueType>Lymphoid</CellTissueType>
+                            <CellType>B cell</CellType>
+                            <CellCultureConditions>Cell Line / Clone (EBV transformed, B-LCL)</CellCultureConditions>
+                        </AntigenPresentingCells>
+                        <MhcAllele>
+                            <MhcAlleleId>204</MhcAlleleId>
+                            <MhcEvidenceCode>Not determined</MhcEvidenceCode>
+                        </MhcAllele>
+                        <Antigen>
+                            <AntigenReferenceName>HBV Core 18-27</AntigenReferenceName>
+                            <AntigenObject>
+                                <EpitopeRelation>Epitope</EpitopeRelation>
+                                <Object>
+                                    <FragmentOfANaturalSequenceMolecule>
+                                        <ChemicalType>Peptide from protein</ChemicalType>
+                                        <LinearSequence>FLPSDFFPSV</LinearSequence>
+                                        <StartingPosition>18</StartingPosition>
+                                        <EndingPosition>27</EndingPosition>
+                                        <SourceMolecule>
+                                            <GenBankId>CAA92251.1</GenBankId>
+                                        </SourceMolecule>
+                                        <SourceOrganismId>10407</SourceOrganismId>
+                                    </FragmentOfANaturalSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Exact match to reference information</AntigenEvidenceCode>
+                        </Antigen>
+                        <AssayInformation>
+                            <AssayTypeId>67</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <AssayComments>Patients with different HLA-A2 subtypes who had received Theradigm-HBV vaccine were tested for reactivity to the peptide. Reactivity was shown for patients with HLA-A2.1, A2.3, A2.6, and A2.7 subtypes.</AssayComments>
+                        </AssayInformation>
+                    </TCell>
+                </Assays>
+                <Assays>
+                    <MhcBinding>
+                        <LocationOfData>Table 1</LocationOfData>
+                        <MhcBindingId>205921</MhcBindingId>
+                        <AssayInformation>
+                            <AssayTypeId>417</AssayTypeId>
+                            <QualitativeMeasurement>Positive-High</QualitativeMeasurement>
+                            <QuantitativeMeasurement>2.5</QuantitativeMeasurement>
+                        </AssayInformation>
+                        <MhcAlleleId>143</MhcAlleleId>
+                    </MhcBinding>
+                </Assays>
+                <Assays>
+                    <MhcBinding>
+                        <LocationOfData>Table 1</LocationOfData>
+                        <MhcBindingId>205924</MhcBindingId>
+                        <AssayInformation>
+                            <AssayTypeId>417</AssayTypeId>
+                            <QualitativeMeasurement>Positive-High</QualitativeMeasurement>
+                            <QuantitativeMeasurement>2.8</QuantitativeMeasurement>
+                        </AssayInformation>
+                        <MhcAlleleId>204</MhcAlleleId>
+                    </MhcBinding>
+                </Assays>
+                <Assays>
+                    <MhcBinding>
+                        <LocationOfData>Table 1</LocationOfData>
+                        <MhcBindingId>205923</MhcBindingId>
+                        <AssayInformation>
+                            <AssayTypeId>417</AssayTypeId>
+                            <QualitativeMeasurement>Positive-High</QualitativeMeasurement>
+                            <QuantitativeMeasurement>5.9</QuantitativeMeasurement>
+                        </AssayInformation>
+                        <MhcAlleleId>201</MhcAlleleId>
+                    </MhcBinding>
+                </Assays>
+                <Assays>
+                    <MhcBinding>
+                        <LocationOfData>Table 1</LocationOfData>
+                        <MhcBindingId>205922</MhcBindingId>
+                        <AssayInformation>
+                            <AssayTypeId>417</AssayTypeId>
+                            <QualitativeMeasurement>Positive-High</QualitativeMeasurement>
+                            <QuantitativeMeasurement>2.0</QuantitativeMeasurement>
+                        </AssayInformation>
+                        <MhcAlleleId>200</MhcAlleleId>
+                    </MhcBinding>
+                </Assays>
+                <Assays>
+                    <MhcBinding>
+                        <LocationOfData>Table 1</LocationOfData>
+                        <MhcBindingId>205925</MhcBindingId>
+                        <AssayInformation>
+                            <AssayTypeId>417</AssayTypeId>
+                            <QualitativeMeasurement>Positive-High</QualitativeMeasurement>
+                            <QuantitativeMeasurement>19.0</QuantitativeMeasurement>
+                        </AssayInformation>
+                        <MhcAlleleId>205</MhcAlleleId>
+                    </MhcBinding>
+                </Assays>
+                <Assays>
+                    <MhcBinding>
+                        <LocationOfData>Table 1</LocationOfData>
+                        <MhcBindingId>205926</MhcBindingId>
+                        <AssayInformation>
+                            <AssayTypeId>417</AssayTypeId>
+                            <QualitativeMeasurement>Positive-High</QualitativeMeasurement>
+                            <QuantitativeMeasurement>36.0</QuantitativeMeasurement>
+                        </AssayInformation>
+                        <MhcAlleleId>231</MhcAlleleId>
+                    </MhcBinding>
+                </Assays>
+            </Epitope>
+        </Epitopes>
+    </Reference>
+</References>
+

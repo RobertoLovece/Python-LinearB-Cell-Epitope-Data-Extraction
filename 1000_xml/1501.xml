@@ -1,0 +1,925 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<References xsi:schemaLocation="http://www.iedb.org/schema/CurationSchema http://beta.iedb.org/schema/Curation.xsd" xmlns="http://www.iedb.org/schema/CurationSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <Reference>
+        <ReferenceId>1501</ReferenceId>
+        <DateLastUpdated>2018-10-16-07:00</DateLastUpdated>
+        <Article>
+            <PubmedId>7523695</PubmedId>
+            <Abstract>Sendai virus infection of C57BL/6 mice elicits a strong CD4+ and CD8+ T-cell response in the respiratory tract. To investigate the specificity of the CD4+ T-cell response, a panel of hybridomas was generated from cells recovered from the respiratory tracts of infected mice. Using vaccinia virus recombinants expressing individual Sendai virus proteins, we found that the majority of these hybridomas (34 of 37) were specific for the hemagglutinin-neuraminidase (HN) glycoprotein. The hybridomas were then analyzed for reactivity to a set of overlapping peptides spanning the entire length of the hemagglutinin-neuraminidase glycoprotein. At least five H-2 I-Ab-restricted epitopes were defined in HN. The strong bias toward recognition of class II epitopes derived from a single viral protein contrasts with T-cell recognition of epitopes of several proteins in influenza A virus as found previously by others.</Abstract>
+            <ArticleYear>1994</ArticleYear>
+            <ArticlePages>6863-70</ArticlePages>
+            <ArticleTitle>Analysis of the primary T-cell response to Sendai virus infection in C57BL/6 mice: CD4+ T-cell recognition is directed predominantly to the hemagglutinin-neuraminidase glycoprotein.</ArticleTitle>
+            <Authors>
+                <Author>
+                    <LastName>Cole</LastName>
+                    <ForeName>G A</ForeName>
+                </Author>
+                <Author>
+                    <LastName>Katz</LastName>
+                    <ForeName>J M</ForeName>
+                </Author>
+                <Author>
+                    <LastName>Hogg</LastName>
+                    <ForeName>T L</ForeName>
+                </Author>
+                <Author>
+                    <LastName>Ryan</LastName>
+                    <ForeName>K W</ForeName>
+                </Author>
+                <Author>
+                    <LastName>Portner</LastName>
+                    <ForeName>A</ForeName>
+                </Author>
+                <Author>
+                    <LastName>Woodland</LastName>
+                    <ForeName>D L</ForeName>
+                </Author>
+            </Authors>
+            <Affiliations>Department of Immunology, St. Jude Children's Research Hospital, Memphis, Tennessee 38105.</Affiliations>
+            <ArticleChemicalList>Epitopes;H-2 Antigens;HN Protein;Peptide Fragments</ArticleChemicalList>
+            <ArticleMeshHeadingsList>Amino Acid Sequence; Animals; CD4-Positive T-Lymphocytes(immunology); Epitopes; Female; H-2 Antigens(physiology); HN Protein(immunology); Hybridomas(immunology); Mice; Mice, Inbred C57BL; Molecular Sequence Data; Parainfluenza Virus 1, Human(immunology); Paramyxoviridae Infections(immunology); Peptide Fragments(immunology)</ArticleMeshHeadingsList>
+            <Journal>
+                <Volume>68</Volume>
+                <Issue>11</Issue>
+                <Title>Journal of virology</Title>
+                <Issn>1098-5514</Issn>
+                <MedlineTa>J Virol</MedlineTa>
+            </Journal>
+        </Article>
+        <Epitopes>
+            <Epitope>
+                <EpitopeName>HN163-178</EpitopeName>
+                <EpitopeStructure>
+                    <FragmentOfANaturalSequenceMolecule>
+                        <ChemicalType>Peptide from protein</ChemicalType>
+                        <LinearSequence>VGEPYLSSDPKISLLPG</LinearSequence>
+                        <StartingPosition>163</StartingPosition>
+                        <EndingPosition>179</EndingPosition>
+                        <SourceMolecule>
+                            <GenBankId>P19758.1</GenBankId>
+                        </SourceMolecule>
+                        <SourceOrganismId>11194</SourceOrganismId>
+                    </FragmentOfANaturalSequenceMolecule>
+                </EpitopeStructure>
+                <LocationOfData>Table 5</LocationOfData>
+                <EpitopeId>68652</EpitopeId>
+                <ReferenceStartingPosition>163</ReferenceStartingPosition>
+                <ReferenceEndingPosition>179</ReferenceEndingPosition>
+                <EpitopeEvidenceCode>Not determined</EpitopeEvidenceCode>
+                <EpitopeStructureDefines>Epitope containing region/antigenic site</EpitopeStructureDefines>
+                <EpitopeComments>The epitope sequence listed in Table 5 is actually for a 17-mer peptide that corresponds to HN163-179. The epitope is named HN163-178 (a 16-mer) in the paper, but the peptide is actually a 17-mer and the residues actually correspond to HN163-179. See Materials and Methods and Table 5 and reference 19. GenBank and Swiss-Prot ID are for Fushimi strain, but epitope region is identical in both strains.</EpitopeComments>
+                <Assays>
+                    <TCell>
+                        <LocationOfData>Table 3</LocationOfData>
+                        <TCellId>24640</TCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>10000067</OrganismId>
+                                <Sex>F</Sex>
+                                <Age>8-10 weeks</Age>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Administration in vivo</InVivoProcessType>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Source Organism</EpitopeRelation>
+                                    <Object>
+                                        <Organism>
+                                            <SubType>Organism</SubType>
+                                            <SourceOrganismId>11194</SourceOrganismId>
+                                        </Organism>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenReferenceName>Sendai virus (strain Enders)</ImmunogenReferenceName>
+                                <ImmunogenEvidenceCode>Not determined</ImmunogenEvidenceCode>
+                                <Route>Intranasal</Route>
+                                <DoseSchedule>1</DoseSchedule>
+                            </FirstInVivoProcess>
+                            <InVitroAdministration>
+                                <ProcessType>Restimulation in vitro</ProcessType>
+                                <ResponderCellType>T cell</ResponderCellType>
+                                <StimulatorCellType>Splenocyte</StimulatorCellType>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Source Antigen</EpitopeRelation>
+                                    <Object>
+                                        <AccessionSequenceMolecule>
+                                            <ChemicalType>Protein</ChemicalType>
+                                            <Molecule>
+                                                <GenBankId>P19758.1</GenBankId>
+                                            </Molecule>
+                                            <SourceOrganismId>11194</SourceOrganismId>
+                                        </AccessionSequenceMolecule>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenEvidenceCode>Not determined</ImmunogenEvidenceCode>
+                            </InVitroAdministration>
+                            <ImmunizationComments>T cell hybridomas were generated with bronchoalveolar lavage (BAL) populations from Sendai virus infected mice. These hybridomas were screened for reactivity to different Sendai virus proteins and were found to have specificity for the hemagglutinin-neuraminidase (HN) protein (see Table 2). HN-specific hybridomas were then assayed against an overlapping 17-mer peptide library encompassing the entire predicted HN protein sequence. Specifically, hybridomas were tested for IL-2 production in response to I-Ab transfected L cells loaded with the different HN peptides.</ImmunizationComments>
+                        </Immunization>
+                        <EffectorCells>
+                            <CellTissueType>Bronchial Aveolar Lavage (BAL)</CellTissueType>
+                            <CellType>T cell</CellType>
+                            <CellCultureConditions>Cell Line / Clone (Hybridoma)</CellCultureConditions>
+                        </EffectorCells>
+                        <AntigenPresentingCells>
+                            <CellTissueType>Other</CellTissueType>
+                            <CellType>L cells-Fibroblast</CellType>
+                            <CellCultureConditions>Cell Line / Clone</CellCultureConditions>
+                            <AutologousOrSyngeneic>N</AutologousOrSyngeneic>
+                        </AntigenPresentingCells>
+                        <MhcAllele>
+                            <MhcAlleleId>181</MhcAlleleId>
+                            <MhcEvidenceCode>Not determined</MhcEvidenceCode>
+                        </MhcAllele>
+                        <Antigen>
+                            <AntigenReferenceName>HN163-178</AntigenReferenceName>
+                            <AntigenObject>
+                                <EpitopeRelation>Epitope</EpitopeRelation>
+                                <Object>
+                                    <FragmentOfANaturalSequenceMolecule>
+                                        <ChemicalType>Peptide from protein</ChemicalType>
+                                        <LinearSequence>VGEPYLSSDPKISLLPG</LinearSequence>
+                                        <StartingPosition>163</StartingPosition>
+                                        <EndingPosition>179</EndingPosition>
+                                        <SourceMolecule>
+                                            <GenBankId>P19758.1</GenBankId>
+                                        </SourceMolecule>
+                                        <SourceOrganismId>11194</SourceOrganismId>
+                                    </FragmentOfANaturalSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Exact match to reference information</AntigenEvidenceCode>
+                        </Antigen>
+                        <AssayInformation>
+                            <AssayTypeId>62</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <AssayComments>HN-specific T cell hybridomas were assessed for IL-2 production when stimulated with HN163-168 peptide loaded L cells. L cells were transfected with MHC II I-Ab. Hybridoma B3.4D6 only responded to the HN163-178 peptide and not to any other peptide in the HN peptide library.</AssayComments>
+                        </AssayInformation>
+                    </TCell>
+                </Assays>
+            </Epitope>
+            <Epitope>
+                <EpitopeName>HN199-215</EpitopeName>
+                <EpitopeStructure>
+                    <FragmentOfANaturalSequenceMolecule>
+                        <ChemicalType>Peptide from protein</ChemicalType>
+                        <LinearSequence>SIGEAIYAYSSNLITQG</LinearSequence>
+                        <StartingPosition>199</StartingPosition>
+                        <EndingPosition>215</EndingPosition>
+                        <SourceMolecule>
+                            <GenBankId>P19758.1</GenBankId>
+                        </SourceMolecule>
+                        <SourceOrganismId>11194</SourceOrganismId>
+                    </FragmentOfANaturalSequenceMolecule>
+                </EpitopeStructure>
+                <LocationOfData>Table 5</LocationOfData>
+                <EpitopeId>58512</EpitopeId>
+                <ReferenceStartingPosition>199</ReferenceStartingPosition>
+                <ReferenceEndingPosition>215</ReferenceEndingPosition>
+                <EpitopeEvidenceCode>Not determined</EpitopeEvidenceCode>
+                <EpitopeStructureDefines>Epitope containing region/antigenic site</EpitopeStructureDefines>
+                <EpitopeComments>GenBank and Swiss-Prot ID are for Fushimi strain, but epitope region is identical in both strains.</EpitopeComments>
+                <Assays>
+                    <TCell>
+                        <LocationOfData>Table 3</LocationOfData>
+                        <TCellId>24648</TCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>10000067</OrganismId>
+                                <Sex>F</Sex>
+                                <Age>8-10 weeks</Age>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Administration in vivo</InVivoProcessType>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Source Organism</EpitopeRelation>
+                                    <Object>
+                                        <Organism>
+                                            <SubType>Organism</SubType>
+                                            <SourceOrganismId>11194</SourceOrganismId>
+                                        </Organism>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenReferenceName>Sendai virus (strain Enders)</ImmunogenReferenceName>
+                                <ImmunogenEvidenceCode>Not determined</ImmunogenEvidenceCode>
+                                <Route>Intranasal</Route>
+                                <DoseSchedule>1</DoseSchedule>
+                            </FirstInVivoProcess>
+                            <InVitroAdministration>
+                                <ProcessType>Restimulation in vitro</ProcessType>
+                                <ResponderCellType>T cell</ResponderCellType>
+                                <StimulatorCellType>Splenocyte</StimulatorCellType>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Source Antigen</EpitopeRelation>
+                                    <Object>
+                                        <AccessionSequenceMolecule>
+                                            <ChemicalType>Protein</ChemicalType>
+                                            <Molecule>
+                                                <GenBankId>P19758.1</GenBankId>
+                                            </Molecule>
+                                            <SourceOrganismId>11194</SourceOrganismId>
+                                        </AccessionSequenceMolecule>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenEvidenceCode>Not determined</ImmunogenEvidenceCode>
+                            </InVitroAdministration>
+                            <ImmunizationComments>T cell hybridomas were generated with bronchoalveolar lavage (BAL) populations from Sendai virus infected mice. These hybridomas were screened for reactivity to different Sendai virus proteins and were found to have specificity for the hemagglutinin-neuraminidase (HN) protein (see Table 2). HN-specific hybridomas were then assayed against an overlapping 17-mer peptide library encompassing the entire predicted HN protein sequence. Specifically, hybridomas were tested for IL-2 production in response to I-Ab transfected L cells loaded with the different HN peptides.</ImmunizationComments>
+                        </Immunization>
+                        <EffectorCells>
+                            <CellTissueType>Bronchial Aveolar Lavage (BAL)</CellTissueType>
+                            <CellType>T cell</CellType>
+                            <CellCultureConditions>Cell Line / Clone (Hybridoma)</CellCultureConditions>
+                        </EffectorCells>
+                        <AntigenPresentingCells>
+                            <CellTissueType>Other</CellTissueType>
+                            <CellType>L cells-Fibroblast</CellType>
+                            <CellCultureConditions>Cell Line / Clone</CellCultureConditions>
+                            <AutologousOrSyngeneic>N</AutologousOrSyngeneic>
+                        </AntigenPresentingCells>
+                        <MhcAllele>
+                            <MhcAlleleId>181</MhcAlleleId>
+                            <MhcEvidenceCode>Not determined</MhcEvidenceCode>
+                        </MhcAllele>
+                        <Antigen>
+                            <AntigenReferenceName>HN199-215</AntigenReferenceName>
+                            <AntigenObject>
+                                <EpitopeRelation>Epitope</EpitopeRelation>
+                                <Object>
+                                    <FragmentOfANaturalSequenceMolecule>
+                                        <ChemicalType>Peptide from protein</ChemicalType>
+                                        <LinearSequence>SIGEAIYAYSSNLITQG</LinearSequence>
+                                        <StartingPosition>199</StartingPosition>
+                                        <EndingPosition>215</EndingPosition>
+                                        <SourceMolecule>
+                                            <GenBankId>P19758.1</GenBankId>
+                                        </SourceMolecule>
+                                        <SourceOrganismId>11194</SourceOrganismId>
+                                    </FragmentOfANaturalSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Exact match to reference information</AntigenEvidenceCode>
+                        </Antigen>
+                        <AssayInformation>
+                            <AssayTypeId>62</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <AssayComments>HN-specific T cell hybridomas were assessed for IL-2 production when stimulated with HN199-215 peptide loaded L cells. L cells were transfected with MHC II I-Ab. Hybridoma B3.2A8 responded to both the HN199-215 peptide and to the HN205-221 peptide, sugesting that the epitope lies within the overlap of these two peptides.</AssayComments>
+                        </AssayInformation>
+                    </TCell>
+                </Assays>
+            </Epitope>
+            <Epitope>
+                <EpitopeName>HN205-221</EpitopeName>
+                <EpitopeStructure>
+                    <FragmentOfANaturalSequenceMolecule>
+                        <ChemicalType>Peptide from protein</ChemicalType>
+                        <LinearSequence>YAYSSNLITQGCADIG</LinearSequence>
+                        <StartingPosition>205</StartingPosition>
+                        <EndingPosition>220</EndingPosition>
+                        <SourceMolecule>
+                            <GenBankId>P19758.1</GenBankId>
+                        </SourceMolecule>
+                        <SourceOrganismId>11194</SourceOrganismId>
+                    </FragmentOfANaturalSequenceMolecule>
+                </EpitopeStructure>
+                <LocationOfData>Table 5</LocationOfData>
+                <EpitopeId>73481</EpitopeId>
+                <ReferenceStartingPosition>205</ReferenceStartingPosition>
+                <ReferenceEndingPosition>220</ReferenceEndingPosition>
+                <EpitopeEvidenceCode>Not determined</EpitopeEvidenceCode>
+                <EpitopeStructureDefines>Epitope containing region/antigenic site</EpitopeStructureDefines>
+                <EpitopeComments>The peptide sequence in Table 5 corresponds to HN205-220 with an extra non-HN glycine (G221) residue on the C-terminal end. GenBank and Swiss-Prot ID are for Fushimi strain, but epitope region is identical in both strains.</EpitopeComments>
+                <Assays>
+                    <TCell>
+                        <LocationOfData>Table 3</LocationOfData>
+                        <TCellId>24649</TCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>10000067</OrganismId>
+                                <Sex>F</Sex>
+                                <Age>8-10 weeks</Age>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Administration in vivo</InVivoProcessType>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Source Organism</EpitopeRelation>
+                                    <Object>
+                                        <Organism>
+                                            <SubType>Organism</SubType>
+                                            <SourceOrganismId>11194</SourceOrganismId>
+                                        </Organism>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenReferenceName>Sendai virus (strain Enders)</ImmunogenReferenceName>
+                                <ImmunogenEvidenceCode>Not determined</ImmunogenEvidenceCode>
+                                <Route>Intranasal</Route>
+                                <DoseSchedule>1</DoseSchedule>
+                            </FirstInVivoProcess>
+                            <InVitroAdministration>
+                                <ProcessType>Restimulation in vitro</ProcessType>
+                                <ResponderCellType>T cell</ResponderCellType>
+                                <StimulatorCellType>Splenocyte</StimulatorCellType>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Source Antigen</EpitopeRelation>
+                                    <Object>
+                                        <AccessionSequenceMolecule>
+                                            <ChemicalType>Protein</ChemicalType>
+                                            <Molecule>
+                                                <GenBankId>P19758.1</GenBankId>
+                                            </Molecule>
+                                            <SourceOrganismId>11194</SourceOrganismId>
+                                        </AccessionSequenceMolecule>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenEvidenceCode>Not determined</ImmunogenEvidenceCode>
+                            </InVitroAdministration>
+                            <ImmunizationComments>T cell hybridomas were generated with bronchoalveolar lavage (BAL) populations from Sendai virus infected mice. These hybridomas were screened for reactivity to different Sendai virus proteins and were found to have specificity for the hemagglutinin-neuraminidase (HN) protein (see Table 2). HN-specific hybridomas were then assayed against an overlapping 17-mer peptide library encompassing the entire predicted HN protein sequence. Specifically, hybridomas were tested for IL-2 production in response to I-Ab transfected L cells loaded with the different HN peptides.</ImmunizationComments>
+                        </Immunization>
+                        <EffectorCells>
+                            <CellTissueType>Bronchial Aveolar Lavage (BAL)</CellTissueType>
+                            <CellType>T cell</CellType>
+                            <CellCultureConditions>Cell Line / Clone (Hybridoma)</CellCultureConditions>
+                        </EffectorCells>
+                        <AntigenPresentingCells>
+                            <CellTissueType>Other</CellTissueType>
+                            <CellType>L cells-Fibroblast</CellType>
+                            <CellCultureConditions>Cell Line / Clone</CellCultureConditions>
+                            <AutologousOrSyngeneic>N</AutologousOrSyngeneic>
+                        </AntigenPresentingCells>
+                        <MhcAllele>
+                            <MhcAlleleId>181</MhcAlleleId>
+                            <MhcEvidenceCode>Not determined</MhcEvidenceCode>
+                        </MhcAllele>
+                        <Antigen>
+                            <AntigenReferenceName>HN205-221</AntigenReferenceName>
+                            <AntigenObject>
+                                <EpitopeRelation>Epitope</EpitopeRelation>
+                                <Object>
+                                    <FragmentOfANaturalSequenceMolecule>
+                                        <ChemicalType>Peptide from protein</ChemicalType>
+                                        <LinearSequence>YAYSSNLITQGCADIG</LinearSequence>
+                                        <StartingPosition>205</StartingPosition>
+                                        <EndingPosition>220</EndingPosition>
+                                        <SourceMolecule>
+                                            <GenBankId>P19758.1</GenBankId>
+                                        </SourceMolecule>
+                                        <SourceOrganismId>11194</SourceOrganismId>
+                                    </FragmentOfANaturalSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Exact match to reference information</AntigenEvidenceCode>
+                        </Antigen>
+                        <AssayInformation>
+                            <AssayTypeId>62</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <AssayComments>HN-specific T cell hybridomas were assessed for IL-2 production when stimulated with HN205-221 peptide loaded L cells. L cells were transfected with MHC II I-Ab. Hybridoma B3.2A8 responded to both the HN199-215 peptide and the HN205-221 peptide (see Figure 1 also), suggesting that the epitope lies within the overlapping region of these two peptides.</AssayComments>
+                        </AssayInformation>
+                    </TCell>
+                </Assays>
+            </Epitope>
+            <Epitope>
+                <EpitopeName>HN415-430</EpitopeName>
+                <EpitopeStructure>
+                    <FragmentOfANaturalSequenceMolecule>
+                        <ChemicalType>Peptide from protein</ChemicalType>
+                        <LinearSequence>LKLGDRVYIYTRSSGW</LinearSequence>
+                        <StartingPosition>415</StartingPosition>
+                        <EndingPosition>430</EndingPosition>
+                        <SourceMolecule>
+                            <GenBankId>P19758.1</GenBankId>
+                        </SourceMolecule>
+                        <SourceOrganismId>11194</SourceOrganismId>
+                    </FragmentOfANaturalSequenceMolecule>
+                </EpitopeStructure>
+                <LocationOfData>Table 5</LocationOfData>
+                <EpitopeId>36938</EpitopeId>
+                <ReferenceStartingPosition>415</ReferenceStartingPosition>
+                <ReferenceEndingPosition>430</ReferenceEndingPosition>
+                <EpitopeEvidenceCode>Not determined</EpitopeEvidenceCode>
+                <EpitopeStructureDefines>Epitope containing region/antigenic site</EpitopeStructureDefines>
+                <EpitopeComments>Peptide sequence in Table 5 corresponds to HN415-430 of the HN sequence and includes a non-HN glycine (G) at the C-terminus. GenBank and Swiss-Prot ID are for Fushimi strain, but epitope region is identical in both strains.</EpitopeComments>
+                <Assays>
+                    <TCell>
+                        <LocationOfData>Table 3</LocationOfData>
+                        <TCellId>24662</TCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>10000067</OrganismId>
+                                <Sex>F</Sex>
+                                <Age>8-10 weeks</Age>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Administration in vivo</InVivoProcessType>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Source Organism</EpitopeRelation>
+                                    <Object>
+                                        <Organism>
+                                            <SubType>Organism</SubType>
+                                            <SourceOrganismId>11194</SourceOrganismId>
+                                        </Organism>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenReferenceName>Sendai virus (strain Enders)</ImmunogenReferenceName>
+                                <ImmunogenEvidenceCode>Not determined</ImmunogenEvidenceCode>
+                                <Route>Intranasal</Route>
+                                <DoseSchedule>1</DoseSchedule>
+                            </FirstInVivoProcess>
+                            <InVitroAdministration>
+                                <ProcessType>Restimulation in vitro</ProcessType>
+                                <ResponderCellType>T cell</ResponderCellType>
+                                <StimulatorCellType>Splenocyte</StimulatorCellType>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Source Antigen</EpitopeRelation>
+                                    <Object>
+                                        <AccessionSequenceMolecule>
+                                            <ChemicalType>Protein</ChemicalType>
+                                            <Molecule>
+                                                <GenBankId>P19758.1</GenBankId>
+                                            </Molecule>
+                                            <SourceOrganismId>11194</SourceOrganismId>
+                                        </AccessionSequenceMolecule>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenEvidenceCode>Not determined</ImmunogenEvidenceCode>
+                            </InVitroAdministration>
+                            <ImmunizationComments>T cell hybridomas were generated with bronchoalveolar lavage (BAL) populations from Sendai virus infected mice. These hybridomas were screened for reactivity to different Sendai virus proteins and were found to have specificity for the hemagglutinin-neuraminidase (HN) protein (see Table 2). HN-specific hybridomas were then assayed against an overlapping 17-mer peptide library encompassing the entire predicted HN protein sequence. Specifically, hybridomas were tested for IL-2 production in response to I-Ab transfected L cells loaded with the different HN peptides.</ImmunizationComments>
+                        </Immunization>
+                        <EffectorCells>
+                            <CellTissueType>Bronchial Aveolar Lavage (BAL)</CellTissueType>
+                            <CellType>T cell</CellType>
+                            <CellCultureConditions>Cell Line / Clone (Hybridoma)</CellCultureConditions>
+                        </EffectorCells>
+                        <AntigenPresentingCells>
+                            <CellTissueType>Other</CellTissueType>
+                            <CellType>L cells-Fibroblast</CellType>
+                            <CellCultureConditions>Cell Line / Clone</CellCultureConditions>
+                            <AutologousOrSyngeneic>N</AutologousOrSyngeneic>
+                        </AntigenPresentingCells>
+                        <MhcAllele>
+                            <MhcAlleleId>181</MhcAlleleId>
+                            <MhcEvidenceCode>Not determined</MhcEvidenceCode>
+                        </MhcAllele>
+                        <Antigen>
+                            <AntigenReferenceName>HN415-430</AntigenReferenceName>
+                            <AntigenObject>
+                                <EpitopeRelation>Epitope</EpitopeRelation>
+                                <Object>
+                                    <FragmentOfANaturalSequenceMolecule>
+                                        <ChemicalType>Peptide from protein</ChemicalType>
+                                        <LinearSequence>LKLGDRVYIYTRSSGW</LinearSequence>
+                                        <StartingPosition>415</StartingPosition>
+                                        <EndingPosition>430</EndingPosition>
+                                        <SourceMolecule>
+                                            <GenBankId>P19758.1</GenBankId>
+                                        </SourceMolecule>
+                                        <SourceOrganismId>11194</SourceOrganismId>
+                                    </FragmentOfANaturalSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Exact match to reference information</AntigenEvidenceCode>
+                        </Antigen>
+                        <AssayInformation>
+                            <AssayTypeId>62</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <AssayComments>HN-specific T cell hybridomas were assessed for IL-2 production when stimulated with HN415-430 peptide loaded L cells. L cells were transfected with MHC II I-Ab. Ten different hybridomas responded to the HN415-430 peptide, and 9 of these also responded to the HN421-436 peptide. Two of these hybridomas (B3.1F8 and B3.2C5) are also analyzed in Figure 1, and show preferential recognition of the two different peptides. This suggests that there are at least two distinct epitopes within these two overlapping peptides.</AssayComments>
+                        </AssayInformation>
+                    </TCell>
+                </Assays>
+            </Epitope>
+            <Epitope>
+                <EpitopeName>HN421-436</EpitopeName>
+                <EpitopeStructure>
+                    <FragmentOfANaturalSequenceMolecule>
+                        <ChemicalType>Peptide from protein</ChemicalType>
+                        <LinearSequence>VYIYTRSSGWHSQLQI</LinearSequence>
+                        <StartingPosition>421</StartingPosition>
+                        <EndingPosition>436</EndingPosition>
+                        <SourceMolecule>
+                            <GenBankId>P19758.1</GenBankId>
+                        </SourceMolecule>
+                        <SourceOrganismId>11194</SourceOrganismId>
+                    </FragmentOfANaturalSequenceMolecule>
+                </EpitopeStructure>
+                <LocationOfData>Table 5</LocationOfData>
+                <EpitopeId>72060</EpitopeId>
+                <ReferenceStartingPosition>421</ReferenceStartingPosition>
+                <ReferenceEndingPosition>436</ReferenceEndingPosition>
+                <EpitopeEvidenceCode>Not determined</EpitopeEvidenceCode>
+                <EpitopeStructureDefines>Epitope containing region/antigenic site</EpitopeStructureDefines>
+                <EpitopeComments>Peptide sequence in Table 5 corresponds to HN421-436 of the HN sequence and includes a non-HN glycine (G) at the C-terminus. GenBank and Swiss-Prot ID are for Fushimi strain, but epitope region is identical in both strains.</EpitopeComments>
+                <Assays>
+                    <TCell>
+                        <LocationOfData>Table 3</LocationOfData>
+                        <TCellId>24673</TCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>10000067</OrganismId>
+                                <Sex>F</Sex>
+                                <Age>8-10 weeks</Age>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Administration in vivo</InVivoProcessType>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Source Organism</EpitopeRelation>
+                                    <Object>
+                                        <Organism>
+                                            <SubType>Organism</SubType>
+                                            <SourceOrganismId>11194</SourceOrganismId>
+                                        </Organism>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenReferenceName>Sendai virus (strain Enders)</ImmunogenReferenceName>
+                                <ImmunogenEvidenceCode>Not determined</ImmunogenEvidenceCode>
+                                <Route>Intranasal</Route>
+                                <DoseSchedule>1</DoseSchedule>
+                            </FirstInVivoProcess>
+                            <InVitroAdministration>
+                                <ProcessType>Restimulation in vitro</ProcessType>
+                                <ResponderCellType>T cell</ResponderCellType>
+                                <StimulatorCellType>Splenocyte</StimulatorCellType>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Source Antigen</EpitopeRelation>
+                                    <Object>
+                                        <AccessionSequenceMolecule>
+                                            <ChemicalType>Protein</ChemicalType>
+                                            <Molecule>
+                                                <GenBankId>P19758.1</GenBankId>
+                                            </Molecule>
+                                            <SourceOrganismId>11194</SourceOrganismId>
+                                        </AccessionSequenceMolecule>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenEvidenceCode>Not determined</ImmunogenEvidenceCode>
+                            </InVitroAdministration>
+                            <ImmunizationComments>T cell hybridomas were generated with bronchoalveolar lavage (BAL) populations from Sendai virus infected mice. These hybridomas were screened for reactivity to different Sendai virus proteins and were found to have specificity for the hemagglutinin-neuraminidase (HN) protein (see Table 2). HN-specific hybridomas were then assayed against an overlapping 17-mer peptide library encompassing the entire predicted HN protein sequence. Specifically, hybridomas were tested for IL-2 production in response to I-Ab transfected L cells loaded with the different HN peptides.</ImmunizationComments>
+                        </Immunization>
+                        <EffectorCells>
+                            <CellTissueType>Bronchial Aveolar Lavage (BAL)</CellTissueType>
+                            <CellType>T cell</CellType>
+                            <CellCultureConditions>Cell Line / Clone (Hybridoma)</CellCultureConditions>
+                        </EffectorCells>
+                        <AntigenPresentingCells>
+                            <CellTissueType>Other</CellTissueType>
+                            <CellType>L cells-Fibroblast</CellType>
+                            <CellCultureConditions>Cell Line / Clone</CellCultureConditions>
+                            <AutologousOrSyngeneic>N</AutologousOrSyngeneic>
+                        </AntigenPresentingCells>
+                        <MhcAllele>
+                            <MhcAlleleId>181</MhcAlleleId>
+                            <MhcEvidenceCode>Not determined</MhcEvidenceCode>
+                        </MhcAllele>
+                        <Antigen>
+                            <AntigenReferenceName>HN421-436</AntigenReferenceName>
+                            <AntigenObject>
+                                <EpitopeRelation>Epitope</EpitopeRelation>
+                                <Object>
+                                    <FragmentOfANaturalSequenceMolecule>
+                                        <ChemicalType>Peptide from protein</ChemicalType>
+                                        <LinearSequence>VYIYTRSSGWHSQLQI</LinearSequence>
+                                        <StartingPosition>421</StartingPosition>
+                                        <EndingPosition>436</EndingPosition>
+                                        <SourceMolecule>
+                                            <GenBankId>P19758.1</GenBankId>
+                                        </SourceMolecule>
+                                        <SourceOrganismId>11194</SourceOrganismId>
+                                    </FragmentOfANaturalSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Exact match to reference information</AntigenEvidenceCode>
+                        </Antigen>
+                        <AssayInformation>
+                            <AssayTypeId>62</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <AssayComments>HN-specific T cell hybridomas were assessed for IL-2 production when stimulated with HN421-436 peptide loaded L cells. L cells were transfected with MHC II I-Ab. Twenty-four different hybridomas responded to the HN421-436 peptide, and 2 of these also responded to the HN415-430 peptide. Two of these hybridomas (B3.1F8 and B3.2C5) are also analyzed in Figure 1, and show preferential recognition of the two different peptides. This suggests that there are at least two distinct epitopes within these two overlapping peptides.</AssayComments>
+                        </AssayInformation>
+                    </TCell>
+                </Assays>
+            </Epitope>
+            <Epitope>
+                <EpitopeName>HN475-490</EpitopeName>
+                <EpitopeStructure>
+                    <FragmentOfANaturalSequenceMolecule>
+                        <ChemicalType>Peptide from protein</ChemicalType>
+                        <LinearSequence>SGVYTDAYPLSPDAAN</LinearSequence>
+                        <StartingPosition>475</StartingPosition>
+                        <EndingPosition>490</EndingPosition>
+                        <SourceMolecule>
+                            <GenBankId>P19758.1</GenBankId>
+                        </SourceMolecule>
+                        <SourceOrganismId>11194</SourceOrganismId>
+                    </FragmentOfANaturalSequenceMolecule>
+                </EpitopeStructure>
+                <LocationOfData>Table 5</LocationOfData>
+                <EpitopeId>58304</EpitopeId>
+                <ReferenceStartingPosition>475</ReferenceStartingPosition>
+                <ReferenceEndingPosition>490</ReferenceEndingPosition>
+                <EpitopeEvidenceCode>Not determined</EpitopeEvidenceCode>
+                <EpitopeStructureDefines>Epitope containing region/antigenic site</EpitopeStructureDefines>
+                <EpitopeComments>Peptide sequence in Table 5 corresponds to HN475-490 of the HN sequence and includes a non-HN glycine (G) at the C-terminus. GenBank and Swiss-Prot ID are for Fushimi strain, but epitope region is identical in both strains.</EpitopeComments>
+                <Assays>
+                    <TCell>
+                        <LocationOfData>Table 3</LocationOfData>
+                        <TCellId>24675</TCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>10000067</OrganismId>
+                                <Sex>F</Sex>
+                                <Age>8-10 weeks</Age>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Administration in vivo</InVivoProcessType>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Source Organism</EpitopeRelation>
+                                    <Object>
+                                        <Organism>
+                                            <SubType>Organism</SubType>
+                                            <SourceOrganismId>11194</SourceOrganismId>
+                                        </Organism>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenReferenceName>Sendai virus (strain Enders)</ImmunogenReferenceName>
+                                <ImmunogenEvidenceCode>Not determined</ImmunogenEvidenceCode>
+                                <Route>Intranasal</Route>
+                                <DoseSchedule>1</DoseSchedule>
+                            </FirstInVivoProcess>
+                            <InVitroAdministration>
+                                <ProcessType>Restimulation in vitro</ProcessType>
+                                <ResponderCellType>T cell</ResponderCellType>
+                                <StimulatorCellType>Splenocyte</StimulatorCellType>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Source Antigen</EpitopeRelation>
+                                    <Object>
+                                        <AccessionSequenceMolecule>
+                                            <ChemicalType>Protein</ChemicalType>
+                                            <Molecule>
+                                                <GenBankId>P19758.1</GenBankId>
+                                            </Molecule>
+                                            <SourceOrganismId>11194</SourceOrganismId>
+                                        </AccessionSequenceMolecule>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenEvidenceCode>Not determined</ImmunogenEvidenceCode>
+                            </InVitroAdministration>
+                            <ImmunizationComments>T cell hybridomas were generated with bronchoalveolar lavage (BAL) populations from Sendai virus infected mice. These hybridomas were screened for reactivity to different Sendai virus proteins and were found to have specificity for the hemagglutinin-neuraminidase (HN) protein (see Table 2). HN-specific hybridomas were then assayed against an overlapping 17-mer peptide library encompassing the entire predicted HN protein sequence. Specifically, hybridomas were tested for IL-2 production in response to I-Ab transfected L cells loaded with the different HN peptides.</ImmunizationComments>
+                        </Immunization>
+                        <EffectorCells>
+                            <CellTissueType>Bronchial Aveolar Lavage (BAL)</CellTissueType>
+                            <CellType>T cell</CellType>
+                            <CellCultureConditions>Cell Line / Clone (Hybridoma)</CellCultureConditions>
+                        </EffectorCells>
+                        <AntigenPresentingCells>
+                            <CellTissueType>Other</CellTissueType>
+                            <CellType>L cells-Fibroblast</CellType>
+                            <CellCultureConditions>Cell Line / Clone</CellCultureConditions>
+                            <AutologousOrSyngeneic>N</AutologousOrSyngeneic>
+                        </AntigenPresentingCells>
+                        <MhcAllele>
+                            <MhcAlleleId>181</MhcAlleleId>
+                            <MhcEvidenceCode>Not determined</MhcEvidenceCode>
+                        </MhcAllele>
+                        <Antigen>
+                            <AntigenReferenceName>HN475-490</AntigenReferenceName>
+                            <AntigenObject>
+                                <EpitopeRelation>Epitope</EpitopeRelation>
+                                <Object>
+                                    <FragmentOfANaturalSequenceMolecule>
+                                        <ChemicalType>Peptide from protein</ChemicalType>
+                                        <LinearSequence>SGVYTDAYPLSPDAAN</LinearSequence>
+                                        <StartingPosition>475</StartingPosition>
+                                        <EndingPosition>490</EndingPosition>
+                                        <SourceMolecule>
+                                            <GenBankId>P19758.1</GenBankId>
+                                        </SourceMolecule>
+                                        <SourceOrganismId>11194</SourceOrganismId>
+                                    </FragmentOfANaturalSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Exact match to reference information</AntigenEvidenceCode>
+                        </Antigen>
+                        <AssayInformation>
+                            <AssayTypeId>62</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <AssayComments>HN-specific T cell hybridomas were assessed for IL-2 production when stimulated with HN475-490 peptide loaded L cells. L cells were transfected with MHC II I-Ab. Two different hybridomas (B3.8G2 and B3.8D5) responded to the HN475-490 peptide, and 1 of these (B3.8D5) also responded to the HN481-496 peptide.</AssayComments>
+                        </AssayInformation>
+                    </TCell>
+                </Assays>
+            </Epitope>
+            <Epitope>
+                <EpitopeName>HN481-496</EpitopeName>
+                <EpitopeStructure>
+                    <FragmentOfANaturalSequenceMolecule>
+                        <ChemicalType>Peptide from protein</ChemicalType>
+                        <LinearSequence>AYPLSPDAANVATVTL</LinearSequence>
+                        <StartingPosition>481</StartingPosition>
+                        <EndingPosition>496</EndingPosition>
+                        <SourceMolecule>
+                            <GenBankId>P19758.1</GenBankId>
+                        </SourceMolecule>
+                        <SourceOrganismId>11194</SourceOrganismId>
+                    </FragmentOfANaturalSequenceMolecule>
+                </EpitopeStructure>
+                <LocationOfData>Table 5</LocationOfData>
+                <EpitopeId>5892</EpitopeId>
+                <ReferenceStartingPosition>481</ReferenceStartingPosition>
+                <ReferenceEndingPosition>496</ReferenceEndingPosition>
+                <EpitopeEvidenceCode>Not determined</EpitopeEvidenceCode>
+                <EpitopeStructureDefines>Epitope containing region/antigenic site</EpitopeStructureDefines>
+                <EpitopeComments>Peptide sequence in Table 5 corresponds to HN481-496 of the HN sequence and includes a non-HN glycine (G) at the C-terminus. GenBank and Swiss-Prot ID are for Fushimi strain, but epitope region is identical in both strains.</EpitopeComments>
+                <Assays>
+                    <TCell>
+                        <LocationOfData>Table 3</LocationOfData>
+                        <TCellId>24680</TCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>10000067</OrganismId>
+                                <Sex>F</Sex>
+                                <Age>8-10 weeks</Age>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Administration in vivo</InVivoProcessType>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Source Organism</EpitopeRelation>
+                                    <Object>
+                                        <Organism>
+                                            <SubType>Organism</SubType>
+                                            <SourceOrganismId>11194</SourceOrganismId>
+                                        </Organism>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenReferenceName>Sendai virus (strain Enders)</ImmunogenReferenceName>
+                                <ImmunogenEvidenceCode>Not determined</ImmunogenEvidenceCode>
+                                <Route>Intranasal</Route>
+                                <DoseSchedule>1</DoseSchedule>
+                            </FirstInVivoProcess>
+                            <InVitroAdministration>
+                                <ProcessType>Restimulation in vitro</ProcessType>
+                                <ResponderCellType>T cell</ResponderCellType>
+                                <StimulatorCellType>Splenocyte</StimulatorCellType>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Source Antigen</EpitopeRelation>
+                                    <Object>
+                                        <AccessionSequenceMolecule>
+                                            <ChemicalType>Protein</ChemicalType>
+                                            <Molecule>
+                                                <GenBankId>P19758.1</GenBankId>
+                                            </Molecule>
+                                            <SourceOrganismId>11194</SourceOrganismId>
+                                        </AccessionSequenceMolecule>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenEvidenceCode>Not determined</ImmunogenEvidenceCode>
+                            </InVitroAdministration>
+                            <ImmunizationComments>T cell hybridomas were generated with bronchoalveolar lavage (BAL) populations from Sendai virus infected mice. These hybridomas were screened for reactivity to different Sendai virus proteins and were found to have specificity for the hemagglutinin-neuraminidase (HN) protein (see Table 2). HN-specific hybridomas were then assayed against an overlapping 17-mer peptide library encompassing the entire predicted HN protein sequence. Specifically, hybridomas were tested for IL-2 production in response to I-Ab transfected L cells loaded with the different HN peptides.</ImmunizationComments>
+                        </Immunization>
+                        <EffectorCells>
+                            <CellTissueType>Bronchial Aveolar Lavage (BAL)</CellTissueType>
+                            <CellType>T cell</CellType>
+                            <CellCultureConditions>Cell Line / Clone (Hybridoma)</CellCultureConditions>
+                        </EffectorCells>
+                        <AntigenPresentingCells>
+                            <CellTissueType>Other</CellTissueType>
+                            <CellType>L cells-Fibroblast</CellType>
+                            <CellCultureConditions>Cell Line / Clone</CellCultureConditions>
+                            <AutologousOrSyngeneic>N</AutologousOrSyngeneic>
+                        </AntigenPresentingCells>
+                        <MhcAllele>
+                            <MhcAlleleId>181</MhcAlleleId>
+                            <MhcEvidenceCode>Not determined</MhcEvidenceCode>
+                        </MhcAllele>
+                        <Antigen>
+                            <AntigenReferenceName>HN481-496</AntigenReferenceName>
+                            <AntigenObject>
+                                <EpitopeRelation>Epitope</EpitopeRelation>
+                                <Object>
+                                    <FragmentOfANaturalSequenceMolecule>
+                                        <ChemicalType>Peptide from protein</ChemicalType>
+                                        <LinearSequence>AYPLSPDAANVATVTL</LinearSequence>
+                                        <StartingPosition>481</StartingPosition>
+                                        <EndingPosition>496</EndingPosition>
+                                        <SourceMolecule>
+                                            <GenBankId>P19758.1</GenBankId>
+                                        </SourceMolecule>
+                                        <SourceOrganismId>11194</SourceOrganismId>
+                                    </FragmentOfANaturalSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Exact match to reference information</AntigenEvidenceCode>
+                        </Antigen>
+                        <AssayInformation>
+                            <AssayTypeId>62</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <AssayComments>HN-specific T cell hybridomas were assessed for IL-2 production when stimulated with HN481-496 peptide loaded L cells. L cells were transfected with MHC II I-Ab. Hybridoma B3.8D5 responded to the  HN481-496 peptide and also to the HN475-490peptide.</AssayComments>
+                        </AssayInformation>
+                    </TCell>
+                </Assays>
+            </Epitope>
+            <Epitope>
+                <EpitopeName>HN559-574</EpitopeName>
+                <EpitopeStructure>
+                    <FragmentOfANaturalSequenceMolecule>
+                        <ChemicalType>Peptide from protein</ChemicalType>
+                        <LinearSequence>QPMLFKTSIPKLCKAE</LinearSequence>
+                        <StartingPosition>559</StartingPosition>
+                        <EndingPosition>574</EndingPosition>
+                        <SourceMolecule>
+                            <GenBankId>P19758.1</GenBankId>
+                        </SourceMolecule>
+                        <SourceOrganismId>11194</SourceOrganismId>
+                    </FragmentOfANaturalSequenceMolecule>
+                </EpitopeStructure>
+                <LocationOfData>Table 5</LocationOfData>
+                <EpitopeId>51882</EpitopeId>
+                <ReferenceStartingPosition>559</ReferenceStartingPosition>
+                <ReferenceEndingPosition>574</ReferenceEndingPosition>
+                <EpitopeEvidenceCode>Not determined</EpitopeEvidenceCode>
+                <EpitopeStructureDefines>Epitope containing region/antigenic site</EpitopeStructureDefines>
+                <EpitopeComments>Peptide sequence in Table 5 corresponds to HN559-574 of the HN sequence and includes a non-HN glycine (G) at the C-terminus. GenBank and Swiss-Prot ID are for Fushimi strain, but epitope region is identical in both strains.</EpitopeComments>
+                <Assays>
+                    <TCell>
+                        <LocationOfData>Table 3</LocationOfData>
+                        <TCellId>24681</TCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>10000067</OrganismId>
+                                <Sex>F</Sex>
+                                <Age>8-10 weeks</Age>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Administration in vivo</InVivoProcessType>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Source Organism</EpitopeRelation>
+                                    <Object>
+                                        <Organism>
+                                            <SubType>Organism</SubType>
+                                            <SourceOrganismId>11194</SourceOrganismId>
+                                        </Organism>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenReferenceName>Sendai virus (strain Enders)</ImmunogenReferenceName>
+                                <ImmunogenEvidenceCode>Not determined</ImmunogenEvidenceCode>
+                                <Route>Intranasal</Route>
+                                <DoseSchedule>1</DoseSchedule>
+                            </FirstInVivoProcess>
+                            <InVitroAdministration>
+                                <ProcessType>Restimulation in vitro</ProcessType>
+                                <ResponderCellType>T cell</ResponderCellType>
+                                <StimulatorCellType>Splenocyte</StimulatorCellType>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Source Antigen</EpitopeRelation>
+                                    <Object>
+                                        <AccessionSequenceMolecule>
+                                            <ChemicalType>Protein</ChemicalType>
+                                            <Molecule>
+                                                <GenBankId>P19758.1</GenBankId>
+                                            </Molecule>
+                                            <SourceOrganismId>11194</SourceOrganismId>
+                                        </AccessionSequenceMolecule>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenEvidenceCode>Not determined</ImmunogenEvidenceCode>
+                            </InVitroAdministration>
+                            <ImmunizationComments>T cell hybridomas were generated with bronchoalveolar lavage (BAL) populations from Sendai virus infected mice. These hybridomas were screened for reactivity to different Sendai virus proteins and were found to have specificity for the hemagglutinin-neuraminidase (HN) protein (see Table 2). HN-specific hybridomas were then assayed against an overlapping 17-mer peptide library encompassing the entire predicted HN protein sequence. Specifically, hybridomas were tested for IL-2 production in response to I-Ab transfected L cells loaded with the different HN peptides.</ImmunizationComments>
+                        </Immunization>
+                        <EffectorCells>
+                            <CellTissueType>Bronchial Aveolar Lavage (BAL)</CellTissueType>
+                            <CellType>T cell</CellType>
+                            <CellCultureConditions>Cell Line / Clone (Hybridoma)</CellCultureConditions>
+                        </EffectorCells>
+                        <AntigenPresentingCells>
+                            <CellTissueType>Other</CellTissueType>
+                            <CellType>L cells-Fibroblast</CellType>
+                            <CellCultureConditions>Cell Line / Clone</CellCultureConditions>
+                            <AutologousOrSyngeneic>N</AutologousOrSyngeneic>
+                        </AntigenPresentingCells>
+                        <MhcAllele>
+                            <MhcAlleleId>181</MhcAlleleId>
+                            <MhcEvidenceCode>Not determined</MhcEvidenceCode>
+                        </MhcAllele>
+                        <Antigen>
+                            <AntigenReferenceName>HN559-574</AntigenReferenceName>
+                            <AntigenObject>
+                                <EpitopeRelation>Epitope</EpitopeRelation>
+                                <Object>
+                                    <FragmentOfANaturalSequenceMolecule>
+                                        <ChemicalType>Peptide from protein</ChemicalType>
+                                        <LinearSequence>QPMLFKTSIPKLCKAE</LinearSequence>
+                                        <StartingPosition>559</StartingPosition>
+                                        <EndingPosition>574</EndingPosition>
+                                        <SourceMolecule>
+                                            <GenBankId>P19758.1</GenBankId>
+                                        </SourceMolecule>
+                                        <SourceOrganismId>11194</SourceOrganismId>
+                                    </FragmentOfANaturalSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Exact match to reference information</AntigenEvidenceCode>
+                        </Antigen>
+                        <AssayInformation>
+                            <AssayTypeId>62</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <AssayComments>HN-specific T cell hybridomas were assessed for IL-2 production when stimulated with HN559-574 peptide loaded L cells. L cells were transfected with MHC II I-Ab. Five different hybridomas responded to the HN559-574 peptide.</AssayComments>
+                        </AssayInformation>
+                    </TCell>
+                </Assays>
+            </Epitope>
+        </Epitopes>
+    </Reference>
+</References>
+

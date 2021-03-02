@@ -1,0 +1,686 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<References xsi:schemaLocation="http://www.iedb.org/schema/CurationSchema http://beta.iedb.org/schema/Curation.xsd" xmlns="http://www.iedb.org/schema/CurationSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <Reference>
+        <ReferenceId>705</ReferenceId>
+        <DateLastUpdated>2018-10-16-07:00</DateLastUpdated>
+        <Article>
+            <PubmedId>11705948</PubmedId>
+            <Abstract>Toxin-coregulated pilus (TCP) is a colonization factor required for cholera infection. It is not a strong immunogen when delivered in the context of whole cells, yet pilus subunits or TcpA derivative synthetic peptides induce protective responses. We examined the efficacy of immunizing mice with TCP conjugated to anti-class II monoclonal antibodies (MAb) with or without the addition of cholera toxin (CT) or anti-CD40 MAb to determine if the serologic response to TcpA could be manipulated. Anti-class II MAb-targeted TCP influenced the anti-TCP peptide serologic response with respect to titer and isotype. Responses to TcpA peptide 4 were induced with class II MAb-targeted TCP and not with nontargeted TCP. Class II MAb-targeting TcpA reduced the response to peptide 6 compared to the nontargeted TCP response. Class II MAb-targeted TcpA, if delivered with CT, enhanced the serologic response to TcpA peptides. The effectiveness of the combination of targeted TCP and CT was reduced if anti-CD40 MAb were included in the primary immunization. These data establish the need to understand the role of TCP presentation in the generation of B-cell epitopes in order to optimize TcpA-based cholera vaccines.</Abstract>
+            <ArticleYear>2001</ArticleYear>
+            <ArticlePages>7679-86</ArticlePages>
+            <ArticleTitle>Anti-class II monoclonal antibody-targeted Vibrio cholerae TcpA pilin: modulation of serologic response, epitope specificity, and isotype.</ArticleTitle>
+            <Authors>
+                <Author>
+                    <LastName>Wu</LastName>
+                    <ForeName>J Y</ForeName>
+                </Author>
+                <Author>
+                    <LastName>Taylor</LastName>
+                    <ForeName>R K</ForeName>
+                </Author>
+                <Author>
+                    <LastName>Wade</LastName>
+                    <ForeName>W F</ForeName>
+                </Author>
+            </Authors>
+            <Affiliations>Department of Microbiology and Immunology, Dartmouth Medical School, Lebanon, New Hampshire 03756, USA.</Affiliations>
+            <ArticleChemicalList>Adjuvants, Immunologic;Antibodies, Bacterial;Antibodies, Monoclonal;Bacterial Outer Membrane Proteins;CD40 Antigens;Cholera Vaccines;Histocompatibility Antigens Class II;Immunoconjugates;Peptide Fragments;TcpA protein, Vibrio cholerae;CD40 Ligand;Fimbriae Proteins;Cholera Toxin</ArticleChemicalList>
+            <ArticleMeshHeadingsList>Adjuvants, Immunologic; Amino Acid Sequence; Animals; Antibodies, Bacterial(blood); Antibodies, Monoclonal(immunology); Antigen Presentation; Bacterial Outer Membrane Proteins(immunology); CD40 Antigens; CD40 Ligand; Cholera Toxin(immunology); Cholera Vaccines(immunology); Female; Fimbriae Proteins; Fimbriae, Bacterial(immunology); Histocompatibility Antigens Class II(immunology); Immunoconjugates(immunology); Mice; Mice, Inbred CBA; Molecular Sequence Data; Peptide Fragments(immunology); Vaccination; Vibrio cholerae(immunology)</ArticleMeshHeadingsList>
+            <Journal>
+                <Volume>69</Volume>
+                <Issue>12</Issue>
+                <Title>Infection and immunity</Title>
+                <Issn>0019-9567</Issn>
+                <MedlineTa>Infect Immun</MedlineTa>
+            </Journal>
+        </Article>
+        <Epitopes>
+            <Epitope>
+                <EpitopeName>TcpA4</EpitopeName>
+                <EpitopeStructure>
+                    <FragmentOfANaturalSequenceMolecule>
+                        <ChemicalType>Peptide from protein</ChemicalType>
+                        <LinearSequence>ADLGDFENSAAAAETGVGVIKSIA</LinearSequence>
+                        <StartingPosition>170</StartingPosition>
+                        <EndingPosition>193</EndingPosition>
+                        <SourceMolecule>
+                            <GenBankId>P23024.1</GenBankId>
+                        </SourceMolecule>
+                        <SourceOrganismId>666</SourceOrganismId>
+                    </FragmentOfANaturalSequenceMolecule>
+                </EpitopeStructure>
+                <LocationOfData>Figure 1</LocationOfData>
+                <EpitopeId>707</EpitopeId>
+                <ReferenceStartingPosition>170</ReferenceStartingPosition>
+                <ReferenceEndingPosition>193</ReferenceEndingPosition>
+                <EpitopeEvidenceCode>Not determined</EpitopeEvidenceCode>
+                <EpitopeStructureDefines>Epitope containing region/antigenic site</EpitopeStructureDefines>
+                <Assays>
+                    <BCell>
+                        <LocationOfData>Tables 2 and 3</LocationOfData>
+                        <BCellId>7145</BCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>10000236</OrganismId>
+                                <Sex>F</Sex>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Administration in vivo</InVivoProcessType>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Source Antigen</EpitopeRelation>
+                                    <Object>
+                                        <AccessionSequenceMolecule>
+                                            <ChemicalType>Protein</ChemicalType>
+                                            <Molecule>
+                                                <GenBankId>P23024.1</GenBankId>
+                                            </Molecule>
+                                            <SourceOrganismId>666</SourceOrganismId>
+                                        </AccessionSequenceMolecule>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenReferenceName>Toxin-coregulated pilus</ImmunogenReferenceName>
+                                <ImmunogenEvidenceCode>Not determined</ImmunogenEvidenceCode>
+                                <Route>Subcutaneous (s.c.)</Route>
+                            </FirstInVivoProcess>
+                            <ImmunizationComments>These animals received the primary immunization at day zero, s.c. then boosted s.c. at day 28.</ImmunizationComments>
+                        </Immunization>
+                        <AssayInformation>
+                            <AssayTypeId>34</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <NumberOfSubjectsTested>3</NumberOfSubjectsTested>
+                            <NumberOfSubjectsResponded>3</NumberOfSubjectsResponded>
+                            <ResponseFrequency>100</ResponseFrequency>
+                            <AssayComments>Immunization with TCP alone did not induce a high-titer immune response to peptide 4 at 21 or 37 days postimmunization.  B1 consists of mice immunized with class II-targeted TcpA.  Animals were also tested for IgG2 and IgA at week 37 postimmunization.</AssayComments>
+                        </AssayInformation>
+                        <AssayedAntibody>
+                            <AssayedAntibodySourceMaterial>Serum</AssayedAntibodySourceMaterial>
+                            <AssayedAntibodyPurificationStatus>Polyclonal</AssayedAntibodyPurificationStatus>
+                            <AssayedAntibodyHeavyChainType>IgG1</AssayedAntibodyHeavyChainType>
+                        </AssayedAntibody>
+                        <Antigen>
+                            <AntigenReferenceName>TcpA4</AntigenReferenceName>
+                            <AntigenConformation>Non-Native/Unknown</AntigenConformation>
+                            <AntigenObject>
+                                <EpitopeRelation>Epitope</EpitopeRelation>
+                                <Object>
+                                    <FragmentOfANaturalSequenceMolecule>
+                                        <ChemicalType>Peptide from protein</ChemicalType>
+                                        <LinearSequence>ADLGDFENSAAAAETGVGVIKSIA</LinearSequence>
+                                        <StartingPosition>170</StartingPosition>
+                                        <EndingPosition>193</EndingPosition>
+                                        <SourceMolecule>
+                                            <GenBankId>P23024.1</GenBankId>
+                                        </SourceMolecule>
+                                        <SourceOrganismId>666</SourceOrganismId>
+                                    </FragmentOfANaturalSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Exact match to reference information</AntigenEvidenceCode>
+                        </Antigen>
+                    </BCell>
+                </Assays>
+                <Assays>
+                    <BCell>
+                        <LocationOfData>Tables 2 and 3</LocationOfData>
+                        <BCellId>14195</BCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>10000236</OrganismId>
+                                <Sex>F</Sex>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Administration in vivo</InVivoProcessType>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Source Antigen</EpitopeRelation>
+                                    <Object>
+                                        <AccessionSequenceMolecule>
+                                            <ChemicalType>Protein</ChemicalType>
+                                            <Molecule>
+                                                <GenBankId>P23024.1</GenBankId>
+                                            </Molecule>
+                                            <SourceOrganismId>666</SourceOrganismId>
+                                        </AccessionSequenceMolecule>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenReferenceName>Toxin-coregulated pilus</ImmunogenReferenceName>
+                                <ImmunogenEvidenceCode>Not determined</ImmunogenEvidenceCode>
+                                <Adjuvant>Cholera toxin</Adjuvant>
+                                <Route>Subcutaneous (s.c.)</Route>
+                            </FirstInVivoProcess>
+                            <ImmunizationComments>These animals received the primary immunization at day zero, s.c. then boosted s.c. at day 28.</ImmunizationComments>
+                        </Immunization>
+                        <AssayInformation>
+                            <AssayTypeId>34</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <NumberOfSubjectsTested>3</NumberOfSubjectsTested>
+                            <NumberOfSubjectsResponded>3</NumberOfSubjectsResponded>
+                            <ResponseFrequency>100</ResponseFrequency>
+                            <AssayComments>Immunization with TCP alone did not induce a high-titer immune response to peptide 4 at 21 or 37 days postimmunization. B1 consists of mice immunized with class II-targeted TcpA + cholera toxin.  Animals were also tested for IgG2 and IgA at week 37 postimmunization.</AssayComments>
+                        </AssayInformation>
+                        <AssayedAntibody>
+                            <AssayedAntibodySourceMaterial>Serum</AssayedAntibodySourceMaterial>
+                            <AssayedAntibodyPurificationStatus>Polyclonal</AssayedAntibodyPurificationStatus>
+                            <AssayedAntibodyHeavyChainType>IgG1</AssayedAntibodyHeavyChainType>
+                        </AssayedAntibody>
+                        <Antigen>
+                            <AntigenReferenceName>TcpA4</AntigenReferenceName>
+                            <AntigenConformation>Non-Native/Unknown</AntigenConformation>
+                            <AntigenObject>
+                                <EpitopeRelation>Epitope</EpitopeRelation>
+                                <Object>
+                                    <FragmentOfANaturalSequenceMolecule>
+                                        <ChemicalType>Peptide from protein</ChemicalType>
+                                        <LinearSequence>ADLGDFENSAAAAETGVGVIKSIA</LinearSequence>
+                                        <StartingPosition>170</StartingPosition>
+                                        <EndingPosition>193</EndingPosition>
+                                        <SourceMolecule>
+                                            <GenBankId>P23024.1</GenBankId>
+                                        </SourceMolecule>
+                                        <SourceOrganismId>666</SourceOrganismId>
+                                    </FragmentOfANaturalSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Exact match to reference information</AntigenEvidenceCode>
+                        </Antigen>
+                    </BCell>
+                </Assays>
+                <Assays>
+                    <BCell>
+                        <LocationOfData>Tables 2 and 3</LocationOfData>
+                        <BCellId>14196</BCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>10000236</OrganismId>
+                                <Sex>F</Sex>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Administration in vivo</InVivoProcessType>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Source Antigen</EpitopeRelation>
+                                    <Object>
+                                        <AccessionSequenceMolecule>
+                                            <ChemicalType>Protein</ChemicalType>
+                                            <Molecule>
+                                                <GenBankId>P23024.1</GenBankId>
+                                            </Molecule>
+                                            <SourceOrganismId>666</SourceOrganismId>
+                                        </AccessionSequenceMolecule>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenReferenceName>Toxin-coregulated pilus</ImmunogenReferenceName>
+                                <ImmunogenEvidenceCode>Not determined</ImmunogenEvidenceCode>
+                                <Adjuvant>Cholera toxin</Adjuvant>
+                                <Route>Subcutaneous (s.c.)</Route>
+                            </FirstInVivoProcess>
+                            <ImmunizationComments>These animals received the primary immunization at day zero, s.c. then boosted s.c. at day 28.</ImmunizationComments>
+                        </Immunization>
+                        <AssayInformation>
+                            <AssayTypeId>34</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <NumberOfSubjectsTested>3</NumberOfSubjectsTested>
+                            <NumberOfSubjectsResponded>3</NumberOfSubjectsResponded>
+                            <ResponseFrequency>100</ResponseFrequency>
+                            <AssayComments>Immunization with TCP alone did not induce a high-titer immune response to peptide 4 at 21 or 37 days postimmunization.  B1 consists of mice immunized with class II-targeted TcpA + cholera toxin + anti-CD-40 MAb. Animals were also tested for IgG2 and IgA at week 37 postimmunization.</AssayComments>
+                        </AssayInformation>
+                        <AssayedAntibody>
+                            <AssayedAntibodySourceMaterial>Serum</AssayedAntibodySourceMaterial>
+                            <AssayedAntibodyPurificationStatus>Polyclonal</AssayedAntibodyPurificationStatus>
+                            <AssayedAntibodyHeavyChainType>IgG1</AssayedAntibodyHeavyChainType>
+                        </AssayedAntibody>
+                        <Antigen>
+                            <AntigenReferenceName>TcpA4</AntigenReferenceName>
+                            <AntigenConformation>Non-Native/Unknown</AntigenConformation>
+                            <AntigenObject>
+                                <EpitopeRelation>Epitope</EpitopeRelation>
+                                <Object>
+                                    <FragmentOfANaturalSequenceMolecule>
+                                        <ChemicalType>Peptide from protein</ChemicalType>
+                                        <LinearSequence>ADLGDFENSAAAAETGVGVIKSIA</LinearSequence>
+                                        <StartingPosition>170</StartingPosition>
+                                        <EndingPosition>193</EndingPosition>
+                                        <SourceMolecule>
+                                            <GenBankId>P23024.1</GenBankId>
+                                        </SourceMolecule>
+                                        <SourceOrganismId>666</SourceOrganismId>
+                                    </FragmentOfANaturalSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Exact match to reference information</AntigenEvidenceCode>
+                        </Antigen>
+                    </BCell>
+                </Assays>
+            </Epitope>
+            <Epitope>
+                <EpitopeName>TcpA5</EpitopeName>
+                <EpitopeStructure>
+                    <FragmentOfANaturalSequenceMolecule>
+                        <ChemicalType>Peptide from protein</ChemicalType>
+                        <LinearSequence>AETGVGVIKSIAPASKNLDLTNITH</LinearSequence>
+                        <StartingPosition>182</StartingPosition>
+                        <EndingPosition>206</EndingPosition>
+                        <SourceMolecule>
+                            <GenBankId>P23024.1</GenBankId>
+                        </SourceMolecule>
+                        <SourceOrganismId>666</SourceOrganismId>
+                    </FragmentOfANaturalSequenceMolecule>
+                </EpitopeStructure>
+                <LocationOfData>Figure 1</LocationOfData>
+                <EpitopeId>1184</EpitopeId>
+                <ReferenceStartingPosition>182</ReferenceStartingPosition>
+                <ReferenceEndingPosition>207</ReferenceEndingPosition>
+                <EpitopeEvidenceCode>Not determined</EpitopeEvidenceCode>
+                <EpitopeStructureDefines>Epitope containing region/antigenic site</EpitopeStructureDefines>
+                <Assays>
+                    <BCell>
+                        <LocationOfData>Tables 2 and 3</LocationOfData>
+                        <BCellId>14198</BCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>10000236</OrganismId>
+                                <Sex>F</Sex>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Administration in vivo</InVivoProcessType>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Source Antigen</EpitopeRelation>
+                                    <Object>
+                                        <AccessionSequenceMolecule>
+                                            <ChemicalType>Protein</ChemicalType>
+                                            <Molecule>
+                                                <GenBankId>P23024.1</GenBankId>
+                                            </Molecule>
+                                            <SourceOrganismId>666</SourceOrganismId>
+                                        </AccessionSequenceMolecule>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenReferenceName>Toxin-coregulated pilus</ImmunogenReferenceName>
+                                <ImmunogenEvidenceCode>Not determined</ImmunogenEvidenceCode>
+                                <Adjuvant>Cholera toxin</Adjuvant>
+                                <Route>Subcutaneous (s.c.)</Route>
+                            </FirstInVivoProcess>
+                            <ImmunizationComments>These animals received the primary immunization at day zero, s.c. then boosted s.c. at day 28.</ImmunizationComments>
+                        </Immunization>
+                        <AssayInformation>
+                            <AssayTypeId>34</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <NumberOfSubjectsTested>3</NumberOfSubjectsTested>
+                            <NumberOfSubjectsResponded>3</NumberOfSubjectsResponded>
+                            <ResponseFrequency>100</ResponseFrequency>
+                            <AssayComments>Immunization with TCP alone did not induce a high-titer immune response to peptide 4 at 21 or 37 days postimmunization.  B1 consists of mice immunized with class II-targeted TcpA + cholera toxin.  Animals were also tested for IgG2 and IgA at week 37 postimmunization.</AssayComments>
+                        </AssayInformation>
+                        <AssayedAntibody>
+                            <AssayedAntibodySourceMaterial>Serum</AssayedAntibodySourceMaterial>
+                            <AssayedAntibodyPurificationStatus>Polyclonal</AssayedAntibodyPurificationStatus>
+                            <AssayedAntibodyHeavyChainType>IgG1</AssayedAntibodyHeavyChainType>
+                        </AssayedAntibody>
+                        <Antigen>
+                            <AntigenReferenceName>TcpA5</AntigenReferenceName>
+                            <AntigenConformation>Non-Native/Unknown</AntigenConformation>
+                            <AntigenObject>
+                                <EpitopeRelation>Epitope</EpitopeRelation>
+                                <Object>
+                                    <FragmentOfANaturalSequenceMolecule>
+                                        <ChemicalType>Peptide from protein</ChemicalType>
+                                        <LinearSequence>AETGVGVIKSIAPASKNLDLTNITH</LinearSequence>
+                                        <StartingPosition>182</StartingPosition>
+                                        <EndingPosition>206</EndingPosition>
+                                        <SourceMolecule>
+                                            <GenBankId>P23024.1</GenBankId>
+                                        </SourceMolecule>
+                                        <SourceOrganismId>666</SourceOrganismId>
+                                    </FragmentOfANaturalSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Exact match to reference information</AntigenEvidenceCode>
+                        </Antigen>
+                    </BCell>
+                </Assays>
+                <Assays>
+                    <BCell>
+                        <LocationOfData>Tables 2 and 3</LocationOfData>
+                        <BCellId>14197</BCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>10000236</OrganismId>
+                                <Sex>F</Sex>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Administration in vivo</InVivoProcessType>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Source Antigen</EpitopeRelation>
+                                    <Object>
+                                        <AccessionSequenceMolecule>
+                                            <ChemicalType>Protein</ChemicalType>
+                                            <Molecule>
+                                                <GenBankId>P23024.1</GenBankId>
+                                            </Molecule>
+                                            <SourceOrganismId>666</SourceOrganismId>
+                                        </AccessionSequenceMolecule>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenReferenceName>Toxin-coregulated pilus</ImmunogenReferenceName>
+                                <ImmunogenEvidenceCode>Not determined</ImmunogenEvidenceCode>
+                                <Route>Subcutaneous (s.c.)</Route>
+                            </FirstInVivoProcess>
+                            <ImmunizationComments>These animals received the primary immunization at day zero, s.c. then boosted s.c. at day 28.</ImmunizationComments>
+                        </Immunization>
+                        <AssayInformation>
+                            <AssayTypeId>34</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <NumberOfSubjectsTested>3</NumberOfSubjectsTested>
+                            <NumberOfSubjectsResponded>3</NumberOfSubjectsResponded>
+                            <ResponseFrequency>100</ResponseFrequency>
+                            <AssayComments>Immunization with TCP alone did not induce a high-titer immune response to peptide 4 at 21 or 37 days postimmunization.  B1 consists of mice immunized with class II-targeted TcpA.  Animals were also tested for IgG2 and IgA at week 37 postimmunization.</AssayComments>
+                        </AssayInformation>
+                        <AssayedAntibody>
+                            <AssayedAntibodySourceMaterial>Serum</AssayedAntibodySourceMaterial>
+                            <AssayedAntibodyPurificationStatus>Polyclonal</AssayedAntibodyPurificationStatus>
+                            <AssayedAntibodyHeavyChainType>IgG1</AssayedAntibodyHeavyChainType>
+                        </AssayedAntibody>
+                        <Antigen>
+                            <AntigenReferenceName>TcpA5</AntigenReferenceName>
+                            <AntigenConformation>Non-Native/Unknown</AntigenConformation>
+                            <AntigenObject>
+                                <EpitopeRelation>Epitope</EpitopeRelation>
+                                <Object>
+                                    <FragmentOfANaturalSequenceMolecule>
+                                        <ChemicalType>Peptide from protein</ChemicalType>
+                                        <LinearSequence>AETGVGVIKSIAPASKNLDLTNITH</LinearSequence>
+                                        <StartingPosition>182</StartingPosition>
+                                        <EndingPosition>206</EndingPosition>
+                                        <SourceMolecule>
+                                            <GenBankId>P23024.1</GenBankId>
+                                        </SourceMolecule>
+                                        <SourceOrganismId>666</SourceOrganismId>
+                                    </FragmentOfANaturalSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Exact match to reference information</AntigenEvidenceCode>
+                        </Antigen>
+                    </BCell>
+                </Assays>
+                <Assays>
+                    <BCell>
+                        <LocationOfData>Tables 2 and 3</LocationOfData>
+                        <BCellId>14199</BCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>10000236</OrganismId>
+                                <Sex>F</Sex>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Administration in vivo</InVivoProcessType>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Source Antigen</EpitopeRelation>
+                                    <Object>
+                                        <AccessionSequenceMolecule>
+                                            <ChemicalType>Protein</ChemicalType>
+                                            <Molecule>
+                                                <GenBankId>P23024.1</GenBankId>
+                                            </Molecule>
+                                            <SourceOrganismId>666</SourceOrganismId>
+                                        </AccessionSequenceMolecule>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenReferenceName>Toxin-coregulated pilus</ImmunogenReferenceName>
+                                <ImmunogenEvidenceCode>Not determined</ImmunogenEvidenceCode>
+                                <Adjuvant>Cholera toxin</Adjuvant>
+                                <Route>Subcutaneous (s.c.)</Route>
+                            </FirstInVivoProcess>
+                            <ImmunizationComments>These animals received the primary immunization at day zero, s.c. then boosted s.c. at day 28.</ImmunizationComments>
+                        </Immunization>
+                        <AssayInformation>
+                            <AssayTypeId>34</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <NumberOfSubjectsTested>3</NumberOfSubjectsTested>
+                            <NumberOfSubjectsResponded>3</NumberOfSubjectsResponded>
+                            <ResponseFrequency>100</ResponseFrequency>
+                            <AssayComments>Immunization with TCP alone did not induce a high-titer immune response to peptide 4 at 21 or 37 days postimmunization.  B1 consists of mice immunized with class II-targeted TcpA + cholera toxin + anti-CD-40 MAb.  Animals were also tested for IgG2 and IgA at week 37 postimmunization.</AssayComments>
+                        </AssayInformation>
+                        <AssayedAntibody>
+                            <AssayedAntibodySourceMaterial>Serum</AssayedAntibodySourceMaterial>
+                            <AssayedAntibodyPurificationStatus>Polyclonal</AssayedAntibodyPurificationStatus>
+                            <AssayedAntibodyHeavyChainType>IgG1</AssayedAntibodyHeavyChainType>
+                        </AssayedAntibody>
+                        <Antigen>
+                            <AntigenReferenceName>TcpA5</AntigenReferenceName>
+                            <AntigenConformation>Non-Native/Unknown</AntigenConformation>
+                            <AntigenObject>
+                                <EpitopeRelation>Epitope</EpitopeRelation>
+                                <Object>
+                                    <FragmentOfANaturalSequenceMolecule>
+                                        <ChemicalType>Peptide from protein</ChemicalType>
+                                        <LinearSequence>AETGVGVIKSIAPASKNLDLTNITH</LinearSequence>
+                                        <StartingPosition>182</StartingPosition>
+                                        <EndingPosition>206</EndingPosition>
+                                        <SourceMolecule>
+                                            <GenBankId>P23024.1</GenBankId>
+                                        </SourceMolecule>
+                                        <SourceOrganismId>666</SourceOrganismId>
+                                    </FragmentOfANaturalSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Exact match to reference information</AntigenEvidenceCode>
+                        </Antigen>
+                    </BCell>
+                </Assays>
+            </Epitope>
+            <Epitope>
+                <EpitopeName>TcpA6</EpitopeName>
+                <EpitopeStructure>
+                    <FragmentOfANaturalSequenceMolecule>
+                        <ChemicalType>Peptide from protein</ChemicalType>
+                        <LinearSequence>LDLTNITHVEKLCKGTAPFGVAFGN</LinearSequence>
+                        <StartingPosition>199</StartingPosition>
+                        <EndingPosition>223</EndingPosition>
+                        <SourceMolecule>
+                            <GenBankId>P23024.1</GenBankId>
+                        </SourceMolecule>
+                        <SourceOrganismId>666</SourceOrganismId>
+                    </FragmentOfANaturalSequenceMolecule>
+                </EpitopeStructure>
+                <LocationOfData>Figure 1</LocationOfData>
+                <EpitopeId>35222</EpitopeId>
+                <ReferenceStartingPosition>200</ReferenceStartingPosition>
+                <ReferenceEndingPosition>224</ReferenceEndingPosition>
+                <EpitopeEvidenceCode>Not determined</EpitopeEvidenceCode>
+                <EpitopeStructureDefines>Epitope containing region/antigenic site</EpitopeStructureDefines>
+                <Assays>
+                    <BCell>
+                        <LocationOfData>Tables 2 and 3</LocationOfData>
+                        <BCellId>14200</BCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>10000236</OrganismId>
+                                <Sex>F</Sex>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Administration in vivo</InVivoProcessType>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Source Antigen</EpitopeRelation>
+                                    <Object>
+                                        <AccessionSequenceMolecule>
+                                            <ChemicalType>Protein</ChemicalType>
+                                            <Molecule>
+                                                <GenBankId>P23024.1</GenBankId>
+                                            </Molecule>
+                                            <SourceOrganismId>666</SourceOrganismId>
+                                        </AccessionSequenceMolecule>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenReferenceName>Toxin-coregulated pilus</ImmunogenReferenceName>
+                                <ImmunogenEvidenceCode>Not determined</ImmunogenEvidenceCode>
+                                <Route>Subcutaneous (s.c.)</Route>
+                            </FirstInVivoProcess>
+                            <ImmunizationComments>These animals received the primary immunization at day zero, s.c. then boosted s.c. at day 28.</ImmunizationComments>
+                        </Immunization>
+                        <AssayInformation>
+                            <AssayTypeId>34</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <NumberOfSubjectsTested>3</NumberOfSubjectsTested>
+                            <NumberOfSubjectsResponded>3</NumberOfSubjectsResponded>
+                            <ResponseFrequency>100</ResponseFrequency>
+                            <AssayComments>Immunization with TCP alone did not induce a high-titer immune response to peptide 4 at 21 or 37 days postimmunization. B1 consists of mice immunized with class II-targeted TcpA.  Animals were also tested for IgG2 and IgA at week 37 postimmunization.</AssayComments>
+                        </AssayInformation>
+                        <AssayedAntibody>
+                            <AssayedAntibodySourceMaterial>Serum</AssayedAntibodySourceMaterial>
+                            <AssayedAntibodyPurificationStatus>Polyclonal</AssayedAntibodyPurificationStatus>
+                            <AssayedAntibodyHeavyChainType>IgG1</AssayedAntibodyHeavyChainType>
+                        </AssayedAntibody>
+                        <Antigen>
+                            <AntigenReferenceName>TcpA6</AntigenReferenceName>
+                            <AntigenConformation>Non-Native/Unknown</AntigenConformation>
+                            <AntigenObject>
+                                <EpitopeRelation>Epitope</EpitopeRelation>
+                                <Object>
+                                    <FragmentOfANaturalSequenceMolecule>
+                                        <ChemicalType>Peptide from protein</ChemicalType>
+                                        <LinearSequence>LDLTNITHVEKLCKGTAPFGVAFGN</LinearSequence>
+                                        <StartingPosition>199</StartingPosition>
+                                        <EndingPosition>223</EndingPosition>
+                                        <SourceMolecule>
+                                            <GenBankId>P23024.1</GenBankId>
+                                        </SourceMolecule>
+                                        <SourceOrganismId>666</SourceOrganismId>
+                                    </FragmentOfANaturalSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Exact match to reference information</AntigenEvidenceCode>
+                        </Antigen>
+                    </BCell>
+                </Assays>
+                <Assays>
+                    <BCell>
+                        <LocationOfData>Tables 2 and 3</LocationOfData>
+                        <BCellId>14202</BCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>10000236</OrganismId>
+                                <Sex>F</Sex>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Administration in vivo</InVivoProcessType>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Source Antigen</EpitopeRelation>
+                                    <Object>
+                                        <AccessionSequenceMolecule>
+                                            <ChemicalType>Protein</ChemicalType>
+                                            <Molecule>
+                                                <GenBankId>P23024.1</GenBankId>
+                                            </Molecule>
+                                            <SourceOrganismId>666</SourceOrganismId>
+                                        </AccessionSequenceMolecule>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenReferenceName>Toxin-coregulated pilus</ImmunogenReferenceName>
+                                <ImmunogenEvidenceCode>Not determined</ImmunogenEvidenceCode>
+                                <Adjuvant>Cholera toxin</Adjuvant>
+                                <Route>Subcutaneous (s.c.)</Route>
+                            </FirstInVivoProcess>
+                            <ImmunizationComments>These animals received the primary immunization at day zero, s.c. then boosted s.c. at day 28.</ImmunizationComments>
+                        </Immunization>
+                        <AssayInformation>
+                            <AssayTypeId>34</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <NumberOfSubjectsTested>3</NumberOfSubjectsTested>
+                            <NumberOfSubjectsResponded>3</NumberOfSubjectsResponded>
+                            <ResponseFrequency>100</ResponseFrequency>
+                            <AssayComments>Immunization with TCP alone did not induce a high-titer immune response to peptide 4 at 21 or 37 days postimmunization.  B1 consists of mice immunized with class II-targeted TcpA + cholera toxin + anti-CD-40 MAb.  Animals were also tested for IgG2 and IgA at week 37 postimmunization.</AssayComments>
+                        </AssayInformation>
+                        <AssayedAntibody>
+                            <AssayedAntibodySourceMaterial>Serum</AssayedAntibodySourceMaterial>
+                            <AssayedAntibodyPurificationStatus>Polyclonal</AssayedAntibodyPurificationStatus>
+                            <AssayedAntibodyHeavyChainType>IgG1</AssayedAntibodyHeavyChainType>
+                        </AssayedAntibody>
+                        <Antigen>
+                            <AntigenReferenceName>TcpA6</AntigenReferenceName>
+                            <AntigenConformation>Non-Native/Unknown</AntigenConformation>
+                            <AntigenObject>
+                                <EpitopeRelation>Epitope</EpitopeRelation>
+                                <Object>
+                                    <FragmentOfANaturalSequenceMolecule>
+                                        <ChemicalType>Peptide from protein</ChemicalType>
+                                        <LinearSequence>LDLTNITHVEKLCKGTAPFGVAFGN</LinearSequence>
+                                        <StartingPosition>199</StartingPosition>
+                                        <EndingPosition>223</EndingPosition>
+                                        <SourceMolecule>
+                                            <GenBankId>P23024.1</GenBankId>
+                                        </SourceMolecule>
+                                        <SourceOrganismId>666</SourceOrganismId>
+                                    </FragmentOfANaturalSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Exact match to reference information</AntigenEvidenceCode>
+                        </Antigen>
+                    </BCell>
+                </Assays>
+                <Assays>
+                    <BCell>
+                        <LocationOfData>Tables 2 and 3</LocationOfData>
+                        <BCellId>14201</BCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>10000236</OrganismId>
+                                <Sex>F</Sex>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Administration in vivo</InVivoProcessType>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Source Antigen</EpitopeRelation>
+                                    <Object>
+                                        <AccessionSequenceMolecule>
+                                            <ChemicalType>Protein</ChemicalType>
+                                            <Molecule>
+                                                <GenBankId>P23024.1</GenBankId>
+                                            </Molecule>
+                                            <SourceOrganismId>666</SourceOrganismId>
+                                        </AccessionSequenceMolecule>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenReferenceName>Toxin-coregulated pilus</ImmunogenReferenceName>
+                                <ImmunogenEvidenceCode>Not determined</ImmunogenEvidenceCode>
+                                <Adjuvant>Cholera toxin</Adjuvant>
+                                <Route>Subcutaneous (s.c.)</Route>
+                            </FirstInVivoProcess>
+                            <ImmunizationComments>These animals received the primary immunization at day zero, s.c. then boosted s.c. at day 28.</ImmunizationComments>
+                        </Immunization>
+                        <AssayInformation>
+                            <AssayTypeId>34</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <NumberOfSubjectsTested>3</NumberOfSubjectsTested>
+                            <NumberOfSubjectsResponded>3</NumberOfSubjectsResponded>
+                            <ResponseFrequency>100</ResponseFrequency>
+                            <AssayComments>Immunization with TCP alone did not induce a high-titer immune response to peptide 4 at 21 or 37 days postimmunization.  B1 consists of mice immunized with class II-targeted TcpA + cholera toxin.  Animals were also tested for IgG2 and IgA at week 37 postimmunization.</AssayComments>
+                        </AssayInformation>
+                        <AssayedAntibody>
+                            <AssayedAntibodySourceMaterial>Serum</AssayedAntibodySourceMaterial>
+                            <AssayedAntibodyPurificationStatus>Polyclonal</AssayedAntibodyPurificationStatus>
+                            <AssayedAntibodyHeavyChainType>IgG1</AssayedAntibodyHeavyChainType>
+                        </AssayedAntibody>
+                        <Antigen>
+                            <AntigenReferenceName>TcpA6</AntigenReferenceName>
+                            <AntigenConformation>Non-Native/Unknown</AntigenConformation>
+                            <AntigenObject>
+                                <EpitopeRelation>Epitope</EpitopeRelation>
+                                <Object>
+                                    <FragmentOfANaturalSequenceMolecule>
+                                        <ChemicalType>Peptide from protein</ChemicalType>
+                                        <LinearSequence>LDLTNITHVEKLCKGTAPFGVAFGN</LinearSequence>
+                                        <StartingPosition>199</StartingPosition>
+                                        <EndingPosition>223</EndingPosition>
+                                        <SourceMolecule>
+                                            <GenBankId>P23024.1</GenBankId>
+                                        </SourceMolecule>
+                                        <SourceOrganismId>666</SourceOrganismId>
+                                    </FragmentOfANaturalSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Exact match to reference information</AntigenEvidenceCode>
+                        </Antigen>
+                    </BCell>
+                </Assays>
+            </Epitope>
+        </Epitopes>
+    </Reference>
+</References>
+

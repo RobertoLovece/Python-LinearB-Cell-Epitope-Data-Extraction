@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<References xsi:schemaLocation="http://www.iedb.org/schema/CurationSchema http://beta.iedb.org/schema/Curation.xsd" xmlns="http://www.iedb.org/schema/CurationSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <Reference>
+        <ReferenceId>1074</ReferenceId>
+        <DateLastUpdated>2020-09-10-07:00</DateLastUpdated>
+        <Article>
+            <PubmedId>11163233</PubmedId>
+            <Abstract>MHC class II molecules possess two binding sites for bacterial superantigens (SAGs): a low-affinity site on the alpha chain and a high-affinity, zinc-dependent site on the beta chain. Only the former has been defined crystallographically. We report the structure of streptococcal pyrogenic exotoxin C (SPE-C) complexed with HLA-DR2a (DRA*0101, DRB5*0101) bearing a self-peptide from myelin basic protein (MBP). SPE-C binds the beta chain through a zinc bridge that links the SAG and class II molecules. Surprisingly, SPE-C also makes extensive contacts with the MBP peptide, such that peptide accounts for one third of the surface area of the MHC molecule buried in the complex, similar to TCR-peptide/MHC complexes. Thus, SPE-C may optimize T cell responses by mimicking the peptide dependence of conventional antigen presentation and recognition.</Abstract>
+            <ArticleYear>2001</ArticleYear>
+            <ArticlePages>93-104</ArticlePages>
+            <ArticleTitle>Crystal structure of a superantigen bound to the high-affinity, zinc-dependent site on MHC class II.</ArticleTitle>
+            <Authors>
+                <Author>
+                    <LastName>Li</LastName>
+                    <ForeName>Y</ForeName>
+                </Author>
+                <Author>
+                    <LastName>Li</LastName>
+                    <ForeName>H</ForeName>
+                </Author>
+                <Author>
+                    <LastName>Dimasi</LastName>
+                    <ForeName>N</ForeName>
+                </Author>
+                <Author>
+                    <LastName>McCormick</LastName>
+                    <ForeName>J K</ForeName>
+                </Author>
+                <Author>
+                    <LastName>Martin</LastName>
+                    <ForeName>R</ForeName>
+                </Author>
+                <Author>
+                    <LastName>Schuck</LastName>
+                    <ForeName>P</ForeName>
+                </Author>
+                <Author>
+                    <LastName>Schlievert</LastName>
+                    <ForeName>P M</ForeName>
+                </Author>
+                <Author>
+                    <LastName>Mariuzza</LastName>
+                    <ForeName>R A</ForeName>
+                </Author>
+            </Authors>
+            <Affiliations>Center for Advanced Research in Biotechnology, University of Maryland Biotechnology Institute, Rockville, MD 20850, USA.</Affiliations>
+            <ArticleChemicalList>Bacterial Proteins;Exotoxins;HLA-DR2 Antigen;Histocompatibility Antigens Class II;I-E-antigen;Membrane Proteins;Myelin Basic Protein;SpeA protein, Streptococcus pyogenes;Superantigens;erythrogenic toxin;Zinc</ArticleChemicalList>
+            <ArticleMeshHeadingsList>Animals; Bacterial Proteins(chemistry; immunology); Binding Sites; Crystallography, X-Ray; Exotoxins(chemistry; immunology); HLA-DR2 Antigen(chemistry; immunology); Histocompatibility Antigens Class II(chemistry; immunology); Humans; Membrane Proteins; Mice; Models, Molecular; Myelin Basic Protein(chemistry); Protein Structure, Secondary; Superantigens(chemistry; immunology); Zinc(immunology)</ArticleMeshHeadingsList>
+            <Journal>
+                <Volume>14</Volume>
+                <Issue>1</Issue>
+                <Title>Immunity</Title>
+                <Issn>1074-7613</Issn>
+                <MedlineTa>Immunity</MedlineTa>
+            </Journal>
+        </Article>
+        <Epitopes>
+            <Epitope>
+                <EpitopeName>MBP (89-101)</EpitopeName>
+                <EpitopeStructure>
+                    <FragmentOfANaturalSequenceMolecule>
+                        <ChemicalType>Peptide from protein</ChemicalType>
+                        <LinearSequence>VHFFKNIVTPRTP</LinearSequence>
+                        <StartingPosition>88</StartingPosition>
+                        <EndingPosition>100</EndingPosition>
+                        <SourceMolecule>
+                            <GenBankId>CAG38771.1</GenBankId>
+                        </SourceMolecule>
+                        <SourceOrganismId>9606</SourceOrganismId>
+                    </FragmentOfANaturalSequenceMolecule>
+                </EpitopeStructure>
+                <EpitopeId>68846</EpitopeId>
+                <ReferenceStartingPosition>89</ReferenceStartingPosition>
+                <ReferenceEndingPosition>101</ReferenceEndingPosition>
+                <EpitopeEvidenceCode>Exact match to reference information</EpitopeEvidenceCode>
+                <EpitopeStructureDefines>Exact Epitope</EpitopeStructureDefines>
+                <Assays>
+                    <MhcBinding>
+                        <MhcBindingId>1488197</MhcBindingId>
+                        <AssayInformation>
+                            <AssayTypeId>175</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <QuantitativeMeasurement>3.2</QuantitativeMeasurement>
+                            <MeasurementInequality>=</MeasurementInequality>
+                            <AssayComments>The crystal structure contains the MHC/epitope complex bound to the superantigen (SAG) streptococcal pyrogenic exotoxin type C (SPE-C). SAG PDB chain is D. MHC α1 and β1 domains  and the SAG molecule are more ordered in the structure than the MHC α2 and β2 domains. No electron density exists for MHC residues A:130 and B: 105-111, 167-168. All epitope residues are well ordered, except for the last two (at the C-terminal).</AssayComments>
+                        </AssayInformation>
+                        <MhcAlleleId>487</MhcAlleleId>
+                        <ThreeDimensionalStructureOfComplex>
+                            <ComplexPdbId>1HQR</ComplexPdbId>
+                            <MhcChain1PdbChain>A</MhcChain1PdbChain>
+                            <MhcChain2PdbChain>B</MhcChain2PdbChain>
+                            <EpitopePdbChain>C</EpitopePdbChain>
+                            <EpitopeResidues>C: V406, H407, F408, F409, K410, N411, I412, V413, T414, P415;</EpitopeResidues>
+                            <ViewerFlag>Y</ViewerFlag>
+                            <Comments>[| P-3: V406; P-2: H407; P-1: F408; P1: F409; P2: K410; P3: N411; P4: I412; P5: V413; P6: T414; P7: P415; P8: R416; P9: T417; P10: P418; |]. The SAG molecule contacts the α helix and the turn between the β1 and β2 strands of the MHC β1 domain. Notably, it also makes extensive contacts with the N-terminal half of the MBP peptide (the details of contacts are provided in the paper). Comparison of this SAG/HLA-DR2a/MBP structure with HLA-DR2a/MBP structure [PDB: 1FV1] shows that binding of the SAG to the MHC/epitope complex causes only some minor structural changes to the MHC molecule and the epitope. These changes are found in MHC residue: B: H81 and epitope residues: C: V406, H407, F408, K410 (Pockets:  P-3, P-2, P-1, P2). Contacts between HLA and the epitope are not discussed in the paper.</Comments>
+                            <CuratedContacts>
+                                <EpitopeResidues>C: V406, H407, F408, F409, K410, N411, I412, V413, T414, P415;</EpitopeResidues>
+                                <EpitopeResiduesInteractingWithMhc>C: ;</EpitopeResiduesInteractingWithMhc>
+                                <MhcResiduesInteractingWithEpitope>A: ; B: ;</MhcResiduesInteractingWithEpitope>
+                            </CuratedContacts>
+                            <CalculatedContacts>
+                                <EpitopeResiduesInteractingWithMhc>C: V406, H407, F408, F409, K410, N411, I412, V413, T414, P415</EpitopeResiduesInteractingWithMhc>
+                                <MhcResiduesInteractingWithEpitope>A: Q9, E11, F32, W43, F51, A52, S53, F54, E55, N62, V65; B: Y213, F226, W261, F267, R271, T277, Y278, H281, N282, V285, F289</MhcResiduesInteractingWithEpitope>
+                                <ContactAreaForEpitope>965.9</ContactAreaForEpitope>
+                                <ContactAreaForMhc>743.8</ContactAreaForMhc>
+                            </CalculatedContacts>
+                        </ThreeDimensionalStructureOfComplex>
+                    </MhcBinding>
+                </Assays>
+            </Epitope>
+        </Epitopes>
+    </Reference>
+</References>
+

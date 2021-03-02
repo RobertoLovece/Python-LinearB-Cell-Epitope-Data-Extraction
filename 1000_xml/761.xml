@@ -1,0 +1,574 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<References xsi:schemaLocation="http://www.iedb.org/schema/CurationSchema http://beta.iedb.org/schema/Curation.xsd" xmlns="http://www.iedb.org/schema/CurationSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <Reference>
+        <ReferenceId>761</ReferenceId>
+        <DateLastUpdated>2011-08-23-07:00</DateLastUpdated>
+        <Article>
+            <PubmedId>14638756</PubmedId>
+            <Abstract>Clearance of the intracellular bacterial pathogen Listeria monocytogenes requires antigen-specific CD8(+) T cells. Recently it was shown that activation of class Ib major histocompatibility complex (MHC)-restricted CD8(+) T cells alone is sufficient for immune protection against listeriae. A major component of the class Ib MHC-restricted T-cell response is T cells that recognize formylated peptide antigens presented by M3 molecules. Although three N-formylated peptides derived from L. monocytogenes are known to bind to M3 molecules, fMIGWII is the immunodominant epitope presented by M3 during infection of mice. The source of fMIGWII peptide is the L. monocytogenes lemA gene, which encodes a 30-kDa protein of unknown function. In this report, we describe the generation of two L. monocytogenes lemA deletion mutants. We show that lemA is not required for growth of listeriae in tissue culture cells or for virulence during infection of mice. Surprisingly, we found that fMIGWII-specific T cells were still primed following infection with lemA mutant listeriae, suggesting that L. monocytogenes contains at least one additional antigen that is cross-reactive with the fMIGWII epitope. This cross-reactive antigen appears to be a small protease-resistant molecule that is secreted by L. monocytogenes.</Abstract>
+            <ArticleYear>2003</ArticleYear>
+            <ArticlePages>6721-7</ArticlePages>
+            <ArticleTitle>The Listeria monocytogenes lemA gene product is not required for intracellular infection or to activate fMIGWII-specific T cells.</ArticleTitle>
+            <Authors>
+                <Author>
+                    <LastName>D'Orazio</LastName>
+                    <ForeName>Sarah E F</ForeName>
+                </Author>
+                <Author>
+                    <LastName>Velasquez</LastName>
+                    <ForeName>Marisela</ForeName>
+                </Author>
+                <Author>
+                    <LastName>Roan</LastName>
+                    <ForeName>Nadia R</ForeName>
+                </Author>
+                <Author>
+                    <LastName>Naveiras-Torres</LastName>
+                    <ForeName>Olaia</ForeName>
+                </Author>
+                <Author>
+                    <LastName>Starnbach</LastName>
+                    <ForeName>Michael N</ForeName>
+                </Author>
+            </Authors>
+            <Affiliations>Department of Microbiology &amp; Molecular Genetics, Harvard Medical School, Boston, Massachusetts 02115, USA.</Affiliations>
+            <ArticleChemicalList>Bacterial Proteins;Epitopes, T-Lymphocyte;H2-M3 antigen;Histocompatibility Antigens Class I;Immunodominant Epitopes;LemA protein, Listeria;Peptides</ArticleChemicalList>
+            <ArticleMeshHeadingsList>Animals; Antigen Presentation; Bacterial Proteins(genetics; metabolism); CD8-Positive T-Lymphocytes(immunology); Cross Reactions; Epitopes, T-Lymphocyte; Gene Expression Regulation, Bacterial; Histocompatibility Antigens Class I(immunology; metabolism); Immunodominant Epitopes; Listeria monocytogenes(immunology; pathogenicity); Listeriosis(immunology; microbiology); Liver(microbiology); Lymphocyte Activation; Mice; Mutation; Peptides(immunology); Spleen(microbiology)</ArticleMeshHeadingsList>
+            <Journal>
+                <Volume>71</Volume>
+                <Issue>12</Issue>
+                <Title>Infection and immunity</Title>
+                <Issn>1098-5522</Issn>
+                <MedlineTa>Infect Immun</MedlineTa>
+            </Journal>
+        </Article>
+        <Epitopes>
+            <Epitope>
+                <EpitopeName>fMIGWII</EpitopeName>
+                <EpitopeStructure>
+                    <FragmentOfANaturalSequenceMolecule>
+                        <ChemicalType>Peptide from protein</ChemicalType>
+                        <LinearSequence>MIGWII</LinearSequence>
+                        <ModifiedResidues>M1</ModifiedResidues>
+                        <Modifications>Formylation|FORM</Modifications>
+                        <StartingPosition>1</StartingPosition>
+                        <EndingPosition>6</EndingPosition>
+                        <SourceMolecule>
+                            <GenBankId>81509756</GenBankId>
+                        </SourceMolecule>
+                        <SourceOrganismId>1639</SourceOrganismId>
+                    </FragmentOfANaturalSequenceMolecule>
+                </EpitopeStructure>
+                <LocationOfData>P. 6722</LocationOfData>
+                <EpitopeId>41710</EpitopeId>
+                <ReferenceStartingPosition>1</ReferenceStartingPosition>
+                <ReferenceEndingPosition>6</ReferenceEndingPosition>
+                <EpitopeEvidenceCode>Not determined</EpitopeEvidenceCode>
+                <EpitopeStructureDefines>Exact Epitope</EpitopeStructureDefines>
+                <Assays>
+                    <TCell>
+                        <LocationOfData>Figure 6A</LocationOfData>
+                        <TCellId>8010</TCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>10000210</OrganismId>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Administration in vivo</InVivoProcessType>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Source Organism</EpitopeRelation>
+                                    <Object>
+                                        <Organism>
+                                            <SubType>Organism</SubType>
+                                            <SourceOrganismId>1639</SourceOrganismId>
+                                        </Organism>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenReferenceName>Listeria monocytogenes</ImmunogenReferenceName>
+                                <ImmunogenEvidenceCode>Not determined</ImmunogenEvidenceCode>
+                            </FirstInVivoProcess>
+                            <InVitroAdministration>
+                                <ProcessType>Restimulation in vitro</ProcessType>
+                                <ResponderCellType>Splenocyte</ResponderCellType>
+                                <StimulatorCellType>Splenocyte</StimulatorCellType>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Epitope</EpitopeRelation>
+                                    <Object>
+                                        <FragmentOfANaturalSequenceMolecule>
+                                            <ChemicalType>Peptide from protein</ChemicalType>
+                                            <LinearSequence>MIGWII</LinearSequence>
+                                            <ModifiedResidues>M1</ModifiedResidues>
+                                            <Modifications>Formylation|FORM</Modifications>
+                                            <StartingPosition>1</StartingPosition>
+                                            <EndingPosition>6</EndingPosition>
+                                            <SourceMolecule>
+                                                <GenBankId>81509756</GenBankId>
+                                            </SourceMolecule>
+                                            <SourceOrganismId>1639</SourceOrganismId>
+                                        </FragmentOfANaturalSequenceMolecule>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenEvidenceCode>Not determined</ImmunogenEvidenceCode>
+                            </InVitroAdministration>
+                            <ImmunizationComments>Class Ia MHC-deficient (Kb-/- Db-/-) C.B10 mice were infected with Listeria monocytogenes. After 2 weeks, splenocytes were harvested and stimulated in vitro with irradiated, syngeneic splenocytes coated with fMIGWII peptide.</ImmunizationComments>
+                        </Immunization>
+                        <EffectorCells>
+                            <CellTissueType>Spleen</CellTissueType>
+                            <CellType>T cell</CellType>
+                            <CellCultureConditions>Cell Line / Clone</CellCultureConditions>
+                        </EffectorCells>
+                        <AntigenPresentingCells>
+                            <CellTissueType>Blood</CellTissueType>
+                            <CellType>Macrophage</CellType>
+                            <CellCultureConditions>Cell Line / Clone</CellCultureConditions>
+                            <SourceOrganismId>10000000</SourceOrganismId>
+                        </AntigenPresentingCells>
+                        <MhcAllele>
+                            <MhcAlleleId>128</MhcAlleleId>
+                            <MhcEvidenceCode>Cited reference</MhcEvidenceCode>
+                        </MhcAllele>
+                        <Antigen>
+                            <AntigenReferenceName>Listeria monocytogenes</AntigenReferenceName>
+                            <AntigenObject>
+                                <EpitopeRelation>Source Organism</EpitopeRelation>
+                                <Object>
+                                    <Organism>
+                                        <SubType>Organism</SubType>
+                                        <SourceOrganismId>1639</SourceOrganismId>
+                                    </Organism>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Not determined</AntigenEvidenceCode>
+                        </Antigen>
+                        <AssayInformation>
+                            <AssayTypeId>67</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <AssayComments>The assay was also positive when the J774 target wells were incubated with heat-killed L. monocytogenes lacking the lemA gene, suggesting that L. monocytogenes expresses a second antigen that can cross-react with fMIGWII-specific T-cell receptors.</AssayComments>
+                        </AssayInformation>
+                    </TCell>
+                </Assays>
+                <Assays>
+                    <TCell>
+                        <LocationOfData>Figure 6C</LocationOfData>
+                        <TCellId>8023</TCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>10000210</OrganismId>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Administration in vivo</InVivoProcessType>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Source Organism</EpitopeRelation>
+                                    <Object>
+                                        <Organism>
+                                            <SubType>Organism</SubType>
+                                            <SourceOrganismId>1639</SourceOrganismId>
+                                        </Organism>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenReferenceName>Listeria monocytogenes</ImmunogenReferenceName>
+                                <ImmunogenEvidenceCode>Not determined</ImmunogenEvidenceCode>
+                            </FirstInVivoProcess>
+                            <InVitroAdministration>
+                                <ProcessType>Restimulation in vitro</ProcessType>
+                                <ResponderCellType>Splenocyte</ResponderCellType>
+                                <StimulatorCellType>Splenocyte</StimulatorCellType>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Epitope</EpitopeRelation>
+                                    <Object>
+                                        <FragmentOfANaturalSequenceMolecule>
+                                            <ChemicalType>Peptide from protein</ChemicalType>
+                                            <LinearSequence>MIGWII</LinearSequence>
+                                            <ModifiedResidues>M1</ModifiedResidues>
+                                            <Modifications>Formylation|FORM</Modifications>
+                                            <StartingPosition>1</StartingPosition>
+                                            <EndingPosition>6</EndingPosition>
+                                            <SourceMolecule>
+                                                <GenBankId>81509756</GenBankId>
+                                            </SourceMolecule>
+                                            <SourceOrganismId>1639</SourceOrganismId>
+                                        </FragmentOfANaturalSequenceMolecule>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenEvidenceCode>Not determined</ImmunogenEvidenceCode>
+                            </InVitroAdministration>
+                            <ImmunizationComments>Class Ia MHC-deficient (Kb-/- Db-/-) C.B10 mice were infected with Listeria monocytogenes. After 2 weeks, splenocytes were harvested and stimulated in vitro with irradiated, syngeneic splenocytes coated with fMIGWII peptide.</ImmunizationComments>
+                        </Immunization>
+                        <EffectorCells>
+                            <CellTissueType>Spleen</CellTissueType>
+                            <CellType>T cell</CellType>
+                            <CellCultureConditions>Cell Line / Clone</CellCultureConditions>
+                        </EffectorCells>
+                        <AntigenPresentingCells>
+                            <CellTissueType>Lymphoid</CellTissueType>
+                            <CellType>EL-4 cells-Lymphoblast</CellType>
+                            <CellCultureConditions>Cell Line / Clone</CellCultureConditions>
+                            <SourceOrganismId>10000225</SourceOrganismId>
+                        </AntigenPresentingCells>
+                        <MhcAllele>
+                            <MhcAlleleId>128</MhcAlleleId>
+                            <MhcEvidenceCode>Cited reference</MhcEvidenceCode>
+                        </MhcAllele>
+                        <Antigen>
+                            <AntigenReferenceName>Listeria monocytogenes</AntigenReferenceName>
+                            <AntigenObject>
+                                <EpitopeRelation>Source Organism</EpitopeRelation>
+                                <Object>
+                                    <Organism>
+                                        <SubType>Organism</SubType>
+                                        <SourceOrganismId>1639</SourceOrganismId>
+                                    </Organism>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Not determined</AntigenEvidenceCode>
+                        </Antigen>
+                        <AssayInformation>
+                            <AssayTypeId>53</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <AssayComments>When EL-4 cells were pretreated with supernatant from a culture of L. monocytogenes lacking the lemA gene, the assay was also positive. These results suggest that L. monocytogenes expresses a second antigen that can cross-react with fMIGWII-specific T-cell receptors.</AssayComments>
+                        </AssayInformation>
+                    </TCell>
+                </Assays>
+                <Assays>
+                    <TCell>
+                        <LocationOfData>Figure 5</LocationOfData>
+                        <TCellId>7877</TCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>10000289</OrganismId>
+                                <Age>6-12 weeks</Age>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Administration in vivo</InVivoProcessType>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Source Organism</EpitopeRelation>
+                                    <Object>
+                                        <Organism>
+                                            <SubType>Organism</SubType>
+                                            <SourceOrganismId>1639</SourceOrganismId>
+                                        </Organism>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenReferenceName>Listeria monocytogenes</ImmunogenReferenceName>
+                                <ImmunogenEvidenceCode>Not determined</ImmunogenEvidenceCode>
+                            </FirstInVivoProcess>
+                            <InVitroAdministration>
+                                <ProcessType>Restimulation in vitro</ProcessType>
+                                <ResponderCellType>Splenocyte</ResponderCellType>
+                                <StimulatorCellType>EL-4 cells-Lymphoblast</StimulatorCellType>
+                            </InVitroAdministration>
+                        </Immunization>
+                        <EffectorCells>
+                            <CellTissueType>Spleen</CellTissueType>
+                            <CellType>Splenocyte</CellType>
+                            <CellCultureConditions>Short Term Restimulated</CellCultureConditions>
+                        </EffectorCells>
+                        <AntigenPresentingCells>
+                            <CellTissueType>Lymphoid</CellTissueType>
+                            <CellType>EL-4 cells-Lymphoblast</CellType>
+                            <CellCultureConditions>Cell Line / Clone</CellCultureConditions>
+                            <SourceOrganismId>10000225</SourceOrganismId>
+                        </AntigenPresentingCells>
+                        <MhcAllele>
+                            <MhcAlleleId>128</MhcAlleleId>
+                            <MhcEvidenceCode>Cited reference</MhcEvidenceCode>
+                        </MhcAllele>
+                        <Antigen>
+                            <AntigenReferenceName>fMIGWII</AntigenReferenceName>
+                            <AntigenObject>
+                                <EpitopeRelation>Epitope</EpitopeRelation>
+                                <Object>
+                                    <FragmentOfANaturalSequenceMolecule>
+                                        <ChemicalType>Peptide from protein</ChemicalType>
+                                        <LinearSequence>MIGWII</LinearSequence>
+                                        <ModifiedResidues>M1</ModifiedResidues>
+                                        <Modifications>Formylation|FORM</Modifications>
+                                        <StartingPosition>1</StartingPosition>
+                                        <EndingPosition>6</EndingPosition>
+                                        <SourceMolecule>
+                                            <GenBankId>81509756</GenBankId>
+                                        </SourceMolecule>
+                                        <SourceOrganismId>1639</SourceOrganismId>
+                                    </FragmentOfANaturalSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Not determined</AntigenEvidenceCode>
+                        </Antigen>
+                        <AssayInformation>
+                            <AssayTypeId>48</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <AssayComments>IFNg was also produced by splenocytes isolated from mice infected with Listeria lacking the epitope (ΔMIGWII) and  with Listeria carrying a deletion of the entire lemA gene (ΔlemA). These results suggest that L. monocytogenes expresses a second antigen that can cross-react with fMIGWII-specific T-cell receptors.</AssayComments>
+                        </AssayInformation>
+                    </TCell>
+                </Assays>
+                <Assays>
+                    <TCell>
+                        <LocationOfData>Figures 6B and 7</LocationOfData>
+                        <TCellId>8021</TCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>10000210</OrganismId>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Administration in vivo</InVivoProcessType>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Source Organism</EpitopeRelation>
+                                    <Object>
+                                        <Organism>
+                                            <SubType>Organism</SubType>
+                                            <SourceOrganismId>1639</SourceOrganismId>
+                                        </Organism>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenReferenceName>Listeria monocytogenes</ImmunogenReferenceName>
+                                <ImmunogenEvidenceCode>Not determined</ImmunogenEvidenceCode>
+                            </FirstInVivoProcess>
+                            <InVitroAdministration>
+                                <ProcessType>Restimulation in vitro</ProcessType>
+                                <ResponderCellType>Splenocyte</ResponderCellType>
+                                <StimulatorCellType>Splenocyte</StimulatorCellType>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Epitope</EpitopeRelation>
+                                    <Object>
+                                        <FragmentOfANaturalSequenceMolecule>
+                                            <ChemicalType>Peptide from protein</ChemicalType>
+                                            <LinearSequence>MIGWII</LinearSequence>
+                                            <ModifiedResidues>M1</ModifiedResidues>
+                                            <Modifications>Formylation|FORM</Modifications>
+                                            <StartingPosition>1</StartingPosition>
+                                            <EndingPosition>6</EndingPosition>
+                                            <SourceMolecule>
+                                                <GenBankId>81509756</GenBankId>
+                                            </SourceMolecule>
+                                            <SourceOrganismId>1639</SourceOrganismId>
+                                        </FragmentOfANaturalSequenceMolecule>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenEvidenceCode>Not determined</ImmunogenEvidenceCode>
+                            </InVitroAdministration>
+                            <ImmunizationComments>Class Ia MHC-deficient (Kb-/- Db-/-) C.B10 mice were infected with Listeria monocytogenes. After 2 weeks, splenocytes were harvested and stimulated in vitro with irradiated, syngeneic splenocytes coated with fMIGWII peptide.</ImmunizationComments>
+                        </Immunization>
+                        <EffectorCells>
+                            <CellTissueType>Spleen</CellTissueType>
+                            <CellType>T cell</CellType>
+                            <CellCultureConditions>Cell Line / Clone</CellCultureConditions>
+                        </EffectorCells>
+                        <AntigenPresentingCells>
+                            <CellTissueType>Lymphoid</CellTissueType>
+                            <CellType>EL-4 cells-Lymphoblast</CellType>
+                            <CellCultureConditions>Cell Line / Clone</CellCultureConditions>
+                            <SourceOrganismId>10000225</SourceOrganismId>
+                        </AntigenPresentingCells>
+                        <MhcAllele>
+                            <MhcAlleleId>128</MhcAlleleId>
+                            <MhcEvidenceCode>Cited reference</MhcEvidenceCode>
+                        </MhcAllele>
+                        <Antigen>
+                            <AntigenReferenceName>Listeria monocytogenes</AntigenReferenceName>
+                            <AntigenObject>
+                                <EpitopeRelation>Source Organism</EpitopeRelation>
+                                <Object>
+                                    <Organism>
+                                        <SubType>Organism</SubType>
+                                        <SourceOrganismId>1639</SourceOrganismId>
+                                    </Organism>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Not determined</AntigenEvidenceCode>
+                        </Antigen>
+                        <AssayInformation>
+                            <AssayTypeId>67</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <AssayComments>The assay was also positive when the target wells were incubated with supernatant from cultures of L. monocytogenes lacking the lemA gene,  proteinase K-treated supernatants of cultures of  wild-type L. monocytogenes, proteinase K-treated supernatants from cultures of L. monocytogenes lacking the lemA gene, or with supernatants filtered through a 10,000-molecular-weight-cutoff filter from cultures of L. monocytogenes lacking the lemA gene. These results indicate that a small protease-resistant antigen is released from both wild-type and the δlemA mutant Listeria during growth in BHI broth and that this antigen cross-reacts with fMIGWII-specific T cells.</AssayComments>
+                        </AssayInformation>
+                    </TCell>
+                </Assays>
+            </Epitope>
+            <Epitope>
+                <EpitopeName>fMIVIL</EpitopeName>
+                <EpitopeStructure>
+                    <FragmentOfANaturalSequenceMolecule>
+                        <ChemicalType>Peptide from protein</ChemicalType>
+                        <LinearSequence>MIVIL</LinearSequence>
+                        <ModifiedResidues>M1</ModifiedResidues>
+                        <Modifications>Formylation|FORM</Modifications>
+                        <StartingPosition>1</StartingPosition>
+                        <EndingPosition>5</EndingPosition>
+                        <SourceMolecule>
+                            <GenBankId>16411031</GenBankId>
+                        </SourceMolecule>
+                        <SourceOrganismId>1639</SourceOrganismId>
+                    </FragmentOfANaturalSequenceMolecule>
+                </EpitopeStructure>
+                <LocationOfData>P. 6722</LocationOfData>
+                <EpitopeId>41789</EpitopeId>
+                <EpitopeEvidenceCode>Not determined</EpitopeEvidenceCode>
+                <EpitopeStructureDefines>Exact Epitope</EpitopeStructureDefines>
+                <Assays>
+                    <TCell>
+                        <LocationOfData>Figure 5</LocationOfData>
+                        <TCellId>7998</TCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>10000289</OrganismId>
+                                <Age>6-12 weeks</Age>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Administration in vivo</InVivoProcessType>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Source Organism</EpitopeRelation>
+                                    <Object>
+                                        <Organism>
+                                            <SubType>Organism</SubType>
+                                            <SourceOrganismId>1639</SourceOrganismId>
+                                        </Organism>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenReferenceName>Listeria monocytogenes</ImmunogenReferenceName>
+                                <ImmunogenEvidenceCode>Not determined</ImmunogenEvidenceCode>
+                            </FirstInVivoProcess>
+                            <InVitroAdministration>
+                                <ProcessType>Restimulation in vitro</ProcessType>
+                                <ResponderCellType>Splenocyte</ResponderCellType>
+                                <StimulatorCellType>EL-4 cells-Lymphoblast</StimulatorCellType>
+                            </InVitroAdministration>
+                        </Immunization>
+                        <EffectorCells>
+                            <CellTissueType>Spleen</CellTissueType>
+                            <CellType>Splenocyte</CellType>
+                            <CellCultureConditions>Short Term Restimulated</CellCultureConditions>
+                        </EffectorCells>
+                        <AntigenPresentingCells>
+                            <CellTissueType>Lymphoid</CellTissueType>
+                            <CellType>EL-4 cells-Lymphoblast</CellType>
+                            <CellCultureConditions>Cell Line / Clone</CellCultureConditions>
+                            <SourceOrganismId>10000225</SourceOrganismId>
+                        </AntigenPresentingCells>
+                        <MhcAllele>
+                            <MhcAlleleId>128</MhcAlleleId>
+                            <MhcEvidenceCode>Cited reference</MhcEvidenceCode>
+                        </MhcAllele>
+                        <Antigen>
+                            <AntigenReferenceName>fMIVIL</AntigenReferenceName>
+                            <AntigenObject>
+                                <EpitopeRelation>Epitope</EpitopeRelation>
+                                <Object>
+                                    <FragmentOfANaturalSequenceMolecule>
+                                        <ChemicalType>Peptide from protein</ChemicalType>
+                                        <LinearSequence>MIVIL</LinearSequence>
+                                        <ModifiedResidues>M1</ModifiedResidues>
+                                        <Modifications>Formylation|FORM</Modifications>
+                                        <StartingPosition>1</StartingPosition>
+                                        <EndingPosition>5</EndingPosition>
+                                        <SourceMolecule>
+                                            <GenBankId>16411031</GenBankId>
+                                        </SourceMolecule>
+                                        <SourceOrganismId>1639</SourceOrganismId>
+                                    </FragmentOfANaturalSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Not determined</AntigenEvidenceCode>
+                        </Antigen>
+                        <AssayInformation>
+                            <AssayTypeId>48</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <AssayComments>IFN-γ was also produced when mice were infected with Listeria lacking the epitope (ΔMIGWII).</AssayComments>
+                        </AssayInformation>
+                    </TCell>
+                </Assays>
+            </Epitope>
+            <Epitope>
+                <EpitopeName>fMIVTLF</EpitopeName>
+                <EpitopeStructure>
+                    <FragmentOfANaturalSequenceMolecule>
+                        <ChemicalType>Peptide from protein</ChemicalType>
+                        <LinearSequence>MIVILTLF</LinearSequence>
+                        <ModifiedResidues>M1</ModifiedResidues>
+                        <Modifications>Formylation|FORM</Modifications>
+                        <SourceMolecule>
+                            <IedbAccession>SRC40045</IedbAccession>
+                        </SourceMolecule>
+                        <SourceOrganismId>1639</SourceOrganismId>
+                    </FragmentOfANaturalSequenceMolecule>
+                </EpitopeStructure>
+                <LocationOfData>P. 6722</LocationOfData>
+                <EpitopeId>41790</EpitopeId>
+                <ReferenceStartingPosition>1</ReferenceStartingPosition>
+                <ReferenceEndingPosition>6</ReferenceEndingPosition>
+                <EpitopeEvidenceCode>Internal Identifier-no external match available</EpitopeEvidenceCode>
+                <EpitopeStructureDefines>Exact Epitope</EpitopeStructureDefines>
+                <Assays>
+                    <TCell>
+                        <LocationOfData>Figure 5</LocationOfData>
+                        <TCellId>7999</TCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>10000289</OrganismId>
+                                <Age>6-12 weeks</Age>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Administration in vivo</InVivoProcessType>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Source Organism</EpitopeRelation>
+                                    <Object>
+                                        <Organism>
+                                            <SubType>Organism</SubType>
+                                            <SourceOrganismId>1639</SourceOrganismId>
+                                        </Organism>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenReferenceName>Listeria monocytogenes</ImmunogenReferenceName>
+                                <ImmunogenEvidenceCode>Not determined</ImmunogenEvidenceCode>
+                            </FirstInVivoProcess>
+                            <InVitroAdministration>
+                                <ProcessType>Restimulation in vitro</ProcessType>
+                                <ResponderCellType>Splenocyte</ResponderCellType>
+                                <StimulatorCellType>EL-4 cells-Lymphoblast</StimulatorCellType>
+                            </InVitroAdministration>
+                        </Immunization>
+                        <EffectorCells>
+                            <CellTissueType>Spleen</CellTissueType>
+                            <CellType>Splenocyte</CellType>
+                            <CellCultureConditions>Short Term Restimulated</CellCultureConditions>
+                        </EffectorCells>
+                        <AntigenPresentingCells>
+                            <CellTissueType>Lymphoid</CellTissueType>
+                            <CellType>EL-4 cells-Lymphoblast</CellType>
+                            <CellCultureConditions>Cell Line / Clone</CellCultureConditions>
+                            <SourceOrganismId>10000225</SourceOrganismId>
+                        </AntigenPresentingCells>
+                        <MhcAllele>
+                            <MhcAlleleId>128</MhcAlleleId>
+                            <MhcEvidenceCode>Cited reference</MhcEvidenceCode>
+                        </MhcAllele>
+                        <Antigen>
+                            <AntigenReferenceName>fMIVTLF</AntigenReferenceName>
+                            <AntigenObject>
+                                <EpitopeRelation>Epitope</EpitopeRelation>
+                                <Object>
+                                    <FragmentOfANaturalSequenceMolecule>
+                                        <ChemicalType>Peptide from protein</ChemicalType>
+                                        <LinearSequence>MIVILTLF</LinearSequence>
+                                        <ModifiedResidues>M1</ModifiedResidues>
+                                        <Modifications>Formylation|FORM</Modifications>
+                                        <SourceMolecule>
+                                            <IedbAccession>SRC40045</IedbAccession>
+                                        </SourceMolecule>
+                                        <SourceOrganismId>1639</SourceOrganismId>
+                                    </FragmentOfANaturalSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Not determined</AntigenEvidenceCode>
+                        </Antigen>
+                        <AssayInformation>
+                            <AssayTypeId>48</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <AssayComments>IFNg was also produced by splenocytes isolated from mice infected with Listeria lacking the epitope (ΔMIGWII).</AssayComments>
+                        </AssayInformation>
+                    </TCell>
+                </Assays>
+            </Epitope>
+        </Epitopes>
+    </Reference>
+</References>
+

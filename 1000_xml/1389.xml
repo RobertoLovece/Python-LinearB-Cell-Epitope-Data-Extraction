@@ -1,0 +1,369 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<References xsi:schemaLocation="http://www.iedb.org/schema/CurationSchema http://beta.iedb.org/schema/Curation.xsd" xmlns="http://www.iedb.org/schema/CurationSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <Reference>
+        <ReferenceId>1389</ReferenceId>
+        <DateLastUpdated>2020-09-10-07:00</DateLastUpdated>
+        <Article>
+            <PubmedId>10506652</PubmedId>
+            <Abstract>Previous work from our group showed that the entrapment of HAV-related synthetic peptides into multilamellar liposomes yielded satisfactory immunoresponses when administered to mice. In the present work we report investigative results for several liposome formulations of a 20-mer peptide related to VP3 capsid protein of HAV. In this sense, the recently introduced surface plasmon resonance technique has been applied to compare the different strategies of association between the synthetic peptide and phospholipid vesicles and to demonstrate that no significant alteration in antigenicity is produced when the peptide sequence is covalently coupled to the surface of small unilamellar vesicles. In addition, conformational data obtained by the circular dichroism technique have shown a decrease in the helical contribution of peptide-once linked to phospholipid; probably this change is due to the restriction introduced at the N-terminus of the sequence when coupled to the derivatized phospholipids at the surface of vesicle bilayers.</Abstract>
+            <ArticleYear>1999</ArticleYear>
+            <ArticlePages>276-83</ArticlePages>
+            <ArticleTitle>Liposomes as vehicles for the presentation of a synthetic peptide containing an epitope of hepatitis A virus.</ArticleTitle>
+            <Authors>
+                <Author>
+                    <LastName>García</LastName>
+                    <ForeName>M</ForeName>
+                </Author>
+                <Author>
+                    <LastName>Alsina</LastName>
+                    <ForeName>M A</ForeName>
+                </Author>
+                <Author>
+                    <LastName>Reig</LastName>
+                    <ForeName>F</ForeName>
+                </Author>
+                <Author>
+                    <LastName>Haro</LastName>
+                    <ForeName>I</ForeName>
+                </Author>
+            </Authors>
+            <Affiliations>Departament de Química de Pèptids i Proteïnes, CID, CSIC, Jordi Girona, 18-26, 08034, Barcelona, Spain.</Affiliations>
+            <ArticleChemicalList>Drug Carriers;Epitopes;Hepatitis Antigens;Liposomes;Peptides;Vaccines, Synthetic;Viral Proteins</ArticleChemicalList>
+            <ArticleMeshHeadingsList>Animals; Circular Dichroism; Drug Carriers; Epitopes; Hepatitis Antigens(immunology); Hepatovirus(immunology); Liposomes; Mice; Peptides(immunology); Protein Conformation; Protein Structure, Secondary; Sequence Analysis, Protein; Vaccines, Synthetic(immunology); Viral Proteins(immunology)</ArticleMeshHeadingsList>
+            <Journal>
+                <Volume>18</Volume>
+                <Issue>3-4</Issue>
+                <Title>Vaccine</Title>
+                <Issn>0264-410X</Issn>
+                <MedlineTa>Vaccine</MedlineTa>
+            </Journal>
+        </Article>
+        <Epitopes>
+            <Epitope>
+                <EpitopeName>(105,109Abu)VP3(102-121)</EpitopeName>
+                <EpitopeStructure>
+                    <FragmentOfANaturalSequenceMolecule>
+                        <ChemicalType>Peptide from protein</ChemicalType>
+                        <LinearSequence>ASICQMFCFWRGDLVFDFQV</LinearSequence>
+                        <StartingPosition>347</StartingPosition>
+                        <EndingPosition>366</EndingPosition>
+                        <SourceMolecule>
+                            <GenBankId>P08617.1</GenBankId>
+                        </SourceMolecule>
+                        <SourceOrganismId>12098</SourceOrganismId>
+                    </FragmentOfANaturalSequenceMolecule>
+                </EpitopeStructure>
+                <EpitopeId>4467</EpitopeId>
+                <ReferenceStartingPosition>102</ReferenceStartingPosition>
+                <ReferenceEndingPosition>121</ReferenceEndingPosition>
+                <EpitopeEvidenceCode>Not determined</EpitopeEvidenceCode>
+                <EpitopeStructureDefines>Epitope containing region/antigenic site</EpitopeStructureDefines>
+                <EpitopeComments>The Cysteine residues present at positions 4 and 8 in the native sequence were substituted by aminobutiric acid, which has the same hydrophobic, steric, and electronic properties as Cysteine, but avoids the secondary reactivity of thiol groups during the conjugation to liposomes.</EpitopeComments>
+                <Assays>
+                    <BCell>
+                        <LocationOfData>Table 2</LocationOfData>
+                        <BCellId>22187</BCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>9986</OrganismId>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Administration in vivo</InVivoProcessType>
+                                <DiseaseState>ONTIE:0003423</DiseaseState>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Epitope</EpitopeRelation>
+                                    <Object>
+                                        <FragmentOfANaturalSequenceMolecule>
+                                            <ChemicalType>Peptide from protein</ChemicalType>
+                                            <LinearSequence>ASICQMFCFWRGDLVFDFQV</LinearSequence>
+                                            <StartingPosition>347</StartingPosition>
+                                            <EndingPosition>366</EndingPosition>
+                                            <SourceMolecule>
+                                                <GenBankId>P08617.1</GenBankId>
+                                            </SourceMolecule>
+                                            <SourceOrganismId>12098</SourceOrganismId>
+                                        </FragmentOfANaturalSequenceMolecule>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenReferenceName>(105,109Abu)VP3(102-121)</ImmunogenReferenceName>
+                                <ImmunogenEvidenceCode>Exact match to reference information</ImmunogenEvidenceCode>
+                                <ImmunogenContainingObject>
+                                    <ComplexedMolecule>
+                                        <ComplexType>Protein conjugate</ComplexType>
+                                        <PeptideModifications/>
+                                        <SourceMolecule>
+                                            <IedbAccession>SRC40074</IedbAccession>
+                                        </SourceMolecule>
+                                        <MoleculeSourceOrganismId>55429</MoleculeSourceOrganismId>
+                                    </ComplexedMolecule>
+                                </ImmunogenContainingObject>
+                                <Route>Intramuscular</Route>
+                            </FirstInVivoProcess>
+                            <ImmunizationComments>Rabbits were injected both intramuscularly and subcutaneously.</ImmunizationComments>
+                        </Immunization>
+                        <AssayInformation>
+                            <AssayTypeId>263</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <QuantitativeMeasurement>0.00045</QuantitativeMeasurement>
+                            <AssayComments>The strongest interactions were between antibody with free peptide, and with peptide covalently coupled to liposome by a thioether bond.  Disulfide and amide containing bonds yielded lower responses. The ligand used was an IgG anti-epitope purified by affinity chromatography.</AssayComments>
+                        </AssayInformation>
+                        <AssayedAntibody>
+                            <AssayedAntibodySourceMaterial>Purified Immunoglobulin</AssayedAntibodySourceMaterial>
+                            <AssayedAntibodyPurificationStatus>Polyclonal</AssayedAntibodyPurificationStatus>
+                            <AssayedAntibodyName>anti-(105,109Abu)VP3(102-121)</AssayedAntibodyName>
+                            <AssayedAntibodyHeavyChainType>IgG</AssayedAntibodyHeavyChainType>
+                        </AssayedAntibody>
+                        <Antigen>
+                            <AntigenReferenceName>(105,109Abu)VP3(102-121)</AntigenReferenceName>
+                            <AntigenConformation>Non-Native/Unknown</AntigenConformation>
+                            <AntigenObject>
+                                <EpitopeRelation>Epitope</EpitopeRelation>
+                                <Object>
+                                    <FragmentOfANaturalSequenceMolecule>
+                                        <ChemicalType>Peptide from protein</ChemicalType>
+                                        <LinearSequence>ASICQMFCFWRGDLVFDFQV</LinearSequence>
+                                        <StartingPosition>347</StartingPosition>
+                                        <EndingPosition>366</EndingPosition>
+                                        <SourceMolecule>
+                                            <GenBankId>P08617.1</GenBankId>
+                                        </SourceMolecule>
+                                        <SourceOrganismId>12098</SourceOrganismId>
+                                    </FragmentOfANaturalSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Exact match to reference information</AntigenEvidenceCode>
+                        </Antigen>
+                    </BCell>
+                </Assays>
+                <Assays>
+                    <BCell>
+                        <LocationOfData>Table 2</LocationOfData>
+                        <BCellId>22186</BCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>9986</OrganismId>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Administration in vivo</InVivoProcessType>
+                                <DiseaseState>ONTIE:0003423</DiseaseState>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Epitope</EpitopeRelation>
+                                    <Object>
+                                        <FragmentOfANaturalSequenceMolecule>
+                                            <ChemicalType>Peptide from protein</ChemicalType>
+                                            <LinearSequence>ASICQMFCFWRGDLVFDFQV</LinearSequence>
+                                            <StartingPosition>347</StartingPosition>
+                                            <EndingPosition>366</EndingPosition>
+                                            <SourceMolecule>
+                                                <GenBankId>P08617.1</GenBankId>
+                                            </SourceMolecule>
+                                            <SourceOrganismId>12098</SourceOrganismId>
+                                        </FragmentOfANaturalSequenceMolecule>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenReferenceName>(105,109Abu)VP3(102-121)</ImmunogenReferenceName>
+                                <ImmunogenEvidenceCode>Exact match to reference information</ImmunogenEvidenceCode>
+                                <ImmunogenContainingObject>
+                                    <ComplexedMolecule>
+                                        <ComplexType>Protein conjugate</ComplexType>
+                                        <PeptideModifications/>
+                                        <SourceMolecule>
+                                            <IedbAccession>SRC40074</IedbAccession>
+                                        </SourceMolecule>
+                                        <MoleculeSourceOrganismId>55429</MoleculeSourceOrganismId>
+                                    </ComplexedMolecule>
+                                </ImmunogenContainingObject>
+                                <Route>Intramuscular</Route>
+                            </FirstInVivoProcess>
+                            <ImmunizationComments>Rabbits were injected both intramuscularly and subcutaneously.</ImmunizationComments>
+                        </Immunization>
+                        <AssayInformation>
+                            <AssayTypeId>262</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <QuantitativeMeasurement>51.0</QuantitativeMeasurement>
+                            <AssayComments>The strongest interactions were between antibody with free peptide, and with peptide covalently coupled to liposome by a thioether bond.  Disulfide and amide containing bonds yielded lower responses. The ligand used was an IgG anti-epitope purified by affinity chromatography.</AssayComments>
+                        </AssayInformation>
+                        <AssayedAntibody>
+                            <AssayedAntibodySourceMaterial>Purified Immunoglobulin</AssayedAntibodySourceMaterial>
+                            <AssayedAntibodyPurificationStatus>Polyclonal</AssayedAntibodyPurificationStatus>
+                            <AssayedAntibodyName>anti-(105,109Abu)VP3(102-121)</AssayedAntibodyName>
+                            <AssayedAntibodyHeavyChainType>IgG</AssayedAntibodyHeavyChainType>
+                        </AssayedAntibody>
+                        <Antigen>
+                            <AntigenReferenceName>(105,109Abu)VP3(102-121)</AntigenReferenceName>
+                            <AntigenConformation>Non-Native/Unknown</AntigenConformation>
+                            <AntigenObject>
+                                <EpitopeRelation>Epitope</EpitopeRelation>
+                                <Object>
+                                    <FragmentOfANaturalSequenceMolecule>
+                                        <ChemicalType>Peptide from protein</ChemicalType>
+                                        <LinearSequence>ASICQMFCFWRGDLVFDFQV</LinearSequence>
+                                        <StartingPosition>347</StartingPosition>
+                                        <EndingPosition>366</EndingPosition>
+                                        <SourceMolecule>
+                                            <GenBankId>P08617.1</GenBankId>
+                                        </SourceMolecule>
+                                        <SourceOrganismId>12098</SourceOrganismId>
+                                    </FragmentOfANaturalSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Exact match to reference information</AntigenEvidenceCode>
+                        </Antigen>
+                    </BCell>
+                </Assays>
+                <Assays>
+                    <BCell>
+                        <LocationOfData>Figure 2</LocationOfData>
+                        <BCellId>21741</BCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>9986</OrganismId>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Administration in vivo</InVivoProcessType>
+                                <DiseaseState>ONTIE:0003423</DiseaseState>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Epitope</EpitopeRelation>
+                                    <Object>
+                                        <FragmentOfANaturalSequenceMolecule>
+                                            <ChemicalType>Peptide from protein</ChemicalType>
+                                            <LinearSequence>ASICQMFCFWRGDLVFDFQV</LinearSequence>
+                                            <StartingPosition>347</StartingPosition>
+                                            <EndingPosition>366</EndingPosition>
+                                            <SourceMolecule>
+                                                <GenBankId>P08617.1</GenBankId>
+                                            </SourceMolecule>
+                                            <SourceOrganismId>12098</SourceOrganismId>
+                                        </FragmentOfANaturalSequenceMolecule>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenReferenceName>(105,109Abu)VP3(102-121)</ImmunogenReferenceName>
+                                <ImmunogenEvidenceCode>Exact match to reference information</ImmunogenEvidenceCode>
+                                <ImmunogenContainingObject>
+                                    <ComplexedMolecule>
+                                        <ComplexType>Protein conjugate</ComplexType>
+                                        <PeptideModifications/>
+                                        <SourceMolecule>
+                                            <IedbAccession>SRC40074</IedbAccession>
+                                        </SourceMolecule>
+                                        <MoleculeSourceOrganismId>55429</MoleculeSourceOrganismId>
+                                    </ComplexedMolecule>
+                                </ImmunogenContainingObject>
+                                <Route>Intramuscular</Route>
+                            </FirstInVivoProcess>
+                            <ImmunizationComments>Rabbits were injected both intramuscularly and subcutaneously.</ImmunizationComments>
+                        </Immunization>
+                        <AssayInformation>
+                            <AssayTypeId>159</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <AssayComments>The highest degree of interaction was shown with free peptide, and with peptide covalently coupled to liposome by a thioether bond.  Disulfide and amide containing bonds yielded lower responses.  Liposome-encapsulated peptide also yielded a low response.  The ligand used was an IgG anti-epitope purified by affinity chromatography.</AssayComments>
+                        </AssayInformation>
+                        <AssayedAntibody>
+                            <AssayedAntibodySourceMaterial>Purified Immunoglobulin</AssayedAntibodySourceMaterial>
+                            <AssayedAntibodyPurificationStatus>Polyclonal</AssayedAntibodyPurificationStatus>
+                            <AssayedAntibodyName>anti-(105,109Abu)VP3(102-121)</AssayedAntibodyName>
+                            <AssayedAntibodyHeavyChainType>IgG</AssayedAntibodyHeavyChainType>
+                        </AssayedAntibody>
+                        <Antigen>
+                            <AntigenReferenceName>(105,109Abu)VP3(102-121)</AntigenReferenceName>
+                            <AntigenConformation>Non-Native/Unknown</AntigenConformation>
+                            <AntigenObject>
+                                <EpitopeRelation>Epitope</EpitopeRelation>
+                                <Object>
+                                    <FragmentOfANaturalSequenceMolecule>
+                                        <ChemicalType>Peptide from protein</ChemicalType>
+                                        <LinearSequence>ASICQMFCFWRGDLVFDFQV</LinearSequence>
+                                        <StartingPosition>347</StartingPosition>
+                                        <EndingPosition>366</EndingPosition>
+                                        <SourceMolecule>
+                                            <GenBankId>P08617.1</GenBankId>
+                                        </SourceMolecule>
+                                        <SourceOrganismId>12098</SourceOrganismId>
+                                    </FragmentOfANaturalSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Exact match to reference information</AntigenEvidenceCode>
+                        </Antigen>
+                    </BCell>
+                </Assays>
+                <Assays>
+                    <BCell>
+                        <LocationOfData>Table 2</LocationOfData>
+                        <BCellId>21742</BCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>9986</OrganismId>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Administration in vivo</InVivoProcessType>
+                                <DiseaseState>ONTIE:0003423</DiseaseState>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Epitope</EpitopeRelation>
+                                    <Object>
+                                        <FragmentOfANaturalSequenceMolecule>
+                                            <ChemicalType>Peptide from protein</ChemicalType>
+                                            <LinearSequence>ASICQMFCFWRGDLVFDFQV</LinearSequence>
+                                            <StartingPosition>347</StartingPosition>
+                                            <EndingPosition>366</EndingPosition>
+                                            <SourceMolecule>
+                                                <GenBankId>P08617.1</GenBankId>
+                                            </SourceMolecule>
+                                            <SourceOrganismId>12098</SourceOrganismId>
+                                        </FragmentOfANaturalSequenceMolecule>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenReferenceName>(105,109Abu)VP3(102-121)</ImmunogenReferenceName>
+                                <ImmunogenEvidenceCode>Exact match to reference information</ImmunogenEvidenceCode>
+                                <ImmunogenContainingObject>
+                                    <ComplexedMolecule>
+                                        <ComplexType>Protein conjugate</ComplexType>
+                                        <PeptideModifications/>
+                                        <SourceMolecule>
+                                            <IedbAccession>SRC40074</IedbAccession>
+                                        </SourceMolecule>
+                                        <MoleculeSourceOrganismId>55429</MoleculeSourceOrganismId>
+                                    </ComplexedMolecule>
+                                </ImmunogenContainingObject>
+                                <Route>Intramuscular</Route>
+                            </FirstInVivoProcess>
+                            <ImmunizationComments>Rabbits were injected both intramuscularly and subcutaneously.</ImmunizationComments>
+                        </Immunization>
+                        <AssayInformation>
+                            <AssayTypeId>242</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <QuantitativeMeasurement>0.000115</QuantitativeMeasurement>
+                            <AssayComments>The strongest interactions were between antibody with free peptide, and with peptide covalently coupled to liposome by a thioether bond.  Disulfide and amide containing bonds yielded lower responses. The ligand used was an IgG anti-epitope purified by affinity chromatography.</AssayComments>
+                        </AssayInformation>
+                        <AssayedAntibody>
+                            <AssayedAntibodySourceMaterial>Purified Immunoglobulin</AssayedAntibodySourceMaterial>
+                            <AssayedAntibodyPurificationStatus>Polyclonal</AssayedAntibodyPurificationStatus>
+                            <AssayedAntibodyName>anti-(105,109Abu)VP3(102-121)</AssayedAntibodyName>
+                            <AssayedAntibodyHeavyChainType>IgG</AssayedAntibodyHeavyChainType>
+                        </AssayedAntibody>
+                        <Antigen>
+                            <AntigenReferenceName>(105,109Abu)VP3(102-121)</AntigenReferenceName>
+                            <AntigenConformation>Non-Native/Unknown</AntigenConformation>
+                            <AntigenObject>
+                                <EpitopeRelation>Epitope</EpitopeRelation>
+                                <Object>
+                                    <FragmentOfANaturalSequenceMolecule>
+                                        <ChemicalType>Peptide from protein</ChemicalType>
+                                        <LinearSequence>ASICQMFCFWRGDLVFDFQV</LinearSequence>
+                                        <StartingPosition>347</StartingPosition>
+                                        <EndingPosition>366</EndingPosition>
+                                        <SourceMolecule>
+                                            <GenBankId>P08617.1</GenBankId>
+                                        </SourceMolecule>
+                                        <SourceOrganismId>12098</SourceOrganismId>
+                                    </FragmentOfANaturalSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Exact match to reference information</AntigenEvidenceCode>
+                        </Antigen>
+                    </BCell>
+                </Assays>
+            </Epitope>
+        </Epitopes>
+    </Reference>
+</References>
+

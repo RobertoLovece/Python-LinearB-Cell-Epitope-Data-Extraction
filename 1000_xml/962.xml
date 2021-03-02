@@ -1,0 +1,1407 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<References xsi:schemaLocation="http://www.iedb.org/schema/CurationSchema http://beta.iedb.org/schema/Curation.xsd" xmlns="http://www.iedb.org/schema/CurationSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <Reference>
+        <ReferenceId>962</ReferenceId>
+        <DateLastUpdated>2020-09-10-07:00</DateLastUpdated>
+        <Article>
+            <PubmedId>10191190</PubmedId>
+            <Abstract>Binding of a specific peptide(s) from a viral protein to major histocompatibility complex (MHC) class I molecules is a critical step in the activation of CD8(+) cytotoxic T lymphocytes (CTLs). Once activated, CTLs can cause lethal disease in an infected host, for example, by killing virus-containing ependymal and ventricular cells in the central nervous system or viral protein-expressing beta cells in the pancreatic islets of Langerhans. Here we describe the usage of a designed (not natural) high-affinity peptide to compete with viral peptide(s)-MHC binding. This peptide blocks virus-induced CTL-mediated disease both in the CNS and in the pancreatic islets in vivo. Further, the blocking peptide aborts MHC-restricted killing of target cells by CTLs generated to three separate viruses: lymphocytic choriomeningitis virus, influenza virus, and simian virus 40.</Abstract>
+            <ArticleYear>1999</ArticleYear>
+            <ArticlePages>246-57</ArticlePages>
+            <ArticleTitle>Use of a high-affinity peptide that aborts MHC-restricted cytotoxic T lymphocyte activity against multiple viruses in vitro and virus-induced immunopathologic disease in vivo.</ArticleTitle>
+            <Authors>
+                <Author>
+                    <LastName>Oldstone</LastName>
+                    <ForeName>M B</ForeName>
+                </Author>
+                <Author>
+                    <LastName>von Herrath</LastName>
+                    <ForeName>M</ForeName>
+                </Author>
+                <Author>
+                    <LastName>Lewicki</LastName>
+                    <ForeName>H</ForeName>
+                </Author>
+                <Author>
+                    <LastName>Hudrisier</LastName>
+                    <ForeName>D</ForeName>
+                </Author>
+                <Author>
+                    <LastName>Whitton</LastName>
+                    <ForeName>J L</ForeName>
+                </Author>
+                <Author>
+                    <LastName>Gairin</LastName>
+                    <ForeName>J E</ForeName>
+                </Author>
+            </Authors>
+            <ArticleChemicalList>H-2 Antigens;Histocompatibility Antigen H-2D;Peptides;Viral Proteins</ArticleChemicalList>
+            <ArticleMeshHeadingsList>Acute Disease; Animals; H-2 Antigens(immunology); Histocompatibility Antigen H-2D; Lymphocytic Choriomeningitis(immunology; pathology; prevention &amp; control); Lymphocytic choriomeningitis virus(immunology); Major Histocompatibility Complex(immunology); Mice; Mice, Inbred BALB C; Mice, Inbred C57BL; Orthomyxoviridae(immunology); Peptides(immunology); Simian virus 40(immunology); T-Lymphocytes, Cytotoxic(immunology); Viral Proteins(immunology)</ArticleMeshHeadingsList>
+            <Journal>
+                <Volume>256</Volume>
+                <Issue>2</Issue>
+                <Title>Virology</Title>
+                <Issn>0042-6822</Issn>
+                <MedlineTa>Virology</MedlineTa>
+            </Journal>
+        </Article>
+        <Epitopes>
+            <Epitope>
+                <EpitopeName>GP1 33-41</EpitopeName>
+                <EpitopeStructure>
+                    <FragmentOfANaturalSequenceMolecule>
+                        <ChemicalType>Peptide from protein</ChemicalType>
+                        <LinearSequence>KAVYNFATC</LinearSequence>
+                        <StartingPosition>33</StartingPosition>
+                        <EndingPosition>41</EndingPosition>
+                        <SourceMolecule>
+                            <GenBankId>AAL01687.1</GenBankId>
+                        </SourceMolecule>
+                        <SourceOrganismId>11623</SourceOrganismId>
+                    </FragmentOfANaturalSequenceMolecule>
+                </EpitopeStructure>
+                <LocationOfData>Table 1</LocationOfData>
+                <EpitopeId>30001</EpitopeId>
+                <ReferenceStartingPosition>33</ReferenceStartingPosition>
+                <ReferenceEndingPosition>41</ReferenceEndingPosition>
+                <EpitopeEvidenceCode>Not determined</EpitopeEvidenceCode>
+                <EpitopeStructureDefines>Exact Epitope</EpitopeStructureDefines>
+                <Assays>
+                    <TCell>
+                        <LocationOfData>Table 2</LocationOfData>
+                        <TCellId>1266896</TCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>10090</OrganismId>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Administration in vivo</InVivoProcessType>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Source Organism</EpitopeRelation>
+                                    <Object>
+                                        <Organism>
+                                            <SubType>Organism</SubType>
+                                            <SourceOrganismId>11623</SourceOrganismId>
+                                        </Organism>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenReferenceName>Lymphocytic choriomeningitis virus</ImmunogenReferenceName>
+                                <ImmunogenEvidenceCode>Not determined</ImmunogenEvidenceCode>
+                            </FirstInVivoProcess>
+                            <InVitroAdministration>
+                                <ProcessType>Restimulation in vitro</ProcessType>
+                            </InVitroAdministration>
+                            <ImmunizationComments>A previously described epitope specific CTL line was used.</ImmunizationComments>
+                        </Immunization>
+                        <EffectorCells>
+                            <CellTissueType>Spleen</CellTissueType>
+                            <CellType>T cell</CellType>
+                            <CellCultureConditions>Cell Line / Clone</CellCultureConditions>
+                        </EffectorCells>
+                        <AntigenPresentingCells>
+                            <CellTissueType>Other</CellTissueType>
+                            <CellType>Other</CellType>
+                            <CellCultureConditions>Cell Line / Clone</CellCultureConditions>
+                            <SourceOrganismId>10090</SourceOrganismId>
+                        </AntigenPresentingCells>
+                        <MhcAllele>
+                            <MhcAlleleId>172</MhcAlleleId>
+                            <MhcEvidenceCode>Not determined</MhcEvidenceCode>
+                        </MhcAllele>
+                        <Antigen>
+                            <AntigenReferenceName>Lymphocytic choriomeningitis virus</AntigenReferenceName>
+                            <AntigenObject>
+                                <EpitopeRelation>Source Organism</EpitopeRelation>
+                                <Object>
+                                    <Organism>
+                                        <SubType>Organism</SubType>
+                                        <SourceOrganismId>11623</SourceOrganismId>
+                                    </Organism>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Not determined</AntigenEvidenceCode>
+                        </Antigen>
+                        <AssayInformation>
+                            <AssayTypeId>67</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <AssayComments>An epitope specific CTL lysed target cells infected with LCMV.</AssayComments>
+                        </AssayInformation>
+                    </TCell>
+                </Assays>
+                <Assays>
+                    <TCell>
+                        <LocationOfData>Table 1 and figure 1</LocationOfData>
+                        <TCellId>1266895</TCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>10090</OrganismId>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Administration in vivo</InVivoProcessType>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Source Organism</EpitopeRelation>
+                                    <Object>
+                                        <Organism>
+                                            <SubType>Organism</SubType>
+                                            <SourceOrganismId>11623</SourceOrganismId>
+                                        </Organism>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenReferenceName>Lymphocytic choriomeningitis virus</ImmunogenReferenceName>
+                                <ImmunogenEvidenceCode>Not determined</ImmunogenEvidenceCode>
+                                <Route>Intraperitoneal (i.p.)</Route>
+                                <DoseSchedule>One</DoseSchedule>
+                            </FirstInVivoProcess>
+                            <ImmunizationComments>Primary LCMV specific CTL cells were harvested from the spleens of mice immunized with LCMV 7 days earlier.  A previously described epitope specific CTL line was used.</ImmunizationComments>
+                        </Immunization>
+                        <EffectorCells>
+                            <CellTissueType>Spleen</CellTissueType>
+                            <CellType>T cell</CellType>
+                            <CellCultureConditions>Direct Ex Vivo</CellCultureConditions>
+                        </EffectorCells>
+                        <AntigenPresentingCells>
+                            <CellTissueType>Other</CellTissueType>
+                            <CellType>Other</CellType>
+                            <CellCultureConditions>Cell Line / Clone</CellCultureConditions>
+                            <SourceOrganismId>10090</SourceOrganismId>
+                        </AntigenPresentingCells>
+                        <MhcAllele>
+                            <MhcAlleleId>172</MhcAlleleId>
+                            <MhcEvidenceCode>Not determined</MhcEvidenceCode>
+                        </MhcAllele>
+                        <Antigen>
+                            <AntigenReferenceName>GP1 33-41</AntigenReferenceName>
+                            <AntigenObject>
+                                <EpitopeRelation>Epitope</EpitopeRelation>
+                                <Object>
+                                    <FragmentOfANaturalSequenceMolecule>
+                                        <ChemicalType>Peptide from protein</ChemicalType>
+                                        <LinearSequence>KAVYNFATC</LinearSequence>
+                                        <StartingPosition>33</StartingPosition>
+                                        <EndingPosition>41</EndingPosition>
+                                        <SourceMolecule>
+                                            <GenBankId>AAL01687.1</GenBankId>
+                                        </SourceMolecule>
+                                        <SourceOrganismId>11623</SourceOrganismId>
+                                    </FragmentOfANaturalSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Exact match to reference information</AntigenEvidenceCode>
+                        </Antigen>
+                        <AssayInformation>
+                            <AssayTypeId>67</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <AssayComments>An epitope specific CTL and primary CTL from LCMV immunized mice lysed target cells presenting the epitope.</AssayComments>
+                        </AssayInformation>
+                    </TCell>
+                </Assays>
+                <Assays>
+                    <MhcBinding>
+                        <LocationOfData>Table 1</LocationOfData>
+                        <MhcBindingId>1266894</MhcBindingId>
+                        <AssayInformation>
+                            <AssayTypeId>203</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <QuantitativeMeasurement>48.0</QuantitativeMeasurement>
+                        </AssayInformation>
+                        <MhcAlleleId>172</MhcAlleleId>
+                    </MhcBinding>
+                </Assays>
+            </Epitope>
+            <Epitope>
+                <EpitopeName>GP2 276-286</EpitopeName>
+                <EpitopeStructure>
+                    <FragmentOfANaturalSequenceMolecule>
+                        <ChemicalType>Peptide from protein</ChemicalType>
+                        <LinearSequence>SGVENPGGYCL</LinearSequence>
+                        <StartingPosition>276</StartingPosition>
+                        <EndingPosition>286</EndingPosition>
+                        <SourceMolecule>
+                            <GenBankId>AAL01687.1</GenBankId>
+                        </SourceMolecule>
+                        <SourceOrganismId>11623</SourceOrganismId>
+                    </FragmentOfANaturalSequenceMolecule>
+                </EpitopeStructure>
+                <LocationOfData>Table 1</LocationOfData>
+                <EpitopeId>58282</EpitopeId>
+                <ReferenceStartingPosition>276</ReferenceStartingPosition>
+                <ReferenceEndingPosition>286</ReferenceEndingPosition>
+                <EpitopeEvidenceCode>Not determined</EpitopeEvidenceCode>
+                <EpitopeStructureDefines>Exact Epitope</EpitopeStructureDefines>
+                <Assays>
+                    <TCell>
+                        <LocationOfData>Table 1 and figure 1</LocationOfData>
+                        <TCellId>1266899</TCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>10090</OrganismId>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Administration in vivo</InVivoProcessType>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Source Organism</EpitopeRelation>
+                                    <Object>
+                                        <Organism>
+                                            <SubType>Organism</SubType>
+                                            <SourceOrganismId>11623</SourceOrganismId>
+                                        </Organism>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenReferenceName>Lymphocytic choriomeningitis virus</ImmunogenReferenceName>
+                                <ImmunogenEvidenceCode>Not determined</ImmunogenEvidenceCode>
+                                <Route>Intraperitoneal (i.p.)</Route>
+                                <DoseSchedule>One</DoseSchedule>
+                            </FirstInVivoProcess>
+                            <ImmunizationComments>Primary LCMV specific CTL cells were harvested from the spleens of mice immunized with LCMV 7 days earlier.  A previously described epitope specific CTL line was used.</ImmunizationComments>
+                        </Immunization>
+                        <EffectorCells>
+                            <CellTissueType>Spleen</CellTissueType>
+                            <CellType>T cell</CellType>
+                            <CellCultureConditions>Direct Ex Vivo</CellCultureConditions>
+                        </EffectorCells>
+                        <AntigenPresentingCells>
+                            <CellTissueType>Other</CellTissueType>
+                            <CellType>Other</CellType>
+                            <CellCultureConditions>Cell Line / Clone</CellCultureConditions>
+                            <SourceOrganismId>10090</SourceOrganismId>
+                        </AntigenPresentingCells>
+                        <MhcAllele>
+                            <MhcAlleleId>172</MhcAlleleId>
+                            <MhcEvidenceCode>Not determined</MhcEvidenceCode>
+                        </MhcAllele>
+                        <Antigen>
+                            <AntigenReferenceName>GP2 276-286</AntigenReferenceName>
+                            <AntigenObject>
+                                <EpitopeRelation>Epitope</EpitopeRelation>
+                                <Object>
+                                    <FragmentOfANaturalSequenceMolecule>
+                                        <ChemicalType>Peptide from protein</ChemicalType>
+                                        <LinearSequence>SGVENPGGYCL</LinearSequence>
+                                        <StartingPosition>276</StartingPosition>
+                                        <EndingPosition>286</EndingPosition>
+                                        <SourceMolecule>
+                                            <GenBankId>AAL01687.1</GenBankId>
+                                        </SourceMolecule>
+                                        <SourceOrganismId>11623</SourceOrganismId>
+                                    </FragmentOfANaturalSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Exact match to reference information</AntigenEvidenceCode>
+                        </Antigen>
+                        <AssayInformation>
+                            <AssayTypeId>67</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <AssayComments>An epitope specific CTL and primary CTL from LCMV immunized mice lysed target cells presenting the epitope.</AssayComments>
+                        </AssayInformation>
+                    </TCell>
+                </Assays>
+                <Assays>
+                    <TCell>
+                        <LocationOfData>Table 2</LocationOfData>
+                        <TCellId>1266898</TCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>10090</OrganismId>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Administration in vivo</InVivoProcessType>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Source Organism</EpitopeRelation>
+                                    <Object>
+                                        <Organism>
+                                            <SubType>Organism</SubType>
+                                            <SourceOrganismId>11623</SourceOrganismId>
+                                        </Organism>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenReferenceName>Lymphocytic choriomeningitis virus</ImmunogenReferenceName>
+                                <ImmunogenEvidenceCode>Not determined</ImmunogenEvidenceCode>
+                            </FirstInVivoProcess>
+                            <InVitroAdministration>
+                                <ProcessType>Restimulation in vitro</ProcessType>
+                            </InVitroAdministration>
+                            <ImmunizationComments>A previously described epitope specific CTL line was used.</ImmunizationComments>
+                        </Immunization>
+                        <EffectorCells>
+                            <CellTissueType>Spleen</CellTissueType>
+                            <CellType>T cell</CellType>
+                            <CellCultureConditions>Cell Line / Clone</CellCultureConditions>
+                        </EffectorCells>
+                        <AntigenPresentingCells>
+                            <CellTissueType>Other</CellTissueType>
+                            <CellType>Other</CellType>
+                            <CellCultureConditions>Cell Line / Clone</CellCultureConditions>
+                            <SourceOrganismId>10090</SourceOrganismId>
+                        </AntigenPresentingCells>
+                        <MhcAllele>
+                            <MhcAlleleId>172</MhcAlleleId>
+                            <MhcEvidenceCode>Not determined</MhcEvidenceCode>
+                        </MhcAllele>
+                        <Antigen>
+                            <AntigenReferenceName>Lymphocytic choriomeningitis virus</AntigenReferenceName>
+                            <AntigenObject>
+                                <EpitopeRelation>Source Organism</EpitopeRelation>
+                                <Object>
+                                    <Organism>
+                                        <SubType>Organism</SubType>
+                                        <SourceOrganismId>11623</SourceOrganismId>
+                                    </Organism>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Not determined</AntigenEvidenceCode>
+                        </Antigen>
+                        <AssayInformation>
+                            <AssayTypeId>67</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <AssayComments>An epitope specific CTL lysed target cells infected with LCMV.</AssayComments>
+                        </AssayInformation>
+                    </TCell>
+                </Assays>
+                <Assays>
+                    <MhcBinding>
+                        <LocationOfData>Table 1</LocationOfData>
+                        <MhcBindingId>1266897</MhcBindingId>
+                        <AssayInformation>
+                            <AssayTypeId>203</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <QuantitativeMeasurement>13.0</QuantitativeMeasurement>
+                        </AssayInformation>
+                        <MhcAlleleId>172</MhcAlleleId>
+                    </MhcBinding>
+                </Assays>
+            </Epitope>
+            <Epitope>
+                <EpitopeName>NP 396-404</EpitopeName>
+                <EpitopeStructure>
+                    <FragmentOfANaturalSequenceMolecule>
+                        <ChemicalType>Peptide from protein</ChemicalType>
+                        <LinearSequence>FQPQNGQFI</LinearSequence>
+                        <StartingPosition>396</StartingPosition>
+                        <EndingPosition>404</EndingPosition>
+                        <SourceMolecule>
+                            <GenBankId>AAL01686.1</GenBankId>
+                        </SourceMolecule>
+                        <SourceOrganismId>11623</SourceOrganismId>
+                    </FragmentOfANaturalSequenceMolecule>
+                </EpitopeStructure>
+                <LocationOfData>Table 1</LocationOfData>
+                <EpitopeId>17516</EpitopeId>
+                <ReferenceStartingPosition>396</ReferenceStartingPosition>
+                <ReferenceEndingPosition>404</ReferenceEndingPosition>
+                <EpitopeEvidenceCode>Not determined</EpitopeEvidenceCode>
+                <EpitopeStructureDefines>Exact Epitope</EpitopeStructureDefines>
+                <Assays>
+                    <TCell>
+                        <LocationOfData>Table 1 and figure 1</LocationOfData>
+                        <TCellId>1266902</TCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>10090</OrganismId>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Administration in vivo</InVivoProcessType>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Source Organism</EpitopeRelation>
+                                    <Object>
+                                        <Organism>
+                                            <SubType>Organism</SubType>
+                                            <SourceOrganismId>11623</SourceOrganismId>
+                                        </Organism>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenReferenceName>Lymphocytic choriomeningitis virus</ImmunogenReferenceName>
+                                <ImmunogenEvidenceCode>Not determined</ImmunogenEvidenceCode>
+                                <Route>Intraperitoneal (i.p.)</Route>
+                                <DoseSchedule>One</DoseSchedule>
+                            </FirstInVivoProcess>
+                            <ImmunizationComments>Primary LCMV specific CTL cells were harvested from the spleens of mice immunized with LCMV 7 days earlier.  A previously described epitope specific CTL line was used.</ImmunizationComments>
+                        </Immunization>
+                        <EffectorCells>
+                            <CellTissueType>Spleen</CellTissueType>
+                            <CellType>T cell</CellType>
+                            <CellCultureConditions>Direct Ex Vivo</CellCultureConditions>
+                        </EffectorCells>
+                        <AntigenPresentingCells>
+                            <CellTissueType>Other</CellTissueType>
+                            <CellType>Other</CellType>
+                            <CellCultureConditions>Cell Line / Clone</CellCultureConditions>
+                            <SourceOrganismId>10090</SourceOrganismId>
+                        </AntigenPresentingCells>
+                        <MhcAllele>
+                            <MhcAlleleId>172</MhcAlleleId>
+                            <MhcEvidenceCode>Not determined</MhcEvidenceCode>
+                        </MhcAllele>
+                        <Antigen>
+                            <AntigenReferenceName>NP 396-404</AntigenReferenceName>
+                            <AntigenObject>
+                                <EpitopeRelation>Epitope</EpitopeRelation>
+                                <Object>
+                                    <FragmentOfANaturalSequenceMolecule>
+                                        <ChemicalType>Peptide from protein</ChemicalType>
+                                        <LinearSequence>FQPQNGQFI</LinearSequence>
+                                        <StartingPosition>396</StartingPosition>
+                                        <EndingPosition>404</EndingPosition>
+                                        <SourceMolecule>
+                                            <GenBankId>AAL01686.1</GenBankId>
+                                        </SourceMolecule>
+                                        <SourceOrganismId>11623</SourceOrganismId>
+                                    </FragmentOfANaturalSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Exact match to reference information</AntigenEvidenceCode>
+                        </Antigen>
+                        <AssayInformation>
+                            <AssayTypeId>67</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <AssayComments>An epitope specific CTL and primary CTL from LCMV immunized mice lysed target cells presenting the epitope.</AssayComments>
+                        </AssayInformation>
+                    </TCell>
+                </Assays>
+                <Assays>
+                    <TCell>
+                        <LocationOfData>Table 2</LocationOfData>
+                        <TCellId>1266901</TCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>10090</OrganismId>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Administration in vivo</InVivoProcessType>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Source Organism</EpitopeRelation>
+                                    <Object>
+                                        <Organism>
+                                            <SubType>Organism</SubType>
+                                            <SourceOrganismId>11623</SourceOrganismId>
+                                        </Organism>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenReferenceName>Lymphocytic choriomeningitis virus</ImmunogenReferenceName>
+                                <ImmunogenEvidenceCode>Not determined</ImmunogenEvidenceCode>
+                            </FirstInVivoProcess>
+                            <InVitroAdministration>
+                                <ProcessType>Restimulation in vitro</ProcessType>
+                            </InVitroAdministration>
+                            <ImmunizationComments>A previously described epitope specific CTL line was used.</ImmunizationComments>
+                        </Immunization>
+                        <EffectorCells>
+                            <CellTissueType>Spleen</CellTissueType>
+                            <CellType>T cell</CellType>
+                            <CellCultureConditions>Cell Line / Clone</CellCultureConditions>
+                        </EffectorCells>
+                        <AntigenPresentingCells>
+                            <CellTissueType>Other</CellTissueType>
+                            <CellType>Other</CellType>
+                            <CellCultureConditions>Cell Line / Clone</CellCultureConditions>
+                            <SourceOrganismId>10090</SourceOrganismId>
+                        </AntigenPresentingCells>
+                        <MhcAllele>
+                            <MhcAlleleId>172</MhcAlleleId>
+                            <MhcEvidenceCode>Not determined</MhcEvidenceCode>
+                        </MhcAllele>
+                        <Antigen>
+                            <AntigenReferenceName>Lymphocytic choriomeningitis virus</AntigenReferenceName>
+                            <AntigenObject>
+                                <EpitopeRelation>Source Organism</EpitopeRelation>
+                                <Object>
+                                    <Organism>
+                                        <SubType>Organism</SubType>
+                                        <SourceOrganismId>11623</SourceOrganismId>
+                                    </Organism>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Not determined</AntigenEvidenceCode>
+                        </Antigen>
+                        <AssayInformation>
+                            <AssayTypeId>67</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <AssayComments>An epitope specific CTL lysed target cells infected with LCMV.</AssayComments>
+                        </AssayInformation>
+                    </TCell>
+                </Assays>
+                <Assays>
+                    <MhcBinding>
+                        <LocationOfData>Table 1</LocationOfData>
+                        <MhcBindingId>1266900</MhcBindingId>
+                        <AssayInformation>
+                            <AssayTypeId>203</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <QuantitativeMeasurement>6.0</QuantitativeMeasurement>
+                        </AssayInformation>
+                        <MhcAlleleId>172</MhcAlleleId>
+                    </MhcBinding>
+                </Assays>
+            </Epitope>
+            <Epitope>
+                <EpitopeName>NP 366-374</EpitopeName>
+                <EpitopeStructure>
+                    <FragmentOfANaturalSequenceMolecule>
+                        <ChemicalType>Peptide from protein</ChemicalType>
+                        <LinearSequence>ASNENMETM</LinearSequence>
+                        <StartingPosition>366</StartingPosition>
+                        <EndingPosition>374</EndingPosition>
+                        <SourceMolecule>
+                            <GenBankId>AAA43467.1</GenBankId>
+                        </SourceMolecule>
+                        <SourceOrganismId>11320</SourceOrganismId>
+                    </FragmentOfANaturalSequenceMolecule>
+                </EpitopeStructure>
+                <LocationOfData>Table 1</LocationOfData>
+                <EpitopeId>4602</EpitopeId>
+                <ReferenceStartingPosition>366</ReferenceStartingPosition>
+                <ReferenceEndingPosition>374</ReferenceEndingPosition>
+                <EpitopeEvidenceCode>Not determined</EpitopeEvidenceCode>
+                <EpitopeStructureDefines>Exact Epitope</EpitopeStructureDefines>
+                <Assays>
+                    <TCell>
+                        <LocationOfData>Table 1 and figure 2</LocationOfData>
+                        <TCellId>1266964</TCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>10090</OrganismId>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Administration in vivo</InVivoProcessType>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Source Organism</EpitopeRelation>
+                                    <Object>
+                                        <Organism>
+                                            <SubType>Organism</SubType>
+                                            <SourceOrganismId>11320</SourceOrganismId>
+                                        </Organism>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenReferenceName>Influenza A virus</ImmunogenReferenceName>
+                                <ImmunogenEvidenceCode>Not determined</ImmunogenEvidenceCode>
+                            </FirstInVivoProcess>
+                            <InVitroAdministration>
+                                <ProcessType>Restimulation in vitro</ProcessType>
+                            </InVitroAdministration>
+                            <ImmunizationComments>A previously described epitope specific CTL line was used.</ImmunizationComments>
+                        </Immunization>
+                        <EffectorCells>
+                            <CellTissueType>Spleen</CellTissueType>
+                            <CellType>T cell</CellType>
+                            <CellCultureConditions>Cell Line / Clone</CellCultureConditions>
+                        </EffectorCells>
+                        <AntigenPresentingCells>
+                            <CellTissueType>Other</CellTissueType>
+                            <CellType>Other</CellType>
+                            <CellCultureConditions>Cell Line / Clone</CellCultureConditions>
+                            <SourceOrganismId>10090</SourceOrganismId>
+                        </AntigenPresentingCells>
+                        <MhcAllele>
+                            <MhcAlleleId>172</MhcAlleleId>
+                            <MhcEvidenceCode>Not determined</MhcEvidenceCode>
+                        </MhcAllele>
+                        <Antigen>
+                            <AntigenReferenceName>NP 366-374</AntigenReferenceName>
+                            <AntigenObject>
+                                <EpitopeRelation>Epitope</EpitopeRelation>
+                                <Object>
+                                    <FragmentOfANaturalSequenceMolecule>
+                                        <ChemicalType>Peptide from protein</ChemicalType>
+                                        <LinearSequence>ASNENMETM</LinearSequence>
+                                        <StartingPosition>366</StartingPosition>
+                                        <EndingPosition>374</EndingPosition>
+                                        <SourceMolecule>
+                                            <GenBankId>AAA43467.1</GenBankId>
+                                        </SourceMolecule>
+                                        <SourceOrganismId>11320</SourceOrganismId>
+                                    </FragmentOfANaturalSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Exact match to reference information</AntigenEvidenceCode>
+                        </Antigen>
+                        <AssayInformation>
+                            <AssayTypeId>67</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <AssayComments>An epitope specific CTL from influenza immunized mice lysed target cells presenting the epitope.</AssayComments>
+                        </AssayInformation>
+                    </TCell>
+                </Assays>
+                <Assays>
+                    <MhcBinding>
+                        <LocationOfData>Table 1</LocationOfData>
+                        <MhcBindingId>1266963</MhcBindingId>
+                        <AssayInformation>
+                            <AssayTypeId>203</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <QuantitativeMeasurement>26.0</QuantitativeMeasurement>
+                        </AssayInformation>
+                        <MhcAlleleId>172</MhcAlleleId>
+                    </MhcBinding>
+                </Assays>
+            </Epitope>
+            <Epitope>
+                <EpitopeName>T Ag 206-215</EpitopeName>
+                <EpitopeStructure>
+                    <FragmentOfANaturalSequenceMolecule>
+                        <ChemicalType>Peptide from protein</ChemicalType>
+                        <LinearSequence>SAINNYAQKL</LinearSequence>
+                        <StartingPosition>206</StartingPosition>
+                        <EndingPosition>215</EndingPosition>
+                        <SourceMolecule>
+                            <GenBankId>P03070.2</GenBankId>
+                        </SourceMolecule>
+                        <SourceOrganismId>1891767</SourceOrganismId>
+                    </FragmentOfANaturalSequenceMolecule>
+                </EpitopeStructure>
+                <LocationOfData>Table 1</LocationOfData>
+                <EpitopeId>56829</EpitopeId>
+                <ReferenceStartingPosition>206</ReferenceStartingPosition>
+                <ReferenceEndingPosition>215</ReferenceEndingPosition>
+                <EpitopeEvidenceCode>Not determined</EpitopeEvidenceCode>
+                <EpitopeStructureDefines>Exact Epitope</EpitopeStructureDefines>
+                <Assays>
+                    <TCell>
+                        <LocationOfData>Table 1 and figure 2</LocationOfData>
+                        <TCellId>1266970</TCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>10090</OrganismId>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Administration in vivo</InVivoProcessType>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Source Organism</EpitopeRelation>
+                                    <Object>
+                                        <Organism>
+                                            <SubType>Organism</SubType>
+                                            <SourceOrganismId>1891767</SourceOrganismId>
+                                        </Organism>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenReferenceName>Simian virus 40</ImmunogenReferenceName>
+                                <ImmunogenEvidenceCode>Not determined</ImmunogenEvidenceCode>
+                            </FirstInVivoProcess>
+                            <InVitroAdministration>
+                                <ProcessType>Restimulation in vitro</ProcessType>
+                            </InVitroAdministration>
+                            <ImmunizationComments>A previously described epitope specific CTL line was used.</ImmunizationComments>
+                        </Immunization>
+                        <EffectorCells>
+                            <CellTissueType>Spleen</CellTissueType>
+                            <CellType>T cell</CellType>
+                            <CellCultureConditions>Cell Line / Clone</CellCultureConditions>
+                        </EffectorCells>
+                        <AntigenPresentingCells>
+                            <CellTissueType>Other</CellTissueType>
+                            <CellType>Other</CellType>
+                            <CellCultureConditions>Cell Line / Clone</CellCultureConditions>
+                            <SourceOrganismId>10090</SourceOrganismId>
+                        </AntigenPresentingCells>
+                        <MhcAllele>
+                            <MhcAlleleId>172</MhcAlleleId>
+                            <MhcEvidenceCode>Not determined</MhcEvidenceCode>
+                        </MhcAllele>
+                        <Antigen>
+                            <AntigenReferenceName>T Ag 206-215</AntigenReferenceName>
+                            <AntigenObject>
+                                <EpitopeRelation>Epitope</EpitopeRelation>
+                                <Object>
+                                    <FragmentOfANaturalSequenceMolecule>
+                                        <ChemicalType>Peptide from protein</ChemicalType>
+                                        <LinearSequence>SAINNYAQKL</LinearSequence>
+                                        <StartingPosition>206</StartingPosition>
+                                        <EndingPosition>215</EndingPosition>
+                                        <SourceMolecule>
+                                            <GenBankId>P03070.2</GenBankId>
+                                        </SourceMolecule>
+                                        <SourceOrganismId>1891767</SourceOrganismId>
+                                    </FragmentOfANaturalSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Exact match to reference information</AntigenEvidenceCode>
+                        </Antigen>
+                        <AssayInformation>
+                            <AssayTypeId>67</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <AssayComments>An epitope specific CTL lysed target cells presenting the epitope.</AssayComments>
+                        </AssayInformation>
+                    </TCell>
+                </Assays>
+                <Assays>
+                    <MhcBinding>
+                        <LocationOfData>Table 1</LocationOfData>
+                        <MhcBindingId>1266969</MhcBindingId>
+                        <AssayInformation>
+                            <AssayTypeId>203</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <QuantitativeMeasurement>17.0</QuantitativeMeasurement>
+                        </AssayInformation>
+                        <MhcAlleleId>172</MhcAlleleId>
+                    </MhcBinding>
+                </Assays>
+            </Epitope>
+            <Epitope>
+                <EpitopeName>T Ag 489-497</EpitopeName>
+                <EpitopeStructure>
+                    <FragmentOfANaturalSequenceMolecule>
+                        <ChemicalType>Peptide from protein</ChemicalType>
+                        <LinearSequence>QGINNLDNL</LinearSequence>
+                        <StartingPosition>489</StartingPosition>
+                        <EndingPosition>497</EndingPosition>
+                        <SourceMolecule>
+                            <GenBankId>P03070.2</GenBankId>
+                        </SourceMolecule>
+                        <SourceOrganismId>1891767</SourceOrganismId>
+                    </FragmentOfANaturalSequenceMolecule>
+                </EpitopeStructure>
+                <LocationOfData>Table 1</LocationOfData>
+                <EpitopeId>50885</EpitopeId>
+                <ReferenceStartingPosition>489</ReferenceStartingPosition>
+                <ReferenceEndingPosition>497</ReferenceEndingPosition>
+                <EpitopeEvidenceCode>Not determined</EpitopeEvidenceCode>
+                <EpitopeStructureDefines>Exact Epitope</EpitopeStructureDefines>
+                <Assays>
+                    <TCell>
+                        <LocationOfData>Table 1 and figure 2</LocationOfData>
+                        <TCellId>1266972</TCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>10090</OrganismId>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Administration in vivo</InVivoProcessType>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Source Organism</EpitopeRelation>
+                                    <Object>
+                                        <Organism>
+                                            <SubType>Organism</SubType>
+                                            <SourceOrganismId>1891767</SourceOrganismId>
+                                        </Organism>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenReferenceName>Simian virus 40</ImmunogenReferenceName>
+                                <ImmunogenEvidenceCode>Not determined</ImmunogenEvidenceCode>
+                            </FirstInVivoProcess>
+                            <InVitroAdministration>
+                                <ProcessType>Restimulation in vitro</ProcessType>
+                            </InVitroAdministration>
+                            <ImmunizationComments>A previously described epitope specific CTL line was used.</ImmunizationComments>
+                        </Immunization>
+                        <EffectorCells>
+                            <CellTissueType>Spleen</CellTissueType>
+                            <CellType>T cell</CellType>
+                            <CellCultureConditions>Cell Line / Clone</CellCultureConditions>
+                        </EffectorCells>
+                        <AntigenPresentingCells>
+                            <CellTissueType>Other</CellTissueType>
+                            <CellType>Other</CellType>
+                            <CellCultureConditions>Cell Line / Clone</CellCultureConditions>
+                            <SourceOrganismId>10090</SourceOrganismId>
+                        </AntigenPresentingCells>
+                        <MhcAllele>
+                            <MhcAlleleId>172</MhcAlleleId>
+                            <MhcEvidenceCode>Not determined</MhcEvidenceCode>
+                        </MhcAllele>
+                        <Antigen>
+                            <AntigenReferenceName>T Ag 489-497</AntigenReferenceName>
+                            <AntigenObject>
+                                <EpitopeRelation>Epitope</EpitopeRelation>
+                                <Object>
+                                    <FragmentOfANaturalSequenceMolecule>
+                                        <ChemicalType>Peptide from protein</ChemicalType>
+                                        <LinearSequence>QGINNLDNL</LinearSequence>
+                                        <StartingPosition>489</StartingPosition>
+                                        <EndingPosition>497</EndingPosition>
+                                        <SourceMolecule>
+                                            <GenBankId>P03070.2</GenBankId>
+                                        </SourceMolecule>
+                                        <SourceOrganismId>1891767</SourceOrganismId>
+                                    </FragmentOfANaturalSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Exact match to reference information</AntigenEvidenceCode>
+                        </Antigen>
+                        <AssayInformation>
+                            <AssayTypeId>67</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <AssayComments>An epitope specific CTL lysed target cells presenting the epitope.</AssayComments>
+                        </AssayInformation>
+                    </TCell>
+                </Assays>
+                <Assays>
+                    <MhcBinding>
+                        <LocationOfData>Table 1</LocationOfData>
+                        <MhcBindingId>1266971</MhcBindingId>
+                        <AssayInformation>
+                            <AssayTypeId>203</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <QuantitativeMeasurement>15.0</QuantitativeMeasurement>
+                        </AssayInformation>
+                        <MhcAlleleId>172</MhcAlleleId>
+                    </MhcBinding>
+                </Assays>
+            </Epitope>
+            <Epitope>
+                <EpitopeName>blocking peptide</EpitopeName>
+                <EpitopeStructure>
+                    <SequenceMoleculeNoNaturalSource>
+                        <ChemicalType>Peptide, no natural source</ChemicalType>
+                        <LinearSequence>SMIENLEYM</LinearSequence>
+                    </SequenceMoleculeNoNaturalSource>
+                </EpitopeStructure>
+                <LocationOfData>Table 1</LocationOfData>
+                <EpitopeId>59676</EpitopeId>
+                <EpitopeStructureDefines>Exact Epitope</EpitopeStructureDefines>
+                <EpitopeComments>This artificial peptide was designed to bind H-2-Db with high affinity.</EpitopeComments>
+                <Assays>
+                    <TCell>
+                        <LocationOfData>Table 2</LocationOfData>
+                        <TCellId>1266996</TCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>10000067</OrganismId>
+                                <Age>6-10 weeks</Age>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Administration in vivo</InVivoProcessType>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Other</EpitopeRelation>
+                                    <Object>
+                                        <Organism>
+                                            <SubType>Organism</SubType>
+                                            <SourceOrganismId>11624</SourceOrganismId>
+                                        </Organism>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenReferenceName>LCMV</ImmunogenReferenceName>
+                                <ImmunogenEvidenceCode>Not determined</ImmunogenEvidenceCode>
+                                <Route>Intraperitoneal (i.p.)</Route>
+                                <DoseSchedule>One</DoseSchedule>
+                            </FirstInVivoProcess>
+                            <ImmunizationComments>Primary LCMV specific CTL cells were harvested from the spleens of mice immunized with LCMV 7 days earlier.</ImmunizationComments>
+                        </Immunization>
+                        <EffectorCells>
+                            <CellTissueType>Spleen</CellTissueType>
+                            <CellType>T cell</CellType>
+                            <CellCultureConditions>Direct Ex Vivo</CellCultureConditions>
+                        </EffectorCells>
+                        <AntigenPresentingCells>
+                            <CellTissueType>Other</CellTissueType>
+                            <CellType>Other</CellType>
+                            <CellCultureConditions>Cell Line / Clone</CellCultureConditions>
+                            <SourceOrganismId>10090</SourceOrganismId>
+                        </AntigenPresentingCells>
+                        <MhcAllele>
+                            <MhcAlleleId>172</MhcAlleleId>
+                            <MhcEvidenceCode>Not determined</MhcEvidenceCode>
+                        </MhcAllele>
+                        <Antigen>
+                            <AntigenReferenceName>blocking peptide</AntigenReferenceName>
+                            <AntigenObject>
+                                <EpitopeRelation>Epitope</EpitopeRelation>
+                                <Object>
+                                    <SequenceMoleculeNoNaturalSource>
+                                        <ChemicalType>Peptide, no natural source</ChemicalType>
+                                        <LinearSequence>SMIENLEYM</LinearSequence>
+                                    </SequenceMoleculeNoNaturalSource>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Exact match to reference information</AntigenEvidenceCode>
+                        </Antigen>
+                        <AssayInformation>
+                            <AssayTypeId>67</AssayTypeId>
+                            <QualitativeMeasurement>Negative</QualitativeMeasurement>
+                            <AssayComments>Primary CTL from LCMV immunized mice did not lyse target cells presenting the epitope alone or as expressed by a recombinant vaccinia vector. H-2-Db restricted CTL clones specific for LCMV GP1, GP2, and NP, influenza A NP, and SV40 large T antigen epitopes also did not lyse targets presenting the corresponding epitopes.</AssayComments>
+                        </AssayInformation>
+                    </TCell>
+                </Assays>
+                <Assays>
+                    <TCell>
+                        <LocationOfData>Figures 3 and 4</LocationOfData>
+                        <TCellId>1266997</TCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>10000067</OrganismId>
+                                <Age>6-10 weeks</Age>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Administration in vivo to prevent or reduce disease</InVivoProcessType>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Epitope</EpitopeRelation>
+                                    <Object>
+                                        <SequenceMoleculeNoNaturalSource>
+                                            <ChemicalType>Peptide, no natural source</ChemicalType>
+                                            <LinearSequence>SMIENLEYM</LinearSequence>
+                                        </SequenceMoleculeNoNaturalSource>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenReferenceName>blocking peptide</ImmunogenReferenceName>
+                                <ImmunogenEvidenceCode>Exact match to reference information</ImmunogenEvidenceCode>
+                                <Route>Intracerebral</Route>
+                                <DoseSchedule>One</DoseSchedule>
+                            </FirstInVivoProcess>
+                        </Immunization>
+                        <MhcAllele>
+                            <MhcAlleleId>172</MhcAlleleId>
+                            <MhcEvidenceCode>Not determined</MhcEvidenceCode>
+                        </MhcAllele>
+                        <Antigen>
+                            <AntigenReferenceName>LCMV</AntigenReferenceName>
+                            <AntigenObject>
+                                <EpitopeRelation>Structurally Related</EpitopeRelation>
+                                <Object>
+                                    <Organism>
+                                        <SubType>Organism</SubType>
+                                        <SourceOrganismId>11623</SourceOrganismId>
+                                    </Organism>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Not determined</AntigenEvidenceCode>
+                        </Antigen>
+                        <AssayInformation>
+                            <AssayTypeId>182</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <NumberOfSubjectsTested>24</NumberOfSubjectsTested>
+                            <NumberOfSubjectsResponded>6</NumberOfSubjectsResponded>
+                            <ResponseFrequency>25</ResponseFrequency>
+                            <AssayComments>The epitope protected mice in two models of LCMV induced disease.  The epitope protected mice from a lethal LCMV CTL mediated intracranial mode of disease. Additionally, the epitope protected transgenic (RIP-LCMV GP) mice, susceptible to LCMV mediated insulin-dependent diabetes mellitus, from developing disease in 95% of mice studied.</AssayComments>
+                        </AssayInformation>
+                    </TCell>
+                </Assays>
+                <Assays>
+                    <MhcBinding>
+                        <LocationOfData>Table 1</LocationOfData>
+                        <MhcBindingId>1266976</MhcBindingId>
+                        <AssayInformation>
+                            <AssayTypeId>203</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <QuantitativeMeasurement>14.0</QuantitativeMeasurement>
+                        </AssayInformation>
+                        <MhcAlleleId>172</MhcAlleleId>
+                    </MhcBinding>
+                </Assays>
+                <Assays>
+                    <MhcBinding>
+                        <LocationOfData>Table 2</LocationOfData>
+                        <MhcBindingId>1266995</MhcBindingId>
+                        <AssayInformation>
+                            <AssayTypeId>226</AssayTypeId>
+                            <QualitativeMeasurement>Negative</QualitativeMeasurement>
+                            <AssayComments>The epitope alone or expressed in a recombinant vaccinia vector did not block antigen presentation to primary CTL cells from LCMV immunized mice by H-2-d APC infected with LCMV.</AssayComments>
+                        </AssayInformation>
+                        <MhcAlleleId>169</MhcAlleleId>
+                    </MhcBinding>
+                </Assays>
+                <Assays>
+                    <MhcBinding>
+                        <LocationOfData>Tables 1 and 2, figures 1 and 2</LocationOfData>
+                        <MhcBindingId>1266994</MhcBindingId>
+                        <AssayInformation>
+                            <AssayTypeId>226</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <AssayComments>The epitope alone or expressed in a recombinant vaccinia vector blocked antigen presentation to several T cell clones and primary CTL cells by H-2-Db APC. The T cell clones were specific for LCMV GP1, GP2, and NP, influenza A NP, and SV40 large T antigen epitopes. The presentation of the specific epitopes as well as the recognition of naturally processed LCMV Arm were blocked.</AssayComments>
+                        </AssayInformation>
+                        <MhcAlleleId>172</MhcAlleleId>
+                    </MhcBinding>
+                </Assays>
+            </Epitope>
+            <Epitope>
+                <EpitopeName>GP 16-24</EpitopeName>
+                <EpitopeStructure>
+                    <FragmentOfANaturalSequenceMolecule>
+                        <ChemicalType>Peptide from protein</ChemicalType>
+                        <LinearSequence>DEVINIVII</LinearSequence>
+                        <StartingPosition>16</StartingPosition>
+                        <EndingPosition>24</EndingPosition>
+                        <SourceMolecule>
+                            <GenBankId>AAA82178.1</GenBankId>
+                        </SourceMolecule>
+                        <SourceOrganismId>11623</SourceOrganismId>
+                    </FragmentOfANaturalSequenceMolecule>
+                </EpitopeStructure>
+                <LocationOfData>Table 1</LocationOfData>
+                <EpitopeId>8199</EpitopeId>
+                <ReferenceStartingPosition>16</ReferenceStartingPosition>
+                <ReferenceEndingPosition>24</ReferenceEndingPosition>
+                <EpitopeEvidenceCode>Not determined</EpitopeEvidenceCode>
+                <EpitopeStructureDefines>Exact Epitope</EpitopeStructureDefines>
+                <Assays>
+                    <TCell>
+                        <LocationOfData>Table 1</LocationOfData>
+                        <TCellId>1266981</TCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>10090</OrganismId>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Administration in vivo</InVivoProcessType>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Source Organism</EpitopeRelation>
+                                    <Object>
+                                        <Organism>
+                                            <SubType>Organism</SubType>
+                                            <SourceOrganismId>11623</SourceOrganismId>
+                                        </Organism>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenReferenceName>Lymphocytic choriomeningitis virus</ImmunogenReferenceName>
+                                <ImmunogenEvidenceCode>Not determined</ImmunogenEvidenceCode>
+                                <Route>Intraperitoneal (i.p.)</Route>
+                                <DoseSchedule>One</DoseSchedule>
+                            </FirstInVivoProcess>
+                            <ImmunizationComments>Primary LCMV specific CTL cells were harvested from the spleens of mice immunized with LCMV 7 days earlier.</ImmunizationComments>
+                        </Immunization>
+                        <EffectorCells>
+                            <CellTissueType>Spleen</CellTissueType>
+                            <CellType>T cell</CellType>
+                            <CellCultureConditions>Direct Ex Vivo</CellCultureConditions>
+                        </EffectorCells>
+                        <AntigenPresentingCells>
+                            <CellTissueType>Other</CellTissueType>
+                            <CellType>Other</CellType>
+                            <CellCultureConditions>Cell Line / Clone</CellCultureConditions>
+                            <SourceOrganismId>10090</SourceOrganismId>
+                        </AntigenPresentingCells>
+                        <MhcAllele>
+                            <MhcAlleleId>172</MhcAlleleId>
+                            <MhcEvidenceCode>Not determined</MhcEvidenceCode>
+                        </MhcAllele>
+                        <Antigen>
+                            <AntigenReferenceName>GP 16-24</AntigenReferenceName>
+                            <AntigenObject>
+                                <EpitopeRelation>Epitope</EpitopeRelation>
+                                <Object>
+                                    <FragmentOfANaturalSequenceMolecule>
+                                        <ChemicalType>Peptide from protein</ChemicalType>
+                                        <LinearSequence>DEVINIVII</LinearSequence>
+                                        <StartingPosition>16</StartingPosition>
+                                        <EndingPosition>24</EndingPosition>
+                                        <SourceMolecule>
+                                            <GenBankId>AAA82178.1</GenBankId>
+                                        </SourceMolecule>
+                                        <SourceOrganismId>11623</SourceOrganismId>
+                                    </FragmentOfANaturalSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Exact match to reference information</AntigenEvidenceCode>
+                        </Antigen>
+                        <AssayInformation>
+                            <AssayTypeId>67</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <AssayComments>Primary CTL from LCMV immunized mice demonstrated a low level of lysis of target cells presenting the epitope.</AssayComments>
+                        </AssayInformation>
+                    </TCell>
+                </Assays>
+                <Assays>
+                    <MhcBinding>
+                        <LocationOfData>Table 1</LocationOfData>
+                        <MhcBindingId>1266977</MhcBindingId>
+                        <AssayInformation>
+                            <AssayTypeId>203</AssayTypeId>
+                            <QualitativeMeasurement>Negative</QualitativeMeasurement>
+                            <QuantitativeMeasurement>100000.0</QuantitativeMeasurement>
+                            <MeasurementInequality>&gt;</MeasurementInequality>
+                        </AssayInformation>
+                        <MhcAlleleId>172</MhcAlleleId>
+                    </MhcBinding>
+                </Assays>
+            </Epitope>
+            <Epitope>
+                <EpitopeName>GP 321-329</EpitopeName>
+                <EpitopeStructure>
+                    <FragmentOfANaturalSequenceMolecule>
+                        <ChemicalType>Peptide from protein</ChemicalType>
+                        <LinearSequence>LIDYNKAAL</LinearSequence>
+                        <StartingPosition>321</StartingPosition>
+                        <EndingPosition>329</EndingPosition>
+                        <SourceMolecule>
+                            <GenBankId>AAA82178.1</GenBankId>
+                        </SourceMolecule>
+                        <SourceOrganismId>11623</SourceOrganismId>
+                    </FragmentOfANaturalSequenceMolecule>
+                </EpitopeStructure>
+                <LocationOfData>Table 1</LocationOfData>
+                <EpitopeId>36487</EpitopeId>
+                <ReferenceStartingPosition>321</ReferenceStartingPosition>
+                <ReferenceEndingPosition>329</ReferenceEndingPosition>
+                <EpitopeEvidenceCode>Not determined</EpitopeEvidenceCode>
+                <EpitopeStructureDefines>Exact Epitope</EpitopeStructureDefines>
+                <Assays>
+                    <TCell>
+                        <LocationOfData>Table 1</LocationOfData>
+                        <TCellId>1266983</TCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>10090</OrganismId>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Administration in vivo</InVivoProcessType>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Source Organism</EpitopeRelation>
+                                    <Object>
+                                        <Organism>
+                                            <SubType>Organism</SubType>
+                                            <SourceOrganismId>11623</SourceOrganismId>
+                                        </Organism>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenReferenceName>Lymphocytic choriomeningitis virus</ImmunogenReferenceName>
+                                <ImmunogenEvidenceCode>Not determined</ImmunogenEvidenceCode>
+                                <Route>Intraperitoneal (i.p.)</Route>
+                                <DoseSchedule>One</DoseSchedule>
+                            </FirstInVivoProcess>
+                            <ImmunizationComments>Primary LCMV specific CTL cells were harvested from the spleens of mice immunized with LCMV 7 days earlier.</ImmunizationComments>
+                        </Immunization>
+                        <EffectorCells>
+                            <CellTissueType>Spleen</CellTissueType>
+                            <CellType>T cell</CellType>
+                            <CellCultureConditions>Direct Ex Vivo</CellCultureConditions>
+                        </EffectorCells>
+                        <AntigenPresentingCells>
+                            <CellTissueType>Other</CellTissueType>
+                            <CellType>Other</CellType>
+                            <CellCultureConditions>Cell Line / Clone</CellCultureConditions>
+                            <SourceOrganismId>10090</SourceOrganismId>
+                        </AntigenPresentingCells>
+                        <MhcAllele>
+                            <MhcAlleleId>172</MhcAlleleId>
+                            <MhcEvidenceCode>Not determined</MhcEvidenceCode>
+                        </MhcAllele>
+                        <Antigen>
+                            <AntigenReferenceName>GP 321-329</AntigenReferenceName>
+                            <AntigenObject>
+                                <EpitopeRelation>Epitope</EpitopeRelation>
+                                <Object>
+                                    <FragmentOfANaturalSequenceMolecule>
+                                        <ChemicalType>Peptide from protein</ChemicalType>
+                                        <LinearSequence>LIDYNKAAL</LinearSequence>
+                                        <StartingPosition>321</StartingPosition>
+                                        <EndingPosition>329</EndingPosition>
+                                        <SourceMolecule>
+                                            <GenBankId>AAA82178.1</GenBankId>
+                                        </SourceMolecule>
+                                        <SourceOrganismId>11623</SourceOrganismId>
+                                    </FragmentOfANaturalSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Exact match to reference information</AntigenEvidenceCode>
+                        </Antigen>
+                        <AssayInformation>
+                            <AssayTypeId>67</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <AssayComments>Primary CTL from LCMV immunized mice demonstrated a low level of lysis of target cells presenting the epitope.</AssayComments>
+                        </AssayInformation>
+                    </TCell>
+                </Assays>
+                <Assays>
+                    <MhcBinding>
+                        <LocationOfData>Table 1</LocationOfData>
+                        <MhcBindingId>1266984</MhcBindingId>
+                        <AssayInformation>
+                            <AssayTypeId>203</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <QuantitativeMeasurement>1933.0</QuantitativeMeasurement>
+                        </AssayInformation>
+                        <MhcAlleleId>172</MhcAlleleId>
+                    </MhcBinding>
+                </Assays>
+            </Epitope>
+            <Epitope>
+                <EpitopeName>NP 45-53</EpitopeName>
+                <EpitopeStructure>
+                    <FragmentOfANaturalSequenceMolecule>
+                        <ChemicalType>Peptide from protein</ChemicalType>
+                        <LinearSequence>SEVSNVQRI</LinearSequence>
+                        <StartingPosition>45</StartingPosition>
+                        <EndingPosition>53</EndingPosition>
+                        <SourceMolecule>
+                            <GenBankId>AAL01686.1</GenBankId>
+                        </SourceMolecule>
+                        <SourceOrganismId>11623</SourceOrganismId>
+                    </FragmentOfANaturalSequenceMolecule>
+                </EpitopeStructure>
+                <LocationOfData>Table 1</LocationOfData>
+                <EpitopeId>57674</EpitopeId>
+                <ReferenceStartingPosition>45</ReferenceStartingPosition>
+                <ReferenceEndingPosition>53</ReferenceEndingPosition>
+                <EpitopeEvidenceCode>Not determined</EpitopeEvidenceCode>
+                <EpitopeStructureDefines>Exact Epitope</EpitopeStructureDefines>
+                <Assays>
+                    <TCell>
+                        <LocationOfData>Table 1</LocationOfData>
+                        <TCellId>1266986</TCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>10090</OrganismId>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Administration in vivo</InVivoProcessType>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Source Organism</EpitopeRelation>
+                                    <Object>
+                                        <Organism>
+                                            <SubType>Organism</SubType>
+                                            <SourceOrganismId>11623</SourceOrganismId>
+                                        </Organism>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenReferenceName>Lymphocytic choriomeningitis virus</ImmunogenReferenceName>
+                                <ImmunogenEvidenceCode>Not determined</ImmunogenEvidenceCode>
+                                <Route>Intraperitoneal (i.p.)</Route>
+                                <DoseSchedule>One</DoseSchedule>
+                            </FirstInVivoProcess>
+                            <ImmunizationComments>Primary LCMV specific CTL cells were harvested from the spleens of mice immunized with LCMV 7 days earlier.</ImmunizationComments>
+                        </Immunization>
+                        <EffectorCells>
+                            <CellTissueType>Spleen</CellTissueType>
+                            <CellType>T cell</CellType>
+                            <CellCultureConditions>Direct Ex Vivo</CellCultureConditions>
+                        </EffectorCells>
+                        <AntigenPresentingCells>
+                            <CellTissueType>Other</CellTissueType>
+                            <CellType>Other</CellType>
+                            <CellCultureConditions>Cell Line / Clone</CellCultureConditions>
+                            <SourceOrganismId>10090</SourceOrganismId>
+                        </AntigenPresentingCells>
+                        <MhcAllele>
+                            <MhcAlleleId>172</MhcAlleleId>
+                            <MhcEvidenceCode>Not determined</MhcEvidenceCode>
+                        </MhcAllele>
+                        <Antigen>
+                            <AntigenReferenceName>NP 45-53</AntigenReferenceName>
+                            <AntigenObject>
+                                <EpitopeRelation>Epitope</EpitopeRelation>
+                                <Object>
+                                    <FragmentOfANaturalSequenceMolecule>
+                                        <ChemicalType>Peptide from protein</ChemicalType>
+                                        <LinearSequence>SEVSNVQRI</LinearSequence>
+                                        <StartingPosition>45</StartingPosition>
+                                        <EndingPosition>53</EndingPosition>
+                                        <SourceMolecule>
+                                            <GenBankId>AAL01686.1</GenBankId>
+                                        </SourceMolecule>
+                                        <SourceOrganismId>11623</SourceOrganismId>
+                                    </FragmentOfANaturalSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Exact match to reference information</AntigenEvidenceCode>
+                        </Antigen>
+                        <AssayInformation>
+                            <AssayTypeId>67</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <AssayComments>Primary CTL from LCMV immunized mice demonstrated a low level of lysis of target cells presenting the epitope.</AssayComments>
+                        </AssayInformation>
+                    </TCell>
+                </Assays>
+                <Assays>
+                    <MhcBinding>
+                        <LocationOfData>Table 1</LocationOfData>
+                        <MhcBindingId>1266987</MhcBindingId>
+                        <AssayInformation>
+                            <AssayTypeId>203</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <QuantitativeMeasurement>1595.0</QuantitativeMeasurement>
+                        </AssayInformation>
+                        <MhcAlleleId>172</MhcAlleleId>
+                    </MhcBinding>
+                </Assays>
+            </Epitope>
+            <Epitope>
+                <EpitopeName>NP 372-381</EpitopeName>
+                <EpitopeStructure>
+                    <FragmentOfANaturalSequenceMolecule>
+                        <ChemicalType>Peptide from protein</ChemicalType>
+                        <LinearSequence>GIDPNAPTWI</LinearSequence>
+                        <StartingPosition>372</StartingPosition>
+                        <EndingPosition>381</EndingPosition>
+                        <SourceMolecule>
+                            <GenBankId>AAL01686.1</GenBankId>
+                        </SourceMolecule>
+                        <SourceOrganismId>11623</SourceOrganismId>
+                    </FragmentOfANaturalSequenceMolecule>
+                </EpitopeStructure>
+                <LocationOfData>Table 1</LocationOfData>
+                <EpitopeId>20230</EpitopeId>
+                <ReferenceStartingPosition>372</ReferenceStartingPosition>
+                <ReferenceEndingPosition>381</ReferenceEndingPosition>
+                <EpitopeEvidenceCode>Not determined</EpitopeEvidenceCode>
+                <EpitopeStructureDefines>Exact Epitope</EpitopeStructureDefines>
+                <Assays>
+                    <TCell>
+                        <LocationOfData>Table 1</LocationOfData>
+                        <TCellId>1266990</TCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>10090</OrganismId>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Administration in vivo</InVivoProcessType>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Source Organism</EpitopeRelation>
+                                    <Object>
+                                        <Organism>
+                                            <SubType>Organism</SubType>
+                                            <SourceOrganismId>11623</SourceOrganismId>
+                                        </Organism>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenReferenceName>Lymphocytic choriomeningitis virus</ImmunogenReferenceName>
+                                <ImmunogenEvidenceCode>Not determined</ImmunogenEvidenceCode>
+                                <Route>Intraperitoneal (i.p.)</Route>
+                                <DoseSchedule>One</DoseSchedule>
+                            </FirstInVivoProcess>
+                            <ImmunizationComments>Primary LCMV specific CTL cells were harvested from the spleens of mice immunized with LCMV 7 days earlier.</ImmunizationComments>
+                        </Immunization>
+                        <EffectorCells>
+                            <CellTissueType>Spleen</CellTissueType>
+                            <CellType>T cell</CellType>
+                            <CellCultureConditions>Direct Ex Vivo</CellCultureConditions>
+                        </EffectorCells>
+                        <AntigenPresentingCells>
+                            <CellTissueType>Other</CellTissueType>
+                            <CellType>Other</CellType>
+                            <CellCultureConditions>Cell Line / Clone</CellCultureConditions>
+                            <SourceOrganismId>10090</SourceOrganismId>
+                        </AntigenPresentingCells>
+                        <MhcAllele>
+                            <MhcAlleleId>172</MhcAlleleId>
+                            <MhcEvidenceCode>Not determined</MhcEvidenceCode>
+                        </MhcAllele>
+                        <Antigen>
+                            <AntigenReferenceName>NP 372-381</AntigenReferenceName>
+                            <AntigenObject>
+                                <EpitopeRelation>Epitope</EpitopeRelation>
+                                <Object>
+                                    <FragmentOfANaturalSequenceMolecule>
+                                        <ChemicalType>Peptide from protein</ChemicalType>
+                                        <LinearSequence>GIDPNAPTWI</LinearSequence>
+                                        <StartingPosition>372</StartingPosition>
+                                        <EndingPosition>381</EndingPosition>
+                                        <SourceMolecule>
+                                            <GenBankId>AAL01686.1</GenBankId>
+                                        </SourceMolecule>
+                                        <SourceOrganismId>11623</SourceOrganismId>
+                                    </FragmentOfANaturalSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Exact match to reference information</AntigenEvidenceCode>
+                        </Antigen>
+                        <AssayInformation>
+                            <AssayTypeId>67</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <AssayComments>Primary CTL from LCMV immunized mice demonstrated a low level of lysis of target cells presenting the epitope.</AssayComments>
+                        </AssayInformation>
+                    </TCell>
+                </Assays>
+                <Assays>
+                    <MhcBinding>
+                        <LocationOfData>Table 1</LocationOfData>
+                        <MhcBindingId>1266989</MhcBindingId>
+                        <AssayInformation>
+                            <AssayTypeId>203</AssayTypeId>
+                            <QualitativeMeasurement>Negative</QualitativeMeasurement>
+                            <QuantitativeMeasurement>100000.0</QuantitativeMeasurement>
+                            <MeasurementInequality>&gt;</MeasurementInequality>
+                        </AssayInformation>
+                        <MhcAlleleId>172</MhcAlleleId>
+                    </MhcBinding>
+                </Assays>
+            </Epitope>
+        </Epitopes>
+    </Reference>
+</References>
+

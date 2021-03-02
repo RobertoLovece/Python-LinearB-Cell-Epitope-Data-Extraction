@@ -1,0 +1,1754 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<References xsi:schemaLocation="http://www.iedb.org/schema/CurationSchema http://beta.iedb.org/schema/Curation.xsd" xmlns="http://www.iedb.org/schema/CurationSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <Reference>
+        <ReferenceId>315051</ReferenceId>
+        <DateLastUpdated>2020-09-10-07:00</DateLastUpdated>
+        <Article>
+            <PubmedId>7543776</PubmedId>
+            <Abstract>Most peptides that bind to a particular MHC class I molecule share amino acid residues that are thought to physically "anchor" the peptide to polymorphic pockets within the class I binding site. Sequence analysis of endogenous peptides bound to HLA-B44 revealed two potential dominant anchor residues: Glu at P2 and Tyr, or occasionally Phe, at P9. In vitro assembly assays employing synthetic peptides and recombinant HLA-B44 produced by Escherichia coli revealed that an acidic amino acid at P2 was necessary for promoting stable peptide binding to HLA-B44. Surprisingly, although Tyr was almost exclusively found at P9 of the endogenous peptide sequences, a wide variety of amino acid residues such as Leu, Ala, Arg, Lys, His, and Phe could be tolerated at this position. Using this information, we identified antigenic peptides from the influenza virus components nonstructural protein 1 and nucleoprotein that are presented by HLA-B44 to antiinfluenza type A cytotoxic T lymphocytes. In addition, cytotoxic T lymphocytes induced by these antigenic peptides were shown to be capable of recognizing endogenously processed peptides from influenza-infected cells, indicating a potential use for these peptides in vaccine development. Finally, molecular models were created to investigate the possible ways in which the anchor residues might function to stabilize the binding of peptides to HLA-B44, and these models indicate that the acidic residue at P2 most likely interacts primarily with Lys 45 of the HLA-B44 heavy chain and makes additional contacts with Ser 67 and Tyr 9.</Abstract>
+            <ArticleYear>1995</ArticleYear>
+            <ArticlePages>10130-8</ArticlePages>
+            <ArticleTitle>Identification of the peptide binding motif for HLA-B44, one of the most common HLA-B alleles in the Caucasian population.</ArticleTitle>
+            <Authors>
+                <Author>
+                    <LastName>DiBrino</LastName>
+                    <ForeName>M</ForeName>
+                </Author>
+                <Author>
+                    <LastName>Parker</LastName>
+                    <ForeName>K C</ForeName>
+                </Author>
+                <Author>
+                    <LastName>Margulies</LastName>
+                    <ForeName>D H</ForeName>
+                </Author>
+                <Author>
+                    <LastName>Shiloach</LastName>
+                    <ForeName>J</ForeName>
+                </Author>
+                <Author>
+                    <LastName>Turner</LastName>
+                    <ForeName>R V</ForeName>
+                </Author>
+                <Author>
+                    <LastName>Biddison</LastName>
+                    <ForeName>W E</ForeName>
+                </Author>
+                <Author>
+                    <LastName>Coligan</LastName>
+                    <ForeName>J E</ForeName>
+                </Author>
+            </Authors>
+            <Affiliations>Laboratory of Molecular Structure, National Institute of Allergy and Infectious Diseases, National Institutes of Health, Bethesda, Maryland 20892, USA.</Affiliations>
+            <ArticleChemicalList>DNA Primers;Epitopes;HLA-B Antigens;HLA-B44 Antigen;INS1 protein, influenza virus;Peptides;Viral Nonstructural Proteins</ArticleChemicalList>
+            <ArticleMeshHeadingsList>Alleles; Amino Acid Sequence; Base Sequence; Binding Sites; Capsid(metabolism); DNA Primers; Epitopes(metabolism); European Continental Ancestry Group(genetics); HLA-B Antigens(chemistry; genetics; metabolism); HLA-B44 Antigen; Humans; Influenza A virus(metabolism); Models, Molecular; Molecular Sequence Data; Peptides(chemistry; metabolism); T-Lymphocytes(immunology; metabolism); Viral Nonstructural Proteins(metabolism)</ArticleMeshHeadingsList>
+            <Comments>Data originally imported from the Database of Functional Molecular Immunology, FIMM (http://sdmc.lit.org.sg:8080/fimm/) and from the HLA Ligand Database (http://hlaligand.ouhsc.edu/)</Comments>
+            <Journal>
+                <Volume>34</Volume>
+                <Issue>32</Issue>
+                <Title>Biochemistry</Title>
+                <Issn>0006-2960</Issn>
+                <MedlineTa>Biochemistry</MedlineTa>
+            </Journal>
+        </Article>
+        <Epitopes>
+            <Epitope>
+                <EpitopeName>NS1 158-166</EpitopeName>
+                <EpitopeStructure>
+                    <FragmentOfANaturalSequenceMolecule>
+                        <ChemicalType>Peptide from protein</ChemicalType>
+                        <LinearSequence>GEISPLPSL</LinearSequence>
+                        <StartingPosition>158</StartingPosition>
+                        <EndingPosition>166</EndingPosition>
+                        <SourceMolecule>
+                            <GenBankId>P03499.1</GenBankId>
+                        </SourceMolecule>
+                        <SourceOrganismId>11320</SourceOrganismId>
+                    </FragmentOfANaturalSequenceMolecule>
+                </EpitopeStructure>
+                <LocationOfData>Table 4</LocationOfData>
+                <EpitopeId>19312</EpitopeId>
+                <ReferenceStartingPosition>158</ReferenceStartingPosition>
+                <ReferenceEndingPosition>166</ReferenceEndingPosition>
+                <EpitopeEvidenceCode>Representative selection</EpitopeEvidenceCode>
+                <EpitopeStructureDefines>Exact Epitope</EpitopeStructureDefines>
+                <EpitopeComments>This epitope was originallly imported from FIMM database (ID: P000505). A representative Swiss-prot ID is provided.</EpitopeComments>
+                <Assays>
+                    <TCell>
+                        <LocationOfData>Figure 3A</LocationOfData>
+                        <TCellId>1007074</TCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>9606</OrganismId>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Environmental exposure to endemic/ubiquitous agent without evidence for disease</InVivoProcessType>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Source Organism</EpitopeRelation>
+                                    <Object>
+                                        <Organism>
+                                            <SubType>Organism</SubType>
+                                            <SourceOrganismId>11320</SourceOrganismId>
+                                        </Organism>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenReferenceName>Influenza A virus</ImmunogenReferenceName>
+                                <ImmunogenEvidenceCode>Representative selection</ImmunogenEvidenceCode>
+                            </FirstInVivoProcess>
+                            <InVitroAdministration>
+                                <ProcessType>Restimulation in vitro</ProcessType>
+                                <ResponderCellType>PBMC</ResponderCellType>
+                                <StimulatorCellType>PBMC</StimulatorCellType>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Epitope</EpitopeRelation>
+                                    <Object>
+                                        <FragmentOfANaturalSequenceMolecule>
+                                            <ChemicalType>Peptide from protein</ChemicalType>
+                                            <LinearSequence>GEISPLPSL</LinearSequence>
+                                            <StartingPosition>158</StartingPosition>
+                                            <EndingPosition>166</EndingPosition>
+                                            <SourceMolecule>
+                                                <GenBankId>P03499.1</GenBankId>
+                                            </SourceMolecule>
+                                            <SourceOrganismId>11320</SourceOrganismId>
+                                        </FragmentOfANaturalSequenceMolecule>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenEvidenceCode>Exact match to reference information</ImmunogenEvidenceCode>
+                            </InVitroAdministration>
+                            <ImmunizationComments>Natural exposure to Influenza A is assumed.  PBMCs were restimulated in vitro with peptide.</ImmunizationComments>
+                        </Immunization>
+                        <EffectorCells>
+                            <CellTissueType>Blood</CellTissueType>
+                            <CellType>PBMC</CellType>
+                            <CellCultureConditions>Short Term Restimulated</CellCultureConditions>
+                        </EffectorCells>
+                        <AntigenPresentingCells>
+                            <CellTissueType>Lymphoid</CellTissueType>
+                            <CellType>Plasma cell</CellType>
+                            <CellCultureConditions>Cell Line / Clone</CellCultureConditions>
+                            <SourceOrganismId>9606</SourceOrganismId>
+                        </AntigenPresentingCells>
+                        <MhcAllele>
+                            <MhcAlleleId>286</MhcAlleleId>
+                            <MhcEvidenceCode>MHC binding assay</MhcEvidenceCode>
+                        </MhcAllele>
+                        <Antigen>
+                            <AntigenReferenceName>Nonstructural protein 1</AntigenReferenceName>
+                            <AntigenObject>
+                                <EpitopeRelation>Source Antigen</EpitopeRelation>
+                                <Object>
+                                    <AccessionSequenceMolecule>
+                                        <ChemicalType>Protein</ChemicalType>
+                                        <Molecule>
+                                            <GenBankId>P03499.1</GenBankId>
+                                        </Molecule>
+                                        <SourceOrganismId>11320</SourceOrganismId>
+                                    </AccessionSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Representative selection</AntigenEvidenceCode>
+                            <AntigenContainingObject>
+                                <RecombinantOrganism>
+                                    <SubType>Recombinant Organism</SubType>
+                                    <RecombinantOrganismId>10245</RecombinantOrganismId>
+                                </RecombinantOrganism>
+                            </AntigenContainingObject>
+                        </Antigen>
+                        <AssayInformation>
+                            <AssayTypeId>67</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <AssayComments>Epitope-specific CTLs efectively recognize NS1-vaccinia infected HLA-B44-expressing Hmy2.C1R cells, implying naturally processing of this peptide.</AssayComments>
+                        </AssayInformation>
+                    </TCell>
+                </Assays>
+                <Assays>
+                    <TCell>
+                        <LocationOfData>Table 4, Figure 2</LocationOfData>
+                        <TCellId>1007073</TCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>9606</OrganismId>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Environmental exposure to endemic/ubiquitous agent without evidence for disease</InVivoProcessType>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Source Organism</EpitopeRelation>
+                                    <Object>
+                                        <Organism>
+                                            <SubType>Organism</SubType>
+                                            <SourceOrganismId>11320</SourceOrganismId>
+                                        </Organism>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenReferenceName>Influenza A virus</ImmunogenReferenceName>
+                                <ImmunogenEvidenceCode>Representative selection</ImmunogenEvidenceCode>
+                            </FirstInVivoProcess>
+                            <InVitroAdministration>
+                                <ProcessType>Restimulation in vitro</ProcessType>
+                                <ResponderCellType>PBMC</ResponderCellType>
+                                <StimulatorCellType>PBMC</StimulatorCellType>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Taxonomic Child</EpitopeRelation>
+                                    <Object>
+                                        <Organism>
+                                            <SubType>Organism</SubType>
+                                            <SourceOrganismId>392811</SourceOrganismId>
+                                        </Organism>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenEvidenceCode>Exact match to reference information</ImmunogenEvidenceCode>
+                            </InVitroAdministration>
+                            <ImmunizationComments>Natural exposure to Influenza A is assumed.  PBMCs were restimulated in vitro 3 times with  Influenza A/Udorn virus. It is to note that this strain harbors a substitution in the epitope sequence (L166F). Also, in vitro stimulation with peptide was performed to obtain epitope-specific CTLs.</ImmunizationComments>
+                        </Immunization>
+                        <EffectorCells>
+                            <CellTissueType>Blood</CellTissueType>
+                            <CellType>PBMC</CellType>
+                            <CellCultureConditions>Short Term Restimulated</CellCultureConditions>
+                        </EffectorCells>
+                        <AntigenPresentingCells>
+                            <CellTissueType>Lymphoid</CellTissueType>
+                            <CellType>Plasma cell</CellType>
+                            <CellCultureConditions>Cell Line / Clone</CellCultureConditions>
+                            <SourceOrganismId>9606</SourceOrganismId>
+                        </AntigenPresentingCells>
+                        <MhcAllele>
+                            <MhcAlleleId>286</MhcAlleleId>
+                            <MhcEvidenceCode>MHC binding assay</MhcEvidenceCode>
+                        </MhcAllele>
+                        <Antigen>
+                            <AntigenReferenceName>NS1 158-166</AntigenReferenceName>
+                            <AntigenObject>
+                                <EpitopeRelation>Epitope</EpitopeRelation>
+                                <Object>
+                                    <FragmentOfANaturalSequenceMolecule>
+                                        <ChemicalType>Peptide from protein</ChemicalType>
+                                        <LinearSequence>GEISPLPSL</LinearSequence>
+                                        <StartingPosition>158</StartingPosition>
+                                        <EndingPosition>166</EndingPosition>
+                                        <SourceMolecule>
+                                            <GenBankId>P03499.1</GenBankId>
+                                        </SourceMolecule>
+                                        <SourceOrganismId>11320</SourceOrganismId>
+                                    </FragmentOfANaturalSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Exact match to reference information</AntigenEvidenceCode>
+                        </Antigen>
+                        <AssayInformation>
+                            <AssayTypeId>67</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <AssayComments>Anti-Influenza A/Udorn CTLs efectively recognize peptide-pulsed HLA-B44-expressing Hmy2.C1R cells, with a half maximal sensitization dose of 10-100 nM. Also, epitope-specific CTLs were generated, which recognize peptide-pulsed target cells.</AssayComments>
+                        </AssayInformation>
+                    </TCell>
+                </Assays>
+                <Assays>
+                    <MhcBinding>
+                        <LocationOfData>Table 4</LocationOfData>
+                        <MhcBindingId>1007071</MhcBindingId>
+                        <AssayInformation>
+                            <AssayTypeId>296</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <QuantitativeMeasurement>69.0</QuantitativeMeasurement>
+                            <AssayComments>The ability of peptide to promote HLA-B8 complex formation was measured by &lt;sup&gt;125&lt;/sup&gt;I labeled β2m % incorporation, in gel filtration. Values greater than 5% indicates specific binding. Dissociation rate mas measured to be 3 hr., being this value accurate to within a factor of two.</AssayComments>
+                        </AssayInformation>
+                        <MhcAlleleId>286</MhcAlleleId>
+                    </MhcBinding>
+                </Assays>
+            </Epitope>
+            <Epitope>
+                <EpitopeName>NP 338-346</EpitopeName>
+                <EpitopeStructure>
+                    <FragmentOfANaturalSequenceMolecule>
+                        <ChemicalType>Peptide from protein</ChemicalType>
+                        <LinearSequence>FEDLRVLSF</LinearSequence>
+                        <StartingPosition>338</StartingPosition>
+                        <EndingPosition>346</EndingPosition>
+                        <SourceMolecule>
+                            <GenBankId>P22435.2</GenBankId>
+                        </SourceMolecule>
+                        <SourceOrganismId>11320</SourceOrganismId>
+                    </FragmentOfANaturalSequenceMolecule>
+                </EpitopeStructure>
+                <LocationOfData>Table 4</LocationOfData>
+                <EpitopeId>15501</EpitopeId>
+                <ReferenceStartingPosition>338</ReferenceStartingPosition>
+                <ReferenceEndingPosition>346</ReferenceEndingPosition>
+                <EpitopeEvidenceCode>Representative selection</EpitopeEvidenceCode>
+                <EpitopeStructureDefines>Exact Epitope</EpitopeStructureDefines>
+                <EpitopeComments>This epitope was originallly imported from FIMM database (ID: P000506) A representative Swiss-prot ID is provided.</EpitopeComments>
+                <Assays>
+                    <TCell>
+                        <LocationOfData>Table 4, Figure 2</LocationOfData>
+                        <TCellId>1007076</TCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>9606</OrganismId>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Environmental exposure to endemic/ubiquitous agent without evidence for disease</InVivoProcessType>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Source Organism</EpitopeRelation>
+                                    <Object>
+                                        <Organism>
+                                            <SubType>Organism</SubType>
+                                            <SourceOrganismId>11320</SourceOrganismId>
+                                        </Organism>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenReferenceName>Influenza A virus</ImmunogenReferenceName>
+                                <ImmunogenEvidenceCode>Representative selection</ImmunogenEvidenceCode>
+                            </FirstInVivoProcess>
+                            <InVitroAdministration>
+                                <ProcessType>Restimulation in vitro</ProcessType>
+                                <ResponderCellType>PBMC</ResponderCellType>
+                                <StimulatorCellType>PBMC</StimulatorCellType>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Taxonomic Child</EpitopeRelation>
+                                    <Object>
+                                        <Organism>
+                                            <SubType>Organism</SubType>
+                                            <SourceOrganismId>392811</SourceOrganismId>
+                                        </Organism>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenEvidenceCode>Exact match to reference information</ImmunogenEvidenceCode>
+                            </InVitroAdministration>
+                            <ImmunizationComments>Natural exposure to Influenza A is assumed.  PBMCs were restimulated in vitro 3 times with  Influenza A/Udorn virus. It is to note that this strain harbors a substitution in the epitope sequence (V343L). Also, in vitro stimulation with peptide was performed to obtain epitope-specific CTLs.</ImmunizationComments>
+                        </Immunization>
+                        <EffectorCells>
+                            <CellTissueType>Blood</CellTissueType>
+                            <CellType>PBMC</CellType>
+                            <CellCultureConditions>Short Term Restimulated</CellCultureConditions>
+                        </EffectorCells>
+                        <AntigenPresentingCells>
+                            <CellTissueType>Lymphoid</CellTissueType>
+                            <CellType>Plasma cell</CellType>
+                            <CellCultureConditions>Cell Line / Clone</CellCultureConditions>
+                            <SourceOrganismId>9606</SourceOrganismId>
+                        </AntigenPresentingCells>
+                        <MhcAllele>
+                            <MhcAlleleId>286</MhcAlleleId>
+                            <MhcEvidenceCode>MHC binding assay</MhcEvidenceCode>
+                        </MhcAllele>
+                        <Antigen>
+                            <AntigenReferenceName>NP 338-346</AntigenReferenceName>
+                            <AntigenObject>
+                                <EpitopeRelation>Epitope</EpitopeRelation>
+                                <Object>
+                                    <FragmentOfANaturalSequenceMolecule>
+                                        <ChemicalType>Peptide from protein</ChemicalType>
+                                        <LinearSequence>FEDLRVLSF</LinearSequence>
+                                        <StartingPosition>338</StartingPosition>
+                                        <EndingPosition>346</EndingPosition>
+                                        <SourceMolecule>
+                                            <GenBankId>P22435.2</GenBankId>
+                                        </SourceMolecule>
+                                        <SourceOrganismId>11320</SourceOrganismId>
+                                    </FragmentOfANaturalSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Exact match to reference information</AntigenEvidenceCode>
+                        </Antigen>
+                        <AssayInformation>
+                            <AssayTypeId>67</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <AssayComments>Anti-Influenza A/Udorn CTLs efectively recognize peptide-pulsed HLA-B44-expressing Hmy2.C1R cells, with a half maximal sensitization dose of 10-100 nM. Also, epitope-specific CTLs were generated, which recognize peptide-pulsed target cells.</AssayComments>
+                        </AssayInformation>
+                    </TCell>
+                </Assays>
+                <Assays>
+                    <TCell>
+                        <LocationOfData>Figure 3B</LocationOfData>
+                        <TCellId>1007077</TCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>9606</OrganismId>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Environmental exposure to endemic/ubiquitous agent without evidence for disease</InVivoProcessType>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Source Organism</EpitopeRelation>
+                                    <Object>
+                                        <Organism>
+                                            <SubType>Organism</SubType>
+                                            <SourceOrganismId>11320</SourceOrganismId>
+                                        </Organism>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenReferenceName>Influenza A virus</ImmunogenReferenceName>
+                                <ImmunogenEvidenceCode>Representative selection</ImmunogenEvidenceCode>
+                            </FirstInVivoProcess>
+                            <InVitroAdministration>
+                                <ProcessType>Restimulation in vitro</ProcessType>
+                                <ResponderCellType>PBMC</ResponderCellType>
+                                <StimulatorCellType>PBMC</StimulatorCellType>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Epitope</EpitopeRelation>
+                                    <Object>
+                                        <FragmentOfANaturalSequenceMolecule>
+                                            <ChemicalType>Peptide from protein</ChemicalType>
+                                            <LinearSequence>FEDLRVLSF</LinearSequence>
+                                            <StartingPosition>338</StartingPosition>
+                                            <EndingPosition>346</EndingPosition>
+                                            <SourceMolecule>
+                                                <GenBankId>P22435.2</GenBankId>
+                                            </SourceMolecule>
+                                            <SourceOrganismId>11320</SourceOrganismId>
+                                        </FragmentOfANaturalSequenceMolecule>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenEvidenceCode>Exact match to reference information</ImmunogenEvidenceCode>
+                            </InVitroAdministration>
+                            <ImmunizationComments>Natural exposure to Influenza A is assumed.  PBMCs were restimulated in vitro with peptide.</ImmunizationComments>
+                        </Immunization>
+                        <EffectorCells>
+                            <CellTissueType>Blood</CellTissueType>
+                            <CellType>PBMC</CellType>
+                            <CellCultureConditions>Short Term Restimulated</CellCultureConditions>
+                        </EffectorCells>
+                        <AntigenPresentingCells>
+                            <CellTissueType>Lymphoid</CellTissueType>
+                            <CellType>Plasma cell</CellType>
+                            <CellCultureConditions>Cell Line / Clone</CellCultureConditions>
+                            <SourceOrganismId>9606</SourceOrganismId>
+                        </AntigenPresentingCells>
+                        <MhcAllele>
+                            <MhcAlleleId>286</MhcAlleleId>
+                            <MhcEvidenceCode>MHC binding assay</MhcEvidenceCode>
+                        </MhcAllele>
+                        <Antigen>
+                            <AntigenReferenceName>Nucleoprotein</AntigenReferenceName>
+                            <AntigenObject>
+                                <EpitopeRelation>Source Antigen</EpitopeRelation>
+                                <Object>
+                                    <AccessionSequenceMolecule>
+                                        <ChemicalType>Protein</ChemicalType>
+                                        <Molecule>
+                                            <GenBankId>P22435.2</GenBankId>
+                                        </Molecule>
+                                        <SourceOrganismId>11320</SourceOrganismId>
+                                    </AccessionSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Representative selection</AntigenEvidenceCode>
+                            <AntigenContainingObject>
+                                <RecombinantOrganism>
+                                    <SubType>Recombinant Organism</SubType>
+                                    <RecombinantOrganismId>10245</RecombinantOrganismId>
+                                </RecombinantOrganism>
+                            </AntigenContainingObject>
+                        </Antigen>
+                        <AssayInformation>
+                            <AssayTypeId>67</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <AssayComments>Epitope-specific CTLs efectively recognize NP-vaccinia infected HLA-B44-expressing Hmy2.C1R cells, implying naturally processing of this peptide.</AssayComments>
+                        </AssayInformation>
+                    </TCell>
+                </Assays>
+                <Assays>
+                    <MhcBinding>
+                        <LocationOfData>Table 4</LocationOfData>
+                        <MhcBindingId>1007078</MhcBindingId>
+                        <AssayInformation>
+                            <AssayTypeId>296</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <QuantitativeMeasurement>17.0</QuantitativeMeasurement>
+                            <AssayComments>The ability of peptide to promote HLA-B8 complex formation was measured by &lt;sup&gt;125&lt;/sup&gt;I labeled β2m % incorporation, in gel filtration. Values greater than 5% indicates specific binding. Dissociation rate mas measured to be 3 hr., being this value accurate to within a factor of two.</AssayComments>
+                        </AssayInformation>
+                        <MhcAlleleId>286</MhcAlleleId>
+                    </MhcBinding>
+                </Assays>
+            </Epitope>
+            <Epitope>
+                <EpitopeName>NP 379-387</EpitopeName>
+                <EpitopeStructure>
+                    <FragmentOfANaturalSequenceMolecule>
+                        <ChemicalType>Peptide from protein</ChemicalType>
+                        <LinearSequence>LELRSRYWA</LinearSequence>
+                        <StartingPosition>379</StartingPosition>
+                        <EndingPosition>387</EndingPosition>
+                        <SourceMolecule>
+                            <GenBankId>P18072.1</GenBankId>
+                        </SourceMolecule>
+                        <SourceOrganismId>11320</SourceOrganismId>
+                    </FragmentOfANaturalSequenceMolecule>
+                </EpitopeStructure>
+                <LocationOfData>Table 4</LocationOfData>
+                <EpitopeId>35589</EpitopeId>
+                <ReferenceStartingPosition>379</ReferenceStartingPosition>
+                <ReferenceEndingPosition>387</ReferenceEndingPosition>
+                <EpitopeEvidenceCode>Representative selection</EpitopeEvidenceCode>
+                <EpitopeStructureDefines>Exact Epitope</EpitopeStructureDefines>
+                <EpitopeComments>A representative Swiss-prot ID is provided.</EpitopeComments>
+                <Assays>
+                    <TCell>
+                        <LocationOfData>Table 4, Figure 2</LocationOfData>
+                        <TCellId>1007079</TCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>9606</OrganismId>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Environmental exposure to endemic/ubiquitous agent without evidence for disease</InVivoProcessType>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Source Organism</EpitopeRelation>
+                                    <Object>
+                                        <Organism>
+                                            <SubType>Organism</SubType>
+                                            <SourceOrganismId>11320</SourceOrganismId>
+                                        </Organism>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenReferenceName>Influenza A virus</ImmunogenReferenceName>
+                                <ImmunogenEvidenceCode>Representative selection</ImmunogenEvidenceCode>
+                            </FirstInVivoProcess>
+                            <InVitroAdministration>
+                                <ProcessType>Restimulation in vitro</ProcessType>
+                                <ResponderCellType>PBMC</ResponderCellType>
+                                <StimulatorCellType>PBMC</StimulatorCellType>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Taxonomic Child</EpitopeRelation>
+                                    <Object>
+                                        <Organism>
+                                            <SubType>Organism</SubType>
+                                            <SourceOrganismId>392811</SourceOrganismId>
+                                        </Organism>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenEvidenceCode>Exact match to reference information</ImmunogenEvidenceCode>
+                            </InVitroAdministration>
+                            <ImmunizationComments>Natural exposure to Influenza A is assumed.  PBMCs were restimulated in vitro 3 times with  Influenza A/Udorn virus.</ImmunizationComments>
+                        </Immunization>
+                        <EffectorCells>
+                            <CellTissueType>Blood</CellTissueType>
+                            <CellType>PBMC</CellType>
+                            <CellCultureConditions>Short Term Restimulated</CellCultureConditions>
+                        </EffectorCells>
+                        <AntigenPresentingCells>
+                            <CellTissueType>Lymphoid</CellTissueType>
+                            <CellType>Plasma cell</CellType>
+                            <CellCultureConditions>Cell Line / Clone</CellCultureConditions>
+                            <SourceOrganismId>9606</SourceOrganismId>
+                        </AntigenPresentingCells>
+                        <MhcAllele>
+                            <MhcAlleleId>286</MhcAlleleId>
+                            <MhcEvidenceCode>MHC binding assay</MhcEvidenceCode>
+                        </MhcAllele>
+                        <Antigen>
+                            <AntigenReferenceName>NP 379-387</AntigenReferenceName>
+                            <AntigenObject>
+                                <EpitopeRelation>Epitope</EpitopeRelation>
+                                <Object>
+                                    <FragmentOfANaturalSequenceMolecule>
+                                        <ChemicalType>Peptide from protein</ChemicalType>
+                                        <LinearSequence>LELRSRYWA</LinearSequence>
+                                        <StartingPosition>379</StartingPosition>
+                                        <EndingPosition>387</EndingPosition>
+                                        <SourceMolecule>
+                                            <GenBankId>P18072.1</GenBankId>
+                                        </SourceMolecule>
+                                        <SourceOrganismId>11320</SourceOrganismId>
+                                    </FragmentOfANaturalSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Exact match to reference information</AntigenEvidenceCode>
+                        </Antigen>
+                        <AssayInformation>
+                            <AssayTypeId>67</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <AssayComments>Anti-Influenza A/Udorn CTLs efectively recognize peptide-pulsed HLA-B44-expressing Hmy2.C1R cells, with a half maximal sensitization dose of 100-1000 nM.</AssayComments>
+                        </AssayInformation>
+                    </TCell>
+                </Assays>
+                <Assays>
+                    <MhcBinding>
+                        <LocationOfData>Table 4</LocationOfData>
+                        <MhcBindingId>1007081</MhcBindingId>
+                        <AssayInformation>
+                            <AssayTypeId>296</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <QuantitativeMeasurement>21.0</QuantitativeMeasurement>
+                            <AssayComments>The ability of peptide to promote HLA-B8 complex formation was measured by &lt;sup&gt;125&lt;/sup&gt;I labeled β2m % incorporation, in gel filtration. Values greater than 5% indicates specific binding. Dissociation rate mas measured to be 2hr., being this value accurate to within a factor of two.</AssayComments>
+                        </AssayInformation>
+                        <MhcAlleleId>286</MhcAlleleId>
+                    </MhcBinding>
+                </Assays>
+            </Epitope>
+            <Epitope>
+                <EpitopeName>NP 379-388</EpitopeName>
+                <EpitopeStructure>
+                    <FragmentOfANaturalSequenceMolecule>
+                        <ChemicalType>Peptide from protein</ChemicalType>
+                        <LinearSequence>LELRSRYWAI</LinearSequence>
+                        <StartingPosition>379</StartingPosition>
+                        <EndingPosition>388</EndingPosition>
+                        <SourceMolecule>
+                            <GenBankId>P18072.1</GenBankId>
+                        </SourceMolecule>
+                        <SourceOrganismId>11320</SourceOrganismId>
+                    </FragmentOfANaturalSequenceMolecule>
+                </EpitopeStructure>
+                <LocationOfData>Table 4</LocationOfData>
+                <EpitopeId>35590</EpitopeId>
+                <ReferenceStartingPosition>379</ReferenceStartingPosition>
+                <ReferenceEndingPosition>388</ReferenceEndingPosition>
+                <EpitopeEvidenceCode>Representative selection</EpitopeEvidenceCode>
+                <EpitopeStructureDefines>Exact Epitope</EpitopeStructureDefines>
+                <EpitopeComments>A representative Swiss-prot ID is provided.</EpitopeComments>
+                <Assays>
+                    <TCell>
+                        <LocationOfData>Table 4</LocationOfData>
+                        <TCellId>1007082</TCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>9606</OrganismId>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Environmental exposure to endemic/ubiquitous agent without evidence for disease</InVivoProcessType>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Source Organism</EpitopeRelation>
+                                    <Object>
+                                        <Organism>
+                                            <SubType>Organism</SubType>
+                                            <SourceOrganismId>11320</SourceOrganismId>
+                                        </Organism>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenReferenceName>Influenza A virus</ImmunogenReferenceName>
+                                <ImmunogenEvidenceCode>Representative selection</ImmunogenEvidenceCode>
+                            </FirstInVivoProcess>
+                            <InVitroAdministration>
+                                <ProcessType>Restimulation in vitro</ProcessType>
+                                <ResponderCellType>PBMC</ResponderCellType>
+                                <StimulatorCellType>PBMC</StimulatorCellType>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Taxonomic Child</EpitopeRelation>
+                                    <Object>
+                                        <Organism>
+                                            <SubType>Organism</SubType>
+                                            <SourceOrganismId>392811</SourceOrganismId>
+                                        </Organism>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenEvidenceCode>Exact match to reference information</ImmunogenEvidenceCode>
+                            </InVitroAdministration>
+                            <ImmunizationComments>Natural exposure to Influenza A is assumed.  PBMCs were restimulated in vitro 3 times with  Influenza A/Udorn virus.</ImmunizationComments>
+                        </Immunization>
+                        <EffectorCells>
+                            <CellTissueType>Blood</CellTissueType>
+                            <CellType>PBMC</CellType>
+                            <CellCultureConditions>Short Term Restimulated</CellCultureConditions>
+                        </EffectorCells>
+                        <AntigenPresentingCells>
+                            <CellTissueType>Lymphoid</CellTissueType>
+                            <CellType>Plasma cell</CellType>
+                            <CellCultureConditions>Cell Line / Clone</CellCultureConditions>
+                            <SourceOrganismId>9606</SourceOrganismId>
+                        </AntigenPresentingCells>
+                        <MhcAllele>
+                            <MhcAlleleId>286</MhcAlleleId>
+                            <MhcEvidenceCode>MHC binding assay</MhcEvidenceCode>
+                        </MhcAllele>
+                        <Antigen>
+                            <AntigenReferenceName>NP 379-388</AntigenReferenceName>
+                            <AntigenObject>
+                                <EpitopeRelation>Epitope</EpitopeRelation>
+                                <Object>
+                                    <FragmentOfANaturalSequenceMolecule>
+                                        <ChemicalType>Peptide from protein</ChemicalType>
+                                        <LinearSequence>LELRSRYWAI</LinearSequence>
+                                        <StartingPosition>379</StartingPosition>
+                                        <EndingPosition>388</EndingPosition>
+                                        <SourceMolecule>
+                                            <GenBankId>P18072.1</GenBankId>
+                                        </SourceMolecule>
+                                        <SourceOrganismId>11320</SourceOrganismId>
+                                    </FragmentOfANaturalSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Exact match to reference information</AntigenEvidenceCode>
+                        </Antigen>
+                        <AssayInformation>
+                            <AssayTypeId>67</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <AssayComments>Anti-Influenza A/Udorn CTLs efectively recognize peptide-pulsed HLA-B44-expressing Hmy2.C1R cells, with a half maximal sensitization dose of 1-10 nM.</AssayComments>
+                        </AssayInformation>
+                    </TCell>
+                </Assays>
+                <Assays>
+                    <MhcBinding>
+                        <LocationOfData>Table 4</LocationOfData>
+                        <MhcBindingId>1007083</MhcBindingId>
+                        <AssayInformation>
+                            <AssayTypeId>296</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <QuantitativeMeasurement>14.0</QuantitativeMeasurement>
+                            <AssayComments>The ability of peptide to promote HLA-B8 complex formation was measured by &lt;sup&gt;125&lt;/sup&gt;I labeled β2m % incorporation, in gel filtration. Values greater than 5% indicates specific binding. Dissociation rate mas measured to be 4hr., being this value accurate to within a factor of two.</AssayComments>
+                        </AssayInformation>
+                        <MhcAlleleId>286</MhcAlleleId>
+                    </MhcBinding>
+                </Assays>
+            </Epitope>
+            <Epitope>
+                <EpitopeName>NS1 55-63</EpitopeName>
+                <EpitopeStructure>
+                    <FragmentOfANaturalSequenceMolecule>
+                        <ChemicalType>Peptide from protein</ChemicalType>
+                        <LinearSequence>IETATRVGK</LinearSequence>
+                        <StartingPosition>54</StartingPosition>
+                        <EndingPosition>62</EndingPosition>
+                        <SourceMolecule>
+                            <GenBankId>P03499.1</GenBankId>
+                        </SourceMolecule>
+                        <SourceOrganismId>11320</SourceOrganismId>
+                    </FragmentOfANaturalSequenceMolecule>
+                </EpitopeStructure>
+                <LocationOfData>Table 4</LocationOfData>
+                <EpitopeId>25984</EpitopeId>
+                <ReferenceStartingPosition>55</ReferenceStartingPosition>
+                <ReferenceEndingPosition>63</ReferenceEndingPosition>
+                <EpitopeEvidenceCode>Representative selection</EpitopeEvidenceCode>
+                <EpitopeStructureDefines>Exact Epitope</EpitopeStructureDefines>
+                <EpitopeComments>A representative Swiss-prot ID is provided.</EpitopeComments>
+                <Assays>
+                    <MhcBinding>
+                        <LocationOfData>Table 4</LocationOfData>
+                        <MhcBindingId>1007084</MhcBindingId>
+                        <AssayInformation>
+                            <AssayTypeId>296</AssayTypeId>
+                            <QualitativeMeasurement>Negative</QualitativeMeasurement>
+                            <QuantitativeMeasurement>5.0</QuantitativeMeasurement>
+                            <AssayComments>The ability of peptide to promote HLA-B8 complex formation was measured by &lt;sup&gt;125&lt;/sup&gt;I labeled β2m % incorporation, in gel filtration. Values greater than 5% indicates specific binding.</AssayComments>
+                        </AssayInformation>
+                        <MhcAlleleId>286</MhcAlleleId>
+                    </MhcBinding>
+                </Assays>
+            </Epitope>
+            <Epitope>
+                <EpitopeName>NS1 70-78</EpitopeName>
+                <EpitopeStructure>
+                    <FragmentOfANaturalSequenceMolecule>
+                        <ChemicalType>Peptide from protein</ChemicalType>
+                        <LinearSequence>KEESDEALK</LinearSequence>
+                        <StartingPosition>70</StartingPosition>
+                        <EndingPosition>78</EndingPosition>
+                        <SourceMolecule>
+                            <GenBankId>P03499.1</GenBankId>
+                        </SourceMolecule>
+                        <SourceOrganismId>11320</SourceOrganismId>
+                    </FragmentOfANaturalSequenceMolecule>
+                </EpitopeStructure>
+                <LocationOfData>Table 4</LocationOfData>
+                <EpitopeId>30363</EpitopeId>
+                <ReferenceStartingPosition>70</ReferenceStartingPosition>
+                <ReferenceEndingPosition>78</ReferenceEndingPosition>
+                <EpitopeEvidenceCode>Representative selection</EpitopeEvidenceCode>
+                <EpitopeStructureDefines>Exact Epitope</EpitopeStructureDefines>
+                <EpitopeComments>A representative Swiss-prot ID is provided.</EpitopeComments>
+                <Assays>
+                    <MhcBinding>
+                        <LocationOfData>Table 4</LocationOfData>
+                        <MhcBindingId>1007088</MhcBindingId>
+                        <AssayInformation>
+                            <AssayTypeId>296</AssayTypeId>
+                            <QualitativeMeasurement>Negative</QualitativeMeasurement>
+                            <QuantitativeMeasurement>1.0</QuantitativeMeasurement>
+                            <AssayComments>The ability of peptide to promote HLA-B8 complex formation was measured by &lt;sup&gt;125&lt;/sup&gt;I labeled β2m % incorporation, in gel filtration. Values greater than 5% indicates specific binding.</AssayComments>
+                        </AssayInformation>
+                        <MhcAlleleId>286</MhcAlleleId>
+                    </MhcBinding>
+                </Assays>
+            </Epitope>
+            <Epitope>
+                <EpitopeName>NP 23-31</EpitopeName>
+                <EpitopeStructure>
+                    <FragmentOfANaturalSequenceMolecule>
+                        <ChemicalType>Peptide from protein</ChemicalType>
+                        <LinearSequence>TEIRASVGK</LinearSequence>
+                        <StartingPosition>23</StartingPosition>
+                        <EndingPosition>31</EndingPosition>
+                        <SourceMolecule>
+                            <GenBankId>P18072.1</GenBankId>
+                        </SourceMolecule>
+                        <SourceOrganismId>11320</SourceOrganismId>
+                    </FragmentOfANaturalSequenceMolecule>
+                </EpitopeStructure>
+                <LocationOfData>Table 4</LocationOfData>
+                <EpitopeId>63408</EpitopeId>
+                <ReferenceStartingPosition>23</ReferenceStartingPosition>
+                <ReferenceEndingPosition>31</ReferenceEndingPosition>
+                <EpitopeEvidenceCode>Representative selection</EpitopeEvidenceCode>
+                <EpitopeStructureDefines>Exact Epitope</EpitopeStructureDefines>
+                <EpitopeComments>A representative Swiss-prot ID is provided.</EpitopeComments>
+                <Assays>
+                    <MhcBinding>
+                        <LocationOfData>Table 4</LocationOfData>
+                        <MhcBindingId>1007090</MhcBindingId>
+                        <AssayInformation>
+                            <AssayTypeId>296</AssayTypeId>
+                            <QualitativeMeasurement>Negative</QualitativeMeasurement>
+                            <QuantitativeMeasurement>2.0</QuantitativeMeasurement>
+                            <AssayComments>The ability of peptide to promote HLA-B8 complex formation was measured by &lt;sup&gt;125&lt;/sup&gt;I labeled β2m % incorporation, in gel filtration. Values greater than 5% indicates specific binding.</AssayComments>
+                        </AssayInformation>
+                        <MhcAlleleId>286</MhcAlleleId>
+                    </MhcBinding>
+                </Assays>
+            </Epitope>
+            <Epitope>
+                <EpitopeName>NP 79-87</EpitopeName>
+                <EpitopeStructure>
+                    <FragmentOfANaturalSequenceMolecule>
+                        <ChemicalType>Peptide from protein</ChemicalType>
+                        <LinearSequence>LEEHPSAGK</LinearSequence>
+                        <StartingPosition>79</StartingPosition>
+                        <EndingPosition>87</EndingPosition>
+                        <SourceMolecule>
+                            <GenBankId>P18072.1</GenBankId>
+                        </SourceMolecule>
+                        <SourceOrganismId>11320</SourceOrganismId>
+                    </FragmentOfANaturalSequenceMolecule>
+                </EpitopeStructure>
+                <LocationOfData>Table 4</LocationOfData>
+                <EpitopeId>35435</EpitopeId>
+                <ReferenceStartingPosition>79</ReferenceStartingPosition>
+                <ReferenceEndingPosition>87</ReferenceEndingPosition>
+                <EpitopeEvidenceCode>Representative selection</EpitopeEvidenceCode>
+                <EpitopeStructureDefines>Exact Epitope</EpitopeStructureDefines>
+                <EpitopeComments>A representative Swiss-prot ID is provided.</EpitopeComments>
+                <Assays>
+                    <MhcBinding>
+                        <LocationOfData>Table 4</LocationOfData>
+                        <MhcBindingId>1007091</MhcBindingId>
+                        <AssayInformation>
+                            <AssayTypeId>296</AssayTypeId>
+                            <QualitativeMeasurement>Negative</QualitativeMeasurement>
+                            <QuantitativeMeasurement>1.0</QuantitativeMeasurement>
+                            <AssayComments>The ability of peptide to promote HLA-B8 complex formation was measured by &lt;sup&gt;125&lt;/sup&gt;I labeled β2m % incorporation, in gel filtration. Values greater than 5% indicates specific binding.</AssayComments>
+                        </AssayInformation>
+                        <MhcAlleleId>286</MhcAlleleId>
+                    </MhcBinding>
+                </Assays>
+            </Epitope>
+            <Epitope>
+                <EpitopeName>NP 191-199</EpitopeName>
+                <EpitopeStructure>
+                    <FragmentOfANaturalSequenceMolecule>
+                        <ChemicalType>Peptide from protein</ChemicalType>
+                        <LinearSequence>MELIRMIKR</LinearSequence>
+                        <StartingPosition>191</StartingPosition>
+                        <EndingPosition>199</EndingPosition>
+                        <SourceMolecule>
+                            <GenBankId>P18072.1</GenBankId>
+                        </SourceMolecule>
+                        <SourceOrganismId>11320</SourceOrganismId>
+                    </FragmentOfANaturalSequenceMolecule>
+                </EpitopeStructure>
+                <LocationOfData>Table 4</LocationOfData>
+                <EpitopeId>41392</EpitopeId>
+                <ReferenceStartingPosition>191</ReferenceStartingPosition>
+                <ReferenceEndingPosition>199</ReferenceEndingPosition>
+                <EpitopeEvidenceCode>Representative selection</EpitopeEvidenceCode>
+                <EpitopeStructureDefines>Exact Epitope</EpitopeStructureDefines>
+                <EpitopeComments>A representative Swiss-prot ID is provided.</EpitopeComments>
+                <Assays>
+                    <MhcBinding>
+                        <LocationOfData>Table 4</LocationOfData>
+                        <MhcBindingId>1007092</MhcBindingId>
+                        <AssayInformation>
+                            <AssayTypeId>296</AssayTypeId>
+                            <QualitativeMeasurement>Negative</QualitativeMeasurement>
+                            <AssayComments>The ability of peptide to promote HLA-B8 complex formation was measured by &lt;sup&gt;125&lt;/sup&gt;I labeled β2m % incorporation, in gel filtration. Values greater than 5% indicates specific binding.</AssayComments>
+                        </AssayInformation>
+                        <MhcAlleleId>286</MhcAlleleId>
+                    </MhcBinding>
+                </Assays>
+            </Epitope>
+            <Epitope>
+                <EpitopeName>NP 480-488</EpitopeName>
+                <EpitopeStructure>
+                    <FragmentOfANaturalSequenceMolecule>
+                        <ChemicalType>Peptide from protein</ChemicalType>
+                        <LinearSequence>FDMSNEGSY</LinearSequence>
+                        <StartingPosition>479</StartingPosition>
+                        <EndingPosition>487</EndingPosition>
+                        <SourceMolecule>
+                            <GenBankId>P18072.1</GenBankId>
+                        </SourceMolecule>
+                        <SourceOrganismId>11320</SourceOrganismId>
+                    </FragmentOfANaturalSequenceMolecule>
+                </EpitopeStructure>
+                <LocationOfData>Table 4</LocationOfData>
+                <EpitopeId>15431</EpitopeId>
+                <ReferenceStartingPosition>480</ReferenceStartingPosition>
+                <ReferenceEndingPosition>488</ReferenceEndingPosition>
+                <EpitopeEvidenceCode>Representative selection</EpitopeEvidenceCode>
+                <EpitopeStructureDefines>Exact Epitope</EpitopeStructureDefines>
+                <EpitopeComments>A representative Swiss-prot ID is provided.</EpitopeComments>
+                <Assays>
+                    <MhcBinding>
+                        <LocationOfData>Table 4</LocationOfData>
+                        <MhcBindingId>1007093</MhcBindingId>
+                        <AssayInformation>
+                            <AssayTypeId>296</AssayTypeId>
+                            <QualitativeMeasurement>Negative</QualitativeMeasurement>
+                            <QuantitativeMeasurement>2.0</QuantitativeMeasurement>
+                            <AssayComments>The ability of peptide to promote HLA-B8 complex formation was measured by &lt;sup&gt;125&lt;/sup&gt;I labeled β2m % incorporation, in gel filtration. Values greater than 5% indicates specific binding.</AssayComments>
+                        </AssayInformation>
+                        <MhcAlleleId>286</MhcAlleleId>
+                    </MhcBinding>
+                </Assays>
+            </Epitope>
+            <Epitope>
+                <EpitopeName>NP 293-301</EpitopeName>
+                <EpitopeStructure>
+                    <FragmentOfANaturalSequenceMolecule>
+                        <ChemicalType>Peptide from protein</ChemicalType>
+                        <LinearSequence>RESRNPGNA</LinearSequence>
+                        <StartingPosition>243</StartingPosition>
+                        <EndingPosition>251</EndingPosition>
+                        <SourceMolecule>
+                            <GenBankId>P18072.1</GenBankId>
+                        </SourceMolecule>
+                        <SourceOrganismId>11320</SourceOrganismId>
+                    </FragmentOfANaturalSequenceMolecule>
+                </EpitopeStructure>
+                <LocationOfData>Table 4</LocationOfData>
+                <EpitopeId>53639</EpitopeId>
+                <ReferenceStartingPosition>293</ReferenceStartingPosition>
+                <ReferenceEndingPosition>301</ReferenceEndingPosition>
+                <EpitopeEvidenceCode>Representative selection</EpitopeEvidenceCode>
+                <EpitopeStructureDefines>Exact Epitope</EpitopeStructureDefines>
+                <EpitopeComments>A representative Swiss-prot ID is provided.</EpitopeComments>
+                <Assays>
+                    <MhcBinding>
+                        <LocationOfData>Table 4</LocationOfData>
+                        <MhcBindingId>1007096</MhcBindingId>
+                        <AssayInformation>
+                            <AssayTypeId>296</AssayTypeId>
+                            <QualitativeMeasurement>Negative</QualitativeMeasurement>
+                            <AssayComments>The ability of peptide to promote HLA-B8 complex formation was measured by &lt;sup&gt;125&lt;/sup&gt;I labeled β2m % incorporation, in gel filtration. Values greater than 5% indicates specific binding.</AssayComments>
+                        </AssayInformation>
+                        <MhcAlleleId>286</MhcAlleleId>
+                    </MhcBinding>
+                </Assays>
+            </Epitope>
+            <Epitope>
+                <EpitopeName>NP 17-28</EpitopeName>
+                <EpitopeStructure>
+                    <FragmentOfANaturalSequenceMolecule>
+                        <ChemicalType>Peptide from protein</ChemicalType>
+                        <LinearSequence>GERQNATEI</LinearSequence>
+                        <StartingPosition>17</StartingPosition>
+                        <EndingPosition>25</EndingPosition>
+                        <SourceMolecule>
+                            <GenBankId>P18072.1</GenBankId>
+                        </SourceMolecule>
+                        <SourceOrganismId>11320</SourceOrganismId>
+                    </FragmentOfANaturalSequenceMolecule>
+                </EpitopeStructure>
+                <LocationOfData>Table 4</LocationOfData>
+                <EpitopeId>19421</EpitopeId>
+                <ReferenceStartingPosition>17</ReferenceStartingPosition>
+                <ReferenceEndingPosition>28</ReferenceEndingPosition>
+                <EpitopeEvidenceCode>Representative selection</EpitopeEvidenceCode>
+                <EpitopeStructureDefines>Exact Epitope</EpitopeStructureDefines>
+                <EpitopeComments>A representative Swiss-prot ID is provided. 28" is probably a typo from the authors, it should be "25" since this is what matched to the SwissProt record.".</EpitopeComments>
+                <Assays>
+                    <MhcBinding>
+                        <LocationOfData>Table 4</LocationOfData>
+                        <MhcBindingId>1007100</MhcBindingId>
+                        <AssayInformation>
+                            <AssayTypeId>296</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <QuantitativeMeasurement>12.0</QuantitativeMeasurement>
+                            <AssayComments>The ability of peptide to promote HLA-B8 complex formation was measured by &lt;sup&gt;125&lt;/sup&gt;I labeled β2m % incorporation, in gel filtration. Values greater than 5% indicates specific binding. Dissociation rate mas measured to be 1hr., being this value accurate to within a factor of two.</AssayComments>
+                        </AssayInformation>
+                        <MhcAlleleId>286</MhcAlleleId>
+                    </MhcBinding>
+                </Assays>
+            </Epitope>
+            <Epitope>
+                <EpitopeStructure>
+                    <SequenceMoleculeNoNaturalSource>
+                        <ChemicalType>Peptide, no natural source</ChemicalType>
+                        <LinearSequence>AEAAAAAAY</LinearSequence>
+                    </SequenceMoleculeNoNaturalSource>
+                </EpitopeStructure>
+                <LocationOfData>Table 3</LocationOfData>
+                <EpitopeId>804</EpitopeId>
+                <EpitopeStructureDefines>Exact Epitope</EpitopeStructureDefines>
+                <Assays>
+                    <MhcBinding>
+                        <LocationOfData>Table 3</LocationOfData>
+                        <MhcBindingId>1007534</MhcBindingId>
+                        <AssayInformation>
+                            <AssayTypeId>296</AssayTypeId>
+                            <QualitativeMeasurement>Negative</QualitativeMeasurement>
+                            <QuantitativeMeasurement>1.0</QuantitativeMeasurement>
+                            <AssayComments>The ability of peptide to promote HLA-B8 complex formation was measured by &lt;sup&gt;125&lt;/sup&gt;I labeled β2m % incorporation, in gel filtration. Values greater than 5% indicates specific binding.</AssayComments>
+                        </AssayInformation>
+                        <MhcAlleleId>286</MhcAlleleId>
+                    </MhcBinding>
+                </Assays>
+            </Epitope>
+            <Epitope>
+                <EpitopeStructure>
+                    <SequenceMoleculeNoNaturalSource>
+                        <ChemicalType>Peptide, no natural source</ChemicalType>
+                        <LinearSequence>AEIAAAAAY</LinearSequence>
+                    </SequenceMoleculeNoNaturalSource>
+                </EpitopeStructure>
+                <LocationOfData>Table 3</LocationOfData>
+                <EpitopeId>973</EpitopeId>
+                <EpitopeStructureDefines>Exact Epitope</EpitopeStructureDefines>
+                <Assays>
+                    <MhcBinding>
+                        <LocationOfData>Table 3</LocationOfData>
+                        <MhcBindingId>1007536</MhcBindingId>
+                        <AssayInformation>
+                            <AssayTypeId>296</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <QuantitativeMeasurement>18.0</QuantitativeMeasurement>
+                            <AssayComments>The ability of peptide to promote HLA-B8 complex formation was measured by &lt;sup&gt;125&lt;/sup&gt;I labeled β2m % incorporation, in gel filtration. Values greater than 5% indicates specific binding. Dissociation rate mas measured to be 10hr., being this value accurate to within a factor of two.</AssayComments>
+                        </AssayInformation>
+                        <MhcAlleleId>286</MhcAlleleId>
+                    </MhcBinding>
+                </Assays>
+            </Epitope>
+            <Epitope>
+                <EpitopeStructure>
+                    <SequenceMoleculeNoNaturalSource>
+                        <ChemicalType>Peptide, no natural source</ChemicalType>
+                        <LinearSequence>AEAPAAAAY</LinearSequence>
+                    </SequenceMoleculeNoNaturalSource>
+                </EpitopeStructure>
+                <LocationOfData>Table 3</LocationOfData>
+                <EpitopeId>840</EpitopeId>
+                <EpitopeStructureDefines>Exact Epitope</EpitopeStructureDefines>
+                <Assays>
+                    <MhcBinding>
+                        <LocationOfData>Table 3</LocationOfData>
+                        <MhcBindingId>1007539</MhcBindingId>
+                        <AssayInformation>
+                            <AssayTypeId>296</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <QuantitativeMeasurement>61.0</QuantitativeMeasurement>
+                            <AssayComments>The ability of peptide to promote HLA-B8 complex formation was measured by &lt;sup&gt;125&lt;/sup&gt;I labeled β2m % incorporation, in gel filtration. Values greater than 5% indicates specific binding. Dissociation rate mas measured to be 6hr., being this value accurate to within a factor of two.</AssayComments>
+                        </AssayInformation>
+                        <MhcAlleleId>286</MhcAlleleId>
+                    </MhcBinding>
+                </Assays>
+            </Epitope>
+            <Epitope>
+                <EpitopeStructure>
+                    <SequenceMoleculeNoNaturalSource>
+                        <ChemicalType>Peptide, no natural source</ChemicalType>
+                        <LinearSequence>AAIAAVAKY</LinearSequence>
+                    </SequenceMoleculeNoNaturalSource>
+                </EpitopeStructure>
+                <LocationOfData>Table 3</LocationOfData>
+                <EpitopeId>204</EpitopeId>
+                <EpitopeStructureDefines>Exact Epitope</EpitopeStructureDefines>
+                <Assays>
+                    <MhcBinding>
+                        <LocationOfData>Table 3</LocationOfData>
+                        <MhcBindingId>1007540</MhcBindingId>
+                        <AssayInformation>
+                            <AssayTypeId>296</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <QuantitativeMeasurement>18.0</QuantitativeMeasurement>
+                            <AssayComments>The ability of peptide to promote HLA-B8 complex formation was measured by &lt;sup&gt;125&lt;/sup&gt;I labeled β2m % incorporation, in gel filtration. Values greater than 5% indicates specific binding. Dissociation rate mas measured to be 0.3 hr., being this value accurate to within a factor of two.</AssayComments>
+                        </AssayInformation>
+                        <MhcAlleleId>286</MhcAlleleId>
+                    </MhcBinding>
+                </Assays>
+            </Epitope>
+            <Epitope>
+                <EpitopeStructure>
+                    <SequenceMoleculeNoNaturalSource>
+                        <ChemicalType>Peptide, no natural source</ChemicalType>
+                        <LinearSequence>AEIAAVAKY</LinearSequence>
+                    </SequenceMoleculeNoNaturalSource>
+                </EpitopeStructure>
+                <LocationOfData>Table 3</LocationOfData>
+                <EpitopeId>981</EpitopeId>
+                <EpitopeStructureDefines>Exact Epitope</EpitopeStructureDefines>
+                <Assays>
+                    <MhcBinding>
+                        <LocationOfData>Table 3</LocationOfData>
+                        <MhcBindingId>1007541</MhcBindingId>
+                        <AssayInformation>
+                            <AssayTypeId>296</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <QuantitativeMeasurement>63.0</QuantitativeMeasurement>
+                            <AssayComments>The ability of peptide to promote HLA-B8 complex formation was measured by &lt;sup&gt;125&lt;/sup&gt;I labeled β2m % incorporation, in gel filtration. Values greater than 5% indicates specific binding. Dissociation rate mas measured to be 3 hr., being this value accurate to within a factor of two.</AssayComments>
+                        </AssayInformation>
+                        <MhcAlleleId>286</MhcAlleleId>
+                    </MhcBinding>
+                </Assays>
+            </Epitope>
+            <Epitope>
+                <EpitopeStructure>
+                    <SequenceMoleculeNoNaturalSource>
+                        <ChemicalType>Peptide, no natural source</ChemicalType>
+                        <LinearSequence>AEIAAVAKA</LinearSequence>
+                    </SequenceMoleculeNoNaturalSource>
+                </EpitopeStructure>
+                <LocationOfData>Table 3</LocationOfData>
+                <EpitopeId>975</EpitopeId>
+                <EpitopeStructureDefines>Exact Epitope</EpitopeStructureDefines>
+                <Assays>
+                    <MhcBinding>
+                        <LocationOfData>Table 3</LocationOfData>
+                        <MhcBindingId>1007542</MhcBindingId>
+                        <AssayInformation>
+                            <AssayTypeId>296</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <QuantitativeMeasurement>26.0</QuantitativeMeasurement>
+                            <AssayComments>The ability of peptide to promote HLA-B8 complex formation was measured by &lt;sup&gt;125&lt;/sup&gt;I labeled β2m % incorporation, in gel filtration. Values greater than 5% indicates specific binding. Dissociation rate mas measured to be 3 hr., being this value accurate to within a factor of two.</AssayComments>
+                        </AssayInformation>
+                        <MhcAlleleId>286</MhcAlleleId>
+                    </MhcBinding>
+                </Assays>
+            </Epitope>
+            <Epitope>
+                <EpitopeStructure>
+                    <SequenceMoleculeNoNaturalSource>
+                        <ChemicalType>Peptide, no natural source</ChemicalType>
+                        <LinearSequence>ADIAAVAKY</LinearSequence>
+                    </SequenceMoleculeNoNaturalSource>
+                </EpitopeStructure>
+                <LocationOfData>Table 3</LocationOfData>
+                <EpitopeId>676</EpitopeId>
+                <EpitopeStructureDefines>Exact Epitope</EpitopeStructureDefines>
+                <Assays>
+                    <MhcBinding>
+                        <LocationOfData>Table 3</LocationOfData>
+                        <MhcBindingId>1007543</MhcBindingId>
+                        <AssayInformation>
+                            <AssayTypeId>296</AssayTypeId>
+                            <QualitativeMeasurement>Negative</QualitativeMeasurement>
+                            <QuantitativeMeasurement>26.0</QuantitativeMeasurement>
+                            <AssayComments>The ability of peptide to promote HLA-B8 complex formation was measured by &lt;sup&gt;125&lt;/sup&gt;I labeled β2m % incorporation, in gel filtration. Values greater than 5% indicates specific binding. Dissociation rate mas measured to be 2 hr., being this value accurate to within a factor of two.</AssayComments>
+                        </AssayInformation>
+                        <MhcAlleleId>286</MhcAlleleId>
+                    </MhcBinding>
+                </Assays>
+            </Epitope>
+            <Epitope>
+                <EpitopeStructure>
+                    <SequenceMoleculeNoNaturalSource>
+                        <ChemicalType>Peptide, no natural source</ChemicalType>
+                        <LinearSequence>AEIAAVAKL</LinearSequence>
+                    </SequenceMoleculeNoNaturalSource>
+                </EpitopeStructure>
+                <LocationOfData>Table 3</LocationOfData>
+                <EpitopeId>979</EpitopeId>
+                <EpitopeStructureDefines>Exact Epitope</EpitopeStructureDefines>
+                <Assays>
+                    <MhcBinding>
+                        <LocationOfData>Table 3</LocationOfData>
+                        <MhcBindingId>1007544</MhcBindingId>
+                        <AssayInformation>
+                            <AssayTypeId>296</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <QuantitativeMeasurement>8.0</QuantitativeMeasurement>
+                            <AssayComments>The ability of peptide to promote HLA-B8 complex formation was measured by &lt;sup&gt;125&lt;/sup&gt;I labeled β2m % incorporation, in gel filtration. Values greater than 5% indicates specific binding. Dissociation rate mas measured to be 15hr., being this value accurate to within a factor of two.</AssayComments>
+                        </AssayInformation>
+                        <MhcAlleleId>286</MhcAlleleId>
+                    </MhcBinding>
+                </Assays>
+            </Epitope>
+            <Epitope>
+                <EpitopeStructure>
+                    <SequenceMoleculeNoNaturalSource>
+                        <ChemicalType>Peptide, no natural source</ChemicalType>
+                        <LinearSequence>AEIAAVAKH</LinearSequence>
+                    </SequenceMoleculeNoNaturalSource>
+                </EpitopeStructure>
+                <LocationOfData>Table 3</LocationOfData>
+                <EpitopeId>977</EpitopeId>
+                <EpitopeStructureDefines>Exact Epitope</EpitopeStructureDefines>
+                <Assays>
+                    <MhcBinding>
+                        <LocationOfData>Table 3</LocationOfData>
+                        <MhcBindingId>1007545</MhcBindingId>
+                        <AssayInformation>
+                            <AssayTypeId>296</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <QuantitativeMeasurement>43.0</QuantitativeMeasurement>
+                            <AssayComments>The ability of peptide to promote HLA-B8 complex formation was measured by &lt;sup&gt;125&lt;/sup&gt;I labeled β2m % incorporation, in gel filtration. Values greater than 5% indicates specific binding. Dissociation rate mas measured to be 10hr., being this value accurate to within a factor of two.</AssayComments>
+                        </AssayInformation>
+                        <MhcAlleleId>286</MhcAlleleId>
+                    </MhcBinding>
+                </Assays>
+            </Epitope>
+            <Epitope>
+                <EpitopeStructure>
+                    <SequenceMoleculeNoNaturalSource>
+                        <ChemicalType>Peptide, no natural source</ChemicalType>
+                        <LinearSequence>AEIAAVAKF</LinearSequence>
+                    </SequenceMoleculeNoNaturalSource>
+                </EpitopeStructure>
+                <LocationOfData>Table 3</LocationOfData>
+                <EpitopeId>976</EpitopeId>
+                <EpitopeStructureDefines>Exact Epitope</EpitopeStructureDefines>
+                <Assays>
+                    <MhcBinding>
+                        <LocationOfData>Table 3</LocationOfData>
+                        <MhcBindingId>1007546</MhcBindingId>
+                        <AssayInformation>
+                            <AssayTypeId>296</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <QuantitativeMeasurement>12.0</QuantitativeMeasurement>
+                            <AssayComments>The ability of peptide to promote HLA-B8 complex formation was measured by &lt;sup&gt;125&lt;/sup&gt;I labeled β2m % incorporation, in gel filtration. Values greater than 5% indicates specific binding. Dissociation rate mas measured to be 8 hr., being this value accurate to within a factor of two.</AssayComments>
+                        </AssayInformation>
+                        <MhcAlleleId>286</MhcAlleleId>
+                    </MhcBinding>
+                </Assays>
+            </Epitope>
+            <Epitope>
+                <EpitopeStructure>
+                    <SequenceMoleculeNoNaturalSource>
+                        <ChemicalType>Peptide, no natural source</ChemicalType>
+                        <LinearSequence>AEIAAVAKK</LinearSequence>
+                    </SequenceMoleculeNoNaturalSource>
+                </EpitopeStructure>
+                <LocationOfData>Table 3</LocationOfData>
+                <EpitopeId>978</EpitopeId>
+                <EpitopeStructureDefines>Exact Epitope</EpitopeStructureDefines>
+                <Assays>
+                    <MhcBinding>
+                        <LocationOfData>Table 3</LocationOfData>
+                        <MhcBindingId>1007547</MhcBindingId>
+                        <AssayInformation>
+                            <AssayTypeId>296</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <QuantitativeMeasurement>21.0</QuantitativeMeasurement>
+                            <AssayComments>The ability of peptide to promote HLA-B8 complex formation was measured by &lt;sup&gt;125&lt;/sup&gt;I labeled β2m % incorporation, in gel filtration. Values greater than 5% indicates specific binding. Dissociation rate mas measured to be 3 hr., being this value accurate to within a factor of two.</AssayComments>
+                        </AssayInformation>
+                        <MhcAlleleId>286</MhcAlleleId>
+                    </MhcBinding>
+                </Assays>
+            </Epitope>
+            <Epitope>
+                <EpitopeStructure>
+                    <SequenceMoleculeNoNaturalSource>
+                        <ChemicalType>Peptide, no natural source</ChemicalType>
+                        <LinearSequence>AEIAAVAKR</LinearSequence>
+                    </SequenceMoleculeNoNaturalSource>
+                </EpitopeStructure>
+                <LocationOfData>Table 3</LocationOfData>
+                <EpitopeId>980</EpitopeId>
+                <EpitopeStructureDefines>Exact Epitope</EpitopeStructureDefines>
+                <Assays>
+                    <MhcBinding>
+                        <LocationOfData>Table 3</LocationOfData>
+                        <MhcBindingId>1007548</MhcBindingId>
+                        <AssayInformation>
+                            <AssayTypeId>296</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <QuantitativeMeasurement>36.0</QuantitativeMeasurement>
+                            <AssayComments>The ability of peptide to promote HLA-B8 complex formation was measured by &lt;sup&gt;125&lt;/sup&gt;I labeled β2m % incorporation, in gel filtration. Values greater than 5% indicates specific binding. Dissociation rate mas measured to be 3hr., being this value accurate to within a factor of two.</AssayComments>
+                        </AssayInformation>
+                        <MhcAlleleId>286</MhcAlleleId>
+                    </MhcBinding>
+                </Assays>
+            </Epitope>
+            <Epitope>
+                <EpitopeStructure>
+                    <SequenceMoleculeNoNaturalSource>
+                        <ChemicalType>Peptide, no natural source</ChemicalType>
+                        <LinearSequence>AEIAAAAKY</LinearSequence>
+                    </SequenceMoleculeNoNaturalSource>
+                </EpitopeStructure>
+                <LocationOfData>Table 3</LocationOfData>
+                <EpitopeId>974</EpitopeId>
+                <EpitopeStructureDefines>Exact Epitope</EpitopeStructureDefines>
+                <Assays>
+                    <MhcBinding>
+                        <LocationOfData>Table 3</LocationOfData>
+                        <MhcBindingId>1007549</MhcBindingId>
+                        <AssayInformation>
+                            <AssayTypeId>296</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <QuantitativeMeasurement>39.0</QuantitativeMeasurement>
+                            <AssayComments>The ability of peptide to promote HLA-B8 complex formation was measured by &lt;sup&gt;125&lt;/sup&gt;I labeled β2m % incorporation, in gel filtration. Values greater than 5% indicates specific binding. Dissociation rate mas measured to be 13hr., being this value accurate to within a factor of two.</AssayComments>
+                        </AssayInformation>
+                        <MhcAlleleId>286</MhcAlleleId>
+                    </MhcBinding>
+                </Assays>
+            </Epitope>
+            <Epitope>
+                <EpitopeStructure>
+                    <SequenceMoleculeNoNaturalSource>
+                        <ChemicalType>Peptide, no natural source</ChemicalType>
+                        <LinearSequence>AEIAAAAAE</LinearSequence>
+                    </SequenceMoleculeNoNaturalSource>
+                </EpitopeStructure>
+                <LocationOfData>Table 3</LocationOfData>
+                <EpitopeId>972</EpitopeId>
+                <EpitopeStructureDefines>Exact Epitope</EpitopeStructureDefines>
+                <Assays>
+                    <MhcBinding>
+                        <LocationOfData>Table 3</LocationOfData>
+                        <MhcBindingId>1007550</MhcBindingId>
+                        <AssayInformation>
+                            <AssayTypeId>296</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <QuantitativeMeasurement>12.0</QuantitativeMeasurement>
+                            <AssayComments>The ability of peptide to promote HLA-B8 complex formation was measured by &lt;sup&gt;125&lt;/sup&gt;I labeled β2m % incorporation, in gel filtration. Values greater than 5% indicates specific binding. Dissociation rate mas measured to be 0.4hr., being this value accurate to within a factor of two.</AssayComments>
+                        </AssayInformation>
+                        <MhcAlleleId>286</MhcAlleleId>
+                    </MhcBinding>
+                </Assays>
+            </Epitope>
+            <Epitope>
+                <EpitopeStructure>
+                    <FragmentOfANaturalSequenceMolecule>
+                        <ChemicalType>Peptide from protein</ChemicalType>
+                        <LinearSequence>SEIDLILGY</LinearSequence>
+                        <SourceMolecule>
+                            <IedbAccession>SRC279997</IedbAccession>
+                        </SourceMolecule>
+                        <SourceOrganismId>9606</SourceOrganismId>
+                    </FragmentOfANaturalSequenceMolecule>
+                </EpitopeStructure>
+                <LocationOfData>Table 2</LocationOfData>
+                <EpitopeId>57469</EpitopeId>
+                <EpitopeEvidenceCode>Internal Identifier-no external match available</EpitopeEvidenceCode>
+                <EpitopeStructureDefines>Exact Epitope</EpitopeStructureDefines>
+                <EpitopeComments>This peptide was detected by HPLC fractionation of peptides bound to HLA-B44 expressing cells. No significant matches with existing database sequences could be found. The human endogenous origin of this HLA-B44 presented peptide is presumed.</EpitopeComments>
+                <Assays>
+                    <MhcLigandElution>
+                        <LocationOfData>Tables 1 and 2</LocationOfData>
+                        <MhcLigandElutionId>1007575</MhcLigandElutionId>
+                        <HostOrganism>
+                            <OrganismId>9606</OrganismId>
+                        </HostOrganism>
+                        <InVivoProcess>
+                            <InVivoProcessType>No immunization</InVivoProcessType>
+                        </InVivoProcess>
+                        <MhcLigand>
+                            <MhcLigandObject>
+                                <EpitopeRelation>Epitope</EpitopeRelation>
+                                <Object>
+                                    <FragmentOfANaturalSequenceMolecule>
+                                        <ChemicalType>Peptide from protein</ChemicalType>
+                                        <LinearSequence>SEIDLILGY</LinearSequence>
+                                        <SourceMolecule>
+                                            <IedbAccession>SRC279997</IedbAccession>
+                                        </SourceMolecule>
+                                        <SourceOrganismId>9606</SourceOrganismId>
+                                    </FragmentOfANaturalSequenceMolecule>
+                                </Object>
+                            </MhcLigandObject>
+                        </MhcLigand>
+                        <AntigenPresentingCells>
+                            <CellTissueType>Lymphoid</CellTissueType>
+                            <CellType>Plasma cell</CellType>
+                            <CellCultureConditions>Cell Line / Clone</CellCultureConditions>
+                        </AntigenPresentingCells>
+                        <MhcAllele>
+                            <MhcAlleleId>286</MhcAlleleId>
+                            <MhcEvidenceCode>Single allele present</MhcEvidenceCode>
+                        </MhcAllele>
+                        <AssayInformation>
+                            <AssayTypeId>252</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <AssayComments>Plasma cell line Hmy2.C1R, defficient in HLA class I expression, was trasfected with HLA-B44 and used as source for ligand elution.</AssayComments>
+                        </AssayInformation>
+                    </MhcLigandElution>
+                </Assays>
+                <Assays>
+                    <MhcBinding>
+                        <LocationOfData>Table 2</LocationOfData>
+                        <MhcBindingId>1007560</MhcBindingId>
+                        <AssayInformation>
+                            <AssayTypeId>296</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <QuantitativeMeasurement>86.0</QuantitativeMeasurement>
+                            <AssayComments>The ability of peptide to promote HLA-B8 complex formation was measured by &lt;sup&gt;125&lt;/sup&gt;I labeled β2m % incorporation, in gel filtration. Values greater than 5% indicates specific binding. Dissociation rate mas measured to be 4 hr., being this value accurate to within a factor of two.</AssayComments>
+                        </AssayInformation>
+                        <MhcAlleleId>286</MhcAlleleId>
+                    </MhcBinding>
+                </Assays>
+            </Epitope>
+            <Epitope>
+                <EpitopeStructure>
+                    <FragmentOfANaturalSequenceMolecule>
+                        <ChemicalType>Peptide from protein</ChemicalType>
+                        <LinearSequence>SEIDTVAKY</LinearSequence>
+                        <SourceMolecule>
+                            <IedbAccession>SRC250678</IedbAccession>
+                        </SourceMolecule>
+                        <SourceOrganismId>9606</SourceOrganismId>
+                    </FragmentOfANaturalSequenceMolecule>
+                </EpitopeStructure>
+                <LocationOfData>Table 2</LocationOfData>
+                <EpitopeId>57470</EpitopeId>
+                <EpitopeEvidenceCode>Internal Identifier-no external match available</EpitopeEvidenceCode>
+                <EpitopeStructureDefines>Exact Epitope</EpitopeStructureDefines>
+                <EpitopeComments>This peptide was detected by HPLC fractionation of peptides bound to HLA-A1 expressing cells. No significant matches with existing database sequences could be found. The human endogenous origin of this HLA-B44 presented peptide is presumed.</EpitopeComments>
+                <Assays>
+                    <MhcLigandElution>
+                        <LocationOfData>Tables 1 and 2</LocationOfData>
+                        <MhcLigandElutionId>1007579</MhcLigandElutionId>
+                        <HostOrganism>
+                            <OrganismId>9606</OrganismId>
+                        </HostOrganism>
+                        <InVivoProcess>
+                            <InVivoProcessType>No immunization</InVivoProcessType>
+                        </InVivoProcess>
+                        <MhcLigand>
+                            <MhcLigandObject>
+                                <EpitopeRelation>Epitope</EpitopeRelation>
+                                <Object>
+                                    <FragmentOfANaturalSequenceMolecule>
+                                        <ChemicalType>Peptide from protein</ChemicalType>
+                                        <LinearSequence>SEIDTVAKY</LinearSequence>
+                                        <SourceMolecule>
+                                            <IedbAccession>SRC250678</IedbAccession>
+                                        </SourceMolecule>
+                                        <SourceOrganismId>9606</SourceOrganismId>
+                                    </FragmentOfANaturalSequenceMolecule>
+                                </Object>
+                            </MhcLigandObject>
+                        </MhcLigand>
+                        <AntigenPresentingCells>
+                            <CellTissueType>Lymphoid</CellTissueType>
+                            <CellType>Plasma cell</CellType>
+                            <CellCultureConditions>Cell Line / Clone</CellCultureConditions>
+                        </AntigenPresentingCells>
+                        <MhcAllele>
+                            <MhcAlleleId>286</MhcAlleleId>
+                            <MhcEvidenceCode>Single allele present</MhcEvidenceCode>
+                        </MhcAllele>
+                        <AssayInformation>
+                            <AssayTypeId>252</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <AssayComments>Plasma cell line Hmy2.C1R, defficient in HLA class I expression, was trasfected with HLA-B44 and used as source for ligand elution.</AssayComments>
+                        </AssayInformation>
+                    </MhcLigandElution>
+                </Assays>
+                <Assays>
+                    <MhcBinding>
+                        <LocationOfData>Table 2</LocationOfData>
+                        <MhcBindingId>1007564</MhcBindingId>
+                        <AssayInformation>
+                            <AssayTypeId>296</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <QuantitativeMeasurement>85.0</QuantitativeMeasurement>
+                            <AssayComments>The ability of peptide to promote HLA-B8 complex formation was measured by &lt;sup&gt;125&lt;/sup&gt;I labeled β2m % incorporation, in gel filtration. Values greater than 5% indicates specific binding. Dissociation rate mas measured to be 4 hr., being this value accurate to within a factor of two.</AssayComments>
+                        </AssayInformation>
+                        <MhcAlleleId>286</MhcAlleleId>
+                    </MhcBinding>
+                </Assays>
+            </Epitope>
+            <Epitope>
+                <EpitopeStructure>
+                    <FragmentOfANaturalSequenceMolecule>
+                        <ChemicalType>Peptide from protein</ChemicalType>
+                        <LinearSequence>DEVGIVTKMY</LinearSequence>
+                        <SourceMolecule>
+                            <IedbAccession>SRC250679</IedbAccession>
+                        </SourceMolecule>
+                        <SourceOrganismId>9606</SourceOrganismId>
+                    </FragmentOfANaturalSequenceMolecule>
+                </EpitopeStructure>
+                <LocationOfData>Table 2</LocationOfData>
+                <EpitopeId>8193</EpitopeId>
+                <EpitopeEvidenceCode>Internal Identifier-no external match available</EpitopeEvidenceCode>
+                <EpitopeStructureDefines>Exact Epitope</EpitopeStructureDefines>
+                <EpitopeComments>This peptide was detected by HPLC fractionation of peptides bound to HLA-B44 expressing cells. No significant matches with existing database sequences could be found. The human endogenous origin of this HLA-B44 presented peptide is presumed.</EpitopeComments>
+                <Assays>
+                    <MhcLigandElution>
+                        <LocationOfData>Tables 1 and 2</LocationOfData>
+                        <MhcLigandElutionId>1007580</MhcLigandElutionId>
+                        <HostOrganism>
+                            <OrganismId>9606</OrganismId>
+                        </HostOrganism>
+                        <InVivoProcess>
+                            <InVivoProcessType>No immunization</InVivoProcessType>
+                        </InVivoProcess>
+                        <MhcLigand>
+                            <MhcLigandObject>
+                                <EpitopeRelation>Epitope</EpitopeRelation>
+                                <Object>
+                                    <FragmentOfANaturalSequenceMolecule>
+                                        <ChemicalType>Peptide from protein</ChemicalType>
+                                        <LinearSequence>DEVGIVTKMY</LinearSequence>
+                                        <SourceMolecule>
+                                            <IedbAccession>SRC250679</IedbAccession>
+                                        </SourceMolecule>
+                                        <SourceOrganismId>9606</SourceOrganismId>
+                                    </FragmentOfANaturalSequenceMolecule>
+                                </Object>
+                            </MhcLigandObject>
+                        </MhcLigand>
+                        <AntigenPresentingCells>
+                            <CellTissueType>Lymphoid</CellTissueType>
+                            <CellType>Plasma cell</CellType>
+                            <CellCultureConditions>Cell Line / Clone</CellCultureConditions>
+                        </AntigenPresentingCells>
+                        <MhcAllele>
+                            <MhcAlleleId>286</MhcAlleleId>
+                            <MhcEvidenceCode>Single allele present</MhcEvidenceCode>
+                        </MhcAllele>
+                        <AssayInformation>
+                            <AssayTypeId>252</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <AssayComments>Plasma cell line Hmy2.C1R, defficient in HLA class I expression, was trasfected with HLA-B44 and used as source for ligand elution.</AssayComments>
+                        </AssayInformation>
+                    </MhcLigandElution>
+                </Assays>
+                <Assays>
+                    <MhcBinding>
+                        <LocationOfData>Table 2</LocationOfData>
+                        <MhcBindingId>1007565</MhcBindingId>
+                        <AssayInformation>
+                            <AssayTypeId>296</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <QuantitativeMeasurement>46.0</QuantitativeMeasurement>
+                            <AssayComments>The ability of peptide to promote HLA-B8 complex formation was measured by &lt;sup&gt;125&lt;/sup&gt;I labeled β2m % incorporation, in gel filtration. Values greater than 5% indicates specific binding. Dissociation rate mas measured to be 1hr., being this value accurate to within a factor of two.</AssayComments>
+                        </AssayInformation>
+                        <MhcAlleleId>286</MhcAlleleId>
+                    </MhcBinding>
+                </Assays>
+            </Epitope>
+            <Epitope>
+                <EpitopeStructure>
+                    <SequenceMoleculeNoNaturalSource>
+                        <ChemicalType>Peptide, no natural source</ChemicalType>
+                        <LinearSequence>DEVGIVTKY</LinearSequence>
+                    </SequenceMoleculeNoNaturalSource>
+                </EpitopeStructure>
+                <LocationOfData>Table 2</LocationOfData>
+                <EpitopeId>8194</EpitopeId>
+                <EpitopeStructureDefines>Exact Epitope</EpitopeStructureDefines>
+                <EpitopeComments>This sequence is a secondary possible assignment for a peptide detected by HPLC fractionation of peptides bound to HLA-B44 expressing cells.</EpitopeComments>
+                <Assays>
+                    <MhcBinding>
+                        <LocationOfData>Table 2</LocationOfData>
+                        <MhcBindingId>1007566</MhcBindingId>
+                        <AssayInformation>
+                            <AssayTypeId>296</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <QuantitativeMeasurement>48.0</QuantitativeMeasurement>
+                            <AssayComments>The ability of peptide to promote HLA-B8 complex formation was measured by &lt;sup&gt;125&lt;/sup&gt;I labeled β2m % incorporation, in gel filtration. Values greater than 5% indicates specific binding. Dissociation rate mas measured to be 4 hr., being this value accurate to within a factor of two.</AssayComments>
+                        </AssayInformation>
+                        <MhcAlleleId>286</MhcAlleleId>
+                    </MhcBinding>
+                </Assays>
+            </Epitope>
+            <Epitope>
+                <EpitopeStructure>
+                    <FragmentOfANaturalSequenceMolecule>
+                        <ChemicalType>Peptide from protein</ChemicalType>
+                        <LinearSequence>AEIPTRVNY</LinearSequence>
+                        <SourceMolecule>
+                            <IedbAccession>SRC250676</IedbAccession>
+                        </SourceMolecule>
+                        <SourceOrganismId>9606</SourceOrganismId>
+                    </FragmentOfANaturalSequenceMolecule>
+                </EpitopeStructure>
+                <LocationOfData>Table 2</LocationOfData>
+                <EpitopeId>997</EpitopeId>
+                <EpitopeEvidenceCode>Internal Identifier-no external match available</EpitopeEvidenceCode>
+                <EpitopeStructureDefines>Exact Epitope</EpitopeStructureDefines>
+                <EpitopeComments>This peptide was detected by HPLC fractionation of peptides bound to HLA-B44 expressing cells. No significant matches with existing database sequences could be found. The human endogenous origin of this HLA-B44 presented peptide is presumed.</EpitopeComments>
+                <Assays>
+                    <MhcLigandElution>
+                        <LocationOfData>Tables 1 and 2</LocationOfData>
+                        <MhcLigandElutionId>1007582</MhcLigandElutionId>
+                        <HostOrganism>
+                            <OrganismId>9606</OrganismId>
+                        </HostOrganism>
+                        <InVivoProcess>
+                            <InVivoProcessType>No immunization</InVivoProcessType>
+                        </InVivoProcess>
+                        <MhcLigand>
+                            <MhcLigandObject>
+                                <EpitopeRelation>Epitope</EpitopeRelation>
+                                <Object>
+                                    <FragmentOfANaturalSequenceMolecule>
+                                        <ChemicalType>Peptide from protein</ChemicalType>
+                                        <LinearSequence>AEIPTRVNY</LinearSequence>
+                                        <SourceMolecule>
+                                            <IedbAccession>SRC250676</IedbAccession>
+                                        </SourceMolecule>
+                                        <SourceOrganismId>9606</SourceOrganismId>
+                                    </FragmentOfANaturalSequenceMolecule>
+                                </Object>
+                            </MhcLigandObject>
+                        </MhcLigand>
+                        <AntigenPresentingCells>
+                            <CellTissueType>Lymphoid</CellTissueType>
+                            <CellType>Plasma cell</CellType>
+                            <CellCultureConditions>Cell Line / Clone</CellCultureConditions>
+                        </AntigenPresentingCells>
+                        <MhcAllele>
+                            <MhcAlleleId>286</MhcAlleleId>
+                            <MhcEvidenceCode>Single allele present</MhcEvidenceCode>
+                        </MhcAllele>
+                        <AssayInformation>
+                            <AssayTypeId>252</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <AssayComments>Plasma cell line Hmy2.C1R, defficient in HLA class I expression, was trasfected with HLA-B44 and used as source for ligand elution.</AssayComments>
+                        </AssayInformation>
+                    </MhcLigandElution>
+                </Assays>
+                <Assays>
+                    <MhcBinding>
+                        <LocationOfData>Table 2</LocationOfData>
+                        <MhcBindingId>1007567</MhcBindingId>
+                        <AssayInformation>
+                            <AssayTypeId>296</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <QuantitativeMeasurement>88.0</QuantitativeMeasurement>
+                            <AssayComments>The ability of peptide to promote HLA-B8 complex formation was measured by &lt;sup&gt;125&lt;/sup&gt;I labeled β2m % incorporation, in gel filtration. Values greater than 5% indicates specific binding. Dissociation rate mas measured to be 6 hr., being this value accurate to within a factor of two.</AssayComments>
+                        </AssayInformation>
+                        <MhcAlleleId>286</MhcAlleleId>
+                    </MhcBinding>
+                </Assays>
+            </Epitope>
+            <Epitope>
+                <EpitopeStructure>
+                    <FragmentOfANaturalSequenceMolecule>
+                        <ChemicalType>Peptide from protein</ChemicalType>
+                        <LinearSequence>AEIPRTFKY</LinearSequence>
+                        <SourceMolecule>
+                            <IedbAccession>SRC250677</IedbAccession>
+                        </SourceMolecule>
+                        <SourceOrganismId>9606</SourceOrganismId>
+                    </FragmentOfANaturalSequenceMolecule>
+                </EpitopeStructure>
+                <LocationOfData>Table 2</LocationOfData>
+                <EpitopeId>996</EpitopeId>
+                <EpitopeEvidenceCode>Internal Identifier-no external match available</EpitopeEvidenceCode>
+                <EpitopeStructureDefines>Exact Epitope</EpitopeStructureDefines>
+                <EpitopeComments>This peptide was detected by HPLC fractionation of peptides bound to HLA-B44 expressing cells. No significant matches with existing database sequences could be found. The human endogenous origin of this HLA-B44 presented peptide is presumed.</EpitopeComments>
+                <Assays>
+                    <MhcLigandElution>
+                        <LocationOfData>Tables 1 and 2</LocationOfData>
+                        <MhcLigandElutionId>1007583</MhcLigandElutionId>
+                        <HostOrganism>
+                            <OrganismId>9606</OrganismId>
+                        </HostOrganism>
+                        <InVivoProcess>
+                            <InVivoProcessType>No immunization</InVivoProcessType>
+                        </InVivoProcess>
+                        <MhcLigand>
+                            <MhcLigandObject>
+                                <EpitopeRelation>Epitope</EpitopeRelation>
+                                <Object>
+                                    <FragmentOfANaturalSequenceMolecule>
+                                        <ChemicalType>Peptide from protein</ChemicalType>
+                                        <LinearSequence>AEIPRTFKY</LinearSequence>
+                                        <SourceMolecule>
+                                            <IedbAccession>SRC250677</IedbAccession>
+                                        </SourceMolecule>
+                                        <SourceOrganismId>9606</SourceOrganismId>
+                                    </FragmentOfANaturalSequenceMolecule>
+                                </Object>
+                            </MhcLigandObject>
+                        </MhcLigand>
+                        <AntigenPresentingCells>
+                            <CellTissueType>Lymphoid</CellTissueType>
+                            <CellType>Plasma cell</CellType>
+                            <CellCultureConditions>Cell Line / Clone</CellCultureConditions>
+                        </AntigenPresentingCells>
+                        <MhcAllele>
+                            <MhcAlleleId>286</MhcAlleleId>
+                            <MhcEvidenceCode>Single allele present</MhcEvidenceCode>
+                        </MhcAllele>
+                        <AssayInformation>
+                            <AssayTypeId>252</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <AssayComments>Plasma cell line Hmy2.C1R, defficient in HLA class I expression, was trasfected with HLA-B44 and used as source for ligand elution.</AssayComments>
+                        </AssayInformation>
+                    </MhcLigandElution>
+                </Assays>
+                <Assays>
+                    <MhcBinding>
+                        <LocationOfData>Table 2</LocationOfData>
+                        <MhcBindingId>1007568</MhcBindingId>
+                        <AssayInformation>
+                            <AssayTypeId>296</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <QuantitativeMeasurement>77.0</QuantitativeMeasurement>
+                            <AssayComments>The ability of peptide to promote HLA-B8 complex formation was measured by &lt;sup&gt;125&lt;/sup&gt;I labeled β2m % incorporation, in gel filtration. Values greater than 5% indicates specific binding. Dissociation rate mas measured to be 5 hr., being this value accurate to within a factor of two.</AssayComments>
+                        </AssayInformation>
+                        <MhcAlleleId>286</MhcAlleleId>
+                    </MhcBinding>
+                </Assays>
+            </Epitope>
+            <Epitope>
+                <EpitopeStructure>
+                    <FragmentOfANaturalSequenceMolecule>
+                        <ChemicalType>Peptide from protein</ChemicalType>
+                        <LinearSequence>AEVDKVTGRF</LinearSequence>
+                        <StartingPosition>37</StartingPosition>
+                        <EndingPosition>46</EndingPosition>
+                        <SourceMolecule>
+                            <GenBankId>P63220.1</GenBankId>
+                        </SourceMolecule>
+                        <SourceOrganismId>9606</SourceOrganismId>
+                    </FragmentOfANaturalSequenceMolecule>
+                </EpitopeStructure>
+                <LocationOfData>Table 1</LocationOfData>
+                <EpitopeId>1210</EpitopeId>
+                <ReferenceStartingPosition>37</ReferenceStartingPosition>
+                <ReferenceEndingPosition>46</ReferenceEndingPosition>
+                <EpitopeEvidenceCode>Representative selection</EpitopeEvidenceCode>
+                <EpitopeStructureDefines>Exact Epitope</EpitopeStructureDefines>
+                <EpitopeComments>This peptide was detected by HPLC fractionation of peptides bound to HLA-B44 expressing cells.</EpitopeComments>
+                <Assays>
+                    <MhcLigandElution>
+                        <LocationOfData>Tables 1 and 2</LocationOfData>
+                        <MhcLigandElutionId>1007586</MhcLigandElutionId>
+                        <HostOrganism>
+                            <OrganismId>9606</OrganismId>
+                        </HostOrganism>
+                        <InVivoProcess>
+                            <InVivoProcessType>No immunization</InVivoProcessType>
+                        </InVivoProcess>
+                        <MhcLigand>
+                            <MhcLigandObject>
+                                <EpitopeRelation>Epitope</EpitopeRelation>
+                                <Object>
+                                    <FragmentOfANaturalSequenceMolecule>
+                                        <ChemicalType>Peptide from protein</ChemicalType>
+                                        <LinearSequence>AEVDKVTGRF</LinearSequence>
+                                        <StartingPosition>37</StartingPosition>
+                                        <EndingPosition>46</EndingPosition>
+                                        <SourceMolecule>
+                                            <GenBankId>P63220.1</GenBankId>
+                                        </SourceMolecule>
+                                        <SourceOrganismId>9606</SourceOrganismId>
+                                    </FragmentOfANaturalSequenceMolecule>
+                                </Object>
+                            </MhcLigandObject>
+                        </MhcLigand>
+                        <AntigenPresentingCells>
+                            <CellTissueType>Lymphoid</CellTissueType>
+                            <CellType>Plasma cell</CellType>
+                            <CellCultureConditions>Cell Line / Clone</CellCultureConditions>
+                        </AntigenPresentingCells>
+                        <MhcAllele>
+                            <MhcAlleleId>286</MhcAlleleId>
+                            <MhcEvidenceCode>Single allele present</MhcEvidenceCode>
+                        </MhcAllele>
+                        <AssayInformation>
+                            <AssayTypeId>252</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <AssayComments>Plasma cell line Hmy2.C1R, defficient in HLA class I expression, was trasfected with HLA-B44 and used as source for ligand elution.</AssayComments>
+                        </AssayInformation>
+                    </MhcLigandElution>
+                </Assays>
+            </Epitope>
+        </Epitopes>
+    </Reference>
+</References>
+

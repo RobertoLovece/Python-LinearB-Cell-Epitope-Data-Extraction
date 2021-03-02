@@ -1,0 +1,349 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<References xsi:schemaLocation="http://www.iedb.org/schema/CurationSchema http://beta.iedb.org/schema/Curation.xsd" xmlns="http://www.iedb.org/schema/CurationSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <Reference>
+        <ReferenceId>1500</ReferenceId>
+        <DateLastUpdated>2011-08-23-07:00</DateLastUpdated>
+        <Article>
+            <PubmedId>7505798</PubmedId>
+            <Abstract>There are two immunogenic sites on the type A influenza A/Japan/57 (H2N2) hemagglutinin (HA) that can be recognized by class I major histocompatibility complex (MHC), H-2Kd-restricted cytolytic T lymphocytes (CTLs). One of these sites encompasses two distinct partially overlapping epitopes, which span HA residues 204-212 and 210-219. During the analysis of the fine specificity of CTL clones directed to the HA 210-219 epitope, we found that one clone 40-2 also recognized the myeloma cell line P3x63-Ag8. P3x63-Ag8 is derived from the MOPC 21 myeloma and expresses an immunoglobulin (Ig) heavy chain variable region (VH) gene which is a member of the murine 7183 VH gene family. Recognition was specific for the endogenously processed MOPC 21 heavy chain in association with the Kd molecules, since the SP2/0 derivative of P3x63-Ag8, which does not make a functional Ig H chain, is not recognized. The VH epitope recognized by clone 40-2 could be mapped to a 10 amino acid peptide spanning MOPC 21 VH residues 49-58. Cross-reactivity for the VH gene product was also demonstrable in some heterogeneous populations of CTL generated in response to influenza virus infection. These results represent the first demonstration of cross-reactivity for an endogenously processed product of a self-Ig by the CTL directed to a foreign antigen and raise the possibility that the Ig VH expression may regulate the CD8+ T cell response to foreign antigens.</Abstract>
+            <ArticleYear>1994</ArticleYear>
+            <ArticlePages>195-202</ArticlePages>
+            <ArticleTitle>Recognition of an immunoglobulin VH epitope by influenza virus-specific class I major histocompatibility complex-restricted cytolytic T lymphocytes.</ArticleTitle>
+            <Authors>
+                <Author>
+                    <LastName>Cao</LastName>
+                    <ForeName>W</ForeName>
+                </Author>
+                <Author>
+                    <LastName>Myers-Powell</LastName>
+                    <ForeName>B A</ForeName>
+                </Author>
+                <Author>
+                    <LastName>Braciale</LastName>
+                    <ForeName>T J</ForeName>
+                </Author>
+            </Authors>
+            <Affiliations>Beirne B. Carter Center for Immunology Research, University of Virginia Health Sciences Center, Charlottesville 22908.</Affiliations>
+            <ArticleChemicalList>Epitopes;Histocompatibility Antigens Class I;Immunoglobulin Variable Region;Peptides</ArticleChemicalList>
+            <ArticleMeshHeadingsList>Amino Acid Sequence; Animals; Cross Reactions; Epitopes(immunology); Histocompatibility Antigens Class I(immunology); Hybridomas; Immunoglobulin Variable Region(genetics; immunology); Influenza A virus(immunology); Mice; Mice, Inbred BALB C; Molecular Sequence Data; Peptides(immunology); Sequence Homology, Amino Acid; T-Lymphocytes, Cytotoxic(immunology); Tumor Cells, Cultured</ArticleMeshHeadingsList>
+            <Journal>
+                <Volume>179</Volume>
+                <Issue>1</Issue>
+                <Title>The Journal of experimental medicine</Title>
+                <Issn>1540-9538</Issn>
+                <MedlineTa>J Exp Med</MedlineTa>
+            </Journal>
+        </Article>
+        <Epitopes>
+            <Epitope>
+                <EpitopeName>JHA 210-219</EpitopeName>
+                <EpitopeStructure>
+                    <FragmentOfANaturalSequenceMolecule>
+                        <ChemicalType>Peptide from protein</ChemicalType>
+                        <LinearSequence>TYVSVGTSTL</LinearSequence>
+                        <StartingPosition>210</StartingPosition>
+                        <EndingPosition>219</EndingPosition>
+                        <SourceMolecule>
+                            <GenBankId>122912</GenBankId>
+                        </SourceMolecule>
+                        <SourceOrganismId>387161</SourceOrganismId>
+                    </FragmentOfANaturalSequenceMolecule>
+                </EpitopeStructure>
+                <EpitopeId>67501</EpitopeId>
+                <ReferenceStartingPosition>210</ReferenceStartingPosition>
+                <ReferenceEndingPosition>219</ReferenceEndingPosition>
+                <EpitopeEvidenceCode>Not determined</EpitopeEvidenceCode>
+                <EpitopeStructureDefines>Exact Epitope</EpitopeStructureDefines>
+                <Assays>
+                    <TCell>
+                        <LocationOfData>Figure 2B</LocationOfData>
+                        <TCellId>1003900</TCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>10000000</OrganismId>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Administration in vivo</InVivoProcessType>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Source Organism</EpitopeRelation>
+                                    <Object>
+                                        <Organism>
+                                            <SubType>Organism</SubType>
+                                            <SourceOrganismId>387161</SourceOrganismId>
+                                        </Organism>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenReferenceName>Influenza A virus (A/Japan/305/57(H2N2))</ImmunogenReferenceName>
+                                <ImmunogenEvidenceCode>Not determined</ImmunogenEvidenceCode>
+                            </FirstInVivoProcess>
+                            <InVitroAdministration>
+                                <ProcessType>Restimulation in vitro</ProcessType>
+                                <ResponderCellType>Splenocyte</ResponderCellType>
+                                <StimulatorCellType>Splenocyte</StimulatorCellType>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Source Organism</EpitopeRelation>
+                                    <Object>
+                                        <Organism>
+                                            <SubType>Organism</SubType>
+                                            <SourceOrganismId>387161</SourceOrganismId>
+                                        </Organism>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenEvidenceCode>Not determined</ImmunogenEvidenceCode>
+                            </InVitroAdministration>
+                            <ImmunizationComments>BALB/c mice were infected in vivo with influenza A virus (A/Japan/305/57(H2N2)).  Bulk cultures of splenocytes were then restimulated with infectious virus in vitro for three to four passages before cloning on A/Japan/57 infected splenocyte feeders.</ImmunizationComments>
+                        </Immunization>
+                        <EffectorCells>
+                            <CellTissueType>Spleen</CellTissueType>
+                            <CellType>T cell CD8+</CellType>
+                            <CellCultureConditions>Cell Line / Clone</CellCultureConditions>
+                        </EffectorCells>
+                        <AssayedTcrMolecule>
+                            <AssayedTcrMoleculeName>40-2</AssayedTcrMoleculeName>
+                        </AssayedTcrMolecule>
+                        <AntigenPresentingCells>
+                            <CellTissueType>Other</CellTissueType>
+                            <CellType>P815-Mast cell</CellType>
+                            <CellCultureConditions>Cell Line / Clone</CellCultureConditions>
+                            <SourceOrganismId>10000055</SourceOrganismId>
+                        </AntigenPresentingCells>
+                        <MhcAllele>
+                            <MhcAlleleId>124</MhcAlleleId>
+                            <MhcEvidenceCode>Not determined</MhcEvidenceCode>
+                        </MhcAllele>
+                        <Antigen>
+                            <AntigenReferenceName>JHA 210-219</AntigenReferenceName>
+                            <AntigenObject>
+                                <EpitopeRelation>Epitope</EpitopeRelation>
+                                <Object>
+                                    <FragmentOfANaturalSequenceMolecule>
+                                        <ChemicalType>Peptide from protein</ChemicalType>
+                                        <LinearSequence>TYVSVGTSTL</LinearSequence>
+                                        <StartingPosition>210</StartingPosition>
+                                        <EndingPosition>219</EndingPosition>
+                                        <SourceMolecule>
+                                            <GenBankId>122912</GenBankId>
+                                        </SourceMolecule>
+                                        <SourceOrganismId>387161</SourceOrganismId>
+                                    </FragmentOfANaturalSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Not determined</AntigenEvidenceCode>
+                        </Antigen>
+                        <AssayInformation>
+                            <AssayTypeId>67</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                        </AssayInformation>
+                    </TCell>
+                </Assays>
+                <Assays>
+                    <MhcBinding>
+                        <LocationOfData>Figure 4</LocationOfData>
+                        <MhcBindingId>1003896</MhcBindingId>
+                        <AssayInformation>
+                            <AssayTypeId>226</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                        </AssayInformation>
+                        <MhcAlleleId>124</MhcAlleleId>
+                    </MhcBinding>
+                </Assays>
+            </Epitope>
+            <Epitope>
+                <EpitopeName>MOPC 21 VH 49-58</EpitopeName>
+                <EpitopeStructure>
+                    <FragmentOfANaturalSequenceMolecule>
+                        <ChemicalType>Peptide from protein</ChemicalType>
+                        <LinearSequence>AYISSGSSTL</LinearSequence>
+                        <StartingPosition>65</StartingPosition>
+                        <EndingPosition>74</EndingPosition>
+                        <SourceMolecule>
+                            <GenBankId>123793</GenBankId>
+                        </SourceMolecule>
+                        <SourceOrganismId>10000000</SourceOrganismId>
+                    </FragmentOfANaturalSequenceMolecule>
+                </EpitopeStructure>
+                <EpitopeId>5845</EpitopeId>
+                <ReferenceStartingPosition>49</ReferenceStartingPosition>
+                <ReferenceEndingPosition>58</ReferenceEndingPosition>
+                <EpitopeEvidenceCode>Not determined</EpitopeEvidenceCode>
+                <EpitopeStructureDefines>Exact Epitope</EpitopeStructureDefines>
+                <EpitopeComments>The Swiss-Prot numbering includes the signal sequence (1-16).</EpitopeComments>
+                <Assays>
+                    <TCell>
+                        <LocationOfData>Figure 1</LocationOfData>
+                        <TCellId>1003899</TCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>10000000</OrganismId>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Administration in vivo</InVivoProcessType>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Other</EpitopeRelation>
+                                    <Object>
+                                        <Organism>
+                                            <SubType>Organism</SubType>
+                                            <SourceOrganismId>387161</SourceOrganismId>
+                                        </Organism>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenReferenceName>Influenza A virus (A/Japan/305/57(H2N2))</ImmunogenReferenceName>
+                                <ImmunogenEvidenceCode>Not determined</ImmunogenEvidenceCode>
+                            </FirstInVivoProcess>
+                            <InVitroAdministration>
+                                <ProcessType>Restimulation in vitro</ProcessType>
+                                <ResponderCellType>Splenocyte</ResponderCellType>
+                                <StimulatorCellType>Splenocyte</StimulatorCellType>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Other</EpitopeRelation>
+                                    <Object>
+                                        <Organism>
+                                            <SubType>Organism</SubType>
+                                            <SourceOrganismId>387161</SourceOrganismId>
+                                        </Organism>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenEvidenceCode>Not determined</ImmunogenEvidenceCode>
+                            </InVitroAdministration>
+                            <ImmunizationComments>BALB/c mice were infected in vivo with influenza A virus (A/Japan/305/57(H2N2)).  Bulk cultures of splenocytes were restimulated with infectious virus in vitro for three to four passages before cloning on A/Japan/57 infected splenocyte feeders.</ImmunizationComments>
+                        </Immunization>
+                        <EffectorCells>
+                            <CellTissueType>Spleen</CellTissueType>
+                            <CellType>T cell CD8+</CellType>
+                            <CellCultureConditions>Cell Line / Clone</CellCultureConditions>
+                        </EffectorCells>
+                        <AssayedTcrMolecule>
+                            <AssayedTcrMoleculeName>40-2</AssayedTcrMoleculeName>
+                        </AssayedTcrMolecule>
+                        <AntigenPresentingCells>
+                            <CellType>Unknown/Unspecified</CellType>
+                            <CellCultureConditions>Cell Line / Clone</CellCultureConditions>
+                            <SourceOrganismId>10090</SourceOrganismId>
+                        </AntigenPresentingCells>
+                        <MhcAllele>
+                            <MhcAlleleId>124</MhcAlleleId>
+                            <MhcEvidenceCode>Not determined</MhcEvidenceCode>
+                        </MhcAllele>
+                        <Antigen>
+                            <AntigenReferenceName>Ig heavy chain V region from MOPC 21</AntigenReferenceName>
+                            <AntigenObject>
+                                <EpitopeRelation>Source Antigen</EpitopeRelation>
+                                <Object>
+                                    <AccessionSequenceMolecule>
+                                        <ChemicalType>Protein</ChemicalType>
+                                        <Molecule>
+                                            <GenBankId>123793</GenBankId>
+                                        </Molecule>
+                                        <SourceOrganismId>10000000</SourceOrganismId>
+                                    </AccessionSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Not determined</AntigenEvidenceCode>
+                        </Antigen>
+                        <AssayInformation>
+                            <AssayTypeId>67</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <AssayComments>The influenza A/Japan/57 HA 210-219-specific CTL clone 40-2 displayed unexpected cross-reactivity by lysing the uninfected BALB/c myeloma cell line P3x63-Ag8 which expresses an immunoglobulin heavy chain variable region. Recognition was specific for the endogenously processed MOPC 21 heavy chain in association with the K&lt;SUB&gt;d&lt;/SUB&gt; molecule, since a derivative of P3x63-Ag8 , which does not express Ig H chain, is not recognized.</AssayComments>
+                        </AssayInformation>
+                    </TCell>
+                </Assays>
+                <Assays>
+                    <TCell>
+                        <LocationOfData>Figure 2B</LocationOfData>
+                        <TCellId>1003904</TCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>10000000</OrganismId>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Administration in vivo</InVivoProcessType>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Other</EpitopeRelation>
+                                    <Object>
+                                        <Organism>
+                                            <SubType>Organism</SubType>
+                                            <SourceOrganismId>387161</SourceOrganismId>
+                                        </Organism>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenReferenceName>Influenza A virus (A/Japan/305/57(H2N2))</ImmunogenReferenceName>
+                                <ImmunogenEvidenceCode>Not determined</ImmunogenEvidenceCode>
+                            </FirstInVivoProcess>
+                            <InVitroAdministration>
+                                <ProcessType>Restimulation in vitro</ProcessType>
+                                <ResponderCellType>Splenocyte</ResponderCellType>
+                                <StimulatorCellType>Splenocyte</StimulatorCellType>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Other</EpitopeRelation>
+                                    <Object>
+                                        <Organism>
+                                            <SubType>Organism</SubType>
+                                            <SourceOrganismId>387161</SourceOrganismId>
+                                        </Organism>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenEvidenceCode>Not determined</ImmunogenEvidenceCode>
+                            </InVitroAdministration>
+                            <ImmunizationComments>BALB/c mice were infected in vivo with influenza A virus (A/Japan/305/57(H2N2)).  Bulk cultures of splenocytes were then restimulated with infectious virus in vitro for three to four passages before cloning on A/Japan/57 infected splenocyte feeders.</ImmunizationComments>
+                        </Immunization>
+                        <EffectorCells>
+                            <CellTissueType>Spleen</CellTissueType>
+                            <CellType>T cell CD8+</CellType>
+                            <CellCultureConditions>Cell Line / Clone</CellCultureConditions>
+                        </EffectorCells>
+                        <AssayedTcrMolecule>
+                            <AssayedTcrMoleculeName>40-2</AssayedTcrMoleculeName>
+                        </AssayedTcrMolecule>
+                        <AntigenPresentingCells>
+                            <CellTissueType>Other</CellTissueType>
+                            <CellType>P815-Mast cell</CellType>
+                            <CellCultureConditions>Cell Line / Clone</CellCultureConditions>
+                            <SourceOrganismId>10000055</SourceOrganismId>
+                        </AntigenPresentingCells>
+                        <MhcAllele>
+                            <MhcAlleleId>124</MhcAlleleId>
+                            <MhcEvidenceCode>Not determined</MhcEvidenceCode>
+                        </MhcAllele>
+                        <Antigen>
+                            <AntigenReferenceName>MOPC 21 VH 49-58</AntigenReferenceName>
+                            <AntigenObject>
+                                <EpitopeRelation>Epitope</EpitopeRelation>
+                                <Object>
+                                    <FragmentOfANaturalSequenceMolecule>
+                                        <ChemicalType>Peptide from protein</ChemicalType>
+                                        <LinearSequence>AYISSGSSTL</LinearSequence>
+                                        <StartingPosition>65</StartingPosition>
+                                        <EndingPosition>74</EndingPosition>
+                                        <SourceMolecule>
+                                            <GenBankId>123793</GenBankId>
+                                        </SourceMolecule>
+                                        <SourceOrganismId>10000000</SourceOrganismId>
+                                    </FragmentOfANaturalSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Not determined</AntigenEvidenceCode>
+                        </Antigen>
+                        <AssayInformation>
+                            <AssayTypeId>67</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <AssayComments>The influenza A/Japan/57 HA 210-219-specific CTL clone 40-2  lysed P815 target cells coated with a synthetic peptide corresponding to the MOPC 21 VH 49-58 site. This cross-reactivity is not the unique property of a long-term CTL clone, but was also demonstrable in short-term bulk cultures of specific CTL from an influenza virus-immunized mouse.</AssayComments>
+                        </AssayInformation>
+                    </TCell>
+                </Assays>
+                <Assays>
+                    <MhcBinding>
+                        <LocationOfData>Figure 4</LocationOfData>
+                        <MhcBindingId>1003897</MhcBindingId>
+                        <AssayInformation>
+                            <AssayTypeId>226</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <AssayComments>The residues at positions 2, 9 and 10 of the peptide (AYISSGSSTL) appear to be important for binding to K&lt;SUB&gt;d&lt;/SUB.</AssayComments>
+                        </AssayInformation>
+                        <MhcAlleleId>124</MhcAlleleId>
+                    </MhcBinding>
+                </Assays>
+            </Epitope>
+        </Epitopes>
+    </Reference>
+</References>
+

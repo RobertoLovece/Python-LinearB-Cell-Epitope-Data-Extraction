@@ -1,0 +1,707 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<References xsi:schemaLocation="http://www.iedb.org/schema/CurationSchema http://beta.iedb.org/schema/Curation.xsd" xmlns="http://www.iedb.org/schema/CurationSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <Reference>
+        <ReferenceId>304</ReferenceId>
+        <DateLastUpdated>2018-10-16-07:00</DateLastUpdated>
+        <Article>
+            <PubmedId>15102821</PubmedId>
+            <Abstract>We report the identification of two peptides from Salmonella OmpC porin that can bind to major histocompatibility complex class I K(b) molecules and are targets of cytotoxic T lymphocytes from Salmonella-infected mice. These peptides are conserved in gram-negative bacterial porins and are the first Salmonella porin-specific epitopes described for possible CD8(+)-T-cell elimination of infected cells.</Abstract>
+            <ArticleYear>2004</ArticleYear>
+            <ArticlePages>3059-62</ArticlePages>
+            <ArticleTitle>Two Salmonella OmpC K(b)-restricted epitopes for CD8+-T-cell recognition.</ArticleTitle>
+            <Authors>
+                <Author>
+                    <LastName>Diaz-Quiñonez</LastName>
+                    <ForeName>Alberto</ForeName>
+                </Author>
+                <Author>
+                    <LastName>Martin-Orozco</LastName>
+                    <ForeName>Natalia</ForeName>
+                </Author>
+                <Author>
+                    <LastName>Isibasi</LastName>
+                    <ForeName>Armando</ForeName>
+                </Author>
+                <Author>
+                    <LastName>Ortiz-Navarrete</LastName>
+                    <ForeName>Vianney</ForeName>
+                </Author>
+            </Authors>
+            <Affiliations>Departamento de Biomedicina Molecular, Centro de Investigación y Estudios Avanzados (CINVESTAV), 07000 Mexico City, Mexico.</Affiliations>
+            <ArticleChemicalList>Antigens, Bacterial;Epitopes;H-2 Antigens;H-2Kb protein, mouse;OmpC protein;Porins</ArticleChemicalList>
+            <ArticleMeshHeadingsList>Animals; Antigens, Bacterial(metabolism); CD8-Positive T-Lymphocytes(immunology); Epitopes(metabolism); H-2 Antigens(metabolism); Immunization; In Vitro Techniques; Mice; Mice, Inbred C57BL; Porins(immunology); Protein Binding; Salmonella typhimurium(immunology; pathogenicity); T-Lymphocytes, Cytotoxic(immunology)</ArticleMeshHeadingsList>
+            <Journal>
+                <Volume>72</Volume>
+                <Issue>5</Issue>
+                <Title>Infection and immunity</Title>
+                <Issn>0019-9567</Issn>
+                <MedlineTa>Infect Immun</MedlineTa>
+            </Journal>
+        </Article>
+        <Epitopes>
+            <Epitope>
+                <EpitopeName>OmpC 73-80</EpitopeName>
+                <EpitopeStructure>
+                    <FragmentOfANaturalSequenceMolecule>
+                        <ChemicalType>Peptide from protein</ChemicalType>
+                        <LinearSequence>TRVAFAGL</LinearSequence>
+                        <StartingPosition>94</StartingPosition>
+                        <EndingPosition>101</EndingPosition>
+                        <SourceMolecule>
+                            <GenBankId>A59139</GenBankId>
+                        </SourceMolecule>
+                        <SourceOrganismId>90371</SourceOrganismId>
+                    </FragmentOfANaturalSequenceMolecule>
+                </EpitopeStructure>
+                <LocationOfData>Text</LocationOfData>
+                <EpitopeId>66114</EpitopeId>
+                <ReferenceStartingPosition>73</ReferenceStartingPosition>
+                <ReferenceEndingPosition>80</ReferenceEndingPosition>
+                <EpitopeEvidenceCode>Not determined</EpitopeEvidenceCode>
+                <EpitopeStructureDefines>Exact Epitope</EpitopeStructureDefines>
+                <Assays>
+                    <TCell>
+                        <LocationOfData>Figure 2</LocationOfData>
+                        <TCellId>1277769</TCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>10000067</OrganismId>
+                                <MhcAlleleTypesPresent>
+                                    <MhcAlleleId>122</MhcAlleleId>
+                                </MhcAlleleTypesPresent>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Administration in vivo</InVivoProcessType>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Taxonomic Sibling</EpitopeRelation>
+                                    <Object>
+                                        <Organism>
+                                            <SubType>Organism</SubType>
+                                            <SourceOrganismId>28901</SourceOrganismId>
+                                        </Organism>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenReferenceName>Salmonella enterica</ImmunogenReferenceName>
+                                <ImmunogenEvidenceCode>Not determined</ImmunogenEvidenceCode>
+                                <Route>Intraperitoneal (i.p.)</Route>
+                                <DoseSchedule>1 dose of 5000 PFU</DoseSchedule>
+                            </FirstInVivoProcess>
+                            <InVitroAdministration>
+                                <ProcessType>Restimulation in vitro</ProcessType>
+                                <ResponderCellType>Splenocyte</ResponderCellType>
+                                <StimulatorCellType>Splenocyte</StimulatorCellType>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Epitope</EpitopeRelation>
+                                    <Object>
+                                        <FragmentOfANaturalSequenceMolecule>
+                                            <ChemicalType>Peptide from protein</ChemicalType>
+                                            <LinearSequence>TRVAFAGL</LinearSequence>
+                                            <StartingPosition>94</StartingPosition>
+                                            <EndingPosition>101</EndingPosition>
+                                            <SourceMolecule>
+                                                <GenBankId>A59139</GenBankId>
+                                            </SourceMolecule>
+                                            <SourceOrganismId>90371</SourceOrganismId>
+                                        </FragmentOfANaturalSequenceMolecule>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenEvidenceCode>Exact match to reference information</ImmunogenEvidenceCode>
+                            </InVitroAdministration>
+                            <ImmunizationComments>CTL were generated through in vitro restimulation of splenocytes with the epitope.</ImmunizationComments>
+                        </Immunization>
+                        <EffectorCells>
+                            <CellTissueType>Spleen</CellTissueType>
+                            <CellType>T cell</CellType>
+                            <CellCultureConditions>Short Term Restimulated</CellCultureConditions>
+                        </EffectorCells>
+                        <AntigenPresentingCells>
+                            <CellTissueType>Lymphoid</CellTissueType>
+                            <CellType>RMA-lymphocyte</CellType>
+                            <CellCultureConditions>Cell Line / Clone</CellCultureConditions>
+                        </AntigenPresentingCells>
+                        <MhcAllele>
+                            <MhcAlleleId>122</MhcAlleleId>
+                            <MhcEvidenceCode>Not determined</MhcEvidenceCode>
+                        </MhcAllele>
+                        <Antigen>
+                            <AntigenReferenceName>OmpC 73-80</AntigenReferenceName>
+                            <AntigenObject>
+                                <EpitopeRelation>Epitope</EpitopeRelation>
+                                <Object>
+                                    <FragmentOfANaturalSequenceMolecule>
+                                        <ChemicalType>Peptide from protein</ChemicalType>
+                                        <LinearSequence>TRVAFAGL</LinearSequence>
+                                        <StartingPosition>94</StartingPosition>
+                                        <EndingPosition>101</EndingPosition>
+                                        <SourceMolecule>
+                                            <GenBankId>A59139</GenBankId>
+                                        </SourceMolecule>
+                                        <SourceOrganismId>90371</SourceOrganismId>
+                                    </FragmentOfANaturalSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Exact match to reference information</AntigenEvidenceCode>
+                        </Antigen>
+                        <AssayInformation>
+                            <AssayTypeId>67</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <AssayComments>CTL cells generated through infection with Salmonella enterica lysed RMA-S cells presenting the epitope only when infection was accomplished with the use of mucin to faciltate entry of the bacteria into macrophages, confirming that the CTL reponse is dependent upon macrophage colonization.</AssayComments>
+                        </AssayInformation>
+                    </TCell>
+                </Assays>
+                <Assays>
+                    <TCell>
+                        <LocationOfData>Figure 2</LocationOfData>
+                        <TCellId>145</TCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>10000067</OrganismId>
+                                <MhcAlleleTypesPresent>
+                                    <MhcAlleleId>122</MhcAlleleId>
+                                </MhcAlleleTypesPresent>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Administration in vivo</InVivoProcessType>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Epitope</EpitopeRelation>
+                                    <Object>
+                                        <FragmentOfANaturalSequenceMolecule>
+                                            <ChemicalType>Peptide from protein</ChemicalType>
+                                            <LinearSequence>TRVAFAGL</LinearSequence>
+                                            <StartingPosition>94</StartingPosition>
+                                            <EndingPosition>101</EndingPosition>
+                                            <SourceMolecule>
+                                                <GenBankId>A59139</GenBankId>
+                                            </SourceMolecule>
+                                            <SourceOrganismId>90371</SourceOrganismId>
+                                        </FragmentOfANaturalSequenceMolecule>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenReferenceName>OmpC 73-80</ImmunogenReferenceName>
+                                <ImmunogenEvidenceCode>Exact match to reference information</ImmunogenEvidenceCode>
+                                <Adjuvant>Freund's incomplete (IFA)</Adjuvant>
+                                <Route>Subcutaneous (s.c.)</Route>
+                                <DoseSchedule>3</DoseSchedule>
+                            </FirstInVivoProcess>
+                            <InVitroAdministration>
+                                <ProcessType>Restimulation in vitro</ProcessType>
+                                <ResponderCellType>Splenocyte</ResponderCellType>
+                                <StimulatorCellType>Splenocyte</StimulatorCellType>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Epitope</EpitopeRelation>
+                                    <Object>
+                                        <FragmentOfANaturalSequenceMolecule>
+                                            <ChemicalType>Peptide from protein</ChemicalType>
+                                            <LinearSequence>TRVAFAGL</LinearSequence>
+                                            <StartingPosition>94</StartingPosition>
+                                            <EndingPosition>101</EndingPosition>
+                                            <SourceMolecule>
+                                                <GenBankId>A59139</GenBankId>
+                                            </SourceMolecule>
+                                            <SourceOrganismId>90371</SourceOrganismId>
+                                        </FragmentOfANaturalSequenceMolecule>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenEvidenceCode>Exact match to reference information</ImmunogenEvidenceCode>
+                            </InVitroAdministration>
+                            <ImmunizationComments>Mice were immunized three times at intervals of 1 week.  CTL were generated through in vitro restimulation of splenocytes with the epitope.</ImmunizationComments>
+                        </Immunization>
+                        <EffectorCells>
+                            <CellTissueType>Spleen</CellTissueType>
+                            <CellType>T cell</CellType>
+                            <CellCultureConditions>Short Term Restimulated</CellCultureConditions>
+                        </EffectorCells>
+                        <AntigenPresentingCells>
+                            <CellTissueType>Lymphoid</CellTissueType>
+                            <CellType>RMA-lymphocyte</CellType>
+                            <CellCultureConditions>Cell Line / Clone</CellCultureConditions>
+                        </AntigenPresentingCells>
+                        <MhcAllele>
+                            <MhcAlleleId>122</MhcAlleleId>
+                            <MhcEvidenceCode>Not determined</MhcEvidenceCode>
+                        </MhcAllele>
+                        <Antigen>
+                            <AntigenReferenceName>OmpC 73-80</AntigenReferenceName>
+                            <AntigenObject>
+                                <EpitopeRelation>Epitope</EpitopeRelation>
+                                <Object>
+                                    <FragmentOfANaturalSequenceMolecule>
+                                        <ChemicalType>Peptide from protein</ChemicalType>
+                                        <LinearSequence>TRVAFAGL</LinearSequence>
+                                        <StartingPosition>94</StartingPosition>
+                                        <EndingPosition>101</EndingPosition>
+                                        <SourceMolecule>
+                                            <GenBankId>A59139</GenBankId>
+                                        </SourceMolecule>
+                                        <SourceOrganismId>90371</SourceOrganismId>
+                                    </FragmentOfANaturalSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Exact match to reference information</AntigenEvidenceCode>
+                        </Antigen>
+                        <AssayInformation>
+                            <AssayTypeId>67</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <AssayComments>CTL cells generated through immunization with the epitope lysed RMA-S cells presenting the epitope.</AssayComments>
+                        </AssayInformation>
+                    </TCell>
+                </Assays>
+                <Assays>
+                    <TCell>
+                        <LocationOfData>Figure 2</LocationOfData>
+                        <TCellId>1277768</TCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>10000067</OrganismId>
+                                <MhcAlleleTypesPresent>
+                                    <MhcAlleleId>122</MhcAlleleId>
+                                </MhcAlleleTypesPresent>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Administration in vivo</InVivoProcessType>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Source Organism</EpitopeRelation>
+                                    <Object>
+                                        <Organism>
+                                            <SubType>Organism</SubType>
+                                            <SourceOrganismId>90371</SourceOrganismId>
+                                        </Organism>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenReferenceName>Salmonella typhimurium</ImmunogenReferenceName>
+                                <ImmunogenEvidenceCode>Not determined</ImmunogenEvidenceCode>
+                                <Route>Oral</Route>
+                                <DoseSchedule>1 dose of 10^6 PFU</DoseSchedule>
+                            </FirstInVivoProcess>
+                            <InVitroAdministration>
+                                <ProcessType>Restimulation in vitro</ProcessType>
+                                <ResponderCellType>Splenocyte</ResponderCellType>
+                                <StimulatorCellType>Splenocyte</StimulatorCellType>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Epitope</EpitopeRelation>
+                                    <Object>
+                                        <FragmentOfANaturalSequenceMolecule>
+                                            <ChemicalType>Peptide from protein</ChemicalType>
+                                            <LinearSequence>TRVAFAGL</LinearSequence>
+                                            <StartingPosition>94</StartingPosition>
+                                            <EndingPosition>101</EndingPosition>
+                                            <SourceMolecule>
+                                                <GenBankId>A59139</GenBankId>
+                                            </SourceMolecule>
+                                            <SourceOrganismId>90371</SourceOrganismId>
+                                        </FragmentOfANaturalSequenceMolecule>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenEvidenceCode>Exact match to reference information</ImmunogenEvidenceCode>
+                            </InVitroAdministration>
+                            <ImmunizationComments>CTL were generated through in vitro restimulation of splenocytes with the epitope.</ImmunizationComments>
+                        </Immunization>
+                        <EffectorCells>
+                            <CellTissueType>Spleen</CellTissueType>
+                            <CellType>T cell</CellType>
+                            <CellCultureConditions>Short Term Restimulated</CellCultureConditions>
+                        </EffectorCells>
+                        <AntigenPresentingCells>
+                            <CellTissueType>Lymphoid</CellTissueType>
+                            <CellType>RMA-lymphocyte</CellType>
+                            <CellCultureConditions>Cell Line / Clone</CellCultureConditions>
+                        </AntigenPresentingCells>
+                        <MhcAllele>
+                            <MhcAlleleId>122</MhcAlleleId>
+                            <MhcEvidenceCode>Not determined</MhcEvidenceCode>
+                        </MhcAllele>
+                        <Antigen>
+                            <AntigenReferenceName>OmpC 73-80</AntigenReferenceName>
+                            <AntigenObject>
+                                <EpitopeRelation>Epitope</EpitopeRelation>
+                                <Object>
+                                    <FragmentOfANaturalSequenceMolecule>
+                                        <ChemicalType>Peptide from protein</ChemicalType>
+                                        <LinearSequence>TRVAFAGL</LinearSequence>
+                                        <StartingPosition>94</StartingPosition>
+                                        <EndingPosition>101</EndingPosition>
+                                        <SourceMolecule>
+                                            <GenBankId>A59139</GenBankId>
+                                        </SourceMolecule>
+                                        <SourceOrganismId>90371</SourceOrganismId>
+                                    </FragmentOfANaturalSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Exact match to reference information</AntigenEvidenceCode>
+                        </Antigen>
+                        <AssayInformation>
+                            <AssayTypeId>67</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <AssayComments>CTL cells generated through immunization with Salmonella typhimurium lysed RMA-S cells presenting the epitope.</AssayComments>
+                        </AssayInformation>
+                    </TCell>
+                </Assays>
+                <Assays>
+                    <MhcBinding>
+                        <LocationOfData>Figure 1</LocationOfData>
+                        <MhcBindingId>143</MhcBindingId>
+                        <AssayInformation>
+                            <AssayTypeId>185</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                        </AssayInformation>
+                        <MhcAlleleId>122</MhcAlleleId>
+                    </MhcBinding>
+                </Assays>
+                <Assays>
+                    <MhcBinding>
+                        <LocationOfData>Figure 1</LocationOfData>
+                        <MhcBindingId>1277764</MhcBindingId>
+                        <AssayInformation>
+                            <AssayTypeId>185</AssayTypeId>
+                            <QualitativeMeasurement>Negative</QualitativeMeasurement>
+                        </AssayInformation>
+                        <MhcAlleleId>172</MhcAlleleId>
+                    </MhcBinding>
+                </Assays>
+                <Assays>
+                    <MhcBinding>
+                        <LocationOfData>Figure 1</LocationOfData>
+                        <MhcBindingId>1277765</MhcBindingId>
+                        <AssayInformation>
+                            <AssayTypeId>185</AssayTypeId>
+                            <QualitativeMeasurement>Negative</QualitativeMeasurement>
+                        </AssayInformation>
+                        <MhcAlleleId>124</MhcAlleleId>
+                    </MhcBinding>
+                </Assays>
+            </Epitope>
+            <Epitope>
+                <EpitopeName>OmpC 132-139</EpitopeName>
+                <EpitopeStructure>
+                    <FragmentOfANaturalSequenceMolecule>
+                        <ChemicalType>Peptide from protein</ChemicalType>
+                        <LinearSequence>RNTDFFGL</LinearSequence>
+                        <StartingPosition>153</StartingPosition>
+                        <EndingPosition>160</EndingPosition>
+                        <SourceMolecule>
+                            <GenBankId>A59139</GenBankId>
+                        </SourceMolecule>
+                        <SourceOrganismId>90371</SourceOrganismId>
+                    </FragmentOfANaturalSequenceMolecule>
+                </EpitopeStructure>
+                <LocationOfData>Text</LocationOfData>
+                <EpitopeId>55063</EpitopeId>
+                <ReferenceStartingPosition>132</ReferenceStartingPosition>
+                <ReferenceEndingPosition>139</ReferenceEndingPosition>
+                <EpitopeEvidenceCode>Not determined</EpitopeEvidenceCode>
+                <EpitopeStructureDefines>Exact Epitope</EpitopeStructureDefines>
+                <Assays>
+                    <TCell>
+                        <LocationOfData>Figure 2</LocationOfData>
+                        <TCellId>1277770</TCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>10000067</OrganismId>
+                                <MhcAlleleTypesPresent>
+                                    <MhcAlleleId>122</MhcAlleleId>
+                                </MhcAlleleTypesPresent>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Administration in vivo</InVivoProcessType>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Epitope</EpitopeRelation>
+                                    <Object>
+                                        <FragmentOfANaturalSequenceMolecule>
+                                            <ChemicalType>Peptide from protein</ChemicalType>
+                                            <LinearSequence>RNTDFFGL</LinearSequence>
+                                            <StartingPosition>153</StartingPosition>
+                                            <EndingPosition>160</EndingPosition>
+                                            <SourceMolecule>
+                                                <GenBankId>A59139</GenBankId>
+                                            </SourceMolecule>
+                                            <SourceOrganismId>90371</SourceOrganismId>
+                                        </FragmentOfANaturalSequenceMolecule>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenReferenceName>OmpC 132-139</ImmunogenReferenceName>
+                                <ImmunogenEvidenceCode>Exact match to reference information</ImmunogenEvidenceCode>
+                                <Adjuvant>Freund's incomplete (IFA)</Adjuvant>
+                                <Route>Subcutaneous (s.c.)</Route>
+                                <DoseSchedule>3</DoseSchedule>
+                            </FirstInVivoProcess>
+                            <InVitroAdministration>
+                                <ProcessType>Restimulation in vitro</ProcessType>
+                                <ResponderCellType>Splenocyte</ResponderCellType>
+                                <StimulatorCellType>Splenocyte</StimulatorCellType>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Epitope</EpitopeRelation>
+                                    <Object>
+                                        <FragmentOfANaturalSequenceMolecule>
+                                            <ChemicalType>Peptide from protein</ChemicalType>
+                                            <LinearSequence>RNTDFFGL</LinearSequence>
+                                            <StartingPosition>153</StartingPosition>
+                                            <EndingPosition>160</EndingPosition>
+                                            <SourceMolecule>
+                                                <GenBankId>A59139</GenBankId>
+                                            </SourceMolecule>
+                                            <SourceOrganismId>90371</SourceOrganismId>
+                                        </FragmentOfANaturalSequenceMolecule>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenEvidenceCode>Exact match to reference information</ImmunogenEvidenceCode>
+                            </InVitroAdministration>
+                            <ImmunizationComments>Mice were immunized three times at intervals of 1 week.  CTL were generated through in vitro restimulation of splenocytes with the epitope.</ImmunizationComments>
+                        </Immunization>
+                        <EffectorCells>
+                            <CellTissueType>Spleen</CellTissueType>
+                            <CellType>T cell</CellType>
+                            <CellCultureConditions>Short Term Restimulated</CellCultureConditions>
+                        </EffectorCells>
+                        <AntigenPresentingCells>
+                            <CellTissueType>Lymphoid</CellTissueType>
+                            <CellType>RMA-lymphocyte</CellType>
+                            <CellCultureConditions>Cell Line / Clone</CellCultureConditions>
+                        </AntigenPresentingCells>
+                        <MhcAllele>
+                            <MhcAlleleId>122</MhcAlleleId>
+                            <MhcEvidenceCode>Not determined</MhcEvidenceCode>
+                        </MhcAllele>
+                        <Antigen>
+                            <AntigenReferenceName>OmpC 132-139</AntigenReferenceName>
+                            <AntigenObject>
+                                <EpitopeRelation>Epitope</EpitopeRelation>
+                                <Object>
+                                    <FragmentOfANaturalSequenceMolecule>
+                                        <ChemicalType>Peptide from protein</ChemicalType>
+                                        <LinearSequence>RNTDFFGL</LinearSequence>
+                                        <StartingPosition>153</StartingPosition>
+                                        <EndingPosition>160</EndingPosition>
+                                        <SourceMolecule>
+                                            <GenBankId>A59139</GenBankId>
+                                        </SourceMolecule>
+                                        <SourceOrganismId>90371</SourceOrganismId>
+                                    </FragmentOfANaturalSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Exact match to reference information</AntigenEvidenceCode>
+                        </Antigen>
+                        <AssayInformation>
+                            <AssayTypeId>67</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <AssayComments>CTL cells generated through immunization with the epitope lysed RMA-S cells presenting the epitope.</AssayComments>
+                        </AssayInformation>
+                    </TCell>
+                </Assays>
+                <Assays>
+                    <TCell>
+                        <LocationOfData>Figure 2</LocationOfData>
+                        <TCellId>1277771</TCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>10000067</OrganismId>
+                                <MhcAlleleTypesPresent>
+                                    <MhcAlleleId>122</MhcAlleleId>
+                                </MhcAlleleTypesPresent>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Administration in vivo</InVivoProcessType>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Source Organism</EpitopeRelation>
+                                    <Object>
+                                        <Organism>
+                                            <SubType>Organism</SubType>
+                                            <SourceOrganismId>90371</SourceOrganismId>
+                                        </Organism>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenReferenceName>Salmonella typhimurium</ImmunogenReferenceName>
+                                <ImmunogenEvidenceCode>Not determined</ImmunogenEvidenceCode>
+                                <Route>Oral</Route>
+                                <DoseSchedule>1 dose of 10^6 PFU</DoseSchedule>
+                            </FirstInVivoProcess>
+                            <InVitroAdministration>
+                                <ProcessType>Restimulation in vitro</ProcessType>
+                                <ResponderCellType>Splenocyte</ResponderCellType>
+                                <StimulatorCellType>Splenocyte</StimulatorCellType>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Epitope</EpitopeRelation>
+                                    <Object>
+                                        <FragmentOfANaturalSequenceMolecule>
+                                            <ChemicalType>Peptide from protein</ChemicalType>
+                                            <LinearSequence>RNTDFFGL</LinearSequence>
+                                            <StartingPosition>153</StartingPosition>
+                                            <EndingPosition>160</EndingPosition>
+                                            <SourceMolecule>
+                                                <GenBankId>A59139</GenBankId>
+                                            </SourceMolecule>
+                                            <SourceOrganismId>90371</SourceOrganismId>
+                                        </FragmentOfANaturalSequenceMolecule>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenEvidenceCode>Exact match to reference information</ImmunogenEvidenceCode>
+                            </InVitroAdministration>
+                            <ImmunizationComments>CTL were generated through in vitro restimulation of splenocytes with the epitope.</ImmunizationComments>
+                        </Immunization>
+                        <EffectorCells>
+                            <CellTissueType>Spleen</CellTissueType>
+                            <CellType>T cell</CellType>
+                            <CellCultureConditions>Short Term Restimulated</CellCultureConditions>
+                        </EffectorCells>
+                        <AntigenPresentingCells>
+                            <CellTissueType>Lymphoid</CellTissueType>
+                            <CellType>RMA-lymphocyte</CellType>
+                            <CellCultureConditions>Cell Line / Clone</CellCultureConditions>
+                        </AntigenPresentingCells>
+                        <MhcAllele>
+                            <MhcAlleleId>122</MhcAlleleId>
+                            <MhcEvidenceCode>Not determined</MhcEvidenceCode>
+                        </MhcAllele>
+                        <Antigen>
+                            <AntigenReferenceName>OmpC 132-139</AntigenReferenceName>
+                            <AntigenObject>
+                                <EpitopeRelation>Epitope</EpitopeRelation>
+                                <Object>
+                                    <FragmentOfANaturalSequenceMolecule>
+                                        <ChemicalType>Peptide from protein</ChemicalType>
+                                        <LinearSequence>RNTDFFGL</LinearSequence>
+                                        <StartingPosition>153</StartingPosition>
+                                        <EndingPosition>160</EndingPosition>
+                                        <SourceMolecule>
+                                            <GenBankId>A59139</GenBankId>
+                                        </SourceMolecule>
+                                        <SourceOrganismId>90371</SourceOrganismId>
+                                    </FragmentOfANaturalSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Exact match to reference information</AntigenEvidenceCode>
+                        </Antigen>
+                        <AssayInformation>
+                            <AssayTypeId>67</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <AssayComments>CTL cells generated through immunization with Salmonella typhimurium lysed RMA-S cells presenting the epitope.</AssayComments>
+                        </AssayInformation>
+                    </TCell>
+                </Assays>
+                <Assays>
+                    <TCell>
+                        <LocationOfData>Figure 2</LocationOfData>
+                        <TCellId>1277772</TCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>10000067</OrganismId>
+                                <MhcAlleleTypesPresent>
+                                    <MhcAlleleId>122</MhcAlleleId>
+                                </MhcAlleleTypesPresent>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Administration in vivo</InVivoProcessType>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Taxonomic Sibling</EpitopeRelation>
+                                    <Object>
+                                        <Organism>
+                                            <SubType>Organism</SubType>
+                                            <SourceOrganismId>28901</SourceOrganismId>
+                                        </Organism>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenReferenceName>Salmonella enterica</ImmunogenReferenceName>
+                                <ImmunogenEvidenceCode>Not determined</ImmunogenEvidenceCode>
+                                <Route>Intraperitoneal (i.p.)</Route>
+                                <DoseSchedule>1 dose of 5000 PFU</DoseSchedule>
+                            </FirstInVivoProcess>
+                            <InVitroAdministration>
+                                <ProcessType>Restimulation in vitro</ProcessType>
+                                <ResponderCellType>Splenocyte</ResponderCellType>
+                                <StimulatorCellType>Splenocyte</StimulatorCellType>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Epitope</EpitopeRelation>
+                                    <Object>
+                                        <FragmentOfANaturalSequenceMolecule>
+                                            <ChemicalType>Peptide from protein</ChemicalType>
+                                            <LinearSequence>RNTDFFGL</LinearSequence>
+                                            <StartingPosition>153</StartingPosition>
+                                            <EndingPosition>160</EndingPosition>
+                                            <SourceMolecule>
+                                                <GenBankId>A59139</GenBankId>
+                                            </SourceMolecule>
+                                            <SourceOrganismId>90371</SourceOrganismId>
+                                        </FragmentOfANaturalSequenceMolecule>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenEvidenceCode>Exact match to reference information</ImmunogenEvidenceCode>
+                            </InVitroAdministration>
+                            <ImmunizationComments>CTL were generated through in vitro restimulation of splenocytes with the epitope.</ImmunizationComments>
+                        </Immunization>
+                        <EffectorCells>
+                            <CellTissueType>Spleen</CellTissueType>
+                            <CellType>T cell</CellType>
+                            <CellCultureConditions>Short Term Restimulated</CellCultureConditions>
+                        </EffectorCells>
+                        <AntigenPresentingCells>
+                            <CellTissueType>Lymphoid</CellTissueType>
+                            <CellType>RMA-lymphocyte</CellType>
+                            <CellCultureConditions>Cell Line / Clone</CellCultureConditions>
+                        </AntigenPresentingCells>
+                        <MhcAllele>
+                            <MhcAlleleId>122</MhcAlleleId>
+                            <MhcEvidenceCode>Not determined</MhcEvidenceCode>
+                        </MhcAllele>
+                        <Antigen>
+                            <AntigenReferenceName>OmpC 132-139</AntigenReferenceName>
+                            <AntigenObject>
+                                <EpitopeRelation>Epitope</EpitopeRelation>
+                                <Object>
+                                    <FragmentOfANaturalSequenceMolecule>
+                                        <ChemicalType>Peptide from protein</ChemicalType>
+                                        <LinearSequence>RNTDFFGL</LinearSequence>
+                                        <StartingPosition>153</StartingPosition>
+                                        <EndingPosition>160</EndingPosition>
+                                        <SourceMolecule>
+                                            <GenBankId>A59139</GenBankId>
+                                        </SourceMolecule>
+                                        <SourceOrganismId>90371</SourceOrganismId>
+                                    </FragmentOfANaturalSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Exact match to reference information</AntigenEvidenceCode>
+                        </Antigen>
+                        <AssayInformation>
+                            <AssayTypeId>67</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <AssayComments>CTL cells generated through infection with Salmonella enterica lysed RMA-S cells presenting the epitope only when infection was accomplished with the use of mucin to faciltate entry of the bacteria into macrophages, confirming that the CTL reponse is dependent upon macrophage colonization.</AssayComments>
+                        </AssayInformation>
+                    </TCell>
+                </Assays>
+                <Assays>
+                    <MhcBinding>
+                        <LocationOfData>Figure 1</LocationOfData>
+                        <MhcBindingId>1277766</MhcBindingId>
+                        <AssayInformation>
+                            <AssayTypeId>185</AssayTypeId>
+                            <QualitativeMeasurement>Negative</QualitativeMeasurement>
+                        </AssayInformation>
+                        <MhcAlleleId>172</MhcAlleleId>
+                    </MhcBinding>
+                </Assays>
+                <Assays>
+                    <MhcBinding>
+                        <LocationOfData>Figure 1</LocationOfData>
+                        <MhcBindingId>1277767</MhcBindingId>
+                        <AssayInformation>
+                            <AssayTypeId>185</AssayTypeId>
+                            <QualitativeMeasurement>Negative</QualitativeMeasurement>
+                        </AssayInformation>
+                        <MhcAlleleId>124</MhcAlleleId>
+                    </MhcBinding>
+                </Assays>
+                <Assays>
+                    <MhcBinding>
+                        <LocationOfData>Figure 1</LocationOfData>
+                        <MhcBindingId>144</MhcBindingId>
+                        <AssayInformation>
+                            <AssayTypeId>185</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                        </AssayInformation>
+                        <MhcAlleleId>122</MhcAlleleId>
+                    </MhcBinding>
+                </Assays>
+            </Epitope>
+        </Epitopes>
+    </Reference>
+</References>
+

@@ -1,0 +1,2244 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<References xsi:schemaLocation="http://www.iedb.org/schema/CurationSchema http://beta.iedb.org/schema/Curation.xsd" xmlns="http://www.iedb.org/schema/CurationSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <Reference>
+        <ReferenceId>315044</ReferenceId>
+        <DateLastUpdated>2020-09-10-07:00</DateLastUpdated>
+        <Article>
+            <PubmedId>7536796</PubmedId>
+            <Abstract>We established six T cell clones specific for pyruvate dehydrogenase complex (PDC)-E2 peptides from four different patients with primary biliary cirrhosis using 33 different peptides of 17-20 amino acid residues corresponding to human PDC-E2 as stimulating antigens. The minimal T cell epitopes of these six T cell clones were all mapped to the same region of the PDC-E2 peptide 163-176 (GDLLAEIETDKATI), which corresponds to the inner lipoyl domain of PDC-E2. The HLA restriction molecules for this epitope were all identified as HLA DRB4 0101. The common essential amino acids of this epitope for these T cell clones were E, D, and K at positions 170, 172, and 173, respectively; other crucial amino acids for this epitope differed in each T cell clone. In addition, the alanine-substituted peptides at positions 170 and 173, but not 172, inhibited the proliferation of all T cell clones induced by the original peptide of human PDC-E2 163-176, indicating that amino acid D at position 172 is a critical MHC-binding site for all T cell clones tested. Interestingly, all T cell clones reacted to PDC-E2 peptide 36-49 (GDLIAEVETDKATV), which corresponds to the outer lipoyl domain of human PDC-E2. Furthermore, one T cell clone cross-reacted with exogenous antigens such as Escherichia coli PDC-E2 peptide 31-44/134-147/235-248 (EQSLITVEGDKASM), which has an EXDK sequence. This is a definite demonstration of the presence of molecular mimicry at the T cell clonal level in human autoimmune diseases. It is also considered possible to design peptide-specific immunotherapy based on the findings of T cell autoepitopes in primary biliary cirrhosis.</Abstract>
+            <ArticleYear>1995</ArticleYear>
+            <ArticlePages>1835-45</ArticlePages>
+            <ArticleTitle>HLA DRB4 0101-restricted immunodominant T cell autoepitope of pyruvate dehydrogenase complex in primary biliary cirrhosis: evidence of molecular mimicry in human autoimmune diseases.</ArticleTitle>
+            <Authors>
+                <Author>
+                    <LastName>Shimoda</LastName>
+                    <ForeName>S</ForeName>
+                </Author>
+                <Author>
+                    <LastName>Nakamura</LastName>
+                    <ForeName>M</ForeName>
+                </Author>
+                <Author>
+                    <LastName>Ishibashi</LastName>
+                    <ForeName>H</ForeName>
+                </Author>
+                <Author>
+                    <LastName>Hayashida</LastName>
+                    <ForeName>K</ForeName>
+                </Author>
+                <Author>
+                    <LastName>Niho</LastName>
+                    <ForeName>Y</ForeName>
+                </Author>
+            </Authors>
+            <Affiliations>First Department of Internal Medicine, Faculty of Medicine, Kyushu University, Fukuoka, Japan.</Affiliations>
+            <ArticleChemicalList>Epitopes;HLA-DR Antigens;HLA-DRB4 Chains;Peptide Fragments;Pyruvate Dehydrogenase Complex</ArticleChemicalList>
+            <ArticleMeshHeadingsList>Adult; Aged; Amino Acid Sequence; Autoimmune Diseases(immunology); Binding Sites; Epitopes; HLA-DR Antigens(immunology); HLA-DRB4 Chains; Humans; Liver Cirrhosis, Biliary(immunology); Lymphocyte Activation; Middle Aged; Molecular Sequence Data; Peptide Fragments(immunology); Pyruvate Dehydrogenase Complex(immunology); T-Lymphocytes(immunology)</ArticleMeshHeadingsList>
+            <Comments>Data originally imported from the Database of Functional Molecular Immunology, FIMM (http://sdmc.lit.org.sg:8080/fimm/)</Comments>
+            <Journal>
+                <Volume>181</Volume>
+                <Issue>5</Issue>
+                <Title>The Journal of experimental medicine</Title>
+                <Issn>0022-1007</Issn>
+                <MedlineTa>J Exp Med</MedlineTa>
+            </Journal>
+        </Article>
+        <Epitopes>
+            <Epitope>
+                <EpitopeName>PDC-E2 (163-176)</EpitopeName>
+                <EpitopeStructure>
+                    <FragmentOfANaturalSequenceMolecule>
+                        <ChemicalType>Peptide from protein</ChemicalType>
+                        <LinearSequence>GDLLAEIETDKATI</LinearSequence>
+                        <StartingPosition>249</StartingPosition>
+                        <EndingPosition>262</EndingPosition>
+                        <SourceMolecule>
+                            <GenBankId>EAW67174.1</GenBankId>
+                        </SourceMolecule>
+                        <SourceOrganismId>9606</SourceOrganismId>
+                    </FragmentOfANaturalSequenceMolecule>
+                </EpitopeStructure>
+                <LocationOfData>Figure 7</LocationOfData>
+                <EpitopeId>122098</EpitopeId>
+                <ReferenceStartingPosition>163</ReferenceStartingPosition>
+                <ReferenceEndingPosition>176</ReferenceEndingPosition>
+                <EpitopeEvidenceCode>Representative selection</EpitopeEvidenceCode>
+                <EpitopeStructureDefines>Exact Epitope</EpitopeStructureDefines>
+                <Assays>
+                    <TCell>
+                        <LocationOfData>Figure 9</LocationOfData>
+                        <TCellId>1714105</TCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>9606</OrganismId>
+                                <Age>38-67 years</Age>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Occurrence of disease</InVivoProcessType>
+                                <DiseaseState>DOID:12236</DiseaseState>
+                                <DiseaseStage>Chronic</DiseaseStage>
+                            </FirstInVivoProcess>
+                            <InVitroAdministration>
+                                <ProcessType>Primary induction in vitro</ProcessType>
+                                <ResponderCellType>PBMC</ResponderCellType>
+                                <StimulatorCellType>PBMC</StimulatorCellType>
+                                <ImmunogenReferenceName>PDC-E2 (163-182)</ImmunogenReferenceName>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Fragment of Source Antigen</EpitopeRelation>
+                                    <Object>
+                                        <FragmentOfANaturalSequenceMolecule>
+                                            <ChemicalType>Peptide from protein</ChemicalType>
+                                            <LinearSequence>GDLLAEIETDKATIGFEVQE</LinearSequence>
+                                            <StartingPosition>249</StartingPosition>
+                                            <EndingPosition>268</EndingPosition>
+                                            <SourceMolecule>
+                                                <GenBankId>EAW67174.1</GenBankId>
+                                            </SourceMolecule>
+                                            <SourceOrganismId>9606</SourceOrganismId>
+                                        </FragmentOfANaturalSequenceMolecule>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenEvidenceCode>Exact match to reference information</ImmunogenEvidenceCode>
+                            </InVitroAdministration>
+                            <ImmunizationComments>PBMCs were obtained from patients with primary biliary cirrhosis. Epitope-specific T cell clones were generated by restimulation with a pool of peptides containing the epitope.</ImmunizationComments>
+                        </Immunization>
+                        <EffectorCells>
+                            <CellTissueType>Blood</CellTissueType>
+                            <CellType>T cell CD4+</CellType>
+                            <CellCultureConditions>Cell Line / Clone</CellCultureConditions>
+                        </EffectorCells>
+                        <AntigenPresentingCells>
+                            <CellTissueType>Blood</CellTissueType>
+                            <CellType>PBMC</CellType>
+                            <CellCultureConditions>Direct Ex Vivo</CellCultureConditions>
+                            <AutologousOrSyngeneic>Y</AutologousOrSyngeneic>
+                        </AntigenPresentingCells>
+                        <MhcAllele>
+                            <MhcAlleleId>363</MhcAlleleId>
+                            <MhcEvidenceCode>T cell assay -Mismatched MHC molecules</MhcEvidenceCode>
+                        </MhcAllele>
+                        <Antigen>
+                            <AntigenReferenceName>Human PDC-E2 (36-49)</AntigenReferenceName>
+                            <AntigenObject>
+                                <EpitopeRelation>Other Structure from Source Organism</EpitopeRelation>
+                                <Object>
+                                    <FragmentOfANaturalSequenceMolecule>
+                                        <ChemicalType>Peptide from protein</ChemicalType>
+                                        <LinearSequence>GDLIAEVETDKATV</LinearSequence>
+                                        <StartingPosition>122</StartingPosition>
+                                        <EndingPosition>135</EndingPosition>
+                                        <SourceMolecule>
+                                            <GenBankId>EAW67174.1</GenBankId>
+                                        </SourceMolecule>
+                                        <SourceOrganismId>9606</SourceOrganismId>
+                                    </FragmentOfANaturalSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Exact match to reference information</AntigenEvidenceCode>
+                        </Antigen>
+                        <AssayInformation>
+                            <AssayTypeId>69</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <NumberOfSubjectsTested>2</NumberOfSubjectsTested>
+                            <NumberOfSubjectsResponded>2</NumberOfSubjectsResponded>
+                            <ResponseFrequency>100</ResponseFrequency>
+                            <AssayComments>Epitope-specific clones proliferated in response to human PDC-E2 (36-49).</AssayComments>
+                        </AssayInformation>
+                    </TCell>
+                </Assays>
+                <Assays>
+                    <TCell>
+                        <LocationOfData>Figure 9</LocationOfData>
+                        <TCellId>1714106</TCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>9606</OrganismId>
+                                <Age>38-67 years</Age>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Occurrence of disease</InVivoProcessType>
+                                <DiseaseState>DOID:12236</DiseaseState>
+                                <DiseaseStage>Chronic</DiseaseStage>
+                            </FirstInVivoProcess>
+                            <InVitroAdministration>
+                                <ProcessType>Primary induction in vitro</ProcessType>
+                                <ResponderCellType>PBMC</ResponderCellType>
+                                <StimulatorCellType>PBMC</StimulatorCellType>
+                                <ImmunogenReferenceName>PDC-E2 (163-182)</ImmunogenReferenceName>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Fragment of Source Antigen</EpitopeRelation>
+                                    <Object>
+                                        <FragmentOfANaturalSequenceMolecule>
+                                            <ChemicalType>Peptide from protein</ChemicalType>
+                                            <LinearSequence>GDLLAEIETDKATIGFEVQE</LinearSequence>
+                                            <StartingPosition>249</StartingPosition>
+                                            <EndingPosition>268</EndingPosition>
+                                            <SourceMolecule>
+                                                <GenBankId>EAW67174.1</GenBankId>
+                                            </SourceMolecule>
+                                            <SourceOrganismId>9606</SourceOrganismId>
+                                        </FragmentOfANaturalSequenceMolecule>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenEvidenceCode>Exact match to reference information</ImmunogenEvidenceCode>
+                            </InVitroAdministration>
+                            <ImmunizationComments>PBMCs were obtained from patients with primary biliary cirrhosis. Epitope-specific T cell clones were generated by restimulation with a pool of peptides containing the epitope.</ImmunizationComments>
+                        </Immunization>
+                        <EffectorCells>
+                            <CellTissueType>Blood</CellTissueType>
+                            <CellType>T cell CD4+</CellType>
+                            <CellCultureConditions>Cell Line / Clone</CellCultureConditions>
+                        </EffectorCells>
+                        <AntigenPresentingCells>
+                            <CellTissueType>Blood</CellTissueType>
+                            <CellType>PBMC</CellType>
+                            <CellCultureConditions>Direct Ex Vivo</CellCultureConditions>
+                            <AutologousOrSyngeneic>Y</AutologousOrSyngeneic>
+                        </AntigenPresentingCells>
+                        <MhcAllele>
+                            <MhcAlleleId>363</MhcAlleleId>
+                            <MhcEvidenceCode>T cell assay -Mismatched MHC molecules</MhcEvidenceCode>
+                        </MhcAllele>
+                        <Antigen>
+                            <AntigenReferenceName>E. coli PDC-E2 (31-44)</AntigenReferenceName>
+                            <AntigenObject>
+                                <EpitopeRelation>Structurally Related</EpitopeRelation>
+                                <Object>
+                                    <FragmentOfANaturalSequenceMolecule>
+                                        <ChemicalType>Peptide from protein</ChemicalType>
+                                        <LinearSequence>EQSLITVEGDKASM</LinearSequence>
+                                        <StartingPosition>31</StartingPosition>
+                                        <EndingPosition>44</EndingPosition>
+                                        <SourceMolecule>
+                                            <GenBankId>1QJO_A</GenBankId>
+                                        </SourceMolecule>
+                                        <SourceOrganismId>562</SourceOrganismId>
+                                    </FragmentOfANaturalSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Exact match to reference information</AntigenEvidenceCode>
+                        </Antigen>
+                        <AssayInformation>
+                            <AssayTypeId>69</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <NumberOfSubjectsTested>1</NumberOfSubjectsTested>
+                            <NumberOfSubjectsResponded>1</NumberOfSubjectsResponded>
+                            <ResponseFrequency>100</ResponseFrequency>
+                            <AssayComments>Epitope-specific clones proliferated in response to E. coli PDC-E2 (31-44).</AssayComments>
+                        </AssayInformation>
+                    </TCell>
+                </Assays>
+                <Assays>
+                    <TCell>
+                        <LocationOfData>Figures 5, 6 and 9</LocationOfData>
+                        <TCellId>1714097</TCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>9606</OrganismId>
+                                <Age>38-67 years</Age>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Occurrence of disease</InVivoProcessType>
+                                <DiseaseState>DOID:12236</DiseaseState>
+                                <DiseaseStage>Chronic</DiseaseStage>
+                            </FirstInVivoProcess>
+                            <InVitroAdministration>
+                                <ProcessType>Primary induction in vitro</ProcessType>
+                                <ResponderCellType>PBMC</ResponderCellType>
+                                <StimulatorCellType>PBMC</StimulatorCellType>
+                                <ImmunogenReferenceName>PDC-E2 (163-182)</ImmunogenReferenceName>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Fragment of Source Antigen</EpitopeRelation>
+                                    <Object>
+                                        <FragmentOfANaturalSequenceMolecule>
+                                            <ChemicalType>Peptide from protein</ChemicalType>
+                                            <LinearSequence>GDLLAEIETDKATIGFEVQE</LinearSequence>
+                                            <StartingPosition>249</StartingPosition>
+                                            <EndingPosition>268</EndingPosition>
+                                            <SourceMolecule>
+                                                <GenBankId>EAW67174.1</GenBankId>
+                                            </SourceMolecule>
+                                            <SourceOrganismId>9606</SourceOrganismId>
+                                        </FragmentOfANaturalSequenceMolecule>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenEvidenceCode>Exact match to reference information</ImmunogenEvidenceCode>
+                            </InVitroAdministration>
+                            <ImmunizationComments>PBMCs were obtained from patients with primary biliary cirrhosis. Epitope-specific T cell clones were generated by restimulation with a pool of peptides containing the epitope.</ImmunizationComments>
+                        </Immunization>
+                        <EffectorCells>
+                            <CellTissueType>Blood</CellTissueType>
+                            <CellType>T cell CD4+</CellType>
+                            <CellCultureConditions>Cell Line / Clone</CellCultureConditions>
+                        </EffectorCells>
+                        <AntigenPresentingCells>
+                            <CellTissueType>Blood</CellTissueType>
+                            <CellType>PBMC</CellType>
+                            <CellCultureConditions>Direct Ex Vivo</CellCultureConditions>
+                            <AutologousOrSyngeneic>Y</AutologousOrSyngeneic>
+                        </AntigenPresentingCells>
+                        <MhcAllele>
+                            <MhcAlleleId>363</MhcAlleleId>
+                            <MhcEvidenceCode>T cell assay -Mismatched MHC molecules</MhcEvidenceCode>
+                        </MhcAllele>
+                        <Antigen>
+                            <AntigenObject>
+                                <EpitopeRelation>Epitope</EpitopeRelation>
+                                <Object>
+                                    <FragmentOfANaturalSequenceMolecule>
+                                        <ChemicalType>Peptide from protein</ChemicalType>
+                                        <LinearSequence>GDLLAEIETDKATI</LinearSequence>
+                                        <StartingPosition>249</StartingPosition>
+                                        <EndingPosition>262</EndingPosition>
+                                        <SourceMolecule>
+                                            <GenBankId>EAW67174.1</GenBankId>
+                                        </SourceMolecule>
+                                        <SourceOrganismId>9606</SourceOrganismId>
+                                    </FragmentOfANaturalSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Exact match to reference information</AntigenEvidenceCode>
+                        </Antigen>
+                        <AssayInformation>
+                            <AssayTypeId>69</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <NumberOfSubjectsTested>4</NumberOfSubjectsTested>
+                            <NumberOfSubjectsResponded>4</NumberOfSubjectsResponded>
+                            <ResponseFrequency>100</ResponseFrequency>
+                            <AssayComments>Epitope-specific clones proliferated in response to the epitope. Residues at position 3-11 are important for recognition.</AssayComments>
+                        </AssayInformation>
+                    </TCell>
+                </Assays>
+                <Assays>
+                    <TCell>
+                        <LocationOfData>Table 1, Figures 2, 3, 4 and 5</LocationOfData>
+                        <TCellId>1714101</TCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>9606</OrganismId>
+                                <Age>38-67 years</Age>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Occurrence of disease</InVivoProcessType>
+                                <DiseaseState>DOID:12236</DiseaseState>
+                                <DiseaseStage>Chronic</DiseaseStage>
+                            </FirstInVivoProcess>
+                            <InVitroAdministration>
+                                <ProcessType>Primary induction in vitro</ProcessType>
+                                <ResponderCellType>PBMC</ResponderCellType>
+                                <StimulatorCellType>PBMC</StimulatorCellType>
+                                <ImmunogenReferenceName>PDC-E2 (163-182)</ImmunogenReferenceName>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Fragment of Source Antigen</EpitopeRelation>
+                                    <Object>
+                                        <FragmentOfANaturalSequenceMolecule>
+                                            <ChemicalType>Peptide from protein</ChemicalType>
+                                            <LinearSequence>GDLLAEIETDKATIGFEVQE</LinearSequence>
+                                            <StartingPosition>249</StartingPosition>
+                                            <EndingPosition>268</EndingPosition>
+                                            <SourceMolecule>
+                                                <GenBankId>EAW67174.1</GenBankId>
+                                            </SourceMolecule>
+                                            <SourceOrganismId>9606</SourceOrganismId>
+                                        </FragmentOfANaturalSequenceMolecule>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenEvidenceCode>Exact match to reference information</ImmunogenEvidenceCode>
+                            </InVitroAdministration>
+                            <ImmunizationComments>PBMCs were obtained from patients with primary biliary cirrhosis. Epitope-specific T cell clones were generated by restimulation with a pool of peptides containing the epitope.</ImmunizationComments>
+                        </Immunization>
+                        <EffectorCells>
+                            <CellTissueType>Blood</CellTissueType>
+                            <CellType>T cell CD4+</CellType>
+                            <CellCultureConditions>Cell Line / Clone</CellCultureConditions>
+                        </EffectorCells>
+                        <AntigenPresentingCells>
+                            <CellTissueType>Blood</CellTissueType>
+                            <CellType>PBMC</CellType>
+                            <CellCultureConditions>Direct Ex Vivo</CellCultureConditions>
+                            <AutologousOrSyngeneic>Y</AutologousOrSyngeneic>
+                        </AntigenPresentingCells>
+                        <MhcAllele>
+                            <MhcAlleleId>363</MhcAlleleId>
+                            <MhcEvidenceCode>T cell assay -Mismatched MHC molecules</MhcEvidenceCode>
+                        </MhcAllele>
+                        <Antigen>
+                            <AntigenReferenceName>PDC-E2 (163-182)</AntigenReferenceName>
+                            <AntigenObject>
+                                <EpitopeRelation>Fragment of Source Antigen</EpitopeRelation>
+                                <Object>
+                                    <FragmentOfANaturalSequenceMolecule>
+                                        <ChemicalType>Peptide from protein</ChemicalType>
+                                        <LinearSequence>GDLLAEIETDKATIGFEVQE</LinearSequence>
+                                        <StartingPosition>249</StartingPosition>
+                                        <EndingPosition>268</EndingPosition>
+                                        <SourceMolecule>
+                                            <GenBankId>EAW67174.1</GenBankId>
+                                        </SourceMolecule>
+                                        <SourceOrganismId>9606</SourceOrganismId>
+                                    </FragmentOfANaturalSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Exact match to reference information</AntigenEvidenceCode>
+                        </Antigen>
+                        <AssayInformation>
+                            <AssayTypeId>69</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <NumberOfSubjectsTested>4</NumberOfSubjectsTested>
+                            <NumberOfSubjectsResponded>4</NumberOfSubjectsResponded>
+                            <ResponseFrequency>100</ResponseFrequency>
+                            <AssayComments>Epitope-specific clones proliferated in response to the epitope-containing peptide.</AssayComments>
+                        </AssayInformation>
+                    </TCell>
+                </Assays>
+            </Epitope>
+            <Epitope>
+                <EpitopeName>PDC-E2 (36-49)</EpitopeName>
+                <EpitopeStructure>
+                    <FragmentOfANaturalSequenceMolecule>
+                        <ChemicalType>Peptide from protein</ChemicalType>
+                        <LinearSequence>GDLIAEVETDKATV</LinearSequence>
+                        <StartingPosition>122</StartingPosition>
+                        <EndingPosition>135</EndingPosition>
+                        <SourceMolecule>
+                            <GenBankId>EAW67174.1</GenBankId>
+                        </SourceMolecule>
+                        <SourceOrganismId>9606</SourceOrganismId>
+                    </FragmentOfANaturalSequenceMolecule>
+                </EpitopeStructure>
+                <LocationOfData>Figure 9</LocationOfData>
+                <EpitopeId>125061</EpitopeId>
+                <ReferenceStartingPosition>36</ReferenceStartingPosition>
+                <ReferenceEndingPosition>49</ReferenceEndingPosition>
+                <EpitopeEvidenceCode>Representative selection</EpitopeEvidenceCode>
+                <EpitopeStructureDefines>Exact Epitope</EpitopeStructureDefines>
+                <Assays>
+                    <TCell>
+                        <LocationOfData>Figure 9</LocationOfData>
+                        <TCellId>1714108</TCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>9606</OrganismId>
+                                <Age>38-67 years</Age>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Occurrence of disease</InVivoProcessType>
+                                <DiseaseState>DOID:12236</DiseaseState>
+                                <DiseaseStage>Chronic</DiseaseStage>
+                            </FirstInVivoProcess>
+                            <InVitroAdministration>
+                                <ProcessType>Primary induction in vitro</ProcessType>
+                                <ResponderCellType>PBMC</ResponderCellType>
+                                <StimulatorCellType>PBMC</StimulatorCellType>
+                                <ImmunogenReferenceName>PDC-E2 (163-182)</ImmunogenReferenceName>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Other Structure from Source Organism</EpitopeRelation>
+                                    <Object>
+                                        <FragmentOfANaturalSequenceMolecule>
+                                            <ChemicalType>Peptide from protein</ChemicalType>
+                                            <LinearSequence>GDLLAEIETDKATIGFEVQE</LinearSequence>
+                                            <StartingPosition>249</StartingPosition>
+                                            <EndingPosition>268</EndingPosition>
+                                            <SourceMolecule>
+                                                <GenBankId>EAW67174.1</GenBankId>
+                                            </SourceMolecule>
+                                            <SourceOrganismId>9606</SourceOrganismId>
+                                        </FragmentOfANaturalSequenceMolecule>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenEvidenceCode>Exact match to reference information</ImmunogenEvidenceCode>
+                            </InVitroAdministration>
+                            <ImmunizationComments>PBMCs were obtained from patients with primary biliary cirrhosis. Epitope-specific T cell clones were generated by restimulation with a pool of peptides containing human PDC-E2 (163-182).</ImmunizationComments>
+                        </Immunization>
+                        <EffectorCells>
+                            <CellTissueType>Blood</CellTissueType>
+                            <CellType>T cell CD4+</CellType>
+                            <CellCultureConditions>Cell Line / Clone</CellCultureConditions>
+                        </EffectorCells>
+                        <AntigenPresentingCells>
+                            <CellTissueType>Blood</CellTissueType>
+                            <CellType>PBMC</CellType>
+                            <CellCultureConditions>Direct Ex Vivo</CellCultureConditions>
+                            <AutologousOrSyngeneic>Y</AutologousOrSyngeneic>
+                        </AntigenPresentingCells>
+                        <MhcAllele>
+                            <MhcAlleleId>304</MhcAlleleId>
+                            <MhcEvidenceCode>T cell assay -T cell subset identification</MhcEvidenceCode>
+                        </MhcAllele>
+                        <Antigen>
+                            <AntigenReferenceName>Human PDC-E2 (163-176)</AntigenReferenceName>
+                            <AntigenObject>
+                                <EpitopeRelation>Other Structure from Source Organism</EpitopeRelation>
+                                <Object>
+                                    <FragmentOfANaturalSequenceMolecule>
+                                        <ChemicalType>Peptide from protein</ChemicalType>
+                                        <LinearSequence>GDLLAEIETDKATI</LinearSequence>
+                                        <StartingPosition>249</StartingPosition>
+                                        <EndingPosition>262</EndingPosition>
+                                        <SourceMolecule>
+                                            <GenBankId>EAW67174.1</GenBankId>
+                                        </SourceMolecule>
+                                        <SourceOrganismId>9606</SourceOrganismId>
+                                    </FragmentOfANaturalSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Exact match to reference information</AntigenEvidenceCode>
+                        </Antigen>
+                        <AssayInformation>
+                            <AssayTypeId>69</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <NumberOfSubjectsTested>2</NumberOfSubjectsTested>
+                            <NumberOfSubjectsResponded>2</NumberOfSubjectsResponded>
+                            <ResponseFrequency>100</ResponseFrequency>
+                            <AssayComments>Epitope-specific clones proliferated in response to human PDC-E2 (163-176).</AssayComments>
+                        </AssayInformation>
+                    </TCell>
+                </Assays>
+                <Assays>
+                    <TCell>
+                        <LocationOfData>Figure 9</LocationOfData>
+                        <TCellId>1714111</TCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>9606</OrganismId>
+                                <Age>38-67 years</Age>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Occurrence of disease</InVivoProcessType>
+                                <DiseaseState>DOID:12236</DiseaseState>
+                                <DiseaseStage>Chronic</DiseaseStage>
+                            </FirstInVivoProcess>
+                            <InVitroAdministration>
+                                <ProcessType>Primary induction in vitro</ProcessType>
+                                <ResponderCellType>PBMC</ResponderCellType>
+                                <StimulatorCellType>PBMC</StimulatorCellType>
+                                <ImmunogenReferenceName>PDC-E2 (163-182)</ImmunogenReferenceName>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Other Structure from Source Organism</EpitopeRelation>
+                                    <Object>
+                                        <FragmentOfANaturalSequenceMolecule>
+                                            <ChemicalType>Peptide from protein</ChemicalType>
+                                            <LinearSequence>GDLLAEIETDKATIGFEVQE</LinearSequence>
+                                            <StartingPosition>249</StartingPosition>
+                                            <EndingPosition>268</EndingPosition>
+                                            <SourceMolecule>
+                                                <GenBankId>EAW67174.1</GenBankId>
+                                            </SourceMolecule>
+                                            <SourceOrganismId>9606</SourceOrganismId>
+                                        </FragmentOfANaturalSequenceMolecule>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenEvidenceCode>Exact match to reference information</ImmunogenEvidenceCode>
+                            </InVitroAdministration>
+                            <ImmunizationComments>PBMCs were obtained from patients with primary biliary cirrhosis. Epitope-specific T cell clones were generated by restimulation with a pool of peptides containing human PDC-E2 (163-182).</ImmunizationComments>
+                        </Immunization>
+                        <EffectorCells>
+                            <CellTissueType>Blood</CellTissueType>
+                            <CellType>T cell CD4+</CellType>
+                            <CellCultureConditions>Cell Line / Clone</CellCultureConditions>
+                        </EffectorCells>
+                        <AntigenPresentingCells>
+                            <CellTissueType>Blood</CellTissueType>
+                            <CellType>PBMC</CellType>
+                            <CellCultureConditions>Direct Ex Vivo</CellCultureConditions>
+                            <AutologousOrSyngeneic>Y</AutologousOrSyngeneic>
+                        </AntigenPresentingCells>
+                        <MhcAllele>
+                            <MhcAlleleId>304</MhcAlleleId>
+                            <MhcEvidenceCode>T cell assay -T cell subset identification</MhcEvidenceCode>
+                        </MhcAllele>
+                        <Antigen>
+                            <AntigenObject>
+                                <EpitopeRelation>Epitope</EpitopeRelation>
+                                <Object>
+                                    <FragmentOfANaturalSequenceMolecule>
+                                        <ChemicalType>Peptide from protein</ChemicalType>
+                                        <LinearSequence>GDLIAEVETDKATV</LinearSequence>
+                                        <StartingPosition>122</StartingPosition>
+                                        <EndingPosition>135</EndingPosition>
+                                        <SourceMolecule>
+                                            <GenBankId>EAW67174.1</GenBankId>
+                                        </SourceMolecule>
+                                        <SourceOrganismId>9606</SourceOrganismId>
+                                    </FragmentOfANaturalSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Exact match to reference information</AntigenEvidenceCode>
+                        </Antigen>
+                        <AssayInformation>
+                            <AssayTypeId>69</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <NumberOfSubjectsTested>2</NumberOfSubjectsTested>
+                            <NumberOfSubjectsResponded>2</NumberOfSubjectsResponded>
+                            <ResponseFrequency>100</ResponseFrequency>
+                            <AssayComments>Epitope-specific clones proliferated in response to the epitope.</AssayComments>
+                        </AssayInformation>
+                    </TCell>
+                </Assays>
+            </Epitope>
+            <Epitope>
+                <EpitopeName>E. coli PDC-E2 (31-44)</EpitopeName>
+                <EpitopeStructure>
+                    <FragmentOfANaturalSequenceMolecule>
+                        <ChemicalType>Peptide from protein</ChemicalType>
+                        <LinearSequence>EQSLITVEGDKASM</LinearSequence>
+                        <StartingPosition>31</StartingPosition>
+                        <EndingPosition>44</EndingPosition>
+                        <SourceMolecule>
+                            <GenBankId>1QJO_A</GenBankId>
+                        </SourceMolecule>
+                        <SourceOrganismId>562</SourceOrganismId>
+                    </FragmentOfANaturalSequenceMolecule>
+                </EpitopeStructure>
+                <LocationOfData>Figure 9</LocationOfData>
+                <EpitopeId>125035</EpitopeId>
+                <EpitopeEvidenceCode>Representative selection</EpitopeEvidenceCode>
+                <EpitopeStructureDefines>Exact Epitope</EpitopeStructureDefines>
+                <Assays>
+                    <TCell>
+                        <LocationOfData>Figure 9</LocationOfData>
+                        <TCellId>1714113</TCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>9606</OrganismId>
+                                <Age>38-67 years</Age>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Occurrence of disease</InVivoProcessType>
+                                <DiseaseState>DOID:12236</DiseaseState>
+                                <DiseaseStage>Chronic</DiseaseStage>
+                            </FirstInVivoProcess>
+                            <InVitroAdministration>
+                                <ProcessType>Primary induction in vitro</ProcessType>
+                                <ResponderCellType>PBMC</ResponderCellType>
+                                <StimulatorCellType>PBMC</StimulatorCellType>
+                                <ImmunogenReferenceName>Human PDC-E2 (163-182)</ImmunogenReferenceName>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Structurally Related</EpitopeRelation>
+                                    <Object>
+                                        <FragmentOfANaturalSequenceMolecule>
+                                            <ChemicalType>Peptide from protein</ChemicalType>
+                                            <LinearSequence>GDLLAEIETDKATIGFEVQE</LinearSequence>
+                                            <StartingPosition>249</StartingPosition>
+                                            <EndingPosition>268</EndingPosition>
+                                            <SourceMolecule>
+                                                <GenBankId>EAW67174.1</GenBankId>
+                                            </SourceMolecule>
+                                            <SourceOrganismId>9606</SourceOrganismId>
+                                        </FragmentOfANaturalSequenceMolecule>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenEvidenceCode>Exact match to reference information</ImmunogenEvidenceCode>
+                            </InVitroAdministration>
+                            <ImmunizationComments>PBMCs were obtained from patients with primary biliary cirrhosis. Epitope-specific T cell clones were generated by restimulation with a pool of peptides containing human PDC-E2 (163-182).</ImmunizationComments>
+                        </Immunization>
+                        <EffectorCells>
+                            <CellTissueType>Blood</CellTissueType>
+                            <CellType>T cell CD4+</CellType>
+                            <CellCultureConditions>Cell Line / Clone</CellCultureConditions>
+                        </EffectorCells>
+                        <AntigenPresentingCells>
+                            <CellTissueType>Blood</CellTissueType>
+                            <CellType>PBMC</CellType>
+                            <CellCultureConditions>Direct Ex Vivo</CellCultureConditions>
+                            <AutologousOrSyngeneic>Y</AutologousOrSyngeneic>
+                        </AntigenPresentingCells>
+                        <MhcAllele>
+                            <MhcAlleleId>304</MhcAlleleId>
+                            <MhcEvidenceCode>T cell assay -T cell subset identification</MhcEvidenceCode>
+                        </MhcAllele>
+                        <Antigen>
+                            <AntigenObject>
+                                <EpitopeRelation>Epitope</EpitopeRelation>
+                                <Object>
+                                    <FragmentOfANaturalSequenceMolecule>
+                                        <ChemicalType>Peptide from protein</ChemicalType>
+                                        <LinearSequence>EQSLITVEGDKASM</LinearSequence>
+                                        <StartingPosition>31</StartingPosition>
+                                        <EndingPosition>44</EndingPosition>
+                                        <SourceMolecule>
+                                            <GenBankId>1QJO_A</GenBankId>
+                                        </SourceMolecule>
+                                        <SourceOrganismId>562</SourceOrganismId>
+                                    </FragmentOfANaturalSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Exact match to reference information</AntigenEvidenceCode>
+                        </Antigen>
+                        <AssayInformation>
+                            <AssayTypeId>69</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <NumberOfSubjectsTested>1</NumberOfSubjectsTested>
+                            <NumberOfSubjectsResponded>1</NumberOfSubjectsResponded>
+                            <ResponseFrequency>100</ResponseFrequency>
+                            <AssayComments>Epitope-specific clones proliferated in response to the epitope.</AssayComments>
+                        </AssayInformation>
+                    </TCell>
+                </Assays>
+                <Assays>
+                    <TCell>
+                        <LocationOfData>Figure 9</LocationOfData>
+                        <TCellId>1714112</TCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>9606</OrganismId>
+                                <Age>38-67 years</Age>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Occurrence of disease</InVivoProcessType>
+                                <DiseaseState>DOID:12236</DiseaseState>
+                                <DiseaseStage>Chronic</DiseaseStage>
+                            </FirstInVivoProcess>
+                            <InVitroAdministration>
+                                <ProcessType>Primary induction in vitro</ProcessType>
+                                <ResponderCellType>PBMC</ResponderCellType>
+                                <StimulatorCellType>PBMC</StimulatorCellType>
+                                <ImmunogenReferenceName>Human PDC-E2 (163-182)</ImmunogenReferenceName>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Structurally Related</EpitopeRelation>
+                                    <Object>
+                                        <FragmentOfANaturalSequenceMolecule>
+                                            <ChemicalType>Peptide from protein</ChemicalType>
+                                            <LinearSequence>GDLLAEIETDKATIGFEVQE</LinearSequence>
+                                            <StartingPosition>249</StartingPosition>
+                                            <EndingPosition>268</EndingPosition>
+                                            <SourceMolecule>
+                                                <GenBankId>EAW67174.1</GenBankId>
+                                            </SourceMolecule>
+                                            <SourceOrganismId>9606</SourceOrganismId>
+                                        </FragmentOfANaturalSequenceMolecule>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenEvidenceCode>Exact match to reference information</ImmunogenEvidenceCode>
+                            </InVitroAdministration>
+                            <ImmunizationComments>PBMCs were obtained from patients with primary biliary cirrhosis. Epitope-specific T cell clones were generated by restimulation with a pool of peptides containing human PDC-E2 (163-182).</ImmunizationComments>
+                        </Immunization>
+                        <EffectorCells>
+                            <CellTissueType>Blood</CellTissueType>
+                            <CellType>T cell CD4+</CellType>
+                            <CellCultureConditions>Cell Line / Clone</CellCultureConditions>
+                        </EffectorCells>
+                        <AntigenPresentingCells>
+                            <CellTissueType>Blood</CellTissueType>
+                            <CellType>PBMC</CellType>
+                            <CellCultureConditions>Direct Ex Vivo</CellCultureConditions>
+                            <AutologousOrSyngeneic>Y</AutologousOrSyngeneic>
+                        </AntigenPresentingCells>
+                        <MhcAllele>
+                            <MhcAlleleId>304</MhcAlleleId>
+                            <MhcEvidenceCode>T cell assay -T cell subset identification</MhcEvidenceCode>
+                        </MhcAllele>
+                        <Antigen>
+                            <AntigenReferenceName>Human PDC-E2 (163-176)</AntigenReferenceName>
+                            <AntigenObject>
+                                <EpitopeRelation>Structurally Related</EpitopeRelation>
+                                <Object>
+                                    <FragmentOfANaturalSequenceMolecule>
+                                        <ChemicalType>Peptide from protein</ChemicalType>
+                                        <LinearSequence>GDLLAEIETDKATI</LinearSequence>
+                                        <StartingPosition>249</StartingPosition>
+                                        <EndingPosition>262</EndingPosition>
+                                        <SourceMolecule>
+                                            <GenBankId>EAW67174.1</GenBankId>
+                                        </SourceMolecule>
+                                        <SourceOrganismId>9606</SourceOrganismId>
+                                    </FragmentOfANaturalSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Exact match to reference information</AntigenEvidenceCode>
+                        </Antigen>
+                        <AssayInformation>
+                            <AssayTypeId>69</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <NumberOfSubjectsTested>2</NumberOfSubjectsTested>
+                            <NumberOfSubjectsResponded>2</NumberOfSubjectsResponded>
+                            <ResponseFrequency>100</ResponseFrequency>
+                            <AssayComments>Epitope-specific clones proliferated in response to human PDC-E2 (163-176).</AssayComments>
+                        </AssayInformation>
+                    </TCell>
+                </Assays>
+                <Assays>
+                    <TCell>
+                        <LocationOfData>Figure 9</LocationOfData>
+                        <TCellId>1714114</TCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>9606</OrganismId>
+                                <Age>38-67 years</Age>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Occurrence of disease</InVivoProcessType>
+                                <DiseaseState>DOID:12236</DiseaseState>
+                                <DiseaseStage>Chronic</DiseaseStage>
+                            </FirstInVivoProcess>
+                            <InVitroAdministration>
+                                <ProcessType>Primary induction in vitro</ProcessType>
+                                <ResponderCellType>PBMC</ResponderCellType>
+                                <StimulatorCellType>PBMC</StimulatorCellType>
+                                <ImmunogenReferenceName>Human PDC-E2 (163-182)</ImmunogenReferenceName>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Structurally Related</EpitopeRelation>
+                                    <Object>
+                                        <FragmentOfANaturalSequenceMolecule>
+                                            <ChemicalType>Peptide from protein</ChemicalType>
+                                            <LinearSequence>GDLLAEIETDKATIGFEVQE</LinearSequence>
+                                            <StartingPosition>249</StartingPosition>
+                                            <EndingPosition>268</EndingPosition>
+                                            <SourceMolecule>
+                                                <GenBankId>EAW67174.1</GenBankId>
+                                            </SourceMolecule>
+                                            <SourceOrganismId>9606</SourceOrganismId>
+                                        </FragmentOfANaturalSequenceMolecule>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenEvidenceCode>Exact match to reference information</ImmunogenEvidenceCode>
+                            </InVitroAdministration>
+                            <ImmunizationComments>PBMCs were obtained from patients with primary biliary cirrhosis. Epitope-specific T cell clones were generated by restimulation with a pool of peptides containing human PDC-E2 (163-182).</ImmunizationComments>
+                        </Immunization>
+                        <EffectorCells>
+                            <CellTissueType>Blood</CellTissueType>
+                            <CellType>T cell CD4+</CellType>
+                            <CellCultureConditions>Cell Line / Clone</CellCultureConditions>
+                        </EffectorCells>
+                        <AntigenPresentingCells>
+                            <CellTissueType>Blood</CellTissueType>
+                            <CellType>PBMC</CellType>
+                            <CellCultureConditions>Direct Ex Vivo</CellCultureConditions>
+                            <AutologousOrSyngeneic>Y</AutologousOrSyngeneic>
+                        </AntigenPresentingCells>
+                        <MhcAllele>
+                            <MhcAlleleId>304</MhcAlleleId>
+                            <MhcEvidenceCode>T cell assay -T cell subset identification</MhcEvidenceCode>
+                        </MhcAllele>
+                        <Antigen>
+                            <AntigenReferenceName>Human PDC-E2 (36-49)</AntigenReferenceName>
+                            <AntigenObject>
+                                <EpitopeRelation>Structurally Related</EpitopeRelation>
+                                <Object>
+                                    <FragmentOfANaturalSequenceMolecule>
+                                        <ChemicalType>Peptide from protein</ChemicalType>
+                                        <LinearSequence>GDLIAEVETDKATV</LinearSequence>
+                                        <StartingPosition>122</StartingPosition>
+                                        <EndingPosition>135</EndingPosition>
+                                        <SourceMolecule>
+                                            <GenBankId>EAW67174.1</GenBankId>
+                                        </SourceMolecule>
+                                        <SourceOrganismId>9606</SourceOrganismId>
+                                    </FragmentOfANaturalSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Exact match to reference information</AntigenEvidenceCode>
+                        </Antigen>
+                        <AssayInformation>
+                            <AssayTypeId>69</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <NumberOfSubjectsTested>2</NumberOfSubjectsTested>
+                            <NumberOfSubjectsResponded>2</NumberOfSubjectsResponded>
+                            <ResponseFrequency>100</ResponseFrequency>
+                            <AssayComments>Epitope-specific clones proliferated in response to human PDC-E2 (36-49).</AssayComments>
+                        </AssayInformation>
+                    </TCell>
+                </Assays>
+            </Epitope>
+            <Epitope>
+                <EpitopeName>PDC-E2 residues 15-34</EpitopeName>
+                <EpitopeStructure>
+                    <FragmentOfANaturalSequenceMolecule>
+                        <ChemicalType>Peptide from protein</ChemicalType>
+                        <LinearSequence>PTMQAGTIARWEKKEGDKIN</LinearSequence>
+                        <StartingPosition>101</StartingPosition>
+                        <EndingPosition>120</EndingPosition>
+                        <SourceMolecule>
+                            <GenBankId>EAW67174.1</GenBankId>
+                        </SourceMolecule>
+                        <SourceOrganismId>9606</SourceOrganismId>
+                    </FragmentOfANaturalSequenceMolecule>
+                </EpitopeStructure>
+                <LocationOfData>Cited reference</LocationOfData>
+                <EpitopeId>125204</EpitopeId>
+                <ReferenceStartingPosition>15</ReferenceStartingPosition>
+                <ReferenceEndingPosition>34</ReferenceEndingPosition>
+                <EpitopeEvidenceCode>Representative selection</EpitopeEvidenceCode>
+                <EpitopeStructureDefines>Epitope containing region/antigenic site</EpitopeStructureDefines>
+                <EpitopeComments>The epitope sequence is from the cited reference: Coppel et al. (1988) Proc Natl Acad Sci USA 85:7317 [PMID: 3174635].</EpitopeComments>
+                <Assays>
+                    <TCell>
+                        <LocationOfData>Figure 1, Text page 1837</LocationOfData>
+                        <TCellId>1714116</TCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>9606</OrganismId>
+                                <Age>38-67 years</Age>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Occurrence of disease</InVivoProcessType>
+                                <DiseaseState>DOID:12236</DiseaseState>
+                                <DiseaseStage>Chronic</DiseaseStage>
+                            </FirstInVivoProcess>
+                            <ImmunizationComments>PBMCs were obtained from patients with primary biliary cirrhosis.</ImmunizationComments>
+                        </Immunization>
+                        <EffectorCells>
+                            <CellTissueType>Blood</CellTissueType>
+                            <CellType>T cell</CellType>
+                            <CellCultureConditions>Direct Ex Vivo</CellCultureConditions>
+                        </EffectorCells>
+                        <AntigenPresentingCells>
+                            <CellTissueType>Blood</CellTissueType>
+                            <CellType>PBMC</CellType>
+                            <CellCultureConditions>Direct Ex Vivo</CellCultureConditions>
+                            <AutologousOrSyngeneic>Y</AutologousOrSyngeneic>
+                        </AntigenPresentingCells>
+                        <MhcAllele>
+                            <MhcAlleleId>304</MhcAlleleId>
+                            <MhcEvidenceCode>T cell assay -Biological process measured</MhcEvidenceCode>
+                        </MhcAllele>
+                        <Antigen>
+                            <AntigenObject>
+                                <EpitopeRelation>Epitope</EpitopeRelation>
+                                <Object>
+                                    <FragmentOfANaturalSequenceMolecule>
+                                        <ChemicalType>Peptide from protein</ChemicalType>
+                                        <LinearSequence>PTMQAGTIARWEKKEGDKIN</LinearSequence>
+                                        <StartingPosition>101</StartingPosition>
+                                        <EndingPosition>120</EndingPosition>
+                                        <SourceMolecule>
+                                            <GenBankId>EAW67174.1</GenBankId>
+                                        </SourceMolecule>
+                                        <SourceOrganismId>9606</SourceOrganismId>
+                                    </FragmentOfANaturalSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Exact match to reference information</AntigenEvidenceCode>
+                        </Antigen>
+                        <AssayInformation>
+                            <AssayTypeId>69</AssayTypeId>
+                            <QualitativeMeasurement>Negative</QualitativeMeasurement>
+                            <AssayComments>The epitope was part of a peptide pool containing peptides 15-34, 23-42, -17-2, -31--12, and -40--21 derived from human PDC-E2.</AssayComments>
+                        </AssayInformation>
+                    </TCell>
+                </Assays>
+            </Epitope>
+            <Epitope>
+                <EpitopeName>PDC-E2 residues 23-42</EpitopeName>
+                <EpitopeStructure>
+                    <FragmentOfANaturalSequenceMolecule>
+                        <ChemicalType>Peptide from protein</ChemicalType>
+                        <LinearSequence>ARWEKKEGDKINEGDLIAEV</LinearSequence>
+                        <StartingPosition>109</StartingPosition>
+                        <EndingPosition>128</EndingPosition>
+                        <SourceMolecule>
+                            <GenBankId>EAW67174.1</GenBankId>
+                        </SourceMolecule>
+                        <SourceOrganismId>9606</SourceOrganismId>
+                    </FragmentOfANaturalSequenceMolecule>
+                </EpitopeStructure>
+                <LocationOfData>Cited reference</LocationOfData>
+                <EpitopeId>124990</EpitopeId>
+                <ReferenceStartingPosition>23</ReferenceStartingPosition>
+                <ReferenceEndingPosition>42</ReferenceEndingPosition>
+                <EpitopeEvidenceCode>Representative selection</EpitopeEvidenceCode>
+                <EpitopeStructureDefines>Epitope containing region/antigenic site</EpitopeStructureDefines>
+                <EpitopeComments>The epitope sequence is from the cited reference: Coppel et al. (1988) Proc Natl Acad Sci USA 85:7317 [PMID: 3174635].</EpitopeComments>
+                <Assays>
+                    <TCell>
+                        <LocationOfData>Figure 1, Text page 1837</LocationOfData>
+                        <TCellId>1714118</TCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>9606</OrganismId>
+                                <Age>38-67 years</Age>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Occurrence of disease</InVivoProcessType>
+                                <DiseaseState>DOID:12236</DiseaseState>
+                                <DiseaseStage>Chronic</DiseaseStage>
+                            </FirstInVivoProcess>
+                            <ImmunizationComments>PBMCs were obtained from patients with primary biliary cirrhosis.</ImmunizationComments>
+                        </Immunization>
+                        <EffectorCells>
+                            <CellTissueType>Blood</CellTissueType>
+                            <CellType>T cell</CellType>
+                            <CellCultureConditions>Direct Ex Vivo</CellCultureConditions>
+                        </EffectorCells>
+                        <AntigenPresentingCells>
+                            <CellTissueType>Blood</CellTissueType>
+                            <CellType>PBMC</CellType>
+                            <CellCultureConditions>Direct Ex Vivo</CellCultureConditions>
+                            <AutologousOrSyngeneic>Y</AutologousOrSyngeneic>
+                        </AntigenPresentingCells>
+                        <MhcAllele>
+                            <MhcAlleleId>304</MhcAlleleId>
+                            <MhcEvidenceCode>T cell assay -Biological process measured</MhcEvidenceCode>
+                        </MhcAllele>
+                        <Antigen>
+                            <AntigenObject>
+                                <EpitopeRelation>Epitope</EpitopeRelation>
+                                <Object>
+                                    <FragmentOfANaturalSequenceMolecule>
+                                        <ChemicalType>Peptide from protein</ChemicalType>
+                                        <LinearSequence>ARWEKKEGDKINEGDLIAEV</LinearSequence>
+                                        <StartingPosition>109</StartingPosition>
+                                        <EndingPosition>128</EndingPosition>
+                                        <SourceMolecule>
+                                            <GenBankId>EAW67174.1</GenBankId>
+                                        </SourceMolecule>
+                                        <SourceOrganismId>9606</SourceOrganismId>
+                                    </FragmentOfANaturalSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Exact match to reference information</AntigenEvidenceCode>
+                        </Antigen>
+                        <AssayInformation>
+                            <AssayTypeId>69</AssayTypeId>
+                            <QualitativeMeasurement>Negative</QualitativeMeasurement>
+                            <AssayComments>The epitope was part of a peptide pool containing peptides 15-34, 23-42, -17-2, -31--12, and -40--21 derived from human PDC-E2.</AssayComments>
+                        </AssayInformation>
+                    </TCell>
+                </Assays>
+            </Epitope>
+            <Epitope>
+                <EpitopeName>PDC-E2 residues 208-227</EpitopeName>
+                <EpitopeStructure>
+                    <FragmentOfANaturalSequenceMolecule>
+                        <ChemicalType>Peptide from protein</ChemicalType>
+                        <LinearSequence>VEKEADISAFADYRPTEVTD</LinearSequence>
+                        <StartingPosition>294</StartingPosition>
+                        <EndingPosition>313</EndingPosition>
+                        <SourceMolecule>
+                            <GenBankId>EAW67174.1</GenBankId>
+                        </SourceMolecule>
+                        <SourceOrganismId>9606</SourceOrganismId>
+                    </FragmentOfANaturalSequenceMolecule>
+                </EpitopeStructure>
+                <LocationOfData>Cited reference</LocationOfData>
+                <EpitopeId>125295</EpitopeId>
+                <ReferenceStartingPosition>208</ReferenceStartingPosition>
+                <ReferenceEndingPosition>227</ReferenceEndingPosition>
+                <EpitopeEvidenceCode>Representative selection</EpitopeEvidenceCode>
+                <EpitopeStructureDefines>Epitope containing region/antigenic site</EpitopeStructureDefines>
+                <EpitopeComments>The epitope sequence is from the cited reference: Coppel et al. (1988) Proc Natl Acad Sci USA 85:7317 [PMID: 3174635].</EpitopeComments>
+                <Assays>
+                    <TCell>
+                        <LocationOfData>Figure 1, Text page 1837</LocationOfData>
+                        <TCellId>1714119</TCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>9606</OrganismId>
+                                <Age>38-67 years</Age>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Occurrence of disease</InVivoProcessType>
+                                <DiseaseState>DOID:12236</DiseaseState>
+                                <DiseaseStage>Chronic</DiseaseStage>
+                            </FirstInVivoProcess>
+                            <ImmunizationComments>PBMCs were obtained from patients with primary biliary cirrhosis.</ImmunizationComments>
+                        </Immunization>
+                        <EffectorCells>
+                            <CellTissueType>Blood</CellTissueType>
+                            <CellType>T cell</CellType>
+                            <CellCultureConditions>Direct Ex Vivo</CellCultureConditions>
+                        </EffectorCells>
+                        <AntigenPresentingCells>
+                            <CellTissueType>Blood</CellTissueType>
+                            <CellType>PBMC</CellType>
+                            <CellCultureConditions>Direct Ex Vivo</CellCultureConditions>
+                            <AutologousOrSyngeneic>Y</AutologousOrSyngeneic>
+                        </AntigenPresentingCells>
+                        <MhcAllele>
+                            <MhcAlleleId>304</MhcAlleleId>
+                            <MhcEvidenceCode>T cell assay -Biological process measured</MhcEvidenceCode>
+                        </MhcAllele>
+                        <Antigen>
+                            <AntigenObject>
+                                <EpitopeRelation>Epitope</EpitopeRelation>
+                                <Object>
+                                    <FragmentOfANaturalSequenceMolecule>
+                                        <ChemicalType>Peptide from protein</ChemicalType>
+                                        <LinearSequence>VEKEADISAFADYRPTEVTD</LinearSequence>
+                                        <StartingPosition>294</StartingPosition>
+                                        <EndingPosition>313</EndingPosition>
+                                        <SourceMolecule>
+                                            <GenBankId>EAW67174.1</GenBankId>
+                                        </SourceMolecule>
+                                        <SourceOrganismId>9606</SourceOrganismId>
+                                    </FragmentOfANaturalSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Exact match to reference information</AntigenEvidenceCode>
+                        </Antigen>
+                        <AssayInformation>
+                            <AssayTypeId>69</AssayTypeId>
+                            <QualitativeMeasurement>Negative</QualitativeMeasurement>
+                            <AssayComments>The epitope was part of a peptide pool containing peptides 208-227, 255-274, 261-280, 269-288, and 289-306 derived from human PDC-E2.</AssayComments>
+                        </AssayInformation>
+                    </TCell>
+                </Assays>
+            </Epitope>
+            <Epitope>
+                <EpitopeName>PDC-E2 residues 255-274</EpitopeName>
+                <EpitopeStructure>
+                    <FragmentOfANaturalSequenceMolecule>
+                        <ChemicalType>Peptide from protein</ChemicalType>
+                        <LinearSequence>STPCPATPAGPKGRVFVDPL</LinearSequence>
+                        <StartingPosition>308</StartingPosition>
+                        <EndingPosition>327</EndingPosition>
+                        <SourceMolecule>
+                            <GenBankId>P10515.2</GenBankId>
+                        </SourceMolecule>
+                        <SourceOrganismId>9606</SourceOrganismId>
+                    </FragmentOfANaturalSequenceMolecule>
+                </EpitopeStructure>
+                <LocationOfData>Cited reference</LocationOfData>
+                <EpitopeId>125264</EpitopeId>
+                <ReferenceStartingPosition>255</ReferenceStartingPosition>
+                <ReferenceEndingPosition>274</ReferenceEndingPosition>
+                <EpitopeEvidenceCode>Representative selection</EpitopeEvidenceCode>
+                <EpitopeStructureDefines>Epitope containing region/antigenic site</EpitopeStructureDefines>
+                <EpitopeComments>The epitope sequence is from the cited reference: Coppel et al. (1988) Proc Natl Acad Sci USA 85:7317 [PMID: 3174635].</EpitopeComments>
+                <Assays>
+                    <TCell>
+                        <LocationOfData>Figure 1, Text page 1837</LocationOfData>
+                        <TCellId>1714120</TCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>9606</OrganismId>
+                                <Age>38-67 years</Age>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Occurrence of disease</InVivoProcessType>
+                                <DiseaseState>DOID:12236</DiseaseState>
+                                <DiseaseStage>Chronic</DiseaseStage>
+                            </FirstInVivoProcess>
+                            <ImmunizationComments>PBMCs were obtained from patients with primary biliary cirrhosis.</ImmunizationComments>
+                        </Immunization>
+                        <EffectorCells>
+                            <CellTissueType>Blood</CellTissueType>
+                            <CellType>T cell</CellType>
+                            <CellCultureConditions>Direct Ex Vivo</CellCultureConditions>
+                        </EffectorCells>
+                        <AntigenPresentingCells>
+                            <CellTissueType>Blood</CellTissueType>
+                            <CellType>PBMC</CellType>
+                            <CellCultureConditions>Direct Ex Vivo</CellCultureConditions>
+                            <AutologousOrSyngeneic>Y</AutologousOrSyngeneic>
+                        </AntigenPresentingCells>
+                        <MhcAllele>
+                            <MhcAlleleId>304</MhcAlleleId>
+                            <MhcEvidenceCode>T cell assay -Biological process measured</MhcEvidenceCode>
+                        </MhcAllele>
+                        <Antigen>
+                            <AntigenObject>
+                                <EpitopeRelation>Epitope</EpitopeRelation>
+                                <Object>
+                                    <FragmentOfANaturalSequenceMolecule>
+                                        <ChemicalType>Peptide from protein</ChemicalType>
+                                        <LinearSequence>STPCPATPAGPKGRVFVDPL</LinearSequence>
+                                        <StartingPosition>308</StartingPosition>
+                                        <EndingPosition>327</EndingPosition>
+                                        <SourceMolecule>
+                                            <GenBankId>P10515.2</GenBankId>
+                                        </SourceMolecule>
+                                        <SourceOrganismId>9606</SourceOrganismId>
+                                    </FragmentOfANaturalSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Exact match to reference information</AntigenEvidenceCode>
+                        </Antigen>
+                        <AssayInformation>
+                            <AssayTypeId>69</AssayTypeId>
+                            <QualitativeMeasurement>Negative</QualitativeMeasurement>
+                            <AssayComments>The epitope was part of a peptide pool containing peptides 208-227, 255-274, 261-280, 269-288, and 289-306 derived from human PDC-E2.</AssayComments>
+                        </AssayInformation>
+                    </TCell>
+                </Assays>
+            </Epitope>
+            <Epitope>
+                <EpitopeName>PDC-E2 residues 261-280</EpitopeName>
+                <EpitopeStructure>
+                    <FragmentOfANaturalSequenceMolecule>
+                        <ChemicalType>Peptide from protein</ChemicalType>
+                        <LinearSequence>TPAGPKGRVFVDPLAKKLAV</LinearSequence>
+                        <StartingPosition>314</StartingPosition>
+                        <EndingPosition>333</EndingPosition>
+                        <SourceMolecule>
+                            <GenBankId>P10515.2</GenBankId>
+                        </SourceMolecule>
+                        <SourceOrganismId>9606</SourceOrganismId>
+                    </FragmentOfANaturalSequenceMolecule>
+                </EpitopeStructure>
+                <LocationOfData>Cited reference</LocationOfData>
+                <EpitopeId>125277</EpitopeId>
+                <ReferenceStartingPosition>261</ReferenceStartingPosition>
+                <ReferenceEndingPosition>280</ReferenceEndingPosition>
+                <EpitopeEvidenceCode>Representative selection</EpitopeEvidenceCode>
+                <EpitopeStructureDefines>Epitope containing region/antigenic site</EpitopeStructureDefines>
+                <EpitopeComments>The epitope sequence is from the cited reference: Coppel et al. (1988) Proc Natl Acad Sci USA 85:7317 [PMID: 3174635].</EpitopeComments>
+                <Assays>
+                    <TCell>
+                        <LocationOfData>Figure 1, Text page 1837</LocationOfData>
+                        <TCellId>1714121</TCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>9606</OrganismId>
+                                <Age>38-67 years</Age>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Occurrence of disease</InVivoProcessType>
+                                <DiseaseState>DOID:12236</DiseaseState>
+                                <DiseaseStage>Chronic</DiseaseStage>
+                            </FirstInVivoProcess>
+                            <ImmunizationComments>PBMCs were obtained from patients with primary biliary cirrhosis.</ImmunizationComments>
+                        </Immunization>
+                        <EffectorCells>
+                            <CellTissueType>Blood</CellTissueType>
+                            <CellType>T cell</CellType>
+                            <CellCultureConditions>Direct Ex Vivo</CellCultureConditions>
+                        </EffectorCells>
+                        <AntigenPresentingCells>
+                            <CellTissueType>Blood</CellTissueType>
+                            <CellType>PBMC</CellType>
+                            <CellCultureConditions>Direct Ex Vivo</CellCultureConditions>
+                            <AutologousOrSyngeneic>Y</AutologousOrSyngeneic>
+                        </AntigenPresentingCells>
+                        <MhcAllele>
+                            <MhcAlleleId>304</MhcAlleleId>
+                            <MhcEvidenceCode>T cell assay -Biological process measured</MhcEvidenceCode>
+                        </MhcAllele>
+                        <Antigen>
+                            <AntigenObject>
+                                <EpitopeRelation>Epitope</EpitopeRelation>
+                                <Object>
+                                    <FragmentOfANaturalSequenceMolecule>
+                                        <ChemicalType>Peptide from protein</ChemicalType>
+                                        <LinearSequence>TPAGPKGRVFVDPLAKKLAV</LinearSequence>
+                                        <StartingPosition>314</StartingPosition>
+                                        <EndingPosition>333</EndingPosition>
+                                        <SourceMolecule>
+                                            <GenBankId>P10515.2</GenBankId>
+                                        </SourceMolecule>
+                                        <SourceOrganismId>9606</SourceOrganismId>
+                                    </FragmentOfANaturalSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Exact match to reference information</AntigenEvidenceCode>
+                        </Antigen>
+                        <AssayInformation>
+                            <AssayTypeId>69</AssayTypeId>
+                            <QualitativeMeasurement>Negative</QualitativeMeasurement>
+                            <AssayComments>The epitope was part of a peptide pool containing peptides 208-227, 255-274, 261-280, 269-288, and 289-306 derived from human PDC-E2.</AssayComments>
+                        </AssayInformation>
+                    </TCell>
+                </Assays>
+            </Epitope>
+            <Epitope>
+                <EpitopeName>PDC-E2 residues 269-288</EpitopeName>
+                <EpitopeStructure>
+                    <FragmentOfANaturalSequenceMolecule>
+                        <ChemicalType>Peptide from protein</ChemicalType>
+                        <LinearSequence>VFVDPLAKKLAVEKGIDLTQ</LinearSequence>
+                        <StartingPosition>322</StartingPosition>
+                        <EndingPosition>341</EndingPosition>
+                        <SourceMolecule>
+                            <GenBankId>P10515.2</GenBankId>
+                        </SourceMolecule>
+                        <SourceOrganismId>9606</SourceOrganismId>
+                    </FragmentOfANaturalSequenceMolecule>
+                </EpitopeStructure>
+                <LocationOfData>Cited reference</LocationOfData>
+                <EpitopeId>125298</EpitopeId>
+                <ReferenceStartingPosition>269</ReferenceStartingPosition>
+                <ReferenceEndingPosition>288</ReferenceEndingPosition>
+                <EpitopeEvidenceCode>Representative selection</EpitopeEvidenceCode>
+                <EpitopeStructureDefines>Epitope containing region/antigenic site</EpitopeStructureDefines>
+                <EpitopeComments>The epitope sequence is from the cited reference: Coppel et al. (1988) Proc Natl Acad Sci USA 85:7317 [PMID: 3174635].</EpitopeComments>
+                <Assays>
+                    <TCell>
+                        <LocationOfData>Figure 1, Text page 1837</LocationOfData>
+                        <TCellId>1714122</TCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>9606</OrganismId>
+                                <Age>38-67 years</Age>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Occurrence of disease</InVivoProcessType>
+                                <DiseaseState>DOID:12236</DiseaseState>
+                                <DiseaseStage>Chronic</DiseaseStage>
+                            </FirstInVivoProcess>
+                            <ImmunizationComments>PBMCs were obtained from patients with primary biliary cirrhosis.</ImmunizationComments>
+                        </Immunization>
+                        <EffectorCells>
+                            <CellTissueType>Blood</CellTissueType>
+                            <CellType>T cell</CellType>
+                            <CellCultureConditions>Direct Ex Vivo</CellCultureConditions>
+                        </EffectorCells>
+                        <AntigenPresentingCells>
+                            <CellTissueType>Blood</CellTissueType>
+                            <CellType>PBMC</CellType>
+                            <CellCultureConditions>Direct Ex Vivo</CellCultureConditions>
+                            <AutologousOrSyngeneic>Y</AutologousOrSyngeneic>
+                        </AntigenPresentingCells>
+                        <MhcAllele>
+                            <MhcAlleleId>304</MhcAlleleId>
+                            <MhcEvidenceCode>T cell assay -Biological process measured</MhcEvidenceCode>
+                        </MhcAllele>
+                        <Antigen>
+                            <AntigenObject>
+                                <EpitopeRelation>Epitope</EpitopeRelation>
+                                <Object>
+                                    <FragmentOfANaturalSequenceMolecule>
+                                        <ChemicalType>Peptide from protein</ChemicalType>
+                                        <LinearSequence>VFVDPLAKKLAVEKGIDLTQ</LinearSequence>
+                                        <StartingPosition>322</StartingPosition>
+                                        <EndingPosition>341</EndingPosition>
+                                        <SourceMolecule>
+                                            <GenBankId>P10515.2</GenBankId>
+                                        </SourceMolecule>
+                                        <SourceOrganismId>9606</SourceOrganismId>
+                                    </FragmentOfANaturalSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Exact match to reference information</AntigenEvidenceCode>
+                        </Antigen>
+                        <AssayInformation>
+                            <AssayTypeId>69</AssayTypeId>
+                            <QualitativeMeasurement>Negative</QualitativeMeasurement>
+                            <AssayComments>The epitope was part of a peptide pool containing peptides 208-227, 255-274, 261-280, 269-288, and 289-306 derived from human PDC-E2.</AssayComments>
+                        </AssayInformation>
+                    </TCell>
+                </Assays>
+            </Epitope>
+            <Epitope>
+                <EpitopeName>PDC-E2 residues 289-306</EpitopeName>
+                <EpitopeStructure>
+                    <FragmentOfANaturalSequenceMolecule>
+                        <ChemicalType>Peptide from protein</ChemicalType>
+                        <LinearSequence>VKGTGPDGRITKKDIDSF</LinearSequence>
+                        <StartingPosition>342</StartingPosition>
+                        <EndingPosition>359</EndingPosition>
+                        <SourceMolecule>
+                            <GenBankId>P10515.2</GenBankId>
+                        </SourceMolecule>
+                        <SourceOrganismId>9606</SourceOrganismId>
+                    </FragmentOfANaturalSequenceMolecule>
+                </EpitopeStructure>
+                <LocationOfData>Cited reference</LocationOfData>
+                <EpitopeId>125302</EpitopeId>
+                <ReferenceStartingPosition>289</ReferenceStartingPosition>
+                <ReferenceEndingPosition>306</ReferenceEndingPosition>
+                <EpitopeEvidenceCode>Representative selection</EpitopeEvidenceCode>
+                <EpitopeStructureDefines>Epitope containing region/antigenic site</EpitopeStructureDefines>
+                <EpitopeComments>The epitope sequence is from the cited reference: Coppel et al. (1988) Proc Natl Acad Sci USA 85:7317 [PMID: 3174635].</EpitopeComments>
+                <Assays>
+                    <TCell>
+                        <LocationOfData>Figure 1, Text page 1837</LocationOfData>
+                        <TCellId>1714123</TCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>9606</OrganismId>
+                                <Age>38-67 years</Age>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Occurrence of disease</InVivoProcessType>
+                                <DiseaseState>DOID:12236</DiseaseState>
+                                <DiseaseStage>Chronic</DiseaseStage>
+                            </FirstInVivoProcess>
+                            <ImmunizationComments>PBMCs were obtained from patients with primary biliary cirrhosis.</ImmunizationComments>
+                        </Immunization>
+                        <EffectorCells>
+                            <CellTissueType>Blood</CellTissueType>
+                            <CellType>T cell</CellType>
+                            <CellCultureConditions>Direct Ex Vivo</CellCultureConditions>
+                        </EffectorCells>
+                        <AntigenPresentingCells>
+                            <CellTissueType>Blood</CellTissueType>
+                            <CellType>PBMC</CellType>
+                            <CellCultureConditions>Direct Ex Vivo</CellCultureConditions>
+                            <AutologousOrSyngeneic>Y</AutologousOrSyngeneic>
+                        </AntigenPresentingCells>
+                        <MhcAllele>
+                            <MhcAlleleId>304</MhcAlleleId>
+                            <MhcEvidenceCode>T cell assay -Biological process measured</MhcEvidenceCode>
+                        </MhcAllele>
+                        <Antigen>
+                            <AntigenObject>
+                                <EpitopeRelation>Epitope</EpitopeRelation>
+                                <Object>
+                                    <FragmentOfANaturalSequenceMolecule>
+                                        <ChemicalType>Peptide from protein</ChemicalType>
+                                        <LinearSequence>VKGTGPDGRITKKDIDSF</LinearSequence>
+                                        <StartingPosition>342</StartingPosition>
+                                        <EndingPosition>359</EndingPosition>
+                                        <SourceMolecule>
+                                            <GenBankId>P10515.2</GenBankId>
+                                        </SourceMolecule>
+                                        <SourceOrganismId>9606</SourceOrganismId>
+                                    </FragmentOfANaturalSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Exact match to reference information</AntigenEvidenceCode>
+                        </Antigen>
+                        <AssayInformation>
+                            <AssayTypeId>69</AssayTypeId>
+                            <QualitativeMeasurement>Negative</QualitativeMeasurement>
+                            <AssayComments>The epitope was part of a peptide pool containing peptides 208-227, 255-274, 261-280, 269-288, and 289-306 derived from human PDC-E2.</AssayComments>
+                        </AssayInformation>
+                    </TCell>
+                </Assays>
+            </Epitope>
+            <Epitope>
+                <EpitopeName>PDC-E2 residues 332-351</EpitopeName>
+                <EpitopeStructure>
+                    <FragmentOfANaturalSequenceMolecule>
+                        <ChemicalType>Peptide from protein</ChemicalType>
+                        <LinearSequence>GVFTDIPISNIRRVIAQRLM</LinearSequence>
+                        <StartingPosition>385</StartingPosition>
+                        <EndingPosition>404</EndingPosition>
+                        <SourceMolecule>
+                            <GenBankId>P10515.2</GenBankId>
+                        </SourceMolecule>
+                        <SourceOrganismId>9606</SourceOrganismId>
+                    </FragmentOfANaturalSequenceMolecule>
+                </EpitopeStructure>
+                <LocationOfData>Cited reference</LocationOfData>
+                <EpitopeId>125088</EpitopeId>
+                <ReferenceStartingPosition>332</ReferenceStartingPosition>
+                <ReferenceEndingPosition>351</ReferenceEndingPosition>
+                <EpitopeEvidenceCode>Representative selection</EpitopeEvidenceCode>
+                <EpitopeStructureDefines>Epitope containing region/antigenic site</EpitopeStructureDefines>
+                <EpitopeComments>The epitope sequence is from the cited reference: Coppel et al. (1988) Proc Natl Acad Sci USA 85:7317 [PMID: 3174635].</EpitopeComments>
+                <Assays>
+                    <TCell>
+                        <LocationOfData>Figure 1, Text page 1837</LocationOfData>
+                        <TCellId>1714124</TCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>9606</OrganismId>
+                                <Age>38-67 years</Age>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Occurrence of disease</InVivoProcessType>
+                                <DiseaseState>DOID:12236</DiseaseState>
+                                <DiseaseStage>Chronic</DiseaseStage>
+                            </FirstInVivoProcess>
+                            <ImmunizationComments>PBMCs were obtained from patients with primary biliary cirrhosis.</ImmunizationComments>
+                        </Immunization>
+                        <EffectorCells>
+                            <CellTissueType>Blood</CellTissueType>
+                            <CellType>T cell</CellType>
+                            <CellCultureConditions>Direct Ex Vivo</CellCultureConditions>
+                        </EffectorCells>
+                        <AntigenPresentingCells>
+                            <CellTissueType>Blood</CellTissueType>
+                            <CellType>PBMC</CellType>
+                            <CellCultureConditions>Direct Ex Vivo</CellCultureConditions>
+                            <AutologousOrSyngeneic>Y</AutologousOrSyngeneic>
+                        </AntigenPresentingCells>
+                        <MhcAllele>
+                            <MhcAlleleId>304</MhcAlleleId>
+                            <MhcEvidenceCode>T cell assay -Biological process measured</MhcEvidenceCode>
+                        </MhcAllele>
+                        <Antigen>
+                            <AntigenObject>
+                                <EpitopeRelation>Epitope</EpitopeRelation>
+                                <Object>
+                                    <FragmentOfANaturalSequenceMolecule>
+                                        <ChemicalType>Peptide from protein</ChemicalType>
+                                        <LinearSequence>GVFTDIPISNIRRVIAQRLM</LinearSequence>
+                                        <StartingPosition>385</StartingPosition>
+                                        <EndingPosition>404</EndingPosition>
+                                        <SourceMolecule>
+                                            <GenBankId>P10515.2</GenBankId>
+                                        </SourceMolecule>
+                                        <SourceOrganismId>9606</SourceOrganismId>
+                                    </FragmentOfANaturalSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Exact match to reference information</AntigenEvidenceCode>
+                        </Antigen>
+                        <AssayInformation>
+                            <AssayTypeId>69</AssayTypeId>
+                            <QualitativeMeasurement>Negative</QualitativeMeasurement>
+                            <AssayComments>The epitope was part of a peptide pool containing peptides 332-351, 341-360, 355-374, 363-382, and 373-392 derived from human PDC-E2.</AssayComments>
+                        </AssayInformation>
+                    </TCell>
+                </Assays>
+            </Epitope>
+            <Epitope>
+                <EpitopeName>PDC-E2 residues 341-360</EpitopeName>
+                <EpitopeStructure>
+                    <FragmentOfANaturalSequenceMolecule>
+                        <ChemicalType>Peptide from protein</ChemicalType>
+                        <LinearSequence>NIRRVIAQRLMQSKQTIPHY</LinearSequence>
+                        <StartingPosition>394</StartingPosition>
+                        <EndingPosition>413</EndingPosition>
+                        <SourceMolecule>
+                            <GenBankId>P10515.2</GenBankId>
+                        </SourceMolecule>
+                        <SourceOrganismId>9606</SourceOrganismId>
+                    </FragmentOfANaturalSequenceMolecule>
+                </EpitopeStructure>
+                <LocationOfData>Cited reference</LocationOfData>
+                <EpitopeId>125172</EpitopeId>
+                <ReferenceStartingPosition>341</ReferenceStartingPosition>
+                <ReferenceEndingPosition>360</ReferenceEndingPosition>
+                <EpitopeEvidenceCode>Representative selection</EpitopeEvidenceCode>
+                <EpitopeStructureDefines>Epitope containing region/antigenic site</EpitopeStructureDefines>
+                <EpitopeComments>The epitope sequence is from the cited reference: Coppel et al. (1988) Proc Natl Acad Sci USA 85:7317 [PMID: 3174635].</EpitopeComments>
+                <Assays>
+                    <TCell>
+                        <LocationOfData>Figure 1, Text page 1837</LocationOfData>
+                        <TCellId>1714125</TCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>9606</OrganismId>
+                                <Age>38-67 years</Age>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Occurrence of disease</InVivoProcessType>
+                                <DiseaseState>DOID:12236</DiseaseState>
+                                <DiseaseStage>Chronic</DiseaseStage>
+                            </FirstInVivoProcess>
+                            <ImmunizationComments>PBMCs were obtained from patients with primary biliary cirrhosis.</ImmunizationComments>
+                        </Immunization>
+                        <EffectorCells>
+                            <CellTissueType>Blood</CellTissueType>
+                            <CellType>T cell</CellType>
+                            <CellCultureConditions>Direct Ex Vivo</CellCultureConditions>
+                        </EffectorCells>
+                        <AntigenPresentingCells>
+                            <CellTissueType>Blood</CellTissueType>
+                            <CellType>PBMC</CellType>
+                            <CellCultureConditions>Direct Ex Vivo</CellCultureConditions>
+                            <AutologousOrSyngeneic>Y</AutologousOrSyngeneic>
+                        </AntigenPresentingCells>
+                        <MhcAllele>
+                            <MhcAlleleId>304</MhcAlleleId>
+                            <MhcEvidenceCode>T cell assay -Biological process measured</MhcEvidenceCode>
+                        </MhcAllele>
+                        <Antigen>
+                            <AntigenObject>
+                                <EpitopeRelation>Epitope</EpitopeRelation>
+                                <Object>
+                                    <FragmentOfANaturalSequenceMolecule>
+                                        <ChemicalType>Peptide from protein</ChemicalType>
+                                        <LinearSequence>NIRRVIAQRLMQSKQTIPHY</LinearSequence>
+                                        <StartingPosition>394</StartingPosition>
+                                        <EndingPosition>413</EndingPosition>
+                                        <SourceMolecule>
+                                            <GenBankId>P10515.2</GenBankId>
+                                        </SourceMolecule>
+                                        <SourceOrganismId>9606</SourceOrganismId>
+                                    </FragmentOfANaturalSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Exact match to reference information</AntigenEvidenceCode>
+                        </Antigen>
+                        <AssayInformation>
+                            <AssayTypeId>69</AssayTypeId>
+                            <QualitativeMeasurement>Negative</QualitativeMeasurement>
+                            <AssayComments>The epitope was part of a peptide pool containing peptides 332-351, 341-360, 355-374, 363-382, and 373-392 derived from human PDC-E2.</AssayComments>
+                        </AssayInformation>
+                    </TCell>
+                </Assays>
+            </Epitope>
+            <Epitope>
+                <EpitopeName>PDC-E2 residues 355-374</EpitopeName>
+                <EpitopeStructure>
+                    <FragmentOfANaturalSequenceMolecule>
+                        <ChemicalType>Peptide from protein</ChemicalType>
+                        <LinearSequence>QTIPHYYLSIDVNMGEVLLV</LinearSequence>
+                        <StartingPosition>408</StartingPosition>
+                        <EndingPosition>427</EndingPosition>
+                        <SourceMolecule>
+                            <GenBankId>P10515.2</GenBankId>
+                        </SourceMolecule>
+                        <SourceOrganismId>9606</SourceOrganismId>
+                    </FragmentOfANaturalSequenceMolecule>
+                </EpitopeStructure>
+                <LocationOfData>Cited reference</LocationOfData>
+                <EpitopeId>125220</EpitopeId>
+                <ReferenceStartingPosition>355</ReferenceStartingPosition>
+                <ReferenceEndingPosition>374</ReferenceEndingPosition>
+                <EpitopeEvidenceCode>Representative selection</EpitopeEvidenceCode>
+                <EpitopeStructureDefines>Epitope containing region/antigenic site</EpitopeStructureDefines>
+                <EpitopeComments>The epitope sequence is from the cited reference: Coppel et al. (1988) Proc Natl Acad Sci USA 85:7317 [PMID: 3174635].</EpitopeComments>
+                <Assays>
+                    <TCell>
+                        <LocationOfData>Figure 1, Text page 1837</LocationOfData>
+                        <TCellId>1714126</TCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>9606</OrganismId>
+                                <Age>38-67 years</Age>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Occurrence of disease</InVivoProcessType>
+                                <DiseaseState>DOID:12236</DiseaseState>
+                                <DiseaseStage>Chronic</DiseaseStage>
+                            </FirstInVivoProcess>
+                            <ImmunizationComments>PBMCs were obtained from patients with primary biliary cirrhosis.</ImmunizationComments>
+                        </Immunization>
+                        <EffectorCells>
+                            <CellTissueType>Blood</CellTissueType>
+                            <CellType>T cell</CellType>
+                            <CellCultureConditions>Direct Ex Vivo</CellCultureConditions>
+                        </EffectorCells>
+                        <AntigenPresentingCells>
+                            <CellTissueType>Blood</CellTissueType>
+                            <CellType>PBMC</CellType>
+                            <CellCultureConditions>Direct Ex Vivo</CellCultureConditions>
+                            <AutologousOrSyngeneic>Y</AutologousOrSyngeneic>
+                        </AntigenPresentingCells>
+                        <MhcAllele>
+                            <MhcAlleleId>304</MhcAlleleId>
+                            <MhcEvidenceCode>T cell assay -Biological process measured</MhcEvidenceCode>
+                        </MhcAllele>
+                        <Antigen>
+                            <AntigenObject>
+                                <EpitopeRelation>Epitope</EpitopeRelation>
+                                <Object>
+                                    <FragmentOfANaturalSequenceMolecule>
+                                        <ChemicalType>Peptide from protein</ChemicalType>
+                                        <LinearSequence>QTIPHYYLSIDVNMGEVLLV</LinearSequence>
+                                        <StartingPosition>408</StartingPosition>
+                                        <EndingPosition>427</EndingPosition>
+                                        <SourceMolecule>
+                                            <GenBankId>P10515.2</GenBankId>
+                                        </SourceMolecule>
+                                        <SourceOrganismId>9606</SourceOrganismId>
+                                    </FragmentOfANaturalSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Exact match to reference information</AntigenEvidenceCode>
+                        </Antigen>
+                        <AssayInformation>
+                            <AssayTypeId>69</AssayTypeId>
+                            <QualitativeMeasurement>Negative</QualitativeMeasurement>
+                            <AssayComments>The epitope was part of a peptide pool containing peptides 332-351, 341-360, 355-374, 363-382, and 373-392 derived from human PDC-E2.</AssayComments>
+                        </AssayInformation>
+                    </TCell>
+                </Assays>
+            </Epitope>
+            <Epitope>
+                <EpitopeName>PDC-E2 residues 363-382</EpitopeName>
+                <EpitopeStructure>
+                    <FragmentOfANaturalSequenceMolecule>
+                        <ChemicalType>Peptide from protein</ChemicalType>
+                        <LinearSequence>SIDVNMGEVLLVRKELNKIL</LinearSequence>
+                        <StartingPosition>416</StartingPosition>
+                        <EndingPosition>435</EndingPosition>
+                        <SourceMolecule>
+                            <GenBankId>P10515.2</GenBankId>
+                        </SourceMolecule>
+                        <SourceOrganismId>9606</SourceOrganismId>
+                    </FragmentOfANaturalSequenceMolecule>
+                </EpitopeStructure>
+                <LocationOfData>Cited reference</LocationOfData>
+                <EpitopeId>125255</EpitopeId>
+                <ReferenceStartingPosition>363</ReferenceStartingPosition>
+                <ReferenceEndingPosition>382</ReferenceEndingPosition>
+                <EpitopeEvidenceCode>Representative selection</EpitopeEvidenceCode>
+                <EpitopeStructureDefines>Epitope containing region/antigenic site</EpitopeStructureDefines>
+                <EpitopeComments>The epitope sequence is from the cited reference: Coppel et al. (1988) Proc Natl Acad Sci USA 85:7317 [PMID: 3174635].</EpitopeComments>
+                <Assays>
+                    <TCell>
+                        <LocationOfData>Figure 1, Text page 1837</LocationOfData>
+                        <TCellId>1714127</TCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>9606</OrganismId>
+                                <Age>38-67 years</Age>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Occurrence of disease</InVivoProcessType>
+                                <DiseaseState>DOID:12236</DiseaseState>
+                                <DiseaseStage>Chronic</DiseaseStage>
+                            </FirstInVivoProcess>
+                            <ImmunizationComments>PBMCs were obtained from patients with primary biliary cirrhosis.</ImmunizationComments>
+                        </Immunization>
+                        <EffectorCells>
+                            <CellTissueType>Blood</CellTissueType>
+                            <CellType>T cell</CellType>
+                            <CellCultureConditions>Direct Ex Vivo</CellCultureConditions>
+                        </EffectorCells>
+                        <AntigenPresentingCells>
+                            <CellTissueType>Blood</CellTissueType>
+                            <CellType>PBMC</CellType>
+                            <CellCultureConditions>Direct Ex Vivo</CellCultureConditions>
+                            <AutologousOrSyngeneic>Y</AutologousOrSyngeneic>
+                        </AntigenPresentingCells>
+                        <MhcAllele>
+                            <MhcAlleleId>304</MhcAlleleId>
+                            <MhcEvidenceCode>T cell assay -Biological process measured</MhcEvidenceCode>
+                        </MhcAllele>
+                        <Antigen>
+                            <AntigenObject>
+                                <EpitopeRelation>Epitope</EpitopeRelation>
+                                <Object>
+                                    <FragmentOfANaturalSequenceMolecule>
+                                        <ChemicalType>Peptide from protein</ChemicalType>
+                                        <LinearSequence>SIDVNMGEVLLVRKELNKIL</LinearSequence>
+                                        <StartingPosition>416</StartingPosition>
+                                        <EndingPosition>435</EndingPosition>
+                                        <SourceMolecule>
+                                            <GenBankId>P10515.2</GenBankId>
+                                        </SourceMolecule>
+                                        <SourceOrganismId>9606</SourceOrganismId>
+                                    </FragmentOfANaturalSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Exact match to reference information</AntigenEvidenceCode>
+                        </Antigen>
+                        <AssayInformation>
+                            <AssayTypeId>69</AssayTypeId>
+                            <QualitativeMeasurement>Negative</QualitativeMeasurement>
+                            <AssayComments>The epitope was part of a peptide pool containing peptides 332-351, 341-360, 355-374, 363-382, and 373-392 derived from human PDC-E2.</AssayComments>
+                        </AssayInformation>
+                    </TCell>
+                </Assays>
+            </Epitope>
+            <Epitope>
+                <EpitopeName>PDC-E2 residues 373-392</EpitopeName>
+                <EpitopeStructure>
+                    <FragmentOfANaturalSequenceMolecule>
+                        <ChemicalType>Peptide from protein</ChemicalType>
+                        <LinearSequence>LVRKELNKILEGRSKISVND</LinearSequence>
+                        <StartingPosition>426</StartingPosition>
+                        <EndingPosition>445</EndingPosition>
+                        <SourceMolecule>
+                            <GenBankId>P10515.2</GenBankId>
+                        </SourceMolecule>
+                        <SourceOrganismId>9606</SourceOrganismId>
+                    </FragmentOfANaturalSequenceMolecule>
+                </EpitopeStructure>
+                <LocationOfData>Cited reference</LocationOfData>
+                <EpitopeId>125151</EpitopeId>
+                <ReferenceStartingPosition>373</ReferenceStartingPosition>
+                <ReferenceEndingPosition>392</ReferenceEndingPosition>
+                <EpitopeEvidenceCode>Representative selection</EpitopeEvidenceCode>
+                <EpitopeStructureDefines>Epitope containing region/antigenic site</EpitopeStructureDefines>
+                <EpitopeComments>The epitope sequence is from the cited reference: Coppel et al. (1988) Proc Natl Acad Sci USA 85:7317 [PMID: 3174635].</EpitopeComments>
+                <Assays>
+                    <TCell>
+                        <LocationOfData>Figure 1, Text page 1837</LocationOfData>
+                        <TCellId>1714128</TCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>9606</OrganismId>
+                                <Age>38-67 years</Age>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Occurrence of disease</InVivoProcessType>
+                                <DiseaseState>DOID:12236</DiseaseState>
+                                <DiseaseStage>Chronic</DiseaseStage>
+                            </FirstInVivoProcess>
+                            <ImmunizationComments>PBMCs were obtained from patients with primary biliary cirrhosis.</ImmunizationComments>
+                        </Immunization>
+                        <EffectorCells>
+                            <CellTissueType>Blood</CellTissueType>
+                            <CellType>T cell</CellType>
+                            <CellCultureConditions>Direct Ex Vivo</CellCultureConditions>
+                        </EffectorCells>
+                        <AntigenPresentingCells>
+                            <CellTissueType>Blood</CellTissueType>
+                            <CellType>PBMC</CellType>
+                            <CellCultureConditions>Direct Ex Vivo</CellCultureConditions>
+                            <AutologousOrSyngeneic>Y</AutologousOrSyngeneic>
+                        </AntigenPresentingCells>
+                        <MhcAllele>
+                            <MhcAlleleId>304</MhcAlleleId>
+                            <MhcEvidenceCode>T cell assay -Biological process measured</MhcEvidenceCode>
+                        </MhcAllele>
+                        <Antigen>
+                            <AntigenObject>
+                                <EpitopeRelation>Epitope</EpitopeRelation>
+                                <Object>
+                                    <FragmentOfANaturalSequenceMolecule>
+                                        <ChemicalType>Peptide from protein</ChemicalType>
+                                        <LinearSequence>LVRKELNKILEGRSKISVND</LinearSequence>
+                                        <StartingPosition>426</StartingPosition>
+                                        <EndingPosition>445</EndingPosition>
+                                        <SourceMolecule>
+                                            <GenBankId>P10515.2</GenBankId>
+                                        </SourceMolecule>
+                                        <SourceOrganismId>9606</SourceOrganismId>
+                                    </FragmentOfANaturalSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Exact match to reference information</AntigenEvidenceCode>
+                        </Antigen>
+                        <AssayInformation>
+                            <AssayTypeId>69</AssayTypeId>
+                            <QualitativeMeasurement>Negative</QualitativeMeasurement>
+                            <AssayComments>The epitope was part of a peptide pool containing peptides 332-351, 341-360, 355-374, 363-382, and 373-392 derived from human PDC-E2.</AssayComments>
+                        </AssayInformation>
+                    </TCell>
+                </Assays>
+            </Epitope>
+            <Epitope>
+                <EpitopeName>PDC-E2 residues 521-540</EpitopeName>
+                <EpitopeStructure>
+                    <FragmentOfANaturalSequenceMolecule>
+                        <ChemicalType>Peptide from protein</ChemicalType>
+                        <LinearSequence>DVASMMSVTLSCDHRVVDGA</LinearSequence>
+                        <StartingPosition>574</StartingPosition>
+                        <EndingPosition>593</EndingPosition>
+                        <SourceMolecule>
+                            <GenBankId>P10515.2</GenBankId>
+                        </SourceMolecule>
+                        <SourceOrganismId>9606</SourceOrganismId>
+                    </FragmentOfANaturalSequenceMolecule>
+                </EpitopeStructure>
+                <LocationOfData>Cited reference</LocationOfData>
+                <EpitopeId>125020</EpitopeId>
+                <ReferenceStartingPosition>521</ReferenceStartingPosition>
+                <ReferenceEndingPosition>540</ReferenceEndingPosition>
+                <EpitopeEvidenceCode>Representative selection</EpitopeEvidenceCode>
+                <EpitopeStructureDefines>Epitope containing region/antigenic site</EpitopeStructureDefines>
+                <EpitopeComments>The epitope sequence is from the cited reference: Coppel et al. (1988) Proc Natl Acad Sci USA 85:7317 [PMID: 3174635].</EpitopeComments>
+                <Assays>
+                    <TCell>
+                        <LocationOfData>Figure 1, Text page 1837</LocationOfData>
+                        <TCellId>1714129</TCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>9606</OrganismId>
+                                <Age>38-67 years</Age>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Occurrence of disease</InVivoProcessType>
+                                <DiseaseState>DOID:12236</DiseaseState>
+                                <DiseaseStage>Chronic</DiseaseStage>
+                            </FirstInVivoProcess>
+                            <ImmunizationComments>PBMCs were obtained from patients with primary biliary cirrhosis.</ImmunizationComments>
+                        </Immunization>
+                        <EffectorCells>
+                            <CellTissueType>Blood</CellTissueType>
+                            <CellType>T cell</CellType>
+                            <CellCultureConditions>Direct Ex Vivo</CellCultureConditions>
+                        </EffectorCells>
+                        <AntigenPresentingCells>
+                            <CellTissueType>Blood</CellTissueType>
+                            <CellType>PBMC</CellType>
+                            <CellCultureConditions>Direct Ex Vivo</CellCultureConditions>
+                            <AutologousOrSyngeneic>Y</AutologousOrSyngeneic>
+                        </AntigenPresentingCells>
+                        <MhcAllele>
+                            <MhcAlleleId>304</MhcAlleleId>
+                            <MhcEvidenceCode>T cell assay -Biological process measured</MhcEvidenceCode>
+                        </MhcAllele>
+                        <Antigen>
+                            <AntigenObject>
+                                <EpitopeRelation>Epitope</EpitopeRelation>
+                                <Object>
+                                    <FragmentOfANaturalSequenceMolecule>
+                                        <ChemicalType>Peptide from protein</ChemicalType>
+                                        <LinearSequence>DVASMMSVTLSCDHRVVDGA</LinearSequence>
+                                        <StartingPosition>574</StartingPosition>
+                                        <EndingPosition>593</EndingPosition>
+                                        <SourceMolecule>
+                                            <GenBankId>P10515.2</GenBankId>
+                                        </SourceMolecule>
+                                        <SourceOrganismId>9606</SourceOrganismId>
+                                    </FragmentOfANaturalSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Exact match to reference information</AntigenEvidenceCode>
+                        </Antigen>
+                        <AssayInformation>
+                            <AssayTypeId>69</AssayTypeId>
+                            <QualitativeMeasurement>Negative</QualitativeMeasurement>
+                            <AssayComments>The epitope was part of a peptide pool containing peptides 521-540, 536-553, and 543-560 derived from human PDC-E2.</AssayComments>
+                        </AssayInformation>
+                    </TCell>
+                </Assays>
+            </Epitope>
+            <Epitope>
+                <EpitopeName>PDC-E2 residues 536-553</EpitopeName>
+                <EpitopeStructure>
+                    <FragmentOfANaturalSequenceMolecule>
+                        <ChemicalType>Peptide from protein</ChemicalType>
+                        <LinearSequence>VVDGAVGAQWLAEFRKYL</LinearSequence>
+                        <StartingPosition>589</StartingPosition>
+                        <EndingPosition>606</EndingPosition>
+                        <SourceMolecule>
+                            <GenBankId>P10515.2</GenBankId>
+                        </SourceMolecule>
+                        <SourceOrganismId>9606</SourceOrganismId>
+                    </FragmentOfANaturalSequenceMolecule>
+                </EpitopeStructure>
+                <LocationOfData>Cited reference</LocationOfData>
+                <EpitopeId>125310</EpitopeId>
+                <ReferenceStartingPosition>536</ReferenceStartingPosition>
+                <ReferenceEndingPosition>553</ReferenceEndingPosition>
+                <EpitopeEvidenceCode>Representative selection</EpitopeEvidenceCode>
+                <EpitopeStructureDefines>Epitope containing region/antigenic site</EpitopeStructureDefines>
+                <EpitopeComments>The epitope sequence is from the cited reference: Coppel et al. (1988) Proc Natl Acad Sci USA 85:7317 [PMID: 3174635].</EpitopeComments>
+                <Assays>
+                    <TCell>
+                        <LocationOfData>Figure 1, Text page 1837</LocationOfData>
+                        <TCellId>1714130</TCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>9606</OrganismId>
+                                <Age>38-67 years</Age>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Occurrence of disease</InVivoProcessType>
+                                <DiseaseState>DOID:12236</DiseaseState>
+                                <DiseaseStage>Chronic</DiseaseStage>
+                            </FirstInVivoProcess>
+                            <ImmunizationComments>PBMCs were obtained from patients with primary biliary cirrhosis.</ImmunizationComments>
+                        </Immunization>
+                        <EffectorCells>
+                            <CellTissueType>Blood</CellTissueType>
+                            <CellType>T cell</CellType>
+                            <CellCultureConditions>Direct Ex Vivo</CellCultureConditions>
+                        </EffectorCells>
+                        <AntigenPresentingCells>
+                            <CellTissueType>Blood</CellTissueType>
+                            <CellType>PBMC</CellType>
+                            <CellCultureConditions>Direct Ex Vivo</CellCultureConditions>
+                            <AutologousOrSyngeneic>Y</AutologousOrSyngeneic>
+                        </AntigenPresentingCells>
+                        <MhcAllele>
+                            <MhcAlleleId>304</MhcAlleleId>
+                            <MhcEvidenceCode>T cell assay -Biological process measured</MhcEvidenceCode>
+                        </MhcAllele>
+                        <Antigen>
+                            <AntigenObject>
+                                <EpitopeRelation>Epitope</EpitopeRelation>
+                                <Object>
+                                    <FragmentOfANaturalSequenceMolecule>
+                                        <ChemicalType>Peptide from protein</ChemicalType>
+                                        <LinearSequence>VVDGAVGAQWLAEFRKYL</LinearSequence>
+                                        <StartingPosition>589</StartingPosition>
+                                        <EndingPosition>606</EndingPosition>
+                                        <SourceMolecule>
+                                            <GenBankId>P10515.2</GenBankId>
+                                        </SourceMolecule>
+                                        <SourceOrganismId>9606</SourceOrganismId>
+                                    </FragmentOfANaturalSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Exact match to reference information</AntigenEvidenceCode>
+                        </Antigen>
+                        <AssayInformation>
+                            <AssayTypeId>69</AssayTypeId>
+                            <QualitativeMeasurement>Negative</QualitativeMeasurement>
+                            <AssayComments>The epitope was part of a peptide pool containing peptides 521-540, 536-553, and 543-560 derived from human PDC-E2.</AssayComments>
+                        </AssayInformation>
+                    </TCell>
+                </Assays>
+            </Epitope>
+            <Epitope>
+                <EpitopeName>PDC-E2 residues 543-560</EpitopeName>
+                <EpitopeStructure>
+                    <FragmentOfANaturalSequenceMolecule>
+                        <ChemicalType>Peptide from protein</ChemicalType>
+                        <LinearSequence>QWLAEFRKYLEKPITMLL</LinearSequence>
+                        <StartingPosition>597</StartingPosition>
+                        <EndingPosition>614</EndingPosition>
+                        <SourceMolecule>
+                            <GenBankId>P10515.2</GenBankId>
+                        </SourceMolecule>
+                        <SourceOrganismId>9606</SourceOrganismId>
+                    </FragmentOfANaturalSequenceMolecule>
+                </EpitopeStructure>
+                <LocationOfData>Cited reference</LocationOfData>
+                <EpitopeId>125227</EpitopeId>
+                <ReferenceStartingPosition>543</ReferenceStartingPosition>
+                <ReferenceEndingPosition>560</ReferenceEndingPosition>
+                <EpitopeEvidenceCode>Representative selection</EpitopeEvidenceCode>
+                <EpitopeStructureDefines>Epitope containing region/antigenic site</EpitopeStructureDefines>
+                <EpitopeComments>The epitope sequence is from the cited reference: Coppel et al. (1988) Proc Natl Acad Sci USA 85:7317 [PMID: 3174635].</EpitopeComments>
+                <Assays>
+                    <TCell>
+                        <LocationOfData>Figure 1, Text page 1837</LocationOfData>
+                        <TCellId>1714131</TCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>9606</OrganismId>
+                                <Age>38-67 years</Age>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Occurrence of disease</InVivoProcessType>
+                                <DiseaseState>DOID:12236</DiseaseState>
+                                <DiseaseStage>Chronic</DiseaseStage>
+                            </FirstInVivoProcess>
+                            <ImmunizationComments>PBMCs were obtained from patients with primary biliary cirrhosis.</ImmunizationComments>
+                        </Immunization>
+                        <EffectorCells>
+                            <CellTissueType>Blood</CellTissueType>
+                            <CellType>T cell</CellType>
+                            <CellCultureConditions>Direct Ex Vivo</CellCultureConditions>
+                        </EffectorCells>
+                        <AntigenPresentingCells>
+                            <CellTissueType>Blood</CellTissueType>
+                            <CellType>PBMC</CellType>
+                            <CellCultureConditions>Direct Ex Vivo</CellCultureConditions>
+                            <AutologousOrSyngeneic>Y</AutologousOrSyngeneic>
+                        </AntigenPresentingCells>
+                        <MhcAllele>
+                            <MhcAlleleId>304</MhcAlleleId>
+                            <MhcEvidenceCode>T cell assay -Biological process measured</MhcEvidenceCode>
+                        </MhcAllele>
+                        <Antigen>
+                            <AntigenObject>
+                                <EpitopeRelation>Epitope</EpitopeRelation>
+                                <Object>
+                                    <FragmentOfANaturalSequenceMolecule>
+                                        <ChemicalType>Peptide from protein</ChemicalType>
+                                        <LinearSequence>QWLAEFRKYLEKPITMLL</LinearSequence>
+                                        <StartingPosition>597</StartingPosition>
+                                        <EndingPosition>614</EndingPosition>
+                                        <SourceMolecule>
+                                            <GenBankId>P10515.2</GenBankId>
+                                        </SourceMolecule>
+                                        <SourceOrganismId>9606</SourceOrganismId>
+                                    </FragmentOfANaturalSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Exact match to reference information</AntigenEvidenceCode>
+                        </Antigen>
+                        <AssayInformation>
+                            <AssayTypeId>69</AssayTypeId>
+                            <QualitativeMeasurement>Negative</QualitativeMeasurement>
+                            <AssayComments>The epitope was part of a peptide pool containing peptides 521-540, 536-553, and 543-560 derived from human PDC-E2.</AssayComments>
+                        </AssayInformation>
+                    </TCell>
+                </Assays>
+            </Epitope>
+            <Epitope>
+                <EpitopeName>PDC-E2 residues -17 to 2</EpitopeName>
+                <EpitopeStructure>
+                    <FragmentOfANaturalSequenceMolecule>
+                        <ChemicalType>Peptide from protein</ChemicalType>
+                        <LinearSequence>EFGLLLQLLGSPGRRYYSL</LinearSequence>
+                        <StartingPosition>37</StartingPosition>
+                        <EndingPosition>55</EndingPosition>
+                        <SourceMolecule>
+                            <GenBankId>P10515.2</GenBankId>
+                        </SourceMolecule>
+                        <SourceOrganismId>9606</SourceOrganismId>
+                    </FragmentOfANaturalSequenceMolecule>
+                </EpitopeStructure>
+                <LocationOfData>Cited reference</LocationOfData>
+                <EpitopeId>125026</EpitopeId>
+                <EpitopeEvidenceCode>Representative selection</EpitopeEvidenceCode>
+                <EpitopeStructureDefines>Epitope containing region/antigenic site</EpitopeStructureDefines>
+                <EpitopeComments>The epitope sequence is from the cited reference: Coppel et al. (1988) Proc Natl Acad Sci USA 85:7317 [PMID: 3174635].</EpitopeComments>
+                <Assays>
+                    <TCell>
+                        <LocationOfData>Figure 1, Text page 1837</LocationOfData>
+                        <TCellId>1714132</TCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>9606</OrganismId>
+                                <Age>38-67 years</Age>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Occurrence of disease</InVivoProcessType>
+                                <DiseaseState>DOID:12236</DiseaseState>
+                                <DiseaseStage>Chronic</DiseaseStage>
+                            </FirstInVivoProcess>
+                            <ImmunizationComments>PBMCs were obtained from patients with primary biliary cirrhosis.</ImmunizationComments>
+                        </Immunization>
+                        <EffectorCells>
+                            <CellTissueType>Blood</CellTissueType>
+                            <CellType>T cell</CellType>
+                            <CellCultureConditions>Direct Ex Vivo</CellCultureConditions>
+                        </EffectorCells>
+                        <AntigenPresentingCells>
+                            <CellTissueType>Blood</CellTissueType>
+                            <CellType>PBMC</CellType>
+                            <CellCultureConditions>Direct Ex Vivo</CellCultureConditions>
+                            <AutologousOrSyngeneic>Y</AutologousOrSyngeneic>
+                        </AntigenPresentingCells>
+                        <MhcAllele>
+                            <MhcAlleleId>304</MhcAlleleId>
+                            <MhcEvidenceCode>T cell assay -Biological process measured</MhcEvidenceCode>
+                        </MhcAllele>
+                        <Antigen>
+                            <AntigenObject>
+                                <EpitopeRelation>Epitope</EpitopeRelation>
+                                <Object>
+                                    <FragmentOfANaturalSequenceMolecule>
+                                        <ChemicalType>Peptide from protein</ChemicalType>
+                                        <LinearSequence>EFGLLLQLLGSPGRRYYSL</LinearSequence>
+                                        <StartingPosition>37</StartingPosition>
+                                        <EndingPosition>55</EndingPosition>
+                                        <SourceMolecule>
+                                            <GenBankId>P10515.2</GenBankId>
+                                        </SourceMolecule>
+                                        <SourceOrganismId>9606</SourceOrganismId>
+                                    </FragmentOfANaturalSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Exact match to reference information</AntigenEvidenceCode>
+                        </Antigen>
+                        <AssayInformation>
+                            <AssayTypeId>69</AssayTypeId>
+                            <QualitativeMeasurement>Negative</QualitativeMeasurement>
+                            <AssayComments>The epitope was part of a peptide pool containing peptides 15-34, 23-42, -17-2, -31--12, and -40--21 derived from human PDC-E2.</AssayComments>
+                        </AssayInformation>
+                    </TCell>
+                </Assays>
+            </Epitope>
+            <Epitope>
+                <EpitopeName>PDC-E2 residues -31 to -12</EpitopeName>
+                <EpitopeStructure>
+                    <FragmentOfANaturalSequenceMolecule>
+                        <ChemicalType>Peptide from protein</ChemicalType>
+                        <LinearSequence>TEGRDGKMAVQEFSEFGLLL</LinearSequence>
+                        <StartingPosition>23</StartingPosition>
+                        <EndingPosition>42</EndingPosition>
+                        <SourceMolecule>
+                            <GenBankId>P10515.2</GenBankId>
+                        </SourceMolecule>
+                        <SourceOrganismId>9606</SourceOrganismId>
+                    </FragmentOfANaturalSequenceMolecule>
+                </EpitopeStructure>
+                <LocationOfData>Cited reference</LocationOfData>
+                <EpitopeId>125268</EpitopeId>
+                <EpitopeEvidenceCode>Representative selection</EpitopeEvidenceCode>
+                <EpitopeStructureDefines>Epitope containing region/antigenic site</EpitopeStructureDefines>
+                <EpitopeComments>The epitope sequence is from the cited reference: Coppel et al. (1988) Proc Natl Acad Sci USA 85:7317 [PMID: 3174635].</EpitopeComments>
+                <Assays>
+                    <TCell>
+                        <LocationOfData>Figure 1, Text page 1837</LocationOfData>
+                        <TCellId>1714135</TCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>9606</OrganismId>
+                                <Age>38-67 years</Age>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Occurrence of disease</InVivoProcessType>
+                                <DiseaseState>DOID:12236</DiseaseState>
+                                <DiseaseStage>Chronic</DiseaseStage>
+                            </FirstInVivoProcess>
+                            <ImmunizationComments>PBMCs were obtained from patients with primary biliary cirrhosis.</ImmunizationComments>
+                        </Immunization>
+                        <EffectorCells>
+                            <CellTissueType>Blood</CellTissueType>
+                            <CellType>T cell</CellType>
+                            <CellCultureConditions>Direct Ex Vivo</CellCultureConditions>
+                        </EffectorCells>
+                        <AntigenPresentingCells>
+                            <CellTissueType>Blood</CellTissueType>
+                            <CellType>PBMC</CellType>
+                            <CellCultureConditions>Direct Ex Vivo</CellCultureConditions>
+                            <AutologousOrSyngeneic>Y</AutologousOrSyngeneic>
+                        </AntigenPresentingCells>
+                        <MhcAllele>
+                            <MhcAlleleId>304</MhcAlleleId>
+                            <MhcEvidenceCode>T cell assay -Biological process measured</MhcEvidenceCode>
+                        </MhcAllele>
+                        <Antigen>
+                            <AntigenObject>
+                                <EpitopeRelation>Epitope</EpitopeRelation>
+                                <Object>
+                                    <FragmentOfANaturalSequenceMolecule>
+                                        <ChemicalType>Peptide from protein</ChemicalType>
+                                        <LinearSequence>TEGRDGKMAVQEFSEFGLLL</LinearSequence>
+                                        <StartingPosition>23</StartingPosition>
+                                        <EndingPosition>42</EndingPosition>
+                                        <SourceMolecule>
+                                            <GenBankId>P10515.2</GenBankId>
+                                        </SourceMolecule>
+                                        <SourceOrganismId>9606</SourceOrganismId>
+                                    </FragmentOfANaturalSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Exact match to reference information</AntigenEvidenceCode>
+                        </Antigen>
+                        <AssayInformation>
+                            <AssayTypeId>69</AssayTypeId>
+                            <QualitativeMeasurement>Negative</QualitativeMeasurement>
+                            <AssayComments>The epitope was part of a peptide pool containing peptides 15-34, 23-42, -17-2, -31--12, and -40--21 derived from human PDC-E2.</AssayComments>
+                        </AssayInformation>
+                    </TCell>
+                </Assays>
+            </Epitope>
+            <Epitope>
+                <EpitopeName>PDC-E2 residues -40 to -21</EpitopeName>
+                <EpitopeStructure>
+                    <FragmentOfANaturalSequenceMolecule>
+                        <ChemicalType>Peptide from protein</ChemicalType>
+                        <LinearSequence>GRTTMFWKTTEGRDGKMAV</LinearSequence>
+                        <StartingPosition>14</StartingPosition>
+                        <EndingPosition>32</EndingPosition>
+                        <SourceMolecule>
+                            <GenBankId>P10515.2</GenBankId>
+                        </SourceMolecule>
+                        <SourceOrganismId>9606</SourceOrganismId>
+                    </FragmentOfANaturalSequenceMolecule>
+                </EpitopeStructure>
+                <LocationOfData>Cited reference</LocationOfData>
+                <EpitopeId>125082</EpitopeId>
+                <EpitopeEvidenceCode>Representative selection</EpitopeEvidenceCode>
+                <EpitopeStructureDefines>Epitope containing region/antigenic site</EpitopeStructureDefines>
+                <EpitopeComments>The epitope sequence is from the cited reference: Coppel et al. (1988) Proc Natl Acad Sci USA 85:7317 [PMID: 3174635].</EpitopeComments>
+                <Assays>
+                    <TCell>
+                        <LocationOfData>Figure 1, Text page 1837</LocationOfData>
+                        <TCellId>1714136</TCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>9606</OrganismId>
+                                <Age>38-67 years</Age>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Occurrence of disease</InVivoProcessType>
+                                <DiseaseState>DOID:12236</DiseaseState>
+                                <DiseaseStage>Chronic</DiseaseStage>
+                            </FirstInVivoProcess>
+                            <ImmunizationComments>PBMCs were obtained from patients with primary biliary cirrhosis.</ImmunizationComments>
+                        </Immunization>
+                        <EffectorCells>
+                            <CellTissueType>Blood</CellTissueType>
+                            <CellType>T cell</CellType>
+                            <CellCultureConditions>Direct Ex Vivo</CellCultureConditions>
+                        </EffectorCells>
+                        <AntigenPresentingCells>
+                            <CellTissueType>Blood</CellTissueType>
+                            <CellType>PBMC</CellType>
+                            <CellCultureConditions>Direct Ex Vivo</CellCultureConditions>
+                            <AutologousOrSyngeneic>Y</AutologousOrSyngeneic>
+                        </AntigenPresentingCells>
+                        <MhcAllele>
+                            <MhcAlleleId>304</MhcAlleleId>
+                            <MhcEvidenceCode>T cell assay -Biological process measured</MhcEvidenceCode>
+                        </MhcAllele>
+                        <Antigen>
+                            <AntigenObject>
+                                <EpitopeRelation>Epitope</EpitopeRelation>
+                                <Object>
+                                    <FragmentOfANaturalSequenceMolecule>
+                                        <ChemicalType>Peptide from protein</ChemicalType>
+                                        <LinearSequence>GRTTMFWKTTEGRDGKMAV</LinearSequence>
+                                        <StartingPosition>14</StartingPosition>
+                                        <EndingPosition>32</EndingPosition>
+                                        <SourceMolecule>
+                                            <GenBankId>P10515.2</GenBankId>
+                                        </SourceMolecule>
+                                        <SourceOrganismId>9606</SourceOrganismId>
+                                    </FragmentOfANaturalSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Exact match to reference information</AntigenEvidenceCode>
+                        </Antigen>
+                        <AssayInformation>
+                            <AssayTypeId>69</AssayTypeId>
+                            <QualitativeMeasurement>Negative</QualitativeMeasurement>
+                            <AssayComments>The epitope was part of a peptide pool containing peptides 15-34, 23-42, -17-2, -31--12, and -40--21 derived from human PDC-E2.</AssayComments>
+                        </AssayInformation>
+                    </TCell>
+                </Assays>
+            </Epitope>
+        </Epitopes>
+    </Reference>
+</References>
+

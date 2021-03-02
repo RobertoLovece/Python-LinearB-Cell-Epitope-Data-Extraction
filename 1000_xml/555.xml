@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<References xsi:schemaLocation="http://www.iedb.org/schema/CurationSchema http://beta.iedb.org/schema/Curation.xsd" xmlns="http://www.iedb.org/schema/CurationSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <Reference>
+        <ReferenceId>555</ReferenceId>
+        <DateLastUpdated>2020-10-11-07:00</DateLastUpdated>
+        <Article>
+            <PubmedId>7664109</PubmedId>
+            <Abstract>The crystal structures of the murine BR96 Fab and its human chimera have been determined in complex with the nonoate methyl ester derivative of Lewis Y (nLey) at 2.8 A and 2.5 A resolution, respectively. BR96 binds the carbohydrate in a large pocket which is formed by residues of all CDR loops except L2. The binding of the carbohydrate is mediated predominantly by aromatic residues in BR96. Analysis of the structure suggests that BR96 is capable of recognizing a structure larger than the Le(y) tetrasaccharide, providing a possible explanation for its high tumour selectivity. The structure provides a rationale for mutagenesis experiments that have resulted in BR96 CDR loop mutants with increased affinity for nLey and/or tumour cells.</Abstract>
+            <ArticleYear>1995</ArticleYear>
+            <ArticlePages>466-71</ArticlePages>
+            <ArticleTitle>The x-ray structure of an anti-tumour antibody in complex with antigen.</ArticleTitle>
+            <Authors>
+                <Author>
+                    <LastName>Jeffrey</LastName>
+                    <ForeName>P D</ForeName>
+                </Author>
+                <Author>
+                    <LastName>Bajorath</LastName>
+                    <ForeName>J</ForeName>
+                </Author>
+                <Author>
+                    <LastName>Chang</LastName>
+                    <ForeName>C Y</ForeName>
+                </Author>
+                <Author>
+                    <LastName>Yelton</LastName>
+                    <ForeName>D</ForeName>
+                </Author>
+                <Author>
+                    <LastName>Hellström</LastName>
+                    <ForeName>I</ForeName>
+                </Author>
+                <Author>
+                    <LastName>Hellström</LastName>
+                    <ForeName>K E</ForeName>
+                </Author>
+                <Author>
+                    <LastName>Sheriff</LastName>
+                    <ForeName>S</ForeName>
+                </Author>
+            </Authors>
+            <Affiliations>Bristol-Myers Squibb Pharmaceutical Research Institute, Princeton, New Jersey 08543-4000, USA.</Affiliations>
+            <ArticleChemicalList>Antibodies, Monoclonal;Antibodies, Neoplasm;Immunoglobulin Fab Fragments;Lewis Blood Group Antigens;Lewis Y antigen;Recombinant Fusion Proteins</ArticleChemicalList>
+            <ArticleMeshHeadingsList>Animals; Antibodies, Monoclonal(chemistry; genetics; immunology); Antibodies, Neoplasm(chemistry; immunology; therapeutic use); Binding Sites, Antibody(physiology); Carbohydrate Sequence; Crystallography, X-Ray; Humans; Immunoglobulin Fab Fragments(chemistry; immunology); Lewis Blood Group Antigens(chemistry; immunology); Mice; Models, Molecular; Molecular Sequence Data; Molecular Structure; Mutation; Neoplasms(immunology; therapy); Protein Conformation; Recombinant Fusion Proteins(chemistry; immunology)</ArticleMeshHeadingsList>
+            <Comments>7664102  Nat Struct Biol. 1995 Jun;2(6):433-6</Comments>
+            <Journal>
+                <Volume>2</Volume>
+                <Issue>6</Issue>
+                <Title>Nature structural biology</Title>
+                <Issn>1072-8368</Issn>
+                <MedlineTa>Nat Struct Biol</MedlineTa>
+            </Journal>
+        </Article>
+        <Epitopes>
+            <Epitope>
+                <EpitopeName>nonoate methyl ester derivative of Lewis Y (nLe&lt;sup&gt;y&lt;/sup&gt;)</EpitopeName>
+                <EpitopeStructure>
+                    <AccessionNonSequenceMolecule>
+                        <ChemicalType>Carbohydrate</ChemicalType>
+                        <Molecule>
+                            <ChEBIId>CHEBI:59047</ChEBIId>
+                        </Molecule>
+                    </AccessionNonSequenceMolecule>
+                </EpitopeStructure>
+                <EpitopeRelatedObject>
+                    <RelatedObjectType>The epitope is an analog of:</RelatedObjectType>
+                    <RelatedObject>
+                        <AccessionNonSequenceMolecule>
+                            <ChemicalType>Carbohydrate</ChemicalType>
+                            <Molecule>
+                                <ChEBIId>CHEBI:62316</ChEBIId>
+                            </Molecule>
+                            <SourceOrganismId>9606</SourceOrganismId>
+                        </AccessionNonSequenceMolecule>
+                    </RelatedObject>
+                </EpitopeRelatedObject>
+                <LocationOfData>Figure 1</LocationOfData>
+                <EpitopeId>167701</EpitopeId>
+                <EpitopeStructureDefines>Epitope containing region/antigenic site</EpitopeStructureDefines>
+                <Assays>
+                    <BCell>
+                        <LocationOfData>Figures 2 and 3, Tables 2 and 3, PDB 1CLZ</LocationOfData>
+                        <BCellId>1708885</BCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>10000000</OrganismId>
+                                <Age>3 months</Age>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Administration in vivo</InVivoProcessType>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Structurally Related</EpitopeRelation>
+                                    <Object>
+                                        <DerivativeOfOrganism>
+                                            <SubType>Cell</SubType>
+                                            <SourceOrganismId>9606</SourceOrganismId>
+                                        </DerivativeOfOrganism>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenReferenceName>Metastatic carcinoma cell line H3396</ImmunogenReferenceName>
+                                <ImmunogenEvidenceCode>Representative selection</ImmunogenEvidenceCode>
+                                <ImmunogenContainingObject>
+                                    <Cell>
+                                        <SubType>Cell</SubType>
+                                    </Cell>
+                                </ImmunogenContainingObject>
+                            </FirstInVivoProcess>
+                            <ImmunizationComments>The mAb was generated from mice repeatedly immunized with H3396, a Le&lt;sup&gt;y&lt;/sup&gt;-positive human cell line derived from a metastatic breast adenocarcinoma. Details are found in Hellström et al, Cancer Res. 1990 50(7):2183 [PMID:1690595].</ImmunizationComments>
+                        </Immunization>
+                        <AssayInformation>
+                            <AssayTypeId>436</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <QuantitativeMeasurement>2.8</QuantitativeMeasurement>
+                            <MeasurementInequality>=</MeasurementInequality>
+                        </AssayInformation>
+                        <AssayedAntibody>
+                            <AssayedAntibodySourceMaterial>Purified Immunoglobulin</AssayedAntibodySourceMaterial>
+                            <AssayedAntibodyImmunoglobulinDomain>Fab</AssayedAntibodyImmunoglobulinDomain>
+                            <AssayedAntibodyPurificationStatus>Monoclonal</AssayedAntibodyPurificationStatus>
+                            <AssayedAntibodyName>BR96</AssayedAntibodyName>
+                            <AssayedAntibodyHeavyChainType>IgG3</AssayedAntibodyHeavyChainType>
+                            <AssayedAntibodyLightChainType>Kappa</AssayedAntibodyLightChainType>
+                            <AssayedAntibodyObject>
+                                <MultiChainMolecule>
+                                    <ChemicalType>Multi-Chain protein</ChemicalType>
+                                    <MoleculeName>MBR96</MoleculeName>
+                                    <Chain1>
+                                        <Molecule>
+                                            <GenBankId>1CLZ_L</GenBankId>
+                                        </Molecule>
+                                        <SourceOrganismId>10090</SourceOrganismId>
+                                    </Chain1>
+                                    <Chain2>
+                                        <Molecule>
+                                            <GenBankId>1CLZ_H</GenBankId>
+                                        </Molecule>
+                                        <SourceOrganismId>10090</SourceOrganismId>
+                                    </Chain2>
+                                </MultiChainMolecule>
+                            </AssayedAntibodyObject>
+                        </AssayedAntibody>
+                        <Antigen>
+                            <AntigenConformation>Native</AntigenConformation>
+                            <AntigenObject>
+                                <EpitopeRelation>Epitope</EpitopeRelation>
+                                <Object>
+                                    <AccessionNonSequenceMolecule>
+                                        <ChemicalType>Carbohydrate</ChemicalType>
+                                        <Molecule>
+                                            <ChEBIId>CHEBI:59047</ChEBIId>
+                                        </Molecule>
+                                    </AccessionNonSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Exact match to reference information</AntigenEvidenceCode>
+                        </Antigen>
+                        <ThreeDimensionalStructureOfComplex>
+                            <ComplexPdbId>1CLZ</ComplexPdbId>
+                            <AntibodyChain1PdbChain>H</AntibodyChain1PdbChain>
+                            <AntibodyChain2PdbChain>L</AntibodyChain2PdbChain>
+                            <AntigenChainPdbChain>H</AntigenChainPdbChain>
+                            <ViewerFlag>Y</ViewerFlag>
+                            <Comments>The epitope structure is conformationally identical to the structure of the same epitope in complex with the human chimeric BR96 [PDB:1CLY] with slightly different epitope-Fab contacts.</Comments>
+                            <CuratedContacts>
+                                <EpitopeResidues>H: (FUC)232, (GAL)233, (NAG)234, (FUC)235, (NON)236</EpitopeResidues>
+                                <AntibodyResiduesInteractingWithAntigen>L: H27D:L1, Y32:L1; H: D31:H1, Y32:H1, Y33:H1, Y35:H1, Y50:H2, Q52A:H2, G95:H3, D97:H3, G99:H3, A100:H3, W100A:H3</AntibodyResiduesInteractingWithAntigen>
+                            </CuratedContacts>
+                            <CalculatedContacts>
+                                <EpitopeResidues>H: (FUC)232, (GAL)233, (NAG)234, (FUC)235, (NON)236</EpitopeResidues>
+                                <AntibodyResiduesInteractingWithAntigen>H: D31, Y32, Y33, Y35, Q52A, G95, L96, D97, G99, A100, W100A; L: H27D, Y32</AntibodyResiduesInteractingWithAntigen>
+                                <ContactAreaForAntigen>537.5</ContactAreaForAntigen>
+                                <ContactAreaForAntibody>415.4</ContactAreaForAntibody>
+                            </CalculatedContacts>
+                        </ThreeDimensionalStructureOfComplex>
+                    </BCell>
+                </Assays>
+                <Assays>
+                    <BCell>
+                        <LocationOfData>Figures 2 and 3, Tables 2 and 3, PDB 1CLY</LocationOfData>
+                        <BCellId>1708884</BCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>10000000</OrganismId>
+                                <Age>3 months</Age>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Administration in vivo</InVivoProcessType>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Structurally Related</EpitopeRelation>
+                                    <Object>
+                                        <DerivativeOfOrganism>
+                                            <SubType>Cell</SubType>
+                                            <SourceOrganismId>9606</SourceOrganismId>
+                                        </DerivativeOfOrganism>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenReferenceName>Metastatic carcinoma cell line H3396</ImmunogenReferenceName>
+                                <ImmunogenEvidenceCode>Representative selection</ImmunogenEvidenceCode>
+                                <ImmunogenContainingObject>
+                                    <Cell>
+                                        <SubType>Cell</SubType>
+                                    </Cell>
+                                </ImmunogenContainingObject>
+                            </FirstInVivoProcess>
+                            <ImmunizationComments>The mAb was generated from mice repeatedly immunized with H3396, a Le&lt;sup&gt;y&lt;/sup&gt;-positive human cell line derived from a metastatic breast adenocarcinoma. Details are found in Hellström et al, Cancer Res. 1990 50(7):2183 [PMID:1690595]. The mAb was then engineered to express the human constant domain 1 of IgG1 and constant domain of kappa chain.</ImmunizationComments>
+                        </Immunization>
+                        <AssayInformation>
+                            <AssayTypeId>436</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <QuantitativeMeasurement>2.5</QuantitativeMeasurement>
+                            <MeasurementInequality>=</MeasurementInequality>
+                            <AssayComments>cBR96 is a chimeric mAb that has human IgG1 constant domain 1 and human kappa constant chain,with an identical variable domain Fv to mouse monoclonal antibody BR96. The Fab' fragment of this chimeric mAB was used.</AssayComments>
+                        </AssayInformation>
+                        <AssayedAntibody>
+                            <AssayedAntibodySourceMaterial>Purified Immunoglobulin</AssayedAntibodySourceMaterial>
+                            <AssayedAntibodyImmunoglobulinDomain>Fab</AssayedAntibodyImmunoglobulinDomain>
+                            <AssayedAntibodyPurificationStatus>Monoclonal</AssayedAntibodyPurificationStatus>
+                            <AssayedAntibodyName>chimeric mAb cBR96</AssayedAntibodyName>
+                            <AssayedAntibodyHeavyChainType>IgG1</AssayedAntibodyHeavyChainType>
+                            <AssayedAntibodyLightChainType>Kappa</AssayedAntibodyLightChainType>
+                            <AssayedAntibodyObject>
+                                <MultiChainMolecule>
+                                    <ChemicalType>Multi-Chain protein</ChemicalType>
+                                    <MoleculeName>cBR96</MoleculeName>
+                                    <Chain1>
+                                        <Molecule>
+                                            <GenBankId>1UCB_L</GenBankId>
+                                        </Molecule>
+                                        <SourceOrganismId>9606</SourceOrganismId>
+                                    </Chain1>
+                                    <Chain2>
+                                        <Molecule>
+                                            <GenBankId>1UCB_H</GenBankId>
+                                        </Molecule>
+                                        <SourceOrganismId>9606</SourceOrganismId>
+                                    </Chain2>
+                                </MultiChainMolecule>
+                            </AssayedAntibodyObject>
+                        </AssayedAntibody>
+                        <Antigen>
+                            <AntigenConformation>Native</AntigenConformation>
+                            <AntigenObject>
+                                <EpitopeRelation>Epitope</EpitopeRelation>
+                                <Object>
+                                    <AccessionNonSequenceMolecule>
+                                        <ChemicalType>Carbohydrate</ChemicalType>
+                                        <Molecule>
+                                            <ChEBIId>CHEBI:59047</ChEBIId>
+                                        </Molecule>
+                                    </AccessionNonSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Exact match to reference information</AntigenEvidenceCode>
+                        </Antigen>
+                        <ThreeDimensionalStructureOfComplex>
+                            <ComplexPdbId>1CLY</ComplexPdbId>
+                            <AntibodyChain1PdbChain>H</AntibodyChain1PdbChain>
+                            <AntibodyChain2PdbChain>L</AntibodyChain2PdbChain>
+                            <AntigenChainPdbChain>H</AntigenChainPdbChain>
+                            <ViewerFlag>Y</ViewerFlag>
+                            <Comments>The epitope residues in PDB are (FUC), (GAL), (NAG), (FUC), and (NON). Where, FUC is FUCOSE (C6 H12 O5; CC1OC(O)C(O)C(O)C1O). GAL is D-GALACTOSE (C6H12O6; OCC1OC(O)C(O)C(O)C1O). NAG is N-ACETYL-D-GLUCOSAMINE (  C8 H15 N O6; CC(=O)NC1C(O)OC(CO)C(O)C1O). NON is  METHYL NONANOATE (ESTER)  ( C10 H20 O2; CCCCCCCCC(=O)OC).  This structure is conformationally identical to the structure of the same epitope in complex with mouse BR96 [PDB:1CLZ] with slightly different epitope-Fab contacts.</Comments>
+                            <CuratedContacts>
+                                <EpitopeResidues>H: (FUC)228, (GAL)229, (NAG)230, (FUC)231, (NON)232</EpitopeResidues>
+                                <AntibodyResiduesInteractingWithAntigen>L: H27D:L1, Y32:L1, F96:L3; H: D31:H1, Y32:H1, Y33:H1, Y35:H1, Y50:H2, Q52A:H2, L96:H3, D97:H3, G99:H3, A100:H3, W100A:H3;</AntibodyResiduesInteractingWithAntigen>
+                            </CuratedContacts>
+                            <CalculatedContacts>
+                                <EpitopeResidues>H: (FUC)228, (GAL)229, (NAG)230, (FUC)231, (NON)232</EpitopeResidues>
+                                <AntibodyResiduesInteractingWithAntigen>H: D31, Y32, Y33, Y35, Q52A, L96, D97, G99, A100, W100A; L: N27E, H27D, Y32, F96</AntibodyResiduesInteractingWithAntigen>
+                                <ContactAreaForAntigen>556.0</ContactAreaForAntigen>
+                                <ContactAreaForAntibody>435.3</ContactAreaForAntibody>
+                            </CalculatedContacts>
+                        </ThreeDimensionalStructureOfComplex>
+                    </BCell>
+                </Assays>
+            </Epitope>
+        </Epitopes>
+    </Reference>
+</References>
+

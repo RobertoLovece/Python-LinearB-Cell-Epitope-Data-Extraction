@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<References xsi:schemaLocation="http://www.iedb.org/schema/CurationSchema http://beta.iedb.org/schema/Curation.xsd" xmlns="http://www.iedb.org/schema/CurationSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <Reference>
+        <ReferenceId>1168</ReferenceId>
+        <DateLastUpdated>2020-10-11-07:00</DateLastUpdated>
+        <Article>
+            <PubmedId>16032350</PubmedId>
+            <Abstract>Carbohydrate-protein interactions have been investigated for a model system of a monoclonal antibody, SYA/J6, which binds a trisaccharide epitope of the O-polysaccharide of the Shigella flexneri variant Y lipopolysaccharide. The thermodynamics of binding for the methyl glycoside of the native trisaccharide epitope, Rha-Rha-GlcNAc () to SYA/J6 over a range of temperatures exhibits strong, linear enthalpy-entropy compensation and a negative heat capacity change (DeltaC(p)=-152 cal mol(-1) degree(-1)). At 293 K the free energy of association is the sum of favourable enthalpy and entropy contributions (DeltaH=-3.9 kcal mol(-1) and -TDeltaS=-2.9 kcal mol(-1)). Crystal structures for SYA/J6 Fab detailed the position of the native trisaccharide epitope, Rha-Rha-GlcNAc, and facilitated a strategy to design a tighter binding, low molecular weight ligand. This involved pre-organization of the native trisaccharide in its bound conformation by addition of intramolecular constraints (a beta-alanyl or glycinyl tether). ELISA measurements indicated that the glycinyl tethered trisaccharide was not an optimal candidate for further analysis, while microcalorimetry provided data showing that the beta-alanyl tethered trisaccharide displayed a 15-fold increase in affinity for SYA/J6. Tethering resulted in a favourable entropic contribution to binding, relative to the native trisaccharide (-TDeltaDeltaS=-1.2 kcal mol(-1)). Potential energy and dynamics calculations using the AMBER Plus force fields indicated that trisaccharide adopted a rigid conformation similar to that of the bound conformation of the native trisaccharide epitope. While this strategy resulted in modest free energy gains by minimizing losses due to conformational entropy, thermodynamic data are consistent with significant contributions from solvent reorganization.</Abstract>
+            <ArticleYear>2005</ArticleYear>
+            <ArticlePages>2723-32</ArticlePages>
+            <ArticleTitle>The design, synthesis and evaluation of high affinity macrocyclic carbohydrate inhibitors.</ArticleTitle>
+            <Authors>
+                <Author>
+                    <LastName>McGavin</LastName>
+                    <ForeName>Robert S</ForeName>
+                </Author>
+                <Author>
+                    <LastName>Gagne</LastName>
+                    <ForeName>Rod A</ForeName>
+                </Author>
+                <Author>
+                    <LastName>Chervenak</LastName>
+                    <ForeName>Mary C</ForeName>
+                </Author>
+                <Author>
+                    <LastName>Bundle</LastName>
+                    <ForeName>David R</ForeName>
+                </Author>
+            </Authors>
+            <Affiliations>Department of Chemistry, University of Alberta, Edmonton, Alberta, Canada T6G 2G2.</Affiliations>
+            <ArticleChemicalList>Carbohydrates;Macrocyclic Compounds</ArticleChemicalList>
+            <ArticleMeshHeadingsList>Calorimetry; Carbohydrate Conformation; Carbohydrate Sequence; Carbohydrates(antagonists &amp; inhibitors); Enzyme-Linked Immunosorbent Assay; Macrocyclic Compounds(chemical synthesis; chemistry; pharmacology); Magnetic Resonance Spectroscopy; Mass Spectrometry; Molecular Sequence Data; Thermodynamics</ArticleMeshHeadingsList>
+            <Journal>
+                <Volume>3</Volume>
+                <Issue>15</Issue>
+                <Title>Organic &amp; biomolecular chemistry</Title>
+                <Issn>1477-0539</Issn>
+                <MedlineTa>Org Biomol Chem</MedlineTa>
+            </Journal>
+        </Article>
+        <Epitopes>
+            <Epitope>
+                <EpitopeName>Trisaccharide from O-PS of S.flexneri variant Y</EpitopeName>
+                <EpitopeStructure>
+                    <FragmentOfANaturalNonSequenceMolecule>
+                        <ChemicalType>Carbohydrate fragment</ChemicalType>
+                        <Molecule>
+                            <ChEBIId>CHEBI:59310</ChEBIId>
+                        </Molecule>
+                        <SourceMolecule>
+                            <ChEBIId>CHEBI:16412</ChEBIId>
+                        </SourceMolecule>
+                        <SourceOrganismId>424720</SourceOrganismId>
+                    </FragmentOfANaturalNonSequenceMolecule>
+                </EpitopeStructure>
+                <LocationOfData>Figure 1</LocationOfData>
+                <EpitopeId>125613</EpitopeId>
+                <EpitopeEvidenceCode>Exact match to reference information</EpitopeEvidenceCode>
+                <EpitopeStructureDefines>Exact Epitope</EpitopeStructureDefines>
+                <EpitopeComments>Component of the linear tetrasaccharide repeating unit found in the O-polysaccharide of Shigella flexneri variant Y LPS.</EpitopeComments>
+                <Assays>
+                    <BCell>
+                        <LocationOfData>Table 1</LocationOfData>
+                        <BCellId>16284</BCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>10090</OrganismId>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Administration in vivo</InVivoProcessType>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Source Organism</EpitopeRelation>
+                                    <Object>
+                                        <Organism>
+                                            <SubType>Organism</SubType>
+                                            <SourceOrganismId>424720</SourceOrganismId>
+                                        </Organism>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenEvidenceCode>Exact match to reference information</ImmunogenEvidenceCode>
+                            </FirstInVivoProcess>
+                            <ImmunizationComments>The monoclonal antibody was produced following hyper-immunizarion with a killed, whole cell vacine of S.flexneri.</ImmunizationComments>
+                        </Immunization>
+                        <AssayInformation>
+                            <AssayTypeId>311</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <AssayComments>A competitive ELISA with this natural epitope was performed to test the reactivity of antibody SYA/J6, resulting in a IC50 value of 17 uM. When tethered analogs, constructed to increase the affinity of the trisaccharide-antibody interaction were assayed, one of them (glycinyl- tethered) decreased the apparent affinity (IC50=137 uM) while the other (β-alanyl-tethered) modestly increased the apparent affinity (IC50=5 uM).</AssayComments>
+                        </AssayInformation>
+                        <AssayedAntibody>
+                            <AssayedAntibodySourceMaterial>Purified Immunoglobulin</AssayedAntibodySourceMaterial>
+                            <AssayedAntibodyImmunoglobulinDomain>Entire Antibody</AssayedAntibodyImmunoglobulinDomain>
+                            <AssayedAntibodyPurificationStatus>Monoclonal</AssayedAntibodyPurificationStatus>
+                            <AssayedAntibodyName>SYA/J6</AssayedAntibodyName>
+                            <AssayedAntibodyHeavyChainType>IgG3</AssayedAntibodyHeavyChainType>
+                            <AssayedAntibodyLightChainType>Kappa</AssayedAntibodyLightChainType>
+                            <AssayedAntibodyObject>
+                                <MultiChainMolecule>
+                                    <ChemicalType>Multi-Chain protein</ChemicalType>
+                                    <MoleculeName>SYA/J6</MoleculeName>
+                                    <Chain1>
+                                        <Molecule>
+                                            <GenBankId>1M71_A</GenBankId>
+                                        </Molecule>
+                                        <SourceOrganismId>10090</SourceOrganismId>
+                                    </Chain1>
+                                    <Chain2>
+                                        <Molecule>
+                                            <GenBankId>1M71_B</GenBankId>
+                                        </Molecule>
+                                        <SourceOrganismId>10090</SourceOrganismId>
+                                    </Chain2>
+                                </MultiChainMolecule>
+                            </AssayedAntibodyObject>
+                        </AssayedAntibody>
+                        <Antigen>
+                            <AntigenConformation>Non-Native/Unknown</AntigenConformation>
+                            <AntigenObject>
+                                <EpitopeRelation>Epitope</EpitopeRelation>
+                                <Object>
+                                    <FragmentOfANaturalNonSequenceMolecule>
+                                        <ChemicalType>Carbohydrate fragment</ChemicalType>
+                                        <Molecule>
+                                            <ChEBIId>CHEBI:59310</ChEBIId>
+                                        </Molecule>
+                                        <SourceMolecule>
+                                            <ChEBIId>CHEBI:16412</ChEBIId>
+                                        </SourceMolecule>
+                                        <SourceOrganismId>424720</SourceOrganismId>
+                                    </FragmentOfANaturalNonSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Exact match to reference information</AntigenEvidenceCode>
+                        </Antigen>
+                    </BCell>
+                </Assays>
+                <Assays>
+                    <BCell>
+                        <LocationOfData>Table 1</LocationOfData>
+                        <BCellId>17214</BCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>10090</OrganismId>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Administration in vivo</InVivoProcessType>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Source Organism</EpitopeRelation>
+                                    <Object>
+                                        <Organism>
+                                            <SubType>Organism</SubType>
+                                            <SourceOrganismId>424720</SourceOrganismId>
+                                        </Organism>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenEvidenceCode>Exact match to reference information</ImmunogenEvidenceCode>
+                            </FirstInVivoProcess>
+                            <ImmunizationComments>The monoclonal antibody was produced following hyper-immunizarion with a killed, whole cell vacine of S.flexneri.</ImmunizationComments>
+                        </Immunization>
+                        <AssayInformation>
+                            <AssayTypeId>243</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <QuantitativeMeasurement>0.00011</QuantitativeMeasurement>
+                            <AssayComments>An isothermal titration calorimetry study of the binding of this natural epitope to antibody SYA/J6 gives a KA of 1.1E-4/nM (KD= 9 uM). When tethered analogs, constructed to increase the affinity of the trisaccharide-antibody interaction, where assayed, one of them (β-alanyl-tethered) increased the affinity to KD of 0.7 uM, translating to a free energy gain (ΔΔG=-1.5) with significant contributions from solvent reorganization.</AssayComments>
+                        </AssayInformation>
+                        <AssayedAntibody>
+                            <AssayedAntibodySourceMaterial>Purified Immunoglobulin</AssayedAntibodySourceMaterial>
+                            <AssayedAntibodyImmunoglobulinDomain>Entire Antibody</AssayedAntibodyImmunoglobulinDomain>
+                            <AssayedAntibodyPurificationStatus>Monoclonal</AssayedAntibodyPurificationStatus>
+                            <AssayedAntibodyName>SYA/J6</AssayedAntibodyName>
+                            <AssayedAntibodyHeavyChainType>IgG3</AssayedAntibodyHeavyChainType>
+                            <AssayedAntibodyLightChainType>Kappa</AssayedAntibodyLightChainType>
+                            <AssayedAntibodyObject>
+                                <MultiChainMolecule>
+                                    <ChemicalType>Multi-Chain protein</ChemicalType>
+                                    <MoleculeName>SYA/J6</MoleculeName>
+                                    <Chain1>
+                                        <Molecule>
+                                            <GenBankId>1M71_A</GenBankId>
+                                        </Molecule>
+                                        <SourceOrganismId>10090</SourceOrganismId>
+                                    </Chain1>
+                                    <Chain2>
+                                        <Molecule>
+                                            <GenBankId>1M71_B</GenBankId>
+                                        </Molecule>
+                                        <SourceOrganismId>10090</SourceOrganismId>
+                                    </Chain2>
+                                </MultiChainMolecule>
+                            </AssayedAntibodyObject>
+                        </AssayedAntibody>
+                        <Antigen>
+                            <AntigenConformation>Non-Native/Unknown</AntigenConformation>
+                            <AntigenObject>
+                                <EpitopeRelation>Epitope</EpitopeRelation>
+                                <Object>
+                                    <FragmentOfANaturalNonSequenceMolecule>
+                                        <ChemicalType>Carbohydrate fragment</ChemicalType>
+                                        <Molecule>
+                                            <ChEBIId>CHEBI:59310</ChEBIId>
+                                        </Molecule>
+                                        <SourceMolecule>
+                                            <ChEBIId>CHEBI:16412</ChEBIId>
+                                        </SourceMolecule>
+                                        <SourceOrganismId>424720</SourceOrganismId>
+                                    </FragmentOfANaturalNonSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Exact match to reference information</AntigenEvidenceCode>
+                        </Antigen>
+                    </BCell>
+                </Assays>
+            </Epitope>
+        </Epitopes>
+    </Reference>
+</References>
+

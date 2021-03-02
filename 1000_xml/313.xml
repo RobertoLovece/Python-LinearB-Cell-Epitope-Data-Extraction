@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<References xsi:schemaLocation="http://www.iedb.org/schema/CurationSchema http://beta.iedb.org/schema/Curation.xsd" xmlns="http://www.iedb.org/schema/CurationSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <Reference>
+        <ReferenceId>313</ReferenceId>
+        <DateLastUpdated>2020-09-10-07:00</DateLastUpdated>
+        <Article>
+            <PubmedId>15699429</PubmedId>
+            <Abstract>Tc40 is an immunodominant antigen present in natural Trypanosoma cruzi infections. This immunogen was thoroughly mapped by using overlapping amino acid sequences identified by gene cloning and chemical peptide synthesis. To map continuous epitopes of the Tc40 antigen, an epitope expression library was constructed and screened with sera from human chagasic patients. A major, linear B-cell epitope spanning residues 403 to 426 (PAKAAAPPAA) was identified in the central domain of Tc40. A synthetic peptide spanning this region reacted strongly with 89.8% of the serum samples from T. cruzi-infected individuals. This indicates that the main antigenic site is defined by the linear sequence of the peptide rather than a conformation-dependent structure. The major B-cell epitope of Tc40 shares a high degree of sequence identity with T. cruzi ribosomal and RNA binding proteins, suggesting the existence of cross-reactivity among these molecules.</Abstract>
+            <ArticleYear>2005</ArticleYear>
+            <ArticlePages>329-33</ArticlePages>
+            <ArticleTitle>Mapping of B-cell epitopes in a Trypanosoma cruzi immunodominant antigen expressed in natural infections.</ArticleTitle>
+            <Authors>
+                <Author>
+                    <LastName>Lesénéchal</LastName>
+                    <ForeName>Mylène</ForeName>
+                </Author>
+                <Author>
+                    <LastName>Becquart</LastName>
+                    <ForeName>Laurence</ForeName>
+                </Author>
+                <Author>
+                    <LastName>Lacoux</LastName>
+                    <ForeName>Xavier</ForeName>
+                </Author>
+                <Author>
+                    <LastName>Ladavière</LastName>
+                    <ForeName>Laurent</ForeName>
+                </Author>
+                <Author>
+                    <LastName>Baida</LastName>
+                    <ForeName>Renata C P</ForeName>
+                </Author>
+                <Author>
+                    <LastName>Paranhos-Baccalà</LastName>
+                    <ForeName>Glaucia</ForeName>
+                </Author>
+                <Author>
+                    <LastName>da Silveira</LastName>
+                    <ForeName>José Franco</ForeName>
+                </Author>
+            </Authors>
+            <Affiliations>UMR 2714 CNRS-bioMérieux, IFR 128 BioScience Lyon-Gerland, CERVI-21, Lyon, France.</Affiliations>
+            <ArticleChemicalList>Epitopes, B-Lymphocyte;Immunodominant Epitopes;Recombinant Fusion Proteins;Ribonucleoproteins</ArticleChemicalList>
+            <ArticleMeshHeadingsList>Amino Acid Sequence; Animals; B-Lymphocytes(immunology); Chagas Disease(immunology); Cross Reactions; Epitope Mapping; Epitopes, B-Lymphocyte(chemistry); Humans; Immunodominant Epitopes(chemistry; immunology; isolation &amp; purification); Molecular Sequence Data; Recombinant Fusion Proteins(immunology); Ribonucleoproteins(chemistry; immunology); Sequence Alignment; Trypanosoma cruzi(immunology)</ArticleMeshHeadingsList>
+            <Journal>
+                <Volume>12</Volume>
+                <Issue>2</Issue>
+                <Title>Clinical and diagnostic laboratory immunology.</Title>
+                <Issn>1098-6588</Issn>
+                <MedlineTa>Clin Diagn Lab Immunol</MedlineTa>
+            </Journal>
+        </Article>
+        <Epitopes>
+            <Epitope>
+                <EpitopeName>Tc40 408-417</EpitopeName>
+                <EpitopeStructure>
+                    <FragmentOfANaturalSequenceMolecule>
+                        <ChemicalType>Peptide from protein</ChemicalType>
+                        <LinearSequence>PAKAAAPPAA</LinearSequence>
+                        <StartingPosition>408</StartingPosition>
+                        <EndingPosition>417</EndingPosition>
+                        <SourceMolecule>
+                            <GenBankId>AAC47657.1</GenBankId>
+                        </SourceMolecule>
+                        <SourceOrganismId>5693</SourceOrganismId>
+                    </FragmentOfANaturalSequenceMolecule>
+                </EpitopeStructure>
+                <LocationOfData>Figure 4</LocationOfData>
+                <EpitopeId>46837</EpitopeId>
+                <EpitopeEvidenceCode>Representative selection</EpitopeEvidenceCode>
+                <EpitopeStructureDefines>Exact Epitope</EpitopeStructureDefines>
+                <Assays>
+                    <BCell>
+                        <LocationOfData>Figure 4</LocationOfData>
+                        <BCellId>179</BCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>9606</OrganismId>
+                                <GeoLocId>http://purl.obolibrary.org/obo/GAZ_00000459</GeoLocId>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Occurrence of infectious disease</InVivoProcessType>
+                                <DiseaseState>DOID:12140</DiseaseState>
+                                <DiseaseStage>Chronic</DiseaseStage>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Source Organism</EpitopeRelation>
+                                    <Object>
+                                        <Organism>
+                                            <SubType>Organism</SubType>
+                                            <SourceOrganismId>5693</SourceOrganismId>
+                                        </Organism>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenEvidenceCode>Representative selection</ImmunogenEvidenceCode>
+                            </FirstInVivoProcess>
+                            <ImmunizationComments>Serum samples from patients with chronic Chagas’ disease were collected in different Latin American countries (Argentina, Honduras), mainly Brazil. Diagnosis of the disease was made according to clinical symptoms and serological analysis.</ImmunizationComments>
+                        </Immunization>
+                        <AssayInformation>
+                            <AssayTypeId>311</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <QuantitativeMeasurement>80.0</QuantitativeMeasurement>
+                            <AssayComments>The epitope inhibited sera from patients with chronic Chagas' disease from binding to GST-Tc40 (an immunodominant antigen in T. cruzi).</AssayComments>
+                        </AssayInformation>
+                        <AssayedAntibody>
+                            <AssayedAntibodySourceMaterial>Serum</AssayedAntibodySourceMaterial>
+                            <AssayedAntibodyImmunoglobulinDomain>Entire Antibody</AssayedAntibodyImmunoglobulinDomain>
+                            <AssayedAntibodyPurificationStatus>Polyclonal</AssayedAntibodyPurificationStatus>
+                        </AssayedAntibody>
+                        <Antigen>
+                            <AntigenConformation>Non-Native/Unknown</AntigenConformation>
+                            <AntigenObject>
+                                <EpitopeRelation>Epitope</EpitopeRelation>
+                                <Object>
+                                    <FragmentOfANaturalSequenceMolecule>
+                                        <ChemicalType>Peptide from protein</ChemicalType>
+                                        <LinearSequence>PAKAAAPPAA</LinearSequence>
+                                        <StartingPosition>408</StartingPosition>
+                                        <EndingPosition>417</EndingPosition>
+                                        <SourceMolecule>
+                                            <GenBankId>AAC47657.1</GenBankId>
+                                        </SourceMolecule>
+                                        <SourceOrganismId>5693</SourceOrganismId>
+                                    </FragmentOfANaturalSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Exact match to reference information</AntigenEvidenceCode>
+                        </Antigen>
+                    </BCell>
+                </Assays>
+            </Epitope>
+            <Epitope>
+                <EpitopeName>Peptide S23G</EpitopeName>
+                <EpitopeStructure>
+                    <FragmentOfANaturalSequenceMolecule>
+                        <ChemicalType>Peptide from protein</ChemicalType>
+                        <LinearSequence>SPPVSAPAKAAAPPAAARSAEPHVG</LinearSequence>
+                        <StartingPosition>402</StartingPosition>
+                        <EndingPosition>426</EndingPosition>
+                        <SourceMolecule>
+                            <GenBankId>AAC47657.1</GenBankId>
+                        </SourceMolecule>
+                        <SourceOrganismId>5693</SourceOrganismId>
+                    </FragmentOfANaturalSequenceMolecule>
+                </EpitopeStructure>
+                <LocationOfData>Figure 4</LocationOfData>
+                <EpitopeId>149109</EpitopeId>
+                <EpitopeEvidenceCode>Representative selection</EpitopeEvidenceCode>
+                <EpitopeStructureDefines>Epitope containing region/antigenic site</EpitopeStructureDefines>
+                <Assays>
+                    <BCell>
+                        <LocationOfData>Figure 5</LocationOfData>
+                        <BCellId>1850695</BCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>9606</OrganismId>
+                                <GeoLocId>http://purl.obolibrary.org/obo/GAZ_00000459</GeoLocId>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Occurrence of infectious disease</InVivoProcessType>
+                                <DiseaseState>DOID:12140</DiseaseState>
+                                <DiseaseStage>Chronic</DiseaseStage>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Source Organism</EpitopeRelation>
+                                    <Object>
+                                        <Organism>
+                                            <SubType>Organism</SubType>
+                                            <SourceOrganismId>5693</SourceOrganismId>
+                                        </Organism>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenEvidenceCode>Representative selection</ImmunogenEvidenceCode>
+                            </FirstInVivoProcess>
+                            <ImmunizationComments>Serum samples from patients with chronic Chagas’ disease were collected in different Latin American countries (Argentina, Honduras), mainly Brazil. Diagnosis of the disease was made according to clinical symptoms and serological analysis.</ImmunizationComments>
+                        </Immunization>
+                        <AssayInformation>
+                            <AssayTypeId>34</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <NumberOfSubjectsTested>166</NumberOfSubjectsTested>
+                            <NumberOfSubjectsResponded>149</NumberOfSubjectsResponded>
+                            <ResponseFrequency>89.8</ResponseFrequency>
+                            <AssayComments>Sera from healthy individuals (0 of 62) and sera from patients with other pathologies (0 of 28), excluding leishmaniasis, did not react with the epitope.</AssayComments>
+                        </AssayInformation>
+                        <AssayedAntibody>
+                            <AssayedAntibodySourceMaterial>Serum</AssayedAntibodySourceMaterial>
+                            <AssayedAntibodyImmunoglobulinDomain>Entire Antibody</AssayedAntibodyImmunoglobulinDomain>
+                            <AssayedAntibodyPurificationStatus>Polyclonal</AssayedAntibodyPurificationStatus>
+                        </AssayedAntibody>
+                        <Antigen>
+                            <AntigenConformation>Non-Native/Unknown</AntigenConformation>
+                            <AntigenObject>
+                                <EpitopeRelation>Epitope</EpitopeRelation>
+                                <Object>
+                                    <FragmentOfANaturalSequenceMolecule>
+                                        <ChemicalType>Peptide from protein</ChemicalType>
+                                        <LinearSequence>SPPVSAPAKAAAPPAAARSAEPHVG</LinearSequence>
+                                        <StartingPosition>402</StartingPosition>
+                                        <EndingPosition>426</EndingPosition>
+                                        <SourceMolecule>
+                                            <GenBankId>AAC47657.1</GenBankId>
+                                        </SourceMolecule>
+                                        <SourceOrganismId>5693</SourceOrganismId>
+                                    </FragmentOfANaturalSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Exact match to reference information</AntigenEvidenceCode>
+                            <AntigenContainingObject>
+                                <ComplexedMolecule>
+                                    <ComplexType>Protein conjugate</ComplexType>
+                                    <PeptideModifications/>
+                                    <SourceMolecule>
+                                        <GenBankId>CBW99083.1</GenBankId>
+                                    </SourceMolecule>
+                                    <MoleculeSourceOrganismId>866628</MoleculeSourceOrganismId>
+                                </ComplexedMolecule>
+                            </AntigenContainingObject>
+                        </Antigen>
+                    </BCell>
+                </Assays>
+            </Epitope>
+        </Epitopes>
+    </Reference>
+</References>
+

@@ -1,0 +1,2138 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<References xsi:schemaLocation="http://www.iedb.org/schema/CurationSchema http://beta.iedb.org/schema/Curation.xsd" xmlns="http://www.iedb.org/schema/CurationSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <Reference>
+        <ReferenceId>833</ReferenceId>
+        <DateLastUpdated>2020-09-10-07:00</DateLastUpdated>
+        <Article>
+            <PubmedId>10233750</PubmedId>
+            <Abstract>Mycobacterium leprae-specific immunoglobulin G1 (IgG1) antibodies in patients with leprosy show a direct correlation with bacterial load (rho=0.748; P&lt;0002) suggesting that IgG1 B-cell responses may be surrogate markers of disease progression. To investigate if this upregulation was a general feature of IgG1 responses to all M. leprae (ML) antigens, we analysed responses to several recombinant purified ML heat-shock proteins (HSP). Three recombinant HSPs (ML10 K, ML 18 K and ML 65 K) were tested for their ability to induce various IgG subclasses in patients with either the lepromatous (LL/BL, n=26) or tuberculoid form (BT/TT, n=39) of the disease as well as in healthy households (HC, n=14) and endemic controls (EC=19). Our major findings were: (1) selective augmentation of IgG1 antibody responses to ML10 K; (2) recognition of a restricted number of epitopes across the disease spectrum and healthy controls by IgG1 antibodies; (3) dominant recognition of cross-reactive epitopes which were common to both ML and MT 10 K. This response was not related to contamination with endotoxin. Epitope mapping using 15-mer overlapping peptides spanning the ML 10 000 MW revealed an immunodominant IgG1 binding peptide (aa41-55) in patients as well as healthy controls. This peptide is a shared epitope with M. tuberculosis 10 K suggesting that postswitched IgG1 B cells recognizing this epitope rather than naive B cells are being expanded.</Abstract>
+            <ArticleYear>1999</ArticleYear>
+            <ArticlePages>620-7</ArticlePages>
+            <ArticleTitle>Dominant recognition of a cross-reactive B-cell epitope in Mycobacterium leprae 10 K antigen by immunoglobulin G1 antibodies across the disease spectrum in leprosy.</ArticleTitle>
+            <Authors>
+                <Author>
+                    <LastName>Hussain</LastName>
+                    <ForeName>R</ForeName>
+                </Author>
+                <Author>
+                    <LastName>Dockrell</LastName>
+                    <ForeName>H M</ForeName>
+                </Author>
+                <Author>
+                    <LastName>Chiang</LastName>
+                    <ForeName>T J</ForeName>
+                </Author>
+            </Authors>
+            <Affiliations>Department of Microbiology, The Aga Khan University. PO Box 3500, Karachi, Pakistan.</Affiliations>
+            <ArticleChemicalList>Antibodies, Bacterial;Antigens, Bacterial;Epitopes;Immunoglobulin G;Recombinant Proteins</ArticleChemicalList>
+            <ArticleMeshHeadingsList>Antibodies, Bacterial(biosynthesis); Antigens, Bacterial(immunology); B-Lymphocytes(immunology); Cross Reactions; Epitopes(immunology); Humans; Immunoglobulin G(biosynthesis; immunology); Leprosy(immunology); Mycobacterium leprae(immunology); Mycobacterium tuberculosis(immunology); Recombinant Proteins(immunology)</ArticleMeshHeadingsList>
+            <Journal>
+                <Volume>96</Volume>
+                <Issue>4</Issue>
+                <Title>Immunology</Title>
+                <Issn>0019-2805</Issn>
+                <MedlineTa>Immunology</MedlineTa>
+            </Journal>
+        </Article>
+        <Epitopes>
+            <Epitope>
+                <EpitopeName>ML 1-15</EpitopeName>
+                <EpitopeStructure>
+                    <FragmentOfANaturalSequenceMolecule>
+                        <ChemicalType>Peptide from protein</ChemicalType>
+                        <LinearSequence>MAKVKIKPLEDKILV</LinearSequence>
+                        <StartingPosition>1</StartingPosition>
+                        <EndingPosition>15</EndingPosition>
+                        <SourceMolecule>
+                            <GenBankId>P24301.2</GenBankId>
+                        </SourceMolecule>
+                        <SourceOrganismId>1769</SourceOrganismId>
+                    </FragmentOfANaturalSequenceMolecule>
+                </EpitopeStructure>
+                <LocationOfData>Table 2</LocationOfData>
+                <EpitopeId>41069</EpitopeId>
+                <ReferenceStartingPosition>1</ReferenceStartingPosition>
+                <ReferenceEndingPosition>15</ReferenceEndingPosition>
+                <EpitopeEvidenceCode>Representative selection</EpitopeEvidenceCode>
+                <EpitopeStructureDefines>Epitope containing region/antigenic site</EpitopeStructureDefines>
+                <EpitopeComments>First aa is incorrectly shown as V in manuscript.</EpitopeComments>
+                <Assays>
+                    <BCell>
+                        <LocationOfData>Table 2</LocationOfData>
+                        <BCellId>9040</BCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>9606</OrganismId>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Environmental exposure to endemic/ubiquitous agent without evidence for disease</InVivoProcessType>
+                                <DiseaseState>ONTIE:0003423</DiseaseState>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Source Organism</EpitopeRelation>
+                                    <Object>
+                                        <Organism>
+                                            <SubType>Organism</SubType>
+                                            <SourceOrganismId>1769</SourceOrganismId>
+                                        </Organism>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenReferenceName>Mycobacterium leprae</ImmunogenReferenceName>
+                                <ImmunogenEvidenceCode>Not determined</ImmunogenEvidenceCode>
+                            </FirstInVivoProcess>
+                        </Immunization>
+                        <AssayInformation>
+                            <AssayTypeId>34</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <NumberOfSubjectsTested>8</NumberOfSubjectsTested>
+                            <NumberOfSubjectsResponded>1</NumberOfSubjectsResponded>
+                            <ResponseFrequency>12.5</ResponseFrequency>
+                            <AssayComments>IgG1 reactivity is seen against this peptide in 1 out of 8 healthy endemic controls.</AssayComments>
+                        </AssayInformation>
+                        <AssayedAntibody>
+                            <AssayedAntibodySourceMaterial>Serum</AssayedAntibodySourceMaterial>
+                            <AssayedAntibodyPurificationStatus>Polyclonal</AssayedAntibodyPurificationStatus>
+                            <AssayedAntibodyHeavyChainType>IgG1</AssayedAntibodyHeavyChainType>
+                        </AssayedAntibody>
+                        <Antigen>
+                            <AntigenReferenceName>ML 1-15</AntigenReferenceName>
+                            <AntigenConformation>Non-Native/Unknown</AntigenConformation>
+                            <AntigenObject>
+                                <EpitopeRelation>Epitope</EpitopeRelation>
+                                <Object>
+                                    <FragmentOfANaturalSequenceMolecule>
+                                        <ChemicalType>Peptide from protein</ChemicalType>
+                                        <LinearSequence>MAKVKIKPLEDKILV</LinearSequence>
+                                        <StartingPosition>1</StartingPosition>
+                                        <EndingPosition>15</EndingPosition>
+                                        <SourceMolecule>
+                                            <GenBankId>P24301.2</GenBankId>
+                                        </SourceMolecule>
+                                        <SourceOrganismId>1769</SourceOrganismId>
+                                    </FragmentOfANaturalSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Exact match to reference information</AntigenEvidenceCode>
+                        </Antigen>
+                    </BCell>
+                </Assays>
+                <Assays>
+                    <BCell>
+                        <LocationOfData>Table 2</LocationOfData>
+                        <BCellId>9039</BCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>9606</OrganismId>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Occurrence of infectious disease</InVivoProcessType>
+                                <DiseaseState>DOID:1024</DiseaseState>
+                                <DiseaseStage>Acute/Recent onset</DiseaseStage>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Source Organism</EpitopeRelation>
+                                    <Object>
+                                        <Organism>
+                                            <SubType>Organism</SubType>
+                                            <SourceOrganismId>1769</SourceOrganismId>
+                                        </Organism>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenReferenceName>Mycobacterium leprae</ImmunogenReferenceName>
+                                <ImmunogenEvidenceCode>Not determined</ImmunogenEvidenceCode>
+                            </FirstInVivoProcess>
+                        </Immunization>
+                        <AssayInformation>
+                            <AssayTypeId>34</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <NumberOfSubjectsTested>16</NumberOfSubjectsTested>
+                            <NumberOfSubjectsResponded>0</NumberOfSubjectsResponded>
+                            <AssayComments>No significant IgG1 reactivity is seen against this peptide in 9 lepromatous leprosy patients and 7 tuberculoid leprosy patients.</AssayComments>
+                        </AssayInformation>
+                        <AssayedAntibody>
+                            <AssayedAntibodySourceMaterial>Serum</AssayedAntibodySourceMaterial>
+                            <AssayedAntibodyPurificationStatus>Polyclonal</AssayedAntibodyPurificationStatus>
+                            <AssayedAntibodyHeavyChainType>IgG1</AssayedAntibodyHeavyChainType>
+                        </AssayedAntibody>
+                        <Antigen>
+                            <AntigenReferenceName>ML 1-15</AntigenReferenceName>
+                            <AntigenConformation>Non-Native/Unknown</AntigenConformation>
+                            <AntigenObject>
+                                <EpitopeRelation>Epitope</EpitopeRelation>
+                                <Object>
+                                    <FragmentOfANaturalSequenceMolecule>
+                                        <ChemicalType>Peptide from protein</ChemicalType>
+                                        <LinearSequence>MAKVKIKPLEDKILV</LinearSequence>
+                                        <StartingPosition>1</StartingPosition>
+                                        <EndingPosition>15</EndingPosition>
+                                        <SourceMolecule>
+                                            <GenBankId>P24301.2</GenBankId>
+                                        </SourceMolecule>
+                                        <SourceOrganismId>1769</SourceOrganismId>
+                                    </FragmentOfANaturalSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Exact match to reference information</AntigenEvidenceCode>
+                        </Antigen>
+                    </BCell>
+                </Assays>
+            </Epitope>
+            <Epitope>
+                <EpitopeName>ML 11-25</EpitopeName>
+                <EpitopeStructure>
+                    <FragmentOfANaturalSequenceMolecule>
+                        <ChemicalType>Peptide from protein</ChemicalType>
+                        <LinearSequence>DKILVQAGEAETMTP</LinearSequence>
+                        <StartingPosition>11</StartingPosition>
+                        <EndingPosition>25</EndingPosition>
+                        <SourceMolecule>
+                            <GenBankId>P24301.2</GenBankId>
+                        </SourceMolecule>
+                        <SourceOrganismId>1769</SourceOrganismId>
+                    </FragmentOfANaturalSequenceMolecule>
+                </EpitopeStructure>
+                <LocationOfData>Table 2</LocationOfData>
+                <EpitopeId>8898</EpitopeId>
+                <ReferenceStartingPosition>11</ReferenceStartingPosition>
+                <ReferenceEndingPosition>25</ReferenceEndingPosition>
+                <EpitopeEvidenceCode>Not determined</EpitopeEvidenceCode>
+                <EpitopeStructureDefines>Epitope containing region/antigenic site</EpitopeStructureDefines>
+                <Assays>
+                    <BCell>
+                        <LocationOfData>Table 2</LocationOfData>
+                        <BCellId>9053</BCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>9606</OrganismId>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Environmental exposure to endemic/ubiquitous agent without evidence for disease</InVivoProcessType>
+                                <DiseaseState>ONTIE:0003423</DiseaseState>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Source Organism</EpitopeRelation>
+                                    <Object>
+                                        <Organism>
+                                            <SubType>Organism</SubType>
+                                            <SourceOrganismId>1769</SourceOrganismId>
+                                        </Organism>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenReferenceName>Mycobacterium leprae</ImmunogenReferenceName>
+                                <ImmunogenEvidenceCode>Not determined</ImmunogenEvidenceCode>
+                            </FirstInVivoProcess>
+                        </Immunization>
+                        <AssayInformation>
+                            <AssayTypeId>34</AssayTypeId>
+                            <QualitativeMeasurement>Negative</QualitativeMeasurement>
+                            <NumberOfSubjectsTested>8</NumberOfSubjectsTested>
+                            <NumberOfSubjectsResponded>0</NumberOfSubjectsResponded>
+                            <AssayComments>IgG1 reactivity against this epitope was not observed in healthy endemic controls.</AssayComments>
+                        </AssayInformation>
+                        <AssayedAntibody>
+                            <AssayedAntibodySourceMaterial>Serum</AssayedAntibodySourceMaterial>
+                            <AssayedAntibodyPurificationStatus>Polyclonal</AssayedAntibodyPurificationStatus>
+                            <AssayedAntibodyHeavyChainType>IgG1</AssayedAntibodyHeavyChainType>
+                        </AssayedAntibody>
+                        <Antigen>
+                            <AntigenReferenceName>ML 11-25</AntigenReferenceName>
+                            <AntigenConformation>Non-Native/Unknown</AntigenConformation>
+                            <AntigenObject>
+                                <EpitopeRelation>Epitope</EpitopeRelation>
+                                <Object>
+                                    <FragmentOfANaturalSequenceMolecule>
+                                        <ChemicalType>Peptide from protein</ChemicalType>
+                                        <LinearSequence>DKILVQAGEAETMTP</LinearSequence>
+                                        <StartingPosition>11</StartingPosition>
+                                        <EndingPosition>25</EndingPosition>
+                                        <SourceMolecule>
+                                            <GenBankId>P24301.2</GenBankId>
+                                        </SourceMolecule>
+                                        <SourceOrganismId>1769</SourceOrganismId>
+                                    </FragmentOfANaturalSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Exact match to reference information</AntigenEvidenceCode>
+                        </Antigen>
+                    </BCell>
+                </Assays>
+                <Assays>
+                    <BCell>
+                        <LocationOfData>Table 2</LocationOfData>
+                        <BCellId>9044</BCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>9606</OrganismId>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Occurrence of infectious disease</InVivoProcessType>
+                                <DiseaseState>DOID:1024</DiseaseState>
+                                <DiseaseStage>Acute/Recent onset</DiseaseStage>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Source Organism</EpitopeRelation>
+                                    <Object>
+                                        <Organism>
+                                            <SubType>Organism</SubType>
+                                            <SourceOrganismId>1769</SourceOrganismId>
+                                        </Organism>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenReferenceName>Mycobacterium leprae</ImmunogenReferenceName>
+                                <ImmunogenEvidenceCode>Not determined</ImmunogenEvidenceCode>
+                            </FirstInVivoProcess>
+                        </Immunization>
+                        <AssayInformation>
+                            <AssayTypeId>34</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <NumberOfSubjectsTested>16</NumberOfSubjectsTested>
+                            <NumberOfSubjectsResponded>4</NumberOfSubjectsResponded>
+                            <ResponseFrequency>25</ResponseFrequency>
+                            <AssayComments>IgG1 reactivity against this peptide was seen in 3 out of 9 lepromatous leprosy patients and in 1 out of  7 tuberculoid leprosy patients.</AssayComments>
+                        </AssayInformation>
+                        <AssayedAntibody>
+                            <AssayedAntibodySourceMaterial>Serum</AssayedAntibodySourceMaterial>
+                            <AssayedAntibodyPurificationStatus>Polyclonal</AssayedAntibodyPurificationStatus>
+                            <AssayedAntibodyHeavyChainType>IgG1</AssayedAntibodyHeavyChainType>
+                        </AssayedAntibody>
+                        <Antigen>
+                            <AntigenReferenceName>ML 11-25</AntigenReferenceName>
+                            <AntigenConformation>Non-Native/Unknown</AntigenConformation>
+                            <AntigenObject>
+                                <EpitopeRelation>Epitope</EpitopeRelation>
+                                <Object>
+                                    <FragmentOfANaturalSequenceMolecule>
+                                        <ChemicalType>Peptide from protein</ChemicalType>
+                                        <LinearSequence>DKILVQAGEAETMTP</LinearSequence>
+                                        <StartingPosition>11</StartingPosition>
+                                        <EndingPosition>25</EndingPosition>
+                                        <SourceMolecule>
+                                            <GenBankId>P24301.2</GenBankId>
+                                        </SourceMolecule>
+                                        <SourceOrganismId>1769</SourceOrganismId>
+                                    </FragmentOfANaturalSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Exact match to reference information</AntigenEvidenceCode>
+                        </Antigen>
+                    </BCell>
+                </Assays>
+            </Epitope>
+            <Epitope>
+                <EpitopeName>ML 21-35</EpitopeName>
+                <EpitopeStructure>
+                    <FragmentOfANaturalSequenceMolecule>
+                        <ChemicalType>Peptide from protein</ChemicalType>
+                        <LinearSequence>ETMTPSGLVIPENAK</LinearSequence>
+                        <StartingPosition>21</StartingPosition>
+                        <EndingPosition>35</EndingPosition>
+                        <SourceMolecule>
+                            <GenBankId>P24301.2</GenBankId>
+                        </SourceMolecule>
+                        <SourceOrganismId>1769</SourceOrganismId>
+                    </FragmentOfANaturalSequenceMolecule>
+                </EpitopeStructure>
+                <LocationOfData>Table 2</LocationOfData>
+                <EpitopeId>14487</EpitopeId>
+                <ReferenceStartingPosition>21</ReferenceStartingPosition>
+                <ReferenceEndingPosition>35</ReferenceEndingPosition>
+                <EpitopeEvidenceCode>Not determined</EpitopeEvidenceCode>
+                <EpitopeStructureDefines>Epitope containing region/antigenic site</EpitopeStructureDefines>
+                <Assays>
+                    <BCell>
+                        <LocationOfData>Table 2</LocationOfData>
+                        <BCellId>9052</BCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>9606</OrganismId>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Occurrence of infectious disease</InVivoProcessType>
+                                <DiseaseState>DOID:1024</DiseaseState>
+                                <DiseaseStage>Acute/Recent onset</DiseaseStage>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Source Organism</EpitopeRelation>
+                                    <Object>
+                                        <Organism>
+                                            <SubType>Organism</SubType>
+                                            <SourceOrganismId>1769</SourceOrganismId>
+                                        </Organism>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenReferenceName>Mycobacterium leprae</ImmunogenReferenceName>
+                                <ImmunogenEvidenceCode>Not determined</ImmunogenEvidenceCode>
+                            </FirstInVivoProcess>
+                        </Immunization>
+                        <AssayInformation>
+                            <AssayTypeId>34</AssayTypeId>
+                            <QualitativeMeasurement>Negative</QualitativeMeasurement>
+                            <NumberOfSubjectsTested>16</NumberOfSubjectsTested>
+                            <NumberOfSubjectsResponded>0</NumberOfSubjectsResponded>
+                            <AssayComments>IgG1 reactivity against this peptide was seen in none of the 9 lepromatous leprosy patients and in none of  the 7 tuberculoid leprosy patients.</AssayComments>
+                        </AssayInformation>
+                        <AssayedAntibody>
+                            <AssayedAntibodySourceMaterial>Serum</AssayedAntibodySourceMaterial>
+                            <AssayedAntibodyPurificationStatus>Polyclonal</AssayedAntibodyPurificationStatus>
+                            <AssayedAntibodyHeavyChainType>IgG1</AssayedAntibodyHeavyChainType>
+                        </AssayedAntibody>
+                        <Antigen>
+                            <AntigenReferenceName>ML 21-35</AntigenReferenceName>
+                            <AntigenConformation>Non-Native/Unknown</AntigenConformation>
+                            <AntigenObject>
+                                <EpitopeRelation>Epitope</EpitopeRelation>
+                                <Object>
+                                    <FragmentOfANaturalSequenceMolecule>
+                                        <ChemicalType>Peptide from protein</ChemicalType>
+                                        <LinearSequence>ETMTPSGLVIPENAK</LinearSequence>
+                                        <StartingPosition>21</StartingPosition>
+                                        <EndingPosition>35</EndingPosition>
+                                        <SourceMolecule>
+                                            <GenBankId>P24301.2</GenBankId>
+                                        </SourceMolecule>
+                                        <SourceOrganismId>1769</SourceOrganismId>
+                                    </FragmentOfANaturalSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Exact match to reference information</AntigenEvidenceCode>
+                        </Antigen>
+                    </BCell>
+                </Assays>
+                <Assays>
+                    <BCell>
+                        <LocationOfData>Table 2</LocationOfData>
+                        <BCellId>9208</BCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>9606</OrganismId>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Environmental exposure to endemic/ubiquitous agent without evidence for disease</InVivoProcessType>
+                                <DiseaseState>ONTIE:0003423</DiseaseState>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Source Organism</EpitopeRelation>
+                                    <Object>
+                                        <Organism>
+                                            <SubType>Organism</SubType>
+                                            <SourceOrganismId>1769</SourceOrganismId>
+                                        </Organism>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenReferenceName>Mycobacterium leprae</ImmunogenReferenceName>
+                                <ImmunogenEvidenceCode>Not determined</ImmunogenEvidenceCode>
+                            </FirstInVivoProcess>
+                        </Immunization>
+                        <AssayInformation>
+                            <AssayTypeId>34</AssayTypeId>
+                            <QualitativeMeasurement>Negative</QualitativeMeasurement>
+                            <NumberOfSubjectsTested>8</NumberOfSubjectsTested>
+                            <NumberOfSubjectsResponded>0</NumberOfSubjectsResponded>
+                            <AssayComments>IgG1 reactivity against this epitope was not observed in healthy endemic controls.</AssayComments>
+                        </AssayInformation>
+                        <AssayedAntibody>
+                            <AssayedAntibodySourceMaterial>Serum</AssayedAntibodySourceMaterial>
+                            <AssayedAntibodyPurificationStatus>Polyclonal</AssayedAntibodyPurificationStatus>
+                            <AssayedAntibodyHeavyChainType>IgG1</AssayedAntibodyHeavyChainType>
+                        </AssayedAntibody>
+                        <Antigen>
+                            <AntigenReferenceName>ML 21-35</AntigenReferenceName>
+                            <AntigenConformation>Non-Native/Unknown</AntigenConformation>
+                            <AntigenObject>
+                                <EpitopeRelation>Epitope</EpitopeRelation>
+                                <Object>
+                                    <FragmentOfANaturalSequenceMolecule>
+                                        <ChemicalType>Peptide from protein</ChemicalType>
+                                        <LinearSequence>ETMTPSGLVIPENAK</LinearSequence>
+                                        <StartingPosition>21</StartingPosition>
+                                        <EndingPosition>35</EndingPosition>
+                                        <SourceMolecule>
+                                            <GenBankId>P24301.2</GenBankId>
+                                        </SourceMolecule>
+                                        <SourceOrganismId>1769</SourceOrganismId>
+                                    </FragmentOfANaturalSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Exact match to reference information</AntigenEvidenceCode>
+                        </Antigen>
+                    </BCell>
+                </Assays>
+            </Epitope>
+            <Epitope>
+                <EpitopeName>ML 31-45</EpitopeName>
+                <EpitopeStructure>
+                    <FragmentOfANaturalSequenceMolecule>
+                        <ChemicalType>Peptide from protein</ChemicalType>
+                        <LinearSequence>PENAKEKPQEGTVVA</LinearSequence>
+                        <StartingPosition>31</StartingPosition>
+                        <EndingPosition>45</EndingPosition>
+                        <SourceMolecule>
+                            <GenBankId>P24301.2</GenBankId>
+                        </SourceMolecule>
+                        <SourceOrganismId>1769</SourceOrganismId>
+                    </FragmentOfANaturalSequenceMolecule>
+                </EpitopeStructure>
+                <LocationOfData>Table 2</LocationOfData>
+                <EpitopeId>47366</EpitopeId>
+                <ReferenceStartingPosition>31</ReferenceStartingPosition>
+                <ReferenceEndingPosition>45</ReferenceEndingPosition>
+                <EpitopeEvidenceCode>Not determined</EpitopeEvidenceCode>
+                <EpitopeStructureDefines>Epitope containing region/antigenic site</EpitopeStructureDefines>
+                <Assays>
+                    <BCell>
+                        <LocationOfData>Table 2</LocationOfData>
+                        <BCellId>9055</BCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>9606</OrganismId>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Occurrence of infectious disease</InVivoProcessType>
+                                <DiseaseState>DOID:1024</DiseaseState>
+                                <DiseaseStage>Acute/Recent onset</DiseaseStage>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Source Organism</EpitopeRelation>
+                                    <Object>
+                                        <Organism>
+                                            <SubType>Organism</SubType>
+                                            <SourceOrganismId>1769</SourceOrganismId>
+                                        </Organism>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenReferenceName>Mycobacterium leprae</ImmunogenReferenceName>
+                                <ImmunogenEvidenceCode>Not determined</ImmunogenEvidenceCode>
+                            </FirstInVivoProcess>
+                        </Immunization>
+                        <AssayInformation>
+                            <AssayTypeId>34</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <NumberOfSubjectsTested>16</NumberOfSubjectsTested>
+                            <NumberOfSubjectsResponded>3</NumberOfSubjectsResponded>
+                            <ResponseFrequency>18.8</ResponseFrequency>
+                            <AssayComments>IgG1 reactivity against this peptide was seen in 1 out of 9 lepromatous leprosy patients and in 2 out of  7 tuberculoid leprosy patients.</AssayComments>
+                        </AssayInformation>
+                        <AssayedAntibody>
+                            <AssayedAntibodySourceMaterial>Serum</AssayedAntibodySourceMaterial>
+                            <AssayedAntibodyPurificationStatus>Polyclonal</AssayedAntibodyPurificationStatus>
+                            <AssayedAntibodyHeavyChainType>IgG1</AssayedAntibodyHeavyChainType>
+                        </AssayedAntibody>
+                        <Antigen>
+                            <AntigenReferenceName>ML 31-45</AntigenReferenceName>
+                            <AntigenConformation>Non-Native/Unknown</AntigenConformation>
+                            <AntigenObject>
+                                <EpitopeRelation>Epitope</EpitopeRelation>
+                                <Object>
+                                    <FragmentOfANaturalSequenceMolecule>
+                                        <ChemicalType>Peptide from protein</ChemicalType>
+                                        <LinearSequence>PENAKEKPQEGTVVA</LinearSequence>
+                                        <StartingPosition>31</StartingPosition>
+                                        <EndingPosition>45</EndingPosition>
+                                        <SourceMolecule>
+                                            <GenBankId>P24301.2</GenBankId>
+                                        </SourceMolecule>
+                                        <SourceOrganismId>1769</SourceOrganismId>
+                                    </FragmentOfANaturalSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Exact match to reference information</AntigenEvidenceCode>
+                        </Antigen>
+                    </BCell>
+                </Assays>
+                <Assays>
+                    <BCell>
+                        <LocationOfData>Table 2</LocationOfData>
+                        <BCellId>9054</BCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>9606</OrganismId>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Environmental exposure to endemic/ubiquitous agent without evidence for disease</InVivoProcessType>
+                                <DiseaseState>ONTIE:0003423</DiseaseState>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Source Organism</EpitopeRelation>
+                                    <Object>
+                                        <Organism>
+                                            <SubType>Organism</SubType>
+                                            <SourceOrganismId>1769</SourceOrganismId>
+                                        </Organism>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenReferenceName>Mycobacterium leprae</ImmunogenReferenceName>
+                                <ImmunogenEvidenceCode>Not determined</ImmunogenEvidenceCode>
+                            </FirstInVivoProcess>
+                        </Immunization>
+                        <AssayInformation>
+                            <AssayTypeId>34</AssayTypeId>
+                            <QualitativeMeasurement>Negative</QualitativeMeasurement>
+                            <NumberOfSubjectsTested>8</NumberOfSubjectsTested>
+                            <NumberOfSubjectsResponded>0</NumberOfSubjectsResponded>
+                            <AssayComments>IgG1 reactivity against this epitope was not observed in healthy endemic controls.</AssayComments>
+                        </AssayInformation>
+                        <AssayedAntibody>
+                            <AssayedAntibodySourceMaterial>Serum</AssayedAntibodySourceMaterial>
+                            <AssayedAntibodyPurificationStatus>Polyclonal</AssayedAntibodyPurificationStatus>
+                            <AssayedAntibodyHeavyChainType>IgG1</AssayedAntibodyHeavyChainType>
+                        </AssayedAntibody>
+                        <Antigen>
+                            <AntigenReferenceName>ML 31-45</AntigenReferenceName>
+                            <AntigenConformation>Non-Native/Unknown</AntigenConformation>
+                            <AntigenObject>
+                                <EpitopeRelation>Epitope</EpitopeRelation>
+                                <Object>
+                                    <FragmentOfANaturalSequenceMolecule>
+                                        <ChemicalType>Peptide from protein</ChemicalType>
+                                        <LinearSequence>PENAKEKPQEGTVVA</LinearSequence>
+                                        <StartingPosition>31</StartingPosition>
+                                        <EndingPosition>45</EndingPosition>
+                                        <SourceMolecule>
+                                            <GenBankId>P24301.2</GenBankId>
+                                        </SourceMolecule>
+                                        <SourceOrganismId>1769</SourceOrganismId>
+                                    </FragmentOfANaturalSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Exact match to reference information</AntigenEvidenceCode>
+                        </Antigen>
+                    </BCell>
+                </Assays>
+            </Epitope>
+            <Epitope>
+                <EpitopeName>ML 41-55</EpitopeName>
+                <EpitopeStructure>
+                    <FragmentOfANaturalSequenceMolecule>
+                        <ChemicalType>Peptide from protein</ChemicalType>
+                        <LinearSequence>GTVVAVGPGRWDEDG</LinearSequence>
+                        <StartingPosition>41</StartingPosition>
+                        <EndingPosition>55</EndingPosition>
+                        <SourceMolecule>
+                            <GenBankId>P24301.2</GenBankId>
+                        </SourceMolecule>
+                        <SourceOrganismId>1769</SourceOrganismId>
+                    </FragmentOfANaturalSequenceMolecule>
+                </EpitopeStructure>
+                <LocationOfData>Table 2</LocationOfData>
+                <EpitopeId>22882</EpitopeId>
+                <ReferenceStartingPosition>41</ReferenceStartingPosition>
+                <ReferenceEndingPosition>55</ReferenceEndingPosition>
+                <EpitopeEvidenceCode>Not determined</EpitopeEvidenceCode>
+                <EpitopeStructureDefines>Epitope containing region/antigenic site</EpitopeStructureDefines>
+                <EpitopeComments>Identical epitope in M. tuberculosis homolog protein. Dominant responses against this shared epitope are seen among leprosy patients and healthy non-contact controls.</EpitopeComments>
+                <Assays>
+                    <BCell>
+                        <LocationOfData>Table 2</LocationOfData>
+                        <BCellId>9057</BCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>9606</OrganismId>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Occurrence of infectious disease</InVivoProcessType>
+                                <DiseaseState>DOID:1024</DiseaseState>
+                                <DiseaseStage>Acute/Recent onset</DiseaseStage>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Source Organism</EpitopeRelation>
+                                    <Object>
+                                        <Organism>
+                                            <SubType>Organism</SubType>
+                                            <SourceOrganismId>1769</SourceOrganismId>
+                                        </Organism>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenReferenceName>Mycobacterium leprae</ImmunogenReferenceName>
+                                <ImmunogenEvidenceCode>Not determined</ImmunogenEvidenceCode>
+                            </FirstInVivoProcess>
+                        </Immunization>
+                        <AssayInformation>
+                            <AssayTypeId>34</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <NumberOfSubjectsTested>16</NumberOfSubjectsTested>
+                            <NumberOfSubjectsResponded>13</NumberOfSubjectsResponded>
+                            <ResponseFrequency>81.3</ResponseFrequency>
+                            <AssayComments>IgG1 reactivity against this peptide was seen in 8 out of 9 lepromatous leprosy patients and in 5 out of  7 tuberculoid leprosy patients.</AssayComments>
+                        </AssayInformation>
+                        <AssayedAntibody>
+                            <AssayedAntibodySourceMaterial>Serum</AssayedAntibodySourceMaterial>
+                            <AssayedAntibodyPurificationStatus>Polyclonal</AssayedAntibodyPurificationStatus>
+                            <AssayedAntibodyHeavyChainType>IgG1</AssayedAntibodyHeavyChainType>
+                        </AssayedAntibody>
+                        <Antigen>
+                            <AntigenReferenceName>ML 41-55</AntigenReferenceName>
+                            <AntigenConformation>Non-Native/Unknown</AntigenConformation>
+                            <AntigenObject>
+                                <EpitopeRelation>Epitope</EpitopeRelation>
+                                <Object>
+                                    <FragmentOfANaturalSequenceMolecule>
+                                        <ChemicalType>Peptide from protein</ChemicalType>
+                                        <LinearSequence>GTVVAVGPGRWDEDG</LinearSequence>
+                                        <StartingPosition>41</StartingPosition>
+                                        <EndingPosition>55</EndingPosition>
+                                        <SourceMolecule>
+                                            <GenBankId>P24301.2</GenBankId>
+                                        </SourceMolecule>
+                                        <SourceOrganismId>1769</SourceOrganismId>
+                                    </FragmentOfANaturalSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Exact match to reference information</AntigenEvidenceCode>
+                        </Antigen>
+                    </BCell>
+                </Assays>
+                <Assays>
+                    <BCell>
+                        <LocationOfData>Table 2</LocationOfData>
+                        <BCellId>9056</BCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>9606</OrganismId>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Environmental exposure to endemic/ubiquitous agent without evidence for disease</InVivoProcessType>
+                                <DiseaseState>ONTIE:0003423</DiseaseState>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Source Organism</EpitopeRelation>
+                                    <Object>
+                                        <Organism>
+                                            <SubType>Organism</SubType>
+                                            <SourceOrganismId>1769</SourceOrganismId>
+                                        </Organism>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenReferenceName>Mycobacterium leprae</ImmunogenReferenceName>
+                                <ImmunogenEvidenceCode>Not determined</ImmunogenEvidenceCode>
+                            </FirstInVivoProcess>
+                        </Immunization>
+                        <AssayInformation>
+                            <AssayTypeId>34</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <NumberOfSubjectsTested>8</NumberOfSubjectsTested>
+                            <NumberOfSubjectsResponded>6</NumberOfSubjectsResponded>
+                            <ResponseFrequency>75</ResponseFrequency>
+                            <AssayComments>IgG1 reactivity against this epitope was observed in 6 out of 8 healthy endemic controls.</AssayComments>
+                        </AssayInformation>
+                        <AssayedAntibody>
+                            <AssayedAntibodySourceMaterial>Serum</AssayedAntibodySourceMaterial>
+                            <AssayedAntibodyPurificationStatus>Polyclonal</AssayedAntibodyPurificationStatus>
+                            <AssayedAntibodyHeavyChainType>IgG1</AssayedAntibodyHeavyChainType>
+                        </AssayedAntibody>
+                        <Antigen>
+                            <AntigenReferenceName>ML 41-55</AntigenReferenceName>
+                            <AntigenConformation>Non-Native/Unknown</AntigenConformation>
+                            <AntigenObject>
+                                <EpitopeRelation>Epitope</EpitopeRelation>
+                                <Object>
+                                    <FragmentOfANaturalSequenceMolecule>
+                                        <ChemicalType>Peptide from protein</ChemicalType>
+                                        <LinearSequence>GTVVAVGPGRWDEDG</LinearSequence>
+                                        <StartingPosition>41</StartingPosition>
+                                        <EndingPosition>55</EndingPosition>
+                                        <SourceMolecule>
+                                            <GenBankId>P24301.2</GenBankId>
+                                        </SourceMolecule>
+                                        <SourceOrganismId>1769</SourceOrganismId>
+                                    </FragmentOfANaturalSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Exact match to reference information</AntigenEvidenceCode>
+                        </Antigen>
+                    </BCell>
+                </Assays>
+            </Epitope>
+            <Epitope>
+                <EpitopeName>ML 51-65</EpitopeName>
+                <EpitopeStructure>
+                    <FragmentOfANaturalSequenceMolecule>
+                        <ChemicalType>Peptide from protein</ChemicalType>
+                        <LinearSequence>WDEDGAKRIPVDVSE</LinearSequence>
+                        <StartingPosition>51</StartingPosition>
+                        <EndingPosition>65</EndingPosition>
+                        <SourceMolecule>
+                            <GenBankId>P24301.2</GenBankId>
+                        </SourceMolecule>
+                        <SourceOrganismId>1769</SourceOrganismId>
+                    </FragmentOfANaturalSequenceMolecule>
+                </EpitopeStructure>
+                <LocationOfData>Table 2</LocationOfData>
+                <EpitopeId>72291</EpitopeId>
+                <ReferenceStartingPosition>51</ReferenceStartingPosition>
+                <ReferenceEndingPosition>65</ReferenceEndingPosition>
+                <EpitopeEvidenceCode>Not determined</EpitopeEvidenceCode>
+                <EpitopeStructureDefines>Epitope containing region/antigenic site</EpitopeStructureDefines>
+                <EpitopeComments>Identical epitope in M. tuberculosis homolog protein. Dominant responses against this shared epitope are seen among leprosy patients.</EpitopeComments>
+                <Assays>
+                    <BCell>
+                        <LocationOfData>Table 2</LocationOfData>
+                        <BCellId>9058</BCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>9606</OrganismId>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Environmental exposure to endemic/ubiquitous agent without evidence for disease</InVivoProcessType>
+                                <DiseaseState>ONTIE:0003423</DiseaseState>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Source Organism</EpitopeRelation>
+                                    <Object>
+                                        <Organism>
+                                            <SubType>Organism</SubType>
+                                            <SourceOrganismId>1769</SourceOrganismId>
+                                        </Organism>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenReferenceName>Mycobacterium leprae</ImmunogenReferenceName>
+                                <ImmunogenEvidenceCode>Not determined</ImmunogenEvidenceCode>
+                            </FirstInVivoProcess>
+                        </Immunization>
+                        <AssayInformation>
+                            <AssayTypeId>34</AssayTypeId>
+                            <QualitativeMeasurement>Negative</QualitativeMeasurement>
+                            <NumberOfSubjectsTested>8</NumberOfSubjectsTested>
+                            <NumberOfSubjectsResponded>0</NumberOfSubjectsResponded>
+                            <AssayComments>IgG1 reactivity against this epitope was not observed in healthy endemic controls.</AssayComments>
+                        </AssayInformation>
+                        <AssayedAntibody>
+                            <AssayedAntibodySourceMaterial>Serum</AssayedAntibodySourceMaterial>
+                            <AssayedAntibodyPurificationStatus>Polyclonal</AssayedAntibodyPurificationStatus>
+                            <AssayedAntibodyHeavyChainType>IgG1</AssayedAntibodyHeavyChainType>
+                        </AssayedAntibody>
+                        <Antigen>
+                            <AntigenReferenceName>ML 51-65</AntigenReferenceName>
+                            <AntigenConformation>Non-Native/Unknown</AntigenConformation>
+                            <AntigenObject>
+                                <EpitopeRelation>Epitope</EpitopeRelation>
+                                <Object>
+                                    <FragmentOfANaturalSequenceMolecule>
+                                        <ChemicalType>Peptide from protein</ChemicalType>
+                                        <LinearSequence>WDEDGAKRIPVDVSE</LinearSequence>
+                                        <StartingPosition>51</StartingPosition>
+                                        <EndingPosition>65</EndingPosition>
+                                        <SourceMolecule>
+                                            <GenBankId>P24301.2</GenBankId>
+                                        </SourceMolecule>
+                                        <SourceOrganismId>1769</SourceOrganismId>
+                                    </FragmentOfANaturalSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Exact match to reference information</AntigenEvidenceCode>
+                        </Antigen>
+                    </BCell>
+                </Assays>
+                <Assays>
+                    <BCell>
+                        <LocationOfData>Table 2</LocationOfData>
+                        <BCellId>9059</BCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>9606</OrganismId>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Occurrence of infectious disease</InVivoProcessType>
+                                <DiseaseState>DOID:1024</DiseaseState>
+                                <DiseaseStage>Acute/Recent onset</DiseaseStage>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Source Organism</EpitopeRelation>
+                                    <Object>
+                                        <Organism>
+                                            <SubType>Organism</SubType>
+                                            <SourceOrganismId>1769</SourceOrganismId>
+                                        </Organism>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenReferenceName>Mycobacterium leprae</ImmunogenReferenceName>
+                                <ImmunogenEvidenceCode>Not determined</ImmunogenEvidenceCode>
+                            </FirstInVivoProcess>
+                        </Immunization>
+                        <AssayInformation>
+                            <AssayTypeId>34</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <NumberOfSubjectsTested>16</NumberOfSubjectsTested>
+                            <NumberOfSubjectsResponded>5</NumberOfSubjectsResponded>
+                            <ResponseFrequency>31.3</ResponseFrequency>
+                            <AssayComments>IgG1 reactivity against this peptide was seen in 3 out of 9 lepromatous leprosy patients and in 2 out of  7 tuberculoid leprosy patients.</AssayComments>
+                        </AssayInformation>
+                        <AssayedAntibody>
+                            <AssayedAntibodySourceMaterial>Serum</AssayedAntibodySourceMaterial>
+                            <AssayedAntibodyPurificationStatus>Polyclonal</AssayedAntibodyPurificationStatus>
+                            <AssayedAntibodyHeavyChainType>IgG1</AssayedAntibodyHeavyChainType>
+                        </AssayedAntibody>
+                        <Antigen>
+                            <AntigenReferenceName>ML 51-65</AntigenReferenceName>
+                            <AntigenConformation>Non-Native/Unknown</AntigenConformation>
+                            <AntigenObject>
+                                <EpitopeRelation>Epitope</EpitopeRelation>
+                                <Object>
+                                    <FragmentOfANaturalSequenceMolecule>
+                                        <ChemicalType>Peptide from protein</ChemicalType>
+                                        <LinearSequence>WDEDGAKRIPVDVSE</LinearSequence>
+                                        <StartingPosition>51</StartingPosition>
+                                        <EndingPosition>65</EndingPosition>
+                                        <SourceMolecule>
+                                            <GenBankId>P24301.2</GenBankId>
+                                        </SourceMolecule>
+                                        <SourceOrganismId>1769</SourceOrganismId>
+                                    </FragmentOfANaturalSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Exact match to reference information</AntigenEvidenceCode>
+                        </Antigen>
+                    </BCell>
+                </Assays>
+            </Epitope>
+            <Epitope>
+                <EpitopeName>ML 61-75</EpitopeName>
+                <EpitopeStructure>
+                    <FragmentOfANaturalSequenceMolecule>
+                        <ChemicalType>Peptide from protein</ChemicalType>
+                        <LinearSequence>VDVSEGDIVIYSKYG</LinearSequence>
+                        <StartingPosition>61</StartingPosition>
+                        <EndingPosition>75</EndingPosition>
+                        <SourceMolecule>
+                            <GenBankId>P24301.2</GenBankId>
+                        </SourceMolecule>
+                        <SourceOrganismId>1769</SourceOrganismId>
+                    </FragmentOfANaturalSequenceMolecule>
+                </EpitopeStructure>
+                <LocationOfData>Table 2</LocationOfData>
+                <EpitopeId>68087</EpitopeId>
+                <ReferenceStartingPosition>61</ReferenceStartingPosition>
+                <ReferenceEndingPosition>75</ReferenceEndingPosition>
+                <EpitopeEvidenceCode>Not determined</EpitopeEvidenceCode>
+                <EpitopeStructureDefines>Epitope containing region/antigenic site</EpitopeStructureDefines>
+                <Assays>
+                    <BCell>
+                        <LocationOfData>Table 2</LocationOfData>
+                        <BCellId>9061</BCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>9606</OrganismId>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Occurrence of infectious disease</InVivoProcessType>
+                                <DiseaseState>DOID:1024</DiseaseState>
+                                <DiseaseStage>Acute/Recent onset</DiseaseStage>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Source Organism</EpitopeRelation>
+                                    <Object>
+                                        <Organism>
+                                            <SubType>Organism</SubType>
+                                            <SourceOrganismId>1769</SourceOrganismId>
+                                        </Organism>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenReferenceName>Mycobacterium leprae</ImmunogenReferenceName>
+                                <ImmunogenEvidenceCode>Not determined</ImmunogenEvidenceCode>
+                            </FirstInVivoProcess>
+                        </Immunization>
+                        <AssayInformation>
+                            <AssayTypeId>34</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <NumberOfSubjectsTested>16</NumberOfSubjectsTested>
+                            <NumberOfSubjectsResponded>3</NumberOfSubjectsResponded>
+                            <ResponseFrequency>18.8</ResponseFrequency>
+                            <AssayComments>IgG1 reactivity against this peptide was seen in 2 out of 9 lepromatous leprosy patients and in 1 out of  7 tuberculoid leprosy patients.</AssayComments>
+                        </AssayInformation>
+                        <AssayedAntibody>
+                            <AssayedAntibodySourceMaterial>Serum</AssayedAntibodySourceMaterial>
+                            <AssayedAntibodyPurificationStatus>Polyclonal</AssayedAntibodyPurificationStatus>
+                            <AssayedAntibodyHeavyChainType>IgG1</AssayedAntibodyHeavyChainType>
+                        </AssayedAntibody>
+                        <Antigen>
+                            <AntigenReferenceName>ML 61-75</AntigenReferenceName>
+                            <AntigenConformation>Non-Native/Unknown</AntigenConformation>
+                            <AntigenObject>
+                                <EpitopeRelation>Epitope</EpitopeRelation>
+                                <Object>
+                                    <FragmentOfANaturalSequenceMolecule>
+                                        <ChemicalType>Peptide from protein</ChemicalType>
+                                        <LinearSequence>VDVSEGDIVIYSKYG</LinearSequence>
+                                        <StartingPosition>61</StartingPosition>
+                                        <EndingPosition>75</EndingPosition>
+                                        <SourceMolecule>
+                                            <GenBankId>P24301.2</GenBankId>
+                                        </SourceMolecule>
+                                        <SourceOrganismId>1769</SourceOrganismId>
+                                    </FragmentOfANaturalSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Exact match to reference information</AntigenEvidenceCode>
+                        </Antigen>
+                    </BCell>
+                </Assays>
+                <Assays>
+                    <BCell>
+                        <LocationOfData>Table 2</LocationOfData>
+                        <BCellId>9060</BCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>9606</OrganismId>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Environmental exposure to endemic/ubiquitous agent without evidence for disease</InVivoProcessType>
+                                <DiseaseState>ONTIE:0003423</DiseaseState>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Source Organism</EpitopeRelation>
+                                    <Object>
+                                        <Organism>
+                                            <SubType>Organism</SubType>
+                                            <SourceOrganismId>1769</SourceOrganismId>
+                                        </Organism>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenReferenceName>Mycobacterium leprae</ImmunogenReferenceName>
+                                <ImmunogenEvidenceCode>Not determined</ImmunogenEvidenceCode>
+                            </FirstInVivoProcess>
+                        </Immunization>
+                        <AssayInformation>
+                            <AssayTypeId>34</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <NumberOfSubjectsTested>8</NumberOfSubjectsTested>
+                            <NumberOfSubjectsResponded>2</NumberOfSubjectsResponded>
+                            <ResponseFrequency>25</ResponseFrequency>
+                            <AssayComments>IgG1 reactivity against this epitope was observed in 2 out of 8 healthy endemic controls.</AssayComments>
+                        </AssayInformation>
+                        <AssayedAntibody>
+                            <AssayedAntibodySourceMaterial>Serum</AssayedAntibodySourceMaterial>
+                            <AssayedAntibodyPurificationStatus>Polyclonal</AssayedAntibodyPurificationStatus>
+                            <AssayedAntibodyHeavyChainType>IgG1</AssayedAntibodyHeavyChainType>
+                        </AssayedAntibody>
+                        <Antigen>
+                            <AntigenReferenceName>ML 61-75</AntigenReferenceName>
+                            <AntigenConformation>Non-Native/Unknown</AntigenConformation>
+                            <AntigenObject>
+                                <EpitopeRelation>Epitope</EpitopeRelation>
+                                <Object>
+                                    <FragmentOfANaturalSequenceMolecule>
+                                        <ChemicalType>Peptide from protein</ChemicalType>
+                                        <LinearSequence>VDVSEGDIVIYSKYG</LinearSequence>
+                                        <StartingPosition>61</StartingPosition>
+                                        <EndingPosition>75</EndingPosition>
+                                        <SourceMolecule>
+                                            <GenBankId>P24301.2</GenBankId>
+                                        </SourceMolecule>
+                                        <SourceOrganismId>1769</SourceOrganismId>
+                                    </FragmentOfANaturalSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Exact match to reference information</AntigenEvidenceCode>
+                        </Antigen>
+                    </BCell>
+                </Assays>
+            </Epitope>
+            <Epitope>
+                <EpitopeName>ML 71-85</EpitopeName>
+                <EpitopeStructure>
+                    <FragmentOfANaturalSequenceMolecule>
+                        <ChemicalType>Peptide from protein</ChemicalType>
+                        <LinearSequence>YSKYGGTEIKYNGEE</LinearSequence>
+                        <StartingPosition>71</StartingPosition>
+                        <EndingPosition>85</EndingPosition>
+                        <SourceMolecule>
+                            <GenBankId>P24301.2</GenBankId>
+                        </SourceMolecule>
+                        <SourceOrganismId>1769</SourceOrganismId>
+                    </FragmentOfANaturalSequenceMolecule>
+                </EpitopeStructure>
+                <LocationOfData>Table 2</LocationOfData>
+                <EpitopeId>75786</EpitopeId>
+                <ReferenceStartingPosition>71</ReferenceStartingPosition>
+                <ReferenceEndingPosition>85</ReferenceEndingPosition>
+                <EpitopeEvidenceCode>Not determined</EpitopeEvidenceCode>
+                <EpitopeStructureDefines>Epitope containing region/antigenic site</EpitopeStructureDefines>
+                <EpitopeComments>Identical epitope in M. tuberculosis homolog protein.</EpitopeComments>
+                <Assays>
+                    <BCell>
+                        <LocationOfData>Table 2</LocationOfData>
+                        <BCellId>9062</BCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>9606</OrganismId>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Occurrence of infectious disease</InVivoProcessType>
+                                <DiseaseState>DOID:1024</DiseaseState>
+                                <DiseaseStage>Acute/Recent onset</DiseaseStage>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Source Organism</EpitopeRelation>
+                                    <Object>
+                                        <Organism>
+                                            <SubType>Organism</SubType>
+                                            <SourceOrganismId>1769</SourceOrganismId>
+                                        </Organism>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenReferenceName>Mycobacterium leprae</ImmunogenReferenceName>
+                                <ImmunogenEvidenceCode>Not determined</ImmunogenEvidenceCode>
+                            </FirstInVivoProcess>
+                        </Immunization>
+                        <AssayInformation>
+                            <AssayTypeId>34</AssayTypeId>
+                            <QualitativeMeasurement>Negative</QualitativeMeasurement>
+                            <NumberOfSubjectsTested>16</NumberOfSubjectsTested>
+                            <NumberOfSubjectsResponded>0</NumberOfSubjectsResponded>
+                            <AssayComments>IgG1 reactivity against this peptide was seen in none of the 9 lepromatous leprosy patients and in none of  the 7 tuberculoid leprosy patients.</AssayComments>
+                        </AssayInformation>
+                        <AssayedAntibody>
+                            <AssayedAntibodySourceMaterial>Serum</AssayedAntibodySourceMaterial>
+                            <AssayedAntibodyPurificationStatus>Polyclonal</AssayedAntibodyPurificationStatus>
+                            <AssayedAntibodyHeavyChainType>IgG1</AssayedAntibodyHeavyChainType>
+                        </AssayedAntibody>
+                        <Antigen>
+                            <AntigenReferenceName>ML 71-85</AntigenReferenceName>
+                            <AntigenConformation>Non-Native/Unknown</AntigenConformation>
+                            <AntigenObject>
+                                <EpitopeRelation>Epitope</EpitopeRelation>
+                                <Object>
+                                    <FragmentOfANaturalSequenceMolecule>
+                                        <ChemicalType>Peptide from protein</ChemicalType>
+                                        <LinearSequence>YSKYGGTEIKYNGEE</LinearSequence>
+                                        <StartingPosition>71</StartingPosition>
+                                        <EndingPosition>85</EndingPosition>
+                                        <SourceMolecule>
+                                            <GenBankId>P24301.2</GenBankId>
+                                        </SourceMolecule>
+                                        <SourceOrganismId>1769</SourceOrganismId>
+                                    </FragmentOfANaturalSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Exact match to reference information</AntigenEvidenceCode>
+                        </Antigen>
+                    </BCell>
+                </Assays>
+                <Assays>
+                    <BCell>
+                        <LocationOfData>Table 2</LocationOfData>
+                        <BCellId>9211</BCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>9606</OrganismId>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Environmental exposure to endemic/ubiquitous agent without evidence for disease</InVivoProcessType>
+                                <DiseaseState>ONTIE:0003423</DiseaseState>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Source Organism</EpitopeRelation>
+                                    <Object>
+                                        <Organism>
+                                            <SubType>Organism</SubType>
+                                            <SourceOrganismId>1769</SourceOrganismId>
+                                        </Organism>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenReferenceName>Mycobacterium leprae</ImmunogenReferenceName>
+                                <ImmunogenEvidenceCode>Not determined</ImmunogenEvidenceCode>
+                            </FirstInVivoProcess>
+                        </Immunization>
+                        <AssayInformation>
+                            <AssayTypeId>34</AssayTypeId>
+                            <QualitativeMeasurement>Negative</QualitativeMeasurement>
+                            <NumberOfSubjectsTested>8</NumberOfSubjectsTested>
+                            <NumberOfSubjectsResponded>0</NumberOfSubjectsResponded>
+                            <AssayComments>IgG1 reactivity against this epitope was not observed in healthy endemic controls.</AssayComments>
+                        </AssayInformation>
+                        <AssayedAntibody>
+                            <AssayedAntibodySourceMaterial>Serum</AssayedAntibodySourceMaterial>
+                            <AssayedAntibodyPurificationStatus>Polyclonal</AssayedAntibodyPurificationStatus>
+                            <AssayedAntibodyHeavyChainType>IgG1</AssayedAntibodyHeavyChainType>
+                        </AssayedAntibody>
+                        <Antigen>
+                            <AntigenReferenceName>ML 71-85</AntigenReferenceName>
+                            <AntigenConformation>Non-Native/Unknown</AntigenConformation>
+                            <AntigenObject>
+                                <EpitopeRelation>Epitope</EpitopeRelation>
+                                <Object>
+                                    <FragmentOfANaturalSequenceMolecule>
+                                        <ChemicalType>Peptide from protein</ChemicalType>
+                                        <LinearSequence>YSKYGGTEIKYNGEE</LinearSequence>
+                                        <StartingPosition>71</StartingPosition>
+                                        <EndingPosition>85</EndingPosition>
+                                        <SourceMolecule>
+                                            <GenBankId>P24301.2</GenBankId>
+                                        </SourceMolecule>
+                                        <SourceOrganismId>1769</SourceOrganismId>
+                                    </FragmentOfANaturalSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Exact match to reference information</AntigenEvidenceCode>
+                        </Antigen>
+                    </BCell>
+                </Assays>
+            </Epitope>
+            <Epitope>
+                <EpitopeName>ML 86-100</EpitopeName>
+                <EpitopeStructure>
+                    <FragmentOfANaturalSequenceMolecule>
+                        <ChemicalType>Peptide from protein</ChemicalType>
+                        <LinearSequence>GTVVAVGPGRWDEDG</LinearSequence>
+                        <StartingPosition>41</StartingPosition>
+                        <EndingPosition>55</EndingPosition>
+                        <SourceMolecule>
+                            <GenBankId>P24301.2</GenBankId>
+                        </SourceMolecule>
+                        <SourceOrganismId>1769</SourceOrganismId>
+                    </FragmentOfANaturalSequenceMolecule>
+                </EpitopeStructure>
+                <LocationOfData>Table 2</LocationOfData>
+                <EpitopeId>22882</EpitopeId>
+                <ReferenceStartingPosition>41</ReferenceStartingPosition>
+                <ReferenceEndingPosition>55</ReferenceEndingPosition>
+                <EpitopeEvidenceCode>Not determined</EpitopeEvidenceCode>
+                <EpitopeStructureDefines>Epitope containing region/antigenic site</EpitopeStructureDefines>
+                <EpitopeComments>Identical epitope in M. tuberculosis homolog protein. Dominant responses against this shared epitope are seen among leprosy patients and healthy non-contact controls.</EpitopeComments>
+                <Assays>
+                    <BCell>
+                        <LocationOfData>Table 2</LocationOfData>
+                        <BCellId>9064</BCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>9606</OrganismId>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Environmental exposure to endemic/ubiquitous agent without evidence for disease</InVivoProcessType>
+                                <DiseaseState>ONTIE:0003423</DiseaseState>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Source Organism</EpitopeRelation>
+                                    <Object>
+                                        <Organism>
+                                            <SubType>Organism</SubType>
+                                            <SourceOrganismId>1769</SourceOrganismId>
+                                        </Organism>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenReferenceName>Mycobacterium leprae</ImmunogenReferenceName>
+                                <ImmunogenEvidenceCode>Not determined</ImmunogenEvidenceCode>
+                            </FirstInVivoProcess>
+                        </Immunization>
+                        <AssayInformation>
+                            <AssayTypeId>34</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <NumberOfSubjectsTested>8</NumberOfSubjectsTested>
+                            <NumberOfSubjectsResponded>3</NumberOfSubjectsResponded>
+                            <ResponseFrequency>37.5</ResponseFrequency>
+                            <AssayComments>IgG1 reactivity against this epitope was observed in 6 out of 8 healthy endemic controls.</AssayComments>
+                        </AssayInformation>
+                        <AssayedAntibody>
+                            <AssayedAntibodySourceMaterial>Serum</AssayedAntibodySourceMaterial>
+                            <AssayedAntibodyPurificationStatus>Polyclonal</AssayedAntibodyPurificationStatus>
+                            <AssayedAntibodyHeavyChainType>IgG1</AssayedAntibodyHeavyChainType>
+                        </AssayedAntibody>
+                        <Antigen>
+                            <AntigenReferenceName>ML 86-100</AntigenReferenceName>
+                            <AntigenConformation>Non-Native/Unknown</AntigenConformation>
+                            <AntigenObject>
+                                <EpitopeRelation>Epitope</EpitopeRelation>
+                                <Object>
+                                    <FragmentOfANaturalSequenceMolecule>
+                                        <ChemicalType>Peptide from protein</ChemicalType>
+                                        <LinearSequence>GTVVAVGPGRWDEDG</LinearSequence>
+                                        <StartingPosition>41</StartingPosition>
+                                        <EndingPosition>55</EndingPosition>
+                                        <SourceMolecule>
+                                            <GenBankId>P24301.2</GenBankId>
+                                        </SourceMolecule>
+                                        <SourceOrganismId>1769</SourceOrganismId>
+                                    </FragmentOfANaturalSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Exact match to reference information</AntigenEvidenceCode>
+                        </Antigen>
+                    </BCell>
+                </Assays>
+                <Assays>
+                    <BCell>
+                        <LocationOfData>Table 2</LocationOfData>
+                        <BCellId>9065</BCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>9606</OrganismId>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Occurrence of infectious disease</InVivoProcessType>
+                                <DiseaseState>DOID:1024</DiseaseState>
+                                <DiseaseStage>Acute/Recent onset</DiseaseStage>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Source Organism</EpitopeRelation>
+                                    <Object>
+                                        <Organism>
+                                            <SubType>Organism</SubType>
+                                            <SourceOrganismId>1769</SourceOrganismId>
+                                        </Organism>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenReferenceName>Mycobacterium leprae</ImmunogenReferenceName>
+                                <ImmunogenEvidenceCode>Not determined</ImmunogenEvidenceCode>
+                            </FirstInVivoProcess>
+                        </Immunization>
+                        <AssayInformation>
+                            <AssayTypeId>34</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <NumberOfSubjectsTested>16</NumberOfSubjectsTested>
+                            <NumberOfSubjectsResponded>11</NumberOfSubjectsResponded>
+                            <ResponseFrequency>68.8</ResponseFrequency>
+                            <AssayComments>IgG1 reactivity against this peptide was seen in 7 out of 9 lepromatous leprosy patients and in 4 out of  7 tuberculoid leprosy patients.</AssayComments>
+                        </AssayInformation>
+                        <AssayedAntibody>
+                            <AssayedAntibodySourceMaterial>Serum</AssayedAntibodySourceMaterial>
+                            <AssayedAntibodyPurificationStatus>Polyclonal</AssayedAntibodyPurificationStatus>
+                            <AssayedAntibodyHeavyChainType>IgG1</AssayedAntibodyHeavyChainType>
+                        </AssayedAntibody>
+                        <Antigen>
+                            <AntigenReferenceName>ML 86-100</AntigenReferenceName>
+                            <AntigenConformation>Non-Native/Unknown</AntigenConformation>
+                            <AntigenObject>
+                                <EpitopeRelation>Epitope</EpitopeRelation>
+                                <Object>
+                                    <FragmentOfANaturalSequenceMolecule>
+                                        <ChemicalType>Peptide from protein</ChemicalType>
+                                        <LinearSequence>GTVVAVGPGRWDEDG</LinearSequence>
+                                        <StartingPosition>41</StartingPosition>
+                                        <EndingPosition>55</EndingPosition>
+                                        <SourceMolecule>
+                                            <GenBankId>P24301.2</GenBankId>
+                                        </SourceMolecule>
+                                        <SourceOrganismId>1769</SourceOrganismId>
+                                    </FragmentOfANaturalSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Exact match to reference information</AntigenEvidenceCode>
+                        </Antigen>
+                    </BCell>
+                </Assays>
+            </Epitope>
+            <Epitope>
+                <EpitopeName>MT 1-15</EpitopeName>
+                <EpitopeStructure>
+                    <FragmentOfANaturalSequenceMolecule>
+                        <ChemicalType>Peptide from protein</ChemicalType>
+                        <LinearSequence>MAKVNIKPLEDKILV</LinearSequence>
+                        <StartingPosition>1</StartingPosition>
+                        <EndingPosition>15</EndingPosition>
+                        <SourceMolecule>
+                            <GenBankId>P09621.3</GenBankId>
+                        </SourceMolecule>
+                        <SourceOrganismId>1773</SourceOrganismId>
+                    </FragmentOfANaturalSequenceMolecule>
+                </EpitopeStructure>
+                <LocationOfData>Table 2</LocationOfData>
+                <EpitopeId>41071</EpitopeId>
+                <ReferenceStartingPosition>1</ReferenceStartingPosition>
+                <ReferenceEndingPosition>15</ReferenceEndingPosition>
+                <EpitopeEvidenceCode>Not determined</EpitopeEvidenceCode>
+                <EpitopeStructureDefines>Epitope containing region/antigenic site</EpitopeStructureDefines>
+                <EpitopeComments>Identical epitope in M. leprae homolog protein, except for Asn5.</EpitopeComments>
+                <Assays>
+                    <BCell>
+                        <LocationOfData>Table 2</LocationOfData>
+                        <BCellId>9067</BCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>9606</OrganismId>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Occurrence of infectious disease</InVivoProcessType>
+                                <DiseaseState>DOID:1024</DiseaseState>
+                                <DiseaseStage>Acute/Recent onset</DiseaseStage>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Taxonomic Sibling</EpitopeRelation>
+                                    <Object>
+                                        <Organism>
+                                            <SubType>Organism</SubType>
+                                            <SourceOrganismId>1769</SourceOrganismId>
+                                        </Organism>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenReferenceName>Mycobacterium leprae</ImmunogenReferenceName>
+                                <ImmunogenEvidenceCode>Not determined</ImmunogenEvidenceCode>
+                            </FirstInVivoProcess>
+                        </Immunization>
+                        <AssayInformation>
+                            <AssayTypeId>34</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <NumberOfSubjectsTested>16</NumberOfSubjectsTested>
+                            <NumberOfSubjectsResponded>1</NumberOfSubjectsResponded>
+                            <ResponseFrequency>6.3</ResponseFrequency>
+                            <AssayComments>IgG1 reactivity against this peptide was seen in 1 out of 9 lepromatous leprosy patients and in none of  the 7 tuberculoid leprosy patients.</AssayComments>
+                        </AssayInformation>
+                        <AssayedAntibody>
+                            <AssayedAntibodySourceMaterial>Serum</AssayedAntibodySourceMaterial>
+                            <AssayedAntibodyPurificationStatus>Polyclonal</AssayedAntibodyPurificationStatus>
+                            <AssayedAntibodyHeavyChainType>IgG1</AssayedAntibodyHeavyChainType>
+                        </AssayedAntibody>
+                        <Antigen>
+                            <AntigenReferenceName>MT 1-15</AntigenReferenceName>
+                            <AntigenConformation>Non-Native/Unknown</AntigenConformation>
+                            <AntigenObject>
+                                <EpitopeRelation>Epitope</EpitopeRelation>
+                                <Object>
+                                    <FragmentOfANaturalSequenceMolecule>
+                                        <ChemicalType>Peptide from protein</ChemicalType>
+                                        <LinearSequence>MAKVNIKPLEDKILV</LinearSequence>
+                                        <StartingPosition>1</StartingPosition>
+                                        <EndingPosition>15</EndingPosition>
+                                        <SourceMolecule>
+                                            <GenBankId>P09621.3</GenBankId>
+                                        </SourceMolecule>
+                                        <SourceOrganismId>1773</SourceOrganismId>
+                                    </FragmentOfANaturalSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Exact match to reference information</AntigenEvidenceCode>
+                        </Antigen>
+                    </BCell>
+                </Assays>
+                <Assays>
+                    <BCell>
+                        <LocationOfData>Table 2</LocationOfData>
+                        <BCellId>9066</BCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>9606</OrganismId>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Environmental exposure to endemic/ubiquitous agent without evidence for disease</InVivoProcessType>
+                                <DiseaseState>ONTIE:0003423</DiseaseState>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Taxonomic Sibling</EpitopeRelation>
+                                    <Object>
+                                        <Organism>
+                                            <SubType>Organism</SubType>
+                                            <SourceOrganismId>1769</SourceOrganismId>
+                                        </Organism>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenReferenceName>Mycobacterium leprae</ImmunogenReferenceName>
+                                <ImmunogenEvidenceCode>Not determined</ImmunogenEvidenceCode>
+                            </FirstInVivoProcess>
+                        </Immunization>
+                        <AssayInformation>
+                            <AssayTypeId>34</AssayTypeId>
+                            <QualitativeMeasurement>Negative</QualitativeMeasurement>
+                            <NumberOfSubjectsTested>8</NumberOfSubjectsTested>
+                            <NumberOfSubjectsResponded>0</NumberOfSubjectsResponded>
+                            <AssayComments>IgG1 reactivity against this epitope was not observed in healthy endemic controls.</AssayComments>
+                        </AssayInformation>
+                        <AssayedAntibody>
+                            <AssayedAntibodySourceMaterial>Serum</AssayedAntibodySourceMaterial>
+                            <AssayedAntibodyPurificationStatus>Polyclonal</AssayedAntibodyPurificationStatus>
+                            <AssayedAntibodyHeavyChainType>IgG1</AssayedAntibodyHeavyChainType>
+                        </AssayedAntibody>
+                        <Antigen>
+                            <AntigenReferenceName>MT 1-15</AntigenReferenceName>
+                            <AntigenConformation>Non-Native/Unknown</AntigenConformation>
+                            <AntigenObject>
+                                <EpitopeRelation>Epitope</EpitopeRelation>
+                                <Object>
+                                    <FragmentOfANaturalSequenceMolecule>
+                                        <ChemicalType>Peptide from protein</ChemicalType>
+                                        <LinearSequence>MAKVNIKPLEDKILV</LinearSequence>
+                                        <StartingPosition>1</StartingPosition>
+                                        <EndingPosition>15</EndingPosition>
+                                        <SourceMolecule>
+                                            <GenBankId>P09621.3</GenBankId>
+                                        </SourceMolecule>
+                                        <SourceOrganismId>1773</SourceOrganismId>
+                                    </FragmentOfANaturalSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Exact match to reference information</AntigenEvidenceCode>
+                        </Antigen>
+                    </BCell>
+                </Assays>
+            </Epitope>
+            <Epitope>
+                <EpitopeName>MT 11-25</EpitopeName>
+                <EpitopeStructure>
+                    <FragmentOfANaturalSequenceMolecule>
+                        <ChemicalType>Peptide from protein</ChemicalType>
+                        <LinearSequence>DKILVQANEAETTTA</LinearSequence>
+                        <StartingPosition>11</StartingPosition>
+                        <EndingPosition>25</EndingPosition>
+                        <SourceMolecule>
+                            <GenBankId>P09621.3</GenBankId>
+                        </SourceMolecule>
+                        <SourceOrganismId>1773</SourceOrganismId>
+                    </FragmentOfANaturalSequenceMolecule>
+                </EpitopeStructure>
+                <LocationOfData>Table 2</LocationOfData>
+                <EpitopeId>8900</EpitopeId>
+                <ReferenceStartingPosition>11</ReferenceStartingPosition>
+                <ReferenceEndingPosition>25</ReferenceEndingPosition>
+                <EpitopeEvidenceCode>Not determined</EpitopeEvidenceCode>
+                <EpitopeStructureDefines>Epitope containing region/antigenic site</EpitopeStructureDefines>
+                <EpitopeComments>Identical epitope in M. leprae homolog protein except for Asn19, Thr23 and Ala25.</EpitopeComments>
+                <Assays>
+                    <BCell>
+                        <LocationOfData>Table 2</LocationOfData>
+                        <BCellId>9069</BCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>9606</OrganismId>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Environmental exposure to endemic/ubiquitous agent without evidence for disease</InVivoProcessType>
+                                <DiseaseState>ONTIE:0003423</DiseaseState>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Taxonomic Sibling</EpitopeRelation>
+                                    <Object>
+                                        <Organism>
+                                            <SubType>Organism</SubType>
+                                            <SourceOrganismId>1769</SourceOrganismId>
+                                        </Organism>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenReferenceName>Mycobacterium leprae</ImmunogenReferenceName>
+                                <ImmunogenEvidenceCode>Not determined</ImmunogenEvidenceCode>
+                            </FirstInVivoProcess>
+                        </Immunization>
+                        <AssayInformation>
+                            <AssayTypeId>34</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <NumberOfSubjectsTested>8</NumberOfSubjectsTested>
+                            <NumberOfSubjectsResponded>1</NumberOfSubjectsResponded>
+                            <ResponseFrequency>12.5</ResponseFrequency>
+                            <AssayComments>IgG1 reactivity against this epitope was seen in 1 of 8 the healthy endemic controls.</AssayComments>
+                        </AssayInformation>
+                        <AssayedAntibody>
+                            <AssayedAntibodySourceMaterial>Serum</AssayedAntibodySourceMaterial>
+                            <AssayedAntibodyPurificationStatus>Polyclonal</AssayedAntibodyPurificationStatus>
+                            <AssayedAntibodyHeavyChainType>IgG1</AssayedAntibodyHeavyChainType>
+                        </AssayedAntibody>
+                        <Antigen>
+                            <AntigenReferenceName>MT 11-25</AntigenReferenceName>
+                            <AntigenConformation>Non-Native/Unknown</AntigenConformation>
+                            <AntigenObject>
+                                <EpitopeRelation>Epitope</EpitopeRelation>
+                                <Object>
+                                    <FragmentOfANaturalSequenceMolecule>
+                                        <ChemicalType>Peptide from protein</ChemicalType>
+                                        <LinearSequence>DKILVQANEAETTTA</LinearSequence>
+                                        <StartingPosition>11</StartingPosition>
+                                        <EndingPosition>25</EndingPosition>
+                                        <SourceMolecule>
+                                            <GenBankId>P09621.3</GenBankId>
+                                        </SourceMolecule>
+                                        <SourceOrganismId>1773</SourceOrganismId>
+                                    </FragmentOfANaturalSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Exact match to reference information</AntigenEvidenceCode>
+                        </Antigen>
+                    </BCell>
+                </Assays>
+                <Assays>
+                    <BCell>
+                        <LocationOfData>Table 2</LocationOfData>
+                        <BCellId>9070</BCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>9606</OrganismId>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Occurrence of infectious disease</InVivoProcessType>
+                                <DiseaseState>DOID:1024</DiseaseState>
+                                <DiseaseStage>Acute/Recent onset</DiseaseStage>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Taxonomic Sibling</EpitopeRelation>
+                                    <Object>
+                                        <Organism>
+                                            <SubType>Organism</SubType>
+                                            <SourceOrganismId>1769</SourceOrganismId>
+                                        </Organism>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenReferenceName>Mycobacterium leprae</ImmunogenReferenceName>
+                                <ImmunogenEvidenceCode>Not determined</ImmunogenEvidenceCode>
+                            </FirstInVivoProcess>
+                        </Immunization>
+                        <AssayInformation>
+                            <AssayTypeId>34</AssayTypeId>
+                            <QualitativeMeasurement>Negative</QualitativeMeasurement>
+                            <NumberOfSubjectsTested>16</NumberOfSubjectsTested>
+                            <NumberOfSubjectsResponded>0</NumberOfSubjectsResponded>
+                            <AssayComments>IgG1 reactivity against this peptide was seen in none of the 9 lepromatous leprosy patients and in none of  the 7 tuberculoid leprosy patients.</AssayComments>
+                        </AssayInformation>
+                        <AssayedAntibody>
+                            <AssayedAntibodySourceMaterial>Serum</AssayedAntibodySourceMaterial>
+                            <AssayedAntibodyPurificationStatus>Polyclonal</AssayedAntibodyPurificationStatus>
+                            <AssayedAntibodyHeavyChainType>IgG1</AssayedAntibodyHeavyChainType>
+                        </AssayedAntibody>
+                        <Antigen>
+                            <AntigenReferenceName>MT 11-25</AntigenReferenceName>
+                            <AntigenConformation>Non-Native/Unknown</AntigenConformation>
+                            <AntigenObject>
+                                <EpitopeRelation>Epitope</EpitopeRelation>
+                                <Object>
+                                    <FragmentOfANaturalSequenceMolecule>
+                                        <ChemicalType>Peptide from protein</ChemicalType>
+                                        <LinearSequence>DKILVQANEAETTTA</LinearSequence>
+                                        <StartingPosition>11</StartingPosition>
+                                        <EndingPosition>25</EndingPosition>
+                                        <SourceMolecule>
+                                            <GenBankId>P09621.3</GenBankId>
+                                        </SourceMolecule>
+                                        <SourceOrganismId>1773</SourceOrganismId>
+                                    </FragmentOfANaturalSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Exact match to reference information</AntigenEvidenceCode>
+                        </Antigen>
+                    </BCell>
+                </Assays>
+            </Epitope>
+            <Epitope>
+                <EpitopeName>MT 21-35</EpitopeName>
+                <EpitopeStructure>
+                    <FragmentOfANaturalSequenceMolecule>
+                        <ChemicalType>Peptide from protein</ChemicalType>
+                        <LinearSequence>ETTTASGLVIPDTAK</LinearSequence>
+                        <StartingPosition>21</StartingPosition>
+                        <EndingPosition>35</EndingPosition>
+                        <SourceMolecule>
+                            <GenBankId>P09621.3</GenBankId>
+                        </SourceMolecule>
+                        <SourceOrganismId>1773</SourceOrganismId>
+                    </FragmentOfANaturalSequenceMolecule>
+                </EpitopeStructure>
+                <LocationOfData>Table 2</LocationOfData>
+                <EpitopeId>14574</EpitopeId>
+                <ReferenceStartingPosition>21</ReferenceStartingPosition>
+                <ReferenceEndingPosition>35</ReferenceEndingPosition>
+                <EpitopeEvidenceCode>Not determined</EpitopeEvidenceCode>
+                <EpitopeStructureDefines>Epitope containing region/antigenic site</EpitopeStructureDefines>
+                <EpitopeComments>Identical epitope in M. leprae homolog protein except for Thr23, Ala25, Asp32 and Thr33.</EpitopeComments>
+                <Assays>
+                    <BCell>
+                        <LocationOfData>Table 2</LocationOfData>
+                        <BCellId>9073</BCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>9606</OrganismId>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Occurrence of infectious disease</InVivoProcessType>
+                                <DiseaseState>DOID:1024</DiseaseState>
+                                <DiseaseStage>Acute/Recent onset</DiseaseStage>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Taxonomic Sibling</EpitopeRelation>
+                                    <Object>
+                                        <Organism>
+                                            <SubType>Organism</SubType>
+                                            <SourceOrganismId>1769</SourceOrganismId>
+                                        </Organism>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenReferenceName>Mycobacterium leprae</ImmunogenReferenceName>
+                                <ImmunogenEvidenceCode>Not determined</ImmunogenEvidenceCode>
+                            </FirstInVivoProcess>
+                        </Immunization>
+                        <AssayInformation>
+                            <AssayTypeId>34</AssayTypeId>
+                            <QualitativeMeasurement>Negative</QualitativeMeasurement>
+                            <NumberOfSubjectsTested>16</NumberOfSubjectsTested>
+                            <NumberOfSubjectsResponded>0</NumberOfSubjectsResponded>
+                            <AssayComments>IgG1 reactivity against this peptide was seen in none of the 9 lepromatous leprosy patients and in none of  the 7 tuberculoid leprosy patients.</AssayComments>
+                        </AssayInformation>
+                        <AssayedAntibody>
+                            <AssayedAntibodySourceMaterial>Serum</AssayedAntibodySourceMaterial>
+                            <AssayedAntibodyPurificationStatus>Polyclonal</AssayedAntibodyPurificationStatus>
+                            <AssayedAntibodyHeavyChainType>IgG1</AssayedAntibodyHeavyChainType>
+                        </AssayedAntibody>
+                        <Antigen>
+                            <AntigenReferenceName>MT 21-35</AntigenReferenceName>
+                            <AntigenConformation>Non-Native/Unknown</AntigenConformation>
+                            <AntigenObject>
+                                <EpitopeRelation>Epitope</EpitopeRelation>
+                                <Object>
+                                    <FragmentOfANaturalSequenceMolecule>
+                                        <ChemicalType>Peptide from protein</ChemicalType>
+                                        <LinearSequence>ETTTASGLVIPDTAK</LinearSequence>
+                                        <StartingPosition>21</StartingPosition>
+                                        <EndingPosition>35</EndingPosition>
+                                        <SourceMolecule>
+                                            <GenBankId>P09621.3</GenBankId>
+                                        </SourceMolecule>
+                                        <SourceOrganismId>1773</SourceOrganismId>
+                                    </FragmentOfANaturalSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Exact match to reference information</AntigenEvidenceCode>
+                        </Antigen>
+                    </BCell>
+                </Assays>
+                <Assays>
+                    <BCell>
+                        <LocationOfData>Table 2</LocationOfData>
+                        <BCellId>9072</BCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>9606</OrganismId>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Environmental exposure to endemic/ubiquitous agent without evidence for disease</InVivoProcessType>
+                                <DiseaseState>ONTIE:0003423</DiseaseState>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Taxonomic Sibling</EpitopeRelation>
+                                    <Object>
+                                        <Organism>
+                                            <SubType>Organism</SubType>
+                                            <SourceOrganismId>1769</SourceOrganismId>
+                                        </Organism>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenReferenceName>Mycobacterium leprae</ImmunogenReferenceName>
+                                <ImmunogenEvidenceCode>Not determined</ImmunogenEvidenceCode>
+                            </FirstInVivoProcess>
+                        </Immunization>
+                        <AssayInformation>
+                            <AssayTypeId>34</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <NumberOfSubjectsTested>8</NumberOfSubjectsTested>
+                            <NumberOfSubjectsResponded>1</NumberOfSubjectsResponded>
+                            <ResponseFrequency>12.5</ResponseFrequency>
+                            <AssayComments>IgG1 reactivity against this epitope was observed in one of the healthy endemic controls.</AssayComments>
+                        </AssayInformation>
+                        <AssayedAntibody>
+                            <AssayedAntibodySourceMaterial>Serum</AssayedAntibodySourceMaterial>
+                            <AssayedAntibodyPurificationStatus>Polyclonal</AssayedAntibodyPurificationStatus>
+                            <AssayedAntibodyHeavyChainType>IgG1</AssayedAntibodyHeavyChainType>
+                        </AssayedAntibody>
+                        <Antigen>
+                            <AntigenReferenceName>MT 21-35</AntigenReferenceName>
+                            <AntigenConformation>Non-Native/Unknown</AntigenConformation>
+                            <AntigenObject>
+                                <EpitopeRelation>Epitope</EpitopeRelation>
+                                <Object>
+                                    <FragmentOfANaturalSequenceMolecule>
+                                        <ChemicalType>Peptide from protein</ChemicalType>
+                                        <LinearSequence>ETTTASGLVIPDTAK</LinearSequence>
+                                        <StartingPosition>21</StartingPosition>
+                                        <EndingPosition>35</EndingPosition>
+                                        <SourceMolecule>
+                                            <GenBankId>P09621.3</GenBankId>
+                                        </SourceMolecule>
+                                        <SourceOrganismId>1773</SourceOrganismId>
+                                    </FragmentOfANaturalSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Exact match to reference information</AntigenEvidenceCode>
+                        </Antigen>
+                    </BCell>
+                </Assays>
+            </Epitope>
+            <Epitope>
+                <EpitopeName>MT 31-45</EpitopeName>
+                <EpitopeStructure>
+                    <FragmentOfANaturalSequenceMolecule>
+                        <ChemicalType>Peptide from protein</ChemicalType>
+                        <LinearSequence>PDTAKEKPQEGTVVA</LinearSequence>
+                        <StartingPosition>31</StartingPosition>
+                        <EndingPosition>45</EndingPosition>
+                        <SourceMolecule>
+                            <GenBankId>P09621.3</GenBankId>
+                        </SourceMolecule>
+                        <SourceOrganismId>1773</SourceOrganismId>
+                    </FragmentOfANaturalSequenceMolecule>
+                </EpitopeStructure>
+                <LocationOfData>Table 2</LocationOfData>
+                <EpitopeId>47209</EpitopeId>
+                <ReferenceStartingPosition>31</ReferenceStartingPosition>
+                <ReferenceEndingPosition>45</ReferenceEndingPosition>
+                <EpitopeEvidenceCode>Not determined</EpitopeEvidenceCode>
+                <EpitopeStructureDefines>Epitope containing region/antigenic site</EpitopeStructureDefines>
+                <EpitopeComments>Identical epitope in M. leprae homolog protein except for Asp32 and Thr33.</EpitopeComments>
+                <Assays>
+                    <BCell>
+                        <LocationOfData>Table 2</LocationOfData>
+                        <BCellId>9078</BCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>9606</OrganismId>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Occurrence of infectious disease</InVivoProcessType>
+                                <DiseaseState>DOID:1024</DiseaseState>
+                                <DiseaseStage>Acute/Recent onset</DiseaseStage>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Taxonomic Sibling</EpitopeRelation>
+                                    <Object>
+                                        <Organism>
+                                            <SubType>Organism</SubType>
+                                            <SourceOrganismId>1769</SourceOrganismId>
+                                        </Organism>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenReferenceName>Mycobacterium leprae</ImmunogenReferenceName>
+                                <ImmunogenEvidenceCode>Not determined</ImmunogenEvidenceCode>
+                            </FirstInVivoProcess>
+                        </Immunization>
+                        <AssayInformation>
+                            <AssayTypeId>34</AssayTypeId>
+                            <QualitativeMeasurement>Negative</QualitativeMeasurement>
+                            <NumberOfSubjectsTested>16</NumberOfSubjectsTested>
+                            <NumberOfSubjectsResponded>0</NumberOfSubjectsResponded>
+                            <AssayComments>IgG1 reactivity against this peptide was seen in none of the 9 lepromatous leprosy patients and in none of  the 7 tuberculoid leprosy patients.</AssayComments>
+                        </AssayInformation>
+                        <AssayedAntibody>
+                            <AssayedAntibodySourceMaterial>Serum</AssayedAntibodySourceMaterial>
+                            <AssayedAntibodyPurificationStatus>Polyclonal</AssayedAntibodyPurificationStatus>
+                            <AssayedAntibodyHeavyChainType>IgG1</AssayedAntibodyHeavyChainType>
+                        </AssayedAntibody>
+                        <Antigen>
+                            <AntigenReferenceName>MT 31-45</AntigenReferenceName>
+                            <AntigenConformation>Non-Native/Unknown</AntigenConformation>
+                            <AntigenObject>
+                                <EpitopeRelation>Epitope</EpitopeRelation>
+                                <Object>
+                                    <FragmentOfANaturalSequenceMolecule>
+                                        <ChemicalType>Peptide from protein</ChemicalType>
+                                        <LinearSequence>PDTAKEKPQEGTVVA</LinearSequence>
+                                        <StartingPosition>31</StartingPosition>
+                                        <EndingPosition>45</EndingPosition>
+                                        <SourceMolecule>
+                                            <GenBankId>P09621.3</GenBankId>
+                                        </SourceMolecule>
+                                        <SourceOrganismId>1773</SourceOrganismId>
+                                    </FragmentOfANaturalSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Exact match to reference information</AntigenEvidenceCode>
+                        </Antigen>
+                    </BCell>
+                </Assays>
+                <Assays>
+                    <BCell>
+                        <LocationOfData>Table 2</LocationOfData>
+                        <BCellId>9212</BCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>9606</OrganismId>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Environmental exposure to endemic/ubiquitous agent without evidence for disease</InVivoProcessType>
+                                <DiseaseState>ONTIE:0003423</DiseaseState>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Taxonomic Sibling</EpitopeRelation>
+                                    <Object>
+                                        <Organism>
+                                            <SubType>Organism</SubType>
+                                            <SourceOrganismId>1769</SourceOrganismId>
+                                        </Organism>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenReferenceName>Mycobacterium leprae</ImmunogenReferenceName>
+                                <ImmunogenEvidenceCode>Not determined</ImmunogenEvidenceCode>
+                            </FirstInVivoProcess>
+                        </Immunization>
+                        <AssayInformation>
+                            <AssayTypeId>34</AssayTypeId>
+                            <QualitativeMeasurement>Negative</QualitativeMeasurement>
+                            <NumberOfSubjectsTested>8</NumberOfSubjectsTested>
+                            <NumberOfSubjectsResponded>0</NumberOfSubjectsResponded>
+                            <AssayComments>IgG1 reactivity against this epitope was not observed in healthy endemic controls.</AssayComments>
+                        </AssayInformation>
+                        <AssayedAntibody>
+                            <AssayedAntibodySourceMaterial>Serum</AssayedAntibodySourceMaterial>
+                            <AssayedAntibodyPurificationStatus>Polyclonal</AssayedAntibodyPurificationStatus>
+                            <AssayedAntibodyHeavyChainType>IgG1</AssayedAntibodyHeavyChainType>
+                        </AssayedAntibody>
+                        <Antigen>
+                            <AntigenReferenceName>MT 31-45</AntigenReferenceName>
+                            <AntigenConformation>Non-Native/Unknown</AntigenConformation>
+                            <AntigenObject>
+                                <EpitopeRelation>Epitope</EpitopeRelation>
+                                <Object>
+                                    <FragmentOfANaturalSequenceMolecule>
+                                        <ChemicalType>Peptide from protein</ChemicalType>
+                                        <LinearSequence>PDTAKEKPQEGTVVA</LinearSequence>
+                                        <StartingPosition>31</StartingPosition>
+                                        <EndingPosition>45</EndingPosition>
+                                        <SourceMolecule>
+                                            <GenBankId>P09621.3</GenBankId>
+                                        </SourceMolecule>
+                                        <SourceOrganismId>1773</SourceOrganismId>
+                                    </FragmentOfANaturalSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Exact match to reference information</AntigenEvidenceCode>
+                        </Antigen>
+                    </BCell>
+                </Assays>
+            </Epitope>
+            <Epitope>
+                <EpitopeName>MT 51-65</EpitopeName>
+                <EpitopeStructure>
+                    <FragmentOfANaturalSequenceMolecule>
+                        <ChemicalType>Peptide from protein</ChemicalType>
+                        <LinearSequence>WDEDGEKRIPLDVAE</LinearSequence>
+                        <StartingPosition>51</StartingPosition>
+                        <EndingPosition>65</EndingPosition>
+                        <SourceMolecule>
+                            <GenBankId>P09621.3</GenBankId>
+                        </SourceMolecule>
+                        <SourceOrganismId>1773</SourceOrganismId>
+                    </FragmentOfANaturalSequenceMolecule>
+                </EpitopeStructure>
+                <LocationOfData>Table 2</LocationOfData>
+                <EpitopeId>72294</EpitopeId>
+                <ReferenceStartingPosition>51</ReferenceStartingPosition>
+                <ReferenceEndingPosition>65</ReferenceEndingPosition>
+                <EpitopeEvidenceCode>Not determined</EpitopeEvidenceCode>
+                <EpitopeStructureDefines>Epitope containing region/antigenic site</EpitopeStructureDefines>
+                <EpitopeComments>Identical epitope in M. leprae homolog protein except for Glu56, Leu61 and Ala64.</EpitopeComments>
+                <Assays>
+                    <BCell>
+                        <LocationOfData>Table 2</LocationOfData>
+                        <BCellId>9079</BCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>9606</OrganismId>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Environmental exposure to endemic/ubiquitous agent without evidence for disease</InVivoProcessType>
+                                <DiseaseState>ONTIE:0003423</DiseaseState>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Taxonomic Sibling</EpitopeRelation>
+                                    <Object>
+                                        <Organism>
+                                            <SubType>Organism</SubType>
+                                            <SourceOrganismId>1769</SourceOrganismId>
+                                        </Organism>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenReferenceName>Mycobacterium leprae</ImmunogenReferenceName>
+                                <ImmunogenEvidenceCode>Not determined</ImmunogenEvidenceCode>
+                            </FirstInVivoProcess>
+                        </Immunization>
+                        <AssayInformation>
+                            <AssayTypeId>34</AssayTypeId>
+                            <QualitativeMeasurement>Negative</QualitativeMeasurement>
+                            <NumberOfSubjectsTested>8</NumberOfSubjectsTested>
+                            <NumberOfSubjectsResponded>0</NumberOfSubjectsResponded>
+                            <AssayComments>IgG1 reactivity against this epitope was not observed in healthy endemic controls.</AssayComments>
+                        </AssayInformation>
+                        <AssayedAntibody>
+                            <AssayedAntibodySourceMaterial>Serum</AssayedAntibodySourceMaterial>
+                            <AssayedAntibodyPurificationStatus>Polyclonal</AssayedAntibodyPurificationStatus>
+                            <AssayedAntibodyHeavyChainType>IgG1</AssayedAntibodyHeavyChainType>
+                        </AssayedAntibody>
+                        <Antigen>
+                            <AntigenReferenceName>MT 51-65</AntigenReferenceName>
+                            <AntigenConformation>Non-Native/Unknown</AntigenConformation>
+                            <AntigenObject>
+                                <EpitopeRelation>Epitope</EpitopeRelation>
+                                <Object>
+                                    <FragmentOfANaturalSequenceMolecule>
+                                        <ChemicalType>Peptide from protein</ChemicalType>
+                                        <LinearSequence>WDEDGEKRIPLDVAE</LinearSequence>
+                                        <StartingPosition>51</StartingPosition>
+                                        <EndingPosition>65</EndingPosition>
+                                        <SourceMolecule>
+                                            <GenBankId>P09621.3</GenBankId>
+                                        </SourceMolecule>
+                                        <SourceOrganismId>1773</SourceOrganismId>
+                                    </FragmentOfANaturalSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Exact match to reference information</AntigenEvidenceCode>
+                        </Antigen>
+                    </BCell>
+                </Assays>
+                <Assays>
+                    <BCell>
+                        <LocationOfData>Table 2</LocationOfData>
+                        <BCellId>9080</BCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>9606</OrganismId>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Occurrence of infectious disease</InVivoProcessType>
+                                <DiseaseState>DOID:1024</DiseaseState>
+                                <DiseaseStage>Acute/Recent onset</DiseaseStage>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Taxonomic Sibling</EpitopeRelation>
+                                    <Object>
+                                        <Organism>
+                                            <SubType>Organism</SubType>
+                                            <SourceOrganismId>1769</SourceOrganismId>
+                                        </Organism>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenReferenceName>Mycobacterium leprae</ImmunogenReferenceName>
+                                <ImmunogenEvidenceCode>Not determined</ImmunogenEvidenceCode>
+                            </FirstInVivoProcess>
+                        </Immunization>
+                        <AssayInformation>
+                            <AssayTypeId>34</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <NumberOfSubjectsTested>16</NumberOfSubjectsTested>
+                            <NumberOfSubjectsResponded>8</NumberOfSubjectsResponded>
+                            <ResponseFrequency>50</ResponseFrequency>
+                            <AssayComments>IgG1 reactivity against this peptide was seen in 4 out of 9 lepromatous leprosy patients and in 4 out of  7 tuberculoid leprosy patients.</AssayComments>
+                        </AssayInformation>
+                        <AssayedAntibody>
+                            <AssayedAntibodySourceMaterial>Serum</AssayedAntibodySourceMaterial>
+                            <AssayedAntibodyPurificationStatus>Polyclonal</AssayedAntibodyPurificationStatus>
+                            <AssayedAntibodyHeavyChainType>IgG1</AssayedAntibodyHeavyChainType>
+                        </AssayedAntibody>
+                        <Antigen>
+                            <AntigenReferenceName>MT 51-65</AntigenReferenceName>
+                            <AntigenConformation>Non-Native/Unknown</AntigenConformation>
+                            <AntigenObject>
+                                <EpitopeRelation>Epitope</EpitopeRelation>
+                                <Object>
+                                    <FragmentOfANaturalSequenceMolecule>
+                                        <ChemicalType>Peptide from protein</ChemicalType>
+                                        <LinearSequence>WDEDGEKRIPLDVAE</LinearSequence>
+                                        <StartingPosition>51</StartingPosition>
+                                        <EndingPosition>65</EndingPosition>
+                                        <SourceMolecule>
+                                            <GenBankId>P09621.3</GenBankId>
+                                        </SourceMolecule>
+                                        <SourceOrganismId>1773</SourceOrganismId>
+                                    </FragmentOfANaturalSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Exact match to reference information</AntigenEvidenceCode>
+                        </Antigen>
+                    </BCell>
+                </Assays>
+            </Epitope>
+            <Epitope>
+                <EpitopeName>MT 61-75</EpitopeName>
+                <EpitopeStructure>
+                    <FragmentOfANaturalSequenceMolecule>
+                        <ChemicalType>Peptide from protein</ChemicalType>
+                        <LinearSequence>LDVAEGDTVIYSKYG</LinearSequence>
+                        <StartingPosition>61</StartingPosition>
+                        <EndingPosition>75</EndingPosition>
+                        <SourceMolecule>
+                            <GenBankId>P09621.3</GenBankId>
+                        </SourceMolecule>
+                        <SourceOrganismId>1773</SourceOrganismId>
+                    </FragmentOfANaturalSequenceMolecule>
+                </EpitopeStructure>
+                <LocationOfData>Table 2</LocationOfData>
+                <EpitopeId>35316</EpitopeId>
+                <ReferenceStartingPosition>61</ReferenceStartingPosition>
+                <ReferenceEndingPosition>75</ReferenceEndingPosition>
+                <EpitopeEvidenceCode>Not determined</EpitopeEvidenceCode>
+                <EpitopeStructureDefines>Epitope containing region/antigenic site</EpitopeStructureDefines>
+                <EpitopeComments>Identical epitope in M. leprae homolog protein except for Leu61, Ala64 and Thr68.</EpitopeComments>
+                <Assays>
+                    <BCell>
+                        <LocationOfData>Table 2</LocationOfData>
+                        <BCellId>9081</BCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>9606</OrganismId>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Environmental exposure to endemic/ubiquitous agent without evidence for disease</InVivoProcessType>
+                                <DiseaseState>ONTIE:0003423</DiseaseState>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Taxonomic Sibling</EpitopeRelation>
+                                    <Object>
+                                        <Organism>
+                                            <SubType>Organism</SubType>
+                                            <SourceOrganismId>1769</SourceOrganismId>
+                                        </Organism>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenReferenceName>Mycobacterium leprae</ImmunogenReferenceName>
+                                <ImmunogenEvidenceCode>Not determined</ImmunogenEvidenceCode>
+                            </FirstInVivoProcess>
+                        </Immunization>
+                        <AssayInformation>
+                            <AssayTypeId>34</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <NumberOfSubjectsTested>8</NumberOfSubjectsTested>
+                            <NumberOfSubjectsResponded>1</NumberOfSubjectsResponded>
+                            <ResponseFrequency>12.5</ResponseFrequency>
+                            <AssayComments>IgG1 reactivity against this epitope was observed in 1 out of 8 healthy endemic controls.</AssayComments>
+                        </AssayInformation>
+                        <AssayedAntibody>
+                            <AssayedAntibodySourceMaterial>Serum</AssayedAntibodySourceMaterial>
+                            <AssayedAntibodyPurificationStatus>Polyclonal</AssayedAntibodyPurificationStatus>
+                            <AssayedAntibodyHeavyChainType>IgG1</AssayedAntibodyHeavyChainType>
+                        </AssayedAntibody>
+                        <Antigen>
+                            <AntigenReferenceName>MT 61-75</AntigenReferenceName>
+                            <AntigenConformation>Non-Native/Unknown</AntigenConformation>
+                            <AntigenObject>
+                                <EpitopeRelation>Epitope</EpitopeRelation>
+                                <Object>
+                                    <FragmentOfANaturalSequenceMolecule>
+                                        <ChemicalType>Peptide from protein</ChemicalType>
+                                        <LinearSequence>LDVAEGDTVIYSKYG</LinearSequence>
+                                        <StartingPosition>61</StartingPosition>
+                                        <EndingPosition>75</EndingPosition>
+                                        <SourceMolecule>
+                                            <GenBankId>P09621.3</GenBankId>
+                                        </SourceMolecule>
+                                        <SourceOrganismId>1773</SourceOrganismId>
+                                    </FragmentOfANaturalSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Exact match to reference information</AntigenEvidenceCode>
+                        </Antigen>
+                    </BCell>
+                </Assays>
+                <Assays>
+                    <BCell>
+                        <LocationOfData>Table 2</LocationOfData>
+                        <BCellId>9082</BCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>9606</OrganismId>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Occurrence of infectious disease</InVivoProcessType>
+                                <DiseaseState>DOID:1024</DiseaseState>
+                                <DiseaseStage>Acute/Recent onset</DiseaseStage>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Taxonomic Sibling</EpitopeRelation>
+                                    <Object>
+                                        <Organism>
+                                            <SubType>Organism</SubType>
+                                            <SourceOrganismId>1769</SourceOrganismId>
+                                        </Organism>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenReferenceName>Mycobacterium leprae</ImmunogenReferenceName>
+                                <ImmunogenEvidenceCode>Not determined</ImmunogenEvidenceCode>
+                            </FirstInVivoProcess>
+                        </Immunization>
+                        <AssayInformation>
+                            <AssayTypeId>34</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <NumberOfSubjectsTested>16</NumberOfSubjectsTested>
+                            <NumberOfSubjectsResponded>1</NumberOfSubjectsResponded>
+                            <ResponseFrequency>6.3</ResponseFrequency>
+                            <AssayComments>IgG1 reactivity against this peptide was seen in 1 out of 9 lepromatous leprosy patients and in none of the 7 tuberculoid leprosy patients.</AssayComments>
+                        </AssayInformation>
+                        <AssayedAntibody>
+                            <AssayedAntibodySourceMaterial>Serum</AssayedAntibodySourceMaterial>
+                            <AssayedAntibodyPurificationStatus>Polyclonal</AssayedAntibodyPurificationStatus>
+                            <AssayedAntibodyHeavyChainType>IgG1</AssayedAntibodyHeavyChainType>
+                        </AssayedAntibody>
+                        <Antigen>
+                            <AntigenReferenceName>MT 61-75</AntigenReferenceName>
+                            <AntigenConformation>Non-Native/Unknown</AntigenConformation>
+                            <AntigenObject>
+                                <EpitopeRelation>Epitope</EpitopeRelation>
+                                <Object>
+                                    <FragmentOfANaturalSequenceMolecule>
+                                        <ChemicalType>Peptide from protein</ChemicalType>
+                                        <LinearSequence>LDVAEGDTVIYSKYG</LinearSequence>
+                                        <StartingPosition>61</StartingPosition>
+                                        <EndingPosition>75</EndingPosition>
+                                        <SourceMolecule>
+                                            <GenBankId>P09621.3</GenBankId>
+                                        </SourceMolecule>
+                                        <SourceOrganismId>1773</SourceOrganismId>
+                                    </FragmentOfANaturalSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Exact match to reference information</AntigenEvidenceCode>
+                        </Antigen>
+                    </BCell>
+                </Assays>
+            </Epitope>
+        </Epitopes>
+    </Reference>
+</References>
+

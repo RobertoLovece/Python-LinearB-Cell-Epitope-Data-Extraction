@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<References xsi:schemaLocation="http://www.iedb.org/schema/CurationSchema http://beta.iedb.org/schema/Curation.xsd" xmlns="http://www.iedb.org/schema/CurationSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <Reference>
+        <ReferenceId>831</ReferenceId>
+        <DateLastUpdated>2020-09-10-07:00</DateLastUpdated>
+        <Article>
+            <PubmedId>10364276</PubmedId>
+            <Abstract>Hantaan virus, the prototypic member of the Hantavirus genus, causes hemorrhagic fever with renal syndrome in humans. We examined the human memory T-lymphocyte responses of three donors who had previous laboratory-acquired infections with Hantaan virus. We demonstrated virus-specific responses in bulk cultures of peripheral blood mononuclear cells (PBMC) from all donors. Bulk T-cell responses were directed against either Hantaan virus nucleocapsid (N) or G1 protein, and these responses varied between donors. We established both CD4(+) and CD8(+) N-specific cell lines from two donors and CD4(+) G1-specific cell lines from a third donor. All CD8(+) cytotoxic T-lymphocyte (CTL) lines recognized one of two epitopes on the nucleocapsid protein: one epitope spanning amino acids 12 to 20 and the other spanning amino acids 421 to 429. The CTL lines specific for amino acids 12 to 20 were restricted by HLA B51, and those specific for amino acids 421 to 429 were restricted by HLA A1. The N-specific CTL lines isolated from these two donors included both Hantaan virus-specific CTLs and hantavirus cross-reactive CTLs. Responses to both epitopes are detectable in short-term bulk cultures of PBMC from one donor, and precursor frequency analysis confirms that CTLs specific for these epitopes are present at relatively high precursor frequencies in the peripheral T-cell pool. These data suggest that infection with Hantaan virus results in the generation of CTL to limited epitopes on the nucleocapsid protein and that infection also results in the generation of cross-reactive T-cell responses to distantly related hantaviruses which cause the distinct hantavirus pulmonary syndrome. This is the first demonstration of human T-lymphocyte responses to Hantaan virus.</Abstract>
+            <ArticleYear>1999</ArticleYear>
+            <ArticlePages>5301-8</ArticlePages>
+            <ArticleTitle>Human memory cytotoxic T-lymphocyte (CTL) responses to Hantaan virus infection: identification of virus-specific and cross-reactive CD8(+) CTL epitopes on nucleocapsid protein.</ArticleTitle>
+            <Authors>
+                <Author>
+                    <LastName>Van Epps</LastName>
+                    <ForeName>H L</ForeName>
+                </Author>
+                <Author>
+                    <LastName>Schmaljohn</LastName>
+                    <ForeName>C S</ForeName>
+                </Author>
+                <Author>
+                    <LastName>Ennis</LastName>
+                    <ForeName>F A</ForeName>
+                </Author>
+            </Authors>
+            <Affiliations>Center for Infectious Disease and Vaccine Research, University of Massachusetts Medical Center, Worcester, Massachusetts 01655, USA.</Affiliations>
+            <ArticleChemicalList>Capsid Proteins;Epitopes, T-Lymphocyte;HLA-A Antigens;HLA-B Antigens;Peptides;Viral Core Proteins;nucleocapsid protein, Hantaan virus</ArticleChemicalList>
+            <ArticleMeshHeadingsList>Amino Acid Sequence; CD8-Positive T-Lymphocytes(immunology); Capsid(immunology); Capsid Proteins; Cell Line; Cells, Cultured; Cross Reactions; Epitopes, T-Lymphocyte(immunology); HLA-A Antigens(immunology); HLA-B Antigens(immunology); Hantaan virus(immunology); Hemorrhagic Fever with Renal Syndrome(immunology); Humans; Immunologic Memory(immunology); Leukocytes, Mononuclear(cytology; immunology); Molecular Sequence Data; Peptides(immunology); T-Lymphocytes, Cytotoxic(immunology); Viral Core Proteins(immunology)</ArticleMeshHeadingsList>
+            <Journal>
+                <Volume>73</Volume>
+                <Issue>7</Issue>
+                <Title>Journal of virology</Title>
+                <Issn>1098-5514</Issn>
+                <MedlineTa>J Virol</MedlineTa>
+            </Journal>
+        </Article>
+        <Epitopes>
+            <Epitope>
+                <EpitopeName>NA 12-20</EpitopeName>
+                <EpitopeStructure>
+                    <FragmentOfANaturalSequenceMolecule>
+                        <ChemicalType>Peptide from protein</ChemicalType>
+                        <LinearSequence>NAHEGQLVI</LinearSequence>
+                        <StartingPosition>12</StartingPosition>
+                        <EndingPosition>20</EndingPosition>
+                        <SourceMolecule>
+                            <GenBankId>P05133.1</GenBankId>
+                        </SourceMolecule>
+                        <SourceOrganismId>11602</SourceOrganismId>
+                    </FragmentOfANaturalSequenceMolecule>
+                </EpitopeStructure>
+                <LocationOfData>Fig 2, Page 5304.</LocationOfData>
+                <EpitopeId>43164</EpitopeId>
+                <ReferenceStartingPosition>12</ReferenceStartingPosition>
+                <ReferenceEndingPosition>20</ReferenceEndingPosition>
+                <EpitopeEvidenceCode>Not determined</EpitopeEvidenceCode>
+                <EpitopeStructureDefines>Exact Epitope</EpitopeStructureDefines>
+                <EpitopeComments>Also known as nucleocapsid protein.</EpitopeComments>
+                <Assays>
+                    <TCell>
+                        <LocationOfData>Table 2, figures 2 and 7</LocationOfData>
+                        <TCellId>9083</TCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>9606</OrganismId>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Exposure with existing immune reactivity without evidence for disease</InVivoProcessType>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Source Organism</EpitopeRelation>
+                                    <Object>
+                                        <Organism>
+                                            <SubType>Organism</SubType>
+                                            <SourceOrganismId>11602</SourceOrganismId>
+                                        </Organism>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenEvidenceCode>Not determined</ImmunogenEvidenceCode>
+                            </FirstInVivoProcess>
+                            <InVitroAdministration>
+                                <ProcessType>Restimulation in vitro</ProcessType>
+                                <ResponderCellType>PBMC</ResponderCellType>
+                                <StimulatorCellType>PBMC</StimulatorCellType>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Source Organism</EpitopeRelation>
+                                    <Object>
+                                        <Organism>
+                                            <SubType>Organism</SubType>
+                                            <SourceOrganismId>11602</SourceOrganismId>
+                                        </Organism>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenEvidenceCode>Not determined</ImmunogenEvidenceCode>
+                            </InVitroAdministration>
+                            <ImmunizationComments>PMBCs were restimulated with inactive source species virus  and autologous irradiated PBMCs for 14 days prior to assay.</ImmunizationComments>
+                        </Immunization>
+                        <EffectorCells>
+                            <CellTissueType>Blood</CellTissueType>
+                            <CellType>PBMC</CellType>
+                            <CellCultureConditions>Short Term Restimulated</CellCultureConditions>
+                        </EffectorCells>
+                        <AntigenPresentingCells>
+                            <CellTissueType>Lymphoid</CellTissueType>
+                            <CellType>B cell</CellType>
+                            <CellCultureConditions>Cell Line / Clone (EBV transformed, B-LCL)</CellCultureConditions>
+                            <AutologousOrSyngeneic>Y</AutologousOrSyngeneic>
+                        </AntigenPresentingCells>
+                        <MhcAllele>
+                            <MhcAlleleId>290</MhcAlleleId>
+                            <MhcEvidenceCode>Not determined</MhcEvidenceCode>
+                        </MhcAllele>
+                        <Antigen>
+                            <AntigenReferenceName>NA 12-20</AntigenReferenceName>
+                            <AntigenObject>
+                                <EpitopeRelation>Epitope</EpitopeRelation>
+                                <Object>
+                                    <FragmentOfANaturalSequenceMolecule>
+                                        <ChemicalType>Peptide from protein</ChemicalType>
+                                        <LinearSequence>NAHEGQLVI</LinearSequence>
+                                        <StartingPosition>12</StartingPosition>
+                                        <EndingPosition>20</EndingPosition>
+                                        <SourceMolecule>
+                                            <GenBankId>P05133.1</GenBankId>
+                                        </SourceMolecule>
+                                        <SourceOrganismId>11602</SourceOrganismId>
+                                    </FragmentOfANaturalSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Exact match to reference information</AntigenEvidenceCode>
+                        </Antigen>
+                        <AssayInformation>
+                            <AssayTypeId>67</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <NumberOfSubjectsTested>3</NumberOfSubjectsTested>
+                            <NumberOfSubjectsResponded>2</NumberOfSubjectsResponded>
+                            <ResponseFrequency>66.7</ResponseFrequency>
+                            <AssayComments>This minimal epitope was determined by using 70 overlapping 15-mers followed by truncation analysis of the reactive peptide (LQREINAHEGQLVIA). Of 3 infected donors, 2 produced CD8+ T cell lines specific for this epitope. 3 lines also recognized the source protein and were HLA B51 restricted.</AssayComments>
+                        </AssayInformation>
+                    </TCell>
+                </Assays>
+            </Epitope>
+            <Epitope>
+                <EpitopeName>NA 421-429</EpitopeName>
+                <EpitopeStructure>
+                    <FragmentOfANaturalSequenceMolecule>
+                        <ChemicalType>Peptide from protein</ChemicalType>
+                        <LinearSequence>ISNQEPLKL</LinearSequence>
+                        <StartingPosition>421</StartingPosition>
+                        <EndingPosition>429</EndingPosition>
+                        <SourceMolecule>
+                            <GenBankId>P05133.1</GenBankId>
+                        </SourceMolecule>
+                        <SourceOrganismId>11602</SourceOrganismId>
+                    </FragmentOfANaturalSequenceMolecule>
+                </EpitopeStructure>
+                <LocationOfData>Fig 2, Page 5304.</LocationOfData>
+                <EpitopeId>28636</EpitopeId>
+                <ReferenceStartingPosition>421</ReferenceStartingPosition>
+                <ReferenceEndingPosition>429</ReferenceEndingPosition>
+                <EpitopeEvidenceCode>Not determined</EpitopeEvidenceCode>
+                <EpitopeStructureDefines>Exact Epitope</EpitopeStructureDefines>
+                <EpitopeComments>Also known as nucleocapsid protein.</EpitopeComments>
+                <Assays>
+                    <TCell>
+                        <LocationOfData>Table 2, figures 2 and 7</LocationOfData>
+                        <TCellId>12128</TCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>9606</OrganismId>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Exposure with existing immune reactivity without evidence for disease</InVivoProcessType>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Source Organism</EpitopeRelation>
+                                    <Object>
+                                        <Organism>
+                                            <SubType>Organism</SubType>
+                                            <SourceOrganismId>11602</SourceOrganismId>
+                                        </Organism>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenEvidenceCode>Not determined</ImmunogenEvidenceCode>
+                            </FirstInVivoProcess>
+                            <InVitroAdministration>
+                                <ProcessType>Restimulation in vitro</ProcessType>
+                                <ResponderCellType>PBMC</ResponderCellType>
+                                <StimulatorCellType>PBMC</StimulatorCellType>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Source Organism</EpitopeRelation>
+                                    <Object>
+                                        <Organism>
+                                            <SubType>Organism</SubType>
+                                            <SourceOrganismId>11602</SourceOrganismId>
+                                        </Organism>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenEvidenceCode>Not determined</ImmunogenEvidenceCode>
+                            </InVitroAdministration>
+                            <ImmunizationComments>PMBCs were restimulated with inactive source species virus  and autologous irradiated PBMCs for 14 days prior to assay.</ImmunizationComments>
+                        </Immunization>
+                        <EffectorCells>
+                            <CellTissueType>Blood</CellTissueType>
+                            <CellType>PBMC</CellType>
+                            <CellCultureConditions>Short Term Restimulated</CellCultureConditions>
+                        </EffectorCells>
+                        <AntigenPresentingCells>
+                            <CellTissueType>Lymphoid</CellTissueType>
+                            <CellType>B cell</CellType>
+                            <CellCultureConditions>Cell Line / Clone (EBV transformed, B-LCL)</CellCultureConditions>
+                            <AutologousOrSyngeneic>Y</AutologousOrSyngeneic>
+                        </AntigenPresentingCells>
+                        <MhcAllele>
+                            <MhcAlleleId>233</MhcAlleleId>
+                            <MhcEvidenceCode>Not determined</MhcEvidenceCode>
+                        </MhcAllele>
+                        <Antigen>
+                            <AntigenReferenceName>NA 421-429</AntigenReferenceName>
+                            <AntigenObject>
+                                <EpitopeRelation>Epitope</EpitopeRelation>
+                                <Object>
+                                    <FragmentOfANaturalSequenceMolecule>
+                                        <ChemicalType>Peptide from protein</ChemicalType>
+                                        <LinearSequence>ISNQEPLKL</LinearSequence>
+                                        <StartingPosition>421</StartingPosition>
+                                        <EndingPosition>429</EndingPosition>
+                                        <SourceMolecule>
+                                            <GenBankId>P05133.1</GenBankId>
+                                        </SourceMolecule>
+                                        <SourceOrganismId>11602</SourceOrganismId>
+                                    </FragmentOfANaturalSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Exact match to reference information</AntigenEvidenceCode>
+                        </Antigen>
+                        <AssayInformation>
+                            <AssayTypeId>67</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <NumberOfSubjectsTested>3</NumberOfSubjectsTested>
+                            <NumberOfSubjectsResponded>2</NumberOfSubjectsResponded>
+                            <ResponseFrequency>66.7</ResponseFrequency>
+                            <AssayComments>The minimal epitope was determined through the use of  70 overlapping 15-mer peptides followed by truncation analysis of reactive peptide (VKVKEISNQEPLKL). 5 out of 8 T cell lines tested recognized the source protein and this peptide and were restricted by HLA A1.</AssayComments>
+                        </AssayInformation>
+                    </TCell>
+                </Assays>
+            </Epitope>
+        </Epitopes>
+    </Reference>
+</References>
+

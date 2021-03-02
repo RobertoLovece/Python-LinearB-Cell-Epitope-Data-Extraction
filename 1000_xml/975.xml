@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<References xsi:schemaLocation="http://www.iedb.org/schema/CurationSchema http://beta.iedb.org/schema/Curation.xsd" xmlns="http://www.iedb.org/schema/CurationSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <Reference>
+        <ReferenceId>975</ReferenceId>
+        <DateLastUpdated>2020-09-10-07:00</DateLastUpdated>
+        <Article>
+            <PubmedId>7690424</PubmedId>
+            <Abstract>We previously reported that the clone JK34 was cross-reactive for dengue virus types 1, 2, 3, and 4 and recognized NS3 (I. Kurane, M. A. Brinton, A. L. Samson, and F. A. Ennis, J. Virol. 65:1823-1828, 1991). In the present experiments, we defined the epitope at the amino acid level, with 93 15-mer overlapping peptides which cover the entire NS3. A peptide 4 which contains amino acids 251 to 265 of NS3 sensitized the autologous B lymphoblastoid cell line (LCL) to the lysis by JK34. The smallest peptide recognized by JK34 was a 10-mer peptide which contains amino acids 255 to 264 (EIVDLMCHAT). A monoclonal antibody to HLA-DP inhibited the lysis of epitope peptide-pulsed autologous LCL by JK34. Genotypic typing revealed that the HLA-DP of this donor is DPA1*01, DPB1*0201, which is serologically defined as HLA-DPw2. JK34 lysed peptide 4-pulsed allogeneic LCL which carried HLA-DPw2. These results indicate that HLA-DPw2 is the restriction allele for recognition of this epitope by JK34.</Abstract>
+            <ArticleYear>1993</ArticleYear>
+            <ArticlePages>6285-8</ArticlePages>
+            <ArticleTitle>Definition of an HLA-DPw2-restricted epitope on NS3, recognized by a dengue virus serotype-cross-reactive human CD4+ CD8- cytotoxic T-cell clone.</ArticleTitle>
+            <Authors>
+                <Author>
+                    <LastName>Kurane</LastName>
+                    <ForeName>I</ForeName>
+                </Author>
+                <Author>
+                    <LastName>Dai</LastName>
+                    <ForeName>L C</ForeName>
+                </Author>
+                <Author>
+                    <LastName>Livingston</LastName>
+                    <ForeName>P G</ForeName>
+                </Author>
+                <Author>
+                    <LastName>Reed</LastName>
+                    <ForeName>E</ForeName>
+                </Author>
+                <Author>
+                    <LastName>Ennis</LastName>
+                    <ForeName>F A</ForeName>
+                </Author>
+            </Authors>
+            <Affiliations>Department of Medicine, University of Massachusetts Medical Center, Worcester 01655.</Affiliations>
+            <ArticleChemicalList>Epitopes;HLA-DP Antigens;NS3 protein, flavivirus;Viral Nonstructural Proteins;Serine Endopeptidases;RNA Helicases</ArticleChemicalList>
+            <ArticleMeshHeadingsList>Amino Acid Sequence; Cross Reactions; Cytotoxicity, Immunologic; Dengue Virus(classification; immunology); Epitopes(analysis; immunology); Genotype; HLA-DP Antigens(genetics; immunology); Humans; Molecular Sequence Data; RNA Helicases; Serine Endopeptidases; Serotyping; T-Lymphocyte Subsets(immunology; microbiology); T-Lymphocytes, Cytotoxic(immunology; microbiology); Viral Nonstructural Proteins(immunology)</ArticleMeshHeadingsList>
+            <Journal>
+                <Volume>67</Volume>
+                <Issue>10</Issue>
+                <Title>Journal of virology</Title>
+                <Issn>1098-5514</Issn>
+                <MedlineTa>J Virol</MedlineTa>
+            </Journal>
+        </Article>
+        <Epitopes>
+            <Epitope>
+                <EpitopeName>NS3 255-264</EpitopeName>
+                <EpitopeStructure>
+                    <FragmentOfANaturalSequenceMolecule>
+                        <ChemicalType>Peptide from protein</ChemicalType>
+                        <LinearSequence>EIVDLMCHAT</LinearSequence>
+                        <StartingPosition>255</StartingPosition>
+                        <EndingPosition>264</EndingPosition>
+                        <SourceMolecule>
+                            <GenBankId>NP_740321.1</GenBankId>
+                        </SourceMolecule>
+                        <SourceOrganismId>408871</SourceOrganismId>
+                    </FragmentOfANaturalSequenceMolecule>
+                </EpitopeStructure>
+                <LocationOfData>Table 1</LocationOfData>
+                <EpitopeId>12605</EpitopeId>
+                <ReferenceStartingPosition>255</ReferenceStartingPosition>
+                <ReferenceEndingPosition>264</ReferenceEndingPosition>
+                <EpitopeEvidenceCode>Not determined</EpitopeEvidenceCode>
+                <EpitopeStructureDefines>Exact Epitope</EpitopeStructureDefines>
+                <EpitopeComments>Epitope is completely conserved among dengue virus types 1,2,3, and 4. Genbank ID of NS3 protein sequence was found by curator by BLASTing epitope sequence and matching the epitope positions in the protein sequence.</EpitopeComments>
+                <Assays>
+                    <TCell>
+                        <LocationOfData>Table 1 and figure 1</LocationOfData>
+                        <TCellId>11924</TCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>9606</OrganismId>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Occurrence of infectious disease</InVivoProcessType>
+                                <DiseaseState>DOID:12205</DiseaseState>
+                                <DiseaseStage>Post</DiseaseStage>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Source Organism</EpitopeRelation>
+                                    <Object>
+                                        <Organism>
+                                            <SubType>Organism</SubType>
+                                            <SourceOrganismId>408871</SourceOrganismId>
+                                        </Organism>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenReferenceName>Dengue type 3 virus</ImmunogenReferenceName>
+                                <ImmunogenEvidenceCode>Not determined</ImmunogenEvidenceCode>
+                            </FirstInVivoProcess>
+                            <InVitroAdministration>
+                                <ProcessType>Restimulation in vitro</ProcessType>
+                                <ResponderCellType>PBMC</ResponderCellType>
+                                <StimulatorCellType>PBMC</StimulatorCellType>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Source Antigen</EpitopeRelation>
+                                    <Object>
+                                        <AccessionSequenceMolecule>
+                                            <ChemicalType>Protein</ChemicalType>
+                                            <Molecule>
+                                                <GenBankId>NP_740321.1</GenBankId>
+                                            </Molecule>
+                                            <SourceOrganismId>408871</SourceOrganismId>
+                                        </AccessionSequenceMolecule>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenEvidenceCode>Not determined</ImmunogenEvidenceCode>
+                            </InVitroAdministration>
+                            <ImmunizationComments>CD4+ CTL clone (JK34) was established by limiting dilution technique. JK34 was cross reactive for dengue virus types 1,2,3, and 4 and recognized NS3 protein.  PBMCs were stimulated with autologous irradiated PBMC with dengue 2 or 3 antigen.</ImmunizationComments>
+                        </Immunization>
+                        <EffectorCells>
+                            <CellType>T cell CD4+</CellType>
+                            <CellCultureConditions>Cell Line / Clone</CellCultureConditions>
+                        </EffectorCells>
+                        <AntigenPresentingCells>
+                            <CellTissueType>Lymphoid</CellTissueType>
+                            <CellType>B cell</CellType>
+                            <CellCultureConditions>Cell Line / Clone (EBV transformed, B-LCL)</CellCultureConditions>
+                            <AutologousOrSyngeneic>Y</AutologousOrSyngeneic>
+                        </AntigenPresentingCells>
+                        <MhcAllele>
+                            <MhcAlleleId>79</MhcAlleleId>
+                            <MhcEvidenceCode>Not determined</MhcEvidenceCode>
+                        </MhcAllele>
+                        <Antigen>
+                            <AntigenReferenceName>NS3 255-264</AntigenReferenceName>
+                            <AntigenObject>
+                                <EpitopeRelation>Epitope</EpitopeRelation>
+                                <Object>
+                                    <FragmentOfANaturalSequenceMolecule>
+                                        <ChemicalType>Peptide from protein</ChemicalType>
+                                        <LinearSequence>EIVDLMCHAT</LinearSequence>
+                                        <StartingPosition>255</StartingPosition>
+                                        <EndingPosition>264</EndingPosition>
+                                        <SourceMolecule>
+                                            <GenBankId>NP_740321.1</GenBankId>
+                                        </SourceMolecule>
+                                        <SourceOrganismId>408871</SourceOrganismId>
+                                    </FragmentOfANaturalSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Exact match to reference information</AntigenEvidenceCode>
+                        </Antigen>
+                        <AssayInformation>
+                            <AssayTypeId>67</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <AssayComments>93 15-mer overlapping peptides covering the entire NS3 protein were tested against serotype-cross-reactive CD4+ CTL clone (JK34). None of the peptides except peptide 251-265 produced lysis by JK34. The minimal epitope was identified by truncation analysis. MHC restriction was confirmed in separate experiments.</AssayComments>
+                        </AssayInformation>
+                    </TCell>
+                </Assays>
+            </Epitope>
+        </Epitopes>
+    </Reference>
+</References>
+

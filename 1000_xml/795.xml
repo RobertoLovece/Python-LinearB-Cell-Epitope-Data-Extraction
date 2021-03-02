@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<References xsi:schemaLocation="http://www.iedb.org/schema/CurationSchema http://beta.iedb.org/schema/Curation.xsd" xmlns="http://www.iedb.org/schema/CurationSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <Reference>
+        <ReferenceId>795</ReferenceId>
+        <DateLastUpdated>2020-09-10-07:00</DateLastUpdated>
+        <Article>
+            <PubmedId>11514726</PubmedId>
+            <Abstract>To study the neutralizing epitopes of influenza B virus Victoria group strains, two monoclonal antibodies (MAbs) were used to select antigenic variants of the virus. MAbs 10B8 and 8E6 were found to react with B/Victoria group strains in three tests, peroxidase-antiperoxidase staining, haemagglutination inhibition and neutralization tests; no reactivity with B/Yamagata group strains was observed. Analysis of the deduced amino acid sequences of 10B8-induced variants identified a single amino acid deletion at residue 165 or 170, as well as a single amino acid substitution at residues 164 (Asp--&gt;Tyr), 165 (Asn--&gt;Ser or Thr) or 203 (Lys--&gt;Thr or Asn). A single amino acid substitution at residue 241 (Pro--&gt;Ser) was observed in 8E6-induced variants. Three-dimensional analysis showed that the epitopes for both MAbs were situated in close proximity to each other. Since B/Yamagata group strains are characterized by amino acid deletions at residues 164-166, the epitope for MAb 10B8 is strictly specific for B/Victoria group strains.</Abstract>
+            <ArticleYear>2001</ArticleYear>
+            <ArticlePages>2169-2172</ArticlePages>
+            <ArticleTitle>Antigenic variants with amino acid deletions clarify a neutralizing epitope specific for influenza B virus Victoria group strains.</ArticleTitle>
+            <Authors>
+                <Author>
+                    <LastName>Nakagawa</LastName>
+                    <ForeName>Naoko</ForeName>
+                </Author>
+                <Author>
+                    <LastName>Kubota</LastName>
+                    <ForeName>Ritsuko</ForeName>
+                </Author>
+                <Author>
+                    <LastName>Nakagawa</LastName>
+                    <ForeName>Toshimasa</ForeName>
+                </Author>
+                <Author>
+                    <LastName>Okuno</LastName>
+                    <ForeName>Yoshinobu</ForeName>
+                </Author>
+            </Authors>
+            <Affiliations>Division of Virology, Department Public Health, Osaka Prefectural Institute of Public Health, 3-69 1-Chome, Nakamichi, Higashinari-ku, Osaka 537-0025, Japan1; Department of Clinical Pathology, Osaka Medical College, 2-7 Daigaku-cho, Takatsuki 569-8686, Japan2.</Affiliations>
+            <ArticleChemicalList>Antibodies, Monoclonal;Epitopes;Hemagglutinin Glycoproteins, Influenza Virus</ArticleChemicalList>
+            <ArticleMeshHeadingsList>Animals; Antibodies, Monoclonal(immunology); Base Sequence; Epitopes; Hemagglutinin Glycoproteins, Influenza Virus(chemistry; immunology); Immunoenzyme Techniques; Influenza B virus(classification; immunology); Mice; Molecular Sequence Data; Neutralization Tests; Structure-Activity Relationship</ArticleMeshHeadingsList>
+            <Journal>
+                <Volume>82</Volume>
+                <Issue>Pt 9</Issue>
+                <Title>The Journal of general virology</Title>
+                <Issn>0022-1317</Issn>
+                <MedlineTa>J Gen Virol</MedlineTa>
+            </Journal>
+        </Article>
+        <Epitopes>
+            <Epitope>
+                <EpitopeName>10B8</EpitopeName>
+                <EpitopeStructure>
+                    <DiscontinuousRegionOnAccessionSequenceMolecule>
+                        <ChemicalType>Discontinuous protein residues</ChemicalType>
+                        <DiscontinuousResidues>D164, N165, T170, K203</DiscontinuousResidues>
+                        <SourceMolecule>
+                            <GenBankId>P68760.1</GenBankId>
+                        </SourceMolecule>
+                        <SourceOrganismId>1077587</SourceOrganismId>
+                    </DiscontinuousRegionOnAccessionSequenceMolecule>
+                </EpitopeStructure>
+                <LocationOfData>Page 2171</LocationOfData>
+                <EpitopeId>77410</EpitopeId>
+                <ReferenceRegion>D164, N165, T170, K203</ReferenceRegion>
+                <EpitopeEvidenceCode>Not determined</EpitopeEvidenceCode>
+                <EpitopeStructureDefines>Partial Epitope</EpitopeStructureDefines>
+                <EpitopeComments>This residues are shown to constitute or influence the epitope recognized by mAb 10B8, specific for viral hemagglutinin. This is an Influenza B / Victoria group specific epitope.</EpitopeComments>
+                <Assays>
+                    <BCell>
+                        <BCellId>8380</BCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>10090</OrganismId>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Administration in vivo</InVivoProcessType>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Source Organism</EpitopeRelation>
+                                    <Object>
+                                        <Organism>
+                                            <SubType>Organism</SubType>
+                                            <SourceOrganismId>1077587</SourceOrganismId>
+                                        </Organism>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenEvidenceCode>Not determined</ImmunogenEvidenceCode>
+                            </FirstInVivoProcess>
+                        </Immunization>
+                        <AssayInformation>
+                            <AssayTypeId>316</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <AssayComments>Because this neutralization assay, as well as the hemagglutinin inhibition assay and the PAP tests were all negative for the virus variants harboring single mutations the mutated residues were presumed to constitute or influence the epitope.</AssayComments>
+                        </AssayInformation>
+                        <AssayedAntibody>
+                            <AssayedAntibodyPurificationStatus>Monoclonal</AssayedAntibodyPurificationStatus>
+                        </AssayedAntibody>
+                        <Antigen>
+                            <AntigenReferenceName>Influenza B virus (B/Victoria/2/87)</AntigenReferenceName>
+                            <AntigenConformation>Native</AntigenConformation>
+                            <AntigenObject>
+                                <EpitopeRelation>Source Organism</EpitopeRelation>
+                                <Object>
+                                    <Organism>
+                                        <SubType>Organism</SubType>
+                                        <SourceOrganismId>1077587</SourceOrganismId>
+                                    </Organism>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Not determined</AntigenEvidenceCode>
+                        </Antigen>
+                    </BCell>
+                </Assays>
+            </Epitope>
+            <Epitope>
+                <EpitopeName>8000000</EpitopeName>
+                <EpitopeStructure>
+                    <DiscontinuousRegionOnAccessionSequenceMolecule>
+                        <ChemicalType>Discontinuous protein residues</ChemicalType>
+                        <DiscontinuousResidues>N197, T199, K203, P241</DiscontinuousResidues>
+                        <SourceMolecule>
+                            <GenBankId>P68760.1</GenBankId>
+                        </SourceMolecule>
+                        <SourceOrganismId>1077587</SourceOrganismId>
+                    </DiscontinuousRegionOnAccessionSequenceMolecule>
+                </EpitopeStructure>
+                <LocationOfData>Page 2171</LocationOfData>
+                <EpitopeId>77411</EpitopeId>
+                <ReferenceRegion>N197, T199, K203, P241</ReferenceRegion>
+                <EpitopeEvidenceCode>Not determined</EpitopeEvidenceCode>
+                <EpitopeStructureDefines>Partial Epitope</EpitopeStructureDefines>
+                <EpitopeComments>This residues are shown to constitute or influence the epitope recognized by mAb 8E6, specific for viral hemagglutinin.</EpitopeComments>
+                <Assays>
+                    <BCell>
+                        <BCellId>8381</BCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>10090</OrganismId>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Administration in vivo</InVivoProcessType>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Source Organism</EpitopeRelation>
+                                    <Object>
+                                        <Organism>
+                                            <SubType>Organism</SubType>
+                                            <SourceOrganismId>1077587</SourceOrganismId>
+                                        </Organism>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenReferenceName>Influenza B virus (B/Victoria/2/87)</ImmunogenReferenceName>
+                                <ImmunogenEvidenceCode>Not determined</ImmunogenEvidenceCode>
+                            </FirstInVivoProcess>
+                        </Immunization>
+                        <AssayInformation>
+                            <AssayTypeId>316</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <AssayComments>Because this neutralization assay, as well as the hemagglutinin inhibition assay and the PAP tests were all negative for the virus variants harboring single mutation, the mutated residues were presumed to constitute or influence the epitope.</AssayComments>
+                        </AssayInformation>
+                        <AssayedAntibody>
+                            <AssayedAntibodyPurificationStatus>Monoclonal</AssayedAntibodyPurificationStatus>
+                            <AssayedAntibodyName>8E6</AssayedAntibodyName>
+                        </AssayedAntibody>
+                        <Antigen>
+                            <AntigenReferenceName>Influenza B virus (B/Victoria/2/87)</AntigenReferenceName>
+                            <AntigenConformation>Native</AntigenConformation>
+                            <AntigenObject>
+                                <EpitopeRelation>Source Organism</EpitopeRelation>
+                                <Object>
+                                    <Organism>
+                                        <SubType>Organism</SubType>
+                                        <SourceOrganismId>1077587</SourceOrganismId>
+                                    </Organism>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Not determined</AntigenEvidenceCode>
+                        </Antigen>
+                    </BCell>
+                </Assays>
+            </Epitope>
+        </Epitopes>
+    </Reference>
+</References>
+

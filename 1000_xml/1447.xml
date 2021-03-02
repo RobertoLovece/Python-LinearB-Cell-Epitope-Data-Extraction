@@ -1,0 +1,1325 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<References xsi:schemaLocation="http://www.iedb.org/schema/CurationSchema http://beta.iedb.org/schema/Curation.xsd" xmlns="http://www.iedb.org/schema/CurationSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <Reference>
+        <ReferenceId>1447</ReferenceId>
+        <DateLastUpdated>2020-09-10-07:00</DateLastUpdated>
+        <Article>
+            <PubmedId>12816978</PubmedId>
+            <Abstract>Class I MHC molecules bind intracellular peptides for presentation to cytotoxic T lymphocytes. Identification of peptides presented by class I molecules during infection is therefore a priority for detecting and targeting intracellular pathogens. To understand which host-encoded peptides distinguish HIV-infected cells, we have developed a mass spectrometric approach to characterize HLA-B*0702 peptides unique to or up-regulated on infected T cells. In this study, we identify 15 host proteins that are differentially presented on infected human T cells. Peptides with increased expression on HIV-infected cells were derived from multiple categories of cellular proteins including RNA binding proteins and cell cycle regulatory proteins. Therefore, comprehensive analysis of the B*0702 peptide repertoire demonstrates that marked differences in host protein presentation occur after HIV infection.</Abstract>
+            <ArticleYear>2003</ArticleYear>
+            <ArticlePages>22-6</ArticlePages>
+            <ArticleTitle>Cutting edge: class I presentation of host peptides following HIV infection.</ArticleTitle>
+            <Authors>
+                <Author>
+                    <LastName>Hickman</LastName>
+                    <ForeName>Heather D</ForeName>
+                </Author>
+                <Author>
+                    <LastName>Luis</LastName>
+                    <ForeName>Angela D</ForeName>
+                </Author>
+                <Author>
+                    <LastName>Bardet</LastName>
+                    <ForeName>Wilfried</ForeName>
+                </Author>
+                <Author>
+                    <LastName>Buchli</LastName>
+                    <ForeName>Rico</ForeName>
+                </Author>
+                <Author>
+                    <LastName>Battson</LastName>
+                    <ForeName>Casey L</ForeName>
+                </Author>
+                <Author>
+                    <LastName>Shearer</LastName>
+                    <ForeName>Michael H</ForeName>
+                </Author>
+                <Author>
+                    <LastName>Jackson</LastName>
+                    <ForeName>Kenneth W</ForeName>
+                </Author>
+                <Author>
+                    <LastName>Kennedy</LastName>
+                    <ForeName>Ronald C</ForeName>
+                </Author>
+                <Author>
+                    <LastName>Hildebrand</LastName>
+                    <ForeName>William H</ForeName>
+                </Author>
+            </Authors>
+            <Affiliations>Department of Microbiology and Immunology and William K. Warren Medical Research Institute, University of Oklahoma Health Sciences Center, Oklahoma City, OK 73104, USA.</Affiliations>
+            <ArticleChemicalList>HLA-B Antigens;Peptide Fragments</ArticleChemicalList>
+            <ArticleMeshHeadingsList>Antigen Presentation(immunology); HIV(immunology); HIV Infections(immunology; metabolism; virology); HLA-B Antigens(immunology; metabolism); Humans; Mass Spectrometry; Peptide Fragments(immunology; isolation &amp; purification; metabolism); Peptide Mapping; T-Lymphocyte Subsets(immunology; metabolism; virology); Transfection; Tumor Cells, Cultured</ArticleMeshHeadingsList>
+            <Journal>
+                <Volume>171</Volume>
+                <Issue>1</Issue>
+                <Title>Journal of immunology (Baltimore, Md. : 1950)</Title>
+                <Issn>0022-1767</Issn>
+                <MedlineTa>J Immunol</MedlineTa>
+            </Journal>
+        </Article>
+        <Epitopes>
+            <Epitope>
+                <EpitopeStructure>
+                    <FragmentOfANaturalSequenceMolecule>
+                        <ChemicalType>Peptide from protein</ChemicalType>
+                        <LinearSequence>APKRPPSAF</LinearSequence>
+                        <StartingPosition>94</StartingPosition>
+                        <EndingPosition>102</EndingPosition>
+                        <SourceMolecule>
+                            <GenBankId>P09429.3</GenBankId>
+                        </SourceMolecule>
+                        <SourceOrganismId>9606</SourceOrganismId>
+                    </FragmentOfANaturalSequenceMolecule>
+                </EpitopeStructure>
+                <LocationOfData>Table II</LocationOfData>
+                <EpitopeId>3624</EpitopeId>
+                <ReferenceStartingPosition>93</ReferenceStartingPosition>
+                <ReferenceEndingPosition>101</ReferenceEndingPosition>
+                <EpitopeEvidenceCode>Representative selection</EpitopeEvidenceCode>
+                <EpitopeStructureDefines>Exact Epitope</EpitopeStructureDefines>
+                <EpitopeComments>Since this epitope was identified by sequencing HLA-B*0702-bound peptides that were unique to or up-regulated in HIV-infected cells, there are two possible source proteins that contain this peptide sequence: HMG-1 or HMG-2 (Swiss-Prot P26583).</EpitopeComments>
+                <Assays>
+                    <MhcLigandElution>
+                        <LocationOfData>Figure 1 and Table II</LocationOfData>
+                        <MhcLigandElutionId>22634</MhcLigandElutionId>
+                        <HostOrganism>
+                            <OrganismId>9606</OrganismId>
+                        </HostOrganism>
+                        <InVivoProcess>
+                            <InVivoProcessType>No immunization</InVivoProcessType>
+                        </InVivoProcess>
+                        <InVitroAdministration>
+                            <ProcessType>Antigen administered in vitro</ProcessType>
+                            <ProcessedAntigenReferenceName>HMG 1/2</ProcessedAntigenReferenceName>
+                            <ProcessedAntigenObject>
+                                <EpitopeRelation>Other</EpitopeRelation>
+                                <Object>
+                                    <Organism>
+                                        <SubType>Organism</SubType>
+                                        <SourceOrganismId>11696</SourceOrganismId>
+                                    </Organism>
+                                </Object>
+                            </ProcessedAntigenObject>
+                            <ProcessedAntigenEvidenceCode>Exact match to reference information</ProcessedAntigenEvidenceCode>
+                        </InVitroAdministration>
+                        <MhcLigand>
+                            <MhcLigandObject>
+                                <EpitopeRelation>Epitope</EpitopeRelation>
+                                <Object>
+                                    <FragmentOfANaturalSequenceMolecule>
+                                        <ChemicalType>Peptide from protein</ChemicalType>
+                                        <LinearSequence>APKRPPSAF</LinearSequence>
+                                        <StartingPosition>94</StartingPosition>
+                                        <EndingPosition>102</EndingPosition>
+                                        <SourceMolecule>
+                                            <GenBankId>P09429.3</GenBankId>
+                                        </SourceMolecule>
+                                        <SourceOrganismId>9606</SourceOrganismId>
+                                    </FragmentOfANaturalSequenceMolecule>
+                                </Object>
+                            </MhcLigandObject>
+                        </MhcLigand>
+                        <AntigenPresentingCells>
+                            <CellTissueType>Lymphoid</CellTissueType>
+                            <CellType>B cell</CellType>
+                            <CellCultureConditions>Cell Line / Clone (EBV transformed, B-LCL)</CellCultureConditions>
+                        </AntigenPresentingCells>
+                        <MhcAllele>
+                            <MhcAlleleId>251</MhcAlleleId>
+                            <MhcEvidenceCode>Antibody purification</MhcEvidenceCode>
+                        </MhcAllele>
+                        <AssayInformation>
+                            <AssayTypeId>93</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <AssayComments>The peptide was eluted from HLA B*0702/peptide complexes from HIV-infected SUP-T1 cells.</AssayComments>
+                        </AssayInformation>
+                    </MhcLigandElution>
+                </Assays>
+                <Assays>
+                    <MhcBinding>
+                        <LocationOfData>Table I</LocationOfData>
+                        <MhcBindingId>22635</MhcBindingId>
+                        <AssayInformation>
+                            <AssayTypeId>273</AssayTypeId>
+                            <QualitativeMeasurement>Positive-High</QualitativeMeasurement>
+                            <QuantitativeMeasurement>176.1</QuantitativeMeasurement>
+                        </AssayInformation>
+                        <MhcAlleleId>251</MhcAlleleId>
+                    </MhcBinding>
+                </Assays>
+            </Epitope>
+            <Epitope>
+                <EpitopeStructure>
+                    <FragmentOfANaturalSequenceMolecule>
+                        <ChemicalType>Peptide from protein</ChemicalType>
+                        <LinearSequence>TPQSNRPVM</LinearSequence>
+                        <StartingPosition>527</StartingPosition>
+                        <EndingPosition>535</EndingPosition>
+                        <SourceMolecule>
+                            <GenBankId>P24928.1</GenBankId>
+                        </SourceMolecule>
+                        <SourceOrganismId>9606</SourceOrganismId>
+                    </FragmentOfANaturalSequenceMolecule>
+                </EpitopeStructure>
+                <LocationOfData>Table II</LocationOfData>
+                <EpitopeId>65727</EpitopeId>
+                <ReferenceStartingPosition>527</ReferenceStartingPosition>
+                <ReferenceEndingPosition>535</ReferenceEndingPosition>
+                <EpitopeEvidenceCode>Representative selection</EpitopeEvidenceCode>
+                <EpitopeStructureDefines>Exact Epitope</EpitopeStructureDefines>
+                <EpitopeComments>The methionine residue is oxidized. This epitope was identified by sequencing HLA-B*0702-bound peptides that were unique to or up-regulated in HIV-infected cells.</EpitopeComments>
+                <Assays>
+                    <MhcLigandElution>
+                        <LocationOfData>Figure 1 and Table II</LocationOfData>
+                        <MhcLigandElutionId>22642</MhcLigandElutionId>
+                        <HostOrganism>
+                            <OrganismId>9606</OrganismId>
+                        </HostOrganism>
+                        <InVivoProcess>
+                            <InVivoProcessType>No immunization</InVivoProcessType>
+                        </InVivoProcess>
+                        <InVitroAdministration>
+                            <ProcessType>Antigen administered in vitro</ProcessType>
+                            <ProcessedAntigenReferenceName>RNA pol</ProcessedAntigenReferenceName>
+                            <ProcessedAntigenObject>
+                                <EpitopeRelation>Other</EpitopeRelation>
+                                <Object>
+                                    <Organism>
+                                        <SubType>Organism</SubType>
+                                        <SourceOrganismId>11696</SourceOrganismId>
+                                    </Organism>
+                                </Object>
+                            </ProcessedAntigenObject>
+                            <ProcessedAntigenEvidenceCode>Exact match to reference information</ProcessedAntigenEvidenceCode>
+                        </InVitroAdministration>
+                        <MhcLigand>
+                            <MhcLigandObject>
+                                <EpitopeRelation>Epitope</EpitopeRelation>
+                                <Object>
+                                    <FragmentOfANaturalSequenceMolecule>
+                                        <ChemicalType>Peptide from protein</ChemicalType>
+                                        <LinearSequence>TPQSNRPVM</LinearSequence>
+                                        <StartingPosition>527</StartingPosition>
+                                        <EndingPosition>535</EndingPosition>
+                                        <SourceMolecule>
+                                            <GenBankId>P24928.1</GenBankId>
+                                        </SourceMolecule>
+                                        <SourceOrganismId>9606</SourceOrganismId>
+                                    </FragmentOfANaturalSequenceMolecule>
+                                </Object>
+                            </MhcLigandObject>
+                        </MhcLigand>
+                        <AntigenPresentingCells>
+                            <CellTissueType>Lymphoid</CellTissueType>
+                            <CellType>B cell</CellType>
+                            <CellCultureConditions>Cell Line / Clone (EBV transformed, B-LCL)</CellCultureConditions>
+                        </AntigenPresentingCells>
+                        <MhcAllele>
+                            <MhcAlleleId>251</MhcAlleleId>
+                            <MhcEvidenceCode>Antibody purification</MhcEvidenceCode>
+                        </MhcAllele>
+                        <AssayInformation>
+                            <AssayTypeId>93</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <AssayComments>The peptide was eluted from HLA B*0702/peptide complexes from HIV-infected SUP-T1 cells.</AssayComments>
+                        </AssayInformation>
+                    </MhcLigandElution>
+                </Assays>
+                <Assays>
+                    <MhcBinding>
+                        <LocationOfData>Table I</LocationOfData>
+                        <MhcBindingId>22643</MhcBindingId>
+                        <AssayInformation>
+                            <AssayTypeId>273</AssayTypeId>
+                            <QualitativeMeasurement>Positive-High</QualitativeMeasurement>
+                            <QuantitativeMeasurement>466.0</QuantitativeMeasurement>
+                        </AssayInformation>
+                        <MhcAlleleId>251</MhcAlleleId>
+                    </MhcBinding>
+                </Assays>
+            </Epitope>
+            <Epitope>
+                <EpitopeStructure>
+                    <FragmentOfANaturalSequenceMolecule>
+                        <ChemicalType>Peptide from protein</ChemicalType>
+                        <LinearSequence>SPNQARAQAAL</LinearSequence>
+                        <StartingPosition>141</StartingPosition>
+                        <EndingPosition>151</EndingPosition>
+                        <SourceMolecule>
+                            <GenBankId>P26599.1</GenBankId>
+                        </SourceMolecule>
+                        <SourceOrganismId>9606</SourceOrganismId>
+                    </FragmentOfANaturalSequenceMolecule>
+                </EpitopeStructure>
+                <LocationOfData>Table II</LocationOfData>
+                <EpitopeId>60166</EpitopeId>
+                <ReferenceStartingPosition>141</ReferenceStartingPosition>
+                <ReferenceEndingPosition>151</ReferenceEndingPosition>
+                <EpitopeEvidenceCode>Representative selection</EpitopeEvidenceCode>
+                <EpitopeStructureDefines>Exact Epitope</EpitopeStructureDefines>
+                <EpitopeComments>This epitope was identified by sequencing HLA-B*0702-bound peptides that were unique to or up-regulated in HIV-infected cells.</EpitopeComments>
+                <Assays>
+                    <MhcLigandElution>
+                        <LocationOfData>Figure 1 and Table II</LocationOfData>
+                        <MhcLigandElutionId>22646</MhcLigandElutionId>
+                        <HostOrganism>
+                            <OrganismId>9606</OrganismId>
+                        </HostOrganism>
+                        <InVivoProcess>
+                            <InVivoProcessType>No immunization</InVivoProcessType>
+                        </InVivoProcess>
+                        <InVitroAdministration>
+                            <ProcessType>Antigen administered in vitro</ProcessType>
+                            <ProcessedAntigenReferenceName>PTB</ProcessedAntigenReferenceName>
+                            <ProcessedAntigenObject>
+                                <EpitopeRelation>Other</EpitopeRelation>
+                                <Object>
+                                    <Organism>
+                                        <SubType>Organism</SubType>
+                                        <SourceOrganismId>11696</SourceOrganismId>
+                                    </Organism>
+                                </Object>
+                            </ProcessedAntigenObject>
+                            <ProcessedAntigenEvidenceCode>Exact match to reference information</ProcessedAntigenEvidenceCode>
+                        </InVitroAdministration>
+                        <MhcLigand>
+                            <MhcLigandObject>
+                                <EpitopeRelation>Epitope</EpitopeRelation>
+                                <Object>
+                                    <FragmentOfANaturalSequenceMolecule>
+                                        <ChemicalType>Peptide from protein</ChemicalType>
+                                        <LinearSequence>SPNQARAQAAL</LinearSequence>
+                                        <StartingPosition>141</StartingPosition>
+                                        <EndingPosition>151</EndingPosition>
+                                        <SourceMolecule>
+                                            <GenBankId>P26599.1</GenBankId>
+                                        </SourceMolecule>
+                                        <SourceOrganismId>9606</SourceOrganismId>
+                                    </FragmentOfANaturalSequenceMolecule>
+                                </Object>
+                            </MhcLigandObject>
+                        </MhcLigand>
+                        <AntigenPresentingCells>
+                            <CellTissueType>Lymphoid</CellTissueType>
+                            <CellType>B cell</CellType>
+                            <CellCultureConditions>Cell Line / Clone (EBV transformed, B-LCL)</CellCultureConditions>
+                        </AntigenPresentingCells>
+                        <MhcAllele>
+                            <MhcAlleleId>251</MhcAlleleId>
+                            <MhcEvidenceCode>Antibody purification</MhcEvidenceCode>
+                        </MhcAllele>
+                        <AssayInformation>
+                            <AssayTypeId>93</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <AssayComments>The peptide was eluted from HLA B*0702/peptide complexes from HIV-infected SUP-T1 cells.</AssayComments>
+                        </AssayInformation>
+                    </MhcLigandElution>
+                </Assays>
+                <Assays>
+                    <MhcBinding>
+                        <LocationOfData>Table I</LocationOfData>
+                        <MhcBindingId>22647</MhcBindingId>
+                        <AssayInformation>
+                            <AssayTypeId>273</AssayTypeId>
+                            <QualitativeMeasurement>Positive-Intermediate</QualitativeMeasurement>
+                            <QuantitativeMeasurement>926.3</QuantitativeMeasurement>
+                        </AssayInformation>
+                        <MhcAlleleId>251</MhcAlleleId>
+                    </MhcBinding>
+                </Assays>
+            </Epitope>
+            <Epitope>
+                <EpitopeStructure>
+                    <FragmentOfANaturalSequenceMolecule>
+                        <ChemicalType>Peptide from protein</ChemicalType>
+                        <LinearSequence>NPNQNKNVAL</LinearSequence>
+                        <StartingPosition>186</StartingPosition>
+                        <EndingPosition>195</EndingPosition>
+                        <SourceMolecule>
+                            <GenBankId>Q15717.2</GenBankId>
+                        </SourceMolecule>
+                        <SourceOrganismId>9606</SourceOrganismId>
+                    </FragmentOfANaturalSequenceMolecule>
+                </EpitopeStructure>
+                <LocationOfData>Table II</LocationOfData>
+                <EpitopeId>45441</EpitopeId>
+                <ReferenceStartingPosition>186</ReferenceStartingPosition>
+                <ReferenceEndingPosition>195</ReferenceEndingPosition>
+                <EpitopeEvidenceCode>Representative selection</EpitopeEvidenceCode>
+                <EpitopeStructureDefines>Exact Epitope</EpitopeStructureDefines>
+                <EpitopeComments>This epitope was identified by sequencing HLA-B*0702-bound peptides that were unique to or up-regulated in HIV-infected cells.</EpitopeComments>
+                <Assays>
+                    <MhcLigandElution>
+                        <LocationOfData>Figure 1 and Table II</LocationOfData>
+                        <MhcLigandElutionId>22649</MhcLigandElutionId>
+                        <HostOrganism>
+                            <OrganismId>9606</OrganismId>
+                        </HostOrganism>
+                        <InVivoProcess>
+                            <InVivoProcessType>No immunization</InVivoProcessType>
+                        </InVivoProcess>
+                        <InVitroAdministration>
+                            <ProcessType>Antigen administered in vitro</ProcessType>
+                            <ProcessedAntigenReferenceName>Hu R</ProcessedAntigenReferenceName>
+                            <ProcessedAntigenObject>
+                                <EpitopeRelation>Other</EpitopeRelation>
+                                <Object>
+                                    <Organism>
+                                        <SubType>Organism</SubType>
+                                        <SourceOrganismId>11696</SourceOrganismId>
+                                    </Organism>
+                                </Object>
+                            </ProcessedAntigenObject>
+                            <ProcessedAntigenEvidenceCode>Exact match to reference information</ProcessedAntigenEvidenceCode>
+                        </InVitroAdministration>
+                        <MhcLigand>
+                            <MhcLigandObject>
+                                <EpitopeRelation>Epitope</EpitopeRelation>
+                                <Object>
+                                    <FragmentOfANaturalSequenceMolecule>
+                                        <ChemicalType>Peptide from protein</ChemicalType>
+                                        <LinearSequence>NPNQNKNVAL</LinearSequence>
+                                        <StartingPosition>186</StartingPosition>
+                                        <EndingPosition>195</EndingPosition>
+                                        <SourceMolecule>
+                                            <GenBankId>Q15717.2</GenBankId>
+                                        </SourceMolecule>
+                                        <SourceOrganismId>9606</SourceOrganismId>
+                                    </FragmentOfANaturalSequenceMolecule>
+                                </Object>
+                            </MhcLigandObject>
+                        </MhcLigand>
+                        <AntigenPresentingCells>
+                            <CellTissueType>Lymphoid</CellTissueType>
+                            <CellType>B cell</CellType>
+                            <CellCultureConditions>Cell Line / Clone (EBV transformed, B-LCL)</CellCultureConditions>
+                        </AntigenPresentingCells>
+                        <MhcAllele>
+                            <MhcAlleleId>251</MhcAlleleId>
+                            <MhcEvidenceCode>Antibody purification</MhcEvidenceCode>
+                        </MhcAllele>
+                        <AssayInformation>
+                            <AssayTypeId>93</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <AssayComments>The peptide was eluted from HLA B*0702/peptide complexes from HIV-infected SUP-T1 cells.</AssayComments>
+                        </AssayInformation>
+                    </MhcLigandElution>
+                </Assays>
+                <Assays>
+                    <MhcBinding>
+                        <LocationOfData>Table I</LocationOfData>
+                        <MhcBindingId>22650</MhcBindingId>
+                        <AssayInformation>
+                            <AssayTypeId>273</AssayTypeId>
+                            <QualitativeMeasurement>Positive-Intermediate</QualitativeMeasurement>
+                            <QuantitativeMeasurement>1581.0</QuantitativeMeasurement>
+                        </AssayInformation>
+                        <MhcAlleleId>251</MhcAlleleId>
+                    </MhcBinding>
+                </Assays>
+            </Epitope>
+            <Epitope>
+                <EpitopeStructure>
+                    <FragmentOfANaturalSequenceMolecule>
+                        <ChemicalType>Peptide from protein</ChemicalType>
+                        <LinearSequence>AARPATSTL</LinearSequence>
+                        <StartingPosition>1113</StartingPosition>
+                        <EndingPosition>1121</EndingPosition>
+                        <SourceMolecule>
+                            <GenBankId>Q04637.3</GenBankId>
+                        </SourceMolecule>
+                        <SourceOrganismId>9606</SourceOrganismId>
+                    </FragmentOfANaturalSequenceMolecule>
+                </EpitopeStructure>
+                <LocationOfData>Table II</LocationOfData>
+                <EpitopeId>414</EpitopeId>
+                <ReferenceStartingPosition>1113</ReferenceStartingPosition>
+                <ReferenceEndingPosition>1121</ReferenceEndingPosition>
+                <EpitopeEvidenceCode>Representative selection</EpitopeEvidenceCode>
+                <EpitopeStructureDefines>Exact Epitope</EpitopeStructureDefines>
+                <EpitopeComments>This epitope was identified by sequencing HLA-B*0702-bound peptides that were unique to or up-regulated in HIV-infected cells.</EpitopeComments>
+                <Assays>
+                    <MhcLigandElution>
+                        <LocationOfData>Figure 1 and Table II</LocationOfData>
+                        <MhcLigandElutionId>22665</MhcLigandElutionId>
+                        <HostOrganism>
+                            <OrganismId>9606</OrganismId>
+                        </HostOrganism>
+                        <InVivoProcess>
+                            <InVivoProcessType>No immunization</InVivoProcessType>
+                        </InVivoProcess>
+                        <InVitroAdministration>
+                            <ProcessType>Antigen administered in vitro</ProcessType>
+                            <ProcessedAntigenReferenceName>eIF4G</ProcessedAntigenReferenceName>
+                            <ProcessedAntigenObject>
+                                <EpitopeRelation>Other</EpitopeRelation>
+                                <Object>
+                                    <Organism>
+                                        <SubType>Organism</SubType>
+                                        <SourceOrganismId>11696</SourceOrganismId>
+                                    </Organism>
+                                </Object>
+                            </ProcessedAntigenObject>
+                            <ProcessedAntigenEvidenceCode>Exact match to reference information</ProcessedAntigenEvidenceCode>
+                        </InVitroAdministration>
+                        <MhcLigand>
+                            <MhcLigandObject>
+                                <EpitopeRelation>Epitope</EpitopeRelation>
+                                <Object>
+                                    <FragmentOfANaturalSequenceMolecule>
+                                        <ChemicalType>Peptide from protein</ChemicalType>
+                                        <LinearSequence>AARPATSTL</LinearSequence>
+                                        <StartingPosition>1113</StartingPosition>
+                                        <EndingPosition>1121</EndingPosition>
+                                        <SourceMolecule>
+                                            <GenBankId>Q04637.3</GenBankId>
+                                        </SourceMolecule>
+                                        <SourceOrganismId>9606</SourceOrganismId>
+                                    </FragmentOfANaturalSequenceMolecule>
+                                </Object>
+                            </MhcLigandObject>
+                        </MhcLigand>
+                        <AntigenPresentingCells>
+                            <CellTissueType>Lymphoid</CellTissueType>
+                            <CellType>B cell</CellType>
+                            <CellCultureConditions>Cell Line / Clone (EBV transformed, B-LCL)</CellCultureConditions>
+                        </AntigenPresentingCells>
+                        <MhcAllele>
+                            <MhcAlleleId>251</MhcAlleleId>
+                            <MhcEvidenceCode>Antibody purification</MhcEvidenceCode>
+                        </MhcAllele>
+                        <AssayInformation>
+                            <AssayTypeId>93</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <AssayComments>The peptide was eluted from HLA B*0702/peptide complexes from HIV-infected SUP-T1 cells.</AssayComments>
+                        </AssayInformation>
+                    </MhcLigandElution>
+                </Assays>
+                <Assays>
+                    <MhcBinding>
+                        <LocationOfData>Table I</LocationOfData>
+                        <MhcBindingId>22666</MhcBindingId>
+                        <AssayInformation>
+                            <AssayTypeId>273</AssayTypeId>
+                            <QualitativeMeasurement>Positive-High</QualitativeMeasurement>
+                            <QuantitativeMeasurement>209.8</QuantitativeMeasurement>
+                        </AssayInformation>
+                        <MhcAlleleId>251</MhcAlleleId>
+                    </MhcBinding>
+                </Assays>
+            </Epitope>
+            <Epitope>
+                <EpitopeStructure>
+                    <FragmentOfANaturalSequenceMolecule>
+                        <ChemicalType>Peptide from protein</ChemicalType>
+                        <LinearSequence>QPRYPVNSV</LinearSequence>
+                        <StartingPosition>187</StartingPosition>
+                        <EndingPosition>195</EndingPosition>
+                        <SourceMolecule>
+                            <GenBankId>P17987.1</GenBankId>
+                        </SourceMolecule>
+                        <SourceOrganismId>9606</SourceOrganismId>
+                    </FragmentOfANaturalSequenceMolecule>
+                </EpitopeStructure>
+                <LocationOfData>Table II</LocationOfData>
+                <EpitopeId>51962</EpitopeId>
+                <ReferenceStartingPosition>187</ReferenceStartingPosition>
+                <ReferenceEndingPosition>195</ReferenceEndingPosition>
+                <EpitopeEvidenceCode>Representative selection</EpitopeEvidenceCode>
+                <EpitopeStructureDefines>Exact Epitope</EpitopeStructureDefines>
+                <EpitopeComments>This epitope was identified by sequencing HLA-B*0702-bound peptides that were unique to or up-regulated in HIV-infected cells.</EpitopeComments>
+                <Assays>
+                    <MhcLigandElution>
+                        <LocationOfData>Figure 1 and Table II</LocationOfData>
+                        <MhcLigandElutionId>22669</MhcLigandElutionId>
+                        <HostOrganism>
+                            <OrganismId>9606</OrganismId>
+                        </HostOrganism>
+                        <InVivoProcess>
+                            <InVivoProcessType>No immunization</InVivoProcessType>
+                        </InVivoProcess>
+                        <InVitroAdministration>
+                            <ProcessType>Antigen administered in vitro</ProcessType>
+                            <ProcessedAntigenReferenceName>TCP1</ProcessedAntigenReferenceName>
+                            <ProcessedAntigenObject>
+                                <EpitopeRelation>Other</EpitopeRelation>
+                                <Object>
+                                    <Organism>
+                                        <SubType>Organism</SubType>
+                                        <SourceOrganismId>11696</SourceOrganismId>
+                                    </Organism>
+                                </Object>
+                            </ProcessedAntigenObject>
+                            <ProcessedAntigenEvidenceCode>Exact match to reference information</ProcessedAntigenEvidenceCode>
+                        </InVitroAdministration>
+                        <MhcLigand>
+                            <MhcLigandObject>
+                                <EpitopeRelation>Epitope</EpitopeRelation>
+                                <Object>
+                                    <FragmentOfANaturalSequenceMolecule>
+                                        <ChemicalType>Peptide from protein</ChemicalType>
+                                        <LinearSequence>QPRYPVNSV</LinearSequence>
+                                        <StartingPosition>187</StartingPosition>
+                                        <EndingPosition>195</EndingPosition>
+                                        <SourceMolecule>
+                                            <GenBankId>P17987.1</GenBankId>
+                                        </SourceMolecule>
+                                        <SourceOrganismId>9606</SourceOrganismId>
+                                    </FragmentOfANaturalSequenceMolecule>
+                                </Object>
+                            </MhcLigandObject>
+                        </MhcLigand>
+                        <AntigenPresentingCells>
+                            <CellTissueType>Lymphoid</CellTissueType>
+                            <CellType>B cell</CellType>
+                            <CellCultureConditions>Cell Line / Clone (EBV transformed, B-LCL)</CellCultureConditions>
+                        </AntigenPresentingCells>
+                        <MhcAllele>
+                            <MhcAlleleId>251</MhcAlleleId>
+                            <MhcEvidenceCode>Antibody purification</MhcEvidenceCode>
+                        </MhcAllele>
+                        <AssayInformation>
+                            <AssayTypeId>93</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <AssayComments>The peptide was eluted from HLA B*0702/peptide complexes from HIV-infected SUP-T1 cells.</AssayComments>
+                        </AssayInformation>
+                    </MhcLigandElution>
+                </Assays>
+                <Assays>
+                    <MhcBinding>
+                        <LocationOfData>Table I</LocationOfData>
+                        <MhcBindingId>22670</MhcBindingId>
+                        <AssayInformation>
+                            <AssayTypeId>273</AssayTypeId>
+                            <QualitativeMeasurement>Positive-Intermediate</QualitativeMeasurement>
+                            <QuantitativeMeasurement>945.5</QuantitativeMeasurement>
+                        </AssayInformation>
+                        <MhcAlleleId>251</MhcAlleleId>
+                    </MhcBinding>
+                </Assays>
+            </Epitope>
+            <Epitope>
+                <EpitopeStructure>
+                    <FragmentOfANaturalSequenceMolecule>
+                        <ChemicalType>Peptide from protein</ChemicalType>
+                        <LinearSequence>APAYSRAL</LinearSequence>
+                        <StartingPosition>70</StartingPosition>
+                        <EndingPosition>77</EndingPosition>
+                        <SourceMolecule>
+                            <GenBankId>P04792.2</GenBankId>
+                        </SourceMolecule>
+                        <SourceOrganismId>9606</SourceOrganismId>
+                    </FragmentOfANaturalSequenceMolecule>
+                </EpitopeStructure>
+                <LocationOfData>Table II</LocationOfData>
+                <EpitopeId>3500</EpitopeId>
+                <ReferenceStartingPosition>70</ReferenceStartingPosition>
+                <ReferenceEndingPosition>77</ReferenceEndingPosition>
+                <EpitopeEvidenceCode>Representative selection</EpitopeEvidenceCode>
+                <EpitopeStructureDefines>Exact Epitope</EpitopeStructureDefines>
+                <EpitopeComments>This epitope was identified by sequencing HLA-B*0702-bound peptides that were unique to or up-regulated in HIV-infected cells.</EpitopeComments>
+                <Assays>
+                    <MhcLigandElution>
+                        <LocationOfData>Figure 1 and Table II</LocationOfData>
+                        <MhcLigandElutionId>22675</MhcLigandElutionId>
+                        <HostOrganism>
+                            <OrganismId>9606</OrganismId>
+                        </HostOrganism>
+                        <InVivoProcess>
+                            <InVivoProcessType>No immunization</InVivoProcessType>
+                        </InVivoProcess>
+                        <InVitroAdministration>
+                            <ProcessType>Antigen administered in vitro</ProcessType>
+                            <ProcessedAntigenReferenceName>HSP27</ProcessedAntigenReferenceName>
+                            <ProcessedAntigenObject>
+                                <EpitopeRelation>Other</EpitopeRelation>
+                                <Object>
+                                    <Organism>
+                                        <SubType>Organism</SubType>
+                                        <SourceOrganismId>11696</SourceOrganismId>
+                                    </Organism>
+                                </Object>
+                            </ProcessedAntigenObject>
+                            <ProcessedAntigenEvidenceCode>Exact match to reference information</ProcessedAntigenEvidenceCode>
+                        </InVitroAdministration>
+                        <MhcLigand>
+                            <MhcLigandObject>
+                                <EpitopeRelation>Epitope</EpitopeRelation>
+                                <Object>
+                                    <FragmentOfANaturalSequenceMolecule>
+                                        <ChemicalType>Peptide from protein</ChemicalType>
+                                        <LinearSequence>APAYSRAL</LinearSequence>
+                                        <StartingPosition>70</StartingPosition>
+                                        <EndingPosition>77</EndingPosition>
+                                        <SourceMolecule>
+                                            <GenBankId>P04792.2</GenBankId>
+                                        </SourceMolecule>
+                                        <SourceOrganismId>9606</SourceOrganismId>
+                                    </FragmentOfANaturalSequenceMolecule>
+                                </Object>
+                            </MhcLigandObject>
+                        </MhcLigand>
+                        <AntigenPresentingCells>
+                            <CellTissueType>Lymphoid</CellTissueType>
+                            <CellType>B cell</CellType>
+                            <CellCultureConditions>Cell Line / Clone (EBV transformed, B-LCL)</CellCultureConditions>
+                        </AntigenPresentingCells>
+                        <MhcAllele>
+                            <MhcAlleleId>251</MhcAlleleId>
+                            <MhcEvidenceCode>Antibody purification</MhcEvidenceCode>
+                        </MhcAllele>
+                        <AssayInformation>
+                            <AssayTypeId>93</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <AssayComments>The peptide was eluted from HLA B*0702/peptide complexes from HIV-infected SUP-T1 cells.</AssayComments>
+                        </AssayInformation>
+                    </MhcLigandElution>
+                </Assays>
+                <Assays>
+                    <MhcBinding>
+                        <LocationOfData>Table I</LocationOfData>
+                        <MhcBindingId>22676</MhcBindingId>
+                        <AssayInformation>
+                            <AssayTypeId>273</AssayTypeId>
+                            <QualitativeMeasurement>Positive-High</QualitativeMeasurement>
+                            <QuantitativeMeasurement>214.7</QuantitativeMeasurement>
+                        </AssayInformation>
+                        <MhcAlleleId>251</MhcAlleleId>
+                    </MhcBinding>
+                </Assays>
+            </Epitope>
+            <Epitope>
+                <EpitopeStructure>
+                    <FragmentOfANaturalSequenceMolecule>
+                        <ChemicalType>Peptide from protein</ChemicalType>
+                        <LinearSequence>STTAICATGL</LinearSequence>
+                        <StartingPosition>152</StartingPosition>
+                        <EndingPosition>161</EndingPosition>
+                        <SourceMolecule>
+                            <GenBankId>Q9Y6I4.1</GenBankId>
+                        </SourceMolecule>
+                        <SourceOrganismId>9606</SourceOrganismId>
+                    </FragmentOfANaturalSequenceMolecule>
+                </EpitopeStructure>
+                <LocationOfData>Table II</LocationOfData>
+                <EpitopeId>61926</EpitopeId>
+                <ReferenceStartingPosition>152</ReferenceStartingPosition>
+                <ReferenceEndingPosition>161</ReferenceEndingPosition>
+                <EpitopeEvidenceCode>Representative selection</EpitopeEvidenceCode>
+                <EpitopeStructureDefines>Exact Epitope</EpitopeStructureDefines>
+                <EpitopeComments>This epitope was identified by sequencing HLA-B*0702-bound peptides that were unique to or up-regulated in HIV-infected cells.</EpitopeComments>
+                <Assays>
+                    <MhcLigandElution>
+                        <LocationOfData>Figure 1 and Table II</LocationOfData>
+                        <MhcLigandElutionId>22677</MhcLigandElutionId>
+                        <HostOrganism>
+                            <OrganismId>9606</OrganismId>
+                        </HostOrganism>
+                        <InVivoProcess>
+                            <InVivoProcessType>No immunization</InVivoProcessType>
+                        </InVivoProcess>
+                        <InVitroAdministration>
+                            <ProcessType>Antigen administered in vitro</ProcessType>
+                            <ProcessedAntigenReferenceName>USP3</ProcessedAntigenReferenceName>
+                            <ProcessedAntigenObject>
+                                <EpitopeRelation>Other</EpitopeRelation>
+                                <Object>
+                                    <Organism>
+                                        <SubType>Organism</SubType>
+                                        <SourceOrganismId>11696</SourceOrganismId>
+                                    </Organism>
+                                </Object>
+                            </ProcessedAntigenObject>
+                            <ProcessedAntigenEvidenceCode>Exact match to reference information</ProcessedAntigenEvidenceCode>
+                        </InVitroAdministration>
+                        <MhcLigand>
+                            <MhcLigandObject>
+                                <EpitopeRelation>Epitope</EpitopeRelation>
+                                <Object>
+                                    <FragmentOfANaturalSequenceMolecule>
+                                        <ChemicalType>Peptide from protein</ChemicalType>
+                                        <LinearSequence>STTAICATGL</LinearSequence>
+                                        <StartingPosition>152</StartingPosition>
+                                        <EndingPosition>161</EndingPosition>
+                                        <SourceMolecule>
+                                            <GenBankId>Q9Y6I4.1</GenBankId>
+                                        </SourceMolecule>
+                                        <SourceOrganismId>9606</SourceOrganismId>
+                                    </FragmentOfANaturalSequenceMolecule>
+                                </Object>
+                            </MhcLigandObject>
+                        </MhcLigand>
+                        <AntigenPresentingCells>
+                            <CellTissueType>Lymphoid</CellTissueType>
+                            <CellType>B cell</CellType>
+                            <CellCultureConditions>Cell Line / Clone (EBV transformed, B-LCL)</CellCultureConditions>
+                        </AntigenPresentingCells>
+                        <MhcAllele>
+                            <MhcAlleleId>251</MhcAlleleId>
+                            <MhcEvidenceCode>Antibody purification</MhcEvidenceCode>
+                        </MhcAllele>
+                        <AssayInformation>
+                            <AssayTypeId>93</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <AssayComments>The peptide was eluted from HLA B*0702/peptide complexes from HIV-infected SUP-T1 cells.</AssayComments>
+                        </AssayInformation>
+                    </MhcLigandElution>
+                </Assays>
+                <Assays>
+                    <MhcBinding>
+                        <LocationOfData>Table I</LocationOfData>
+                        <MhcBindingId>22679</MhcBindingId>
+                        <AssayInformation>
+                            <AssayTypeId>273</AssayTypeId>
+                            <QualitativeMeasurement>Positive-Low</QualitativeMeasurement>
+                            <QuantitativeMeasurement>248100.0</QuantitativeMeasurement>
+                        </AssayInformation>
+                        <MhcAlleleId>251</MhcAlleleId>
+                    </MhcBinding>
+                </Assays>
+            </Epitope>
+            <Epitope>
+                <EpitopeStructure>
+                    <FragmentOfANaturalSequenceMolecule>
+                        <ChemicalType>Peptide from protein</ChemicalType>
+                        <LinearSequence>GPRTAALGLL</LinearSequence>
+                        <StartingPosition>4</StartingPosition>
+                        <EndingPosition>13</EndingPosition>
+                        <SourceMolecule>
+                            <GenBankId>Q14257.1</GenBankId>
+                        </SourceMolecule>
+                        <SourceOrganismId>9606</SourceOrganismId>
+                    </FragmentOfANaturalSequenceMolecule>
+                </EpitopeStructure>
+                <LocationOfData>Table II</LocationOfData>
+                <EpitopeId>21772</EpitopeId>
+                <ReferenceStartingPosition>4</ReferenceStartingPosition>
+                <ReferenceEndingPosition>13</ReferenceEndingPosition>
+                <EpitopeEvidenceCode>Representative selection</EpitopeEvidenceCode>
+                <EpitopeStructureDefines>Exact Epitope</EpitopeStructureDefines>
+                <EpitopeComments>This epitope was identified by sequencing HLA-B*0702-bound peptides that were unique to or up-regulated in HIV-infected cells.</EpitopeComments>
+                <Assays>
+                    <MhcLigandElution>
+                        <LocationOfData>Figure 1 and Table II</LocationOfData>
+                        <MhcLigandElutionId>22691</MhcLigandElutionId>
+                        <HostOrganism>
+                            <OrganismId>9606</OrganismId>
+                        </HostOrganism>
+                        <InVivoProcess>
+                            <InVivoProcessType>No immunization</InVivoProcessType>
+                        </InVivoProcess>
+                        <InVitroAdministration>
+                            <ProcessType>Antigen administered in vitro</ProcessType>
+                            <ProcessedAntigenReferenceName>E6BP</ProcessedAntigenReferenceName>
+                            <ProcessedAntigenObject>
+                                <EpitopeRelation>Other</EpitopeRelation>
+                                <Object>
+                                    <Organism>
+                                        <SubType>Organism</SubType>
+                                        <SourceOrganismId>11696</SourceOrganismId>
+                                    </Organism>
+                                </Object>
+                            </ProcessedAntigenObject>
+                            <ProcessedAntigenEvidenceCode>Exact match to reference information</ProcessedAntigenEvidenceCode>
+                        </InVitroAdministration>
+                        <MhcLigand>
+                            <MhcLigandObject>
+                                <EpitopeRelation>Epitope</EpitopeRelation>
+                                <Object>
+                                    <FragmentOfANaturalSequenceMolecule>
+                                        <ChemicalType>Peptide from protein</ChemicalType>
+                                        <LinearSequence>GPRTAALGLL</LinearSequence>
+                                        <StartingPosition>4</StartingPosition>
+                                        <EndingPosition>13</EndingPosition>
+                                        <SourceMolecule>
+                                            <GenBankId>Q14257.1</GenBankId>
+                                        </SourceMolecule>
+                                        <SourceOrganismId>9606</SourceOrganismId>
+                                    </FragmentOfANaturalSequenceMolecule>
+                                </Object>
+                            </MhcLigandObject>
+                        </MhcLigand>
+                        <AntigenPresentingCells>
+                            <CellTissueType>Lymphoid</CellTissueType>
+                            <CellType>B cell</CellType>
+                            <CellCultureConditions>Cell Line / Clone (EBV transformed, B-LCL)</CellCultureConditions>
+                        </AntigenPresentingCells>
+                        <MhcAllele>
+                            <MhcAlleleId>251</MhcAlleleId>
+                            <MhcEvidenceCode>Antibody purification</MhcEvidenceCode>
+                        </MhcAllele>
+                        <AssayInformation>
+                            <AssayTypeId>93</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <AssayComments>The peptide was eluted from HLA B*0702/peptide complexes from HIV-infected SUP-T1 cells.</AssayComments>
+                        </AssayInformation>
+                    </MhcLigandElution>
+                </Assays>
+                <Assays>
+                    <MhcBinding>
+                        <LocationOfData>Table I</LocationOfData>
+                        <MhcBindingId>22692</MhcBindingId>
+                        <AssayInformation>
+                            <AssayTypeId>273</AssayTypeId>
+                            <QualitativeMeasurement>Positive-High</QualitativeMeasurement>
+                            <QuantitativeMeasurement>257.9</QuantitativeMeasurement>
+                        </AssayInformation>
+                        <MhcAlleleId>251</MhcAlleleId>
+                    </MhcBinding>
+                </Assays>
+            </Epitope>
+            <Epitope>
+                <EpitopeStructure>
+                    <FragmentOfANaturalSequenceMolecule>
+                        <ChemicalType>Peptide from protein</ChemicalType>
+                        <LinearSequence>IPCLLISFL</LinearSequence>
+                        <StartingPosition>248</StartingPosition>
+                        <EndingPosition>256</EndingPosition>
+                        <SourceMolecule>
+                            <GenBankId>P32297.3</GenBankId>
+                        </SourceMolecule>
+                        <SourceOrganismId>9606</SourceOrganismId>
+                    </FragmentOfANaturalSequenceMolecule>
+                </EpitopeStructure>
+                <LocationOfData>Table II</LocationOfData>
+                <EpitopeId>27801</EpitopeId>
+                <ReferenceStartingPosition>248</ReferenceStartingPosition>
+                <ReferenceEndingPosition>256</ReferenceEndingPosition>
+                <EpitopeEvidenceCode>Representative selection</EpitopeEvidenceCode>
+                <EpitopeStructureDefines>Exact Epitope</EpitopeStructureDefines>
+                <EpitopeComments>This epitope was identified by sequencing HLA-B*0702-bound peptides that were unique to or up-regulated in HIV-infected cells.</EpitopeComments>
+                <Assays>
+                    <MhcLigandElution>
+                        <LocationOfData>Figure 1 and Table II</LocationOfData>
+                        <MhcLigandElutionId>22698</MhcLigandElutionId>
+                        <HostOrganism>
+                            <OrganismId>9606</OrganismId>
+                        </HostOrganism>
+                        <InVivoProcess>
+                            <InVivoProcessType>No immunization</InVivoProcessType>
+                        </InVivoProcess>
+                        <InVitroAdministration>
+                            <ProcessType>Antigen administered in vitro</ProcessType>
+                            <ProcessedAntigenReferenceName>CholR</ProcessedAntigenReferenceName>
+                            <ProcessedAntigenObject>
+                                <EpitopeRelation>Other</EpitopeRelation>
+                                <Object>
+                                    <Organism>
+                                        <SubType>Organism</SubType>
+                                        <SourceOrganismId>11696</SourceOrganismId>
+                                    </Organism>
+                                </Object>
+                            </ProcessedAntigenObject>
+                            <ProcessedAntigenEvidenceCode>Exact match to reference information</ProcessedAntigenEvidenceCode>
+                        </InVitroAdministration>
+                        <MhcLigand>
+                            <MhcLigandObject>
+                                <EpitopeRelation>Epitope</EpitopeRelation>
+                                <Object>
+                                    <FragmentOfANaturalSequenceMolecule>
+                                        <ChemicalType>Peptide from protein</ChemicalType>
+                                        <LinearSequence>IPCLLISFL</LinearSequence>
+                                        <StartingPosition>248</StartingPosition>
+                                        <EndingPosition>256</EndingPosition>
+                                        <SourceMolecule>
+                                            <GenBankId>P32297.3</GenBankId>
+                                        </SourceMolecule>
+                                        <SourceOrganismId>9606</SourceOrganismId>
+                                    </FragmentOfANaturalSequenceMolecule>
+                                </Object>
+                            </MhcLigandObject>
+                        </MhcLigand>
+                        <AntigenPresentingCells>
+                            <CellTissueType>Lymphoid</CellTissueType>
+                            <CellType>B cell</CellType>
+                            <CellCultureConditions>Cell Line / Clone (EBV transformed, B-LCL)</CellCultureConditions>
+                        </AntigenPresentingCells>
+                        <MhcAllele>
+                            <MhcAlleleId>251</MhcAlleleId>
+                            <MhcEvidenceCode>Antibody purification</MhcEvidenceCode>
+                        </MhcAllele>
+                        <AssayInformation>
+                            <AssayTypeId>93</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <AssayComments>The peptide was eluted from HLA B*0702/peptide complexes from HIV-infected SUP-T1 cells.</AssayComments>
+                        </AssayInformation>
+                    </MhcLigandElution>
+                </Assays>
+                <Assays>
+                    <MhcBinding>
+                        <LocationOfData>Table I</LocationOfData>
+                        <MhcBindingId>22699</MhcBindingId>
+                        <AssayInformation>
+                            <AssayTypeId>273</AssayTypeId>
+                            <QualitativeMeasurement>Positive-Low</QualitativeMeasurement>
+                            <QuantitativeMeasurement>5980.0</QuantitativeMeasurement>
+                        </AssayInformation>
+                        <MhcAlleleId>251</MhcAlleleId>
+                    </MhcBinding>
+                </Assays>
+            </Epitope>
+            <Epitope>
+                <EpitopeStructure>
+                    <FragmentOfANaturalSequenceMolecule>
+                        <ChemicalType>Peptide from protein</ChemicalType>
+                        <LinearSequence>RPYSNVSNL</LinearSequence>
+                        <StartingPosition>1581</StartingPosition>
+                        <EndingPosition>1589</EndingPosition>
+                        <SourceMolecule>
+                            <GenBankId>O95248.3</GenBankId>
+                        </SourceMolecule>
+                        <SourceOrganismId>9606</SourceOrganismId>
+                    </FragmentOfANaturalSequenceMolecule>
+                </EpitopeStructure>
+                <LocationOfData>Table II</LocationOfData>
+                <EpitopeId>55385</EpitopeId>
+                <ReferenceStartingPosition>1581</ReferenceStartingPosition>
+                <ReferenceEndingPosition>1589</ReferenceEndingPosition>
+                <EpitopeEvidenceCode>Representative selection</EpitopeEvidenceCode>
+                <EpitopeStructureDefines>Exact Epitope</EpitopeStructureDefines>
+                <EpitopeComments>This epitope was identified by sequencing HLA-B*0702-bound peptides that were unique to or up-regulated in HIV-infected cells.</EpitopeComments>
+                <Assays>
+                    <MhcLigandElution>
+                        <LocationOfData>Figure 1 and Table II</LocationOfData>
+                        <MhcLigandElutionId>22715</MhcLigandElutionId>
+                        <HostOrganism>
+                            <OrganismId>9606</OrganismId>
+                        </HostOrganism>
+                        <InVivoProcess>
+                            <InVivoProcessType>No immunization</InVivoProcessType>
+                        </InVivoProcess>
+                        <InVitroAdministration>
+                            <ProcessType>Antigen administered in vitro</ProcessType>
+                            <ProcessedAntigenReferenceName>SBF-1</ProcessedAntigenReferenceName>
+                            <ProcessedAntigenObject>
+                                <EpitopeRelation>Other</EpitopeRelation>
+                                <Object>
+                                    <Organism>
+                                        <SubType>Organism</SubType>
+                                        <SourceOrganismId>11696</SourceOrganismId>
+                                    </Organism>
+                                </Object>
+                            </ProcessedAntigenObject>
+                            <ProcessedAntigenEvidenceCode>Exact match to reference information</ProcessedAntigenEvidenceCode>
+                        </InVitroAdministration>
+                        <MhcLigand>
+                            <MhcLigandObject>
+                                <EpitopeRelation>Epitope</EpitopeRelation>
+                                <Object>
+                                    <FragmentOfANaturalSequenceMolecule>
+                                        <ChemicalType>Peptide from protein</ChemicalType>
+                                        <LinearSequence>RPYSNVSNL</LinearSequence>
+                                        <StartingPosition>1581</StartingPosition>
+                                        <EndingPosition>1589</EndingPosition>
+                                        <SourceMolecule>
+                                            <GenBankId>O95248.3</GenBankId>
+                                        </SourceMolecule>
+                                        <SourceOrganismId>9606</SourceOrganismId>
+                                    </FragmentOfANaturalSequenceMolecule>
+                                </Object>
+                            </MhcLigandObject>
+                        </MhcLigand>
+                        <AntigenPresentingCells>
+                            <CellTissueType>Lymphoid</CellTissueType>
+                            <CellType>B cell</CellType>
+                            <CellCultureConditions>Cell Line / Clone (EBV transformed, B-LCL)</CellCultureConditions>
+                        </AntigenPresentingCells>
+                        <MhcAllele>
+                            <MhcAlleleId>251</MhcAlleleId>
+                            <MhcEvidenceCode>Antibody purification</MhcEvidenceCode>
+                        </MhcAllele>
+                        <AssayInformation>
+                            <AssayTypeId>93</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <AssayComments>The peptide was eluted from HLA B*0702/peptide complexes from HIV-infected SUP-T1 cells.</AssayComments>
+                        </AssayInformation>
+                    </MhcLigandElution>
+                </Assays>
+                <Assays>
+                    <MhcBinding>
+                        <LocationOfData>Table I</LocationOfData>
+                        <MhcBindingId>22716</MhcBindingId>
+                        <AssayInformation>
+                            <AssayTypeId>273</AssayTypeId>
+                            <QualitativeMeasurement>Positive-High</QualitativeMeasurement>
+                            <QuantitativeMeasurement>227.5</QuantitativeMeasurement>
+                        </AssayInformation>
+                        <MhcAlleleId>251</MhcAlleleId>
+                    </MhcBinding>
+                </Assays>
+            </Epitope>
+            <Epitope>
+                <EpitopeStructure>
+                    <FragmentOfANaturalSequenceMolecule>
+                        <ChemicalType>Peptide from protein</ChemicalType>
+                        <LinearSequence>LPQANRDTL</LinearSequence>
+                        <StartingPosition>465</StartingPosition>
+                        <EndingPosition>473</EndingPosition>
+                        <SourceMolecule>
+                            <GenBankId>NP_037409.2</GenBankId>
+                        </SourceMolecule>
+                        <SourceOrganismId>9606</SourceOrganismId>
+                    </FragmentOfANaturalSequenceMolecule>
+                </EpitopeStructure>
+                <LocationOfData>Table II</LocationOfData>
+                <EpitopeId>38636</EpitopeId>
+                <ReferenceStartingPosition>465</ReferenceStartingPosition>
+                <ReferenceEndingPosition>473</ReferenceEndingPosition>
+                <EpitopeEvidenceCode>Representative selection</EpitopeEvidenceCode>
+                <EpitopeStructureDefines>Exact Epitope</EpitopeStructureDefines>
+                <EpitopeComments>This epitope was identified by sequencing HLA-B*0702-bound peptides that were unique to or up-regulated in HIV-infected cells.</EpitopeComments>
+                <Assays>
+                    <MhcLigandElution>
+                        <LocationOfData>Figure 1 and Table II</LocationOfData>
+                        <MhcLigandElutionId>22721</MhcLigandElutionId>
+                        <HostOrganism>
+                            <OrganismId>9606</OrganismId>
+                        </HostOrganism>
+                        <InVivoProcess>
+                            <InVivoProcessType>No immunization</InVivoProcessType>
+                        </InVivoProcess>
+                        <InVitroAdministration>
+                            <ProcessType>Antigen administered in vitro</ProcessType>
+                            <ProcessedAntigenReferenceName>MRG</ProcessedAntigenReferenceName>
+                            <ProcessedAntigenObject>
+                                <EpitopeRelation>Other</EpitopeRelation>
+                                <Object>
+                                    <Organism>
+                                        <SubType>Organism</SubType>
+                                        <SourceOrganismId>11696</SourceOrganismId>
+                                    </Organism>
+                                </Object>
+                            </ProcessedAntigenObject>
+                            <ProcessedAntigenEvidenceCode>Exact match to reference information</ProcessedAntigenEvidenceCode>
+                        </InVitroAdministration>
+                        <MhcLigand>
+                            <MhcLigandObject>
+                                <EpitopeRelation>Epitope</EpitopeRelation>
+                                <Object>
+                                    <FragmentOfANaturalSequenceMolecule>
+                                        <ChemicalType>Peptide from protein</ChemicalType>
+                                        <LinearSequence>LPQANRDTL</LinearSequence>
+                                        <StartingPosition>465</StartingPosition>
+                                        <EndingPosition>473</EndingPosition>
+                                        <SourceMolecule>
+                                            <GenBankId>NP_037409.2</GenBankId>
+                                        </SourceMolecule>
+                                        <SourceOrganismId>9606</SourceOrganismId>
+                                    </FragmentOfANaturalSequenceMolecule>
+                                </Object>
+                            </MhcLigandObject>
+                        </MhcLigand>
+                        <AntigenPresentingCells>
+                            <CellTissueType>Lymphoid</CellTissueType>
+                            <CellType>B cell</CellType>
+                            <CellCultureConditions>Cell Line / Clone (EBV transformed, B-LCL)</CellCultureConditions>
+                        </AntigenPresentingCells>
+                        <MhcAllele>
+                            <MhcAlleleId>251</MhcAlleleId>
+                            <MhcEvidenceCode>Antibody purification</MhcEvidenceCode>
+                        </MhcAllele>
+                        <AssayInformation>
+                            <AssayTypeId>93</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <AssayComments>The peptide was eluted from HLA B*0702/peptide complexes from HIV-infected SUP-T1 cells.</AssayComments>
+                        </AssayInformation>
+                    </MhcLigandElution>
+                </Assays>
+                <Assays>
+                    <MhcBinding>
+                        <LocationOfData>Table I</LocationOfData>
+                        <MhcBindingId>22722</MhcBindingId>
+                        <AssayInformation>
+                            <AssayTypeId>273</AssayTypeId>
+                            <QualitativeMeasurement>Positive-Intermediate</QualitativeMeasurement>
+                            <QuantitativeMeasurement>598.7</QuantitativeMeasurement>
+                        </AssayInformation>
+                        <MhcAlleleId>251</MhcAlleleId>
+                    </MhcBinding>
+                </Assays>
+            </Epitope>
+            <Epitope>
+                <EpitopeStructure>
+                    <FragmentOfANaturalSequenceMolecule>
+                        <ChemicalType>Peptide from protein</ChemicalType>
+                        <LinearSequence>LPTSHPKIV</LinearSequence>
+                        <StartingPosition>411</StartingPosition>
+                        <EndingPosition>419</EndingPosition>
+                        <SourceMolecule>
+                            <GenBankId>O75398.1</GenBankId>
+                        </SourceMolecule>
+                        <SourceOrganismId>9606</SourceOrganismId>
+                    </FragmentOfANaturalSequenceMolecule>
+                </EpitopeStructure>
+                <LocationOfData>Table II</LocationOfData>
+                <EpitopeId>38738</EpitopeId>
+                <ReferenceStartingPosition>411</ReferenceStartingPosition>
+                <ReferenceEndingPosition>419</ReferenceEndingPosition>
+                <EpitopeEvidenceCode>Representative selection</EpitopeEvidenceCode>
+                <EpitopeStructureDefines>Exact Epitope</EpitopeStructureDefines>
+                <EpitopeComments>This epitope was identified by sequencing HLA-B*0702-bound peptides that were unique to or up-regulated in HIV-infected cells.</EpitopeComments>
+                <Assays>
+                    <MhcLigandElution>
+                        <LocationOfData>Figure 1 and Table II</LocationOfData>
+                        <MhcLigandElutionId>22730</MhcLigandElutionId>
+                        <HostOrganism>
+                            <OrganismId>9606</OrganismId>
+                        </HostOrganism>
+                        <InVivoProcess>
+                            <InVivoProcessType>No immunization</InVivoProcessType>
+                        </InVivoProcess>
+                        <InVitroAdministration>
+                            <ProcessType>Antigen administered in vitro</ProcessType>
+                            <ProcessedAntigenReferenceName>Sup</ProcessedAntigenReferenceName>
+                            <ProcessedAntigenObject>
+                                <EpitopeRelation>Other</EpitopeRelation>
+                                <Object>
+                                    <Organism>
+                                        <SubType>Organism</SubType>
+                                        <SourceOrganismId>11696</SourceOrganismId>
+                                    </Organism>
+                                </Object>
+                            </ProcessedAntigenObject>
+                            <ProcessedAntigenEvidenceCode>Exact match to reference information</ProcessedAntigenEvidenceCode>
+                        </InVitroAdministration>
+                        <MhcLigand>
+                            <MhcLigandObject>
+                                <EpitopeRelation>Epitope</EpitopeRelation>
+                                <Object>
+                                    <FragmentOfANaturalSequenceMolecule>
+                                        <ChemicalType>Peptide from protein</ChemicalType>
+                                        <LinearSequence>LPTSHPKIV</LinearSequence>
+                                        <StartingPosition>411</StartingPosition>
+                                        <EndingPosition>419</EndingPosition>
+                                        <SourceMolecule>
+                                            <GenBankId>O75398.1</GenBankId>
+                                        </SourceMolecule>
+                                        <SourceOrganismId>9606</SourceOrganismId>
+                                    </FragmentOfANaturalSequenceMolecule>
+                                </Object>
+                            </MhcLigandObject>
+                        </MhcLigand>
+                        <AntigenPresentingCells>
+                            <CellTissueType>Lymphoid</CellTissueType>
+                            <CellType>B cell</CellType>
+                            <CellCultureConditions>Cell Line / Clone (EBV transformed, B-LCL)</CellCultureConditions>
+                        </AntigenPresentingCells>
+                        <MhcAllele>
+                            <MhcAlleleId>251</MhcAlleleId>
+                            <MhcEvidenceCode>Antibody purification</MhcEvidenceCode>
+                        </MhcAllele>
+                        <AssayInformation>
+                            <AssayTypeId>93</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <AssayComments>The peptide was eluted from HLA B*0702/peptide complexes from HIV-infected SUP-T1 cells.</AssayComments>
+                        </AssayInformation>
+                    </MhcLigandElution>
+                </Assays>
+                <Assays>
+                    <MhcBinding>
+                        <LocationOfData>Table I</LocationOfData>
+                        <MhcBindingId>22731</MhcBindingId>
+                        <AssayInformation>
+                            <AssayTypeId>273</AssayTypeId>
+                            <QualitativeMeasurement>Positive-Intermediate</QualitativeMeasurement>
+                            <QuantitativeMeasurement>3563.0</QuantitativeMeasurement>
+                        </AssayInformation>
+                        <MhcAlleleId>251</MhcAlleleId>
+                    </MhcBinding>
+                </Assays>
+            </Epitope>
+            <Epitope>
+                <EpitopeStructure>
+                    <FragmentOfANaturalSequenceMolecule>
+                        <ChemicalType>Peptide from protein</ChemicalType>
+                        <LinearSequence>IATVDSYVI</LinearSequence>
+                        <StartingPosition>1823</StartingPosition>
+                        <EndingPosition>1831</EndingPosition>
+                        <SourceMolecule>
+                            <GenBankId>P24821.2</GenBankId>
+                        </SourceMolecule>
+                        <SourceOrganismId>9606</SourceOrganismId>
+                    </FragmentOfANaturalSequenceMolecule>
+                </EpitopeStructure>
+                <LocationOfData>Table II</LocationOfData>
+                <EpitopeId>25454</EpitopeId>
+                <ReferenceStartingPosition>1823</ReferenceStartingPosition>
+                <ReferenceEndingPosition>1831</ReferenceEndingPosition>
+                <EpitopeEvidenceCode>Representative selection</EpitopeEvidenceCode>
+                <EpitopeStructureDefines>Exact Epitope</EpitopeStructureDefines>
+                <EpitopeComments>This epitope was identified by sequencing HLA-B*0702-bound peptides that were unique to or up-regulated in HIV-infected cells.</EpitopeComments>
+                <Assays>
+                    <MhcLigandElution>
+                        <LocationOfData>Figure 1 and Table II</LocationOfData>
+                        <MhcLigandElutionId>22766</MhcLigandElutionId>
+                        <HostOrganism>
+                            <OrganismId>9606</OrganismId>
+                        </HostOrganism>
+                        <InVivoProcess>
+                            <InVivoProcessType>No immunization</InVivoProcessType>
+                        </InVivoProcess>
+                        <InVitroAdministration>
+                            <ProcessType>Antigen administered in vitro</ProcessType>
+                            <ProcessedAntigenReferenceName>TenC</ProcessedAntigenReferenceName>
+                            <ProcessedAntigenObject>
+                                <EpitopeRelation>Other</EpitopeRelation>
+                                <Object>
+                                    <Organism>
+                                        <SubType>Organism</SubType>
+                                        <SourceOrganismId>11696</SourceOrganismId>
+                                    </Organism>
+                                </Object>
+                            </ProcessedAntigenObject>
+                            <ProcessedAntigenEvidenceCode>Exact match to reference information</ProcessedAntigenEvidenceCode>
+                        </InVitroAdministration>
+                        <MhcLigand>
+                            <MhcLigandObject>
+                                <EpitopeRelation>Epitope</EpitopeRelation>
+                                <Object>
+                                    <FragmentOfANaturalSequenceMolecule>
+                                        <ChemicalType>Peptide from protein</ChemicalType>
+                                        <LinearSequence>IATVDSYVI</LinearSequence>
+                                        <StartingPosition>1823</StartingPosition>
+                                        <EndingPosition>1831</EndingPosition>
+                                        <SourceMolecule>
+                                            <GenBankId>P24821.2</GenBankId>
+                                        </SourceMolecule>
+                                        <SourceOrganismId>9606</SourceOrganismId>
+                                    </FragmentOfANaturalSequenceMolecule>
+                                </Object>
+                            </MhcLigandObject>
+                        </MhcLigand>
+                        <AntigenPresentingCells>
+                            <CellTissueType>Lymphoid</CellTissueType>
+                            <CellType>B cell</CellType>
+                            <CellCultureConditions>Cell Line / Clone (EBV transformed, B-LCL)</CellCultureConditions>
+                        </AntigenPresentingCells>
+                        <MhcAllele>
+                            <MhcAlleleId>251</MhcAlleleId>
+                            <MhcEvidenceCode>Antibody purification</MhcEvidenceCode>
+                        </MhcAllele>
+                        <AssayInformation>
+                            <AssayTypeId>93</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <AssayComments>The peptide was eluted from HLA B*0702/peptide complexes from HIV-infected SUP-T1 cells.</AssayComments>
+                        </AssayInformation>
+                    </MhcLigandElution>
+                </Assays>
+                <Assays>
+                    <MhcBinding>
+                        <LocationOfData>Table I</LocationOfData>
+                        <MhcBindingId>22767</MhcBindingId>
+                        <AssayInformation>
+                            <AssayTypeId>273</AssayTypeId>
+                            <QualitativeMeasurement>Positive-Low</QualitativeMeasurement>
+                            <QuantitativeMeasurement>218900.0</QuantitativeMeasurement>
+                        </AssayInformation>
+                        <MhcAlleleId>251</MhcAlleleId>
+                    </MhcBinding>
+                </Assays>
+            </Epitope>
+        </Epitopes>
+    </Reference>
+</References>
+

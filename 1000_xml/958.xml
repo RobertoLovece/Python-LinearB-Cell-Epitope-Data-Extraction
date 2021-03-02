@@ -1,0 +1,439 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<References xsi:schemaLocation="http://www.iedb.org/schema/CurationSchema http://beta.iedb.org/schema/Curation.xsd" xmlns="http://www.iedb.org/schema/CurationSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <Reference>
+        <ReferenceId>958</ReferenceId>
+        <DateLastUpdated>2020-09-10-07:00</DateLastUpdated>
+        <Article>
+            <PubmedId>15564505</PubmedId>
+            <Abstract>The flavivirus E glycoprotein, the primary antigen that induces protective immunity, is essential for membrane fusion and mediates binding to cellular receptors. Human flavivirus infections stimulate virus species-specific as well as flavivirus cross-reactive immune responses. Flavivirus cross-reactive antibodies in human sera create a serious problem for serodiagnosis, especially for secondary flavivirus infections, due to the difficulty of differentiating primary from secondary cross-reactive serum antibodies. The presence of subneutralizing levels of flavivirus cross-reactive serum antibodies may result in a dramatic increase in the severity of secondary flavivirus infections via antibody-dependent enhancement. An understanding of flavivirus E-glycoprotein cross-reactive epitopes is therefore critical for improving public health responses to these serious diseases. We identified six E-glycoprotein residues that are incorporated into three distinct flavivirus cross-reactive epitopes. Two of these epitopes which are recognized by distinct monoclonal antibodies contain overlapping continuous residues located within the highly conserved fusion peptide. The third epitope consists of discontinuous residues that are structurally related to the strictly conserved tryptophan at dengue virus serotype 2 E-glycoprotein position 231.</Abstract>
+            <ArticleYear>2004</ArticleYear>
+            <ArticlePages>13975-86</ArticlePages>
+            <ArticleTitle>Localization and characterization of flavivirus envelope glycoprotein cross-reactive epitopes.</ArticleTitle>
+            <Authors>
+                <Author>
+                    <LastName>Crill</LastName>
+                    <ForeName>Wayne D</ForeName>
+                </Author>
+                <Author>
+                    <LastName>Chang</LastName>
+                    <ForeName>Gwong-Jen J</ForeName>
+                </Author>
+            </Authors>
+            <Affiliations>Arbovirus Diseases Branch, Division of Vector-Borne Infectious Diseases, Centers for Disease Control and Prevention, Public Health Service, U.S. Department of Health and Human Services, P.O. Box 2087, Fort Collins, CO 80522, USA. wcrill@cdc.gov.</Affiliations>
+            <ArticleChemicalList>Antibodies, Viral;Epitopes;Viral Envelope Proteins;prM protein, Flavivirus;glycoprotein E, Flavivirus</ArticleChemicalList>
+            <ArticleMeshHeadingsList>Amino Acid Sequence; Animals; Antibodies, Viral(immunology); CHO Cells; COS Cells; Chlorocebus aethiops; Cricetinae; Cricetulus; Cross Reactions; Dengue Virus(immunology; metabolism); Epitope Mapping; Epitopes(immunology); Models, Molecular; Molecular Sequence Data; Mutagenesis, Site-Directed; Viral Envelope Proteins(chemistry; immunology)</ArticleMeshHeadingsList>
+            <Journal>
+                <Volume>78</Volume>
+                <Issue>24</Issue>
+                <Title>Journal of virology</Title>
+                <Issn>1098-5514</Issn>
+                <MedlineTa>J Virol</MedlineTa>
+            </Journal>
+        </Article>
+        <Epitopes>
+            <Epitope>
+                <EpitopeName>A1a</EpitopeName>
+                <EpitopeStructure>
+                    <DiscontinuousRegionOnAccessionSequenceMolecule>
+                        <ChemicalType>Discontinuous protein residues</ChemicalType>
+                        <DiscontinuousResidues>G104, G106, L107, W231</DiscontinuousResidues>
+                        <SourceMolecule>
+                            <GenBankId>NP_739583.1</GenBankId>
+                        </SourceMolecule>
+                        <SourceOrganismId>11060</SourceOrganismId>
+                    </DiscontinuousRegionOnAccessionSequenceMolecule>
+                </EpitopeStructure>
+                <LocationOfData>Table 3</LocationOfData>
+                <EpitopeId>76975</EpitopeId>
+                <ReferenceRegion>G104, G106, L107, W231</ReferenceRegion>
+                <EpitopeEvidenceCode>Not determined</EpitopeEvidenceCode>
+                <EpitopeStructureDefines>Partial Epitope</EpitopeStructureDefines>
+                <EpitopeComments>Epitopic determinants identified from Immunofluorescence Assay and Ag-ELISA assays of recombinant mutants of E glycoprotein antigen.  Proposed cross-reactive epitope residues in domain II of Flavivirus E-glycoprotein was deduced from sequence variability of 30 flavivirus strains and included the following residues:  K64, T76, Q77, G104, G106, L107, E126, T226, W231, H244, and K247.</EpitopeComments>
+                <Assays>
+                    <BCell>
+                        <LocationOfData>Table 3</LocationOfData>
+                        <BCellId>11657</BCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>10090</OrganismId>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Administration in vivo</InVivoProcessType>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Source Organism</EpitopeRelation>
+                                    <Object>
+                                        <Organism>
+                                            <SubType>Organism</SubType>
+                                            <SourceOrganismId>11060</SourceOrganismId>
+                                        </Organism>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenReferenceName>Dengue virus type 2</ImmunogenReferenceName>
+                                <ImmunogenEvidenceCode>Not determined</ImmunogenEvidenceCode>
+                            </FirstInVivoProcess>
+                        </Immunization>
+                        <AssayInformation>
+                            <AssayTypeId>38</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <AssayComments>mAb binding using ELISA antigen capture assay of secreted VLPs was also performed.  ELISA reciprocal titre in log&lt;sub&gt; 10&lt;/sub&gt; was &gt;6.0 for this monoclonal Ab.  Denv-2 Recombinant Antigen used for IFA assay was encoded by a plasmid containing DENV-2 prM and E gene regions.</AssayComments>
+                        </AssayInformation>
+                        <AssayedAntibody>
+                            <AssayedAntibodyPurificationStatus>Monoclonal</AssayedAntibodyPurificationStatus>
+                            <AssayedAntibodyName>4G2</AssayedAntibodyName>
+                        </AssayedAntibody>
+                        <Antigen>
+                            <AntigenReferenceName>DENV-2 virus like particles</AntigenReferenceName>
+                            <AntigenConformation>Non-Native/Unknown</AntigenConformation>
+                            <AntigenObject>
+                                <EpitopeRelation>Source Organism</EpitopeRelation>
+                                <Object>
+                                    <Organism>
+                                        <SubType>Organism</SubType>
+                                        <SourceOrganismId>11060</SourceOrganismId>
+                                    </Organism>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Not determined</AntigenEvidenceCode>
+                        </Antigen>
+                    </BCell>
+                </Assays>
+            </Epitope>
+            <Epitope>
+                <EpitopeName>A1b</EpitopeName>
+                <EpitopeStructure>
+                    <DiscontinuousRegionOnAccessionSequenceMolecule>
+                        <ChemicalType>Discontinuous protein residues</ChemicalType>
+                        <DiscontinuousResidues>G104, G106, E126, W231</DiscontinuousResidues>
+                        <SourceMolecule>
+                            <GenBankId>NP_739583.1</GenBankId>
+                        </SourceMolecule>
+                        <SourceOrganismId>11060</SourceOrganismId>
+                    </DiscontinuousRegionOnAccessionSequenceMolecule>
+                </EpitopeStructure>
+                <LocationOfData>Table 3</LocationOfData>
+                <EpitopeId>76974</EpitopeId>
+                <ReferenceRegion>G104, G106, E126, W231</ReferenceRegion>
+                <EpitopeEvidenceCode>Not determined</EpitopeEvidenceCode>
+                <EpitopeStructureDefines>Partial Epitope</EpitopeStructureDefines>
+                <EpitopeComments>Epitopic determinants identified from Immunofluorescence Assay and Ag-ELISA assays of recombinant mutants of E glycoprotein antigen.  Proposed cross-reactive epitope residues in domain II of Flavivirus E-glycoprotein was deduced from sequence variability of 30 flavivirus strains and included the following residues:  K64, T76, Q77, G104, G106, L107, E126, T226, W231, H244, and K247.</EpitopeComments>
+                <Assays>
+                    <BCell>
+                        <LocationOfData>Table 3</LocationOfData>
+                        <BCellId>11658</BCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>10090</OrganismId>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Administration in vivo</InVivoProcessType>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Source Organism</EpitopeRelation>
+                                    <Object>
+                                        <Organism>
+                                            <SubType>Organism</SubType>
+                                            <SourceOrganismId>11060</SourceOrganismId>
+                                        </Organism>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenReferenceName>Dengue virus type 2</ImmunogenReferenceName>
+                                <ImmunogenEvidenceCode>Not determined</ImmunogenEvidenceCode>
+                            </FirstInVivoProcess>
+                        </Immunization>
+                        <AssayInformation>
+                            <AssayTypeId>38</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <AssayComments>mAb binding using ELISA antigen capture assay of secreted VLPs was also performed.  ELISA reciprocal titre in log&lt;sub&gt; 10&lt;/sub&gt; was &gt;6.0 for this monoclonal Ab.  Denv-2 Recombinant Antigen used for IFA assay was encoded by a plasmid containing DENV-2 prM and E gene regions.</AssayComments>
+                        </AssayInformation>
+                        <AssayedAntibody>
+                            <AssayedAntibodyPurificationStatus>Monoclonal</AssayedAntibodyPurificationStatus>
+                            <AssayedAntibodyName>6B6C-1</AssayedAntibodyName>
+                        </AssayedAntibody>
+                        <Antigen>
+                            <AntigenReferenceName>DENV-2 virus-like particles</AntigenReferenceName>
+                            <AntigenConformation>Non-Native/Unknown</AntigenConformation>
+                            <AntigenObject>
+                                <EpitopeRelation>Source Organism</EpitopeRelation>
+                                <Object>
+                                    <Organism>
+                                        <SubType>Organism</SubType>
+                                        <SourceOrganismId>11060</SourceOrganismId>
+                                    </Organism>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Not determined</AntigenEvidenceCode>
+                        </Antigen>
+                    </BCell>
+                </Assays>
+            </Epitope>
+            <Epitope>
+                <EpitopeName>A3</EpitopeName>
+                <EpitopeStructure>
+                    <DiscontinuousRegionOnAccessionSequenceMolecule>
+                        <ChemicalType>Discontinuous protein residues</ChemicalType>
+                        <DiscontinuousResidues>T76, G104, G106, L107, E126, W231</DiscontinuousResidues>
+                        <SourceMolecule>
+                            <GenBankId>NP_739583.1</GenBankId>
+                        </SourceMolecule>
+                        <SourceOrganismId>11060</SourceOrganismId>
+                    </DiscontinuousRegionOnAccessionSequenceMolecule>
+                </EpitopeStructure>
+                <LocationOfData>Table 3</LocationOfData>
+                <EpitopeId>76977</EpitopeId>
+                <ReferenceRegion>T76, G104, G106, L107, E126, W231</ReferenceRegion>
+                <EpitopeEvidenceCode>Not determined</EpitopeEvidenceCode>
+                <EpitopeStructureDefines>Partial Epitope</EpitopeStructureDefines>
+                <EpitopeComments>Epitopic determinants identified from Immunofluorescence Assay and Ag-ELISA assays of recombinant mutants of E glycoprotein antigen.  Proposed cross-reactive epitope residues in domain II of Flavivirus E-glycoprotein was deduced from sequence variability of 30 flavivirus strains and included the following residues:  K64, T76, Q77, G104, G106, L107, E126, T226, W231, H244, and K247.</EpitopeComments>
+                <Assays>
+                    <BCell>
+                        <LocationOfData>Table 3</LocationOfData>
+                        <BCellId>11659</BCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>10090</OrganismId>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Administration in vivo</InVivoProcessType>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Source Organism</EpitopeRelation>
+                                    <Object>
+                                        <Organism>
+                                            <SubType>Organism</SubType>
+                                            <SourceOrganismId>11060</SourceOrganismId>
+                                        </Organism>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenReferenceName>Dengue virus type 2</ImmunogenReferenceName>
+                                <ImmunogenEvidenceCode>Not determined</ImmunogenEvidenceCode>
+                            </FirstInVivoProcess>
+                        </Immunization>
+                        <AssayInformation>
+                            <AssayTypeId>38</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <AssayComments>mAb binding using ELISA antigen capture assay of secreted VLPs was also performed.  ELISA reciprocal titre in log&lt;sub&gt; 10&lt;/sub&gt; was &gt;4.2 for this monoclonal Ab.  Denv-2 Recombinant Antigen used for IFA assay was encoded by a plasmid containing DENV-2 prM and E gene regions.</AssayComments>
+                        </AssayInformation>
+                        <AssayedAntibody>
+                            <AssayedAntibodyPurificationStatus>Monoclonal</AssayedAntibodyPurificationStatus>
+                            <AssayedAntibodyName>1A5D-1</AssayedAntibodyName>
+                        </AssayedAntibody>
+                        <Antigen>
+                            <AntigenReferenceName>DENV-2 virus-like particles</AntigenReferenceName>
+                            <AntigenConformation>Non-Native/Unknown</AntigenConformation>
+                            <AntigenObject>
+                                <EpitopeRelation>Source Organism</EpitopeRelation>
+                                <Object>
+                                    <Organism>
+                                        <SubType>Organism</SubType>
+                                        <SourceOrganismId>11060</SourceOrganismId>
+                                    </Organism>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Not determined</AntigenEvidenceCode>
+                        </Antigen>
+                    </BCell>
+                </Assays>
+            </Epitope>
+            <Epitope>
+                <EpitopeName>A5</EpitopeName>
+                <EpitopeStructure>
+                    <DiscontinuousRegionOnAccessionSequenceMolecule>
+                        <ChemicalType>Discontinuous protein residues</ChemicalType>
+                        <DiscontinuousResidues>G104, E126, W231</DiscontinuousResidues>
+                        <SourceMolecule>
+                            <GenBankId>NP_739583.1</GenBankId>
+                        </SourceMolecule>
+                        <SourceOrganismId>11060</SourceOrganismId>
+                    </DiscontinuousRegionOnAccessionSequenceMolecule>
+                </EpitopeStructure>
+                <LocationOfData>Table 3</LocationOfData>
+                <EpitopeId>76973</EpitopeId>
+                <ReferenceRegion>G104, E126, W231</ReferenceRegion>
+                <EpitopeEvidenceCode>Not determined</EpitopeEvidenceCode>
+                <EpitopeStructureDefines>Partial Epitope</EpitopeStructureDefines>
+                <EpitopeComments>Epitopic determinants identified from Immunofluorescence Assay and Ag-ELISA assays of recombinant mutants of E glycoprotein antigen.  Proposed cross-reactive epitope residues in domain II of Flavivirus E-glycoprotein was deduced from sequence variability of 30 flavivirus strains and included the following residues:  K64, T76, Q77, G104, G106, L107, E126, T226, W231, H244, and K247.</EpitopeComments>
+                <Assays>
+                    <BCell>
+                        <LocationOfData>Table 3</LocationOfData>
+                        <BCellId>11661</BCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>10090</OrganismId>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Administration in vivo</InVivoProcessType>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Source Organism</EpitopeRelation>
+                                    <Object>
+                                        <Organism>
+                                            <SubType>Organism</SubType>
+                                            <SourceOrganismId>11060</SourceOrganismId>
+                                        </Organism>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenReferenceName>Dengue virus type 2</ImmunogenReferenceName>
+                                <ImmunogenEvidenceCode>Not determined</ImmunogenEvidenceCode>
+                            </FirstInVivoProcess>
+                        </Immunization>
+                        <AssayInformation>
+                            <AssayTypeId>38</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <AssayComments>mAb binding using ELISA antigen capture assay of secreted VLPs was also performed.  ELISA reciprocal titre in log&lt;sub&gt; 10&lt;/sub&gt; was 5.7 for this monoclonal Ab.  Denv-2 Recombinant Antigen used for IFA assay was encoded by a plasmid containing DENV-2 prM and E gene regions.</AssayComments>
+                        </AssayInformation>
+                        <AssayedAntibody>
+                            <AssayedAntibodyPurificationStatus>Monoclonal</AssayedAntibodyPurificationStatus>
+                            <AssayedAntibodyName>1B7-5</AssayedAntibodyName>
+                        </AssayedAntibody>
+                        <Antigen>
+                            <AntigenReferenceName>DENV-2 virus-like particles</AntigenReferenceName>
+                            <AntigenConformation>Non-Native/Unknown</AntigenConformation>
+                            <AntigenObject>
+                                <EpitopeRelation>Source Organism</EpitopeRelation>
+                                <Object>
+                                    <Organism>
+                                        <SubType>Organism</SubType>
+                                        <SourceOrganismId>11060</SourceOrganismId>
+                                    </Organism>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Not determined</AntigenEvidenceCode>
+                        </Antigen>
+                    </BCell>
+                </Assays>
+            </Epitope>
+            <Epitope>
+                <EpitopeName>A/C?</EpitopeName>
+                <EpitopeStructure>
+                    <DiscontinuousRegionOnAccessionSequenceMolecule>
+                        <ChemicalType>Discontinuous protein residues</ChemicalType>
+                        <DiscontinuousResidues>G106, L107</DiscontinuousResidues>
+                        <SourceMolecule>
+                            <GenBankId>NP_739583.1</GenBankId>
+                        </SourceMolecule>
+                        <SourceOrganismId>11060</SourceOrganismId>
+                    </DiscontinuousRegionOnAccessionSequenceMolecule>
+                </EpitopeStructure>
+                <LocationOfData>Table 3</LocationOfData>
+                <EpitopeId>76976</EpitopeId>
+                <ReferenceRegion>G106, L107</ReferenceRegion>
+                <EpitopeEvidenceCode>Not determined</EpitopeEvidenceCode>
+                <EpitopeStructureDefines>Partial Epitope</EpitopeStructureDefines>
+                <EpitopeComments>Epitopic determinants identified from Immunofluorescence Assay and Ag-ELISA assays of recombinant mutants of E glycoprotein antigen.  Proposed cross-reactive epitope residues in domain II of Flavivirus E-glycoprotein was deduced from sequence variability of 30 flavivirus strains and included the following residues:  K64, T76, Q77, G104, G106, L107, E126, T226, W231, H244, and K247.</EpitopeComments>
+                <Assays>
+                    <BCell>
+                        <LocationOfData>Table 3</LocationOfData>
+                        <BCellId>11662</BCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>10090</OrganismId>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Administration in vivo</InVivoProcessType>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Source Organism</EpitopeRelation>
+                                    <Object>
+                                        <Organism>
+                                            <SubType>Organism</SubType>
+                                            <SourceOrganismId>11060</SourceOrganismId>
+                                        </Organism>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenReferenceName>Dengue virus type 2</ImmunogenReferenceName>
+                                <ImmunogenEvidenceCode>Not determined</ImmunogenEvidenceCode>
+                            </FirstInVivoProcess>
+                        </Immunization>
+                        <AssayInformation>
+                            <AssayTypeId>38</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <AssayComments>mAb binding using ELISA antigen capture assay of secreted VLPs was also performed.  ELISA reciprocal titre in log&lt;sub&gt; 10&lt;/sub&gt; was &gt;3.8 for this monoclonal Ab.  Denv-2 Recombinant Antigen used for IFA assay was encoded by a plasmid containing DENV-2 prM and E gene regions.</AssayComments>
+                        </AssayInformation>
+                        <AssayedAntibody>
+                            <AssayedAntibodyPurificationStatus>Monoclonal</AssayedAntibodyPurificationStatus>
+                            <AssayedAntibodyName>10A1D-2</AssayedAntibodyName>
+                        </AssayedAntibody>
+                        <Antigen>
+                            <AntigenReferenceName>DENV-2 virus-like particles</AntigenReferenceName>
+                            <AntigenConformation>Non-Native/Unknown</AntigenConformation>
+                            <AntigenObject>
+                                <EpitopeRelation>Source Organism</EpitopeRelation>
+                                <Object>
+                                    <Organism>
+                                        <SubType>Organism</SubType>
+                                        <SourceOrganismId>11060</SourceOrganismId>
+                                    </Organism>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Not determined</AntigenEvidenceCode>
+                        </Antigen>
+                    </BCell>
+                </Assays>
+            </Epitope>
+            <Epitope>
+                <EpitopeName>C1</EpitopeName>
+                <EpitopeStructure>
+                    <DiscontinuousRegionOnAccessionSequenceMolecule>
+                        <ChemicalType>Discontinuous protein residues</ChemicalType>
+                        <DiscontinuousResidues>T76, G106, L107, W231</DiscontinuousResidues>
+                        <SourceMolecule>
+                            <GenBankId>NP_739583.1</GenBankId>
+                        </SourceMolecule>
+                        <SourceOrganismId>11060</SourceOrganismId>
+                    </DiscontinuousRegionOnAccessionSequenceMolecule>
+                </EpitopeStructure>
+                <LocationOfData>Table 3</LocationOfData>
+                <EpitopeId>76978</EpitopeId>
+                <ReferenceRegion>T76, G106, L107, W231</ReferenceRegion>
+                <EpitopeEvidenceCode>Not determined</EpitopeEvidenceCode>
+                <EpitopeStructureDefines>Partial Epitope</EpitopeStructureDefines>
+                <EpitopeComments>Epitopic determinants identified from Immunofluorescence Assay and Ag-ELISA assays of recombinant mutants of E glycoprotein antigen.  Proposed cross-reactive epitope residues in domain II of Flavivirus E-glycoprotein was deduced from sequence variability of 30 flavivirus strains and included the following residues:  K64, T76, Q77, G104, G106, L107, E126, T226, W231, H244, and K247.</EpitopeComments>
+                <Assays>
+                    <BCell>
+                        <LocationOfData>Table 3</LocationOfData>
+                        <BCellId>11663</BCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>10090</OrganismId>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Administration in vivo</InVivoProcessType>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Source Organism</EpitopeRelation>
+                                    <Object>
+                                        <Organism>
+                                            <SubType>Organism</SubType>
+                                            <SourceOrganismId>11060</SourceOrganismId>
+                                        </Organism>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenReferenceName>Dengue virus type 2</ImmunogenReferenceName>
+                                <ImmunogenEvidenceCode>Not determined</ImmunogenEvidenceCode>
+                            </FirstInVivoProcess>
+                        </Immunization>
+                        <AssayInformation>
+                            <AssayTypeId>38</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <AssayComments>mAb binding using ELISA antigen capture assay of secreted VLPs was also performed.  ELISA reciprocal titre in log&lt;sub&gt; 10&lt;/sub&gt; was &gt;5.3 for this monoclonal Ab.  Denv-2 Recombinant Antigen used for IFA assay was encoded by a plasmid containing DENV-2 prM and E gene regions.</AssayComments>
+                        </AssayInformation>
+                        <AssayedAntibody>
+                            <AssayedAntibodyPurificationStatus>Monoclonal</AssayedAntibodyPurificationStatus>
+                            <AssayedAntibodyName>1B4C-2</AssayedAntibodyName>
+                        </AssayedAntibody>
+                        <Antigen>
+                            <AntigenReferenceName>DENV-2 virus-like particles</AntigenReferenceName>
+                            <AntigenConformation>Non-Native/Unknown</AntigenConformation>
+                            <AntigenObject>
+                                <EpitopeRelation>Source Organism</EpitopeRelation>
+                                <Object>
+                                    <Organism>
+                                        <SubType>Organism</SubType>
+                                        <SourceOrganismId>11060</SourceOrganismId>
+                                    </Organism>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Not determined</AntigenEvidenceCode>
+                        </Antigen>
+                    </BCell>
+                </Assays>
+            </Epitope>
+        </Epitopes>
+    </Reference>
+</References>
+

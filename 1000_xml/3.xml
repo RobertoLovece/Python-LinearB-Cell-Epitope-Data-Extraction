@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<References xsi:schemaLocation="http://www.iedb.org/schema/CurationSchema http://beta.iedb.org/schema/Curation.xsd" xmlns="http://www.iedb.org/schema/CurationSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <Reference>
+        <ReferenceId>3</ReferenceId>
+        <DateLastUpdated>2020-09-10-07:00</DateLastUpdated>
+        <Article>
+            <PubmedId>15037737</PubmedId>
+            <Abstract>The CD8+ T cell response to the immunodominant DbNP366 epitope has been analyzed sequentially to determine the prevalence and persistence of different T cell antigen receptor (TCR)Vbeta8.3 clonotypes after primary and secondary influenza virus challenge. Based on the length and amino acid sequences of the complementarity-determining region 3 of TCRbeta (CDR3beta) loop and associated Jbeta usage, the same dominant TCRbeta signatures were found in the blood, the spleen, and the site of virus-induced pathology in the infected respiratory tract. Longitudinal analysis demonstrated that TCRbeta prominent in the antigen-driven phase of response persisted into memory and were again expanded after secondary challenge. A proportion of these high-frequency TCRbeta expressed "public" CDR3beta sequences that were detected in every mouse sampled, whereas others were found more than once but were not invariably present. Analysis of N-region nucleotide diversity established that as many as 10 different nucleic acid sequences (maximum of four "nucleotypes" in any one mouse) could encode a single public TCRbeta amino acid sequence. Conversely, whereas some of the unique, "private" TCRbeta achieved a substantial clone size, they were always specified by a single nucleotype. Although there is a strong stochastic element in this response, the public TCRbeta seem to represent a "best fit" for this immunodominant epitope, are selected preferentially from the naive TCR repertoire, and assume even greater prominence after secondary challenge.</Abstract>
+            <ArticleYear>2004</ArticleYear>
+            <ArticlePages>4942-7</ArticlePages>
+            <ArticleTitle>Conserved T cell receptor usage in primary and recall responses to an immunodominant influenza virus nucleoprotein epitope.</ArticleTitle>
+            <Authors>
+                <Author>
+                    <LastName>Kedzierska</LastName>
+                    <ForeName>Katherine</ForeName>
+                </Author>
+                <Author>
+                    <LastName>Turner</LastName>
+                    <ForeName>Stephen J</ForeName>
+                </Author>
+                <Author>
+                    <LastName>Doherty</LastName>
+                    <ForeName>Peter C</ForeName>
+                </Author>
+            </Authors>
+            <Affiliations>Department of Microbiology and Immunology, University of Melbourne, Parkville 3010, Australia.</Affiliations>
+            <ArticleChemicalList>DNA Primers;Immunodominant Epitopes;Nucleoproteins;Receptors, Antigen, T-Cell, alpha-beta</ArticleChemicalList>
+            <ArticleMeshHeadingsList>Amino Acid Sequence; Animals; Base Sequence; DNA Primers; Female; Immunodominant Epitopes(chemistry; immunology); Immunologic Memory; Influenza A virus(immunology); Mice; Mice, Inbred C57BL; Nucleoproteins(chemistry; immunology); Receptors, Antigen, T-Cell, alpha-beta(immunology); Reverse Transcriptase Polymerase Chain Reaction</ArticleMeshHeadingsList>
+            <Journal>
+                <Volume>101</Volume>
+                <Issue>14</Issue>
+                <Title>Proceedings of the National Academy of Sciences of the United States of America</Title>
+                <Issn>0027-8424</Issn>
+                <MedlineTa>Proc Natl Acad Sci U S A</MedlineTa>
+            </Journal>
+        </Article>
+        <Epitopes>
+            <Epitope>
+                <EpitopeName>NP 366–374</EpitopeName>
+                <EpitopeStructure>
+                    <FragmentOfANaturalSequenceMolecule>
+                        <ChemicalType>Peptide from protein</ChemicalType>
+                        <LinearSequence>ASNENMETM</LinearSequence>
+                        <StartingPosition>366</StartingPosition>
+                        <EndingPosition>374</EndingPosition>
+                        <SourceMolecule>
+                            <GenBankId>AAA43467.1</GenBankId>
+                        </SourceMolecule>
+                        <SourceOrganismId>11320</SourceOrganismId>
+                    </FragmentOfANaturalSequenceMolecule>
+                </EpitopeStructure>
+                <LocationOfData>Materials and Methods</LocationOfData>
+                <EpitopeId>4602</EpitopeId>
+                <EpitopeEvidenceCode>Representative selection</EpitopeEvidenceCode>
+                <EpitopeStructureDefines>Exact Epitope</EpitopeStructureDefines>
+                <Assays>
+                    <TCell>
+                        <LocationOfData>Figure 1</LocationOfData>
+                        <TCellId>3339181</TCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>10000067</OrganismId>
+                                <Sex>F</Sex>
+                                <Age>6 weeks</Age>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Administration in vivo</InVivoProcessType>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Taxonomic Child</EpitopeRelation>
+                                    <Object>
+                                        <Organism>
+                                            <SubType>Organism</SubType>
+                                            <SourceOrganismId>132504</SourceOrganismId>
+                                        </Organism>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenEvidenceCode>Exact match to reference information</ImmunogenEvidenceCode>
+                                <Route>Intranasal</Route>
+                                <DoseSchedule>10^4 PFU of HKx31 (H3N2) influenza A virus</DoseSchedule>
+                            </FirstInVivoProcess>
+                        </Immunization>
+                        <EffectorCells>
+                            <CellTissueType>Lung</CellTissueType>
+                            <CellType>T cell CD8+</CellType>
+                            <CellCultureConditions>Direct Ex Vivo</CellCultureConditions>
+                        </EffectorCells>
+                        <MhcAllele>
+                            <MhcAlleleId>172</MhcAlleleId>
+                            <MhcEvidenceCode>Cited reference</MhcEvidenceCode>
+                        </MhcAllele>
+                        <Antigen>
+                            <AntigenObject>
+                                <EpitopeRelation>Epitope</EpitopeRelation>
+                                <Object>
+                                    <FragmentOfANaturalSequenceMolecule>
+                                        <ChemicalType>Peptide from protein</ChemicalType>
+                                        <LinearSequence>ASNENMETM</LinearSequence>
+                                        <StartingPosition>366</StartingPosition>
+                                        <EndingPosition>374</EndingPosition>
+                                        <SourceMolecule>
+                                            <GenBankId>AAA43467.1</GenBankId>
+                                        </SourceMolecule>
+                                        <SourceOrganismId>11320</SourceOrganismId>
+                                    </FragmentOfANaturalSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Exact match to reference information</AntigenEvidenceCode>
+                        </Antigen>
+                        <AssayInformation>
+                            <AssayTypeId>47</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <AssayComments>Similar results were found in the spleen.</AssayComments>
+                        </AssayInformation>
+                    </TCell>
+                </Assays>
+                <Assays>
+                    <TCell>
+                        <LocationOfData>Figure 1</LocationOfData>
+                        <TCellId>3339183</TCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>10000067</OrganismId>
+                                <Sex>F</Sex>
+                                <Age>6 weeks</Age>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Administration in vivo</InVivoProcessType>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Taxonomic Child</EpitopeRelation>
+                                    <Object>
+                                        <Organism>
+                                            <SubType>Organism</SubType>
+                                            <SourceOrganismId>211044</SourceOrganismId>
+                                        </Organism>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenEvidenceCode>Exact match to reference information</ImmunogenEvidenceCode>
+                                <Route>Intraperitoneal (i.p.)</Route>
+                                <DoseSchedule>1.5 x 10^7 PFU of PR* (H1N1) influenza a virus</DoseSchedule>
+                            </FirstInVivoProcess>
+                            <SecondInVivoProcess>
+                                <InVivoProcessType>Administration in vivo</InVivoProcessType>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Taxonomic Child</EpitopeRelation>
+                                    <Object>
+                                        <Organism>
+                                            <SubType>Organism</SubType>
+                                            <SourceOrganismId>132504</SourceOrganismId>
+                                        </Organism>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenEvidenceCode>Exact match to reference information</ImmunogenEvidenceCode>
+                                <Route>Intranasal</Route>
+                                <DoseSchedule>10^4 PFU of HKx31 (H3N2) influenza A virus</DoseSchedule>
+                            </SecondInVivoProcess>
+                        </Immunization>
+                        <EffectorCells>
+                            <CellTissueType>Lung</CellTissueType>
+                            <CellType>T cell CD8+</CellType>
+                            <CellCultureConditions>Direct Ex Vivo</CellCultureConditions>
+                        </EffectorCells>
+                        <MhcAllele>
+                            <MhcAlleleId>172</MhcAlleleId>
+                            <MhcEvidenceCode>Cited reference</MhcEvidenceCode>
+                        </MhcAllele>
+                        <Antigen>
+                            <AntigenObject>
+                                <EpitopeRelation>Epitope</EpitopeRelation>
+                                <Object>
+                                    <FragmentOfANaturalSequenceMolecule>
+                                        <ChemicalType>Peptide from protein</ChemicalType>
+                                        <LinearSequence>ASNENMETM</LinearSequence>
+                                        <StartingPosition>366</StartingPosition>
+                                        <EndingPosition>374</EndingPosition>
+                                        <SourceMolecule>
+                                            <GenBankId>AAA43467.1</GenBankId>
+                                        </SourceMolecule>
+                                        <SourceOrganismId>11320</SourceOrganismId>
+                                    </FragmentOfANaturalSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Exact match to reference information</AntigenEvidenceCode>
+                        </Antigen>
+                        <AssayInformation>
+                            <AssayTypeId>47</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <AssayComments>Similar results were found in the spleen.</AssayComments>
+                        </AssayInformation>
+                    </TCell>
+                </Assays>
+            </Epitope>
+        </Epitopes>
+    </Reference>
+</References>
+

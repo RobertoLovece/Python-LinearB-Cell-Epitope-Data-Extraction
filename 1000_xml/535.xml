@@ -1,0 +1,749 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<References xsi:schemaLocation="http://www.iedb.org/schema/CurationSchema http://beta.iedb.org/schema/Curation.xsd" xmlns="http://www.iedb.org/schema/CurationSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <Reference>
+        <ReferenceId>535</ReferenceId>
+        <DateLastUpdated>2020-09-10-07:00</DateLastUpdated>
+        <Article>
+            <PubmedId>15184071</PubmedId>
+            <Abstract>The spike (S) protein of severe acute respiratory syndrome-coronavirus (SARS-CoV) is a major virion structural protein. It plays an important role in interaction with receptor and inducing neutralizing antibodies. In the study, six tentative antigenic epitopes (S1 S2 S3 S4 S5 S6) of the spike protein of SARS-CoV were predicted by bio-informatics analysis, and a multi-epitope chimeric gene of S1-S2-S3-S4-S5-S6 was synthesized and fused to downstream GST gene in pGEX-6p-1. The Western blotting demonstrated that SARS patient convalescent serum could recognize the recombinant fusion protein. A number of monoclonal antibodies were developed against the fusion protein. In further, the six predicted epitope genes were individually fused to GST of pGEX-6p-1 and expressed in Escherichia coli BL21, respectively. Among six fusion peptides, S5 reacted with monoclonal antibody D3C5 and S2 reacted with monoclonal antibody D3D1 against spike protein of SARS-CoV. The epitopes recognized by monoclonal antibodies D3C5 and D3D1 are linear, and correspond to 447-458 and 789-799 amino acids of spike protein of SARS-CoV, respectively. Identification of antigenic epitope of spike protein of SARS-CoV could provide the basis for the development of immunity-based prophylactic, therapeutic, and diagnostic techniques for the control of severe acute respiratory syndrome.</Abstract>
+            <ArticleYear>2004</ArticleYear>
+            <ArticlePages>929-35</ArticlePages>
+            <ArticleTitle>Identification of two antigenic epitopes on SARS-CoV spike protein.</ArticleTitle>
+            <Authors>
+                <Author>
+                    <LastName>Hua</LastName>
+                    <ForeName>Ronghong</ForeName>
+                </Author>
+                <Author>
+                    <LastName>Zhou</LastName>
+                    <ForeName>Yanjun</ForeName>
+                </Author>
+                <Author>
+                    <LastName>Wang</LastName>
+                    <ForeName>Yunfeng</ForeName>
+                </Author>
+                <Author>
+                    <LastName>Hua</LastName>
+                    <ForeName>Yuzhuo</ForeName>
+                </Author>
+                <Author>
+                    <LastName>Tong</LastName>
+                    <ForeName>Guangzhi</ForeName>
+                </Author>
+            </Authors>
+            <Affiliations>National Key Laboratory of Veterinary Biotechnology, Harbin Veterinary Research Institute, Chinese Academy of Agricultural Sciences, Harbin 150001, PR China.</Affiliations>
+            <ArticleChemicalList>Antibodies, Monoclonal;Epitopes;MHV surface projection glycoprotein;Membrane Glycoproteins;Peptides;Recombinant Fusion Proteins;Spike Glycoprotein, Coronavirus;Viral Envelope Proteins;spike glycoprotein, SARS-CoV</ArticleChemicalList>
+            <ArticleMeshHeadingsList>Amino Acid Sequence; Animals; Antibodies, Monoclonal(immunology); Chickens; Computational Biology; Epitopes(genetics); Humans; Membrane Glycoproteins(genetics; immunology); Molecular Sequence Data; Peptides(genetics; immunology); Recombinant Fusion Proteins(genetics; immunology); SARS Virus(immunology); Spike Glycoprotein, Coronavirus; Viral Envelope Proteins(genetics; immunology)</ArticleMeshHeadingsList>
+            <Journal>
+                <Volume>319</Volume>
+                <Issue>3</Issue>
+                <Title>Biochemical and biophysical research communications</Title>
+                <Issn>1090-2104</Issn>
+                <MedlineTa>Biochem Biophys Res Commun</MedlineTa>
+            </Journal>
+        </Article>
+        <Epitopes>
+            <Epitope>
+                <EpitopeName>S2</EpitopeName>
+                <EpitopeStructure>
+                    <FragmentOfANaturalSequenceMolecule>
+                        <ChemicalType>Peptide from protein</ChemicalType>
+                        <LinearSequence>KLRPFERDISNV</LinearSequence>
+                        <StartingPosition>447</StartingPosition>
+                        <EndingPosition>458</EndingPosition>
+                        <SourceMolecule>
+                            <GenBankId>AAP30030.1</GenBankId>
+                        </SourceMolecule>
+                        <SourceOrganismId>228407</SourceOrganismId>
+                    </FragmentOfANaturalSequenceMolecule>
+                </EpitopeStructure>
+                <LocationOfData>Table 1</LocationOfData>
+                <EpitopeId>148529</EpitopeId>
+                <EpitopeEvidenceCode>Author provided Identifier</EpitopeEvidenceCode>
+                <EpitopeStructureDefines>Epitope containing region/antigenic site</EpitopeStructureDefines>
+                <Assays>
+                    <BCell>
+                        <LocationOfData>Figure 2</LocationOfData>
+                        <BCellId>1848540</BCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>9606</OrganismId>
+                                <GeoLocId>http://purl.obolibrary.org/obo/GAZ_00002845</GeoLocId>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Occurrence of infectious disease</InVivoProcessType>
+                                <DiseaseState>DOID:2945</DiseaseState>
+                                <DiseaseStage>Post</DiseaseStage>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Taxonomic Parent</EpitopeRelation>
+                                    <Object>
+                                        <Organism>
+                                            <SubType>Organism</SubType>
+                                            <SourceOrganismId>694009</SourceOrganismId>
+                                        </Organism>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenEvidenceCode>Representative selection</ImmunogenEvidenceCode>
+                            </FirstInVivoProcess>
+                            <ImmunizationComments>Serum was collected from a SARS convalescent patient.</ImmunizationComments>
+                        </Immunization>
+                        <AssayInformation>
+                            <AssayTypeId>37</AssayTypeId>
+                            <QualitativeMeasurement>Positive-Low</QualitativeMeasurement>
+                            <AssayComments>Serum from a SARS convalescent patient reacted weakly with the epitope.</AssayComments>
+                        </AssayInformation>
+                        <AssayedAntibody>
+                            <AssayedAntibodySourceMaterial>Serum</AssayedAntibodySourceMaterial>
+                            <AssayedAntibodyImmunoglobulinDomain>Entire Antibody</AssayedAntibodyImmunoglobulinDomain>
+                            <AssayedAntibodyPurificationStatus>Polyclonal</AssayedAntibodyPurificationStatus>
+                            <AssayedAntibodyHeavyChainType>IgG</AssayedAntibodyHeavyChainType>
+                        </AssayedAntibody>
+                        <Antigen>
+                            <AntigenReferenceName>S2-GST</AntigenReferenceName>
+                            <AntigenConformation>Non-Native/Unknown</AntigenConformation>
+                            <AntigenObject>
+                                <EpitopeRelation>Epitope</EpitopeRelation>
+                                <Object>
+                                    <FragmentOfANaturalSequenceMolecule>
+                                        <ChemicalType>Peptide from protein</ChemicalType>
+                                        <LinearSequence>KLRPFERDISNV</LinearSequence>
+                                        <StartingPosition>447</StartingPosition>
+                                        <EndingPosition>458</EndingPosition>
+                                        <SourceMolecule>
+                                            <GenBankId>AAP30030.1</GenBankId>
+                                        </SourceMolecule>
+                                        <SourceOrganismId>228407</SourceOrganismId>
+                                    </FragmentOfANaturalSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Exact match to reference information</AntigenEvidenceCode>
+                            <AntigenContainingObject>
+                                <ComplexedMolecule>
+                                    <ComplexType>Protein conjugate</ComplexType>
+                                    <PeptideModifications/>
+                                    <SourceMolecule>
+                                        <IedbAccession>SRC240127</IedbAccession>
+                                    </SourceMolecule>
+                                    <MoleculeSourceOrganismId>562</MoleculeSourceOrganismId>
+                                </ComplexedMolecule>
+                            </AntigenContainingObject>
+                        </Antigen>
+                    </BCell>
+                </Assays>
+                <Assays>
+                    <BCell>
+                        <LocationOfData>Figure 2</LocationOfData>
+                        <BCellId>1848539</BCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>9031</OrganismId>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Administration in vivo</InVivoProcessType>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Source Organism</EpitopeRelation>
+                                    <Object>
+                                        <Organism>
+                                            <SubType>Organism</SubType>
+                                            <SourceOrganismId>228407</SourceOrganismId>
+                                        </Organism>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenEvidenceCode>Exact match to reference information</ImmunogenEvidenceCode>
+                            </FirstInVivoProcess>
+                        </Immunization>
+                        <AssayInformation>
+                            <AssayTypeId>37</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <AssayComments>Sera from a SARS-CoV Strain BJ01-immunized chicken reacted with the epitope.</AssayComments>
+                        </AssayInformation>
+                        <AssayedAntibody>
+                            <AssayedAntibodySourceMaterial>Serum</AssayedAntibodySourceMaterial>
+                            <AssayedAntibodyImmunoglobulinDomain>Entire Antibody</AssayedAntibodyImmunoglobulinDomain>
+                            <AssayedAntibodyPurificationStatus>Polyclonal</AssayedAntibodyPurificationStatus>
+                            <AssayedAntibodyHeavyChainType>IgG</AssayedAntibodyHeavyChainType>
+                        </AssayedAntibody>
+                        <Antigen>
+                            <AntigenReferenceName>S2-GST</AntigenReferenceName>
+                            <AntigenConformation>Non-Native/Unknown</AntigenConformation>
+                            <AntigenObject>
+                                <EpitopeRelation>Epitope</EpitopeRelation>
+                                <Object>
+                                    <FragmentOfANaturalSequenceMolecule>
+                                        <ChemicalType>Peptide from protein</ChemicalType>
+                                        <LinearSequence>KLRPFERDISNV</LinearSequence>
+                                        <StartingPosition>447</StartingPosition>
+                                        <EndingPosition>458</EndingPosition>
+                                        <SourceMolecule>
+                                            <GenBankId>AAP30030.1</GenBankId>
+                                        </SourceMolecule>
+                                        <SourceOrganismId>228407</SourceOrganismId>
+                                    </FragmentOfANaturalSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Exact match to reference information</AntigenEvidenceCode>
+                            <AntigenContainingObject>
+                                <ComplexedMolecule>
+                                    <ComplexType>Protein conjugate</ComplexType>
+                                    <PeptideModifications/>
+                                    <SourceMolecule>
+                                        <IedbAccession>SRC240127</IedbAccession>
+                                    </SourceMolecule>
+                                    <MoleculeSourceOrganismId>562</MoleculeSourceOrganismId>
+                                </ComplexedMolecule>
+                            </AntigenContainingObject>
+                        </Antigen>
+                    </BCell>
+                </Assays>
+            </Epitope>
+            <Epitope>
+                <EpitopeName>S5</EpitopeName>
+                <EpitopeStructure>
+                    <FragmentOfANaturalSequenceMolecule>
+                        <ChemicalType>Peptide from protein</ChemicalType>
+                        <LinearSequence>PDPLKPTKRSF</LinearSequence>
+                        <StartingPosition>789</StartingPosition>
+                        <EndingPosition>799</EndingPosition>
+                        <SourceMolecule>
+                            <GenBankId>AAP30030.1</GenBankId>
+                        </SourceMolecule>
+                        <SourceOrganismId>228407</SourceOrganismId>
+                    </FragmentOfANaturalSequenceMolecule>
+                </EpitopeStructure>
+                <LocationOfData>Table 1</LocationOfData>
+                <EpitopeId>148531</EpitopeId>
+                <EpitopeEvidenceCode>Author provided Identifier</EpitopeEvidenceCode>
+                <EpitopeStructureDefines>Exact Epitope</EpitopeStructureDefines>
+                <Assays>
+                    <BCell>
+                        <LocationOfData>Figure 2</LocationOfData>
+                        <BCellId>1848545</BCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>9031</OrganismId>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Administration in vivo</InVivoProcessType>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Source Organism</EpitopeRelation>
+                                    <Object>
+                                        <Organism>
+                                            <SubType>Organism</SubType>
+                                            <SourceOrganismId>228407</SourceOrganismId>
+                                        </Organism>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenEvidenceCode>Exact match to reference information</ImmunogenEvidenceCode>
+                            </FirstInVivoProcess>
+                        </Immunization>
+                        <AssayInformation>
+                            <AssayTypeId>37</AssayTypeId>
+                            <QualitativeMeasurement>Negative</QualitativeMeasurement>
+                            <AssayComments>Sera from a SARS-CoV Strain BJ01-immunized chicken did not react with the epitope.</AssayComments>
+                        </AssayInformation>
+                        <AssayedAntibody>
+                            <AssayedAntibodySourceMaterial>Serum</AssayedAntibodySourceMaterial>
+                            <AssayedAntibodyImmunoglobulinDomain>Entire Antibody</AssayedAntibodyImmunoglobulinDomain>
+                            <AssayedAntibodyPurificationStatus>Polyclonal</AssayedAntibodyPurificationStatus>
+                            <AssayedAntibodyHeavyChainType>IgG</AssayedAntibodyHeavyChainType>
+                        </AssayedAntibody>
+                        <Antigen>
+                            <AntigenReferenceName>S5-GST</AntigenReferenceName>
+                            <AntigenConformation>Non-Native/Unknown</AntigenConformation>
+                            <AntigenObject>
+                                <EpitopeRelation>Epitope</EpitopeRelation>
+                                <Object>
+                                    <FragmentOfANaturalSequenceMolecule>
+                                        <ChemicalType>Peptide from protein</ChemicalType>
+                                        <LinearSequence>PDPLKPTKRSF</LinearSequence>
+                                        <StartingPosition>789</StartingPosition>
+                                        <EndingPosition>799</EndingPosition>
+                                        <SourceMolecule>
+                                            <GenBankId>AAP30030.1</GenBankId>
+                                        </SourceMolecule>
+                                        <SourceOrganismId>228407</SourceOrganismId>
+                                    </FragmentOfANaturalSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Exact match to reference information</AntigenEvidenceCode>
+                            <AntigenContainingObject>
+                                <ComplexedMolecule>
+                                    <ComplexType>Protein conjugate</ComplexType>
+                                    <PeptideModifications/>
+                                    <SourceMolecule>
+                                        <IedbAccession>SRC240127</IedbAccession>
+                                    </SourceMolecule>
+                                    <MoleculeSourceOrganismId>562</MoleculeSourceOrganismId>
+                                </ComplexedMolecule>
+                            </AntigenContainingObject>
+                        </Antigen>
+                    </BCell>
+                </Assays>
+                <Assays>
+                    <BCell>
+                        <LocationOfData>Figure 2</LocationOfData>
+                        <BCellId>1848546</BCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>9606</OrganismId>
+                                <GeoLocId>http://purl.obolibrary.org/obo/GAZ_00002845</GeoLocId>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Occurrence of infectious disease</InVivoProcessType>
+                                <DiseaseState>DOID:2945</DiseaseState>
+                                <DiseaseStage>Post</DiseaseStage>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Taxonomic Parent</EpitopeRelation>
+                                    <Object>
+                                        <Organism>
+                                            <SubType>Organism</SubType>
+                                            <SourceOrganismId>694009</SourceOrganismId>
+                                        </Organism>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenEvidenceCode>Representative selection</ImmunogenEvidenceCode>
+                            </FirstInVivoProcess>
+                            <ImmunizationComments>Serum was collected from a SARS convalescent patient.</ImmunizationComments>
+                        </Immunization>
+                        <AssayInformation>
+                            <AssayTypeId>37</AssayTypeId>
+                            <QualitativeMeasurement>Negative</QualitativeMeasurement>
+                            <AssayComments>Serum from a SARS convalescent patient did not react with the epitope.</AssayComments>
+                        </AssayInformation>
+                        <AssayedAntibody>
+                            <AssayedAntibodySourceMaterial>Serum</AssayedAntibodySourceMaterial>
+                            <AssayedAntibodyImmunoglobulinDomain>Entire Antibody</AssayedAntibodyImmunoglobulinDomain>
+                            <AssayedAntibodyPurificationStatus>Polyclonal</AssayedAntibodyPurificationStatus>
+                            <AssayedAntibodyHeavyChainType>IgG</AssayedAntibodyHeavyChainType>
+                        </AssayedAntibody>
+                        <Antigen>
+                            <AntigenReferenceName>S5-GST</AntigenReferenceName>
+                            <AntigenConformation>Non-Native/Unknown</AntigenConformation>
+                            <AntigenObject>
+                                <EpitopeRelation>Epitope</EpitopeRelation>
+                                <Object>
+                                    <FragmentOfANaturalSequenceMolecule>
+                                        <ChemicalType>Peptide from protein</ChemicalType>
+                                        <LinearSequence>PDPLKPTKRSF</LinearSequence>
+                                        <StartingPosition>789</StartingPosition>
+                                        <EndingPosition>799</EndingPosition>
+                                        <SourceMolecule>
+                                            <GenBankId>AAP30030.1</GenBankId>
+                                        </SourceMolecule>
+                                        <SourceOrganismId>228407</SourceOrganismId>
+                                    </FragmentOfANaturalSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Exact match to reference information</AntigenEvidenceCode>
+                            <AntigenContainingObject>
+                                <ComplexedMolecule>
+                                    <ComplexType>Protein conjugate</ComplexType>
+                                    <PeptideModifications/>
+                                    <SourceMolecule>
+                                        <IedbAccession>SRC240127</IedbAccession>
+                                    </SourceMolecule>
+                                    <MoleculeSourceOrganismId>562</MoleculeSourceOrganismId>
+                                </ComplexedMolecule>
+                            </AntigenContainingObject>
+                        </Antigen>
+                    </BCell>
+                </Assays>
+            </Epitope>
+            <Epitope>
+                <EpitopeName>S2-1</EpitopeName>
+                <EpitopeStructure>
+                    <FragmentOfANaturalSequenceMolecule>
+                        <ChemicalType>Peptide from protein</ChemicalType>
+                        <LinearSequence>KLRPFERDI</LinearSequence>
+                        <StartingPosition>447</StartingPosition>
+                        <EndingPosition>455</EndingPosition>
+                        <SourceMolecule>
+                            <GenBankId>AAP30030.1</GenBankId>
+                        </SourceMolecule>
+                        <SourceOrganismId>228407</SourceOrganismId>
+                    </FragmentOfANaturalSequenceMolecule>
+                </EpitopeStructure>
+                <LocationOfData>Table 1</LocationOfData>
+                <EpitopeId>32138</EpitopeId>
+                <EpitopeEvidenceCode>Author provided Identifier</EpitopeEvidenceCode>
+                <EpitopeStructureDefines>Exact Epitope</EpitopeStructureDefines>
+                <Assays>
+                    <BCell>
+                        <LocationOfData>Figures 4 and 5</LocationOfData>
+                        <BCellId>1848548</BCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>10000000</OrganismId>
+                                <Sex>F</Sex>
+                                <Age>4-6 weeks</Age>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Administration in vivo</InVivoProcessType>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Epitope</EpitopeRelation>
+                                    <Object>
+                                        <FragmentOfANaturalSequenceMolecule>
+                                            <ChemicalType>Peptide from protein</ChemicalType>
+                                            <LinearSequence>KLRPFERDI</LinearSequence>
+                                            <StartingPosition>447</StartingPosition>
+                                            <EndingPosition>455</EndingPosition>
+                                            <SourceMolecule>
+                                                <GenBankId>AAP30030.1</GenBankId>
+                                            </SourceMolecule>
+                                            <SourceOrganismId>228407</SourceOrganismId>
+                                        </FragmentOfANaturalSequenceMolecule>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenReferenceName>chimeric fusion protein S1-S2-S3-S4-S5-S6</ImmunogenReferenceName>
+                                <ImmunogenEvidenceCode>Exact match to reference information</ImmunogenEvidenceCode>
+                                <ImmunogenContainingObject>
+                                    <ComplexedMolecule>
+                                        <ComplexType>Protein conjugate</ComplexType>
+                                        <PeptideSequence>NTRNIDATSTGNYNGPGKLRPFERDISNVGPGDSVRDPKTSEILGPGAEQ...</PeptideSequence>
+                                        <PeptideModifications/>
+                                        <SourceMolecule>
+                                            <IedbAccession>SRC240127</IedbAccession>
+                                        </SourceMolecule>
+                                        <MoleculeSourceOrganismId>562</MoleculeSourceOrganismId>
+                                    </ComplexedMolecule>
+                                </ImmunogenContainingObject>
+                                <Adjuvant>Freund's complete</Adjuvant>
+                                <DoseSchedule>3 doses of 250 µg, administered at 2-week intervals.</DoseSchedule>
+                            </FirstInVivoProcess>
+                            <ImmunizationComments>Mice were immunized with a multi-epitope chimeric protein containing the epitope and fused to GST to produce epitope-specific mAb.</ImmunizationComments>
+                        </Immunization>
+                        <AssayInformation>
+                            <AssayTypeId>34</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <AssayComments>The epitope-specific mAb reacted with the epitope in ELISA and Western blot.</AssayComments>
+                        </AssayInformation>
+                        <AssayedAntibody>
+                            <AssayedAntibodySourceMaterial>Ascitic Fluid</AssayedAntibodySourceMaterial>
+                            <AssayedAntibodyImmunoglobulinDomain>Entire Antibody</AssayedAntibodyImmunoglobulinDomain>
+                            <AssayedAntibodyPurificationStatus>Monoclonal</AssayedAntibodyPurificationStatus>
+                            <AssayedAntibodyName>D3D1</AssayedAntibodyName>
+                            <AssayedAntibodyHeavyChainType>IgG</AssayedAntibodyHeavyChainType>
+                        </AssayedAntibody>
+                        <Antigen>
+                            <AntigenReferenceName>GST-S2-1</AntigenReferenceName>
+                            <AntigenConformation>Non-Native/Unknown</AntigenConformation>
+                            <AntigenObject>
+                                <EpitopeRelation>Epitope</EpitopeRelation>
+                                <Object>
+                                    <FragmentOfANaturalSequenceMolecule>
+                                        <ChemicalType>Peptide from protein</ChemicalType>
+                                        <LinearSequence>KLRPFERDI</LinearSequence>
+                                        <StartingPosition>447</StartingPosition>
+                                        <EndingPosition>455</EndingPosition>
+                                        <SourceMolecule>
+                                            <GenBankId>AAP30030.1</GenBankId>
+                                        </SourceMolecule>
+                                        <SourceOrganismId>228407</SourceOrganismId>
+                                    </FragmentOfANaturalSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Exact match to reference information</AntigenEvidenceCode>
+                            <AntigenContainingObject>
+                                <ComplexedMolecule>
+                                    <ComplexType>Peptide conjugate</ComplexType>
+                                    <PeptideModifications/>
+                                    <SourceMolecule>
+                                        <IedbAccession>SRC240127</IedbAccession>
+                                    </SourceMolecule>
+                                    <MoleculeSourceOrganismId>562</MoleculeSourceOrganismId>
+                                </ComplexedMolecule>
+                            </AntigenContainingObject>
+                        </Antigen>
+                    </BCell>
+                </Assays>
+                <Assays>
+                    <BCell>
+                        <LocationOfData>Figures 3, 4, and 5</LocationOfData>
+                        <BCellId>1848547</BCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>10000000</OrganismId>
+                                <Sex>F</Sex>
+                                <Age>4-6 weeks</Age>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Administration in vivo</InVivoProcessType>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Epitope</EpitopeRelation>
+                                    <Object>
+                                        <FragmentOfANaturalSequenceMolecule>
+                                            <ChemicalType>Peptide from protein</ChemicalType>
+                                            <LinearSequence>KLRPFERDI</LinearSequence>
+                                            <StartingPosition>447</StartingPosition>
+                                            <EndingPosition>455</EndingPosition>
+                                            <SourceMolecule>
+                                                <GenBankId>AAP30030.1</GenBankId>
+                                            </SourceMolecule>
+                                            <SourceOrganismId>228407</SourceOrganismId>
+                                        </FragmentOfANaturalSequenceMolecule>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenReferenceName>chimeric fusion protein S1-S2-S3-S4-S5-S6</ImmunogenReferenceName>
+                                <ImmunogenEvidenceCode>Exact match to reference information</ImmunogenEvidenceCode>
+                                <ImmunogenContainingObject>
+                                    <ComplexedMolecule>
+                                        <ComplexType>Protein conjugate</ComplexType>
+                                        <PeptideSequence>NTRNIDATSTGNYNGPGKLRPFERDISNVGPGDSVRDPKTSEILGPGAEQ...</PeptideSequence>
+                                        <PeptideModifications/>
+                                        <SourceMolecule>
+                                            <IedbAccession>SRC240127</IedbAccession>
+                                        </SourceMolecule>
+                                        <MoleculeSourceOrganismId>562</MoleculeSourceOrganismId>
+                                    </ComplexedMolecule>
+                                </ImmunogenContainingObject>
+                                <Adjuvant>Freund's complete</Adjuvant>
+                                <DoseSchedule>3 doses of 250 µg, administered at 2-week intervals.</DoseSchedule>
+                            </FirstInVivoProcess>
+                            <ImmunizationComments>Mice were immunized with a multi-epitope chimeric protein containing the epitope and fused to GST to produce epitope-specific mAb.</ImmunizationComments>
+                        </Immunization>
+                        <AssayInformation>
+                            <AssayTypeId>34</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <AssayComments>The epitope-specific mAb reacted with the peptide fragment containing the epitope in Western blot and ELISA.</AssayComments>
+                        </AssayInformation>
+                        <AssayedAntibody>
+                            <AssayedAntibodySourceMaterial>Ascitic Fluid</AssayedAntibodySourceMaterial>
+                            <AssayedAntibodyImmunoglobulinDomain>Entire Antibody</AssayedAntibodyImmunoglobulinDomain>
+                            <AssayedAntibodyPurificationStatus>Monoclonal</AssayedAntibodyPurificationStatus>
+                            <AssayedAntibodyName>D3D1</AssayedAntibodyName>
+                            <AssayedAntibodyHeavyChainType>IgG</AssayedAntibodyHeavyChainType>
+                        </AssayedAntibody>
+                        <Antigen>
+                            <AntigenReferenceName>GST-S2</AntigenReferenceName>
+                            <AntigenConformation>Non-Native/Unknown</AntigenConformation>
+                            <AntigenObject>
+                                <EpitopeRelation>Fragment of Source Antigen</EpitopeRelation>
+                                <Object>
+                                    <FragmentOfANaturalSequenceMolecule>
+                                        <ChemicalType>Peptide from protein</ChemicalType>
+                                        <LinearSequence>KLRPFERDISNV</LinearSequence>
+                                        <StartingPosition>447</StartingPosition>
+                                        <EndingPosition>458</EndingPosition>
+                                        <SourceMolecule>
+                                            <GenBankId>AAP30030.1</GenBankId>
+                                        </SourceMolecule>
+                                        <SourceOrganismId>228407</SourceOrganismId>
+                                    </FragmentOfANaturalSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Exact match to reference information</AntigenEvidenceCode>
+                            <AntigenContainingObject>
+                                <ComplexedMolecule>
+                                    <ComplexType>Peptide conjugate</ComplexType>
+                                    <PeptideModifications/>
+                                    <SourceMolecule>
+                                        <IedbAccession>SRC240127</IedbAccession>
+                                    </SourceMolecule>
+                                    <MoleculeSourceOrganismId>562</MoleculeSourceOrganismId>
+                                </ComplexedMolecule>
+                            </AntigenContainingObject>
+                        </Antigen>
+                    </BCell>
+                </Assays>
+            </Epitope>
+            <Epitope>
+                <EpitopeName>S5-1</EpitopeName>
+                <EpitopeStructure>
+                    <FragmentOfANaturalSequenceMolecule>
+                        <ChemicalType>Peptide from protein</ChemicalType>
+                        <LinearSequence>PDPLKPTKR</LinearSequence>
+                        <StartingPosition>789</StartingPosition>
+                        <EndingPosition>797</EndingPosition>
+                        <SourceMolecule>
+                            <GenBankId>AAP30030.1</GenBankId>
+                        </SourceMolecule>
+                        <SourceOrganismId>228407</SourceOrganismId>
+                    </FragmentOfANaturalSequenceMolecule>
+                </EpitopeStructure>
+                <LocationOfData>Table 1</LocationOfData>
+                <EpitopeId>47157</EpitopeId>
+                <EpitopeEvidenceCode>Author provided Identifier</EpitopeEvidenceCode>
+                <EpitopeStructureDefines>Exact Epitope</EpitopeStructureDefines>
+                <Assays>
+                    <BCell>
+                        <LocationOfData>Figures 3, 4, and 5</LocationOfData>
+                        <BCellId>1848549</BCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>10000000</OrganismId>
+                                <Sex>F</Sex>
+                                <Age>4-6 weeks</Age>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Administration in vivo</InVivoProcessType>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Epitope</EpitopeRelation>
+                                    <Object>
+                                        <FragmentOfANaturalSequenceMolecule>
+                                            <ChemicalType>Peptide from protein</ChemicalType>
+                                            <LinearSequence>PDPLKPTKR</LinearSequence>
+                                            <StartingPosition>789</StartingPosition>
+                                            <EndingPosition>797</EndingPosition>
+                                            <SourceMolecule>
+                                                <GenBankId>AAP30030.1</GenBankId>
+                                            </SourceMolecule>
+                                            <SourceOrganismId>228407</SourceOrganismId>
+                                        </FragmentOfANaturalSequenceMolecule>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenReferenceName>chimeric fusion protein S1-S2-S3-S4-S5-S6</ImmunogenReferenceName>
+                                <ImmunogenEvidenceCode>Exact match to reference information</ImmunogenEvidenceCode>
+                                <ImmunogenContainingObject>
+                                    <ComplexedMolecule>
+                                        <ComplexType>Protein conjugate</ComplexType>
+                                        <PeptideSequence>NTRNIDATSTGNYNGPGKLRPFERDISNVGPGDSVRDPKTSEILGPGAEQ...</PeptideSequence>
+                                        <PeptideModifications/>
+                                        <SourceMolecule>
+                                            <IedbAccession>SRC240127</IedbAccession>
+                                        </SourceMolecule>
+                                        <MoleculeSourceOrganismId>562</MoleculeSourceOrganismId>
+                                    </ComplexedMolecule>
+                                </ImmunogenContainingObject>
+                                <Adjuvant>Freund's complete</Adjuvant>
+                                <DoseSchedule>3 doses of 250 µg, administered at 2-week intervals.</DoseSchedule>
+                            </FirstInVivoProcess>
+                            <ImmunizationComments>Mice were immunized with a multi-epitope chimeric protein containing the epitope and fused to GST to produce epitope-specific mAb.</ImmunizationComments>
+                        </Immunization>
+                        <AssayInformation>
+                            <AssayTypeId>34</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <AssayComments>The epitope-specific mAb reacted with the peptide fragment containing the epitope in Western blot and ELISA.</AssayComments>
+                        </AssayInformation>
+                        <AssayedAntibody>
+                            <AssayedAntibodySourceMaterial>Ascitic Fluid</AssayedAntibodySourceMaterial>
+                            <AssayedAntibodyImmunoglobulinDomain>Entire Antibody</AssayedAntibodyImmunoglobulinDomain>
+                            <AssayedAntibodyPurificationStatus>Monoclonal</AssayedAntibodyPurificationStatus>
+                            <AssayedAntibodyName>D3C5</AssayedAntibodyName>
+                            <AssayedAntibodyHeavyChainType>IgG</AssayedAntibodyHeavyChainType>
+                        </AssayedAntibody>
+                        <Antigen>
+                            <AntigenReferenceName>GST-S5</AntigenReferenceName>
+                            <AntigenConformation>Non-Native/Unknown</AntigenConformation>
+                            <AntigenObject>
+                                <EpitopeRelation>Fragment of Source Antigen</EpitopeRelation>
+                                <Object>
+                                    <FragmentOfANaturalSequenceMolecule>
+                                        <ChemicalType>Peptide from protein</ChemicalType>
+                                        <LinearSequence>PDPLKPTKRSF</LinearSequence>
+                                        <StartingPosition>789</StartingPosition>
+                                        <EndingPosition>799</EndingPosition>
+                                        <SourceMolecule>
+                                            <GenBankId>AAP30030.1</GenBankId>
+                                        </SourceMolecule>
+                                        <SourceOrganismId>228407</SourceOrganismId>
+                                    </FragmentOfANaturalSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Exact match to reference information</AntigenEvidenceCode>
+                            <AntigenContainingObject>
+                                <ComplexedMolecule>
+                                    <ComplexType>Peptide conjugate</ComplexType>
+                                    <PeptideModifications/>
+                                    <SourceMolecule>
+                                        <IedbAccession>SRC240127</IedbAccession>
+                                    </SourceMolecule>
+                                    <MoleculeSourceOrganismId>562</MoleculeSourceOrganismId>
+                                </ComplexedMolecule>
+                            </AntigenContainingObject>
+                        </Antigen>
+                    </BCell>
+                </Assays>
+                <Assays>
+                    <BCell>
+                        <LocationOfData>Figures 4 and 5</LocationOfData>
+                        <BCellId>1848550</BCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>10000000</OrganismId>
+                                <Sex>F</Sex>
+                                <Age>4-6 weeks</Age>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Administration in vivo</InVivoProcessType>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Epitope</EpitopeRelation>
+                                    <Object>
+                                        <FragmentOfANaturalSequenceMolecule>
+                                            <ChemicalType>Peptide from protein</ChemicalType>
+                                            <LinearSequence>PDPLKPTKR</LinearSequence>
+                                            <StartingPosition>789</StartingPosition>
+                                            <EndingPosition>797</EndingPosition>
+                                            <SourceMolecule>
+                                                <GenBankId>AAP30030.1</GenBankId>
+                                            </SourceMolecule>
+                                            <SourceOrganismId>228407</SourceOrganismId>
+                                        </FragmentOfANaturalSequenceMolecule>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenReferenceName>chimeric fusion protein S1-S2-S3-S4-S5-S6</ImmunogenReferenceName>
+                                <ImmunogenEvidenceCode>Exact match to reference information</ImmunogenEvidenceCode>
+                                <ImmunogenContainingObject>
+                                    <ComplexedMolecule>
+                                        <ComplexType>Protein conjugate</ComplexType>
+                                        <PeptideSequence>NTRNIDATSTGNYNGPGKLRPFERDISNVGPGDSVRDPKTSEILGPGAEQ...</PeptideSequence>
+                                        <PeptideModifications/>
+                                        <SourceMolecule>
+                                            <IedbAccession>SRC240127</IedbAccession>
+                                        </SourceMolecule>
+                                        <MoleculeSourceOrganismId>562</MoleculeSourceOrganismId>
+                                    </ComplexedMolecule>
+                                </ImmunogenContainingObject>
+                                <Adjuvant>Freund's complete</Adjuvant>
+                                <DoseSchedule>3 doses of 250 µg, administered at 2-week intervals.</DoseSchedule>
+                            </FirstInVivoProcess>
+                            <ImmunizationComments>Mice were immunized with a multi-epitope chimeric protein containing the epitope and fused to GST to produce epitope-specific mAb.</ImmunizationComments>
+                        </Immunization>
+                        <AssayInformation>
+                            <AssayTypeId>34</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <AssayComments>The epitope-specific mAb reacted with the epitope in ELISA and Western blot.</AssayComments>
+                        </AssayInformation>
+                        <AssayedAntibody>
+                            <AssayedAntibodySourceMaterial>Ascitic Fluid</AssayedAntibodySourceMaterial>
+                            <AssayedAntibodyImmunoglobulinDomain>Entire Antibody</AssayedAntibodyImmunoglobulinDomain>
+                            <AssayedAntibodyPurificationStatus>Monoclonal</AssayedAntibodyPurificationStatus>
+                            <AssayedAntibodyName>D3C5</AssayedAntibodyName>
+                            <AssayedAntibodyHeavyChainType>IgG</AssayedAntibodyHeavyChainType>
+                        </AssayedAntibody>
+                        <Antigen>
+                            <AntigenReferenceName>GST-S5-1</AntigenReferenceName>
+                            <AntigenConformation>Non-Native/Unknown</AntigenConformation>
+                            <AntigenObject>
+                                <EpitopeRelation>Epitope</EpitopeRelation>
+                                <Object>
+                                    <FragmentOfANaturalSequenceMolecule>
+                                        <ChemicalType>Peptide from protein</ChemicalType>
+                                        <LinearSequence>PDPLKPTKR</LinearSequence>
+                                        <StartingPosition>789</StartingPosition>
+                                        <EndingPosition>797</EndingPosition>
+                                        <SourceMolecule>
+                                            <GenBankId>AAP30030.1</GenBankId>
+                                        </SourceMolecule>
+                                        <SourceOrganismId>228407</SourceOrganismId>
+                                    </FragmentOfANaturalSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Exact match to reference information</AntigenEvidenceCode>
+                            <AntigenContainingObject>
+                                <ComplexedMolecule>
+                                    <ComplexType>Peptide conjugate</ComplexType>
+                                    <PeptideModifications/>
+                                    <SourceMolecule>
+                                        <IedbAccession>SRC240127</IedbAccession>
+                                    </SourceMolecule>
+                                    <MoleculeSourceOrganismId>562</MoleculeSourceOrganismId>
+                                </ComplexedMolecule>
+                            </AntigenContainingObject>
+                        </Antigen>
+                    </BCell>
+                </Assays>
+            </Epitope>
+        </Epitopes>
+    </Reference>
+</References>
+

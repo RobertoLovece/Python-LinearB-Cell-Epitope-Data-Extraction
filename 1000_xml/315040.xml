@@ -1,0 +1,2366 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<References xsi:schemaLocation="http://www.iedb.org/schema/CurationSchema http://beta.iedb.org/schema/Curation.xsd" xmlns="http://www.iedb.org/schema/CurationSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <Reference>
+        <ReferenceId>315040</ReferenceId>
+        <DateLastUpdated>2020-09-10-07:00</DateLastUpdated>
+        <Article>
+            <PubmedId>7534214</PubmedId>
+            <Abstract>Structural similarity between viral T cell epitopes and self-peptides could lead to the induction of an autoaggressive T cell response. Based on the structural requirements for both MHC class II binding and TCR recognition of an immunodominant myelin basic protein (MBP) peptide, criteria for a data base search were developed in which the degeneracy of amino acid side chains required for MHC class II binding and the conservation of those required for T cell activation were considered. A panel of 129 peptides that matched the molecular mimicry motif was tested on seven MBP-specific T cell clones from multiple sclerosis patients. Seven viral and one bacterial peptide efficiently activated three of these clones. Only one peptide could have been identified as a molecular mimic by sequence alignment. The observation that a single T cell receptor can recognize quite distinct but structurally related peptides from multiple pathogens has important implications for understanding the pathogenesis of autoimmunity.</Abstract>
+            <ArticleYear>1995</ArticleYear>
+            <ArticlePages>695-705</ArticlePages>
+            <ArticleTitle>Molecular mimicry in T cell-mediated autoimmunity: viral peptides activate human T cell clones specific for myelin basic protein.</ArticleTitle>
+            <Authors>
+                <Author>
+                    <LastName>Wucherpfennig</LastName>
+                    <ForeName>K W</ForeName>
+                </Author>
+                <Author>
+                    <LastName>Strominger</LastName>
+                    <ForeName>J L</ForeName>
+                </Author>
+            </Authors>
+            <Affiliations>Department of Molecular and Cellular Biology, Harvard University, Cambridge, Massachusetts 02138.</Affiliations>
+            <ArticleChemicalList>HLA-D Antigens;Immunodominant Epitopes;Myelin Basic Protein;Peptide Fragments;Peptides;Receptors, Antigen, T-Cell;Viral Proteins</ArticleChemicalList>
+            <ArticleMeshHeadingsList>Amino Acid Sequence; Antigenic Variation; Autoimmunity(immunology); Cell Line, Transformed; Databases, Factual; HLA-D Antigens(metabolism); Humans; Immunodominant Epitopes(chemistry); Lymphocyte Activation; Models, Immunological; Molecular Mimicry(immunology); Molecular Sequence Data; Multiple Sclerosis(immunology); Myelin Basic Protein(immunology); Peptide Fragments(chemistry); Peptides(chemistry; immunology; metabolism); Receptors, Antigen, T-Cell(metabolism); T-Lymphocytes(immunology); Viral Proteins(chemistry; immunology; metabolism)</ArticleMeshHeadingsList>
+            <Comments>Data originally imported from the Database of Functional Molecular Immunology, FIMM (http://sdmc.lit.org.sg:8080/fimm/)</Comments>
+            <Journal>
+                <Volume>80</Volume>
+                <Issue>5</Issue>
+                <Title>Cell</Title>
+                <Issn>1097-4172</Issn>
+                <MedlineTa>Cell</MedlineTa>
+            </Journal>
+        </Article>
+        <Epitopes>
+            <Epitope>
+                <EpitopeName>MBP(85-99)</EpitopeName>
+                <EpitopeStructure>
+                    <FragmentOfANaturalSequenceMolecule>
+                        <ChemicalType>Peptide from protein</ChemicalType>
+                        <LinearSequence>ENPVVHFFKNIVTPR</LinearSequence>
+                        <StartingPosition>84</StartingPosition>
+                        <EndingPosition>98</EndingPosition>
+                        <SourceMolecule>
+                            <GenBankId>AAH08749.3</GenBankId>
+                        </SourceMolecule>
+                        <SourceOrganismId>9606</SourceOrganismId>
+                    </FragmentOfANaturalSequenceMolecule>
+                </EpitopeStructure>
+                <LocationOfData>Table 1</LocationOfData>
+                <EpitopeId>13572</EpitopeId>
+                <ReferenceStartingPosition>85</ReferenceStartingPosition>
+                <ReferenceEndingPosition>99</ReferenceEndingPosition>
+                <EpitopeEvidenceCode>Representative selection</EpitopeEvidenceCode>
+                <EpitopeStructureDefines>Epitope containing region/antigenic site</EpitopeStructureDefines>
+                <Assays>
+                    <TCell>
+                        <LocationOfData>Table 2</LocationOfData>
+                        <TCellId>1689978</TCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>9606</OrganismId>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Occurrence of autoimmune disease</InVivoProcessType>
+                                <DiseaseState>DOID:2377</DiseaseState>
+                                <DiseaseStage>Chronic</DiseaseStage>
+                            </FirstInVivoProcess>
+                            <InVitroAdministration>
+                                <ProcessType>Primary induction in vitro</ProcessType>
+                                <ResponderCellType>PBMC</ResponderCellType>
+                                <StimulatorCellType>PBMC</StimulatorCellType>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Epitope</EpitopeRelation>
+                                    <Object>
+                                        <FragmentOfANaturalSequenceMolecule>
+                                            <ChemicalType>Peptide from protein</ChemicalType>
+                                            <LinearSequence>ENPVVHFFKNIVTPR</LinearSequence>
+                                            <StartingPosition>84</StartingPosition>
+                                            <EndingPosition>98</EndingPosition>
+                                            <SourceMolecule>
+                                                <GenBankId>AAH08749.3</GenBankId>
+                                            </SourceMolecule>
+                                            <SourceOrganismId>9606</SourceOrganismId>
+                                        </FragmentOfANaturalSequenceMolecule>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenEvidenceCode>Exact match to reference information</ImmunogenEvidenceCode>
+                            </InVitroAdministration>
+                            <ImmunizationComments>T cell clones from relapsing-remitting MS patients were generated by 2 rounds of stimulation with MBP protein, then stimulation with the epitope, followed by limiting dilution.</ImmunizationComments>
+                        </Immunization>
+                        <EffectorCells>
+                            <CellTissueType>Blood</CellTissueType>
+                            <CellType>PBMC</CellType>
+                            <CellCultureConditions>Cell Line / Clone</CellCultureConditions>
+                        </EffectorCells>
+                        <AssayedTcrMolecule>
+                            <AssayedTcrMoleculeName>Hy.1B11, Ob.1A12, Ob.1Ce</AssayedTcrMoleculeName>
+                        </AssayedTcrMolecule>
+                        <AntigenPresentingCells>
+                            <CellTissueType>Lymphoid</CellTissueType>
+                            <CellType>B cell</CellType>
+                            <CellCultureConditions>Cell Line / Clone (EBV transformed, B-LCL)</CellCultureConditions>
+                            <AutologousOrSyngeneic>N</AutologousOrSyngeneic>
+                            <SourceOrganismId>9606</SourceOrganismId>
+                        </AntigenPresentingCells>
+                        <MhcAllele>
+                            <MhcAlleleId>84</MhcAlleleId>
+                            <MhcEvidenceCode>T cell assay -Single MHC type present</MhcEvidenceCode>
+                        </MhcAllele>
+                        <Antigen>
+                            <AntigenReferenceName>Human papillomavirus type 7, L2 protein peptide</AntigenReferenceName>
+                            <AntigenObject>
+                                <EpitopeRelation>Structurally Related</EpitopeRelation>
+                                <Object>
+                                    <FragmentOfANaturalSequenceMolecule>
+                                        <ChemicalType>Peptide from protein</ChemicalType>
+                                        <LinearSequence>IGGRVHFFKDISPIA</LinearSequence>
+                                        <StartingPosition>316</StartingPosition>
+                                        <EndingPosition>330</EndingPosition>
+                                        <SourceMolecule>
+                                            <GenBankId>NP_041858.1</GenBankId>
+                                        </SourceMolecule>
+                                        <SourceOrganismId>10620</SourceOrganismId>
+                                    </FragmentOfANaturalSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Exact match to reference information</AntigenEvidenceCode>
+                        </Antigen>
+                        <AssayInformation>
+                            <AssayTypeId>69</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                        </AssayInformation>
+                    </TCell>
+                </Assays>
+                <Assays>
+                    <TCell>
+                        <LocationOfData>Tables 1, 3, and 4, Figures 2 and 3</LocationOfData>
+                        <TCellId>1686217</TCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>9606</OrganismId>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Occurrence of autoimmune disease</InVivoProcessType>
+                                <DiseaseState>DOID:2377</DiseaseState>
+                                <DiseaseStage>Chronic</DiseaseStage>
+                            </FirstInVivoProcess>
+                            <InVitroAdministration>
+                                <ProcessType>Primary induction in vitro</ProcessType>
+                                <ResponderCellType>PBMC</ResponderCellType>
+                                <StimulatorCellType>PBMC</StimulatorCellType>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Epitope</EpitopeRelation>
+                                    <Object>
+                                        <FragmentOfANaturalSequenceMolecule>
+                                            <ChemicalType>Peptide from protein</ChemicalType>
+                                            <LinearSequence>ENPVVHFFKNIVTPR</LinearSequence>
+                                            <StartingPosition>84</StartingPosition>
+                                            <EndingPosition>98</EndingPosition>
+                                            <SourceMolecule>
+                                                <GenBankId>AAH08749.3</GenBankId>
+                                            </SourceMolecule>
+                                            <SourceOrganismId>9606</SourceOrganismId>
+                                        </FragmentOfANaturalSequenceMolecule>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenEvidenceCode>Exact match to reference information</ImmunogenEvidenceCode>
+                            </InVitroAdministration>
+                            <ImmunizationComments>T cell clones from relapsing-remitting MS patients were generated by 2 rounds of stimulation with MBP protein, then stimulation with the epitope, followed by limiting dilution.</ImmunizationComments>
+                        </Immunization>
+                        <EffectorCells>
+                            <CellTissueType>Blood</CellTissueType>
+                            <CellType>PBMC</CellType>
+                            <CellCultureConditions>Cell Line / Clone</CellCultureConditions>
+                        </EffectorCells>
+                        <AssayedTcrMolecule>
+                            <AssayedTcrMoleculeName>Hy.2E11, Hy.1G11</AssayedTcrMoleculeName>
+                        </AssayedTcrMolecule>
+                        <AntigenPresentingCells>
+                            <CellTissueType>Lymphoid</CellTissueType>
+                            <CellType>B cell</CellType>
+                            <CellCultureConditions>Cell Line / Clone (EBV transformed, B-LCL)</CellCultureConditions>
+                            <AutologousOrSyngeneic>N</AutologousOrSyngeneic>
+                            <SourceOrganismId>9606</SourceOrganismId>
+                        </AntigenPresentingCells>
+                        <MhcAllele>
+                            <MhcAlleleId>437</MhcAlleleId>
+                            <MhcEvidenceCode>T cell assay -Single MHC type present</MhcEvidenceCode>
+                        </MhcAllele>
+                        <Antigen>
+                            <AntigenReferenceName>Influenza type A virus peptide</AntigenReferenceName>
+                            <AntigenObject>
+                                <EpitopeRelation>Structurally Related</EpitopeRelation>
+                                <Object>
+                                    <FragmentOfANaturalSequenceMolecule>
+                                        <ChemicalType>Peptide from protein</ChemicalType>
+                                        <LinearSequence>YRNLVWFIKKNTRYP</LinearSequence>
+                                        <StartingPosition>161</StartingPosition>
+                                        <EndingPosition>175</EndingPosition>
+                                        <SourceMolecule>
+                                            <GenBankId>BAA14338.1</GenBankId>
+                                        </SourceMolecule>
+                                        <SourceOrganismId>11320</SourceOrganismId>
+                                    </FragmentOfANaturalSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Exact match to reference information</AntigenEvidenceCode>
+                        </Antigen>
+                        <AssayInformation>
+                            <AssayTypeId>69</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <AssayComments>Mutational analysis revealed that residue S13 of the influenza A peptide is critical for recognition by the epitope-specific T cell clone.</AssayComments>
+                        </AssayInformation>
+                    </TCell>
+                </Assays>
+                <Assays>
+                    <TCell>
+                        <LocationOfData>Table 1 and Figure 2</LocationOfData>
+                        <TCellId>1686218</TCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>9606</OrganismId>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Occurrence of autoimmune disease</InVivoProcessType>
+                                <DiseaseState>DOID:2377</DiseaseState>
+                                <DiseaseStage>Chronic</DiseaseStage>
+                            </FirstInVivoProcess>
+                            <InVitroAdministration>
+                                <ProcessType>Primary induction in vitro</ProcessType>
+                                <ResponderCellType>PBMC</ResponderCellType>
+                                <StimulatorCellType>PBMC</StimulatorCellType>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Epitope</EpitopeRelation>
+                                    <Object>
+                                        <FragmentOfANaturalSequenceMolecule>
+                                            <ChemicalType>Peptide from protein</ChemicalType>
+                                            <LinearSequence>ENPVVHFFKNIVTPR</LinearSequence>
+                                            <StartingPosition>84</StartingPosition>
+                                            <EndingPosition>98</EndingPosition>
+                                            <SourceMolecule>
+                                                <GenBankId>AAH08749.3</GenBankId>
+                                            </SourceMolecule>
+                                            <SourceOrganismId>9606</SourceOrganismId>
+                                        </FragmentOfANaturalSequenceMolecule>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenEvidenceCode>Exact match to reference information</ImmunogenEvidenceCode>
+                            </InVitroAdministration>
+                            <ImmunizationComments>T cell clones from relapsing-remitting MS patients were generated by 2 rounds of stimulation with MBP protein, then stimulation with the epitope, followed by limiting dilution.</ImmunizationComments>
+                        </Immunization>
+                        <EffectorCells>
+                            <CellTissueType>Blood</CellTissueType>
+                            <CellType>PBMC</CellType>
+                            <CellCultureConditions>Cell Line / Clone</CellCultureConditions>
+                        </EffectorCells>
+                        <AssayedTcrMolecule>
+                            <AssayedTcrMoleculeName>Hy.1B11, Ob.1A12, Ob.1Ce</AssayedTcrMoleculeName>
+                        </AssayedTcrMolecule>
+                        <AntigenPresentingCells>
+                            <CellTissueType>Lymphoid</CellTissueType>
+                            <CellType>B cell</CellType>
+                            <CellCultureConditions>Cell Line / Clone (EBV transformed, B-LCL)</CellCultureConditions>
+                            <AutologousOrSyngeneic>N</AutologousOrSyngeneic>
+                            <SourceOrganismId>9606</SourceOrganismId>
+                        </AntigenPresentingCells>
+                        <MhcAllele>
+                            <MhcAlleleId>84</MhcAlleleId>
+                            <MhcEvidenceCode>T cell assay -Single MHC type present</MhcEvidenceCode>
+                        </MhcAllele>
+                        <Antigen>
+                            <AntigenReferenceName>Pseudomonas aeruginosa peptide</AntigenReferenceName>
+                            <AntigenObject>
+                                <EpitopeRelation>Structurally Related</EpitopeRelation>
+                                <Object>
+                                    <FragmentOfANaturalSequenceMolecule>
+                                        <ChemicalType>Peptide from protein</ChemicalType>
+                                        <LinearSequence>DRLLMLFAKDVVSRN</LinearSequence>
+                                        <StartingPosition>261</StartingPosition>
+                                        <EndingPosition>275</EndingPosition>
+                                        <SourceMolecule>
+                                            <GenBankId>AAA25701.1</GenBankId>
+                                        </SourceMolecule>
+                                        <SourceOrganismId>287</SourceOrganismId>
+                                    </FragmentOfANaturalSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Exact match to reference information</AntigenEvidenceCode>
+                        </Antigen>
+                        <AssayInformation>
+                            <AssayTypeId>69</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                        </AssayInformation>
+                    </TCell>
+                </Assays>
+                <Assays>
+                    <TCell>
+                        <LocationOfData>Figure 3</LocationOfData>
+                        <TCellId>1686228</TCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>9606</OrganismId>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Occurrence of autoimmune disease</InVivoProcessType>
+                                <DiseaseState>DOID:2377</DiseaseState>
+                                <DiseaseStage>Chronic</DiseaseStage>
+                            </FirstInVivoProcess>
+                            <InVitroAdministration>
+                                <ProcessType>Primary induction in vitro</ProcessType>
+                                <ResponderCellType>PBMC</ResponderCellType>
+                                <StimulatorCellType>PBMC</StimulatorCellType>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Epitope</EpitopeRelation>
+                                    <Object>
+                                        <FragmentOfANaturalSequenceMolecule>
+                                            <ChemicalType>Peptide from protein</ChemicalType>
+                                            <LinearSequence>ENPVVHFFKNIVTPR</LinearSequence>
+                                            <StartingPosition>84</StartingPosition>
+                                            <EndingPosition>98</EndingPosition>
+                                            <SourceMolecule>
+                                                <GenBankId>AAH08749.3</GenBankId>
+                                            </SourceMolecule>
+                                            <SourceOrganismId>9606</SourceOrganismId>
+                                        </FragmentOfANaturalSequenceMolecule>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenEvidenceCode>Exact match to reference information</ImmunogenEvidenceCode>
+                            </InVitroAdministration>
+                            <ImmunizationComments>T cell clones from relapsing-remitting MS patients were generated by 2 rounds of stimulation with MBP protein, then stimulation with the epitope, followed by limiting dilution.</ImmunizationComments>
+                        </Immunization>
+                        <EffectorCells>
+                            <CellTissueType>Blood</CellTissueType>
+                            <CellType>PBMC</CellType>
+                            <CellCultureConditions>Cell Line / Clone</CellCultureConditions>
+                        </EffectorCells>
+                        <AssayedTcrMolecule>
+                            <AssayedTcrMoleculeName>Hy.2E11, Hy.1G11</AssayedTcrMoleculeName>
+                        </AssayedTcrMolecule>
+                        <AntigenPresentingCells>
+                            <CellTissueType>Lymphoid</CellTissueType>
+                            <CellType>B cell</CellType>
+                            <CellCultureConditions>Cell Line / Clone (EBV transformed, B-LCL)</CellCultureConditions>
+                            <AutologousOrSyngeneic>N</AutologousOrSyngeneic>
+                            <SourceOrganismId>9606</SourceOrganismId>
+                        </AntigenPresentingCells>
+                        <MhcAllele>
+                            <MhcAlleleId>339</MhcAlleleId>
+                            <MhcEvidenceCode>T cell assay -Single MHC type present</MhcEvidenceCode>
+                        </MhcAllele>
+                        <Antigen>
+                            <AntigenReferenceName>EBV</AntigenReferenceName>
+                            <AntigenObject>
+                                <EpitopeRelation>Structurally Related</EpitopeRelation>
+                                <Object>
+                                    <Organism>
+                                        <SubType>Organism</SubType>
+                                        <SourceOrganismId>10376</SourceOrganismId>
+                                    </Organism>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Representative selection</AntigenEvidenceCode>
+                        </Antigen>
+                        <AssayInformation>
+                            <AssayTypeId>69</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <AssayComments>The epitope-specific T cell clone recognized EBV-transformed B cells that had been treated with phorbol ester.</AssayComments>
+                        </AssayInformation>
+                    </TCell>
+                </Assays>
+                <Assays>
+                    <TCell>
+                        <LocationOfData>Tables 1 and 4, Figures 2 and 3</LocationOfData>
+                        <TCellId>1686214</TCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>9606</OrganismId>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Occurrence of autoimmune disease</InVivoProcessType>
+                                <DiseaseState>DOID:2377</DiseaseState>
+                                <DiseaseStage>Chronic</DiseaseStage>
+                            </FirstInVivoProcess>
+                            <InVitroAdministration>
+                                <ProcessType>Primary induction in vitro</ProcessType>
+                                <ResponderCellType>PBMC</ResponderCellType>
+                                <StimulatorCellType>PBMC</StimulatorCellType>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Epitope</EpitopeRelation>
+                                    <Object>
+                                        <FragmentOfANaturalSequenceMolecule>
+                                            <ChemicalType>Peptide from protein</ChemicalType>
+                                            <LinearSequence>ENPVVHFFKNIVTPR</LinearSequence>
+                                            <StartingPosition>84</StartingPosition>
+                                            <EndingPosition>98</EndingPosition>
+                                            <SourceMolecule>
+                                                <GenBankId>AAH08749.3</GenBankId>
+                                            </SourceMolecule>
+                                            <SourceOrganismId>9606</SourceOrganismId>
+                                        </FragmentOfANaturalSequenceMolecule>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenEvidenceCode>Exact match to reference information</ImmunogenEvidenceCode>
+                            </InVitroAdministration>
+                            <ImmunizationComments>T cell clones from relapsing-remitting MS patients were generated by 2 rounds of stimulation with MBP protein, then stimulation with the epitope, followed by limiting dilution.</ImmunizationComments>
+                        </Immunization>
+                        <EffectorCells>
+                            <CellTissueType>Blood</CellTissueType>
+                            <CellType>PBMC</CellType>
+                            <CellCultureConditions>Cell Line / Clone</CellCultureConditions>
+                        </EffectorCells>
+                        <AssayedTcrMolecule>
+                            <AssayedTcrMoleculeName>Hy.2E11, Hy.1G11</AssayedTcrMoleculeName>
+                        </AssayedTcrMolecule>
+                        <AntigenPresentingCells>
+                            <CellTissueType>Lymphoid</CellTissueType>
+                            <CellType>B cell</CellType>
+                            <CellCultureConditions>Cell Line / Clone (EBV transformed, B-LCL)</CellCultureConditions>
+                            <AutologousOrSyngeneic>N</AutologousOrSyngeneic>
+                            <SourceOrganismId>9606</SourceOrganismId>
+                        </AntigenPresentingCells>
+                        <MhcAllele>
+                            <MhcAlleleId>356</MhcAlleleId>
+                            <MhcEvidenceCode>T cell assay -Single MHC type present</MhcEvidenceCode>
+                        </MhcAllele>
+                        <Antigen>
+                            <AntigenReferenceName>Epstein-Barr virus peptide</AntigenReferenceName>
+                            <AntigenObject>
+                                <EpitopeRelation>Structurally Related</EpitopeRelation>
+                                <Object>
+                                    <FragmentOfANaturalSequenceMolecule>
+                                        <ChemicalType>Peptide from protein</ChemicalType>
+                                        <LinearSequence>TGGVYHFVKKHVHES</LinearSequence>
+                                        <StartingPosition>627</StartingPosition>
+                                        <EndingPosition>641</EndingPosition>
+                                        <SourceMolecule>
+                                            <GenBankId>CAD53462.1</GenBankId>
+                                        </SourceMolecule>
+                                        <SourceOrganismId>10376</SourceOrganismId>
+                                    </FragmentOfANaturalSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Exact match to reference information</AntigenEvidenceCode>
+                        </Antigen>
+                        <AssayInformation>
+                            <AssayTypeId>69</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                        </AssayInformation>
+                    </TCell>
+                </Assays>
+                <Assays>
+                    <TCell>
+                        <LocationOfData>Tables 1, 3, and 4, Figures 2 and 3</LocationOfData>
+                        <TCellId>1686210</TCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>9606</OrganismId>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Occurrence of autoimmune disease</InVivoProcessType>
+                                <DiseaseState>DOID:2377</DiseaseState>
+                                <DiseaseStage>Chronic</DiseaseStage>
+                            </FirstInVivoProcess>
+                            <InVitroAdministration>
+                                <ProcessType>Primary induction in vitro</ProcessType>
+                                <ResponderCellType>PBMC</ResponderCellType>
+                                <StimulatorCellType>PBMC</StimulatorCellType>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Epitope</EpitopeRelation>
+                                    <Object>
+                                        <FragmentOfANaturalSequenceMolecule>
+                                            <ChemicalType>Peptide from protein</ChemicalType>
+                                            <LinearSequence>ENPVVHFFKNIVTPR</LinearSequence>
+                                            <StartingPosition>84</StartingPosition>
+                                            <EndingPosition>98</EndingPosition>
+                                            <SourceMolecule>
+                                                <GenBankId>AAH08749.3</GenBankId>
+                                            </SourceMolecule>
+                                            <SourceOrganismId>9606</SourceOrganismId>
+                                        </FragmentOfANaturalSequenceMolecule>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenEvidenceCode>Exact match to reference information</ImmunogenEvidenceCode>
+                            </InVitroAdministration>
+                            <ImmunizationComments>T cell clones from relapsing-remitting MS patients were generated by 2 rounds of stimulation with MBP protein, then stimulation with the epitope, followed by limiting dilution.</ImmunizationComments>
+                        </Immunization>
+                        <EffectorCells>
+                            <CellTissueType>Blood</CellTissueType>
+                            <CellType>PBMC</CellType>
+                            <CellCultureConditions>Cell Line / Clone</CellCultureConditions>
+                        </EffectorCells>
+                        <AssayedTcrMolecule>
+                            <AssayedTcrMoleculeName>Hy.2E11, Hy.1G11</AssayedTcrMoleculeName>
+                        </AssayedTcrMolecule>
+                        <AntigenPresentingCells>
+                            <CellTissueType>Lymphoid</CellTissueType>
+                            <CellType>B cell</CellType>
+                            <CellCultureConditions>Cell Line / Clone (EBV transformed, B-LCL)</CellCultureConditions>
+                            <AutologousOrSyngeneic>N</AutologousOrSyngeneic>
+                            <SourceOrganismId>9606</SourceOrganismId>
+                        </AntigenPresentingCells>
+                        <MhcAllele>
+                            <MhcAlleleId>356</MhcAlleleId>
+                            <MhcEvidenceCode>T cell assay -Single MHC type present</MhcEvidenceCode>
+                        </MhcAllele>
+                        <Antigen>
+                            <AntigenObject>
+                                <EpitopeRelation>Epitope</EpitopeRelation>
+                                <Object>
+                                    <FragmentOfANaturalSequenceMolecule>
+                                        <ChemicalType>Peptide from protein</ChemicalType>
+                                        <LinearSequence>ENPVVHFFKNIVTPR</LinearSequence>
+                                        <StartingPosition>84</StartingPosition>
+                                        <EndingPosition>98</EndingPosition>
+                                        <SourceMolecule>
+                                            <GenBankId>AAH08749.3</GenBankId>
+                                        </SourceMolecule>
+                                        <SourceOrganismId>9606</SourceOrganismId>
+                                    </FragmentOfANaturalSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Exact match to reference information</AntigenEvidenceCode>
+                        </Antigen>
+                        <AssayInformation>
+                            <AssayTypeId>69</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                        </AssayInformation>
+                    </TCell>
+                </Assays>
+                <Assays>
+                    <TCell>
+                        <LocationOfData>Table 1 and Figure 2</LocationOfData>
+                        <TCellId>1686211</TCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>9606</OrganismId>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Occurrence of autoimmune disease</InVivoProcessType>
+                                <DiseaseState>DOID:2377</DiseaseState>
+                                <DiseaseStage>Chronic</DiseaseStage>
+                            </FirstInVivoProcess>
+                            <InVitroAdministration>
+                                <ProcessType>Primary induction in vitro</ProcessType>
+                                <ResponderCellType>PBMC</ResponderCellType>
+                                <StimulatorCellType>PBMC</StimulatorCellType>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Epitope</EpitopeRelation>
+                                    <Object>
+                                        <FragmentOfANaturalSequenceMolecule>
+                                            <ChemicalType>Peptide from protein</ChemicalType>
+                                            <LinearSequence>ENPVVHFFKNIVTPR</LinearSequence>
+                                            <StartingPosition>84</StartingPosition>
+                                            <EndingPosition>98</EndingPosition>
+                                            <SourceMolecule>
+                                                <GenBankId>AAH08749.3</GenBankId>
+                                            </SourceMolecule>
+                                            <SourceOrganismId>9606</SourceOrganismId>
+                                        </FragmentOfANaturalSequenceMolecule>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenEvidenceCode>Exact match to reference information</ImmunogenEvidenceCode>
+                            </InVitroAdministration>
+                            <ImmunizationComments>T cell clones from relapsing-remitting MS patients were generated by 2 rounds of stimulation with MBP protein, then stimulation with the epitope, followed by limiting dilution.</ImmunizationComments>
+                        </Immunization>
+                        <EffectorCells>
+                            <CellTissueType>Blood</CellTissueType>
+                            <CellType>PBMC</CellType>
+                            <CellCultureConditions>Cell Line / Clone</CellCultureConditions>
+                        </EffectorCells>
+                        <AssayedTcrMolecule>
+                            <AssayedTcrMoleculeName>Hy.1B11, Ob.1A12, Ob.1Ce</AssayedTcrMoleculeName>
+                        </AssayedTcrMolecule>
+                        <AntigenPresentingCells>
+                            <CellTissueType>Lymphoid</CellTissueType>
+                            <CellType>B cell</CellType>
+                            <CellCultureConditions>Cell Line / Clone (EBV transformed, B-LCL)</CellCultureConditions>
+                            <AutologousOrSyngeneic>N</AutologousOrSyngeneic>
+                            <SourceOrganismId>9606</SourceOrganismId>
+                        </AntigenPresentingCells>
+                        <MhcAllele>
+                            <MhcAlleleId>84</MhcAlleleId>
+                            <MhcEvidenceCode>T cell assay -Single MHC type present</MhcEvidenceCode>
+                        </MhcAllele>
+                        <Antigen>
+                            <AntigenReferenceName>Herpes simplex virus peptide</AntigenReferenceName>
+                            <AntigenObject>
+                                <EpitopeRelation>Structurally Related</EpitopeRelation>
+                                <Object>
+                                    <FragmentOfANaturalSequenceMolecule>
+                                        <ChemicalType>Peptide from protein</ChemicalType>
+                                        <LinearSequence>FRQLVHFVRDFAQLL</LinearSequence>
+                                        <StartingPosition>153</StartingPosition>
+                                        <EndingPosition>167</EndingPosition>
+                                        <SourceMolecule>
+                                            <GenBankId>ABI63477.1</GenBankId>
+                                        </SourceMolecule>
+                                        <SourceOrganismId>10298</SourceOrganismId>
+                                    </FragmentOfANaturalSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Exact match to reference information</AntigenEvidenceCode>
+                        </Antigen>
+                        <AssayInformation>
+                            <AssayTypeId>69</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                        </AssayInformation>
+                    </TCell>
+                </Assays>
+                <Assays>
+                    <TCell>
+                        <LocationOfData>Tables 1 and 4, Figures 2 and 3</LocationOfData>
+                        <TCellId>1686213</TCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>9606</OrganismId>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Occurrence of autoimmune disease</InVivoProcessType>
+                                <DiseaseState>DOID:2377</DiseaseState>
+                                <DiseaseStage>Chronic</DiseaseStage>
+                            </FirstInVivoProcess>
+                            <InVitroAdministration>
+                                <ProcessType>Primary induction in vitro</ProcessType>
+                                <ResponderCellType>PBMC</ResponderCellType>
+                                <StimulatorCellType>PBMC</StimulatorCellType>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Epitope</EpitopeRelation>
+                                    <Object>
+                                        <FragmentOfANaturalSequenceMolecule>
+                                            <ChemicalType>Peptide from protein</ChemicalType>
+                                            <LinearSequence>ENPVVHFFKNIVTPR</LinearSequence>
+                                            <StartingPosition>84</StartingPosition>
+                                            <EndingPosition>98</EndingPosition>
+                                            <SourceMolecule>
+                                                <GenBankId>AAH08749.3</GenBankId>
+                                            </SourceMolecule>
+                                            <SourceOrganismId>9606</SourceOrganismId>
+                                        </FragmentOfANaturalSequenceMolecule>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenEvidenceCode>Exact match to reference information</ImmunogenEvidenceCode>
+                            </InVitroAdministration>
+                            <ImmunizationComments>T cell clones from relapsing-remitting MS patients were generated by 2 rounds of stimulation with MBP protein, then stimulation with the epitope, followed by limiting dilution.</ImmunizationComments>
+                        </Immunization>
+                        <EffectorCells>
+                            <CellTissueType>Blood</CellTissueType>
+                            <CellType>PBMC</CellType>
+                            <CellCultureConditions>Cell Line / Clone</CellCultureConditions>
+                        </EffectorCells>
+                        <AssayedTcrMolecule>
+                            <AssayedTcrMoleculeName>Hy.2E11, Hy.1G11</AssayedTcrMoleculeName>
+                        </AssayedTcrMolecule>
+                        <AntigenPresentingCells>
+                            <CellTissueType>Lymphoid</CellTissueType>
+                            <CellType>B cell</CellType>
+                            <CellCultureConditions>Cell Line / Clone (EBV transformed, B-LCL)</CellCultureConditions>
+                            <AutologousOrSyngeneic>N</AutologousOrSyngeneic>
+                            <SourceOrganismId>9606</SourceOrganismId>
+                        </AntigenPresentingCells>
+                        <MhcAllele>
+                            <MhcAlleleId>437</MhcAlleleId>
+                            <MhcEvidenceCode>T cell assay -Single MHC type present</MhcEvidenceCode>
+                        </MhcAllele>
+                        <Antigen>
+                            <AntigenReferenceName>Epstein-Barr virus peptide</AntigenReferenceName>
+                            <AntigenObject>
+                                <EpitopeRelation>Structurally Related</EpitopeRelation>
+                                <Object>
+                                    <FragmentOfANaturalSequenceMolecule>
+                                        <ChemicalType>Peptide from protein</ChemicalType>
+                                        <LinearSequence>TGGVYHFVKKHVHES</LinearSequence>
+                                        <StartingPosition>627</StartingPosition>
+                                        <EndingPosition>641</EndingPosition>
+                                        <SourceMolecule>
+                                            <GenBankId>CAD53462.1</GenBankId>
+                                        </SourceMolecule>
+                                        <SourceOrganismId>10376</SourceOrganismId>
+                                    </FragmentOfANaturalSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Exact match to reference information</AntigenEvidenceCode>
+                        </Antigen>
+                        <AssayInformation>
+                            <AssayTypeId>69</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                        </AssayInformation>
+                    </TCell>
+                </Assays>
+                <Assays>
+                    <TCell>
+                        <LocationOfData>Table 1 and Figure 2</LocationOfData>
+                        <TCellId>1686215</TCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>9606</OrganismId>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Occurrence of autoimmune disease</InVivoProcessType>
+                                <DiseaseState>DOID:2377</DiseaseState>
+                                <DiseaseStage>Chronic</DiseaseStage>
+                            </FirstInVivoProcess>
+                            <InVitroAdministration>
+                                <ProcessType>Primary induction in vitro</ProcessType>
+                                <ResponderCellType>PBMC</ResponderCellType>
+                                <StimulatorCellType>PBMC</StimulatorCellType>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Epitope</EpitopeRelation>
+                                    <Object>
+                                        <FragmentOfANaturalSequenceMolecule>
+                                            <ChemicalType>Peptide from protein</ChemicalType>
+                                            <LinearSequence>ENPVVHFFKNIVTPR</LinearSequence>
+                                            <StartingPosition>84</StartingPosition>
+                                            <EndingPosition>98</EndingPosition>
+                                            <SourceMolecule>
+                                                <GenBankId>AAH08749.3</GenBankId>
+                                            </SourceMolecule>
+                                            <SourceOrganismId>9606</SourceOrganismId>
+                                        </FragmentOfANaturalSequenceMolecule>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenEvidenceCode>Exact match to reference information</ImmunogenEvidenceCode>
+                            </InVitroAdministration>
+                            <ImmunizationComments>T cell clones from relapsing-remitting MS patients were generated by 2 rounds of stimulation with MBP protein, then stimulation with the epitope, followed by limiting dilution.</ImmunizationComments>
+                        </Immunization>
+                        <EffectorCells>
+                            <CellTissueType>Blood</CellTissueType>
+                            <CellType>PBMC</CellType>
+                            <CellCultureConditions>Cell Line / Clone</CellCultureConditions>
+                        </EffectorCells>
+                        <AssayedTcrMolecule>
+                            <AssayedTcrMoleculeName>Hy.1B11, Ob.1A12, Ob.1Ce</AssayedTcrMoleculeName>
+                        </AssayedTcrMolecule>
+                        <AntigenPresentingCells>
+                            <CellTissueType>Lymphoid</CellTissueType>
+                            <CellType>B cell</CellType>
+                            <CellCultureConditions>Cell Line / Clone (EBV transformed, B-LCL)</CellCultureConditions>
+                            <AutologousOrSyngeneic>N</AutologousOrSyngeneic>
+                            <SourceOrganismId>9606</SourceOrganismId>
+                        </AntigenPresentingCells>
+                        <MhcAllele>
+                            <MhcAlleleId>84</MhcAlleleId>
+                            <MhcEvidenceCode>T cell assay -Single MHC type present</MhcEvidenceCode>
+                        </MhcAllele>
+                        <Antigen>
+                            <AntigenReferenceName>Adenovirus type peptide</AntigenReferenceName>
+                            <AntigenObject>
+                                <EpitopeRelation>Structurally Related</EpitopeRelation>
+                                <Object>
+                                    <FragmentOfANaturalSequenceMolecule>
+                                        <ChemicalType>Peptide from protein</ChemicalType>
+                                        <LinearSequence>DFEVVTFLKDVLPEF</LinearSequence>
+                                        <StartingPosition>25</StartingPosition>
+                                        <EndingPosition>39</EndingPosition>
+                                        <SourceMolecule>
+                                            <GenBankId>S10863</GenBankId>
+                                        </SourceMolecule>
+                                        <SourceOrganismId>28282</SourceOrganismId>
+                                    </FragmentOfANaturalSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Exact match to reference information</AntigenEvidenceCode>
+                        </Antigen>
+                        <AssayInformation>
+                            <AssayTypeId>69</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                        </AssayInformation>
+                    </TCell>
+                </Assays>
+                <Assays>
+                    <TCell>
+                        <LocationOfData>Tables 1, 3, and 4, Figures 2 and 3</LocationOfData>
+                        <TCellId>1686216</TCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>9606</OrganismId>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Occurrence of autoimmune disease</InVivoProcessType>
+                                <DiseaseState>DOID:2377</DiseaseState>
+                                <DiseaseStage>Chronic</DiseaseStage>
+                            </FirstInVivoProcess>
+                            <InVitroAdministration>
+                                <ProcessType>Primary induction in vitro</ProcessType>
+                                <ResponderCellType>PBMC</ResponderCellType>
+                                <StimulatorCellType>PBMC</StimulatorCellType>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Epitope</EpitopeRelation>
+                                    <Object>
+                                        <FragmentOfANaturalSequenceMolecule>
+                                            <ChemicalType>Peptide from protein</ChemicalType>
+                                            <LinearSequence>ENPVVHFFKNIVTPR</LinearSequence>
+                                            <StartingPosition>84</StartingPosition>
+                                            <EndingPosition>98</EndingPosition>
+                                            <SourceMolecule>
+                                                <GenBankId>AAH08749.3</GenBankId>
+                                            </SourceMolecule>
+                                            <SourceOrganismId>9606</SourceOrganismId>
+                                        </FragmentOfANaturalSequenceMolecule>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenEvidenceCode>Exact match to reference information</ImmunogenEvidenceCode>
+                            </InVitroAdministration>
+                            <ImmunizationComments>T cell clones from relapsing-remitting MS patients were generated by 2 rounds of stimulation with MBP protein, then stimulation with the epitope, followed by limiting dilution.</ImmunizationComments>
+                        </Immunization>
+                        <EffectorCells>
+                            <CellTissueType>Blood</CellTissueType>
+                            <CellType>PBMC</CellType>
+                            <CellCultureConditions>Cell Line / Clone</CellCultureConditions>
+                        </EffectorCells>
+                        <AssayedTcrMolecule>
+                            <AssayedTcrMoleculeName>Hy.2E11, Hy.1G11</AssayedTcrMoleculeName>
+                        </AssayedTcrMolecule>
+                        <AntigenPresentingCells>
+                            <CellTissueType>Lymphoid</CellTissueType>
+                            <CellType>B cell</CellType>
+                            <CellCultureConditions>Cell Line / Clone (EBV transformed, B-LCL)</CellCultureConditions>
+                            <AutologousOrSyngeneic>N</AutologousOrSyngeneic>
+                            <SourceOrganismId>9606</SourceOrganismId>
+                        </AntigenPresentingCells>
+                        <MhcAllele>
+                            <MhcAlleleId>436</MhcAlleleId>
+                            <MhcEvidenceCode>T cell assay -Single MHC type present</MhcEvidenceCode>
+                        </MhcAllele>
+                        <Antigen>
+                            <AntigenReferenceName>Influenza type A virus peptide</AntigenReferenceName>
+                            <AntigenObject>
+                                <EpitopeRelation>Structurally Related</EpitopeRelation>
+                                <Object>
+                                    <FragmentOfANaturalSequenceMolecule>
+                                        <ChemicalType>Peptide from protein</ChemicalType>
+                                        <LinearSequence>YRNLVWFIKKNTRYP</LinearSequence>
+                                        <StartingPosition>161</StartingPosition>
+                                        <EndingPosition>175</EndingPosition>
+                                        <SourceMolecule>
+                                            <GenBankId>BAA14338.1</GenBankId>
+                                        </SourceMolecule>
+                                        <SourceOrganismId>11320</SourceOrganismId>
+                                    </FragmentOfANaturalSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Exact match to reference information</AntigenEvidenceCode>
+                        </Antigen>
+                        <AssayInformation>
+                            <AssayTypeId>69</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <AssayComments>Mutational analysis revealed that residue S13 of the influenza A peptide is critical for recognition by the epitope-specific T cell clone.</AssayComments>
+                        </AssayInformation>
+                    </TCell>
+                </Assays>
+                <Assays>
+                    <TCell>
+                        <LocationOfData>Tables 1, 3, and 4, Figures 2 and 3</LocationOfData>
+                        <TCellId>1686209</TCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>9606</OrganismId>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Occurrence of autoimmune disease</InVivoProcessType>
+                                <DiseaseState>DOID:2377</DiseaseState>
+                                <DiseaseStage>Chronic</DiseaseStage>
+                            </FirstInVivoProcess>
+                            <InVitroAdministration>
+                                <ProcessType>Primary induction in vitro</ProcessType>
+                                <ResponderCellType>PBMC</ResponderCellType>
+                                <StimulatorCellType>PBMC</StimulatorCellType>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Epitope</EpitopeRelation>
+                                    <Object>
+                                        <FragmentOfANaturalSequenceMolecule>
+                                            <ChemicalType>Peptide from protein</ChemicalType>
+                                            <LinearSequence>ENPVVHFFKNIVTPR</LinearSequence>
+                                            <StartingPosition>84</StartingPosition>
+                                            <EndingPosition>98</EndingPosition>
+                                            <SourceMolecule>
+                                                <GenBankId>AAH08749.3</GenBankId>
+                                            </SourceMolecule>
+                                            <SourceOrganismId>9606</SourceOrganismId>
+                                        </FragmentOfANaturalSequenceMolecule>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenEvidenceCode>Exact match to reference information</ImmunogenEvidenceCode>
+                            </InVitroAdministration>
+                            <ImmunizationComments>T cell clones from relapsing-remitting MS patients were generated by 2 rounds of stimulation with MBP protein, then stimulation with the epitope, followed by limiting dilution.</ImmunizationComments>
+                        </Immunization>
+                        <EffectorCells>
+                            <CellTissueType>Blood</CellTissueType>
+                            <CellType>PBMC</CellType>
+                            <CellCultureConditions>Cell Line / Clone</CellCultureConditions>
+                        </EffectorCells>
+                        <AssayedTcrMolecule>
+                            <AssayedTcrMoleculeName>Hy.2E11, Hy.1G11</AssayedTcrMoleculeName>
+                        </AssayedTcrMolecule>
+                        <AntigenPresentingCells>
+                            <CellTissueType>Lymphoid</CellTissueType>
+                            <CellType>B cell</CellType>
+                            <CellCultureConditions>Cell Line / Clone (EBV transformed, B-LCL)</CellCultureConditions>
+                            <AutologousOrSyngeneic>N</AutologousOrSyngeneic>
+                            <SourceOrganismId>9606</SourceOrganismId>
+                        </AntigenPresentingCells>
+                        <MhcAllele>
+                            <MhcAlleleId>437</MhcAlleleId>
+                            <MhcEvidenceCode>T cell assay -Single MHC type present</MhcEvidenceCode>
+                        </MhcAllele>
+                        <Antigen>
+                            <AntigenObject>
+                                <EpitopeRelation>Epitope</EpitopeRelation>
+                                <Object>
+                                    <FragmentOfANaturalSequenceMolecule>
+                                        <ChemicalType>Peptide from protein</ChemicalType>
+                                        <LinearSequence>ENPVVHFFKNIVTPR</LinearSequence>
+                                        <StartingPosition>84</StartingPosition>
+                                        <EndingPosition>98</EndingPosition>
+                                        <SourceMolecule>
+                                            <GenBankId>AAH08749.3</GenBankId>
+                                        </SourceMolecule>
+                                        <SourceOrganismId>9606</SourceOrganismId>
+                                    </FragmentOfANaturalSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Exact match to reference information</AntigenEvidenceCode>
+                        </Antigen>
+                        <AssayInformation>
+                            <AssayTypeId>69</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                        </AssayInformation>
+                    </TCell>
+                </Assays>
+                <Assays>
+                    <TCell>
+                        <LocationOfData>Table 2</LocationOfData>
+                        <TCellId>1689980</TCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>9606</OrganismId>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Occurrence of autoimmune disease</InVivoProcessType>
+                                <DiseaseState>DOID:2377</DiseaseState>
+                                <DiseaseStage>Chronic</DiseaseStage>
+                            </FirstInVivoProcess>
+                            <InVitroAdministration>
+                                <ProcessType>Primary induction in vitro</ProcessType>
+                                <ResponderCellType>PBMC</ResponderCellType>
+                                <StimulatorCellType>PBMC</StimulatorCellType>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Epitope</EpitopeRelation>
+                                    <Object>
+                                        <FragmentOfANaturalSequenceMolecule>
+                                            <ChemicalType>Peptide from protein</ChemicalType>
+                                            <LinearSequence>ENPVVHFFKNIVTPR</LinearSequence>
+                                            <StartingPosition>84</StartingPosition>
+                                            <EndingPosition>98</EndingPosition>
+                                            <SourceMolecule>
+                                                <GenBankId>AAH08749.3</GenBankId>
+                                            </SourceMolecule>
+                                            <SourceOrganismId>9606</SourceOrganismId>
+                                        </FragmentOfANaturalSequenceMolecule>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenEvidenceCode>Exact match to reference information</ImmunogenEvidenceCode>
+                            </InVitroAdministration>
+                            <ImmunizationComments>T cell clones from relapsing-remitting MS patients were generated by 2 rounds of stimulation with MBP protein, then stimulation with the epitope, followed by limiting dilution.</ImmunizationComments>
+                        </Immunization>
+                        <EffectorCells>
+                            <CellTissueType>Blood</CellTissueType>
+                            <CellType>PBMC</CellType>
+                            <CellCultureConditions>Cell Line / Clone</CellCultureConditions>
+                        </EffectorCells>
+                        <AssayedTcrMolecule>
+                            <AssayedTcrMoleculeName>Hy.2E11, Hy.1G11</AssayedTcrMoleculeName>
+                        </AssayedTcrMolecule>
+                        <AntigenPresentingCells>
+                            <CellTissueType>Lymphoid</CellTissueType>
+                            <CellType>B cell</CellType>
+                            <CellCultureConditions>Cell Line / Clone (EBV transformed, B-LCL)</CellCultureConditions>
+                            <AutologousOrSyngeneic>N</AutologousOrSyngeneic>
+                            <SourceOrganismId>9606</SourceOrganismId>
+                        </AntigenPresentingCells>
+                        <MhcAllele>
+                            <MhcAlleleId>339</MhcAlleleId>
+                            <MhcEvidenceCode>T cell assay -Single MHC type present</MhcEvidenceCode>
+                        </MhcAllele>
+                        <Antigen>
+                            <AntigenReferenceName>Herpes simplex, DNA polymerase peptide</AntigenReferenceName>
+                            <AntigenObject>
+                                <EpitopeRelation>Structurally Related</EpitopeRelation>
+                                <Object>
+                                    <FragmentOfANaturalSequenceMolecule>
+                                        <ChemicalType>Peptide from protein</ChemicalType>
+                                        <LinearSequence>GGRRLFFVKAHVR</LinearSequence>
+                                        <StartingPosition>758</StartingPosition>
+                                        <EndingPosition>770</EndingPosition>
+                                        <SourceMolecule>
+                                            <GenBankId>P09854.1</GenBankId>
+                                        </SourceMolecule>
+                                        <SourceOrganismId>10309</SourceOrganismId>
+                                    </FragmentOfANaturalSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Exact match to reference information</AntigenEvidenceCode>
+                        </Antigen>
+                        <AssayInformation>
+                            <AssayTypeId>69</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                        </AssayInformation>
+                    </TCell>
+                </Assays>
+                <Assays>
+                    <TCell>
+                        <LocationOfData>Tables 1 and 4, Figures 2 and 3</LocationOfData>
+                        <TCellId>1686212</TCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>9606</OrganismId>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Occurrence of autoimmune disease</InVivoProcessType>
+                                <DiseaseState>DOID:2377</DiseaseState>
+                                <DiseaseStage>Chronic</DiseaseStage>
+                            </FirstInVivoProcess>
+                            <InVitroAdministration>
+                                <ProcessType>Primary induction in vitro</ProcessType>
+                                <ResponderCellType>PBMC</ResponderCellType>
+                                <StimulatorCellType>PBMC</StimulatorCellType>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Epitope</EpitopeRelation>
+                                    <Object>
+                                        <FragmentOfANaturalSequenceMolecule>
+                                            <ChemicalType>Peptide from protein</ChemicalType>
+                                            <LinearSequence>ENPVVHFFKNIVTPR</LinearSequence>
+                                            <StartingPosition>84</StartingPosition>
+                                            <EndingPosition>98</EndingPosition>
+                                            <SourceMolecule>
+                                                <GenBankId>AAH08749.3</GenBankId>
+                                            </SourceMolecule>
+                                            <SourceOrganismId>9606</SourceOrganismId>
+                                        </FragmentOfANaturalSequenceMolecule>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenEvidenceCode>Exact match to reference information</ImmunogenEvidenceCode>
+                            </InVitroAdministration>
+                            <ImmunizationComments>T cell clones from relapsing-remitting MS patients were generated by 2 rounds of stimulation with MBP protein, then stimulation with the epitope, followed by limiting dilution.</ImmunizationComments>
+                        </Immunization>
+                        <EffectorCells>
+                            <CellTissueType>Blood</CellTissueType>
+                            <CellType>PBMC</CellType>
+                            <CellCultureConditions>Cell Line / Clone</CellCultureConditions>
+                        </EffectorCells>
+                        <AssayedTcrMolecule>
+                            <AssayedTcrMoleculeName>Hy.2E11, Hy.1G11</AssayedTcrMoleculeName>
+                        </AssayedTcrMolecule>
+                        <AntigenPresentingCells>
+                            <CellTissueType>Lymphoid</CellTissueType>
+                            <CellType>B cell</CellType>
+                            <CellCultureConditions>Cell Line / Clone (EBV transformed, B-LCL)</CellCultureConditions>
+                            <AutologousOrSyngeneic>N</AutologousOrSyngeneic>
+                            <SourceOrganismId>9606</SourceOrganismId>
+                        </AntigenPresentingCells>
+                        <MhcAllele>
+                            <MhcAlleleId>436</MhcAlleleId>
+                            <MhcEvidenceCode>T cell assay -Single MHC type present</MhcEvidenceCode>
+                        </MhcAllele>
+                        <Antigen>
+                            <AntigenReferenceName>Epstein-Barr virus peptide</AntigenReferenceName>
+                            <AntigenObject>
+                                <EpitopeRelation>Structurally Related</EpitopeRelation>
+                                <Object>
+                                    <FragmentOfANaturalSequenceMolecule>
+                                        <ChemicalType>Peptide from protein</ChemicalType>
+                                        <LinearSequence>TGGVYHFVKKHVHES</LinearSequence>
+                                        <StartingPosition>627</StartingPosition>
+                                        <EndingPosition>641</EndingPosition>
+                                        <SourceMolecule>
+                                            <GenBankId>CAD53462.1</GenBankId>
+                                        </SourceMolecule>
+                                        <SourceOrganismId>10376</SourceOrganismId>
+                                    </FragmentOfANaturalSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Exact match to reference information</AntigenEvidenceCode>
+                        </Antigen>
+                        <AssayInformation>
+                            <AssayTypeId>69</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                        </AssayInformation>
+                    </TCell>
+                </Assays>
+                <Assays>
+                    <TCell>
+                        <LocationOfData>Tables 1, 3, and 4, Figures 2 and 3</LocationOfData>
+                        <TCellId>1686208</TCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>9606</OrganismId>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Occurrence of autoimmune disease</InVivoProcessType>
+                                <DiseaseState>DOID:2377</DiseaseState>
+                                <DiseaseStage>Chronic</DiseaseStage>
+                            </FirstInVivoProcess>
+                            <InVitroAdministration>
+                                <ProcessType>Primary induction in vitro</ProcessType>
+                                <ResponderCellType>PBMC</ResponderCellType>
+                                <StimulatorCellType>PBMC</StimulatorCellType>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Epitope</EpitopeRelation>
+                                    <Object>
+                                        <FragmentOfANaturalSequenceMolecule>
+                                            <ChemicalType>Peptide from protein</ChemicalType>
+                                            <LinearSequence>ENPVVHFFKNIVTPR</LinearSequence>
+                                            <StartingPosition>84</StartingPosition>
+                                            <EndingPosition>98</EndingPosition>
+                                            <SourceMolecule>
+                                                <GenBankId>AAH08749.3</GenBankId>
+                                            </SourceMolecule>
+                                            <SourceOrganismId>9606</SourceOrganismId>
+                                        </FragmentOfANaturalSequenceMolecule>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenEvidenceCode>Exact match to reference information</ImmunogenEvidenceCode>
+                            </InVitroAdministration>
+                            <ImmunizationComments>T cell clones from relapsing-remitting MS patients were generated by 2 rounds of stimulation with MBP protein, then stimulation with the epitope, followed by limiting dilution.</ImmunizationComments>
+                        </Immunization>
+                        <EffectorCells>
+                            <CellTissueType>Blood</CellTissueType>
+                            <CellType>PBMC</CellType>
+                            <CellCultureConditions>Cell Line / Clone</CellCultureConditions>
+                        </EffectorCells>
+                        <AssayedTcrMolecule>
+                            <AssayedTcrMoleculeName>Hy.2E11, Hy.1G11</AssayedTcrMoleculeName>
+                        </AssayedTcrMolecule>
+                        <AntigenPresentingCells>
+                            <CellTissueType>Lymphoid</CellTissueType>
+                            <CellType>B cell</CellType>
+                            <CellCultureConditions>Cell Line / Clone (EBV transformed, B-LCL)</CellCultureConditions>
+                            <AutologousOrSyngeneic>N</AutologousOrSyngeneic>
+                            <SourceOrganismId>9606</SourceOrganismId>
+                        </AntigenPresentingCells>
+                        <MhcAllele>
+                            <MhcAlleleId>436</MhcAlleleId>
+                            <MhcEvidenceCode>T cell assay -Single MHC type present</MhcEvidenceCode>
+                        </MhcAllele>
+                        <Antigen>
+                            <AntigenObject>
+                                <EpitopeRelation>Epitope</EpitopeRelation>
+                                <Object>
+                                    <FragmentOfANaturalSequenceMolecule>
+                                        <ChemicalType>Peptide from protein</ChemicalType>
+                                        <LinearSequence>ENPVVHFFKNIVTPR</LinearSequence>
+                                        <StartingPosition>84</StartingPosition>
+                                        <EndingPosition>98</EndingPosition>
+                                        <SourceMolecule>
+                                            <GenBankId>AAH08749.3</GenBankId>
+                                        </SourceMolecule>
+                                        <SourceOrganismId>9606</SourceOrganismId>
+                                    </FragmentOfANaturalSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Exact match to reference information</AntigenEvidenceCode>
+                        </Antigen>
+                        <AssayInformation>
+                            <AssayTypeId>69</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                        </AssayInformation>
+                    </TCell>
+                </Assays>
+                <Assays>
+                    <TCell>
+                        <LocationOfData>Table 2</LocationOfData>
+                        <TCellId>1689979</TCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>9606</OrganismId>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Occurrence of autoimmune disease</InVivoProcessType>
+                                <DiseaseState>DOID:2377</DiseaseState>
+                                <DiseaseStage>Chronic</DiseaseStage>
+                            </FirstInVivoProcess>
+                            <InVitroAdministration>
+                                <ProcessType>Primary induction in vitro</ProcessType>
+                                <ResponderCellType>PBMC</ResponderCellType>
+                                <StimulatorCellType>PBMC</StimulatorCellType>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Epitope</EpitopeRelation>
+                                    <Object>
+                                        <FragmentOfANaturalSequenceMolecule>
+                                            <ChemicalType>Peptide from protein</ChemicalType>
+                                            <LinearSequence>ENPVVHFFKNIVTPR</LinearSequence>
+                                            <StartingPosition>84</StartingPosition>
+                                            <EndingPosition>98</EndingPosition>
+                                            <SourceMolecule>
+                                                <GenBankId>AAH08749.3</GenBankId>
+                                            </SourceMolecule>
+                                            <SourceOrganismId>9606</SourceOrganismId>
+                                        </FragmentOfANaturalSequenceMolecule>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenEvidenceCode>Exact match to reference information</ImmunogenEvidenceCode>
+                            </InVitroAdministration>
+                            <ImmunizationComments>T cell clones from relapsing-remitting MS patients were generated by 2 rounds of stimulation with MBP protein, then stimulation with the epitope, followed by limiting dilution.</ImmunizationComments>
+                        </Immunization>
+                        <EffectorCells>
+                            <CellTissueType>Blood</CellTissueType>
+                            <CellType>PBMC</CellType>
+                            <CellCultureConditions>Cell Line / Clone</CellCultureConditions>
+                        </EffectorCells>
+                        <AssayedTcrMolecule>
+                            <AssayedTcrMoleculeName>Hy.2E11, Hy.1G11</AssayedTcrMoleculeName>
+                        </AssayedTcrMolecule>
+                        <AntigenPresentingCells>
+                            <CellTissueType>Lymphoid</CellTissueType>
+                            <CellType>B cell</CellType>
+                            <CellCultureConditions>Cell Line / Clone (EBV transformed, B-LCL)</CellCultureConditions>
+                            <AutologousOrSyngeneic>N</AutologousOrSyngeneic>
+                            <SourceOrganismId>9606</SourceOrganismId>
+                        </AntigenPresentingCells>
+                        <MhcAllele>
+                            <MhcAlleleId>339</MhcAlleleId>
+                            <MhcEvidenceCode>T cell assay -Single MHC type present</MhcEvidenceCode>
+                        </MhcAllele>
+                        <Antigen>
+                            <AntigenReferenceName>Reovirus type 3, sigma 2 protein peptide</AntigenReferenceName>
+                            <AntigenObject>
+                                <EpitopeRelation>Structurally Related</EpitopeRelation>
+                                <Object>
+                                    <FragmentOfANaturalSequenceMolecule>
+                                        <ChemicalType>Peptide from protein</ChemicalType>
+                                        <LinearSequence>MARAAFLFKTVGFGG</LinearSequence>
+                                        <StartingPosition>1</StartingPosition>
+                                        <EndingPosition>15</EndingPosition>
+                                        <SourceMolecule>
+                                            <GenBankId>ABD83955.1</GenBankId>
+                                        </SourceMolecule>
+                                        <SourceOrganismId>351073</SourceOrganismId>
+                                    </FragmentOfANaturalSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Exact match to reference information</AntigenEvidenceCode>
+                        </Antigen>
+                        <AssayInformation>
+                            <AssayTypeId>69</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                        </AssayInformation>
+                    </TCell>
+                </Assays>
+                <Assays>
+                    <TCell>
+                        <LocationOfData>Tables 1, 3, and 4, Figure 2</LocationOfData>
+                        <TCellId>1690609</TCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>9606</OrganismId>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Occurrence of autoimmune disease</InVivoProcessType>
+                                <DiseaseState>DOID:2377</DiseaseState>
+                                <DiseaseStage>Chronic</DiseaseStage>
+                            </FirstInVivoProcess>
+                            <InVitroAdministration>
+                                <ProcessType>Primary induction in vitro</ProcessType>
+                                <ResponderCellType>PBMC</ResponderCellType>
+                                <StimulatorCellType>PBMC</StimulatorCellType>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Epitope</EpitopeRelation>
+                                    <Object>
+                                        <FragmentOfANaturalSequenceMolecule>
+                                            <ChemicalType>Peptide from protein</ChemicalType>
+                                            <LinearSequence>ENPVVHFFKNIVTPR</LinearSequence>
+                                            <StartingPosition>84</StartingPosition>
+                                            <EndingPosition>98</EndingPosition>
+                                            <SourceMolecule>
+                                                <GenBankId>AAH08749.3</GenBankId>
+                                            </SourceMolecule>
+                                            <SourceOrganismId>9606</SourceOrganismId>
+                                        </FragmentOfANaturalSequenceMolecule>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenEvidenceCode>Exact match to reference information</ImmunogenEvidenceCode>
+                            </InVitroAdministration>
+                            <ImmunizationComments>T cell clones from relapsing-remitting MS patients were generated by 2 rounds of stimulation with MBP protein, then stimulation with the epitope, followed by limiting dilution.</ImmunizationComments>
+                        </Immunization>
+                        <EffectorCells>
+                            <CellTissueType>Blood</CellTissueType>
+                            <CellType>PBMC</CellType>
+                            <CellCultureConditions>Cell Line / Clone</CellCultureConditions>
+                        </EffectorCells>
+                        <AssayedTcrMolecule>
+                            <AssayedTcrMoleculeName>Hy.1B11, Ob.1A12, Ob.1Ce</AssayedTcrMoleculeName>
+                        </AssayedTcrMolecule>
+                        <AntigenPresentingCells>
+                            <CellTissueType>Lymphoid</CellTissueType>
+                            <CellType>B cell</CellType>
+                            <CellCultureConditions>Cell Line / Clone (EBV transformed, B-LCL)</CellCultureConditions>
+                            <AutologousOrSyngeneic>N</AutologousOrSyngeneic>
+                            <SourceOrganismId>9606</SourceOrganismId>
+                        </AntigenPresentingCells>
+                        <MhcAllele>
+                            <MhcAlleleId>84</MhcAlleleId>
+                            <MhcEvidenceCode>T cell assay -Single MHC type present</MhcEvidenceCode>
+                        </MhcAllele>
+                        <Antigen>
+                            <AntigenObject>
+                                <EpitopeRelation>Epitope</EpitopeRelation>
+                                <Object>
+                                    <FragmentOfANaturalSequenceMolecule>
+                                        <ChemicalType>Peptide from protein</ChemicalType>
+                                        <LinearSequence>ENPVVHFFKNIVTPR</LinearSequence>
+                                        <StartingPosition>84</StartingPosition>
+                                        <EndingPosition>98</EndingPosition>
+                                        <SourceMolecule>
+                                            <GenBankId>AAH08749.3</GenBankId>
+                                        </SourceMolecule>
+                                        <SourceOrganismId>9606</SourceOrganismId>
+                                    </FragmentOfANaturalSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Exact match to reference information</AntigenEvidenceCode>
+                        </Antigen>
+                        <AssayInformation>
+                            <AssayTypeId>69</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                        </AssayInformation>
+                    </TCell>
+                </Assays>
+            </Epitope>
+            <Epitope>
+                <EpitopeName>Herpes simplex virus peptide</EpitopeName>
+                <EpitopeStructure>
+                    <FragmentOfANaturalSequenceMolecule>
+                        <ChemicalType>Peptide from protein</ChemicalType>
+                        <LinearSequence>FRQLVHFVRDFAQLL</LinearSequence>
+                        <StartingPosition>153</StartingPosition>
+                        <EndingPosition>167</EndingPosition>
+                        <SourceMolecule>
+                            <GenBankId>ABI63477.1</GenBankId>
+                        </SourceMolecule>
+                        <SourceOrganismId>10298</SourceOrganismId>
+                    </FragmentOfANaturalSequenceMolecule>
+                </EpitopeStructure>
+                <LocationOfData>Table 1</LocationOfData>
+                <EpitopeId>117500</EpitopeId>
+                <EpitopeEvidenceCode>Representative selection</EpitopeEvidenceCode>
+                <EpitopeStructureDefines>Exact Epitope</EpitopeStructureDefines>
+                <Assays>
+                    <TCell>
+                        <LocationOfData>Table 1 and Figure 2</LocationOfData>
+                        <TCellId>1686219</TCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>9606</OrganismId>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Occurrence of autoimmune disease</InVivoProcessType>
+                                <DiseaseState>DOID:2377</DiseaseState>
+                                <DiseaseStage>Chronic</DiseaseStage>
+                            </FirstInVivoProcess>
+                            <InVitroAdministration>
+                                <ProcessType>Primary induction in vitro</ProcessType>
+                                <ResponderCellType>PBMC</ResponderCellType>
+                                <StimulatorCellType>PBMC</StimulatorCellType>
+                                <ImmunogenReferenceName>MBP(85-99)</ImmunogenReferenceName>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Structurally Related</EpitopeRelation>
+                                    <Object>
+                                        <FragmentOfANaturalSequenceMolecule>
+                                            <ChemicalType>Peptide from protein</ChemicalType>
+                                            <LinearSequence>ENPVVHFFKNIVTPR</LinearSequence>
+                                            <StartingPosition>84</StartingPosition>
+                                            <EndingPosition>98</EndingPosition>
+                                            <SourceMolecule>
+                                                <GenBankId>AAH08749.3</GenBankId>
+                                            </SourceMolecule>
+                                            <SourceOrganismId>9606</SourceOrganismId>
+                                        </FragmentOfANaturalSequenceMolecule>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenEvidenceCode>Exact match to reference information</ImmunogenEvidenceCode>
+                            </InVitroAdministration>
+                            <ImmunizationComments>T cell clones from relapsing-remitting MS patients were generated by 2 rounds of stimulation with MBP, then  stimulated with the MBP(85-99) peptide, followed by limiting dilution.</ImmunizationComments>
+                        </Immunization>
+                        <EffectorCells>
+                            <CellTissueType>Blood</CellTissueType>
+                            <CellType>PBMC</CellType>
+                            <CellCultureConditions>Cell Line / Clone</CellCultureConditions>
+                        </EffectorCells>
+                        <AssayedTcrMolecule>
+                            <AssayedTcrMoleculeName>Hy.1B11</AssayedTcrMoleculeName>
+                        </AssayedTcrMolecule>
+                        <AntigenPresentingCells>
+                            <CellTissueType>Lymphoid</CellTissueType>
+                            <CellType>B cell</CellType>
+                            <CellCultureConditions>Cell Line / Clone (EBV transformed, B-LCL)</CellCultureConditions>
+                            <AutologousOrSyngeneic>N</AutologousOrSyngeneic>
+                            <SourceOrganismId>9606</SourceOrganismId>
+                        </AntigenPresentingCells>
+                        <MhcAllele>
+                            <MhcAlleleId>84</MhcAlleleId>
+                            <MhcEvidenceCode>T cell assay -Single MHC type present</MhcEvidenceCode>
+                        </MhcAllele>
+                        <Antigen>
+                            <AntigenObject>
+                                <EpitopeRelation>Epitope</EpitopeRelation>
+                                <Object>
+                                    <FragmentOfANaturalSequenceMolecule>
+                                        <ChemicalType>Peptide from protein</ChemicalType>
+                                        <LinearSequence>FRQLVHFVRDFAQLL</LinearSequence>
+                                        <StartingPosition>153</StartingPosition>
+                                        <EndingPosition>167</EndingPosition>
+                                        <SourceMolecule>
+                                            <GenBankId>ABI63477.1</GenBankId>
+                                        </SourceMolecule>
+                                        <SourceOrganismId>10298</SourceOrganismId>
+                                    </FragmentOfANaturalSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Exact match to reference information</AntigenEvidenceCode>
+                        </Antigen>
+                        <AssayInformation>
+                            <AssayTypeId>69</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                        </AssayInformation>
+                    </TCell>
+                </Assays>
+            </Epitope>
+            <Epitope>
+                <EpitopeName>Epstein-Barr virus peptide</EpitopeName>
+                <EpitopeStructure>
+                    <FragmentOfANaturalSequenceMolecule>
+                        <ChemicalType>Peptide from protein</ChemicalType>
+                        <LinearSequence>TGGVYHFVKKHVHES</LinearSequence>
+                        <StartingPosition>627</StartingPosition>
+                        <EndingPosition>641</EndingPosition>
+                        <SourceMolecule>
+                            <GenBankId>CAD53462.1</GenBankId>
+                        </SourceMolecule>
+                        <SourceOrganismId>10376</SourceOrganismId>
+                    </FragmentOfANaturalSequenceMolecule>
+                </EpitopeStructure>
+                <LocationOfData>Table 1</LocationOfData>
+                <EpitopeId>63843</EpitopeId>
+                <EpitopeEvidenceCode>Representative selection</EpitopeEvidenceCode>
+                <EpitopeStructureDefines>Exact Epitope</EpitopeStructureDefines>
+                <Assays>
+                    <TCell>
+                        <LocationOfData>Tables 1 and 4, Figures 2 and 3</LocationOfData>
+                        <TCellId>1686220</TCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>9606</OrganismId>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Occurrence of autoimmune disease</InVivoProcessType>
+                                <DiseaseState>DOID:2377</DiseaseState>
+                                <DiseaseStage>Chronic</DiseaseStage>
+                            </FirstInVivoProcess>
+                            <InVitroAdministration>
+                                <ProcessType>Primary induction in vitro</ProcessType>
+                                <ResponderCellType>PBMC</ResponderCellType>
+                                <StimulatorCellType>PBMC</StimulatorCellType>
+                                <ImmunogenReferenceName>MBP(85-99)</ImmunogenReferenceName>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Structurally Related</EpitopeRelation>
+                                    <Object>
+                                        <FragmentOfANaturalSequenceMolecule>
+                                            <ChemicalType>Peptide from protein</ChemicalType>
+                                            <LinearSequence>ENPVVHFFKNIVTPR</LinearSequence>
+                                            <StartingPosition>84</StartingPosition>
+                                            <EndingPosition>98</EndingPosition>
+                                            <SourceMolecule>
+                                                <GenBankId>AAH08749.3</GenBankId>
+                                            </SourceMolecule>
+                                            <SourceOrganismId>9606</SourceOrganismId>
+                                        </FragmentOfANaturalSequenceMolecule>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenEvidenceCode>Exact match to reference information</ImmunogenEvidenceCode>
+                            </InVitroAdministration>
+                            <ImmunizationComments>T cell clones from relapsing-remitting MS patients were generated by 2 rounds of stimulation with MBP, then  stimulated with the MBP(85-99) peptide, followed by limiting dilution.</ImmunizationComments>
+                        </Immunization>
+                        <EffectorCells>
+                            <CellTissueType>Blood</CellTissueType>
+                            <CellType>PBMC</CellType>
+                            <CellCultureConditions>Cell Line / Clone</CellCultureConditions>
+                        </EffectorCells>
+                        <AssayedTcrMolecule>
+                            <AssayedTcrMoleculeName>Hy.2E11, Hy.1G11</AssayedTcrMoleculeName>
+                        </AssayedTcrMolecule>
+                        <AntigenPresentingCells>
+                            <CellTissueType>Lymphoid</CellTissueType>
+                            <CellType>B cell</CellType>
+                            <CellCultureConditions>Cell Line / Clone (EBV transformed, B-LCL)</CellCultureConditions>
+                            <AutologousOrSyngeneic>N</AutologousOrSyngeneic>
+                            <SourceOrganismId>9606</SourceOrganismId>
+                        </AntigenPresentingCells>
+                        <MhcAllele>
+                            <MhcAlleleId>436</MhcAlleleId>
+                            <MhcEvidenceCode>T cell assay -Single MHC type present</MhcEvidenceCode>
+                        </MhcAllele>
+                        <Antigen>
+                            <AntigenObject>
+                                <EpitopeRelation>Epitope</EpitopeRelation>
+                                <Object>
+                                    <FragmentOfANaturalSequenceMolecule>
+                                        <ChemicalType>Peptide from protein</ChemicalType>
+                                        <LinearSequence>TGGVYHFVKKHVHES</LinearSequence>
+                                        <StartingPosition>627</StartingPosition>
+                                        <EndingPosition>641</EndingPosition>
+                                        <SourceMolecule>
+                                            <GenBankId>CAD53462.1</GenBankId>
+                                        </SourceMolecule>
+                                        <SourceOrganismId>10376</SourceOrganismId>
+                                    </FragmentOfANaturalSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Exact match to reference information</AntigenEvidenceCode>
+                        </Antigen>
+                        <AssayInformation>
+                            <AssayTypeId>69</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                        </AssayInformation>
+                    </TCell>
+                </Assays>
+                <Assays>
+                    <TCell>
+                        <LocationOfData>Tables 1 and 4, Figures 2 and 3</LocationOfData>
+                        <TCellId>1686221</TCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>9606</OrganismId>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Occurrence of autoimmune disease</InVivoProcessType>
+                                <DiseaseState>DOID:2377</DiseaseState>
+                                <DiseaseStage>Chronic</DiseaseStage>
+                            </FirstInVivoProcess>
+                            <InVitroAdministration>
+                                <ProcessType>Primary induction in vitro</ProcessType>
+                                <ResponderCellType>PBMC</ResponderCellType>
+                                <StimulatorCellType>PBMC</StimulatorCellType>
+                                <ImmunogenReferenceName>MBP(85-99)</ImmunogenReferenceName>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Structurally Related</EpitopeRelation>
+                                    <Object>
+                                        <FragmentOfANaturalSequenceMolecule>
+                                            <ChemicalType>Peptide from protein</ChemicalType>
+                                            <LinearSequence>ENPVVHFFKNIVTPR</LinearSequence>
+                                            <StartingPosition>84</StartingPosition>
+                                            <EndingPosition>98</EndingPosition>
+                                            <SourceMolecule>
+                                                <GenBankId>AAH08749.3</GenBankId>
+                                            </SourceMolecule>
+                                            <SourceOrganismId>9606</SourceOrganismId>
+                                        </FragmentOfANaturalSequenceMolecule>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenEvidenceCode>Exact match to reference information</ImmunogenEvidenceCode>
+                            </InVitroAdministration>
+                            <ImmunizationComments>T cell clones from relapsing-remitting MS patients were generated by 2 rounds of stimulation with MBP, then  stimulated with the MBP(85-99) peptide, followed by limiting dilution.</ImmunizationComments>
+                        </Immunization>
+                        <EffectorCells>
+                            <CellTissueType>Blood</CellTissueType>
+                            <CellType>PBMC</CellType>
+                            <CellCultureConditions>Cell Line / Clone</CellCultureConditions>
+                        </EffectorCells>
+                        <AssayedTcrMolecule>
+                            <AssayedTcrMoleculeName>Hy.2E11, Hy.1G11</AssayedTcrMoleculeName>
+                        </AssayedTcrMolecule>
+                        <AntigenPresentingCells>
+                            <CellTissueType>Lymphoid</CellTissueType>
+                            <CellType>B cell</CellType>
+                            <CellCultureConditions>Cell Line / Clone (EBV transformed, B-LCL)</CellCultureConditions>
+                            <AutologousOrSyngeneic>N</AutologousOrSyngeneic>
+                            <SourceOrganismId>9606</SourceOrganismId>
+                        </AntigenPresentingCells>
+                        <MhcAllele>
+                            <MhcAlleleId>437</MhcAlleleId>
+                            <MhcEvidenceCode>T cell assay -Single MHC type present</MhcEvidenceCode>
+                        </MhcAllele>
+                        <Antigen>
+                            <AntigenObject>
+                                <EpitopeRelation>Epitope</EpitopeRelation>
+                                <Object>
+                                    <FragmentOfANaturalSequenceMolecule>
+                                        <ChemicalType>Peptide from protein</ChemicalType>
+                                        <LinearSequence>TGGVYHFVKKHVHES</LinearSequence>
+                                        <StartingPosition>627</StartingPosition>
+                                        <EndingPosition>641</EndingPosition>
+                                        <SourceMolecule>
+                                            <GenBankId>CAD53462.1</GenBankId>
+                                        </SourceMolecule>
+                                        <SourceOrganismId>10376</SourceOrganismId>
+                                    </FragmentOfANaturalSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Exact match to reference information</AntigenEvidenceCode>
+                        </Antigen>
+                        <AssayInformation>
+                            <AssayTypeId>69</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                        </AssayInformation>
+                    </TCell>
+                </Assays>
+                <Assays>
+                    <TCell>
+                        <LocationOfData>Tables 1 and 4, Figures 2 and 3</LocationOfData>
+                        <TCellId>1686222</TCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>9606</OrganismId>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Occurrence of autoimmune disease</InVivoProcessType>
+                                <DiseaseState>DOID:2377</DiseaseState>
+                                <DiseaseStage>Chronic</DiseaseStage>
+                            </FirstInVivoProcess>
+                            <InVitroAdministration>
+                                <ProcessType>Primary induction in vitro</ProcessType>
+                                <ResponderCellType>PBMC</ResponderCellType>
+                                <StimulatorCellType>PBMC</StimulatorCellType>
+                                <ImmunogenReferenceName>MBP(85-99)</ImmunogenReferenceName>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Structurally Related</EpitopeRelation>
+                                    <Object>
+                                        <FragmentOfANaturalSequenceMolecule>
+                                            <ChemicalType>Peptide from protein</ChemicalType>
+                                            <LinearSequence>ENPVVHFFKNIVTPR</LinearSequence>
+                                            <StartingPosition>84</StartingPosition>
+                                            <EndingPosition>98</EndingPosition>
+                                            <SourceMolecule>
+                                                <GenBankId>AAH08749.3</GenBankId>
+                                            </SourceMolecule>
+                                            <SourceOrganismId>9606</SourceOrganismId>
+                                        </FragmentOfANaturalSequenceMolecule>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenEvidenceCode>Exact match to reference information</ImmunogenEvidenceCode>
+                            </InVitroAdministration>
+                            <ImmunizationComments>T cell clones from relapsing-remitting MS patients were generated by 2 rounds of stimulation with MBP, then  stimulated with the MBP(85-99) peptide, followed by limiting dilution.</ImmunizationComments>
+                        </Immunization>
+                        <EffectorCells>
+                            <CellTissueType>Blood</CellTissueType>
+                            <CellType>PBMC</CellType>
+                            <CellCultureConditions>Cell Line / Clone</CellCultureConditions>
+                        </EffectorCells>
+                        <AssayedTcrMolecule>
+                            <AssayedTcrMoleculeName>Hy.2E11, Hy.1G11</AssayedTcrMoleculeName>
+                        </AssayedTcrMolecule>
+                        <AntigenPresentingCells>
+                            <CellTissueType>Lymphoid</CellTissueType>
+                            <CellType>B cell</CellType>
+                            <CellCultureConditions>Cell Line / Clone (EBV transformed, B-LCL)</CellCultureConditions>
+                            <AutologousOrSyngeneic>N</AutologousOrSyngeneic>
+                            <SourceOrganismId>9606</SourceOrganismId>
+                        </AntigenPresentingCells>
+                        <MhcAllele>
+                            <MhcAlleleId>356</MhcAlleleId>
+                            <MhcEvidenceCode>T cell assay -Single MHC type present</MhcEvidenceCode>
+                        </MhcAllele>
+                        <Antigen>
+                            <AntigenObject>
+                                <EpitopeRelation>Epitope</EpitopeRelation>
+                                <Object>
+                                    <FragmentOfANaturalSequenceMolecule>
+                                        <ChemicalType>Peptide from protein</ChemicalType>
+                                        <LinearSequence>TGGVYHFVKKHVHES</LinearSequence>
+                                        <StartingPosition>627</StartingPosition>
+                                        <EndingPosition>641</EndingPosition>
+                                        <SourceMolecule>
+                                            <GenBankId>CAD53462.1</GenBankId>
+                                        </SourceMolecule>
+                                        <SourceOrganismId>10376</SourceOrganismId>
+                                    </FragmentOfANaturalSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Exact match to reference information</AntigenEvidenceCode>
+                        </Antigen>
+                        <AssayInformation>
+                            <AssayTypeId>69</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                        </AssayInformation>
+                    </TCell>
+                </Assays>
+            </Epitope>
+            <Epitope>
+                <EpitopeName>Adenovirus type 12 peptide</EpitopeName>
+                <EpitopeStructure>
+                    <FragmentOfANaturalSequenceMolecule>
+                        <ChemicalType>Peptide from protein</ChemicalType>
+                        <LinearSequence>DFEVVTFLKDVLPEF</LinearSequence>
+                        <StartingPosition>25</StartingPosition>
+                        <EndingPosition>39</EndingPosition>
+                        <SourceMolecule>
+                            <GenBankId>YP_002640223.1</GenBankId>
+                        </SourceMolecule>
+                        <SourceOrganismId>28282</SourceOrganismId>
+                    </FragmentOfANaturalSequenceMolecule>
+                </EpitopeStructure>
+                <LocationOfData>Table 1</LocationOfData>
+                <EpitopeId>117454</EpitopeId>
+                <EpitopeEvidenceCode>Representative selection</EpitopeEvidenceCode>
+                <EpitopeStructureDefines>Exact Epitope</EpitopeStructureDefines>
+                <Assays>
+                    <TCell>
+                        <LocationOfData>Table 1 and Figure 2</LocationOfData>
+                        <TCellId>1686223</TCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>9606</OrganismId>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Occurrence of autoimmune disease</InVivoProcessType>
+                                <DiseaseState>DOID:2377</DiseaseState>
+                                <DiseaseStage>Chronic</DiseaseStage>
+                            </FirstInVivoProcess>
+                            <InVitroAdministration>
+                                <ProcessType>Primary induction in vitro</ProcessType>
+                                <ResponderCellType>PBMC</ResponderCellType>
+                                <StimulatorCellType>PBMC</StimulatorCellType>
+                                <ImmunogenReferenceName>MBP(85-99)</ImmunogenReferenceName>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Structurally Related</EpitopeRelation>
+                                    <Object>
+                                        <FragmentOfANaturalSequenceMolecule>
+                                            <ChemicalType>Peptide from protein</ChemicalType>
+                                            <LinearSequence>ENPVVHFFKNIVTPR</LinearSequence>
+                                            <StartingPosition>84</StartingPosition>
+                                            <EndingPosition>98</EndingPosition>
+                                            <SourceMolecule>
+                                                <GenBankId>AAH08749.3</GenBankId>
+                                            </SourceMolecule>
+                                            <SourceOrganismId>9606</SourceOrganismId>
+                                        </FragmentOfANaturalSequenceMolecule>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenEvidenceCode>Exact match to reference information</ImmunogenEvidenceCode>
+                            </InVitroAdministration>
+                            <ImmunizationComments>T cell clones from relapsing-remitting MS patients were generated by 2 rounds of stimulation with MBP, then  stimulated with the MBP(85-99) peptide, followed by limiting dilution.</ImmunizationComments>
+                        </Immunization>
+                        <EffectorCells>
+                            <CellTissueType>Blood</CellTissueType>
+                            <CellType>PBMC</CellType>
+                            <CellCultureConditions>Cell Line / Clone</CellCultureConditions>
+                        </EffectorCells>
+                        <AssayedTcrMolecule>
+                            <AssayedTcrMoleculeName>Hy.1B11</AssayedTcrMoleculeName>
+                        </AssayedTcrMolecule>
+                        <AntigenPresentingCells>
+                            <CellTissueType>Lymphoid</CellTissueType>
+                            <CellType>B cell</CellType>
+                            <CellCultureConditions>Cell Line / Clone (EBV transformed, B-LCL)</CellCultureConditions>
+                            <AutologousOrSyngeneic>N</AutologousOrSyngeneic>
+                            <SourceOrganismId>9606</SourceOrganismId>
+                        </AntigenPresentingCells>
+                        <MhcAllele>
+                            <MhcAlleleId>84</MhcAlleleId>
+                            <MhcEvidenceCode>T cell assay -Single MHC type present</MhcEvidenceCode>
+                        </MhcAllele>
+                        <Antigen>
+                            <AntigenObject>
+                                <EpitopeRelation>Epitope</EpitopeRelation>
+                                <Object>
+                                    <FragmentOfANaturalSequenceMolecule>
+                                        <ChemicalType>Peptide from protein</ChemicalType>
+                                        <LinearSequence>DFEVVTFLKDVLPEF</LinearSequence>
+                                        <StartingPosition>25</StartingPosition>
+                                        <EndingPosition>39</EndingPosition>
+                                        <SourceMolecule>
+                                            <GenBankId>YP_002640223.1</GenBankId>
+                                        </SourceMolecule>
+                                        <SourceOrganismId>28282</SourceOrganismId>
+                                    </FragmentOfANaturalSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Exact match to reference information</AntigenEvidenceCode>
+                        </Antigen>
+                        <AssayInformation>
+                            <AssayTypeId>69</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                        </AssayInformation>
+                    </TCell>
+                </Assays>
+            </Epitope>
+            <Epitope>
+                <EpitopeName>Influenza type A virus peptide</EpitopeName>
+                <EpitopeStructure>
+                    <FragmentOfANaturalSequenceMolecule>
+                        <ChemicalType>Peptide from protein</ChemicalType>
+                        <LinearSequence>YRNLVWFIKKNTRYP</LinearSequence>
+                        <StartingPosition>161</StartingPosition>
+                        <EndingPosition>175</EndingPosition>
+                        <SourceMolecule>
+                            <GenBankId>BAA14338.1</GenBankId>
+                        </SourceMolecule>
+                        <SourceOrganismId>11320</SourceOrganismId>
+                    </FragmentOfANaturalSequenceMolecule>
+                </EpitopeStructure>
+                <LocationOfData>Table 1</LocationOfData>
+                <EpitopeId>116041</EpitopeId>
+                <EpitopeEvidenceCode>Representative selection</EpitopeEvidenceCode>
+                <EpitopeStructureDefines>Exact Epitope</EpitopeStructureDefines>
+                <Assays>
+                    <TCell>
+                        <LocationOfData>Tables 1, 3, and 4, Figures 2 and 3</LocationOfData>
+                        <TCellId>1686224</TCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>9606</OrganismId>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Occurrence of autoimmune disease</InVivoProcessType>
+                                <DiseaseState>DOID:2377</DiseaseState>
+                                <DiseaseStage>Chronic</DiseaseStage>
+                            </FirstInVivoProcess>
+                            <InVitroAdministration>
+                                <ProcessType>Primary induction in vitro</ProcessType>
+                                <ResponderCellType>PBMC</ResponderCellType>
+                                <StimulatorCellType>PBMC</StimulatorCellType>
+                                <ImmunogenReferenceName>MBP(85-99)</ImmunogenReferenceName>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Structurally Related</EpitopeRelation>
+                                    <Object>
+                                        <FragmentOfANaturalSequenceMolecule>
+                                            <ChemicalType>Peptide from protein</ChemicalType>
+                                            <LinearSequence>ENPVVHFFKNIVTPR</LinearSequence>
+                                            <StartingPosition>84</StartingPosition>
+                                            <EndingPosition>98</EndingPosition>
+                                            <SourceMolecule>
+                                                <GenBankId>AAH08749.3</GenBankId>
+                                            </SourceMolecule>
+                                            <SourceOrganismId>9606</SourceOrganismId>
+                                        </FragmentOfANaturalSequenceMolecule>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenEvidenceCode>Exact match to reference information</ImmunogenEvidenceCode>
+                            </InVitroAdministration>
+                            <ImmunizationComments>T cell clones from relapsing-remitting MS patients were generated by 2 rounds of stimulation with MBP, then  stimulated with the MBP(85-99) peptide, followed by limiting dilution.</ImmunizationComments>
+                        </Immunization>
+                        <EffectorCells>
+                            <CellTissueType>Blood</CellTissueType>
+                            <CellType>PBMC</CellType>
+                            <CellCultureConditions>Cell Line / Clone</CellCultureConditions>
+                        </EffectorCells>
+                        <AssayedTcrMolecule>
+                            <AssayedTcrMoleculeName>Hy.2E11, Hy.1G11</AssayedTcrMoleculeName>
+                        </AssayedTcrMolecule>
+                        <AntigenPresentingCells>
+                            <CellTissueType>Lymphoid</CellTissueType>
+                            <CellType>B cell</CellType>
+                            <CellCultureConditions>Cell Line / Clone (EBV transformed, B-LCL)</CellCultureConditions>
+                            <AutologousOrSyngeneic>N</AutologousOrSyngeneic>
+                            <SourceOrganismId>9606</SourceOrganismId>
+                        </AntigenPresentingCells>
+                        <MhcAllele>
+                            <MhcAlleleId>437</MhcAlleleId>
+                            <MhcEvidenceCode>T cell assay -Single MHC type present</MhcEvidenceCode>
+                        </MhcAllele>
+                        <Antigen>
+                            <AntigenObject>
+                                <EpitopeRelation>Epitope</EpitopeRelation>
+                                <Object>
+                                    <FragmentOfANaturalSequenceMolecule>
+                                        <ChemicalType>Peptide from protein</ChemicalType>
+                                        <LinearSequence>YRNLVWFIKKNTRYP</LinearSequence>
+                                        <StartingPosition>161</StartingPosition>
+                                        <EndingPosition>175</EndingPosition>
+                                        <SourceMolecule>
+                                            <GenBankId>BAA14338.1</GenBankId>
+                                        </SourceMolecule>
+                                        <SourceOrganismId>11320</SourceOrganismId>
+                                    </FragmentOfANaturalSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Exact match to reference information</AntigenEvidenceCode>
+                        </Antigen>
+                        <AssayInformation>
+                            <AssayTypeId>69</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <AssayComments>Mutational analysis revealed that residue S13 of the epitope is critical for recognition by the MBP(85-99)-specific T cell clone.</AssayComments>
+                        </AssayInformation>
+                    </TCell>
+                </Assays>
+                <Assays>
+                    <TCell>
+                        <LocationOfData>Tables 1, 3, and 4, Figures 2 and 3</LocationOfData>
+                        <TCellId>1686226</TCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>9606</OrganismId>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Occurrence of autoimmune disease</InVivoProcessType>
+                                <DiseaseState>DOID:2377</DiseaseState>
+                                <DiseaseStage>Chronic</DiseaseStage>
+                            </FirstInVivoProcess>
+                            <InVitroAdministration>
+                                <ProcessType>Primary induction in vitro</ProcessType>
+                                <ResponderCellType>PBMC</ResponderCellType>
+                                <StimulatorCellType>PBMC</StimulatorCellType>
+                                <ImmunogenReferenceName>MBP(85-99)</ImmunogenReferenceName>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Structurally Related</EpitopeRelation>
+                                    <Object>
+                                        <FragmentOfANaturalSequenceMolecule>
+                                            <ChemicalType>Peptide from protein</ChemicalType>
+                                            <LinearSequence>ENPVVHFFKNIVTPR</LinearSequence>
+                                            <StartingPosition>84</StartingPosition>
+                                            <EndingPosition>98</EndingPosition>
+                                            <SourceMolecule>
+                                                <GenBankId>AAH08749.3</GenBankId>
+                                            </SourceMolecule>
+                                            <SourceOrganismId>9606</SourceOrganismId>
+                                        </FragmentOfANaturalSequenceMolecule>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenEvidenceCode>Exact match to reference information</ImmunogenEvidenceCode>
+                            </InVitroAdministration>
+                            <ImmunizationComments>T cell clones from relapsing-remitting MS patients were generated by 2 rounds of stimulation with MBP, then  stimulated with the MBP(85-99) peptide, followed by limiting dilution.</ImmunizationComments>
+                        </Immunization>
+                        <EffectorCells>
+                            <CellTissueType>Blood</CellTissueType>
+                            <CellType>PBMC</CellType>
+                            <CellCultureConditions>Cell Line / Clone</CellCultureConditions>
+                        </EffectorCells>
+                        <AssayedTcrMolecule>
+                            <AssayedTcrMoleculeName>Hy.2E11, Hy.1G11</AssayedTcrMoleculeName>
+                        </AssayedTcrMolecule>
+                        <AntigenPresentingCells>
+                            <CellTissueType>Lymphoid</CellTissueType>
+                            <CellType>B cell</CellType>
+                            <CellCultureConditions>Cell Line / Clone (EBV transformed, B-LCL)</CellCultureConditions>
+                            <AutologousOrSyngeneic>N</AutologousOrSyngeneic>
+                            <SourceOrganismId>9606</SourceOrganismId>
+                        </AntigenPresentingCells>
+                        <MhcAllele>
+                            <MhcAlleleId>436</MhcAlleleId>
+                            <MhcEvidenceCode>T cell assay -Single MHC type present</MhcEvidenceCode>
+                        </MhcAllele>
+                        <Antigen>
+                            <AntigenObject>
+                                <EpitopeRelation>Epitope</EpitopeRelation>
+                                <Object>
+                                    <FragmentOfANaturalSequenceMolecule>
+                                        <ChemicalType>Peptide from protein</ChemicalType>
+                                        <LinearSequence>YRNLVWFIKKNTRYP</LinearSequence>
+                                        <StartingPosition>161</StartingPosition>
+                                        <EndingPosition>175</EndingPosition>
+                                        <SourceMolecule>
+                                            <GenBankId>BAA14338.1</GenBankId>
+                                        </SourceMolecule>
+                                        <SourceOrganismId>11320</SourceOrganismId>
+                                    </FragmentOfANaturalSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Exact match to reference information</AntigenEvidenceCode>
+                        </Antigen>
+                        <AssayInformation>
+                            <AssayTypeId>69</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <AssayComments>Mutational analysis revealed that residue S13 of the epitope is critical for recognition by the MBP(85-99)-specific T cell clone.</AssayComments>
+                        </AssayInformation>
+                    </TCell>
+                </Assays>
+            </Epitope>
+            <Epitope>
+                <EpitopeName>Pseudomonas aeruginosa peptide</EpitopeName>
+                <EpitopeStructure>
+                    <FragmentOfANaturalSequenceMolecule>
+                        <ChemicalType>Peptide from protein</ChemicalType>
+                        <LinearSequence>DRLLMLFAKDVVSRN</LinearSequence>
+                        <StartingPosition>261</StartingPosition>
+                        <EndingPosition>275</EndingPosition>
+                        <SourceMolecule>
+                            <GenBankId>AAA25701.1</GenBankId>
+                        </SourceMolecule>
+                        <SourceOrganismId>287</SourceOrganismId>
+                    </FragmentOfANaturalSequenceMolecule>
+                </EpitopeStructure>
+                <LocationOfData>Table 1</LocationOfData>
+                <EpitopeId>117460</EpitopeId>
+                <EpitopeEvidenceCode>Representative selection</EpitopeEvidenceCode>
+                <EpitopeStructureDefines>Exact Epitope</EpitopeStructureDefines>
+                <Assays>
+                    <TCell>
+                        <LocationOfData>Table 1 and Figure 2</LocationOfData>
+                        <TCellId>1686227</TCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>9606</OrganismId>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Occurrence of autoimmune disease</InVivoProcessType>
+                                <DiseaseState>DOID:2377</DiseaseState>
+                                <DiseaseStage>Chronic</DiseaseStage>
+                            </FirstInVivoProcess>
+                            <InVitroAdministration>
+                                <ProcessType>Primary induction in vitro</ProcessType>
+                                <ResponderCellType>PBMC</ResponderCellType>
+                                <StimulatorCellType>PBMC</StimulatorCellType>
+                                <ImmunogenReferenceName>MBP(85-99)</ImmunogenReferenceName>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Structurally Related</EpitopeRelation>
+                                    <Object>
+                                        <FragmentOfANaturalSequenceMolecule>
+                                            <ChemicalType>Peptide from protein</ChemicalType>
+                                            <LinearSequence>ENPVVHFFKNIVTPR</LinearSequence>
+                                            <StartingPosition>84</StartingPosition>
+                                            <EndingPosition>98</EndingPosition>
+                                            <SourceMolecule>
+                                                <GenBankId>AAH08749.3</GenBankId>
+                                            </SourceMolecule>
+                                            <SourceOrganismId>9606</SourceOrganismId>
+                                        </FragmentOfANaturalSequenceMolecule>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenEvidenceCode>Exact match to reference information</ImmunogenEvidenceCode>
+                            </InVitroAdministration>
+                            <ImmunizationComments>T cell clones from relapsing-remitting MS patients were generated by 2 rounds of stimulation with MBP, then  stimulated with the MBP(85-99) peptide, followed by limiting dilution.</ImmunizationComments>
+                        </Immunization>
+                        <EffectorCells>
+                            <CellTissueType>Blood</CellTissueType>
+                            <CellType>PBMC</CellType>
+                            <CellCultureConditions>Cell Line / Clone</CellCultureConditions>
+                        </EffectorCells>
+                        <AssayedTcrMolecule>
+                            <AssayedTcrMoleculeName>Hy.1B11</AssayedTcrMoleculeName>
+                        </AssayedTcrMolecule>
+                        <AntigenPresentingCells>
+                            <CellTissueType>Lymphoid</CellTissueType>
+                            <CellType>B cell</CellType>
+                            <CellCultureConditions>Cell Line / Clone (EBV transformed, B-LCL)</CellCultureConditions>
+                            <AutologousOrSyngeneic>N</AutologousOrSyngeneic>
+                            <SourceOrganismId>9606</SourceOrganismId>
+                        </AntigenPresentingCells>
+                        <MhcAllele>
+                            <MhcAlleleId>84</MhcAlleleId>
+                            <MhcEvidenceCode>T cell assay -Single MHC type present</MhcEvidenceCode>
+                        </MhcAllele>
+                        <Antigen>
+                            <AntigenObject>
+                                <EpitopeRelation>Epitope</EpitopeRelation>
+                                <Object>
+                                    <FragmentOfANaturalSequenceMolecule>
+                                        <ChemicalType>Peptide from protein</ChemicalType>
+                                        <LinearSequence>DRLLMLFAKDVVSRN</LinearSequence>
+                                        <StartingPosition>261</StartingPosition>
+                                        <EndingPosition>275</EndingPosition>
+                                        <SourceMolecule>
+                                            <GenBankId>AAA25701.1</GenBankId>
+                                        </SourceMolecule>
+                                        <SourceOrganismId>287</SourceOrganismId>
+                                    </FragmentOfANaturalSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Exact match to reference information</AntigenEvidenceCode>
+                        </Antigen>
+                        <AssayInformation>
+                            <AssayTypeId>69</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                        </AssayInformation>
+                    </TCell>
+                </Assays>
+            </Epitope>
+            <Epitope>
+                <EpitopeName>Human papillomavirus type 7, L2 protein peptide</EpitopeName>
+                <EpitopeStructure>
+                    <FragmentOfANaturalSequenceMolecule>
+                        <ChemicalType>Peptide from protein</ChemicalType>
+                        <LinearSequence>IGGRVHFFKDISPIA</LinearSequence>
+                        <StartingPosition>316</StartingPosition>
+                        <EndingPosition>330</EndingPosition>
+                        <SourceMolecule>
+                            <GenBankId>NP_041858.1</GenBankId>
+                        </SourceMolecule>
+                        <SourceOrganismId>10620</SourceOrganismId>
+                    </FragmentOfANaturalSequenceMolecule>
+                </EpitopeStructure>
+                <LocationOfData>Table 1</LocationOfData>
+                <EpitopeId>113535</EpitopeId>
+                <EpitopeEvidenceCode>Representative selection</EpitopeEvidenceCode>
+                <EpitopeStructureDefines>Exact Epitope</EpitopeStructureDefines>
+                <Assays>
+                    <TCell>
+                        <LocationOfData>Table 2</LocationOfData>
+                        <TCellId>1689975</TCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>9606</OrganismId>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Occurrence of autoimmune disease</InVivoProcessType>
+                                <DiseaseState>DOID:2377</DiseaseState>
+                                <DiseaseStage>Chronic</DiseaseStage>
+                            </FirstInVivoProcess>
+                            <InVitroAdministration>
+                                <ProcessType>Primary induction in vitro</ProcessType>
+                                <ResponderCellType>PBMC</ResponderCellType>
+                                <StimulatorCellType>PBMC</StimulatorCellType>
+                                <ImmunogenReferenceName>MBP(85-99)</ImmunogenReferenceName>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Structurally Related</EpitopeRelation>
+                                    <Object>
+                                        <FragmentOfANaturalSequenceMolecule>
+                                            <ChemicalType>Peptide from protein</ChemicalType>
+                                            <LinearSequence>ENPVVHFFKNIVTPR</LinearSequence>
+                                            <StartingPosition>84</StartingPosition>
+                                            <EndingPosition>98</EndingPosition>
+                                            <SourceMolecule>
+                                                <GenBankId>AAH08749.3</GenBankId>
+                                            </SourceMolecule>
+                                            <SourceOrganismId>9606</SourceOrganismId>
+                                        </FragmentOfANaturalSequenceMolecule>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenEvidenceCode>Exact match to reference information</ImmunogenEvidenceCode>
+                            </InVitroAdministration>
+                            <ImmunizationComments>T cell clones from relapsing-remitting MS patients were generated by 2 rounds of stimulation with MBP, then  stimulated with the MBP(85-99) peptide, followed by limiting dilution.</ImmunizationComments>
+                        </Immunization>
+                        <EffectorCells>
+                            <CellTissueType>Blood</CellTissueType>
+                            <CellType>PBMC</CellType>
+                            <CellCultureConditions>Cell Line / Clone</CellCultureConditions>
+                        </EffectorCells>
+                        <AssayedTcrMolecule>
+                            <AssayedTcrMoleculeName>Hy.1B11</AssayedTcrMoleculeName>
+                        </AssayedTcrMolecule>
+                        <AntigenPresentingCells>
+                            <CellTissueType>Lymphoid</CellTissueType>
+                            <CellType>B cell</CellType>
+                            <CellCultureConditions>Cell Line / Clone (EBV transformed, B-LCL)</CellCultureConditions>
+                            <AutologousOrSyngeneic>N</AutologousOrSyngeneic>
+                            <SourceOrganismId>9606</SourceOrganismId>
+                        </AntigenPresentingCells>
+                        <MhcAllele>
+                            <MhcAlleleId>304</MhcAlleleId>
+                            <MhcEvidenceCode>T cell assay -Biological process measured</MhcEvidenceCode>
+                        </MhcAllele>
+                        <Antigen>
+                            <AntigenObject>
+                                <EpitopeRelation>Epitope</EpitopeRelation>
+                                <Object>
+                                    <FragmentOfANaturalSequenceMolecule>
+                                        <ChemicalType>Peptide from protein</ChemicalType>
+                                        <LinearSequence>IGGRVHFFKDISPIA</LinearSequence>
+                                        <StartingPosition>316</StartingPosition>
+                                        <EndingPosition>330</EndingPosition>
+                                        <SourceMolecule>
+                                            <GenBankId>NP_041858.1</GenBankId>
+                                        </SourceMolecule>
+                                        <SourceOrganismId>10620</SourceOrganismId>
+                                    </FragmentOfANaturalSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Exact match to reference information</AntigenEvidenceCode>
+                        </Antigen>
+                        <AssayInformation>
+                            <AssayTypeId>69</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                        </AssayInformation>
+                    </TCell>
+                </Assays>
+            </Epitope>
+            <Epitope>
+                <EpitopeName>Reovirus type 3, sigma 2 protein peptide</EpitopeName>
+                <EpitopeStructure>
+                    <FragmentOfANaturalSequenceMolecule>
+                        <ChemicalType>Peptide from protein</ChemicalType>
+                        <LinearSequence>MARAAFLFKTVGFGG</LinearSequence>
+                        <StartingPosition>1</StartingPosition>
+                        <EndingPosition>15</EndingPosition>
+                        <SourceMolecule>
+                            <GenBankId>ABD83955.1</GenBankId>
+                        </SourceMolecule>
+                        <SourceOrganismId>351073</SourceOrganismId>
+                    </FragmentOfANaturalSequenceMolecule>
+                </EpitopeStructure>
+                <LocationOfData>Table 1</LocationOfData>
+                <EpitopeId>117580</EpitopeId>
+                <EpitopeEvidenceCode>Representative selection</EpitopeEvidenceCode>
+                <EpitopeStructureDefines>Exact Epitope</EpitopeStructureDefines>
+                <Assays>
+                    <TCell>
+                        <LocationOfData>Table 2</LocationOfData>
+                        <TCellId>1689976</TCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>9606</OrganismId>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Occurrence of autoimmune disease</InVivoProcessType>
+                                <DiseaseState>DOID:2377</DiseaseState>
+                                <DiseaseStage>Chronic</DiseaseStage>
+                            </FirstInVivoProcess>
+                            <InVitroAdministration>
+                                <ProcessType>Primary induction in vitro</ProcessType>
+                                <ResponderCellType>PBMC</ResponderCellType>
+                                <StimulatorCellType>PBMC</StimulatorCellType>
+                                <ImmunogenReferenceName>MBP(85-99)</ImmunogenReferenceName>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Structurally Related</EpitopeRelation>
+                                    <Object>
+                                        <FragmentOfANaturalSequenceMolecule>
+                                            <ChemicalType>Peptide from protein</ChemicalType>
+                                            <LinearSequence>ENPVVHFFKNIVTPR</LinearSequence>
+                                            <StartingPosition>84</StartingPosition>
+                                            <EndingPosition>98</EndingPosition>
+                                            <SourceMolecule>
+                                                <GenBankId>AAH08749.3</GenBankId>
+                                            </SourceMolecule>
+                                            <SourceOrganismId>9606</SourceOrganismId>
+                                        </FragmentOfANaturalSequenceMolecule>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenEvidenceCode>Exact match to reference information</ImmunogenEvidenceCode>
+                            </InVitroAdministration>
+                            <ImmunizationComments>T cell clones from relapsing-remitting MS patients were generated by 2 rounds of stimulation with MBP, then  stimulated with the MBP(85-99) peptide, followed by limiting dilution.</ImmunizationComments>
+                        </Immunization>
+                        <EffectorCells>
+                            <CellTissueType>Blood</CellTissueType>
+                            <CellType>PBMC</CellType>
+                            <CellCultureConditions>Cell Line / Clone</CellCultureConditions>
+                        </EffectorCells>
+                        <AssayedTcrMolecule>
+                            <AssayedTcrMoleculeName>Hy.2E11</AssayedTcrMoleculeName>
+                        </AssayedTcrMolecule>
+                        <AntigenPresentingCells>
+                            <CellTissueType>Lymphoid</CellTissueType>
+                            <CellType>B cell</CellType>
+                            <CellCultureConditions>Cell Line / Clone (EBV transformed, B-LCL)</CellCultureConditions>
+                            <AutologousOrSyngeneic>N</AutologousOrSyngeneic>
+                            <SourceOrganismId>9606</SourceOrganismId>
+                        </AntigenPresentingCells>
+                        <MhcAllele>
+                            <MhcAlleleId>304</MhcAlleleId>
+                            <MhcEvidenceCode>T cell assay -Biological process measured</MhcEvidenceCode>
+                        </MhcAllele>
+                        <Antigen>
+                            <AntigenObject>
+                                <EpitopeRelation>Epitope</EpitopeRelation>
+                                <Object>
+                                    <FragmentOfANaturalSequenceMolecule>
+                                        <ChemicalType>Peptide from protein</ChemicalType>
+                                        <LinearSequence>MARAAFLFKTVGFGG</LinearSequence>
+                                        <StartingPosition>1</StartingPosition>
+                                        <EndingPosition>15</EndingPosition>
+                                        <SourceMolecule>
+                                            <GenBankId>ABD83955.1</GenBankId>
+                                        </SourceMolecule>
+                                        <SourceOrganismId>351073</SourceOrganismId>
+                                    </FragmentOfANaturalSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Exact match to reference information</AntigenEvidenceCode>
+                        </Antigen>
+                        <AssayInformation>
+                            <AssayTypeId>69</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                        </AssayInformation>
+                    </TCell>
+                </Assays>
+            </Epitope>
+            <Epitope>
+                <EpitopeName>Herpes simplex, DNA polymerase peptide</EpitopeName>
+                <EpitopeStructure>
+                    <FragmentOfANaturalSequenceMolecule>
+                        <ChemicalType>Peptide from protein</ChemicalType>
+                        <LinearSequence>GGRRLFFVKAHVR</LinearSequence>
+                        <StartingPosition>758</StartingPosition>
+                        <EndingPosition>770</EndingPosition>
+                        <SourceMolecule>
+                            <GenBankId>P09854.1</GenBankId>
+                        </SourceMolecule>
+                        <SourceOrganismId>10309</SourceOrganismId>
+                    </FragmentOfANaturalSequenceMolecule>
+                </EpitopeStructure>
+                <LocationOfData>Table 1</LocationOfData>
+                <EpitopeId>117507</EpitopeId>
+                <EpitopeEvidenceCode>Representative selection</EpitopeEvidenceCode>
+                <EpitopeStructureDefines>Exact Epitope</EpitopeStructureDefines>
+                <Assays>
+                    <TCell>
+                        <LocationOfData>Table 2</LocationOfData>
+                        <TCellId>1689977</TCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>9606</OrganismId>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Occurrence of autoimmune disease</InVivoProcessType>
+                                <DiseaseState>DOID:2377</DiseaseState>
+                                <DiseaseStage>Chronic</DiseaseStage>
+                            </FirstInVivoProcess>
+                            <InVitroAdministration>
+                                <ProcessType>Primary induction in vitro</ProcessType>
+                                <ResponderCellType>PBMC</ResponderCellType>
+                                <StimulatorCellType>PBMC</StimulatorCellType>
+                                <ImmunogenReferenceName>MBP(85-99)</ImmunogenReferenceName>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Structurally Related</EpitopeRelation>
+                                    <Object>
+                                        <FragmentOfANaturalSequenceMolecule>
+                                            <ChemicalType>Peptide from protein</ChemicalType>
+                                            <LinearSequence>ENPVVHFFKNIVTPR</LinearSequence>
+                                            <StartingPosition>84</StartingPosition>
+                                            <EndingPosition>98</EndingPosition>
+                                            <SourceMolecule>
+                                                <GenBankId>AAH08749.3</GenBankId>
+                                            </SourceMolecule>
+                                            <SourceOrganismId>9606</SourceOrganismId>
+                                        </FragmentOfANaturalSequenceMolecule>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenEvidenceCode>Exact match to reference information</ImmunogenEvidenceCode>
+                            </InVitroAdministration>
+                            <ImmunizationComments>T cell clones from relapsing-remitting MS patients were generated by 2 rounds of stimulation with MBP, then  stimulated with the MBP(85-99) peptide, followed by limiting dilution.</ImmunizationComments>
+                        </Immunization>
+                        <EffectorCells>
+                            <CellTissueType>Blood</CellTissueType>
+                            <CellType>PBMC</CellType>
+                            <CellCultureConditions>Cell Line / Clone</CellCultureConditions>
+                        </EffectorCells>
+                        <AssayedTcrMolecule>
+                            <AssayedTcrMoleculeName>Hy.1G11</AssayedTcrMoleculeName>
+                        </AssayedTcrMolecule>
+                        <AntigenPresentingCells>
+                            <CellTissueType>Lymphoid</CellTissueType>
+                            <CellType>B cell</CellType>
+                            <CellCultureConditions>Cell Line / Clone (EBV transformed, B-LCL)</CellCultureConditions>
+                            <AutologousOrSyngeneic>N</AutologousOrSyngeneic>
+                            <SourceOrganismId>9606</SourceOrganismId>
+                        </AntigenPresentingCells>
+                        <MhcAllele>
+                            <MhcAlleleId>304</MhcAlleleId>
+                            <MhcEvidenceCode>T cell assay -Biological process measured</MhcEvidenceCode>
+                        </MhcAllele>
+                        <Antigen>
+                            <AntigenObject>
+                                <EpitopeRelation>Epitope</EpitopeRelation>
+                                <Object>
+                                    <FragmentOfANaturalSequenceMolecule>
+                                        <ChemicalType>Peptide from protein</ChemicalType>
+                                        <LinearSequence>GGRRLFFVKAHVR</LinearSequence>
+                                        <StartingPosition>758</StartingPosition>
+                                        <EndingPosition>770</EndingPosition>
+                                        <SourceMolecule>
+                                            <GenBankId>P09854.1</GenBankId>
+                                        </SourceMolecule>
+                                        <SourceOrganismId>10309</SourceOrganismId>
+                                    </FragmentOfANaturalSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Exact match to reference information</AntigenEvidenceCode>
+                        </Antigen>
+                        <AssayInformation>
+                            <AssayTypeId>69</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                        </AssayInformation>
+                    </TCell>
+                </Assays>
+            </Epitope>
+        </Epitopes>
+    </Reference>
+</References>
+

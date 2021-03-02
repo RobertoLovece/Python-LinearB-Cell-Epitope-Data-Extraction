@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<References xsi:schemaLocation="http://www.iedb.org/schema/CurationSchema http://beta.iedb.org/schema/Curation.xsd" xmlns="http://www.iedb.org/schema/CurationSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <Reference>
+        <ReferenceId>1019</ReferenceId>
+        <DateLastUpdated>2020-09-10-07:00</DateLastUpdated>
+        <Article>
+            <PubmedId>1717708</PubmedId>
+            <Abstract>Immunization of H-2k mice with live rabies virus induces cytolytic T lymphocytes to the phosphoprotein of rabies virus. The antigenic determinant responsible for stimulating this class I-restricted cytolytic response was mapped to 50 amino acids (residues 180 to 229) of the phosphoprotein by using vaccinia virus recombinants expressing either the full-length phosphoprotein or C-terminal truncations of the phosphoprotein. The epitope was more finely mapped to residues 191 to 206 by using synthetic peptides. Several CD4+, class II-restricted T-cell lines were isolated from splenocytes of H-2k mice immunized with the vaccinia virus-rabies virus phosphoprotein recombinant virus. These lines were specifically stimulated by the phosphoprotein, and in addition, each line proliferated and released lymphokines in response to the same synthetic peptide shown to stimulate phosphoprotein-specific, class I-restricted cytolytic T cells.</Abstract>
+            <ArticleYear>1991</ArticleYear>
+            <ArticlePages>5673-9</ArticlePages>
+            <ArticleTitle>Identification of an immunodominant epitope within the phosphoprotein of rabies virus that is recognized by both class I- and class II-restricted T cells.</ArticleTitle>
+            <Authors>
+                <Author>
+                    <LastName>Larson</LastName>
+                    <ForeName>J K</ForeName>
+                </Author>
+                <Author>
+                    <LastName>Wunner</LastName>
+                    <ForeName>W H</ForeName>
+                </Author>
+                <Author>
+                    <LastName>Otvos</LastName>
+                    <ForeName>L</ForeName>
+                    <Suffix>Jr</Suffix>
+                </Author>
+                <Author>
+                    <LastName>Ertl</LastName>
+                    <ForeName>H C</ForeName>
+                </Author>
+            </Authors>
+            <Affiliations>Wistar Institute of Anatomy and Biology, Philadelphia, Pennsylvania 19104-4268.</Affiliations>
+            <ArticleChemicalList>Epitopes;Oligodeoxyribonucleotides;Phosphoproteins;Viral Core Proteins;Viral Nonstructural Proteins</ArticleChemicalList>
+            <ArticleMeshHeadingsList>Amino Acid Sequence; Animals; Base Sequence; Capsid(genetics; immunology); Cell Line; Chromosome Deletion; Cytotoxicity, Immunologic; Epitopes(analysis; immunology); Genes, MHC Class I; Genes, MHC Class II; Genes, Viral; HeLa Cells; Humans; L Cells; Mice; Molecular Sequence Data; Oligodeoxyribonucleotides; Phosphoproteins(genetics; immunology); Rabies virus(genetics; immunology); T-Lymphocytes(immunology); T-Lymphocytes, Cytotoxic(immunology); Viral Core Proteins(genetics; immunology); Viral Nonstructural Proteins</ArticleMeshHeadingsList>
+            <Journal>
+                <Volume>65</Volume>
+                <Issue>11</Issue>
+                <Title>Journal of virology</Title>
+                <Issn>1098-5514</Issn>
+                <MedlineTa>J Virol</MedlineTa>
+            </Journal>
+        </Article>
+        <Epitopes>
+            <Epitope>
+                <EpitopeName>NS191-206</EpitopeName>
+                <EpitopeStructure>
+                    <FragmentOfANaturalSequenceMolecule>
+                        <ChemicalType>Peptide from protein</ChemicalType>
+                        <LinearSequence>EKDDLSVEAEIAHQIA</LinearSequence>
+                        <StartingPosition>191</StartingPosition>
+                        <EndingPosition>206</EndingPosition>
+                        <SourceMolecule>
+                            <GenBankId>P69479.1</GenBankId>
+                        </SourceMolecule>
+                        <SourceOrganismId>11292</SourceOrganismId>
+                    </FragmentOfANaturalSequenceMolecule>
+                </EpitopeStructure>
+                <LocationOfData>Figure 4</LocationOfData>
+                <EpitopeId>12638</EpitopeId>
+                <ReferenceStartingPosition>191</ReferenceStartingPosition>
+                <ReferenceEndingPosition>206</ReferenceEndingPosition>
+                <EpitopeEvidenceCode>Not determined</EpitopeEvidenceCode>
+                <EpitopeStructureDefines>Epitope containing region/antigenic site</EpitopeStructureDefines>
+                <Assays>
+                    <TCell>
+                        <LocationOfData>Table 1</LocationOfData>
+                        <TCellId>14560</TCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>10000038</OrganismId>
+                                <Age>7-12 weeks-old</Age>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Administration in vivo</InVivoProcessType>
+                                <DiseaseState>ONTIE:0003423</DiseaseState>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Taxonomic Child</EpitopeRelation>
+                                    <Object>
+                                        <Organism>
+                                            <SubType>Organism</SubType>
+                                            <SourceOrganismId>11295</SourceOrganismId>
+                                        </Organism>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenReferenceName>Rabies virus (strain ERA)</ImmunogenReferenceName>
+                                <ImmunogenEvidenceCode>Not determined</ImmunogenEvidenceCode>
+                                <Route>Intramuscular</Route>
+                                <DoseSchedule>Mice were injected once, and sacrificed 7 days later.</DoseSchedule>
+                            </FirstInVivoProcess>
+                            <InVitroAdministration>
+                                <ProcessType>Restimulation in vitro</ProcessType>
+                                <ResponderCellType>Lymphocyte</ResponderCellType>
+                                <StimulatorCellType>Lymphocyte</StimulatorCellType>
+                            </InVitroAdministration>
+                            <ImmunizationComments>Lymphocytes were restimulated in vitro for 5 days.</ImmunizationComments>
+                        </Immunization>
+                        <EffectorCells>
+                            <CellTissueType>Lymphoid</CellTissueType>
+                            <CellType>Lymphocyte</CellType>
+                            <CellCultureConditions>Short Term Restimulated</CellCultureConditions>
+                        </EffectorCells>
+                        <AntigenPresentingCells>
+                            <CellTissueType>Lymphoid</CellTissueType>
+                            <CellType>Lymphocyte</CellType>
+                            <CellCultureConditions>Direct Ex Vivo</CellCultureConditions>
+                        </AntigenPresentingCells>
+                        <MhcAllele>
+                            <MhcAlleleId>110</MhcAlleleId>
+                            <MhcEvidenceCode>T cell assay -MHC subset identification</MhcEvidenceCode>
+                        </MhcAllele>
+                        <Antigen>
+                            <AntigenReferenceName>NS191-206</AntigenReferenceName>
+                            <AntigenObject>
+                                <EpitopeRelation>Epitope</EpitopeRelation>
+                                <Object>
+                                    <FragmentOfANaturalSequenceMolecule>
+                                        <ChemicalType>Peptide from protein</ChemicalType>
+                                        <LinearSequence>EKDDLSVEAEIAHQIA</LinearSequence>
+                                        <StartingPosition>191</StartingPosition>
+                                        <EndingPosition>206</EndingPosition>
+                                        <SourceMolecule>
+                                            <GenBankId>P69479.1</GenBankId>
+                                        </SourceMolecule>
+                                        <SourceOrganismId>11292</SourceOrganismId>
+                                    </FragmentOfANaturalSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Exact match to reference information</AntigenEvidenceCode>
+                        </Antigen>
+                        <AssayInformation>
+                            <AssayTypeId>67</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <AssayComments>Positive responses from cytotoxicity assays suggested that the region between residues 180 and 229 of the phosphotprotein contained both immunodominant cytotoxic and helper T cell epitopes.</AssayComments>
+                        </AssayInformation>
+                    </TCell>
+                </Assays>
+                <Assays>
+                    <TCell>
+                        <LocationOfData>Figure 5</LocationOfData>
+                        <TCellId>14561</TCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>10000038</OrganismId>
+                                <Age>7-12 weeks-old</Age>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Administration in vivo</InVivoProcessType>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Source Antigen</EpitopeRelation>
+                                    <Object>
+                                        <AccessionSequenceMolecule>
+                                            <ChemicalType>Protein</ChemicalType>
+                                            <Molecule>
+                                                <GenBankId>P69479.1</GenBankId>
+                                            </Molecule>
+                                            <SourceOrganismId>11292</SourceOrganismId>
+                                        </AccessionSequenceMolecule>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenReferenceName>Phosphoprotein</ImmunogenReferenceName>
+                                <ImmunogenEvidenceCode>Not determined</ImmunogenEvidenceCode>
+                                <ImmunogenContainingObject>
+                                    <RecombinantOrganism>
+                                        <SubType>Recombinant Organism</SubType>
+                                        <RecombinantOrganismId>10245</RecombinantOrganismId>
+                                    </RecombinantOrganism>
+                                </ImmunogenContainingObject>
+                                <Route>Intraperitoneal (i.p.)</Route>
+                                <DoseSchedule>Mice were injected once, and sacrificed 7 days later.</DoseSchedule>
+                            </FirstInVivoProcess>
+                            <InVitroAdministration>
+                                <ProcessType>Restimulation in vitro</ProcessType>
+                                <ResponderCellType>Splenocyte</ResponderCellType>
+                                <StimulatorCellType>Splenocyte</StimulatorCellType>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Source Organism</EpitopeRelation>
+                                    <Object>
+                                        <Organism>
+                                            <SubType>Organism</SubType>
+                                            <SourceOrganismId>11292</SourceOrganismId>
+                                        </Organism>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenEvidenceCode>Not determined</ImmunogenEvidenceCode>
+                            </InVitroAdministration>
+                            <ImmunizationComments>The T helper cell line, VRNS-F1, expresses CD4, but not CD8.  In vitro restimulation was performed with purified and inactivated rabies virus strain ERA.</ImmunizationComments>
+                        </Immunization>
+                        <EffectorCells>
+                            <CellTissueType>Spleen</CellTissueType>
+                            <CellType>T cell CD4+</CellType>
+                            <CellCultureConditions>Cell Line / Clone</CellCultureConditions>
+                        </EffectorCells>
+                        <AntigenPresentingCells>
+                            <CellTissueType>Spleen</CellTissueType>
+                            <CellType>Splenocyte</CellType>
+                            <CellCultureConditions>Direct Ex Vivo</CellCultureConditions>
+                        </AntigenPresentingCells>
+                        <MhcAllele>
+                            <MhcAlleleId>110</MhcAlleleId>
+                            <MhcEvidenceCode>T cell assay -MHC subset identification</MhcEvidenceCode>
+                        </MhcAllele>
+                        <Antigen>
+                            <AntigenReferenceName>NS191-206</AntigenReferenceName>
+                            <AntigenObject>
+                                <EpitopeRelation>Epitope</EpitopeRelation>
+                                <Object>
+                                    <FragmentOfANaturalSequenceMolecule>
+                                        <ChemicalType>Peptide from protein</ChemicalType>
+                                        <LinearSequence>EKDDLSVEAEIAHQIA</LinearSequence>
+                                        <StartingPosition>191</StartingPosition>
+                                        <EndingPosition>206</EndingPosition>
+                                        <SourceMolecule>
+                                            <GenBankId>P69479.1</GenBankId>
+                                        </SourceMolecule>
+                                        <SourceOrganismId>11292</SourceOrganismId>
+                                    </FragmentOfANaturalSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Exact match to reference information</AntigenEvidenceCode>
+                        </Antigen>
+                        <AssayInformation>
+                            <AssayTypeId>69</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <AssayComments>Long-term rabies virus-specific T-helper cell lines induced by recombinant vaccinia virus in vivo showed the same pattern of responsiveness as cytotoxic T cells, suggesting that the region between residues 180 and 229 of the phosphotprotein contained both immunodominant cytotoxic and helper T cell epitopes.</AssayComments>
+                        </AssayInformation>
+                    </TCell>
+                </Assays>
+            </Epitope>
+        </Epitopes>
+    </Reference>
+</References>
+

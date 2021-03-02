@@ -1,0 +1,373 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<References xsi:schemaLocation="http://www.iedb.org/schema/CurationSchema http://beta.iedb.org/schema/Curation.xsd" xmlns="http://www.iedb.org/schema/CurationSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <Reference>
+        <ReferenceId>343</ReferenceId>
+        <DateLastUpdated>2020-09-10-07:00</DateLastUpdated>
+        <Article>
+            <PubmedId>12533537</PubmedId>
+            <Abstract>The Escherichia coli mazEF operon defines a chromosomal addiction module that programs cell death under various stress conditions. It encodes the toxic and long-lived MazF and the labile antidote MazE. The denaturation of MazE is a two-state reversible dimer-monomer transition. At lower concentrations the denatured state is significantly populated. This leads to a new aspect of the regulation of MazE concentration, which may decide about the life and death of the cell. Interactions of MazE with a dromedary antibody domain, cAbMaz1 (previously used as a crystallization aid), as well as with promoter DNA were studied using microcalorimetric and spectroscopic techniques. Unique features of cAbMaz1 enable a specific enthalpy-driven recognition of MazE and, thus, a significant stabilization of its dimeric native conformation. The MazE dimer and the MazE dimer-cAbMaz1 complex show very similar binding characteristics with promoter DNA, i.e. three binding sites with apparent affinities in micromolar range and highly exothermic binding accompanied by large negative entropy contributions. A working model for the MazE-DNA assembly is proposed on the basis of the structural and binding data. Both binding and stability studies lead to a picture of MazE solution structure that is significantly more unfolded than the structure observed in a crystal of the MazE-cAbMaz1 complex.</Abstract>
+            <ArticleYear>2003</ArticleYear>
+            <ArticlePages>14101-11</ArticlePages>
+            <ArticleTitle>Recognition of the intrinsically flexible addiction antidote MazE by a dromedary single domain antibody fragment. Structure, thermodynamics of binding, stability, and influence on interactions with DNA.</ArticleTitle>
+            <Authors>
+                <Author>
+                    <LastName>Lah</LastName>
+                    <ForeName>Jurij</ForeName>
+                </Author>
+                <Author>
+                    <LastName>Marianovsky</LastName>
+                    <ForeName>Irina</ForeName>
+                </Author>
+                <Author>
+                    <LastName>Glaser</LastName>
+                    <ForeName>Gad</ForeName>
+                </Author>
+                <Author>
+                    <LastName>Engelberg-Kulka</LastName>
+                    <ForeName>Hanna</ForeName>
+                </Author>
+                <Author>
+                    <LastName>Kinne</LastName>
+                    <ForeName>Jörg</ForeName>
+                </Author>
+                <Author>
+                    <LastName>Wyns</LastName>
+                    <ForeName>Lode</ForeName>
+                </Author>
+                <Author>
+                    <LastName>Loris</LastName>
+                    <ForeName>Remy</ForeName>
+                </Author>
+            </Authors>
+            <Affiliations>Department of Ultrastructure, Vrije Universiteit Brussel, Paardenstraat 65, B-1640 St. Genesius Rode, Belgium. jurij.lah@uni-lj.si.</Affiliations>
+            <ArticleChemicalList>DNA-Binding Proteins;Escherichia coli Proteins;Immunoglobulin Fragments;MazE protein, E coli;Peptides;DNA</ArticleChemicalList>
+            <ArticleMeshHeadingsList>Amino Acid Sequence; Animals; Binding Sites; Biochemistry(methods); Calorimetry; Calorimetry, Differential Scanning; Camelus; Circular Dichroism; DNA(metabolism); DNA-Binding Proteins(chemistry; metabolism); Dimerization; Entropy; Escherichia coli(metabolism); Escherichia coli Proteins; Immunoglobulin Fragments(chemistry); Models, Molecular; Molecular Sequence Data; Peptides(chemistry); Promoter Regions, Genetic; Protein Binding; Protein Conformation; Protein Structure, Secondary; Protein Structure, Tertiary; Sequence Homology, Amino Acid; Temperature; Thermodynamics; Time Factors</ArticleMeshHeadingsList>
+            <Journal>
+                <Volume>278</Volume>
+                <Issue>16</Issue>
+                <Title>The Journal of biological chemistry</Title>
+                <Issn>1083-351X</Issn>
+                <MedlineTa>J Biol Chem</MedlineTa>
+            </Journal>
+        </Article>
+        <Epitopes>
+            <Epitope>
+                <EpitopeName>Epitope of cAbMaz1 VHH on MazE</EpitopeName>
+                <EpitopeStructure>
+                    <RegionOnMultiChainMolecule>
+                        <ChemicalType>Region on multi-chain protein</ChemicalType>
+                        <MoleculeName>MazE</MoleculeName>
+                        <DiscontinuousResidues>D: I35, D36, L37, V38, D39, G40; E: P18, A19, T20, L21, Q23, A24, N26</DiscontinuousResidues>
+                        <Chain1>
+                            <Molecule>
+                                <GenBankId>P0AE72.1</GenBankId>
+                            </Molecule>
+                            <SourceOrganismId>562</SourceOrganismId>
+                        </Chain1>
+                        <Chain2>
+                            <Molecule>
+                                <GenBankId>P0AE72.1</GenBankId>
+                            </Molecule>
+                            <SourceOrganismId>562</SourceOrganismId>
+                        </Chain2>
+                    </RegionOnMultiChainMolecule>
+                </EpitopeStructure>
+                <LocationOfData>Figure 2 and PDB 1MVF</LocationOfData>
+                <EpitopeId>225981</EpitopeId>
+                <EpitopeEvidenceCode>Representative selection</EpitopeEvidenceCode>
+                <EpitopeStructureDefines>Exact Epitope</EpitopeStructureDefines>
+                <EpitopeComments>The epitope residues were calculated as the antigen residues interacting with the antibody at 4 Å atomic distance based on the structure [PDB: 1MVF]. The epitope consists of residues from each monomer forming the MazE homodimer.</EpitopeComments>
+                <Assays>
+                    <BCell>
+                        <LocationOfData>Figure 2 and 1MVF</LocationOfData>
+                        <BCellId>1513945</BCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>9838</OrganismId>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Administration in vivo</InVivoProcessType>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Source Antigen</EpitopeRelation>
+                                    <Object>
+                                        <MultiChainMolecule>
+                                            <ChemicalType>Multi-Chain protein</ChemicalType>
+                                            <MoleculeName>MazE</MoleculeName>
+                                            <Chain1>
+                                                <Molecule>
+                                                    <GenBankId>P0AE72.1</GenBankId>
+                                                </Molecule>
+                                                <SourceOrganismId>562</SourceOrganismId>
+                                            </Chain1>
+                                            <Chain2>
+                                                <Molecule>
+                                                    <GenBankId>P0AE72.1</GenBankId>
+                                                </Molecule>
+                                                <SourceOrganismId>562</SourceOrganismId>
+                                            </Chain2>
+                                        </MultiChainMolecule>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenEvidenceCode>Representative selection</ImmunogenEvidenceCode>
+                            </FirstInVivoProcess>
+                            <ImmunizationComments>A phage display library of VHH genes was constructed using lymphocytes from an immunized dromedary and selected for binding to MazE as described in the cited reference: Lauwereys et al. (1998) EMBO J 17: 3512–3520 [PMID: 9649422]. The VHH protein cAbmaz1 was expressed in bacteria and purified. The immunization procedure is not described.</ImmunizationComments>
+                        </Immunization>
+                        <AssayInformation>
+                            <AssayTypeId>436</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <QuantitativeMeasurement>1.65</QuantitativeMeasurement>
+                            <MeasurementInequality>=</MeasurementInequality>
+                            <AssayComments>The epitope of VHH cAbmaz1 on the addiction antidote MazE protein with a His tag was determined from the crystal structure of the complex. The asymmetric unit of the crystals contains a dimer of MazE sandwiched between two cAbmaz1 molecules.</AssayComments>
+                        </AssayInformation>
+                        <AssayedAntibody>
+                            <AssayedAntibodySourceMaterial>Purified Immunoglobulin</AssayedAntibodySourceMaterial>
+                            <AssayedAntibodyImmunoglobulinDomain>VH Domain</AssayedAntibodyImmunoglobulinDomain>
+                            <AssayedAntibodyPurificationStatus>Display Library</AssayedAntibodyPurificationStatus>
+                            <AssayedAntibodyName>cAbMaz1 VHH</AssayedAntibodyName>
+                            <AssayedAntibodyHeavyChainType>Heavy Isotype n/s</AssayedAntibodyHeavyChainType>
+                            <AssayedAntibodyObject>
+                                <MultiChainMolecule>
+                                    <ChemicalType>Multi-Chain protein</ChemicalType>
+                                    <MoleculeName>cAbMaz1 VHH</MoleculeName>
+                                    <Chain1>
+                                        <Molecule>
+                                            <GenBankId>1MVF_A</GenBankId>
+                                        </Molecule>
+                                        <SourceOrganismId>9838</SourceOrganismId>
+                                    </Chain1>
+                                    <Chain2>
+                                        <SourceOrganismId>9838</SourceOrganismId>
+                                    </Chain2>
+                                </MultiChainMolecule>
+                            </AssayedAntibodyObject>
+                        </AssayedAntibody>
+                        <Antigen>
+                            <AntigenConformation>Native</AntigenConformation>
+                            <AntigenObject>
+                                <EpitopeRelation>Source Antigen</EpitopeRelation>
+                                <Object>
+                                    <MultiChainMolecule>
+                                        <ChemicalType>Multi-Chain protein</ChemicalType>
+                                        <MoleculeName>MazE</MoleculeName>
+                                        <Chain1>
+                                            <Molecule>
+                                                <GenBankId>P0AE72.1</GenBankId>
+                                            </Molecule>
+                                            <SourceOrganismId>562</SourceOrganismId>
+                                        </Chain1>
+                                        <Chain2>
+                                            <Molecule>
+                                                <GenBankId>P0AE72.1</GenBankId>
+                                            </Molecule>
+                                            <SourceOrganismId>562</SourceOrganismId>
+                                        </Chain2>
+                                    </MultiChainMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Representative selection</AntigenEvidenceCode>
+                        </Antigen>
+                        <ThreeDimensionalStructureOfComplex>
+                            <ComplexPdbId>1MVF</ComplexPdbId>
+                            <AntibodyChain1PdbChain>A</AntibodyChain1PdbChain>
+                            <AntigenChainPdbChain>DE</AntigenChainPdbChain>
+                            <ViewerFlag>Y</ViewerFlag>
+                            <Comments>Complete contacts and paratope residues are not discussed in the paper. The structure contains the MazE dimer and two VHH fragments. The MazE dimer contains two structurally identical epitopes for each antibody fragment. PDB citation for this structure is in the reference Loris et al. (2003) J.Biol.Chem. 278: 28252-28257 [PMID: 12743116] which does not describe the epitope.</Comments>
+                            <CuratedContacts>
+                                <EpitopeResidues>D: ; E: ;</EpitopeResidues>
+                                <AntibodyResiduesInteractingWithAntigen>A: ;</AntibodyResiduesInteractingWithAntigen>
+                                <ContactAreaForAntigen>520.0</ContactAreaForAntigen>
+                                <ContactAreaForAntibody>520.0</ContactAreaForAntibody>
+                            </CuratedContacts>
+                            <CalculatedContacts>
+                                <EpitopeResidues>D: I35, D36, L37, V38, D39, G40; E: P18, A19, T20, L21, Q23, A24, N26</EpitopeResidues>
+                                <AntibodyResiduesInteractingWithAntigen>A: K32, Y33, F52, D54, N55, N57, I59, W102, M103, D104, Y105, S106, A107</AntibodyResiduesInteractingWithAntigen>
+                                <ContactAreaForAntigen>544.4</ContactAreaForAntigen>
+                                <ContactAreaForAntibody>513.0</ContactAreaForAntibody>
+                            </CalculatedContacts>
+                        </ThreeDimensionalStructureOfComplex>
+                    </BCell>
+                </Assays>
+                <Assays>
+                    <BCell>
+                        <LocationOfData>Figures 3, 5  and Table I</LocationOfData>
+                        <BCellId>1513933</BCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>9838</OrganismId>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Administration in vivo</InVivoProcessType>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Source Antigen</EpitopeRelation>
+                                    <Object>
+                                        <MultiChainMolecule>
+                                            <ChemicalType>Multi-Chain protein</ChemicalType>
+                                            <MoleculeName>MazE</MoleculeName>
+                                            <Chain1>
+                                                <Molecule>
+                                                    <GenBankId>P0AE72.1</GenBankId>
+                                                </Molecule>
+                                                <SourceOrganismId>562</SourceOrganismId>
+                                            </Chain1>
+                                            <Chain2>
+                                                <Molecule>
+                                                    <GenBankId>P0AE72.1</GenBankId>
+                                                </Molecule>
+                                                <SourceOrganismId>562</SourceOrganismId>
+                                            </Chain2>
+                                        </MultiChainMolecule>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenEvidenceCode>Representative selection</ImmunogenEvidenceCode>
+                            </FirstInVivoProcess>
+                            <ImmunizationComments>A phage display library of VHH genes was constructed using lymphocytes from an immunized dromedary and selected for binding to MazE as described in the cited reference: Lauwereys et al. (1998) EMBO J 17: 3512–3520 [PMID: 9649422]. The VHH protein cAbmaz1 was expressed in bacteria and purified. The immunization procedure is not described.</ImmunizationComments>
+                        </Immunization>
+                        <AssayInformation>
+                            <AssayTypeId>243</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <QuantitativeMeasurement>0.99</QuantitativeMeasurement>
+                            <AssayComments>The dimeric MazE molecule is able to bind two epitope-specific cAbMaz1 VHH molecules. The apparent equilibrium constant for the free protein binding to one VHH is about 1 1/nM, while the equilibrium constant of the complex towards a second VHH is about 0.05 1/nM, as determined by isothermal titration calorimetry. Similar results are seen in fluorometric titration.</AssayComments>
+                        </AssayInformation>
+                        <AssayedAntibody>
+                            <AssayedAntibodySourceMaterial>Purified Immunoglobulin</AssayedAntibodySourceMaterial>
+                            <AssayedAntibodyImmunoglobulinDomain>VH Domain</AssayedAntibodyImmunoglobulinDomain>
+                            <AssayedAntibodyPurificationStatus>Display Library</AssayedAntibodyPurificationStatus>
+                            <AssayedAntibodyName>cAbMaz1 VHH</AssayedAntibodyName>
+                            <AssayedAntibodyHeavyChainType>Heavy Isotype n/s</AssayedAntibodyHeavyChainType>
+                            <AssayedAntibodyObject>
+                                <MultiChainMolecule>
+                                    <ChemicalType>Multi-Chain protein</ChemicalType>
+                                    <MoleculeName>cAbMaz1 VHH</MoleculeName>
+                                    <Chain1>
+                                        <Molecule>
+                                            <GenBankId>1MVF_A</GenBankId>
+                                        </Molecule>
+                                        <SourceOrganismId>9838</SourceOrganismId>
+                                    </Chain1>
+                                    <Chain2>
+                                        <SourceOrganismId>9838</SourceOrganismId>
+                                    </Chain2>
+                                </MultiChainMolecule>
+                            </AssayedAntibodyObject>
+                        </AssayedAntibody>
+                        <Antigen>
+                            <AntigenConformation>Native</AntigenConformation>
+                            <AntigenObject>
+                                <EpitopeRelation>Source Antigen</EpitopeRelation>
+                                <Object>
+                                    <MultiChainMolecule>
+                                        <ChemicalType>Multi-Chain protein</ChemicalType>
+                                        <MoleculeName>MazE</MoleculeName>
+                                        <Chain1>
+                                            <Molecule>
+                                                <GenBankId>P0AE72.1</GenBankId>
+                                            </Molecule>
+                                            <SourceOrganismId>562</SourceOrganismId>
+                                        </Chain1>
+                                        <Chain2>
+                                            <Molecule>
+                                                <GenBankId>P0AE72.1</GenBankId>
+                                            </Molecule>
+                                            <SourceOrganismId>562</SourceOrganismId>
+                                        </Chain2>
+                                    </MultiChainMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Representative selection</AntigenEvidenceCode>
+                        </Antigen>
+                    </BCell>
+                </Assays>
+                <Assays>
+                    <BCell>
+                        <LocationOfData>Figure 8</LocationOfData>
+                        <BCellId>1709818</BCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>9838</OrganismId>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Administration in vivo</InVivoProcessType>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Source Antigen</EpitopeRelation>
+                                    <Object>
+                                        <MultiChainMolecule>
+                                            <ChemicalType>Multi-Chain protein</ChemicalType>
+                                            <MoleculeName>MazE</MoleculeName>
+                                            <Chain1>
+                                                <Molecule>
+                                                    <GenBankId>P0AE72.1</GenBankId>
+                                                </Molecule>
+                                                <SourceOrganismId>562</SourceOrganismId>
+                                            </Chain1>
+                                            <Chain2>
+                                                <Molecule>
+                                                    <GenBankId>P0AE72.1</GenBankId>
+                                                </Molecule>
+                                                <SourceOrganismId>562</SourceOrganismId>
+                                            </Chain2>
+                                        </MultiChainMolecule>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenEvidenceCode>Representative selection</ImmunogenEvidenceCode>
+                            </FirstInVivoProcess>
+                            <ImmunizationComments>A phage display library of VHH genes was constructed using lymphocytes from an immunized dromedary and selected for binding to MazE as described in the cited reference: Lauwereys et al. (1998) EMBO J 17: 3512–3520 [PMID: 9649422]. The VHH protein cAbmaz1 was expressed in bacteria and purified. The immunization procedure is not described.</ImmunizationComments>
+                        </Immunization>
+                        <AssayInformation>
+                            <AssayTypeId>316</AssayTypeId>
+                            <QualitativeMeasurement>Negative</QualitativeMeasurement>
+                            <AssayComments>The MazE dimer has specific interaction with its promoter DNA sequence. Binding of two epitope specific cAbMaz1 VHH to the MazE dimer does not significantly influence its interactions with the promoter DNA.</AssayComments>
+                        </AssayInformation>
+                        <AssayedAntibody>
+                            <AssayedAntibodySourceMaterial>Purified Immunoglobulin</AssayedAntibodySourceMaterial>
+                            <AssayedAntibodyImmunoglobulinDomain>VH Domain</AssayedAntibodyImmunoglobulinDomain>
+                            <AssayedAntibodyPurificationStatus>Display Library</AssayedAntibodyPurificationStatus>
+                            <AssayedAntibodyName>cAbMaz1 VHH</AssayedAntibodyName>
+                            <AssayedAntibodyHeavyChainType>Heavy Isotype n/s</AssayedAntibodyHeavyChainType>
+                            <AssayedAntibodyObject>
+                                <MultiChainMolecule>
+                                    <ChemicalType>Multi-Chain protein</ChemicalType>
+                                    <MoleculeName>cAbMaz1 VHH</MoleculeName>
+                                    <Chain1>
+                                        <Molecule>
+                                            <GenBankId>1MVF_A</GenBankId>
+                                        </Molecule>
+                                        <SourceOrganismId>9838</SourceOrganismId>
+                                    </Chain1>
+                                    <Chain2>
+                                        <SourceOrganismId>9838</SourceOrganismId>
+                                    </Chain2>
+                                </MultiChainMolecule>
+                            </AssayedAntibodyObject>
+                        </AssayedAntibody>
+                        <Antigen>
+                            <AntigenConformation>Native</AntigenConformation>
+                            <AntigenObject>
+                                <EpitopeRelation>Source Antigen</EpitopeRelation>
+                                <Object>
+                                    <MultiChainMolecule>
+                                        <ChemicalType>Multi-Chain protein</ChemicalType>
+                                        <MoleculeName>MazE</MoleculeName>
+                                        <Chain1>
+                                            <Molecule>
+                                                <GenBankId>P0AE72.1</GenBankId>
+                                            </Molecule>
+                                            <SourceOrganismId>562</SourceOrganismId>
+                                        </Chain1>
+                                        <Chain2>
+                                            <Molecule>
+                                                <GenBankId>P0AE72.1</GenBankId>
+                                            </Molecule>
+                                            <SourceOrganismId>562</SourceOrganismId>
+                                        </Chain2>
+                                    </MultiChainMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Representative selection</AntigenEvidenceCode>
+                        </Antigen>
+                    </BCell>
+                </Assays>
+            </Epitope>
+        </Epitopes>
+    </Reference>
+</References>
+

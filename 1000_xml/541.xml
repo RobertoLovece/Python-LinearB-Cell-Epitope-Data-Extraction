@@ -1,0 +1,389 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<References xsi:schemaLocation="http://www.iedb.org/schema/CurationSchema http://beta.iedb.org/schema/Curation.xsd" xmlns="http://www.iedb.org/schema/CurationSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <Reference>
+        <ReferenceId>541</ReferenceId>
+        <DateLastUpdated>2020-09-10-07:00</DateLastUpdated>
+        <Article>
+            <PubmedId>15529349</PubmedId>
+            <Abstract>OBJECTIVE: To detect and characterize the autoreactive CD8+ T cells to major histocompatibility complex class I chain-related gene A (MICA), a stress-inducible antigen preferentially expressed on the epithelium and endothelium, in patients with Behcet's disease (BD). METHODS: A candidate for the antigenic MICA peptide was selected based on its predicted binding affinity for HLA-B51 and proteasomal cleavage sites. Peripheral blood T cells from 14 patients with BD and 15 healthy controls were repeatedly stimulated with the MICA peptide, and the specific T cell response was measured by peptide-induced interferon-gamma. Cytotoxic T lymphocyte activity was examined by chromium-51 release from an HLA-B51-transfected B cell line in the presence of the MICA peptide. RESULTS: A 9-mer peptide AAAAAIFVI (termed MICA transmembrane [MICA-TM]) was selected as a candidate for the antigenic peptide presented by HLA-B51. A specific T cell response to MICA-TM was detected in 4 patients with BD (29%) but in none of the 15 healthy donors. All 4 responders had HLA-B51 and active disease, and the specific T cell response was lost after the BD-related symptoms disappeared. The MICA-induced T cell response was specifically inhibited by anti-HLA class I antibody or by CD8+ cell depletion. MICA-reactive T cells recognized an HLA-B51-transfected B cell line pulsed with MICA-TM or a B cell line transfected with both HLA-B51 and MICA in the absence of exogenous peptides. Finally, MICA-stimulated T cell lines lysed the HLA-B51-expressing B cell line in the presence of MICA-TM. CONCLUSION: HLA-B51-restricted cytotoxic T lymphocytes autoreactive to MICA may be involved in the pathogenesis of BD.</Abstract>
+            <ArticleYear>2004</ArticleYear>
+            <ArticlePages>3658-62</ArticlePages>
+            <ArticleTitle>Autoreactive CD8+ cytotoxic T lymphocytes to major histocompatibility complex class I chain-related gene A in patients with Behçet's disease.</ArticleTitle>
+            <Authors>
+                <Author>
+                    <LastName>Yasuoka</LastName>
+                    <ForeName>Hidekata</ForeName>
+                </Author>
+                <Author>
+                    <LastName>Okazaki</LastName>
+                    <ForeName>Yuka</ForeName>
+                </Author>
+                <Author>
+                    <LastName>Kawakami</LastName>
+                    <ForeName>Yutaka</ForeName>
+                </Author>
+                <Author>
+                    <LastName>Hirakata</LastName>
+                    <ForeName>Michito</ForeName>
+                </Author>
+                <Author>
+                    <LastName>Inoko</LastName>
+                    <ForeName>Hidetoshi</ForeName>
+                </Author>
+                <Author>
+                    <LastName>Ikeda</LastName>
+                    <ForeName>Yasuo</ForeName>
+                </Author>
+                <Author>
+                    <LastName>Kuwana</LastName>
+                    <ForeName>Masataka</ForeName>
+                </Author>
+            </Authors>
+            <Affiliations>Institute for Advanced Medical Research, Keio University School of Medicine, 35 Shinanomachi, Shinjuku-ku, Tokyo 160-8582, Japan.</Affiliations>
+            <ArticleChemicalList>HLA-B Antigens;HLA-B51 Antigen;Histocompatibility Antigens Class I;MHC class I-related chain A;Peptide Fragments</ArticleChemicalList>
+            <ArticleMeshHeadingsList>Autoimmunity; Behcet Syndrome(immunology; physiopathology); Case-Control Studies; Female; HLA-B Antigens(analysis); HLA-B51 Antigen; Histocompatibility Antigens Class I(immunology); Humans; Male; Peptide Fragments(immunology); T-Lymphocytes, Cytotoxic(immunology)</ArticleMeshHeadingsList>
+            <Journal>
+                <Volume>50</Volume>
+                <Issue>11</Issue>
+                <Title>Arthritis and rheumatism</Title>
+                <Issn>0004-3591</Issn>
+                <MedlineTa>Arthritis Rheum</MedlineTa>
+            </Journal>
+        </Article>
+        <Epitopes>
+            <Epitope>
+                <EpitopeName>MICA-TM</EpitopeName>
+                <EpitopeStructure>
+                    <FragmentOfANaturalSequenceMolecule>
+                        <ChemicalType>Peptide from protein</ChemicalType>
+                        <LinearSequence>AAAAAIFVI</LinearSequence>
+                        <StartingPosition>296</StartingPosition>
+                        <EndingPosition>304</EndingPosition>
+                        <SourceMolecule>
+                            <GenBankId>AAU95382.1</GenBankId>
+                        </SourceMolecule>
+                        <SourceOrganismId>9606</SourceOrganismId>
+                    </FragmentOfANaturalSequenceMolecule>
+                </EpitopeStructure>
+                <LocationOfData>Results text page 3660</LocationOfData>
+                <EpitopeId>10</EpitopeId>
+                <ReferenceStartingPosition>294</ReferenceStartingPosition>
+                <ReferenceEndingPosition>302</ReferenceEndingPosition>
+                <EpitopeEvidenceCode>Representative selection</EpitopeEvidenceCode>
+                <EpitopeStructureDefines>Exact Epitope</EpitopeStructureDefines>
+                <Assays>
+                    <TCell>
+                        <LocationOfData>Figures 1, 2 and 3</LocationOfData>
+                        <TCellId>5785</TCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>9606</OrganismId>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Occurrence of autoimmune disease</InVivoProcessType>
+                                <DiseaseState>DOID:13241</DiseaseState>
+                                <DiseaseStage>Other</DiseaseStage>
+                            </FirstInVivoProcess>
+                            <InVitroAdministration>
+                                <ProcessType>Restimulation in vitro</ProcessType>
+                                <ResponderCellType>T cell</ResponderCellType>
+                                <StimulatorCellType>PBMC</StimulatorCellType>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Epitope</EpitopeRelation>
+                                    <Object>
+                                        <FragmentOfANaturalSequenceMolecule>
+                                            <ChemicalType>Peptide from protein</ChemicalType>
+                                            <LinearSequence>AAAAAIFVI</LinearSequence>
+                                            <StartingPosition>296</StartingPosition>
+                                            <EndingPosition>304</EndingPosition>
+                                            <SourceMolecule>
+                                                <GenBankId>AAU95382.1</GenBankId>
+                                            </SourceMolecule>
+                                            <SourceOrganismId>9606</SourceOrganismId>
+                                        </FragmentOfANaturalSequenceMolecule>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenEvidenceCode>Exact match to reference information</ImmunogenEvidenceCode>
+                            </InVitroAdministration>
+                            <ImmunizationComments>14 patients with Behcet's disease (BD) (5 men and 9 women) fulfilled the diagnostic criteria defined by the International Study Group. The patients with BD were grouped as having active disease (6 patients) or inactive disease (8 patients) at the time of blood examination. Active disease was defined as the presence of characteristic BD symptoms, including severe oral/genital ulcers and ocular involvement. All 6 patients with active disease were not receiving corticosteroids or immunosuppressants at the time of the blood examination. The epitope specific T cell line was generated by repetitively stimulating peripheral blood T cells from BD patients with the epitope in vitro. The group included 8 HLA-B51-positive and 6 HLA-B51-negative patients.</ImmunizationComments>
+                        </Immunization>
+                        <EffectorCells>
+                            <CellTissueType>Blood</CellTissueType>
+                            <CellType>T cell CD8+</CellType>
+                            <CellCultureConditions>Cell Line / Clone</CellCultureConditions>
+                        </EffectorCells>
+                        <AntigenPresentingCells>
+                            <CellTissueType>Blood</CellTissueType>
+                            <CellType>B cell</CellType>
+                            <CellCultureConditions>Cell Line / Clone (EBV transformed, B-LCL)</CellCultureConditions>
+                            <AutologousOrSyngeneic>Y</AutologousOrSyngeneic>
+                        </AntigenPresentingCells>
+                        <MhcAllele>
+                            <MhcAlleleId>40</MhcAlleleId>
+                            <MhcEvidenceCode>T cell assay -MHC subset identification</MhcEvidenceCode>
+                        </MhcAllele>
+                        <Antigen>
+                            <AntigenObject>
+                                <EpitopeRelation>Epitope</EpitopeRelation>
+                                <Object>
+                                    <FragmentOfANaturalSequenceMolecule>
+                                        <ChemicalType>Peptide from protein</ChemicalType>
+                                        <LinearSequence>AAAAAIFVI</LinearSequence>
+                                        <StartingPosition>296</StartingPosition>
+                                        <EndingPosition>304</EndingPosition>
+                                        <SourceMolecule>
+                                            <GenBankId>AAU95382.1</GenBankId>
+                                        </SourceMolecule>
+                                        <SourceOrganismId>9606</SourceOrganismId>
+                                    </FragmentOfANaturalSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Exact match to reference information</AntigenEvidenceCode>
+                        </Antigen>
+                        <AssayInformation>
+                            <AssayTypeId>73</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <NumberOfSubjectsTested>14</NumberOfSubjectsTested>
+                            <NumberOfSubjectsResponded>4</NumberOfSubjectsResponded>
+                            <ResponseFrequency>28.6</ResponseFrequency>
+                            <AssayComments>The epitope specific T cell lines responded to the epitope by releasing IFN-g, and this response was epitope concentration-dependent. All the responders had active disease and were HLA-B51 positive.</AssayComments>
+                        </AssayInformation>
+                    </TCell>
+                </Assays>
+                <Assays>
+                    <TCell>
+                        <LocationOfData>Figure 3</LocationOfData>
+                        <TCellId>4372</TCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>9606</OrganismId>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Occurrence of autoimmune disease</InVivoProcessType>
+                                <DiseaseState>DOID:13241</DiseaseState>
+                                <DiseaseStage>Acute/Recent onset</DiseaseStage>
+                            </FirstInVivoProcess>
+                            <InVitroAdministration>
+                                <ProcessType>Restimulation in vitro</ProcessType>
+                                <ResponderCellType>T cell</ResponderCellType>
+                                <StimulatorCellType>PBMC</StimulatorCellType>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Epitope</EpitopeRelation>
+                                    <Object>
+                                        <FragmentOfANaturalSequenceMolecule>
+                                            <ChemicalType>Peptide from protein</ChemicalType>
+                                            <LinearSequence>AAAAAIFVI</LinearSequence>
+                                            <StartingPosition>296</StartingPosition>
+                                            <EndingPosition>304</EndingPosition>
+                                            <SourceMolecule>
+                                                <GenBankId>AAU95382.1</GenBankId>
+                                            </SourceMolecule>
+                                            <SourceOrganismId>9606</SourceOrganismId>
+                                        </FragmentOfANaturalSequenceMolecule>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenEvidenceCode>Exact match to reference information</ImmunogenEvidenceCode>
+                            </InVitroAdministration>
+                            <ImmunizationComments>Patients with Behcet's disease (BD) fulfilled the diagnostic criteria defined by the International Study Group. Active disease was defined as the presence of characteristic BD symptoms, including severe oral/genital ulcers and ocular involvement. All patients with active disease were not receiving corticosteroids or immunosuppressants at the time of the blood examination. The epitope specific T cell line was generated by repetitively stimulating peripheral blood T cells from BD patients with the epitope in vitro.</ImmunizationComments>
+                        </Immunization>
+                        <EffectorCells>
+                            <CellTissueType>Blood</CellTissueType>
+                            <CellType>T cell CD8+</CellType>
+                            <CellCultureConditions>Cell Line / Clone</CellCultureConditions>
+                        </EffectorCells>
+                        <AntigenPresentingCells>
+                            <CellTissueType>Lymphoid</CellTissueType>
+                            <CellType>C1R cells-B cell</CellType>
+                            <CellCultureConditions>Cell Line / Clone</CellCultureConditions>
+                            <AutologousOrSyngeneic>Y</AutologousOrSyngeneic>
+                        </AntigenPresentingCells>
+                        <MhcAllele>
+                            <MhcAlleleId>40</MhcAlleleId>
+                            <MhcEvidenceCode>T cell assay -MHC subset identification</MhcEvidenceCode>
+                        </MhcAllele>
+                        <Antigen>
+                            <AntigenObject>
+                                <EpitopeRelation>Epitope</EpitopeRelation>
+                                <Object>
+                                    <FragmentOfANaturalSequenceMolecule>
+                                        <ChemicalType>Peptide from protein</ChemicalType>
+                                        <LinearSequence>AAAAAIFVI</LinearSequence>
+                                        <StartingPosition>296</StartingPosition>
+                                        <EndingPosition>304</EndingPosition>
+                                        <SourceMolecule>
+                                            <GenBankId>AAU95382.1</GenBankId>
+                                        </SourceMolecule>
+                                        <SourceOrganismId>9606</SourceOrganismId>
+                                    </FragmentOfANaturalSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Exact match to reference information</AntigenEvidenceCode>
+                        </Antigen>
+                        <AssayInformation>
+                            <AssayTypeId>67</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <NumberOfSubjectsTested>3</NumberOfSubjectsTested>
+                            <NumberOfSubjectsResponded>3</NumberOfSubjectsResponded>
+                            <ResponseFrequency>100</ResponseFrequency>
+                            <AssayComments>The epitope specific T cell lines generated from BD patients lysed C1R B cells pulsed with the epitope.</AssayComments>
+                        </AssayInformation>
+                    </TCell>
+                </Assays>
+                <Assays>
+                    <TCell>
+                        <LocationOfData>Figure 3</LocationOfData>
+                        <TCellId>1848919</TCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>9606</OrganismId>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Occurrence of autoimmune disease</InVivoProcessType>
+                                <DiseaseState>DOID:13241</DiseaseState>
+                                <DiseaseStage>Acute/Recent onset</DiseaseStage>
+                            </FirstInVivoProcess>
+                            <InVitroAdministration>
+                                <ProcessType>Restimulation in vitro</ProcessType>
+                                <ResponderCellType>T cell</ResponderCellType>
+                                <StimulatorCellType>PBMC</StimulatorCellType>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Epitope</EpitopeRelation>
+                                    <Object>
+                                        <FragmentOfANaturalSequenceMolecule>
+                                            <ChemicalType>Peptide from protein</ChemicalType>
+                                            <LinearSequence>AAAAAIFVI</LinearSequence>
+                                            <StartingPosition>296</StartingPosition>
+                                            <EndingPosition>304</EndingPosition>
+                                            <SourceMolecule>
+                                                <GenBankId>AAU95382.1</GenBankId>
+                                            </SourceMolecule>
+                                            <SourceOrganismId>9606</SourceOrganismId>
+                                        </FragmentOfANaturalSequenceMolecule>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenEvidenceCode>Exact match to reference information</ImmunogenEvidenceCode>
+                            </InVitroAdministration>
+                            <ImmunizationComments>Patients with Behcet's disease (BD) fulfilled the diagnostic criteria defined by the International Study Group. Active disease was defined as the presence of characteristic BD symptoms, including severe oral/genital ulcers and ocular involvement. All patients with active disease were not receiving corticosteroids or immunosuppressants at the time of the blood examination. The epitope specific T cell line was generated by repetitively stimulating peripheral blood T cells from BD patients with the epitope in vitro.</ImmunizationComments>
+                        </Immunization>
+                        <EffectorCells>
+                            <CellTissueType>Blood</CellTissueType>
+                            <CellType>T cell CD8+</CellType>
+                            <CellCultureConditions>Cell Line / Clone</CellCultureConditions>
+                        </EffectorCells>
+                        <AntigenPresentingCells>
+                            <CellTissueType>Lymphoid</CellTissueType>
+                            <CellType>C1R cells-B cell</CellType>
+                            <CellCultureConditions>Cell Line / Clone</CellCultureConditions>
+                            <AutologousOrSyngeneic>Y</AutologousOrSyngeneic>
+                        </AntigenPresentingCells>
+                        <MhcAllele>
+                            <MhcAlleleId>40</MhcAlleleId>
+                            <MhcEvidenceCode>T cell assay -MHC subset identification</MhcEvidenceCode>
+                        </MhcAllele>
+                        <Antigen>
+                            <AntigenObject>
+                                <EpitopeRelation>Source Antigen</EpitopeRelation>
+                                <Object>
+                                    <AccessionSequenceMolecule>
+                                        <ChemicalType>Protein</ChemicalType>
+                                        <Molecule>
+                                            <GenBankId>AAU95382.1</GenBankId>
+                                        </Molecule>
+                                        <SourceOrganismId>9606</SourceOrganismId>
+                                    </AccessionSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Representative selection</AntigenEvidenceCode>
+                        </Antigen>
+                        <AssayInformation>
+                            <AssayTypeId>73</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <NumberOfSubjectsTested>3</NumberOfSubjectsTested>
+                            <NumberOfSubjectsResponded>3</NumberOfSubjectsResponded>
+                            <ResponseFrequency>100</ResponseFrequency>
+                            <AssayComments>The epitope specific T cell lines responded to C1R B cells transfected with HLA-B51 and the major histocompatibility complex class I chain–related gene A (MICA).</AssayComments>
+                        </AssayInformation>
+                    </TCell>
+                </Assays>
+                <Assays>
+                    <TCell>
+                        <LocationOfData>Figure 2</LocationOfData>
+                        <TCellId>1848913</TCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>9606</OrganismId>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>No immunization</InVivoProcessType>
+                                <DiseaseState>ONTIE:0003423</DiseaseState>
+                            </FirstInVivoProcess>
+                            <InVitroAdministration>
+                                <ProcessType>Restimulation in vitro</ProcessType>
+                                <ResponderCellType>T cell</ResponderCellType>
+                                <StimulatorCellType>PBMC</StimulatorCellType>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Epitope</EpitopeRelation>
+                                    <Object>
+                                        <FragmentOfANaturalSequenceMolecule>
+                                            <ChemicalType>Peptide from protein</ChemicalType>
+                                            <LinearSequence>AAAAAIFVI</LinearSequence>
+                                            <StartingPosition>296</StartingPosition>
+                                            <EndingPosition>304</EndingPosition>
+                                            <SourceMolecule>
+                                                <GenBankId>AAU95382.1</GenBankId>
+                                            </SourceMolecule>
+                                            <SourceOrganismId>9606</SourceOrganismId>
+                                        </FragmentOfANaturalSequenceMolecule>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenEvidenceCode>Exact match to reference information</ImmunogenEvidenceCode>
+                            </InVitroAdministration>
+                            <ImmunizationComments>Fifteen healthy individuals included 9 men and 6 women. The epitope specific T cell line was generated by repetitively stimulating peripheral blood T cells from healthy donors with the epitope in vitro. The group included 4 HLA-B51-positive and 11 HLA-B51-negative donors.</ImmunizationComments>
+                        </Immunization>
+                        <EffectorCells>
+                            <CellTissueType>Blood</CellTissueType>
+                            <CellType>T cell CD8+</CellType>
+                            <CellCultureConditions>Cell Line / Clone</CellCultureConditions>
+                        </EffectorCells>
+                        <AntigenPresentingCells>
+                            <CellTissueType>Blood</CellTissueType>
+                            <CellType>B cell</CellType>
+                            <CellCultureConditions>Cell Line / Clone (EBV transformed, B-LCL)</CellCultureConditions>
+                            <AutologousOrSyngeneic>Y</AutologousOrSyngeneic>
+                        </AntigenPresentingCells>
+                        <MhcAllele>
+                            <MhcAlleleId>40</MhcAlleleId>
+                            <MhcEvidenceCode>T cell assay -MHC subset identification</MhcEvidenceCode>
+                        </MhcAllele>
+                        <Antigen>
+                            <AntigenObject>
+                                <EpitopeRelation>Epitope</EpitopeRelation>
+                                <Object>
+                                    <FragmentOfANaturalSequenceMolecule>
+                                        <ChemicalType>Peptide from protein</ChemicalType>
+                                        <LinearSequence>AAAAAIFVI</LinearSequence>
+                                        <StartingPosition>296</StartingPosition>
+                                        <EndingPosition>304</EndingPosition>
+                                        <SourceMolecule>
+                                            <GenBankId>AAU95382.1</GenBankId>
+                                        </SourceMolecule>
+                                        <SourceOrganismId>9606</SourceOrganismId>
+                                    </FragmentOfANaturalSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Exact match to reference information</AntigenEvidenceCode>
+                        </Antigen>
+                        <AssayInformation>
+                            <AssayTypeId>73</AssayTypeId>
+                            <QualitativeMeasurement>Negative</QualitativeMeasurement>
+                            <NumberOfSubjectsTested>15</NumberOfSubjectsTested>
+                            <NumberOfSubjectsResponded>0</NumberOfSubjectsResponded>
+                            <AssayComments>The epitope specific T cell lines from healthy donors did not respond to the epitope by releasing IFN-g.</AssayComments>
+                        </AssayInformation>
+                    </TCell>
+                </Assays>
+            </Epitope>
+        </Epitopes>
+    </Reference>
+</References>
+

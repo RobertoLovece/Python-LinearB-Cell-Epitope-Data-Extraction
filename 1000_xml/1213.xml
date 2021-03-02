@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<References xsi:schemaLocation="http://www.iedb.org/schema/CurationSchema http://beta.iedb.org/schema/Curation.xsd" xmlns="http://www.iedb.org/schema/CurationSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <Reference>
+        <ReferenceId>1213</ReferenceId>
+        <DateLastUpdated>2020-09-10-07:00</DateLastUpdated>
+        <Article>
+            <PubmedId>11841689</PubmedId>
+            <Abstract>In vitro studies have demonstrated positive effects of bioactive compounds on several functions of the immune system. In the present study, 25 of such compounds were tested for their immune modulating properties on influenza virus specific human B- and T-cell responses in vitro. One of these compounds, N-acetyl-L-cysteine was shown to increase influenza virus specific lymphocyte proliferation and interferon(IFN)-gamma production at a concentration of 1.0 mmol/l. Furthermore, N-acetyl-L-cysteine was found to enhance a specific activity of two influenza specific CD8+ cytotoxic T-lymphocyte clones directed towards HLA-A*0201 and HLA-B*2705 restricted epitopes. A second compound, chlorogenic acid, was shown to enhance antigen specific proliferation of lymphocytes in three out of four donors, at concentrations of 10-50 micromol/l. Neither of the two compounds exhibited a positive effect on the production of influenza virus specific antibodies by human peripheral blood mononuclear cells in vitro.</Abstract>
+            <ArticleYear>2002</ArticleYear>
+            <ArticlePages>24-32</ArticlePages>
+            <ArticleTitle>In vitro effect of bioactive compounds on influenza virus specific B- and T-cell responses.</ArticleTitle>
+            <Authors>
+                <Author>
+                    <LastName>Boon</LastName>
+                    <ForeName>A C M</ForeName>
+                </Author>
+                <Author>
+                    <LastName>Vos</LastName>
+                    <ForeName>A P</ForeName>
+                </Author>
+                <Author>
+                    <LastName>Graus</LastName>
+                    <ForeName>Y M F</ForeName>
+                </Author>
+                <Author>
+                    <LastName>Rimmelzwaan</LastName>
+                    <ForeName>G F</ForeName>
+                </Author>
+                <Author>
+                    <LastName>Osterhaus</LastName>
+                    <ForeName>A D M E</ForeName>
+                </Author>
+            </Authors>
+            <Affiliations>Erasmus University Rotterdam, Institute of Virology, Dr Molewaterplein 50, 3015 GE, Rotterdam, The Netherlands.</Affiliations>
+            <ArticleChemicalList>Adjuvants, Immunologic;Micronutrients;Plant Extracts;Chlorogenic Acid;Interferon-gamma;Acetylcysteine</ArticleChemicalList>
+            <ArticleMeshHeadingsList>Acetylcysteine(pharmacology); Adjuvants, Immunologic(pharmacology); B-Lymphocytes(drug effects; immunology); Chlorogenic Acid(pharmacology); Dietary Supplements(analysis); Drug Evaluation, Preclinical; Food Analysis; Humans; In Vitro Techniques; Interferon-gamma(biosynthesis); Lymphocyte Activation(drug effects); Micronutrients(pharmacology); Orthomyxoviridae(immunology); Plant Extracts(pharmacology); T-Lymphocytes(drug effects; immunology); T-Lymphocytes, Cytotoxic(drug effects; immunology)</ArticleMeshHeadingsList>
+            <Journal>
+                <Volume>55</Volume>
+                <Issue>1</Issue>
+                <Title>Scandinavian journal of immunology</Title>
+                <Issn>0300-9475</Issn>
+                <MedlineTa>Scand J Immunol</MedlineTa>
+            </Journal>
+        </Article>
+        <Epitopes>
+            <Epitope>
+                <EpitopeName>M1</EpitopeName>
+                <EpitopeStructure>
+                    <FragmentOfANaturalSequenceMolecule>
+                        <ChemicalType>Peptide from protein</ChemicalType>
+                        <LinearSequence>GILGFVFTL</LinearSequence>
+                        <StartingPosition>58</StartingPosition>
+                        <EndingPosition>66</EndingPosition>
+                        <SourceMolecule>
+                            <GenBankId>P03485.1</GenBankId>
+                        </SourceMolecule>
+                        <SourceOrganismId>211044</SourceOrganismId>
+                    </FragmentOfANaturalSequenceMolecule>
+                </EpitopeStructure>
+                <LocationOfData>Page 26</LocationOfData>
+                <EpitopeId>20354</EpitopeId>
+                <ReferenceStartingPosition>58</ReferenceStartingPosition>
+                <ReferenceEndingPosition>66</ReferenceEndingPosition>
+                <EpitopeEvidenceCode>Not determined</EpitopeEvidenceCode>
+                <EpitopeStructureDefines>Exact Epitope</EpitopeStructureDefines>
+                <Assays>
+                    <TCell>
+                        <LocationOfData>Figure 4A</LocationOfData>
+                        <TCellId>17767</TCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>9606</OrganismId>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Environmental exposure to endemic/ubiquitous agent without evidence for disease</InVivoProcessType>
+                                <DiseaseState>ONTIE:0003423</DiseaseState>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Source Organism</EpitopeRelation>
+                                    <Object>
+                                        <Organism>
+                                            <SubType>Organism</SubType>
+                                            <SourceOrganismId>211044</SourceOrganismId>
+                                        </Organism>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenEvidenceCode>Not determined</ImmunogenEvidenceCode>
+                            </FirstInVivoProcess>
+                            <InVitroAdministration>
+                                <ProcessType>Restimulation in vitro</ProcessType>
+                            </InVitroAdministration>
+                        </Immunization>
+                        <EffectorCells>
+                            <CellTissueType>Blood</CellTissueType>
+                            <CellType>T cell</CellType>
+                            <CellCultureConditions>Cell Line / Clone</CellCultureConditions>
+                        </EffectorCells>
+                        <AntigenPresentingCells>
+                            <CellTissueType>Lymphoid</CellTissueType>
+                            <CellType>B cell</CellType>
+                            <CellCultureConditions>Cell Line / Clone (EBV transformed, B-LCL)</CellCultureConditions>
+                            <AutologousOrSyngeneic>N</AutologousOrSyngeneic>
+                        </AntigenPresentingCells>
+                        <MhcAllele>
+                            <MhcAlleleId>143</MhcAlleleId>
+                            <MhcEvidenceCode>Not determined</MhcEvidenceCode>
+                        </MhcAllele>
+                        <Antigen>
+                            <AntigenReferenceName>M1</AntigenReferenceName>
+                            <AntigenObject>
+                                <EpitopeRelation>Epitope</EpitopeRelation>
+                                <Object>
+                                    <FragmentOfANaturalSequenceMolecule>
+                                        <ChemicalType>Peptide from protein</ChemicalType>
+                                        <LinearSequence>GILGFVFTL</LinearSequence>
+                                        <StartingPosition>58</StartingPosition>
+                                        <EndingPosition>66</EndingPosition>
+                                        <SourceMolecule>
+                                            <GenBankId>P03485.1</GenBankId>
+                                        </SourceMolecule>
+                                        <SourceOrganismId>211044</SourceOrganismId>
+                                    </FragmentOfANaturalSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Exact match to reference information</AntigenEvidenceCode>
+                        </Antigen>
+                        <AssayInformation>
+                            <AssayTypeId>67</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <AssayComments>The authors examined the ability of bioactive compounds to increase the cytotoxicity of CTL clones.  A significant increase in lysis during incubation of influenza peptide specific CTL clones with target cells was observed in the presence of N-acetyl-L-cysteine.  This increase was observed when N-acetyl-L-cysteine was preincubated with both the CTL clone and the target cells.  Also, a rapid decrease in the amount of intracellular perforin in CD8+ cells was observed in the presence of peptide-treated target cells, however, the release of perforin was not influenced by the addition of N-acetyl-L-cysteine.</AssayComments>
+                        </AssayInformation>
+                    </TCell>
+                </Assays>
+            </Epitope>
+            <Epitope>
+                <EpitopeName>NP383-391</EpitopeName>
+                <EpitopeStructure>
+                    <FragmentOfANaturalSequenceMolecule>
+                        <ChemicalType>Peptide from protein</ChemicalType>
+                        <LinearSequence>SRYWAIRTR</LinearSequence>
+                        <StartingPosition>383</StartingPosition>
+                        <EndingPosition>391</EndingPosition>
+                        <SourceMolecule>
+                            <IedbAccession>SRC124</IedbAccession>
+                        </SourceMolecule>
+                        <SourceOrganismId>211044</SourceOrganismId>
+                    </FragmentOfANaturalSequenceMolecule>
+                </EpitopeStructure>
+                <LocationOfData>Page 26</LocationOfData>
+                <EpitopeId>60867</EpitopeId>
+                <ReferenceStartingPosition>383</ReferenceStartingPosition>
+                <ReferenceEndingPosition>391</ReferenceEndingPosition>
+                <EpitopeEvidenceCode>Not determined</EpitopeEvidenceCode>
+                <EpitopeStructureDefines>Exact Epitope</EpitopeStructureDefines>
+                <Assays>
+                    <TCell>
+                        <LocationOfData>Figure 4B</LocationOfData>
+                        <TCellId>17769</TCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>9606</OrganismId>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Environmental exposure to endemic/ubiquitous agent without evidence for disease</InVivoProcessType>
+                                <DiseaseState>ONTIE:0003423</DiseaseState>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Source Organism</EpitopeRelation>
+                                    <Object>
+                                        <Organism>
+                                            <SubType>Organism</SubType>
+                                            <SourceOrganismId>211044</SourceOrganismId>
+                                        </Organism>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenEvidenceCode>Not determined</ImmunogenEvidenceCode>
+                            </FirstInVivoProcess>
+                            <InVitroAdministration>
+                                <ProcessType>Restimulation in vitro</ProcessType>
+                            </InVitroAdministration>
+                        </Immunization>
+                        <EffectorCells>
+                            <CellTissueType>Blood</CellTissueType>
+                            <CellType>T cell</CellType>
+                            <CellCultureConditions>Cell Line / Clone</CellCultureConditions>
+                        </EffectorCells>
+                        <AntigenPresentingCells>
+                            <CellTissueType>Lymphoid</CellTissueType>
+                            <CellType>B cell</CellType>
+                            <CellCultureConditions>Cell Line / Clone (EBV transformed, B-LCL)</CellCultureConditions>
+                            <AutologousOrSyngeneic>N</AutologousOrSyngeneic>
+                        </AntigenPresentingCells>
+                        <MhcAllele>
+                            <MhcAlleleId>143</MhcAlleleId>
+                            <MhcEvidenceCode>Not determined</MhcEvidenceCode>
+                        </MhcAllele>
+                        <Antigen>
+                            <AntigenReferenceName>NP383-391</AntigenReferenceName>
+                            <AntigenObject>
+                                <EpitopeRelation>Epitope</EpitopeRelation>
+                                <Object>
+                                    <FragmentOfANaturalSequenceMolecule>
+                                        <ChemicalType>Peptide from protein</ChemicalType>
+                                        <LinearSequence>SRYWAIRTR</LinearSequence>
+                                        <StartingPosition>383</StartingPosition>
+                                        <EndingPosition>391</EndingPosition>
+                                        <SourceMolecule>
+                                            <IedbAccession>SRC124</IedbAccession>
+                                        </SourceMolecule>
+                                        <SourceOrganismId>211044</SourceOrganismId>
+                                    </FragmentOfANaturalSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Exact match to reference information</AntigenEvidenceCode>
+                        </Antigen>
+                        <AssayInformation>
+                            <AssayTypeId>67</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <AssayComments>The authors examined the ability of bioactive compounds to increase the cytotoxicity of CTL clones.  A significant increase in lysis during incubation of influenza peptide specific CTL clones with target cells was observed in the presence of N-acetyl-L-cysteine.  This increase was observed when N-acetyl-L-cysteine was preincubated with both the CTL clone and the target cells.</AssayComments>
+                        </AssayInformation>
+                    </TCell>
+                </Assays>
+            </Epitope>
+        </Epitopes>
+    </Reference>
+</References>
+

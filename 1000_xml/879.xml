@@ -1,0 +1,549 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<References xsi:schemaLocation="http://www.iedb.org/schema/CurationSchema http://beta.iedb.org/schema/Curation.xsd" xmlns="http://www.iedb.org/schema/CurationSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <Reference>
+        <ReferenceId>879</ReferenceId>
+        <DateLastUpdated>2020-09-10-07:00</DateLastUpdated>
+        <Article>
+            <PubmedId>11035099</PubmedId>
+            <Abstract>Effective protection against Listeria monocytogenes requires Ag-specific CD8(+) T cells. A substantial proportion of CD8(+) T cells activated during L. monocytogenes infection of C57BL/6 mice are restricted by the MHC class Ib molecule H2-M3. In this study, an H2-M3-restricted CD8(+) T cell clone specific for a known H2-M3 epitope (fMIGWII) was generated from L. monocytogenes-infected mice. The clone was cytotoxic, produced IFN-gamma, and could mediate strong protection against L. monocytogenes when transferred to infected mice. Macrophages pulsed with heat-killed LISTERIAE: presented Ag to the clone in a TAP-independent manner. Both TAP-independent and -dependent processing occurred in vivo, as TAP-deficient mice infected with L. monocytogenes were partially protected by adoptive transfer of the clone. This is the first example of CD8(+) T cell-mediated, TAP-independent protection against a pathogen in vivo, confirming the importance of alternative MHC class I processing pathways in the antibacterial immunity.</Abstract>
+            <ArticleYear>2000</ArticleYear>
+            <ArticlePages>4575-80</ArticlePages>
+            <ArticleTitle>Partially TAP-independent protection against Listeria monocytogenes by H2-M3-restricted CD8+ T cells.</ArticleTitle>
+            <Authors>
+                <Author>
+                    <LastName>Rolph</LastName>
+                    <ForeName>M S</ForeName>
+                </Author>
+                <Author>
+                    <LastName>Kaufmann</LastName>
+                    <ForeName>S H</ForeName>
+                </Author>
+            </Authors>
+            <Affiliations>Department of Immunology, Max Planck Institute for Infection Biology, Berlin, Germany.</Affiliations>
+            <ArticleChemicalList>ATP Binding Cassette Transporter, Subfamily B, Member 2;ATP-Binding Cassette Transporters;Antigens, Bacterial;Epitopes, T-Lymphocyte;H-2 Antigens;H2-M3 antigen;Histocompatibility Antigens Class I;Peptide Fragments;TAP1 protein, human;Tap1 protein, mouse</ArticleChemicalList>
+            <ArticleMeshHeadingsList>ATP Binding Cassette Transporter, Subfamily B, Member 2; ATP-Binding Cassette Transporters(genetics; physiology); Adoptive Transfer; Animals; Antigen Presentation; Antigens, Bacterial(administration &amp; dosage; immunology; metabolism); CD8-Positive T-Lymphocytes(immunology; microbiology; transplantation); Cell Line; Clone Cells(transplantation); Cytotoxicity, Immunologic; Epitopes, T-Lymphocyte(administration &amp; dosage; immunology; metabolism); Female; H-2 Antigens(metabolism; physiology); Histocompatibility Antigens Class I(metabolism; physiology); Immunization, Secondary; Injections, Subcutaneous; Listeria monocytogenes(immunology); Mice; Mice, Inbred C57BL; Peptide Fragments(administration &amp; dosage; immunology; metabolism); T-Lymphocyte Subsets(immunology; microbiology; transplantation)</ArticleMeshHeadingsList>
+            <Journal>
+                <Volume>165</Volume>
+                <Issue>8</Issue>
+                <Title>Journal of immunology (Baltimore, Md. : 1950)</Title>
+                <Issn>0022-1767</Issn>
+                <MedlineTa>J Immunol</MedlineTa>
+            </Journal>
+        </Article>
+        <Epitopes>
+            <Epitope>
+                <EpitopeName>fMIGWII</EpitopeName>
+                <EpitopeStructure>
+                    <FragmentOfANaturalSequenceMolecule>
+                        <ChemicalType>Peptide from protein</ChemicalType>
+                        <LinearSequence>MIGWII</LinearSequence>
+                        <ModifiedResidues>M1</ModifiedResidues>
+                        <Modifications>Formylation|FORM</Modifications>
+                        <StartingPosition>1</StartingPosition>
+                        <EndingPosition>6</EndingPosition>
+                        <SourceMolecule>
+                            <GenBankId>Q8Y8E2</GenBankId>
+                        </SourceMolecule>
+                        <SourceOrganismId>169963</SourceOrganismId>
+                    </FragmentOfANaturalSequenceMolecule>
+                </EpitopeStructure>
+                <LocationOfData>Fig 1</LocationOfData>
+                <EpitopeId>41710</EpitopeId>
+                <ReferenceStartingPosition>1</ReferenceStartingPosition>
+                <ReferenceEndingPosition>6</ReferenceEndingPosition>
+                <EpitopeEvidenceCode>Not determined</EpitopeEvidenceCode>
+                <EpitopeStructureDefines>Exact Epitope</EpitopeStructureDefines>
+                <EpitopeComments>M3 restricted peptide from L. monocytogenes, requiring N-terminus formyl-methionine for MHC binding. Immunization with this peptide induces peptide specific IFN-γ releasing lymphocytes, but does not protect against source species challenge. From source species infected mice, nevertheless, a peptide specific CD8+ T cell clone was obtained. It was able to recognize both peptide-pulsed and source species-infected APCs and, by adoptive transfer, to protect from infection spread and death after challenge. This effect is partially TAP independent, implying that both non-conventional and conventional processing pathways are involved in M3 restricted Ag presentation.</EpitopeComments>
+                <Assays>
+                    <TCell>
+                        <LocationOfData>Table 1</LocationOfData>
+                        <TCellId>9985</TCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>10000067</OrganismId>
+                                <Sex>F</Sex>
+                                <Age>6-8 wk</Age>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Administration in vivo to prevent or reduce disease</InVivoProcessType>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Epitope</EpitopeRelation>
+                                    <Object>
+                                        <FragmentOfANaturalSequenceMolecule>
+                                            <ChemicalType>Peptide from protein</ChemicalType>
+                                            <LinearSequence>MIGWII</LinearSequence>
+                                            <ModifiedResidues>M1</ModifiedResidues>
+                                            <Modifications>Formylation|FORM</Modifications>
+                                            <StartingPosition>1</StartingPosition>
+                                            <EndingPosition>6</EndingPosition>
+                                            <SourceMolecule>
+                                                <GenBankId>Q8Y8E2</GenBankId>
+                                            </SourceMolecule>
+                                            <SourceOrganismId>169963</SourceOrganismId>
+                                        </FragmentOfANaturalSequenceMolecule>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenReferenceName>fMIGWII</ImmunogenReferenceName>
+                                <ImmunogenEvidenceCode>Exact match to reference information</ImmunogenEvidenceCode>
+                                <Adjuvant>Freund's incomplete (IFA)</Adjuvant>
+                                <Route>Subcutaneous (s.c.)</Route>
+                                <DoseSchedule>100 μg peptide, 2 doses 10 days apart.</DoseSchedule>
+                            </FirstInVivoProcess>
+                            <ImmunizationComments>10 days after final dose of peptide in IFA, mice were challenged i.v. with 5x10^3 CFU of source species, and 4 days later, CFU were enumerated in liver and spleen.</ImmunizationComments>
+                        </Immunization>
+                        <MhcAllele>
+                            <MhcAlleleId>128</MhcAlleleId>
+                            <MhcEvidenceCode>Not determined</MhcEvidenceCode>
+                        </MhcAllele>
+                        <Antigen>
+                            <AntigenObject>
+                                <EpitopeRelation>Source Organism</EpitopeRelation>
+                                <Object>
+                                    <Organism>
+                                        <SubType>Organism</SubType>
+                                        <SourceOrganismId>169963</SourceOrganismId>
+                                    </Organism>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Not determined</AntigenEvidenceCode>
+                        </Antigen>
+                        <AssayInformation>
+                            <AssayTypeId>182</AssayTypeId>
+                            <QualitativeMeasurement>Negative</QualitativeMeasurement>
+                            <AssayComments>Even when INF-g producing cells are stimulated by peptide immunization, no protection from source species proliferation is seen upon challenge.</AssayComments>
+                        </AssayInformation>
+                    </TCell>
+                </Assays>
+                <Assays>
+                    <TCell>
+                        <LocationOfData>Figure 1</LocationOfData>
+                        <TCellId>9984</TCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>10000067</OrganismId>
+                                <Sex>F</Sex>
+                                <Age>6-8 wk</Age>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Administration in vivo</InVivoProcessType>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Epitope</EpitopeRelation>
+                                    <Object>
+                                        <FragmentOfANaturalSequenceMolecule>
+                                            <ChemicalType>Peptide from protein</ChemicalType>
+                                            <LinearSequence>MIGWII</LinearSequence>
+                                            <ModifiedResidues>M1</ModifiedResidues>
+                                            <Modifications>Formylation|FORM</Modifications>
+                                            <StartingPosition>1</StartingPosition>
+                                            <EndingPosition>6</EndingPosition>
+                                            <SourceMolecule>
+                                                <GenBankId>Q8Y8E2</GenBankId>
+                                            </SourceMolecule>
+                                            <SourceOrganismId>169963</SourceOrganismId>
+                                        </FragmentOfANaturalSequenceMolecule>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenReferenceName>fMIGWII</ImmunogenReferenceName>
+                                <ImmunogenEvidenceCode>Exact match to reference information</ImmunogenEvidenceCode>
+                                <Adjuvant>Freund's incomplete (IFA)</Adjuvant>
+                                <Route>Subcutaneous (s.c.)</Route>
+                                <DoseSchedule>100 μg peptide, 2 doses 10 days apart.</DoseSchedule>
+                            </FirstInVivoProcess>
+                            <InVitroAdministration>
+                                <ProcessType>Restimulation in vitro</ProcessType>
+                            </InVitroAdministration>
+                        </Immunization>
+                        <EffectorCells>
+                            <CellTissueType>Lymph Node</CellTissueType>
+                            <CellType>Lymphocyte</CellType>
+                            <CellCultureConditions>Short Term Restimulated</CellCultureConditions>
+                        </EffectorCells>
+                        <AntigenPresentingCells>
+                            <CellTissueType>Lymphoid</CellTissueType>
+                            <CellType>EL-4 cells-Lymphoblast</CellType>
+                            <CellCultureConditions>Cell Line / Clone</CellCultureConditions>
+                            <AutologousOrSyngeneic>Y</AutologousOrSyngeneic>
+                        </AntigenPresentingCells>
+                        <MhcAllele>
+                            <MhcAlleleId>128</MhcAlleleId>
+                            <MhcEvidenceCode>Not determined</MhcEvidenceCode>
+                        </MhcAllele>
+                        <Antigen>
+                            <AntigenReferenceName>fMIGWII</AntigenReferenceName>
+                            <AntigenObject>
+                                <EpitopeRelation>Epitope</EpitopeRelation>
+                                <Object>
+                                    <FragmentOfANaturalSequenceMolecule>
+                                        <ChemicalType>Peptide from protein</ChemicalType>
+                                        <LinearSequence>MIGWII</LinearSequence>
+                                        <ModifiedResidues>M1</ModifiedResidues>
+                                        <Modifications>Formylation|FORM</Modifications>
+                                        <StartingPosition>1</StartingPosition>
+                                        <EndingPosition>6</EndingPosition>
+                                        <SourceMolecule>
+                                            <GenBankId>Q8Y8E2</GenBankId>
+                                        </SourceMolecule>
+                                        <SourceOrganismId>169963</SourceOrganismId>
+                                    </FragmentOfANaturalSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Exact match to reference information</AntigenEvidenceCode>
+                        </Antigen>
+                        <AssayInformation>
+                            <AssayTypeId>48</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <AssayComments>Lymph node cell bulk cultures from mice immunized with peptide and further stimulated in vitro with peptide pulsed APCs produce significantly more IFN-g producing cells than if not stimulated or if from non-immunized mice.</AssayComments>
+                        </AssayInformation>
+                    </TCell>
+                </Assays>
+                <Assays>
+                    <TCell>
+                        <LocationOfData>Figure 4</LocationOfData>
+                        <TCellId>14439</TCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>10000067</OrganismId>
+                                <Sex>F</Sex>
+                                <Age>6-8 wk</Age>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Administration in vivo</InVivoProcessType>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Source Organism</EpitopeRelation>
+                                    <Object>
+                                        <Organism>
+                                            <SubType>Organism</SubType>
+                                            <SourceOrganismId>169963</SourceOrganismId>
+                                        </Organism>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenEvidenceCode>Not determined</ImmunogenEvidenceCode>
+                                <Route>Intravenous (i.v.)</Route>
+                                <DoseSchedule>Single dose of 5x10&lt;sup&gt;3&lt;/sup&gt; CFU.</DoseSchedule>
+                            </FirstInVivoProcess>
+                            <InVitroAdministration>
+                                <ProcessType>Restimulation in vitro</ProcessType>
+                                <ResponderCellType>Splenocyte</ResponderCellType>
+                                <StimulatorCellType>Splenocyte</StimulatorCellType>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Epitope</EpitopeRelation>
+                                    <Object>
+                                        <FragmentOfANaturalSequenceMolecule>
+                                            <ChemicalType>Peptide from protein</ChemicalType>
+                                            <LinearSequence>MIGWII</LinearSequence>
+                                            <ModifiedResidues>M1</ModifiedResidues>
+                                            <Modifications>Formylation|FORM</Modifications>
+                                            <StartingPosition>1</StartingPosition>
+                                            <EndingPosition>6</EndingPosition>
+                                            <SourceMolecule>
+                                                <GenBankId>Q8Y8E2</GenBankId>
+                                            </SourceMolecule>
+                                            <SourceOrganismId>169963</SourceOrganismId>
+                                        </FragmentOfANaturalSequenceMolecule>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenEvidenceCode>Exact match to reference information</ImmunogenEvidenceCode>
+                            </InVitroAdministration>
+                            <ImmunizationComments>Spleen cells were collected 6 days after infection and stimulated in vitro weekly with peptide-pulsed splenocytes, cloned by limited dilution and further stimulated with peptide-pulsed splenocytes.</ImmunizationComments>
+                        </Immunization>
+                        <EffectorCells>
+                            <CellTissueType>Spleen</CellTissueType>
+                            <CellType>T cell CD8+</CellType>
+                            <CellCultureConditions>Cell Line / Clone</CellCultureConditions>
+                        </EffectorCells>
+                        <AntigenPresentingCells>
+                            <CellTissueType>Bone Marrow</CellTissueType>
+                            <CellType>Macrophage</CellType>
+                            <CellCultureConditions>Direct Ex Vivo</CellCultureConditions>
+                            <AutologousOrSyngeneic>N</AutologousOrSyngeneic>
+                            <SourceOrganismId>10000104</SourceOrganismId>
+                        </AntigenPresentingCells>
+                        <MhcAllele>
+                            <MhcAlleleId>128</MhcAlleleId>
+                            <MhcEvidenceCode>Not determined</MhcEvidenceCode>
+                        </MhcAllele>
+                        <Antigen>
+                            <AntigenObject>
+                                <EpitopeRelation>Source Organism</EpitopeRelation>
+                                <Object>
+                                    <Organism>
+                                        <SubType>Organism</SubType>
+                                        <SourceOrganismId>169963</SourceOrganismId>
+                                    </Organism>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Not determined</AntigenEvidenceCode>
+                        </Antigen>
+                        <AssayInformation>
+                            <AssayTypeId>73</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <AssayComments>The T cell clone 3C8 from mice sub-lethally infected with the source species and generated by in vitro stimulation with peptide pulsed APCs, is able to secrete IFN-g upon culture culture with heat-killed source species-pulsed TAP -/- bone marrow macrophages, implying presentation of this epitope is partially TAP independent. This was further confirmed by adoptive transfer experiments, where TAP -/- mice are protected from source species proliferation by this clone, but to a lesser extent than in TAP +/+ mice.</AssayComments>
+                        </AssayInformation>
+                    </TCell>
+                </Assays>
+                <Assays>
+                    <TCell>
+                        <LocationOfData>Figure 2A</LocationOfData>
+                        <TCellId>9986</TCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>10000067</OrganismId>
+                                <Sex>F</Sex>
+                                <Age>6-8 wk</Age>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Administration in vivo</InVivoProcessType>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Source Organism</EpitopeRelation>
+                                    <Object>
+                                        <Organism>
+                                            <SubType>Organism</SubType>
+                                            <SourceOrganismId>169963</SourceOrganismId>
+                                        </Organism>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenEvidenceCode>Not determined</ImmunogenEvidenceCode>
+                                <Route>Intravenous (i.v.)</Route>
+                                <DoseSchedule>Single dose of 5x10&lt;sup&gt;3&lt;/sup&gt; CFU.</DoseSchedule>
+                            </FirstInVivoProcess>
+                            <InVitroAdministration>
+                                <ProcessType>Restimulation in vitro</ProcessType>
+                                <ResponderCellType>Splenocyte</ResponderCellType>
+                                <StimulatorCellType>Splenocyte</StimulatorCellType>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Epitope</EpitopeRelation>
+                                    <Object>
+                                        <FragmentOfANaturalSequenceMolecule>
+                                            <ChemicalType>Peptide from protein</ChemicalType>
+                                            <LinearSequence>MIGWII</LinearSequence>
+                                            <ModifiedResidues>M1</ModifiedResidues>
+                                            <Modifications>Formylation|FORM</Modifications>
+                                            <StartingPosition>1</StartingPosition>
+                                            <EndingPosition>6</EndingPosition>
+                                            <SourceMolecule>
+                                                <GenBankId>Q8Y8E2</GenBankId>
+                                            </SourceMolecule>
+                                            <SourceOrganismId>169963</SourceOrganismId>
+                                        </FragmentOfANaturalSequenceMolecule>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenEvidenceCode>Exact match to reference information</ImmunogenEvidenceCode>
+                            </InVitroAdministration>
+                            <ImmunizationComments>Spleen cells were collected 6 days after infection and stimulated in vitro weekly with peptide-pulsed splenocytes, cloned by limited dilution and further stimulated with peptide-pulsed splenocytes.</ImmunizationComments>
+                        </Immunization>
+                        <EffectorCells>
+                            <CellTissueType>Spleen</CellTissueType>
+                            <CellType>T cell CD8+</CellType>
+                            <CellCultureConditions>Cell Line / Clone</CellCultureConditions>
+                        </EffectorCells>
+                        <AntigenPresentingCells>
+                            <CellTissueType>Lymphoid</CellTissueType>
+                            <CellType>EL-4 cells-Lymphoblast</CellType>
+                            <CellCultureConditions>Cell Line / Clone</CellCultureConditions>
+                            <AutologousOrSyngeneic>Y</AutologousOrSyngeneic>
+                        </AntigenPresentingCells>
+                        <MhcAllele>
+                            <MhcAlleleId>128</MhcAlleleId>
+                            <MhcEvidenceCode>Not determined</MhcEvidenceCode>
+                        </MhcAllele>
+                        <Antigen>
+                            <AntigenReferenceName>fMIGWII</AntigenReferenceName>
+                            <AntigenObject>
+                                <EpitopeRelation>Epitope</EpitopeRelation>
+                                <Object>
+                                    <FragmentOfANaturalSequenceMolecule>
+                                        <ChemicalType>Peptide from protein</ChemicalType>
+                                        <LinearSequence>MIGWII</LinearSequence>
+                                        <ModifiedResidues>M1</ModifiedResidues>
+                                        <Modifications>Formylation|FORM</Modifications>
+                                        <StartingPosition>1</StartingPosition>
+                                        <EndingPosition>6</EndingPosition>
+                                        <SourceMolecule>
+                                            <GenBankId>Q8Y8E2</GenBankId>
+                                        </SourceMolecule>
+                                        <SourceOrganismId>169963</SourceOrganismId>
+                                    </FragmentOfANaturalSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Exact match to reference information</AntigenEvidenceCode>
+                        </Antigen>
+                        <AssayInformation>
+                            <AssayTypeId>67</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <AssayComments>The T cell clone 3C8 from mice sub-lethally infected with the source species and generated by in vitro stimulation with peptide pulsed APCs is able to lyse peptide pulsed APCs. Upon stimulation with peptide this clone secretes IFN-g, TNF and IL-6, but not IL-4 or IL-10.</AssayComments>
+                        </AssayInformation>
+                    </TCell>
+                </Assays>
+                <Assays>
+                    <TCell>
+                        <LocationOfData>Figure 2 B</LocationOfData>
+                        <TCellId>9987</TCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>10000067</OrganismId>
+                                <Sex>F</Sex>
+                                <Age>6-8 wk</Age>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Administration in vivo</InVivoProcessType>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Source Organism</EpitopeRelation>
+                                    <Object>
+                                        <Organism>
+                                            <SubType>Organism</SubType>
+                                            <SourceOrganismId>169963</SourceOrganismId>
+                                        </Organism>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenEvidenceCode>Not determined</ImmunogenEvidenceCode>
+                                <Route>Intravenous (i.v.)</Route>
+                                <DoseSchedule>Single dose of 5x10&lt;sup&gt;3&lt;/sup&gt; CFU.</DoseSchedule>
+                            </FirstInVivoProcess>
+                            <InVitroAdministration>
+                                <ProcessType>Restimulation in vitro</ProcessType>
+                                <ResponderCellType>Splenocyte</ResponderCellType>
+                                <StimulatorCellType>Splenocyte</StimulatorCellType>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Epitope</EpitopeRelation>
+                                    <Object>
+                                        <FragmentOfANaturalSequenceMolecule>
+                                            <ChemicalType>Peptide from protein</ChemicalType>
+                                            <LinearSequence>MIGWII</LinearSequence>
+                                            <ModifiedResidues>M1</ModifiedResidues>
+                                            <Modifications>Formylation|FORM</Modifications>
+                                            <StartingPosition>1</StartingPosition>
+                                            <EndingPosition>6</EndingPosition>
+                                            <SourceMolecule>
+                                                <GenBankId>Q8Y8E2</GenBankId>
+                                            </SourceMolecule>
+                                            <SourceOrganismId>169963</SourceOrganismId>
+                                        </FragmentOfANaturalSequenceMolecule>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenEvidenceCode>Exact match to reference information</ImmunogenEvidenceCode>
+                            </InVitroAdministration>
+                            <ImmunizationComments>Spleen cells were collected 6 days after infection and stimulated in vitro weekly with peptide-pulsed splenocytes, cloned by limited dilution and further stimulated with peptide-pulsed splenocytes.</ImmunizationComments>
+                        </Immunization>
+                        <EffectorCells>
+                            <CellTissueType>Spleen</CellTissueType>
+                            <CellType>T cell CD8+</CellType>
+                            <CellCultureConditions>Cell Line / Clone</CellCultureConditions>
+                        </EffectorCells>
+                        <AntigenPresentingCells>
+                            <CellTissueType>Bone Marrow</CellTissueType>
+                            <CellType>Macrophage</CellType>
+                            <CellCultureConditions>Direct Ex Vivo</CellCultureConditions>
+                            <AutologousOrSyngeneic>Y</AutologousOrSyngeneic>
+                        </AntigenPresentingCells>
+                        <MhcAllele>
+                            <MhcAlleleId>128</MhcAlleleId>
+                            <MhcEvidenceCode>Not determined</MhcEvidenceCode>
+                        </MhcAllele>
+                        <Antigen>
+                            <AntigenObject>
+                                <EpitopeRelation>Source Organism</EpitopeRelation>
+                                <Object>
+                                    <Organism>
+                                        <SubType>Organism</SubType>
+                                        <SourceOrganismId>169963</SourceOrganismId>
+                                    </Organism>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Not determined</AntigenEvidenceCode>
+                        </Antigen>
+                        <AssayInformation>
+                            <AssayTypeId>67</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <AssayComments>The T cell clone 3C8 from mice sub-lethally infected with the source species and generated by in vitro stimulation with peptide pulsed APCs is able to lyse source species infected bone marrow macrophages. Adoptive transfer experiments show that this clone is able to mediate protection against source species proliferation and death upon challenge with a  lethal dose of the source species.</AssayComments>
+                        </AssayInformation>
+                    </TCell>
+                </Assays>
+                <Assays>
+                    <TCell>
+                        <LocationOfData>Figure 4</LocationOfData>
+                        <TCellId>9988</TCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>10000067</OrganismId>
+                                <Sex>F</Sex>
+                                <Age>6-8 wk</Age>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Administration in vivo</InVivoProcessType>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Source Organism</EpitopeRelation>
+                                    <Object>
+                                        <Organism>
+                                            <SubType>Organism</SubType>
+                                            <SourceOrganismId>169963</SourceOrganismId>
+                                        </Organism>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenEvidenceCode>Not determined</ImmunogenEvidenceCode>
+                                <Route>Intravenous (i.v.)</Route>
+                                <DoseSchedule>Single dose of 5x10&lt;sup&gt;3&lt;/sup&gt; CFU.</DoseSchedule>
+                            </FirstInVivoProcess>
+                            <InVitroAdministration>
+                                <ProcessType>Restimulation in vitro</ProcessType>
+                                <ResponderCellType>Splenocyte</ResponderCellType>
+                                <StimulatorCellType>Splenocyte</StimulatorCellType>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Epitope</EpitopeRelation>
+                                    <Object>
+                                        <FragmentOfANaturalSequenceMolecule>
+                                            <ChemicalType>Peptide from protein</ChemicalType>
+                                            <LinearSequence>MIGWII</LinearSequence>
+                                            <ModifiedResidues>M1</ModifiedResidues>
+                                            <Modifications>Formylation|FORM</Modifications>
+                                            <StartingPosition>1</StartingPosition>
+                                            <EndingPosition>6</EndingPosition>
+                                            <SourceMolecule>
+                                                <GenBankId>Q8Y8E2</GenBankId>
+                                            </SourceMolecule>
+                                            <SourceOrganismId>169963</SourceOrganismId>
+                                        </FragmentOfANaturalSequenceMolecule>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenEvidenceCode>Exact match to reference information</ImmunogenEvidenceCode>
+                            </InVitroAdministration>
+                            <ImmunizationComments>Spleen cells were collected 6 days after infection and stimulated in vitro weekly with peptide-pulsed splenocytes, cloned by limited dilution and further stimulated with peptide-pulsed splenocytes.</ImmunizationComments>
+                        </Immunization>
+                        <EffectorCells>
+                            <CellTissueType>Spleen</CellTissueType>
+                            <CellType>T cell CD8+</CellType>
+                            <CellCultureConditions>Cell Line / Clone</CellCultureConditions>
+                        </EffectorCells>
+                        <AntigenPresentingCells>
+                            <CellTissueType>Bone Marrow</CellTissueType>
+                            <CellType>Macrophage</CellType>
+                            <CellCultureConditions>Direct Ex Vivo</CellCultureConditions>
+                            <AutologousOrSyngeneic>Y</AutologousOrSyngeneic>
+                        </AntigenPresentingCells>
+                        <MhcAllele>
+                            <MhcAlleleId>128</MhcAlleleId>
+                            <MhcEvidenceCode>Not determined</MhcEvidenceCode>
+                        </MhcAllele>
+                        <Antigen>
+                            <AntigenObject>
+                                <EpitopeRelation>Source Organism</EpitopeRelation>
+                                <Object>
+                                    <Organism>
+                                        <SubType>Organism</SubType>
+                                        <SourceOrganismId>169963</SourceOrganismId>
+                                    </Organism>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Not determined</AntigenEvidenceCode>
+                        </Antigen>
+                        <AssayInformation>
+                            <AssayTypeId>73</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <AssayComments>The T cell clone 3C8 from mice sub-lethally infected with the source species and generated by in vitro stimulation with peptide pulsed APCs, is able to secrete IFN-g upon culture with heat-killed source species-pulsed bone marrow macrophages. IFNg is produced at lower levels when macrophages from TAP -/- mice are used as the APCs, implying presentation of this epitope is partially TAP independent. This was further confirmed by adoptive transfer experiments, where TAP -/- mice are protected from source species proliferation by this clone, but to a lesser extent than in TAP +/+ mice.</AssayComments>
+                        </AssayInformation>
+                    </TCell>
+                </Assays>
+            </Epitope>
+        </Epitopes>
+    </Reference>
+</References>
+

@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<References xsi:schemaLocation="http://www.iedb.org/schema/CurationSchema http://beta.iedb.org/schema/Curation.xsd" xmlns="http://www.iedb.org/schema/CurationSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <Reference>
+        <ReferenceId>558</ReferenceId>
+        <DateLastUpdated>2020-09-10-07:00</DateLastUpdated>
+        <Article>
+            <PubmedId>15474725</PubmedId>
+            <Abstract>The administration of recombinant vaccinia virus Ankara (MVA) encoding a CTL epitope (pb9) from a malaria antigen induced activation and maturation of splenic dendritic cells (DCs) in vivo. In contrast, incubation of immature dendritic cells (iDCs) with the MVA, in vitro, resulted in down-regulation of MHC class I molecules and reduced their T-cell stimulatory ability. However, the ability of the infected DC to induce an antigen-specific CTL response, in vivo, remained intact. Furthermore, the administration of recombinant MVA-infected DC, but not pb9 peptide-pulsed DC, boosted and expanded the anti-pb9 CTL response that was primed by pb9 peptide-pulsed DC. These data indicate that despite the ability of poxviruses to impair DC maturation in vivo, the important ability of MVA to boost CD8 T-cell response in vivo is mediated at the level of the infected dendritic cells.</Abstract>
+            <ArticleYear>2004</ArticleYear>
+            <ArticlePages>4326-31</ArticlePages>
+            <ArticleTitle>Dendritic cells infected by recombinant modified vaccinia virus Ankara retain immunogenicity in vivo despite in vitro dysfunction.</ArticleTitle>
+            <Authors>
+                <Author>
+                    <LastName>Behboudi</LastName>
+                    <ForeName>Shahriar</ForeName>
+                </Author>
+                <Author>
+                    <LastName>Moore</LastName>
+                    <ForeName>Anne</ForeName>
+                </Author>
+                <Author>
+                    <LastName>Gilbert</LastName>
+                    <ForeName>Sarah C</ForeName>
+                </Author>
+                <Author>
+                    <LastName>Nicoll</LastName>
+                    <ForeName>Claire L</ForeName>
+                </Author>
+                <Author>
+                    <LastName>Hill</LastName>
+                    <ForeName>Adrian V S</ForeName>
+                </Author>
+            </Authors>
+            <Affiliations>Nuffield Department of Clinical Medicine, John Radcliffe Hospital, University of Oxford, Headington, Oxford OX3 9DU, UK. s.bedhoudi@ucl.ac.uk</Affiliations>
+            <ArticleChemicalList>Vaccines, Attenuated;Interferon-gamma</ArticleChemicalList>
+            <ArticleMeshHeadingsList>Animals; Bone Marrow(metabolism); Cell Proliferation; Cell Separation; Dendritic Cells(immunology; virology); Enzyme-Linked Immunosorbent Assay; Female; Flow Cytometry; Genes, MHC Class I(genetics; immunology); Interferon-gamma(metabolism); Mice; Mice, Inbred BALB C; Mice, Inbred C57BL; Phenotype; Stimulation, Chemical; T-Lymphocytes, Cytotoxic(immunology); Vaccines, Attenuated(genetics; immunology); Vaccinia virus(genetics; immunology)</ArticleMeshHeadingsList>
+            <Journal>
+                <Volume>22</Volume>
+                <Issue>31-32</Issue>
+                <Title>Vaccine</Title>
+                <Issn>0264-410X</Issn>
+                <MedlineTa>Vaccine</MedlineTa>
+            </Journal>
+        </Article>
+        <Epitopes>
+            <Epitope>
+                <EpitopeName>pb9 peptide</EpitopeName>
+                <EpitopeStructure>
+                    <FragmentOfANaturalSequenceMolecule>
+                        <ChemicalType>Peptide from protein</ChemicalType>
+                        <LinearSequence>SYIPSAEKI</LinearSequence>
+                        <StartingPosition>252</StartingPosition>
+                        <EndingPosition>260</EndingPosition>
+                        <SourceMolecule>
+                            <GenBankId>P06915.1</GenBankId>
+                        </SourceMolecule>
+                        <SourceOrganismId>5821</SourceOrganismId>
+                    </FragmentOfANaturalSequenceMolecule>
+                </EpitopeStructure>
+                <LocationOfData>Materials and Methods</LocationOfData>
+                <EpitopeId>62604</EpitopeId>
+                <EpitopeEvidenceCode>Representative selection</EpitopeEvidenceCode>
+                <EpitopeStructureDefines>Exact Epitope</EpitopeStructureDefines>
+                <Assays>
+                    <TCell>
+                        <LocationOfData>Figure 5</LocationOfData>
+                        <TCellId>7246</TCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>10000000</OrganismId>
+                                <Sex>F</Sex>
+                                <Age>5-7 weeks</Age>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Administration in vivo</InVivoProcessType>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Epitope</EpitopeRelation>
+                                    <Object>
+                                        <FragmentOfANaturalSequenceMolecule>
+                                            <ChemicalType>Peptide from protein</ChemicalType>
+                                            <LinearSequence>SYIPSAEKI</LinearSequence>
+                                            <StartingPosition>252</StartingPosition>
+                                            <EndingPosition>260</EndingPosition>
+                                            <SourceMolecule>
+                                                <GenBankId>P06915.1</GenBankId>
+                                            </SourceMolecule>
+                                            <SourceOrganismId>5821</SourceOrganismId>
+                                        </FragmentOfANaturalSequenceMolecule>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenEvidenceCode>Exact match to reference information</ImmunogenEvidenceCode>
+                                <ImmunogenContainingObject>
+                                    <PulsedCell>
+                                        <SubType>Pulsed Cell</SubType>
+                                        <CellType>Dendritic cell</CellType>
+                                        <CellSourceOrganismId>10090</CellSourceOrganismId>
+                                    </PulsedCell>
+                                </ImmunogenContainingObject>
+                                <Route>Subcutaneous (s.c.)</Route>
+                                <DoseSchedule>2 doses 2 weeks apart</DoseSchedule>
+                            </FirstInVivoProcess>
+                            <ImmunizationComments>Mice were injected with pb9 peptide pulsed immature dendritic cells at 1x10&lt;sup&gt;6&lt;/sup&gt; and 2 weeks later injected with MVA-infected immature dendritic cells. In other experiments, mice were injected with pb9-pulsed DCs and then boosted with the same antigen.</ImmunizationComments>
+                        </Immunization>
+                        <EffectorCells>
+                            <CellTissueType>Spleen</CellTissueType>
+                            <CellType>T cell</CellType>
+                            <CellCultureConditions>Direct Ex Vivo</CellCultureConditions>
+                        </EffectorCells>
+                        <AntigenPresentingCells>
+                            <CellTissueType>Spleen</CellTissueType>
+                            <CellType>Splenocyte</CellType>
+                            <CellCultureConditions>Direct Ex Vivo</CellCultureConditions>
+                            <AutologousOrSyngeneic>Y</AutologousOrSyngeneic>
+                        </AntigenPresentingCells>
+                        <MhcAllele>
+                            <MhcAlleleId>124</MhcAlleleId>
+                            <MhcEvidenceCode>Cited reference</MhcEvidenceCode>
+                        </MhcAllele>
+                        <Antigen>
+                            <AntigenReferenceName>pb9</AntigenReferenceName>
+                            <AntigenObject>
+                                <EpitopeRelation>Epitope</EpitopeRelation>
+                                <Object>
+                                    <FragmentOfANaturalSequenceMolecule>
+                                        <ChemicalType>Peptide from protein</ChemicalType>
+                                        <LinearSequence>SYIPSAEKI</LinearSequence>
+                                        <StartingPosition>252</StartingPosition>
+                                        <EndingPosition>260</EndingPosition>
+                                        <SourceMolecule>
+                                            <GenBankId>P06915.1</GenBankId>
+                                        </SourceMolecule>
+                                        <SourceOrganismId>5821</SourceOrganismId>
+                                    </FragmentOfANaturalSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Exact match to reference information</AntigenEvidenceCode>
+                        </Antigen>
+                        <AssayInformation>
+                            <AssayTypeId>48</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <AssayComments>Mice injected with pb9 peptide-pulsed immature dendritic cells and boosted with MVA-infected DC showed a higher response than mice boosted with pb9 peptide-pulsed DC or mice injected with pb9 peptide-pulsed DC alone. MVA is a modified vaccinia Ankara containing a multiple peptide string including the epitope.</AssayComments>
+                        </AssayInformation>
+                    </TCell>
+                </Assays>
+            </Epitope>
+        </Epitopes>
+    </Reference>
+</References>
+

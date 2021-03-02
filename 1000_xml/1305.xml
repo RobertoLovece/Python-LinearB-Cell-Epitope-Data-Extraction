@@ -1,0 +1,395 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<References xsi:schemaLocation="http://www.iedb.org/schema/CurationSchema http://beta.iedb.org/schema/Curation.xsd" xmlns="http://www.iedb.org/schema/CurationSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <Reference>
+        <ReferenceId>1305</ReferenceId>
+        <DateLastUpdated>2020-09-10-07:00</DateLastUpdated>
+        <Article>
+            <PubmedId>11536239</PubmedId>
+            <Abstract>Two dengue 2-specific IgM monoclonal antibodies (MAb) recognised spatially unrelated epitopes on the envelope (E) protein of dengue 2 virus, which were also recognised by serum from 20 and 50%, respectively, of patients with a primary dengue 2 infection. Dengue 2 virus populations escaping neutralisation by MAb 6B2 (representing the majority population of dengue 2-specific IgM MAbs ) had a deduced amino acid change (G-S) in the pre-Membrane (prM) protein at position 15 and a second in the E protein at E311 (E-G). The change in the E protein was adjacent to the only other epitopes on dengue 2 virus (E307, E383-385) involved in neutralisation that have been identified but that were recognised by IgG antibodies. Dengue 2 virus escaping neutralisation by IgM MAb 10F2, representing the minority population of dengue 2-specific IgM MAbs, had the same deduced amino acid change (G-S) at prM15 as the 6B2 neutralisation escape mutant dengue 2 virus population and four deduced amino acid changes in the E protein (E69, T-I, in the glycosylation motif; E71, E-D; E112, S-G; E124, I-N), which may be close enough to each other to form a single epitope and a fifth at E402 (F-L) in a region of the E protein of TBE virus essential for the low pH-induced E protein dimer-trimer transition. The 10F2 neutralisation escape mutant, but not the 6B2 one, had lost its ability to cause fusion from within Aedes albopictus mosquito cells and was inactivated more rapidly than the 6B2 neutralisation escape mutant and wild type viruses at 42 degrees C. Dengue 2 viruses passaged in BHK cells in the absence of a selecting antibody, shared a common amino acid (S) at E53, which differed from both wild type and neutralisation escape mutant virus populations at this position (P) and may have been responsible for a significant reduction in the ability of these "passage control" virus populations to be neutralised by both 6B2 and 10F2 antibodies.</Abstract>
+            <ArticleYear>2001</ArticleYear>
+            <ArticlePages>315-23</ArticlePages>
+            <ArticleTitle>Amino acid and phenotypic changes in dengue 2 virus associated with escape from neutralisation by IgM antibody.</ArticleTitle>
+            <Authors>
+                <Author>
+                    <LastName>Lok</LastName>
+                    <ForeName>S M</ForeName>
+                </Author>
+                <Author>
+                    <LastName>Ng</LastName>
+                    <ForeName>M L</ForeName>
+                </Author>
+                <Author>
+                    <LastName>Aaskov</LastName>
+                    <ForeName>J</ForeName>
+                </Author>
+            </Authors>
+            <Affiliations>School of Life Sciences, Queensland University of Technology, Brisbane, Australia.</Affiliations>
+            <ArticleChemicalList>Amino Acids;Antibodies, Monoclonal;Antibodies, Viral;Immunoglobulin M;Viral Envelope Proteins;Viral Proteins;Viral Vaccines</ArticleChemicalList>
+            <ArticleMeshHeadingsList>Amino Acids(genetics); Antibodies, Monoclonal(immunology); Antibodies, Viral(immunology); Cells, Cultured; Dengue(prevention &amp; control; virology); Dengue Virus(genetics; immunology; pathogenicity); Humans; Hydrogen-Ion Concentration; Immunoglobulin M(immunology); Mutation; Neutralization Tests; Sequence Analysis, Protein; Temperature; Viral Envelope Proteins(genetics; immunology); Viral Proteins(genetics; immunology); Viral Vaccines</ArticleMeshHeadingsList>
+            <Journal>
+                <Volume>65</Volume>
+                <Issue>2</Issue>
+                <Title>Journal of medical virology</Title>
+                <Issn>0146-6615</Issn>
+                <MedlineTa>J Med Virol</MedlineTa>
+            </Journal>
+        </Article>
+        <Epitopes>
+            <Epitope>
+                <EpitopeName>MAb 6B2- Envelope</EpitopeName>
+                <EpitopeStructure>
+                    <DiscontinuousRegionOnAccessionSequenceMolecule>
+                        <ChemicalType>Discontinuous protein residues</ChemicalType>
+                        <DiscontinuousResidues>E311</DiscontinuousResidues>
+                        <SourceMolecule>
+                            <GenBankId>ABX25775.1</GenBankId>
+                        </SourceMolecule>
+                        <SourceOrganismId>11065</SourceOrganismId>
+                    </DiscontinuousRegionOnAccessionSequenceMolecule>
+                </EpitopeStructure>
+                <LocationOfData>Table II</LocationOfData>
+                <EpitopeId>110495</EpitopeId>
+                <EpitopeEvidenceCode>Exact match to reference information</EpitopeEvidenceCode>
+                <EpitopeStructureDefines>Partial Epitope</EpitopeStructureDefines>
+                <Assays>
+                    <BCell>
+                        <LocationOfData>Figure 1</LocationOfData>
+                        <BCellId>20038</BCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>10000000</OrganismId>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Administration in vivo</InVivoProcessType>
+                                <DiseaseState>ONTIE:0003423</DiseaseState>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Source Organism</EpitopeRelation>
+                                    <Object>
+                                        <Organism>
+                                            <SubType>Organism</SubType>
+                                            <SourceOrganismId>11065</SourceOrganismId>
+                                        </Organism>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenEvidenceCode>Exact match to reference information</ImmunogenEvidenceCode>
+                                <Route>Intravenous (i.v.)</Route>
+                                <DoseSchedule>2 doses of 10^3 pfu</DoseSchedule>
+                            </FirstInVivoProcess>
+                            <ImmunizationComments>Immunization details are found in the cited reference, Jianmin et al, Arch Virol. 140(5):899 (1995) [PMID: 7541621].</ImmunizationComments>
+                        </Immunization>
+                        <AssayInformation>
+                            <AssayTypeId>34</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <AssayComments>Viral escape studies with a monoclonal antibody were employed to deduce amino acid changes defining the epitope.</AssayComments>
+                        </AssayInformation>
+                        <AssayedAntibody>
+                            <AssayedAntibodySourceMaterial>Ascitic Fluid</AssayedAntibodySourceMaterial>
+                            <AssayedAntibodyImmunoglobulinDomain>Entire Antibody</AssayedAntibodyImmunoglobulinDomain>
+                            <AssayedAntibodyPurificationStatus>Monoclonal</AssayedAntibodyPurificationStatus>
+                            <AssayedAntibodyName>6B2</AssayedAntibodyName>
+                            <AssayedAntibodyHeavyChainType>IgM</AssayedAntibodyHeavyChainType>
+                        </AssayedAntibody>
+                        <Antigen>
+                            <AntigenConformation>Non-Native/Unknown</AntigenConformation>
+                            <AntigenObject>
+                                <EpitopeRelation>Source Organism</EpitopeRelation>
+                                <Object>
+                                    <Organism>
+                                        <SubType>Organism</SubType>
+                                        <SourceOrganismId>11065</SourceOrganismId>
+                                    </Organism>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Exact match to reference information</AntigenEvidenceCode>
+                        </Antigen>
+                    </BCell>
+                </Assays>
+                <Assays>
+                    <BCell>
+                        <LocationOfData>Table II</LocationOfData>
+                        <BCellId>20039</BCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>10000000</OrganismId>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Administration in vivo</InVivoProcessType>
+                                <DiseaseState>ONTIE:0003423</DiseaseState>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Source Organism</EpitopeRelation>
+                                    <Object>
+                                        <Organism>
+                                            <SubType>Organism</SubType>
+                                            <SourceOrganismId>11065</SourceOrganismId>
+                                        </Organism>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenEvidenceCode>Exact match to reference information</ImmunogenEvidenceCode>
+                                <Route>Intravenous (i.v.)</Route>
+                                <DoseSchedule>2 doses of 10^3 pfu</DoseSchedule>
+                            </FirstInVivoProcess>
+                            <ImmunizationComments>Immunization details are found in the cited reference, Jianmin et al, Arch Virol. 140(5):899 (1995) [PMID: 7541621].</ImmunizationComments>
+                        </Immunization>
+                        <AssayInformation>
+                            <AssayTypeId>316</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <AssayComments>Viral escape studies with a monoclonal antibody were employed to deduce amino acid changes defining the epitope. The neutralization escape mutant maintained its ability to cause fusion from within Aedes albopictus mosquito cells and did not show a significant loss in infectivity at 42°C.</AssayComments>
+                        </AssayInformation>
+                        <AssayedAntibody>
+                            <AssayedAntibodySourceMaterial>Ascitic Fluid</AssayedAntibodySourceMaterial>
+                            <AssayedAntibodyImmunoglobulinDomain>Entire Antibody</AssayedAntibodyImmunoglobulinDomain>
+                            <AssayedAntibodyPurificationStatus>Monoclonal</AssayedAntibodyPurificationStatus>
+                            <AssayedAntibodyName>6B2</AssayedAntibodyName>
+                            <AssayedAntibodyHeavyChainType>IgM</AssayedAntibodyHeavyChainType>
+                        </AssayedAntibody>
+                        <Antigen>
+                            <AntigenConformation>Native</AntigenConformation>
+                            <AntigenObject>
+                                <EpitopeRelation>Source Organism</EpitopeRelation>
+                                <Object>
+                                    <Organism>
+                                        <SubType>Organism</SubType>
+                                        <SourceOrganismId>11065</SourceOrganismId>
+                                    </Organism>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Exact match to reference information</AntigenEvidenceCode>
+                        </Antigen>
+                    </BCell>
+                </Assays>
+                <Assays>
+                    <BCell>
+                        <LocationOfData>Table I</LocationOfData>
+                        <BCellId>1641452</BCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>9606</OrganismId>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Occurrence of infectious disease</InVivoProcessType>
+                                <DiseaseState>DOID:12205</DiseaseState>
+                                <DiseaseStage>Acute/Recent onset</DiseaseStage>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Taxonomic Parent</EpitopeRelation>
+                                    <Object>
+                                        <Organism>
+                                            <SubType>Organism</SubType>
+                                            <SourceOrganismId>11060</SourceOrganismId>
+                                        </Organism>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenEvidenceCode>Representative selection</ImmunogenEvidenceCode>
+                            </FirstInVivoProcess>
+                            <ImmunizationComments>Acute phase human sera from dengue patients with serologically confirmed disease who were infected during the 1992-93 outbreak of dengue 2 infection in northern Australia was tested. Some were "dengue 2-specific" as it contained IgM antibodies that reacted only with dengue 2 virus in haemagglutination inhibition (HI) assays while some were "Dengue cross-reactive sera'' that contained IgM antibodies that reacted with dengue 1,2,3, and 4 viruses but not Murray Valley encephalitis or Kunjin viruses in HI assays.</ImmunizationComments>
+                        </Immunization>
+                        <AssayInformation>
+                            <AssayTypeId>308</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <NumberOfSubjectsTested>10</NumberOfSubjectsTested>
+                            <NumberOfSubjectsResponded>2</NumberOfSubjectsResponded>
+                            <ResponseFrequency>20</ResponseFrequency>
+                            <AssayComments>Two out of ten acute phase patient sera containing dengue 2-specific IgM antibodies blocked attachment of the epitope-specific monoclonal antibody to dengue 2 virions in an indirect ELISA. None of the 2 "dengue cross-reactive" sera inhibited the mAb binding.</AssayComments>
+                        </AssayInformation>
+                        <AssayedAntibody>
+                            <AssayedAntibodySourceMaterial>Serum</AssayedAntibodySourceMaterial>
+                            <AssayedAntibodyImmunoglobulinDomain>Entire Antibody</AssayedAntibodyImmunoglobulinDomain>
+                            <AssayedAntibodyPurificationStatus>Polyclonal</AssayedAntibodyPurificationStatus>
+                            <AssayedAntibodyHeavyChainType>IgM</AssayedAntibodyHeavyChainType>
+                        </AssayedAntibody>
+                        <Antigen>
+                            <AntigenConformation>Non-Native/Unknown</AntigenConformation>
+                            <AntigenObject>
+                                <EpitopeRelation>Source Organism</EpitopeRelation>
+                                <Object>
+                                    <Organism>
+                                        <SubType>Organism</SubType>
+                                        <SourceOrganismId>11065</SourceOrganismId>
+                                    </Organism>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Exact match to reference information</AntigenEvidenceCode>
+                        </Antigen>
+                    </BCell>
+                </Assays>
+            </Epitope>
+            <Epitope>
+                <EpitopeName>MAb 10F2- Envelope</EpitopeName>
+                <EpitopeStructure>
+                    <DiscontinuousRegionOnAccessionSequenceMolecule>
+                        <ChemicalType>Discontinuous protein residues</ChemicalType>
+                        <DiscontinuousResidues>T69</DiscontinuousResidues>
+                        <SourceMolecule>
+                            <GenBankId>ABX25775.1</GenBankId>
+                        </SourceMolecule>
+                        <SourceOrganismId>11065</SourceOrganismId>
+                    </DiscontinuousRegionOnAccessionSequenceMolecule>
+                </EpitopeStructure>
+                <LocationOfData>Table II</LocationOfData>
+                <EpitopeId>110501</EpitopeId>
+                <EpitopeEvidenceCode>Exact match to reference information</EpitopeEvidenceCode>
+                <EpitopeStructureDefines>Partial Epitope</EpitopeStructureDefines>
+                <Assays>
+                    <BCell>
+                        <LocationOfData>Figure 1</LocationOfData>
+                        <BCellId>20044</BCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>10000000</OrganismId>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Administration in vivo</InVivoProcessType>
+                                <DiseaseState>ONTIE:0003423</DiseaseState>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Source Organism</EpitopeRelation>
+                                    <Object>
+                                        <Organism>
+                                            <SubType>Organism</SubType>
+                                            <SourceOrganismId>11065</SourceOrganismId>
+                                        </Organism>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenEvidenceCode>Exact match to reference information</ImmunogenEvidenceCode>
+                                <Route>Intravenous (i.v.)</Route>
+                                <DoseSchedule>2 doses of 10^3 pfu</DoseSchedule>
+                            </FirstInVivoProcess>
+                            <ImmunizationComments>Immunization details are found in the cited reference, Jianmin et al, Arch Virol. 140(5):899 (1995) [PMID: 7541621].</ImmunizationComments>
+                        </Immunization>
+                        <AssayInformation>
+                            <AssayTypeId>34</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <AssayComments>Viral escape studies with a monoclonal antibody were employed to deduce amino acid changes defining the epitope.</AssayComments>
+                        </AssayInformation>
+                        <AssayedAntibody>
+                            <AssayedAntibodySourceMaterial>Ascitic Fluid</AssayedAntibodySourceMaterial>
+                            <AssayedAntibodyImmunoglobulinDomain>Entire Antibody</AssayedAntibodyImmunoglobulinDomain>
+                            <AssayedAntibodyPurificationStatus>Monoclonal</AssayedAntibodyPurificationStatus>
+                            <AssayedAntibodyName>10F2</AssayedAntibodyName>
+                            <AssayedAntibodyHeavyChainType>IgM</AssayedAntibodyHeavyChainType>
+                        </AssayedAntibody>
+                        <Antigen>
+                            <AntigenConformation>Non-Native/Unknown</AntigenConformation>
+                            <AntigenObject>
+                                <EpitopeRelation>Source Organism</EpitopeRelation>
+                                <Object>
+                                    <Organism>
+                                        <SubType>Organism</SubType>
+                                        <SourceOrganismId>11065</SourceOrganismId>
+                                    </Organism>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Exact match to reference information</AntigenEvidenceCode>
+                        </Antigen>
+                    </BCell>
+                </Assays>
+                <Assays>
+                    <BCell>
+                        <LocationOfData>Table II</LocationOfData>
+                        <BCellId>20045</BCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>10000000</OrganismId>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Administration in vivo</InVivoProcessType>
+                                <DiseaseState>ONTIE:0003423</DiseaseState>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Source Organism</EpitopeRelation>
+                                    <Object>
+                                        <Organism>
+                                            <SubType>Organism</SubType>
+                                            <SourceOrganismId>11065</SourceOrganismId>
+                                        </Organism>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenEvidenceCode>Exact match to reference information</ImmunogenEvidenceCode>
+                                <Route>Intravenous (i.v.)</Route>
+                                <DoseSchedule>2 doses of 10^3 pfu</DoseSchedule>
+                            </FirstInVivoProcess>
+                            <ImmunizationComments>Immunization details are found in the cited reference, Jianmin et al, Arch Virol. 140(5):899 (1995) [PMID: 7541621].</ImmunizationComments>
+                        </Immunization>
+                        <AssayInformation>
+                            <AssayTypeId>316</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <AssayComments>Viral escape studies with a monoclonal antibody were employed to deduce amino acid changes defining the epitope. The neutralization escape mutant also lost its ability to cause fusion from within Aedes albopictus mosquito cells and showed a significant loss in infectivity at 42 degrees celcius.</AssayComments>
+                        </AssayInformation>
+                        <AssayedAntibody>
+                            <AssayedAntibodySourceMaterial>Ascitic Fluid</AssayedAntibodySourceMaterial>
+                            <AssayedAntibodyImmunoglobulinDomain>Entire Antibody</AssayedAntibodyImmunoglobulinDomain>
+                            <AssayedAntibodyPurificationStatus>Monoclonal</AssayedAntibodyPurificationStatus>
+                            <AssayedAntibodyName>10F2</AssayedAntibodyName>
+                            <AssayedAntibodyHeavyChainType>IgM</AssayedAntibodyHeavyChainType>
+                        </AssayedAntibody>
+                        <Antigen>
+                            <AntigenConformation>Native</AntigenConformation>
+                            <AntigenObject>
+                                <EpitopeRelation>Source Organism</EpitopeRelation>
+                                <Object>
+                                    <Organism>
+                                        <SubType>Organism</SubType>
+                                        <SourceOrganismId>11065</SourceOrganismId>
+                                    </Organism>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Exact match to reference information</AntigenEvidenceCode>
+                        </Antigen>
+                    </BCell>
+                </Assays>
+                <Assays>
+                    <BCell>
+                        <LocationOfData>Table I</LocationOfData>
+                        <BCellId>1641455</BCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>9606</OrganismId>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Occurrence of infectious disease</InVivoProcessType>
+                                <DiseaseState>DOID:12205</DiseaseState>
+                                <DiseaseStage>Acute/Recent onset</DiseaseStage>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Taxonomic Parent</EpitopeRelation>
+                                    <Object>
+                                        <Organism>
+                                            <SubType>Organism</SubType>
+                                            <SourceOrganismId>11060</SourceOrganismId>
+                                        </Organism>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenEvidenceCode>Representative selection</ImmunogenEvidenceCode>
+                            </FirstInVivoProcess>
+                            <ImmunizationComments>Acute phase human sera from dengue patients with serologically confirmed disease who were infected during the 1992-93 outbreak of dengue 2 infection in northern Australia was tested. Some were "dengue 2-specific" as it contained IgM antibodies that reacted only with dengue 2 virus in haemagglutination inhibition (HI) assays while some were "Dengue cross-reactive sera'' that contained IgM antibodies that reacted with dengue 1,2,3, and 4 viruses but not Murray Valley encephalitis or Kunjin viruses in HI assays.</ImmunizationComments>
+                        </Immunization>
+                        <AssayInformation>
+                            <AssayTypeId>308</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <NumberOfSubjectsTested>10</NumberOfSubjectsTested>
+                            <NumberOfSubjectsResponded>5</NumberOfSubjectsResponded>
+                            <ResponseFrequency>50</ResponseFrequency>
+                            <AssayComments>Five out of ten acute phase patient sera containing dengue 2-specific IgM antibodies blocked attachment of the epitope-specific monoclonal antibody to dengue 2 virions in an indirect ELISA. None of the 2 "dengue cross-reactive" sera inhibited the mAb binding.</AssayComments>
+                        </AssayInformation>
+                        <AssayedAntibody>
+                            <AssayedAntibodySourceMaterial>Serum</AssayedAntibodySourceMaterial>
+                            <AssayedAntibodyImmunoglobulinDomain>Entire Antibody</AssayedAntibodyImmunoglobulinDomain>
+                            <AssayedAntibodyPurificationStatus>Polyclonal</AssayedAntibodyPurificationStatus>
+                            <AssayedAntibodyHeavyChainType>IgM</AssayedAntibodyHeavyChainType>
+                        </AssayedAntibody>
+                        <Antigen>
+                            <AntigenConformation>Non-Native/Unknown</AntigenConformation>
+                            <AntigenObject>
+                                <EpitopeRelation>Source Organism</EpitopeRelation>
+                                <Object>
+                                    <Organism>
+                                        <SubType>Organism</SubType>
+                                        <SourceOrganismId>11065</SourceOrganismId>
+                                    </Organism>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Exact match to reference information</AntigenEvidenceCode>
+                        </Antigen>
+                    </BCell>
+                </Assays>
+            </Epitope>
+        </Epitopes>
+    </Reference>
+</References>
+

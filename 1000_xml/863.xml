@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<References xsi:schemaLocation="http://www.iedb.org/schema/CurationSchema http://beta.iedb.org/schema/Curation.xsd" xmlns="http://www.iedb.org/schema/CurationSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <Reference>
+        <ReferenceId>863</ReferenceId>
+        <DateLastUpdated>2020-09-10-07:00</DateLastUpdated>
+        <Article>
+            <PubmedId>11428340</PubmedId>
+            <Abstract>To develop an improved serodiagnostic test for amoebiasis, we performed a detailed analysis of the immunodominant epitopes of the 29 kDa surface antigen and evaluated its sensitivity and specificity. Enzyme-linked immunosorbent assay (ELISA) based on the fragment containing the immunodominant epitope was evaluated further and compared with full-length recombinant 29 kDa protein. Specificity and sensitivity of the two ELISAs were assessed using 55 human sera of parasitic protozoa infection cases (25 amoebiasis, 20 giardiasis and 10 toxoplasmosis sera) and 10 healthy control sera. The immunodominant epitope of the 29 kDa antigen is localised only in the N-terminus 14-54 amino acid residues. The sensitivities of the two ELISAs were very high, 92 and 96%, respectively. The specificity of the fragment was 100%, whereas the specificity of the full-length 29 kDa protein was 86.6%. These results indicate that the fragment containing the immunodominant epitope of the 29 kDa protein can be used to accurately serodiagnose amoebiasis without cross-reactivity from other parasites.</Abstract>
+            <ArticleYear>2000</ArticleYear>
+            <ArticlePages>1487-91</ArticlePages>
+            <ArticleTitle>Serodiagnosis of amoebiasis using a recombinant protein fragment of the 29 kDa surface antigen of Entamoeba histolytica.</ArticleTitle>
+            <Authors>
+                <Author>
+                    <LastName>Lee</LastName>
+                    <ForeName>J</ForeName>
+                </Author>
+                <Author>
+                    <LastName>Park</LastName>
+                    <ForeName>S J</ForeName>
+                </Author>
+                <Author>
+                    <LastName>Yong</LastName>
+                    <ForeName>T S</ForeName>
+                </Author>
+            </Authors>
+            <Affiliations>Department of Parasitology and Institute of Tropical Medicine, Yonsei University College of Medicine, Seoul, South Korea.</Affiliations>
+            <ArticleChemicalList>29 kDa antigen, Entamoeba histolytica;Antigens, Surface;Immunodominant Epitopes;Peptide Fragments;Recombinant Proteins</ArticleChemicalList>
+            <ArticleMeshHeadingsList>Amebiasis(diagnosis); Amino Acid Sequence; Animals; Antigens, Surface(immunology); Entamoeba histolytica(immunology); Enzyme-Linked Immunosorbent Assay; Humans; Immunodominant Epitopes(chemistry); Molecular Sequence Data; Peptide Fragments; Recombinant Proteins(immunology); Sensitivity and Specificity; Sequence Alignment</ArticleMeshHeadingsList>
+            <Journal>
+                <Volume>30</Volume>
+                <Issue>14</Issue>
+                <Title>International journal for parasitology</Title>
+                <Issn>1879-0135</Issn>
+                <MedlineTa>Int J Parasitol</MedlineTa>
+            </Journal>
+        </Article>
+        <Epitopes>
+            <Epitope>
+                <EpitopeName>Sb</EpitopeName>
+                <EpitopeStructure>
+                    <FragmentOfANaturalSequenceMolecule>
+                        <ChemicalType>Peptide from protein</ChemicalType>
+                        <LinearSequence>CQEKECCKECCCPRIKAFKKFINTFEKAQIGKEAPEFKAPA</LinearSequence>
+                        <StartingPosition>14</StartingPosition>
+                        <EndingPosition>54</EndingPosition>
+                        <SourceMolecule>
+                            <GenBankId>P19476.2</GenBankId>
+                        </SourceMolecule>
+                        <SourceOrganismId>10000352</SourceOrganismId>
+                    </FragmentOfANaturalSequenceMolecule>
+                </EpitopeStructure>
+                <LocationOfData>Figure 4</LocationOfData>
+                <EpitopeId>6872</EpitopeId>
+                <ReferenceStartingPosition>14</ReferenceStartingPosition>
+                <ReferenceEndingPosition>54</ReferenceEndingPosition>
+                <EpitopeEvidenceCode>Not determined</EpitopeEvidenceCode>
+                <EpitopeStructureDefines>Epitope containing region/antigenic site</EpitopeStructureDefines>
+                <Assays>
+                    <BCell>
+                        <LocationOfData>Figure 2C</LocationOfData>
+                        <BCellId>9385</BCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>9606</OrganismId>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Occurrence of infectious disease</InVivoProcessType>
+                                <DiseaseState>DOID:9181</DiseaseState>
+                                <DiseaseStage>Unknown</DiseaseStage>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Taxonomic Parent</EpitopeRelation>
+                                    <Object>
+                                        <Organism>
+                                            <SubType>Organism</SubType>
+                                            <SourceOrganismId>5759</SourceOrganismId>
+                                        </Organism>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenReferenceName>Entamoeba histolytica</ImmunogenReferenceName>
+                                <ImmunogenEvidenceCode>Not determined</ImmunogenEvidenceCode>
+                            </FirstInVivoProcess>
+                        </Immunization>
+                        <AssayInformation>
+                            <AssayTypeId>37</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <NumberOfSubjectsTested>10</NumberOfSubjectsTested>
+                            <NumberOfSubjectsResponded>10</NumberOfSubjectsResponded>
+                            <ResponseFrequency>100</ResponseFrequency>
+                            <AssayComments>Seven of the 10 sera showed strong reactions and the remaining sera showed relatively weak reactions.</AssayComments>
+                        </AssayInformation>
+                        <AssayedAntibody>
+                            <AssayedAntibodySourceMaterial>Serum</AssayedAntibodySourceMaterial>
+                            <AssayedAntibodyPurificationStatus>Polyclonal</AssayedAntibodyPurificationStatus>
+                        </AssayedAntibody>
+                        <Antigen>
+                            <AntigenReferenceName>Sb</AntigenReferenceName>
+                            <AntigenConformation>Non-Native/Unknown</AntigenConformation>
+                            <AntigenObject>
+                                <EpitopeRelation>Epitope</EpitopeRelation>
+                                <Object>
+                                    <FragmentOfANaturalSequenceMolecule>
+                                        <ChemicalType>Peptide from protein</ChemicalType>
+                                        <LinearSequence>CQEKECCKECCCPRIKAFKKFINTFEKAQIGKEAPEFKAPA</LinearSequence>
+                                        <StartingPosition>14</StartingPosition>
+                                        <EndingPosition>54</EndingPosition>
+                                        <SourceMolecule>
+                                            <GenBankId>P19476.2</GenBankId>
+                                        </SourceMolecule>
+                                        <SourceOrganismId>10000352</SourceOrganismId>
+                                    </FragmentOfANaturalSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Exact match to reference information</AntigenEvidenceCode>
+                        </Antigen>
+                    </BCell>
+                </Assays>
+                <Assays>
+                    <BCell>
+                        <LocationOfData>Figure 3A</LocationOfData>
+                        <BCellId>9391</BCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>9606</OrganismId>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Occurrence of infectious disease</InVivoProcessType>
+                                <DiseaseState>DOID:9181</DiseaseState>
+                                <DiseaseStage>Unknown</DiseaseStage>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Taxonomic Parent</EpitopeRelation>
+                                    <Object>
+                                        <Organism>
+                                            <SubType>Organism</SubType>
+                                            <SourceOrganismId>5759</SourceOrganismId>
+                                        </Organism>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenReferenceName>Entamoeba histolytica</ImmunogenReferenceName>
+                                <ImmunogenEvidenceCode>Not determined</ImmunogenEvidenceCode>
+                            </FirstInVivoProcess>
+                        </Immunization>
+                        <AssayInformation>
+                            <AssayTypeId>34</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <NumberOfSubjectsTested>25</NumberOfSubjectsTested>
+                            <NumberOfSubjectsResponded>23</NumberOfSubjectsResponded>
+                            <ResponseFrequency>92</ResponseFrequency>
+                            <AssayComments>A recombinant peptide was used as the antigen.</AssayComments>
+                        </AssayInformation>
+                        <AssayedAntibody>
+                            <AssayedAntibodySourceMaterial>Serum</AssayedAntibodySourceMaterial>
+                            <AssayedAntibodyPurificationStatus>Polyclonal</AssayedAntibodyPurificationStatus>
+                        </AssayedAntibody>
+                        <Antigen>
+                            <AntigenReferenceName>Sb</AntigenReferenceName>
+                            <AntigenConformation>Non-Native/Unknown</AntigenConformation>
+                            <AntigenObject>
+                                <EpitopeRelation>Epitope</EpitopeRelation>
+                                <Object>
+                                    <FragmentOfANaturalSequenceMolecule>
+                                        <ChemicalType>Peptide from protein</ChemicalType>
+                                        <LinearSequence>CQEKECCKECCCPRIKAFKKFINTFEKAQIGKEAPEFKAPA</LinearSequence>
+                                        <StartingPosition>14</StartingPosition>
+                                        <EndingPosition>54</EndingPosition>
+                                        <SourceMolecule>
+                                            <GenBankId>P19476.2</GenBankId>
+                                        </SourceMolecule>
+                                        <SourceOrganismId>10000352</SourceOrganismId>
+                                    </FragmentOfANaturalSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Exact match to reference information</AntigenEvidenceCode>
+                        </Antigen>
+                    </BCell>
+                </Assays>
+            </Epitope>
+            <Epitope>
+                <EpitopeName>Sa</EpitopeName>
+                <EpitopeStructure>
+                    <FragmentOfANaturalSequenceMolecule>
+                        <ChemicalType>Peptide from protein</ChemicalType>
+                        <LinearSequence>MSCNQQKECCKKECQEKECCKECCCPRIKA</LinearSequence>
+                        <StartingPosition>1</StartingPosition>
+                        <EndingPosition>30</EndingPosition>
+                        <SourceMolecule>
+                            <GenBankId>P19476.2</GenBankId>
+                        </SourceMolecule>
+                        <SourceOrganismId>10000352</SourceOrganismId>
+                    </FragmentOfANaturalSequenceMolecule>
+                </EpitopeStructure>
+                <LocationOfData>Figure 4</LocationOfData>
+                <EpitopeId>42523</EpitopeId>
+                <ReferenceStartingPosition>1</ReferenceStartingPosition>
+                <ReferenceEndingPosition>30</ReferenceEndingPosition>
+                <EpitopeEvidenceCode>Not determined</EpitopeEvidenceCode>
+                <EpitopeStructureDefines>Epitope containing region/antigenic site</EpitopeStructureDefines>
+                <Assays>
+                    <BCell>
+                        <LocationOfData>Figure 2B</LocationOfData>
+                        <BCellId>9393</BCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>9606</OrganismId>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Occurrence of infectious disease</InVivoProcessType>
+                                <DiseaseState>DOID:9181</DiseaseState>
+                                <DiseaseStage>Unknown</DiseaseStage>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Taxonomic Parent</EpitopeRelation>
+                                    <Object>
+                                        <Organism>
+                                            <SubType>Organism</SubType>
+                                            <SourceOrganismId>5759</SourceOrganismId>
+                                        </Organism>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenReferenceName>Entamoeba histolytica</ImmunogenReferenceName>
+                                <ImmunogenEvidenceCode>Not determined</ImmunogenEvidenceCode>
+                            </FirstInVivoProcess>
+                        </Immunization>
+                        <AssayInformation>
+                            <AssayTypeId>37</AssayTypeId>
+                            <QualitativeMeasurement>Negative</QualitativeMeasurement>
+                            <AssayComments>Pooled sera from amoebiasis patients was used for screening.</AssayComments>
+                        </AssayInformation>
+                        <AssayedAntibody>
+                            <AssayedAntibodySourceMaterial>Serum</AssayedAntibodySourceMaterial>
+                            <AssayedAntibodyPurificationStatus>Polyclonal</AssayedAntibodyPurificationStatus>
+                        </AssayedAntibody>
+                        <Antigen>
+                            <AntigenReferenceName>Sa</AntigenReferenceName>
+                            <AntigenConformation>Non-Native/Unknown</AntigenConformation>
+                            <AntigenObject>
+                                <EpitopeRelation>Epitope</EpitopeRelation>
+                                <Object>
+                                    <FragmentOfANaturalSequenceMolecule>
+                                        <ChemicalType>Peptide from protein</ChemicalType>
+                                        <LinearSequence>MSCNQQKECCKKECQEKECCKECCCPRIKA</LinearSequence>
+                                        <StartingPosition>1</StartingPosition>
+                                        <EndingPosition>30</EndingPosition>
+                                        <SourceMolecule>
+                                            <GenBankId>P19476.2</GenBankId>
+                                        </SourceMolecule>
+                                        <SourceOrganismId>10000352</SourceOrganismId>
+                                    </FragmentOfANaturalSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Exact match to reference information</AntigenEvidenceCode>
+                            <AntigenContainingObject>
+                                <ComplexedMolecule>
+                                    <ComplexType>Protein conjugate</ComplexType>
+                                    <PeptideModifications/>
+                                    <SourceMolecule>
+                                        <IedbAccession>SRC240127</IedbAccession>
+                                    </SourceMolecule>
+                                    <MoleculeSourceOrganismId>562</MoleculeSourceOrganismId>
+                                </ComplexedMolecule>
+                            </AntigenContainingObject>
+                        </Antigen>
+                    </BCell>
+                </Assays>
+            </Epitope>
+        </Epitopes>
+    </Reference>
+</References>
+

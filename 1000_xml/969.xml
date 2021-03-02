@@ -1,0 +1,2227 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<References xsi:schemaLocation="http://www.iedb.org/schema/CurationSchema http://beta.iedb.org/schema/Curation.xsd" xmlns="http://www.iedb.org/schema/CurationSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <Reference>
+        <ReferenceId>969</ReferenceId>
+        <DateLastUpdated>2020-10-11-07:00</DateLastUpdated>
+        <Article>
+            <PubmedId>11283076</PubmedId>
+            <Abstract>Mimicry of peripheral nerve gangliosides by Campylobacter jejuni lipopolysaccharides (LPSs) has been proposed to induce cross-reacting antiganglioside antibodies in Guillain-Barré syndrome (GBS). Because current methods for LPS characterization are labor-intensive and inhibit the screening of large numbers of strains, a rapid GM(1) epitope screening assay was developed. Biomass from two agar plates of confluent growth yielded sufficient LPS using a novel phenol-water and ether extraction procedure. Extracts of LPS were reacted with cholera toxin (GM(1) ligand), peanut agglutinin (Gal beta1--&gt;3GalNAc ligand), and anti-GM(1) antibodies. After the assay was validated, 12 of 59 (20%) C. jejuni serostrains, including four serotypes that have not previously been associated with GBS, reacted with two or more anti-GM(1) ganglioside reagents. Subsequently, LPS extracts from 5 of 7 (71%) C. jejuni isolates and 2 of 3 (67%) C. jejuni culture collection strains bore GM(1) structures. Overall, the assay system was reliable, efficient, and reproducible and may be adapted for large-scale epidemiological studies.</Abstract>
+            <ArticleYear>2001</ArticleYear>
+            <ArticlePages>1494-500</ArticlePages>
+            <ArticleTitle>Development of an immunoassay for rapid detection of ganglioside GM(1) mimicry in Campylobacter jejuni strains.</ArticleTitle>
+            <Authors>
+                <Author>
+                    <LastName>Prendergast</LastName>
+                    <ForeName>M M</ForeName>
+                </Author>
+                <Author>
+                    <LastName>Kosunen</LastName>
+                    <ForeName>T U</ForeName>
+                </Author>
+                <Author>
+                    <LastName>Moran</LastName>
+                    <ForeName>A P</ForeName>
+                </Author>
+            </Authors>
+            <Affiliations>Department of Microbiology, National University of Ireland, Galway, Ireland.</Affiliations>
+            <ArticleChemicalList>Epitopes;Lipopolysaccharides;G(M1) Ganglioside</ArticleChemicalList>
+            <ArticleMeshHeadingsList>Campylobacter jejuni(classification; growth &amp; development; immunology); Chromatography, Thin Layer; Epitopes(immunology); G(M1) Ganglioside(chemistry; immunology); Humans; Immunoassay(methods); Lipopolysaccharides(chemistry; immunology); Molecular Mimicry</ArticleMeshHeadingsList>
+            <Journal>
+                <Volume>39</Volume>
+                <Issue>4</Issue>
+                <Title>Journal of clinical microbiology</Title>
+                <Issn>1098-660X</Issn>
+                <MedlineTa>J Clin Microbiol</MedlineTa>
+            </Journal>
+        </Article>
+        <Epitopes>
+            <Epitope>
+                <EpitopeName>Ganglioside GM1 epitope</EpitopeName>
+                <EpitopeStructure>
+                    <FragmentOfANaturalNonSequenceMolecule>
+                        <ChemicalType>Carbohydrate fragment</ChemicalType>
+                        <Molecule>
+                            <ChEBIId>CHEBI:59208</ChEBIId>
+                        </Molecule>
+                        <SourceMolecule>
+                            <ChEBIId>CHEBI:18216</ChEBIId>
+                        </SourceMolecule>
+                        <SourceOrganismId>7742</SourceOrganismId>
+                    </FragmentOfANaturalNonSequenceMolecule>
+                </EpitopeStructure>
+                <LocationOfData>Abstract</LocationOfData>
+                <EpitopeId>130678</EpitopeId>
+                <EpitopeEvidenceCode>Representative selection</EpitopeEvidenceCode>
+                <EpitopeStructureDefines>Epitope containing region/antigenic site</EpitopeStructureDefines>
+                <EpitopeComments>GM1 carbohydrate is a mimic of oligosaccharide region found in lipopolysaccharide of Campylobacter species. GM1 ganglioside is found across several taxa within the subphylum vertebrata including fish, reptiles, murine, porcine, bovine, and human.</EpitopeComments>
+                <Assays>
+                    <BCell>
+                        <LocationOfData>Table 3</LocationOfData>
+                        <BCellId>11795</BCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>9986</OrganismId>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Administration in vivo</InVivoProcessType>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Source Antigen</EpitopeRelation>
+                                    <Object>
+                                        <AccessionNonSequenceMolecule>
+                                            <ChemicalType>Other Non-Sequence</ChemicalType>
+                                            <Molecule>
+                                                <ChEBIId>CHEBI:18216</ChEBIId>
+                                            </Molecule>
+                                            <SourceOrganismId>7742</SourceOrganismId>
+                                        </AccessionNonSequenceMolecule>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenReferenceName>Ganglioside GM1</ImmunogenReferenceName>
+                                <ImmunogenEvidenceCode>Representative selection</ImmunogenEvidenceCode>
+                            </FirstInVivoProcess>
+                            <ImmunizationComments>Commercial preparation from Matreya Inc., Pleasant Gap, PA.</ImmunizationComments>
+                        </Immunization>
+                        <AssayInformation>
+                            <AssayTypeId>37</AssayTypeId>
+                            <QualitativeMeasurement>Positive-Low</QualitativeMeasurement>
+                            <AssayComments>TLC-immunostaining of miniphenol-water LPS extractions of C. jejuni gave a weak reaction.</AssayComments>
+                        </AssayInformation>
+                        <AssayedAntibody>
+                            <AssayedAntibodySourceMaterial>Serum</AssayedAntibodySourceMaterial>
+                            <AssayedAntibodyImmunoglobulinDomain>Entire Antibody</AssayedAntibodyImmunoglobulinDomain>
+                            <AssayedAntibodyPurificationStatus>Polyclonal</AssayedAntibodyPurificationStatus>
+                            <AssayedAntibodyHeavyChainType>IgG</AssayedAntibodyHeavyChainType>
+                        </AssayedAntibody>
+                        <Antigen>
+                            <AntigenReferenceName>Lipopolysaccharide extract</AntigenReferenceName>
+                            <AntigenConformation>Non-Native/Unknown</AntigenConformation>
+                            <AntigenObject>
+                                <EpitopeRelation>Structurally Related</EpitopeRelation>
+                                <Object>
+                                    <AccessionNonSequenceMolecule>
+                                        <ChemicalType>Glycolipid</ChemicalType>
+                                        <Molecule>
+                                            <ChEBIId>CHEBI:16412</ChEBIId>
+                                        </Molecule>
+                                        <SourceOrganismId>10000701</SourceOrganismId>
+                                    </AccessionNonSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Representative selection</AntigenEvidenceCode>
+                        </Antigen>
+                    </BCell>
+                </Assays>
+                <Assays>
+                    <BCell>
+                        <LocationOfData>Table 3</LocationOfData>
+                        <BCellId>11803</BCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>9986</OrganismId>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Administration in vivo</InVivoProcessType>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Source Antigen</EpitopeRelation>
+                                    <Object>
+                                        <AccessionNonSequenceMolecule>
+                                            <ChemicalType>Other Non-Sequence</ChemicalType>
+                                            <Molecule>
+                                                <ChEBIId>CHEBI:18216</ChEBIId>
+                                            </Molecule>
+                                            <SourceOrganismId>7742</SourceOrganismId>
+                                        </AccessionNonSequenceMolecule>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenReferenceName>Ganglioside GM1</ImmunogenReferenceName>
+                                <ImmunogenEvidenceCode>Representative selection</ImmunogenEvidenceCode>
+                            </FirstInVivoProcess>
+                            <ImmunizationComments>Commercial preparation from Matreya Inc., Pleasant Gap, PA.</ImmunizationComments>
+                        </Immunization>
+                        <AssayInformation>
+                            <AssayTypeId>37</AssayTypeId>
+                            <QualitativeMeasurement>Positive-High</QualitativeMeasurement>
+                            <AssayComments>TLC-immunostaining of miniphenol-water LPS extractions of C. jejuni gave a very strong reaction.</AssayComments>
+                        </AssayInformation>
+                        <AssayedAntibody>
+                            <AssayedAntibodySourceMaterial>Serum</AssayedAntibodySourceMaterial>
+                            <AssayedAntibodyImmunoglobulinDomain>Entire Antibody</AssayedAntibodyImmunoglobulinDomain>
+                            <AssayedAntibodyPurificationStatus>Polyclonal</AssayedAntibodyPurificationStatus>
+                            <AssayedAntibodyHeavyChainType>IgG</AssayedAntibodyHeavyChainType>
+                        </AssayedAntibody>
+                        <Antigen>
+                            <AntigenReferenceName>Lipopolysaccharide extract</AntigenReferenceName>
+                            <AntigenConformation>Non-Native/Unknown</AntigenConformation>
+                            <AntigenObject>
+                                <EpitopeRelation>Structurally Related</EpitopeRelation>
+                                <Object>
+                                    <AccessionNonSequenceMolecule>
+                                        <ChemicalType>Glycolipid</ChemicalType>
+                                        <Molecule>
+                                            <ChEBIId>CHEBI:16412</ChEBIId>
+                                        </Molecule>
+                                        <SourceOrganismId>10000710</SourceOrganismId>
+                                    </AccessionNonSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Representative selection</AntigenEvidenceCode>
+                        </Antigen>
+                    </BCell>
+                </Assays>
+                <Assays>
+                    <BCell>
+                        <LocationOfData>Table 2</LocationOfData>
+                        <BCellId>11820</BCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>9986</OrganismId>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Administration in vivo</InVivoProcessType>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Source Antigen</EpitopeRelation>
+                                    <Object>
+                                        <AccessionNonSequenceMolecule>
+                                            <ChemicalType>Other Non-Sequence</ChemicalType>
+                                            <Molecule>
+                                                <ChEBIId>CHEBI:18216</ChEBIId>
+                                            </Molecule>
+                                            <SourceOrganismId>7742</SourceOrganismId>
+                                        </AccessionNonSequenceMolecule>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenReferenceName>Ganglioside GM1</ImmunogenReferenceName>
+                                <ImmunogenEvidenceCode>Representative selection</ImmunogenEvidenceCode>
+                            </FirstInVivoProcess>
+                            <ImmunizationComments>Commercial preparation from Matreya Inc., Pleasant Gap, PA.</ImmunizationComments>
+                        </Immunization>
+                        <AssayInformation>
+                            <AssayTypeId>37</AssayTypeId>
+                            <QualitativeMeasurement>Positive-Intermediate</QualitativeMeasurement>
+                            <AssayComments>TLC-immunostaining of purified LPS fractions from C. jejuni was performed resulting in a moderate reaction.</AssayComments>
+                        </AssayInformation>
+                        <AssayedAntibody>
+                            <AssayedAntibodySourceMaterial>Serum</AssayedAntibodySourceMaterial>
+                            <AssayedAntibodyImmunoglobulinDomain>Entire Antibody</AssayedAntibodyImmunoglobulinDomain>
+                            <AssayedAntibodyPurificationStatus>Polyclonal</AssayedAntibodyPurificationStatus>
+                            <AssayedAntibodyHeavyChainType>IgG</AssayedAntibodyHeavyChainType>
+                        </AssayedAntibody>
+                        <Antigen>
+                            <AntigenReferenceName>Lipopolysaccharide extract</AntigenReferenceName>
+                            <AntigenConformation>Non-Native/Unknown</AntigenConformation>
+                            <AntigenObject>
+                                <EpitopeRelation>Structurally Related</EpitopeRelation>
+                                <Object>
+                                    <AccessionNonSequenceMolecule>
+                                        <ChemicalType>Glycolipid</ChemicalType>
+                                        <Molecule>
+                                            <ChEBIId>CHEBI:16412</ChEBIId>
+                                        </Molecule>
+                                        <SourceOrganismId>192222</SourceOrganismId>
+                                    </AccessionNonSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Representative selection</AntigenEvidenceCode>
+                        </Antigen>
+                    </BCell>
+                </Assays>
+                <Assays>
+                    <BCell>
+                        <LocationOfData>Table 3</LocationOfData>
+                        <BCellId>11794</BCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>9986</OrganismId>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Administration in vivo</InVivoProcessType>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Source Antigen</EpitopeRelation>
+                                    <Object>
+                                        <AccessionNonSequenceMolecule>
+                                            <ChemicalType>Other Non-Sequence</ChemicalType>
+                                            <Molecule>
+                                                <ChEBIId>CHEBI:18216</ChEBIId>
+                                            </Molecule>
+                                            <SourceOrganismId>7742</SourceOrganismId>
+                                        </AccessionNonSequenceMolecule>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenReferenceName>Ganglioside GM1</ImmunogenReferenceName>
+                                <ImmunogenEvidenceCode>Representative selection</ImmunogenEvidenceCode>
+                            </FirstInVivoProcess>
+                            <ImmunizationComments>Commercial preparation from Matreya Inc., Pleasant Gap, PA.</ImmunizationComments>
+                        </Immunization>
+                        <AssayInformation>
+                            <AssayTypeId>37</AssayTypeId>
+                            <QualitativeMeasurement>Positive-Intermediate</QualitativeMeasurement>
+                            <AssayComments>TLC-immunostaining of miniphenol-water LPS extractions of C. jejuni produced a moderate reaction.</AssayComments>
+                        </AssayInformation>
+                        <AssayedAntibody>
+                            <AssayedAntibodySourceMaterial>Serum</AssayedAntibodySourceMaterial>
+                            <AssayedAntibodyImmunoglobulinDomain>Entire Antibody</AssayedAntibodyImmunoglobulinDomain>
+                            <AssayedAntibodyPurificationStatus>Polyclonal</AssayedAntibodyPurificationStatus>
+                            <AssayedAntibodyHeavyChainType>IgG</AssayedAntibodyHeavyChainType>
+                        </AssayedAntibody>
+                        <Antigen>
+                            <AntigenReferenceName>Lipopolysaccharide extract</AntigenReferenceName>
+                            <AntigenConformation>Non-Native/Unknown</AntigenConformation>
+                            <AntigenObject>
+                                <EpitopeRelation>Structurally Related</EpitopeRelation>
+                                <Object>
+                                    <AccessionNonSequenceMolecule>
+                                        <ChemicalType>Glycolipid</ChemicalType>
+                                        <Molecule>
+                                            <ChEBIId>CHEBI:16412</ChEBIId>
+                                        </Molecule>
+                                        <SourceOrganismId>10000700</SourceOrganismId>
+                                    </AccessionNonSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Representative selection</AntigenEvidenceCode>
+                        </Antigen>
+                    </BCell>
+                </Assays>
+                <Assays>
+                    <BCell>
+                        <LocationOfData>Table 3</LocationOfData>
+                        <BCellId>11797</BCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>9986</OrganismId>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Administration in vivo</InVivoProcessType>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Source Antigen</EpitopeRelation>
+                                    <Object>
+                                        <AccessionNonSequenceMolecule>
+                                            <ChemicalType>Other Non-Sequence</ChemicalType>
+                                            <Molecule>
+                                                <ChEBIId>CHEBI:18216</ChEBIId>
+                                            </Molecule>
+                                            <SourceOrganismId>7742</SourceOrganismId>
+                                        </AccessionNonSequenceMolecule>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenReferenceName>Ganglioside GM1</ImmunogenReferenceName>
+                                <ImmunogenEvidenceCode>Representative selection</ImmunogenEvidenceCode>
+                            </FirstInVivoProcess>
+                            <ImmunizationComments>Commercial preparation from Matreya Inc., Pleasant Gap, PA.</ImmunizationComments>
+                        </Immunization>
+                        <AssayInformation>
+                            <AssayTypeId>37</AssayTypeId>
+                            <QualitativeMeasurement>Positive-High</QualitativeMeasurement>
+                            <AssayComments>TLC-immunostaining of miniphenol-water LPS extractions of C. jejuni gave a strong reaction.</AssayComments>
+                        </AssayInformation>
+                        <AssayedAntibody>
+                            <AssayedAntibodySourceMaterial>Serum</AssayedAntibodySourceMaterial>
+                            <AssayedAntibodyImmunoglobulinDomain>Entire Antibody</AssayedAntibodyImmunoglobulinDomain>
+                            <AssayedAntibodyPurificationStatus>Polyclonal</AssayedAntibodyPurificationStatus>
+                            <AssayedAntibodyHeavyChainType>IgG</AssayedAntibodyHeavyChainType>
+                        </AssayedAntibody>
+                        <Antigen>
+                            <AntigenReferenceName>Lipopolysaccharide extract</AntigenReferenceName>
+                            <AntigenConformation>Non-Native/Unknown</AntigenConformation>
+                            <AntigenObject>
+                                <EpitopeRelation>Structurally Related</EpitopeRelation>
+                                <Object>
+                                    <AccessionNonSequenceMolecule>
+                                        <ChemicalType>Glycolipid</ChemicalType>
+                                        <Molecule>
+                                            <ChEBIId>CHEBI:16412</ChEBIId>
+                                        </Molecule>
+                                        <SourceOrganismId>10000703</SourceOrganismId>
+                                    </AccessionNonSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Representative selection</AntigenEvidenceCode>
+                        </Antigen>
+                    </BCell>
+                </Assays>
+                <Assays>
+                    <BCell>
+                        <LocationOfData>Table 2</LocationOfData>
+                        <BCellId>11822</BCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>9986</OrganismId>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Administration in vivo</InVivoProcessType>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Source Antigen</EpitopeRelation>
+                                    <Object>
+                                        <AccessionNonSequenceMolecule>
+                                            <ChemicalType>Other Non-Sequence</ChemicalType>
+                                            <Molecule>
+                                                <ChEBIId>CHEBI:18216</ChEBIId>
+                                            </Molecule>
+                                            <SourceOrganismId>7742</SourceOrganismId>
+                                        </AccessionNonSequenceMolecule>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenReferenceName>Ganglioside GM1</ImmunogenReferenceName>
+                                <ImmunogenEvidenceCode>Representative selection</ImmunogenEvidenceCode>
+                            </FirstInVivoProcess>
+                            <ImmunizationComments>Commercial preparation from Matreya Inc., Pleasant Gap, PA.</ImmunizationComments>
+                        </Immunization>
+                        <AssayInformation>
+                            <AssayTypeId>37</AssayTypeId>
+                            <QualitativeMeasurement>Negative</QualitativeMeasurement>
+                            <AssayComments>TLC-immunostaining of purified LPS fractions from C. jejuni was performed.</AssayComments>
+                        </AssayInformation>
+                        <AssayedAntibody>
+                            <AssayedAntibodySourceMaterial>Serum</AssayedAntibodySourceMaterial>
+                            <AssayedAntibodyImmunoglobulinDomain>Entire Antibody</AssayedAntibodyImmunoglobulinDomain>
+                            <AssayedAntibodyPurificationStatus>Polyclonal</AssayedAntibodyPurificationStatus>
+                            <AssayedAntibodyHeavyChainType>IgG</AssayedAntibodyHeavyChainType>
+                        </AssayedAntibody>
+                        <Antigen>
+                            <AntigenReferenceName>Lipopolysaccharide extract</AntigenReferenceName>
+                            <AntigenConformation>Non-Native/Unknown</AntigenConformation>
+                            <AntigenObject>
+                                <EpitopeRelation>Structurally Related</EpitopeRelation>
+                                <Object>
+                                    <AccessionNonSequenceMolecule>
+                                        <ChemicalType>Glycolipid</ChemicalType>
+                                        <Molecule>
+                                            <ChEBIId>CHEBI:16412</ChEBIId>
+                                        </Molecule>
+                                        <SourceOrganismId>10000690</SourceOrganismId>
+                                    </AccessionNonSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Representative selection</AntigenEvidenceCode>
+                        </Antigen>
+                    </BCell>
+                </Assays>
+                <Assays>
+                    <BCell>
+                        <LocationOfData>Table 3</LocationOfData>
+                        <BCellId>11801</BCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>9986</OrganismId>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Administration in vivo</InVivoProcessType>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Source Antigen</EpitopeRelation>
+                                    <Object>
+                                        <AccessionNonSequenceMolecule>
+                                            <ChemicalType>Other Non-Sequence</ChemicalType>
+                                            <Molecule>
+                                                <ChEBIId>CHEBI:18216</ChEBIId>
+                                            </Molecule>
+                                            <SourceOrganismId>7742</SourceOrganismId>
+                                        </AccessionNonSequenceMolecule>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenReferenceName>Ganglioside GM1</ImmunogenReferenceName>
+                                <ImmunogenEvidenceCode>Representative selection</ImmunogenEvidenceCode>
+                            </FirstInVivoProcess>
+                            <ImmunizationComments>Commercial preparation from Matreya Inc., Pleasant Gap, PA.</ImmunizationComments>
+                        </Immunization>
+                        <AssayInformation>
+                            <AssayTypeId>37</AssayTypeId>
+                            <QualitativeMeasurement>Positive-Low</QualitativeMeasurement>
+                            <AssayComments>TLC-immunostaining of miniphenol-water LPS extractions of C. jejuni gave a weak reaction.</AssayComments>
+                        </AssayInformation>
+                        <AssayedAntibody>
+                            <AssayedAntibodySourceMaterial>Serum</AssayedAntibodySourceMaterial>
+                            <AssayedAntibodyImmunoglobulinDomain>Entire Antibody</AssayedAntibodyImmunoglobulinDomain>
+                            <AssayedAntibodyPurificationStatus>Polyclonal</AssayedAntibodyPurificationStatus>
+                            <AssayedAntibodyHeavyChainType>IgG</AssayedAntibodyHeavyChainType>
+                        </AssayedAntibody>
+                        <Antigen>
+                            <AntigenReferenceName>Lipopolysaccharide extract</AntigenReferenceName>
+                            <AntigenConformation>Non-Native/Unknown</AntigenConformation>
+                            <AntigenObject>
+                                <EpitopeRelation>Structurally Related</EpitopeRelation>
+                                <Object>
+                                    <AccessionNonSequenceMolecule>
+                                        <ChemicalType>Glycolipid</ChemicalType>
+                                        <Molecule>
+                                            <ChEBIId>CHEBI:16412</ChEBIId>
+                                        </Molecule>
+                                        <SourceOrganismId>10000708</SourceOrganismId>
+                                    </AccessionNonSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Representative selection</AntigenEvidenceCode>
+                        </Antigen>
+                    </BCell>
+                </Assays>
+                <Assays>
+                    <BCell>
+                        <LocationOfData>Table 2</LocationOfData>
+                        <BCellId>11829</BCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>9986</OrganismId>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Administration in vivo</InVivoProcessType>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Source Antigen</EpitopeRelation>
+                                    <Object>
+                                        <AccessionNonSequenceMolecule>
+                                            <ChemicalType>Other Non-Sequence</ChemicalType>
+                                            <Molecule>
+                                                <ChEBIId>CHEBI:18216</ChEBIId>
+                                            </Molecule>
+                                            <SourceOrganismId>7742</SourceOrganismId>
+                                        </AccessionNonSequenceMolecule>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenReferenceName>Ganglioside GM1</ImmunogenReferenceName>
+                                <ImmunogenEvidenceCode>Representative selection</ImmunogenEvidenceCode>
+                            </FirstInVivoProcess>
+                            <ImmunizationComments>Commercial preparation from Matreya Inc., Pleasant Gap, PA.</ImmunizationComments>
+                        </Immunization>
+                        <AssayInformation>
+                            <AssayTypeId>37</AssayTypeId>
+                            <QualitativeMeasurement>Positive-Intermediate</QualitativeMeasurement>
+                            <AssayComments>TLC-immunostaining of purified LPS fractions from C. jejuni resulted in a moderate reaction.</AssayComments>
+                        </AssayInformation>
+                        <AssayedAntibody>
+                            <AssayedAntibodySourceMaterial>Serum</AssayedAntibodySourceMaterial>
+                            <AssayedAntibodyImmunoglobulinDomain>Entire Antibody</AssayedAntibodyImmunoglobulinDomain>
+                            <AssayedAntibodyPurificationStatus>Polyclonal</AssayedAntibodyPurificationStatus>
+                            <AssayedAntibodyHeavyChainType>IgG</AssayedAntibodyHeavyChainType>
+                        </AssayedAntibody>
+                        <Antigen>
+                            <AntigenReferenceName>Lipopolysaccharide extract</AntigenReferenceName>
+                            <AntigenConformation>Non-Native/Unknown</AntigenConformation>
+                            <AntigenObject>
+                                <EpitopeRelation>Structurally Related</EpitopeRelation>
+                                <Object>
+                                    <AccessionNonSequenceMolecule>
+                                        <ChemicalType>Glycolipid</ChemicalType>
+                                        <Molecule>
+                                            <ChEBIId>CHEBI:16412</ChEBIId>
+                                        </Molecule>
+                                        <SourceOrganismId>10000683</SourceOrganismId>
+                                    </AccessionNonSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Representative selection</AntigenEvidenceCode>
+                        </Antigen>
+                    </BCell>
+                </Assays>
+                <Assays>
+                    <BCell>
+                        <LocationOfData>Table 3</LocationOfData>
+                        <BCellId>11805</BCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>9986</OrganismId>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Administration in vivo</InVivoProcessType>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Source Antigen</EpitopeRelation>
+                                    <Object>
+                                        <AccessionNonSequenceMolecule>
+                                            <ChemicalType>Other Non-Sequence</ChemicalType>
+                                            <Molecule>
+                                                <ChEBIId>CHEBI:18216</ChEBIId>
+                                            </Molecule>
+                                            <SourceOrganismId>7742</SourceOrganismId>
+                                        </AccessionNonSequenceMolecule>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenReferenceName>Ganglioside GM1</ImmunogenReferenceName>
+                                <ImmunogenEvidenceCode>Representative selection</ImmunogenEvidenceCode>
+                            </FirstInVivoProcess>
+                            <ImmunizationComments>Commercial preparation from Matreya Inc., Pleasant Gap, PA.</ImmunizationComments>
+                        </Immunization>
+                        <AssayInformation>
+                            <AssayTypeId>37</AssayTypeId>
+                            <QualitativeMeasurement>Negative</QualitativeMeasurement>
+                            <AssayComments>TLC-immunostaining of miniphenol-water LPS extractions of C. jejuni gave a very strong reaction.</AssayComments>
+                        </AssayInformation>
+                        <AssayedAntibody>
+                            <AssayedAntibodySourceMaterial>Serum</AssayedAntibodySourceMaterial>
+                            <AssayedAntibodyImmunoglobulinDomain>Entire Antibody</AssayedAntibodyImmunoglobulinDomain>
+                            <AssayedAntibodyPurificationStatus>Polyclonal</AssayedAntibodyPurificationStatus>
+                            <AssayedAntibodyHeavyChainType>IgG</AssayedAntibodyHeavyChainType>
+                        </AssayedAntibody>
+                        <Antigen>
+                            <AntigenReferenceName>Lipopolysaccharide extract</AntigenReferenceName>
+                            <AntigenConformation>Non-Native/Unknown</AntigenConformation>
+                            <AntigenObject>
+                                <EpitopeRelation>Structurally Related</EpitopeRelation>
+                                <Object>
+                                    <AccessionNonSequenceMolecule>
+                                        <ChemicalType>Glycolipid</ChemicalType>
+                                        <Molecule>
+                                            <ChEBIId>CHEBI:16412</ChEBIId>
+                                        </Molecule>
+                                        <SourceOrganismId>10000712</SourceOrganismId>
+                                    </AccessionNonSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Representative selection</AntigenEvidenceCode>
+                        </Antigen>
+                    </BCell>
+                </Assays>
+                <Assays>
+                    <BCell>
+                        <LocationOfData>Table 4</LocationOfData>
+                        <BCellId>11812</BCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>9986</OrganismId>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Administration in vivo</InVivoProcessType>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Source Antigen</EpitopeRelation>
+                                    <Object>
+                                        <AccessionNonSequenceMolecule>
+                                            <ChemicalType>Other Non-Sequence</ChemicalType>
+                                            <Molecule>
+                                                <ChEBIId>CHEBI:18216</ChEBIId>
+                                            </Molecule>
+                                            <SourceOrganismId>7742</SourceOrganismId>
+                                        </AccessionNonSequenceMolecule>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenReferenceName>Ganglioside GM1</ImmunogenReferenceName>
+                                <ImmunogenEvidenceCode>Representative selection</ImmunogenEvidenceCode>
+                            </FirstInVivoProcess>
+                            <ImmunizationComments>Commercial preparation from Matreya Inc., Pleasant Gap, PA.</ImmunizationComments>
+                        </Immunization>
+                        <AssayInformation>
+                            <AssayTypeId>37</AssayTypeId>
+                            <QualitativeMeasurement>Positive-High</QualitativeMeasurement>
+                            <AssayComments>TLC-immunostaining of miniphenol-water LPS extractions of C. jejuni gave a strong reaction.</AssayComments>
+                        </AssayInformation>
+                        <AssayedAntibody>
+                            <AssayedAntibodySourceMaterial>Serum</AssayedAntibodySourceMaterial>
+                            <AssayedAntibodyImmunoglobulinDomain>Entire Antibody</AssayedAntibodyImmunoglobulinDomain>
+                            <AssayedAntibodyPurificationStatus>Polyclonal</AssayedAntibodyPurificationStatus>
+                            <AssayedAntibodyHeavyChainType>IgG</AssayedAntibodyHeavyChainType>
+                        </AssayedAntibody>
+                        <Antigen>
+                            <AntigenReferenceName>Lipopolysaccharide extract</AntigenReferenceName>
+                            <AntigenConformation>Non-Native/Unknown</AntigenConformation>
+                            <AntigenObject>
+                                <EpitopeRelation>Structurally Related</EpitopeRelation>
+                                <Object>
+                                    <AccessionNonSequenceMolecule>
+                                        <ChemicalType>Glycolipid</ChemicalType>
+                                        <Molecule>
+                                            <ChEBIId>CHEBI:16412</ChEBIId>
+                                        </Molecule>
+                                        <SourceOrganismId>10000688</SourceOrganismId>
+                                    </AccessionNonSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Representative selection</AntigenEvidenceCode>
+                        </Antigen>
+                    </BCell>
+                </Assays>
+                <Assays>
+                    <BCell>
+                        <LocationOfData>Table 4</LocationOfData>
+                        <BCellId>11816</BCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>9986</OrganismId>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Administration in vivo</InVivoProcessType>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Source Antigen</EpitopeRelation>
+                                    <Object>
+                                        <AccessionNonSequenceMolecule>
+                                            <ChemicalType>Other Non-Sequence</ChemicalType>
+                                            <Molecule>
+                                                <ChEBIId>CHEBI:18216</ChEBIId>
+                                            </Molecule>
+                                            <SourceOrganismId>7742</SourceOrganismId>
+                                        </AccessionNonSequenceMolecule>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenReferenceName>Ganglioside GM1</ImmunogenReferenceName>
+                                <ImmunogenEvidenceCode>Representative selection</ImmunogenEvidenceCode>
+                            </FirstInVivoProcess>
+                            <ImmunizationComments>Commercial preparation from Matreya Inc., Pleasant Gap, PA.</ImmunizationComments>
+                        </Immunization>
+                        <AssayInformation>
+                            <AssayTypeId>37</AssayTypeId>
+                            <QualitativeMeasurement>Negative</QualitativeMeasurement>
+                            <AssayComments>TLC-immunostaining of miniphenol-water LPS extractions of C. jejuni was performed.</AssayComments>
+                        </AssayInformation>
+                        <AssayedAntibody>
+                            <AssayedAntibodySourceMaterial>Serum</AssayedAntibodySourceMaterial>
+                            <AssayedAntibodyImmunoglobulinDomain>Entire Antibody</AssayedAntibodyImmunoglobulinDomain>
+                            <AssayedAntibodyPurificationStatus>Polyclonal</AssayedAntibodyPurificationStatus>
+                            <AssayedAntibodyHeavyChainType>IgG</AssayedAntibodyHeavyChainType>
+                        </AssayedAntibody>
+                        <Antigen>
+                            <AntigenReferenceName>Lipopolysaccharide extract</AntigenReferenceName>
+                            <AntigenConformation>Non-Native/Unknown</AntigenConformation>
+                            <AntigenObject>
+                                <EpitopeRelation>Structurally Related</EpitopeRelation>
+                                <Object>
+                                    <AccessionNonSequenceMolecule>
+                                        <ChemicalType>Glycolipid</ChemicalType>
+                                        <Molecule>
+                                            <ChEBIId>CHEBI:16412</ChEBIId>
+                                        </Molecule>
+                                        <SourceOrganismId>10000694</SourceOrganismId>
+                                    </AccessionNonSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Representative selection</AntigenEvidenceCode>
+                        </Antigen>
+                    </BCell>
+                </Assays>
+                <Assays>
+                    <BCell>
+                        <LocationOfData>Table 3</LocationOfData>
+                        <BCellId>11807</BCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>9986</OrganismId>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Administration in vivo</InVivoProcessType>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Source Antigen</EpitopeRelation>
+                                    <Object>
+                                        <AccessionNonSequenceMolecule>
+                                            <ChemicalType>Other Non-Sequence</ChemicalType>
+                                            <Molecule>
+                                                <ChEBIId>CHEBI:18216</ChEBIId>
+                                            </Molecule>
+                                            <SourceOrganismId>7742</SourceOrganismId>
+                                        </AccessionNonSequenceMolecule>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenReferenceName>Ganglioside GM1</ImmunogenReferenceName>
+                                <ImmunogenEvidenceCode>Representative selection</ImmunogenEvidenceCode>
+                            </FirstInVivoProcess>
+                            <ImmunizationComments>Commercial preparation from Matreya Inc., Pleasant Gap, PA.</ImmunizationComments>
+                        </Immunization>
+                        <AssayInformation>
+                            <AssayTypeId>37</AssayTypeId>
+                            <QualitativeMeasurement>Negative</QualitativeMeasurement>
+                            <AssayComments>TLC-immunostaining of miniphenol-water LPS extractions of C. jejuni gave a very strong reaction.</AssayComments>
+                        </AssayInformation>
+                        <AssayedAntibody>
+                            <AssayedAntibodySourceMaterial>Serum</AssayedAntibodySourceMaterial>
+                            <AssayedAntibodyImmunoglobulinDomain>Entire Antibody</AssayedAntibodyImmunoglobulinDomain>
+                            <AssayedAntibodyPurificationStatus>Polyclonal</AssayedAntibodyPurificationStatus>
+                            <AssayedAntibodyHeavyChainType>IgG</AssayedAntibodyHeavyChainType>
+                        </AssayedAntibody>
+                        <Antigen>
+                            <AntigenReferenceName>Lipopolysaccharide extract</AntigenReferenceName>
+                            <AntigenConformation>Non-Native/Unknown</AntigenConformation>
+                            <AntigenObject>
+                                <EpitopeRelation>Structurally Related</EpitopeRelation>
+                                <Object>
+                                    <AccessionNonSequenceMolecule>
+                                        <ChemicalType>Glycolipid</ChemicalType>
+                                        <Molecule>
+                                            <ChEBIId>CHEBI:16412</ChEBIId>
+                                        </Molecule>
+                                        <SourceOrganismId>10000715</SourceOrganismId>
+                                    </AccessionNonSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Representative selection</AntigenEvidenceCode>
+                        </Antigen>
+                    </BCell>
+                </Assays>
+                <Assays>
+                    <BCell>
+                        <LocationOfData>Table 3</LocationOfData>
+                        <BCellId>11799</BCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>9986</OrganismId>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Administration in vivo</InVivoProcessType>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Source Antigen</EpitopeRelation>
+                                    <Object>
+                                        <AccessionNonSequenceMolecule>
+                                            <ChemicalType>Other Non-Sequence</ChemicalType>
+                                            <Molecule>
+                                                <ChEBIId>CHEBI:18216</ChEBIId>
+                                            </Molecule>
+                                            <SourceOrganismId>7742</SourceOrganismId>
+                                        </AccessionNonSequenceMolecule>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenReferenceName>Ganglioside GM1</ImmunogenReferenceName>
+                                <ImmunogenEvidenceCode>Representative selection</ImmunogenEvidenceCode>
+                            </FirstInVivoProcess>
+                            <ImmunizationComments>Commercial preparation from Matreya Inc., Pleasant Gap, PA.</ImmunizationComments>
+                        </Immunization>
+                        <AssayInformation>
+                            <AssayTypeId>37</AssayTypeId>
+                            <QualitativeMeasurement>Positive-Intermediate</QualitativeMeasurement>
+                            <AssayComments>TLC-immunostaining of miniphenol-water LPS extractions of C. jejuni gave a moderate reaction.</AssayComments>
+                        </AssayInformation>
+                        <AssayedAntibody>
+                            <AssayedAntibodySourceMaterial>Serum</AssayedAntibodySourceMaterial>
+                            <AssayedAntibodyImmunoglobulinDomain>Entire Antibody</AssayedAntibodyImmunoglobulinDomain>
+                            <AssayedAntibodyPurificationStatus>Polyclonal</AssayedAntibodyPurificationStatus>
+                            <AssayedAntibodyHeavyChainType>IgG</AssayedAntibodyHeavyChainType>
+                        </AssayedAntibody>
+                        <Antigen>
+                            <AntigenReferenceName>Lipopolysaccharide extract</AntigenReferenceName>
+                            <AntigenConformation>Non-Native/Unknown</AntigenConformation>
+                            <AntigenObject>
+                                <EpitopeRelation>Structurally Related</EpitopeRelation>
+                                <Object>
+                                    <AccessionNonSequenceMolecule>
+                                        <ChemicalType>Glycolipid</ChemicalType>
+                                        <Molecule>
+                                            <ChEBIId>CHEBI:16412</ChEBIId>
+                                        </Molecule>
+                                        <SourceOrganismId>10000705</SourceOrganismId>
+                                    </AccessionNonSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Representative selection</AntigenEvidenceCode>
+                        </Antigen>
+                    </BCell>
+                </Assays>
+                <Assays>
+                    <BCell>
+                        <LocationOfData>Table 3</LocationOfData>
+                        <BCellId>11806</BCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>9986</OrganismId>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Administration in vivo</InVivoProcessType>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Source Antigen</EpitopeRelation>
+                                    <Object>
+                                        <AccessionNonSequenceMolecule>
+                                            <ChemicalType>Other Non-Sequence</ChemicalType>
+                                            <Molecule>
+                                                <ChEBIId>CHEBI:18216</ChEBIId>
+                                            </Molecule>
+                                            <SourceOrganismId>7742</SourceOrganismId>
+                                        </AccessionNonSequenceMolecule>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenReferenceName>Ganglioside GM1</ImmunogenReferenceName>
+                                <ImmunogenEvidenceCode>Representative selection</ImmunogenEvidenceCode>
+                            </FirstInVivoProcess>
+                            <ImmunizationComments>Commercial preparation from Matreya Inc., Pleasant Gap, PA.</ImmunizationComments>
+                        </Immunization>
+                        <AssayInformation>
+                            <AssayTypeId>37</AssayTypeId>
+                            <QualitativeMeasurement>Negative</QualitativeMeasurement>
+                            <AssayComments>TLC-immunostaining of miniphenol-water LPS extractions of C. jejuni gave a very strong reaction.</AssayComments>
+                        </AssayInformation>
+                        <AssayedAntibody>
+                            <AssayedAntibodySourceMaterial>Serum</AssayedAntibodySourceMaterial>
+                            <AssayedAntibodyImmunoglobulinDomain>Entire Antibody</AssayedAntibodyImmunoglobulinDomain>
+                            <AssayedAntibodyPurificationStatus>Polyclonal</AssayedAntibodyPurificationStatus>
+                            <AssayedAntibodyHeavyChainType>IgG</AssayedAntibodyHeavyChainType>
+                        </AssayedAntibody>
+                        <Antigen>
+                            <AntigenReferenceName>Lipopolysaccharide extract</AntigenReferenceName>
+                            <AntigenConformation>Non-Native/Unknown</AntigenConformation>
+                            <AntigenObject>
+                                <EpitopeRelation>Structurally Related</EpitopeRelation>
+                                <Object>
+                                    <AccessionNonSequenceMolecule>
+                                        <ChemicalType>Glycolipid</ChemicalType>
+                                        <Molecule>
+                                            <ChEBIId>CHEBI:16412</ChEBIId>
+                                        </Molecule>
+                                        <SourceOrganismId>10000713</SourceOrganismId>
+                                    </AccessionNonSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Representative selection</AntigenEvidenceCode>
+                        </Antigen>
+                    </BCell>
+                </Assays>
+                <Assays>
+                    <BCell>
+                        <LocationOfData>Table 4</LocationOfData>
+                        <BCellId>11818</BCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>9986</OrganismId>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Administration in vivo</InVivoProcessType>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Source Antigen</EpitopeRelation>
+                                    <Object>
+                                        <AccessionNonSequenceMolecule>
+                                            <ChemicalType>Other Non-Sequence</ChemicalType>
+                                            <Molecule>
+                                                <ChEBIId>CHEBI:18216</ChEBIId>
+                                            </Molecule>
+                                            <SourceOrganismId>7742</SourceOrganismId>
+                                        </AccessionNonSequenceMolecule>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenReferenceName>Ganglioside GM1</ImmunogenReferenceName>
+                                <ImmunogenEvidenceCode>Representative selection</ImmunogenEvidenceCode>
+                            </FirstInVivoProcess>
+                            <ImmunizationComments>Commercial preparation from Matreya Inc., Pleasant Gap, PA.</ImmunizationComments>
+                        </Immunization>
+                        <AssayInformation>
+                            <AssayTypeId>37</AssayTypeId>
+                            <QualitativeMeasurement>Positive-Intermediate</QualitativeMeasurement>
+                            <AssayComments>TLC-immunostaining of miniphenol-water LPS extractions of C. jejuni gave a moderate reaction.</AssayComments>
+                        </AssayInformation>
+                        <AssayedAntibody>
+                            <AssayedAntibodySourceMaterial>Serum</AssayedAntibodySourceMaterial>
+                            <AssayedAntibodyImmunoglobulinDomain>Entire Antibody</AssayedAntibodyImmunoglobulinDomain>
+                            <AssayedAntibodyPurificationStatus>Polyclonal</AssayedAntibodyPurificationStatus>
+                            <AssayedAntibodyHeavyChainType>IgG</AssayedAntibodyHeavyChainType>
+                        </AssayedAntibody>
+                        <Antigen>
+                            <AntigenReferenceName>Lipopolysaccharide extract</AntigenReferenceName>
+                            <AntigenConformation>Non-Native/Unknown</AntigenConformation>
+                            <AntigenObject>
+                                <EpitopeRelation>Structurally Related</EpitopeRelation>
+                                <Object>
+                                    <AccessionNonSequenceMolecule>
+                                        <ChemicalType>Glycolipid</ChemicalType>
+                                        <Molecule>
+                                            <ChEBIId>CHEBI:16412</ChEBIId>
+                                        </Molecule>
+                                        <SourceOrganismId>10000695</SourceOrganismId>
+                                    </AccessionNonSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Representative selection</AntigenEvidenceCode>
+                        </Antigen>
+                    </BCell>
+                </Assays>
+                <Assays>
+                    <BCell>
+                        <LocationOfData>Table 3</LocationOfData>
+                        <BCellId>11790</BCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>9986</OrganismId>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Administration in vivo</InVivoProcessType>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Source Antigen</EpitopeRelation>
+                                    <Object>
+                                        <AccessionNonSequenceMolecule>
+                                            <ChemicalType>Other Non-Sequence</ChemicalType>
+                                            <Molecule>
+                                                <ChEBIId>CHEBI:18216</ChEBIId>
+                                            </Molecule>
+                                            <SourceOrganismId>7742</SourceOrganismId>
+                                        </AccessionNonSequenceMolecule>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenReferenceName>Ganglioside GM1</ImmunogenReferenceName>
+                                <ImmunogenEvidenceCode>Representative selection</ImmunogenEvidenceCode>
+                            </FirstInVivoProcess>
+                            <ImmunizationComments>Commercial preparation from Matreya Inc., Pleasant Gap, PA.</ImmunizationComments>
+                        </Immunization>
+                        <AssayInformation>
+                            <AssayTypeId>37</AssayTypeId>
+                            <QualitativeMeasurement>Positive-Low</QualitativeMeasurement>
+                            <AssayComments>TLC-immunostaining of miniphenol-water LPS extractions of C. jejuni gave a weak reaction.</AssayComments>
+                        </AssayInformation>
+                        <AssayedAntibody>
+                            <AssayedAntibodySourceMaterial>Serum</AssayedAntibodySourceMaterial>
+                            <AssayedAntibodyImmunoglobulinDomain>Entire Antibody</AssayedAntibodyImmunoglobulinDomain>
+                            <AssayedAntibodyPurificationStatus>Polyclonal</AssayedAntibodyPurificationStatus>
+                            <AssayedAntibodyHeavyChainType>IgG</AssayedAntibodyHeavyChainType>
+                        </AssayedAntibody>
+                        <Antigen>
+                            <AntigenReferenceName>Lipopolysaccharide extract</AntigenReferenceName>
+                            <AntigenConformation>Non-Native/Unknown</AntigenConformation>
+                            <AntigenObject>
+                                <EpitopeRelation>Structurally Related</EpitopeRelation>
+                                <Object>
+                                    <AccessionNonSequenceMolecule>
+                                        <ChemicalType>Glycolipid</ChemicalType>
+                                        <Molecule>
+                                            <ChEBIId>CHEBI:16412</ChEBIId>
+                                        </Molecule>
+                                        <SourceOrganismId>10000706</SourceOrganismId>
+                                    </AccessionNonSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Representative selection</AntigenEvidenceCode>
+                        </Antigen>
+                    </BCell>
+                </Assays>
+                <Assays>
+                    <BCell>
+                        <LocationOfData>Table 3</LocationOfData>
+                        <BCellId>11802</BCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>9986</OrganismId>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Administration in vivo</InVivoProcessType>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Source Antigen</EpitopeRelation>
+                                    <Object>
+                                        <AccessionNonSequenceMolecule>
+                                            <ChemicalType>Other Non-Sequence</ChemicalType>
+                                            <Molecule>
+                                                <ChEBIId>CHEBI:18216</ChEBIId>
+                                            </Molecule>
+                                            <SourceOrganismId>7742</SourceOrganismId>
+                                        </AccessionNonSequenceMolecule>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenReferenceName>Ganglioside GM1</ImmunogenReferenceName>
+                                <ImmunogenEvidenceCode>Representative selection</ImmunogenEvidenceCode>
+                            </FirstInVivoProcess>
+                            <ImmunizationComments>Commercial preparation from Matreya Inc., Pleasant Gap, PA.</ImmunizationComments>
+                        </Immunization>
+                        <AssayInformation>
+                            <AssayTypeId>37</AssayTypeId>
+                            <QualitativeMeasurement>Positive-Intermediate</QualitativeMeasurement>
+                            <AssayComments>TLC-immunostaining of miniphenol-water LPS extractions of C. jejuni gave a moderate reaction.</AssayComments>
+                        </AssayInformation>
+                        <AssayedAntibody>
+                            <AssayedAntibodySourceMaterial>Serum</AssayedAntibodySourceMaterial>
+                            <AssayedAntibodyImmunoglobulinDomain>Entire Antibody</AssayedAntibodyImmunoglobulinDomain>
+                            <AssayedAntibodyPurificationStatus>Polyclonal</AssayedAntibodyPurificationStatus>
+                            <AssayedAntibodyHeavyChainType>IgG</AssayedAntibodyHeavyChainType>
+                        </AssayedAntibody>
+                        <Antigen>
+                            <AntigenReferenceName>Lipopolysaccharide extract</AntigenReferenceName>
+                            <AntigenConformation>Non-Native/Unknown</AntigenConformation>
+                            <AntigenObject>
+                                <EpitopeRelation>Structurally Related</EpitopeRelation>
+                                <Object>
+                                    <AccessionNonSequenceMolecule>
+                                        <ChemicalType>Glycolipid</ChemicalType>
+                                        <Molecule>
+                                            <ChEBIId>CHEBI:16412</ChEBIId>
+                                        </Molecule>
+                                        <SourceOrganismId>10000709</SourceOrganismId>
+                                    </AccessionNonSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Representative selection</AntigenEvidenceCode>
+                        </Antigen>
+                    </BCell>
+                </Assays>
+                <Assays>
+                    <BCell>
+                        <LocationOfData>Table 4</LocationOfData>
+                        <BCellId>11808</BCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>9986</OrganismId>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Administration in vivo</InVivoProcessType>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Source Antigen</EpitopeRelation>
+                                    <Object>
+                                        <AccessionNonSequenceMolecule>
+                                            <ChemicalType>Other Non-Sequence</ChemicalType>
+                                            <Molecule>
+                                                <ChEBIId>CHEBI:18216</ChEBIId>
+                                            </Molecule>
+                                            <SourceOrganismId>7742</SourceOrganismId>
+                                        </AccessionNonSequenceMolecule>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenReferenceName>Ganglioside GM1</ImmunogenReferenceName>
+                                <ImmunogenEvidenceCode>Representative selection</ImmunogenEvidenceCode>
+                            </FirstInVivoProcess>
+                            <ImmunizationComments>Commercial preparation from Matreya Inc., Pleasant Gap, PA.</ImmunizationComments>
+                        </Immunization>
+                        <AssayInformation>
+                            <AssayTypeId>37</AssayTypeId>
+                            <QualitativeMeasurement>Positive-High</QualitativeMeasurement>
+                            <AssayComments>TLC-immunostaining of miniphenol-water LPS extractions of C. jejuni gave a strong reaction.</AssayComments>
+                        </AssayInformation>
+                        <AssayedAntibody>
+                            <AssayedAntibodySourceMaterial>Serum</AssayedAntibodySourceMaterial>
+                            <AssayedAntibodyImmunoglobulinDomain>Entire Antibody</AssayedAntibodyImmunoglobulinDomain>
+                            <AssayedAntibodyPurificationStatus>Polyclonal</AssayedAntibodyPurificationStatus>
+                            <AssayedAntibodyHeavyChainType>IgG</AssayedAntibodyHeavyChainType>
+                        </AssayedAntibody>
+                        <Antigen>
+                            <AntigenReferenceName>Lipopolysaccharide extract</AntigenReferenceName>
+                            <AntigenConformation>Non-Native/Unknown</AntigenConformation>
+                            <AntigenObject>
+                                <EpitopeRelation>Structurally Related</EpitopeRelation>
+                                <Object>
+                                    <AccessionNonSequenceMolecule>
+                                        <ChemicalType>Glycolipid</ChemicalType>
+                                        <Molecule>
+                                            <ChEBIId>CHEBI:16412</ChEBIId>
+                                        </Molecule>
+                                        <SourceOrganismId>10000684</SourceOrganismId>
+                                    </AccessionNonSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Representative selection</AntigenEvidenceCode>
+                        </Antigen>
+                    </BCell>
+                </Assays>
+                <Assays>
+                    <BCell>
+                        <LocationOfData>Table 3</LocationOfData>
+                        <BCellId>11800</BCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>9986</OrganismId>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Administration in vivo</InVivoProcessType>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Source Antigen</EpitopeRelation>
+                                    <Object>
+                                        <AccessionNonSequenceMolecule>
+                                            <ChemicalType>Other Non-Sequence</ChemicalType>
+                                            <Molecule>
+                                                <ChEBIId>CHEBI:18216</ChEBIId>
+                                            </Molecule>
+                                            <SourceOrganismId>7742</SourceOrganismId>
+                                        </AccessionNonSequenceMolecule>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenReferenceName>Ganglioside GM1</ImmunogenReferenceName>
+                                <ImmunogenEvidenceCode>Representative selection</ImmunogenEvidenceCode>
+                            </FirstInVivoProcess>
+                            <ImmunizationComments>Commercial preparation from Matreya Inc., Pleasant Gap, PA.</ImmunizationComments>
+                        </Immunization>
+                        <AssayInformation>
+                            <AssayTypeId>37</AssayTypeId>
+                            <QualitativeMeasurement>Positive-Intermediate</QualitativeMeasurement>
+                            <AssayComments>TLC-immunostaining of miniphenol-water LPS extractions of C. jejuni gave a moderate reaction.</AssayComments>
+                        </AssayInformation>
+                        <AssayedAntibody>
+                            <AssayedAntibodySourceMaterial>Serum</AssayedAntibodySourceMaterial>
+                            <AssayedAntibodyImmunoglobulinDomain>Entire Antibody</AssayedAntibodyImmunoglobulinDomain>
+                            <AssayedAntibodyPurificationStatus>Polyclonal</AssayedAntibodyPurificationStatus>
+                            <AssayedAntibodyHeavyChainType>IgG</AssayedAntibodyHeavyChainType>
+                        </AssayedAntibody>
+                        <Antigen>
+                            <AntigenReferenceName>Lipopolysaccharide extract</AntigenReferenceName>
+                            <AntigenConformation>Non-Native/Unknown</AntigenConformation>
+                            <AntigenObject>
+                                <EpitopeRelation>Structurally Related</EpitopeRelation>
+                                <Object>
+                                    <AccessionNonSequenceMolecule>
+                                        <ChemicalType>Glycolipid</ChemicalType>
+                                        <Molecule>
+                                            <ChEBIId>CHEBI:16412</ChEBIId>
+                                        </Molecule>
+                                        <SourceOrganismId>10000707</SourceOrganismId>
+                                    </AccessionNonSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Representative selection</AntigenEvidenceCode>
+                        </Antigen>
+                    </BCell>
+                </Assays>
+                <Assays>
+                    <BCell>
+                        <LocationOfData>Table 4</LocationOfData>
+                        <BCellId>11813</BCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>9986</OrganismId>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Administration in vivo</InVivoProcessType>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Source Antigen</EpitopeRelation>
+                                    <Object>
+                                        <AccessionNonSequenceMolecule>
+                                            <ChemicalType>Other Non-Sequence</ChemicalType>
+                                            <Molecule>
+                                                <ChEBIId>CHEBI:18216</ChEBIId>
+                                            </Molecule>
+                                            <SourceOrganismId>7742</SourceOrganismId>
+                                        </AccessionNonSequenceMolecule>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenReferenceName>Ganglioside GM1</ImmunogenReferenceName>
+                                <ImmunogenEvidenceCode>Representative selection</ImmunogenEvidenceCode>
+                            </FirstInVivoProcess>
+                            <ImmunizationComments>Commercial preparation from Matreya Inc., Pleasant Gap, PA.</ImmunizationComments>
+                        </Immunization>
+                        <AssayInformation>
+                            <AssayTypeId>37</AssayTypeId>
+                            <QualitativeMeasurement>Positive-High</QualitativeMeasurement>
+                            <AssayComments>TLC-immunostaining of miniphenol-water LPS extractions of C. jejuni gave a strong reaction.</AssayComments>
+                        </AssayInformation>
+                        <AssayedAntibody>
+                            <AssayedAntibodySourceMaterial>Serum</AssayedAntibodySourceMaterial>
+                            <AssayedAntibodyImmunoglobulinDomain>Entire Antibody</AssayedAntibodyImmunoglobulinDomain>
+                            <AssayedAntibodyPurificationStatus>Polyclonal</AssayedAntibodyPurificationStatus>
+                            <AssayedAntibodyHeavyChainType>IgG</AssayedAntibodyHeavyChainType>
+                        </AssayedAntibody>
+                        <Antigen>
+                            <AntigenReferenceName>Lipopolysaccharide extract</AntigenReferenceName>
+                            <AntigenConformation>Non-Native/Unknown</AntigenConformation>
+                            <AntigenObject>
+                                <EpitopeRelation>Structurally Related</EpitopeRelation>
+                                <Object>
+                                    <AccessionNonSequenceMolecule>
+                                        <ChemicalType>Glycolipid</ChemicalType>
+                                        <Molecule>
+                                            <ChEBIId>CHEBI:16412</ChEBIId>
+                                        </Molecule>
+                                        <SourceOrganismId>10000682</SourceOrganismId>
+                                    </AccessionNonSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Representative selection</AntigenEvidenceCode>
+                        </Antigen>
+                    </BCell>
+                </Assays>
+                <Assays>
+                    <BCell>
+                        <LocationOfData>Table 3</LocationOfData>
+                        <BCellId>11798</BCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>9986</OrganismId>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Administration in vivo</InVivoProcessType>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Source Antigen</EpitopeRelation>
+                                    <Object>
+                                        <AccessionNonSequenceMolecule>
+                                            <ChemicalType>Other Non-Sequence</ChemicalType>
+                                            <Molecule>
+                                                <ChEBIId>CHEBI:18216</ChEBIId>
+                                            </Molecule>
+                                            <SourceOrganismId>7742</SourceOrganismId>
+                                        </AccessionNonSequenceMolecule>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenReferenceName>Ganglioside GM1</ImmunogenReferenceName>
+                                <ImmunogenEvidenceCode>Representative selection</ImmunogenEvidenceCode>
+                            </FirstInVivoProcess>
+                            <ImmunizationComments>Commercial preparation from Matreya Inc., Pleasant Gap, PA.</ImmunizationComments>
+                        </Immunization>
+                        <AssayInformation>
+                            <AssayTypeId>37</AssayTypeId>
+                            <QualitativeMeasurement>Positive-Low</QualitativeMeasurement>
+                            <AssayComments>TLC-immunostaining of miniphenol-water LPS extractions of C. jejuni gave a weak reaction.</AssayComments>
+                        </AssayInformation>
+                        <AssayedAntibody>
+                            <AssayedAntibodySourceMaterial>Serum</AssayedAntibodySourceMaterial>
+                            <AssayedAntibodyImmunoglobulinDomain>Entire Antibody</AssayedAntibodyImmunoglobulinDomain>
+                            <AssayedAntibodyPurificationStatus>Polyclonal</AssayedAntibodyPurificationStatus>
+                            <AssayedAntibodyHeavyChainType>IgG</AssayedAntibodyHeavyChainType>
+                        </AssayedAntibody>
+                        <Antigen>
+                            <AntigenReferenceName>Lipopolysaccharide extract</AntigenReferenceName>
+                            <AntigenConformation>Non-Native/Unknown</AntigenConformation>
+                            <AntigenObject>
+                                <EpitopeRelation>Structurally Related</EpitopeRelation>
+                                <Object>
+                                    <AccessionNonSequenceMolecule>
+                                        <ChemicalType>Glycolipid</ChemicalType>
+                                        <Molecule>
+                                            <ChEBIId>CHEBI:16412</ChEBIId>
+                                        </Molecule>
+                                        <SourceOrganismId>10000704</SourceOrganismId>
+                                    </AccessionNonSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Representative selection</AntigenEvidenceCode>
+                        </Antigen>
+                    </BCell>
+                </Assays>
+                <Assays>
+                    <BCell>
+                        <LocationOfData>Table 2</LocationOfData>
+                        <BCellId>11827</BCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>9986</OrganismId>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Administration in vivo</InVivoProcessType>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Source Antigen</EpitopeRelation>
+                                    <Object>
+                                        <AccessionNonSequenceMolecule>
+                                            <ChemicalType>Other Non-Sequence</ChemicalType>
+                                            <Molecule>
+                                                <ChEBIId>CHEBI:18216</ChEBIId>
+                                            </Molecule>
+                                            <SourceOrganismId>7742</SourceOrganismId>
+                                        </AccessionNonSequenceMolecule>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenReferenceName>Ganglioside GM1</ImmunogenReferenceName>
+                                <ImmunogenEvidenceCode>Representative selection</ImmunogenEvidenceCode>
+                            </FirstInVivoProcess>
+                            <ImmunizationComments>Commercial preparation from Matreya Inc., Pleasant Gap, PA.</ImmunizationComments>
+                        </Immunization>
+                        <AssayInformation>
+                            <AssayTypeId>37</AssayTypeId>
+                            <QualitativeMeasurement>Positive-Intermediate</QualitativeMeasurement>
+                            <AssayComments>TLC-immunostaining of purified LPS fractions from C. jejuni resulted in a moderate reaction.</AssayComments>
+                        </AssayInformation>
+                        <AssayedAntibody>
+                            <AssayedAntibodySourceMaterial>Serum</AssayedAntibodySourceMaterial>
+                            <AssayedAntibodyImmunoglobulinDomain>Entire Antibody</AssayedAntibodyImmunoglobulinDomain>
+                            <AssayedAntibodyPurificationStatus>Polyclonal</AssayedAntibodyPurificationStatus>
+                            <AssayedAntibodyHeavyChainType>IgG</AssayedAntibodyHeavyChainType>
+                        </AssayedAntibody>
+                        <Antigen>
+                            <AntigenReferenceName>Lipopolysaccharide extract</AntigenReferenceName>
+                            <AntigenConformation>Non-Native/Unknown</AntigenConformation>
+                            <AntigenObject>
+                                <EpitopeRelation>Structurally Related</EpitopeRelation>
+                                <Object>
+                                    <AccessionNonSequenceMolecule>
+                                        <ChemicalType>Glycolipid</ChemicalType>
+                                        <Molecule>
+                                            <ChEBIId>CHEBI:16412</ChEBIId>
+                                        </Molecule>
+                                        <SourceOrganismId>10000696</SourceOrganismId>
+                                    </AccessionNonSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Representative selection</AntigenEvidenceCode>
+                        </Antigen>
+                    </BCell>
+                </Assays>
+                <Assays>
+                    <BCell>
+                        <LocationOfData>Table 4</LocationOfData>
+                        <BCellId>11809</BCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>9986</OrganismId>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Administration in vivo</InVivoProcessType>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Source Antigen</EpitopeRelation>
+                                    <Object>
+                                        <AccessionNonSequenceMolecule>
+                                            <ChemicalType>Other Non-Sequence</ChemicalType>
+                                            <Molecule>
+                                                <ChEBIId>CHEBI:18216</ChEBIId>
+                                            </Molecule>
+                                            <SourceOrganismId>7742</SourceOrganismId>
+                                        </AccessionNonSequenceMolecule>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenReferenceName>Ganglioside GM1</ImmunogenReferenceName>
+                                <ImmunogenEvidenceCode>Representative selection</ImmunogenEvidenceCode>
+                            </FirstInVivoProcess>
+                            <ImmunizationComments>Commercial preparation from Matreya Inc., Pleasant Gap, PA.</ImmunizationComments>
+                        </Immunization>
+                        <AssayInformation>
+                            <AssayTypeId>37</AssayTypeId>
+                            <QualitativeMeasurement>Positive-Low</QualitativeMeasurement>
+                            <AssayComments>TLC-immunostaining of miniphenol-water LPS extractions of C. jejuni gave a weak reaction.</AssayComments>
+                        </AssayInformation>
+                        <AssayedAntibody>
+                            <AssayedAntibodySourceMaterial>Serum</AssayedAntibodySourceMaterial>
+                            <AssayedAntibodyImmunoglobulinDomain>Entire Antibody</AssayedAntibodyImmunoglobulinDomain>
+                            <AssayedAntibodyPurificationStatus>Polyclonal</AssayedAntibodyPurificationStatus>
+                            <AssayedAntibodyHeavyChainType>IgG</AssayedAntibodyHeavyChainType>
+                        </AssayedAntibody>
+                        <Antigen>
+                            <AntigenReferenceName>Lipopolysaccharide extract</AntigenReferenceName>
+                            <AntigenConformation>Non-Native/Unknown</AntigenConformation>
+                            <AntigenObject>
+                                <EpitopeRelation>Structurally Related</EpitopeRelation>
+                                <Object>
+                                    <AccessionNonSequenceMolecule>
+                                        <ChemicalType>Glycolipid</ChemicalType>
+                                        <Molecule>
+                                            <ChEBIId>CHEBI:16412</ChEBIId>
+                                        </Molecule>
+                                        <SourceOrganismId>10000685</SourceOrganismId>
+                                    </AccessionNonSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Representative selection</AntigenEvidenceCode>
+                        </Antigen>
+                    </BCell>
+                </Assays>
+                <Assays>
+                    <BCell>
+                        <LocationOfData>Table 3</LocationOfData>
+                        <BCellId>11804</BCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>9986</OrganismId>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Administration in vivo</InVivoProcessType>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Source Antigen</EpitopeRelation>
+                                    <Object>
+                                        <AccessionNonSequenceMolecule>
+                                            <ChemicalType>Other Non-Sequence</ChemicalType>
+                                            <Molecule>
+                                                <ChEBIId>CHEBI:18216</ChEBIId>
+                                            </Molecule>
+                                            <SourceOrganismId>7742</SourceOrganismId>
+                                        </AccessionNonSequenceMolecule>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenReferenceName>Ganglioside GM1</ImmunogenReferenceName>
+                                <ImmunogenEvidenceCode>Representative selection</ImmunogenEvidenceCode>
+                            </FirstInVivoProcess>
+                            <ImmunizationComments>Commercial preparation from Matreya Inc., Pleasant Gap, PA.</ImmunizationComments>
+                        </Immunization>
+                        <AssayInformation>
+                            <AssayTypeId>37</AssayTypeId>
+                            <QualitativeMeasurement>Negative</QualitativeMeasurement>
+                            <AssayComments>TLC-immunostaining of miniphenol-water LPS extractions of C. jejuni gave a very strong reaction.</AssayComments>
+                        </AssayInformation>
+                        <AssayedAntibody>
+                            <AssayedAntibodySourceMaterial>Serum</AssayedAntibodySourceMaterial>
+                            <AssayedAntibodyImmunoglobulinDomain>Entire Antibody</AssayedAntibodyImmunoglobulinDomain>
+                            <AssayedAntibodyPurificationStatus>Polyclonal</AssayedAntibodyPurificationStatus>
+                            <AssayedAntibodyHeavyChainType>IgG</AssayedAntibodyHeavyChainType>
+                        </AssayedAntibody>
+                        <Antigen>
+                            <AntigenReferenceName>Lipopolysaccharide extract</AntigenReferenceName>
+                            <AntigenConformation>Non-Native/Unknown</AntigenConformation>
+                            <AntigenObject>
+                                <EpitopeRelation>Structurally Related</EpitopeRelation>
+                                <Object>
+                                    <AccessionNonSequenceMolecule>
+                                        <ChemicalType>Glycolipid</ChemicalType>
+                                        <Molecule>
+                                            <ChEBIId>CHEBI:16412</ChEBIId>
+                                        </Molecule>
+                                        <SourceOrganismId>10000711</SourceOrganismId>
+                                    </AccessionNonSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Representative selection</AntigenEvidenceCode>
+                        </Antigen>
+                    </BCell>
+                </Assays>
+                <Assays>
+                    <BCell>
+                        <LocationOfData>Table 2</LocationOfData>
+                        <BCellId>11826</BCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>9986</OrganismId>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Administration in vivo</InVivoProcessType>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Source Antigen</EpitopeRelation>
+                                    <Object>
+                                        <AccessionNonSequenceMolecule>
+                                            <ChemicalType>Other Non-Sequence</ChemicalType>
+                                            <Molecule>
+                                                <ChEBIId>CHEBI:18216</ChEBIId>
+                                            </Molecule>
+                                            <SourceOrganismId>7742</SourceOrganismId>
+                                        </AccessionNonSequenceMolecule>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenReferenceName>Ganglioside GM1</ImmunogenReferenceName>
+                                <ImmunogenEvidenceCode>Representative selection</ImmunogenEvidenceCode>
+                            </FirstInVivoProcess>
+                            <ImmunizationComments>Commercial preparation from Matreya Inc., Pleasant Gap, PA.</ImmunizationComments>
+                        </Immunization>
+                        <AssayInformation>
+                            <AssayTypeId>37</AssayTypeId>
+                            <QualitativeMeasurement>Positive-Intermediate</QualitativeMeasurement>
+                            <AssayComments>TLC-immunostaining of purified LPS fractions from C. jejuni resulted in a moderate reaction.</AssayComments>
+                        </AssayInformation>
+                        <AssayedAntibody>
+                            <AssayedAntibodySourceMaterial>Serum</AssayedAntibodySourceMaterial>
+                            <AssayedAntibodyImmunoglobulinDomain>Entire Antibody</AssayedAntibodyImmunoglobulinDomain>
+                            <AssayedAntibodyPurificationStatus>Polyclonal</AssayedAntibodyPurificationStatus>
+                            <AssayedAntibodyHeavyChainType>IgG</AssayedAntibodyHeavyChainType>
+                        </AssayedAntibody>
+                        <Antigen>
+                            <AntigenReferenceName>Lipopolysaccharide extract</AntigenReferenceName>
+                            <AntigenConformation>Non-Native/Unknown</AntigenConformation>
+                            <AntigenObject>
+                                <EpitopeRelation>Structurally Related</EpitopeRelation>
+                                <Object>
+                                    <AccessionNonSequenceMolecule>
+                                        <ChemicalType>Glycolipid</ChemicalType>
+                                        <Molecule>
+                                            <ChEBIId>CHEBI:16412</ChEBIId>
+                                        </Molecule>
+                                        <SourceOrganismId>10000679</SourceOrganismId>
+                                    </AccessionNonSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Representative selection</AntigenEvidenceCode>
+                        </Antigen>
+                    </BCell>
+                </Assays>
+                <Assays>
+                    <BCell>
+                        <LocationOfData>Table 2</LocationOfData>
+                        <BCellId>11830</BCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>9986</OrganismId>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Administration in vivo</InVivoProcessType>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Source Antigen</EpitopeRelation>
+                                    <Object>
+                                        <AccessionNonSequenceMolecule>
+                                            <ChemicalType>Other Non-Sequence</ChemicalType>
+                                            <Molecule>
+                                                <ChEBIId>CHEBI:18216</ChEBIId>
+                                            </Molecule>
+                                            <SourceOrganismId>7742</SourceOrganismId>
+                                        </AccessionNonSequenceMolecule>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenReferenceName>Ganglioside GM1</ImmunogenReferenceName>
+                                <ImmunogenEvidenceCode>Representative selection</ImmunogenEvidenceCode>
+                            </FirstInVivoProcess>
+                            <ImmunizationComments>Commercial preparation from Matreya Inc., Pleasant Gap, PA.</ImmunizationComments>
+                        </Immunization>
+                        <AssayInformation>
+                            <AssayTypeId>37</AssayTypeId>
+                            <QualitativeMeasurement>Positive-High</QualitativeMeasurement>
+                            <AssayComments>TLC-immunostaining of purified LPS fractions from C. jejuni resulted in a strong reaction.</AssayComments>
+                        </AssayInformation>
+                        <AssayedAntibody>
+                            <AssayedAntibodySourceMaterial>Serum</AssayedAntibodySourceMaterial>
+                            <AssayedAntibodyImmunoglobulinDomain>Entire Antibody</AssayedAntibodyImmunoglobulinDomain>
+                            <AssayedAntibodyPurificationStatus>Polyclonal</AssayedAntibodyPurificationStatus>
+                            <AssayedAntibodyHeavyChainType>IgG</AssayedAntibodyHeavyChainType>
+                        </AssayedAntibody>
+                        <Antigen>
+                            <AntigenReferenceName>Lipopolysaccharide extract</AntigenReferenceName>
+                            <AntigenConformation>Non-Native/Unknown</AntigenConformation>
+                            <AntigenObject>
+                                <EpitopeRelation>Structurally Related</EpitopeRelation>
+                                <Object>
+                                    <AccessionNonSequenceMolecule>
+                                        <ChemicalType>Glycolipid</ChemicalType>
+                                        <Molecule>
+                                            <ChEBIId>CHEBI:16412</ChEBIId>
+                                        </Molecule>
+                                        <SourceOrganismId>10000680</SourceOrganismId>
+                                    </AccessionNonSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Representative selection</AntigenEvidenceCode>
+                        </Antigen>
+                    </BCell>
+                </Assays>
+                <Assays>
+                    <BCell>
+                        <LocationOfData>Table 3</LocationOfData>
+                        <BCellId>11796</BCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>9986</OrganismId>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Administration in vivo</InVivoProcessType>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Source Antigen</EpitopeRelation>
+                                    <Object>
+                                        <AccessionNonSequenceMolecule>
+                                            <ChemicalType>Other Non-Sequence</ChemicalType>
+                                            <Molecule>
+                                                <ChEBIId>CHEBI:18216</ChEBIId>
+                                            </Molecule>
+                                            <SourceOrganismId>7742</SourceOrganismId>
+                                        </AccessionNonSequenceMolecule>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenReferenceName>Ganglioside GM1</ImmunogenReferenceName>
+                                <ImmunogenEvidenceCode>Representative selection</ImmunogenEvidenceCode>
+                            </FirstInVivoProcess>
+                            <ImmunizationComments>Commercial preparation from Matreya Inc., Pleasant Gap, PA.</ImmunizationComments>
+                        </Immunization>
+                        <AssayInformation>
+                            <AssayTypeId>37</AssayTypeId>
+                            <QualitativeMeasurement>Positive-Low</QualitativeMeasurement>
+                            <AssayComments>TLC-immunostaining of miniphenol-water LPS extractions of C. jejuni gave a barely visible reaction.</AssayComments>
+                        </AssayInformation>
+                        <AssayedAntibody>
+                            <AssayedAntibodySourceMaterial>Serum</AssayedAntibodySourceMaterial>
+                            <AssayedAntibodyImmunoglobulinDomain>Entire Antibody</AssayedAntibodyImmunoglobulinDomain>
+                            <AssayedAntibodyPurificationStatus>Polyclonal</AssayedAntibodyPurificationStatus>
+                            <AssayedAntibodyHeavyChainType>IgG</AssayedAntibodyHeavyChainType>
+                        </AssayedAntibody>
+                        <Antigen>
+                            <AntigenReferenceName>Lipopolysaccharide extract</AntigenReferenceName>
+                            <AntigenConformation>Non-Native/Unknown</AntigenConformation>
+                            <AntigenObject>
+                                <EpitopeRelation>Structurally Related</EpitopeRelation>
+                                <Object>
+                                    <AccessionNonSequenceMolecule>
+                                        <ChemicalType>Glycolipid</ChemicalType>
+                                        <Molecule>
+                                            <ChEBIId>CHEBI:16412</ChEBIId>
+                                        </Molecule>
+                                        <SourceOrganismId>10000702</SourceOrganismId>
+                                    </AccessionNonSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Representative selection</AntigenEvidenceCode>
+                        </Antigen>
+                    </BCell>
+                </Assays>
+                <Assays>
+                    <BCell>
+                        <LocationOfData>Table 4</LocationOfData>
+                        <BCellId>11811</BCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>9986</OrganismId>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Administration in vivo</InVivoProcessType>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Source Antigen</EpitopeRelation>
+                                    <Object>
+                                        <AccessionNonSequenceMolecule>
+                                            <ChemicalType>Other Non-Sequence</ChemicalType>
+                                            <Molecule>
+                                                <ChEBIId>CHEBI:18216</ChEBIId>
+                                            </Molecule>
+                                            <SourceOrganismId>7742</SourceOrganismId>
+                                        </AccessionNonSequenceMolecule>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenReferenceName>Ganglioside GM1</ImmunogenReferenceName>
+                                <ImmunogenEvidenceCode>Representative selection</ImmunogenEvidenceCode>
+                            </FirstInVivoProcess>
+                            <ImmunizationComments>Commercial preparation from Matreya Inc., Pleasant Gap, PA.</ImmunizationComments>
+                        </Immunization>
+                        <AssayInformation>
+                            <AssayTypeId>37</AssayTypeId>
+                            <QualitativeMeasurement>Negative</QualitativeMeasurement>
+                            <AssayComments>TLC-immunostaining of miniphenol-water LPS extractions of C. jejuni gave a weak reaction.</AssayComments>
+                        </AssayInformation>
+                        <AssayedAntibody>
+                            <AssayedAntibodySourceMaterial>Serum</AssayedAntibodySourceMaterial>
+                            <AssayedAntibodyImmunoglobulinDomain>Entire Antibody</AssayedAntibodyImmunoglobulinDomain>
+                            <AssayedAntibodyPurificationStatus>Polyclonal</AssayedAntibodyPurificationStatus>
+                            <AssayedAntibodyHeavyChainType>IgG</AssayedAntibodyHeavyChainType>
+                        </AssayedAntibody>
+                        <Antigen>
+                            <AntigenReferenceName>Lipopolysaccharide extract</AntigenReferenceName>
+                            <AntigenConformation>Non-Native/Unknown</AntigenConformation>
+                            <AntigenObject>
+                                <EpitopeRelation>Structurally Related</EpitopeRelation>
+                                <Object>
+                                    <AccessionNonSequenceMolecule>
+                                        <ChemicalType>Glycolipid</ChemicalType>
+                                        <Molecule>
+                                            <ChEBIId>CHEBI:16412</ChEBIId>
+                                        </Molecule>
+                                        <SourceOrganismId>10000687</SourceOrganismId>
+                                    </AccessionNonSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Representative selection</AntigenEvidenceCode>
+                        </Antigen>
+                    </BCell>
+                </Assays>
+                <Assays>
+                    <BCell>
+                        <LocationOfData>Table 4</LocationOfData>
+                        <BCellId>11815</BCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>9986</OrganismId>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Administration in vivo</InVivoProcessType>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Source Antigen</EpitopeRelation>
+                                    <Object>
+                                        <AccessionNonSequenceMolecule>
+                                            <ChemicalType>Other Non-Sequence</ChemicalType>
+                                            <Molecule>
+                                                <ChEBIId>CHEBI:18216</ChEBIId>
+                                            </Molecule>
+                                            <SourceOrganismId>7742</SourceOrganismId>
+                                        </AccessionNonSequenceMolecule>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenReferenceName>Ganglioside GM1</ImmunogenReferenceName>
+                                <ImmunogenEvidenceCode>Representative selection</ImmunogenEvidenceCode>
+                            </FirstInVivoProcess>
+                            <ImmunizationComments>Commercial preparation from Matreya Inc., Pleasant Gap, PA.</ImmunizationComments>
+                        </Immunization>
+                        <AssayInformation>
+                            <AssayTypeId>37</AssayTypeId>
+                            <QualitativeMeasurement>Positive-High</QualitativeMeasurement>
+                            <AssayComments>TLC-immunostaining of miniphenol-water LPS extractions of C. jejuni gave a strong reaction.</AssayComments>
+                        </AssayInformation>
+                        <AssayedAntibody>
+                            <AssayedAntibodySourceMaterial>Serum</AssayedAntibodySourceMaterial>
+                            <AssayedAntibodyImmunoglobulinDomain>Entire Antibody</AssayedAntibodyImmunoglobulinDomain>
+                            <AssayedAntibodyPurificationStatus>Polyclonal</AssayedAntibodyPurificationStatus>
+                            <AssayedAntibodyHeavyChainType>IgG</AssayedAntibodyHeavyChainType>
+                        </AssayedAntibody>
+                        <Antigen>
+                            <AntigenReferenceName>Lipopolysaccharide extract</AntigenReferenceName>
+                            <AntigenConformation>Non-Native/Unknown</AntigenConformation>
+                            <AntigenObject>
+                                <EpitopeRelation>Structurally Related</EpitopeRelation>
+                                <Object>
+                                    <AccessionNonSequenceMolecule>
+                                        <ChemicalType>Glycolipid</ChemicalType>
+                                        <Molecule>
+                                            <ChEBIId>CHEBI:16412</ChEBIId>
+                                        </Molecule>
+                                        <SourceOrganismId>10000681</SourceOrganismId>
+                                    </AccessionNonSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Representative selection</AntigenEvidenceCode>
+                        </Antigen>
+                    </BCell>
+                </Assays>
+                <Assays>
+                    <BCell>
+                        <LocationOfData>Table 3</LocationOfData>
+                        <BCellId>11793</BCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>9986</OrganismId>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Administration in vivo</InVivoProcessType>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Source Antigen</EpitopeRelation>
+                                    <Object>
+                                        <AccessionNonSequenceMolecule>
+                                            <ChemicalType>Other Non-Sequence</ChemicalType>
+                                            <Molecule>
+                                                <ChEBIId>CHEBI:18216</ChEBIId>
+                                            </Molecule>
+                                            <SourceOrganismId>7742</SourceOrganismId>
+                                        </AccessionNonSequenceMolecule>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenReferenceName>Ganglioside GM1</ImmunogenReferenceName>
+                                <ImmunogenEvidenceCode>Representative selection</ImmunogenEvidenceCode>
+                            </FirstInVivoProcess>
+                            <ImmunizationComments>Commercial preparation from Matreya Inc., Pleasant Gap, PA.</ImmunizationComments>
+                        </Immunization>
+                        <AssayInformation>
+                            <AssayTypeId>37</AssayTypeId>
+                            <QualitativeMeasurement>Positive-Low</QualitativeMeasurement>
+                            <AssayComments>TLC-immunostaining of miniphenol-water LPS extractions of C. jejuni gave a weak reaction.</AssayComments>
+                        </AssayInformation>
+                        <AssayedAntibody>
+                            <AssayedAntibodySourceMaterial>Serum</AssayedAntibodySourceMaterial>
+                            <AssayedAntibodyImmunoglobulinDomain>Entire Antibody</AssayedAntibodyImmunoglobulinDomain>
+                            <AssayedAntibodyPurificationStatus>Polyclonal</AssayedAntibodyPurificationStatus>
+                            <AssayedAntibodyHeavyChainType>IgG</AssayedAntibodyHeavyChainType>
+                        </AssayedAntibody>
+                        <Antigen>
+                            <AntigenReferenceName>Lipopolysaccharide extract</AntigenReferenceName>
+                            <AntigenConformation>Non-Native/Unknown</AntigenConformation>
+                            <AntigenObject>
+                                <EpitopeRelation>Structurally Related</EpitopeRelation>
+                                <Object>
+                                    <AccessionNonSequenceMolecule>
+                                        <ChemicalType>Glycolipid</ChemicalType>
+                                        <Molecule>
+                                            <ChEBIId>CHEBI:16412</ChEBIId>
+                                        </Molecule>
+                                        <SourceOrganismId>10000699</SourceOrganismId>
+                                    </AccessionNonSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Representative selection</AntigenEvidenceCode>
+                        </Antigen>
+                    </BCell>
+                </Assays>
+                <Assays>
+                    <BCell>
+                        <LocationOfData>Table 4</LocationOfData>
+                        <BCellId>11817</BCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>9986</OrganismId>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Administration in vivo</InVivoProcessType>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Source Antigen</EpitopeRelation>
+                                    <Object>
+                                        <AccessionNonSequenceMolecule>
+                                            <ChemicalType>Other Non-Sequence</ChemicalType>
+                                            <Molecule>
+                                                <ChEBIId>CHEBI:18216</ChEBIId>
+                                            </Molecule>
+                                            <SourceOrganismId>7742</SourceOrganismId>
+                                        </AccessionNonSequenceMolecule>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenReferenceName>Ganglioside GM1</ImmunogenReferenceName>
+                                <ImmunogenEvidenceCode>Representative selection</ImmunogenEvidenceCode>
+                            </FirstInVivoProcess>
+                            <ImmunizationComments>Commercial preparation from Matreya Inc., Pleasant Gap, PA.</ImmunizationComments>
+                        </Immunization>
+                        <AssayInformation>
+                            <AssayTypeId>37</AssayTypeId>
+                            <QualitativeMeasurement>Negative</QualitativeMeasurement>
+                            <AssayComments>TLC-immunostaining of miniphenol-water LPS extractions of C. jejuni was performed.</AssayComments>
+                        </AssayInformation>
+                        <AssayedAntibody>
+                            <AssayedAntibodySourceMaterial>Serum</AssayedAntibodySourceMaterial>
+                            <AssayedAntibodyImmunoglobulinDomain>Entire Antibody</AssayedAntibodyImmunoglobulinDomain>
+                            <AssayedAntibodyPurificationStatus>Polyclonal</AssayedAntibodyPurificationStatus>
+                            <AssayedAntibodyHeavyChainType>IgG</AssayedAntibodyHeavyChainType>
+                        </AssayedAntibody>
+                        <Antigen>
+                            <AntigenReferenceName>Lipopolysaccharide extract</AntigenReferenceName>
+                            <AntigenConformation>Non-Native/Unknown</AntigenConformation>
+                            <AntigenObject>
+                                <EpitopeRelation>Structurally Related</EpitopeRelation>
+                                <Object>
+                                    <AccessionNonSequenceMolecule>
+                                        <ChemicalType>Glycolipid</ChemicalType>
+                                        <Molecule>
+                                            <ChEBIId>CHEBI:16412</ChEBIId>
+                                        </Molecule>
+                                        <SourceOrganismId>10000693</SourceOrganismId>
+                                    </AccessionNonSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Representative selection</AntigenEvidenceCode>
+                        </Antigen>
+                    </BCell>
+                </Assays>
+                <Assays>
+                    <BCell>
+                        <LocationOfData>Table 2</LocationOfData>
+                        <BCellId>11824</BCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>9986</OrganismId>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Administration in vivo</InVivoProcessType>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Source Antigen</EpitopeRelation>
+                                    <Object>
+                                        <AccessionNonSequenceMolecule>
+                                            <ChemicalType>Other Non-Sequence</ChemicalType>
+                                            <Molecule>
+                                                <ChEBIId>CHEBI:18216</ChEBIId>
+                                            </Molecule>
+                                            <SourceOrganismId>7742</SourceOrganismId>
+                                        </AccessionNonSequenceMolecule>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenReferenceName>Ganglioside GM1</ImmunogenReferenceName>
+                                <ImmunogenEvidenceCode>Representative selection</ImmunogenEvidenceCode>
+                            </FirstInVivoProcess>
+                            <ImmunizationComments>Commercial preparation from Matreya Inc., Pleasant Gap, PA.</ImmunizationComments>
+                        </Immunization>
+                        <AssayInformation>
+                            <AssayTypeId>37</AssayTypeId>
+                            <QualitativeMeasurement>Positive-Intermediate</QualitativeMeasurement>
+                            <AssayComments>TLC-immunostaining of purified LPS fractions from C. jejuni resulted in a moderate reaction.</AssayComments>
+                        </AssayInformation>
+                        <AssayedAntibody>
+                            <AssayedAntibodySourceMaterial>Serum</AssayedAntibodySourceMaterial>
+                            <AssayedAntibodyImmunoglobulinDomain>Entire Antibody</AssayedAntibodyImmunoglobulinDomain>
+                            <AssayedAntibodyPurificationStatus>Polyclonal</AssayedAntibodyPurificationStatus>
+                            <AssayedAntibodyHeavyChainType>IgG</AssayedAntibodyHeavyChainType>
+                        </AssayedAntibody>
+                        <Antigen>
+                            <AntigenReferenceName>Lipopolysaccharide extract</AntigenReferenceName>
+                            <AntigenConformation>Non-Native/Unknown</AntigenConformation>
+                            <AntigenObject>
+                                <EpitopeRelation>Structurally Related</EpitopeRelation>
+                                <Object>
+                                    <AccessionNonSequenceMolecule>
+                                        <ChemicalType>Glycolipid</ChemicalType>
+                                        <Molecule>
+                                            <ChEBIId>CHEBI:16412</ChEBIId>
+                                        </Molecule>
+                                        <SourceOrganismId>10000692</SourceOrganismId>
+                                    </AccessionNonSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Representative selection</AntigenEvidenceCode>
+                        </Antigen>
+                    </BCell>
+                </Assays>
+                <Assays>
+                    <BCell>
+                        <LocationOfData>Table 3</LocationOfData>
+                        <BCellId>11792</BCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>9986</OrganismId>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Administration in vivo</InVivoProcessType>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Source Antigen</EpitopeRelation>
+                                    <Object>
+                                        <AccessionNonSequenceMolecule>
+                                            <ChemicalType>Other Non-Sequence</ChemicalType>
+                                            <Molecule>
+                                                <ChEBIId>CHEBI:18216</ChEBIId>
+                                            </Molecule>
+                                            <SourceOrganismId>7742</SourceOrganismId>
+                                        </AccessionNonSequenceMolecule>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenReferenceName>Ganglioside GM1</ImmunogenReferenceName>
+                                <ImmunogenEvidenceCode>Representative selection</ImmunogenEvidenceCode>
+                            </FirstInVivoProcess>
+                            <ImmunizationComments>Commercial preparation from Matreya Inc., Pleasant Gap, PA.</ImmunizationComments>
+                        </Immunization>
+                        <AssayInformation>
+                            <AssayTypeId>37</AssayTypeId>
+                            <QualitativeMeasurement>Negative</QualitativeMeasurement>
+                            <AssayComments>TLC-immunostaining of miniphenol-water LPS extractions of C. jejuni was performed.</AssayComments>
+                        </AssayInformation>
+                        <AssayedAntibody>
+                            <AssayedAntibodySourceMaterial>Serum</AssayedAntibodySourceMaterial>
+                            <AssayedAntibodyImmunoglobulinDomain>Entire Antibody</AssayedAntibodyImmunoglobulinDomain>
+                            <AssayedAntibodyPurificationStatus>Polyclonal</AssayedAntibodyPurificationStatus>
+                            <AssayedAntibodyHeavyChainType>IgG</AssayedAntibodyHeavyChainType>
+                        </AssayedAntibody>
+                        <Antigen>
+                            <AntigenReferenceName>Lipopolysaccharide extract</AntigenReferenceName>
+                            <AntigenConformation>Non-Native/Unknown</AntigenConformation>
+                            <AntigenObject>
+                                <EpitopeRelation>Structurally Related</EpitopeRelation>
+                                <Object>
+                                    <AccessionNonSequenceMolecule>
+                                        <ChemicalType>Glycolipid</ChemicalType>
+                                        <Molecule>
+                                            <ChEBIId>CHEBI:16412</ChEBIId>
+                                        </Molecule>
+                                        <SourceOrganismId>10000698</SourceOrganismId>
+                                    </AccessionNonSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Representative selection</AntigenEvidenceCode>
+                        </Antigen>
+                    </BCell>
+                </Assays>
+                <Assays>
+                    <BCell>
+                        <LocationOfData>Table 2</LocationOfData>
+                        <BCellId>11823</BCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>9986</OrganismId>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Administration in vivo</InVivoProcessType>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Source Antigen</EpitopeRelation>
+                                    <Object>
+                                        <AccessionNonSequenceMolecule>
+                                            <ChemicalType>Other Non-Sequence</ChemicalType>
+                                            <Molecule>
+                                                <ChEBIId>CHEBI:18216</ChEBIId>
+                                            </Molecule>
+                                            <SourceOrganismId>7742</SourceOrganismId>
+                                        </AccessionNonSequenceMolecule>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenReferenceName>Ganglioside GM1</ImmunogenReferenceName>
+                                <ImmunogenEvidenceCode>Representative selection</ImmunogenEvidenceCode>
+                            </FirstInVivoProcess>
+                            <ImmunizationComments>Commercial preparation from Matreya Inc., Pleasant Gap, PA.</ImmunizationComments>
+                        </Immunization>
+                        <AssayInformation>
+                            <AssayTypeId>37</AssayTypeId>
+                            <QualitativeMeasurement>Positive-Low</QualitativeMeasurement>
+                            <AssayComments>TLC-immunostaining of purified LPS fractions from C. jejuni produced a  weak reaction.</AssayComments>
+                        </AssayInformation>
+                        <AssayedAntibody>
+                            <AssayedAntibodySourceMaterial>Serum</AssayedAntibodySourceMaterial>
+                            <AssayedAntibodyImmunoglobulinDomain>Entire Antibody</AssayedAntibodyImmunoglobulinDomain>
+                            <AssayedAntibodyPurificationStatus>Polyclonal</AssayedAntibodyPurificationStatus>
+                            <AssayedAntibodyHeavyChainType>IgG</AssayedAntibodyHeavyChainType>
+                        </AssayedAntibody>
+                        <Antigen>
+                            <AntigenReferenceName>Lipopolysaccharide extract</AntigenReferenceName>
+                            <AntigenConformation>Non-Native/Unknown</AntigenConformation>
+                            <AntigenObject>
+                                <EpitopeRelation>Structurally Related</EpitopeRelation>
+                                <Object>
+                                    <AccessionNonSequenceMolecule>
+                                        <ChemicalType>Glycolipid</ChemicalType>
+                                        <Molecule>
+                                            <ChEBIId>CHEBI:16412</ChEBIId>
+                                        </Molecule>
+                                        <SourceOrganismId>10000691</SourceOrganismId>
+                                    </AccessionNonSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Representative selection</AntigenEvidenceCode>
+                        </Antigen>
+                    </BCell>
+                </Assays>
+                <Assays>
+                    <BCell>
+                        <LocationOfData>Table 2</LocationOfData>
+                        <BCellId>11821</BCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>9986</OrganismId>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Administration in vivo</InVivoProcessType>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Source Antigen</EpitopeRelation>
+                                    <Object>
+                                        <AccessionNonSequenceMolecule>
+                                            <ChemicalType>Other Non-Sequence</ChemicalType>
+                                            <Molecule>
+                                                <ChEBIId>CHEBI:18216</ChEBIId>
+                                            </Molecule>
+                                            <SourceOrganismId>7742</SourceOrganismId>
+                                        </AccessionNonSequenceMolecule>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenReferenceName>Ganglioside GM1</ImmunogenReferenceName>
+                                <ImmunogenEvidenceCode>Representative selection</ImmunogenEvidenceCode>
+                            </FirstInVivoProcess>
+                            <ImmunizationComments>Commercial preparation from Matreya Inc., Pleasant Gap, PA.</ImmunizationComments>
+                        </Immunization>
+                        <AssayInformation>
+                            <AssayTypeId>37</AssayTypeId>
+                            <QualitativeMeasurement>Negative</QualitativeMeasurement>
+                            <AssayComments>TLC-immunostaining of purified LPS fractions from C. jejuni was performed.</AssayComments>
+                        </AssayInformation>
+                        <AssayedAntibody>
+                            <AssayedAntibodySourceMaterial>Serum</AssayedAntibodySourceMaterial>
+                            <AssayedAntibodyImmunoglobulinDomain>Entire Antibody</AssayedAntibodyImmunoglobulinDomain>
+                            <AssayedAntibodyPurificationStatus>Polyclonal</AssayedAntibodyPurificationStatus>
+                            <AssayedAntibodyHeavyChainType>IgG</AssayedAntibodyHeavyChainType>
+                        </AssayedAntibody>
+                        <Antigen>
+                            <AntigenReferenceName>Lipopolysaccharide extract</AntigenReferenceName>
+                            <AntigenConformation>Non-Native/Unknown</AntigenConformation>
+                            <AntigenObject>
+                                <EpitopeRelation>Structurally Related</EpitopeRelation>
+                                <Object>
+                                    <AccessionNonSequenceMolecule>
+                                        <ChemicalType>Glycolipid</ChemicalType>
+                                        <Molecule>
+                                            <ChEBIId>CHEBI:16412</ChEBIId>
+                                        </Molecule>
+                                        <SourceOrganismId>10000689</SourceOrganismId>
+                                    </AccessionNonSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Representative selection</AntigenEvidenceCode>
+                        </Antigen>
+                    </BCell>
+                </Assays>
+                <Assays>
+                    <BCell>
+                        <LocationOfData>Table 3</LocationOfData>
+                        <BCellId>11791</BCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>9986</OrganismId>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Administration in vivo</InVivoProcessType>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Source Antigen</EpitopeRelation>
+                                    <Object>
+                                        <AccessionNonSequenceMolecule>
+                                            <ChemicalType>Other Non-Sequence</ChemicalType>
+                                            <Molecule>
+                                                <ChEBIId>CHEBI:18216</ChEBIId>
+                                            </Molecule>
+                                            <SourceOrganismId>7742</SourceOrganismId>
+                                        </AccessionNonSequenceMolecule>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenReferenceName>Ganglioside GM1</ImmunogenReferenceName>
+                                <ImmunogenEvidenceCode>Representative selection</ImmunogenEvidenceCode>
+                            </FirstInVivoProcess>
+                            <ImmunizationComments>Commercial preparation from Matreya Inc., Pleasant Gap, PA.</ImmunizationComments>
+                        </Immunization>
+                        <AssayInformation>
+                            <AssayTypeId>37</AssayTypeId>
+                            <QualitativeMeasurement>Positive-Intermediate</QualitativeMeasurement>
+                            <AssayComments>TLC-immunostaining of miniphenol-water LPS extractions of C. jejuni produced a moderate reaction.</AssayComments>
+                        </AssayInformation>
+                        <AssayedAntibody>
+                            <AssayedAntibodySourceMaterial>Serum</AssayedAntibodySourceMaterial>
+                            <AssayedAntibodyImmunoglobulinDomain>Entire Antibody</AssayedAntibodyImmunoglobulinDomain>
+                            <AssayedAntibodyPurificationStatus>Polyclonal</AssayedAntibodyPurificationStatus>
+                            <AssayedAntibodyHeavyChainType>IgG</AssayedAntibodyHeavyChainType>
+                        </AssayedAntibody>
+                        <Antigen>
+                            <AntigenReferenceName>Lipopolysaccharide extract</AntigenReferenceName>
+                            <AntigenConformation>Non-Native/Unknown</AntigenConformation>
+                            <AntigenObject>
+                                <EpitopeRelation>Structurally Related</EpitopeRelation>
+                                <Object>
+                                    <AccessionNonSequenceMolecule>
+                                        <ChemicalType>Glycolipid</ChemicalType>
+                                        <Molecule>
+                                            <ChEBIId>CHEBI:16412</ChEBIId>
+                                        </Molecule>
+                                        <SourceOrganismId>10000714</SourceOrganismId>
+                                    </AccessionNonSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Representative selection</AntigenEvidenceCode>
+                        </Antigen>
+                    </BCell>
+                </Assays>
+                <Assays>
+                    <BCell>
+                        <LocationOfData>Table 3</LocationOfData>
+                        <BCellId>11788</BCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>9986</OrganismId>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Administration in vivo</InVivoProcessType>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Source Antigen</EpitopeRelation>
+                                    <Object>
+                                        <AccessionNonSequenceMolecule>
+                                            <ChemicalType>Other Non-Sequence</ChemicalType>
+                                            <Molecule>
+                                                <ChEBIId>CHEBI:18216</ChEBIId>
+                                            </Molecule>
+                                            <SourceOrganismId>7742</SourceOrganismId>
+                                        </AccessionNonSequenceMolecule>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenReferenceName>Ganglioside GM1</ImmunogenReferenceName>
+                                <ImmunogenEvidenceCode>Representative selection</ImmunogenEvidenceCode>
+                            </FirstInVivoProcess>
+                            <ImmunizationComments>Commercial preparation from Matreya Inc., Pleasant Gap, PA.</ImmunizationComments>
+                        </Immunization>
+                        <AssayInformation>
+                            <AssayTypeId>37</AssayTypeId>
+                            <QualitativeMeasurement>Negative</QualitativeMeasurement>
+                            <AssayComments>TLC-immunostaining of miniphenol-water LPS extractions of C. jejuni was performed.</AssayComments>
+                        </AssayInformation>
+                        <AssayedAntibody>
+                            <AssayedAntibodySourceMaterial>Serum</AssayedAntibodySourceMaterial>
+                            <AssayedAntibodyImmunoglobulinDomain>Entire Antibody</AssayedAntibodyImmunoglobulinDomain>
+                            <AssayedAntibodyPurificationStatus>Polyclonal</AssayedAntibodyPurificationStatus>
+                            <AssayedAntibodyHeavyChainType>IgG</AssayedAntibodyHeavyChainType>
+                        </AssayedAntibody>
+                        <Antigen>
+                            <AntigenReferenceName>Lipopolysaccharide extract</AntigenReferenceName>
+                            <AntigenConformation>Non-Native/Unknown</AntigenConformation>
+                            <AntigenObject>
+                                <EpitopeRelation>Structurally Related</EpitopeRelation>
+                                <Object>
+                                    <AccessionNonSequenceMolecule>
+                                        <ChemicalType>Glycolipid</ChemicalType>
+                                        <Molecule>
+                                            <ChEBIId>CHEBI:16412</ChEBIId>
+                                        </Molecule>
+                                        <SourceOrganismId>10000697</SourceOrganismId>
+                                    </AccessionNonSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Representative selection</AntigenEvidenceCode>
+                        </Antigen>
+                    </BCell>
+                </Assays>
+                <Assays>
+                    <BCell>
+                        <LocationOfData>Table 4</LocationOfData>
+                        <BCellId>11810</BCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>9986</OrganismId>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Administration in vivo</InVivoProcessType>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Source Antigen</EpitopeRelation>
+                                    <Object>
+                                        <AccessionNonSequenceMolecule>
+                                            <ChemicalType>Other Non-Sequence</ChemicalType>
+                                            <Molecule>
+                                                <ChEBIId>CHEBI:18216</ChEBIId>
+                                            </Molecule>
+                                            <SourceOrganismId>7742</SourceOrganismId>
+                                        </AccessionNonSequenceMolecule>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenReferenceName>Ganglioside GM1</ImmunogenReferenceName>
+                                <ImmunogenEvidenceCode>Representative selection</ImmunogenEvidenceCode>
+                            </FirstInVivoProcess>
+                            <ImmunizationComments>Commercial preparation from Matreya Inc., Pleasant Gap, PA.</ImmunizationComments>
+                        </Immunization>
+                        <AssayInformation>
+                            <AssayTypeId>37</AssayTypeId>
+                            <QualitativeMeasurement>Negative</QualitativeMeasurement>
+                            <AssayComments>TLC-immunostaining of miniphenol-water LPS extractions of C. jejuni gave a weak reaction.</AssayComments>
+                        </AssayInformation>
+                        <AssayedAntibody>
+                            <AssayedAntibodySourceMaterial>Serum</AssayedAntibodySourceMaterial>
+                            <AssayedAntibodyImmunoglobulinDomain>Entire Antibody</AssayedAntibodyImmunoglobulinDomain>
+                            <AssayedAntibodyPurificationStatus>Polyclonal</AssayedAntibodyPurificationStatus>
+                            <AssayedAntibodyHeavyChainType>IgG</AssayedAntibodyHeavyChainType>
+                        </AssayedAntibody>
+                        <Antigen>
+                            <AntigenReferenceName>Lipopolysaccharide extract</AntigenReferenceName>
+                            <AntigenConformation>Non-Native/Unknown</AntigenConformation>
+                            <AntigenObject>
+                                <EpitopeRelation>Structurally Related</EpitopeRelation>
+                                <Object>
+                                    <AccessionNonSequenceMolecule>
+                                        <ChemicalType>Glycolipid</ChemicalType>
+                                        <Molecule>
+                                            <ChEBIId>CHEBI:16412</ChEBIId>
+                                        </Molecule>
+                                        <SourceOrganismId>10000686</SourceOrganismId>
+                                    </AccessionNonSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Representative selection</AntigenEvidenceCode>
+                        </Antigen>
+                    </BCell>
+                </Assays>
+            </Epitope>
+        </Epitopes>
+    </Reference>
+</References>
+

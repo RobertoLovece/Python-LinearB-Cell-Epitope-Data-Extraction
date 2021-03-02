@@ -1,0 +1,474 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<References xsi:schemaLocation="http://www.iedb.org/schema/CurationSchema http://beta.iedb.org/schema/Curation.xsd" xmlns="http://www.iedb.org/schema/CurationSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <Reference>
+        <ReferenceId>570</ReferenceId>
+        <DateLastUpdated>2020-09-10-07:00</DateLastUpdated>
+        <Article>
+            <PubmedId>15534491</PubmedId>
+            <Abstract>HLA class I-restricted peptides are often used in peptide vaccine regimens. There is strong evidence that many of these peptides can generate specific CD8 T-cell responses in vivo; however, only occasional objective clinical responses have been reported. To test whether provision of "help" would enhance antitumor immunity, the authors initiated a clinical trial in which patients with metastatic melanoma were immunized against the NY-ESO-1 tumor antigen, using an HLA-A2-restricted peptide (ESO-1:165V), an HLA-DP4-restricted peptide (NY-ESO-1:161-180), or both peptides given concomitantly. The first cohorts received only ESO-1:165V, using three vaccination schedules. Immunologically, most patients developed immune responses to the HLA-A2-restricted native ESO-1 epitope after vaccination. Peptide vaccine given daily for 4 days appeared to induce immunologic responses more rapidly than if given once a week or once every 3 weeks. In contrast, vaccination using the NY-ESO-1:161-180 peptide induced immune responses in only a few patients. Clinically, one patient who received NY-ESO-1:161-180 peptide alone had a partial response lasing 12 months. Concomitant vaccination with the HLA class II-restricted peptide did not alter the immune response to the HLA class I-restricted peptide form NY-ESO-1. However, vaccination with the HLA-A2-restricted epitope generated primarily T cells that did not recognize tumor after in vitro sensitization. This result raises questions about the use of synthetic peptides derived from NY-ESO-1 as a sole form of immunization.</Abstract>
+            <ArticleYear>2004</ArticleYear>
+            <ArticlePages>472-7</ArticlePages>
+            <ArticleTitle>Immunization of HLA-A*0201 and/or HLA-DPbeta1*04 patients with metastatic melanoma using epitopes from the NY-ESO-1 antigen.</ArticleTitle>
+            <Authors>
+                <Author>
+                    <LastName>Khong</LastName>
+                    <ForeName>Hung T</ForeName>
+                </Author>
+                <Author>
+                    <LastName>Yang</LastName>
+                    <ForeName>James C</ForeName>
+                </Author>
+                <Author>
+                    <LastName>Topalian</LastName>
+                    <ForeName>Suzanne L</ForeName>
+                </Author>
+                <Author>
+                    <LastName>Sherry</LastName>
+                    <ForeName>Richard M</ForeName>
+                </Author>
+                <Author>
+                    <LastName>Mavroukakis</LastName>
+                    <ForeName>Sharon A</ForeName>
+                </Author>
+                <Author>
+                    <LastName>White</LastName>
+                    <ForeName>Donald E</ForeName>
+                </Author>
+                <Author>
+                    <LastName>Rosenberg</LastName>
+                    <ForeName>Steven A</ForeName>
+                </Author>
+            </Authors>
+            <Affiliations>Surgery Branch, Center for Cancer Research, National Cancer Institute, National Institutes of Health, Bethesda, Maryland 20892-1502, USA.</Affiliations>
+            <ArticleChemicalList>Antigens, Neoplasm;CTAG1B protein, human;Cancer Vaccines;ESO-1:165V peptide, human;HLA-A Antigens;HLA-A*02:01 antigen;HLA-A2 Antigen;HLA-DP Antigens;HLA-DP beta-Chains;HLA-DPw4 antigen;Immunodominant Epitopes;Interleukin-2;Membrane Proteins;NY-ESO-1:161-180 peptide, human;Interferon-gamma</ArticleChemicalList>
+            <ArticleMeshHeadingsList>Antigens, Neoplasm(immunology); Cancer Vaccines(immunology; therapeutic use); Cohort Studies; Female; HLA-A Antigens(immunology; therapeutic use; toxicity); HLA-A2 Antigen; HLA-DP Antigens(immunology; therapeutic use; toxicity); HLA-DP beta-Chains; Humans; Immunodominant Epitopes(immunology); Interferon-gamma(immunology); Interleukin-2(therapeutic use); Magnetic Resonance Imaging; Male; Melanoma(drug therapy; immunology); Membrane Proteins(immunology); T-Lymphocytes(immunology)</ArticleMeshHeadingsList>
+            <Journal>
+                <Volume>27</Volume>
+                <Issue>6</Issue>
+                <Title>Journal of immunotherapy (Hagerstown, Md. : 1997)</Title>
+                <Issn>1524-9557</Issn>
+                <MedlineTa>J Immunother</MedlineTa>
+            </Journal>
+        </Article>
+        <Epitopes>
+            <Epitope>
+                <EpitopeName>NY-ESO-1:161-180</EpitopeName>
+                <EpitopeStructure>
+                    <FragmentOfANaturalSequenceMolecule>
+                        <ChemicalType>Peptide from protein</ChemicalType>
+                        <LinearSequence>WITQCFLPVFLAQPPSGQRR</LinearSequence>
+                        <StartingPosition>161</StartingPosition>
+                        <EndingPosition>180</EndingPosition>
+                        <SourceMolecule>
+                            <GenBankId>P78358.1</GenBankId>
+                        </SourceMolecule>
+                        <SourceOrganismId>9606</SourceOrganismId>
+                    </FragmentOfANaturalSequenceMolecule>
+                </EpitopeStructure>
+                <EpitopeId>72656</EpitopeId>
+                <ReferenceStartingPosition>161</ReferenceStartingPosition>
+                <ReferenceEndingPosition>180</ReferenceEndingPosition>
+                <EpitopeEvidenceCode>Not determined</EpitopeEvidenceCode>
+                <EpitopeStructureDefines>Epitope containing region/antigenic site</EpitopeStructureDefines>
+                <Assays>
+                    <TCell>
+                        <LocationOfData>Table 4</LocationOfData>
+                        <TCellId>7238</TCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>9606</OrganismId>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Occurrence of cancer</InVivoProcessType>
+                                <DiseaseState>DOID:8923</DiseaseState>
+                                <DiseaseStage>Chronic</DiseaseStage>
+                            </FirstInVivoProcess>
+                            <SecondInVivoProcess>
+                                <InVivoProcessType>Administration in vivo</InVivoProcessType>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Epitope</EpitopeRelation>
+                                    <Object>
+                                        <FragmentOfANaturalSequenceMolecule>
+                                            <ChemicalType>Peptide from protein</ChemicalType>
+                                            <LinearSequence>WITQCFLPVFLAQPPSGQRR</LinearSequence>
+                                            <StartingPosition>161</StartingPosition>
+                                            <EndingPosition>180</EndingPosition>
+                                            <SourceMolecule>
+                                                <GenBankId>P78358.1</GenBankId>
+                                            </SourceMolecule>
+                                            <SourceOrganismId>9606</SourceOrganismId>
+                                        </FragmentOfANaturalSequenceMolecule>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenReferenceName>NY-ESO-1:161-180</ImmunogenReferenceName>
+                                <ImmunogenEvidenceCode>Exact match to reference information</ImmunogenEvidenceCode>
+                                <Adjuvant>Freund's incomplete (IFA)</Adjuvant>
+                                <Route>Subcutaneous (s.c.)</Route>
+                                <DoseSchedule>The vaccination schedule was once every 3 weeks (one cycle) for four cycles (one course).</DoseSchedule>
+                            </SecondInVivoProcess>
+                            <InVitroAdministration>
+                                <ProcessType>Restimulation in vitro</ProcessType>
+                                <ResponderCellType>PBMC</ResponderCellType>
+                                <StimulatorCellType>PBMC</StimulatorCellType>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Epitope</EpitopeRelation>
+                                    <Object>
+                                        <FragmentOfANaturalSequenceMolecule>
+                                            <ChemicalType>Peptide from protein</ChemicalType>
+                                            <LinearSequence>WITQCFLPVFLAQPPSGQRR</LinearSequence>
+                                            <StartingPosition>161</StartingPosition>
+                                            <EndingPosition>180</EndingPosition>
+                                            <SourceMolecule>
+                                                <GenBankId>P78358.1</GenBankId>
+                                            </SourceMolecule>
+                                            <SourceOrganismId>9606</SourceOrganismId>
+                                        </FragmentOfANaturalSequenceMolecule>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenEvidenceCode>Exact match to reference information</ImmunogenEvidenceCode>
+                            </InVitroAdministration>
+                        </Immunization>
+                        <EffectorCells>
+                            <CellTissueType>Blood</CellTissueType>
+                            <CellType>T cell</CellType>
+                            <CellCultureConditions>Short Term Restimulated</CellCultureConditions>
+                        </EffectorCells>
+                        <AntigenPresentingCells>
+                            <CellTissueType>Lymphoid</CellTissueType>
+                            <CellType>B cell</CellType>
+                            <CellCultureConditions>Cell Line / Clone (EBV transformed, B-LCL)</CellCultureConditions>
+                            <AutologousOrSyngeneic>N</AutologousOrSyngeneic>
+                        </AntigenPresentingCells>
+                        <MhcAllele>
+                            <MhcAlleleId>69</MhcAlleleId>
+                            <MhcEvidenceCode>Not determined</MhcEvidenceCode>
+                        </MhcAllele>
+                        <Antigen>
+                            <AntigenReferenceName>NY-ESO-1:161-180</AntigenReferenceName>
+                            <AntigenObject>
+                                <EpitopeRelation>Epitope</EpitopeRelation>
+                                <Object>
+                                    <FragmentOfANaturalSequenceMolecule>
+                                        <ChemicalType>Peptide from protein</ChemicalType>
+                                        <LinearSequence>WITQCFLPVFLAQPPSGQRR</LinearSequence>
+                                        <StartingPosition>161</StartingPosition>
+                                        <EndingPosition>180</EndingPosition>
+                                        <SourceMolecule>
+                                            <GenBankId>P78358.1</GenBankId>
+                                        </SourceMolecule>
+                                        <SourceOrganismId>9606</SourceOrganismId>
+                                    </FragmentOfANaturalSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Exact match to reference information</AntigenEvidenceCode>
+                        </Antigen>
+                        <AssayInformation>
+                            <AssayTypeId>73</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <NumberOfSubjectsTested>30</NumberOfSubjectsTested>
+                            <NumberOfSubjectsResponded>13</NumberOfSubjectsResponded>
+                            <ResponseFrequency>43.3</ResponseFrequency>
+                            <AssayComments>The responders were from four groups of patients who received between 2 and 16 vaccinations.</AssayComments>
+                        </AssayInformation>
+                    </TCell>
+                </Assays>
+                <Assays>
+                    <TCell>
+                        <LocationOfData>Table 6</LocationOfData>
+                        <TCellId>4850</TCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>9606</OrganismId>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Occurrence of cancer</InVivoProcessType>
+                                <DiseaseState>DOID:8923</DiseaseState>
+                                <DiseaseStage>Chronic</DiseaseStage>
+                            </FirstInVivoProcess>
+                            <SecondInVivoProcess>
+                                <InVivoProcessType>Administration in vivo</InVivoProcessType>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Epitope</EpitopeRelation>
+                                    <Object>
+                                        <FragmentOfANaturalSequenceMolecule>
+                                            <ChemicalType>Peptide from protein</ChemicalType>
+                                            <LinearSequence>WITQCFLPVFLAQPPSGQRR</LinearSequence>
+                                            <StartingPosition>161</StartingPosition>
+                                            <EndingPosition>180</EndingPosition>
+                                            <SourceMolecule>
+                                                <GenBankId>P78358.1</GenBankId>
+                                            </SourceMolecule>
+                                            <SourceOrganismId>9606</SourceOrganismId>
+                                        </FragmentOfANaturalSequenceMolecule>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenReferenceName>NY-ESO-1:161-180</ImmunogenReferenceName>
+                                <ImmunogenEvidenceCode>Exact match to reference information</ImmunogenEvidenceCode>
+                                <Adjuvant>Freund's incomplete (IFA)</Adjuvant>
+                                <Route>Subcutaneous (s.c.)</Route>
+                                <DoseSchedule>The vaccination schedule was once every 3 weeks (one cycle) for four cycles (one course).</DoseSchedule>
+                            </SecondInVivoProcess>
+                            <InVitroAdministration>
+                                <ProcessType>Restimulation in vitro</ProcessType>
+                                <ResponderCellType>PBMC</ResponderCellType>
+                                <StimulatorCellType>PBMC</StimulatorCellType>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Epitope</EpitopeRelation>
+                                    <Object>
+                                        <FragmentOfANaturalSequenceMolecule>
+                                            <ChemicalType>Peptide from protein</ChemicalType>
+                                            <LinearSequence>WITQCFLPVFLAQPPSGQRR</LinearSequence>
+                                            <StartingPosition>161</StartingPosition>
+                                            <EndingPosition>180</EndingPosition>
+                                            <SourceMolecule>
+                                                <GenBankId>P78358.1</GenBankId>
+                                            </SourceMolecule>
+                                            <SourceOrganismId>9606</SourceOrganismId>
+                                        </FragmentOfANaturalSequenceMolecule>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenEvidenceCode>Exact match to reference information</ImmunogenEvidenceCode>
+                            </InVitroAdministration>
+                            <ImmunizationComments>Disease Name: Melanoma.</ImmunizationComments>
+                        </Immunization>
+                        <EffectorCells>
+                            <CellTissueType>Blood</CellTissueType>
+                            <CellType>T cell</CellType>
+                            <CellCultureConditions>Short Term Restimulated</CellCultureConditions>
+                        </EffectorCells>
+                        <AntigenPresentingCells>
+                            <CellTissueType>Lymphoid</CellTissueType>
+                            <CellType>B cell</CellType>
+                            <CellCultureConditions>Cell Line / Clone (EBV transformed, B-LCL)</CellCultureConditions>
+                            <AutologousOrSyngeneic>N</AutologousOrSyngeneic>
+                        </AntigenPresentingCells>
+                        <MhcAllele>
+                            <MhcAlleleId>69</MhcAlleleId>
+                            <MhcEvidenceCode>Not determined</MhcEvidenceCode>
+                        </MhcAllele>
+                        <Antigen>
+                            <AntigenReferenceName>NY-ESO-1:161-180</AntigenReferenceName>
+                            <AntigenObject>
+                                <EpitopeRelation>Epitope</EpitopeRelation>
+                                <Object>
+                                    <FragmentOfANaturalSequenceMolecule>
+                                        <ChemicalType>Peptide from protein</ChemicalType>
+                                        <LinearSequence>WITQCFLPVFLAQPPSGQRR</LinearSequence>
+                                        <StartingPosition>161</StartingPosition>
+                                        <EndingPosition>180</EndingPosition>
+                                        <SourceMolecule>
+                                            <GenBankId>P78358.1</GenBankId>
+                                        </SourceMolecule>
+                                        <SourceOrganismId>9606</SourceOrganismId>
+                                    </FragmentOfANaturalSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Exact match to reference information</AntigenEvidenceCode>
+                        </Antigen>
+                        <AssayInformation>
+                            <AssayTypeId>73</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <NumberOfSubjectsTested>18</NumberOfSubjectsTested>
+                            <NumberOfSubjectsResponded>3</NumberOfSubjectsResponded>
+                            <ResponseFrequency>16.7</ResponseFrequency>
+                            <AssayComments>Of the 14 patients analyzed, 3 showed evidence of immunization against the peptide as defined by 5 or more positive wells and twice the level of pretreatment activity.</AssayComments>
+                        </AssayInformation>
+                    </TCell>
+                </Assays>
+            </Epitope>
+            <Epitope>
+                <EpitopeName>NY-ESO-1:157-165</EpitopeName>
+                <EpitopeStructure>
+                    <SequenceMoleculeNoNaturalSource>
+                        <ChemicalType>Peptide, no natural source</ChemicalType>
+                        <LinearSequence>SLLMWITQV</LinearSequence>
+                    </SequenceMoleculeNoNaturalSource>
+                </EpitopeStructure>
+                <EpitopeRelatedObject>
+                    <RelatedObjectType>The epitope is an analog of:</RelatedObjectType>
+                    <RelatedObject>
+                        <FragmentOfANaturalSequenceMolecule>
+                            <ChemicalType>Peptide from protein</ChemicalType>
+                            <LinearSequence>SLLMWITQC</LinearSequence>
+                            <StartingPosition>157</StartingPosition>
+                            <EndingPosition>165</EndingPosition>
+                            <SourceMolecule>
+                                <GenBankId>P78358.1</GenBankId>
+                            </SourceMolecule>
+                            <SourceOrganismId>9606</SourceOrganismId>
+                        </FragmentOfANaturalSequenceMolecule>
+                    </RelatedObject>
+                </EpitopeRelatedObject>
+                <EpitopeId>59283</EpitopeId>
+                <EpitopeStructureDefines>Exact Epitope</EpitopeStructureDefines>
+                <EpitopeComments>This epitope is an analogue of a naturally found epitope.  It has been synthesized by substituting the cysteine residue at position 9 with a valine residue in order to prevent dimerization of the peptide.</EpitopeComments>
+                <Assays>
+                    <TCell>
+                        <LocationOfData>Table 3</LocationOfData>
+                        <TCellId>4851</TCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>9606</OrganismId>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Occurrence of cancer</InVivoProcessType>
+                                <DiseaseState>DOID:8923</DiseaseState>
+                                <DiseaseStage>Chronic</DiseaseStage>
+                            </FirstInVivoProcess>
+                            <SecondInVivoProcess>
+                                <InVivoProcessType>Administration in vivo</InVivoProcessType>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Epitope</EpitopeRelation>
+                                    <Object>
+                                        <SequenceMoleculeNoNaturalSource>
+                                            <ChemicalType>Peptide, no natural source</ChemicalType>
+                                            <LinearSequence>SLLMWITQV</LinearSequence>
+                                        </SequenceMoleculeNoNaturalSource>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenReferenceName>NY-ESO-1:157-165</ImmunogenReferenceName>
+                                <ImmunogenEvidenceCode>Exact match to reference information</ImmunogenEvidenceCode>
+                                <Adjuvant>Freund's incomplete (IFA)</Adjuvant>
+                                <Route>Subcutaneous (s.c.)</Route>
+                                <DoseSchedule>Five patients received peptide once weekly for 4 weeks followed by a 3-week break for two cycles; seven patients received peptide once every 3 weeks for four cycles; and seven patients received peptide daily for 4 days every 3 weeks for four cycles.</DoseSchedule>
+                            </SecondInVivoProcess>
+                            <InVitroAdministration>
+                                <ProcessType>Restimulation in vitro</ProcessType>
+                                <ResponderCellType>PBMC</ResponderCellType>
+                                <StimulatorCellType>PBMC</StimulatorCellType>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Epitope</EpitopeRelation>
+                                    <Object>
+                                        <SequenceMoleculeNoNaturalSource>
+                                            <ChemicalType>Peptide, no natural source</ChemicalType>
+                                            <LinearSequence>SLLMWITQV</LinearSequence>
+                                        </SequenceMoleculeNoNaturalSource>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenEvidenceCode>Not determined</ImmunogenEvidenceCode>
+                            </InVitroAdministration>
+                            <ImmunizationComments>Disease Name: Melanoma.</ImmunizationComments>
+                        </Immunization>
+                        <EffectorCells>
+                            <CellTissueType>Blood</CellTissueType>
+                            <CellType>T cell</CellType>
+                            <CellCultureConditions>Short Term Restimulated</CellCultureConditions>
+                        </EffectorCells>
+                        <AntigenPresentingCells>
+                            <CellTissueType>Lymphoid</CellTissueType>
+                            <CellType>T2 cells-Lymphoblast</CellType>
+                            <CellCultureConditions>Cell Line / Clone</CellCultureConditions>
+                            <AutologousOrSyngeneic>N</AutologousOrSyngeneic>
+                        </AntigenPresentingCells>
+                        <MhcAllele>
+                            <MhcAlleleId>143</MhcAlleleId>
+                            <MhcEvidenceCode>Not determined</MhcEvidenceCode>
+                        </MhcAllele>
+                        <Antigen>
+                            <AntigenReferenceName>NY-ESO-1:157-165</AntigenReferenceName>
+                            <AntigenObject>
+                                <EpitopeRelation>Epitope</EpitopeRelation>
+                                <Object>
+                                    <SequenceMoleculeNoNaturalSource>
+                                        <ChemicalType>Peptide, no natural source</ChemicalType>
+                                        <LinearSequence>SLLMWITQV</LinearSequence>
+                                    </SequenceMoleculeNoNaturalSource>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Exact match to reference information</AntigenEvidenceCode>
+                        </Antigen>
+                        <AssayInformation>
+                            <AssayTypeId>73</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <NumberOfSubjectsTested>19</NumberOfSubjectsTested>
+                        </AssayInformation>
+                    </TCell>
+                </Assays>
+                <Assays>
+                    <TCell>
+                        <LocationOfData>Table 4</LocationOfData>
+                        <TCellId>7239</TCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>9606</OrganismId>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Occurrence of cancer</InVivoProcessType>
+                                <DiseaseState>DOID:8923</DiseaseState>
+                                <DiseaseStage>Chronic</DiseaseStage>
+                            </FirstInVivoProcess>
+                            <SecondInVivoProcess>
+                                <InVivoProcessType>Administration in vivo</InVivoProcessType>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Epitope</EpitopeRelation>
+                                    <Object>
+                                        <SequenceMoleculeNoNaturalSource>
+                                            <ChemicalType>Peptide, no natural source</ChemicalType>
+                                            <LinearSequence>SLLMWITQV</LinearSequence>
+                                        </SequenceMoleculeNoNaturalSource>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenReferenceName>NY-ESO-1:157-165</ImmunogenReferenceName>
+                                <ImmunogenEvidenceCode>Exact match to reference information</ImmunogenEvidenceCode>
+                                <Adjuvant>Freund's incomplete (IFA)</Adjuvant>
+                                <Route>Subcutaneous (s.c.)</Route>
+                                <DoseSchedule>Five patients received peptide once weekly for 4 weeks followed by a 3-week break for two cycles; seven patients received peptide once every 3 weeks for four cycles; and seven patients received peptide daily for 4 days every 3 weeks for four cycles.</DoseSchedule>
+                            </SecondInVivoProcess>
+                            <InVitroAdministration>
+                                <ProcessType>Restimulation in vitro</ProcessType>
+                                <ResponderCellType>PBMC</ResponderCellType>
+                                <StimulatorCellType>PBMC</StimulatorCellType>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Epitope</EpitopeRelation>
+                                    <Object>
+                                        <SequenceMoleculeNoNaturalSource>
+                                            <ChemicalType>Peptide, no natural source</ChemicalType>
+                                            <LinearSequence>SLLMWITQV</LinearSequence>
+                                        </SequenceMoleculeNoNaturalSource>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenEvidenceCode>Exact match to reference information</ImmunogenEvidenceCode>
+                            </InVitroAdministration>
+                        </Immunization>
+                        <EffectorCells>
+                            <CellTissueType>Blood</CellTissueType>
+                            <CellType>T cell</CellType>
+                            <CellCultureConditions>Short Term Restimulated</CellCultureConditions>
+                        </EffectorCells>
+                        <AntigenPresentingCells>
+                            <CellTissueType>Lymphoid</CellTissueType>
+                            <CellType>T2 cells-Lymphoblast</CellType>
+                            <CellCultureConditions>Cell Line / Clone</CellCultureConditions>
+                            <AutologousOrSyngeneic>N</AutologousOrSyngeneic>
+                        </AntigenPresentingCells>
+                        <MhcAllele>
+                            <MhcAlleleId>143</MhcAlleleId>
+                            <MhcEvidenceCode>Not determined</MhcEvidenceCode>
+                        </MhcAllele>
+                        <Antigen>
+                            <AntigenReferenceName>NY-ESO-1:157-165</AntigenReferenceName>
+                            <AntigenObject>
+                                <EpitopeRelation>Epitope</EpitopeRelation>
+                                <Object>
+                                    <SequenceMoleculeNoNaturalSource>
+                                        <ChemicalType>Peptide, no natural source</ChemicalType>
+                                        <LinearSequence>SLLMWITQV</LinearSequence>
+                                    </SequenceMoleculeNoNaturalSource>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Exact match to reference information</AntigenEvidenceCode>
+                        </Antigen>
+                        <AssayInformation>
+                            <AssayTypeId>73</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <NumberOfSubjectsTested>44</NumberOfSubjectsTested>
+                            <NumberOfSubjectsResponded>29</NumberOfSubjectsResponded>
+                            <ResponseFrequency>65.9</ResponseFrequency>
+                        </AssayInformation>
+                    </TCell>
+                </Assays>
+            </Epitope>
+        </Epitopes>
+    </Reference>
+</References>
+

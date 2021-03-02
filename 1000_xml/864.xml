@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<References xsi:schemaLocation="http://www.iedb.org/schema/CurationSchema http://beta.iedb.org/schema/Curation.xsd" xmlns="http://www.iedb.org/schema/CurationSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <Reference>
+        <ReferenceId>864</ReferenceId>
+        <DateLastUpdated>2020-09-10-07:00</DateLastUpdated>
+        <Article>
+            <PubmedId>11222689</PubmedId>
+            <Abstract>Cytotoxic T lymphocytes (CTLs) are proposed to be critical for protection from intracellular pathogens such as Ebola virus. However, there have been no demonstrations that protection against Ebola virus is mediated by Ebola virus-specific CTLs. Here, we report that C57BL/6 mice vaccinated with Venezuelan equine encephalitis virus replicons encoding the Ebola virus nucleoprotein (NP) survived lethal challenge with Ebola virus. Vaccination induced both antibodies to the NP and a major histocompatibility complex class I-restricted CTL response to an 11-amino-acid sequence in the amino-terminal portion of the Ebola virus NP. Passive transfer of polyclonal NP-specific antiserum did not protect recipient mice. In contrast, adoptive transfer of CTLs specific for the Ebola virus NP protected unvaccinated mice from lethal Ebola virus challenge. The protective CTLs were CD8(+), restricted to the D(b) class I molecule, and recognized an epitope within amino acids 43 to 53 (VYQVNNLEEIC) in the Ebola virus NP. The demonstration that CTLs can prevent lethal Ebola virus infection affects vaccine development in that protective cellular immune responses may be required for optimal protection from Ebola virus.</Abstract>
+            <ArticleYear>2001</ArticleYear>
+            <ArticlePages>2660-4</ArticlePages>
+            <ArticleTitle>Protection from Ebola virus mediated by cytotoxic T lymphocytes specific for the viral nucleoprotein.</ArticleTitle>
+            <Authors>
+                <Author>
+                    <LastName>Wilson</LastName>
+                    <ForeName>J A</ForeName>
+                </Author>
+                <Author>
+                    <LastName>Hart</LastName>
+                    <ForeName>M K</ForeName>
+                </Author>
+            </Authors>
+            <Affiliations>Virology Division, U.S. Army Medical Research Institute of Infectious Diseases, Fort Detrick, Frederick, Maryland 21702-5011, USA.</Affiliations>
+            <ArticleChemicalList>Antibodies, Viral;Nucleocapsid Proteins;Vaccines, Synthetic;Viral Vaccines;nucleocapsid protein, Ebola virus</ArticleChemicalList>
+            <ArticleMeshHeadingsList>Adoptive Transfer; Animals; Antibodies, Viral(blood); Ebolavirus(immunology); Encephalitis Virus, Venezuelan Equine(genetics); Female; Hemorrhagic Fever, Ebola(immunology; prevention &amp; control); Immunization, Passive; Mice; Mice, Inbred C57BL; Nucleocapsid Proteins(genetics; immunology); Replicon(genetics); T-Lymphocytes, Cytotoxic(immunology); Vaccination; Vaccines, Synthetic(immunology); Viral Vaccines(administration &amp; dosage; immunology)</ArticleMeshHeadingsList>
+            <Journal>
+                <Volume>75</Volume>
+                <Issue>6</Issue>
+                <Title>Journal of virology</Title>
+                <Issn>1098-5514</Issn>
+                <MedlineTa>J Virol</MedlineTa>
+            </Journal>
+        </Article>
+        <Epitopes>
+            <Epitope>
+                <EpitopeName>NP peptide</EpitopeName>
+                <EpitopeStructure>
+                    <FragmentOfANaturalSequenceMolecule>
+                        <ChemicalType>Peptide from protein</ChemicalType>
+                        <LinearSequence>VYQVNNLEEIC</LinearSequence>
+                        <StartingPosition>43</StartingPosition>
+                        <EndingPosition>53</EndingPosition>
+                        <SourceMolecule>
+                            <GenBankId>P18272.2</GenBankId>
+                        </SourceMolecule>
+                        <SourceOrganismId>205488</SourceOrganismId>
+                    </FragmentOfANaturalSequenceMolecule>
+                </EpitopeStructure>
+                <LocationOfData>Page 2661</LocationOfData>
+                <EpitopeId>72143</EpitopeId>
+                <ReferenceStartingPosition>43</ReferenceStartingPosition>
+                <ReferenceEndingPosition>53</ReferenceEndingPosition>
+                <EpitopeEvidenceCode>Not determined</EpitopeEvidenceCode>
+                <EpitopeStructureDefines>Exact Epitope</EpitopeStructureDefines>
+                <Assays>
+                    <TCell>
+                        <LocationOfData>Figure 1</LocationOfData>
+                        <TCellId>9512</TCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>10000067</OrganismId>
+                                <Sex>F</Sex>
+                                <Age>6-8-week-old</Age>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Administration in vivo</InVivoProcessType>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Source Antigen</EpitopeRelation>
+                                    <Object>
+                                        <AccessionSequenceMolecule>
+                                            <ChemicalType>Protein</ChemicalType>
+                                            <Molecule>
+                                                <GenBankId>P18272.2</GenBankId>
+                                            </Molecule>
+                                            <SourceOrganismId>205488</SourceOrganismId>
+                                        </AccessionSequenceMolecule>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenReferenceName>Nucleoprotein</ImmunogenReferenceName>
+                                <ImmunogenEvidenceCode>Not determined</ImmunogenEvidenceCode>
+                                <ImmunogenContainingObject>
+                                    <ComplexedMolecule>
+                                        <ComplexType>Other Complexed Molecule</ComplexType>
+                                        <PeptideModifications/>
+                                    </ComplexedMolecule>
+                                </ImmunogenContainingObject>
+                                <Route>Subcutaneous (s.c.)</Route>
+                                <DoseSchedule>Mice received 2-3 booster injections at one-month intervals.</DoseSchedule>
+                            </FirstInVivoProcess>
+                            <InVitroAdministration>
+                                <ProcessType>Restimulation in vitro</ProcessType>
+                                <ResponderCellType>Splenocyte</ResponderCellType>
+                                <StimulatorCellType>Splenocyte</StimulatorCellType>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Epitope</EpitopeRelation>
+                                    <Object>
+                                        <FragmentOfANaturalSequenceMolecule>
+                                            <ChemicalType>Peptide from protein</ChemicalType>
+                                            <LinearSequence>VYQVNNLEEIC</LinearSequence>
+                                            <StartingPosition>43</StartingPosition>
+                                            <EndingPosition>53</EndingPosition>
+                                            <SourceMolecule>
+                                                <GenBankId>P18272.2</GenBankId>
+                                            </SourceMolecule>
+                                            <SourceOrganismId>205488</SourceOrganismId>
+                                        </FragmentOfANaturalSequenceMolecule>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenEvidenceCode>Exact match to reference information</ImmunogenEvidenceCode>
+                            </InVitroAdministration>
+                            <ImmunizationComments>Mice were immunized at the base of the neck with the Venezuelan equine encephalitis virus replicons encoding the Ebola virus NP protein. The carrier was composed of Venezuelan equine encephalitis virus replicons.</ImmunizationComments>
+                        </Immunization>
+                        <EffectorCells>
+                            <CellTissueType>Spleen</CellTissueType>
+                            <CellType>T cell CD8+</CellType>
+                            <CellCultureConditions>Short Term Restimulated</CellCultureConditions>
+                        </EffectorCells>
+                        <AntigenPresentingCells>
+                            <CellTissueType>Lymphoid</CellTissueType>
+                            <CellType>EL-4 cells-Lymphoblast</CellType>
+                            <CellCultureConditions>Cell Line / Clone</CellCultureConditions>
+                            <AutologousOrSyngeneic>N</AutologousOrSyngeneic>
+                        </AntigenPresentingCells>
+                        <MhcAllele>
+                            <MhcAlleleId>172</MhcAlleleId>
+                            <MhcEvidenceCode>Not determined</MhcEvidenceCode>
+                        </MhcAllele>
+                        <Antigen>
+                            <AntigenReferenceName>NP peptide</AntigenReferenceName>
+                            <AntigenObject>
+                                <EpitopeRelation>Epitope</EpitopeRelation>
+                                <Object>
+                                    <FragmentOfANaturalSequenceMolecule>
+                                        <ChemicalType>Peptide from protein</ChemicalType>
+                                        <LinearSequence>VYQVNNLEEIC</LinearSequence>
+                                        <StartingPosition>43</StartingPosition>
+                                        <EndingPosition>53</EndingPosition>
+                                        <SourceMolecule>
+                                            <GenBankId>P18272.2</GenBankId>
+                                        </SourceMolecule>
+                                        <SourceOrganismId>205488</SourceOrganismId>
+                                    </FragmentOfANaturalSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Exact match to reference information</AntigenEvidenceCode>
+                        </Antigen>
+                        <AssayInformation>
+                            <AssayTypeId>67</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <AssayComments>EL4 target cells coated with the Ebola virus nucleoprotein peptide (VYQVNNLEEIC) were lysed.The response was significantly lowered when CD4+-enriched cells were used as effector cells, while it was high using unfractionated and CD8+-enriched cultures, demonstrating that CD8+ cells mediated the cytotoxic activity.  The CD8+ cells were shown to be restricted to the Db class I molecule.</AssayComments>
+                        </AssayInformation>
+                    </TCell>
+                </Assays>
+            </Epitope>
+        </Epitopes>
+    </Reference>
+</References>
+

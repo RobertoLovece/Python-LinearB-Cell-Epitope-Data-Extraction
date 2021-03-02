@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<References xsi:schemaLocation="http://www.iedb.org/schema/CurationSchema http://beta.iedb.org/schema/Curation.xsd" xmlns="http://www.iedb.org/schema/CurationSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <Reference>
+        <ReferenceId>612</ReferenceId>
+        <DateLastUpdated>2020-10-11-07:00</DateLastUpdated>
+        <Article>
+            <PubmedId>2508085</PubmedId>
+            <Abstract>The crystal structure of a fluorescein-Fab (4-4-20) complex was determined at 2.7 A resolution by molecular replacement methods. The starting model was the refined 2.7 A structure of unliganded Fab from an autoantibody (BV04-01) with specificity for single-stranded DNA. In the 4-4-20 complex fluorescein fits tightly into a relatively deep slot formed by a network of tryptophan and tyrosine side chains. The planar xanthonyl ring of the hapten is accommodated at the bottom of the slot while the phenylcarboxyl group interfaces with solvent. Tyrosine 37 (light chain) and tryptophan 33 (heavy chain) flank the xanthonyl group and tryptophan 101 (light chain) provides the floor of the combining site. Tyrosine 103 (heavy chain) is situated near the phenyl ring of the hapten and tyrosine 102 (heavy chain) forms part of the boundary of the slot. Histidine 31 and arginine 39 of the light chain are located in positions adjacent to the two enolic groups at opposite ends of the xanthonyl ring, and thus account for neutralization of one of two negative charges in the haptenic dianion. Formation of an enol-arginine ion pair in a region of low dielectric constant may account for an incremental increase in affinity of 2-3 orders of magnitude in the 4-4-20 molecule relative to other members of an idiotypic family of monoclonal antifluorescyl antibodies. The phenyl carboxyl group of fluorescein appears to be hydrogen bonded to the phenolic hydroxyl group of tyrosine 37 of the light chain. A molecule of 2-methyl-2,4-pentanediol (MPD), trapped in the interface of the variable domains just below the fluorescein binding site, may be partly responsible for the decrease in affinity for the hapten in MPD.</Abstract>
+            <ArticleYear>1989</ArticleYear>
+            <ArticlePages>271-80</ArticlePages>
+            <ArticleTitle>Three-dimensional structure of a fluorescein-Fab complex crystallized in 2-methyl-2,4-pentanediol.</ArticleTitle>
+            <Authors>
+                <Author>
+                    <LastName>Herron</LastName>
+                    <ForeName>J N</ForeName>
+                </Author>
+                <Author>
+                    <LastName>He</LastName>
+                    <ForeName>X M</ForeName>
+                </Author>
+                <Author>
+                    <LastName>Mason</LastName>
+                    <ForeName>M L</ForeName>
+                </Author>
+                <Author>
+                    <LastName>Voss</LastName>
+                    <ForeName>E W</ForeName>
+                    <Suffix>Jr</Suffix>
+                </Author>
+                <Author>
+                    <LastName>Edmundson</LastName>
+                    <ForeName>A B</ForeName>
+                </Author>
+            </Authors>
+            <Affiliations>Department of Biology, University of Utah, Salt Lake City 84112.</Affiliations>
+            <ArticleChemicalList>Antibodies, Monoclonal;Fluoresceins;Glycols;Immunoglobulin Fab Fragments;Immunoglobulin G;Immunoglobulin Heavy Chains;Immunoglobulin Light Chains;hexylene glycol;Fluorescein</ArticleChemicalList>
+            <ArticleMeshHeadingsList>Antibodies, Monoclonal; Computer Graphics; Crystallization; Fluorescein; Fluoresceins; Glycols; Immunoglobulin Fab Fragments; Immunoglobulin G; Immunoglobulin Heavy Chains; Immunoglobulin Light Chains; Models, Molecular; Protein Conformation; X-Ray Diffraction</ArticleMeshHeadingsList>
+            <Journal>
+                <Volume>5</Volume>
+                <Issue>4</Issue>
+                <Title>Proteins</Title>
+                <Issn>0887-3585</Issn>
+                <MedlineTa>Proteins</MedlineTa>
+            </Journal>
+        </Article>
+        <Epitopes>
+            <Epitope>
+                <EpitopeName>fluorescein</EpitopeName>
+                <EpitopeStructure>
+                    <AccessionNonSequenceMolecule>
+                        <ChemicalType>Other Non-Sequence</ChemicalType>
+                        <Molecule>
+                            <ChEBIId>CHEBI:31624</ChEBIId>
+                        </Molecule>
+                    </AccessionNonSequenceMolecule>
+                </EpitopeStructure>
+                <LocationOfData>Figure 1 and PDB 4FAB</LocationOfData>
+                <EpitopeId>137337</EpitopeId>
+                <EpitopeStructureDefines>Exact Epitope</EpitopeStructureDefines>
+                <Assays>
+                    <BCell>
+                        <LocationOfData>Table I, Figures 1, 2, 3, 4, 5 and PDB 4FAB</LocationOfData>
+                        <BCellId>5737</BCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>10000000</OrganismId>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Administration in vivo</InVivoProcessType>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Structurally Related</EpitopeRelation>
+                                    <Object>
+                                        <AccessionNonSequenceMolecule>
+                                            <ChemicalType>Other Non-Sequence</ChemicalType>
+                                            <Molecule>
+                                                <ChEBIId>CHEBI:37918</ChEBIId>
+                                            </Molecule>
+                                        </AccessionNonSequenceMolecule>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenReferenceName>Fluorescein I-KLH</ImmunogenReferenceName>
+                                <ImmunogenEvidenceCode>Exact match to reference information</ImmunogenEvidenceCode>
+                                <ImmunogenContainingObject>
+                                    <ComplexedMolecule>
+                                        <ComplexType>Protein conjugate</ComplexType>
+                                        <PeptideModifications/>
+                                        <SourceMolecule>
+                                            <IedbAccession>SRC40074</IedbAccession>
+                                        </SourceMolecule>
+                                        <MoleculeSourceOrganismId>55429</MoleculeSourceOrganismId>
+                                    </ComplexedMolecule>
+                                </ImmunogenContainingObject>
+                                <DoseSchedule>2 doses of 200 µg</DoseSchedule>
+                            </FirstInVivoProcess>
+                            <ImmunizationComments>Generation of monoclonal antibody 4-4-20 was originally described in the reference cited: Kranz and Voss (1981) Mol Immunol 18: 889-898 [PMID: 7335083].</ImmunizationComments>
+                        </Immunization>
+                        <AssayInformation>
+                            <AssayTypeId>436</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <QuantitativeMeasurement>2.7</QuantitativeMeasurement>
+                            <MeasurementInequality>=</MeasurementInequality>
+                            <AssayComments>The crystal structure of Fab 4-4-20 in complex with the epitope was determined. The intact 4-4-20 antibody was derived from the same idiotypic family as 9-40 (see complex of 9-40 Fab with fluorescein [PDB: 1T66]). These two antibodies differ by few somatic mutations in the germline genes which leads to a 1000-fold reduction in affinity for fluorescein of 9-40 relative to 4-4-20.</AssayComments>
+                        </AssayInformation>
+                        <AssayedAntibody>
+                            <AssayedAntibodySourceMaterial>Purified Immunoglobulin</AssayedAntibodySourceMaterial>
+                            <AssayedAntibodyImmunoglobulinDomain>Fab</AssayedAntibodyImmunoglobulinDomain>
+                            <AssayedAntibodyPurificationStatus>Monoclonal</AssayedAntibodyPurificationStatus>
+                            <AssayedAntibodyName>anti-fluorescein 4-4-20</AssayedAntibodyName>
+                            <AssayedAntibodyHeavyChainType>IgG2a</AssayedAntibodyHeavyChainType>
+                            <AssayedAntibodyLightChainType>Kappa</AssayedAntibodyLightChainType>
+                            <AssayedAntibodyObject>
+                                <MultiChainMolecule>
+                                    <ChemicalType>Multi-Chain protein</ChemicalType>
+                                    <MoleculeName>4-4-20</MoleculeName>
+                                    <Chain1>
+                                        <Molecule>
+                                            <GenBankId>4FAB_H</GenBankId>
+                                        </Molecule>
+                                        <SourceOrganismId>10090</SourceOrganismId>
+                                    </Chain1>
+                                    <Chain2>
+                                        <Molecule>
+                                            <GenBankId>4FAB_L</GenBankId>
+                                        </Molecule>
+                                        <SourceOrganismId>10090</SourceOrganismId>
+                                    </Chain2>
+                                </MultiChainMolecule>
+                            </AssayedAntibodyObject>
+                        </AssayedAntibody>
+                        <Antigen>
+                            <AntigenReferenceName>fluorescein</AntigenReferenceName>
+                            <AntigenConformation>Non-Native/Unknown</AntigenConformation>
+                            <AntigenObject>
+                                <EpitopeRelation>Epitope</EpitopeRelation>
+                                <Object>
+                                    <AccessionNonSequenceMolecule>
+                                        <ChemicalType>Other Non-Sequence</ChemicalType>
+                                        <Molecule>
+                                            <ChEBIId>CHEBI:31624</ChEBIId>
+                                        </Molecule>
+                                    </AccessionNonSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Exact match to reference information</AntigenEvidenceCode>
+                        </Antigen>
+                        <ThreeDimensionalStructureOfComplex>
+                            <ComplexPdbId>4FAB</ComplexPdbId>
+                            <AntibodyChain1PdbChain>H</AntibodyChain1PdbChain>
+                            <AntibodyChain2PdbChain>L</AntibodyChain2PdbChain>
+                            <AntigenChainPdbChain>H</AntigenChainPdbChain>
+                            <ViewerFlag>Y</ViewerFlag>
+                            <CuratedContacts>
+                                <EpitopeResidues>H: (FDS)218;</EpitopeResidues>
+                                <AntibodyResiduesInteractingWithAntigen>L: ; H: ;</AntibodyResiduesInteractingWithAntigen>
+                            </CuratedContacts>
+                            <CalculatedContacts>
+                                <EpitopeResidues>H: (FDS)218;</EpitopeResidues>
+                                <AntibodyResiduesInteractingWithAntigen>H: W33, Y56, Y102, Y103; L: H31, Y37, R39, S96, W101</AntibodyResiduesInteractingWithAntigen>
+                                <ContactAreaForAntigen>412.0</ContactAreaForAntigen>
+                                <ContactAreaForAntibody>276.5</ContactAreaForAntibody>
+                            </CalculatedContacts>
+                        </ThreeDimensionalStructureOfComplex>
+                    </BCell>
+                </Assays>
+            </Epitope>
+        </Epitopes>
+    </Reference>
+</References>
+

@@ -1,0 +1,423 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<References xsi:schemaLocation="http://www.iedb.org/schema/CurationSchema http://beta.iedb.org/schema/Curation.xsd" xmlns="http://www.iedb.org/schema/CurationSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <Reference>
+        <ReferenceId>1277</ReferenceId>
+        <DateLastUpdated>2019-06-04-07:00</DateLastUpdated>
+        <Article>
+            <PubmedId>12538713</PubmedId>
+            <Abstract>Linear peptides (SynB vectors) with specific sequence motifs have been identified that are capable of enhancing the transport of a wide range of molecules into cells. These peptide vectors have been used to deliver exogenous peptides and protein Ags across the cell membrane and into the cytoplasm of cells. Specifically, in vitro analysis indicated that these SynB peptides enhanced the uptake of two 9-mer peptide Ags, NP(147-155) and Mtb(250-258) (T cell epitopes of influenza nucleoprotein and Mycobacterium tuberculosis, respectively) and the M. tuberculosis Ag Mtb8.4 protein, into K562 cells when covalently linked to the respective Ags. Furthermore, selected SynB vectors, when conjugated to these same Ags and used as immunogens, resulted in considerably enhanced Ag-specific CTL responses. Several SynB vectors were tested and resulted in varying levels of cellular uptake. The efficiency of uptake correlated with the ability of the SynB construct to deliver each epitope in vivo and induce specific CTL responses in mice. These data suggest that peptide vectors, such as SynB that transport target Ags across the cell membrane in a highly efficient manner, have significant potential for vaccine delivery.</Abstract>
+            <ArticleYear>2003</ArticleYear>
+            <ArticlePages>1498-503</ArticlePages>
+            <ArticleTitle>Induction of antigen-specific CTL responses using antigens conjugated to short peptide vectors.</ArticleTitle>
+            <Authors>
+                <Author>
+                    <LastName>Day</LastName>
+                    <ForeName>Fiona H</ForeName>
+                </Author>
+                <Author>
+                    <LastName>Zhang</LastName>
+                    <ForeName>Yu</ForeName>
+                </Author>
+                <Author>
+                    <LastName>Clair</LastName>
+                    <ForeName>Philippe</ForeName>
+                </Author>
+                <Author>
+                    <LastName>Grabstein</LastName>
+                    <ForeName>Kenneth H</ForeName>
+                </Author>
+                <Author>
+                    <LastName>Mazel</LastName>
+                    <ForeName>Martine</ForeName>
+                </Author>
+                <Author>
+                    <LastName>Rees</LastName>
+                    <ForeName>Anthony R</ForeName>
+                </Author>
+                <Author>
+                    <LastName>Kaczorek</LastName>
+                    <ForeName>Michel</ForeName>
+                </Author>
+                <Author>
+                    <LastName>Temsamani</LastName>
+                    <ForeName>Jamal</ForeName>
+                </Author>
+            </Authors>
+            <Affiliations>Corixa Corporation, Seattle, WA 98104, USA. dayf@amgen.com.</Affiliations>
+            <ArticleChemicalList>Antigens, Bacterial;Epitopes, T-Lymphocyte;NP protein, Influenza A virus;Nucleoproteins;Peptide Fragments;RNA-Binding Proteins;Recombinant Proteins;Viral Core Proteins</ArticleChemicalList>
+            <ArticleMeshHeadingsList>Amino Acid Sequence; Animals; Antigen Presentation(genetics; immunology); Antigens, Bacterial(administration &amp; dosage; immunology; metabolism); Cytotoxicity, Immunologic(genetics); Epitopes, T-Lymphocyte(administration &amp; dosage; immunology); Female; Genetic Vectors(administration &amp; dosage; immunology); Humans; K562 Cells; Lymphocyte Activation(genetics); Mice; Mice, Inbred BALB C; Mice, Inbred C57BL; Mice, Inbred DBA; Molecular Sequence Data; Mycobacterium tuberculosis(immunology); Nucleoproteins(administration &amp; dosage; immunology; metabolism); Peptide Fragments(administration &amp; dosage; immunology; metabolism); RNA-Binding Proteins; Recombinant Proteins(administration &amp; dosage; immunology; metabolism); T-Lymphocytes, Cytotoxic(immunology); Tumor Cells, Cultured; Viral Core Proteins(administration &amp; dosage; immunology; metabolism)</ArticleMeshHeadingsList>
+            <Journal>
+                <Volume>170</Volume>
+                <Issue>3</Issue>
+                <Title>Journal of immunology (Baltimore, Md. : 1950)</Title>
+                <Issn>0022-1767</Issn>
+                <MedlineTa>J Immunol</MedlineTa>
+            </Journal>
+        </Article>
+        <Epitopes>
+            <Epitope>
+                <EpitopeName>Mtbp</EpitopeName>
+                <EpitopeStructure>
+                    <FragmentOfANaturalSequenceMolecule>
+                        <ChemicalType>Peptide from protein</ChemicalType>
+                        <LinearSequence>SMTNSGVSM</LinearSequence>
+                        <StartingPosition>250</StartingPosition>
+                        <EndingPosition>258</EndingPosition>
+                        <SourceMolecule>
+                            <GenBankId>Q11031.1</GenBankId>
+                        </SourceMolecule>
+                        <SourceOrganismId>1773</SourceOrganismId>
+                    </FragmentOfANaturalSequenceMolecule>
+                </EpitopeStructure>
+                <LocationOfData>Table 1</LocationOfData>
+                <EpitopeId>59760</EpitopeId>
+                <ReferenceStartingPosition>250</ReferenceStartingPosition>
+                <ReferenceEndingPosition>258</ReferenceEndingPosition>
+                <EpitopeEvidenceCode>Not determined</EpitopeEvidenceCode>
+                <EpitopeStructureDefines>Exact Epitope</EpitopeStructureDefines>
+                <EpitopeComments>Database protein name is Hypothetical PPE-family protein PPE19.</EpitopeComments>
+                <Assays>
+                    <TCell>
+                        <LocationOfData>Figure 3</LocationOfData>
+                        <TCellId>18797</TCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>10000067</OrganismId>
+                                <Sex>F</Sex>
+                                <Age>6-8 wk</Age>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Administration in vivo</InVivoProcessType>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Epitope</EpitopeRelation>
+                                    <Object>
+                                        <FragmentOfANaturalSequenceMolecule>
+                                            <ChemicalType>Peptide from protein</ChemicalType>
+                                            <LinearSequence>SMTNSGVSM</LinearSequence>
+                                            <StartingPosition>250</StartingPosition>
+                                            <EndingPosition>258</EndingPosition>
+                                            <SourceMolecule>
+                                                <GenBankId>Q11031.1</GenBankId>
+                                            </SourceMolecule>
+                                            <SourceOrganismId>1773</SourceOrganismId>
+                                        </FragmentOfANaturalSequenceMolecule>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenReferenceName>Mtbp</ImmunogenReferenceName>
+                                <ImmunogenEvidenceCode>Exact match to reference information</ImmunogenEvidenceCode>
+                                <ImmunogenContainingObject>
+                                    <ComplexedMolecule>
+                                        <ComplexType>Peptide conjugate</ComplexType>
+                                        <PeptideModifications/>
+                                    </ComplexedMolecule>
+                                </ImmunogenContainingObject>
+                                <Route>Intradermal</Route>
+                                <DoseSchedule>1 dose of 75 micrograms epitope-SynB conjugate.</DoseSchedule>
+                            </FirstInVivoProcess>
+                            <InVitroAdministration>
+                                <ProcessType>Restimulation in vitro</ProcessType>
+                                <ResponderCellType>Splenocyte</ResponderCellType>
+                                <StimulatorCellType>EL-4 cells-Lymphoblast</StimulatorCellType>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Epitope</EpitopeRelation>
+                                    <Object>
+                                        <FragmentOfANaturalSequenceMolecule>
+                                            <ChemicalType>Peptide from protein</ChemicalType>
+                                            <LinearSequence>SMTNSGVSM</LinearSequence>
+                                            <StartingPosition>250</StartingPosition>
+                                            <EndingPosition>258</EndingPosition>
+                                            <SourceMolecule>
+                                                <GenBankId>Q11031.1</GenBankId>
+                                            </SourceMolecule>
+                                            <SourceOrganismId>1773</SourceOrganismId>
+                                        </FragmentOfANaturalSequenceMolecule>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenEvidenceCode>Exact match to reference information</ImmunogenEvidenceCode>
+                            </InVitroAdministration>
+                            <ImmunizationComments>3 wks after immunization, splenocytes were harvested and cultured in vitro.  Epitope loaded EL-4 cells were used for 2 rounds of stimulation lasting 6 days each. The carrier was composed of SynB4.</ImmunizationComments>
+                        </Immunization>
+                        <EffectorCells>
+                            <CellTissueType>Spleen</CellTissueType>
+                            <CellType>T cell</CellType>
+                            <CellCultureConditions>Short Term Restimulated</CellCultureConditions>
+                        </EffectorCells>
+                        <AntigenPresentingCells>
+                            <CellTissueType>Lymphoid</CellTissueType>
+                            <CellType>EL-4 cells-Lymphoblast</CellType>
+                            <CellCultureConditions>Cell Line / Clone</CellCultureConditions>
+                            <AutologousOrSyngeneic>Y</AutologousOrSyngeneic>
+                        </AntigenPresentingCells>
+                        <MhcAllele>
+                            <MhcAlleleId>167</MhcAlleleId>
+                            <MhcEvidenceCode>T cell assay -Biological process measured</MhcEvidenceCode>
+                        </MhcAllele>
+                        <Antigen>
+                            <AntigenReferenceName>Mtbp</AntigenReferenceName>
+                            <AntigenObject>
+                                <EpitopeRelation>Epitope</EpitopeRelation>
+                                <Object>
+                                    <FragmentOfANaturalSequenceMolecule>
+                                        <ChemicalType>Peptide from protein</ChemicalType>
+                                        <LinearSequence>SMTNSGVSM</LinearSequence>
+                                        <StartingPosition>250</StartingPosition>
+                                        <EndingPosition>258</EndingPosition>
+                                        <SourceMolecule>
+                                            <GenBankId>Q11031.1</GenBankId>
+                                        </SourceMolecule>
+                                        <SourceOrganismId>1773</SourceOrganismId>
+                                    </FragmentOfANaturalSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Exact match to reference information</AntigenEvidenceCode>
+                        </Antigen>
+                        <AssayInformation>
+                            <AssayTypeId>67</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <QuantitativeMeasurement>30.0</QuantitativeMeasurement>
+                            <MeasurementInequality>&gt;</MeasurementInequality>
+                            <NumberOfSubjectsTested>3</NumberOfSubjectsTested>
+                            <NumberOfSubjectsResponded>3</NumberOfSubjectsResponded>
+                            <ResponseFrequency>100</ResponseFrequency>
+                            <AssayComments>Peptide specific CTL responses are induced in peptide immunized mice when the immunogen is a fusion between epitope and a carrier (vector) SynB peptide, previously shown to facilitate peptide entry in the cytoplasm of cells. Three SynB peptides were assayed and only SynB4 (AWSFRVSYRGISYRRSR) is found to enhance the immunogenicity of the epitope, while the use of SynB1 (RGGRLSYSRRRFSTSTGR) and SynB3 (RRLSYSRRRF) as carriers does not induce responses above epitope-IFA immunization levels, where peptide specific CTL responses are not induced.</AssayComments>
+                        </AssayInformation>
+                    </TCell>
+                </Assays>
+                <Assays>
+                    <TCell>
+                        <LocationOfData>Figure 4</LocationOfData>
+                        <TCellId>18801</TCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>10000067</OrganismId>
+                                <Sex>F</Sex>
+                                <Age>6-8 wk</Age>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Administration in vivo</InVivoProcessType>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Epitope</EpitopeRelation>
+                                    <Object>
+                                        <FragmentOfANaturalSequenceMolecule>
+                                            <ChemicalType>Peptide from protein</ChemicalType>
+                                            <LinearSequence>SMTNSGVSM</LinearSequence>
+                                            <StartingPosition>250</StartingPosition>
+                                            <EndingPosition>258</EndingPosition>
+                                            <SourceMolecule>
+                                                <GenBankId>Q11031.1</GenBankId>
+                                            </SourceMolecule>
+                                            <SourceOrganismId>1773</SourceOrganismId>
+                                        </FragmentOfANaturalSequenceMolecule>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenReferenceName>Mtbp</ImmunogenReferenceName>
+                                <ImmunogenEvidenceCode>Exact match to reference information</ImmunogenEvidenceCode>
+                                <ImmunogenContainingObject>
+                                    <ComplexedMolecule>
+                                        <ComplexType>Peptide conjugate</ComplexType>
+                                        <PeptideModifications/>
+                                    </ComplexedMolecule>
+                                </ImmunogenContainingObject>
+                                <Route>Intradermal</Route>
+                                <DoseSchedule>1 dose of 75 micrograms epitope-SynB conjugate.</DoseSchedule>
+                            </FirstInVivoProcess>
+                            <InVitroAdministration>
+                                <ProcessType>Restimulation in vitro</ProcessType>
+                                <ResponderCellType>Splenocyte</ResponderCellType>
+                                <StimulatorCellType>EL-4 cells-Lymphoblast</StimulatorCellType>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Epitope</EpitopeRelation>
+                                    <Object>
+                                        <FragmentOfANaturalSequenceMolecule>
+                                            <ChemicalType>Peptide from protein</ChemicalType>
+                                            <LinearSequence>SMTNSGVSM</LinearSequence>
+                                            <StartingPosition>250</StartingPosition>
+                                            <EndingPosition>258</EndingPosition>
+                                            <SourceMolecule>
+                                                <GenBankId>Q11031.1</GenBankId>
+                                            </SourceMolecule>
+                                            <SourceOrganismId>1773</SourceOrganismId>
+                                        </FragmentOfANaturalSequenceMolecule>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenEvidenceCode>Exact match to reference information</ImmunogenEvidenceCode>
+                            </InVitroAdministration>
+                            <ImmunizationComments>3 wks after immunization, splenocytes were harvested and cultured in vitro.  Source protein loaded EL-4 cells were used for 2 rounds of stimulation lasting 6 days each. The carrier was composed of SynB4.</ImmunizationComments>
+                        </Immunization>
+                        <EffectorCells>
+                            <CellTissueType>Spleen</CellTissueType>
+                            <CellType>T cell</CellType>
+                            <CellCultureConditions>Short Term Restimulated</CellCultureConditions>
+                        </EffectorCells>
+                        <AntigenPresentingCells>
+                            <CellTissueType>Lymphoid</CellTissueType>
+                            <CellType>EL-4 cells-Lymphoblast</CellType>
+                            <CellCultureConditions>Cell Line / Clone</CellCultureConditions>
+                            <AutologousOrSyngeneic>Y</AutologousOrSyngeneic>
+                        </AntigenPresentingCells>
+                        <MhcAllele>
+                            <MhcAlleleId>167</MhcAlleleId>
+                            <MhcEvidenceCode>T cell assay -Biological process measured</MhcEvidenceCode>
+                        </MhcAllele>
+                        <Antigen>
+                            <AntigenReferenceName>Mtb39</AntigenReferenceName>
+                            <AntigenObject>
+                                <EpitopeRelation>Source Antigen</EpitopeRelation>
+                                <Object>
+                                    <AccessionSequenceMolecule>
+                                        <ChemicalType>Protein</ChemicalType>
+                                        <Molecule>
+                                            <GenBankId>Q11031.1</GenBankId>
+                                        </Molecule>
+                                        <SourceOrganismId>1773</SourceOrganismId>
+                                    </AccessionSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Not determined</AntigenEvidenceCode>
+                        </Antigen>
+                        <AssayInformation>
+                            <AssayTypeId>67</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <QuantitativeMeasurement>25.0</QuantitativeMeasurement>
+                            <MeasurementInequality>&gt;</MeasurementInequality>
+                            <NumberOfSubjectsTested>3</NumberOfSubjectsTested>
+                            <NumberOfSubjectsResponded>2</NumberOfSubjectsResponded>
+                            <ResponseFrequency>66.7</ResponseFrequency>
+                            <AssayComments>CTL responses against the source protein expressing cells are induced in peptide immunized mice when the immunogen is a fusion between the epitope and a carrier SynB4 peptide (AWSFRVSYRGISYRRSR), previously shown to facilitate peptide entry in the cytoplasm of cells and to enhance peptide specific immune response.</AssayComments>
+                        </AssayInformation>
+                    </TCell>
+                </Assays>
+            </Epitope>
+            <Epitope>
+                <EpitopeName>NPp</EpitopeName>
+                <EpitopeStructure>
+                    <FragmentOfANaturalSequenceMolecule>
+                        <ChemicalType>Peptide from protein</ChemicalType>
+                        <LinearSequence>TYQRTRALV</LinearSequence>
+                        <StartingPosition>147</StartingPosition>
+                        <EndingPosition>155</EndingPosition>
+                        <SourceMolecule>
+                            <GenBankId>P18072.1</GenBankId>
+                        </SourceMolecule>
+                        <SourceOrganismId>11320</SourceOrganismId>
+                    </FragmentOfANaturalSequenceMolecule>
+                </EpitopeStructure>
+                <LocationOfData>Table 1</LocationOfData>
+                <EpitopeId>67436</EpitopeId>
+                <ReferenceStartingPosition>147</ReferenceStartingPosition>
+                <ReferenceEndingPosition>155</ReferenceEndingPosition>
+                <EpitopeEvidenceCode>Not determined</EpitopeEvidenceCode>
+                <EpitopeStructureDefines>Exact Epitope</EpitopeStructureDefines>
+                <EpitopeComments>Database entry is of one of the several strains including this epitope.</EpitopeComments>
+                <Assays>
+                    <TCell>
+                        <LocationOfData>Figure 2</LocationOfData>
+                        <TCellId>18803</TCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>10000000</OrganismId>
+                                <Sex>F</Sex>
+                                <Age>6-8 wk</Age>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Administration in vivo</InVivoProcessType>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Epitope</EpitopeRelation>
+                                    <Object>
+                                        <FragmentOfANaturalSequenceMolecule>
+                                            <ChemicalType>Peptide from protein</ChemicalType>
+                                            <LinearSequence>TYQRTRALV</LinearSequence>
+                                            <StartingPosition>147</StartingPosition>
+                                            <EndingPosition>155</EndingPosition>
+                                            <SourceMolecule>
+                                                <GenBankId>P18072.1</GenBankId>
+                                            </SourceMolecule>
+                                            <SourceOrganismId>11320</SourceOrganismId>
+                                        </FragmentOfANaturalSequenceMolecule>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenReferenceName>NPp</ImmunogenReferenceName>
+                                <ImmunogenEvidenceCode>Exact match to reference information</ImmunogenEvidenceCode>
+                                <ImmunogenContainingObject>
+                                    <ComplexedMolecule>
+                                        <ComplexType>Peptide conjugate</ComplexType>
+                                        <PeptideModifications/>
+                                    </ComplexedMolecule>
+                                </ImmunogenContainingObject>
+                                <Route>Intradermal</Route>
+                                <DoseSchedule>1 dose of 75 micrograms epitope-SynB conjugate.</DoseSchedule>
+                            </FirstInVivoProcess>
+                            <InVitroAdministration>
+                                <ProcessType>Restimulation in vitro</ProcessType>
+                                <ResponderCellType>Splenocyte</ResponderCellType>
+                                <StimulatorCellType>P815-Mast cell</StimulatorCellType>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Epitope</EpitopeRelation>
+                                    <Object>
+                                        <FragmentOfANaturalSequenceMolecule>
+                                            <ChemicalType>Peptide from protein</ChemicalType>
+                                            <LinearSequence>TYQRTRALV</LinearSequence>
+                                            <StartingPosition>147</StartingPosition>
+                                            <EndingPosition>155</EndingPosition>
+                                            <SourceMolecule>
+                                                <GenBankId>P18072.1</GenBankId>
+                                            </SourceMolecule>
+                                            <SourceOrganismId>11320</SourceOrganismId>
+                                        </FragmentOfANaturalSequenceMolecule>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenEvidenceCode>Exact match to reference information</ImmunogenEvidenceCode>
+                            </InVitroAdministration>
+                            <ImmunizationComments>3 wks after immunization, splenocytes were harvested and cultured in vitro.  Epitope loaded EL-4 cells were used for 2 rounds of stimulation lasting 6 days each. The carrier was composed of SynB4.</ImmunizationComments>
+                        </Immunization>
+                        <EffectorCells>
+                            <CellTissueType>Spleen</CellTissueType>
+                            <CellType>T cell</CellType>
+                            <CellCultureConditions>Short Term Restimulated</CellCultureConditions>
+                        </EffectorCells>
+                        <AntigenPresentingCells>
+                            <CellTissueType>Other</CellTissueType>
+                            <CellType>P815-Mast cell</CellType>
+                            <CellCultureConditions>Cell Line / Clone</CellCultureConditions>
+                            <AutologousOrSyngeneic>Y</AutologousOrSyngeneic>
+                        </AntigenPresentingCells>
+                        <MhcAllele>
+                            <MhcAlleleId>169</MhcAlleleId>
+                            <MhcEvidenceCode>T cell assay -Biological process measured</MhcEvidenceCode>
+                        </MhcAllele>
+                        <Antigen>
+                            <AntigenReferenceName>NPp</AntigenReferenceName>
+                            <AntigenObject>
+                                <EpitopeRelation>Epitope</EpitopeRelation>
+                                <Object>
+                                    <FragmentOfANaturalSequenceMolecule>
+                                        <ChemicalType>Peptide from protein</ChemicalType>
+                                        <LinearSequence>TYQRTRALV</LinearSequence>
+                                        <StartingPosition>147</StartingPosition>
+                                        <EndingPosition>155</EndingPosition>
+                                        <SourceMolecule>
+                                            <GenBankId>P18072.1</GenBankId>
+                                        </SourceMolecule>
+                                        <SourceOrganismId>11320</SourceOrganismId>
+                                    </FragmentOfANaturalSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Exact match to reference information</AntigenEvidenceCode>
+                        </Antigen>
+                        <AssayInformation>
+                            <AssayTypeId>67</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <QuantitativeMeasurement>60.0</QuantitativeMeasurement>
+                            <MeasurementInequality>&gt;</MeasurementInequality>
+                            <NumberOfSubjectsTested>3</NumberOfSubjectsTested>
+                            <NumberOfSubjectsResponded>3</NumberOfSubjectsResponded>
+                            <ResponseFrequency>100</ResponseFrequency>
+                            <AssayComments>Peptide specific CTL responses are induced in peptide immunized mice when the immunogen is a fusion between the epitope and carrier (vector) SynB peptides, previously shown to facilitate peptide entry in the cytoplasm of cells. Three SynB peptides were assayed and SynB4 (AWSFRVSYRGISYRRSR) and SynB3 (RRLSYSRRRF) were found to enhance the immunogenicity of the epitope, while the use of SynB1 (RGGRLSYSRRRFSTSTGR) as a carrier does not induce responses above the low levels attained with epitope-IFA immunization.</AssayComments>
+                        </AssayInformation>
+                    </TCell>
+                </Assays>
+            </Epitope>
+        </Epitopes>
+    </Reference>
+</References>
+

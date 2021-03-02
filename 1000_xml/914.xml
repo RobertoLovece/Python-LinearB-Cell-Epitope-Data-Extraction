@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<References xsi:schemaLocation="http://www.iedb.org/schema/CurationSchema http://beta.iedb.org/schema/Curation.xsd" xmlns="http://www.iedb.org/schema/CurationSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <Reference>
+        <ReferenceId>914</ReferenceId>
+        <DateLastUpdated>2020-09-10-07:00</DateLastUpdated>
+        <Article>
+            <PubmedId>10648860</PubmedId>
+            <Abstract>Many enzyme-linked immunosorbent assays take advantage of immobilized antigens for the identification of antibody binding sites. Generally, the analysis of cellulose membrane-bound B-cell epitopes is currently considered of high utility. We adapted this methodology for the stimulation of a T helper cell hybridoma with known specificity. Forty overlapping peptides corresponding to the entire rabies virus nucleoprotein were synthesized in duplicates on a single sheet of 90x130 mm size amino-modified paper. The efficacy of the peptide assembly was monitored by color staining of the unreacted amino groups. After completion of the synthesis, the side-chain protecting groups were removed, and the membrane was thoroughly cleaned of all organic and inorganic contaminants. The membrane was cut into pieces, and a standard lymphokine release assay was performed directly from the paper-bound antigens. From all the 40 peptide spots only peptide 31D stimulated the proliferation of the 9C5.D8-H T-cell hybridoma, known to react to this peptide. By using this protocol, as little as 0.4 microgram (approximately 200 pmole) of peptide could be detected. According to mass spectrometry the T-cell stimulation proceeded as a true solid-phase assay. The peptide neither leached from the membrane nor was cleaved by the medium-splenocyte mixture. Additionally, tryptic digestion of the cellulose membrane released the expected peptide fragments.</Abstract>
+            <ArticleYear>2000</ArticleYear>
+            <ArticlePages>95-105</ArticlePages>
+            <ArticleTitle>In situ stimulation of a T helper cell hybridoma with a cellulose-bound peptide antigen.</ArticleTitle>
+            <Authors>
+                <Author>
+                    <LastName>Otvos</LastName>
+                    <ForeName>L</ForeName>
+                    <Suffix>Jr</Suffix>
+                </Author>
+                <Author>
+                    <LastName>Pease</LastName>
+                    <ForeName>A M</ForeName>
+                </Author>
+                <Author>
+                    <LastName>Bokonyi</LastName>
+                    <ForeName>K</ForeName>
+                </Author>
+                <Author>
+                    <LastName>Giles-Davis</LastName>
+                    <ForeName>W</ForeName>
+                </Author>
+                <Author>
+                    <LastName>Rogers</LastName>
+                    <ForeName>M E</ForeName>
+                </Author>
+                <Author>
+                    <LastName>Hintz</LastName>
+                    <ForeName>P A</ForeName>
+                </Author>
+                <Author>
+                    <LastName>Hoffmann</LastName>
+                    <ForeName>R</ForeName>
+                </Author>
+                <Author>
+                    <LastName>Ertl</LastName>
+                    <ForeName>H C</ForeName>
+                </Author>
+            </Authors>
+            <Affiliations>The Wistar Institute, 3601 Spruce Street, Philadelphia, PA, USA. otvos@wistar.upenn.edu.</Affiliations>
+            <ArticleChemicalList>Antigens;Immunodominant Epitopes;Nucleoproteins;Peptide Library;Viral Proteins;Cellulose</ArticleChemicalList>
+            <ArticleMeshHeadingsList>Amino Acid Sequence; Animals; Antigens(administration &amp; dosage; genetics); Cell Line; Cellulose; Chromatography, High Pressure Liquid; Hybridomas(immunology); Immunodominant Epitopes(genetics); Mice; Mice, Inbred C3H; Molecular Sequence Data; Nucleoproteins(genetics; immunology); Peptide Library; Rabies virus(genetics; immunology); T-Lymphocytes, Helper-Inducer(immunology); Viral Proteins(genetics; immunology)</ArticleMeshHeadingsList>
+            <Journal>
+                <Volume>233</Volume>
+                <Issue>1-2</Issue>
+                <Title>Journal of immunological methods</Title>
+                <Issn>1872-7905</Issn>
+                <MedlineTa>J Immunol Methods</MedlineTa>
+            </Journal>
+        </Article>
+        <Epitopes>
+            <Epitope>
+                <EpitopeName>31D</EpitopeName>
+                <EpitopeStructure>
+                    <FragmentOfANaturalSequenceMolecule>
+                        <ChemicalType>Peptide from protein</ChemicalType>
+                        <LinearSequence>AVYTRIMMNGGRLKR</LinearSequence>
+                        <StartingPosition>404</StartingPosition>
+                        <EndingPosition>418</EndingPosition>
+                        <SourceMolecule>
+                            <GenBankId>BAC07527.1</GenBankId>
+                        </SourceMolecule>
+                        <SourceOrganismId>11295</SourceOrganismId>
+                    </FragmentOfANaturalSequenceMolecule>
+                </EpitopeStructure>
+                <LocationOfData>Page 99</LocationOfData>
+                <EpitopeId>5638</EpitopeId>
+                <ReferenceStartingPosition>404</ReferenceStartingPosition>
+                <ReferenceEndingPosition>418</ReferenceEndingPosition>
+                <EpitopeEvidenceCode>Representative selection</EpitopeEvidenceCode>
+                <EpitopeStructureDefines>Epitope containing region/antigenic site</EpitopeStructureDefines>
+                <Assays>
+                    <TCell>
+                        <LocationOfData>Figure 1</LocationOfData>
+                        <TCellId>1882532</TCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>10000038</OrganismId>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Administration in vivo</InVivoProcessType>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Source Organism</EpitopeRelation>
+                                    <Object>
+                                        <Organism>
+                                            <SubType>Organism</SubType>
+                                            <SourceOrganismId>11295</SourceOrganismId>
+                                        </Organism>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenReferenceName>BPL-inactivated ERA virus</ImmunogenReferenceName>
+                                <ImmunogenEvidenceCode>Representative selection</ImmunogenEvidenceCode>
+                                <Adjuvant>Freund's complete</Adjuvant>
+                                <Route>Subcutaneous (s.c.)</Route>
+                                <DoseSchedule>1 dose of 1 µg.</DoseSchedule>
+                            </FirstInVivoProcess>
+                            <InVitroAdministration>
+                                <ProcessType>Restimulation in vitro</ProcessType>
+                                <ResponderCellType>Lymph node cells</ResponderCellType>
+                            </InVitroAdministration>
+                            <ImmunizationComments>Generation of the T Cell line was previously described in Ertl et al. J Virol. 1989 Jul;63(7):2885-92 [PMID:2470920]. Mice were sacrificed 6 to 7 days after immunization and draining lymph nodes (i.e. popliteal lymph nodes) were harvested.</ImmunizationComments>
+                        </Immunization>
+                        <EffectorCells>
+                            <CellType>T cell</CellType>
+                            <CellCultureConditions>Cell Line / Clone (Hybridoma)</CellCultureConditions>
+                        </EffectorCells>
+                        <AntigenPresentingCells>
+                            <CellTissueType>Spleen</CellTissueType>
+                            <CellType>Splenocyte</CellType>
+                            <CellCultureConditions>Direct Ex Vivo</CellCultureConditions>
+                            <AutologousOrSyngeneic>N</AutologousOrSyngeneic>
+                            <SourceOrganismId>10000038</SourceOrganismId>
+                        </AntigenPresentingCells>
+                        <MhcAllele>
+                            <MhcAlleleId>118</MhcAlleleId>
+                            <MhcEvidenceCode>T cell assay -Biological process measured</MhcEvidenceCode>
+                        </MhcAllele>
+                        <Antigen>
+                            <AntigenReferenceName>31D</AntigenReferenceName>
+                            <AntigenObject>
+                                <EpitopeRelation>Source Organism</EpitopeRelation>
+                                <Object>
+                                    <Organism>
+                                        <SubType>Organism</SubType>
+                                        <SourceOrganismId>11295</SourceOrganismId>
+                                    </Organism>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Representative selection</AntigenEvidenceCode>
+                        </Antigen>
+                        <AssayInformation>
+                            <AssayTypeId>62</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <AssayComments>The epitope-specific T-cell line proliferated in response to the virus.</AssayComments>
+                        </AssayInformation>
+                    </TCell>
+                </Assays>
+                <Assays>
+                    <TCell>
+                        <LocationOfData>Figures 1, 2, and 3 and Table 1</LocationOfData>
+                        <TCellId>10362</TCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>10000038</OrganismId>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Administration in vivo</InVivoProcessType>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Source Organism</EpitopeRelation>
+                                    <Object>
+                                        <Organism>
+                                            <SubType>Organism</SubType>
+                                            <SourceOrganismId>11295</SourceOrganismId>
+                                        </Organism>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenReferenceName>BPL-inactivated ERA virus</ImmunogenReferenceName>
+                                <ImmunogenEvidenceCode>Representative selection</ImmunogenEvidenceCode>
+                                <Adjuvant>Freund's complete</Adjuvant>
+                                <Route>Subcutaneous (s.c.)</Route>
+                                <DoseSchedule>1 dose of 1 µg.</DoseSchedule>
+                            </FirstInVivoProcess>
+                            <InVitroAdministration>
+                                <ProcessType>Restimulation in vitro</ProcessType>
+                                <ResponderCellType>Lymph node cells</ResponderCellType>
+                            </InVitroAdministration>
+                            <ImmunizationComments>Generation of the T Cell line was previously described in Ertl et al. J Virol. 1989 Jul;63(7):2885-92 [PMID:2470920]. Mice were sacrificed 6 to 7 days after immunization and draining lymph nodes (i.e. popliteal lymph nodes) were harvested.</ImmunizationComments>
+                        </Immunization>
+                        <EffectorCells>
+                            <CellType>T cell</CellType>
+                            <CellCultureConditions>Cell Line / Clone (Hybridoma)</CellCultureConditions>
+                        </EffectorCells>
+                        <AntigenPresentingCells>
+                            <CellTissueType>Spleen</CellTissueType>
+                            <CellType>Splenocyte</CellType>
+                            <CellCultureConditions>Direct Ex Vivo</CellCultureConditions>
+                            <AutologousOrSyngeneic>N</AutologousOrSyngeneic>
+                            <SourceOrganismId>10000038</SourceOrganismId>
+                        </AntigenPresentingCells>
+                        <MhcAllele>
+                            <MhcAlleleId>118</MhcAlleleId>
+                            <MhcEvidenceCode>T cell assay -Biological process measured</MhcEvidenceCode>
+                        </MhcAllele>
+                        <Antigen>
+                            <AntigenReferenceName>31D</AntigenReferenceName>
+                            <AntigenObject>
+                                <EpitopeRelation>Epitope</EpitopeRelation>
+                                <Object>
+                                    <FragmentOfANaturalSequenceMolecule>
+                                        <ChemicalType>Peptide from protein</ChemicalType>
+                                        <LinearSequence>AVYTRIMMNGGRLKR</LinearSequence>
+                                        <StartingPosition>404</StartingPosition>
+                                        <EndingPosition>418</EndingPosition>
+                                        <SourceMolecule>
+                                            <GenBankId>BAC07527.1</GenBankId>
+                                        </SourceMolecule>
+                                        <SourceOrganismId>11295</SourceOrganismId>
+                                    </FragmentOfANaturalSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Exact match to reference information</AntigenEvidenceCode>
+                        </Antigen>
+                        <AssayInformation>
+                            <AssayTypeId>62</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                        </AssayInformation>
+                    </TCell>
+                </Assays>
+            </Epitope>
+        </Epitopes>
+    </Reference>
+</References>
+

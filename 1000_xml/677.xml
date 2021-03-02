@@ -1,0 +1,406 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<References xsi:schemaLocation="http://www.iedb.org/schema/CurationSchema http://beta.iedb.org/schema/Curation.xsd" xmlns="http://www.iedb.org/schema/CurationSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <Reference>
+        <ReferenceId>677</ReferenceId>
+        <DateLastUpdated>2020-09-10-07:00</DateLastUpdated>
+        <Article>
+            <PubmedId>14988501</PubmedId>
+            <Abstract>In the immune response against a typical T cell-dependent protein antigen, the affinity maturation process is fast and is associated with the early class switch from IgM to IgG. As such, a comprehension of the molecular basis of affinity maturation could be of great importance in biomedical and biotechnological applications. Affinity maturation of anti-protein antibodies has been reported to be the result of small structural changes, mostly confined to the periphery of the antigen-combining site. However, little is understood about how these small structural changes account for the increase in the affinity toward the antigen. Herein, we present the three-dimensional structure of the Fab fragment from BALB/c mouse mAb F10.6.6 in complex with the antigen lysozyme. This antibody was obtained from a long-term exposure to the antigen. mAb F10.6.6, and the previously described antibody D44.1, are the result of identical or nearly identical somatic recombination events. However, different mutations in the framework and variable regions result in an approximately 10(3) higher affinity for the F10.6.6 antibody. The comparison of the three-dimensional structures of these Fab-lysozyme complexes reveals that the affinity maturation produces a fine tuning of the complementarity of the antigen-combining site toward the epitope, explaining at the molecular level how the immune system is able to increase the affinity of an anti-protein antibody to subnanomolar levels.</Abstract>
+            <ArticleYear>2004</ArticleYear>
+            <ArticlePages>3539-44</ArticlePages>
+            <ArticleTitle>Structural mechanism for affinity maturation of an anti-lysozyme antibody.</ArticleTitle>
+            <Authors>
+                <Author>
+                    <LastName>Cauerhff</LastName>
+                    <ForeName>Ana</ForeName>
+                </Author>
+                <Author>
+                    <LastName>Goldbaum</LastName>
+                    <ForeName>Fernando A</ForeName>
+                </Author>
+                <Author>
+                    <LastName>Braden</LastName>
+                    <ForeName>Bradford C</ForeName>
+                </Author>
+            </Authors>
+            <Affiliations>Instituto Leloir, Consejo Nacional de Investigaciones Científicas y Técnicas de Argentina and Facultad de Ciencias Exactas y Naturales, Universidad de Buenos Aires, 1405 Buenos Aires, Argentina.</Affiliations>
+            <ArticleChemicalList>Antibodies, Monoclonal;Antigens;Complementarity Determining Regions;Immunoglobulin Fab Fragments;Macromolecular Substances;Muramidase</ArticleChemicalList>
+            <ArticleMeshHeadingsList>Amino Acid Sequence; Animals; Antibodies, Monoclonal(chemistry; genetics; metabolism); Antibody Affinity; Antigens; Chickens; Complementarity Determining Regions; Immunoglobulin Fab Fragments(chemistry; genetics; metabolism); In Vitro Techniques; Kinetics; Macromolecular Substances; Mice; Mice, Inbred BALB C; Models, Molecular; Molecular Sequence Data; Muramidase(antagonists &amp; inhibitors; chemistry; immunology); Sequence Homology, Amino Acid; Thermodynamics</ArticleMeshHeadingsList>
+            <Journal>
+                <Volume>101</Volume>
+                <Issue>10</Issue>
+                <Title>Proceedings of the National Academy of Sciences of the United States of America</Title>
+                <Issn>0027-8424</Issn>
+                <MedlineTa>Proc Natl Acad Sci U S A</MedlineTa>
+            </Journal>
+        </Article>
+        <Epitopes>
+            <Epitope>
+                <EpitopeName>Epitope of F10.6.6 on Hen egg white lysozyme</EpitopeName>
+                <EpitopeStructure>
+                    <DiscontinuousRegionOnAccessionSequenceMolecule>
+                        <ChemicalType>Discontinuous protein residues</ChemicalType>
+                        <DiscontinuousResidues>Q59, T61, R63, N64, T65, D66, G67, S68, T69, Y71, N83, D84, G85, R86, P88, P97, S99, L102</DiscontinuousResidues>
+                        <SourceMolecule>
+                            <GenBankId>P00698.1</GenBankId>
+                        </SourceMolecule>
+                        <SourceOrganismId>9031</SourceOrganismId>
+                    </DiscontinuousRegionOnAccessionSequenceMolecule>
+                </EpitopeStructure>
+                <LocationOfData>Table 2 and PDB 1P2C</LocationOfData>
+                <EpitopeId>137489</EpitopeId>
+                <ReferenceRegion>Q641, T643, R645, N646, T647, D648, G649, S650, T651, Y653, N665, D666, G667, R668, P670, P679, S681, L684</ReferenceRegion>
+                <EpitopeEvidenceCode>Author provided Identifier</EpitopeEvidenceCode>
+                <EpitopeStructureDefines>Exact Epitope</EpitopeStructureDefines>
+                <EpitopeComments>The epitope residues were calculated based on the 4 Å atomic distance between the antigen and the antibody from [PDB: 1P2C].</EpitopeComments>
+                <Assays>
+                    <BCell>
+                        <LocationOfData>Table 1</LocationOfData>
+                        <BCellId>1786273</BCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>10000000</OrganismId>
+                                <Age>14-15 weeks</Age>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Administration in vivo</InVivoProcessType>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Source Antigen</EpitopeRelation>
+                                    <Object>
+                                        <AccessionSequenceMolecule>
+                                            <ChemicalType>Protein</ChemicalType>
+                                            <Molecule>
+                                                <GenBankId>P00698.1</GenBankId>
+                                            </Molecule>
+                                            <SourceOrganismId>9031</SourceOrganismId>
+                                        </AccessionSequenceMolecule>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenReferenceName>HEL</ImmunogenReferenceName>
+                                <ImmunogenEvidenceCode>Representative selection</ImmunogenEvidenceCode>
+                                <Adjuvant>Freund's complete</Adjuvant>
+                                <Adjuvant>Freund's incomplete (IFA)</Adjuvant>
+                                <Route>Subcutaneous (s.c.)</Route>
+                                <DoseSchedule>1 dose of 100 µg in CFA on day 1 and boosts of 50 or 100 µg in IFA on days 14, 28, 42, 56, 70, 84, and 96</DoseSchedule>
+                            </FirstInVivoProcess>
+                            <ImmunizationComments>Generation of the monoclonal antibody was previously described in the references: Goldbaum et al. (1999) J. Immunol. 162 (10), 6040-6045 [PMID: 10229844] and Harper et al. (1987) Mol Immunol 24(2): 97-108 [PMID: 2441250].</ImmunizationComments>
+                        </Immunization>
+                        <AssayInformation>
+                            <AssayTypeId>262</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <QuantitativeMeasurement>7190000.0</QuantitativeMeasurement>
+                            <AssayComments>The epitope specific F10.6.6 Fab bound to hen egg white lysozyme with high affinity as measured by biosensor.</AssayComments>
+                        </AssayInformation>
+                        <AssayedAntibody>
+                            <AssayedAntibodySourceMaterial>Purified Immunoglobulin</AssayedAntibodySourceMaterial>
+                            <AssayedAntibodyImmunoglobulinDomain>Fab</AssayedAntibodyImmunoglobulinDomain>
+                            <AssayedAntibodyPurificationStatus>Monoclonal</AssayedAntibodyPurificationStatus>
+                            <AssayedAntibodyName>F10.6.6</AssayedAntibodyName>
+                            <AssayedAntibodyHeavyChainType>IgG1</AssayedAntibodyHeavyChainType>
+                            <AssayedAntibodyLightChainType>Kappa</AssayedAntibodyLightChainType>
+                            <AssayedAntibodyObject>
+                                <MultiChainMolecule>
+                                    <ChemicalType>Multi-Chain protein</ChemicalType>
+                                    <MoleculeName>F10.6.6</MoleculeName>
+                                    <Chain1>
+                                        <Molecule>
+                                            <GenBankId>1P2C_B</GenBankId>
+                                        </Molecule>
+                                        <SourceOrganismId>10090</SourceOrganismId>
+                                    </Chain1>
+                                    <Chain2>
+                                        <Molecule>
+                                            <GenBankId>1P2C_A</GenBankId>
+                                        </Molecule>
+                                        <SourceOrganismId>10090</SourceOrganismId>
+                                    </Chain2>
+                                </MultiChainMolecule>
+                            </AssayedAntibodyObject>
+                        </AssayedAntibody>
+                        <Antigen>
+                            <AntigenConformation>Native</AntigenConformation>
+                            <AntigenObject>
+                                <EpitopeRelation>Source Antigen</EpitopeRelation>
+                                <Object>
+                                    <AccessionSequenceMolecule>
+                                        <ChemicalType>Protein</ChemicalType>
+                                        <Molecule>
+                                            <GenBankId>P00698.1</GenBankId>
+                                        </Molecule>
+                                        <SourceOrganismId>9031</SourceOrganismId>
+                                    </AccessionSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Representative selection</AntigenEvidenceCode>
+                        </Antigen>
+                    </BCell>
+                </Assays>
+                <Assays>
+                    <BCell>
+                        <LocationOfData>Table 1</LocationOfData>
+                        <BCellId>1786275</BCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>10000000</OrganismId>
+                                <Age>14-15 weeks</Age>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Administration in vivo</InVivoProcessType>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Source Antigen</EpitopeRelation>
+                                    <Object>
+                                        <AccessionSequenceMolecule>
+                                            <ChemicalType>Protein</ChemicalType>
+                                            <Molecule>
+                                                <GenBankId>P00698.1</GenBankId>
+                                            </Molecule>
+                                            <SourceOrganismId>9031</SourceOrganismId>
+                                        </AccessionSequenceMolecule>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenReferenceName>HEL</ImmunogenReferenceName>
+                                <ImmunogenEvidenceCode>Representative selection</ImmunogenEvidenceCode>
+                                <Adjuvant>Freund's complete</Adjuvant>
+                                <Adjuvant>Freund's incomplete (IFA)</Adjuvant>
+                                <Route>Subcutaneous (s.c.)</Route>
+                                <DoseSchedule>1 dose of 100 µg in CFA on day 1 and boosts of 50 or 100 µg in IFA on days 14, 28, 42, 56, 70, 84, and 96</DoseSchedule>
+                            </FirstInVivoProcess>
+                            <ImmunizationComments>Generation of the monoclonal antibody was previously described in the references: Goldbaum et al. (1999) J. Immunol. 162 (10), 6040-6045 [PMID: 10229844] and Harper et al. (1987) Mol Immunol 24(2): 97-108 [PMID: 2441250].</ImmunizationComments>
+                        </Immunization>
+                        <AssayInformation>
+                            <AssayTypeId>263</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <QuantitativeMeasurement>0.00070</QuantitativeMeasurement>
+                            <AssayComments>The epitope specific F10.6.6 Fab bound to hen egg white lysozyme with high affinity as measured by biosensor.</AssayComments>
+                        </AssayInformation>
+                        <AssayedAntibody>
+                            <AssayedAntibodySourceMaterial>Purified Immunoglobulin</AssayedAntibodySourceMaterial>
+                            <AssayedAntibodyImmunoglobulinDomain>Fab</AssayedAntibodyImmunoglobulinDomain>
+                            <AssayedAntibodyPurificationStatus>Monoclonal</AssayedAntibodyPurificationStatus>
+                            <AssayedAntibodyName>F10.6.6</AssayedAntibodyName>
+                            <AssayedAntibodyHeavyChainType>IgG1</AssayedAntibodyHeavyChainType>
+                            <AssayedAntibodyLightChainType>Kappa</AssayedAntibodyLightChainType>
+                            <AssayedAntibodyObject>
+                                <MultiChainMolecule>
+                                    <ChemicalType>Multi-Chain protein</ChemicalType>
+                                    <MoleculeName>F10.6.6</MoleculeName>
+                                    <Chain1>
+                                        <Molecule>
+                                            <GenBankId>1P2C_B</GenBankId>
+                                        </Molecule>
+                                        <SourceOrganismId>10090</SourceOrganismId>
+                                    </Chain1>
+                                    <Chain2>
+                                        <Molecule>
+                                            <GenBankId>1P2C_A</GenBankId>
+                                        </Molecule>
+                                        <SourceOrganismId>10090</SourceOrganismId>
+                                    </Chain2>
+                                </MultiChainMolecule>
+                            </AssayedAntibodyObject>
+                        </AssayedAntibody>
+                        <Antigen>
+                            <AntigenConformation>Native</AntigenConformation>
+                            <AntigenObject>
+                                <EpitopeRelation>Source Antigen</EpitopeRelation>
+                                <Object>
+                                    <AccessionSequenceMolecule>
+                                        <ChemicalType>Protein</ChemicalType>
+                                        <Molecule>
+                                            <GenBankId>P00698.1</GenBankId>
+                                        </Molecule>
+                                        <SourceOrganismId>9031</SourceOrganismId>
+                                    </AccessionSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Representative selection</AntigenEvidenceCode>
+                        </Antigen>
+                    </BCell>
+                </Assays>
+                <Assays>
+                    <BCell>
+                        <LocationOfData>Table 1</LocationOfData>
+                        <BCellId>1786276</BCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>10000000</OrganismId>
+                                <Age>14-15 weeks</Age>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Administration in vivo</InVivoProcessType>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Source Antigen</EpitopeRelation>
+                                    <Object>
+                                        <AccessionSequenceMolecule>
+                                            <ChemicalType>Protein</ChemicalType>
+                                            <Molecule>
+                                                <GenBankId>P00698.1</GenBankId>
+                                            </Molecule>
+                                            <SourceOrganismId>9031</SourceOrganismId>
+                                        </AccessionSequenceMolecule>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenReferenceName>HEL</ImmunogenReferenceName>
+                                <ImmunogenEvidenceCode>Representative selection</ImmunogenEvidenceCode>
+                                <Adjuvant>Freund's complete</Adjuvant>
+                                <Adjuvant>Freund's incomplete (IFA)</Adjuvant>
+                                <Route>Subcutaneous (s.c.)</Route>
+                                <DoseSchedule>1 dose of 100 µg in CFA on day 1 and boosts of 50 or 100 µg in IFA on days 14, 28, 42, 56, 70, 84, and 96</DoseSchedule>
+                            </FirstInVivoProcess>
+                            <ImmunizationComments>Generation of the monoclonal antibody was previously described in the references: Goldbaum et al. (1999) J. Immunol. 162 (10), 6040-6045 [PMID: 10229844] and Harper et al. (1987) Mol Immunol 24(2): 97-108 [PMID: 2441250].</ImmunizationComments>
+                        </Immunization>
+                        <AssayInformation>
+                            <AssayTypeId>242</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <QuantitativeMeasurement>10.2</QuantitativeMeasurement>
+                            <AssayComments>The epitope specific F10.6.6 Fab bound to hen egg white lysozyme with high affinity as measured by biosensor.</AssayComments>
+                        </AssayInformation>
+                        <AssayedAntibody>
+                            <AssayedAntibodySourceMaterial>Purified Immunoglobulin</AssayedAntibodySourceMaterial>
+                            <AssayedAntibodyImmunoglobulinDomain>Fab</AssayedAntibodyImmunoglobulinDomain>
+                            <AssayedAntibodyPurificationStatus>Monoclonal</AssayedAntibodyPurificationStatus>
+                            <AssayedAntibodyName>F10.6.6</AssayedAntibodyName>
+                            <AssayedAntibodyHeavyChainType>IgG1</AssayedAntibodyHeavyChainType>
+                            <AssayedAntibodyLightChainType>Kappa</AssayedAntibodyLightChainType>
+                            <AssayedAntibodyObject>
+                                <MultiChainMolecule>
+                                    <ChemicalType>Multi-Chain protein</ChemicalType>
+                                    <MoleculeName>F10.6.6</MoleculeName>
+                                    <Chain1>
+                                        <Molecule>
+                                            <GenBankId>1P2C_B</GenBankId>
+                                        </Molecule>
+                                        <SourceOrganismId>10090</SourceOrganismId>
+                                    </Chain1>
+                                    <Chain2>
+                                        <Molecule>
+                                            <GenBankId>1P2C_A</GenBankId>
+                                        </Molecule>
+                                        <SourceOrganismId>10090</SourceOrganismId>
+                                    </Chain2>
+                                </MultiChainMolecule>
+                            </AssayedAntibodyObject>
+                        </AssayedAntibody>
+                        <Antigen>
+                            <AntigenConformation>Native</AntigenConformation>
+                            <AntigenObject>
+                                <EpitopeRelation>Source Antigen</EpitopeRelation>
+                                <Object>
+                                    <AccessionSequenceMolecule>
+                                        <ChemicalType>Protein</ChemicalType>
+                                        <Molecule>
+                                            <GenBankId>P00698.1</GenBankId>
+                                        </Molecule>
+                                        <SourceOrganismId>9031</SourceOrganismId>
+                                    </AccessionSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Representative selection</AntigenEvidenceCode>
+                        </Antigen>
+                    </BCell>
+                </Assays>
+                <Assays>
+                    <BCell>
+                        <LocationOfData>Figures 2, 3, 4, Tables 2, 3 and PDB 1P2C</LocationOfData>
+                        <BCellId>1786277</BCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>10000000</OrganismId>
+                                <Age>14-15 weeks</Age>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Administration in vivo</InVivoProcessType>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Source Antigen</EpitopeRelation>
+                                    <Object>
+                                        <AccessionSequenceMolecule>
+                                            <ChemicalType>Protein</ChemicalType>
+                                            <Molecule>
+                                                <GenBankId>P00698.1</GenBankId>
+                                            </Molecule>
+                                            <SourceOrganismId>9031</SourceOrganismId>
+                                        </AccessionSequenceMolecule>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenReferenceName>HEL</ImmunogenReferenceName>
+                                <ImmunogenEvidenceCode>Representative selection</ImmunogenEvidenceCode>
+                                <Adjuvant>Freund's complete</Adjuvant>
+                                <Adjuvant>Freund's incomplete (IFA)</Adjuvant>
+                                <Route>Subcutaneous (s.c.)</Route>
+                                <DoseSchedule>1 dose of 100 µg in CFA on day 1 and boosts of 50 or 100 µg in IFA on days 14, 28, 42, 56, 70, 84, and 96</DoseSchedule>
+                            </FirstInVivoProcess>
+                            <ImmunizationComments>Generation of the monoclonal antibody was previously described in the references: Goldbaum et al. (1999) J. Immunol. 162 (10), 6040-6045 [PMID: 10229844] and Harper et al. (1987) Mol Immunol 24(2): 97-108 [PMID: 2441250].</ImmunizationComments>
+                        </Immunization>
+                        <AssayInformation>
+                            <AssayTypeId>436</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <QuantitativeMeasurement>2.0</QuantitativeMeasurement>
+                            <MeasurementInequality>=</MeasurementInequality>
+                            <AssayComments>The epitope of F10.6.6 Fab bound to hen egg white lysozyme was determined from the crystal structure by molecular replacement. The structure contains  two complexes in the asymmetric unit.</AssayComments>
+                        </AssayInformation>
+                        <AssayedAntibody>
+                            <AssayedAntibodySourceMaterial>Purified Immunoglobulin</AssayedAntibodySourceMaterial>
+                            <AssayedAntibodyImmunoglobulinDomain>Fab</AssayedAntibodyImmunoglobulinDomain>
+                            <AssayedAntibodyPurificationStatus>Monoclonal</AssayedAntibodyPurificationStatus>
+                            <AssayedAntibodyName>F10.6.6</AssayedAntibodyName>
+                            <AssayedAntibodyHeavyChainType>IgG1</AssayedAntibodyHeavyChainType>
+                            <AssayedAntibodyLightChainType>Kappa</AssayedAntibodyLightChainType>
+                            <AssayedAntibodyObject>
+                                <MultiChainMolecule>
+                                    <ChemicalType>Multi-Chain protein</ChemicalType>
+                                    <MoleculeName>F10.6.6</MoleculeName>
+                                    <Chain1>
+                                        <Molecule>
+                                            <GenBankId>1P2C_B</GenBankId>
+                                        </Molecule>
+                                        <SourceOrganismId>10090</SourceOrganismId>
+                                    </Chain1>
+                                    <Chain2>
+                                        <Molecule>
+                                            <GenBankId>1P2C_A</GenBankId>
+                                        </Molecule>
+                                        <SourceOrganismId>10090</SourceOrganismId>
+                                    </Chain2>
+                                </MultiChainMolecule>
+                            </AssayedAntibodyObject>
+                        </AssayedAntibody>
+                        <Antigen>
+                            <AntigenConformation>Native</AntigenConformation>
+                            <AntigenObject>
+                                <EpitopeRelation>Source Antigen</EpitopeRelation>
+                                <Object>
+                                    <AccessionSequenceMolecule>
+                                        <ChemicalType>Protein</ChemicalType>
+                                        <Molecule>
+                                            <GenBankId>P00698.1</GenBankId>
+                                        </Molecule>
+                                        <SourceOrganismId>9031</SourceOrganismId>
+                                    </AccessionSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Representative selection</AntigenEvidenceCode>
+                        </Antigen>
+                        <ThreeDimensionalStructureOfComplex>
+                            <ComplexPdbId>1P2C</ComplexPdbId>
+                            <AntibodyChain1PdbChain>B</AntibodyChain1PdbChain>
+                            <AntibodyChain2PdbChain>A</AntibodyChain2PdbChain>
+                            <AntigenChainPdbChain>C</AntigenChainPdbChain>
+                            <ViewerFlag>Y</ViewerFlag>
+                            <CuratedContacts>
+                                <EpitopeResidues>C: ;</EpitopeResidues>
+                                <AntibodyResiduesInteractingWithAntigen>A: ; B: ;</AntibodyResiduesInteractingWithAntigen>
+                            </CuratedContacts>
+                            <CalculatedContacts>
+                                <EpitopeResidues>C: Q641, T643, R645, N646, T647, D648, G649, S650, T651, Y653, N665, D666, G667, R668, P670, P679, S681, L684</EpitopeResidues>
+                                <AntibodyResiduesInteractingWithAntigen>A: N32, Y50, S91, G92, S93, W94; B: T330, T331, Y332, W333, E335, E350, L352, S355, D356, S357, Y359, G399, D400, G401</AntibodyResiduesInteractingWithAntigen>
+                                <ContactAreaForAntigen>766.5</ContactAreaForAntigen>
+                                <ContactAreaForAntibody>690.3</ContactAreaForAntibody>
+                            </CalculatedContacts>
+                        </ThreeDimensionalStructureOfComplex>
+                    </BCell>
+                </Assays>
+            </Epitope>
+        </Epitopes>
+    </Reference>
+</References>
+

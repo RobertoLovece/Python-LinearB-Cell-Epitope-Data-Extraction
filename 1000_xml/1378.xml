@@ -1,0 +1,421 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<References xsi:schemaLocation="http://www.iedb.org/schema/CurationSchema http://beta.iedb.org/schema/Curation.xsd" xmlns="http://www.iedb.org/schema/CurationSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <Reference>
+        <ReferenceId>1378</ReferenceId>
+        <DateLastUpdated>2020-09-10-07:00</DateLastUpdated>
+        <Article>
+            <PubmedId>11714815</PubmedId>
+            <Abstract>N-Formylated (N-f-met) peptides derived from proteins of the intracellular bacterium Listeria monocytogenes generate a protective, H2-M3-restricted CD8 T cell response in C57BL/6 mice. N-f-met peptide-specific CTL were generated in vitro when mice previously immunized with gp96 isolated from donor mice infected with L. monocytogenes were stimulated with these peptides. No significant peptide-specific CTL activity was observed in mice immunized with gp96 from uninfected animals. Masses corresponding to one N-f-met peptide were found by matrix-assisted laser desorption/ionization-mass spectrometry on gp96 isolated from C57BL/6 mice infected with L. monocytogenes, but not on gp96 from noninfected mice. Therefore, bacterial N-f-met peptides from intracellular bacteria can bind to gp96 in the infected host, and gp96 loaded with these peptides can generate N-f-met-peptide-specific CTL. We assume a unique role of gp96 in Ag processing through the H2-M3 pathway.</Abstract>
+            <ArticleYear>2001</ArticleYear>
+            <ArticlePages>6480-6</ArticlePages>
+            <ArticleTitle>Immunization with gp96 from Listeria monocytogenes-infected mice is due to N-formylated listerial peptides.</ArticleTitle>
+            <Authors>
+                <Author>
+                    <LastName>Sponaas</LastName>
+                    <ForeName>A M</ForeName>
+                </Author>
+                <Author>
+                    <LastName>Zuegel</LastName>
+                    <ForeName>U</ForeName>
+                </Author>
+                <Author>
+                    <LastName>Weber</LastName>
+                    <ForeName>S</ForeName>
+                </Author>
+                <Author>
+                    <LastName>Hurwitz</LastName>
+                    <ForeName>R</ForeName>
+                </Author>
+                <Author>
+                    <LastName>Winter</LastName>
+                    <ForeName>R</ForeName>
+                </Author>
+                <Author>
+                    <LastName>Lamer</LastName>
+                    <ForeName>S</ForeName>
+                </Author>
+                <Author>
+                    <LastName>Jungblut</LastName>
+                    <ForeName>P R</ForeName>
+                </Author>
+                <Author>
+                    <LastName>Kaufmann</LastName>
+                    <ForeName>S H</ForeName>
+                </Author>
+            </Authors>
+            <Affiliations>Department of Immunology, Max-Planck Institute for Infection Biology, Berlin, Germany.</Affiliations>
+            <ArticleChemicalList>Antigens, Neoplasm;Bacterial Proteins;Bacterial Vaccines;Epitopes, T-Lymphocyte;Histocompatibility Antigens Class II;Oligopeptides;sarcoma glycoprotein gp96 rejection antigens;N-Formylmethionine</ArticleChemicalList>
+            <ArticleMeshHeadingsList>Animals; Antigens, Neoplasm(administration &amp; dosage; immunology; metabolism); Bacterial Proteins(immunology; metabolism); Bacterial Vaccines(administration &amp; dosage; immunology; metabolism); Epitopes, T-Lymphocyte(immunology); Female; Histocompatibility Antigens Class II(immunology); Listeria monocytogenes(immunology; metabolism); Listeriosis(immunology; metabolism); Lymphocyte Activation(immunology); Mice; Mice, Inbred C57BL; Mice, Knockout; N-Formylmethionine(metabolism); Oligopeptides(immunology; isolation &amp; purification; metabolism); Organ Specificity(immunology); Protein Binding(immunology); T-Lymphocytes, Cytotoxic(immunology; metabolism); Tumor Cells, Cultured</ArticleMeshHeadingsList>
+            <Journal>
+                <Volume>167</Volume>
+                <Issue>11</Issue>
+                <Title>Journal of immunology (Baltimore, Md. : 1950)</Title>
+                <Issn>0022-1767</Issn>
+                <MedlineTa>J Immunol</MedlineTa>
+            </Journal>
+        </Article>
+        <Epitopes>
+            <Epitope>
+                <EpitopeName>fMIGWII</EpitopeName>
+                <EpitopeStructure>
+                    <FragmentOfANaturalSequenceMolecule>
+                        <ChemicalType>Peptide from protein</ChemicalType>
+                        <LinearSequence>MIGWII</LinearSequence>
+                        <ModifiedResidues>M1</ModifiedResidues>
+                        <Modifications>Formylation|FORM</Modifications>
+                        <StartingPosition>1</StartingPosition>
+                        <EndingPosition>6</EndingPosition>
+                        <SourceMolecule>
+                            <GenBankId>Q8Y8E2</GenBankId>
+                        </SourceMolecule>
+                        <SourceOrganismId>1639</SourceOrganismId>
+                    </FragmentOfANaturalSequenceMolecule>
+                </EpitopeStructure>
+                <LocationOfData>Figure 2</LocationOfData>
+                <EpitopeId>41710</EpitopeId>
+                <EpitopeEvidenceCode>Not determined</EpitopeEvidenceCode>
+                <EpitopeStructureDefines>Exact Epitope</EpitopeStructureDefines>
+                <Assays>
+                    <TCell>
+                        <LocationOfData>Figures 2B and 4</LocationOfData>
+                        <TCellId>21613</TCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>10000067</OrganismId>
+                                <Sex>F</Sex>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Administration in vivo</InVivoProcessType>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Other</EpitopeRelation>
+                                    <Object>
+                                        <AccessionSequenceMolecule>
+                                            <ChemicalType>Protein</ChemicalType>
+                                            <Molecule>
+                                                <GenBankId>NP_035761.1</GenBankId>
+                                            </Molecule>
+                                            <SourceOrganismId>10000067</SourceOrganismId>
+                                        </AccessionSequenceMolecule>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenReferenceName>gp96</ImmunogenReferenceName>
+                                <ImmunogenEvidenceCode>Not determined</ImmunogenEvidenceCode>
+                                <Route>Subcutaneous (s.c.)</Route>
+                                <DoseSchedule>1 dose(s) of 30 ug gp96 in 100-200 ul PBS</DoseSchedule>
+                            </FirstInVivoProcess>
+                            <InVitroAdministration>
+                                <ProcessType>Restimulation in vitro</ProcessType>
+                                <ResponderCellType>T cell CD8+</ResponderCellType>
+                                <StimulatorCellType>Splenocyte</StimulatorCellType>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Epitope</EpitopeRelation>
+                                    <Object>
+                                        <FragmentOfANaturalSequenceMolecule>
+                                            <ChemicalType>Peptide from protein</ChemicalType>
+                                            <LinearSequence>MIGWII</LinearSequence>
+                                            <ModifiedResidues>M1</ModifiedResidues>
+                                            <Modifications>Formylation|FORM</Modifications>
+                                            <StartingPosition>1</StartingPosition>
+                                            <EndingPosition>6</EndingPosition>
+                                            <SourceMolecule>
+                                                <GenBankId>Q8Y8E2</GenBankId>
+                                            </SourceMolecule>
+                                            <SourceOrganismId>1639</SourceOrganismId>
+                                        </FragmentOfANaturalSequenceMolecule>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenEvidenceCode>Exact match to reference information</ImmunogenEvidenceCode>
+                            </InVitroAdministration>
+                            <ImmunizationComments>The immunogen used was gp96 isolated from organs of Listeria monocytogenes-infected (this contains fMIVIL peptide (a cross-reacting epitope), as determined in the mass spectrometry/elution studies) or from uninfected (contains no peptide) mice (as control).</ImmunizationComments>
+                        </Immunization>
+                        <EffectorCells>
+                            <CellTissueType>Spleen</CellTissueType>
+                            <CellType>T cell CD8+</CellType>
+                            <CellCultureConditions>Short Term Restimulated</CellCultureConditions>
+                        </EffectorCells>
+                        <AntigenPresentingCells>
+                            <CellTissueType>Lymphoid</CellTissueType>
+                            <CellType>RMA-lymphocyte</CellType>
+                            <CellCultureConditions>Cell Line / Clone</CellCultureConditions>
+                            <AutologousOrSyngeneic>N</AutologousOrSyngeneic>
+                            <SourceOrganismId>10090</SourceOrganismId>
+                        </AntigenPresentingCells>
+                        <MhcAllele>
+                            <MhcAlleleId>128</MhcAlleleId>
+                            <MhcEvidenceCode>Not determined</MhcEvidenceCode>
+                        </MhcAllele>
+                        <Antigen>
+                            <AntigenReferenceName>fMIGWII</AntigenReferenceName>
+                            <AntigenObject>
+                                <EpitopeRelation>Epitope</EpitopeRelation>
+                                <Object>
+                                    <FragmentOfANaturalSequenceMolecule>
+                                        <ChemicalType>Peptide from protein</ChemicalType>
+                                        <LinearSequence>MIGWII</LinearSequence>
+                                        <ModifiedResidues>M1</ModifiedResidues>
+                                        <Modifications>Formylation|FORM</Modifications>
+                                        <StartingPosition>1</StartingPosition>
+                                        <EndingPosition>6</EndingPosition>
+                                        <SourceMolecule>
+                                            <GenBankId>Q8Y8E2</GenBankId>
+                                        </SourceMolecule>
+                                        <SourceOrganismId>1639</SourceOrganismId>
+                                    </FragmentOfANaturalSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Exact match to reference information</AntigenEvidenceCode>
+                        </Antigen>
+                        <AssayInformation>
+                            <AssayTypeId>67</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <AssayComments>Splenocytes isolated from mice immunized with gp96 (from L. monocytogenes-infected mice) and pulsed with the epitope demonstrated cytotoxicity to epitope-loaded as well as fMIVIL- and fMIVTLF-loaded RMA cells.</AssayComments>
+                        </AssayInformation>
+                    </TCell>
+                </Assays>
+            </Epitope>
+            <Epitope>
+                <EpitopeName>fMIVIL</EpitopeName>
+                <EpitopeStructure>
+                    <FragmentOfANaturalSequenceMolecule>
+                        <ChemicalType>Peptide from protein</ChemicalType>
+                        <LinearSequence>MIVIL</LinearSequence>
+                        <ModifiedResidues>M1</ModifiedResidues>
+                        <Modifications>Formylation|FORM</Modifications>
+                        <StartingPosition>1</StartingPosition>
+                        <EndingPosition>5</EndingPosition>
+                        <SourceMolecule>
+                            <GenBankId>CAC99680.1</GenBankId>
+                        </SourceMolecule>
+                        <SourceOrganismId>1639</SourceOrganismId>
+                    </FragmentOfANaturalSequenceMolecule>
+                </EpitopeStructure>
+                <LocationOfData>Figure 2</LocationOfData>
+                <EpitopeId>41789</EpitopeId>
+                <EpitopeEvidenceCode>Not determined</EpitopeEvidenceCode>
+                <EpitopeStructureDefines>Exact Epitope</EpitopeStructureDefines>
+                <EpitopeComments>The source protein is unknown in this organism but the epitope is detectable in L. monocytogenes culture supenatants. Unrelated bacteria have proteins with this epitope's sequence as the N-terminal 5 amino acids (formylated): Burkholderia pseudomallei (methyl-accepting chemotaxis protein),  Methanococcus maripaludis and Methanocaldococcus jannaschii (GMP synthase subunit A (Glutamine amidotransferase)).</EpitopeComments>
+                <Assays>
+                    <TCell>
+                        <LocationOfData>Figures 2A, 3A and 4</LocationOfData>
+                        <TCellId>21614</TCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>10000067</OrganismId>
+                                <Sex>F</Sex>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Administration in vivo</InVivoProcessType>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Epitope</EpitopeRelation>
+                                    <Object>
+                                        <FragmentOfANaturalSequenceMolecule>
+                                            <ChemicalType>Peptide from protein</ChemicalType>
+                                            <LinearSequence>MIVIL</LinearSequence>
+                                            <ModifiedResidues>M1</ModifiedResidues>
+                                            <Modifications>Formylation|FORM</Modifications>
+                                            <StartingPosition>1</StartingPosition>
+                                            <EndingPosition>5</EndingPosition>
+                                            <SourceMolecule>
+                                                <GenBankId>CAC99680.1</GenBankId>
+                                            </SourceMolecule>
+                                            <SourceOrganismId>1639</SourceOrganismId>
+                                        </FragmentOfANaturalSequenceMolecule>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenReferenceName>fMIVIL</ImmunogenReferenceName>
+                                <ImmunogenEvidenceCode>Exact match to reference information</ImmunogenEvidenceCode>
+                                <Route>Subcutaneous (s.c.)</Route>
+                                <DoseSchedule>1 dose(s) of 30 ug gp96 in 100-200 ul PBS</DoseSchedule>
+                            </FirstInVivoProcess>
+                            <InVitroAdministration>
+                                <ProcessType>Restimulation in vitro</ProcessType>
+                                <ResponderCellType>T cell CD8+</ResponderCellType>
+                                <StimulatorCellType>Splenocyte</StimulatorCellType>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Epitope</EpitopeRelation>
+                                    <Object>
+                                        <FragmentOfANaturalSequenceMolecule>
+                                            <ChemicalType>Peptide from protein</ChemicalType>
+                                            <LinearSequence>MIVIL</LinearSequence>
+                                            <ModifiedResidues>M1</ModifiedResidues>
+                                            <Modifications>Formylation|FORM</Modifications>
+                                            <StartingPosition>1</StartingPosition>
+                                            <EndingPosition>5</EndingPosition>
+                                            <SourceMolecule>
+                                                <GenBankId>CAC99680.1</GenBankId>
+                                            </SourceMolecule>
+                                            <SourceOrganismId>1639</SourceOrganismId>
+                                        </FragmentOfANaturalSequenceMolecule>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenEvidenceCode>Exact match to reference information</ImmunogenEvidenceCode>
+                            </InVitroAdministration>
+                            <ImmunizationComments>The immunogen used was gp96 isolated from organs of Listeria monocytogenes-infected (this contains fMIVIL peptide (the epitope), as determined in the mass spectrometry/elution studies) or from uninfected (contains no peptide) mice.</ImmunizationComments>
+                        </Immunization>
+                        <EffectorCells>
+                            <CellTissueType>Spleen</CellTissueType>
+                            <CellType>T cell CD8+</CellType>
+                            <CellCultureConditions>Short Term Restimulated</CellCultureConditions>
+                        </EffectorCells>
+                        <AntigenPresentingCells>
+                            <CellTissueType>Lymphoid</CellTissueType>
+                            <CellType>RMA-lymphocyte</CellType>
+                            <CellCultureConditions>Cell Line / Clone</CellCultureConditions>
+                            <AutologousOrSyngeneic>N</AutologousOrSyngeneic>
+                            <SourceOrganismId>10090</SourceOrganismId>
+                        </AntigenPresentingCells>
+                        <MhcAllele>
+                            <MhcAlleleId>128</MhcAlleleId>
+                            <MhcEvidenceCode>Not determined</MhcEvidenceCode>
+                        </MhcAllele>
+                        <Antigen>
+                            <AntigenReferenceName>fMIVIL</AntigenReferenceName>
+                            <AntigenObject>
+                                <EpitopeRelation>Epitope</EpitopeRelation>
+                                <Object>
+                                    <FragmentOfANaturalSequenceMolecule>
+                                        <ChemicalType>Peptide from protein</ChemicalType>
+                                        <LinearSequence>MIVIL</LinearSequence>
+                                        <ModifiedResidues>M1</ModifiedResidues>
+                                        <Modifications>Formylation|FORM</Modifications>
+                                        <StartingPosition>1</StartingPosition>
+                                        <EndingPosition>5</EndingPosition>
+                                        <SourceMolecule>
+                                            <GenBankId>CAC99680.1</GenBankId>
+                                        </SourceMolecule>
+                                        <SourceOrganismId>1639</SourceOrganismId>
+                                    </FragmentOfANaturalSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Exact match to reference information</AntigenEvidenceCode>
+                        </Antigen>
+                        <AssayInformation>
+                            <AssayTypeId>67</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <AssayComments>Splenocytes isolated from mice immunized with gp96 (from L. monocytogenes-infected mice) and pulsed with the epitope demonstrated cytotoxicity to epitope-loaded as well as fMIGWII- and fMIVTLF-loaded RMA cells. This CD8+ T cell response does not depend on the presence of CD4+ T cells.</AssayComments>
+                        </AssayInformation>
+                    </TCell>
+                </Assays>
+            </Epitope>
+            <Epitope>
+                <EpitopeName>fMIVTLF</EpitopeName>
+                <EpitopeStructure>
+                    <FragmentOfANaturalSequenceMolecule>
+                        <ChemicalType>Peptide from protein</ChemicalType>
+                        <LinearSequence>MIVTLF</LinearSequence>
+                        <ModifiedResidues>M1</ModifiedResidues>
+                        <Modifications>Formylation|FORM</Modifications>
+                        <StartingPosition>1</StartingPosition>
+                        <EndingPosition>6</EndingPosition>
+                        <SourceMolecule>
+                            <GenBankId>AAC23910.1</GenBankId>
+                        </SourceMolecule>
+                        <SourceOrganismId>1639</SourceOrganismId>
+                    </FragmentOfANaturalSequenceMolecule>
+                </EpitopeStructure>
+                <LocationOfData>Figure 2</LocationOfData>
+                <EpitopeId>41791</EpitopeId>
+                <EpitopeEvidenceCode>Not determined</EpitopeEvidenceCode>
+                <EpitopeStructureDefines>Exact Epitope</EpitopeStructureDefines>
+                <Assays>
+                    <TCell>
+                        <LocationOfData>Figures 2C and 4</LocationOfData>
+                        <TCellId>21616</TCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>10000067</OrganismId>
+                                <Sex>F</Sex>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Administration in vivo</InVivoProcessType>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Other</EpitopeRelation>
+                                    <Object>
+                                        <AccessionSequenceMolecule>
+                                            <ChemicalType>Protein</ChemicalType>
+                                            <Molecule>
+                                                <GenBankId>NP_035761.1</GenBankId>
+                                            </Molecule>
+                                            <SourceOrganismId>10000067</SourceOrganismId>
+                                        </AccessionSequenceMolecule>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenReferenceName>gp96</ImmunogenReferenceName>
+                                <ImmunogenEvidenceCode>Not determined</ImmunogenEvidenceCode>
+                                <Route>Subcutaneous (s.c.)</Route>
+                                <DoseSchedule>1 dose(s) of 30 ug gp96 in 100-200 ul PBS</DoseSchedule>
+                            </FirstInVivoProcess>
+                            <InVitroAdministration>
+                                <ProcessType>Restimulation in vitro</ProcessType>
+                                <ResponderCellType>T cell CD8+</ResponderCellType>
+                                <StimulatorCellType>Splenocyte</StimulatorCellType>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Epitope</EpitopeRelation>
+                                    <Object>
+                                        <FragmentOfANaturalSequenceMolecule>
+                                            <ChemicalType>Peptide from protein</ChemicalType>
+                                            <LinearSequence>MIVTLF</LinearSequence>
+                                            <ModifiedResidues>M1</ModifiedResidues>
+                                            <Modifications>Formylation|FORM</Modifications>
+                                            <StartingPosition>1</StartingPosition>
+                                            <EndingPosition>6</EndingPosition>
+                                            <SourceMolecule>
+                                                <GenBankId>AAC23910.1</GenBankId>
+                                            </SourceMolecule>
+                                            <SourceOrganismId>1639</SourceOrganismId>
+                                        </FragmentOfANaturalSequenceMolecule>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenEvidenceCode>Exact match to reference information</ImmunogenEvidenceCode>
+                            </InVitroAdministration>
+                            <ImmunizationComments>The immunogen used was gp96 isolated from organs of Listeria monocytogenes-infected (this contains fMIVIL peptide (a cross-reacting epitope), as determined in the mass spectrometry/elution studies) or from uninfected (contains no peptide) mice (as control).</ImmunizationComments>
+                        </Immunization>
+                        <EffectorCells>
+                            <CellTissueType>Spleen</CellTissueType>
+                            <CellType>T cell CD8+</CellType>
+                            <CellCultureConditions>Short Term Restimulated</CellCultureConditions>
+                        </EffectorCells>
+                        <AntigenPresentingCells>
+                            <CellTissueType>Lymphoid</CellTissueType>
+                            <CellType>RMA-lymphocyte</CellType>
+                            <CellCultureConditions>Cell Line / Clone</CellCultureConditions>
+                            <AutologousOrSyngeneic>N</AutologousOrSyngeneic>
+                            <SourceOrganismId>10090</SourceOrganismId>
+                        </AntigenPresentingCells>
+                        <MhcAllele>
+                            <MhcAlleleId>128</MhcAlleleId>
+                            <MhcEvidenceCode>Not determined</MhcEvidenceCode>
+                        </MhcAllele>
+                        <Antigen>
+                            <AntigenReferenceName>fMIVTLF</AntigenReferenceName>
+                            <AntigenObject>
+                                <EpitopeRelation>Epitope</EpitopeRelation>
+                                <Object>
+                                    <FragmentOfANaturalSequenceMolecule>
+                                        <ChemicalType>Peptide from protein</ChemicalType>
+                                        <LinearSequence>MIVTLF</LinearSequence>
+                                        <ModifiedResidues>M1</ModifiedResidues>
+                                        <Modifications>Formylation|FORM</Modifications>
+                                        <StartingPosition>1</StartingPosition>
+                                        <EndingPosition>6</EndingPosition>
+                                        <SourceMolecule>
+                                            <GenBankId>AAC23910.1</GenBankId>
+                                        </SourceMolecule>
+                                        <SourceOrganismId>1639</SourceOrganismId>
+                                    </FragmentOfANaturalSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Exact match to reference information</AntigenEvidenceCode>
+                        </Antigen>
+                        <AssayInformation>
+                            <AssayTypeId>67</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <AssayComments>Splenocytes isolated from mice immunized with gp96 (from L. monocytogenes-infected mice) and pulsed with the epitope demonstrated cytotoxicity to epitope-loaded as well as fMIVIL- and fMIGWII-loaded RMA cells.</AssayComments>
+                        </AssayInformation>
+                    </TCell>
+                </Assays>
+            </Epitope>
+        </Epitopes>
+    </Reference>
+</References>
+

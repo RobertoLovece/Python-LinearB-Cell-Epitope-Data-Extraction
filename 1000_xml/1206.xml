@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<References xsi:schemaLocation="http://www.iedb.org/schema/CurationSchema http://beta.iedb.org/schema/Curation.xsd" xmlns="http://www.iedb.org/schema/CurationSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <Reference>
+        <ReferenceId>1206</ReferenceId>
+        <DateLastUpdated>2011-08-23-07:00</DateLastUpdated>
+        <Article>
+            <PubmedId>15823609</PubmedId>
+            <Abstract>Neutralization of flaviviruses by antibody is primarily mediated via epitopes in the viral envelope (E) protein. Comparative studies using neutralizing monoclonal antibodies revealed differential expression of epitopes within the E protein domain III of ten naturally occurring West Nile virus strains representing major subtypes of genetic lineages 1 and 2. Residues that defined these subtype-specific determinants were identified by mutational studies and found to be surface exposed in the domain III structure. Mutations of residue 332 had the most significant effects on variation of domain III neutralizing epitopes among strains.</Abstract>
+            <ArticleYear>2005</ArticleYear>
+            <ArticlePages>99-105</ArticlePages>
+            <ArticleTitle>Differential expression of domain III neutralizing epitopes on the envelope proteins of West Nile virus strains.</ArticleTitle>
+            <Authors>
+                <Author>
+                    <LastName>Li</LastName>
+                    <ForeName>Li</ForeName>
+                </Author>
+                <Author>
+                    <LastName>Barrett</LastName>
+                    <ForeName>Alan D T</ForeName>
+                </Author>
+                <Author>
+                    <LastName>Beasley</LastName>
+                    <ForeName>David W C</ForeName>
+                </Author>
+            </Authors>
+            <Affiliations>Center for Biodefense and Emerging Infectious Diseases, Sealy Center for Vaccine Development, and Department of Pathology, University of Texas Medical Branch, 301 University Boulevard, Galveston, TX 77555-0609, USA.</Affiliations>
+            <ArticleChemicalList>Antibodies, Monoclonal;Antibodies, Viral;Epitopes;Recombinant Fusion Proteins;Viral Envelope Proteins</ArticleChemicalList>
+            <ArticleMeshHeadingsList>Amino Acid Sequence; Animals; Antibodies, Monoclonal(immunology); Antibodies, Viral(immunology); Antigenic Variation; Cercopithecus aethiops; Epitopes(chemistry; genetics; immunology; metabolism); Humans; Models, Molecular; Molecular Sequence Data; Mutagenesis, Site-Directed; Mutation; Neutralization Tests; Recombinant Fusion Proteins(metabolism); Vero Cells; Viral Envelope Proteins(chemistry; genetics; immunology; metabolism); West Nile virus(genetics; immunology; metabolism)</ArticleMeshHeadingsList>
+            <Journal>
+                <Volume>335</Volume>
+                <Issue>1</Issue>
+                <Title>Virology</Title>
+                <Issn>0042-6822</Issn>
+                <MedlineTa>Virology</MedlineTa>
+            </Journal>
+        </Article>
+        <Epitopes>
+            <Epitope>
+                <EpitopeStructure>
+                    <DiscontinuousRegionOnAccessionSequenceMolecule>
+                        <ChemicalType>Discontinuous protein residues</ChemicalType>
+                        <DiscontinuousResidues>K310, L312, T332, A365</DiscontinuousResidues>
+                        <SourceMolecule>
+                            <GenBankId>158516891</GenBankId>
+                        </SourceMolecule>
+                        <SourceOrganismId>307044</SourceOrganismId>
+                    </DiscontinuousRegionOnAccessionSequenceMolecule>
+                </EpitopeStructure>
+                <LocationOfData>Fig 1</LocationOfData>
+                <EpitopeId>110486</EpitopeId>
+                <EpitopeEvidenceCode>Not determined</EpitopeEvidenceCode>
+                <EpitopeStructureDefines>Partial Epitope</EpitopeStructureDefines>
+                <EpitopeComments>This residues are located on Domain III (aa296-415) of source antigen ectodomain, forming 2 continuous patchs (A365+T332 and L312+K310) on the solvent-exposed surface. Genbank ID and positions correspond to the viral genome polyprotein, in which E protein sequence spans aas 291 to 787.</EpitopeComments>
+                <Assays>
+                    <BCell>
+                        <LocationOfData>Table I</LocationOfData>
+                        <BCellId>17674</BCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>10090</OrganismId>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Administration in vivo</InVivoProcessType>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Source Organism</EpitopeRelation>
+                                    <Object>
+                                        <Organism>
+                                            <SubType>Organism</SubType>
+                                            <SourceOrganismId>307044</SourceOrganismId>
+                                        </Organism>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenEvidenceCode>Not determined</ImmunogenEvidenceCode>
+                            </FirstInVivoProcess>
+                            <ImmunizationComments>mAbs used in this study are commercially available from Bioreliance Corp. (Rockville, MD). They recognize related epitopes within domain III of E protein.</ImmunizationComments>
+                        </Immunization>
+                        <AssayInformation>
+                            <AssayTypeId>316</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <AssayComments>Neutralization of strain 385-99 plaques after infection of Vero cells is seen by 3 commercial mAbs, while strains harboring mutations at the epitopic residues are not neutralized to the same extent.</AssayComments>
+                        </AssayInformation>
+                        <AssayedAntibody>
+                            <AssayedAntibodyPurificationStatus>Monoclonal</AssayedAntibodyPurificationStatus>
+                            <AssayedAntibodyName>5H10, 5C5, 7H2</AssayedAntibodyName>
+                        </AssayedAntibody>
+                        <Antigen>
+                            <AntigenReferenceName>West nile virus</AntigenReferenceName>
+                            <AntigenConformation>Native</AntigenConformation>
+                            <AntigenObject>
+                                <EpitopeRelation>Source Organism</EpitopeRelation>
+                                <Object>
+                                    <Organism>
+                                        <SubType>Organism</SubType>
+                                        <SourceOrganismId>307044</SourceOrganismId>
+                                    </Organism>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Not determined</AntigenEvidenceCode>
+                        </Antigen>
+                    </BCell>
+                </Assays>
+                <Assays>
+                    <BCell>
+                        <LocationOfData>Table I</LocationOfData>
+                        <BCellId>17675</BCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>10090</OrganismId>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Administration in vivo</InVivoProcessType>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Source Organism</EpitopeRelation>
+                                    <Object>
+                                        <Organism>
+                                            <SubType>Organism</SubType>
+                                            <SourceOrganismId>307044</SourceOrganismId>
+                                        </Organism>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenEvidenceCode>Not determined</ImmunogenEvidenceCode>
+                            </FirstInVivoProcess>
+                            <ImmunizationComments>mAbs used in this study are commercially available from Bioreliance Corp. (Rockville, MD). They recognize related epitopes within domain III of E protein.</ImmunizationComments>
+                        </Immunization>
+                        <AssayInformation>
+                            <AssayTypeId>37</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <AssayComments>Binding of mAbs that neutralize strain 385-99 to E proteins from different strains in a non-reducing western blot assay shows that some proteins from strains harboring mutations at the epitopic residues are not bound, while other strains (AUS60, SA89) that are escape mutants and do not harbor the T332 mutation are still recognized, implying that neutralization escape is not related to antibody binding loss. This was confirmed for AUS60 mutations in recombinant protein ELISA.</AssayComments>
+                        </AssayInformation>
+                        <AssayedAntibody>
+                            <AssayedAntibodyPurificationStatus>Monoclonal</AssayedAntibodyPurificationStatus>
+                            <AssayedAntibodyName>5H10, 5C5, 7H2</AssayedAntibodyName>
+                        </AssayedAntibody>
+                        <Antigen>
+                            <AntigenReferenceName>West nile virus</AntigenReferenceName>
+                            <AntigenConformation>Native</AntigenConformation>
+                            <AntigenObject>
+                                <EpitopeRelation>Source Organism</EpitopeRelation>
+                                <Object>
+                                    <Organism>
+                                        <SubType>Organism</SubType>
+                                        <SourceOrganismId>307044</SourceOrganismId>
+                                    </Organism>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Not determined</AntigenEvidenceCode>
+                        </Antigen>
+                    </BCell>
+                </Assays>
+                <Assays>
+                    <BCell>
+                        <LocationOfData>Figure 3</LocationOfData>
+                        <BCellId>17676</BCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>10090</OrganismId>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Administration in vivo</InVivoProcessType>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Source Organism</EpitopeRelation>
+                                    <Object>
+                                        <Organism>
+                                            <SubType>Organism</SubType>
+                                            <SourceOrganismId>307044</SourceOrganismId>
+                                        </Organism>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenEvidenceCode>Not determined</ImmunogenEvidenceCode>
+                            </FirstInVivoProcess>
+                            <ImmunizationComments>mAbs used in this study are commercially available from Bioreliance Corp. (Rockville, MD). They recognize related epitopes within domain III of E protein.</ImmunizationComments>
+                        </Immunization>
+                        <AssayInformation>
+                            <AssayTypeId>34</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <AssayComments>Binding of mAbs that neutralize strain 385-99 to recombinant domain III region of E protein (harboring mutations at epitopic residues) demonstrates that mutation at residue T332 to K (as in escape mutant strains SA58a and MAD88) or to A (as in escape mutant strain ISR53) is sufficient to abrogate or significantly reduce binding, respectively. The effect of  L312A mutation (as in partial escape mutant SA89) is less marked, and mutations K310T and A365S (as in strain AUS60) do not inhibit biding, as has been seen in western blot assays.</AssayComments>
+                        </AssayInformation>
+                        <AssayedAntibody>
+                            <AssayedAntibodyPurificationStatus>Monoclonal</AssayedAntibodyPurificationStatus>
+                            <AssayedAntibodyName>5H10, 5C5, 7H2</AssayedAntibodyName>
+                        </AssayedAntibody>
+                        <Antigen>
+                            <AntigenReferenceName>DIII</AntigenReferenceName>
+                            <AntigenConformation>Non-Native/Unknown</AntigenConformation>
+                            <AntigenObject>
+                                <EpitopeRelation>Fragment of Source Antigen</EpitopeRelation>
+                                <Object>
+                                    <FragmentOfANaturalSequenceMolecule>
+                                        <ChemicalType>Peptide from protein</ChemicalType>
+                                        <LinearSequence>QLKGTTYGVCSKAFKFARTPADTGHGTVVLELQYTGTDGPCKVPISSVASLNDLTPVGRLVTVNPFVSVATANSKVLIELEPPFGDSYIVVGRGEQQINHHWHKSGSSIGK</LinearSequence>
+                                        <StartingPosition>296</StartingPosition>
+                                        <EndingPosition>406</EndingPosition>
+                                        <SourceMolecule>
+                                            <GenBankId>158516891</GenBankId>
+                                        </SourceMolecule>
+                                        <SourceOrganismId>307044</SourceOrganismId>
+                                    </FragmentOfANaturalSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Not determined</AntigenEvidenceCode>
+                            <AntigenContainingObject>
+                                <ComplexedMolecule>
+                                    <ComplexType>Protein conjugate</ComplexType>
+                                    <PeptideModifications/>
+                                    <SourceMolecule>
+                                        <GenBankId>P0AEX9</GenBankId>
+                                    </SourceMolecule>
+                                    <MoleculeSourceOrganismId>562</MoleculeSourceOrganismId>
+                                </ComplexedMolecule>
+                            </AntigenContainingObject>
+                        </Antigen>
+                    </BCell>
+                </Assays>
+            </Epitope>
+        </Epitopes>
+    </Reference>
+</References>
+

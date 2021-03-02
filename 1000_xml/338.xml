@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<References xsi:schemaLocation="http://www.iedb.org/schema/CurationSchema http://beta.iedb.org/schema/Curation.xsd" xmlns="http://www.iedb.org/schema/CurationSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <Reference>
+        <ReferenceId>338</ReferenceId>
+        <DateLastUpdated>2020-09-10-07:00</DateLastUpdated>
+        <Article>
+            <PubmedId>15643650</PubmedId>
+            <Abstract>The molecular characterization of unknown naturally presented major histocompatibility complex (MHC) class II glycopeptides carrying complex glycans has so far not been achieved, reflecting the different fragmentation characteristics of sugars and peptides in mass spectrometric analysis. Human leukocyte antigen (HLA)-DR-bound peptides were isolated by affinity purification, separated via high performance liquid chromatography and analyzed by matrix-assisted laser desorption/ionization and electrospray ionization mass spectrometry. We were able to identify two naturally processed MHC class II ligands, CD53(122-136) and CD53(121-136), carrying complex N-linked glycan side chains by a combination of in-source and collision-induced fragmentation on a quadrupole time-of-flight tandem mass spectrometer.</Abstract>
+            <ArticleYear>2005</ArticleYear>
+            <ArticlePages>100-4</ArticlePages>
+            <ArticleTitle>Glycan side chains on naturally presented MHC class II ligands.</ArticleTitle>
+            <Authors>
+                <Author>
+                    <LastName>Dengjel</LastName>
+                    <ForeName>Jörn</ForeName>
+                </Author>
+                <Author>
+                    <LastName>Rammensee</LastName>
+                    <ForeName>Hans-Georg</ForeName>
+                </Author>
+                <Author>
+                    <LastName>Stevanovic</LastName>
+                    <ForeName>Stefan</ForeName>
+                </Author>
+            </Authors>
+            <Affiliations>Department of Immunology, Institute for Cell Biology, University of Tübingen, 72076 Tübingen, Germany.</Affiliations>
+            <ArticleChemicalList>HLA Antigens;Histocompatibility Antigens Class II;Ligands;Polysaccharides</ArticleChemicalList>
+            <ArticleMeshHeadingsList>Glycosylation; HLA Antigens(analysis); Histocompatibility Antigens Class II(analysis); Humans; Ligands; Polysaccharides(analysis); Spectrometry, Mass, Electrospray Ionization(methods); Spectrometry, Mass, Matrix-Assisted Laser Desorption-Ionization(methods)</ArticleMeshHeadingsList>
+            <Journal>
+                <Volume>40</Volume>
+                <Issue>1</Issue>
+                <Title>Journal of mass spectrometry : JMS</Title>
+                <Issn>1076-5174</Issn>
+                <MedlineTa>J Mass Spectrom</MedlineTa>
+            </Journal>
+        </Article>
+        <Epitopes>
+            <Epitope>
+                <EpitopeName>CD53 121-136</EpitopeName>
+                <EpitopeStructure>
+                    <FragmentOfANaturalSequenceMolecule>
+                        <ChemicalType>Peptide from protein</ChemicalType>
+                        <LinearSequence>SIHRYHSDNSTKAAWD</LinearSequence>
+                        <ModifiedResidues>N9</ModifiedResidues>
+                        <Modifications>Glycosylation</Modifications>
+                        <StartingPosition>121</StartingPosition>
+                        <EndingPosition>136</EndingPosition>
+                        <SourceMolecule>
+                            <GenBankId>P19397.1</GenBankId>
+                        </SourceMolecule>
+                        <SourceOrganismId>9606</SourceOrganismId>
+                    </FragmentOfANaturalSequenceMolecule>
+                </EpitopeStructure>
+                <LocationOfData>Figure 3</LocationOfData>
+                <EpitopeId>237932</EpitopeId>
+                <EpitopeEvidenceCode>Author provided Identifier</EpitopeEvidenceCode>
+                <EpitopeStructureDefines>Exact Epitope</EpitopeStructureDefines>
+                <EpitopeComments>The peptide was shown to be glycosylated at Asn9 with an N-linked hexasaccharide whose structure was elucidated.</EpitopeComments>
+                <Assays>
+                    <MhcLigandElution>
+                        <LocationOfData>Figures 1-4</LocationOfData>
+                        <MhcLigandElutionId>2378020</MhcLigandElutionId>
+                        <HostOrganism>
+                            <OrganismId>9606</OrganismId>
+                        </HostOrganism>
+                        <InVivoProcess>
+                            <InVivoProcessType>No immunization</InVivoProcessType>
+                        </InVivoProcess>
+                        <MhcLigand>
+                            <MhcLigandObject>
+                                <EpitopeRelation>Epitope</EpitopeRelation>
+                                <Object>
+                                    <FragmentOfANaturalSequenceMolecule>
+                                        <ChemicalType>Peptide from protein</ChemicalType>
+                                        <LinearSequence>SIHRYHSDNSTKAAWD</LinearSequence>
+                                        <ModifiedResidues>N9</ModifiedResidues>
+                                        <Modifications>Glycosylation</Modifications>
+                                        <StartingPosition>121</StartingPosition>
+                                        <EndingPosition>136</EndingPosition>
+                                        <SourceMolecule>
+                                            <GenBankId>P19397.1</GenBankId>
+                                        </SourceMolecule>
+                                        <SourceOrganismId>9606</SourceOrganismId>
+                                    </FragmentOfANaturalSequenceMolecule>
+                                </Object>
+                            </MhcLigandObject>
+                        </MhcLigand>
+                        <AntigenPresentingCells>
+                            <CellTissueType>Lymphoid</CellTissueType>
+                            <CellType>B cell</CellType>
+                            <CellCultureConditions>Cell Line / Clone (EBV transformed, B-LCL)</CellCultureConditions>
+                        </AntigenPresentingCells>
+                        <MhcAllele>
+                            <MhcAlleleId>341</MhcAlleleId>
+                            <MhcEvidenceCode>Single allele present</MhcEvidenceCode>
+                        </MhcAllele>
+                        <AssayInformation>
+                            <AssayTypeId>91</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                        </AssayInformation>
+                    </MhcLigandElution>
+                </Assays>
+            </Epitope>
+            <Epitope>
+                <EpitopeName>CD53 122-136</EpitopeName>
+                <EpitopeStructure>
+                    <FragmentOfANaturalSequenceMolecule>
+                        <ChemicalType>Peptide from protein</ChemicalType>
+                        <LinearSequence>IHRYHSDNSTKAAWD</LinearSequence>
+                        <ModifiedResidues>N8</ModifiedResidues>
+                        <Modifications>Glycosylation</Modifications>
+                        <StartingPosition>122</StartingPosition>
+                        <EndingPosition>136</EndingPosition>
+                        <SourceMolecule>
+                            <GenBankId>P19397.1</GenBankId>
+                        </SourceMolecule>
+                        <SourceOrganismId>9606</SourceOrganismId>
+                    </FragmentOfANaturalSequenceMolecule>
+                </EpitopeStructure>
+                <LocationOfData>Figure 3</LocationOfData>
+                <EpitopeId>237769</EpitopeId>
+                <EpitopeEvidenceCode>Author provided Identifier</EpitopeEvidenceCode>
+                <EpitopeStructureDefines>Exact Epitope</EpitopeStructureDefines>
+                <EpitopeComments>The peptide was shown to be glycosylated at Asn8 with an N-linked hexasaccharide whose structure was elucidated.</EpitopeComments>
+                <Assays>
+                    <MhcLigandElution>
+                        <LocationOfData>Figures 1-4</LocationOfData>
+                        <MhcLigandElutionId>2378021</MhcLigandElutionId>
+                        <HostOrganism>
+                            <OrganismId>9606</OrganismId>
+                        </HostOrganism>
+                        <InVivoProcess>
+                            <InVivoProcessType>No immunization</InVivoProcessType>
+                        </InVivoProcess>
+                        <MhcLigand>
+                            <MhcLigandObject>
+                                <EpitopeRelation>Epitope</EpitopeRelation>
+                                <Object>
+                                    <FragmentOfANaturalSequenceMolecule>
+                                        <ChemicalType>Peptide from protein</ChemicalType>
+                                        <LinearSequence>IHRYHSDNSTKAAWD</LinearSequence>
+                                        <ModifiedResidues>N8</ModifiedResidues>
+                                        <Modifications>Glycosylation</Modifications>
+                                        <StartingPosition>122</StartingPosition>
+                                        <EndingPosition>136</EndingPosition>
+                                        <SourceMolecule>
+                                            <GenBankId>P19397.1</GenBankId>
+                                        </SourceMolecule>
+                                        <SourceOrganismId>9606</SourceOrganismId>
+                                    </FragmentOfANaturalSequenceMolecule>
+                                </Object>
+                            </MhcLigandObject>
+                        </MhcLigand>
+                        <AntigenPresentingCells>
+                            <CellTissueType>Lymphoid</CellTissueType>
+                            <CellType>B cell</CellType>
+                            <CellCultureConditions>Cell Line / Clone (EBV transformed, B-LCL)</CellCultureConditions>
+                        </AntigenPresentingCells>
+                        <MhcAllele>
+                            <MhcAlleleId>341</MhcAlleleId>
+                            <MhcEvidenceCode>Single allele present</MhcEvidenceCode>
+                        </MhcAllele>
+                        <AssayInformation>
+                            <AssayTypeId>91</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                        </AssayInformation>
+                    </MhcLigandElution>
+                </Assays>
+            </Epitope>
+        </Epitopes>
+    </Reference>
+</References>
+

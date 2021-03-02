@@ -1,0 +1,373 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<References xsi:schemaLocation="http://www.iedb.org/schema/CurationSchema http://beta.iedb.org/schema/Curation.xsd" xmlns="http://www.iedb.org/schema/CurationSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <Reference>
+        <ReferenceId>395</ReferenceId>
+        <DateLastUpdated>2020-09-10-07:00</DateLastUpdated>
+        <Article>
+            <PubmedId>15635192</PubmedId>
+            <Abstract>We reported previously that fusogenic liposome (FL) introduced antigen protein encapsulated in the liposome directly into the cytoplasm of the antigen presenting cells, and that it induced immune responses. In the present study, we encapsulated TAX38-46, an HTLV-I derived protein and an antigen peptide model, into FL. The ability to induce effective cytotoxic T lymphocytes (CTL) responses in immunized mice was evaluated. Results showed FL could induce CTL response effectively and suggested that FL is a potential peptide vaccine carrier.</Abstract>
+            <ArticleYear>2005</ArticleYear>
+            <ArticlePages>192-3</ArticlePages>
+            <ArticleTitle>Fusogenic liposome can be used as an effective vaccine carrier for peptide vaccination to induce cytotoxic T lymphocyte (CTL) response.</ArticleTitle>
+            <Authors>
+                <Author>
+                    <LastName>Sugita</LastName>
+                    <ForeName>Toshiki</ForeName>
+                </Author>
+                <Author>
+                    <LastName>Yoshikawa</LastName>
+                    <ForeName>Tomoaki</ForeName>
+                </Author>
+                <Author>
+                    <LastName>Gao</LastName>
+                    <ForeName>Jian-Qing</ForeName>
+                </Author>
+                <Author>
+                    <LastName>Shimokawa</LastName>
+                    <ForeName>Mariko</ForeName>
+                </Author>
+                <Author>
+                    <LastName>Oda</LastName>
+                    <ForeName>Atushi</ForeName>
+                </Author>
+                <Author>
+                    <LastName>Niwa</LastName>
+                    <ForeName>Takako</ForeName>
+                </Author>
+                <Author>
+                    <LastName>Akashi</LastName>
+                    <ForeName>Mitsuru</ForeName>
+                </Author>
+                <Author>
+                    <LastName>Tsutsumi</LastName>
+                    <ForeName>Yasuo</ForeName>
+                </Author>
+                <Author>
+                    <LastName>Mayumi</LastName>
+                    <ForeName>Tadanori</ForeName>
+                </Author>
+                <Author>
+                    <LastName>Nakagawa</LastName>
+                    <ForeName>Shinsaku</ForeName>
+                </Author>
+            </Authors>
+            <Affiliations>Department of Biopharmaceutics, Graduate School of Pharmaceutical Sciences, Osaka University, Suita, Japan.</Affiliations>
+            <ArticleChemicalList>Drug Carriers;Liposomes;Vaccines, Subunit</ArticleChemicalList>
+            <ArticleMeshHeadingsList>Animals; Cell Line; Drug Carriers(administration &amp; dosage); Female; Liposomes; Mice; Mice, Inbred C3H; T-Lymphocytes, Cytotoxic(drug effects; immunology); Vaccination(methods); Vaccines, Subunit(administration &amp; dosage; immunology)</ArticleMeshHeadingsList>
+            <Journal>
+                <Volume>28</Volume>
+                <Issue>1</Issue>
+                <Title>Biological &amp; pharmaceutical bulletin</Title>
+                <Issn>0918-6158</Issn>
+                <MedlineTa>Biol Pharm Bull</MedlineTa>
+            </Journal>
+        </Article>
+        <Epitopes>
+            <Epitope>
+                <EpitopeName>TAX 38-46</EpitopeName>
+                <EpitopeStructure>
+                    <FragmentOfANaturalSequenceMolecule>
+                        <ChemicalType>Peptide from protein</ChemicalType>
+                        <LinearSequence>ARLHRHALL</LinearSequence>
+                        <StartingPosition>19</StartingPosition>
+                        <EndingPosition>27</EndingPosition>
+                        <SourceMolecule>
+                            <GenBankId>AAP19630.1</GenBankId>
+                        </SourceMolecule>
+                        <SourceOrganismId>11908</SourceOrganismId>
+                    </FragmentOfANaturalSequenceMolecule>
+                </EpitopeStructure>
+                <LocationOfData>Figure 1</LocationOfData>
+                <EpitopeId>4178</EpitopeId>
+                <ReferenceStartingPosition>38</ReferenceStartingPosition>
+                <ReferenceEndingPosition>46</ReferenceEndingPosition>
+                <EpitopeEvidenceCode>Not determined</EpitopeEvidenceCode>
+                <EpitopeStructureDefines>Exact Epitope</EpitopeStructureDefines>
+                <Assays>
+                    <TCell>
+                        <LocationOfData>Figure 1</LocationOfData>
+                        <TCellId>5523</TCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>10000028</OrganismId>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Administration in vivo</InVivoProcessType>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Epitope</EpitopeRelation>
+                                    <Object>
+                                        <FragmentOfANaturalSequenceMolecule>
+                                            <ChemicalType>Peptide from protein</ChemicalType>
+                                            <LinearSequence>ARLHRHALL</LinearSequence>
+                                            <StartingPosition>19</StartingPosition>
+                                            <EndingPosition>27</EndingPosition>
+                                            <SourceMolecule>
+                                                <GenBankId>AAP19630.1</GenBankId>
+                                            </SourceMolecule>
+                                            <SourceOrganismId>11908</SourceOrganismId>
+                                        </FragmentOfANaturalSequenceMolecule>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenReferenceName>TAX 38-46</ImmunogenReferenceName>
+                                <ImmunogenEvidenceCode>Exact match to reference information</ImmunogenEvidenceCode>
+                                <Adjuvant>Freund's complete</Adjuvant>
+                                <Route>Intradermal</Route>
+                                <DoseSchedule>3</DoseSchedule>
+                            </FirstInVivoProcess>
+                            <InVitroAdministration>
+                                <ProcessType>Restimulation in vitro</ProcessType>
+                                <ResponderCellType>Splenocyte</ResponderCellType>
+                                <StimulatorCellType>L cells-Fibroblast</StimulatorCellType>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Epitope</EpitopeRelation>
+                                    <Object>
+                                        <FragmentOfANaturalSequenceMolecule>
+                                            <ChemicalType>Peptide from protein</ChemicalType>
+                                            <LinearSequence>ARLHRHALL</LinearSequence>
+                                            <StartingPosition>19</StartingPosition>
+                                            <EndingPosition>27</EndingPosition>
+                                            <SourceMolecule>
+                                                <GenBankId>AAP19630.1</GenBankId>
+                                            </SourceMolecule>
+                                            <SourceOrganismId>11908</SourceOrganismId>
+                                        </FragmentOfANaturalSequenceMolecule>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenEvidenceCode>Exact match to reference information</ImmunogenEvidenceCode>
+                            </InVitroAdministration>
+                            <ImmunizationComments>Immunization schedule: once a week for 3 weeks. In vitro re-stimulation was with mitomycin c-treated L929 cells pulsed with the epitope.</ImmunizationComments>
+                        </Immunization>
+                        <EffectorCells>
+                            <CellTissueType>Spleen</CellTissueType>
+                            <CellType>Splenocyte</CellType>
+                            <CellCultureConditions>Short Term Restimulated</CellCultureConditions>
+                        </EffectorCells>
+                        <AntigenPresentingCells>
+                            <CellTissueType>Other</CellTissueType>
+                            <CellType>L cells-Fibroblast</CellType>
+                            <CellCultureConditions>Cell Line / Clone</CellCultureConditions>
+                            <AutologousOrSyngeneic>N</AutologousOrSyngeneic>
+                        </AntigenPresentingCells>
+                        <MhcAllele>
+                            <MhcAlleleId>174</MhcAlleleId>
+                            <MhcEvidenceCode>Not determined</MhcEvidenceCode>
+                        </MhcAllele>
+                        <Antigen>
+                            <AntigenReferenceName>TAX 38-46</AntigenReferenceName>
+                            <AntigenObject>
+                                <EpitopeRelation>Epitope</EpitopeRelation>
+                                <Object>
+                                    <FragmentOfANaturalSequenceMolecule>
+                                        <ChemicalType>Peptide from protein</ChemicalType>
+                                        <LinearSequence>ARLHRHALL</LinearSequence>
+                                        <StartingPosition>19</StartingPosition>
+                                        <EndingPosition>27</EndingPosition>
+                                        <SourceMolecule>
+                                            <GenBankId>AAP19630.1</GenBankId>
+                                        </SourceMolecule>
+                                        <SourceOrganismId>11908</SourceOrganismId>
+                                    </FragmentOfANaturalSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Exact match to reference information</AntigenEvidenceCode>
+                        </Antigen>
+                        <AssayInformation>
+                            <AssayTypeId>67</AssayTypeId>
+                            <QualitativeMeasurement>Negative</QualitativeMeasurement>
+                            <AssayComments>Two experiments were performed using the epitope with CFA.</AssayComments>
+                        </AssayInformation>
+                    </TCell>
+                </Assays>
+                <Assays>
+                    <TCell>
+                        <LocationOfData>Figure 1</LocationOfData>
+                        <TCellId>937</TCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>10000028</OrganismId>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Administration in vivo</InVivoProcessType>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Epitope</EpitopeRelation>
+                                    <Object>
+                                        <FragmentOfANaturalSequenceMolecule>
+                                            <ChemicalType>Peptide from protein</ChemicalType>
+                                            <LinearSequence>ARLHRHALL</LinearSequence>
+                                            <StartingPosition>19</StartingPosition>
+                                            <EndingPosition>27</EndingPosition>
+                                            <SourceMolecule>
+                                                <GenBankId>AAP19630.1</GenBankId>
+                                            </SourceMolecule>
+                                            <SourceOrganismId>11908</SourceOrganismId>
+                                        </FragmentOfANaturalSequenceMolecule>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenReferenceName>TAX 38-46</ImmunogenReferenceName>
+                                <ImmunogenEvidenceCode>Exact match to reference information</ImmunogenEvidenceCode>
+                                <Route>Intradermal</Route>
+                                <DoseSchedule>3</DoseSchedule>
+                            </FirstInVivoProcess>
+                            <InVitroAdministration>
+                                <ProcessType>Restimulation in vitro</ProcessType>
+                                <ResponderCellType>Splenocyte</ResponderCellType>
+                                <StimulatorCellType>L cells-Fibroblast</StimulatorCellType>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Epitope</EpitopeRelation>
+                                    <Object>
+                                        <FragmentOfANaturalSequenceMolecule>
+                                            <ChemicalType>Peptide from protein</ChemicalType>
+                                            <LinearSequence>ARLHRHALL</LinearSequence>
+                                            <StartingPosition>19</StartingPosition>
+                                            <EndingPosition>27</EndingPosition>
+                                            <SourceMolecule>
+                                                <GenBankId>AAP19630.1</GenBankId>
+                                            </SourceMolecule>
+                                            <SourceOrganismId>11908</SourceOrganismId>
+                                        </FragmentOfANaturalSequenceMolecule>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenEvidenceCode>Exact match to reference information</ImmunogenEvidenceCode>
+                            </InVitroAdministration>
+                            <ImmunizationComments>Immunization schedule: once a week for 3 weeks. In vitro re-stimulation was with mitomycin c-treated L929 cells pulsed with the epitope.</ImmunizationComments>
+                        </Immunization>
+                        <EffectorCells>
+                            <CellTissueType>Spleen</CellTissueType>
+                            <CellType>Splenocyte</CellType>
+                            <CellCultureConditions>Short Term Restimulated</CellCultureConditions>
+                        </EffectorCells>
+                        <AntigenPresentingCells>
+                            <CellTissueType>Other</CellTissueType>
+                            <CellType>L cells-Fibroblast</CellType>
+                            <CellCultureConditions>Cell Line / Clone</CellCultureConditions>
+                            <AutologousOrSyngeneic>N</AutologousOrSyngeneic>
+                        </AntigenPresentingCells>
+                        <MhcAllele>
+                            <MhcAlleleId>174</MhcAlleleId>
+                            <MhcEvidenceCode>Not determined</MhcEvidenceCode>
+                        </MhcAllele>
+                        <Antigen>
+                            <AntigenReferenceName>TAX 38-46</AntigenReferenceName>
+                            <AntigenObject>
+                                <EpitopeRelation>Epitope</EpitopeRelation>
+                                <Object>
+                                    <FragmentOfANaturalSequenceMolecule>
+                                        <ChemicalType>Peptide from protein</ChemicalType>
+                                        <LinearSequence>ARLHRHALL</LinearSequence>
+                                        <StartingPosition>19</StartingPosition>
+                                        <EndingPosition>27</EndingPosition>
+                                        <SourceMolecule>
+                                            <GenBankId>AAP19630.1</GenBankId>
+                                        </SourceMolecule>
+                                        <SourceOrganismId>11908</SourceOrganismId>
+                                    </FragmentOfANaturalSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Exact match to reference information</AntigenEvidenceCode>
+                        </Antigen>
+                        <AssayInformation>
+                            <AssayTypeId>67</AssayTypeId>
+                            <QualitativeMeasurement>Negative</QualitativeMeasurement>
+                            <AssayComments>Two experiments were performed using the epitope alone.</AssayComments>
+                        </AssayInformation>
+                    </TCell>
+                </Assays>
+                <Assays>
+                    <TCell>
+                        <LocationOfData>Figure 1</LocationOfData>
+                        <TCellId>5524</TCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>10000028</OrganismId>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Administration in vivo</InVivoProcessType>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Epitope</EpitopeRelation>
+                                    <Object>
+                                        <FragmentOfANaturalSequenceMolecule>
+                                            <ChemicalType>Peptide from protein</ChemicalType>
+                                            <LinearSequence>ARLHRHALL</LinearSequence>
+                                            <StartingPosition>19</StartingPosition>
+                                            <EndingPosition>27</EndingPosition>
+                                            <SourceMolecule>
+                                                <GenBankId>AAP19630.1</GenBankId>
+                                            </SourceMolecule>
+                                            <SourceOrganismId>11908</SourceOrganismId>
+                                        </FragmentOfANaturalSequenceMolecule>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenReferenceName>TAX 38-46</ImmunogenReferenceName>
+                                <ImmunogenEvidenceCode>Exact match to reference information</ImmunogenEvidenceCode>
+                                <Route>Intradermal</Route>
+                                <DoseSchedule>3</DoseSchedule>
+                            </FirstInVivoProcess>
+                            <InVitroAdministration>
+                                <ProcessType>Restimulation in vitro</ProcessType>
+                                <ResponderCellType>Splenocyte</ResponderCellType>
+                                <StimulatorCellType>L cells-Fibroblast</StimulatorCellType>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Epitope</EpitopeRelation>
+                                    <Object>
+                                        <FragmentOfANaturalSequenceMolecule>
+                                            <ChemicalType>Peptide from protein</ChemicalType>
+                                            <LinearSequence>ARLHRHALL</LinearSequence>
+                                            <StartingPosition>19</StartingPosition>
+                                            <EndingPosition>27</EndingPosition>
+                                            <SourceMolecule>
+                                                <GenBankId>AAP19630.1</GenBankId>
+                                            </SourceMolecule>
+                                            <SourceOrganismId>11908</SourceOrganismId>
+                                        </FragmentOfANaturalSequenceMolecule>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenEvidenceCode>Exact match to reference information</ImmunogenEvidenceCode>
+                            </InVitroAdministration>
+                            <ImmunizationComments>Immunization schedule: once a week for 3 weeks. In vitro re-stimulation was with mitomycin c-treated L929 cells pulsed with the epitope.</ImmunizationComments>
+                        </Immunization>
+                        <EffectorCells>
+                            <CellTissueType>Spleen</CellTissueType>
+                            <CellType>Splenocyte</CellType>
+                            <CellCultureConditions>Short Term Restimulated</CellCultureConditions>
+                        </EffectorCells>
+                        <AntigenPresentingCells>
+                            <CellTissueType>Other</CellTissueType>
+                            <CellType>L cells-Fibroblast</CellType>
+                            <CellCultureConditions>Cell Line / Clone</CellCultureConditions>
+                            <AutologousOrSyngeneic>N</AutologousOrSyngeneic>
+                        </AntigenPresentingCells>
+                        <MhcAllele>
+                            <MhcAlleleId>174</MhcAlleleId>
+                            <MhcEvidenceCode>Not determined</MhcEvidenceCode>
+                        </MhcAllele>
+                        <Antigen>
+                            <AntigenReferenceName>TAX 38-46</AntigenReferenceName>
+                            <AntigenObject>
+                                <EpitopeRelation>Epitope</EpitopeRelation>
+                                <Object>
+                                    <FragmentOfANaturalSequenceMolecule>
+                                        <ChemicalType>Peptide from protein</ChemicalType>
+                                        <LinearSequence>ARLHRHALL</LinearSequence>
+                                        <StartingPosition>19</StartingPosition>
+                                        <EndingPosition>27</EndingPosition>
+                                        <SourceMolecule>
+                                            <GenBankId>AAP19630.1</GenBankId>
+                                        </SourceMolecule>
+                                        <SourceOrganismId>11908</SourceOrganismId>
+                                    </FragmentOfANaturalSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Exact match to reference information</AntigenEvidenceCode>
+                        </Antigen>
+                        <AssayInformation>
+                            <AssayTypeId>67</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <AssayComments>Two experiments were performed using the epitope encapsulated within fusogenic liposome.</AssayComments>
+                        </AssayInformation>
+                    </TCell>
+                </Assays>
+            </Epitope>
+        </Epitopes>
+    </Reference>
+</References>
+

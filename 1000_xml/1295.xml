@@ -1,0 +1,759 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<References xsi:schemaLocation="http://www.iedb.org/schema/CurationSchema http://beta.iedb.org/schema/Curation.xsd" xmlns="http://www.iedb.org/schema/CurationSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <Reference>
+        <ReferenceId>1295</ReferenceId>
+        <DateLastUpdated>2020-09-10-07:00</DateLastUpdated>
+        <Article>
+            <PubmedId>12021777</PubmedId>
+            <Abstract>Given the key role CD8+ T cells play in controlling viral infection, strategies to enhance these responses may have important clinical applications. We found that in vivo CD137 stimulation with an agonistic monoclonal antibody enhanced the primary CD8+ T cell response to influenza type A viral infection in mice. Stimulation of CD137 increased the absolute number of CD8+ T cells to influenza epitopes in the lungs of infected animals, preferentially expanded CD8+ T cells that recognized nondominant epitopes and greatly enhanced direct ex vivo cytotoxicity. CD137 stimulation also restored the CD8+ T cell response to the immunodominant influenza epitope in CD28-/- mice. Thus, in vivo CD137 stimulation enhances and broadens the CD8+ T cell response to influenza virus and can restore the CD8+ T cell response when CD28 costimulation is absent. This suggests that CD137 stimulation may be useful as a strategy to enhance the CD8+ T cell response to viruses.</Abstract>
+            <ArticleYear>2002</ArticleYear>
+            <ArticlePages>536-41</ArticlePages>
+            <ArticleTitle>In vivo stimulation of CD137 broadens primary antiviral CD8+ T cell responses.</ArticleTitle>
+            <Authors>
+                <Author>
+                    <LastName>Halstead</LastName>
+                    <ForeName>E Scott</ForeName>
+                </Author>
+                <Author>
+                    <LastName>Mueller</LastName>
+                    <ForeName>Yvonne M</ForeName>
+                </Author>
+                <Author>
+                    <LastName>Altman</LastName>
+                    <ForeName>John D</ForeName>
+                </Author>
+                <Author>
+                    <LastName>Katsikis</LastName>
+                    <ForeName>Peter D</ForeName>
+                </Author>
+            </Authors>
+            <Affiliations>Department of Microbiology and Immunology, MCP Hahnemann University, Philadelphia, PA, USA.</Affiliations>
+            <ArticleChemicalList>Antibodies, Monoclonal;Antibodies, Viral;Antigens, CD;Antigens, Viral;CD28 Antigens;Epitopes;Immunodominant Epitopes;Immunoglobulin G;Immunoglobulin M;Receptors, Nerve Growth Factor;Receptors, Tumor Necrosis Factor;Tnfrsf9 protein, mouse;Tumor Necrosis Factor Receptor Superfamily, Member 9</ArticleChemicalList>
+            <ArticleMeshHeadingsList>Animals; Antibodies, Monoclonal(pharmacology); Antibodies, Viral(biosynthesis); Antigens, CD; Antigens, Viral; CD28 Antigens(genetics; metabolism); CD8-Positive T-Lymphocytes(immunology); Cytotoxicity, Immunologic; Epitopes; Female; Immunodominant Epitopes; Immunoglobulin G(biosynthesis); Immunoglobulin M(biosynthesis); In Vitro Techniques; Lung(immunology); Mice; Mice, Inbred C57BL; Mice, Knockout; Orthomyxoviridae(immunology); Receptors, Nerve Growth Factor(agonists; metabolism); Receptors, Tumor Necrosis Factor(agonists; metabolism); Tumor Necrosis Factor Receptor Superfamily, Member 9</ArticleMeshHeadingsList>
+            <Journal>
+                <Volume>3</Volume>
+                <Issue>6</Issue>
+                <Title>Nature immunology</Title>
+                <Issn>1529-2916</Issn>
+                <MedlineTa>Nat Immunol</MedlineTa>
+            </Journal>
+        </Article>
+        <Epitopes>
+            <Epitope>
+                <EpitopeName>NP 366-374</EpitopeName>
+                <EpitopeStructure>
+                    <FragmentOfANaturalSequenceMolecule>
+                        <ChemicalType>Peptide from protein</ChemicalType>
+                        <LinearSequence>ASNENMETM</LinearSequence>
+                        <StartingPosition>366</StartingPosition>
+                        <EndingPosition>374</EndingPosition>
+                        <SourceMolecule>
+                            <IedbAccession>SRC124</IedbAccession>
+                        </SourceMolecule>
+                        <SourceOrganismId>211044</SourceOrganismId>
+                    </FragmentOfANaturalSequenceMolecule>
+                </EpitopeStructure>
+                <LocationOfData>Page 540</LocationOfData>
+                <EpitopeId>4602</EpitopeId>
+                <ReferenceStartingPosition>366</ReferenceStartingPosition>
+                <ReferenceEndingPosition>374</ReferenceEndingPosition>
+                <EpitopeEvidenceCode>Not determined</EpitopeEvidenceCode>
+                <EpitopeStructureDefines>Exact Epitope</EpitopeStructureDefines>
+                <Assays>
+                    <TCell>
+                        <LocationOfData>Figure 4A</LocationOfData>
+                        <TCellId>20617</TCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>10000283</OrganismId>
+                                <Sex>F</Sex>
+                                <Age>6-8 weeks</Age>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Administration in vivo</InVivoProcessType>
+                                <DiseaseState>DOID:8469</DiseaseState>
+                                <DiseaseStage>Acute/Recent onset</DiseaseStage>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Source Organism</EpitopeRelation>
+                                    <Object>
+                                        <Organism>
+                                            <SubType>Organism</SubType>
+                                            <SourceOrganismId>211044</SourceOrganismId>
+                                        </Organism>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenEvidenceCode>Not determined</ImmunogenEvidenceCode>
+                                <Route>Intranasal</Route>
+                                <DoseSchedule>1 dose of 4 hemagglutinin units</DoseSchedule>
+                            </FirstInVivoProcess>
+                            <ImmunizationComments>At day 0, 3 and 7 post infection, mice were intraperitoneally injected with 100 micrograms mAb M6 CD137, agonist to costimulatory receptor CD137. Pulmonary lymphocytes were harvested 10 days post infection.</ImmunizationComments>
+                        </Immunization>
+                        <EffectorCells>
+                            <CellTissueType>Lung</CellTissueType>
+                            <CellType>T cell CD8+</CellType>
+                            <CellCultureConditions>Direct Ex Vivo</CellCultureConditions>
+                        </EffectorCells>
+                        <MhcAllele>
+                            <MhcAlleleId>172</MhcAlleleId>
+                            <MhcEvidenceCode>Not determined</MhcEvidenceCode>
+                        </MhcAllele>
+                        <Antigen>
+                            <AntigenReferenceName>NP 366-374</AntigenReferenceName>
+                            <AntigenObject>
+                                <EpitopeRelation>Epitope</EpitopeRelation>
+                                <Object>
+                                    <FragmentOfANaturalSequenceMolecule>
+                                        <ChemicalType>Peptide from protein</ChemicalType>
+                                        <LinearSequence>ASNENMETM</LinearSequence>
+                                        <StartingPosition>366</StartingPosition>
+                                        <EndingPosition>374</EndingPosition>
+                                        <SourceMolecule>
+                                            <IedbAccession>SRC124</IedbAccession>
+                                        </SourceMolecule>
+                                        <SourceOrganismId>211044</SourceOrganismId>
+                                    </FragmentOfANaturalSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Exact match to reference information</AntigenEvidenceCode>
+                        </Antigen>
+                        <AssayInformation>
+                            <AssayTypeId>47</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <QuantitativeMeasurement>7.0</QuantitativeMeasurement>
+                            <AssayComments>Treatment of Influenza infected CD28 -/- mice (unable to mount an effective response to Influenza) with a CD137 agonist mAb at days 0, 3 and 7 post infection significantly augmented the percentage of epitope specific CD8+ cells to levels similar to those seen in wild type C57BL/6J mice. A similar result was seen in ex vivo CTL activity, implying that CD137 stimulation can substitute for CD28 stimulation in the generation of a primary CD8+  T cell response to this virus.</AssayComments>
+                        </AssayInformation>
+                    </TCell>
+                </Assays>
+                <Assays>
+                    <TCell>
+                        <LocationOfData>Figure 1B</LocationOfData>
+                        <TCellId>20585</TCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>10000067</OrganismId>
+                                <Sex>F</Sex>
+                                <Age>6-8 weeks</Age>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Administration in vivo</InVivoProcessType>
+                                <DiseaseState>DOID:8469</DiseaseState>
+                                <DiseaseStage>Acute/Recent onset</DiseaseStage>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Source Organism</EpitopeRelation>
+                                    <Object>
+                                        <Organism>
+                                            <SubType>Organism</SubType>
+                                            <SourceOrganismId>211044</SourceOrganismId>
+                                        </Organism>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenEvidenceCode>Not determined</ImmunogenEvidenceCode>
+                                <Route>Intranasal</Route>
+                                <DoseSchedule>1 dose of 4 hemagglutinin units</DoseSchedule>
+                            </FirstInVivoProcess>
+                            <ImmunizationComments>At day 0, 3 and 7 post infection, mice were intraperitoneally injected with 100 micrograms mAb M6 CD137, agonist to costimulatory receptor CD137. Pulmonary lymphocytes were harvested 10 days post infection.</ImmunizationComments>
+                        </Immunization>
+                        <EffectorCells>
+                            <CellTissueType>Lung</CellTissueType>
+                            <CellType>T cell CD8+</CellType>
+                            <CellCultureConditions>Direct Ex Vivo</CellCultureConditions>
+                        </EffectorCells>
+                        <MhcAllele>
+                            <MhcAlleleId>172</MhcAlleleId>
+                            <MhcEvidenceCode>Not determined</MhcEvidenceCode>
+                        </MhcAllele>
+                        <Antigen>
+                            <AntigenReferenceName>NP 366-374</AntigenReferenceName>
+                            <AntigenObject>
+                                <EpitopeRelation>Epitope</EpitopeRelation>
+                                <Object>
+                                    <FragmentOfANaturalSequenceMolecule>
+                                        <ChemicalType>Peptide from protein</ChemicalType>
+                                        <LinearSequence>ASNENMETM</LinearSequence>
+                                        <StartingPosition>366</StartingPosition>
+                                        <EndingPosition>374</EndingPosition>
+                                        <SourceMolecule>
+                                            <IedbAccession>SRC124</IedbAccession>
+                                        </SourceMolecule>
+                                        <SourceOrganismId>211044</SourceOrganismId>
+                                    </FragmentOfANaturalSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Exact match to reference information</AntigenEvidenceCode>
+                        </Antigen>
+                        <AssayInformation>
+                            <AssayTypeId>47</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <QuantitativeMeasurement>10.0</QuantitativeMeasurement>
+                            <MeasurementInequality>&lt;</MeasurementInequality>
+                            <AssayComments>Treatment of Influenza infected mice with a CD137 agonist mAb at days 0, 3 and 7 post infection significantly reduced the percentage of CD8+ cells specific to this epitope, while the number of  total CD8+ cells were augmented (the total number of epitope specific CD8+ cells were increased, but the proportion was diminished), implying that the response against other viral epitopes may have been enhanced by this treatment.</AssayComments>
+                        </AssayInformation>
+                    </TCell>
+                </Assays>
+                <Assays>
+                    <TCell>
+                        <LocationOfData>Figure 3E</LocationOfData>
+                        <TCellId>20592</TCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>10000067</OrganismId>
+                                <Sex>F</Sex>
+                                <Age>6-8 weeks</Age>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Administration in vivo</InVivoProcessType>
+                                <DiseaseState>DOID:8469</DiseaseState>
+                                <DiseaseStage>Acute/Recent onset</DiseaseStage>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Source Organism</EpitopeRelation>
+                                    <Object>
+                                        <Organism>
+                                            <SubType>Organism</SubType>
+                                            <SourceOrganismId>211044</SourceOrganismId>
+                                        </Organism>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenEvidenceCode>Not determined</ImmunogenEvidenceCode>
+                                <Route>Intranasal</Route>
+                                <DoseSchedule>1 dose of 4 hemagglutinin units</DoseSchedule>
+                            </FirstInVivoProcess>
+                            <ImmunizationComments>At day 0, 3 and 7 post infection, mice were intraperitoneally injected with 100 micrograms mAb M6 CD137, agonist to costimulatory receptor CD137. Pulmonary lymphocytes were harvested 10 days post infection.</ImmunizationComments>
+                        </Immunization>
+                        <EffectorCells>
+                            <CellTissueType>Lung</CellTissueType>
+                            <CellType>T cell</CellType>
+                            <CellCultureConditions>Direct Ex Vivo</CellCultureConditions>
+                        </EffectorCells>
+                        <AntigenPresentingCells>
+                            <CellTissueType>Lymphoid</CellTissueType>
+                            <CellType>EL-4 cells-Lymphoblast</CellType>
+                            <CellCultureConditions>Cell Line / Clone</CellCultureConditions>
+                            <AutologousOrSyngeneic>N</AutologousOrSyngeneic>
+                        </AntigenPresentingCells>
+                        <MhcAllele>
+                            <MhcAlleleId>172</MhcAlleleId>
+                            <MhcEvidenceCode>Not determined</MhcEvidenceCode>
+                        </MhcAllele>
+                        <Antigen>
+                            <AntigenReferenceName>NP 366-374</AntigenReferenceName>
+                            <AntigenObject>
+                                <EpitopeRelation>Epitope</EpitopeRelation>
+                                <Object>
+                                    <FragmentOfANaturalSequenceMolecule>
+                                        <ChemicalType>Peptide from protein</ChemicalType>
+                                        <LinearSequence>ASNENMETM</LinearSequence>
+                                        <StartingPosition>366</StartingPosition>
+                                        <EndingPosition>374</EndingPosition>
+                                        <SourceMolecule>
+                                            <IedbAccession>SRC124</IedbAccession>
+                                        </SourceMolecule>
+                                        <SourceOrganismId>211044</SourceOrganismId>
+                                    </FragmentOfANaturalSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Exact match to reference information</AntigenEvidenceCode>
+                        </Antigen>
+                        <AssayInformation>
+                            <AssayTypeId>67</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <QuantitativeMeasurement>30.0</QuantitativeMeasurement>
+                            <MeasurementInequality>&lt;=</MeasurementInequality>
+                            <AssayComments>Treatment of Influenza infected mice with a CD137 agonist mAb at days 0, 3 and 7 post infection did not affect the ability of T cells to lyse peptide pulsed APCs, while cytotoxicity to less immunodominant epitopes was enhanced. This treatment was able to revert the lack of epitope specific CTL responses seen in CD28 -/- mice.</AssayComments>
+                        </AssayInformation>
+                    </TCell>
+                </Assays>
+            </Epitope>
+            <Epitope>
+                <EpitopeName>M1 128-135</EpitopeName>
+                <EpitopeStructure>
+                    <FragmentOfANaturalSequenceMolecule>
+                        <ChemicalType>Peptide from protein</ChemicalType>
+                        <LinearSequence>MGLIYNRM</LinearSequence>
+                        <StartingPosition>128</StartingPosition>
+                        <EndingPosition>135</EndingPosition>
+                        <SourceMolecule>
+                            <GenBankId>P03485.1</GenBankId>
+                        </SourceMolecule>
+                        <SourceOrganismId>211044</SourceOrganismId>
+                    </FragmentOfANaturalSequenceMolecule>
+                </EpitopeStructure>
+                <LocationOfData>Page 540</LocationOfData>
+                <EpitopeId>41602</EpitopeId>
+                <ReferenceStartingPosition>128</ReferenceStartingPosition>
+                <ReferenceEndingPosition>135</ReferenceEndingPosition>
+                <EpitopeEvidenceCode>Not determined</EpitopeEvidenceCode>
+                <EpitopeStructureDefines>Exact Epitope</EpitopeStructureDefines>
+                <Assays>
+                    <TCell>
+                        <LocationOfData>Figure 3D</LocationOfData>
+                        <TCellId>20636</TCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>10000067</OrganismId>
+                                <Sex>F</Sex>
+                                <Age>6-8 weeks</Age>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Administration in vivo</InVivoProcessType>
+                                <DiseaseState>DOID:8469</DiseaseState>
+                                <DiseaseStage>Acute/Recent onset</DiseaseStage>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Source Organism</EpitopeRelation>
+                                    <Object>
+                                        <Organism>
+                                            <SubType>Organism</SubType>
+                                            <SourceOrganismId>211044</SourceOrganismId>
+                                        </Organism>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenEvidenceCode>Not determined</ImmunogenEvidenceCode>
+                                <Route>Intranasal</Route>
+                                <DoseSchedule>1 dose of 4 hemagglutinin units</DoseSchedule>
+                            </FirstInVivoProcess>
+                            <ImmunizationComments>At day 0, 3 and 7 post infection, mice were intraperitoneally injected with 100 micrograms mAb M6 CD137, agonist to costimulatory receptor CD137. Pulmonary lymphocytes were harvested 10 days post infection.</ImmunizationComments>
+                        </Immunization>
+                        <EffectorCells>
+                            <CellTissueType>Lung</CellTissueType>
+                            <CellType>T cell CD8+</CellType>
+                            <CellCultureConditions>Direct Ex Vivo</CellCultureConditions>
+                        </EffectorCells>
+                        <AntigenPresentingCells>
+                            <CellTissueType>Lung</CellTissueType>
+                            <CellType>Mononuclear cell</CellType>
+                            <CellCultureConditions>Direct Ex Vivo</CellCultureConditions>
+                            <AutologousOrSyngeneic>Y</AutologousOrSyngeneic>
+                        </AntigenPresentingCells>
+                        <MhcAllele>
+                            <MhcAlleleId>122</MhcAlleleId>
+                            <MhcEvidenceCode>Not determined</MhcEvidenceCode>
+                        </MhcAllele>
+                        <Antigen>
+                            <AntigenReferenceName>M1 128-135</AntigenReferenceName>
+                            <AntigenObject>
+                                <EpitopeRelation>Epitope</EpitopeRelation>
+                                <Object>
+                                    <FragmentOfANaturalSequenceMolecule>
+                                        <ChemicalType>Peptide from protein</ChemicalType>
+                                        <LinearSequence>MGLIYNRM</LinearSequence>
+                                        <StartingPosition>128</StartingPosition>
+                                        <EndingPosition>135</EndingPosition>
+                                        <SourceMolecule>
+                                            <GenBankId>P03485.1</GenBankId>
+                                        </SourceMolecule>
+                                        <SourceOrganismId>211044</SourceOrganismId>
+                                    </FragmentOfANaturalSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Exact match to reference information</AntigenEvidenceCode>
+                        </Antigen>
+                        <AssayInformation>
+                            <AssayTypeId>53</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <AssayComments>Treatment of Influenza infected mice with a CD137 agonist mAb at days 0, 3 and 7 post infection significantly increased the number of epitope specific IFN-g+ CD8+ cells in the lung. The percentage among CD8+ cells was only slightly augmented, but the proportion to the immunodominant epitope NP366 was diminished, implying that CD137 engagement broadens the response against viral epitopes.</AssayComments>
+                        </AssayInformation>
+                    </TCell>
+                </Assays>
+                <Assays>
+                    <TCell>
+                        <LocationOfData>Figure 3E</LocationOfData>
+                        <TCellId>20637</TCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>10000067</OrganismId>
+                                <Sex>F</Sex>
+                                <Age>6-8 weeks</Age>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Administration in vivo</InVivoProcessType>
+                                <DiseaseState>DOID:8469</DiseaseState>
+                                <DiseaseStage>Acute/Recent onset</DiseaseStage>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Source Organism</EpitopeRelation>
+                                    <Object>
+                                        <Organism>
+                                            <SubType>Organism</SubType>
+                                            <SourceOrganismId>211044</SourceOrganismId>
+                                        </Organism>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenEvidenceCode>Not determined</ImmunogenEvidenceCode>
+                                <Route>Intranasal</Route>
+                                <DoseSchedule>1 dose of 4 hemagglutinin units</DoseSchedule>
+                            </FirstInVivoProcess>
+                            <ImmunizationComments>At day 0, 3 and 7 post infection, mice were intraperitoneally injected with 100 micrograms mAb M6 CD137, agonist to costimulatory receptor CD137. Pulmonary lymphocytes were harvested 10 days post infection.</ImmunizationComments>
+                        </Immunization>
+                        <EffectorCells>
+                            <CellTissueType>Lung</CellTissueType>
+                            <CellType>T cell</CellType>
+                            <CellCultureConditions>Direct Ex Vivo</CellCultureConditions>
+                        </EffectorCells>
+                        <AntigenPresentingCells>
+                            <CellTissueType>Lymphoid</CellTissueType>
+                            <CellType>EL-4 cells-Lymphoblast</CellType>
+                            <CellCultureConditions>Cell Line / Clone</CellCultureConditions>
+                            <AutologousOrSyngeneic>N</AutologousOrSyngeneic>
+                        </AntigenPresentingCells>
+                        <MhcAllele>
+                            <MhcAlleleId>122</MhcAlleleId>
+                            <MhcEvidenceCode>Not determined</MhcEvidenceCode>
+                        </MhcAllele>
+                        <Antigen>
+                            <AntigenReferenceName>M1 128-135</AntigenReferenceName>
+                            <AntigenObject>
+                                <EpitopeRelation>Epitope</EpitopeRelation>
+                                <Object>
+                                    <FragmentOfANaturalSequenceMolecule>
+                                        <ChemicalType>Peptide from protein</ChemicalType>
+                                        <LinearSequence>MGLIYNRM</LinearSequence>
+                                        <StartingPosition>128</StartingPosition>
+                                        <EndingPosition>135</EndingPosition>
+                                        <SourceMolecule>
+                                            <GenBankId>P03485.1</GenBankId>
+                                        </SourceMolecule>
+                                        <SourceOrganismId>211044</SourceOrganismId>
+                                    </FragmentOfANaturalSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Exact match to reference information</AntigenEvidenceCode>
+                        </Antigen>
+                        <AssayInformation>
+                            <AssayTypeId>67</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <QuantitativeMeasurement>15.0</QuantitativeMeasurement>
+                            <MeasurementInequality>&lt;=</MeasurementInequality>
+                            <AssayComments>Treatment of Influenza infected mice with a CD137 agonist mAb at days 0, 3 and 7 post infection enhanced the level of cytotoxicity to this epitope, while it did not affect the response to the immunodominant epitope NP366, implying that CD137 engagement broadens the response against viral epitopes.</AssayComments>
+                        </AssayInformation>
+                    </TCell>
+                </Assays>
+            </Epitope>
+            <Epitope>
+                <EpitopeName>NS2 114-121</EpitopeName>
+                <EpitopeStructure>
+                    <FragmentOfANaturalSequenceMolecule>
+                        <ChemicalType>Peptide from protein</ChemicalType>
+                        <LinearSequence>RTFSFQLI</LinearSequence>
+                        <StartingPosition>114</StartingPosition>
+                        <EndingPosition>121</EndingPosition>
+                        <SourceMolecule>
+                            <GenBankId>P03508.1</GenBankId>
+                        </SourceMolecule>
+                        <SourceOrganismId>211044</SourceOrganismId>
+                    </FragmentOfANaturalSequenceMolecule>
+                </EpitopeStructure>
+                <LocationOfData>Page 540</LocationOfData>
+                <EpitopeId>56055</EpitopeId>
+                <ReferenceStartingPosition>114</ReferenceStartingPosition>
+                <ReferenceEndingPosition>121</ReferenceEndingPosition>
+                <EpitopeEvidenceCode>Not determined</EpitopeEvidenceCode>
+                <EpitopeStructureDefines>Exact Epitope</EpitopeStructureDefines>
+                <Assays>
+                    <TCell>
+                        <LocationOfData>Figure 3D</LocationOfData>
+                        <TCellId>20669</TCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>10000067</OrganismId>
+                                <Sex>F</Sex>
+                                <Age>6-8 weeks</Age>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Administration in vivo</InVivoProcessType>
+                                <DiseaseState>DOID:8469</DiseaseState>
+                                <DiseaseStage>Acute/Recent onset</DiseaseStage>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Source Organism</EpitopeRelation>
+                                    <Object>
+                                        <Organism>
+                                            <SubType>Organism</SubType>
+                                            <SourceOrganismId>211044</SourceOrganismId>
+                                        </Organism>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenEvidenceCode>Not determined</ImmunogenEvidenceCode>
+                                <Route>Intranasal</Route>
+                                <DoseSchedule>1 dose of 4 hemagglutinin units</DoseSchedule>
+                            </FirstInVivoProcess>
+                            <ImmunizationComments>At day 0, 3 and 7 post infection, mice were intraperitoneally injected with 100 micrograms mAb M6 CD137, agonist to costimulatory receptor CD137. Pulmonary lymphocytes were harvested 10 days post infection.</ImmunizationComments>
+                        </Immunization>
+                        <EffectorCells>
+                            <CellTissueType>Lung</CellTissueType>
+                            <CellType>T cell CD8+</CellType>
+                            <CellCultureConditions>Direct Ex Vivo</CellCultureConditions>
+                        </EffectorCells>
+                        <AntigenPresentingCells>
+                            <CellTissueType>Lung</CellTissueType>
+                            <CellType>Mononuclear cell</CellType>
+                            <CellCultureConditions>Direct Ex Vivo</CellCultureConditions>
+                            <AutologousOrSyngeneic>Y</AutologousOrSyngeneic>
+                        </AntigenPresentingCells>
+                        <MhcAllele>
+                            <MhcAlleleId>122</MhcAlleleId>
+                            <MhcEvidenceCode>Not determined</MhcEvidenceCode>
+                        </MhcAllele>
+                        <Antigen>
+                            <AntigenReferenceName>NS2 114-121</AntigenReferenceName>
+                            <AntigenObject>
+                                <EpitopeRelation>Epitope</EpitopeRelation>
+                                <Object>
+                                    <FragmentOfANaturalSequenceMolecule>
+                                        <ChemicalType>Peptide from protein</ChemicalType>
+                                        <LinearSequence>RTFSFQLI</LinearSequence>
+                                        <StartingPosition>114</StartingPosition>
+                                        <EndingPosition>121</EndingPosition>
+                                        <SourceMolecule>
+                                            <GenBankId>P03508.1</GenBankId>
+                                        </SourceMolecule>
+                                        <SourceOrganismId>211044</SourceOrganismId>
+                                    </FragmentOfANaturalSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Exact match to reference information</AntigenEvidenceCode>
+                        </Antigen>
+                        <AssayInformation>
+                            <AssayTypeId>53</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <AssayComments>Treatment of Influenza infected mice with a CD137 agonist mAb at days 0, 3 and 7 post infection significantly increased the number of epitope specific IFN-g+ CD8+ cells in the lung. The percentage among CD8+ cells was less strikingly augmented, but the proportion to the immunodominant epitope NP366 was diminished, implying that CD137 engagement broadens the response against viral epitopes.</AssayComments>
+                        </AssayInformation>
+                    </TCell>
+                </Assays>
+                <Assays>
+                    <TCell>
+                        <LocationOfData>Figure 3E</LocationOfData>
+                        <TCellId>20670</TCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>10000067</OrganismId>
+                                <Sex>F</Sex>
+                                <Age>6-8 weeks</Age>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Administration in vivo</InVivoProcessType>
+                                <DiseaseState>DOID:8469</DiseaseState>
+                                <DiseaseStage>Acute/Recent onset</DiseaseStage>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Source Organism</EpitopeRelation>
+                                    <Object>
+                                        <Organism>
+                                            <SubType>Organism</SubType>
+                                            <SourceOrganismId>211044</SourceOrganismId>
+                                        </Organism>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenEvidenceCode>Not determined</ImmunogenEvidenceCode>
+                                <Route>Intranasal</Route>
+                                <DoseSchedule>1 dose of 4 hemagglutinin units</DoseSchedule>
+                            </FirstInVivoProcess>
+                            <ImmunizationComments>At day 0, 3 and 7 post infection, mice were intraperitoneally injected with 100 micrograms mAb M6 CD137, agonist to costimulatory receptor CD137. Pulmonary lymphocytes were harvested 10 days post infection.</ImmunizationComments>
+                        </Immunization>
+                        <EffectorCells>
+                            <CellTissueType>Lung</CellTissueType>
+                            <CellType>T cell</CellType>
+                            <CellCultureConditions>Direct Ex Vivo</CellCultureConditions>
+                        </EffectorCells>
+                        <AntigenPresentingCells>
+                            <CellTissueType>Lymphoid</CellTissueType>
+                            <CellType>EL-4 cells-Lymphoblast</CellType>
+                            <CellCultureConditions>Cell Line / Clone</CellCultureConditions>
+                            <AutologousOrSyngeneic>N</AutologousOrSyngeneic>
+                        </AntigenPresentingCells>
+                        <MhcAllele>
+                            <MhcAlleleId>122</MhcAlleleId>
+                            <MhcEvidenceCode>Not determined</MhcEvidenceCode>
+                        </MhcAllele>
+                        <Antigen>
+                            <AntigenReferenceName>NS2 114-121</AntigenReferenceName>
+                            <AntigenObject>
+                                <EpitopeRelation>Epitope</EpitopeRelation>
+                                <Object>
+                                    <FragmentOfANaturalSequenceMolecule>
+                                        <ChemicalType>Peptide from protein</ChemicalType>
+                                        <LinearSequence>RTFSFQLI</LinearSequence>
+                                        <StartingPosition>114</StartingPosition>
+                                        <EndingPosition>121</EndingPosition>
+                                        <SourceMolecule>
+                                            <GenBankId>P03508.1</GenBankId>
+                                        </SourceMolecule>
+                                        <SourceOrganismId>211044</SourceOrganismId>
+                                    </FragmentOfANaturalSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Exact match to reference information</AntigenEvidenceCode>
+                        </Antigen>
+                        <AssayInformation>
+                            <AssayTypeId>67</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <QuantitativeMeasurement>15.0</QuantitativeMeasurement>
+                            <MeasurementInequality>&lt;=</MeasurementInequality>
+                            <AssayComments>Treatment of Influenza infected mice with a CD137 agonist mAb at days 0, 3 and 7 post infection enhanced the level of cytotoxicity to this epitope, while it did not affect the response to the immunodominant epitope NP366, implying that CD137 engagement broadens the response against viral epitopes.</AssayComments>
+                        </AssayInformation>
+                    </TCell>
+                </Assays>
+            </Epitope>
+            <Epitope>
+                <EpitopeName>PA 224-232</EpitopeName>
+                <EpitopeStructure>
+                    <FragmentOfANaturalSequenceMolecule>
+                        <ChemicalType>Peptide from protein</ChemicalType>
+                        <LinearSequence>SSLENFRAYV</LinearSequence>
+                        <StartingPosition>224</StartingPosition>
+                        <EndingPosition>233</EndingPosition>
+                        <SourceMolecule>
+                            <IedbAccession>SRC121</IedbAccession>
+                        </SourceMolecule>
+                        <SourceOrganismId>211044</SourceOrganismId>
+                    </FragmentOfANaturalSequenceMolecule>
+                </EpitopeStructure>
+                <LocationOfData>Page 540</LocationOfData>
+                <EpitopeId>61151</EpitopeId>
+                <ReferenceStartingPosition>224</ReferenceStartingPosition>
+                <ReferenceEndingPosition>232</ReferenceEndingPosition>
+                <EpitopeEvidenceCode>Not determined</EpitopeEvidenceCode>
+                <EpitopeStructureDefines>Exact Epitope</EpitopeStructureDefines>
+                <EpitopeComments>Also known as RNA-directed RNA polymerase subunit P2.</EpitopeComments>
+                <Assays>
+                    <TCell>
+                        <LocationOfData>Figure 3D</LocationOfData>
+                        <TCellId>20671</TCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>10000067</OrganismId>
+                                <Sex>F</Sex>
+                                <Age>6-8 weeks</Age>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Administration in vivo</InVivoProcessType>
+                                <DiseaseState>DOID:8469</DiseaseState>
+                                <DiseaseStage>Acute/Recent onset</DiseaseStage>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Source Organism</EpitopeRelation>
+                                    <Object>
+                                        <Organism>
+                                            <SubType>Organism</SubType>
+                                            <SourceOrganismId>211044</SourceOrganismId>
+                                        </Organism>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenEvidenceCode>Not determined</ImmunogenEvidenceCode>
+                                <Route>Intranasal</Route>
+                                <DoseSchedule>1 dose of 4 hemagglutinin units</DoseSchedule>
+                            </FirstInVivoProcess>
+                            <ImmunizationComments>At day 0, 3 and 7 post infection, mice were intraperitoneally injected with 100 micrograms mAb M6 CD137, agonist to costimulatory receptor CD137. Pulmonary lymphocytes were harvested 10 days post infection.</ImmunizationComments>
+                        </Immunization>
+                        <EffectorCells>
+                            <CellTissueType>Lung</CellTissueType>
+                            <CellType>T cell CD8+</CellType>
+                            <CellCultureConditions>Direct Ex Vivo</CellCultureConditions>
+                        </EffectorCells>
+                        <AntigenPresentingCells>
+                            <CellTissueType>Lung</CellTissueType>
+                            <CellType>Mononuclear cell</CellType>
+                            <CellCultureConditions>Direct Ex Vivo</CellCultureConditions>
+                            <AutologousOrSyngeneic>Y</AutologousOrSyngeneic>
+                        </AntigenPresentingCells>
+                        <MhcAllele>
+                            <MhcAlleleId>172</MhcAlleleId>
+                            <MhcEvidenceCode>Not determined</MhcEvidenceCode>
+                        </MhcAllele>
+                        <Antigen>
+                            <AntigenReferenceName>PA 224-232</AntigenReferenceName>
+                            <AntigenObject>
+                                <EpitopeRelation>Epitope</EpitopeRelation>
+                                <Object>
+                                    <FragmentOfANaturalSequenceMolecule>
+                                        <ChemicalType>Peptide from protein</ChemicalType>
+                                        <LinearSequence>SSLENFRAYV</LinearSequence>
+                                        <StartingPosition>224</StartingPosition>
+                                        <EndingPosition>233</EndingPosition>
+                                        <SourceMolecule>
+                                            <IedbAccession>SRC121</IedbAccession>
+                                        </SourceMolecule>
+                                        <SourceOrganismId>211044</SourceOrganismId>
+                                    </FragmentOfANaturalSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Exact match to reference information</AntigenEvidenceCode>
+                        </Antigen>
+                        <AssayInformation>
+                            <AssayTypeId>53</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <AssayComments>Treatment of Influenza infected mice with a CD137 agonist mAb at days 0, 3 and 7 post infection significantly increased the number of epitope specific IFN-g+ CD8+ cells in the lung. The percentage among CD8+ cells was less strikingly augmented, but the proportion to the immunodominant epitope NP366 was diminished, implying that CD137 engagement broadens the response against viral epitopes.</AssayComments>
+                        </AssayInformation>
+                    </TCell>
+                </Assays>
+                <Assays>
+                    <TCell>
+                        <LocationOfData>Figure 3E</LocationOfData>
+                        <TCellId>20672</TCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>10000067</OrganismId>
+                                <Sex>F</Sex>
+                                <Age>6-8 weeks</Age>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Administration in vivo</InVivoProcessType>
+                                <DiseaseState>DOID:8469</DiseaseState>
+                                <DiseaseStage>Acute/Recent onset</DiseaseStage>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Source Organism</EpitopeRelation>
+                                    <Object>
+                                        <Organism>
+                                            <SubType>Organism</SubType>
+                                            <SourceOrganismId>211044</SourceOrganismId>
+                                        </Organism>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenEvidenceCode>Not determined</ImmunogenEvidenceCode>
+                                <Route>Intranasal</Route>
+                                <DoseSchedule>1 dose of 4 hemagglutinin units</DoseSchedule>
+                            </FirstInVivoProcess>
+                            <ImmunizationComments>At day 0, 3 and 7 post infection, mice were intraperitoneally injected with 100 micrograms mAb M6 CD137, agonist to costimulatory receptor CD137. Pulmonary lymphocytes were harvested 10 days post infection.</ImmunizationComments>
+                        </Immunization>
+                        <EffectorCells>
+                            <CellTissueType>Lung</CellTissueType>
+                            <CellType>T cell</CellType>
+                            <CellCultureConditions>Direct Ex Vivo</CellCultureConditions>
+                        </EffectorCells>
+                        <AntigenPresentingCells>
+                            <CellTissueType>Lymphoid</CellTissueType>
+                            <CellType>EL-4 cells-Lymphoblast</CellType>
+                            <CellCultureConditions>Cell Line / Clone</CellCultureConditions>
+                            <AutologousOrSyngeneic>N</AutologousOrSyngeneic>
+                        </AntigenPresentingCells>
+                        <MhcAllele>
+                            <MhcAlleleId>172</MhcAlleleId>
+                            <MhcEvidenceCode>Not determined</MhcEvidenceCode>
+                        </MhcAllele>
+                        <Antigen>
+                            <AntigenReferenceName>PA 224-232</AntigenReferenceName>
+                            <AntigenObject>
+                                <EpitopeRelation>Epitope</EpitopeRelation>
+                                <Object>
+                                    <FragmentOfANaturalSequenceMolecule>
+                                        <ChemicalType>Peptide from protein</ChemicalType>
+                                        <LinearSequence>SSLENFRAYV</LinearSequence>
+                                        <StartingPosition>224</StartingPosition>
+                                        <EndingPosition>233</EndingPosition>
+                                        <SourceMolecule>
+                                            <IedbAccession>SRC121</IedbAccession>
+                                        </SourceMolecule>
+                                        <SourceOrganismId>211044</SourceOrganismId>
+                                    </FragmentOfANaturalSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Exact match to reference information</AntigenEvidenceCode>
+                        </Antigen>
+                        <AssayInformation>
+                            <AssayTypeId>67</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <QuantitativeMeasurement>15.0</QuantitativeMeasurement>
+                            <MeasurementInequality>&lt;=</MeasurementInequality>
+                            <AssayComments>Treatment of Influenza infected mice with a CD137 agonist mAb at days 0, 3 and 7 post infection enhanced the level of cytotoxicity to this epitope, while it did not affect the response to the immunodominant epitope NP366, implying that CD137 engagement broadens the response against viral epitopes.</AssayComments>
+                        </AssayInformation>
+                    </TCell>
+                </Assays>
+            </Epitope>
+        </Epitopes>
+    </Reference>
+</References>
+

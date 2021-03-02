@@ -1,0 +1,390 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<References xsi:schemaLocation="http://www.iedb.org/schema/CurationSchema http://beta.iedb.org/schema/Curation.xsd" xmlns="http://www.iedb.org/schema/CurationSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <Reference>
+        <ReferenceId>315019</ReferenceId>
+        <DateLastUpdated>2020-09-10-07:00</DateLastUpdated>
+        <Article>
+            <PubmedId>1721835</PubmedId>
+            <Abstract>CD4+ T cell clones specific for the mycobacterial hsp 65 were obtained from synovial fluid of a DR4 homozygous rheumatoid arthritis (RA) patient. A stimulatory epitope was defined using both deletion mutants of the mycobacterial hsp 65 and synthetic peptides and proved to be in a highly conserved region of the molecule. Despite this, however, there was no recognition by these clones of either the recombinant human homologue of mycobacterial hsp 65, P60, nor of a synthetic peptide containing an amino acid sequence from P60 corresponding to the epitope defined in the mycobacterial hsp 65. When the pattern of HLA restriction shown by the hsp-65-specific T cell clones was investigated, all clones tested proved to be restricted by HLA-DP rather than the more usual HLA-DR. Inhibition experiments suggested that this restriction also applied to the polyclonal synovial T cell response to hsp 65, but not to other antigens. Exclusive restriction of T cell recognition of an antigen by HLA-DP has not been reported previously, and strongly suggests that in this case the T cell repertoire for recognizing hsp 65 in the context of DR4 is deficient. Such an association between DR4 and the inability to respond to an immunodominant bacterial antigen may have implications for the pathogenesis of RA.</Abstract>
+            <ArticleYear>1991</ArticleYear>
+            <ArticlePages>965-72</ArticlePages>
+            <ArticleTitle>Epitope specificity and MHC restriction of rheumatoid arthritis synovial T cell clones which recognize a mycobacterial 65 kDa heat shock protein.</ArticleTitle>
+            <Authors>
+                <Author>
+                    <LastName>Gaston</LastName>
+                    <ForeName>J S</ForeName>
+                </Author>
+                <Author>
+                    <LastName>Life</LastName>
+                    <ForeName>P F</ForeName>
+                </Author>
+                <Author>
+                    <LastName>van der Zee</LastName>
+                    <ForeName>R</ForeName>
+                </Author>
+                <Author>
+                    <LastName>Jenner</LastName>
+                    <ForeName>P J</ForeName>
+                </Author>
+                <Author>
+                    <LastName>Colston</LastName>
+                    <ForeName>M J</ForeName>
+                </Author>
+                <Author>
+                    <LastName>Tonks</LastName>
+                    <ForeName>S</ForeName>
+                </Author>
+                <Author>
+                    <LastName>Bacon</LastName>
+                    <ForeName>P A</ForeName>
+                </Author>
+            </Authors>
+            <Affiliations>Department of Rheumatology, University of Birmingham, UK.</Affiliations>
+            <ArticleChemicalList>Epitopes;HLA-DP Antigens;Heat-Shock Proteins;Peptides</ArticleChemicalList>
+            <ArticleMeshHeadingsList>Amino Acid Sequence; Arthritis, Rheumatoid(immunology); DNA Mutational Analysis; Epitopes(immunology); HLA-DP Antigens(immunology); Heat-Shock Proteins(immunology); Humans; Lymphocyte Activation(immunology); Major Histocompatibility Complex(immunology); Molecular Sequence Data; Mycobacterium bovis(immunology); Mycobacterium leprae(immunology); Peptides(chemical synthesis; immunology); Salmonella(immunology); Sequence Homology, Nucleic Acid; Synovial Fluid(immunology); T-Lymphocytes(immunology)</ArticleMeshHeadingsList>
+            <Comments>Data originally imported from the Database of Functional Molecular Immunology, FIMM (http://sdmc.lit.org.sg:8080/fimm/)</Comments>
+            <Journal>
+                <Volume>3</Volume>
+                <Issue>10</Issue>
+                <Title>International immunology</Title>
+                <Issn>0953-8178</Issn>
+                <MedlineTa>Int Immunol</MedlineTa>
+            </Journal>
+        </Article>
+        <Epitopes>
+            <Epitope>
+                <EpitopeStructure>
+                    <FragmentOfANaturalSequenceMolecule>
+                        <ChemicalType>Peptide from protein</ChemicalType>
+                        <LinearSequence>IAFNSGMEPGVVAEKV</LinearSequence>
+                        <StartingPosition>451</StartingPosition>
+                        <EndingPosition>466</EndingPosition>
+                        <SourceMolecule>
+                            <GenBankId>P09239.3</GenBankId>
+                        </SourceMolecule>
+                        <SourceOrganismId>1769</SourceOrganismId>
+                    </FragmentOfANaturalSequenceMolecule>
+                </EpitopeStructure>
+                <EpitopeId>25273</EpitopeId>
+                <ReferenceStartingPosition>450</ReferenceStartingPosition>
+                <ReferenceEndingPosition>465</ReferenceEndingPosition>
+                <EpitopeEvidenceCode>Not determined</EpitopeEvidenceCode>
+                <EpitopeStructureDefines>Epitope containing region/antigenic site</EpitopeStructureDefines>
+                <EpitopeComments>The following refers to the epitope id as found in the original FIMM database: P000607, P000608.</EpitopeComments>
+                <Assays>
+                    <TCell>
+                        <LocationOfData>Table 2 and figure 3</LocationOfData>
+                        <TCellId>1351227</TCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>9606</OrganismId>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Occurrence of autoimmune disease</InVivoProcessType>
+                                <DiseaseState>DOID:7148</DiseaseState>
+                                <DiseaseStage>Chronic</DiseaseStage>
+                            </FirstInVivoProcess>
+                            <InVitroAdministration>
+                                <ProcessType>Restimulation in vitro</ProcessType>
+                                <ResponderCellType>T cell</ResponderCellType>
+                                <StimulatorCellType>Mononuclear cell</StimulatorCellType>
+                            </InVitroAdministration>
+                            <ImmunizationComments>Blood and synovial fluid were collected from a patient with erosive RA.  The T cell clone was established through in vitro restimulation with M. tuberculosis PPD followed by selection through recognition of M. leprae HSP65.</ImmunizationComments>
+                        </Immunization>
+                        <EffectorCells>
+                            <CellTissueType>Synovial Fluid</CellTissueType>
+                            <CellType>T cell CD4+</CellType>
+                            <CellCultureConditions>Cell Line / Clone</CellCultureConditions>
+                        </EffectorCells>
+                        <AntigenPresentingCells>
+                            <CellTissueType>Blood</CellTissueType>
+                            <CellType>Mononuclear cell</CellType>
+                            <CellCultureConditions>Direct Ex Vivo</CellCultureConditions>
+                        </AntigenPresentingCells>
+                        <MhcAllele>
+                            <MhcAlleleId>17</MhcAlleleId>
+                            <MhcEvidenceCode>Not determined</MhcEvidenceCode>
+                        </MhcAllele>
+                        <Antigen>
+                            <AntigenReferenceName>HSP 65</AntigenReferenceName>
+                            <AntigenObject>
+                                <EpitopeRelation>Taxonomic Sibling</EpitopeRelation>
+                                <Object>
+                                    <AccessionSequenceMolecule>
+                                        <ChemicalType>Protein</ChemicalType>
+                                        <Molecule>
+                                            <GenBankId>P0A521.2</GenBankId>
+                                        </Molecule>
+                                        <SourceOrganismId>1765</SourceOrganismId>
+                                    </AccessionSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Not determined</AntigenEvidenceCode>
+                        </Antigen>
+                        <AssayInformation>
+                            <AssayTypeId>69</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <AssayComments>An epitope specific T cell clone established from the synovial fluid of an RA patient proliferated in response to M. leprae and fragments of M. leprae, revealing the recognized sequence to lie within residues 424-540. The clone was demonstrated to be DP restricted through the use of blocking antibody.</AssayComments>
+                        </AssayInformation>
+                    </TCell>
+                </Assays>
+                <Assays>
+                    <TCell>
+                        <LocationOfData>Table 3</LocationOfData>
+                        <TCellId>1351212</TCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>9606</OrganismId>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Occurrence of autoimmune disease</InVivoProcessType>
+                                <DiseaseState>DOID:7148</DiseaseState>
+                                <DiseaseStage>Chronic</DiseaseStage>
+                            </FirstInVivoProcess>
+                            <InVitroAdministration>
+                                <ProcessType>Restimulation in vitro</ProcessType>
+                                <ResponderCellType>T cell</ResponderCellType>
+                                <StimulatorCellType>Mononuclear cell</StimulatorCellType>
+                            </InVitroAdministration>
+                            <ImmunizationComments>Blood and synovial fluid were collected from a patient with erosive RA.  The T cell clone was established through in vitro restimulation with M. tuberculosis PPD followed by selection through recognition of M. leprae HSP65.</ImmunizationComments>
+                        </Immunization>
+                        <EffectorCells>
+                            <CellTissueType>Synovial Fluid</CellTissueType>
+                            <CellType>T cell CD4+</CellType>
+                            <CellCultureConditions>Cell Line / Clone</CellCultureConditions>
+                        </EffectorCells>
+                        <AntigenPresentingCells>
+                            <CellTissueType>Blood</CellTissueType>
+                            <CellType>Mononuclear cell</CellType>
+                            <CellCultureConditions>Direct Ex Vivo</CellCultureConditions>
+                        </AntigenPresentingCells>
+                        <MhcAllele>
+                            <MhcAlleleId>17</MhcAlleleId>
+                            <MhcEvidenceCode>Not determined</MhcEvidenceCode>
+                        </MhcAllele>
+                        <Antigen>
+                            <AntigenReferenceName>HSP 60 451-466</AntigenReferenceName>
+                            <AntigenObject>
+                                <EpitopeRelation>Epitope</EpitopeRelation>
+                                <Object>
+                                    <FragmentOfANaturalSequenceMolecule>
+                                        <ChemicalType>Peptide from protein</ChemicalType>
+                                        <LinearSequence>IAFNSGMEPGVVAEKV</LinearSequence>
+                                        <StartingPosition>451</StartingPosition>
+                                        <EndingPosition>466</EndingPosition>
+                                        <SourceMolecule>
+                                            <GenBankId>P09239.3</GenBankId>
+                                        </SourceMolecule>
+                                        <SourceOrganismId>1769</SourceOrganismId>
+                                    </FragmentOfANaturalSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Exact match to reference information</AntigenEvidenceCode>
+                        </Antigen>
+                        <AssayInformation>
+                            <AssayTypeId>69</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <AssayComments>A T cell clone established from the synovial fluid of an RA patient proliferated in response to the epitope. The clone was demonstrated to be DP restricted through the use of blocking antibody.</AssayComments>
+                        </AssayInformation>
+                    </TCell>
+                </Assays>
+            </Epitope>
+            <Epitope>
+                <EpitopeName>HSP 60 456-465</EpitopeName>
+                <EpitopeStructure>
+                    <FragmentOfANaturalSequenceMolecule>
+                        <ChemicalType>Peptide from protein</ChemicalType>
+                        <LinearSequence>GLEPGVVAEK</LinearSequence>
+                        <StartingPosition>456</StartingPosition>
+                        <EndingPosition>465</EndingPosition>
+                        <SourceMolecule>
+                            <GenBankId>CAA17397.1</GenBankId>
+                        </SourceMolecule>
+                        <SourceOrganismId>1773</SourceOrganismId>
+                    </FragmentOfANaturalSequenceMolecule>
+                </EpitopeStructure>
+                <LocationOfData>Figure 1</LocationOfData>
+                <EpitopeId>20820</EpitopeId>
+                <ReferenceStartingPosition>456</ReferenceStartingPosition>
+                <ReferenceEndingPosition>465</ReferenceEndingPosition>
+                <EpitopeEvidenceCode>Not determined</EpitopeEvidenceCode>
+                <EpitopeStructureDefines>Exact Epitope</EpitopeStructureDefines>
+                <Assays>
+                    <TCell>
+                        <LocationOfData>Figure 1</LocationOfData>
+                        <TCellId>1351214</TCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>9606</OrganismId>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Occurrence of autoimmune disease</InVivoProcessType>
+                                <DiseaseState>DOID:7148</DiseaseState>
+                                <DiseaseStage>Chronic</DiseaseStage>
+                            </FirstInVivoProcess>
+                            <InVitroAdministration>
+                                <ProcessType>Restimulation in vitro</ProcessType>
+                                <ResponderCellType>T cell</ResponderCellType>
+                                <StimulatorCellType>Mononuclear cell</StimulatorCellType>
+                            </InVitroAdministration>
+                            <ImmunizationComments>Blood and synovial fluid were collected from a patient with erosive RA.  The T cell clone was established through in vitro restimulation with M. tuberculosis PPD followed by selection through recognition of M. leprae HSP65.</ImmunizationComments>
+                        </Immunization>
+                        <EffectorCells>
+                            <CellTissueType>Synovial Fluid</CellTissueType>
+                            <CellType>T cell CD4+</CellType>
+                            <CellCultureConditions>Cell Line / Clone</CellCultureConditions>
+                        </EffectorCells>
+                        <AntigenPresentingCells>
+                            <CellTissueType>Blood</CellTissueType>
+                            <CellType>Mononuclear cell</CellType>
+                            <CellCultureConditions>Direct Ex Vivo</CellCultureConditions>
+                        </AntigenPresentingCells>
+                        <MhcAllele>
+                            <MhcAlleleId>17</MhcAlleleId>
+                            <MhcEvidenceCode>Not determined</MhcEvidenceCode>
+                        </MhcAllele>
+                        <Antigen>
+                            <AntigenReferenceName>HSP 60 456-465</AntigenReferenceName>
+                            <AntigenObject>
+                                <EpitopeRelation>Epitope</EpitopeRelation>
+                                <Object>
+                                    <FragmentOfANaturalSequenceMolecule>
+                                        <ChemicalType>Peptide from protein</ChemicalType>
+                                        <LinearSequence>GLEPGVVAEK</LinearSequence>
+                                        <StartingPosition>456</StartingPosition>
+                                        <EndingPosition>465</EndingPosition>
+                                        <SourceMolecule>
+                                            <GenBankId>CAA17397.1</GenBankId>
+                                        </SourceMolecule>
+                                        <SourceOrganismId>1773</SourceOrganismId>
+                                    </FragmentOfANaturalSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Exact match to reference information</AntigenEvidenceCode>
+                        </Antigen>
+                        <AssayInformation>
+                            <AssayTypeId>69</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <AssayComments>A T cell clone established from the synovial fluid of an RA patient proliferated in response to the epitope. Overlapping peptides were used to demonstrate the epitope as the minimal sequence recognized. The clone was demonstrated to be DP restricted through the use of blocking antibody.</AssayComments>
+                        </AssayInformation>
+                    </TCell>
+                </Assays>
+                <Assays>
+                    <TCell>
+                        <LocationOfData>Table 2 and figure 3</LocationOfData>
+                        <TCellId>1351220</TCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>9606</OrganismId>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Occurrence of autoimmune disease</InVivoProcessType>
+                                <DiseaseState>DOID:7148</DiseaseState>
+                                <DiseaseStage>Chronic</DiseaseStage>
+                            </FirstInVivoProcess>
+                            <InVitroAdministration>
+                                <ProcessType>Restimulation in vitro</ProcessType>
+                                <ResponderCellType>T cell</ResponderCellType>
+                                <StimulatorCellType>Mononuclear cell</StimulatorCellType>
+                            </InVitroAdministration>
+                            <ImmunizationComments>Blood and synovial fluid were collected from a patient with erosive RA.  The T cell clone was established through in vitro restimulation with M. tuberculosis PPD followed by selection through recognition of M. leprae HSP65.</ImmunizationComments>
+                        </Immunization>
+                        <EffectorCells>
+                            <CellTissueType>Synovial Fluid</CellTissueType>
+                            <CellType>T cell CD4+</CellType>
+                            <CellCultureConditions>Cell Line / Clone</CellCultureConditions>
+                        </EffectorCells>
+                        <AntigenPresentingCells>
+                            <CellTissueType>Blood</CellTissueType>
+                            <CellType>Mononuclear cell</CellType>
+                            <CellCultureConditions>Direct Ex Vivo</CellCultureConditions>
+                        </AntigenPresentingCells>
+                        <MhcAllele>
+                            <MhcAlleleId>17</MhcAlleleId>
+                            <MhcEvidenceCode>Not determined</MhcEvidenceCode>
+                        </MhcAllele>
+                        <Antigen>
+                            <AntigenReferenceName>HSP 65</AntigenReferenceName>
+                            <AntigenObject>
+                                <EpitopeRelation>Taxonomic Sibling</EpitopeRelation>
+                                <Object>
+                                    <AccessionSequenceMolecule>
+                                        <ChemicalType>Protein</ChemicalType>
+                                        <Molecule>
+                                            <GenBankId>P0A521.2</GenBankId>
+                                        </Molecule>
+                                        <SourceOrganismId>1765</SourceOrganismId>
+                                    </AccessionSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Not determined</AntigenEvidenceCode>
+                        </Antigen>
+                        <AssayInformation>
+                            <AssayTypeId>69</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <AssayComments>An epitope specific T cell clone established from the synovial fluid of an RA patient proliferated in response to M. leprae and fragments of M. leprae, revealing the recognized sequence to lie within residues 424-540. The clone was demonstrated to be DP restricted through the use of blocking antibody.</AssayComments>
+                        </AssayInformation>
+                    </TCell>
+                </Assays>
+                <Assays>
+                    <TCell>
+                        <LocationOfData>Figure 1</LocationOfData>
+                        <TCellId>1351215</TCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>9606</OrganismId>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Occurrence of autoimmune disease</InVivoProcessType>
+                                <DiseaseState>DOID:7148</DiseaseState>
+                                <DiseaseStage>Chronic</DiseaseStage>
+                            </FirstInVivoProcess>
+                            <InVitroAdministration>
+                                <ProcessType>Restimulation in vitro</ProcessType>
+                                <ResponderCellType>T cell</ResponderCellType>
+                                <StimulatorCellType>Mononuclear cell</StimulatorCellType>
+                            </InVitroAdministration>
+                            <ImmunizationComments>Blood and synovial fluid were collected from a patient with erosive RA.  The T cell clone was established through in vitro restimulation with M. tuberculosis PPD followed by selection through recognition of M. leprae HSP65.</ImmunizationComments>
+                        </Immunization>
+                        <EffectorCells>
+                            <CellTissueType>Synovial Fluid</CellTissueType>
+                            <CellType>T cell CD4+</CellType>
+                            <CellCultureConditions>Cell Line / Clone</CellCultureConditions>
+                        </EffectorCells>
+                        <AntigenPresentingCells>
+                            <CellTissueType>Blood</CellTissueType>
+                            <CellType>Mononuclear cell</CellType>
+                            <CellCultureConditions>Direct Ex Vivo</CellCultureConditions>
+                        </AntigenPresentingCells>
+                        <MhcAllele>
+                            <MhcAlleleId>17</MhcAlleleId>
+                            <MhcEvidenceCode>Not determined</MhcEvidenceCode>
+                        </MhcAllele>
+                        <Antigen>
+                            <AntigenReferenceName>60 KDA CHAPERONIN 2 GROEL2 (PROTEIN CPN60-2) (GROEL PROTEIN 2) (65 KDA ANTIGEN) (HEAT SHOCK PROTEIN 65) (CELL WALL PROTEIN A) (ANTIGEN A)</AntigenReferenceName>
+                            <AntigenObject>
+                                <EpitopeRelation>Source Antigen</EpitopeRelation>
+                                <Object>
+                                    <AccessionSequenceMolecule>
+                                        <ChemicalType>Protein</ChemicalType>
+                                        <Molecule>
+                                            <GenBankId>CAA17397.1</GenBankId>
+                                        </Molecule>
+                                        <SourceOrganismId>1773</SourceOrganismId>
+                                    </AccessionSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Not determined</AntigenEvidenceCode>
+                        </Antigen>
+                        <AssayInformation>
+                            <AssayTypeId>69</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <AssayComments>An epitope specific T cell clone established from the synovial fluid of an RA patient proliferated in response to M. tuberculosis PPD, containing HSP60. The clone was demonstrated to be DP restricted through the use of blocking antibody.</AssayComments>
+                        </AssayInformation>
+                    </TCell>
+                </Assays>
+            </Epitope>
+        </Epitopes>
+    </Reference>
+</References>
+

@@ -1,0 +1,613 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<References xsi:schemaLocation="http://www.iedb.org/schema/CurationSchema http://beta.iedb.org/schema/Curation.xsd" xmlns="http://www.iedb.org/schema/CurationSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <Reference>
+        <ReferenceId>738</ReferenceId>
+        <DateLastUpdated>2020-09-10-07:00</DateLastUpdated>
+        <Article>
+            <PubmedId>15272409</PubmedId>
+            <Abstract>Severe acute respiratory syndrome (SARS) has emerged as a highly contagious, sometimes fatal disease. To find disease-specific B cell epitopes, phage-displayed random peptide libraries were panned on serum immunoglobulin (Ig) G antibodies from patients with SARS. Forty-nine immunopositive phage clones that bound specifically to serum from patients with SARS were selected. These phageborne peptides had 4 consensus motifs, of which 2 corresponded to amino acid sequences reported for SARS-associated coronavirus (SARS-CoV). Synthetic peptide binding and competitive-inhibition assays further confirmed that patients with SARS generated antibodies against SARS-CoV. Immunopositive phage clones and epitope-based peptide antigens demonstrated clinical diagnostic potential by reacting with serum from patients with SARS. Antibody-response kinetics were evaluated in 4 patients with SARS, and production of IgM, IgG, and IgA were documented as part of the immune response. In conclusion, B cell epitopes of SARS corresponded to novel coronavirus. Our epitope-based serologic test may be useful in laboratory detection of the virus and in further study of the pathogenesis of SARS.</Abstract>
+            <ArticleYear>2004</ArticleYear>
+            <ArticlePages>797-809</ArticlePages>
+            <ArticleTitle>Disease-specific B Cell epitopes for serum antibodies from patients with severe acute respiratory syndrome (SARS) and serologic detection of SARS antibodies by epitope-based peptide antigens.</ArticleTitle>
+            <Authors>
+                <Author>
+                    <LastName>Liu</LastName>
+                    <ForeName>I-Ju</ForeName>
+                </Author>
+                <Author>
+                    <LastName>Hsueh</LastName>
+                    <ForeName>Po-Ren</ForeName>
+                </Author>
+                <Author>
+                    <LastName>Lin</LastName>
+                    <ForeName>Chin-Tarng</ForeName>
+                </Author>
+                <Author>
+                    <LastName>Chiu</LastName>
+                    <ForeName>Chien-Yu</ForeName>
+                </Author>
+                <Author>
+                    <LastName>Kao</LastName>
+                    <ForeName>Chuan-Liang</ForeName>
+                </Author>
+                <Author>
+                    <LastName>Liao</LastName>
+                    <ForeName>Mei-Ying</ForeName>
+                </Author>
+                <Author>
+                    <LastName>Wu</LastName>
+                    <ForeName>Han-Chung</ForeName>
+                </Author>
+            </Authors>
+            <Affiliations>Graduate Institute of Oral Biology, National Taiwan University, Taipei, Taiwan.</Affiliations>
+            <ArticleChemicalList>Antibodies, Viral;Antigens, Viral;Epitopes;Peptide Library;Peptides</ArticleChemicalList>
+            <ArticleMeshHeadingsList>Amino Acid Motifs(immunology); Amino Acid Sequence; Animals; Antibodies, Viral(blood; immunology); Antigen-Antibody Reactions; Antigens, Viral(immunology); B-Lymphocytes(immunology); Chlorocebus aethiops; Epitopes(immunology; isolation &amp; purification); Humans; Molecular Sequence Data; Peptide Library; Peptides(immunology; isolation &amp; purification); SARS Virus(immunology); Sequence Alignment; Severe Acute Respiratory Syndrome(blood; etiology; immunology); Species Specificity; Vero Cells</ArticleMeshHeadingsList>
+            <Journal>
+                <Volume>190</Volume>
+                <Issue>4</Issue>
+                <Title>The Journal of infectious diseases</Title>
+                <Issn>0022-1899</Issn>
+                <MedlineTa>J Infect Dis</MedlineTa>
+            </Journal>
+        </Article>
+        <Epitopes>
+            <Epitope>
+                <EpitopeName>SP3M</EpitopeName>
+                <EpitopeStructure>
+                    <SequenceMoleculeNoNaturalSource>
+                        <ChemicalType>Peptide, no natural source</ChemicalType>
+                        <LinearSequence>VKIDNASPAS</LinearSequence>
+                    </SequenceMoleculeNoNaturalSource>
+                </EpitopeStructure>
+                <EpitopeRelatedObject>
+                    <RelatedObjectType>The epitope is a mimotope of:</RelatedObjectType>
+                    <RelatedObject>
+                        <Organism>
+                            <SubType>Organism</SubType>
+                            <SourceOrganismId>694009</SourceOrganismId>
+                        </Organism>
+                    </RelatedObject>
+                </EpitopeRelatedObject>
+                <LocationOfData>Results</LocationOfData>
+                <EpitopeId>69235</EpitopeId>
+                <EpitopeStructureDefines>Exact Epitope</EpitopeStructureDefines>
+                <EpitopeComments>This author-identified mimotope was panned from a random peptide phage-display library using serum from acute SARS-CoV patients and according to authors bears sequence homology with residues 18-27 of CDS4 of SARS-CoV.</EpitopeComments>
+                <Assays>
+                    <BCell>
+                        <LocationOfData>Figure 5A</LocationOfData>
+                        <BCellId>7528</BCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>10000000</OrganismId>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Administration in vivo</InVivoProcessType>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Epitope</EpitopeRelation>
+                                    <Object>
+                                        <SequenceMoleculeNoNaturalSource>
+                                            <ChemicalType>Peptide, no natural source</ChemicalType>
+                                            <LinearSequence>VKIDNASPAS</LinearSequence>
+                                        </SequenceMoleculeNoNaturalSource>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenReferenceName>SP3M</ImmunogenReferenceName>
+                                <ImmunogenEvidenceCode>Exact match to reference information</ImmunogenEvidenceCode>
+                            </FirstInVivoProcess>
+                        </Immunization>
+                        <AssayInformation>
+                            <AssayTypeId>34</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <NumberOfSubjectsTested>2</NumberOfSubjectsTested>
+                            <NumberOfSubjectsResponded>2</NumberOfSubjectsResponded>
+                            <ResponseFrequency>100</ResponseFrequency>
+                            <AssayComments>The assay confirms that the epitope itself generated antibodies against SARS-CoV.  In this experiment murine antibodies were produced and tested against immunizing peptide at serial dilutions from 1:100 to 1:12,800 to confirm Ab binding.</AssayComments>
+                        </AssayInformation>
+                        <AssayedAntibody>
+                            <AssayedAntibodySourceMaterial>Serum</AssayedAntibodySourceMaterial>
+                            <AssayedAntibodyPurificationStatus>Polyclonal</AssayedAntibodyPurificationStatus>
+                            <AssayedAntibodyName>anti-SARS CoV Ab</AssayedAntibodyName>
+                        </AssayedAntibody>
+                        <Antigen>
+                            <AntigenReferenceName>SP3M</AntigenReferenceName>
+                            <AntigenConformation>Non-Native/Unknown</AntigenConformation>
+                            <AntigenObject>
+                                <EpitopeRelation>Epitope</EpitopeRelation>
+                                <Object>
+                                    <SequenceMoleculeNoNaturalSource>
+                                        <ChemicalType>Peptide, no natural source</ChemicalType>
+                                        <LinearSequence>VKIDNASPAS</LinearSequence>
+                                    </SequenceMoleculeNoNaturalSource>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Exact match to reference information</AntigenEvidenceCode>
+                        </Antigen>
+                    </BCell>
+                </Assays>
+                <Assays>
+                    <BCell>
+                        <LocationOfData>Figure 5B</LocationOfData>
+                        <BCellId>7529</BCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>10000000</OrganismId>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Administration in vivo</InVivoProcessType>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Epitope</EpitopeRelation>
+                                    <Object>
+                                        <SequenceMoleculeNoNaturalSource>
+                                            <ChemicalType>Peptide, no natural source</ChemicalType>
+                                            <LinearSequence>VKIDNASPAS</LinearSequence>
+                                        </SequenceMoleculeNoNaturalSource>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenReferenceName>SP3M</ImmunogenReferenceName>
+                                <ImmunogenEvidenceCode>Exact match to reference information</ImmunogenEvidenceCode>
+                            </FirstInVivoProcess>
+                        </Immunization>
+                        <AssayInformation>
+                            <AssayTypeId>38</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <NumberOfSubjectsTested>2</NumberOfSubjectsTested>
+                            <NumberOfSubjectsResponded>2</NumberOfSubjectsResponded>
+                            <ResponseFrequency>100</ResponseFrequency>
+                            <AssayComments>The assay confirms that the epitope (mimotope) itself generated antibodies against SARS-CoV using SARS-CoV infected Vero cells for detection of antibody-binding. A competitive immunofluorescence assay (IFA) was used to test the abilitiy of synthetic peptide to compete with SARS-CoV for binding of antibody.</AssayComments>
+                        </AssayInformation>
+                        <AssayedAntibody>
+                            <AssayedAntibodySourceMaterial>Serum</AssayedAntibodySourceMaterial>
+                            <AssayedAntibodyPurificationStatus>Polyclonal</AssayedAntibodyPurificationStatus>
+                            <AssayedAntibodyName>anti-SARS CoV Ab</AssayedAntibodyName>
+                        </AssayedAntibody>
+                        <Antigen>
+                            <AntigenReferenceName>SARS-CoV (live virus)</AntigenReferenceName>
+                            <AntigenConformation>Native</AntigenConformation>
+                            <AntigenObject>
+                                <EpitopeRelation>Other</EpitopeRelation>
+                                <Object>
+                                    <Organism>
+                                        <SubType>Organism</SubType>
+                                        <SourceOrganismId>694009</SourceOrganismId>
+                                    </Organism>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Not determined</AntigenEvidenceCode>
+                        </Antigen>
+                    </BCell>
+                </Assays>
+                <Assays>
+                    <BCell>
+                        <LocationOfData>Figure 6C</LocationOfData>
+                        <BCellId>7532</BCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>9606</OrganismId>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Occurrence of infectious disease</InVivoProcessType>
+                                <DiseaseState>DOID:2945</DiseaseState>
+                                <DiseaseStage>Acute/Recent onset</DiseaseStage>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Other</EpitopeRelation>
+                                    <Object>
+                                        <Organism>
+                                            <SubType>Organism</SubType>
+                                            <SourceOrganismId>694009</SourceOrganismId>
+                                        </Organism>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenReferenceName>SARS-CoV</ImmunogenReferenceName>
+                                <ImmunogenEvidenceCode>Not determined</ImmunogenEvidenceCode>
+                            </FirstInVivoProcess>
+                        </Immunization>
+                        <AssayInformation>
+                            <AssayTypeId>34</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <NumberOfSubjectsTested>7</NumberOfSubjectsTested>
+                            <NumberOfSubjectsResponded>7</NumberOfSubjectsResponded>
+                            <ResponseFrequency>100</ResponseFrequency>
+                            <AssayComments>The reactivity of serum IgG from acute SARS-patients with a phage-clone containing epitope was measured.</AssayComments>
+                        </AssayInformation>
+                        <AssayedAntibody>
+                            <AssayedAntibodySourceMaterial>Serum</AssayedAntibodySourceMaterial>
+                            <AssayedAntibodyPurificationStatus>Polyclonal</AssayedAntibodyPurificationStatus>
+                            <AssayedAntibodyName>anti-SARS CoV Ab</AssayedAntibodyName>
+                            <AssayedAntibodyHeavyChainType>IgG</AssayedAntibodyHeavyChainType>
+                        </AssayedAntibody>
+                        <Antigen>
+                            <AntigenReferenceName>SP3M</AntigenReferenceName>
+                            <AntigenConformation>Non-Native/Unknown</AntigenConformation>
+                            <AntigenObject>
+                                <EpitopeRelation>Epitope</EpitopeRelation>
+                                <Object>
+                                    <SequenceMoleculeNoNaturalSource>
+                                        <ChemicalType>Peptide, no natural source</ChemicalType>
+                                        <LinearSequence>VKIDNASPAS</LinearSequence>
+                                    </SequenceMoleculeNoNaturalSource>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Exact match to reference information</AntigenEvidenceCode>
+                            <AntigenContainingObject>
+                                <ObjectLibrary>
+                                    <DisplaySystemType>Phage display</DisplaySystemType>
+                                </ObjectLibrary>
+                            </AntigenContainingObject>
+                        </Antigen>
+                    </BCell>
+                </Assays>
+                <Assays>
+                    <BCell>
+                        <LocationOfData>Figure 4</LocationOfData>
+                        <BCellId>7527</BCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>9606</OrganismId>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Occurrence of infectious disease</InVivoProcessType>
+                                <DiseaseState>DOID:2945</DiseaseState>
+                                <DiseaseStage>Acute/Recent onset</DiseaseStage>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Other</EpitopeRelation>
+                                    <Object>
+                                        <Organism>
+                                            <SubType>Organism</SubType>
+                                            <SourceOrganismId>694009</SourceOrganismId>
+                                        </Organism>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenReferenceName>SARS-CoV</ImmunogenReferenceName>
+                                <ImmunogenEvidenceCode>Not determined</ImmunogenEvidenceCode>
+                            </FirstInVivoProcess>
+                        </Immunization>
+                        <AssayInformation>
+                            <AssayTypeId>34</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <NumberOfSubjectsTested>1</NumberOfSubjectsTested>
+                            <NumberOfSubjectsResponded>1</NumberOfSubjectsResponded>
+                            <ResponseFrequency>100</ResponseFrequency>
+                            <AssayComments>Three synthetic peptides from immunopositive phage-clones were tested against serum from patients with acute SARS-CoV.  This mimotope was less reactive than phage-clone SP-1 and approximately equal to clone SP-20.  Competition ELISA was also used to measure competitive inhibition of phage-clone (Sp1-1) binding to serum antibodies by mimotope.  Both experiments gave consistent binding results.</AssayComments>
+                        </AssayInformation>
+                        <AssayedAntibody>
+                            <AssayedAntibodySourceMaterial>Serum</AssayedAntibodySourceMaterial>
+                            <AssayedAntibodyPurificationStatus>Polyclonal</AssayedAntibodyPurificationStatus>
+                            <AssayedAntibodyName>anti-SARS CoV Ab</AssayedAntibodyName>
+                        </AssayedAntibody>
+                        <Antigen>
+                            <AntigenReferenceName>SP3M</AntigenReferenceName>
+                            <AntigenConformation>Non-Native/Unknown</AntigenConformation>
+                            <AntigenObject>
+                                <EpitopeRelation>Epitope</EpitopeRelation>
+                                <Object>
+                                    <SequenceMoleculeNoNaturalSource>
+                                        <ChemicalType>Peptide, no natural source</ChemicalType>
+                                        <LinearSequence>VKIDNASPAS</LinearSequence>
+                                    </SequenceMoleculeNoNaturalSource>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Exact match to reference information</AntigenEvidenceCode>
+                        </Antigen>
+                    </BCell>
+                </Assays>
+            </Epitope>
+            <Epitope>
+                <EpitopeName>MSP1-20</EpitopeName>
+                <EpitopeStructure>
+                    <SequenceMoleculeNoNaturalSource>
+                        <ChemicalType>Peptide, no natural source</ChemicalType>
+                        <LinearSequence>VKPPNPRPTMSLW</LinearSequence>
+                    </SequenceMoleculeNoNaturalSource>
+                </EpitopeStructure>
+                <EpitopeRelatedObject>
+                    <RelatedObjectType>The epitope is a mimotope of:</RelatedObjectType>
+                    <RelatedObject>
+                        <Organism>
+                            <SubType>Organism</SubType>
+                            <SourceOrganismId>694009</SourceOrganismId>
+                        </Organism>
+                    </RelatedObject>
+                </EpitopeRelatedObject>
+                <LocationOfData>Results</LocationOfData>
+                <EpitopeId>69292</EpitopeId>
+                <EpitopeStructureDefines>Epitope containing region/antigenic site</EpitopeStructureDefines>
+                <EpitopeComments>This author-identified mimotope was panned from a random peptide phage-display library  using serum from acute SARS-CoV patients and according to authors bears sequence homology with residues 18-27 of CDS4 of SARS-CoV.</EpitopeComments>
+                <Assays>
+                    <BCell>
+                        <LocationOfData>Figures 4A and 4D</LocationOfData>
+                        <BCellId>7534</BCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>9606</OrganismId>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Occurrence of infectious disease</InVivoProcessType>
+                                <DiseaseState>DOID:2945</DiseaseState>
+                                <DiseaseStage>Acute/Recent onset</DiseaseStage>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Other</EpitopeRelation>
+                                    <Object>
+                                        <Organism>
+                                            <SubType>Organism</SubType>
+                                            <SourceOrganismId>694009</SourceOrganismId>
+                                        </Organism>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenReferenceName>SARS-CoV</ImmunogenReferenceName>
+                                <ImmunogenEvidenceCode>Not determined</ImmunogenEvidenceCode>
+                            </FirstInVivoProcess>
+                        </Immunization>
+                        <AssayInformation>
+                            <AssayTypeId>34</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <NumberOfSubjectsTested>1</NumberOfSubjectsTested>
+                            <NumberOfSubjectsResponded>1</NumberOfSubjectsResponded>
+                            <ResponseFrequency>100</ResponseFrequency>
+                            <AssayComments>Three synthetic peptides from immunopositive phage-clones were tested against serum from patients with acute SARS-CoV.  This mimotope was less reactive than clone Sp-1 and equally reactive to clone bearing sequence homology with SARS-CoV sequence.  Competition ELISA was also used to measure competitive inhibition of phage-clone (Sp1-20) binding to serum antibodies by mimotope.  Both experiments gave consistent positive binding results.</AssayComments>
+                        </AssayInformation>
+                        <AssayedAntibody>
+                            <AssayedAntibodySourceMaterial>Serum</AssayedAntibodySourceMaterial>
+                            <AssayedAntibodyPurificationStatus>Polyclonal</AssayedAntibodyPurificationStatus>
+                            <AssayedAntibodyName>anti-SARS CoV Ab</AssayedAntibodyName>
+                        </AssayedAntibody>
+                        <Antigen>
+                            <AntigenReferenceName>MSP1-20</AntigenReferenceName>
+                            <AntigenConformation>Non-Native/Unknown</AntigenConformation>
+                            <AntigenObject>
+                                <EpitopeRelation>Epitope</EpitopeRelation>
+                                <Object>
+                                    <SequenceMoleculeNoNaturalSource>
+                                        <ChemicalType>Peptide, no natural source</ChemicalType>
+                                        <LinearSequence>VKPPNPRPTMSLW</LinearSequence>
+                                    </SequenceMoleculeNoNaturalSource>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Exact match to reference information</AntigenEvidenceCode>
+                        </Antigen>
+                    </BCell>
+                </Assays>
+            </Epitope>
+            <Epitope>
+                <EpitopeName>MSP1-1</EpitopeName>
+                <EpitopeStructure>
+                    <SequenceMoleculeNoNaturalSource>
+                        <ChemicalType>Peptide, no natural source</ChemicalType>
+                        <LinearSequence>VKIPQHMHPLPI</LinearSequence>
+                    </SequenceMoleculeNoNaturalSource>
+                </EpitopeStructure>
+                <EpitopeRelatedObject>
+                    <RelatedObjectType>The epitope is a mimotope of:</RelatedObjectType>
+                    <RelatedObject>
+                        <Organism>
+                            <SubType>Organism</SubType>
+                            <SourceOrganismId>694009</SourceOrganismId>
+                        </Organism>
+                    </RelatedObject>
+                </EpitopeRelatedObject>
+                <LocationOfData>Results</LocationOfData>
+                <EpitopeId>69244</EpitopeId>
+                <EpitopeStructureDefines>Epitope containing region/antigenic site</EpitopeStructureDefines>
+                <EpitopeComments>This author-identified mimotope was panned from a random peptide phage-display library  using serum from acute SARS-CoV patients and according to authors bears sequence homology with residues 18-27 of CDS4 of SARS-CoV.</EpitopeComments>
+                <Assays>
+                    <BCell>
+                        <LocationOfData>Figures 4A and 4B</LocationOfData>
+                        <BCellId>7538</BCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>9606</OrganismId>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Occurrence of infectious disease</InVivoProcessType>
+                                <DiseaseState>DOID:2945</DiseaseState>
+                                <DiseaseStage>Acute/Recent onset</DiseaseStage>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Other</EpitopeRelation>
+                                    <Object>
+                                        <Organism>
+                                            <SubType>Organism</SubType>
+                                            <SourceOrganismId>694009</SourceOrganismId>
+                                        </Organism>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenReferenceName>SARS-CoV</ImmunogenReferenceName>
+                                <ImmunogenEvidenceCode>Not determined</ImmunogenEvidenceCode>
+                            </FirstInVivoProcess>
+                        </Immunization>
+                        <AssayInformation>
+                            <AssayTypeId>34</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <NumberOfSubjectsTested>1</NumberOfSubjectsTested>
+                            <NumberOfSubjectsResponded>1</NumberOfSubjectsResponded>
+                            <ResponseFrequency>100</ResponseFrequency>
+                            <AssayComments>Three synthetic peptides from immunopositive phage-clones were tested against serum from patients with acute SARS-CoV. This was the most reactive clone tested.  Competition ELISA was also used to measure competitive inhibition of phage-clone SP-1 (containing identical sequence to epitope) binding to serum antibodies by mimotope.  Both experiments gave consistent binding results.</AssayComments>
+                        </AssayInformation>
+                        <AssayedAntibody>
+                            <AssayedAntibodySourceMaterial>Serum</AssayedAntibodySourceMaterial>
+                            <AssayedAntibodyPurificationStatus>Polyclonal</AssayedAntibodyPurificationStatus>
+                            <AssayedAntibodyName>anti-SARS CoV Ab</AssayedAntibodyName>
+                        </AssayedAntibody>
+                        <Antigen>
+                            <AntigenReferenceName>MSP1-1</AntigenReferenceName>
+                            <AntigenConformation>Non-Native/Unknown</AntigenConformation>
+                            <AntigenObject>
+                                <EpitopeRelation>Epitope</EpitopeRelation>
+                                <Object>
+                                    <SequenceMoleculeNoNaturalSource>
+                                        <ChemicalType>Peptide, no natural source</ChemicalType>
+                                        <LinearSequence>VKIPQHMHPLPI</LinearSequence>
+                                    </SequenceMoleculeNoNaturalSource>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Exact match to reference information</AntigenEvidenceCode>
+                        </Antigen>
+                    </BCell>
+                </Assays>
+                <Assays>
+                    <BCell>
+                        <LocationOfData>Figures 6 and 7</LocationOfData>
+                        <BCellId>7541</BCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>9606</OrganismId>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Occurrence of infectious disease</InVivoProcessType>
+                                <DiseaseState>DOID:2945</DiseaseState>
+                                <DiseaseStage>Acute/Recent onset</DiseaseStage>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Epitope</EpitopeRelation>
+                                    <Object>
+                                        <SequenceMoleculeNoNaturalSource>
+                                            <ChemicalType>Peptide, no natural source</ChemicalType>
+                                            <LinearSequence>VKIPQHMHPLPI</LinearSequence>
+                                        </SequenceMoleculeNoNaturalSource>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenReferenceName>MSP1-1</ImmunogenReferenceName>
+                                <ImmunogenEvidenceCode>Exact match to reference information</ImmunogenEvidenceCode>
+                            </FirstInVivoProcess>
+                        </Immunization>
+                        <AssayInformation>
+                            <AssayTypeId>34</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <NumberOfSubjectsTested>7</NumberOfSubjectsTested>
+                            <NumberOfSubjectsResponded>6</NumberOfSubjectsResponded>
+                            <ResponseFrequency>85.7</ResponseFrequency>
+                            <AssayComments>Reactivity of affinity purified serum IgM and IgG  from acute SARS-patients with a phage-clone containing epitope was measured.  Both Ig classes were detected.  In a related experiment, the kinetics of IgG, IgM, and IgA Ab responses were measured after initial SARS-CoV infection using a phage-clone containing the epitope.  Kinetics for all Ab classes were similar.</AssayComments>
+                        </AssayInformation>
+                        <AssayedAntibody>
+                            <AssayedAntibodySourceMaterial>Serum</AssayedAntibodySourceMaterial>
+                            <AssayedAntibodyPurificationStatus>Polyclonal</AssayedAntibodyPurificationStatus>
+                            <AssayedAntibodyName>anti-SARS CoV Ab</AssayedAntibodyName>
+                            <AssayedAntibodyHeavyChainType>IgG</AssayedAntibodyHeavyChainType>
+                        </AssayedAntibody>
+                        <Antigen>
+                            <AntigenReferenceName>MSP1-1</AntigenReferenceName>
+                            <AntigenConformation>Non-Native/Unknown</AntigenConformation>
+                            <AntigenObject>
+                                <EpitopeRelation>Epitope</EpitopeRelation>
+                                <Object>
+                                    <SequenceMoleculeNoNaturalSource>
+                                        <ChemicalType>Peptide, no natural source</ChemicalType>
+                                        <LinearSequence>VKIPQHMHPLPI</LinearSequence>
+                                    </SequenceMoleculeNoNaturalSource>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Exact match to reference information</AntigenEvidenceCode>
+                            <AntigenContainingObject>
+                                <ObjectLibrary>
+                                    <DisplaySystemType>Phage display</DisplaySystemType>
+                                </ObjectLibrary>
+                            </AntigenContainingObject>
+                        </Antigen>
+                    </BCell>
+                </Assays>
+                <Assays>
+                    <BCell>
+                        <LocationOfData>Figure 5A</LocationOfData>
+                        <BCellId>7539</BCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>10000000</OrganismId>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Administration in vivo</InVivoProcessType>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Epitope</EpitopeRelation>
+                                    <Object>
+                                        <SequenceMoleculeNoNaturalSource>
+                                            <ChemicalType>Peptide, no natural source</ChemicalType>
+                                            <LinearSequence>VKIPQHMHPLPI</LinearSequence>
+                                        </SequenceMoleculeNoNaturalSource>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenReferenceName>MSP1-1</ImmunogenReferenceName>
+                                <ImmunogenEvidenceCode>Exact match to reference information</ImmunogenEvidenceCode>
+                            </FirstInVivoProcess>
+                        </Immunization>
+                        <AssayInformation>
+                            <AssayTypeId>34</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <NumberOfSubjectsTested>5</NumberOfSubjectsTested>
+                            <NumberOfSubjectsResponded>4</NumberOfSubjectsResponded>
+                            <ResponseFrequency>80</ResponseFrequency>
+                            <AssayComments>The assay confirms that epitope itself generated antibodies against SARS-CoV.  In this experiment murine antibodies were produced and tested against immunizing peptide at serial dilutions from 1:100 to 1:12,800 to confirm Ab binding.</AssayComments>
+                        </AssayInformation>
+                        <AssayedAntibody>
+                            <AssayedAntibodySourceMaterial>Serum</AssayedAntibodySourceMaterial>
+                            <AssayedAntibodyPurificationStatus>Polyclonal</AssayedAntibodyPurificationStatus>
+                            <AssayedAntibodyName>anti-SARS CoV Ab</AssayedAntibodyName>
+                        </AssayedAntibody>
+                        <Antigen>
+                            <AntigenReferenceName>MSP1-1</AntigenReferenceName>
+                            <AntigenConformation>Non-Native/Unknown</AntigenConformation>
+                            <AntigenObject>
+                                <EpitopeRelation>Epitope</EpitopeRelation>
+                                <Object>
+                                    <SequenceMoleculeNoNaturalSource>
+                                        <ChemicalType>Peptide, no natural source</ChemicalType>
+                                        <LinearSequence>VKIPQHMHPLPI</LinearSequence>
+                                    </SequenceMoleculeNoNaturalSource>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Exact match to reference information</AntigenEvidenceCode>
+                        </Antigen>
+                    </BCell>
+                </Assays>
+                <Assays>
+                    <BCell>
+                        <LocationOfData>Figure 5B</LocationOfData>
+                        <BCellId>7540</BCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>10000000</OrganismId>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Administration in vivo</InVivoProcessType>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Epitope</EpitopeRelation>
+                                    <Object>
+                                        <SequenceMoleculeNoNaturalSource>
+                                            <ChemicalType>Peptide, no natural source</ChemicalType>
+                                            <LinearSequence>VKIPQHMHPLPI</LinearSequence>
+                                        </SequenceMoleculeNoNaturalSource>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenReferenceName>MSP1-1</ImmunogenReferenceName>
+                                <ImmunogenEvidenceCode>Exact match to reference information</ImmunogenEvidenceCode>
+                            </FirstInVivoProcess>
+                        </Immunization>
+                        <AssayInformation>
+                            <AssayTypeId>38</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <NumberOfSubjectsTested>1</NumberOfSubjectsTested>
+                            <NumberOfSubjectsResponded>1</NumberOfSubjectsResponded>
+                            <ResponseFrequency>100</ResponseFrequency>
+                            <AssayComments>The assay confirms that the epitope (mimotope) itself generated antibodies against SARS-CoV using SARS-CoV infected Vero cells for detection of antibody-binding. A competitive immunofluorescence assay (IFA) was used to test the abilitiy of synthetic peptide to compete with SARS-CoV for binding of antibody.</AssayComments>
+                        </AssayInformation>
+                        <AssayedAntibody>
+                            <AssayedAntibodySourceMaterial>Serum</AssayedAntibodySourceMaterial>
+                            <AssayedAntibodyPurificationStatus>Polyclonal</AssayedAntibodyPurificationStatus>
+                            <AssayedAntibodyName>anti-SARS CoV Ab</AssayedAntibodyName>
+                        </AssayedAntibody>
+                        <Antigen>
+                            <AntigenReferenceName>SARS-CoV (live virus)</AntigenReferenceName>
+                            <AntigenConformation>Native</AntigenConformation>
+                            <AntigenObject>
+                                <EpitopeRelation>Other</EpitopeRelation>
+                                <Object>
+                                    <Organism>
+                                        <SubType>Organism</SubType>
+                                        <SourceOrganismId>694009</SourceOrganismId>
+                                    </Organism>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Not determined</AntigenEvidenceCode>
+                        </Antigen>
+                    </BCell>
+                </Assays>
+            </Epitope>
+        </Epitopes>
+    </Reference>
+</References>
+

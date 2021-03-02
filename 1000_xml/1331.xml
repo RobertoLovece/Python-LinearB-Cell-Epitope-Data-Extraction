@@ -1,0 +1,781 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<References xsi:schemaLocation="http://www.iedb.org/schema/CurationSchema http://beta.iedb.org/schema/Curation.xsd" xmlns="http://www.iedb.org/schema/CurationSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <Reference>
+        <ReferenceId>1331</ReferenceId>
+        <DateLastUpdated>2020-09-10-07:00</DateLastUpdated>
+        <Article>
+            <PubmedId>11254721</PubmedId>
+            <Abstract>Screening with the flow cytometric IFN-gamma assay has led to the identification of a new immunogenic peptide (SSYRRPVGI) [corrected] from the influenza PB1 polymerase (PB1(703--711)) and a mimotope (ISPLMVAYM) from the PB2 polymerase (PB2(198--206)). CD8(+) T cells specific for K(b)PB1(703) make both IFN-gamma and TNF-alpha following stimulation with both peptides. The CD8(+) K(b)PB1(703)(+) population kills PB2(198)-pulsed targets, but cell lines stimulated with PB2(198) neither bind the K(b)PB1(703) tetramer nor become CTL. This CD8(+)K(b)PB1(703)(+) population is prominent in the primary response to an H3N2 virus, although it is much less obvious following secondary challenge of H1N1-primed mice. Even so, we can now account for &gt;40% of the CD8(+) T cells in a primary influenza pneumonia and &gt;85% of those present after H3N2 --&gt; H1N1 challenge. Profiles of IFN-gamma and TNF-alpha staining following in vitro stimulation have been traced for the four most prominent influenza peptides through primary and secondary responses into long-term memory. The D(b)NP(366) epitope that is immunodominant after the H3N2 --&gt; H1N1 challenge shows the lowest frequencies of CD8(+) IFN-gamma(+)TNF-alpha(+) cells for &gt;6 wk, and the intensity of IFN-gamma staining is also low for the first 3 wk. By 11 wk, however, the IFN-gamma/TNF-alpha profiles look to be similar for all four epitopes. At least by the criterion of cytokine production, there is considerable epitope-related functional diversity in the influenza virus-specific CD8(+) T cell response. The results for the K(b)PB1(703) epitope and the PB2(198) mimotope also provide a cautionary tale for those using the cytokine staining approach to identity antigenic peptides.</Abstract>
+            <ArticleYear>2001</ArticleYear>
+            <ArticlePages>4627-33</ArticlePages>
+            <ArticleTitle>Diversity of epitope and cytokine profiles for primary and secondary influenza a virus-specific CD8+ T cell responses.</ArticleTitle>
+            <Authors>
+                <Author>
+                    <LastName>Belz</LastName>
+                    <ForeName>G T</ForeName>
+                </Author>
+                <Author>
+                    <LastName>Xie</LastName>
+                    <ForeName>W</ForeName>
+                </Author>
+                <Author>
+                    <LastName>Doherty</LastName>
+                    <ForeName>P C</ForeName>
+                </Author>
+            </Authors>
+            <Affiliations>Department of Immunology, St. Jude Children's Research Hospital, Memphis, TN 38105, USA.</Affiliations>
+            <ArticleChemicalList>Cytokines;Epitopes, T-Lymphocyte;H-2 Antigens;H-2K(K) antigen;H-2Kb protein, mouse;PB2 protein, Influenzavirus A;Tumor Necrosis Factor-alpha;Viral Proteins;influenza virus polymerase basic protein 1;Interferon-gamma;RNA Replicase</ArticleChemicalList>
+            <ArticleMeshHeadingsList>Animals; CD8-Positive T-Lymphocytes(immunology; metabolism; virology); Cell Line; Cytokines(biosynthesis); Cytotoxicity Tests, Immunologic; Epitopes, T-Lymphocyte(biosynthesis); Female; H-2 Antigens(metabolism); Influenza A virus(immunology); Interferon-gamma(biosynthesis); Lymphocyte Activation(immunology); Mice; Mice, Inbred C57BL; Molecular Mimicry; RNA Replicase; Tumor Cells, Cultured; Tumor Necrosis Factor-alpha(biosynthesis); Viral Proteins(chemical synthesis; immunology; metabolism)</ArticleMeshHeadingsList>
+            <Comments>ErratumIn(J Immunol 2001 Aug 1;167(3):1839 )</Comments>
+            <Journal>
+                <Volume>166</Volume>
+                <Issue>7</Issue>
+                <Title>Journal of immunology (Baltimore, Md. : 1950)</Title>
+                <Issn>0022-1767</Issn>
+                <MedlineTa>J Immunol</MedlineTa>
+            </Journal>
+        </Article>
+        <Epitopes>
+            <Epitope>
+                <EpitopeName>PB1 703</EpitopeName>
+                <EpitopeStructure>
+                    <FragmentOfANaturalSequenceMolecule>
+                        <ChemicalType>Peptide from protein</ChemicalType>
+                        <LinearSequence>SSYRRPVGI</LinearSequence>
+                        <StartingPosition>703</StartingPosition>
+                        <EndingPosition>711</EndingPosition>
+                        <SourceMolecule>
+                            <GenBankId>P03432.1</GenBankId>
+                        </SourceMolecule>
+                        <SourceOrganismId>387139</SourceOrganismId>
+                    </FragmentOfANaturalSequenceMolecule>
+                </EpitopeStructure>
+                <LocationOfData>Figure 1</LocationOfData>
+                <EpitopeId>61497</EpitopeId>
+                <ReferenceStartingPosition>703</ReferenceStartingPosition>
+                <ReferenceEndingPosition>711</ReferenceEndingPosition>
+                <EpitopeEvidenceCode>Not determined</EpitopeEvidenceCode>
+                <EpitopeStructureDefines>Exact Epitope</EpitopeStructureDefines>
+                <Assays>
+                    <TCell>
+                        <LocationOfData>Figure 3A</LocationOfData>
+                        <TCellId>21030</TCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>10000067</OrganismId>
+                                <Sex>F</Sex>
+                                <Age>8 weeks or older</Age>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Administration in vivo</InVivoProcessType>
+                                <DiseaseState>DOID:8469</DiseaseState>
+                                <DiseaseStage>Acute/Recent onset</DiseaseStage>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Source Organism</EpitopeRelation>
+                                    <Object>
+                                        <Organism>
+                                            <SubType>Organism</SubType>
+                                            <SourceOrganismId>387139</SourceOrganismId>
+                                        </Organism>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenReferenceName>Influenza A virus (A/Aichi/2/1968(H3N2))</ImmunogenReferenceName>
+                                <ImmunogenEvidenceCode>Not determined</ImmunogenEvidenceCode>
+                                <Route>Intranasal</Route>
+                                <DoseSchedule>1</DoseSchedule>
+                            </FirstInVivoProcess>
+                            <InVitroAdministration>
+                                <ProcessType>Restimulation in vitro</ProcessType>
+                                <ResponderCellType>T cell</ResponderCellType>
+                                <StimulatorCellType>Splenocyte</StimulatorCellType>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Epitope</EpitopeRelation>
+                                    <Object>
+                                        <FragmentOfANaturalSequenceMolecule>
+                                            <ChemicalType>Peptide from protein</ChemicalType>
+                                            <LinearSequence>SSYRRPVGI</LinearSequence>
+                                            <StartingPosition>703</StartingPosition>
+                                            <EndingPosition>711</EndingPosition>
+                                            <SourceMolecule>
+                                                <GenBankId>P03432.1</GenBankId>
+                                            </SourceMolecule>
+                                            <SourceOrganismId>387139</SourceOrganismId>
+                                        </FragmentOfANaturalSequenceMolecule>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenEvidenceCode>Exact match to reference information</ImmunogenEvidenceCode>
+                            </InVitroAdministration>
+                            <ImmunizationComments>Cell lines were generated by six cycles of restimulation with the epitope.</ImmunizationComments>
+                        </Immunization>
+                        <EffectorCells>
+                            <CellTissueType>Spleen</CellTissueType>
+                            <CellType>T cell</CellType>
+                            <CellCultureConditions>Cell Line / Clone</CellCultureConditions>
+                        </EffectorCells>
+                        <AntigenPresentingCells>
+                            <CellTissueType>Lymphoid</CellTissueType>
+                            <CellType>EL-4 cells-Lymphoblast</CellType>
+                            <CellCultureConditions>Cell Line / Clone</CellCultureConditions>
+                            <AutologousOrSyngeneic>N</AutologousOrSyngeneic>
+                        </AntigenPresentingCells>
+                        <MhcAllele>
+                            <MhcAlleleId>122</MhcAlleleId>
+                            <MhcEvidenceCode>MHC binding assay</MhcEvidenceCode>
+                        </MhcAllele>
+                        <Antigen>
+                            <AntigenReferenceName>PB2 198</AntigenReferenceName>
+                            <AntigenObject>
+                                <EpitopeRelation>Taxonomic Sibling</EpitopeRelation>
+                                <Object>
+                                    <FragmentOfANaturalSequenceMolecule>
+                                        <ChemicalType>Peptide from protein</ChemicalType>
+                                        <LinearSequence>ISPLMVAYM</LinearSequence>
+                                        <StartingPosition>198</StartingPosition>
+                                        <EndingPosition>206</EndingPosition>
+                                        <SourceMolecule>
+                                            <GenBankId>P21428.1</GenBankId>
+                                        </SourceMolecule>
+                                        <SourceOrganismId>384498</SourceOrganismId>
+                                    </FragmentOfANaturalSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Exact match to reference information</AntigenEvidenceCode>
+                        </Antigen>
+                        <AssayInformation>
+                            <AssayTypeId>67</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <AssayComments>The antigen used in the assay is an author-identified mimotope of this epitope from the PB2 protein of influenza A virus (PB2 198-206: ISPLMVAYM).</AssayComments>
+                        </AssayInformation>
+                    </TCell>
+                </Assays>
+                <Assays>
+                    <TCell>
+                        <LocationOfData>Figure 3A</LocationOfData>
+                        <TCellId>21028</TCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>10000067</OrganismId>
+                                <Sex>F</Sex>
+                                <Age>8 weeks or older</Age>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Administration in vivo</InVivoProcessType>
+                                <DiseaseState>DOID:8469</DiseaseState>
+                                <DiseaseStage>Acute/Recent onset</DiseaseStage>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Source Organism</EpitopeRelation>
+                                    <Object>
+                                        <Organism>
+                                            <SubType>Organism</SubType>
+                                            <SourceOrganismId>387139</SourceOrganismId>
+                                        </Organism>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenReferenceName>Influenza A virus (A/Aichi/2/1968(H3N2))</ImmunogenReferenceName>
+                                <ImmunogenEvidenceCode>Not determined</ImmunogenEvidenceCode>
+                                <Route>Intranasal</Route>
+                                <DoseSchedule>1</DoseSchedule>
+                            </FirstInVivoProcess>
+                            <InVitroAdministration>
+                                <ProcessType>Restimulation in vitro</ProcessType>
+                                <ResponderCellType>T cell</ResponderCellType>
+                                <StimulatorCellType>Splenocyte</StimulatorCellType>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Epitope</EpitopeRelation>
+                                    <Object>
+                                        <FragmentOfANaturalSequenceMolecule>
+                                            <ChemicalType>Peptide from protein</ChemicalType>
+                                            <LinearSequence>SSYRRPVGI</LinearSequence>
+                                            <StartingPosition>703</StartingPosition>
+                                            <EndingPosition>711</EndingPosition>
+                                            <SourceMolecule>
+                                                <GenBankId>P03432.1</GenBankId>
+                                            </SourceMolecule>
+                                            <SourceOrganismId>387139</SourceOrganismId>
+                                        </FragmentOfANaturalSequenceMolecule>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenEvidenceCode>Exact match to reference information</ImmunogenEvidenceCode>
+                            </InVitroAdministration>
+                            <ImmunizationComments>Cell lines were generated by six cycles of restimulation with the epitope.</ImmunizationComments>
+                        </Immunization>
+                        <EffectorCells>
+                            <CellTissueType>Spleen</CellTissueType>
+                            <CellType>T cell</CellType>
+                            <CellCultureConditions>Cell Line / Clone</CellCultureConditions>
+                        </EffectorCells>
+                        <AntigenPresentingCells>
+                            <CellTissueType>Lymphoid</CellTissueType>
+                            <CellType>EL-4 cells-Lymphoblast</CellType>
+                            <CellCultureConditions>Cell Line / Clone</CellCultureConditions>
+                            <AutologousOrSyngeneic>N</AutologousOrSyngeneic>
+                        </AntigenPresentingCells>
+                        <MhcAllele>
+                            <MhcAlleleId>122</MhcAlleleId>
+                            <MhcEvidenceCode>MHC binding assay</MhcEvidenceCode>
+                        </MhcAllele>
+                        <Antigen>
+                            <AntigenReferenceName>PB1 703</AntigenReferenceName>
+                            <AntigenObject>
+                                <EpitopeRelation>Epitope</EpitopeRelation>
+                                <Object>
+                                    <FragmentOfANaturalSequenceMolecule>
+                                        <ChemicalType>Peptide from protein</ChemicalType>
+                                        <LinearSequence>SSYRRPVGI</LinearSequence>
+                                        <StartingPosition>703</StartingPosition>
+                                        <EndingPosition>711</EndingPosition>
+                                        <SourceMolecule>
+                                            <GenBankId>P03432.1</GenBankId>
+                                        </SourceMolecule>
+                                        <SourceOrganismId>387139</SourceOrganismId>
+                                    </FragmentOfANaturalSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Exact match to reference information</AntigenEvidenceCode>
+                        </Antigen>
+                        <AssayInformation>
+                            <AssayTypeId>67</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                        </AssayInformation>
+                    </TCell>
+                </Assays>
+                <Assays>
+                    <TCell>
+                        <LocationOfData>Figure 4N</LocationOfData>
+                        <TCellId>21035</TCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>10000067</OrganismId>
+                                <Sex>F</Sex>
+                                <Age>8 weeks or older</Age>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Administration in vivo</InVivoProcessType>
+                                <DiseaseState>DOID:8469</DiseaseState>
+                                <DiseaseStage>Acute/Recent onset</DiseaseStage>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Source Organism</EpitopeRelation>
+                                    <Object>
+                                        <Organism>
+                                            <SubType>Organism</SubType>
+                                            <SourceOrganismId>387139</SourceOrganismId>
+                                        </Organism>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenReferenceName>Influenza A virus (A/Aichi/2/1968(H3N2))</ImmunogenReferenceName>
+                                <ImmunogenEvidenceCode>Not determined</ImmunogenEvidenceCode>
+                                <Route>Intranasal</Route>
+                                <DoseSchedule>1</DoseSchedule>
+                            </FirstInVivoProcess>
+                        </Immunization>
+                        <EffectorCells>
+                            <CellTissueType>Lung</CellTissueType>
+                            <CellType>T cell CD8+</CellType>
+                            <CellCultureConditions>Direct Ex Vivo</CellCultureConditions>
+                        </EffectorCells>
+                        <MhcAllele>
+                            <MhcAlleleId>122</MhcAlleleId>
+                            <MhcEvidenceCode>MHC binding assay</MhcEvidenceCode>
+                        </MhcAllele>
+                        <Antigen>
+                            <AntigenReferenceName>PB2 198-206</AntigenReferenceName>
+                            <AntigenObject>
+                                <EpitopeRelation>Taxonomic Sibling</EpitopeRelation>
+                                <Object>
+                                    <FragmentOfANaturalSequenceMolecule>
+                                        <ChemicalType>Peptide from protein</ChemicalType>
+                                        <LinearSequence>ISPLMVAYM</LinearSequence>
+                                        <StartingPosition>198</StartingPosition>
+                                        <EndingPosition>206</EndingPosition>
+                                        <SourceMolecule>
+                                            <GenBankId>P21428.1</GenBankId>
+                                        </SourceMolecule>
+                                        <SourceOrganismId>384498</SourceOrganismId>
+                                    </FragmentOfANaturalSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Exact match to reference information</AntigenEvidenceCode>
+                        </Antigen>
+                        <AssayInformation>
+                            <AssayTypeId>53</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <QuantitativeMeasurement>42.4</QuantitativeMeasurement>
+                            <AssayComments>Freshly isolated CD8+/KbPB1 703+ bronchoalveolar lavage cells were were stimulated with the PB2 198-206 (an author identified mimeotope from this study).  A similar response was shown when these cells were stimulated with this epitope and PB2 198-206 simultaneously.</AssayComments>
+                        </AssayInformation>
+                    </TCell>
+                </Assays>
+                <Assays>
+                    <TCell>
+                        <LocationOfData>Figure 4M</LocationOfData>
+                        <TCellId>21034</TCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>10000067</OrganismId>
+                                <Sex>F</Sex>
+                                <Age>8 weeks or older</Age>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Administration in vivo</InVivoProcessType>
+                                <DiseaseState>DOID:8469</DiseaseState>
+                                <DiseaseStage>Acute/Recent onset</DiseaseStage>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Source Organism</EpitopeRelation>
+                                    <Object>
+                                        <Organism>
+                                            <SubType>Organism</SubType>
+                                            <SourceOrganismId>387139</SourceOrganismId>
+                                        </Organism>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenReferenceName>Influenza A virus (A/Aichi/2/1968(H3N2))</ImmunogenReferenceName>
+                                <ImmunogenEvidenceCode>Not determined</ImmunogenEvidenceCode>
+                                <Route>Intranasal</Route>
+                                <DoseSchedule>1</DoseSchedule>
+                            </FirstInVivoProcess>
+                        </Immunization>
+                        <EffectorCells>
+                            <CellTissueType>Lung</CellTissueType>
+                            <CellType>T cell CD8+</CellType>
+                            <CellCultureConditions>Direct Ex Vivo</CellCultureConditions>
+                        </EffectorCells>
+                        <MhcAllele>
+                            <MhcAlleleId>122</MhcAlleleId>
+                            <MhcEvidenceCode>MHC binding assay</MhcEvidenceCode>
+                        </MhcAllele>
+                        <Antigen>
+                            <AntigenReferenceName>PB1 703</AntigenReferenceName>
+                            <AntigenObject>
+                                <EpitopeRelation>Epitope</EpitopeRelation>
+                                <Object>
+                                    <FragmentOfANaturalSequenceMolecule>
+                                        <ChemicalType>Peptide from protein</ChemicalType>
+                                        <LinearSequence>SSYRRPVGI</LinearSequence>
+                                        <StartingPosition>703</StartingPosition>
+                                        <EndingPosition>711</EndingPosition>
+                                        <SourceMolecule>
+                                            <GenBankId>P03432.1</GenBankId>
+                                        </SourceMolecule>
+                                        <SourceOrganismId>387139</SourceOrganismId>
+                                    </FragmentOfANaturalSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Exact match to reference information</AntigenEvidenceCode>
+                        </Antigen>
+                        <AssayInformation>
+                            <AssayTypeId>53</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <QuantitativeMeasurement>63.4</QuantitativeMeasurement>
+                            <AssayComments>Freshly isolated CD8+/KbPB1 703+ bronchoalveolar lavage cells were stimulated with the epitope in order to elicit the response. A similar, but lower response was shown when these cells were stimulated with PB2 198-206 (an author identified mimeotope from this study) and with this epitope and PB2(198-206) simultaneously.</AssayComments>
+                        </AssayInformation>
+                    </TCell>
+                </Assays>
+                <Assays>
+                    <MhcBinding>
+                        <LocationOfData>Figure 1</LocationOfData>
+                        <MhcBindingId>21024</MhcBindingId>
+                        <AssayInformation>
+                            <AssayTypeId>185</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <AssayComments>The restriction element for the peptide was determined using the RMAS peptide stabilization assay.</AssayComments>
+                        </AssayInformation>
+                        <MhcAlleleId>122</MhcAlleleId>
+                    </MhcBinding>
+                </Assays>
+            </Epitope>
+            <Epitope>
+                <EpitopeName>PB2 198</EpitopeName>
+                <EpitopeStructure>
+                    <SequenceMoleculeNoNaturalSource>
+                        <ChemicalType>Peptide, no natural source</ChemicalType>
+                        <LinearSequence>ISPLMVAYM</LinearSequence>
+                    </SequenceMoleculeNoNaturalSource>
+                </EpitopeStructure>
+                <EpitopeRelatedObject>
+                    <RelatedObjectType>The epitope is a mimotope of:</RelatedObjectType>
+                    <RelatedObject>
+                        <AccessionSequenceMolecule>
+                            <ChemicalType>Protein</ChemicalType>
+                            <Molecule>
+                                <GenBankId>NP_775529.1</GenBankId>
+                            </Molecule>
+                            <SourceOrganismId>11320</SourceOrganismId>
+                        </AccessionSequenceMolecule>
+                    </RelatedObject>
+                </EpitopeRelatedObject>
+                <LocationOfData>Figure 1</LocationOfData>
+                <EpitopeId>28650</EpitopeId>
+                <EpitopeStructureDefines>Exact Epitope</EpitopeStructureDefines>
+                <EpitopeComments>This epitope is identified by the authors as a mimotope of a naturally occuring influenza A virus epitope from the PB1 protein: PB1 703-711 (SSYRRPVGI).</EpitopeComments>
+                <Assays>
+                    <TCell>
+                        <LocationOfData>Figure 6</LocationOfData>
+                        <TCellId>21049</TCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>10000067</OrganismId>
+                                <Sex>F</Sex>
+                                <Age>8 weeks or older</Age>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Administration in vivo</InVivoProcessType>
+                                <DiseaseState>DOID:8469</DiseaseState>
+                                <DiseaseStage>Acute/Recent onset</DiseaseStage>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Other</EpitopeRelation>
+                                    <Object>
+                                        <Organism>
+                                            <SubType>Organism</SubType>
+                                            <SourceOrganismId>387139</SourceOrganismId>
+                                        </Organism>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenReferenceName>Influenza A virus (A/Aichi/2/1968(H3N2))</ImmunogenReferenceName>
+                                <ImmunogenEvidenceCode>Not determined</ImmunogenEvidenceCode>
+                                <Route>Intranasal</Route>
+                                <DoseSchedule>1</DoseSchedule>
+                            </FirstInVivoProcess>
+                        </Immunization>
+                        <EffectorCells>
+                            <CellTissueType>Lung</CellTissueType>
+                            <CellType>T cell CD8+</CellType>
+                            <CellCultureConditions>Direct Ex Vivo</CellCultureConditions>
+                        </EffectorCells>
+                        <MhcAllele>
+                            <MhcAlleleId>167</MhcAlleleId>
+                            <MhcEvidenceCode>T cell assay -T cell subset identification</MhcEvidenceCode>
+                        </MhcAllele>
+                        <Antigen>
+                            <AntigenReferenceName>PB2 198</AntigenReferenceName>
+                            <AntigenObject>
+                                <EpitopeRelation>Epitope</EpitopeRelation>
+                                <Object>
+                                    <SequenceMoleculeNoNaturalSource>
+                                        <ChemicalType>Peptide, no natural source</ChemicalType>
+                                        <LinearSequence>ISPLMVAYM</LinearSequence>
+                                    </SequenceMoleculeNoNaturalSource>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Exact match to reference information</AntigenEvidenceCode>
+                        </Antigen>
+                        <AssayInformation>
+                            <AssayTypeId>53</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <AssayComments>Immunologically naÃÂ¯ve mice were challenged with influenza A virus, and analyzed by a PepC intracellular cytokine assay for the number of CD8+ T cells responding to the epitope.  The positive response was elevated in influenza A virus-primed mice.</AssayComments>
+                        </AssayInformation>
+                    </TCell>
+                </Assays>
+                <Assays>
+                    <TCell>
+                        <LocationOfData>Figure 4N</LocationOfData>
+                        <TCellId>21047</TCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>10000067</OrganismId>
+                                <Sex>F</Sex>
+                                <Age>8 weeks or older</Age>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Administration in vivo</InVivoProcessType>
+                                <DiseaseState>DOID:8469</DiseaseState>
+                                <DiseaseStage>Acute/Recent onset</DiseaseStage>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Other</EpitopeRelation>
+                                    <Object>
+                                        <Organism>
+                                            <SubType>Organism</SubType>
+                                            <SourceOrganismId>387139</SourceOrganismId>
+                                        </Organism>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenReferenceName>Influenza A virus (A/Aichi/2/1968(H3N2))</ImmunogenReferenceName>
+                                <ImmunogenEvidenceCode>Not determined</ImmunogenEvidenceCode>
+                                <Route>Intranasal</Route>
+                                <DoseSchedule>1</DoseSchedule>
+                            </FirstInVivoProcess>
+                        </Immunization>
+                        <EffectorCells>
+                            <CellTissueType>Lung</CellTissueType>
+                            <CellType>T cell CD8+</CellType>
+                            <CellCultureConditions>Direct Ex Vivo</CellCultureConditions>
+                        </EffectorCells>
+                        <MhcAllele>
+                            <MhcAlleleId>167</MhcAlleleId>
+                            <MhcEvidenceCode>T cell assay -T cell subset identification</MhcEvidenceCode>
+                        </MhcAllele>
+                        <Antigen>
+                            <AntigenReferenceName>PB2 198</AntigenReferenceName>
+                            <AntigenObject>
+                                <EpitopeRelation>Epitope</EpitopeRelation>
+                                <Object>
+                                    <SequenceMoleculeNoNaturalSource>
+                                        <ChemicalType>Peptide, no natural source</ChemicalType>
+                                        <LinearSequence>ISPLMVAYM</LinearSequence>
+                                    </SequenceMoleculeNoNaturalSource>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Exact match to reference information</AntigenEvidenceCode>
+                        </Antigen>
+                        <AssayInformation>
+                            <AssayTypeId>53</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <QuantitativeMeasurement>42.4</QuantitativeMeasurement>
+                            <AssayComments>CD8+/KbPB1 703+ cells specific for the PB1 703-711 epitope were isolated by bronchoalveolar lavage and were stimulated with the epitope in order to elicit the response.</AssayComments>
+                        </AssayInformation>
+                    </TCell>
+                </Assays>
+                <Assays>
+                    <TCell>
+                        <LocationOfData>Figure 2</LocationOfData>
+                        <TCellId>21051</TCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>10000067</OrganismId>
+                                <Sex>F</Sex>
+                                <Age>8 weeks or older</Age>
+                                <MhcAlleleTypesPresent>
+                                    <MhcAlleleId>122</MhcAlleleId>
+                                    <MhcAlleleId>172</MhcAlleleId>
+                                </MhcAlleleTypesPresent>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Administration in vivo</InVivoProcessType>
+                                <DiseaseState>DOID:8469</DiseaseState>
+                                <DiseaseStage>Acute/Recent onset</DiseaseStage>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Other</EpitopeRelation>
+                                    <Object>
+                                        <Organism>
+                                            <SubType>Organism</SubType>
+                                            <SourceOrganismId>387139</SourceOrganismId>
+                                        </Organism>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenReferenceName>Influenza A virus (A/Ann Arbor/6/60(H2N2))</ImmunogenReferenceName>
+                                <ImmunogenEvidenceCode>Not determined</ImmunogenEvidenceCode>
+                                <Route>Intranasal</Route>
+                                <DoseSchedule>1</DoseSchedule>
+                            </FirstInVivoProcess>
+                        </Immunization>
+                        <EffectorCells>
+                            <CellTissueType>Lung</CellTissueType>
+                            <CellType>T cell</CellType>
+                            <CellCultureConditions>Direct Ex Vivo</CellCultureConditions>
+                        </EffectorCells>
+                        <AntigenPresentingCells>
+                            <CellTissueType>Lymphoid</CellTissueType>
+                            <CellType>EL-4 cells-Lymphoblast</CellType>
+                            <CellCultureConditions>Cell Line / Clone</CellCultureConditions>
+                        </AntigenPresentingCells>
+                        <MhcAllele>
+                            <MhcAlleleId>167</MhcAlleleId>
+                            <MhcEvidenceCode>T cell assay -Biological process measured</MhcEvidenceCode>
+                        </MhcAllele>
+                        <Antigen>
+                            <AntigenReferenceName>PB2 198</AntigenReferenceName>
+                            <AntigenObject>
+                                <EpitopeRelation>Epitope</EpitopeRelation>
+                                <Object>
+                                    <SequenceMoleculeNoNaturalSource>
+                                        <ChemicalType>Peptide, no natural source</ChemicalType>
+                                        <LinearSequence>ISPLMVAYM</LinearSequence>
+                                    </SequenceMoleculeNoNaturalSource>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Exact match to reference information</AntigenEvidenceCode>
+                        </Antigen>
+                        <AssayInformation>
+                            <AssayTypeId>67</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                        </AssayInformation>
+                    </TCell>
+                </Assays>
+                <Assays>
+                    <MhcBinding>
+                        <LocationOfData>Figure 1</LocationOfData>
+                        <MhcBindingId>21276</MhcBindingId>
+                        <AssayInformation>
+                            <AssayTypeId>185</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <AssayComments>The response was weak.  The peptide also showed weak binding to H-2 I Db.</AssayComments>
+                        </AssayInformation>
+                        <MhcAlleleId>122</MhcAlleleId>
+                    </MhcBinding>
+                </Assays>
+                <Assays>
+                    <MhcBinding>
+                        <LocationOfData>Figure 1</LocationOfData>
+                        <MhcBindingId>21277</MhcBindingId>
+                        <AssayInformation>
+                            <AssayTypeId>185</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <AssayComments>The response was weak.  The peptide also showed weak binding to H-2 I Kb.</AssayComments>
+                        </AssayInformation>
+                        <MhcAlleleId>172</MhcAlleleId>
+                    </MhcBinding>
+                </Assays>
+            </Epitope>
+            <Epitope>
+                <EpitopeName>NS2 114</EpitopeName>
+                <EpitopeStructure>
+                    <FragmentOfANaturalSequenceMolecule>
+                        <ChemicalType>Peptide from protein</ChemicalType>
+                        <LinearSequence>RTFSFQLI</LinearSequence>
+                        <StartingPosition>114</StartingPosition>
+                        <EndingPosition>121</EndingPosition>
+                        <SourceMolecule>
+                            <GenBankId>Q02600.1</GenBankId>
+                        </SourceMolecule>
+                        <SourceOrganismId>387139</SourceOrganismId>
+                    </FragmentOfANaturalSequenceMolecule>
+                </EpitopeStructure>
+                <LocationOfData>Figure 1</LocationOfData>
+                <EpitopeId>56055</EpitopeId>
+                <ReferenceStartingPosition>114</ReferenceStartingPosition>
+                <ReferenceEndingPosition>121</ReferenceEndingPosition>
+                <EpitopeEvidenceCode>Not determined</EpitopeEvidenceCode>
+                <EpitopeStructureDefines>Exact Epitope</EpitopeStructureDefines>
+                <Assays>
+                    <TCell>
+                        <LocationOfData>Figure 5</LocationOfData>
+                        <TCellId>21065</TCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>10000067</OrganismId>
+                                <Sex>F</Sex>
+                                <Age>8 weeks or older</Age>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Administration in vivo</InVivoProcessType>
+                                <DiseaseState>DOID:8469</DiseaseState>
+                                <DiseaseStage>Acute/Recent onset</DiseaseStage>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Source Organism</EpitopeRelation>
+                                    <Object>
+                                        <Organism>
+                                            <SubType>Organism</SubType>
+                                            <SourceOrganismId>387139</SourceOrganismId>
+                                        </Organism>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenReferenceName>Influenza A virus (A/Aichi/2/1968(H3N2))</ImmunogenReferenceName>
+                                <ImmunogenEvidenceCode>Not determined</ImmunogenEvidenceCode>
+                                <Route>Intranasal</Route>
+                                <DoseSchedule>1</DoseSchedule>
+                            </FirstInVivoProcess>
+                        </Immunization>
+                        <EffectorCells>
+                            <CellTissueType>Lung</CellTissueType>
+                            <CellType>T cell CD8+</CellType>
+                            <CellCultureConditions>Direct Ex Vivo</CellCultureConditions>
+                        </EffectorCells>
+                        <MhcAllele>
+                            <MhcAlleleId>122</MhcAlleleId>
+                            <MhcEvidenceCode>MHC binding assay</MhcEvidenceCode>
+                        </MhcAllele>
+                        <Antigen>
+                            <AntigenReferenceName>NS2 114</AntigenReferenceName>
+                            <AntigenObject>
+                                <EpitopeRelation>Epitope</EpitopeRelation>
+                                <Object>
+                                    <FragmentOfANaturalSequenceMolecule>
+                                        <ChemicalType>Peptide from protein</ChemicalType>
+                                        <LinearSequence>RTFSFQLI</LinearSequence>
+                                        <StartingPosition>114</StartingPosition>
+                                        <EndingPosition>121</EndingPosition>
+                                        <SourceMolecule>
+                                            <GenBankId>Q02600.1</GenBankId>
+                                        </SourceMolecule>
+                                        <SourceOrganismId>387139</SourceOrganismId>
+                                    </FragmentOfANaturalSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Exact match to reference information</AntigenEvidenceCode>
+                        </Antigen>
+                        <AssayInformation>
+                            <AssayTypeId>53</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <AssayComments>Immunologically naïve mice were challenged with influenza A virus and analyzed by a PepC intracellular cytokine assay for the number of CD8+ T cells responding to the epitope.  The positive response was elevated in influenza A virus-primed mice.  Similar responses were shown in spleen and lymph node cells.  In further studies, the cytokine profiles for IFN-γ and TNF-α were shown to increase with time for both primary and secondary responses.</AssayComments>
+                        </AssayInformation>
+                    </TCell>
+                </Assays>
+                <Assays>
+                    <MhcBinding>
+                        <LocationOfData>Figure 1</LocationOfData>
+                        <MhcBindingId>21066</MhcBindingId>
+                        <AssayInformation>
+                            <AssayTypeId>185</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <AssayComments>The response was weak.</AssayComments>
+                        </AssayInformation>
+                        <MhcAlleleId>122</MhcAlleleId>
+                    </MhcBinding>
+                </Assays>
+            </Epitope>
+            <Epitope>
+                <EpitopeName>PB1 703-710</EpitopeName>
+                <EpitopeStructure>
+                    <FragmentOfANaturalSequenceMolecule>
+                        <ChemicalType>Peptide from protein</ChemicalType>
+                        <LinearSequence>SSYRRPVG</LinearSequence>
+                        <StartingPosition>703</StartingPosition>
+                        <EndingPosition>710</EndingPosition>
+                        <SourceMolecule>
+                            <GenBankId>P03432.1</GenBankId>
+                        </SourceMolecule>
+                        <SourceOrganismId>387139</SourceOrganismId>
+                    </FragmentOfANaturalSequenceMolecule>
+                </EpitopeStructure>
+                <LocationOfData>Figure 1</LocationOfData>
+                <EpitopeId>61496</EpitopeId>
+                <ReferenceStartingPosition>703</ReferenceStartingPosition>
+                <ReferenceEndingPosition>710</ReferenceEndingPosition>
+                <EpitopeEvidenceCode>Not determined</EpitopeEvidenceCode>
+                <EpitopeStructureDefines>Exact Epitope</EpitopeStructureDefines>
+                <Assays>
+                    <MhcBinding>
+                        <LocationOfData>Figure 1</LocationOfData>
+                        <MhcBindingId>21075</MhcBindingId>
+                        <AssayInformation>
+                            <AssayTypeId>185</AssayTypeId>
+                            <QualitativeMeasurement>Negative</QualitativeMeasurement>
+                        </AssayInformation>
+                        <MhcAlleleId>122</MhcAlleleId>
+                    </MhcBinding>
+                </Assays>
+            </Epitope>
+            <Epitope>
+                <EpitopeName>PB1 704-711</EpitopeName>
+                <EpitopeStructure>
+                    <FragmentOfANaturalSequenceMolecule>
+                        <ChemicalType>Peptide from protein</ChemicalType>
+                        <LinearSequence>SYRRPVGI</LinearSequence>
+                        <StartingPosition>704</StartingPosition>
+                        <EndingPosition>711</EndingPosition>
+                        <SourceMolecule>
+                            <GenBankId>P03432.1</GenBankId>
+                        </SourceMolecule>
+                        <SourceOrganismId>387139</SourceOrganismId>
+                    </FragmentOfANaturalSequenceMolecule>
+                </EpitopeStructure>
+                <LocationOfData>Figure 1</LocationOfData>
+                <EpitopeId>62695</EpitopeId>
+                <ReferenceStartingPosition>704</ReferenceStartingPosition>
+                <ReferenceEndingPosition>711</ReferenceEndingPosition>
+                <EpitopeEvidenceCode>Not determined</EpitopeEvidenceCode>
+                <EpitopeStructureDefines>Exact Epitope</EpitopeStructureDefines>
+                <Assays>
+                    <MhcBinding>
+                        <LocationOfData>Figure 1</LocationOfData>
+                        <MhcBindingId>21078</MhcBindingId>
+                        <AssayInformation>
+                            <AssayTypeId>185</AssayTypeId>
+                            <QualitativeMeasurement>Negative</QualitativeMeasurement>
+                        </AssayInformation>
+                        <MhcAlleleId>122</MhcAlleleId>
+                    </MhcBinding>
+                </Assays>
+            </Epitope>
+        </Epitopes>
+    </Reference>
+</References>
+

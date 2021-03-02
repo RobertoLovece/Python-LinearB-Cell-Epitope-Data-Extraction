@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<References xsi:schemaLocation="http://www.iedb.org/schema/CurationSchema http://beta.iedb.org/schema/Curation.xsd" xmlns="http://www.iedb.org/schema/CurationSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <Reference>
+        <ReferenceId>1284</ReferenceId>
+        <DateLastUpdated>2011-08-23-07:00</DateLastUpdated>
+        <Article>
+            <PubmedId>12551998</PubmedId>
+            <Abstract>The envelope (E) protein of Japanese encephalitis virus (JEV) is associated with viral binding to cellular receptors, membrane fusion, and the induction of protective neutralizing-antibody responses in hosts. Most previous studies have not provided detailed molecular information about the spatial configuration of the functional epitopes on domain III of the E protein. Here site-directed mutagenesis was performed to demonstrate that the functional epitope determinants at Ser331 and Asp332 on domain III of the JEV E protein interacted with neutralizing monoclonal antibody (MAb) E3.3. Bacterial expression of the recombinant Fab E3.3 confirmed the molecular interactions of Arg94 in complementary determining region H3 with Ser331 and Asp332 on domain III. This study elucidates the detailed molecular structures of the neutralizing epitope determinants on JEV domain III, which can provide useful information for designing new vaccines.</Abstract>
+            <ArticleYear>2003</ArticleYear>
+            <ArticlePages>2600-6</ArticlePages>
+            <ArticleTitle>A functional epitope determinant on domain III of the Japanese encephalitis virus envelope protein interacted with neutralizing-antibody combining sites.</ArticleTitle>
+            <Authors>
+                <Author>
+                    <LastName>Lin</LastName>
+                    <ForeName>Cheng-Wen</ForeName>
+                </Author>
+                <Author>
+                    <LastName>Wu</LastName>
+                    <ForeName>Suh-Chin</ForeName>
+                </Author>
+            </Authors>
+            <Affiliations>Institute of Biotechnology and Department of Life Science, National Tsing-Hua University, Hsinchu 30013, Taiwan.</Affiliations>
+            <ArticleChemicalList>Antibodies, Monoclonal;Antigen-Antibody Complex;Binding Sites, Antibody;Epitopes;Immunoglobulin Fab Fragments;Membrane Glycoproteins;Viral Envelope Proteins;glycoprotein E, Japanese encephalitis virus</ArticleChemicalList>
+            <ArticleMeshHeadingsList>Amino Acid Substitution; Animals; Antibodies, Monoclonal(metabolism); Antibody Affinity; Antigen-Antibody Complex(chemistry); Binding Sites, Antibody(physiology); Encephalitis Virus, Japanese(genetics; immunology); Epitopes(chemistry); Humans; Image Processing, Computer-Assisted; Immunoglobulin Fab Fragments(chemistry; genetics; immunology; metabolism); Membrane Glycoproteins(chemistry; genetics; immunology; metabolism); Models, Molecular; Mutagenesis, Site-Directed; Neutralization Tests; Viral Envelope Proteins(chemistry; genetics; immunology; metabolism)</ArticleMeshHeadingsList>
+            <Journal>
+                <Volume>77</Volume>
+                <Issue>4</Issue>
+                <Title>Journal of virology</Title>
+                <Issn>1098-5514</Issn>
+                <MedlineTa>J Virol</MedlineTa>
+            </Journal>
+        </Article>
+        <Epitopes>
+            <Epitope>
+                <EpitopeName>Domain III epitope</EpitopeName>
+                <EpitopeStructure>
+                    <DiscontinuousRegionOnAccessionSequenceMolecule>
+                        <ChemicalType>Discontinuous protein residues</ChemicalType>
+                        <DiscontinuousResidues>S331, D332</DiscontinuousResidues>
+                        <SourceMolecule>
+                            <GenBankId>146453371</GenBankId>
+                        </SourceMolecule>
+                        <SourceOrganismId>10000444</SourceOrganismId>
+                    </DiscontinuousRegionOnAccessionSequenceMolecule>
+                </EpitopeStructure>
+                <LocationOfData>Abstract</LocationOfData>
+                <EpitopeId>110512</EpitopeId>
+                <EpitopeEvidenceCode>Representative selection</EpitopeEvidenceCode>
+                <EpitopeStructureDefines>Partial Epitope</EpitopeStructureDefines>
+                <EpitopeComments>Functional epitopic determinants were determined by binding of neutralizing mAb E3.3 binding to site-directed mutants of JEV.  Interactions were confirmed with expression of recombinant Fab E3.3.</EpitopeComments>
+                <Assays>
+                    <BCell>
+                        <LocationOfData>Table 1</LocationOfData>
+                        <BCellId>18991</BCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>10090</OrganismId>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Administration in vivo</InVivoProcessType>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Source Organism</EpitopeRelation>
+                                    <Object>
+                                        <Organism>
+                                            <SubType>Organism</SubType>
+                                            <SourceOrganismId>10000444</SourceOrganismId>
+                                        </Organism>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenReferenceName>Japanese encephalitis virus</ImmunogenReferenceName>
+                                <ImmunogenEvidenceCode>Not determined</ImmunogenEvidenceCode>
+                            </FirstInVivoProcess>
+                        </Immunization>
+                        <AssayInformation>
+                            <AssayTypeId>250</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <QuantitativeMeasurement>0.83</QuantitativeMeasurement>
+                            <AssayComments>Affinity of mAb E3.3 to wild-type and single amino acid substitutions of S331, and D332 within Domain III of Envelope protein was performed  Non-conservative mutations resulted in affinities in excess of 100 nM.</AssayComments>
+                        </AssayInformation>
+                        <AssayedAntibody>
+                            <AssayedAntibodyPurificationStatus>Monoclonal</AssayedAntibodyPurificationStatus>
+                            <AssayedAntibodyName>E3.3</AssayedAntibodyName>
+                            <AssayedAntibodyHeavyChainType>IgG</AssayedAntibodyHeavyChainType>
+                        </AssayedAntibody>
+                        <Antigen>
+                            <AntigenConformation>Non-Native/Unknown</AntigenConformation>
+                            <AntigenObject>
+                                <EpitopeRelation>Fragment of Source Antigen</EpitopeRelation>
+                                <Object>
+                                    <FragmentOfANaturalSequenceMolecule>
+                                        <ChemicalType>Peptide from protein</ChemicalType>
+                                        <LinearSequence>DKLALKGTTYGMCTEKFSFAKNPADTGHGTVVIELSYSGSDGPCKIPIVSVASLNDMTPVGRLVTVNPFVATSSANSKVLVEMEPPFGDSYIVVGMGDKQINHHWHKAGST</LinearSequence>
+                                        <SourceMolecule>
+                                            <GenBankId>146453371</GenBankId>
+                                        </SourceMolecule>
+                                        <SourceOrganismId>10000444</SourceOrganismId>
+                                    </FragmentOfANaturalSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Exact match to reference information</AntigenEvidenceCode>
+                        </Antigen>
+                    </BCell>
+                </Assays>
+                <Assays>
+                    <BCell>
+                        <LocationOfData>Figure 3</LocationOfData>
+                        <BCellId>18990</BCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>10090</OrganismId>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Administration in vivo</InVivoProcessType>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Source Organism</EpitopeRelation>
+                                    <Object>
+                                        <Organism>
+                                            <SubType>Organism</SubType>
+                                            <SourceOrganismId>10000444</SourceOrganismId>
+                                        </Organism>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenReferenceName>Japanese encephalitis virus</ImmunogenReferenceName>
+                                <ImmunogenEvidenceCode>Not determined</ImmunogenEvidenceCode>
+                            </FirstInVivoProcess>
+                        </Immunization>
+                        <AssayInformation>
+                            <AssayTypeId>37</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <AssayComments>Analysis of mAb E3.3 binding to wild-type, single, and double mutants of Domain III was performed.</AssayComments>
+                        </AssayInformation>
+                        <AssayedAntibody>
+                            <AssayedAntibodyPurificationStatus>Monoclonal</AssayedAntibodyPurificationStatus>
+                            <AssayedAntibodyName>E3.3</AssayedAntibodyName>
+                            <AssayedAntibodyHeavyChainType>IgG</AssayedAntibodyHeavyChainType>
+                        </AssayedAntibody>
+                        <Antigen>
+                            <AntigenConformation>Non-Native/Unknown</AntigenConformation>
+                            <AntigenObject>
+                                <EpitopeRelation>Fragment of Source Antigen</EpitopeRelation>
+                                <Object>
+                                    <FragmentOfANaturalSequenceMolecule>
+                                        <ChemicalType>Peptide from protein</ChemicalType>
+                                        <LinearSequence>DKLALKGTTYGMCTEKFSFAKNPADTGHGTVVIELSYSGSDGPCKIPIVSVASLNDMTPVGRLVTVNPFVATSSANSKVLVEMEPPFGDSYIVVGMGDKQINHHWHKAGST</LinearSequence>
+                                        <SourceMolecule>
+                                            <GenBankId>146453371</GenBankId>
+                                        </SourceMolecule>
+                                        <SourceOrganismId>10000444</SourceOrganismId>
+                                    </FragmentOfANaturalSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Exact match to reference information</AntigenEvidenceCode>
+                        </Antigen>
+                    </BCell>
+                </Assays>
+                <Assays>
+                    <BCell>
+                        <LocationOfData>Figure 6</LocationOfData>
+                        <BCellId>18992</BCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>10090</OrganismId>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Administration in vivo</InVivoProcessType>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Source Organism</EpitopeRelation>
+                                    <Object>
+                                        <Organism>
+                                            <SubType>Organism</SubType>
+                                            <SourceOrganismId>10000444</SourceOrganismId>
+                                        </Organism>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenReferenceName>Japanese encephalitis virus</ImmunogenReferenceName>
+                                <ImmunogenEvidenceCode>Not determined</ImmunogenEvidenceCode>
+                            </FirstInVivoProcess>
+                        </Immunization>
+                        <AssayInformation>
+                            <AssayTypeId>34</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <AssayComments>A comparison of binding of mAb E3.3 and a single amino acid mutant R94E within CDR H3 of mAb E3.3 with Domain III of Envelope protein was performed. R94E mAb mutant greatly reduced binding of mAb to Domain III.</AssayComments>
+                        </AssayInformation>
+                        <AssayedAntibody>
+                            <AssayedAntibodyImmunoglobulinDomain>Fab</AssayedAntibodyImmunoglobulinDomain>
+                            <AssayedAntibodyPurificationStatus>Monoclonal</AssayedAntibodyPurificationStatus>
+                            <AssayedAntibodyName>E3.3</AssayedAntibodyName>
+                            <AssayedAntibodyHeavyChainType>IgG2a</AssayedAntibodyHeavyChainType>
+                            <AssayedAntibodyLightChainType>Kappa</AssayedAntibodyLightChainType>
+                        </AssayedAntibody>
+                        <Antigen>
+                            <AntigenConformation>Non-Native/Unknown</AntigenConformation>
+                            <AntigenObject>
+                                <EpitopeRelation>Fragment of Source Antigen</EpitopeRelation>
+                                <Object>
+                                    <FragmentOfANaturalSequenceMolecule>
+                                        <ChemicalType>Peptide from protein</ChemicalType>
+                                        <LinearSequence>DKLALKGTTYGMCTEKFSFAKNPADTGHGTVVIELSYSGSDGPCKIPIVSVASLNDMTPVGRLVTVNPFVATSSANSKVLVEMEPPFGDSYIVVGMGDKQINHHWHKAGST</LinearSequence>
+                                        <SourceMolecule>
+                                            <GenBankId>146453371</GenBankId>
+                                        </SourceMolecule>
+                                        <SourceOrganismId>10000444</SourceOrganismId>
+                                    </FragmentOfANaturalSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Exact match to reference information</AntigenEvidenceCode>
+                        </Antigen>
+                    </BCell>
+                </Assays>
+            </Epitope>
+        </Epitopes>
+    </Reference>
+</References>
+

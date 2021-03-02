@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<References xsi:schemaLocation="http://www.iedb.org/schema/CurationSchema http://beta.iedb.org/schema/Curation.xsd" xmlns="http://www.iedb.org/schema/CurationSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <Reference>
+        <ReferenceId>398</ReferenceId>
+        <DateLastUpdated>2020-09-10-07:00</DateLastUpdated>
+        <Article>
+            <PubmedId>15699351</PubmedId>
+            <Abstract>We have developed a baculovirus-based display system for identifying antigen mimotopes for MHC class I-specific T cells. The mouse MHC class I molecule, Dd, was displayed on baculovirus-infected insect cells with a library of 9- and 10-mer peptides tethered via a flexible linker to the N terminus of beta2 microglobulin. As a test case, the library was screened by flow cytometry by using a multimeric fluorescent alphabetaTCR from a mouse T cell specific for Dd plus an unknown self peptide. A mimotope was identified that, when bound to Dd, stimulated the T cell to secret IL-2. The sequence of the mimotope was used to identify a self peptide present in a mouse protein, Spin. The Spin peptide, when complexed with Dd, also activated the T cell. This technique should be generally useful in identifying and manipulating MHC class I peptide mimotopes and epitopes.</Abstract>
+            <ArticleYear>2005</ArticleYear>
+            <ArticlePages>2476-81</ArticlePages>
+            <ArticleTitle>Using a baculovirus display library to identify MHC class I mimotopes.</ArticleTitle>
+            <Authors>
+                <Author>
+                    <LastName>Wang</LastName>
+                    <ForeName>Yibing</ForeName>
+                </Author>
+                <Author>
+                    <LastName>Rubtsov</LastName>
+                    <ForeName>Anatoyla</ForeName>
+                </Author>
+                <Author>
+                    <LastName>Heiser</LastName>
+                    <ForeName>Ryan</ForeName>
+                </Author>
+                <Author>
+                    <LastName>White</LastName>
+                    <ForeName>Janice</ForeName>
+                </Author>
+                <Author>
+                    <LastName>Crawford</LastName>
+                    <ForeName>Frances</ForeName>
+                </Author>
+                <Author>
+                    <LastName>Marrack</LastName>
+                    <ForeName>Philippa</ForeName>
+                </Author>
+                <Author>
+                    <LastName>Kappler</LastName>
+                    <ForeName>John W</ForeName>
+                </Author>
+            </Authors>
+            <Affiliations>Howard Hughes Medical Institute, Integrated Department of Immunology, National Jewish Medical and Research Center, 1400 Jackson Street, Denver, CO 80206, USA.</Affiliations>
+            <ArticleChemicalList>Cell Cycle Proteins;DNA, Recombinant;Histocompatibility Antigens Class I;Interleukin-2;Microtubule-Associated Proteins;Peptide Library;Phosphoproteins;Receptors, Antigen, T-Cell, alpha-beta;Recombinant Proteins;spindlin</ArticleChemicalList>
+            <ArticleMeshHeadingsList>Amino Acid Sequence; Animals; Baculoviridae(genetics); Base Sequence; Cell Cycle Proteins(genetics); Cell Line; DNA, Recombinant(chemistry; genetics); Flow Cytometry; Histocompatibility Antigens Class I(chemistry; genetics); Interleukin-2(biosynthesis); Mice; Microtubule-Associated Proteins; Models, Molecular; Molecular Sequence Data; Peptide Library; Phosphoproteins(genetics); Protein Conformation; Receptors, Antigen, T-Cell, alpha-beta(genetics); Recombinant Proteins(chemistry; genetics); T-Lymphocytes(immunology)</ArticleMeshHeadingsList>
+            <Journal>
+                <Volume>102</Volume>
+                <Issue>7</Issue>
+                <Title>Proceedings of the National Academy of Sciences of the United States of America</Title>
+                <Issn>0027-8424</Issn>
+                <MedlineTa>Proc Natl Acad Sci U S A</MedlineTa>
+            </Journal>
+        </Article>
+        <Epitopes>
+            <Epitope>
+                <EpitopeName>pSpin</EpitopeName>
+                <EpitopeStructure>
+                    <FragmentOfANaturalSequenceMolecule>
+                        <ChemicalType>Peptide from protein</ChemicalType>
+                        <LinearSequence>AGATRWCRL</LinearSequence>
+                        <StartingPosition>423</StartingPosition>
+                        <EndingPosition>431</EndingPosition>
+                        <SourceMolecule>
+                            <GenBankId>AAH11467.1</GenBankId>
+                        </SourceMolecule>
+                        <SourceOrganismId>10090</SourceOrganismId>
+                    </FragmentOfANaturalSequenceMolecule>
+                </EpitopeStructure>
+                <LocationOfData>Figure 5</LocationOfData>
+                <EpitopeId>1455</EpitopeId>
+                <ReferenceStartingPosition>423</ReferenceStartingPosition>
+                <ReferenceEndingPosition>431</ReferenceEndingPosition>
+                <EpitopeEvidenceCode>Not determined</EpitopeEvidenceCode>
+                <EpitopeStructureDefines>Exact Epitope</EpitopeStructureDefines>
+                <EpitopeComments>This author-identified epitope is a naturally occuring homologous sequence from mus musculus (accession number AAH11467) and was identified as a homolog of D. melanogaster protein spinster.  This sequence was obtained through a search of the mouse database with the baculovirus-identified mimotope sequence p3DTm (TGPTRWCRL). This mouse self-epitope has sequence homology with Drosophila protein Spinster.</EpitopeComments>
+                <Assays>
+                    <MhcBinding>
+                        <LocationOfData>Figure 5C</LocationOfData>
+                        <MhcBindingId>2265</MhcBindingId>
+                        <AssayInformation>
+                            <AssayTypeId>185</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                        </AssayInformation>
+                        <MhcAlleleId>173</MhcAlleleId>
+                    </MhcBinding>
+                </Assays>
+            </Epitope>
+            <Epitope>
+                <EpitopeName>p3DTm</EpitopeName>
+                <EpitopeStructure>
+                    <SequenceMoleculeNoNaturalSource>
+                        <ChemicalType>Peptide, no natural source</ChemicalType>
+                        <LinearSequence>TGPTRWCRL</LinearSequence>
+                    </SequenceMoleculeNoNaturalSource>
+                </EpitopeStructure>
+                <LocationOfData>Figure 5</LocationOfData>
+                <EpitopeId>63940</EpitopeId>
+                <EpitopeStructureDefines>Exact Epitope</EpitopeStructureDefines>
+                <EpitopeComments>This epitope sequence is an author-identified mimotope of  the naturally occuring pSpin from D. melanogaster. This mimotope was identified utilizing a baculovirus-mediated display library.</EpitopeComments>
+                <Assays>
+                    <MhcBinding>
+                        <LocationOfData>Figure 5C</LocationOfData>
+                        <MhcBindingId>7331</MhcBindingId>
+                        <AssayInformation>
+                            <AssayTypeId>185</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                        </AssayInformation>
+                        <MhcAlleleId>173</MhcAlleleId>
+                    </MhcBinding>
+                </Assays>
+            </Epitope>
+        </Epitopes>
+    </Reference>
+</References>
+

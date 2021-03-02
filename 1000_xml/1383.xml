@@ -1,0 +1,505 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<References xsi:schemaLocation="http://www.iedb.org/schema/CurationSchema http://beta.iedb.org/schema/Curation.xsd" xmlns="http://www.iedb.org/schema/CurationSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <Reference>
+        <ReferenceId>1383</ReferenceId>
+        <DateLastUpdated>2020-09-10-07:00</DateLastUpdated>
+        <Article>
+            <PubmedId>10073721</PubmedId>
+            <Abstract>Peptides KDYGASTGSSL (Epil). SLLRRRRNGEDVSV (Epi3) and DDEIYGNDGHP (Epi6), predicted to constitute immunogenic epitopes of the hemolysin-cytotoxin ApxIA of Actinobacillus pleuropneumoniae were inserted into a surface-exposed loop of the B subunit of the E. coli heat-labile enterotoxin (EtxB). The resulting chimeric proteins were recognized by monospecific antibodies against purified native ApxI and by convalescent sera of pigs that were positive for A. pleuropneumoniae serotype 1. Mice anti-sera against chimeric proteins EtxB::ApxIAEpi3 and EtxB::ApxIAEpi6 reacted with purified ApxI. These results indicate that Epi3 and Epi6 regions constitute linear epitopes of the structural ApxIA protein toxin. Epitope Epi6 which is located in the structure of the glycine rich repeats in ApxI elicits the formation of hemolysin neutralizing antibodies when introduced into mice in the form of a chimeric EtxB fusion protein. We suggest that fusion of peptide sequences to EtxB is a useful tool for the analysis of epitopes of complex proteins such as RTX toxins.</Abstract>
+            <ArticleYear>1999</ArticleYear>
+            <ArticlePages>441-7</ArticlePages>
+            <ArticleTitle>Immunogenicity of Actinobacillus ApxIA toxin epitopes fused to the E. coli heat-labile enterotoxin B subunit.</ArticleTitle>
+            <Authors>
+                <Author>
+                    <LastName>Bagdasarian</LastName>
+                    <ForeName>M M</ForeName>
+                </Author>
+                <Author>
+                    <LastName>Nagai</LastName>
+                    <ForeName>M</ForeName>
+                </Author>
+                <Author>
+                    <LastName>Frey</LastName>
+                    <ForeName>J</ForeName>
+                </Author>
+                <Author>
+                    <LastName>Bagdasarian</LastName>
+                    <ForeName>M</ForeName>
+                </Author>
+            </Authors>
+            <Affiliations>Department of Microbiology, Michigan State University, East Lansing 48824-1312, USA.</Affiliations>
+            <ArticleChemicalList>Bacterial Proteins;Bacterial Toxins;Enterotoxins;Epitopes;Escherichia coli Proteins;Hemolysin Proteins;Recombinant Fusion Proteins;heat-labile enterotoxin, E coli;ApxI toxin, Bacteria</ArticleChemicalList>
+            <ArticleMeshHeadingsList>Actinobacillus pleuropneumoniae(immunology); Amino Acid Sequence; Animals; Bacterial Proteins(immunology); Bacterial Toxins(immunology); Enterotoxins(immunology); Epitopes; Escherichia coli Proteins; Hemolysin Proteins(immunology); Hemolysis; Mice; Mice, Inbred BALB C; Molecular Sequence Data; Rabbits; Recombinant Fusion Proteins(immunology)</ArticleMeshHeadingsList>
+            <Journal>
+                <Volume>17</Volume>
+                <Issue>5</Issue>
+                <Title>Vaccine</Title>
+                <Issn>0264-410X</Issn>
+                <MedlineTa>Vaccine</MedlineTa>
+            </Journal>
+        </Article>
+        <Epitopes>
+            <Epitope>
+                <EpitopeName>Epi3</EpitopeName>
+                <EpitopeStructure>
+                    <FragmentOfANaturalSequenceMolecule>
+                        <ChemicalType>Peptide from protein</ChemicalType>
+                        <LinearSequence>SLLRRRRNGEDVSV</LinearSequence>
+                        <SourceMolecule>
+                            <IedbAccession>SRC248905</IedbAccession>
+                        </SourceMolecule>
+                        <SourceOrganismId>228399</SourceOrganismId>
+                    </FragmentOfANaturalSequenceMolecule>
+                </EpitopeStructure>
+                <LocationOfData>Figure 1</LocationOfData>
+                <EpitopeId>59300</EpitopeId>
+                <ReferenceStartingPosition>161</ReferenceStartingPosition>
+                <ReferenceEndingPosition>173</ReferenceEndingPosition>
+                <EpitopeEvidenceCode>Internal Identifier-no external match available</EpitopeEvidenceCode>
+                <EpitopeStructureDefines>Epitope containing region/antigenic site</EpitopeStructureDefines>
+                <Assays>
+                    <BCell>
+                        <LocationOfData>Figure 5</LocationOfData>
+                        <BCellId>21680</BCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>10000000</OrganismId>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Administration in vivo</InVivoProcessType>
+                                <DiseaseState>ONTIE:0003423</DiseaseState>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Epitope</EpitopeRelation>
+                                    <Object>
+                                        <FragmentOfANaturalSequenceMolecule>
+                                            <ChemicalType>Peptide from protein</ChemicalType>
+                                            <LinearSequence>SLLRRRRNGEDVSV</LinearSequence>
+                                            <SourceMolecule>
+                                                <IedbAccession>SRC248905</IedbAccession>
+                                            </SourceMolecule>
+                                            <SourceOrganismId>228399</SourceOrganismId>
+                                        </FragmentOfANaturalSequenceMolecule>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenReferenceName>Epi3</ImmunogenReferenceName>
+                                <ImmunogenEvidenceCode>Exact match to reference information</ImmunogenEvidenceCode>
+                                <ImmunogenContainingObject>
+                                    <ComplexedMolecule>
+                                        <ComplexType>Protein conjugate</ComplexType>
+                                        <PeptideModifications/>
+                                        <SourceMolecule>
+                                            <GenBankId>P13811.1</GenBankId>
+                                        </SourceMolecule>
+                                        <MoleculeSourceOrganismId>562</MoleculeSourceOrganismId>
+                                    </ComplexedMolecule>
+                                </ImmunogenContainingObject>
+                                <Adjuvant>Freund's complete</Adjuvant>
+                                <Adjuvant>Freund's incomplete (IFA)</Adjuvant>
+                                <Route>Subcutaneous (s.c.)</Route>
+                                <DoseSchedule>The primary immunization was give with Freund's complete adjuvant, followed three weeks later by a booster given with Freund's incomplete adjuvant.</DoseSchedule>
+                            </FirstInVivoProcess>
+                            <ImmunizationComments>The epitope was inserted into a surface exposed loop of the B subunit of the E. coli heat-labile enterotoxin and expressed as a chimeric protein, which was used for immunization.</ImmunizationComments>
+                        </Immunization>
+                        <AssayInformation>
+                            <AssayTypeId>316</AssayTypeId>
+                            <QualitativeMeasurement>Negative</QualitativeMeasurement>
+                            <AssayComments>Antibodies raised against a chimeric protein of the epitope inserted into a surface exposed loop of the B subunit of the E. coli heat-labile enterotoxin did not neutralize the hemolytic activity of the hemolysin cytotoxin (ApxI) in the presence or absence of Ca&lt;sup&gt;2+&lt;/sup&gt;.  Control rabbit serum generated against the native toxin exhibited strong neutralization under both high and low Ca&lt;sup&gt;2+&lt;/sup&gt; concentrations.</AssayComments>
+                        </AssayInformation>
+                        <AssayedAntibody>
+                            <AssayedAntibodySourceMaterial>Serum</AssayedAntibodySourceMaterial>
+                            <AssayedAntibodyPurificationStatus>Polyclonal</AssayedAntibodyPurificationStatus>
+                            <AssayedAntibodyName>anti-EtxB::APxIA</AssayedAntibodyName>
+                        </AssayedAntibody>
+                        <Antigen>
+                            <AntigenReferenceName>hemolysin-cytotoxin ApxIA</AntigenReferenceName>
+                            <AntigenConformation>Native</AntigenConformation>
+                            <AntigenObject>
+                                <EpitopeRelation>Source Antigen</EpitopeRelation>
+                                <Object>
+                                    <AccessionSequenceMolecule>
+                                        <ChemicalType>Protein</ChemicalType>
+                                        <Molecule>
+                                            <IedbAccession>SRC248905</IedbAccession>
+                                        </Molecule>
+                                        <SourceOrganismId>228399</SourceOrganismId>
+                                    </AccessionSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Internal Identifier-no external match available</AntigenEvidenceCode>
+                        </Antigen>
+                    </BCell>
+                </Assays>
+                <Assays>
+                    <BCell>
+                        <LocationOfData>Figure 2</LocationOfData>
+                        <BCellId>21678</BCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>9986</OrganismId>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Administration in vivo</InVivoProcessType>
+                                <DiseaseState>ONTIE:0003423</DiseaseState>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Source Antigen</EpitopeRelation>
+                                    <Object>
+                                        <AccessionSequenceMolecule>
+                                            <ChemicalType>Protein</ChemicalType>
+                                            <Molecule>
+                                                <IedbAccession>SRC248905</IedbAccession>
+                                            </Molecule>
+                                            <SourceOrganismId>228399</SourceOrganismId>
+                                        </AccessionSequenceMolecule>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenReferenceName>hemolysin-cytotoxin ApxIA</ImmunogenReferenceName>
+                                <ImmunogenEvidenceCode>Internal Identifier-no external match available</ImmunogenEvidenceCode>
+                            </FirstInVivoProcess>
+                        </Immunization>
+                        <AssayInformation>
+                            <AssayTypeId>37</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <AssayComments>The epitope was inserted into a surface exposed loop of the B subunit of the E. coli heat-labile enterotoxin and expressed as a chimeric protein.  Positive reactions occurred only when the chimeric protein was boiled prior to application to the gel.  A. pleuropneumoniae serotype 1-positive convalescent sera from 9 pigs which were previously shown to react with hemolysin-cytotoxin (ApxI) also reacted with the boiled chimeric protein, although one of the sera also reacted to E. coli heat-labile enterotoxin B.</AssayComments>
+                        </AssayInformation>
+                        <AssayedAntibody>
+                            <AssayedAntibodySourceMaterial>Serum</AssayedAntibodySourceMaterial>
+                            <AssayedAntibodyPurificationStatus>Polyclonal</AssayedAntibodyPurificationStatus>
+                            <AssayedAntibodyName>anti-APxI</AssayedAntibodyName>
+                        </AssayedAntibody>
+                        <Antigen>
+                            <AntigenReferenceName>Epi3</AntigenReferenceName>
+                            <AntigenConformation>Non-Native/Unknown</AntigenConformation>
+                            <AntigenObject>
+                                <EpitopeRelation>Epitope</EpitopeRelation>
+                                <Object>
+                                    <FragmentOfANaturalSequenceMolecule>
+                                        <ChemicalType>Peptide from protein</ChemicalType>
+                                        <LinearSequence>SLLRRRRNGEDVSV</LinearSequence>
+                                        <SourceMolecule>
+                                            <IedbAccession>SRC248905</IedbAccession>
+                                        </SourceMolecule>
+                                        <SourceOrganismId>228399</SourceOrganismId>
+                                    </FragmentOfANaturalSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Exact match to reference information</AntigenEvidenceCode>
+                            <AntigenContainingObject>
+                                <ComplexedMolecule>
+                                    <ComplexType>Protein conjugate</ComplexType>
+                                    <PeptideModifications/>
+                                    <SourceMolecule>
+                                        <GenBankId>P13811.1</GenBankId>
+                                    </SourceMolecule>
+                                    <MoleculeSourceOrganismId>562</MoleculeSourceOrganismId>
+                                </ComplexedMolecule>
+                            </AntigenContainingObject>
+                        </Antigen>
+                    </BCell>
+                </Assays>
+                <Assays>
+                    <BCell>
+                        <LocationOfData>Figure 3</LocationOfData>
+                        <BCellId>21679</BCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>10000000</OrganismId>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Administration in vivo</InVivoProcessType>
+                                <DiseaseState>ONTIE:0003423</DiseaseState>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Epitope</EpitopeRelation>
+                                    <Object>
+                                        <FragmentOfANaturalSequenceMolecule>
+                                            <ChemicalType>Peptide from protein</ChemicalType>
+                                            <LinearSequence>SLLRRRRNGEDVSV</LinearSequence>
+                                            <SourceMolecule>
+                                                <IedbAccession>SRC248905</IedbAccession>
+                                            </SourceMolecule>
+                                            <SourceOrganismId>228399</SourceOrganismId>
+                                        </FragmentOfANaturalSequenceMolecule>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenReferenceName>Epi3</ImmunogenReferenceName>
+                                <ImmunogenEvidenceCode>Exact match to reference information</ImmunogenEvidenceCode>
+                                <ImmunogenContainingObject>
+                                    <ComplexedMolecule>
+                                        <ComplexType>Protein conjugate</ComplexType>
+                                        <PeptideModifications/>
+                                        <SourceMolecule>
+                                            <GenBankId>P13811.1</GenBankId>
+                                        </SourceMolecule>
+                                        <MoleculeSourceOrganismId>562</MoleculeSourceOrganismId>
+                                    </ComplexedMolecule>
+                                </ImmunogenContainingObject>
+                                <Adjuvant>Freund's complete</Adjuvant>
+                                <Adjuvant>Freund's incomplete (IFA)</Adjuvant>
+                                <Route>Subcutaneous (s.c.)</Route>
+                                <DoseSchedule>The primary immunization was give with Freund's complete adjuvant, followed three weeks later by a booster given with Freund's incomplete adjuvant.</DoseSchedule>
+                            </FirstInVivoProcess>
+                            <ImmunizationComments>The epitope was inserted into a surface exposed loop of the B subunit of the E. coli heat-labile enterotoxin and expressed as a chimeric protein, which was used for immunization.</ImmunizationComments>
+                        </Immunization>
+                        <AssayInformation>
+                            <AssayTypeId>37</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <AssayComments>Antibodies raised against a chimeric protein of the epitope inserted into a surface exposed loop of the B subunit of the E. coli heat-labile enterotoxin reacted strongly with the native and recombinant forms of hemolysin-cytotoxin (ApxI), but not with ApxII or ApxIII.  In further studies, culture supernatants of the most common A. pleuropneumoniae serotypes 1, 2, 5a and 9 were analyzed by immunoblot with mouse anti-EtxB::ApxIEpi3 serum.  Reactivity was observed with the supernatants of serotypes 1, 5a and 9 which all secrete ApxI and ApxII, but not with culture supernatants of serotype 2 which secretes ApxII and ApxIIIbut not ApxI.</AssayComments>
+                        </AssayInformation>
+                        <AssayedAntibody>
+                            <AssayedAntibodySourceMaterial>Serum</AssayedAntibodySourceMaterial>
+                            <AssayedAntibodyPurificationStatus>Polyclonal</AssayedAntibodyPurificationStatus>
+                            <AssayedAntibodyName>anti-EtxB::APxIA</AssayedAntibodyName>
+                        </AssayedAntibody>
+                        <Antigen>
+                            <AntigenReferenceName>hemolysin-cytotoxin ApxIA</AntigenReferenceName>
+                            <AntigenConformation>Non-Native/Unknown</AntigenConformation>
+                            <AntigenObject>
+                                <EpitopeRelation>Source Antigen</EpitopeRelation>
+                                <Object>
+                                    <AccessionSequenceMolecule>
+                                        <ChemicalType>Protein</ChemicalType>
+                                        <Molecule>
+                                            <IedbAccession>SRC248905</IedbAccession>
+                                        </Molecule>
+                                        <SourceOrganismId>228399</SourceOrganismId>
+                                    </AccessionSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Internal Identifier-no external match available</AntigenEvidenceCode>
+                        </Antigen>
+                    </BCell>
+                </Assays>
+            </Epitope>
+            <Epitope>
+                <EpitopeName>Epi6</EpitopeName>
+                <EpitopeStructure>
+                    <FragmentOfANaturalSequenceMolecule>
+                        <ChemicalType>Peptide from protein</ChemicalType>
+                        <LinearSequence>DDEIYGNDGHP</LinearSequence>
+                        <SourceMolecule>
+                            <IedbAccession>SRC248905</IedbAccession>
+                        </SourceMolecule>
+                        <SourceOrganismId>228399</SourceOrganismId>
+                    </FragmentOfANaturalSequenceMolecule>
+                </EpitopeStructure>
+                <LocationOfData>Figure 1</LocationOfData>
+                <EpitopeId>7768</EpitopeId>
+                <ReferenceStartingPosition>744</ReferenceStartingPosition>
+                <ReferenceEndingPosition>753</ReferenceEndingPosition>
+                <EpitopeEvidenceCode>Internal Identifier-no external match available</EpitopeEvidenceCode>
+                <EpitopeStructureDefines>Exact Epitope</EpitopeStructureDefines>
+                <Assays>
+                    <BCell>
+                        <LocationOfData>Figure 5</LocationOfData>
+                        <BCellId>21686</BCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>10000000</OrganismId>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Administration in vivo</InVivoProcessType>
+                                <DiseaseState>ONTIE:0003423</DiseaseState>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Epitope</EpitopeRelation>
+                                    <Object>
+                                        <FragmentOfANaturalSequenceMolecule>
+                                            <ChemicalType>Peptide from protein</ChemicalType>
+                                            <LinearSequence>DDEIYGNDGHP</LinearSequence>
+                                            <SourceMolecule>
+                                                <IedbAccession>SRC248905</IedbAccession>
+                                            </SourceMolecule>
+                                            <SourceOrganismId>228399</SourceOrganismId>
+                                        </FragmentOfANaturalSequenceMolecule>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenReferenceName>Epi6</ImmunogenReferenceName>
+                                <ImmunogenEvidenceCode>Exact match to reference information</ImmunogenEvidenceCode>
+                                <ImmunogenContainingObject>
+                                    <ComplexedMolecule>
+                                        <ComplexType>Protein conjugate</ComplexType>
+                                        <PeptideModifications/>
+                                        <SourceMolecule>
+                                            <GenBankId>P13811.1</GenBankId>
+                                        </SourceMolecule>
+                                        <MoleculeSourceOrganismId>562</MoleculeSourceOrganismId>
+                                    </ComplexedMolecule>
+                                </ImmunogenContainingObject>
+                                <Adjuvant>Freund's complete</Adjuvant>
+                                <Adjuvant>Freund's incomplete (IFA)</Adjuvant>
+                                <Route>Subcutaneous (s.c.)</Route>
+                                <DoseSchedule>The primary immunization was give with Freund's complete adjuvant, followed three weeks later by a booster given with Freund's incomplete adjuvant.</DoseSchedule>
+                            </FirstInVivoProcess>
+                            <ImmunizationComments>The epitope was inserted into a surface exposed loop of the B subunit of the E. coli heat-labile enterotoxin and expressed as a chimeric protein, which was used for immunization.</ImmunizationComments>
+                        </Immunization>
+                        <AssayInformation>
+                            <AssayTypeId>316</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <AssayComments>Antibodies raised against a chimeric protein of the epitope inserted into a surface exposed loop of the B subunit of the E. coli heat-labile enterotoxin neutralized the hemolytic activity of the hemolysin cytotoxin (ApxI) only in the presence of low Ca&lt;sup&gt;2+&lt;/sup&gt; concentration.  Control rabbit serum generated against the native toxin exhibited strong neutralization under both high and low Ca&lt;sup&gt;2+&lt;/sup&gt; concentrations.</AssayComments>
+                        </AssayInformation>
+                        <AssayedAntibody>
+                            <AssayedAntibodySourceMaterial>Serum</AssayedAntibodySourceMaterial>
+                            <AssayedAntibodyPurificationStatus>Polyclonal</AssayedAntibodyPurificationStatus>
+                            <AssayedAntibodyName>anti-EtxB::APxIA</AssayedAntibodyName>
+                        </AssayedAntibody>
+                        <Antigen>
+                            <AntigenReferenceName>hemolysin-cytotoxin ApxIA</AntigenReferenceName>
+                            <AntigenConformation>Native</AntigenConformation>
+                            <AntigenObject>
+                                <EpitopeRelation>Source Antigen</EpitopeRelation>
+                                <Object>
+                                    <AccessionSequenceMolecule>
+                                        <ChemicalType>Protein</ChemicalType>
+                                        <Molecule>
+                                            <IedbAccession>SRC248905</IedbAccession>
+                                        </Molecule>
+                                        <SourceOrganismId>228399</SourceOrganismId>
+                                    </AccessionSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Internal Identifier-no external match available</AntigenEvidenceCode>
+                        </Antigen>
+                    </BCell>
+                </Assays>
+                <Assays>
+                    <BCell>
+                        <LocationOfData>Figure 2</LocationOfData>
+                        <BCellId>21684</BCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>9986</OrganismId>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Administration in vivo</InVivoProcessType>
+                                <DiseaseState>ONTIE:0003423</DiseaseState>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Source Antigen</EpitopeRelation>
+                                    <Object>
+                                        <AccessionSequenceMolecule>
+                                            <ChemicalType>Protein</ChemicalType>
+                                            <Molecule>
+                                                <IedbAccession>SRC248905</IedbAccession>
+                                            </Molecule>
+                                            <SourceOrganismId>228399</SourceOrganismId>
+                                        </AccessionSequenceMolecule>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenReferenceName>hemolysin-cytotoxin ApxIA</ImmunogenReferenceName>
+                                <ImmunogenEvidenceCode>Internal Identifier-no external match available</ImmunogenEvidenceCode>
+                            </FirstInVivoProcess>
+                        </Immunization>
+                        <AssayInformation>
+                            <AssayTypeId>37</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <AssayComments>The epitope was inserted into a surface exposed loop of the B subunit of the E. coli heat-labile enterotoxin and expressed as a chimeric protein.  Positive reactions occurred only when the chimeric protein was boiled prior to application to the gel.  A. pleuropneumoniae serotype 1-positive convalescent sera from 9 pigs which were previously shown to react with hemolysin-cytotoxin (ApxI) also reacted with the boiled chimeric protein, although one of the sera also reacted to E. coli heat-labile enterotoxin B.</AssayComments>
+                        </AssayInformation>
+                        <AssayedAntibody>
+                            <AssayedAntibodySourceMaterial>Serum</AssayedAntibodySourceMaterial>
+                            <AssayedAntibodyPurificationStatus>Polyclonal</AssayedAntibodyPurificationStatus>
+                            <AssayedAntibodyName>anti-APxI</AssayedAntibodyName>
+                        </AssayedAntibody>
+                        <Antigen>
+                            <AntigenReferenceName>Epi6</AntigenReferenceName>
+                            <AntigenConformation>Non-Native/Unknown</AntigenConformation>
+                            <AntigenObject>
+                                <EpitopeRelation>Epitope</EpitopeRelation>
+                                <Object>
+                                    <FragmentOfANaturalSequenceMolecule>
+                                        <ChemicalType>Peptide from protein</ChemicalType>
+                                        <LinearSequence>DDEIYGNDGHP</LinearSequence>
+                                        <SourceMolecule>
+                                            <IedbAccession>SRC248905</IedbAccession>
+                                        </SourceMolecule>
+                                        <SourceOrganismId>228399</SourceOrganismId>
+                                    </FragmentOfANaturalSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Exact match to reference information</AntigenEvidenceCode>
+                            <AntigenContainingObject>
+                                <ComplexedMolecule>
+                                    <ComplexType>Protein conjugate</ComplexType>
+                                    <PeptideModifications/>
+                                    <SourceMolecule>
+                                        <GenBankId>P13811.1</GenBankId>
+                                    </SourceMolecule>
+                                    <MoleculeSourceOrganismId>562</MoleculeSourceOrganismId>
+                                </ComplexedMolecule>
+                            </AntigenContainingObject>
+                        </Antigen>
+                    </BCell>
+                </Assays>
+                <Assays>
+                    <BCell>
+                        <LocationOfData>Figure 3</LocationOfData>
+                        <BCellId>21685</BCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>10000000</OrganismId>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Administration in vivo</InVivoProcessType>
+                                <DiseaseState>ONTIE:0003423</DiseaseState>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Epitope</EpitopeRelation>
+                                    <Object>
+                                        <FragmentOfANaturalSequenceMolecule>
+                                            <ChemicalType>Peptide from protein</ChemicalType>
+                                            <LinearSequence>DDEIYGNDGHP</LinearSequence>
+                                            <SourceMolecule>
+                                                <IedbAccession>SRC248905</IedbAccession>
+                                            </SourceMolecule>
+                                            <SourceOrganismId>228399</SourceOrganismId>
+                                        </FragmentOfANaturalSequenceMolecule>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenReferenceName>Epi6</ImmunogenReferenceName>
+                                <ImmunogenEvidenceCode>Exact match to reference information</ImmunogenEvidenceCode>
+                                <ImmunogenContainingObject>
+                                    <ComplexedMolecule>
+                                        <ComplexType>Protein conjugate</ComplexType>
+                                        <PeptideModifications/>
+                                        <SourceMolecule>
+                                            <GenBankId>P13811.1</GenBankId>
+                                        </SourceMolecule>
+                                        <MoleculeSourceOrganismId>562</MoleculeSourceOrganismId>
+                                    </ComplexedMolecule>
+                                </ImmunogenContainingObject>
+                                <Adjuvant>Freund's complete</Adjuvant>
+                                <Adjuvant>Freund's incomplete (IFA)</Adjuvant>
+                                <Route>Subcutaneous (s.c.)</Route>
+                                <DoseSchedule>The primary immunization was give with Freund's complete adjuvant, followed three weeks later by a booster given with Freund's incomplete adjuvant.</DoseSchedule>
+                            </FirstInVivoProcess>
+                            <ImmunizationComments>The epitope was inserted into a surface exposed loop of the B subunit of the E. coli heat-labile enterotoxin and expressed as a chimeric protein, which was used for immunization.</ImmunizationComments>
+                        </Immunization>
+                        <AssayInformation>
+                            <AssayTypeId>37</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <AssayComments>Antibodies raised against a chimeric protein of the epitope inserted into a surface exposed loop of the B subunit of the E. coli heat-labile enterotoxin reacted strongly with the native and recombinant forms of hemolysin-cytotoxin (ApxI), but not with ApxII or ApxIII.</AssayComments>
+                        </AssayInformation>
+                        <AssayedAntibody>
+                            <AssayedAntibodySourceMaterial>Serum</AssayedAntibodySourceMaterial>
+                            <AssayedAntibodyPurificationStatus>Polyclonal</AssayedAntibodyPurificationStatus>
+                            <AssayedAntibodyName>anti-EtxB::APxIA</AssayedAntibodyName>
+                        </AssayedAntibody>
+                        <Antigen>
+                            <AntigenReferenceName>hemolysin-cytotoxin ApxIA</AntigenReferenceName>
+                            <AntigenConformation>Non-Native/Unknown</AntigenConformation>
+                            <AntigenObject>
+                                <EpitopeRelation>Source Antigen</EpitopeRelation>
+                                <Object>
+                                    <AccessionSequenceMolecule>
+                                        <ChemicalType>Protein</ChemicalType>
+                                        <Molecule>
+                                            <IedbAccession>SRC248905</IedbAccession>
+                                        </Molecule>
+                                        <SourceOrganismId>228399</SourceOrganismId>
+                                    </AccessionSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Internal Identifier-no external match available</AntigenEvidenceCode>
+                        </Antigen>
+                    </BCell>
+                </Assays>
+            </Epitope>
+        </Epitopes>
+    </Reference>
+</References>
+

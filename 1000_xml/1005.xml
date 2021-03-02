@@ -1,0 +1,302 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<References xsi:schemaLocation="http://www.iedb.org/schema/CurationSchema http://beta.iedb.org/schema/Curation.xsd" xmlns="http://www.iedb.org/schema/CurationSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <Reference>
+        <ReferenceId>1005</ReferenceId>
+        <DateLastUpdated>2020-09-10-07:00</DateLastUpdated>
+        <Article>
+            <PubmedId>7506732</PubmedId>
+            <Abstract>Murine infection with the intracellular bacterium Listeria monocytogenes elicits MHC class I-restricted CTL with specificity for multiple bacterial peptides. The variety and relative abundance of self-peptides bound by MHC molecules make identification of pathogen-derived peptides difficult. In this report, the sequence of a pathogen-derived CTL epitope is determined by direct analysis of peptides extracted from MHC class I molecules. The epitope, p60 217-225, is presented to L. monocytogenes-specific CTL by the H-2Kd MHC class I molecule and is derived from p60, a secreted invasion-associated protein. Quantitation of p60 217-225 in infected cells shows that this epitope is detectable within 2 h of infection and, after a 9-h infection, there are over 3000 epitopes per infected cell. This contrasts with listeriolysin 91-99, the other major L. monocytogenes epitope, which is present in quantities below 200 epitopes per cell until 5 h of infection and reaches 800 epitopes per cell 9 h after infection. This report shows that identifying new T lymphocyte epitopes by direct sequence analysis of peptides isolated from MHC molecules is feasible. Furthermore, kinetic and quantitative analysis of T cell epitopes in infected cells is a useful approach to investigate the multispecific CTL response to complex intracellular pathogens.</Abstract>
+            <ArticleYear>1994</ArticleYear>
+            <ArticlePages>686-94</ArticlePages>
+            <ArticleTitle>Direct sequence identification and kinetic analysis of an MHC class I-restricted Listeria monocytogenes CTL epitope.</ArticleTitle>
+            <Authors>
+                <Author>
+                    <LastName>Pamer</LastName>
+                    <ForeName>E G</ForeName>
+                </Author>
+            </Authors>
+            <Affiliations>Infectious Diseases Section, Yale University School of Medicine, New Haven, CT 06510.</Affiliations>
+            <ArticleChemicalList>Antigens, Bacterial;Epitopes;H-2 Antigens;Peptides</ArticleChemicalList>
+            <ArticleMeshHeadingsList>Amino Acid Sequence; Animals; Antigens, Bacterial(chemistry); Cytotoxicity, Immunologic; Epitopes; H-2 Antigens(metabolism); Immunity, Cellular; Kinetics; Listeria monocytogenes(immunology); Listeriosis(immunology); Mice; Mice, Inbred BALB C; Mice, Inbred C57BL; Mice, Inbred DBA; Molecular Sequence Data; Peptides(immunology; metabolism)</ArticleMeshHeadingsList>
+            <Journal>
+                <Volume>152</Volume>
+                <Issue>2</Issue>
+                <Title>Journal of immunology (Baltimore, Md. : 1950)</Title>
+                <Issn>0022-1767</Issn>
+                <MedlineTa>J Immunol</MedlineTa>
+            </Journal>
+        </Article>
+        <Epitopes>
+            <Epitope>
+                <EpitopeName>p60 217-225</EpitopeName>
+                <EpitopeStructure>
+                    <FragmentOfANaturalSequenceMolecule>
+                        <ChemicalType>Peptide from protein</ChemicalType>
+                        <LinearSequence>KYGVSVQDI</LinearSequence>
+                        <StartingPosition>217</StartingPosition>
+                        <EndingPosition>225</EndingPosition>
+                        <SourceMolecule>
+                            <GenBankId>P21171.2</GenBankId>
+                        </SourceMolecule>
+                        <SourceOrganismId>10000309</SourceOrganismId>
+                    </FragmentOfANaturalSequenceMolecule>
+                </EpitopeStructure>
+                <LocationOfData>Figure 4</LocationOfData>
+                <EpitopeId>34446</EpitopeId>
+                <ReferenceStartingPosition>217</ReferenceStartingPosition>
+                <ReferenceEndingPosition>225</ReferenceEndingPosition>
+                <EpitopeEvidenceCode>Representative selection</EpitopeEvidenceCode>
+                <EpitopeStructureDefines>Exact Epitope</EpitopeStructureDefines>
+                <Assays>
+                    <TCell>
+                        <LocationOfData>Figures 1B, 2B, 3, 4 and 5B</LocationOfData>
+                        <TCellId>14065</TCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>10000216</OrganismId>
+                                <MhcAlleleTypesPresent>
+                                    <MhcAlleleId>167</MhcAlleleId>
+                                    <MhcAlleleId>169</MhcAlleleId>
+                                </MhcAlleleTypesPresent>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Administration in vivo</InVivoProcessType>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Source Organism</EpitopeRelation>
+                                    <Object>
+                                        <Organism>
+                                            <SubType>Organism</SubType>
+                                            <SourceOrganismId>10000309</SourceOrganismId>
+                                        </Organism>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenReferenceName>Listeria monocytogenes</ImmunogenReferenceName>
+                                <ImmunogenEvidenceCode>Exact match to reference information</ImmunogenEvidenceCode>
+                            </FirstInVivoProcess>
+                            <InVitroAdministration>
+                                <ProcessType>Restimulation in vitro</ProcessType>
+                                <ResponderCellType>Splenocyte</ResponderCellType>
+                                <StimulatorCellType>Macrophage</StimulatorCellType>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Source Organism</EpitopeRelation>
+                                    <Object>
+                                        <Organism>
+                                            <SubType>Organism</SubType>
+                                            <SourceOrganismId>10000309</SourceOrganismId>
+                                        </Organism>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenEvidenceCode>Exact match to reference information</ImmunogenEvidenceCode>
+                            </InVitroAdministration>
+                        </Immunization>
+                        <EffectorCells>
+                            <CellTissueType>Spleen</CellTissueType>
+                            <CellType>Splenocyte</CellType>
+                            <CellCultureConditions>Cell Line / Clone</CellCultureConditions>
+                        </EffectorCells>
+                        <AntigenPresentingCells>
+                            <CellTissueType>Other</CellTissueType>
+                            <CellType>P815-Mast cell</CellType>
+                            <CellCultureConditions>Cell Line / Clone</CellCultureConditions>
+                            <AutologousOrSyngeneic>N</AutologousOrSyngeneic>
+                            <SourceOrganismId>10090</SourceOrganismId>
+                        </AntigenPresentingCells>
+                        <MhcAllele>
+                            <MhcAlleleId>124</MhcAlleleId>
+                            <MhcEvidenceCode>Not determined</MhcEvidenceCode>
+                        </MhcAllele>
+                        <Antigen>
+                            <AntigenReferenceName>p60 217-225</AntigenReferenceName>
+                            <AntigenObject>
+                                <EpitopeRelation>Epitope</EpitopeRelation>
+                                <Object>
+                                    <FragmentOfANaturalSequenceMolecule>
+                                        <ChemicalType>Peptide from protein</ChemicalType>
+                                        <LinearSequence>KYGVSVQDI</LinearSequence>
+                                        <StartingPosition>217</StartingPosition>
+                                        <EndingPosition>225</EndingPosition>
+                                        <SourceMolecule>
+                                            <GenBankId>P21171.2</GenBankId>
+                                        </SourceMolecule>
+                                        <SourceOrganismId>10000309</SourceOrganismId>
+                                    </FragmentOfANaturalSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Exact match to reference information</AntigenEvidenceCode>
+                        </Antigen>
+                        <AssayInformation>
+                            <AssayTypeId>67</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <AssayComments>Lysis assays were performed using P815 target cells incubated with HPLC fractionated extracts from L monocytogenes infected macrophages (J774) containing the epitope. Lysis was demonstrated to be dose dependent and earlier and more rapid after infection than the lysis seen with LLO91-99 presenting target cells. Additionally, the number of epitopes present per cell hours after infection were estimated to be much greater than the number of LLO 91-99 epitopes per cell. Lysis assays using a synthetic epitope were also positive.</AssayComments>
+                        </AssayInformation>
+                    </TCell>
+                </Assays>
+                <Assays>
+                    <MhcLigandElution>
+                        <LocationOfData>Figure 3 and Table 1</LocationOfData>
+                        <MhcLigandElutionId>14066</MhcLigandElutionId>
+                        <HostOrganism>
+                            <OrganismId>10090</OrganismId>
+                        </HostOrganism>
+                        <InVivoProcess>
+                            <InVivoProcessType>No immunization</InVivoProcessType>
+                        </InVivoProcess>
+                        <InVitroAdministration>
+                            <ProcessType>Antigen administered in vitro</ProcessType>
+                            <ProcessedAntigenReferenceName>Listeria monocytogenes</ProcessedAntigenReferenceName>
+                            <ProcessedAntigenObject>
+                                <EpitopeRelation>Source Organism</EpitopeRelation>
+                                <Object>
+                                    <Organism>
+                                        <SubType>Organism</SubType>
+                                        <SourceOrganismId>10000309</SourceOrganismId>
+                                    </Organism>
+                                </Object>
+                            </ProcessedAntigenObject>
+                            <ProcessedAntigenEvidenceCode>Exact match to reference information</ProcessedAntigenEvidenceCode>
+                        </InVitroAdministration>
+                        <MhcLigand>
+                            <MhcLigandReferenceName>p60 217-225</MhcLigandReferenceName>
+                            <MhcLigandObject>
+                                <EpitopeRelation>Epitope</EpitopeRelation>
+                                <Object>
+                                    <FragmentOfANaturalSequenceMolecule>
+                                        <ChemicalType>Peptide from protein</ChemicalType>
+                                        <LinearSequence>KYGVSVQDI</LinearSequence>
+                                        <StartingPosition>217</StartingPosition>
+                                        <EndingPosition>225</EndingPosition>
+                                        <SourceMolecule>
+                                            <GenBankId>P21171.2</GenBankId>
+                                        </SourceMolecule>
+                                        <SourceOrganismId>10000309</SourceOrganismId>
+                                    </FragmentOfANaturalSequenceMolecule>
+                                </Object>
+                            </MhcLigandObject>
+                        </MhcLigand>
+                        <AntigenPresentingCells>
+                            <CellTissueType>Other</CellTissueType>
+                            <CellType>Macrophage</CellType>
+                            <CellCultureConditions>Cell Line / Clone</CellCultureConditions>
+                        </AntigenPresentingCells>
+                        <MhcAllele>
+                            <MhcAlleleId>124</MhcAlleleId>
+                            <MhcEvidenceCode>Antibody purification</MhcEvidenceCode>
+                        </MhcAllele>
+                        <AssayInformation>
+                            <AssayTypeId>92</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <AssayComments>The number of epitopes present per cell hours after infection were estimated to be much greater than the number of LLO 91-99 epitopes per cell. Lysis assays using a synthetic epitope were also positive.</AssayComments>
+                        </AssayInformation>
+                    </MhcLigandElution>
+                </Assays>
+            </Epitope>
+            <Epitope>
+                <EpitopeName>LLO 91-99</EpitopeName>
+                <EpitopeStructure>
+                    <FragmentOfANaturalSequenceMolecule>
+                        <ChemicalType>Peptide from protein</ChemicalType>
+                        <LinearSequence>GYKDGNEYI</LinearSequence>
+                        <StartingPosition>91</StartingPosition>
+                        <EndingPosition>99</EndingPosition>
+                        <SourceMolecule>
+                            <GenBankId>P13128.1</GenBankId>
+                        </SourceMolecule>
+                        <SourceOrganismId>10000309</SourceOrganismId>
+                    </FragmentOfANaturalSequenceMolecule>
+                </EpitopeStructure>
+                <LocationOfData>Cited Reference</LocationOfData>
+                <EpitopeId>23376</EpitopeId>
+                <ReferenceStartingPosition>91</ReferenceStartingPosition>
+                <ReferenceEndingPosition>99</ReferenceEndingPosition>
+                <EpitopeEvidenceCode>Representative selection</EpitopeEvidenceCode>
+                <EpitopeStructureDefines>Exact Epitope</EpitopeStructureDefines>
+                <EpitopeComments>The epitope sequence was found in the cited reference, Pamer et al, Nature: 353(6347) 1991 [PMID: 1719425].</EpitopeComments>
+                <Assays>
+                    <TCell>
+                        <LocationOfData>Figures 1A, 2A, and 5A</LocationOfData>
+                        <TCellId>14362</TCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>10000216</OrganismId>
+                                <MhcAlleleTypesPresent>
+                                    <MhcAlleleId>167</MhcAlleleId>
+                                    <MhcAlleleId>169</MhcAlleleId>
+                                </MhcAlleleTypesPresent>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Administration in vivo</InVivoProcessType>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Source Organism</EpitopeRelation>
+                                    <Object>
+                                        <Organism>
+                                            <SubType>Organism</SubType>
+                                            <SourceOrganismId>10000309</SourceOrganismId>
+                                        </Organism>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenReferenceName>Listeria monocytogenes</ImmunogenReferenceName>
+                                <ImmunogenEvidenceCode>Exact match to reference information</ImmunogenEvidenceCode>
+                            </FirstInVivoProcess>
+                            <InVitroAdministration>
+                                <ProcessType>Restimulation in vitro</ProcessType>
+                                <ResponderCellType>Splenocyte</ResponderCellType>
+                                <StimulatorCellType>Macrophage</StimulatorCellType>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Source Organism</EpitopeRelation>
+                                    <Object>
+                                        <Organism>
+                                            <SubType>Organism</SubType>
+                                            <SourceOrganismId>10000309</SourceOrganismId>
+                                        </Organism>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenEvidenceCode>Exact match to reference information</ImmunogenEvidenceCode>
+                            </InVitroAdministration>
+                        </Immunization>
+                        <EffectorCells>
+                            <CellTissueType>Spleen</CellTissueType>
+                            <CellType>Splenocyte</CellType>
+                            <CellCultureConditions>Cell Line / Clone</CellCultureConditions>
+                        </EffectorCells>
+                        <AntigenPresentingCells>
+                            <CellTissueType>Other</CellTissueType>
+                            <CellType>P815-Mast cell</CellType>
+                            <CellCultureConditions>Cell Line / Clone</CellCultureConditions>
+                            <AutologousOrSyngeneic>N</AutologousOrSyngeneic>
+                            <SourceOrganismId>10090</SourceOrganismId>
+                        </AntigenPresentingCells>
+                        <MhcAllele>
+                            <MhcAlleleId>124</MhcAlleleId>
+                            <MhcEvidenceCode>Not determined</MhcEvidenceCode>
+                        </MhcAllele>
+                        <Antigen>
+                            <AntigenReferenceName>LLO 91-99</AntigenReferenceName>
+                            <AntigenObject>
+                                <EpitopeRelation>Epitope</EpitopeRelation>
+                                <Object>
+                                    <FragmentOfANaturalSequenceMolecule>
+                                        <ChemicalType>Peptide from protein</ChemicalType>
+                                        <LinearSequence>GYKDGNEYI</LinearSequence>
+                                        <StartingPosition>91</StartingPosition>
+                                        <EndingPosition>99</EndingPosition>
+                                        <SourceMolecule>
+                                            <GenBankId>P13128.1</GenBankId>
+                                        </SourceMolecule>
+                                        <SourceOrganismId>10000309</SourceOrganismId>
+                                    </FragmentOfANaturalSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Exact match to reference information</AntigenEvidenceCode>
+                        </Antigen>
+                        <AssayInformation>
+                            <AssayTypeId>67</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <AssayComments>Lysis assays were performed using P815 target cells incubated with HPLC fractionated extracts from L monocytogenes infected macrophages (J774) containing the epitope. Lysis was demonstrated to be dose dependent and appeared later and more slowly after infection than the lysis seen with p60 217-225 presenting target cells. Additionally, the number of epitopes present per cell hours after infection were estimated to be much lower than the number of p60 217-225 epitopes per cell.</AssayComments>
+                        </AssayInformation>
+                    </TCell>
+                </Assays>
+            </Epitope>
+        </Epitopes>
+    </Reference>
+</References>
+

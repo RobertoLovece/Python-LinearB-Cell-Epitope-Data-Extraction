@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<References xsi:schemaLocation="http://www.iedb.org/schema/CurationSchema http://beta.iedb.org/schema/Curation.xsd" xmlns="http://www.iedb.org/schema/CurationSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <Reference>
+        <ReferenceId>907</ReferenceId>
+        <DateLastUpdated>2020-09-10-07:00</DateLastUpdated>
+        <Article>
+            <PubmedId>12350356</PubmedId>
+            <Abstract>We are interested in studying how influenza virus escapes antibody inhibition. Based on the structure of the complex between N9 NA and monoclonal antibody NC10 Fab (R. L. Malby, W. R. Tulip, V. R. Harley, J. L. McKimm-Breschkin, W. G. Laver, R. G. Webster, and P. M. Colman, 1994, Structure 2, 733-746), we investigated the contribution made by individual amino acids to the stability of the complex. We made conservative changes in residues that are centrally located in the epitope and more drastic changes in peripheral contacts. The mutations made were N200L (removing an N-linked oligosaccharide), N329Q, N345Q, S370T, S372A, N400L, and K432M. Binding of each mutant to NC10 was quantitated by NA inhibition assays and ELISA. Except for N200L and N329Q, the mutants were inhibited by NC10 to the same extent as wild-type NA although with less affinity. The enzyme activity (K(cat)) of N200L is 80% reduced, indicating a defect in folding or assembly; therefore, the loss in binding activity due to the missing sugar residue cannot be assessed. The K(d) for N329Q is sixfold higher than for wild-type NA in the inhibition test, but the same as wild-type in ELISA, indicating a change in disposition of the antibody but no loss of affinity. The results show that the NC10 epitope can accommodate a change at any site and is not dominated by a few high-energy interactions as was found in the NC41 epitope. We propose that the difference lies in the contribution of buried water molecules to the NA-NC10 complex.</Abstract>
+            <ArticleYear>2002</ArticleYear>
+            <ArticlePages>255-68</ArticlePages>
+            <ArticleTitle>Contacts between influenza virus N9 neuraminidase and monoclonal antibody NC10.</ArticleTitle>
+            <Authors>
+                <Author>
+                    <LastName>Lee</LastName>
+                    <ForeName>Janis T</ForeName>
+                </Author>
+                <Author>
+                    <LastName>Air</LastName>
+                    <ForeName>Gillian M</ForeName>
+                </Author>
+            </Authors>
+            <Affiliations>Department of Biochemistry and Molecular Biology, University of Oklahoma Health Sciences Center, Oklahoma City, Oklahoma 73190, USA.</Affiliations>
+            <ArticleChemicalList>Antibodies, Monoclonal;Antibodies, Viral;Antigen-Antibody Complex;Epitopes;Immunoglobulin Fab Fragments;Water;Neuraminidase</ArticleChemicalList>
+            <ArticleMeshHeadingsList>Animals; Antibodies, Monoclonal(chemistry; immunology); Antibodies, Viral(chemistry; immunology); Antigen-Antibody Complex(chemistry); Antigen-Antibody Reactions; Epitopes; HeLa Cells; Humans; Immunoglobulin Fab Fragments(chemistry; immunology); Influenza A virus(immunology); Models, Structural; Mutagenesis; Neuraminidase(chemistry; immunology); Rabbits; Water</ArticleMeshHeadingsList>
+            <Journal>
+                <Volume>300</Volume>
+                <Issue>2</Issue>
+                <Title>Virology</Title>
+                <Issn>1096-0341</Issn>
+                <MedlineTa>Virology</MedlineTa>
+            </Journal>
+        </Article>
+        <Epitopes>
+            <Epitope>
+                <EpitopeName>Wild-type NA B-cell epitope</EpitopeName>
+                <EpitopeStructure>
+                    <DiscontinuousRegionOnAccessionSequenceMolecule>
+                        <ChemicalType>Discontinuous protein residues</ChemicalType>
+                        <DiscontinuousResidues>N200, N327, S371, S373, N400, K434</DiscontinuousResidues>
+                        <SourceMolecule>
+                            <GenBankId>AAA43353.1</GenBankId>
+                        </SourceMolecule>
+                        <SourceOrganismId>384509</SourceOrganismId>
+                    </DiscontinuousRegionOnAccessionSequenceMolecule>
+                </EpitopeStructure>
+                <LocationOfData>Table 1</LocationOfData>
+                <EpitopeId>177406</EpitopeId>
+                <ReferenceRegion>N200, N329, S370, S372, N400, K434</ReferenceRegion>
+                <EpitopeEvidenceCode>Representative selection</EpitopeEvidenceCode>
+                <EpitopeStructureDefines>Partial Epitope</EpitopeStructureDefines>
+                <EpitopeComments>The epitope residues positions used in the paper are those relative to the N2 sequence to allow easy comparison with the structure. Mutagenesis in this work was based on crystal structure of the complex between N9 and Fab NC10 and data from viral escape mutants. Overall 7 NA mutants were generated, four at residues forming H-bonds (N327Q, S371T, S373A, N400L), one that forms a salt bridge with the Fab (K434M), and one that removes the N-linked oligosaccharide which forms part of the epitope (N200L).</EpitopeComments>
+                <Assays>
+                    <BCell>
+                        <LocationOfData>Figure 2</LocationOfData>
+                        <BCellId>10497</BCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>10090</OrganismId>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Unknown</InVivoProcessType>
+                            </FirstInVivoProcess>
+                            <ImmunizationComments>Immunization details were not described by authors in this paper.</ImmunizationComments>
+                        </Immunization>
+                        <AssayInformation>
+                            <AssayTypeId>316</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <AssayComments>Fetuin used as a substrate for neuraminidase.  Measuring inhibition of mutant NA acitivity by NC10 mAb compared to wild-type.  50% Inhibition by wild-type occurred at 10 mM mAb.  Inhibition values (nM) for all mutants ranged from just above 10 nM to approximately 80 nM.</AssayComments>
+                        </AssayInformation>
+                        <AssayedAntibody>
+                            <AssayedAntibodySourceMaterial>Purified Immunoglobulin</AssayedAntibodySourceMaterial>
+                            <AssayedAntibodyImmunoglobulinDomain>Entire Antibody</AssayedAntibodyImmunoglobulinDomain>
+                            <AssayedAntibodyPurificationStatus>Monoclonal</AssayedAntibodyPurificationStatus>
+                            <AssayedAntibodyName>NC10 mAb</AssayedAntibodyName>
+                            <AssayedAntibodyHeavyChainType>IgG</AssayedAntibodyHeavyChainType>
+                            <AssayedAntibodyLightChainType>Kappa</AssayedAntibodyLightChainType>
+                            <AssayedAntibodyObject>
+                                <MultiChainMolecule>
+                                    <ChemicalType>Multi-Chain protein</ChemicalType>
+                                    <MoleculeName>NC10</MoleculeName>
+                                    <Chain1>
+                                        <Molecule>
+                                            <GenBankId>1NMB_L</GenBankId>
+                                        </Molecule>
+                                        <SourceOrganismId>10090</SourceOrganismId>
+                                    </Chain1>
+                                    <Chain2>
+                                        <Molecule>
+                                            <GenBankId>1NMB_H</GenBankId>
+                                        </Molecule>
+                                        <SourceOrganismId>10090</SourceOrganismId>
+                                    </Chain2>
+                                </MultiChainMolecule>
+                            </AssayedAntibodyObject>
+                        </AssayedAntibody>
+                        <Antigen>
+                            <AntigenReferenceName>Neuraminidase (N9)</AntigenReferenceName>
+                            <AntigenConformation>Native</AntigenConformation>
+                            <AntigenObject>
+                                <EpitopeRelation>Source Antigen</EpitopeRelation>
+                                <Object>
+                                    <AccessionSequenceMolecule>
+                                        <ChemicalType>Protein</ChemicalType>
+                                        <Molecule>
+                                            <GenBankId>AAA43353.1</GenBankId>
+                                        </Molecule>
+                                        <SourceOrganismId>384509</SourceOrganismId>
+                                    </AccessionSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Representative selection</AntigenEvidenceCode>
+                        </Antigen>
+                    </BCell>
+                </Assays>
+                <Assays>
+                    <BCell>
+                        <LocationOfData>Table 2</LocationOfData>
+                        <BCellId>10496</BCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>10090</OrganismId>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Unknown</InVivoProcessType>
+                            </FirstInVivoProcess>
+                            <ImmunizationComments>Immunization details were not described by authors in this paper.</ImmunizationComments>
+                        </Immunization>
+                        <AssayInformation>
+                            <AssayTypeId>34</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <AssayComments>K&lt;sub&gt;d&lt;/sub&gt; (apparent) and K&lt;sub&gt;cat&lt;/sub&gt; was compared to wild-type binding and catalytic rate constants.  N200L mutant had a significantly reduced (~80%) K&lt;sub&gt;cat&lt;/sub&gt; and reduced binding affinity thought to be due to a defect in assembly or folding.  Other mutants had similar K&lt;sub&gt;cat&lt;/sub&gt; values and binding affinities, indicating the contacting amino acids on the Ab could accommodate all mutations.</AssayComments>
+                        </AssayInformation>
+                        <AssayedAntibody>
+                            <AssayedAntibodySourceMaterial>Purified Immunoglobulin</AssayedAntibodySourceMaterial>
+                            <AssayedAntibodyImmunoglobulinDomain>Entire Antibody</AssayedAntibodyImmunoglobulinDomain>
+                            <AssayedAntibodyPurificationStatus>Monoclonal</AssayedAntibodyPurificationStatus>
+                            <AssayedAntibodyName>NC10 mAb</AssayedAntibodyName>
+                            <AssayedAntibodyHeavyChainType>IgG</AssayedAntibodyHeavyChainType>
+                            <AssayedAntibodyLightChainType>Kappa</AssayedAntibodyLightChainType>
+                            <AssayedAntibodyObject>
+                                <MultiChainMolecule>
+                                    <ChemicalType>Multi-Chain protein</ChemicalType>
+                                    <MoleculeName>NC10</MoleculeName>
+                                    <Chain1>
+                                        <Molecule>
+                                            <GenBankId>1NMB_L</GenBankId>
+                                        </Molecule>
+                                        <SourceOrganismId>10090</SourceOrganismId>
+                                    </Chain1>
+                                    <Chain2>
+                                        <Molecule>
+                                            <GenBankId>1NMB_H</GenBankId>
+                                        </Molecule>
+                                        <SourceOrganismId>10090</SourceOrganismId>
+                                    </Chain2>
+                                </MultiChainMolecule>
+                            </AssayedAntibodyObject>
+                        </AssayedAntibody>
+                        <Antigen>
+                            <AntigenReferenceName>Neuraminidase (N9)</AntigenReferenceName>
+                            <AntigenConformation>Non-Native/Unknown</AntigenConformation>
+                            <AntigenObject>
+                                <EpitopeRelation>Source Antigen</EpitopeRelation>
+                                <Object>
+                                    <AccessionSequenceMolecule>
+                                        <ChemicalType>Protein</ChemicalType>
+                                        <Molecule>
+                                            <GenBankId>AAA43353.1</GenBankId>
+                                        </Molecule>
+                                        <SourceOrganismId>384509</SourceOrganismId>
+                                    </AccessionSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Representative selection</AntigenEvidenceCode>
+                        </Antigen>
+                    </BCell>
+                </Assays>
+            </Epitope>
+        </Epitopes>
+    </Reference>
+</References>
+

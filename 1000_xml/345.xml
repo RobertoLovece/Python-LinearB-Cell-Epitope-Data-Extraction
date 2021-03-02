@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<References xsi:schemaLocation="http://www.iedb.org/schema/CurationSchema http://beta.iedb.org/schema/Curation.xsd" xmlns="http://www.iedb.org/schema/CurationSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <Reference>
+        <ReferenceId>345</ReferenceId>
+        <DateLastUpdated>2020-09-10-07:00</DateLastUpdated>
+        <Article>
+            <PubmedId>11418455</PubmedId>
+            <Abstract>The development of an immune response to infused factor VIII is a complication affecting many patients with hemophilia A. Inhibitor antibodies bind to antigenic determinants on the factor VIII molecule and block its procoagulant activity. A patient-derived inhibitory immunoglobulin G4kappa antibody (BO2C11) produced by an immortalized memory B-lymphocyte cell line interferes with the binding of factor VIII to phospholipid surfaces and to von Willebrand factor. The structure of a Fab fragment derived from this antibody complexed with the factor VIII C2 domain was determined at 2.0 A resolution. The Fab interacts with solvent-exposed basic and hydrophobic side chains that form a membrane-association surface of factor VIII. This atomic resolution structure suggests a variety of amino acid substitutions in the C2 domain of factor VIII that might prevent the binding of anti-C2 inhibitor antibodies without significantly compromising the procoagulant functions of factor VIII.</Abstract>
+            <ArticleYear>2001</ArticleYear>
+            <ArticlePages>13-9</ArticlePages>
+            <ArticleTitle>Structure of a factor VIII C2 domain-immunoglobulin G4kappa Fab complex: identification of an inhibitory antibody epitope on the surface of factor VIII.</ArticleTitle>
+            <Authors>
+                <Author>
+                    <LastName>Spiegel</LastName>
+                    <ForeName>P C</ForeName>
+                    <Suffix>Jr</Suffix>
+                </Author>
+                <Author>
+                    <LastName>Jacquemin</LastName>
+                    <ForeName>M</ForeName>
+                </Author>
+                <Author>
+                    <LastName>Saint-Remy</LastName>
+                    <ForeName>J M</ForeName>
+                </Author>
+                <Author>
+                    <LastName>Stoddard</LastName>
+                    <ForeName>B L</ForeName>
+                </Author>
+                <Author>
+                    <LastName>Pratt</LastName>
+                    <ForeName>K P</ForeName>
+                </Author>
+            </Authors>
+            <Affiliations>Graduate Program in Biomolecular Structure and Design, University of Washington, and Division of Basic Sciences, Fred Hutchinson Cancer Research Center, Seattle, WA, USA.</Affiliations>
+            <ArticleChemicalList>Antibodies, Monoclonal;Antigen-Antibody Complex;Immunoglobulin Fab Fragments;von Willebrand Factor;Factor VIII</ArticleChemicalList>
+            <ArticleMeshHeadingsList>Antibodies, Monoclonal(chemistry; metabolism); Antigen-Antibody Complex(chemistry); B-Lymphocytes(immunology); Binding, Competitive; Cell Line; Crystallography, X-Ray; Epitope Mapping; Factor VIII(immunology); Hemophilia A(immunology); Humans; Immunoglobulin Fab Fragments(chemistry; isolation &amp; purification; metabolism); Kinetics; Models, Molecular; Protein Binding; Protein Structure, Tertiary; von Willebrand Factor(metabolism)</ArticleMeshHeadingsList>
+            <Journal>
+                <Volume>98</Volume>
+                <Issue>1</Issue>
+                <Title>Blood</Title>
+                <Issn>1528-0020</Issn>
+                <MedlineTa>Blood</MedlineTa>
+            </Journal>
+        </Article>
+        <Epitopes>
+            <Epitope>
+                <EpitopeName>Fab BO2C11 epitope on Factor VIII C2 domain</EpitopeName>
+                <EpitopeStructure>
+                    <DiscontinuousRegionOnAccessionSequenceMolecule>
+                        <ChemicalType>Discontinuous protein residues</ChemicalType>
+                        <DiscontinuousResidues>F2215, T2216, N2217, M2218, F2219, R2234, R2239, Q2241, V2242, S2269, L2270, L2271, T2272, H2334, Q2335</DiscontinuousResidues>
+                        <SourceMolecule>
+                            <GenBankId>P00451.1</GenBankId>
+                        </SourceMolecule>
+                        <SourceOrganismId>9606</SourceOrganismId>
+                    </DiscontinuousRegionOnAccessionSequenceMolecule>
+                </EpitopeStructure>
+                <LocationOfData>Table 2</LocationOfData>
+                <EpitopeId>115021</EpitopeId>
+                <ReferenceRegion>F2196, T2197, N2198, M2199, F2200, R2215, R2220, Q2222, V2223, S2250, L2251, L2252, T2253, H2315, Q2316</ReferenceRegion>
+                <EpitopeEvidenceCode>Representative selection</EpitopeEvidenceCode>
+                <EpitopeStructureDefines>Exact Epitope</EpitopeStructureDefines>
+                <Assays>
+                    <BCell>
+                        <LocationOfData>Tables 1,  2, Figures 1, 2, 3, 4 and PBD 1IQD</LocationOfData>
+                        <BCellId>1491563</BCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>9606</OrganismId>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Occurrence of disease</InVivoProcessType>
+                                <DiseaseState>DOID:12134</DiseaseState>
+                                <DiseaseStage>Chronic</DiseaseStage>
+                            </FirstInVivoProcess>
+                            <ImmunizationComments>The monoclonal antibody was produced by a cell line derived from the memory B-cell repertoire of a patient with hemophilia A with a strong inhibitor titer (575 BU), as described in Jacquemin et al., Blood. 1998; 92(2): 496-506 [PMID: 9657749].</ImmunizationComments>
+                        </Immunization>
+                        <AssayInformation>
+                            <AssayTypeId>436</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <QuantitativeMeasurement>2.0</QuantitativeMeasurement>
+                            <MeasurementInequality>=</MeasurementInequality>
+                            <AssayComments>The epitope of BO2C11 Fab on human Factor VIII was determined from the crystal structure of the complex, solved by molecular replacement.</AssayComments>
+                        </AssayInformation>
+                        <AssayedAntibody>
+                            <AssayedAntibodySourceMaterial>Purified Immunoglobulin</AssayedAntibodySourceMaterial>
+                            <AssayedAntibodyImmunoglobulinDomain>Fab</AssayedAntibodyImmunoglobulinDomain>
+                            <AssayedAntibodyPurificationStatus>Monoclonal</AssayedAntibodyPurificationStatus>
+                            <AssayedAntibodyName>BO2C11</AssayedAntibodyName>
+                            <AssayedAntibodyHeavyChainType>IgG4</AssayedAntibodyHeavyChainType>
+                            <AssayedAntibodyLightChainType>Kappa</AssayedAntibodyLightChainType>
+                            <AssayedAntibodyObject>
+                                <MultiChainMolecule>
+                                    <ChemicalType>Multi-Chain protein</ChemicalType>
+                                    <MoleculeName>BO2C11</MoleculeName>
+                                    <Chain1>
+                                        <Molecule>
+                                            <GenBankId>1IQD_B</GenBankId>
+                                        </Molecule>
+                                        <SourceOrganismId>9606</SourceOrganismId>
+                                    </Chain1>
+                                    <Chain2>
+                                        <Molecule>
+                                            <GenBankId>1IQD_A</GenBankId>
+                                        </Molecule>
+                                        <SourceOrganismId>9606</SourceOrganismId>
+                                    </Chain2>
+                                </MultiChainMolecule>
+                            </AssayedAntibodyObject>
+                        </AssayedAntibody>
+                        <Antigen>
+                            <AntigenReferenceName>Factor VIII C2 domain</AntigenReferenceName>
+                            <AntigenConformation>Native</AntigenConformation>
+                            <AntigenObject>
+                                <EpitopeRelation>Fragment of Source Antigen</EpitopeRelation>
+                                <Object>
+                                    <FragmentOfANaturalSequenceMolecule>
+                                        <ChemicalType>Peptide from protein</ChemicalType>
+                                        <LinearSequence>CSMPLGMESKAISDAQITASSYFTNMFATWSPSKARLHLQGRSNAWRPQVNNPKEWLQVDFQKTMKVTGVTTQGVKSLLTSMYVKEFLISSSQDGHQWTLFFQNGKVKVFQGNQDSFTPVVNSLDPPLLTRYLRIHPQSWVHQIALRMEVLGCEAQ</LinearSequence>
+                                        <StartingPosition>2193</StartingPosition>
+                                        <EndingPosition>2348</EndingPosition>
+                                        <SourceMolecule>
+                                            <GenBankId>P00451.1</GenBankId>
+                                        </SourceMolecule>
+                                        <SourceOrganismId>9606</SourceOrganismId>
+                                    </FragmentOfANaturalSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Exact match to reference information</AntigenEvidenceCode>
+                        </Antigen>
+                        <ThreeDimensionalStructureOfComplex>
+                            <ComplexPdbId>1IQD</ComplexPdbId>
+                            <AntibodyChain1PdbChain>B</AntibodyChain1PdbChain>
+                            <AntibodyChain2PdbChain>A</AntibodyChain2PdbChain>
+                            <AntigenChainPdbChain>C</AntigenChainPdbChain>
+                            <ViewerFlag>Y</ViewerFlag>
+                            <Comments>The antigen changes conformation upon antibody binding compared with free antigen [PDB:1D7P]. The fold of C2 domain of factor VIII is similar in the free [PDB:1D7P] and Fab-bound (this structure) forms, however, the backbone of a loop containing M2199 and F2200 of the epitope twists significantly. M2199 and F2200 of the epitope form salt bridges with D52 and D99 of the heavy chain of antibody. C2 domain of factor VIII contains binding site for von Willebrand factor (vWF) and for negatively charged phospholipids. Antibody binding to C2 domain inhibits its ability to bind negatively charged phospholipids and vWF.</Comments>
+                            <CuratedContacts>
+                                <EpitopeResidues>C: F2196, T2197, N2198, M2199, F2200, R2215, R2220, Q2222, V2223, S2250, L2251, L2252, T2253, H2315, Q2316;</EpitopeResidues>
+                                <AntibodyResiduesInteractingWithAntigen>A: S30, S32, Y33, Y50, T57, G93, T94; B: V2, Y27, T30, E31, L32, P33, H35, S50, D52, E57, I59, D97, P98, D99;</AntibodyResiduesInteractingWithAntigen>
+                                <ContactAreaForAntigen>1200.0</ContactAreaForAntigen>
+                                <ContactAreaForAntibody>1200.0</ContactAreaForAntibody>
+                            </CuratedContacts>
+                            <CalculatedContacts>
+                                <EpitopeResidues>C: F2196, T2197, N2198, M2199, F2200, R2215, R2220, Q2222, V2223, S2250, L2251, L2252, T2253, M2255, H2315, Q2316</EpitopeResidues>
+                                <AntibodyResiduesInteractingWithAntigen>A: S30, S32, Y33, Y50, T54, T57, Y92, G93, T94, A96, I97; B: Q1, V2, Y27, T30, E31, L32, P33, H35, S50, F51, D52, E54, E57, I59, V95, D97, P98, D99</AntibodyResiduesInteractingWithAntigen>
+                                <ContactAreaForAntigen>1074.6</ContactAreaForAntigen>
+                                <ContactAreaForAntibody>901.3</ContactAreaForAntibody>
+                            </CalculatedContacts>
+                        </ThreeDimensionalStructureOfComplex>
+                    </BCell>
+                </Assays>
+            </Epitope>
+        </Epitopes>
+    </Reference>
+</References>
+

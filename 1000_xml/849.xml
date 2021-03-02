@@ -1,0 +1,769 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<References xsi:schemaLocation="http://www.iedb.org/schema/CurationSchema http://beta.iedb.org/schema/Curation.xsd" xmlns="http://www.iedb.org/schema/CurationSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <Reference>
+        <ReferenceId>849</ReferenceId>
+        <DateLastUpdated>2020-09-10-07:00</DateLastUpdated>
+        <Article>
+            <PubmedId>11398809</PubmedId>
+            <Abstract>We used the CD8+ cytotoxic T (Tc) cell immune response against the flavivirus, Murray Valley encephalitis virus (MVE), restricted by the H-2Kk major histocompatibility complex (MHC) class I molecule, to investigate immunodominance. Split-clone limiting dilution analysis revealed almost exclusive recognition of two peptides, MVE1785 and MVE1971, derived from the viral NS3 protein. The precursor frequency of MVE-reactive Tc cells was determined by limiting dilution analysis for cytotoxic function and intracellular staining for interferon-gamma; the latter gave a 100-fold higher estimate of MVE-reactive Tc cell precursors. MHC class I cell surface stabilization assays revealed that affinity for H-2Kk as well as halflives of the peptide-H-2Kk-complexes were markedly different for the two peptides. However, a kinetic study of antigen presentation showed that both peptides are presented for recognition by Tc cells with a comparable kinetics during the latent period of virus infection. Nevertheless, the lower affinity peptide MVE1785 elicited roughly twofold more Tc cell clones than the high-affinity peptide MVE1971. While the cytolytic activity against both determinants was similar after in vitro restimulation at the peak of the primary response, the smaller pool of memory anti-MVE1971 Tc cells correlated with an impaired memory response against that determinant, suggesting that the available T-cell repertoire is a major factor influencing the establishment of T-cell memory.</Abstract>
+            <ArticleYear>2001</ArticleYear>
+            <ArticlePages>135-49</ArticlePages>
+            <ArticleTitle>Immunogenicity of two peptide determinants in the cytolytic T-cell response to flavivirus infection: inverse correlation between peptide affinity for MHC class I and T-cell precursor frequency.</ArticleTitle>
+            <Authors>
+                <Author>
+                    <LastName>Regner</LastName>
+                    <ForeName>M</ForeName>
+                </Author>
+                <Author>
+                    <LastName>Müllbacher</LastName>
+                    <ForeName>A</ForeName>
+                </Author>
+                <Author>
+                    <LastName>Blanden</LastName>
+                    <ForeName>R V</ForeName>
+                </Author>
+                <Author>
+                    <LastName>Lobigs</LastName>
+                    <ForeName>M</ForeName>
+                </Author>
+            </Authors>
+            <Affiliations>Division of Immunology and Cell Biology, John Curtin School of Medical Research, Australian National University, Canberra, ACT.</Affiliations>
+            <ArticleChemicalList>Histocompatibility Antigens Class I;Viral Proteins;Interferon-gamma</ArticleChemicalList>
+            <ArticleMeshHeadingsList>Animals; Dose-Response Relationship, Immunologic; Encephalitis Virus, Murray Valley(immunology); Female; Hematopoietic Stem Cells(physiology); Histocompatibility Antigens Class I(metabolism); Immunologic Memory; Interferon-gamma(biosynthesis); Mice; Mice, Inbred CBA; T-Lymphocytes, Cytotoxic(immunology); Viral Proteins(immunology; metabolism)</ArticleMeshHeadingsList>
+            <Journal>
+                <Volume>14</Volume>
+                <Issue>2</Issue>
+                <Title>Viral immunology</Title>
+                <Issn>0882-8245</Issn>
+                <MedlineTa>Viral Immunol</MedlineTa>
+            </Journal>
+        </Article>
+        <Epitopes>
+            <Epitope>
+                <EpitopeName>MVE 1785</EpitopeName>
+                <EpitopeStructure>
+                    <FragmentOfANaturalSequenceMolecule>
+                        <ChemicalType>Peptide from protein</ChemicalType>
+                        <LinearSequence>REHSGNEI</LinearSequence>
+                        <StartingPosition>250</StartingPosition>
+                        <EndingPosition>257</EndingPosition>
+                        <SourceMolecule>
+                            <GenBankId>NP_722535.1</GenBankId>
+                        </SourceMolecule>
+                        <SourceOrganismId>301478</SourceOrganismId>
+                    </FragmentOfANaturalSequenceMolecule>
+                </EpitopeStructure>
+                <LocationOfData>Page 136</LocationOfData>
+                <EpitopeId>53523</EpitopeId>
+                <ReferenceStartingPosition>1785</ReferenceStartingPosition>
+                <ReferenceEndingPosition>1792</ReferenceEndingPosition>
+                <EpitopeEvidenceCode>Representative selection</EpitopeEvidenceCode>
+                <EpitopeStructureDefines>Exact Epitope</EpitopeStructureDefines>
+                <Assays>
+                    <TCell>
+                        <LocationOfData>Figure 4</LocationOfData>
+                        <TCellId>9168</TCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>10000233</OrganismId>
+                                <Sex>F</Sex>
+                                <Age>&gt;6 wk</Age>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Administration in vivo</InVivoProcessType>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Source Organism</EpitopeRelation>
+                                    <Object>
+                                        <Organism>
+                                            <SubType>Organism</SubType>
+                                            <SourceOrganismId>301478</SourceOrganismId>
+                                        </Organism>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenEvidenceCode>Not determined</ImmunogenEvidenceCode>
+                                <Route>Intraperitoneal (i.p.)</Route>
+                                <DoseSchedule>5x10&lt;sup&gt;6&lt;/sup&gt; PFU 12 days before assay.</DoseSchedule>
+                            </FirstInVivoProcess>
+                            <InVitroAdministration>
+                                <ProcessType>Restimulation in vitro</ProcessType>
+                                <ResponderCellType>Splenocyte</ResponderCellType>
+                                <StimulatorCellType>Splenocyte</StimulatorCellType>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Epitope</EpitopeRelation>
+                                    <Object>
+                                        <FragmentOfANaturalSequenceMolecule>
+                                            <ChemicalType>Peptide from protein</ChemicalType>
+                                            <LinearSequence>REHSGNEI</LinearSequence>
+                                            <StartingPosition>250</StartingPosition>
+                                            <EndingPosition>257</EndingPosition>
+                                            <SourceMolecule>
+                                                <GenBankId>NP_722535.1</GenBankId>
+                                            </SourceMolecule>
+                                            <SourceOrganismId>301478</SourceOrganismId>
+                                        </FragmentOfANaturalSequenceMolecule>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenEvidenceCode>Exact match to reference information</ImmunogenEvidenceCode>
+                            </InVitroAdministration>
+                            <ImmunizationComments>Peptide pulsed autologous splenocytes where incubated with MVE-primed splenocytes for 5 days.</ImmunizationComments>
+                        </Immunization>
+                        <EffectorCells>
+                            <CellTissueType>Spleen</CellTissueType>
+                            <CellType>T cell</CellType>
+                            <CellCultureConditions>Short Term Restimulated</CellCultureConditions>
+                        </EffectorCells>
+                        <AntigenPresentingCells>
+                            <CellType>Other</CellType>
+                            <AutologousOrSyngeneic>N</AutologousOrSyngeneic>
+                        </AntigenPresentingCells>
+                        <MhcAllele>
+                            <MhcAlleleId>125</MhcAlleleId>
+                            <MhcEvidenceCode>Not determined</MhcEvidenceCode>
+                        </MhcAllele>
+                        <Antigen>
+                            <AntigenReferenceName>MVE 1785</AntigenReferenceName>
+                            <AntigenObject>
+                                <EpitopeRelation>Epitope</EpitopeRelation>
+                                <Object>
+                                    <FragmentOfANaturalSequenceMolecule>
+                                        <ChemicalType>Peptide from protein</ChemicalType>
+                                        <LinearSequence>REHSGNEI</LinearSequence>
+                                        <StartingPosition>250</StartingPosition>
+                                        <EndingPosition>257</EndingPosition>
+                                        <SourceMolecule>
+                                            <GenBankId>NP_722535.1</GenBankId>
+                                        </SourceMolecule>
+                                        <SourceOrganismId>301478</SourceOrganismId>
+                                    </FragmentOfANaturalSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Exact match to reference information</AntigenEvidenceCode>
+                        </Antigen>
+                        <AssayInformation>
+                            <AssayTypeId>67</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <AssayComments>Sensitization of target cells with different peptide concentrations does not result in differences in the responses of 2 peptide-specific CTLs, recognizing both specific peptide-pulsed and virus-infected APCs without cross-reactivity to the other immunodominant peptide. The affinity for MHC is lower for this epitope, implying that the ability to lyse target cells is not related to MHC affinity. Similar results were obtained at 6 and 50 days post infection, and also similar results  were seen with bulk MVE stimulated splenocytes.</AssayComments>
+                        </AssayInformation>
+                    </TCell>
+                </Assays>
+                <Assays>
+                    <TCell>
+                        <LocationOfData>Figure 3B</LocationOfData>
+                        <TCellId>9621</TCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>10000233</OrganismId>
+                                <Sex>F</Sex>
+                                <Age>&gt;6 wk</Age>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Administration in vivo</InVivoProcessType>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Source Organism</EpitopeRelation>
+                                    <Object>
+                                        <Organism>
+                                            <SubType>Organism</SubType>
+                                            <SourceOrganismId>301478</SourceOrganismId>
+                                        </Organism>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenEvidenceCode>Not determined</ImmunogenEvidenceCode>
+                                <Route>Intraperitoneal (i.p.)</Route>
+                                <DoseSchedule>5x10&lt;sup&gt;6&lt;/sup&gt; PFU 12 days before assay.</DoseSchedule>
+                            </FirstInVivoProcess>
+                            <InVitroAdministration>
+                                <ProcessType>Restimulation in vitro</ProcessType>
+                                <ResponderCellType>Splenocyte</ResponderCellType>
+                                <StimulatorCellType>Splenocyte</StimulatorCellType>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Epitope</EpitopeRelation>
+                                    <Object>
+                                        <FragmentOfANaturalSequenceMolecule>
+                                            <ChemicalType>Peptide from protein</ChemicalType>
+                                            <LinearSequence>REHSGNEI</LinearSequence>
+                                            <StartingPosition>250</StartingPosition>
+                                            <EndingPosition>257</EndingPosition>
+                                            <SourceMolecule>
+                                                <GenBankId>NP_722535.1</GenBankId>
+                                            </SourceMolecule>
+                                            <SourceOrganismId>301478</SourceOrganismId>
+                                        </FragmentOfANaturalSequenceMolecule>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenEvidenceCode>Exact match to reference information</ImmunogenEvidenceCode>
+                            </InVitroAdministration>
+                            <ImmunizationComments>Peptide pulsed autologous splenocytes where incubated with MVE-primed splenocytes for 5 days.</ImmunizationComments>
+                        </Immunization>
+                        <EffectorCells>
+                            <CellTissueType>Spleen</CellTissueType>
+                            <CellType>T cell</CellType>
+                            <CellCultureConditions>Short Term Restimulated</CellCultureConditions>
+                        </EffectorCells>
+                        <AntigenPresentingCells>
+                            <CellTissueType>Other</CellTissueType>
+                            <CellType>Other</CellType>
+                            <CellCultureConditions>Cell Line / Clone</CellCultureConditions>
+                            <AutologousOrSyngeneic>N</AutologousOrSyngeneic>
+                            <SourceOrganismId>10090</SourceOrganismId>
+                        </AntigenPresentingCells>
+                        <MhcAllele>
+                            <MhcAlleleId>125</MhcAlleleId>
+                            <MhcEvidenceCode>Not determined</MhcEvidenceCode>
+                        </MhcAllele>
+                        <Antigen>
+                            <AntigenObject>
+                                <EpitopeRelation>Source Organism</EpitopeRelation>
+                                <Object>
+                                    <Organism>
+                                        <SubType>Organism</SubType>
+                                        <SourceOrganismId>301478</SourceOrganismId>
+                                    </Organism>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Not determined</AntigenEvidenceCode>
+                        </Antigen>
+                        <AssayInformation>
+                            <AssayTypeId>67</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <AssayComments>In vitro stimulation with epitope of splenocytes from virus-infected mice generated peptide specific CTLs, recognizing virus-infected APCs. A higher concentration (10^-4 vs. 10^-6 M) of stimulating peptide was required than for the other immunodominat epitope, due to its lower affinity for MHC.</AssayComments>
+                        </AssayInformation>
+                    </TCell>
+                </Assays>
+                <Assays>
+                    <TCell>
+                        <LocationOfData>Figure 3B</LocationOfData>
+                        <TCellId>9167</TCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>10000233</OrganismId>
+                                <Sex>F</Sex>
+                                <Age>&gt;6 wk</Age>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Administration in vivo</InVivoProcessType>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Source Organism</EpitopeRelation>
+                                    <Object>
+                                        <Organism>
+                                            <SubType>Organism</SubType>
+                                            <SourceOrganismId>301478</SourceOrganismId>
+                                        </Organism>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenEvidenceCode>Not determined</ImmunogenEvidenceCode>
+                                <Route>Intraperitoneal (i.p.)</Route>
+                                <DoseSchedule>5x10&lt;sup&gt;6&lt;/sup&gt; PFU 12 days before assay.</DoseSchedule>
+                            </FirstInVivoProcess>
+                            <InVitroAdministration>
+                                <ProcessType>Restimulation in vitro</ProcessType>
+                                <ResponderCellType>Splenocyte</ResponderCellType>
+                                <StimulatorCellType>Splenocyte</StimulatorCellType>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Epitope</EpitopeRelation>
+                                    <Object>
+                                        <FragmentOfANaturalSequenceMolecule>
+                                            <ChemicalType>Peptide from protein</ChemicalType>
+                                            <LinearSequence>REHSGNEI</LinearSequence>
+                                            <StartingPosition>250</StartingPosition>
+                                            <EndingPosition>257</EndingPosition>
+                                            <SourceMolecule>
+                                                <GenBankId>NP_722535.1</GenBankId>
+                                            </SourceMolecule>
+                                            <SourceOrganismId>301478</SourceOrganismId>
+                                        </FragmentOfANaturalSequenceMolecule>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenEvidenceCode>Exact match to reference information</ImmunogenEvidenceCode>
+                            </InVitroAdministration>
+                            <ImmunizationComments>Peptide pulsed autologous splenocytes where incubated with MVE-primed splenocytes for 5 days.</ImmunizationComments>
+                        </Immunization>
+                        <EffectorCells>
+                            <CellTissueType>Spleen</CellTissueType>
+                            <CellType>T cell</CellType>
+                            <CellCultureConditions>Short Term Restimulated</CellCultureConditions>
+                        </EffectorCells>
+                        <AntigenPresentingCells>
+                            <CellTissueType>Other</CellTissueType>
+                            <CellType>Other</CellType>
+                            <CellCultureConditions>Cell Line / Clone</CellCultureConditions>
+                            <AutologousOrSyngeneic>N</AutologousOrSyngeneic>
+                            <SourceOrganismId>10090</SourceOrganismId>
+                        </AntigenPresentingCells>
+                        <MhcAllele>
+                            <MhcAlleleId>125</MhcAlleleId>
+                            <MhcEvidenceCode>Not determined</MhcEvidenceCode>
+                        </MhcAllele>
+                        <Antigen>
+                            <AntigenReferenceName>MVE 1785</AntigenReferenceName>
+                            <AntigenObject>
+                                <EpitopeRelation>Epitope</EpitopeRelation>
+                                <Object>
+                                    <FragmentOfANaturalSequenceMolecule>
+                                        <ChemicalType>Peptide from protein</ChemicalType>
+                                        <LinearSequence>REHSGNEI</LinearSequence>
+                                        <StartingPosition>250</StartingPosition>
+                                        <EndingPosition>257</EndingPosition>
+                                        <SourceMolecule>
+                                            <GenBankId>NP_722535.1</GenBankId>
+                                        </SourceMolecule>
+                                        <SourceOrganismId>301478</SourceOrganismId>
+                                    </FragmentOfANaturalSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Exact match to reference information</AntigenEvidenceCode>
+                        </Antigen>
+                        <AssayInformation>
+                            <AssayTypeId>67</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <AssayComments>In vitro stimulation with epitope of splenocytes from virus-infected mice generates peptide specific CTLs, recognizing specific peptide-pulsed APCs, without cross-reactivity to the other immunodominant peptide. A higher concentration (10^-4 vs. 10^-6 M) of stimulating peptide is required than for the other immunodominat epitope, due to its lower affinity for MHC.</AssayComments>
+                        </AssayInformation>
+                    </TCell>
+                </Assays>
+                <Assays>
+                    <TCell>
+                        <LocationOfData>Figure 8</LocationOfData>
+                        <TCellId>9169</TCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>10000233</OrganismId>
+                                <Sex>F</Sex>
+                                <Age>&gt;6 wk</Age>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Administration in vivo</InVivoProcessType>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Source Organism</EpitopeRelation>
+                                    <Object>
+                                        <Organism>
+                                            <SubType>Organism</SubType>
+                                            <SourceOrganismId>301478</SourceOrganismId>
+                                        </Organism>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenEvidenceCode>Not determined</ImmunogenEvidenceCode>
+                                <Route>Intraperitoneal (i.p.)</Route>
+                                <DoseSchedule>5x10&lt;sup&gt;6&lt;/sup&gt; PFU 12 days before assay.</DoseSchedule>
+                            </FirstInVivoProcess>
+                        </Immunization>
+                        <EffectorCells>
+                            <CellTissueType>Spleen</CellTissueType>
+                            <CellType>T cell CD8+</CellType>
+                            <CellCultureConditions>Direct Ex Vivo</CellCultureConditions>
+                        </EffectorCells>
+                        <AntigenPresentingCells>
+                            <AutologousOrSyngeneic>Y</AutologousOrSyngeneic>
+                        </AntigenPresentingCells>
+                        <MhcAllele>
+                            <MhcAlleleId>125</MhcAlleleId>
+                            <MhcEvidenceCode>Not determined</MhcEvidenceCode>
+                        </MhcAllele>
+                        <Antigen>
+                            <AntigenReferenceName>MVE 1785</AntigenReferenceName>
+                            <AntigenObject>
+                                <EpitopeRelation>Epitope</EpitopeRelation>
+                                <Object>
+                                    <FragmentOfANaturalSequenceMolecule>
+                                        <ChemicalType>Peptide from protein</ChemicalType>
+                                        <LinearSequence>REHSGNEI</LinearSequence>
+                                        <StartingPosition>250</StartingPosition>
+                                        <EndingPosition>257</EndingPosition>
+                                        <SourceMolecule>
+                                            <GenBankId>NP_722535.1</GenBankId>
+                                        </SourceMolecule>
+                                        <SourceOrganismId>301478</SourceOrganismId>
+                                    </FragmentOfANaturalSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Exact match to reference information</AntigenEvidenceCode>
+                        </Antigen>
+                        <AssayInformation>
+                            <AssayTypeId>53</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <QuantitativeMeasurement>7.5</QuantitativeMeasurement>
+                            <NumberOfSubjectsTested>2</NumberOfSubjectsTested>
+                            <NumberOfSubjectsResponded>2</NumberOfSubjectsResponded>
+                            <ResponseFrequency>100</ResponseFrequency>
+                            <AssayComments>Epitope specific CD8+ splenocytes from MVE-infected mice are 2-fold more abundant than those specific for the other immunodominant epitope, MVE 1971, even though their avidity for peptide pulsed APCs are similar, and the affinity for MHC is lower for this epitope. This result is also evident using split clone analysis with Tc clones. These results are similar to the % of peptide specific CD8+ population obtained immunizing with a ER-directed minigene encoding the peptide, implying induction with MVE infection is highly efficient.</AssayComments>
+                        </AssayInformation>
+                    </TCell>
+                </Assays>
+                <Assays>
+                    <MhcBinding>
+                        <LocationOfData>Figure 1</LocationOfData>
+                        <MhcBindingId>9166</MhcBindingId>
+                        <AssayInformation>
+                            <AssayTypeId>185</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <AssayComments>Lower affinity and faster off rate was observed with this peptide than for the other immunodominant peptide from the source protein, MVE 1971.</AssayComments>
+                        </AssayInformation>
+                        <MhcAlleleId>125</MhcAlleleId>
+                    </MhcBinding>
+                </Assays>
+            </Epitope>
+            <Epitope>
+                <EpitopeName>MVE 1971</EpitopeName>
+                <EpitopeStructure>
+                    <FragmentOfANaturalSequenceMolecule>
+                        <ChemicalType>Peptide from protein</ChemicalType>
+                        <LinearSequence>DEGEGRVI</LinearSequence>
+                        <StartingPosition>436</StartingPosition>
+                        <EndingPosition>443</EndingPosition>
+                        <SourceMolecule>
+                            <GenBankId>NP_722535.1</GenBankId>
+                        </SourceMolecule>
+                        <SourceOrganismId>301478</SourceOrganismId>
+                    </FragmentOfANaturalSequenceMolecule>
+                </EpitopeStructure>
+                <LocationOfData>Page 136</LocationOfData>
+                <EpitopeId>7995</EpitopeId>
+                <ReferenceStartingPosition>1971</ReferenceStartingPosition>
+                <ReferenceEndingPosition>1978</ReferenceEndingPosition>
+                <EpitopeEvidenceCode>Not determined</EpitopeEvidenceCode>
+                <EpitopeStructureDefines>Exact Epitope</EpitopeStructureDefines>
+                <EpitopeComments>This sequence is one of the 2 K&lt;sup&gt;k&lt;/sup&gt; restricted immunodominant epitopes from source protein, with higher affinity and slower off rate for class I MHC but with lower number of elicited clones than the other, named MVE 1785. Name stands for Non-structural protein 3, also known as Flavivirin protease NS3 catalytic subunit. Swiss-Prot ID corresponds to the genomic polyprotein precursor.</EpitopeComments>
+                <Assays>
+                    <TCell>
+                        <LocationOfData>Figure 3A</LocationOfData>
+                        <TCellId>9620</TCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>10000233</OrganismId>
+                                <Sex>F</Sex>
+                                <Age>&gt;6 wk</Age>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Administration in vivo</InVivoProcessType>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Source Organism</EpitopeRelation>
+                                    <Object>
+                                        <Organism>
+                                            <SubType>Organism</SubType>
+                                            <SourceOrganismId>301478</SourceOrganismId>
+                                        </Organism>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenEvidenceCode>Not determined</ImmunogenEvidenceCode>
+                                <Route>Intraperitoneal (i.p.)</Route>
+                                <DoseSchedule>5x10&lt;sup&gt;6&lt;/sup&gt; PFU 12 days before assay.</DoseSchedule>
+                            </FirstInVivoProcess>
+                            <InVitroAdministration>
+                                <ProcessType>Restimulation in vitro</ProcessType>
+                                <ResponderCellType>Splenocyte</ResponderCellType>
+                                <StimulatorCellType>Splenocyte</StimulatorCellType>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Epitope</EpitopeRelation>
+                                    <Object>
+                                        <FragmentOfANaturalSequenceMolecule>
+                                            <ChemicalType>Peptide from protein</ChemicalType>
+                                            <LinearSequence>DEGEGRVI</LinearSequence>
+                                            <StartingPosition>436</StartingPosition>
+                                            <EndingPosition>443</EndingPosition>
+                                            <SourceMolecule>
+                                                <GenBankId>NP_722535.1</GenBankId>
+                                            </SourceMolecule>
+                                            <SourceOrganismId>301478</SourceOrganismId>
+                                        </FragmentOfANaturalSequenceMolecule>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenEvidenceCode>Exact match to reference information</ImmunogenEvidenceCode>
+                            </InVitroAdministration>
+                            <ImmunizationComments>Peptide pulsed autologous splenocytes where incubated with MVE-primed splenocytes for 5 days.</ImmunizationComments>
+                        </Immunization>
+                        <EffectorCells>
+                            <CellTissueType>Spleen</CellTissueType>
+                            <CellType>T cell</CellType>
+                            <CellCultureConditions>Short Term Restimulated</CellCultureConditions>
+                        </EffectorCells>
+                        <AntigenPresentingCells>
+                            <CellTissueType>Other</CellTissueType>
+                            <CellType>Other</CellType>
+                            <CellCultureConditions>Cell Line / Clone</CellCultureConditions>
+                            <AutologousOrSyngeneic>N</AutologousOrSyngeneic>
+                            <SourceOrganismId>10090</SourceOrganismId>
+                        </AntigenPresentingCells>
+                        <MhcAllele>
+                            <MhcAlleleId>125</MhcAlleleId>
+                            <MhcEvidenceCode>Not determined</MhcEvidenceCode>
+                        </MhcAllele>
+                        <Antigen>
+                            <AntigenObject>
+                                <EpitopeRelation>Source Organism</EpitopeRelation>
+                                <Object>
+                                    <Organism>
+                                        <SubType>Organism</SubType>
+                                        <SourceOrganismId>301478</SourceOrganismId>
+                                    </Organism>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Not determined</AntigenEvidenceCode>
+                        </Antigen>
+                        <AssayInformation>
+                            <AssayTypeId>67</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <AssayComments>In vitro stimulation with epitope of splenocytes from virus-infected mice generated peptide specific CTLs, recognizing virus-infected APCs. A lower concentration (10^-6 vs. 10^-4 M) of peptide is required than for the other immunodominat epitope, due to its higher affinity for MHC.</AssayComments>
+                        </AssayInformation>
+                    </TCell>
+                </Assays>
+                <Assays>
+                    <TCell>
+                        <LocationOfData>Figure 4</LocationOfData>
+                        <TCellId>9173</TCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>10000233</OrganismId>
+                                <Sex>F</Sex>
+                                <Age>&gt;6 wk</Age>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Administration in vivo</InVivoProcessType>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Source Organism</EpitopeRelation>
+                                    <Object>
+                                        <Organism>
+                                            <SubType>Organism</SubType>
+                                            <SourceOrganismId>301478</SourceOrganismId>
+                                        </Organism>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenEvidenceCode>Not determined</ImmunogenEvidenceCode>
+                                <Route>Intraperitoneal (i.p.)</Route>
+                                <DoseSchedule>5x10&lt;sup&gt;6&lt;/sup&gt; PFU 12 days before assay.</DoseSchedule>
+                            </FirstInVivoProcess>
+                            <InVitroAdministration>
+                                <ProcessType>Restimulation in vitro</ProcessType>
+                                <ResponderCellType>Splenocyte</ResponderCellType>
+                                <StimulatorCellType>Splenocyte</StimulatorCellType>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Epitope</EpitopeRelation>
+                                    <Object>
+                                        <FragmentOfANaturalSequenceMolecule>
+                                            <ChemicalType>Peptide from protein</ChemicalType>
+                                            <LinearSequence>DEGEGRVI</LinearSequence>
+                                            <StartingPosition>436</StartingPosition>
+                                            <EndingPosition>443</EndingPosition>
+                                            <SourceMolecule>
+                                                <GenBankId>NP_722535.1</GenBankId>
+                                            </SourceMolecule>
+                                            <SourceOrganismId>301478</SourceOrganismId>
+                                        </FragmentOfANaturalSequenceMolecule>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenEvidenceCode>Exact match to reference information</ImmunogenEvidenceCode>
+                            </InVitroAdministration>
+                            <ImmunizationComments>Peptide pulsed autologous splenocytes where incubated with MVE-primed splenocytes for 5 days.</ImmunizationComments>
+                        </Immunization>
+                        <EffectorCells>
+                            <CellTissueType>Spleen</CellTissueType>
+                            <CellType>T cell</CellType>
+                            <CellCultureConditions>Short Term Restimulated</CellCultureConditions>
+                        </EffectorCells>
+                        <AntigenPresentingCells>
+                            <CellTissueType>Other</CellTissueType>
+                            <CellType>Other</CellType>
+                            <CellCultureConditions>Cell Line / Clone</CellCultureConditions>
+                            <AutologousOrSyngeneic>N</AutologousOrSyngeneic>
+                            <SourceOrganismId>10090</SourceOrganismId>
+                        </AntigenPresentingCells>
+                        <MhcAllele>
+                            <MhcAlleleId>125</MhcAlleleId>
+                            <MhcEvidenceCode>Not determined</MhcEvidenceCode>
+                        </MhcAllele>
+                        <Antigen>
+                            <AntigenReferenceName>MVE 1971</AntigenReferenceName>
+                            <AntigenObject>
+                                <EpitopeRelation>Epitope</EpitopeRelation>
+                                <Object>
+                                    <FragmentOfANaturalSequenceMolecule>
+                                        <ChemicalType>Peptide from protein</ChemicalType>
+                                        <LinearSequence>DEGEGRVI</LinearSequence>
+                                        <StartingPosition>436</StartingPosition>
+                                        <EndingPosition>443</EndingPosition>
+                                        <SourceMolecule>
+                                            <GenBankId>NP_722535.1</GenBankId>
+                                        </SourceMolecule>
+                                        <SourceOrganismId>301478</SourceOrganismId>
+                                    </FragmentOfANaturalSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Exact match to reference information</AntigenEvidenceCode>
+                        </Antigen>
+                        <AssayInformation>
+                            <AssayTypeId>67</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <AssayComments>Sensitization of target cells with different peptide concentrations does not result in differences in the responses in the response of 2 peptide-specific CTLs, recognizing both specific peptide-pulsed and virus-infected APCs without cross-reactivity to the other immunodominant peptide. The affinity for MHC is lower for this epitope, implying the ability to lyse target cells is not related to MHC affinity. Similar results were obtained at 6 and 50 days post infection, and also similar results were seen with bulk MVE stimulated splenocytes.</AssayComments>
+                        </AssayInformation>
+                    </TCell>
+                </Assays>
+                <Assays>
+                    <TCell>
+                        <LocationOfData>Figure 8</LocationOfData>
+                        <TCellId>9170</TCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>10000233</OrganismId>
+                                <Sex>F</Sex>
+                                <Age>&gt;6 wk</Age>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Administration in vivo</InVivoProcessType>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Source Organism</EpitopeRelation>
+                                    <Object>
+                                        <Organism>
+                                            <SubType>Organism</SubType>
+                                            <SourceOrganismId>301478</SourceOrganismId>
+                                        </Organism>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenEvidenceCode>Not determined</ImmunogenEvidenceCode>
+                                <Route>Intraperitoneal (i.p.)</Route>
+                                <DoseSchedule>5x10&lt;sup&gt;6&lt;/sup&gt; PFU 12 days before assay.</DoseSchedule>
+                            </FirstInVivoProcess>
+                        </Immunization>
+                        <EffectorCells>
+                            <CellTissueType>Spleen</CellTissueType>
+                            <CellType>T cell CD8+</CellType>
+                            <CellCultureConditions>Direct Ex Vivo</CellCultureConditions>
+                        </EffectorCells>
+                        <AntigenPresentingCells>
+                            <AutologousOrSyngeneic>Y</AutologousOrSyngeneic>
+                        </AntigenPresentingCells>
+                        <MhcAllele>
+                            <MhcAlleleId>125</MhcAlleleId>
+                            <MhcEvidenceCode>Not determined</MhcEvidenceCode>
+                        </MhcAllele>
+                        <Antigen>
+                            <AntigenReferenceName>MVE 1971</AntigenReferenceName>
+                            <AntigenObject>
+                                <EpitopeRelation>Epitope</EpitopeRelation>
+                                <Object>
+                                    <FragmentOfANaturalSequenceMolecule>
+                                        <ChemicalType>Peptide from protein</ChemicalType>
+                                        <LinearSequence>DEGEGRVI</LinearSequence>
+                                        <StartingPosition>436</StartingPosition>
+                                        <EndingPosition>443</EndingPosition>
+                                        <SourceMolecule>
+                                            <GenBankId>NP_722535.1</GenBankId>
+                                        </SourceMolecule>
+                                        <SourceOrganismId>301478</SourceOrganismId>
+                                    </FragmentOfANaturalSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Exact match to reference information</AntigenEvidenceCode>
+                        </Antigen>
+                        <AssayInformation>
+                            <AssayTypeId>53</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <QuantitativeMeasurement>3.0</QuantitativeMeasurement>
+                            <NumberOfSubjectsTested>2</NumberOfSubjectsTested>
+                            <NumberOfSubjectsResponded>2</NumberOfSubjectsResponded>
+                            <ResponseFrequency>100</ResponseFrequency>
+                            <AssayComments>Epitope specific CD8+ splenocytes from MVE-infected mice are 2-fold less abundant than those specific for the other immunodominant epitope, MVE 1971, even though their avidity for peptide pulsed APCs are similar, and the affinity for MHC is higher for this epitope. This result was also evident using split clone analysis with Tc clones.</AssayComments>
+                        </AssayInformation>
+                    </TCell>
+                </Assays>
+                <Assays>
+                    <TCell>
+                        <LocationOfData>Figure 3A</LocationOfData>
+                        <TCellId>9172</TCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>10000233</OrganismId>
+                                <Sex>F</Sex>
+                                <Age>&gt;6 wk</Age>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Administration in vivo</InVivoProcessType>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Source Organism</EpitopeRelation>
+                                    <Object>
+                                        <Organism>
+                                            <SubType>Organism</SubType>
+                                            <SourceOrganismId>301478</SourceOrganismId>
+                                        </Organism>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenEvidenceCode>Not determined</ImmunogenEvidenceCode>
+                                <Route>Intraperitoneal (i.p.)</Route>
+                                <DoseSchedule>5x10&lt;sup&gt;6&lt;/sup&gt; PFU 12 days before assay.</DoseSchedule>
+                            </FirstInVivoProcess>
+                            <InVitroAdministration>
+                                <ProcessType>Restimulation in vitro</ProcessType>
+                                <ResponderCellType>Splenocyte</ResponderCellType>
+                                <StimulatorCellType>Splenocyte</StimulatorCellType>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Epitope</EpitopeRelation>
+                                    <Object>
+                                        <FragmentOfANaturalSequenceMolecule>
+                                            <ChemicalType>Peptide from protein</ChemicalType>
+                                            <LinearSequence>DEGEGRVI</LinearSequence>
+                                            <StartingPosition>436</StartingPosition>
+                                            <EndingPosition>443</EndingPosition>
+                                            <SourceMolecule>
+                                                <GenBankId>NP_722535.1</GenBankId>
+                                            </SourceMolecule>
+                                            <SourceOrganismId>301478</SourceOrganismId>
+                                        </FragmentOfANaturalSequenceMolecule>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenEvidenceCode>Exact match to reference information</ImmunogenEvidenceCode>
+                            </InVitroAdministration>
+                            <ImmunizationComments>Peptide pulsed autologous splenocytes where incubated with MVE-primed splenocytes for 5 days.</ImmunizationComments>
+                        </Immunization>
+                        <EffectorCells>
+                            <CellTissueType>Spleen</CellTissueType>
+                            <CellType>T cell</CellType>
+                            <CellCultureConditions>Short Term Restimulated</CellCultureConditions>
+                        </EffectorCells>
+                        <AntigenPresentingCells>
+                            <CellType>Other</CellType>
+                            <AutologousOrSyngeneic>N</AutologousOrSyngeneic>
+                            <SourceOrganismId>10090</SourceOrganismId>
+                        </AntigenPresentingCells>
+                        <MhcAllele>
+                            <MhcAlleleId>125</MhcAlleleId>
+                            <MhcEvidenceCode>Not determined</MhcEvidenceCode>
+                        </MhcAllele>
+                        <Antigen>
+                            <AntigenReferenceName>MVE 1971</AntigenReferenceName>
+                            <AntigenObject>
+                                <EpitopeRelation>Epitope</EpitopeRelation>
+                                <Object>
+                                    <FragmentOfANaturalSequenceMolecule>
+                                        <ChemicalType>Peptide from protein</ChemicalType>
+                                        <LinearSequence>DEGEGRVI</LinearSequence>
+                                        <StartingPosition>436</StartingPosition>
+                                        <EndingPosition>443</EndingPosition>
+                                        <SourceMolecule>
+                                            <GenBankId>NP_722535.1</GenBankId>
+                                        </SourceMolecule>
+                                        <SourceOrganismId>301478</SourceOrganismId>
+                                    </FragmentOfANaturalSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Exact match to reference information</AntigenEvidenceCode>
+                        </Antigen>
+                        <AssayInformation>
+                            <AssayTypeId>67</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <AssayComments>In vitro stimulation with epitope of splenocytes from virus-infected mice generates peptide specific CTLs, recognizing specific peptide-pulsed APCs, without cross-reactivity to the other immunodominant peptide. A lower concentration (10^-6 vs. 10^-4 M)  of stimulating peptide is required than for the other immunodominat epitope, due to its higher affinity for MHC.</AssayComments>
+                        </AssayInformation>
+                    </TCell>
+                </Assays>
+                <Assays>
+                    <MhcBinding>
+                        <LocationOfData>Figure 1</LocationOfData>
+                        <MhcBindingId>9171</MhcBindingId>
+                        <AssayInformation>
+                            <AssayTypeId>185</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <AssayComments>Higher affinity and slower off rate was observed for this peptide as compared to the other immunodominant peptide from the source protein, MVE 1971.</AssayComments>
+                        </AssayInformation>
+                        <MhcAlleleId>125</MhcAlleleId>
+                    </MhcBinding>
+                </Assays>
+            </Epitope>
+        </Epitopes>
+    </Reference>
+</References>
+

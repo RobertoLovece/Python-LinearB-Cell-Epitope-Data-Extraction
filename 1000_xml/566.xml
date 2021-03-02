@@ -1,0 +1,280 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<References xsi:schemaLocation="http://www.iedb.org/schema/CurationSchema http://beta.iedb.org/schema/Curation.xsd" xmlns="http://www.iedb.org/schema/CurationSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <Reference>
+        <ReferenceId>566</ReferenceId>
+        <DateLastUpdated>2020-09-10-07:00</DateLastUpdated>
+        <Article>
+            <PubmedId>15683221</PubmedId>
+            <Abstract>Cancer-testis or germ cell antigens (GCAs) are a category of tumor antigens expressed by male germ cells and by cancers of diverse histological origin, but not usually by normal adult somatic tissue. These antigens include products encoded by the MAGE, BAGE, GAGE, SSX, and LAGE/NY-ESO-1 families that encode antigenic peptides recognized by T lymphocytes. In this study, we exploit oligonucleotide technology to identify genes in melanoma and soft tissue sarcoma (STS) that display a cancer-testis/GCA expression profile. We identified 59 such genes, including GCAs we knew to be recognized by T lymphocytes. Among our findings are the expression of PRAME in monophasic synovial sarcoma, PRAME and NY-ESO-1 in myxoid/round cell liposarcoma, and SSX2 and members of the GAGE family in malignant fibrous histiocytoma. Furthermore, the proto-oncogene DBL/MCF2 was identified as encoding a novel candidate GCA expressed by clear cell sarcoma/melanoma of soft parts (MSP). DBL/MCF2 peptides that are bound to HLA-A*0201 were identified and recognized by T lymphocytes. These results show the utility of high-throughput expression analysis in the efficient screening and identification of GCA candidates in cancer, and its application to the discovery of candidate targets for T cell immunity against GCAs expressed by cancer.</Abstract>
+            <ArticleYear>2005</ArticleYear>
+            <ArticlePages>2</ArticlePages>
+            <ArticleTitle>Identification of cancer-testis genes expressed by melanoma and soft tissue sarcoma using bioinformatics.</ArticleTitle>
+            <Authors>
+                <Author>
+                    <LastName>Segal</LastName>
+                    <ForeName>Neil H</ForeName>
+                </Author>
+                <Author>
+                    <LastName>Blachere</LastName>
+                    <ForeName>Nathalie E</ForeName>
+                </Author>
+                <Author>
+                    <LastName>Guevara-Patiño</LastName>
+                    <ForeName>Jose A</ForeName>
+                </Author>
+                <Author>
+                    <LastName>Gallardo</LastName>
+                    <ForeName>Humilidad F</ForeName>
+                </Author>
+                <Author>
+                    <LastName>Shiu</LastName>
+                    <ForeName>Ho Yin A</ForeName>
+                </Author>
+                <Author>
+                    <LastName>Viale</LastName>
+                    <ForeName>Agnes</ForeName>
+                </Author>
+                <Author>
+                    <LastName>Antonescu</LastName>
+                    <ForeName>Cristina R</ForeName>
+                </Author>
+                <Author>
+                    <LastName>Wolchok</LastName>
+                    <ForeName>Jedd D</ForeName>
+                </Author>
+                <Author>
+                    <LastName>Houghton</LastName>
+                    <ForeName>Alan N</ForeName>
+                </Author>
+            </Authors>
+            <Affiliations>Swim Across America Laboratory, Memorial Sloan-Kettering Cancer Center, New York, NY 10021, USA. a-houghton@ski.mskcc.org.</Affiliations>
+            <ArticleChemicalList>Antigens, Neoplasm</ArticleChemicalList>
+            <ArticleMeshHeadingsList>Adult; Antigens, Neoplasm(genetics; immunology; metabolism); CD8-Positive T-Lymphocytes(immunology); Computational Biology; Gene Expression; Gene Expression Profiling; Humans; Infant; Male; Melanoma(genetics; immunology); Oligonucleotide Array Sequence Analysis; Sarcoma(genetics; immunology); Skin Neoplasms(genetics; immunology); Testis(metabolism)</ArticleMeshHeadingsList>
+            <Journal>
+                <Volume>5</Volume>
+                <Title>Cancer immunity</Title>
+                <Issn>1424-9634</Issn>
+                <MedlineTa>Cancer Immun</MedlineTa>
+            </Journal>
+        </Article>
+        <Epitopes>
+            <Epitope>
+                <EpitopeName>DBL180</EpitopeName>
+                <EpitopeStructure>
+                    <FragmentOfANaturalSequenceMolecule>
+                        <ChemicalType>Peptide from protein</ChemicalType>
+                        <LinearSequence>YLLKPVQRI</LinearSequence>
+                        <StartingPosition>627</StartingPosition>
+                        <EndingPosition>635</EndingPosition>
+                        <SourceMolecule>
+                            <GenBankId>P10911.3</GenBankId>
+                        </SourceMolecule>
+                        <SourceOrganismId>9606</SourceOrganismId>
+                    </FragmentOfANaturalSequenceMolecule>
+                </EpitopeStructure>
+                <LocationOfData>Page 4</LocationOfData>
+                <EpitopeId>74787</EpitopeId>
+                <EpitopeEvidenceCode>Not determined</EpitopeEvidenceCode>
+                <EpitopeStructureDefines>Exact Epitope</EpitopeStructureDefines>
+                <Assays>
+                    <TCell>
+                        <LocationOfData>Figure 3C and table 3</LocationOfData>
+                        <TCellId>4804</TCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>9606</OrganismId>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>No immunization</InVivoProcessType>
+                                <DiseaseState>ONTIE:0003423</DiseaseState>
+                            </FirstInVivoProcess>
+                        </Immunization>
+                        <EffectorCells>
+                            <CellTissueType>Blood</CellTissueType>
+                            <CellType>T cell CD8+</CellType>
+                            <CellCultureConditions>Direct Ex Vivo</CellCultureConditions>
+                        </EffectorCells>
+                        <AntigenPresentingCells>
+                            <CellTissueType>Lymphoid</CellTissueType>
+                            <CellType>T2 cells-Lymphoblast</CellType>
+                            <CellCultureConditions>Cell Line / Clone</CellCultureConditions>
+                        </AntigenPresentingCells>
+                        <MhcAllele>
+                            <MhcAlleleId>143</MhcAlleleId>
+                            <MhcEvidenceCode>MHC binding assay</MhcEvidenceCode>
+                        </MhcAllele>
+                        <Antigen>
+                            <AntigenReferenceName>DBL180</AntigenReferenceName>
+                            <AntigenObject>
+                                <EpitopeRelation>Epitope</EpitopeRelation>
+                                <Object>
+                                    <FragmentOfANaturalSequenceMolecule>
+                                        <ChemicalType>Peptide from protein</ChemicalType>
+                                        <LinearSequence>YLLKPVQRI</LinearSequence>
+                                        <StartingPosition>627</StartingPosition>
+                                        <EndingPosition>635</EndingPosition>
+                                        <SourceMolecule>
+                                            <GenBankId>P10911.3</GenBankId>
+                                        </SourceMolecule>
+                                        <SourceOrganismId>9606</SourceOrganismId>
+                                    </FragmentOfANaturalSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Exact match to reference information</AntigenEvidenceCode>
+                        </Antigen>
+                        <AssayInformation>
+                            <AssayTypeId>48</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <QuantitativeMeasurement>67.0</QuantitativeMeasurement>
+                        </AssayInformation>
+                    </TCell>
+                </Assays>
+            </Epitope>
+            <Epitope>
+                <EpitopeName>DBL217</EpitopeName>
+                <EpitopeStructure>
+                    <FragmentOfANaturalSequenceMolecule>
+                        <ChemicalType>Peptide from protein</ChemicalType>
+                        <LinearSequence>AMLDLLKSV</LinearSequence>
+                        <StartingPosition>664</StartingPosition>
+                        <EndingPosition>672</EndingPosition>
+                        <SourceMolecule>
+                            <GenBankId>P10911.3</GenBankId>
+                        </SourceMolecule>
+                        <SourceOrganismId>9606</SourceOrganismId>
+                    </FragmentOfANaturalSequenceMolecule>
+                </EpitopeStructure>
+                <LocationOfData>Page 4</LocationOfData>
+                <EpitopeId>3146</EpitopeId>
+                <EpitopeEvidenceCode>Not determined</EpitopeEvidenceCode>
+                <EpitopeStructureDefines>Exact Epitope</EpitopeStructureDefines>
+                <Assays>
+                    <TCell>
+                        <LocationOfData>Figure 3D and table 3</LocationOfData>
+                        <TCellId>4806</TCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>9606</OrganismId>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>No immunization</InVivoProcessType>
+                                <DiseaseState>ONTIE:0003423</DiseaseState>
+                            </FirstInVivoProcess>
+                        </Immunization>
+                        <EffectorCells>
+                            <CellTissueType>Blood</CellTissueType>
+                            <CellType>T cell CD8+</CellType>
+                            <CellCultureConditions>Direct Ex Vivo</CellCultureConditions>
+                        </EffectorCells>
+                        <AntigenPresentingCells>
+                            <CellTissueType>Lymphoid</CellTissueType>
+                            <CellType>T2 cells-Lymphoblast</CellType>
+                            <CellCultureConditions>Cell Line / Clone</CellCultureConditions>
+                        </AntigenPresentingCells>
+                        <MhcAllele>
+                            <MhcAlleleId>143</MhcAlleleId>
+                            <MhcEvidenceCode>MHC binding assay</MhcEvidenceCode>
+                        </MhcAllele>
+                        <Antigen>
+                            <AntigenReferenceName>DBL217</AntigenReferenceName>
+                            <AntigenObject>
+                                <EpitopeRelation>Epitope</EpitopeRelation>
+                                <Object>
+                                    <FragmentOfANaturalSequenceMolecule>
+                                        <ChemicalType>Peptide from protein</ChemicalType>
+                                        <LinearSequence>AMLDLLKSV</LinearSequence>
+                                        <StartingPosition>664</StartingPosition>
+                                        <EndingPosition>672</EndingPosition>
+                                        <SourceMolecule>
+                                            <GenBankId>P10911.3</GenBankId>
+                                        </SourceMolecule>
+                                        <SourceOrganismId>9606</SourceOrganismId>
+                                    </FragmentOfANaturalSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Exact match to reference information</AntigenEvidenceCode>
+                        </Antigen>
+                        <AssayInformation>
+                            <AssayTypeId>48</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <QuantitativeMeasurement>166.7</QuantitativeMeasurement>
+                        </AssayInformation>
+                    </TCell>
+                </Assays>
+            </Epitope>
+            <Epitope>
+                <EpitopeName>DBL247</EpitopeName>
+                <EpitopeStructure>
+                    <FragmentOfANaturalSequenceMolecule>
+                        <ChemicalType>Peptide from protein</ChemicalType>
+                        <LinearSequence>MIMQGGFSV</LinearSequence>
+                        <StartingPosition>694</StartingPosition>
+                        <EndingPosition>702</EndingPosition>
+                        <SourceMolecule>
+                            <GenBankId>P10911.3</GenBankId>
+                        </SourceMolecule>
+                        <SourceOrganismId>9606</SourceOrganismId>
+                    </FragmentOfANaturalSequenceMolecule>
+                </EpitopeStructure>
+                <LocationOfData>Page 4</LocationOfData>
+                <EpitopeId>41745</EpitopeId>
+                <EpitopeEvidenceCode>Not determined</EpitopeEvidenceCode>
+                <EpitopeStructureDefines>Exact Epitope</EpitopeStructureDefines>
+                <Assays>
+                    <TCell>
+                        <LocationOfData>Figure 3E and table 3</LocationOfData>
+                        <TCellId>4807</TCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>9606</OrganismId>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>No immunization</InVivoProcessType>
+                                <DiseaseState>ONTIE:0003423</DiseaseState>
+                            </FirstInVivoProcess>
+                        </Immunization>
+                        <EffectorCells>
+                            <CellTissueType>Blood</CellTissueType>
+                            <CellType>T cell CD8+</CellType>
+                            <CellCultureConditions>Direct Ex Vivo</CellCultureConditions>
+                        </EffectorCells>
+                        <AntigenPresentingCells>
+                            <CellTissueType>Lymphoid</CellTissueType>
+                            <CellType>T2 cells-Lymphoblast</CellType>
+                            <CellCultureConditions>Cell Line / Clone</CellCultureConditions>
+                        </AntigenPresentingCells>
+                        <MhcAllele>
+                            <MhcAlleleId>143</MhcAlleleId>
+                            <MhcEvidenceCode>MHC binding assay</MhcEvidenceCode>
+                        </MhcAllele>
+                        <Antigen>
+                            <AntigenReferenceName>DBL247</AntigenReferenceName>
+                            <AntigenObject>
+                                <EpitopeRelation>Epitope</EpitopeRelation>
+                                <Object>
+                                    <FragmentOfANaturalSequenceMolecule>
+                                        <ChemicalType>Peptide from protein</ChemicalType>
+                                        <LinearSequence>MIMQGGFSV</LinearSequence>
+                                        <StartingPosition>694</StartingPosition>
+                                        <EndingPosition>702</EndingPosition>
+                                        <SourceMolecule>
+                                            <GenBankId>P10911.3</GenBankId>
+                                        </SourceMolecule>
+                                        <SourceOrganismId>9606</SourceOrganismId>
+                                    </FragmentOfANaturalSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Exact match to reference information</AntigenEvidenceCode>
+                        </Antigen>
+                        <AssayInformation>
+                            <AssayTypeId>48</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <QuantitativeMeasurement>55.3</QuantitativeMeasurement>
+                        </AssayInformation>
+                    </TCell>
+                </Assays>
+            </Epitope>
+        </Epitopes>
+    </Reference>
+</References>
+

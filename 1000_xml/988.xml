@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<References xsi:schemaLocation="http://www.iedb.org/schema/CurationSchema http://beta.iedb.org/schema/Curation.xsd" xmlns="http://www.iedb.org/schema/CurationSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <Reference>
+        <ReferenceId>988</ReferenceId>
+        <DateLastUpdated>2020-09-10-07:00</DateLastUpdated>
+        <Article>
+            <PubmedId>1721637</PubmedId>
+            <Abstract>Influenza virus matrix protein-derived peptides were synthesized based on the amino acid motifs for HLA-A2 bound self peptides. Among these peptides a nonamer (amino acids 58 through 66: G I L G F V F T L) was found to be 100 to 1000 times more effective than the commonly used peptide 57-68 (K G I L G F V F T L T V) in sensitizing HLA-A2+ target cells to lysis by influenza virus specific cytotoxic T lymphocytes. The sensitizing activity of the 12-mer 57-68 was not due to contamination with shorter and more active peptides. Intracellular expression of peptide 58-66 (mediated by a stable expression plasmid with DNA coding for this peptide) also sensitized HLA-A2+ cells to lysis. Peptide 58-66 stimulated human PBMC to generate CTL that recognized peptides 58-66 and 57-68 in association with HLA-A2.</Abstract>
+            <ArticleYear>1991</ArticleYear>
+            <ArticlePages>4047-53</ArticlePages>
+            <ArticleTitle>The minimum peptide epitope from the influenza virus matrix protein. Extra and intracellular loading of HLA-A2.</ArticleTitle>
+            <Authors>
+                <Author>
+                    <LastName>Bednarek</LastName>
+                    <ForeName>M A</ForeName>
+                </Author>
+                <Author>
+                    <LastName>Sauma</LastName>
+                    <ForeName>S Y</ForeName>
+                </Author>
+                <Author>
+                    <LastName>Gammon</LastName>
+                    <ForeName>M C</ForeName>
+                </Author>
+                <Author>
+                    <LastName>Porter</LastName>
+                    <ForeName>G</ForeName>
+                </Author>
+                <Author>
+                    <LastName>Tamhankar</LastName>
+                    <ForeName>S</ForeName>
+                </Author>
+                <Author>
+                    <LastName>Williamson</LastName>
+                    <ForeName>A R</ForeName>
+                </Author>
+                <Author>
+                    <LastName>Zweerink</LastName>
+                    <ForeName>H J</ForeName>
+                </Author>
+            </Authors>
+            <Affiliations>Department of Biophysical Chemistry, Merck Sharp and Dohme Research Laboratories, Rahway, NJ 07065.</Affiliations>
+            <ArticleChemicalList>Epitopes;HLA-A2 Antigen;M-protein, influenza virus;Peptide Fragments;Viral Matrix Proteins</ArticleChemicalList>
+            <ArticleMeshHeadingsList>Amino Acid Sequence; Base Sequence; Epitopes(analysis ); HLA-A2 Antigen(immunology ); Humans; Molecular Sequence Data; Orthomyxoviridae(immunology ); Peptide Fragments(immunology ); T-Lymphocytes, Cytotoxic(immunology ); Viral Matrix Proteins(immunology )</ArticleMeshHeadingsList>
+            <Journal>
+                <Volume>147</Volume>
+                <Issue>12</Issue>
+                <Title>Journal of immunology (Baltimore, Md. : 1950)</Title>
+                <Issn>0022-1767</Issn>
+                <MedlineTa>J Immunol</MedlineTa>
+            </Journal>
+        </Article>
+        <Epitopes>
+            <Epitope>
+                <EpitopeName>Matrix.58-66</EpitopeName>
+                <EpitopeStructure>
+                    <FragmentOfANaturalSequenceMolecule>
+                        <ChemicalType>Peptide from protein</ChemicalType>
+                        <LinearSequence>GILGFVFTL</LinearSequence>
+                        <StartingPosition>58</StartingPosition>
+                        <EndingPosition>66</EndingPosition>
+                        <SourceMolecule>
+                            <GenBankId>P03485.1</GenBankId>
+                        </SourceMolecule>
+                        <SourceOrganismId>211044</SourceOrganismId>
+                    </FragmentOfANaturalSequenceMolecule>
+                </EpitopeStructure>
+                <LocationOfData>Table 2</LocationOfData>
+                <EpitopeId>20354</EpitopeId>
+                <ReferenceStartingPosition>58</ReferenceStartingPosition>
+                <ReferenceEndingPosition>66</ReferenceEndingPosition>
+                <EpitopeEvidenceCode>Not determined</EpitopeEvidenceCode>
+                <EpitopeStructureDefines>Exact Epitope</EpitopeStructureDefines>
+                <EpitopeComments>The minimal epitope was determined by comparative analysis of different truncations of the Matrix peptide 57-68 in sensitizing HLA-A2+ target cells to lysis by influenza virus specific CTL.</EpitopeComments>
+                <Assays>
+                    <TCell>
+                        <LocationOfData>Figure 7</LocationOfData>
+                        <TCellId>1006423</TCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>9606</OrganismId>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Environmental exposure to endemic/ubiquitous agent without evidence for disease</InVivoProcessType>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Taxonomic Parent</EpitopeRelation>
+                                    <Object>
+                                        <Organism>
+                                            <SubType>Organism</SubType>
+                                            <SourceOrganismId>11320</SourceOrganismId>
+                                        </Organism>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenEvidenceCode>Not determined</ImmunogenEvidenceCode>
+                            </FirstInVivoProcess>
+                            <InVitroAdministration>
+                                <ProcessType>Restimulation in vitro</ProcessType>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Epitope</EpitopeRelation>
+                                    <Object>
+                                        <FragmentOfANaturalSequenceMolecule>
+                                            <ChemicalType>Peptide from protein</ChemicalType>
+                                            <LinearSequence>GILGFVFTL</LinearSequence>
+                                            <StartingPosition>58</StartingPosition>
+                                            <EndingPosition>66</EndingPosition>
+                                            <SourceMolecule>
+                                                <GenBankId>P03485.1</GenBankId>
+                                            </SourceMolecule>
+                                            <SourceOrganismId>211044</SourceOrganismId>
+                                        </FragmentOfANaturalSequenceMolecule>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenEvidenceCode>Exact match to reference information</ImmunogenEvidenceCode>
+                            </InVitroAdministration>
+                        </Immunization>
+                        <EffectorCells>
+                            <CellTissueType>Blood</CellTissueType>
+                            <CellType>PBMC</CellType>
+                            <CellCultureConditions>Short Term Restimulated</CellCultureConditions>
+                        </EffectorCells>
+                        <AntigenPresentingCells>
+                            <CellTissueType>Lymphoid</CellTissueType>
+                            <CellType>C1R cells-B cell</CellType>
+                            <CellCultureConditions>Cell Line / Clone</CellCultureConditions>
+                        </AntigenPresentingCells>
+                        <MhcAllele>
+                            <MhcAlleleId>143</MhcAlleleId>
+                            <MhcEvidenceCode>Not determined</MhcEvidenceCode>
+                        </MhcAllele>
+                        <Antigen>
+                            <AntigenReferenceName>Matrix.58-66</AntigenReferenceName>
+                            <AntigenObject>
+                                <EpitopeRelation>Epitope</EpitopeRelation>
+                                <Object>
+                                    <FragmentOfANaturalSequenceMolecule>
+                                        <ChemicalType>Peptide from protein</ChemicalType>
+                                        <LinearSequence>GILGFVFTL</LinearSequence>
+                                        <StartingPosition>58</StartingPosition>
+                                        <EndingPosition>66</EndingPosition>
+                                        <SourceMolecule>
+                                            <GenBankId>P03485.1</GenBankId>
+                                        </SourceMolecule>
+                                        <SourceOrganismId>211044</SourceOrganismId>
+                                    </FragmentOfANaturalSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Exact match to reference information</AntigenEvidenceCode>
+                            <AntigenContainingObject>
+                                <Plasmid>
+                                    <SubType>Plasmid</SubType>
+                                </Plasmid>
+                            </AntigenContainingObject>
+                        </Antigen>
+                        <AssayInformation>
+                            <AssayTypeId>67</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <AssayComments>Lysis of C1R:A2 cells transfected with plasmid p8901 expressing the peptide 58-66.  In the same experiment, it was shown that cells expressing the longer peptide 57-68 (KGILGFVFTLTV) were also lysed by effector cells but at a lower magnitude compared to the minimum epitope.</AssayComments>
+                        </AssayInformation>
+                    </TCell>
+                </Assays>
+                <Assays>
+                    <TCell>
+                        <LocationOfData>Figure 2, Table II</LocationOfData>
+                        <TCellId>1006411</TCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>9606</OrganismId>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Environmental exposure to endemic/ubiquitous agent without evidence for disease</InVivoProcessType>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Taxonomic Parent</EpitopeRelation>
+                                    <Object>
+                                        <Organism>
+                                            <SubType>Organism</SubType>
+                                            <SourceOrganismId>11320</SourceOrganismId>
+                                        </Organism>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenReferenceName>Influenza A virus</ImmunogenReferenceName>
+                                <ImmunogenEvidenceCode>Not determined</ImmunogenEvidenceCode>
+                            </FirstInVivoProcess>
+                            <InVitroAdministration>
+                                <ProcessType>Restimulation in vitro</ProcessType>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Epitope</EpitopeRelation>
+                                    <Object>
+                                        <FragmentOfANaturalSequenceMolecule>
+                                            <ChemicalType>Peptide from protein</ChemicalType>
+                                            <LinearSequence>GILGFVFTL</LinearSequence>
+                                            <StartingPosition>58</StartingPosition>
+                                            <EndingPosition>66</EndingPosition>
+                                            <SourceMolecule>
+                                                <GenBankId>P03485.1</GenBankId>
+                                            </SourceMolecule>
+                                            <SourceOrganismId>211044</SourceOrganismId>
+                                        </FragmentOfANaturalSequenceMolecule>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenEvidenceCode>Exact match to reference information</ImmunogenEvidenceCode>
+                            </InVitroAdministration>
+                        </Immunization>
+                        <EffectorCells>
+                            <CellTissueType>Blood</CellTissueType>
+                            <CellType>PBMC</CellType>
+                            <CellCultureConditions>Short Term Restimulated</CellCultureConditions>
+                        </EffectorCells>
+                        <AntigenPresentingCells>
+                            <CellTissueType>Lymphoid</CellTissueType>
+                            <CellType>C1R cells-B cell</CellType>
+                            <CellCultureConditions>Cell Line / Clone</CellCultureConditions>
+                        </AntigenPresentingCells>
+                        <MhcAllele>
+                            <MhcAlleleId>143</MhcAlleleId>
+                            <MhcEvidenceCode>Not determined</MhcEvidenceCode>
+                        </MhcAllele>
+                        <Antigen>
+                            <AntigenReferenceName>Matrix.58-66</AntigenReferenceName>
+                            <AntigenObject>
+                                <EpitopeRelation>Epitope</EpitopeRelation>
+                                <Object>
+                                    <FragmentOfANaturalSequenceMolecule>
+                                        <ChemicalType>Peptide from protein</ChemicalType>
+                                        <LinearSequence>GILGFVFTL</LinearSequence>
+                                        <StartingPosition>58</StartingPosition>
+                                        <EndingPosition>66</EndingPosition>
+                                        <SourceMolecule>
+                                            <GenBankId>P03485.1</GenBankId>
+                                        </SourceMolecule>
+                                        <SourceOrganismId>211044</SourceOrganismId>
+                                    </FragmentOfANaturalSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Exact match to reference information</AntigenEvidenceCode>
+                        </Antigen>
+                        <AssayInformation>
+                            <AssayTypeId>67</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <AssayComments>Different truncations of the peptide 57-68 were tested in this assay in order to determine the minimal epitopic determinant of this peptide.  The minimal epitope (58-66) which was 100-1000-fold more effective than the longer peptide 57-68 (KGILGFVFTLTV) in sensitizing HLA-A2+ target cells to lysis by influenza virus-specific CTLs.  The C1R target cells were A2 transfected.  The peptide KGILGFVFTLTV were used for in vitro restimulation of effector cells.</AssayComments>
+                        </AssayInformation>
+                    </TCell>
+                </Assays>
+            </Epitope>
+        </Epitopes>
+    </Reference>
+</References>
+

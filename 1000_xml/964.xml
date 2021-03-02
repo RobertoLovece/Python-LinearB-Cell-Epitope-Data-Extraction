@@ -1,0 +1,503 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<References xsi:schemaLocation="http://www.iedb.org/schema/CurationSchema http://beta.iedb.org/schema/Curation.xsd" xmlns="http://www.iedb.org/schema/CurationSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <Reference>
+        <ReferenceId>964</ReferenceId>
+        <DateLastUpdated>2020-09-10-07:00</DateLastUpdated>
+        <Article>
+            <PubmedId>1694205</PubmedId>
+            <Abstract>The antigenic determinant recognized by a HLA-DPw4-restricted human T cell clone specific for rabies virus was identified by using a vaccinia-rabies nonstructural phosphoprotein recombinant virus and synthetic peptides of the sequence of rabies nonstructural Ag. These peptides were selected on the basis of three models that predict T cell epitopes. The antigenic determinant recognized by the rabies virus-specific T cell clone contained a five-amino acid segment highly homologous to a sequence found in a hepatitis B surface Ag epitope that stimulates human T cells in the context of the HLA-DPw4. A preliminary model of DPw4-restricted T cell determinants is elaborated based on a hypothesis of how the 2 alpha-helical peptides may bind to this MHC molecule. Results are further discussed in the context of the usefulness in identifying DPw4-restricted T cell epitopes for the production of synthetic vaccines because this MHC class II molecule is found with high frequency in the population.</Abstract>
+            <ArticleYear>1990</ArticleYear>
+            <ArticlePages>305-10</ArticlePages>
+            <ArticleTitle>Identification of a rabies virus T cell epitope on the basis of its similarity with a hepatitis B surface antigen peptide presented to T cells by the same MHC molecule (HLA-DPw4).</ArticleTitle>
+            <Authors>
+                <Author>
+                    <LastName>Celis</LastName>
+                    <ForeName>E</ForeName>
+                </Author>
+                <Author>
+                    <LastName>Larson</LastName>
+                    <ForeName>J</ForeName>
+                </Author>
+                <Author>
+                    <LastName>Otvos</LastName>
+                    <ForeName>L</ForeName>
+                    <Suffix>Jr</Suffix>
+                </Author>
+                <Author>
+                    <LastName>Wunner</LastName>
+                    <ForeName>W H</ForeName>
+                </Author>
+            </Authors>
+            <Affiliations>T Cell Sciences, Cambridge, MA 02139.</Affiliations>
+            <ArticleChemicalList>Antigens, Viral;Epitopes;HLA-DP Antigens;Hepatitis B Surface Antigens;Oligopeptides;Phosphoproteins;Viral Core Proteins;Viral Nonstructural Proteins</ArticleChemicalList>
+            <ArticleMeshHeadingsList>Amino Acid Sequence; Antigen-Presenting Cells(immunology); Antigens, Viral(immunology); Capsid(immunology); Cell Line; Epitopes; HLA-DP Antigens(immunology); Hepatitis B Surface Antigens(immunology); Humans; In Vitro Techniques; Lymphocyte Activation; Molecular Sequence Data; Oligopeptides(chemical synthesis); Phosphoproteins(immunology); Protein Conformation; Rabies virus(immunology); Structure-Activity Relationship; T-Lymphocytes(immunology); Viral Core Proteins(immunology); Viral Nonstructural Proteins</ArticleMeshHeadingsList>
+            <Journal>
+                <Volume>145</Volume>
+                <Issue>1</Issue>
+                <Title>Journal of immunology (Baltimore, Md. : 1950)</Title>
+                <Issn>0022-1767</Issn>
+                <MedlineTa>J Immunol</MedlineTa>
+            </Journal>
+        </Article>
+        <Epitopes>
+            <Epitope>
+                <EpitopeName>Peptide 21D</EpitopeName>
+                <EpitopeStructure>
+                    <FragmentOfANaturalSequenceMolecule>
+                        <ChemicalType>Peptide from protein</ChemicalType>
+                        <LinearSequence>PNFRFLAGTYDMFF</LinearSequence>
+                        <StartingPosition>201</StartingPosition>
+                        <EndingPosition>214</EndingPosition>
+                        <SourceMolecule>
+                            <GenBankId>BAC07527.1</GenBankId>
+                        </SourceMolecule>
+                        <SourceOrganismId>11292</SourceOrganismId>
+                    </FragmentOfANaturalSequenceMolecule>
+                </EpitopeStructure>
+                <LocationOfData>Figure 2</LocationOfData>
+                <EpitopeId>48632</EpitopeId>
+                <ReferenceStartingPosition>201</ReferenceStartingPosition>
+                <ReferenceEndingPosition>215</ReferenceEndingPosition>
+                <EpitopeEvidenceCode>Representative selection</EpitopeEvidenceCode>
+                <EpitopeStructureDefines>Epitope containing region/antigenic site</EpitopeStructureDefines>
+                <Assays>
+                    <TCell>
+                        <LocationOfData>Figure 2B</LocationOfData>
+                        <TCellId>11675</TCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>9606</OrganismId>
+                                <Sex>M</Sex>
+                                <MhcAlleleTypesPresent>
+                                    <MhcAlleleId>81</MhcAlleleId>
+                                    <MhcAlleleId>244</MhcAlleleId>
+                                    <MhcAlleleId>247</MhcAlleleId>
+                                    <MhcAlleleId>274</MhcAlleleId>
+                                    <MhcAlleleId>275</MhcAlleleId>
+                                    <MhcAlleleId>341</MhcAlleleId>
+                                    <MhcAlleleId>350</MhcAlleleId>
+                                </MhcAlleleTypesPresent>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Administration in vivo</InVivoProcessType>
+                                <DiseaseState>ONTIE:0003423</DiseaseState>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Taxonomic Parent</EpitopeRelation>
+                                    <Object>
+                                        <Organism>
+                                            <SubType>Organism</SubType>
+                                            <SourceOrganismId>11292</SourceOrganismId>
+                                        </Organism>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenEvidenceCode>Not determined</ImmunogenEvidenceCode>
+                            </FirstInVivoProcess>
+                            <InVitroAdministration>
+                                <ProcessType>Restimulation in vitro</ProcessType>
+                            </InVitroAdministration>
+                            <ImmunizationComments>The T cell clone was derived from a CD4+ TCL line established from a healthy male rabies vaccine recipient. No details on the cloning procedure were given.</ImmunizationComments>
+                        </Immunization>
+                        <EffectorCells>
+                            <CellTissueType>Lymphoid</CellTissueType>
+                            <CellType>T cell</CellType>
+                            <CellCultureConditions>Cell Line / Clone</CellCultureConditions>
+                        </EffectorCells>
+                        <AntigenPresentingCells>
+                            <CellTissueType>Blood</CellTissueType>
+                            <CellType>PBMC</CellType>
+                            <CellCultureConditions>Direct Ex Vivo</CellCultureConditions>
+                            <AutologousOrSyngeneic>Y</AutologousOrSyngeneic>
+                        </AntigenPresentingCells>
+                        <MhcAllele>
+                            <MhcAlleleId>304</MhcAlleleId>
+                            <MhcEvidenceCode>T cell assay -Biological process measured</MhcEvidenceCode>
+                        </MhcAllele>
+                        <Antigen>
+                            <AntigenReferenceName>Peptide 21D</AntigenReferenceName>
+                            <AntigenObject>
+                                <EpitopeRelation>Epitope</EpitopeRelation>
+                                <Object>
+                                    <FragmentOfANaturalSequenceMolecule>
+                                        <ChemicalType>Peptide from protein</ChemicalType>
+                                        <LinearSequence>PNFRFLAGTYDMFF</LinearSequence>
+                                        <StartingPosition>201</StartingPosition>
+                                        <EndingPosition>214</EndingPosition>
+                                        <SourceMolecule>
+                                            <GenBankId>BAC07527.1</GenBankId>
+                                        </SourceMolecule>
+                                        <SourceOrganismId>11292</SourceOrganismId>
+                                    </FragmentOfANaturalSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Exact match to reference information</AntigenEvidenceCode>
+                        </Antigen>
+                        <AssayInformation>
+                            <AssayTypeId>69</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <AssayComments>In a similar experiment using a different T cell clone isolated from a healthy male rabies vaacine recipient, a negative response was found.</AssayComments>
+                        </AssayInformation>
+                    </TCell>
+                </Assays>
+            </Epitope>
+            <Epitope>
+                <EpitopeName>NS-p1</EpitopeName>
+                <EpitopeStructure>
+                    <FragmentOfANaturalSequenceMolecule>
+                        <ChemicalType>Peptide from protein</ChemicalType>
+                        <LinearSequence>SLLFQSYLDNVGVQIVRQIR</LinearSequence>
+                        <StartingPosition>90</StartingPosition>
+                        <EndingPosition>109</EndingPosition>
+                        <SourceMolecule>
+                            <GenBankId>NP_056794.1</GenBankId>
+                        </SourceMolecule>
+                        <SourceOrganismId>11295</SourceOrganismId>
+                    </FragmentOfANaturalSequenceMolecule>
+                </EpitopeStructure>
+                <LocationOfData>Table 2</LocationOfData>
+                <EpitopeId>59254</EpitopeId>
+                <ReferenceStartingPosition>90</ReferenceStartingPosition>
+                <ReferenceEndingPosition>109</ReferenceEndingPosition>
+                <EpitopeEvidenceCode>Not determined</EpitopeEvidenceCode>
+                <EpitopeStructureDefines>Epitope containing region/antigenic site</EpitopeStructureDefines>
+                <Assays>
+                    <TCell>
+                        <LocationOfData>Figure 4</LocationOfData>
+                        <TCellId>11676</TCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>9606</OrganismId>
+                                <Sex>M</Sex>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Administration in vivo</InVivoProcessType>
+                                <DiseaseState>ONTIE:0003423</DiseaseState>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Taxonomic Parent</EpitopeRelation>
+                                    <Object>
+                                        <Organism>
+                                            <SubType>Organism</SubType>
+                                            <SourceOrganismId>11292</SourceOrganismId>
+                                        </Organism>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenEvidenceCode>Not determined</ImmunogenEvidenceCode>
+                            </FirstInVivoProcess>
+                            <InVitroAdministration>
+                                <ProcessType>Restimulation in vitro</ProcessType>
+                            </InVitroAdministration>
+                            <ImmunizationComments>The T cell clone was derived from a CD4+ TCL line established from a healthy male rabies vaccine recipient. No details on the cloning procedure were given.</ImmunizationComments>
+                        </Immunization>
+                        <EffectorCells>
+                            <CellTissueType>Lymphoid</CellTissueType>
+                            <CellType>T cell</CellType>
+                            <CellCultureConditions>Cell Line / Clone</CellCultureConditions>
+                        </EffectorCells>
+                        <AntigenPresentingCells>
+                            <CellTissueType>Blood</CellTissueType>
+                            <CellType>PBMC</CellType>
+                            <CellCultureConditions>Direct Ex Vivo</CellCultureConditions>
+                            <AutologousOrSyngeneic>Y</AutologousOrSyngeneic>
+                        </AntigenPresentingCells>
+                        <MhcAllele>
+                            <MhcAlleleId>81</MhcAlleleId>
+                            <MhcEvidenceCode>Not determined</MhcEvidenceCode>
+                        </MhcAllele>
+                        <Antigen>
+                            <AntigenReferenceName>NS-p1</AntigenReferenceName>
+                            <AntigenObject>
+                                <EpitopeRelation>Epitope</EpitopeRelation>
+                                <Object>
+                                    <FragmentOfANaturalSequenceMolecule>
+                                        <ChemicalType>Peptide from protein</ChemicalType>
+                                        <LinearSequence>SLLFQSYLDNVGVQIVRQIR</LinearSequence>
+                                        <StartingPosition>90</StartingPosition>
+                                        <EndingPosition>109</EndingPosition>
+                                        <SourceMolecule>
+                                            <GenBankId>NP_056794.1</GenBankId>
+                                        </SourceMolecule>
+                                        <SourceOrganismId>11295</SourceOrganismId>
+                                    </FragmentOfANaturalSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Exact match to reference information</AntigenEvidenceCode>
+                        </Antigen>
+                        <AssayInformation>
+                            <AssayTypeId>69</AssayTypeId>
+                            <QualitativeMeasurement>Negative</QualitativeMeasurement>
+                        </AssayInformation>
+                    </TCell>
+                </Assays>
+            </Epitope>
+            <Epitope>
+                <EpitopeName>NS-p3</EpitopeName>
+                <EpitopeStructure>
+                    <FragmentOfANaturalSequenceMolecule>
+                        <ChemicalType>Peptide from protein</ChemicalType>
+                        <LinearSequence>RFLKIWSQTVEEIISYVAVN</LinearSequence>
+                        <StartingPosition>113</StartingPosition>
+                        <EndingPosition>132</EndingPosition>
+                        <SourceMolecule>
+                            <GenBankId>P69479.1</GenBankId>
+                        </SourceMolecule>
+                        <SourceOrganismId>11295</SourceOrganismId>
+                    </FragmentOfANaturalSequenceMolecule>
+                </EpitopeStructure>
+                <LocationOfData>Table 2</LocationOfData>
+                <EpitopeId>53736</EpitopeId>
+                <ReferenceStartingPosition>113</ReferenceStartingPosition>
+                <ReferenceEndingPosition>132</ReferenceEndingPosition>
+                <EpitopeEvidenceCode>Not determined</EpitopeEvidenceCode>
+                <EpitopeStructureDefines>Epitope containing region/antigenic site</EpitopeStructureDefines>
+                <Assays>
+                    <TCell>
+                        <LocationOfData>Figure 4</LocationOfData>
+                        <TCellId>11678</TCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>9606</OrganismId>
+                                <Sex>M</Sex>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Administration in vivo</InVivoProcessType>
+                                <DiseaseState>ONTIE:0003423</DiseaseState>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Taxonomic Parent</EpitopeRelation>
+                                    <Object>
+                                        <Organism>
+                                            <SubType>Organism</SubType>
+                                            <SourceOrganismId>11292</SourceOrganismId>
+                                        </Organism>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenEvidenceCode>Not determined</ImmunogenEvidenceCode>
+                            </FirstInVivoProcess>
+                            <InVitroAdministration>
+                                <ProcessType>Restimulation in vitro</ProcessType>
+                            </InVitroAdministration>
+                            <ImmunizationComments>The T cell clone was derived from a CD4+ TCL line established from a healthy male rabies vaccine recipient. No details on the cloning procedure were given.</ImmunizationComments>
+                        </Immunization>
+                        <EffectorCells>
+                            <CellTissueType>Lymphoid</CellTissueType>
+                            <CellType>T cell</CellType>
+                            <CellCultureConditions>Cell Line / Clone</CellCultureConditions>
+                        </EffectorCells>
+                        <AntigenPresentingCells>
+                            <CellTissueType>Blood</CellTissueType>
+                            <CellType>PBMC</CellType>
+                            <CellCultureConditions>Direct Ex Vivo</CellCultureConditions>
+                            <AutologousOrSyngeneic>Y</AutologousOrSyngeneic>
+                        </AntigenPresentingCells>
+                        <MhcAllele>
+                            <MhcAlleleId>81</MhcAlleleId>
+                            <MhcEvidenceCode>Not determined</MhcEvidenceCode>
+                        </MhcAllele>
+                        <Antigen>
+                            <AntigenReferenceName>NS-p3</AntigenReferenceName>
+                            <AntigenObject>
+                                <EpitopeRelation>Epitope</EpitopeRelation>
+                                <Object>
+                                    <FragmentOfANaturalSequenceMolecule>
+                                        <ChemicalType>Peptide from protein</ChemicalType>
+                                        <LinearSequence>RFLKIWSQTVEEIISYVAVN</LinearSequence>
+                                        <StartingPosition>113</StartingPosition>
+                                        <EndingPosition>132</EndingPosition>
+                                        <SourceMolecule>
+                                            <GenBankId>P69479.1</GenBankId>
+                                        </SourceMolecule>
+                                        <SourceOrganismId>11295</SourceOrganismId>
+                                    </FragmentOfANaturalSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Exact match to reference information</AntigenEvidenceCode>
+                        </Antigen>
+                        <AssayInformation>
+                            <AssayTypeId>69</AssayTypeId>
+                            <QualitativeMeasurement>Negative</QualitativeMeasurement>
+                        </AssayInformation>
+                    </TCell>
+                </Assays>
+            </Epitope>
+            <Epitope>
+                <EpitopeName>NS-p2</EpitopeName>
+                <EpitopeStructure>
+                    <FragmentOfANaturalSequenceMolecule>
+                        <ChemicalType>Peptide from protein</ChemicalType>
+                        <LinearSequence>GVQIVRQIRSGERFLKIWSQ</LinearSequence>
+                        <StartingPosition>101</StartingPosition>
+                        <EndingPosition>120</EndingPosition>
+                        <SourceMolecule>
+                            <GenBankId>NP_056794.1</GenBankId>
+                        </SourceMolecule>
+                        <SourceOrganismId>11295</SourceOrganismId>
+                    </FragmentOfANaturalSequenceMolecule>
+                </EpitopeStructure>
+                <LocationOfData>Table 2</LocationOfData>
+                <EpitopeId>23111</EpitopeId>
+                <ReferenceStartingPosition>101</ReferenceStartingPosition>
+                <ReferenceEndingPosition>120</ReferenceEndingPosition>
+                <EpitopeEvidenceCode>Not determined</EpitopeEvidenceCode>
+                <EpitopeStructureDefines>Epitope containing region/antigenic site</EpitopeStructureDefines>
+                <Assays>
+                    <TCell>
+                        <LocationOfData>Figure 4</LocationOfData>
+                        <TCellId>11679</TCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>9606</OrganismId>
+                                <Sex>M</Sex>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Administration in vivo</InVivoProcessType>
+                                <DiseaseState>ONTIE:0003423</DiseaseState>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Taxonomic Parent</EpitopeRelation>
+                                    <Object>
+                                        <Organism>
+                                            <SubType>Organism</SubType>
+                                            <SourceOrganismId>11292</SourceOrganismId>
+                                        </Organism>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenEvidenceCode>Not determined</ImmunogenEvidenceCode>
+                            </FirstInVivoProcess>
+                            <InVitroAdministration>
+                                <ProcessType>Restimulation in vitro</ProcessType>
+                            </InVitroAdministration>
+                            <ImmunizationComments>The T cell clone was derived from a CD4+ TCL line established from a healthy male rabies vaccine recipient. No details on the cloning procedure were given.</ImmunizationComments>
+                        </Immunization>
+                        <EffectorCells>
+                            <CellTissueType>Lymphoid</CellTissueType>
+                            <CellType>T cell</CellType>
+                            <CellCultureConditions>Cell Line / Clone</CellCultureConditions>
+                        </EffectorCells>
+                        <AntigenPresentingCells>
+                            <CellTissueType>Blood</CellTissueType>
+                            <CellType>PBMC</CellType>
+                            <CellCultureConditions>Direct Ex Vivo</CellCultureConditions>
+                            <AutologousOrSyngeneic>Y</AutologousOrSyngeneic>
+                        </AntigenPresentingCells>
+                        <MhcAllele>
+                            <MhcAlleleId>81</MhcAlleleId>
+                            <MhcEvidenceCode>Not determined</MhcEvidenceCode>
+                        </MhcAllele>
+                        <Antigen>
+                            <AntigenReferenceName>NS-p2</AntigenReferenceName>
+                            <AntigenObject>
+                                <EpitopeRelation>Epitope</EpitopeRelation>
+                                <Object>
+                                    <FragmentOfANaturalSequenceMolecule>
+                                        <ChemicalType>Peptide from protein</ChemicalType>
+                                        <LinearSequence>GVQIVRQIRSGERFLKIWSQ</LinearSequence>
+                                        <StartingPosition>101</StartingPosition>
+                                        <EndingPosition>120</EndingPosition>
+                                        <SourceMolecule>
+                                            <GenBankId>NP_056794.1</GenBankId>
+                                        </SourceMolecule>
+                                        <SourceOrganismId>11295</SourceOrganismId>
+                                    </FragmentOfANaturalSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Exact match to reference information</AntigenEvidenceCode>
+                        </Antigen>
+                        <AssayInformation>
+                            <AssayTypeId>69</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <AssayComments>L cell transfectants expressing DPw4, but not those expressing DR7 molecules were able to present the NS-p2 synthetic peptide to clone EG-Cl 1. Another T cell clone (EG-B6), also isolated from a healthy male rabies vaccine recipient, showed no proliferative response to this peptide.</AssayComments>
+                        </AssayInformation>
+                    </TCell>
+                </Assays>
+            </Epitope>
+            <Epitope>
+                <EpitopeName>Sld</EpitopeName>
+                <EpitopeStructure>
+                    <FragmentOfANaturalSequenceMolecule>
+                        <ChemicalType>Peptide from protein</ChemicalType>
+                        <LinearSequence>FFLLTRILTI</LinearSequence>
+                        <StartingPosition>19</StartingPosition>
+                        <EndingPosition>28</EndingPosition>
+                        <SourceMolecule>
+                            <GenBankId>ABF71024.1</GenBankId>
+                        </SourceMolecule>
+                        <SourceOrganismId>10407</SourceOrganismId>
+                    </FragmentOfANaturalSequenceMolecule>
+                </EpitopeStructure>
+                <LocationOfData>Table 2</LocationOfData>
+                <EpitopeId>15848</EpitopeId>
+                <ReferenceStartingPosition>19</ReferenceStartingPosition>
+                <ReferenceEndingPosition>28</ReferenceEndingPosition>
+                <EpitopeEvidenceCode>Representative selection</EpitopeEvidenceCode>
+                <EpitopeStructureDefines>Exact Epitope</EpitopeStructureDefines>
+                <Assays>
+                    <TCell>
+                        <LocationOfData>Figure 7</LocationOfData>
+                        <TCellId>11680</TCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>9606</OrganismId>
+                                <Sex>M</Sex>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Administration in vivo</InVivoProcessType>
+                                <DiseaseState>ONTIE:0003423</DiseaseState>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Taxonomic Parent</EpitopeRelation>
+                                    <Object>
+                                        <Organism>
+                                            <SubType>Organism</SubType>
+                                            <SourceOrganismId>11292</SourceOrganismId>
+                                        </Organism>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenEvidenceCode>Not determined</ImmunogenEvidenceCode>
+                            </FirstInVivoProcess>
+                            <InVitroAdministration>
+                                <ProcessType>Restimulation in vitro</ProcessType>
+                            </InVitroAdministration>
+                            <ImmunizationComments>The T cell clone was isolated from a healthy male hepatitis vaccine recipient.  No details on the cloning procedure were given.</ImmunizationComments>
+                        </Immunization>
+                        <EffectorCells>
+                            <CellTissueType>Lymphoid</CellTissueType>
+                            <CellType>T cell</CellType>
+                            <CellCultureConditions>Cell Line / Clone</CellCultureConditions>
+                        </EffectorCells>
+                        <AntigenPresentingCells>
+                            <CellTissueType>Blood</CellTissueType>
+                            <CellType>PBMC</CellType>
+                            <CellCultureConditions>Direct Ex Vivo</CellCultureConditions>
+                            <AutologousOrSyngeneic>Y</AutologousOrSyngeneic>
+                        </AntigenPresentingCells>
+                        <MhcAllele>
+                            <MhcAlleleId>81</MhcAlleleId>
+                            <MhcEvidenceCode>Not determined</MhcEvidenceCode>
+                        </MhcAllele>
+                        <Antigen>
+                            <AntigenReferenceName>Sld</AntigenReferenceName>
+                            <AntigenObject>
+                                <EpitopeRelation>Epitope</EpitopeRelation>
+                                <Object>
+                                    <FragmentOfANaturalSequenceMolecule>
+                                        <ChemicalType>Peptide from protein</ChemicalType>
+                                        <LinearSequence>FFLLTRILTI</LinearSequence>
+                                        <StartingPosition>19</StartingPosition>
+                                        <EndingPosition>28</EndingPosition>
+                                        <SourceMolecule>
+                                            <GenBankId>ABF71024.1</GenBankId>
+                                        </SourceMolecule>
+                                        <SourceOrganismId>10407</SourceOrganismId>
+                                    </FragmentOfANaturalSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Exact match to reference information</AntigenEvidenceCode>
+                        </Antigen>
+                        <AssayInformation>
+                            <AssayTypeId>69</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <AssayComments>Another T cell clone (EG-C11), also isolated from a healthy male rabies vaccine recipient, showed no proliferative response to this peptide.</AssayComments>
+                        </AssayInformation>
+                    </TCell>
+                </Assays>
+            </Epitope>
+        </Epitopes>
+    </Reference>
+</References>
+

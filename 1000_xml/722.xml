@@ -1,0 +1,341 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<References xsi:schemaLocation="http://www.iedb.org/schema/CurationSchema http://beta.iedb.org/schema/Curation.xsd" xmlns="http://www.iedb.org/schema/CurationSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <Reference>
+        <ReferenceId>722</ReferenceId>
+        <DateLastUpdated>2020-09-10-07:00</DateLastUpdated>
+        <Article>
+            <PubmedId>12210604</PubmedId>
+            <Abstract>BACKGROUND: Knowledge of the target and functional capability of the antibody response against an antigen provides more specific and relevant information about protective immunity than measuring the total amount of antibody produced against an antigen. METHODS: Using flow cytometry, a competitive assay has been created for measuring the antibody response against important epitopes of an antigen. Monoclonal antibodies (mAbs) against the protective antigen (PA) component of Bacillus anthracis are available that neutralize the activity of lethal toxin (LeTx). Flow cytometric analysis revealed that these mAbs bind PA conjugated to polystyrene latex microspheres. RESULTS: Unlabeled mAbs against PA competed with fluorescent mAbs that bind the homologous epitope but not with fluorescent mAbs that bind heterologous epitopes. Four-parameter logistic models were developed for measuring the antibody response against two epitopes of PA. Sera from anthrax-vaccinated rabbits inhibited the binding of fluorescent mAbs to either epitope; the degree of inhibition correlated with the dilution of sera. CONCLUSIONS: The response in the rabbit sera to either epitope on PA depended on the dose of vaccine administered to the rabbits. No inhibition was seen with sera from control animals. With no species-specific components, this assay could be adapted readily for comparing responses between species.</Abstract>
+            <ArticleYear>2002</ArticleYear>
+            <ArticlePages>1-7</ArticlePages>
+            <ArticleTitle>Mapping of antibody responses to the protective antigen of Bacillus anthracis by flow cytometric analysis.</ArticleTitle>
+            <Authors>
+                <Author>
+                    <LastName>Reed</LastName>
+                    <ForeName>Douglas S</ForeName>
+                </Author>
+                <Author>
+                    <LastName>Smoll</LastName>
+                    <ForeName>Jennifer</ForeName>
+                </Author>
+                <Author>
+                    <LastName>Gibbs</LastName>
+                    <ForeName>Paul</ForeName>
+                </Author>
+                <Author>
+                    <LastName>Little</LastName>
+                    <ForeName>Stephen F</ForeName>
+                </Author>
+            </Authors>
+            <Affiliations>Division of Toxinology and Aerobiology, U.S. Army Medical Research Institute of Infectious Diseases, Frederick, Maryland 21702-5011, USA. doug.reed@det.amedd.army.mil</Affiliations>
+            <ArticleChemicalList>Antibodies, Bacterial;Antibodies, Monoclonal;Antigens, Bacterial;Bacterial Vaccines</ArticleChemicalList>
+            <ArticleMeshHeadingsList>Animals; Antibodies, Bacterial(immunology ); Antibodies, Monoclonal(immunology ); Antibody Specificity; Antigens, Bacterial(immunology ); Bacillus anthracis(immunology ); Bacterial Vaccines(immunology ); Enzyme-Linked Immunosorbent Assay; Epitope Mapping; Flow Cytometry(methods ); Rabbits </ArticleMeshHeadingsList>
+            <Journal>
+                <Volume>49</Volume>
+                <Issue>1</Issue>
+                <Title>Cytometry.</Title>
+                <Issn>1097-0320</Issn>
+                <MedlineTa>Cytometry</MedlineTa>
+            </Journal>
+        </Article>
+        <Epitopes>
+            <Epitope>
+                <EpitopeName>PA 581-601</EpitopeName>
+                <EpitopeStructure>
+                    <FragmentOfANaturalSequenceMolecule>
+                        <ChemicalType>Peptide from protein</ChemicalType>
+                        <LinearSequence>IKLNAKMNILIRDKRFHYDRN</LinearSequence>
+                        <StartingPosition>610</StartingPosition>
+                        <EndingPosition>630</EndingPosition>
+                        <SourceMolecule>
+                            <GenBankId>P13423.2</GenBankId>
+                        </SourceMolecule>
+                        <SourceOrganismId>1392</SourceOrganismId>
+                    </FragmentOfANaturalSequenceMolecule>
+                </EpitopeStructure>
+                <LocationOfData>Table 1</LocationOfData>
+                <EpitopeId>26841</EpitopeId>
+                <ReferenceStartingPosition>581</ReferenceStartingPosition>
+                <ReferenceEndingPosition>601</ReferenceEndingPosition>
+                <EpitopeEvidenceCode>Not determined</EpitopeEvidenceCode>
+                <EpitopeStructureDefines>Epitope containing region/antigenic site</EpitopeStructureDefines>
+                <Assays>
+                    <BCell>
+                        <LocationOfData>Figure 4 and Table 2</LocationOfData>
+                        <BCellId>1314798</BCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>10000206</OrganismId>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Administration in vivo</InVivoProcessType>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Source Antigen</EpitopeRelation>
+                                    <Object>
+                                        <AccessionSequenceMolecule>
+                                            <ChemicalType>Protein</ChemicalType>
+                                            <Molecule>
+                                                <GenBankId>P13423.2</GenBankId>
+                                            </Molecule>
+                                            <SourceOrganismId>1392</SourceOrganismId>
+                                        </AccessionSequenceMolecule>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenReferenceName>Protective antigen</ImmunogenReferenceName>
+                                <ImmunogenEvidenceCode>Not determined</ImmunogenEvidenceCode>
+                                <Adjuvant>Alum (Aluminum hydroxide gel)</Adjuvant>
+                                <Route>Intramuscular</Route>
+                                <DoseSchedule>Rabbits were immunized with varying doses of AVA two times at 4 weeks apart.</DoseSchedule>
+                            </FirstInVivoProcess>
+                            <ImmunizationComments>The AVA vaccine consists mainly of protective antigen (PA) from cultures of the unencapsulated, toxin-producing strain of B. anthracis V770-NP1-R adsorbed onto aluminum hydroxide. Rabbit sera were taken at 6 weeks post vaccination.</ImmunizationComments>
+                        </Immunization>
+                        <AssayInformation>
+                            <AssayTypeId>308</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <NumberOfSubjectsTested>17</NumberOfSubjectsTested>
+                            <NumberOfSubjectsResponded>17</NumberOfSubjectsResponded>
+                            <ResponseFrequency>100</ResponseFrequency>
+                            <AssayComments>Sera from AVA (anthrax)-vaccinated rabbits inhibited the binding of FITC-2D3 MAb, which recognizes the epitope, to recombinant PA conjugated to microspheres.The authors conclude that the vaccinated rabbits produced antibodies to the epitope.</AssayComments>
+                        </AssayInformation>
+                        <AssayedAntibody>
+                            <AssayedAntibodySourceMaterial>Serum</AssayedAntibodySourceMaterial>
+                            <AssayedAntibodyImmunoglobulinDomain>Entire Antibody</AssayedAntibodyImmunoglobulinDomain>
+                            <AssayedAntibodyPurificationStatus>Polyclonal</AssayedAntibodyPurificationStatus>
+                            <AssayedAntibodyName>rabbit anti-AVA</AssayedAntibodyName>
+                            <AssayedAntibodyHeavyChainType>IgG</AssayedAntibodyHeavyChainType>
+                        </AssayedAntibody>
+                        <Antigen>
+                            <AntigenReferenceName>recombinant protective antigen (rPA)</AntigenReferenceName>
+                            <AntigenConformation>Non-Native/Unknown</AntigenConformation>
+                            <AntigenObject>
+                                <EpitopeRelation>Source Antigen</EpitopeRelation>
+                                <Object>
+                                    <AccessionSequenceMolecule>
+                                        <ChemicalType>Protein</ChemicalType>
+                                        <Molecule>
+                                            <GenBankId>P13423.2</GenBankId>
+                                        </Molecule>
+                                        <SourceOrganismId>1392</SourceOrganismId>
+                                    </AccessionSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Not determined</AntigenEvidenceCode>
+                        </Antigen>
+                    </BCell>
+                </Assays>
+                <Assays>
+                    <BCell>
+                        <LocationOfData>Figures 1, 2 and 3</LocationOfData>
+                        <BCellId>1314797</BCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>10000000</OrganismId>
+                                <Sex>F</Sex>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Administration in vivo</InVivoProcessType>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Source Antigen</EpitopeRelation>
+                                    <Object>
+                                        <AccessionSequenceMolecule>
+                                            <ChemicalType>Protein</ChemicalType>
+                                            <Molecule>
+                                                <GenBankId>P13423.2</GenBankId>
+                                            </Molecule>
+                                            <SourceOrganismId>1392</SourceOrganismId>
+                                        </AccessionSequenceMolecule>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenReferenceName>Protective antigen</ImmunogenReferenceName>
+                                <ImmunogenEvidenceCode>Not determined</ImmunogenEvidenceCode>
+                                <Adjuvant>Freund's complete</Adjuvant>
+                                <Adjuvant>Freund's incomplete (IFA)</Adjuvant>
+                                <Route>Intramuscular</Route>
+                                <DoseSchedule>Mice were immunized with 20 µg of PA in CFA and boosted with 20 µg of PA in IFA on day 17 and 29 weeks. Mice were injected i.v. with 50 µg of PA at 40 weeks, 3 days before fusion of spleen cells with SP2/0-Ag14 myelona cells.</DoseSchedule>
+                            </FirstInVivoProcess>
+                        </Immunization>
+                        <AssayInformation>
+                            <AssayTypeId>139</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <AssayComments>FITC-conjugated MAb 2D3 binds to recombinant PA conjugated  to microspheres. Binding of FITC-MAb 2D3 is blocked by unlabeled 2D3, but is not blocked by MAbs 3B6 or 14B7, which recognize a non-overlapping epitope.</AssayComments>
+                        </AssayInformation>
+                        <AssayedAntibody>
+                            <AssayedAntibodySourceMaterial>Purified Immunoglobulin</AssayedAntibodySourceMaterial>
+                            <AssayedAntibodyImmunoglobulinDomain>Entire Antibody</AssayedAntibodyImmunoglobulinDomain>
+                            <AssayedAntibodyPurificationStatus>Monoclonal</AssayedAntibodyPurificationStatus>
+                            <AssayedAntibodyName>2D3</AssayedAntibodyName>
+                            <AssayedAntibodyHeavyChainType>IgG1</AssayedAntibodyHeavyChainType>
+                        </AssayedAntibody>
+                        <Antigen>
+                            <AntigenReferenceName>recombinant protective antigen (rPA)</AntigenReferenceName>
+                            <AntigenConformation>Non-Native/Unknown</AntigenConformation>
+                            <AntigenObject>
+                                <EpitopeRelation>Source Antigen</EpitopeRelation>
+                                <Object>
+                                    <AccessionSequenceMolecule>
+                                        <ChemicalType>Protein</ChemicalType>
+                                        <Molecule>
+                                            <GenBankId>P13423.2</GenBankId>
+                                        </Molecule>
+                                        <SourceOrganismId>1392</SourceOrganismId>
+                                    </AccessionSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Not determined</AntigenEvidenceCode>
+                        </Antigen>
+                    </BCell>
+                </Assays>
+            </Epitope>
+            <Epitope>
+                <EpitopeName>PA 671-721</EpitopeName>
+                <EpitopeStructure>
+                    <FragmentOfANaturalSequenceMolecule>
+                        <ChemicalType>Peptide from protein</ChemicalType>
+                        <LinearSequence>DGKTFIDFKKYNDKLPLYISNPNYKVNVYAVTKENTIINPSENGDTSTNGI</LinearSequence>
+                        <StartingPosition>700</StartingPosition>
+                        <EndingPosition>750</EndingPosition>
+                        <SourceMolecule>
+                            <GenBankId>P13423.2</GenBankId>
+                        </SourceMolecule>
+                        <SourceOrganismId>1392</SourceOrganismId>
+                    </FragmentOfANaturalSequenceMolecule>
+                </EpitopeStructure>
+                <LocationOfData>Table 1</LocationOfData>
+                <EpitopeId>8426</EpitopeId>
+                <ReferenceStartingPosition>671</ReferenceStartingPosition>
+                <ReferenceEndingPosition>721</ReferenceEndingPosition>
+                <EpitopeEvidenceCode>Not determined</EpitopeEvidenceCode>
+                <EpitopeStructureDefines>Epitope containing region/antigenic site</EpitopeStructureDefines>
+                <EpitopeComments>DGKTFIDFKKYNDKLPLYISNPNYKVNVYAVTKENTIINPSENGDTSTNGI.</EpitopeComments>
+                <Assays>
+                    <BCell>
+                        <LocationOfData>Figure 4 and Table 2</LocationOfData>
+                        <BCellId>1314799</BCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>10000206</OrganismId>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Administration in vivo</InVivoProcessType>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Source Antigen</EpitopeRelation>
+                                    <Object>
+                                        <AccessionSequenceMolecule>
+                                            <ChemicalType>Protein</ChemicalType>
+                                            <Molecule>
+                                                <GenBankId>P13423.2</GenBankId>
+                                            </Molecule>
+                                            <SourceOrganismId>1392</SourceOrganismId>
+                                        </AccessionSequenceMolecule>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenReferenceName>Protective antigen</ImmunogenReferenceName>
+                                <ImmunogenEvidenceCode>Not determined</ImmunogenEvidenceCode>
+                                <Adjuvant>Alum (Aluminum hydroxide gel)</Adjuvant>
+                                <Route>Intramuscular</Route>
+                                <DoseSchedule>Rabbits were immunized with varying doses of AVA two times at 4 weeks apart.</DoseSchedule>
+                            </FirstInVivoProcess>
+                            <ImmunizationComments>The AVA vaccine consists mainly of protective antigen (PA) from cultures of the unencapsulated, toxin-producing strain of B. anthracis V770-NP1-R adsorbed onto aluminum hydroxide. Rabbit sera were taken at 6 weeks post vaccination.</ImmunizationComments>
+                        </Immunization>
+                        <AssayInformation>
+                            <AssayTypeId>308</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <NumberOfSubjectsTested>17</NumberOfSubjectsTested>
+                            <NumberOfSubjectsResponded>17</NumberOfSubjectsResponded>
+                            <ResponseFrequency>100</ResponseFrequency>
+                            <AssayComments>Sera from AVA (anthrax)-vaccinated rabbits inhibited the binding of FITC-14B7 MAb, which recognizes the epitope, to recombinant PA conjugated to microspheres.The authors conclude that the vaccinated rabbits produced antibodies to the epitope.</AssayComments>
+                        </AssayInformation>
+                        <AssayedAntibody>
+                            <AssayedAntibodySourceMaterial>Serum</AssayedAntibodySourceMaterial>
+                            <AssayedAntibodyImmunoglobulinDomain>Entire Antibody</AssayedAntibodyImmunoglobulinDomain>
+                            <AssayedAntibodyPurificationStatus>Polyclonal</AssayedAntibodyPurificationStatus>
+                            <AssayedAntibodyName>rabbit anti-AVA</AssayedAntibodyName>
+                            <AssayedAntibodyHeavyChainType>IgG</AssayedAntibodyHeavyChainType>
+                        </AssayedAntibody>
+                        <Antigen>
+                            <AntigenReferenceName>recombinant protective antigen (rPA)</AntigenReferenceName>
+                            <AntigenConformation>Non-Native/Unknown</AntigenConformation>
+                            <AntigenObject>
+                                <EpitopeRelation>Source Antigen</EpitopeRelation>
+                                <Object>
+                                    <AccessionSequenceMolecule>
+                                        <ChemicalType>Protein</ChemicalType>
+                                        <Molecule>
+                                            <GenBankId>P13423.2</GenBankId>
+                                        </Molecule>
+                                        <SourceOrganismId>1392</SourceOrganismId>
+                                    </AccessionSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Not determined</AntigenEvidenceCode>
+                        </Antigen>
+                    </BCell>
+                </Assays>
+                <Assays>
+                    <BCell>
+                        <LocationOfData>Figures 1, 2 and 3</LocationOfData>
+                        <BCellId>1314800</BCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>10000000</OrganismId>
+                                <Sex>F</Sex>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Administration in vivo</InVivoProcessType>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Source Antigen</EpitopeRelation>
+                                    <Object>
+                                        <AccessionSequenceMolecule>
+                                            <ChemicalType>Protein</ChemicalType>
+                                            <Molecule>
+                                                <GenBankId>P13423.2</GenBankId>
+                                            </Molecule>
+                                            <SourceOrganismId>1392</SourceOrganismId>
+                                        </AccessionSequenceMolecule>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenReferenceName>Protective antigen</ImmunogenReferenceName>
+                                <ImmunogenEvidenceCode>Not determined</ImmunogenEvidenceCode>
+                                <Adjuvant>Freund's complete</Adjuvant>
+                                <Adjuvant>Freund's incomplete (IFA)</Adjuvant>
+                                <Route>Intramuscular</Route>
+                                <DoseSchedule>Mice were immunized with 20 µg of PA in CFA and boosted with 20 µg of PA in IFA on day 17 and 29 weeks. Mice were injected i.v. with 50 µg of PA at 40 weeks, 3 days before fusion of spleen cells with SP2/0-Ag14 myelona cells.</DoseSchedule>
+                            </FirstInVivoProcess>
+                            <ImmunizationComments>For MAb 14B7, mice were injected i.p. with 50 µg of PA in CFA on days 0 and 7 and boosted with 5 µg of PA in saline i.p. on day 12, 2.5 µg of PA in saline i.p. and i.v. on days 13 and 14, and 20 µg of PA in saline i.v. at 8 weeks. Mice were injected i.v. with 100 µg of PA in saline at 25 weeks, 3 days before fusion of spleen cells with SP2/0-Ag14 myelona cells.</ImmunizationComments>
+                        </Immunization>
+                        <AssayInformation>
+                            <AssayTypeId>139</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <AssayComments>FITC-conjugated MAbs 3B6 and 14B7 bind to recombinant PA conjugated  to microspheres. Binding of FITC-3B6 is blocked by unlabeled 3B6 or 14B7 and FITC-14B7 is blocked by 3B6, but neither is not blocked by MAb 2D3, which recognizes a non-overlapping epitope.</AssayComments>
+                        </AssayInformation>
+                        <AssayedAntibody>
+                            <AssayedAntibodySourceMaterial>Purified Immunoglobulin</AssayedAntibodySourceMaterial>
+                            <AssayedAntibodyImmunoglobulinDomain>Entire Antibody</AssayedAntibodyImmunoglobulinDomain>
+                            <AssayedAntibodyPurificationStatus>Monoclonal</AssayedAntibodyPurificationStatus>
+                            <AssayedAntibodyName>3B6, 14B7</AssayedAntibodyName>
+                            <AssayedAntibodyHeavyChainType>IgG1</AssayedAntibodyHeavyChainType>
+                        </AssayedAntibody>
+                        <Antigen>
+                            <AntigenReferenceName>recombinant protective antigen (rPA)</AntigenReferenceName>
+                            <AntigenConformation>Non-Native/Unknown</AntigenConformation>
+                            <AntigenObject>
+                                <EpitopeRelation>Source Antigen</EpitopeRelation>
+                                <Object>
+                                    <AccessionSequenceMolecule>
+                                        <ChemicalType>Protein</ChemicalType>
+                                        <Molecule>
+                                            <GenBankId>P13423.2</GenBankId>
+                                        </Molecule>
+                                        <SourceOrganismId>1392</SourceOrganismId>
+                                    </AccessionSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Not determined</AntigenEvidenceCode>
+                        </Antigen>
+                    </BCell>
+                </Assays>
+            </Epitope>
+        </Epitopes>
+    </Reference>
+</References>
+

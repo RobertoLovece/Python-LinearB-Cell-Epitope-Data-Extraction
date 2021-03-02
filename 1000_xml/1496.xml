@@ -1,0 +1,469 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<References xsi:schemaLocation="http://www.iedb.org/schema/CurationSchema http://beta.iedb.org/schema/Curation.xsd" xmlns="http://www.iedb.org/schema/CurationSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <Reference>
+        <ReferenceId>1496</ReferenceId>
+        <DateLastUpdated>2020-09-10-07:00</DateLastUpdated>
+        <Article>
+            <PubmedId>7477351</PubmedId>
+            <Abstract>T cells are normally activated when the peptide for which they are specific is presented to them in the context of the appropriate major histocompatibility complex (MHC) (class I and Class II for CD8+ and CD4+ T cells, respectively). An increasing body of evidence indicates that structural homologues of the immunogenic peptide can partially activate or antagonize CD4+ T cells. CD8+ T cells may also be partially antagonized by such peptides, and self-derived peptides of this type may play a role in CD8+ T cell selection in the thymus. Activated CD8+ T cells lyse their targets by perforin-dependent granule exocytosis and by inducing apoptosis mediated by CD95 (also known as Fas or APO1) with its ligand (CD95L). Here we show that a clone of Kd-restricted CD8+ T cells specific for influenza haemagglutinin, which can also be activated in a crossreactive manner by a peptide derived from a myeloma tumour immunoglobulin heavy-chain variable region (IgVH) to kill by both routes, kills only by the CD95-CD95L pathway when stimulated by the corresponding germline IgVH peptide. As this germline IgVH peptide differs from the tumour peptide only at a single position buried in the MHC-binding groove, this indicates that CD95-CD95L-mediated killing can be triggered independently of the perforin-mediated pathway, and can be selectively affected by changes in MHC conformation.</Abstract>
+            <ArticleYear>1995</ArticleYear>
+            <ArticlePages>295-8</ArticlePages>
+            <ArticleTitle>Partial activation of CD8+ T cells by a self-derived peptide.</ArticleTitle>
+            <Authors>
+                <Author>
+                    <LastName>Cao</LastName>
+                    <ForeName>W</ForeName>
+                </Author>
+                <Author>
+                    <LastName>Tykodi</LastName>
+                    <ForeName>S S</ForeName>
+                </Author>
+                <Author>
+                    <LastName>Esser</LastName>
+                    <ForeName>M T</ForeName>
+                </Author>
+                <Author>
+                    <LastName>Braciale</LastName>
+                    <ForeName>V L</ForeName>
+                </Author>
+                <Author>
+                    <LastName>Braciale</LastName>
+                    <ForeName>T J</ForeName>
+                </Author>
+            </Authors>
+            <Affiliations>Beirne B. Carter Center for Immunology Research, University of Virginia Health Sciences Center, Charlottesville 22908, USA.</Affiliations>
+            <ArticleChemicalList>H-2 Antigens;H-2K(K) antigen;Hemagglutinin Glycoproteins, Influenza Virus;Hemagglutinins, Viral;Immunoglobulin Heavy Chains;Membrane Glycoproteins;Myeloma Proteins;Peptide Fragments;Pore Forming Cytotoxic Proteins;Receptors, Antigen, T-Cell;Perforin;DNA;Leukocyte Common Antigens</ArticleChemicalList>
+            <ArticleMeshHeadingsList>Amino Acid Sequence; Animals; Base Sequence; CD8-Positive T-Lymphocytes(immunology); Cell Death; Cell Line; Clone Cells; DNA; H-2 Antigens(immunology); Hemagglutinin Glycoproteins, Influenza Virus; Hemagglutinins, Viral(immunology); Immunoglobulin Heavy Chains(genetics; immunology); Leukocyte Common Antigens(immunology); Lymphocyte Activation; Membrane Glycoproteins(immunology); Mice; Molecular Sequence Data; Myeloma Proteins(genetics; immunology); Peptide Fragments(immunology); Perforin; Pore Forming Cytotoxic Proteins; Receptors, Antigen, T-Cell(immunology); Signal Transduction</ArticleMeshHeadingsList>
+            <Journal>
+                <Volume>378</Volume>
+                <Issue>6554</Issue>
+                <Title>Nature</Title>
+                <Issn>1476-4687</Issn>
+                <MedlineTa>Nature</MedlineTa>
+            </Journal>
+        </Article>
+        <Epitopes>
+            <Epitope>
+                <EpitopeName>21 VH-L</EpitopeName>
+                <EpitopeStructure>
+                    <FragmentOfANaturalSequenceMolecule>
+                        <ChemicalType>Peptide from protein</ChemicalType>
+                        <LinearSequence>AYISSGSSTL</LinearSequence>
+                        <StartingPosition>65</StartingPosition>
+                        <EndingPosition>74</EndingPosition>
+                        <SourceMolecule>
+                            <GenBankId>P01783.1</GenBankId>
+                        </SourceMolecule>
+                        <SourceOrganismId>10000000</SourceOrganismId>
+                    </FragmentOfANaturalSequenceMolecule>
+                </EpitopeStructure>
+                <LocationOfData>Figure 1a</LocationOfData>
+                <EpitopeId>5845</EpitopeId>
+                <ReferenceStartingPosition>49</ReferenceStartingPosition>
+                <ReferenceEndingPosition>58</ReferenceEndingPosition>
+                <EpitopeEvidenceCode>Representative selection</EpitopeEvidenceCode>
+                <EpitopeStructureDefines>Exact Epitope</EpitopeStructureDefines>
+                <EpitopeComments>This is a peptide of the IgVH  domain of the IgG1 secreted by the MOPC 21 myeloma. The Swiss-Prot numbering includes the signal sequence (1-16).</EpitopeComments>
+                <Assays>
+                    <TCell>
+                        <LocationOfData>Figure 1d</LocationOfData>
+                        <TCellId>24630</TCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>10000000</OrganismId>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Administration in vivo</InVivoProcessType>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Other</EpitopeRelation>
+                                    <Object>
+                                        <Organism>
+                                            <SubType>Organism</SubType>
+                                            <SourceOrganismId>387161</SourceOrganismId>
+                                        </Organism>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenEvidenceCode>Not determined</ImmunogenEvidenceCode>
+                            </FirstInVivoProcess>
+                            <InVitroAdministration>
+                                <ProcessType>Restimulation in vitro</ProcessType>
+                            </InVitroAdministration>
+                            <ImmunizationComments>The origin of the JHA 210-219 -specific T cell clone 40-2 was previously described.</ImmunizationComments>
+                        </Immunization>
+                        <EffectorCells>
+                            <CellType>T cell CD8+</CellType>
+                            <CellCultureConditions>Cell Line / Clone</CellCultureConditions>
+                        </EffectorCells>
+                        <AssayedTcrMolecule>
+                            <AssayedTcrMoleculeName>40-2</AssayedTcrMoleculeName>
+                        </AssayedTcrMolecule>
+                        <AntigenPresentingCells>
+                            <CellTissueType>Other</CellTissueType>
+                            <CellType>P815-Mast cell</CellType>
+                            <CellCultureConditions>Cell Line / Clone</CellCultureConditions>
+                            <AutologousOrSyngeneic>N</AutologousOrSyngeneic>
+                            <SourceOrganismId>10090</SourceOrganismId>
+                        </AntigenPresentingCells>
+                        <MhcAllele>
+                            <MhcAlleleId>124</MhcAlleleId>
+                            <MhcEvidenceCode>MHC binding assay</MhcEvidenceCode>
+                        </MhcAllele>
+                        <Antigen>
+                            <AntigenReferenceName>21 VH-L</AntigenReferenceName>
+                            <AntigenObject>
+                                <EpitopeRelation>Epitope</EpitopeRelation>
+                                <Object>
+                                    <FragmentOfANaturalSequenceMolecule>
+                                        <ChemicalType>Peptide from protein</ChemicalType>
+                                        <LinearSequence>AYISSGSSTL</LinearSequence>
+                                        <StartingPosition>65</StartingPosition>
+                                        <EndingPosition>74</EndingPosition>
+                                        <SourceMolecule>
+                                            <GenBankId>P01783.1</GenBankId>
+                                        </SourceMolecule>
+                                        <SourceOrganismId>10000000</SourceOrganismId>
+                                    </FragmentOfANaturalSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Exact match to reference information</AntigenEvidenceCode>
+                        </Antigen>
+                        <AssayInformation>
+                            <AssayTypeId>67</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <AssayComments>Because of its homology to JHA 210-219 (TYVSVGTSTL), this epitope induces cytotoxicity as measured both in &lt;SUP&gt;51&lt;/SUP&gt;Cr-release and DNA fragmentation assays (i.e. by both perforin- and Fas-mediated mechanisms) by 40-2, a JHA 210-219-specific T cell clone. This feature is not universal since another clone recognizing that epitope, but differing in fine specificity, fails to recognize the 21 VH-L peptide.</AssayComments>
+                        </AssayInformation>
+                    </TCell>
+                </Assays>
+                <Assays>
+                    <MhcBinding>
+                        <LocationOfData>Figure 1c</LocationOfData>
+                        <MhcBindingId>24629</MhcBindingId>
+                        <AssayInformation>
+                            <AssayTypeId>185</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <AssayComments>Binding to H-2 K&lt;SUP&gt;d&lt;/SUP&gt; was also demonstrated in a peptide competition cytotoxicity assay.</AssayComments>
+                        </AssayInformation>
+                        <MhcAlleleId>124</MhcAlleleId>
+                    </MhcBinding>
+                </Assays>
+            </Epitope>
+            <Epitope>
+                <EpitopeName>GL VH-I</EpitopeName>
+                <EpitopeStructure>
+                    <FragmentOfANaturalSequenceMolecule>
+                        <ChemicalType>Peptide from protein</ChemicalType>
+                        <LinearSequence>AYISSGSSTI</LinearSequence>
+                        <StartingPosition>41</StartingPosition>
+                        <EndingPosition>50</EndingPosition>
+                        <SourceMolecule>
+                            <GenBankId>AAT36662.1</GenBankId>
+                        </SourceMolecule>
+                        <SourceOrganismId>10000000</SourceOrganismId>
+                    </FragmentOfANaturalSequenceMolecule>
+                </EpitopeStructure>
+                <LocationOfData>Figure 1a</LocationOfData>
+                <EpitopeId>5844</EpitopeId>
+                <ReferenceStartingPosition>49</ReferenceStartingPosition>
+                <ReferenceEndingPosition>58</ReferenceEndingPosition>
+                <EpitopeEvidenceCode>Representative selection</EpitopeEvidenceCode>
+                <EpitopeStructureDefines>Exact Epitope</EpitopeStructureDefines>
+                <EpitopeComments>This sequence is found in the germline from which the IgG1 secreted by the MOPC 21 myeloma is derived. It differs by one amino acid (I10L) in the sequence actually expressed by that cell line.</EpitopeComments>
+                <Assays>
+                    <TCell>
+                        <LocationOfData>Figure 1d</LocationOfData>
+                        <TCellId>24655</TCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>10000000</OrganismId>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Administration in vivo</InVivoProcessType>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Other</EpitopeRelation>
+                                    <Object>
+                                        <Organism>
+                                            <SubType>Organism</SubType>
+                                            <SourceOrganismId>387161</SourceOrganismId>
+                                        </Organism>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenEvidenceCode>Not determined</ImmunogenEvidenceCode>
+                            </FirstInVivoProcess>
+                            <InVitroAdministration>
+                                <ProcessType>Restimulation in vitro</ProcessType>
+                            </InVitroAdministration>
+                            <ImmunizationComments>The origin of the JHA 210-219 -specific T cell clone 40-2 was previously described.</ImmunizationComments>
+                        </Immunization>
+                        <EffectorCells>
+                            <CellType>T cell CD8+</CellType>
+                            <CellCultureConditions>Cell Line / Clone</CellCultureConditions>
+                        </EffectorCells>
+                        <AssayedTcrMolecule>
+                            <AssayedTcrMoleculeName>40-2</AssayedTcrMoleculeName>
+                        </AssayedTcrMolecule>
+                        <AntigenPresentingCells>
+                            <CellTissueType>Other</CellTissueType>
+                            <CellType>P815-Mast cell</CellType>
+                            <CellCultureConditions>Cell Line / Clone</CellCultureConditions>
+                            <AutologousOrSyngeneic>N</AutologousOrSyngeneic>
+                            <SourceOrganismId>10090</SourceOrganismId>
+                        </AntigenPresentingCells>
+                        <MhcAllele>
+                            <MhcAlleleId>124</MhcAlleleId>
+                            <MhcEvidenceCode>MHC binding assay</MhcEvidenceCode>
+                        </MhcAllele>
+                        <Antigen>
+                            <AntigenReferenceName>GL VH-I</AntigenReferenceName>
+                            <AntigenObject>
+                                <EpitopeRelation>Epitope</EpitopeRelation>
+                                <Object>
+                                    <FragmentOfANaturalSequenceMolecule>
+                                        <ChemicalType>Peptide from protein</ChemicalType>
+                                        <LinearSequence>AYISSGSSTI</LinearSequence>
+                                        <StartingPosition>41</StartingPosition>
+                                        <EndingPosition>50</EndingPosition>
+                                        <SourceMolecule>
+                                            <GenBankId>AAT36662.1</GenBankId>
+                                        </SourceMolecule>
+                                        <SourceOrganismId>10000000</SourceOrganismId>
+                                    </FragmentOfANaturalSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Exact match to reference information</AntigenEvidenceCode>
+                        </Antigen>
+                        <AssayInformation>
+                            <AssayTypeId>67</AssayTypeId>
+                            <QualitativeMeasurement>Negative</QualitativeMeasurement>
+                            <AssayComments>The germline self peptide failed to sensitize P815 cells to CTL-mediated lysis in a &lt;SUP&gt;51&lt;/SUP&gt;Cr-release assay, but did sensitize P815 cells in a DNA fragmentation assay. Fas gene product was required for lysis in the DNA fragmentation assay and serine esterase was not produced. These observations suggest that the germline peptide activates only the CD95 lytic pathway and that CD95-CD95L-mediated killing can be triggered independently of the perforin-mediated pathway by this partial agonist. This feature is not universal since another clone recognizing the JHA 210-219 epitope, but differing in fine specificity, fails to recognize the germline peptide.</AssayComments>
+                        </AssayInformation>
+                    </TCell>
+                </Assays>
+                <Assays>
+                    <TCell>
+                        <LocationOfData>Figure 2</LocationOfData>
+                        <TCellId>24656</TCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>10000000</OrganismId>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Administration in vivo</InVivoProcessType>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Other</EpitopeRelation>
+                                    <Object>
+                                        <Organism>
+                                            <SubType>Organism</SubType>
+                                            <SourceOrganismId>387161</SourceOrganismId>
+                                        </Organism>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenEvidenceCode>Not determined</ImmunogenEvidenceCode>
+                            </FirstInVivoProcess>
+                            <InVitroAdministration>
+                                <ProcessType>Restimulation in vitro</ProcessType>
+                            </InVitroAdministration>
+                            <ImmunizationComments>The origin of the JHA 210-219 -specific T cell clone 40-2 was previously described.</ImmunizationComments>
+                        </Immunization>
+                        <EffectorCells>
+                            <CellType>T cell CD8+</CellType>
+                            <CellCultureConditions>Cell Line / Clone</CellCultureConditions>
+                        </EffectorCells>
+                        <AssayedTcrMolecule>
+                            <AssayedTcrMoleculeName>40-2</AssayedTcrMoleculeName>
+                        </AssayedTcrMolecule>
+                        <AntigenPresentingCells>
+                            <CellTissueType>Other</CellTissueType>
+                            <CellType>P815-Mast cell</CellType>
+                            <CellCultureConditions>Cell Line / Clone</CellCultureConditions>
+                            <AutologousOrSyngeneic>N</AutologousOrSyngeneic>
+                            <SourceOrganismId>10090</SourceOrganismId>
+                        </AntigenPresentingCells>
+                        <MhcAllele>
+                            <MhcAlleleId>124</MhcAlleleId>
+                            <MhcEvidenceCode>MHC binding assay</MhcEvidenceCode>
+                        </MhcAllele>
+                        <Antigen>
+                            <AntigenReferenceName>GL VH-I</AntigenReferenceName>
+                            <AntigenObject>
+                                <EpitopeRelation>Epitope</EpitopeRelation>
+                                <Object>
+                                    <FragmentOfANaturalSequenceMolecule>
+                                        <ChemicalType>Peptide from protein</ChemicalType>
+                                        <LinearSequence>AYISSGSSTI</LinearSequence>
+                                        <StartingPosition>41</StartingPosition>
+                                        <EndingPosition>50</EndingPosition>
+                                        <SourceMolecule>
+                                            <GenBankId>AAT36662.1</GenBankId>
+                                        </SourceMolecule>
+                                        <SourceOrganismId>10000000</SourceOrganismId>
+                                    </FragmentOfANaturalSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Exact match to reference information</AntigenEvidenceCode>
+                        </Antigen>
+                        <AssayInformation>
+                            <AssayTypeId>575</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <AssayComments>The germline self peptide sensitized P815 cells to CTL-mediated lysis in a DNA fragmentation assay, but failed to sensitize them in a &lt;SUP&gt;51&lt;/SUP&gt;Cr-release assay. Fas gene product was required for lysis and serine esterase was not produced. These observations suggest that the germline peptide activates only the CD95 lytic pathway and that CD95-CD95L-mediated killing can be triggered independently of the perforin-mediated pathway by this partial agonist. This feature is not universal since another clone recognizing the JHA 210-219 epitope, but differing in fine specificity, fails to recognize the germline peptide.</AssayComments>
+                        </AssayInformation>
+                    </TCell>
+                </Assays>
+                <Assays>
+                    <MhcBinding>
+                        <LocationOfData>Figure 1c</LocationOfData>
+                        <MhcBindingId>24654</MhcBindingId>
+                        <AssayInformation>
+                            <AssayTypeId>185</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <AssayComments>Binding to H-2 K&lt;SUP&gt;d&lt;/SUP&gt; was also demonstrated in a peptide competition cytotoxicity assay.</AssayComments>
+                        </AssayInformation>
+                        <MhcAlleleId>124</MhcAlleleId>
+                    </MhcBinding>
+                </Assays>
+            </Epitope>
+            <Epitope>
+                <EpitopeName>JHA 210-219</EpitopeName>
+                <EpitopeStructure>
+                    <FragmentOfANaturalSequenceMolecule>
+                        <ChemicalType>Peptide from protein</ChemicalType>
+                        <LinearSequence>TYVSVGTSTL</LinearSequence>
+                        <StartingPosition>210</StartingPosition>
+                        <EndingPosition>219</EndingPosition>
+                        <SourceMolecule>
+                            <GenBankId>P03451.1</GenBankId>
+                        </SourceMolecule>
+                        <SourceOrganismId>387161</SourceOrganismId>
+                    </FragmentOfANaturalSequenceMolecule>
+                </EpitopeStructure>
+                <LocationOfData>Figure 1a</LocationOfData>
+                <EpitopeId>67501</EpitopeId>
+                <ReferenceStartingPosition>210</ReferenceStartingPosition>
+                <ReferenceEndingPosition>219</ReferenceEndingPosition>
+                <EpitopeEvidenceCode>Representative selection</EpitopeEvidenceCode>
+                <EpitopeStructureDefines>Exact Epitope</EpitopeStructureDefines>
+                <Assays>
+                    <TCell>
+                        <LocationOfData>Figure 1d</LocationOfData>
+                        <TCellId>24685</TCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>10000000</OrganismId>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Administration in vivo</InVivoProcessType>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Source Organism</EpitopeRelation>
+                                    <Object>
+                                        <Organism>
+                                            <SubType>Organism</SubType>
+                                            <SourceOrganismId>387161</SourceOrganismId>
+                                        </Organism>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenReferenceName>Influenza A virus (A/Japan/305/57(H2N2))</ImmunogenReferenceName>
+                                <ImmunogenEvidenceCode>Not determined</ImmunogenEvidenceCode>
+                            </FirstInVivoProcess>
+                            <InVitroAdministration>
+                                <ProcessType>Restimulation in vitro</ProcessType>
+                            </InVitroAdministration>
+                            <ImmunizationComments>The origin of the JHA 210-219 -specific T cell clone 40-2 was previously described.</ImmunizationComments>
+                        </Immunization>
+                        <EffectorCells>
+                            <CellType>T cell CD8+</CellType>
+                            <CellCultureConditions>Cell Line / Clone</CellCultureConditions>
+                        </EffectorCells>
+                        <AssayedTcrMolecule>
+                            <AssayedTcrMoleculeName>40-2</AssayedTcrMoleculeName>
+                        </AssayedTcrMolecule>
+                        <AntigenPresentingCells>
+                            <CellTissueType>Other</CellTissueType>
+                            <CellType>P815-Mast cell</CellType>
+                            <CellCultureConditions>Cell Line / Clone</CellCultureConditions>
+                            <AutologousOrSyngeneic>N</AutologousOrSyngeneic>
+                            <SourceOrganismId>10090</SourceOrganismId>
+                        </AntigenPresentingCells>
+                        <MhcAllele>
+                            <MhcAlleleId>124</MhcAlleleId>
+                            <MhcEvidenceCode>MHC binding assay</MhcEvidenceCode>
+                        </MhcAllele>
+                        <Antigen>
+                            <AntigenReferenceName>JHA 210-219</AntigenReferenceName>
+                            <AntigenObject>
+                                <EpitopeRelation>Epitope</EpitopeRelation>
+                                <Object>
+                                    <FragmentOfANaturalSequenceMolecule>
+                                        <ChemicalType>Peptide from protein</ChemicalType>
+                                        <LinearSequence>TYVSVGTSTL</LinearSequence>
+                                        <StartingPosition>210</StartingPosition>
+                                        <EndingPosition>219</EndingPosition>
+                                        <SourceMolecule>
+                                            <GenBankId>P03451.1</GenBankId>
+                                        </SourceMolecule>
+                                        <SourceOrganismId>387161</SourceOrganismId>
+                                    </FragmentOfANaturalSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Exact match to reference information</AntigenEvidenceCode>
+                        </Antigen>
+                        <AssayInformation>
+                            <AssayTypeId>67</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <AssayComments>Similar results were obtained in DNA fragmentation cytotoxicity analysis: cytotoxicity is shown to occur both by Fas- and perforin-mediated mechanisms.</AssayComments>
+                        </AssayInformation>
+                    </TCell>
+                </Assays>
+                <Assays>
+                    <MhcBinding>
+                        <LocationOfData>Figure 1c</LocationOfData>
+                        <MhcBindingId>24684</MhcBindingId>
+                        <AssayInformation>
+                            <AssayTypeId>185</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                        </AssayInformation>
+                        <MhcAlleleId>124</MhcAlleleId>
+                    </MhcBinding>
+                </Assays>
+            </Epitope>
+            <Epitope>
+                <EpitopeName>JHA 210-219-I</EpitopeName>
+                <EpitopeStructure>
+                    <SequenceMoleculeNoNaturalSource>
+                        <ChemicalType>Peptide, no natural source</ChemicalType>
+                        <LinearSequence>TYVSVGTSTI</LinearSequence>
+                    </SequenceMoleculeNoNaturalSource>
+                </EpitopeStructure>
+                <EpitopeRelatedObject>
+                    <RelatedObjectType>The epitope is an analog of:</RelatedObjectType>
+                    <RelatedObject>
+                        <FragmentOfANaturalSequenceMolecule>
+                            <ChemicalType>Peptide from protein</ChemicalType>
+                            <LinearSequence>TYVSVGTSTL</LinearSequence>
+                            <StartingPosition>210</StartingPosition>
+                            <EndingPosition>219</EndingPosition>
+                            <SourceMolecule>
+                                <GenBankId>P03451.1</GenBankId>
+                            </SourceMolecule>
+                            <SourceOrganismId>387161</SourceOrganismId>
+                        </FragmentOfANaturalSequenceMolecule>
+                    </RelatedObject>
+                </EpitopeRelatedObject>
+                <LocationOfData>Figure 1a</LocationOfData>
+                <EpitopeId>67500</EpitopeId>
+                <EpitopeStructureDefines>Exact Epitope</EpitopeStructureDefines>
+                <EpitopeComments>This is an analog of JHA 210-219 with a L10I substitution. This is an analog of JHA 210-219 with a L10I substitution.</EpitopeComments>
+                <Assays>
+                    <MhcBinding>
+                        <LocationOfData>Figure 1c</LocationOfData>
+                        <MhcBindingId>24710</MhcBindingId>
+                        <AssayInformation>
+                            <AssayTypeId>185</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                        </AssayInformation>
+                        <MhcAlleleId>124</MhcAlleleId>
+                    </MhcBinding>
+                </Assays>
+            </Epitope>
+        </Epitopes>
+    </Reference>
+</References>
+

@@ -1,0 +1,298 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<References xsi:schemaLocation="http://www.iedb.org/schema/CurationSchema http://beta.iedb.org/schema/Curation.xsd" xmlns="http://www.iedb.org/schema/CurationSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <Reference>
+        <ReferenceId>1197</ReferenceId>
+        <DateLastUpdated>2020-09-10-07:00</DateLastUpdated>
+        <Article>
+            <PubmedId>14978121</PubmedId>
+            <Abstract>We measured CD8 T cell clonotypic diversity to three epitopes recognized in C57BL/6 mice infected with mouse hepatitis virus, strain JHM, or lymphocytic choriomeningitis virus. We isolated epitope-specific T cells with an IFN-gamma capture assay or MHC class I/peptide tetramers and identified different clonotypes by Vbeta chain sequence analysis. In agreement with our previous results, the number of different clonotypes responding to all three epitopes fit a log-series distribution. From these distributions, we estimated that &gt;1000 different clonotypes responded to each immunodominant CD8 T cell epitope; the response to a subdominant CD8 T cell epitope was modestly less diverse. These results suggest that T cell response diversity is greater by 1-2 orders of magnitude than predicted previously.</Abstract>
+            <ArticleYear>2004</ArticleYear>
+            <ArticlePages>3151-6</ArticlePages>
+            <ArticleTitle>Very diverse CD8 T cell clonotypic responses after virus infections.</ArticleTitle>
+            <Authors>
+                <Author>
+                    <LastName>Pewe</LastName>
+                    <ForeName>Lecia L</ForeName>
+                </Author>
+                <Author>
+                    <LastName>Netland</LastName>
+                    <ForeName>Jason M</ForeName>
+                </Author>
+                <Author>
+                    <LastName>Heard</LastName>
+                    <ForeName>Stephen B</ForeName>
+                </Author>
+                <Author>
+                    <LastName>Perlman</LastName>
+                    <ForeName>Stanley</ForeName>
+                </Author>
+            </Authors>
+            <Affiliations>Department of Pediatrics, University of Iowa, Iowa City, IA 52242, USA.</Affiliations>
+            <ArticleChemicalList>Epitopes, T-Lymphocyte;Peptide Fragments;Receptors, Antigen, T-Cell, alpha-beta;Viral Proteins</ArticleChemicalList>
+            <ArticleMeshHeadingsList>Animals; CD8-Positive T-Lymphocytes(immunology; metabolism; virology); Clone Cells; Coronavirus Infections(immunology; metabolism); Epitopes, T-Lymphocyte(immunology); Gene Rearrangement, beta-Chain T-Cell Antigen Receptor; Lymphocyte Activation; Lymphocyte Count(methods; statistics &amp; numerical data); Mice; Mice, Inbred C57BL; Murine hepatitis virus(immunology); Peptide Fragments(immunology); Poisson Distribution; Receptors, Antigen, T-Cell, alpha-beta(biosynthesis; genetics); Spleen(cytology; immunology; metabolism); Viral Proteins(immunology)</ArticleMeshHeadingsList>
+            <Journal>
+                <Volume>172</Volume>
+                <Issue>5</Issue>
+                <Title>Journal of immunology (Baltimore, Md. : 1950)</Title>
+                <Issn>0022-1767</Issn>
+                <MedlineTa>J Immunol</MedlineTa>
+            </Journal>
+        </Article>
+        <Epitopes>
+            <Epitope>
+                <EpitopeName>gp33</EpitopeName>
+                <EpitopeStructure>
+                    <FragmentOfANaturalSequenceMolecule>
+                        <ChemicalType>Peptide from protein</ChemicalType>
+                        <LinearSequence>KAVYNFATM</LinearSequence>
+                        <SourceMolecule>
+                            <IedbAccession>SRC280130</IedbAccession>
+                        </SourceMolecule>
+                        <SourceOrganismId>11624</SourceOrganismId>
+                    </FragmentOfANaturalSequenceMolecule>
+                </EpitopeStructure>
+                <LocationOfData>Page 3152</LocationOfData>
+                <EpitopeId>30015</EpitopeId>
+                <ReferenceStartingPosition>33</ReferenceStartingPosition>
+                <ReferenceEndingPosition>41</ReferenceEndingPosition>
+                <EpitopeEvidenceCode>Internal Identifier-no external match available</EpitopeEvidenceCode>
+                <EpitopeStructureDefines>Exact Epitope</EpitopeStructureDefines>
+                <Assays>
+                    <TCell>
+                        <LocationOfData>Figure 1D</LocationOfData>
+                        <TCellId>17104</TCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>10000067</OrganismId>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Administration in vivo</InVivoProcessType>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Source Organism</EpitopeRelation>
+                                    <Object>
+                                        <Organism>
+                                            <SubType>Organism</SubType>
+                                            <SourceOrganismId>11624</SourceOrganismId>
+                                        </Organism>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenEvidenceCode>Not determined</ImmunogenEvidenceCode>
+                                <Route>Intraperitoneal (i.p.)</Route>
+                                <DoseSchedule>1 dose of 5x10&lt;sup&gt;5&lt;/sup&gt; PFU, in PBS</DoseSchedule>
+                            </FirstInVivoProcess>
+                            <ImmunizationComments>One week after immunization spleens were harvested.</ImmunizationComments>
+                        </Immunization>
+                        <EffectorCells>
+                            <CellTissueType>Spleen</CellTissueType>
+                            <CellType>T cell CD8+</CellType>
+                            <CellCultureConditions>Direct Ex Vivo</CellCultureConditions>
+                        </EffectorCells>
+                        <MhcAllele>
+                            <MhcAlleleId>172</MhcAlleleId>
+                            <MhcEvidenceCode>Not determined</MhcEvidenceCode>
+                        </MhcAllele>
+                        <Antigen>
+                            <AntigenReferenceName>gp33</AntigenReferenceName>
+                            <AntigenObject>
+                                <EpitopeRelation>Epitope</EpitopeRelation>
+                                <Object>
+                                    <FragmentOfANaturalSequenceMolecule>
+                                        <ChemicalType>Peptide from protein</ChemicalType>
+                                        <LinearSequence>KAVYNFATM</LinearSequence>
+                                        <SourceMolecule>
+                                            <IedbAccession>SRC280130</IedbAccession>
+                                        </SourceMolecule>
+                                        <SourceOrganismId>11624</SourceOrganismId>
+                                    </FragmentOfANaturalSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Exact match to reference information</AntigenEvidenceCode>
+                        </Antigen>
+                        <AssayInformation>
+                            <AssayTypeId>47</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <AssayComments>2.7% of CD8+ cells are peptide specific. Sequencing of the CDR3 Vbeta8 expressing cells, which comprise 30% of the total epitope specific population, yields between 223 and 469 different Vbeta8 clonotypes per spleen. Since the distribution of clonotypes fits a log distribution, it is estimated mathematically that between 1000 and 1200 different clonotypes per spleen are directed against this epitope.</AssayComments>
+                        </AssayInformation>
+                    </TCell>
+                </Assays>
+            </Epitope>
+            <Epitope>
+                <EpitopeName>S510</EpitopeName>
+                <EpitopeStructure>
+                    <FragmentOfANaturalSequenceMolecule>
+                        <ChemicalType>Peptide from protein</ChemicalType>
+                        <LinearSequence>CSLWNGPHL</LinearSequence>
+                        <StartingPosition>510</StartingPosition>
+                        <EndingPosition>518</EndingPosition>
+                        <SourceMolecule>
+                            <GenBankId>P22432.1</GenBankId>
+                        </SourceMolecule>
+                        <SourceOrganismId>11144</SourceOrganismId>
+                    </FragmentOfANaturalSequenceMolecule>
+                </EpitopeStructure>
+                <LocationOfData>Page 3151</LocationOfData>
+                <EpitopeId>7032</EpitopeId>
+                <ReferenceStartingPosition>510</ReferenceStartingPosition>
+                <ReferenceEndingPosition>518</ReferenceEndingPosition>
+                <EpitopeEvidenceCode>Not determined</EpitopeEvidenceCode>
+                <EpitopeStructureDefines>Exact Epitope</EpitopeStructureDefines>
+                <EpitopeComments>Source protein Also known as E2 glycoprotein precursor, Spike glycoprotein and Peplomer protein. Source species Also known as Mouse hepatitis virus.</EpitopeComments>
+                <Assays>
+                    <TCell>
+                        <LocationOfData>Figure 1B</LocationOfData>
+                        <TCellId>17105</TCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>10000067</OrganismId>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Administration in vivo</InVivoProcessType>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Source Organism</EpitopeRelation>
+                                    <Object>
+                                        <Organism>
+                                            <SubType>Organism</SubType>
+                                            <SourceOrganismId>11144</SourceOrganismId>
+                                        </Organism>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenEvidenceCode>Not determined</ImmunogenEvidenceCode>
+                                <Route>Intraperitoneal (i.p.)</Route>
+                                <DoseSchedule>1 dose of 5x10&lt;sup&gt;5&lt;/sup&gt; PFU, in PBS</DoseSchedule>
+                            </FirstInVivoProcess>
+                            <ImmunizationComments>One week after immunization spleens were harvested.</ImmunizationComments>
+                        </Immunization>
+                        <EffectorCells>
+                            <CellTissueType>Spleen</CellTissueType>
+                            <CellType>T cell CD8+</CellType>
+                            <CellCultureConditions>Direct Ex Vivo</CellCultureConditions>
+                        </EffectorCells>
+                        <AntigenPresentingCells>
+                            <CellTissueType>Lymphoid</CellTissueType>
+                            <CellType>EL-4 cells-Lymphoblast</CellType>
+                            <CellCultureConditions>Cell Line / Clone</CellCultureConditions>
+                            <AutologousOrSyngeneic>N</AutologousOrSyngeneic>
+                        </AntigenPresentingCells>
+                        <MhcAllele>
+                            <MhcAlleleId>172</MhcAlleleId>
+                            <MhcEvidenceCode>Not determined</MhcEvidenceCode>
+                        </MhcAllele>
+                        <Antigen>
+                            <AntigenReferenceName>S510</AntigenReferenceName>
+                            <AntigenObject>
+                                <EpitopeRelation>Epitope</EpitopeRelation>
+                                <Object>
+                                    <FragmentOfANaturalSequenceMolecule>
+                                        <ChemicalType>Peptide from protein</ChemicalType>
+                                        <LinearSequence>CSLWNGPHL</LinearSequence>
+                                        <StartingPosition>510</StartingPosition>
+                                        <EndingPosition>518</EndingPosition>
+                                        <SourceMolecule>
+                                            <GenBankId>P22432.1</GenBankId>
+                                        </SourceMolecule>
+                                        <SourceOrganismId>11144</SourceOrganismId>
+                                    </FragmentOfANaturalSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Exact match to reference information</AntigenEvidenceCode>
+                        </Antigen>
+                        <AssayInformation>
+                            <AssayTypeId>53</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <AssayComments>4.6% of CD8+ cells are peptide specific. Sequencing of the CDR3 Vbeta13 expressing cells, which comprise 22% of the total epitope specific population, yields between 170 and 333 different Vbeta13 clonotypes per spleen. Since the distribution of clonotypes fits a log distribution, it is estimated mathematically that between 1150 and 1518 different clonotypes per spleen are directed against this epitope.</AssayComments>
+                        </AssayInformation>
+                    </TCell>
+                </Assays>
+            </Epitope>
+            <Epitope>
+                <EpitopeName>S598</EpitopeName>
+                <EpitopeStructure>
+                    <FragmentOfANaturalSequenceMolecule>
+                        <ChemicalType>Peptide from protein</ChemicalType>
+                        <LinearSequence>RCQIFANI</LinearSequence>
+                        <StartingPosition>598</StartingPosition>
+                        <EndingPosition>605</EndingPosition>
+                        <SourceMolecule>
+                            <GenBankId>P22432.1</GenBankId>
+                        </SourceMolecule>
+                        <SourceOrganismId>11144</SourceOrganismId>
+                    </FragmentOfANaturalSequenceMolecule>
+                </EpitopeStructure>
+                <LocationOfData>Page 3151</LocationOfData>
+                <EpitopeId>53307</EpitopeId>
+                <ReferenceStartingPosition>598</ReferenceStartingPosition>
+                <ReferenceEndingPosition>605</ReferenceEndingPosition>
+                <EpitopeEvidenceCode>Not determined</EpitopeEvidenceCode>
+                <EpitopeStructureDefines>Exact Epitope</EpitopeStructureDefines>
+                <EpitopeComments>Source protein Also known as E2 glycoprotein precursor, Spike glycoprotein and Peplomer protein. Source species Also known as Mouse hepatitis virus.</EpitopeComments>
+                <Assays>
+                    <TCell>
+                        <LocationOfData>Text and figure 2B</LocationOfData>
+                        <TCellId>17106</TCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>10000067</OrganismId>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Administration in vivo</InVivoProcessType>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Source Organism</EpitopeRelation>
+                                    <Object>
+                                        <Organism>
+                                            <SubType>Organism</SubType>
+                                            <SourceOrganismId>11144</SourceOrganismId>
+                                        </Organism>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenEvidenceCode>Not determined</ImmunogenEvidenceCode>
+                                <Route>Intraperitoneal (i.p.)</Route>
+                                <DoseSchedule>1 dose of 5x10&lt;sup&gt;5&lt;/sup&gt; PFU, in PBS</DoseSchedule>
+                            </FirstInVivoProcess>
+                            <ImmunizationComments>One week after immunization spleens were harvested.</ImmunizationComments>
+                        </Immunization>
+                        <EffectorCells>
+                            <CellTissueType>Spleen</CellTissueType>
+                            <CellType>T cell CD8+</CellType>
+                            <CellCultureConditions>Direct Ex Vivo</CellCultureConditions>
+                        </EffectorCells>
+                        <AntigenPresentingCells>
+                            <CellTissueType>Lymphoid</CellTissueType>
+                            <CellType>EL-4 cells-Lymphoblast</CellType>
+                            <CellCultureConditions>Cell Line / Clone</CellCultureConditions>
+                            <AutologousOrSyngeneic>N</AutologousOrSyngeneic>
+                        </AntigenPresentingCells>
+                        <MhcAllele>
+                            <MhcAlleleId>172</MhcAlleleId>
+                            <MhcEvidenceCode>Not determined</MhcEvidenceCode>
+                        </MhcAllele>
+                        <Antigen>
+                            <AntigenReferenceName>S598</AntigenReferenceName>
+                            <AntigenObject>
+                                <EpitopeRelation>Epitope</EpitopeRelation>
+                                <Object>
+                                    <FragmentOfANaturalSequenceMolecule>
+                                        <ChemicalType>Peptide from protein</ChemicalType>
+                                        <LinearSequence>RCQIFANI</LinearSequence>
+                                        <StartingPosition>598</StartingPosition>
+                                        <EndingPosition>605</EndingPosition>
+                                        <SourceMolecule>
+                                            <GenBankId>P22432.1</GenBankId>
+                                        </SourceMolecule>
+                                        <SourceOrganismId>11144</SourceOrganismId>
+                                    </FragmentOfANaturalSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Exact match to reference information</AntigenEvidenceCode>
+                        </Antigen>
+                        <AssayInformation>
+                            <AssayTypeId>53</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <AssayComments>Sequencing of the CDR3 Vbeta5 from the epitope specific IFN-g+ population, yields between 141 and 332 different Vbeta5 clonotypes per spleen. Since the distribution of clonotypes fits a log distribution, it is estimated mathematically that between 582 and 889 different clonotypes per spleen are directed against this epitope.</AssayComments>
+                        </AssayInformation>
+                    </TCell>
+                </Assays>
+            </Epitope>
+        </Epitopes>
+    </Reference>
+</References>
+

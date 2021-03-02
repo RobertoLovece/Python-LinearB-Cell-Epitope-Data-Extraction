@@ -1,0 +1,969 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<References xsi:schemaLocation="http://www.iedb.org/schema/CurationSchema http://beta.iedb.org/schema/Curation.xsd" xmlns="http://www.iedb.org/schema/CurationSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <Reference>
+        <ReferenceId>1353</ReferenceId>
+        <DateLastUpdated>2018-10-16-07:00</DateLastUpdated>
+        <Article>
+            <PubmedId>11581410</PubmedId>
+            <Abstract>Our previous studies have shown that targeting DNA vaccine-encoded major histocompatibility complex class I epitopes to the proteasome enhanced CD8(+) T-cell induction and protection against lymphocytic choriomeningitis virus (LCMV) challenge. Here, we expand these studies to evaluate CD4(+) T-cell responses induced by DNA immunization and describe a system for targeting proteins and minigenes to lysosomes. Full-length proteins can be targeted to the lysosomal compartment by covalent attachment to the 20-amino-acid C-terminal tail of lysosomal integral membrane protein-II (LIMP-II). Using minigenes encoding defined T-helper epitopes from lymphocytic choriomeningitis virus, we show that the CD4(+) T-cell response induced by the NP(309-328) epitope of LCMV was greatly enhanced by addition of the LIMP-II tail. However, the immunological consequence of lysosomal targeting is not invariably positive; the CD4(+) T-cell response induced by the GP(61-80) epitope was almost abolished when attached to the LIMP-II tail. We identify the mechanism which underlies this marked difference in outcome. The GP(61-80) epitope is highly susceptible to cleavage by cathepsin D, an aspartic endopeptidase found almost exclusively in lysosomes. We show, using mass spectrometry, that the GP(61-80) peptide is cleaved between residues F(74) and K(75) and that this destroys its ability to stimulate virus-specific CD4(+) T cells. Thus, the immunological result of lysosomal targeting varies, depending upon the primary sequence of the encoded antigen. We analyze the effects of CD4(+) T-cell priming on the virus-specific antibody and CD8(+) T-cell responses which are mounted after virus infection and show that neither response appears to be accelerated or enhanced. Finally, we evaluate the protective benefits of CD4(+) T-cell vaccination in the LCMV model system; in contrast to DNA vaccine-induced CD8(+) T cells, which can confer solid protection against LCMV challenge, DNA vaccine-mediated priming of CD4(+) T cells does not appear to enhance the vaccinee's ability to combat viral challenge.</Abstract>
+            <ArticleYear>2001</ArticleYear>
+            <ArticlePages>10421-30</ArticlePages>
+            <ArticleTitle>CD4(+) T cells induced by a DNA vaccine: immunological consequences of epitope-specific lysosomal targeting.</ArticleTitle>
+            <Authors>
+                <Author>
+                    <LastName>Rodriguez</LastName>
+                    <ForeName>F</ForeName>
+                </Author>
+                <Author>
+                    <LastName>Harkins</LastName>
+                    <ForeName>S</ForeName>
+                </Author>
+                <Author>
+                    <LastName>Redwine</LastName>
+                    <ForeName>J M</ForeName>
+                </Author>
+                <Author>
+                    <LastName>de Pereda</LastName>
+                    <ForeName>J M</ForeName>
+                </Author>
+                <Author>
+                    <LastName>Whitton</LastName>
+                    <ForeName>J L</ForeName>
+                </Author>
+            </Authors>
+            <Affiliations>Department of Neuropharmacology, The Scripps Research Institute, La Jolla, California 92037, USA.</Affiliations>
+            <ArticleChemicalList>Antibodies, Viral;CD36 Antigens;Epitopes;Lysosome-Associated Membrane Glycoproteins;Membrane Glycoproteins;Peptide Fragments;Scarb2 protein, mouse;Vaccines, DNA;Viral Vaccines;Cathepsin D</ArticleChemicalList>
+            <ArticleMeshHeadingsList>Amino Acid Sequence; Animals; Antibodies, Viral(blood); CD36 Antigens(physiology); CD4-Positive T-Lymphocytes(immunology); Cathepsin D(metabolism); Cell Line; Epitopes; Lymphocytic choriomeningitis virus(immunology); Lysosome-Associated Membrane Glycoproteins; Lysosomes(metabolism); Membrane Glycoproteins; Mice; Mice, Inbred C57BL; Molecular Sequence Data; Peptide Fragments(immunology); Vaccines, DNA(immunology); Viral Vaccines(immunology)</ArticleMeshHeadingsList>
+            <Journal>
+                <Volume>75</Volume>
+                <Issue>21</Issue>
+                <Title>Journal of virology</Title>
+                <Issn>1098-5514</Issn>
+                <MedlineTa>J Virol</MedlineTa>
+            </Journal>
+        </Article>
+        <Epitopes>
+            <Epitope>
+                <EpitopeName>NPTh</EpitopeName>
+                <EpitopeStructure>
+                    <FragmentOfANaturalSequenceMolecule>
+                        <ChemicalType>Peptide from protein</ChemicalType>
+                        <LinearSequence>SGEGWPYIACRTSIVGRAWE</LinearSequence>
+                        <StartingPosition>309</StartingPosition>
+                        <EndingPosition>328</EndingPosition>
+                        <SourceMolecule>
+                            <GenBankId>P09992.1</GenBankId>
+                        </SourceMolecule>
+                        <SourceOrganismId>11624</SourceOrganismId>
+                    </FragmentOfANaturalSequenceMolecule>
+                </EpitopeStructure>
+                <LocationOfData>Fig 1</LocationOfData>
+                <EpitopeId>58011</EpitopeId>
+                <ReferenceStartingPosition>309</ReferenceStartingPosition>
+                <ReferenceEndingPosition>328</ReferenceEndingPosition>
+                <EpitopeEvidenceCode>Representative selection</EpitopeEvidenceCode>
+                <EpitopeStructureDefines>Epitope containing region/antigenic site</EpitopeStructureDefines>
+                <Assays>
+                    <BCell>
+                        <LocationOfData>Figure 7</LocationOfData>
+                        <BCellId>21295</BCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>10000067</OrganismId>
+                                <Age>6-16 wk</Age>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Administration in vivo</InVivoProcessType>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Fragment of Source Antigen</EpitopeRelation>
+                                    <Object>
+                                        <FragmentOfANaturalSequenceMolecule>
+                                            <ChemicalType>Peptide from protein</ChemicalType>
+                                            <LinearSequence>LSGEGWPYIACRTSIVGRAWENTTIDLTSEKPAVNSPRPAPGA</LinearSequence>
+                                            <StartingPosition>308</StartingPosition>
+                                            <EndingPosition>350</EndingPosition>
+                                            <SourceMolecule>
+                                                <GenBankId>P09992.1</GenBankId>
+                                            </SourceMolecule>
+                                            <SourceOrganismId>11624</SourceOrganismId>
+                                        </FragmentOfANaturalSequenceMolecule>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenReferenceName>NPTh-LII</ImmunogenReferenceName>
+                                <ImmunogenEvidenceCode>Exact match to reference information</ImmunogenEvidenceCode>
+                                <ImmunogenContainingObject>
+                                    <Plasmid>
+                                        <SubType>Plasmid</SubType>
+                                    </Plasmid>
+                                </ImmunogenContainingObject>
+                                <Route>Intramuscular</Route>
+                                <DoseSchedule>100 μg (50μg in each anterior tibial muscle)</DoseSchedule>
+                            </FirstInVivoProcess>
+                            <SecondInVivoProcess>
+                                <InVivoProcessType>Administration in vivo</InVivoProcessType>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Source Organism</EpitopeRelation>
+                                    <Object>
+                                        <Organism>
+                                            <SubType>Organism</SubType>
+                                            <SourceOrganismId>11624</SourceOrganismId>
+                                        </Organism>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenReferenceName>LCMV</ImmunogenReferenceName>
+                                <ImmunogenEvidenceCode>Exact match to reference information</ImmunogenEvidenceCode>
+                                <Route>Intraperitoneal (i.p.)</Route>
+                                <DoseSchedule>1 dose of 2x10&lt;sup&gt;5&lt;/sup&gt; PFU</DoseSchedule>
+                            </SecondInVivoProcess>
+                            <ImmunizationComments>Splenocytes were harvested at different times after i.p LCMV infection (3 weeks after DNA immunization) with 2x10&lt;sup&gt;5&lt;/sup&gt; PFU. The minigene used as immunogen includes the lysosomal targeting signal from LIMP-II and is under the control of the immediate-early promoter of human cytomegalovirus in the pCMV expression vector.</ImmunizationComments>
+                        </Immunization>
+                        <AssayInformation>
+                            <AssayTypeId>34</AssayTypeId>
+                            <QualitativeMeasurement>Negative</QualitativeMeasurement>
+                            <QuantitativeMeasurement>5000.0</QuantitativeMeasurement>
+                            <AssayComments>At 0, 2, 4, 6 and 8 days after infection of mice 3 weeks-previously vaccinated with an epitope minigene including a C-terminal 20-mer that directs it to the lysosomal compartment or with the empty vector, similar levels of virus specific antibodies are detected, implying that the CD4+ priming achieved by the vaccine is not effective in enhancing or accelerating virus specific Ig responses.</AssayComments>
+                        </AssayInformation>
+                        <AssayedAntibody>
+                            <AssayedAntibodySourceMaterial>Serum</AssayedAntibodySourceMaterial>
+                        </AssayedAntibody>
+                        <Antigen>
+                            <AntigenReferenceName>Lymphocytic choriomeningitis virus (strain Armstrong)</AntigenReferenceName>
+                            <AntigenConformation>Native</AntigenConformation>
+                            <AntigenObject>
+                                <EpitopeRelation>Source Organism</EpitopeRelation>
+                                <Object>
+                                    <Organism>
+                                        <SubType>Organism</SubType>
+                                        <SourceOrganismId>11624</SourceOrganismId>
+                                    </Organism>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Exact match to reference information</AntigenEvidenceCode>
+                        </Antigen>
+                    </BCell>
+                </Assays>
+                <Assays>
+                    <TCell>
+                        <LocationOfData>Figure 8</LocationOfData>
+                        <TCellId>21296</TCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>10000067</OrganismId>
+                                <Age>6-16 wk</Age>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Administration in vivo to prevent or reduce disease</InVivoProcessType>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Fragment of Source Antigen</EpitopeRelation>
+                                    <Object>
+                                        <FragmentOfANaturalSequenceMolecule>
+                                            <ChemicalType>Peptide from protein</ChemicalType>
+                                            <LinearSequence>LSGEGWPYIACRTSIVGRAWENTTIDLTSEKPAVNSPRPAPGA</LinearSequence>
+                                            <StartingPosition>308</StartingPosition>
+                                            <EndingPosition>350</EndingPosition>
+                                            <SourceMolecule>
+                                                <GenBankId>P09992.1</GenBankId>
+                                            </SourceMolecule>
+                                            <SourceOrganismId>11624</SourceOrganismId>
+                                        </FragmentOfANaturalSequenceMolecule>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenReferenceName>NPTh-LII</ImmunogenReferenceName>
+                                <ImmunogenEvidenceCode>Exact match to reference information</ImmunogenEvidenceCode>
+                                <ImmunogenContainingObject>
+                                    <Plasmid>
+                                        <SubType>Plasmid</SubType>
+                                    </Plasmid>
+                                </ImmunogenContainingObject>
+                                <Route>Intramuscular</Route>
+                                <DoseSchedule>100 μg (50μg in each anterior tibial muscle)</DoseSchedule>
+                            </FirstInVivoProcess>
+                            <ImmunizationComments>Spleens were harvested 4 after i.p LCMV infection (6 weeks after DNA immunization) with 2x10&lt;sup&gt;5&lt;/sup&gt; PFU. The minigene used as immunogen includes the lysosomal targeting signal from LIMP-II and is under the control of the immediate-early promoter of human cytomegalovirus in the pCMV expression vector.</ImmunizationComments>
+                        </Immunization>
+                        <MhcAllele/>
+                        <Antigen>
+                            <AntigenObject>
+                                <EpitopeRelation>Source Organism</EpitopeRelation>
+                                <Object>
+                                    <Organism>
+                                        <SubType>Organism</SubType>
+                                        <SourceOrganismId>11624</SourceOrganismId>
+                                    </Organism>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Not determined</AntigenEvidenceCode>
+                        </Antigen>
+                        <AssayInformation>
+                            <AssayTypeId>182</AssayTypeId>
+                            <QualitativeMeasurement>Negative</QualitativeMeasurement>
+                            <AssayComments>4 days after i.p infection of mice 6 weeks-previously vaccinated with an epitope minigene including a C-terminal 20-mer that directs it to the lysosomal compartment or with the empty vector, similar levels of virus are detected in the spleen, implying that the CD4+ priming achieved by the vaccine is not effective in enhancing or accelerating virus clearance. Similar negative results are seen in the mortality rate of vaccinated mice after intracranial inoculation of 20 LD50 doses.</AssayComments>
+                        </AssayInformation>
+                    </TCell>
+                </Assays>
+                <Assays>
+                    <TCell>
+                        <LocationOfData>Figure 5</LocationOfData>
+                        <TCellId>21290</TCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>10000067</OrganismId>
+                                <Age>6-16 wk</Age>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Administration in vivo</InVivoProcessType>
+                                <DiseaseState>DOID:12155</DiseaseState>
+                                <DiseaseStage>Acute/Recent onset</DiseaseStage>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Source Organism</EpitopeRelation>
+                                    <Object>
+                                        <Organism>
+                                            <SubType>Organism</SubType>
+                                            <SourceOrganismId>11624</SourceOrganismId>
+                                        </Organism>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenReferenceName>Lymphocytic choriomeningitis virus (strain Armstrong)</ImmunogenReferenceName>
+                                <ImmunogenEvidenceCode>Not determined</ImmunogenEvidenceCode>
+                                <Route>Intraperitoneal (i.p.)</Route>
+                                <DoseSchedule>2x10&lt;sup&gt;5&lt;/sup&gt; PFU</DoseSchedule>
+                            </FirstInVivoProcess>
+                            <ImmunizationComments>Splenocytes were harvested 8 days after infection.</ImmunizationComments>
+                        </Immunization>
+                        <EffectorCells>
+                            <CellTissueType>Spleen</CellTissueType>
+                            <CellType>T cell CD4+</CellType>
+                            <CellCultureConditions>Direct Ex Vivo</CellCultureConditions>
+                        </EffectorCells>
+                        <AntigenPresentingCells>
+                            <CellTissueType>Spleen</CellTissueType>
+                            <CellType>Splenocyte</CellType>
+                            <CellCultureConditions>Direct Ex Vivo</CellCultureConditions>
+                            <AutologousOrSyngeneic>Y</AutologousOrSyngeneic>
+                        </AntigenPresentingCells>
+                        <MhcAllele>
+                            <MhcAlleleId>181</MhcAlleleId>
+                            <MhcEvidenceCode>Not determined</MhcEvidenceCode>
+                        </MhcAllele>
+                        <Antigen>
+                            <AntigenReferenceName>NPTh</AntigenReferenceName>
+                            <AntigenObject>
+                                <EpitopeRelation>Epitope</EpitopeRelation>
+                                <Object>
+                                    <FragmentOfANaturalSequenceMolecule>
+                                        <ChemicalType>Peptide from protein</ChemicalType>
+                                        <LinearSequence>SGEGWPYIACRTSIVGRAWE</LinearSequence>
+                                        <StartingPosition>309</StartingPosition>
+                                        <EndingPosition>328</EndingPosition>
+                                        <SourceMolecule>
+                                            <GenBankId>P09992.1</GenBankId>
+                                        </SourceMolecule>
+                                        <SourceOrganismId>11624</SourceOrganismId>
+                                    </FragmentOfANaturalSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Exact match to reference information</AntigenEvidenceCode>
+                        </Antigen>
+                        <AssayInformation>
+                            <AssayTypeId>53</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <QuantitativeMeasurement>1.8</QuantitativeMeasurement>
+                            <NumberOfSubjectsTested>1</NumberOfSubjectsTested>
+                            <NumberOfSubjectsResponded>1</NumberOfSubjectsResponded>
+                            <ResponseFrequency>100</ResponseFrequency>
+                            <AssayComments>CD4+ IFN-g+ cells obtained from a LCMV infected mice are similarly detected when the epitope is treated or not  treated with cathepsin D, implying that the enhanced immunogenicity of the lysosome-targeted epitope is related to a lack of lysosomal degradation of the sequence.</AssayComments>
+                        </AssayInformation>
+                    </TCell>
+                </Assays>
+                <Assays>
+                    <TCell>
+                        <LocationOfData>Figure 3</LocationOfData>
+                        <TCellId>21284</TCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>10000067</OrganismId>
+                                <Age>6-16 wk</Age>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Administration in vivo</InVivoProcessType>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Epitope</EpitopeRelation>
+                                    <Object>
+                                        <FragmentOfANaturalSequenceMolecule>
+                                            <ChemicalType>Peptide from protein</ChemicalType>
+                                            <LinearSequence>SGEGWPYIACRTSIVGRAWE</LinearSequence>
+                                            <StartingPosition>309</StartingPosition>
+                                            <EndingPosition>328</EndingPosition>
+                                            <SourceMolecule>
+                                                <GenBankId>P09992.1</GenBankId>
+                                            </SourceMolecule>
+                                            <SourceOrganismId>11624</SourceOrganismId>
+                                        </FragmentOfANaturalSequenceMolecule>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenEvidenceCode>Exact match to reference information</ImmunogenEvidenceCode>
+                                <ImmunogenContainingObject>
+                                    <Plasmid>
+                                        <SubType>Plasmid</SubType>
+                                    </Plasmid>
+                                </ImmunogenContainingObject>
+                                <Route>Intramuscular</Route>
+                                <DoseSchedule>100 μg (50μg in each anterior tibial muscle)</DoseSchedule>
+                            </FirstInVivoProcess>
+                            <ImmunizationComments>Splenocytes were harvested 6 days after i.p LCMV infection (3 weeks after DNA immunization) with 2x10&lt;sup&gt;5&lt;/sup&gt; PFU. The minigene ORF used as immunogen is under the control of the immediate-early promoter of human cytomegalovirus in the pCMV expression vector.</ImmunizationComments>
+                        </Immunization>
+                        <EffectorCells>
+                            <CellTissueType>Spleen</CellTissueType>
+                            <CellType>T cell CD4+</CellType>
+                            <CellCultureConditions>Direct Ex Vivo</CellCultureConditions>
+                        </EffectorCells>
+                        <AntigenPresentingCells>
+                            <CellTissueType>Spleen</CellTissueType>
+                            <CellType>Splenocyte</CellType>
+                            <CellCultureConditions>Direct Ex Vivo</CellCultureConditions>
+                            <AutologousOrSyngeneic>Y</AutologousOrSyngeneic>
+                        </AntigenPresentingCells>
+                        <MhcAllele>
+                            <MhcAlleleId>181</MhcAlleleId>
+                            <MhcEvidenceCode>Not determined</MhcEvidenceCode>
+                        </MhcAllele>
+                        <Antigen>
+                            <AntigenReferenceName>NPTh</AntigenReferenceName>
+                            <AntigenObject>
+                                <EpitopeRelation>Epitope</EpitopeRelation>
+                                <Object>
+                                    <FragmentOfANaturalSequenceMolecule>
+                                        <ChemicalType>Peptide from protein</ChemicalType>
+                                        <LinearSequence>SGEGWPYIACRTSIVGRAWE</LinearSequence>
+                                        <StartingPosition>309</StartingPosition>
+                                        <EndingPosition>328</EndingPosition>
+                                        <SourceMolecule>
+                                            <GenBankId>P09992.1</GenBankId>
+                                        </SourceMolecule>
+                                        <SourceOrganismId>11624</SourceOrganismId>
+                                    </FragmentOfANaturalSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Exact match to reference information</AntigenEvidenceCode>
+                        </Antigen>
+                        <AssayInformation>
+                            <AssayTypeId>53</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <QuantitativeMeasurement>2.2</QuantitativeMeasurement>
+                            <NumberOfSubjectsTested>4</NumberOfSubjectsTested>
+                            <NumberOfSubjectsResponded>4</NumberOfSubjectsResponded>
+                            <ResponseFrequency>100</ResponseFrequency>
+                            <AssayComments>CD4+ IFN-g+ cells are significantly higher in mice vaccinated with an epitope minigene than in mice vaccinated with an empty vector. The cells were obtained 6 days after LCMV infection of mice primed with a DNA vaccine.</AssayComments>
+                        </AssayInformation>
+                    </TCell>
+                </Assays>
+                <Assays>
+                    <TCell>
+                        <LocationOfData>Figure 3</LocationOfData>
+                        <TCellId>21289</TCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>10000067</OrganismId>
+                                <Age>6-16 wk</Age>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Administration in vivo</InVivoProcessType>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Fragment of Source Antigen</EpitopeRelation>
+                                    <Object>
+                                        <FragmentOfANaturalSequenceMolecule>
+                                            <ChemicalType>Peptide from protein</ChemicalType>
+                                            <LinearSequence>LSGEGWPYIACRTSIVGRAWENTTIDLTSEKPAVNSPRPAPGA</LinearSequence>
+                                            <StartingPosition>308</StartingPosition>
+                                            <EndingPosition>350</EndingPosition>
+                                            <SourceMolecule>
+                                                <GenBankId>P09992.1</GenBankId>
+                                            </SourceMolecule>
+                                            <SourceOrganismId>11624</SourceOrganismId>
+                                        </FragmentOfANaturalSequenceMolecule>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenReferenceName>NPTh-LII</ImmunogenReferenceName>
+                                <ImmunogenEvidenceCode>Exact match to reference information</ImmunogenEvidenceCode>
+                                <ImmunogenContainingObject>
+                                    <Plasmid>
+                                        <SubType>Plasmid</SubType>
+                                    </Plasmid>
+                                </ImmunogenContainingObject>
+                                <Route>Intramuscular</Route>
+                                <DoseSchedule>100 μg (50μg in each anterior tibial muscle)</DoseSchedule>
+                            </FirstInVivoProcess>
+                            <ImmunizationComments>Splenocytes were harvested 6 days after i.p LCMV infection (3 weeks after DNA immunization) with 2x10&lt;sup&gt;5&lt;/sup&gt; PFU. The minigene used as immunogen includes the lysosomal targeting signal from LIMP-II and is under the control of the immediate-early promoter of human cytomegalovirus in the pCMV expression vector.</ImmunizationComments>
+                        </Immunization>
+                        <EffectorCells>
+                            <CellTissueType>Spleen</CellTissueType>
+                            <CellType>T cell CD4+</CellType>
+                            <CellCultureConditions>Direct Ex Vivo</CellCultureConditions>
+                        </EffectorCells>
+                        <AntigenPresentingCells>
+                            <CellTissueType>Spleen</CellTissueType>
+                            <CellType>Splenocyte</CellType>
+                            <CellCultureConditions>Direct Ex Vivo</CellCultureConditions>
+                            <AutologousOrSyngeneic>Y</AutologousOrSyngeneic>
+                        </AntigenPresentingCells>
+                        <MhcAllele>
+                            <MhcAlleleId>181</MhcAlleleId>
+                            <MhcEvidenceCode>Not determined</MhcEvidenceCode>
+                        </MhcAllele>
+                        <Antigen>
+                            <AntigenReferenceName>NPTh</AntigenReferenceName>
+                            <AntigenObject>
+                                <EpitopeRelation>Epitope</EpitopeRelation>
+                                <Object>
+                                    <FragmentOfANaturalSequenceMolecule>
+                                        <ChemicalType>Peptide from protein</ChemicalType>
+                                        <LinearSequence>SGEGWPYIACRTSIVGRAWE</LinearSequence>
+                                        <StartingPosition>309</StartingPosition>
+                                        <EndingPosition>328</EndingPosition>
+                                        <SourceMolecule>
+                                            <GenBankId>P09992.1</GenBankId>
+                                        </SourceMolecule>
+                                        <SourceOrganismId>11624</SourceOrganismId>
+                                    </FragmentOfANaturalSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Exact match to reference information</AntigenEvidenceCode>
+                        </Antigen>
+                        <AssayInformation>
+                            <AssayTypeId>53</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <QuantitativeMeasurement>15.0</QuantitativeMeasurement>
+                            <MeasurementInequality>&gt;</MeasurementInequality>
+                            <NumberOfSubjectsTested>4</NumberOfSubjectsTested>
+                            <NumberOfSubjectsResponded>4</NumberOfSubjectsResponded>
+                            <ResponseFrequency>100</ResponseFrequency>
+                            <AssayComments>CD4+ IFN-g+ cells are significantly higher in mice vaccinated with an epitope minigene including a C-terminal 20-mer that directs it to the lysosomal compartment than in mice vaccinated with an epitope minigene alone or with the empty vector. The cells were obtained 6 days after LCMV infection of mice primed with a DNA vaccine.</AssayComments>
+                        </AssayInformation>
+                    </TCell>
+                </Assays>
+                <Assays>
+                    <TCell>
+                        <LocationOfData>Figure 7</LocationOfData>
+                        <TCellId>21291</TCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>10000067</OrganismId>
+                                <Age>6-16 wk</Age>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Administration in vivo</InVivoProcessType>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Fragment of Source Antigen</EpitopeRelation>
+                                    <Object>
+                                        <FragmentOfANaturalSequenceMolecule>
+                                            <ChemicalType>Peptide from protein</ChemicalType>
+                                            <LinearSequence>LSGEGWPYIACRTSIVGRAWENTTIDLTSEKPAVNSPRPAPGA</LinearSequence>
+                                            <StartingPosition>308</StartingPosition>
+                                            <EndingPosition>350</EndingPosition>
+                                            <SourceMolecule>
+                                                <GenBankId>P09992.1</GenBankId>
+                                            </SourceMolecule>
+                                            <SourceOrganismId>11624</SourceOrganismId>
+                                        </FragmentOfANaturalSequenceMolecule>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenReferenceName>NPTh-LII</ImmunogenReferenceName>
+                                <ImmunogenEvidenceCode>Exact match to reference information</ImmunogenEvidenceCode>
+                                <ImmunogenContainingObject>
+                                    <Plasmid>
+                                        <SubType>Plasmid</SubType>
+                                    </Plasmid>
+                                </ImmunogenContainingObject>
+                                <Route>Intramuscular</Route>
+                                <DoseSchedule>100 μg (50μg in each anterior tibial muscle)</DoseSchedule>
+                            </FirstInVivoProcess>
+                            <ImmunizationComments>Splenocytes were harvested 4 or 6 days after i.p LCMV infection (3 weeks after DNA immunization) with 2x10&lt;sup&gt;5&lt;/sup&gt; PFU. The minigene used as immunogen includes the lysosomal targeting signal from LIMP-II and is under the control of the immediate-early promoter of human cytomegalovirus in the pCMV expression vector.</ImmunizationComments>
+                        </Immunization>
+                        <EffectorCells>
+                            <CellTissueType>Spleen</CellTissueType>
+                            <CellType>T cell CD8+</CellType>
+                            <CellCultureConditions>Direct Ex Vivo</CellCultureConditions>
+                        </EffectorCells>
+                        <AntigenPresentingCells>
+                            <CellTissueType>Spleen</CellTissueType>
+                            <CellType>Splenocyte</CellType>
+                            <CellCultureConditions>Direct Ex Vivo</CellCultureConditions>
+                            <AutologousOrSyngeneic>Y</AutologousOrSyngeneic>
+                        </AntigenPresentingCells>
+                        <MhcAllele>
+                            <MhcAlleleId>172</MhcAlleleId>
+                            <MhcEvidenceCode>Not determined</MhcEvidenceCode>
+                        </MhcAllele>
+                        <Antigen>
+                            <AntigenReferenceName>NP396-404</AntigenReferenceName>
+                            <AntigenObject>
+                                <EpitopeRelation>Other Structure from Source Organism</EpitopeRelation>
+                                <Object>
+                                    <FragmentOfANaturalSequenceMolecule>
+                                        <ChemicalType>Peptide from protein</ChemicalType>
+                                        <LinearSequence>FQPQNGQFI</LinearSequence>
+                                        <StartingPosition>396</StartingPosition>
+                                        <EndingPosition>404</EndingPosition>
+                                        <SourceMolecule>
+                                            <GenBankId>P09992.1</GenBankId>
+                                        </SourceMolecule>
+                                        <SourceOrganismId>11624</SourceOrganismId>
+                                    </FragmentOfANaturalSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Exact match to reference information</AntigenEvidenceCode>
+                        </Antigen>
+                        <AssayInformation>
+                            <AssayTypeId>53</AssayTypeId>
+                            <QualitativeMeasurement>Negative</QualitativeMeasurement>
+                            <QuantitativeMeasurement>5.0</QuantitativeMeasurement>
+                            <MeasurementInequality>&lt;</MeasurementInequality>
+                            <AssayComments>4 and 6 days after infection of mice 3 weeks-previously vaccinated with an epitope minigene including a C-terminal 20-mer that directs it to the lysosomal compartment or with the empty vector, similar low levels of CD8+ cells responding to the immunodominant MHC-I epitope NP396-404 are detected, implying that the CD4+ priming achieved by the vaccine is not effective in enhancing or accelerating virus specific CD8+ responses.</AssayComments>
+                        </AssayInformation>
+                    </TCell>
+                </Assays>
+            </Epitope>
+            <Epitope>
+                <EpitopeName>GPTh</EpitopeName>
+                <EpitopeStructure>
+                    <FragmentOfANaturalSequenceMolecule>
+                        <ChemicalType>Peptide from protein</ChemicalType>
+                        <LinearSequence>GLKGPDIYKGVYQFKSVEFD</LinearSequence>
+                        <StartingPosition>61</StartingPosition>
+                        <EndingPosition>80</EndingPosition>
+                        <SourceMolecule>
+                            <GenBankId>P09991.1</GenBankId>
+                        </SourceMolecule>
+                        <SourceOrganismId>11624</SourceOrganismId>
+                    </FragmentOfANaturalSequenceMolecule>
+                </EpitopeStructure>
+                <LocationOfData>Fig 1</LocationOfData>
+                <EpitopeId>20958</EpitopeId>
+                <ReferenceStartingPosition>61</ReferenceStartingPosition>
+                <ReferenceEndingPosition>80</ReferenceEndingPosition>
+                <EpitopeEvidenceCode>Representative selection</EpitopeEvidenceCode>
+                <EpitopeStructureDefines>Epitope containing region/antigenic site</EpitopeStructureDefines>
+                <Assays>
+                    <TCell>
+                        <LocationOfData>Figure 3</LocationOfData>
+                        <TCellId>21299</TCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>10000067</OrganismId>
+                                <Age>6-16 wk</Age>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Administration in vivo</InVivoProcessType>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Epitope</EpitopeRelation>
+                                    <Object>
+                                        <FragmentOfANaturalSequenceMolecule>
+                                            <ChemicalType>Peptide from protein</ChemicalType>
+                                            <LinearSequence>GLKGPDIYKGVYQFKSVEFD</LinearSequence>
+                                            <StartingPosition>61</StartingPosition>
+                                            <EndingPosition>80</EndingPosition>
+                                            <SourceMolecule>
+                                                <GenBankId>P09991.1</GenBankId>
+                                            </SourceMolecule>
+                                            <SourceOrganismId>11624</SourceOrganismId>
+                                        </FragmentOfANaturalSequenceMolecule>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenEvidenceCode>Exact match to reference information</ImmunogenEvidenceCode>
+                                <ImmunogenContainingObject>
+                                    <Plasmid>
+                                        <SubType>Plasmid</SubType>
+                                    </Plasmid>
+                                </ImmunogenContainingObject>
+                                <Route>Intramuscular</Route>
+                                <DoseSchedule>100 μg (50μg in each anterior tibial muscle)</DoseSchedule>
+                            </FirstInVivoProcess>
+                            <ImmunizationComments>Splenocytes were harvested 6 days after i.p LCMV infection (3 weeks after DNA immunization) with 2x10&lt;sup&gt;5&lt;/sup&gt; PFU. The minigene used as immunogen is under the control of the immediate-early promoter of human cytomegalovirus in the pCMV expression vector.</ImmunizationComments>
+                        </Immunization>
+                        <EffectorCells>
+                            <CellTissueType>Spleen</CellTissueType>
+                            <CellType>T cell CD4+</CellType>
+                            <CellCultureConditions>Direct Ex Vivo</CellCultureConditions>
+                        </EffectorCells>
+                        <AntigenPresentingCells>
+                            <CellTissueType>Spleen</CellTissueType>
+                            <CellType>Splenocyte</CellType>
+                            <CellCultureConditions>Direct Ex Vivo</CellCultureConditions>
+                            <AutologousOrSyngeneic>Y</AutologousOrSyngeneic>
+                        </AntigenPresentingCells>
+                        <MhcAllele>
+                            <MhcAlleleId>181</MhcAlleleId>
+                            <MhcEvidenceCode>Not determined</MhcEvidenceCode>
+                        </MhcAllele>
+                        <Antigen>
+                            <AntigenReferenceName>GPTh</AntigenReferenceName>
+                            <AntigenObject>
+                                <EpitopeRelation>Epitope</EpitopeRelation>
+                                <Object>
+                                    <FragmentOfANaturalSequenceMolecule>
+                                        <ChemicalType>Peptide from protein</ChemicalType>
+                                        <LinearSequence>GLKGPDIYKGVYQFKSVEFD</LinearSequence>
+                                        <StartingPosition>61</StartingPosition>
+                                        <EndingPosition>80</EndingPosition>
+                                        <SourceMolecule>
+                                            <GenBankId>P09991.1</GenBankId>
+                                        </SourceMolecule>
+                                        <SourceOrganismId>11624</SourceOrganismId>
+                                    </FragmentOfANaturalSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Exact match to reference information</AntigenEvidenceCode>
+                        </Antigen>
+                        <AssayInformation>
+                            <AssayTypeId>53</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <QuantitativeMeasurement>5.0</QuantitativeMeasurement>
+                            <MeasurementInequality>&gt;</MeasurementInequality>
+                            <NumberOfSubjectsTested>4</NumberOfSubjectsTested>
+                            <NumberOfSubjectsResponded>4</NumberOfSubjectsResponded>
+                            <ResponseFrequency>100</ResponseFrequency>
+                            <AssayComments>CD4+ IFN-g+ cells are significantly higher in mice vaccinated with an epitope minigene than in mice vaccinated with an epitope minigene including a C-terminal 20-mer that directs it to the lysosomal compartment or with the empty vector, suggesting the epitope is normally processed in a lysosome-independent pathway. The cells were obtained 6 days after LCMV infection of mice primed with a DNA vaccine.</AssayComments>
+                        </AssayInformation>
+                    </TCell>
+                </Assays>
+                <Assays>
+                    <TCell>
+                        <LocationOfData>Figure 3</LocationOfData>
+                        <TCellId>21301</TCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>10000067</OrganismId>
+                                <Age>6-16 wk</Age>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Administration in vivo</InVivoProcessType>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Fragment of Source Antigen</EpitopeRelation>
+                                    <Object>
+                                        <FragmentOfANaturalSequenceMolecule>
+                                            <ChemicalType>Peptide from protein</ChemicalType>
+                                            <LinearSequence>NVNHDAEFCDMLRLIDYNKAALSKFKEDVESALHLFKTTVNSL</LinearSequence>
+                                            <StartingPosition>308</StartingPosition>
+                                            <EndingPosition>350</EndingPosition>
+                                            <SourceMolecule>
+                                                <GenBankId>P09991.1</GenBankId>
+                                            </SourceMolecule>
+                                            <SourceOrganismId>11624</SourceOrganismId>
+                                        </FragmentOfANaturalSequenceMolecule>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenReferenceName>GPTh-LII</ImmunogenReferenceName>
+                                <ImmunogenEvidenceCode>Exact match to reference information</ImmunogenEvidenceCode>
+                                <ImmunogenContainingObject>
+                                    <Plasmid>
+                                        <SubType>Plasmid</SubType>
+                                    </Plasmid>
+                                </ImmunogenContainingObject>
+                                <Route>Intramuscular</Route>
+                                <DoseSchedule>100 μg (50μg in each anterior tibial muscle)</DoseSchedule>
+                            </FirstInVivoProcess>
+                            <ImmunizationComments>Splenocytes were harvested 6 days after i.p LCMV infection (3 weeks after DNA immunization) with 2x10&lt;sup&gt;5&lt;/sup&gt; PFU. The minigene ORF used as immunogen includes the lysosomal targeting signal from LIMP-II and is under the control of the immediate-early promoter of human cytomegalovirus in the pCMV expression vector.</ImmunizationComments>
+                        </Immunization>
+                        <EffectorCells>
+                            <CellTissueType>Spleen</CellTissueType>
+                            <CellType>T cell CD4+</CellType>
+                            <CellCultureConditions>Direct Ex Vivo</CellCultureConditions>
+                        </EffectorCells>
+                        <AntigenPresentingCells>
+                            <CellTissueType>Spleen</CellTissueType>
+                            <CellType>Splenocyte</CellType>
+                            <CellCultureConditions>Direct Ex Vivo</CellCultureConditions>
+                            <AutologousOrSyngeneic>Y</AutologousOrSyngeneic>
+                        </AntigenPresentingCells>
+                        <MhcAllele>
+                            <MhcAlleleId>181</MhcAlleleId>
+                            <MhcEvidenceCode>Not determined</MhcEvidenceCode>
+                        </MhcAllele>
+                        <Antigen>
+                            <AntigenReferenceName>GPTh</AntigenReferenceName>
+                            <AntigenObject>
+                                <EpitopeRelation>Epitope</EpitopeRelation>
+                                <Object>
+                                    <FragmentOfANaturalSequenceMolecule>
+                                        <ChemicalType>Peptide from protein</ChemicalType>
+                                        <LinearSequence>GLKGPDIYKGVYQFKSVEFD</LinearSequence>
+                                        <StartingPosition>61</StartingPosition>
+                                        <EndingPosition>80</EndingPosition>
+                                        <SourceMolecule>
+                                            <GenBankId>P09991.1</GenBankId>
+                                        </SourceMolecule>
+                                        <SourceOrganismId>11624</SourceOrganismId>
+                                    </FragmentOfANaturalSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Exact match to reference information</AntigenEvidenceCode>
+                        </Antigen>
+                        <AssayInformation>
+                            <AssayTypeId>53</AssayTypeId>
+                            <QualitativeMeasurement>Negative</QualitativeMeasurement>
+                            <QuantitativeMeasurement>1.0</QuantitativeMeasurement>
+                            <NumberOfSubjectsTested>4</NumberOfSubjectsTested>
+                            <NumberOfSubjectsResponded>4</NumberOfSubjectsResponded>
+                            <ResponseFrequency>100</ResponseFrequency>
+                            <AssayComments>CD4+ IFN-g+ cell levels are similar in mice vaccinated with an epitope minigene including a C-terminal 20-mer that directs it to the lysosomal compartment or with the empty vector, while higher levels are obtained in mice vacinated with the eptiope alone, suggesting the epitope is normally processed in a lysosome-independent pathway. The cells were obtained 6 days after LCMV infection of mice primed with a DNA vaccine.</AssayComments>
+                        </AssayInformation>
+                    </TCell>
+                </Assays>
+                <Assays>
+                    <TCell>
+                        <LocationOfData>Figure 5</LocationOfData>
+                        <TCellId>21310</TCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>10000067</OrganismId>
+                                <Age>6-16 wk</Age>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Administration in vivo</InVivoProcessType>
+                                <DiseaseState>DOID:12155</DiseaseState>
+                                <DiseaseStage>Acute/Recent onset</DiseaseStage>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Source Organism</EpitopeRelation>
+                                    <Object>
+                                        <Organism>
+                                            <SubType>Organism</SubType>
+                                            <SourceOrganismId>11624</SourceOrganismId>
+                                        </Organism>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenReferenceName>Lymphocytic choriomeningitis virus (strain Armstrong)</ImmunogenReferenceName>
+                                <ImmunogenEvidenceCode>Not determined</ImmunogenEvidenceCode>
+                                <Route>Intraperitoneal (i.p.)</Route>
+                                <DoseSchedule>2x10&lt;sup&gt;5&lt;/sup&gt; PFU</DoseSchedule>
+                            </FirstInVivoProcess>
+                            <ImmunizationComments>Splenocytes were harvested 8 days after infection.</ImmunizationComments>
+                        </Immunization>
+                        <EffectorCells>
+                            <CellTissueType>Spleen</CellTissueType>
+                            <CellType>T cell CD4+</CellType>
+                            <CellCultureConditions>Direct Ex Vivo</CellCultureConditions>
+                        </EffectorCells>
+                        <AntigenPresentingCells>
+                            <CellTissueType>Spleen</CellTissueType>
+                            <CellType>Splenocyte</CellType>
+                            <CellCultureConditions>Direct Ex Vivo</CellCultureConditions>
+                            <AutologousOrSyngeneic>Y</AutologousOrSyngeneic>
+                        </AntigenPresentingCells>
+                        <MhcAllele>
+                            <MhcAlleleId>181</MhcAlleleId>
+                            <MhcEvidenceCode>Not determined</MhcEvidenceCode>
+                        </MhcAllele>
+                        <Antigen>
+                            <AntigenReferenceName>GPTh</AntigenReferenceName>
+                            <AntigenObject>
+                                <EpitopeRelation>Epitope</EpitopeRelation>
+                                <Object>
+                                    <FragmentOfANaturalSequenceMolecule>
+                                        <ChemicalType>Peptide from protein</ChemicalType>
+                                        <LinearSequence>GLKGPDIYKGVYQFKSVEFD</LinearSequence>
+                                        <StartingPosition>61</StartingPosition>
+                                        <EndingPosition>80</EndingPosition>
+                                        <SourceMolecule>
+                                            <GenBankId>P09991.1</GenBankId>
+                                        </SourceMolecule>
+                                        <SourceOrganismId>11624</SourceOrganismId>
+                                    </FragmentOfANaturalSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Exact match to reference information</AntigenEvidenceCode>
+                        </Antigen>
+                        <AssayInformation>
+                            <AssayTypeId>53</AssayTypeId>
+                            <QualitativeMeasurement>Negative</QualitativeMeasurement>
+                            <QuantitativeMeasurement>0.9</QuantitativeMeasurement>
+                            <NumberOfSubjectsTested>1</NumberOfSubjectsTested>
+                            <NumberOfSubjectsResponded>1</NumberOfSubjectsResponded>
+                            <ResponseFrequency>100</ResponseFrequency>
+                            <AssayComments>CD4+ IFN-g+ cells obtained from a LCMV infected mice are not detected if antigenic peptide is treated with cathepsin D (while 5.8% of cells are detected with the untreated peptide), implying that the lower immunogenicity of the lysosome-targeted epitope is related to specific lysosomal degradation of the sequence. Mass-spectrometry analysis of the reaction product shows that the peptidase cleaves the peptide specifically between residues F74 and K75.</AssayComments>
+                        </AssayInformation>
+                    </TCell>
+                </Assays>
+            </Epitope>
+            <Epitope>
+                <EpitopeName>NP396</EpitopeName>
+                <EpitopeStructure>
+                    <FragmentOfANaturalSequenceMolecule>
+                        <ChemicalType>Peptide from protein</ChemicalType>
+                        <LinearSequence>FQPQNGQFI</LinearSequence>
+                        <StartingPosition>396</StartingPosition>
+                        <EndingPosition>404</EndingPosition>
+                        <SourceMolecule>
+                            <GenBankId>P09992.1</GenBankId>
+                        </SourceMolecule>
+                        <SourceOrganismId>11624</SourceOrganismId>
+                    </FragmentOfANaturalSequenceMolecule>
+                </EpitopeStructure>
+                <LocationOfData>Fig 1</LocationOfData>
+                <EpitopeId>17516</EpitopeId>
+                <ReferenceStartingPosition>396</ReferenceStartingPosition>
+                <ReferenceEndingPosition>404</ReferenceEndingPosition>
+                <EpitopeEvidenceCode>Not determined</EpitopeEvidenceCode>
+                <EpitopeStructureDefines>Exact Epitope</EpitopeStructureDefines>
+                <Assays>
+                    <TCell>
+                        <LocationOfData>Figure 7</LocationOfData>
+                        <TCellId>21313</TCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>10000067</OrganismId>
+                                <Age>6-16 wk</Age>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Administration in vivo</InVivoProcessType>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Epitope</EpitopeRelation>
+                                    <Object>
+                                        <FragmentOfANaturalSequenceMolecule>
+                                            <ChemicalType>Peptide from protein</ChemicalType>
+                                            <LinearSequence>FQPQNGQFI</LinearSequence>
+                                            <StartingPosition>396</StartingPosition>
+                                            <EndingPosition>404</EndingPosition>
+                                            <SourceMolecule>
+                                                <GenBankId>P09992.1</GenBankId>
+                                            </SourceMolecule>
+                                            <SourceOrganismId>11624</SourceOrganismId>
+                                        </FragmentOfANaturalSequenceMolecule>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenReferenceName>NPTh-LII</ImmunogenReferenceName>
+                                <ImmunogenEvidenceCode>Exact match to reference information</ImmunogenEvidenceCode>
+                                <ImmunogenContainingObject>
+                                    <Plasmid>
+                                        <SubType>Plasmid</SubType>
+                                    </Plasmid>
+                                </ImmunogenContainingObject>
+                                <Route>Intramuscular</Route>
+                                <DoseSchedule>100 μg (50μg in each anterior tibial muscle)</DoseSchedule>
+                            </FirstInVivoProcess>
+                            <ImmunizationComments>Splenocytes were harvested 4 or 6 days after i.p LCMV infection (3 weeks after DNA immunization) with 2x10&lt;sup&gt;5&lt;/sup&gt; PFU. The minigene used as immunogen includes a T helper eptiope form source protein and the lysosomal targeting signal from LIMP-II, and is under the control of the immediate-early promoter of human cytomegalovirus in the pCMV expression vector.</ImmunizationComments>
+                        </Immunization>
+                        <EffectorCells>
+                            <CellTissueType>Spleen</CellTissueType>
+                            <CellType>T cell CD8+</CellType>
+                            <CellCultureConditions>Direct Ex Vivo</CellCultureConditions>
+                        </EffectorCells>
+                        <AntigenPresentingCells>
+                            <CellTissueType>Spleen</CellTissueType>
+                            <CellType>Splenocyte</CellType>
+                            <CellCultureConditions>Direct Ex Vivo</CellCultureConditions>
+                            <AutologousOrSyngeneic>Y</AutologousOrSyngeneic>
+                        </AntigenPresentingCells>
+                        <MhcAllele>
+                            <MhcAlleleId>172</MhcAlleleId>
+                            <MhcEvidenceCode>Not determined</MhcEvidenceCode>
+                        </MhcAllele>
+                        <Antigen>
+                            <AntigenReferenceName>NP396</AntigenReferenceName>
+                            <AntigenObject>
+                                <EpitopeRelation>Epitope</EpitopeRelation>
+                                <Object>
+                                    <FragmentOfANaturalSequenceMolecule>
+                                        <ChemicalType>Peptide from protein</ChemicalType>
+                                        <LinearSequence>FQPQNGQFI</LinearSequence>
+                                        <StartingPosition>396</StartingPosition>
+                                        <EndingPosition>404</EndingPosition>
+                                        <SourceMolecule>
+                                            <GenBankId>P09992.1</GenBankId>
+                                        </SourceMolecule>
+                                        <SourceOrganismId>11624</SourceOrganismId>
+                                    </FragmentOfANaturalSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Exact match to reference information</AntigenEvidenceCode>
+                        </Antigen>
+                        <AssayInformation>
+                            <AssayTypeId>53</AssayTypeId>
+                            <QualitativeMeasurement>Negative</QualitativeMeasurement>
+                            <QuantitativeMeasurement>5.0</QuantitativeMeasurement>
+                            <MeasurementInequality>&lt;</MeasurementInequality>
+                            <AssayComments>4 and 6 days after infection of mice 3 weeks-previously vaccinated with a T helper epitope minigene including a C-terminal 20-mer that directs it to the lysosomal compartment or with the empty vector, similar low levels of CD8+ cells responding to this CD8+ epitope are detected, implying that the CD4+ priming achieved by the vaccine is not effective in enhancing or accelerating virus specific CD8+ responses.</AssayComments>
+                        </AssayInformation>
+                    </TCell>
+                </Assays>
+                <Assays>
+                    <TCell>
+                        <LocationOfData>Figure 7</LocationOfData>
+                        <TCellId>21306</TCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>10000067</OrganismId>
+                                <Age>6-16 wk</Age>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Administration in vivo</InVivoProcessType>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Source Antigen</EpitopeRelation>
+                                    <Object>
+                                        <AccessionSequenceMolecule>
+                                            <ChemicalType>Protein</ChemicalType>
+                                            <Molecule>
+                                                <GenBankId>P09992.1</GenBankId>
+                                            </Molecule>
+                                            <SourceOrganismId>11624</SourceOrganismId>
+                                        </AccessionSequenceMolecule>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenReferenceName>Nucleocapsid protein</ImmunogenReferenceName>
+                                <ImmunogenEvidenceCode>Not determined</ImmunogenEvidenceCode>
+                                <ImmunogenContainingObject>
+                                    <Plasmid>
+                                        <SubType>Plasmid</SubType>
+                                    </Plasmid>
+                                </ImmunogenContainingObject>
+                                <Route>Intramuscular</Route>
+                                <DoseSchedule>100 μg (50μg in each anterior tibial muscle)</DoseSchedule>
+                            </FirstInVivoProcess>
+                            <ImmunizationComments>Splenocytes were harvested 4 or 6 days after i.p LCMV infection (3 weeks after DNA immunization) with 2x10&lt;sup&gt;5&lt;/sup&gt; PFU. The source protein ORF used as immunogen is under the control of the immediate-early promoter of human cytomegalovirus in the pCMV expression vector.</ImmunizationComments>
+                        </Immunization>
+                        <EffectorCells>
+                            <CellTissueType>Spleen</CellTissueType>
+                            <CellType>T cell CD8+</CellType>
+                            <CellCultureConditions>Direct Ex Vivo</CellCultureConditions>
+                        </EffectorCells>
+                        <AntigenPresentingCells>
+                            <CellTissueType>Spleen</CellTissueType>
+                            <CellType>Splenocyte</CellType>
+                            <CellCultureConditions>Direct Ex Vivo</CellCultureConditions>
+                            <AutologousOrSyngeneic>Y</AutologousOrSyngeneic>
+                        </AntigenPresentingCells>
+                        <MhcAllele>
+                            <MhcAlleleId>172</MhcAlleleId>
+                            <MhcEvidenceCode>Not determined</MhcEvidenceCode>
+                        </MhcAllele>
+                        <Antigen>
+                            <AntigenReferenceName>NP396</AntigenReferenceName>
+                            <AntigenObject>
+                                <EpitopeRelation>Epitope</EpitopeRelation>
+                                <Object>
+                                    <FragmentOfANaturalSequenceMolecule>
+                                        <ChemicalType>Peptide from protein</ChemicalType>
+                                        <LinearSequence>FQPQNGQFI</LinearSequence>
+                                        <StartingPosition>396</StartingPosition>
+                                        <EndingPosition>404</EndingPosition>
+                                        <SourceMolecule>
+                                            <GenBankId>P09992.1</GenBankId>
+                                        </SourceMolecule>
+                                        <SourceOrganismId>11624</SourceOrganismId>
+                                    </FragmentOfANaturalSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Exact match to reference information</AntigenEvidenceCode>
+                        </Antigen>
+                        <AssayInformation>
+                            <AssayTypeId>53</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <QuantitativeMeasurement>30.0</QuantitativeMeasurement>
+                            <MeasurementInequality>&gt;</MeasurementInequality>
+                            <AssayComments>4 and 6 days after infection of mice 3 weeks-previously vaccinated with the source protein DNA, higher levels of CD8+ cells responding to this MHC-I epitope are detected, in comparison to empty vector vaccinated mice, implying that the priming achieved by the vaccine is effective in enhancing or accelerating virus specific CD8+ responses.</AssayComments>
+                        </AssayInformation>
+                    </TCell>
+                </Assays>
+            </Epitope>
+        </Epitopes>
+    </Reference>
+</References>
+

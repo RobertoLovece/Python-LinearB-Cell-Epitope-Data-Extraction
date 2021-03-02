@@ -1,0 +1,278 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<References xsi:schemaLocation="http://www.iedb.org/schema/CurationSchema http://beta.iedb.org/schema/Curation.xsd" xmlns="http://www.iedb.org/schema/CurationSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <Reference>
+        <ReferenceId>620</ReferenceId>
+        <DateLastUpdated>2020-09-10-07:00</DateLastUpdated>
+        <Article>
+            <PubmedId>15627979</PubmedId>
+            <Abstract>Borna disease virus (BDV) infection of the central nervous system (CNS) leads to severe neurological symptoms in susceptible MRL mice. The disease is mainly mediated by CD8+ T cells specific for the immunodominant epitope TELEISSI in the BDV nucleoprotein. In this study, TELEISSI/MHC class I tetramers were used to directly visualize antigen-specific CD8+ T cells. We found that on average approximately 30% of the ex vivo analyzed CD8+ T cells in the CNS of diseased mice were specific for TELEISSI. Unexpectedly, the frequency of tetramer-reactive brain-derived CD8+ T cells doubled following overnight culture in the absence of antigen. The majority of CD8+ T cells showed enhanced tetramer binding without up-regulation of T cell receptor surface expression. The frequency of IFN-gamma-secreting CD8+ T cells after antigen-specific stimulation was higher in overnight cultures than in freshly isolated BDV-specific brain lymphocytes, and enhanced tetramer binding correlated with elevated sensitivity to lower levels of peptide antigen in cytotoxicity assays. These results indicate that the functional avidity of virus-specific CD8+ T cells was down-modulated in vivo. Thus, quantification of tissue-infiltrating CD8+ T cells by the tetramer technique must be interpreted with caution as it may underestimate the real frequency of antigen-specific CD8+ T cells.</Abstract>
+            <ArticleYear>2005</ArticleYear>
+            <ArticlePages>487-97</ArticlePages>
+            <ArticleTitle>The functional avidity of virus-specific CD8+ T cells is down-modulated in Borna disease virus-induced immunopathology of the central nervous system.</ArticleTitle>
+            <Authors>
+                <Author>
+                    <LastName>Engelhardt</LastName>
+                    <ForeName>Karin R</ForeName>
+                </Author>
+                <Author>
+                    <LastName>Richter</LastName>
+                    <ForeName>Kirsten</ForeName>
+                </Author>
+                <Author>
+                    <LastName>Baur</LastName>
+                    <ForeName>Karen</ForeName>
+                </Author>
+                <Author>
+                    <LastName>Staeheli</LastName>
+                    <ForeName>Peter</ForeName>
+                </Author>
+                <Author>
+                    <LastName>Hausmann</LastName>
+                    <ForeName>Jürgen</ForeName>
+                </Author>
+            </Authors>
+            <Affiliations>Department of Virology, Institute of Medical Microbiology and Hygiene, University of Freiburg, Freiburg, Germany.</Affiliations>
+            <ArticleChemicalList>H-2 Antigens;H-2K(K) antigen;Peptides;Receptors, Antigen, T-Cell;Interferon-gamma</ArticleChemicalList>
+            <ArticleMeshHeadingsList>Animals; Borna Disease(diagnosis; immunology; pathology); Borna disease virus(immunology); CD8-Positive T-Lymphocytes(immunology; metabolism); Central Nervous System(immunology; pathology; virology); Down-Regulation; H-2 Antigens(immunology); Interferon-gamma(metabolism); Mice; Peptides; Receptors, Antigen, T-Cell(immunology)</ArticleMeshHeadingsList>
+            <Journal>
+                <Volume>35</Volume>
+                <Issue>2</Issue>
+                <Title>European journal of immunology</Title>
+                <Issn>0014-2980</Issn>
+                <MedlineTa>Eur J Immunol</MedlineTa>
+            </Journal>
+        </Article>
+        <Epitopes>
+            <Epitope>
+                <EpitopeName>TELEISSI</EpitopeName>
+                <EpitopeStructure>
+                    <FragmentOfANaturalSequenceMolecule>
+                        <ChemicalType>Peptide from protein</ChemicalType>
+                        <LinearSequence>TELEISSI</LinearSequence>
+                        <StartingPosition>129</StartingPosition>
+                        <EndingPosition>136</EndingPosition>
+                        <SourceMolecule>
+                            <GenBankId>Q01552.2</GenBankId>
+                        </SourceMolecule>
+                        <SourceOrganismId>12455</SourceOrganismId>
+                    </FragmentOfANaturalSequenceMolecule>
+                </EpitopeStructure>
+                <LocationOfData>Page 488</LocationOfData>
+                <EpitopeId>63436</EpitopeId>
+                <ReferenceStartingPosition>129</ReferenceStartingPosition>
+                <ReferenceEndingPosition>136</ReferenceEndingPosition>
+                <EpitopeEvidenceCode>Not determined</EpitopeEvidenceCode>
+                <EpitopeStructureDefines>Exact Epitope</EpitopeStructureDefines>
+                <Assays>
+                    <TCell>
+                        <LocationOfData>Text</LocationOfData>
+                        <TCellId>5843</TCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>10000627</OrganismId>
+                                <Age>10-17 days</Age>
+                                <MhcAlleleTypesPresent>
+                                    <MhcAlleleId>125</MhcAlleleId>
+                                </MhcAlleleTypesPresent>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Administration in vivo</InVivoProcessType>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Source Organism</EpitopeRelation>
+                                    <Object>
+                                        <Organism>
+                                            <SubType>Organism</SubType>
+                                            <SourceOrganismId>12455</SourceOrganismId>
+                                        </Organism>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenReferenceName>mouse adapted BDV</ImmunogenReferenceName>
+                                <ImmunogenEvidenceCode>Not determined</ImmunogenEvidenceCode>
+                                <Route>Intracerebral</Route>
+                                <DoseSchedule>One dose of 10 microliters</DoseSchedule>
+                            </FirstInVivoProcess>
+                            <ImmunizationComments>Mice were immunized with infected rat brain homogenate.</ImmunizationComments>
+                        </Immunization>
+                        <EffectorCells>
+                            <CellTissueType>Central nervous system (CNS)</CellTissueType>
+                            <CellType>Mononuclear cell</CellType>
+                            <CellCultureConditions>Direct Ex Vivo</CellCultureConditions>
+                        </EffectorCells>
+                        <AntigenPresentingCells>
+                            <CellTissueType>Other</CellTissueType>
+                            <CellType>L cells-Fibroblast</CellType>
+                            <CellCultureConditions>Cell Line / Clone</CellCultureConditions>
+                            <AutologousOrSyngeneic>N</AutologousOrSyngeneic>
+                        </AntigenPresentingCells>
+                        <MhcAllele>
+                            <MhcAlleleId>125</MhcAlleleId>
+                            <MhcEvidenceCode>Not determined</MhcEvidenceCode>
+                        </MhcAllele>
+                        <Antigen>
+                            <AntigenReferenceName>TELEISSI</AntigenReferenceName>
+                            <AntigenObject>
+                                <EpitopeRelation>Epitope</EpitopeRelation>
+                                <Object>
+                                    <FragmentOfANaturalSequenceMolecule>
+                                        <ChemicalType>Peptide from protein</ChemicalType>
+                                        <LinearSequence>TELEISSI</LinearSequence>
+                                        <StartingPosition>129</StartingPosition>
+                                        <EndingPosition>136</EndingPosition>
+                                        <SourceMolecule>
+                                            <GenBankId>Q01552.2</GenBankId>
+                                        </SourceMolecule>
+                                        <SourceOrganismId>12455</SourceOrganismId>
+                                    </FragmentOfANaturalSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Exact match to reference information</AntigenEvidenceCode>
+                        </Antigen>
+                        <AssayInformation>
+                            <AssayTypeId>48</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <AssayComments>Incubating the effector cells in the absence of antigen overnight increases the number of spot-forming cells in eight out of 10 mice analyzed.</AssayComments>
+                        </AssayInformation>
+                    </TCell>
+                </Assays>
+                <Assays>
+                    <TCell>
+                        <LocationOfData>Text</LocationOfData>
+                        <TCellId>5841</TCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>10000627</OrganismId>
+                                <Age>10-17 days</Age>
+                                <MhcAlleleTypesPresent>
+                                    <MhcAlleleId>125</MhcAlleleId>
+                                </MhcAlleleTypesPresent>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Administration in vivo</InVivoProcessType>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Source Organism</EpitopeRelation>
+                                    <Object>
+                                        <Organism>
+                                            <SubType>Organism</SubType>
+                                            <SourceOrganismId>12455</SourceOrganismId>
+                                        </Organism>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenReferenceName>mouse adapted BDV</ImmunogenReferenceName>
+                                <ImmunogenEvidenceCode>Not determined</ImmunogenEvidenceCode>
+                                <Route>Intracerebral</Route>
+                                <DoseSchedule>One dose of 10 microliters</DoseSchedule>
+                            </FirstInVivoProcess>
+                            <ImmunizationComments>Mice were immunized with infected rat brain homogenate.</ImmunizationComments>
+                        </Immunization>
+                        <EffectorCells>
+                            <CellTissueType>Central nervous system (CNS)</CellTissueType>
+                            <CellType>Mononuclear cell</CellType>
+                            <CellCultureConditions>Direct Ex Vivo</CellCultureConditions>
+                        </EffectorCells>
+                        <MhcAllele>
+                            <MhcAlleleId>125</MhcAlleleId>
+                            <MhcEvidenceCode>Not determined</MhcEvidenceCode>
+                        </MhcAllele>
+                        <Antigen>
+                            <AntigenReferenceName>TELEISSI</AntigenReferenceName>
+                            <AntigenObject>
+                                <EpitopeRelation>Epitope</EpitopeRelation>
+                                <Object>
+                                    <FragmentOfANaturalSequenceMolecule>
+                                        <ChemicalType>Peptide from protein</ChemicalType>
+                                        <LinearSequence>TELEISSI</LinearSequence>
+                                        <StartingPosition>129</StartingPosition>
+                                        <EndingPosition>136</EndingPosition>
+                                        <SourceMolecule>
+                                            <GenBankId>Q01552.2</GenBankId>
+                                        </SourceMolecule>
+                                        <SourceOrganismId>12455</SourceOrganismId>
+                                    </FragmentOfANaturalSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Exact match to reference information</AntigenEvidenceCode>
+                        </Antigen>
+                        <AssayInformation>
+                            <AssayTypeId>47</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <QuantitativeMeasurement>0.33</QuantitativeMeasurement>
+                            <AssayComments>The fraction of stained CD8+ cells increases from an average of 33% to 58% upon incubating the effector cells in the absence of antigen overnight.</AssayComments>
+                        </AssayInformation>
+                    </TCell>
+                </Assays>
+                <Assays>
+                    <TCell>
+                        <LocationOfData>Figure 5</LocationOfData>
+                        <TCellId>5842</TCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>10000627</OrganismId>
+                                <Age>10-17 days</Age>
+                                <MhcAlleleTypesPresent>
+                                    <MhcAlleleId>125</MhcAlleleId>
+                                </MhcAlleleTypesPresent>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Administration in vivo</InVivoProcessType>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Source Organism</EpitopeRelation>
+                                    <Object>
+                                        <Organism>
+                                            <SubType>Organism</SubType>
+                                            <SourceOrganismId>12455</SourceOrganismId>
+                                        </Organism>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenReferenceName>mouse adapted BDV</ImmunogenReferenceName>
+                                <ImmunogenEvidenceCode>Not determined</ImmunogenEvidenceCode>
+                                <Route>Intracerebral</Route>
+                                <DoseSchedule>One dose of 10 microliters</DoseSchedule>
+                            </FirstInVivoProcess>
+                            <ImmunizationComments>Mice were immunized with infected rat brain homogenate.</ImmunizationComments>
+                        </Immunization>
+                        <EffectorCells>
+                            <CellTissueType>Central nervous system (CNS)</CellTissueType>
+                            <CellType>Mononuclear cell</CellType>
+                            <CellCultureConditions>Direct Ex Vivo</CellCultureConditions>
+                        </EffectorCells>
+                        <AntigenPresentingCells>
+                            <CellTissueType>Other</CellTissueType>
+                            <CellType>L cells-Fibroblast</CellType>
+                            <CellCultureConditions>Cell Line / Clone</CellCultureConditions>
+                            <AutologousOrSyngeneic>N</AutologousOrSyngeneic>
+                        </AntigenPresentingCells>
+                        <MhcAllele>
+                            <MhcAlleleId>125</MhcAlleleId>
+                            <MhcEvidenceCode>Not determined</MhcEvidenceCode>
+                        </MhcAllele>
+                        <Antigen>
+                            <AntigenReferenceName>TELEISSI</AntigenReferenceName>
+                            <AntigenObject>
+                                <EpitopeRelation>Epitope</EpitopeRelation>
+                                <Object>
+                                    <FragmentOfANaturalSequenceMolecule>
+                                        <ChemicalType>Peptide from protein</ChemicalType>
+                                        <LinearSequence>TELEISSI</LinearSequence>
+                                        <StartingPosition>129</StartingPosition>
+                                        <EndingPosition>136</EndingPosition>
+                                        <SourceMolecule>
+                                            <GenBankId>Q01552.2</GenBankId>
+                                        </SourceMolecule>
+                                        <SourceOrganismId>12455</SourceOrganismId>
+                                    </FragmentOfANaturalSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Exact match to reference information</AntigenEvidenceCode>
+                        </Antigen>
+                        <AssayInformation>
+                            <AssayTypeId>67</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <AssayComments>In contrast to the tetramer staining, incubating the effector cells in the absence of antigen overnight does not have a consistent effect on the cytotoxic T cell activity.</AssayComments>
+                        </AssayInformation>
+                    </TCell>
+                </Assays>
+            </Epitope>
+        </Epitopes>
+    </Reference>
+</References>
+

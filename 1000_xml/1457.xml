@@ -1,0 +1,705 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<References xsi:schemaLocation="http://www.iedb.org/schema/CurationSchema http://beta.iedb.org/schema/Curation.xsd" xmlns="http://www.iedb.org/schema/CurationSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <Reference>
+        <ReferenceId>1457</ReferenceId>
+        <DateLastUpdated>2018-09-17-07:00</DateLastUpdated>
+        <Article>
+            <PubmedId>12096029</PubmedId>
+            <Abstract>Efficient induction of T cell responses is normally assumed to require both TCR-mediated signaling and engagement of co-stimulatory molecules, in particular CD28. However, the importance of CD28 co-stimulation in induction and maintenance of antiviral T cell responses is not clearly established. For this reason antiviral CD4(+) and CD8(+) T cell responses in CD28-deficient mice were studied using two different viruses [vesicular stomatitis virus and lymphocytic choriomeningitis virus (LCMV)]. Intracellular cytokine staining and/or MHC-peptide tetramers were used to enumerate antigen-specific T cells. In addition, we used DNA constructs encoding viral epitopes to probe the importance of the epitope itself. Our results reveal that while the context of antigen presentation (live virus versus DNA construct) is a critical factor in determining the requirement for CD28 co-stimulation, epitope and virus dose play little if any role. Direct visualization of antigen-specific cells also confirms the notion that CD28 is more critical for the generation of antiviral T(h)1 cells than for T(c)1 cells generated in response to the same virus (LCMV). Most importantly, the present study reveals that CD28 generally is essential for the host to respond optimally over a broad set of conditions, and our results may imply that the relatively CD28 independent activation of LCMV-specific CD8(+) T cells may represent an extreme situation related to the non-cytolytic nature of this virus allowing the delivery of a uniquely strong and prolonged signal 1.</Abstract>
+            <ArticleYear>2002</ArticleYear>
+            <ArticlePages>701-11</ArticlePages>
+            <ArticleTitle>Role of CD28 co-stimulation in generation and maintenance of virus-specific T cells.</ArticleTitle>
+            <Authors>
+                <Author>
+                    <LastName>Christensen</LastName>
+                    <ForeName>Jeanette E</ForeName>
+                </Author>
+                <Author>
+                    <LastName>Christensen</LastName>
+                    <ForeName>Jan P</ForeName>
+                </Author>
+                <Author>
+                    <LastName>Kristensen</LastName>
+                    <ForeName>Nanna N</ForeName>
+                </Author>
+                <Author>
+                    <LastName>Hansen</LastName>
+                    <ForeName>Nils J V</ForeName>
+                </Author>
+                <Author>
+                    <LastName>Stryhn</LastName>
+                    <ForeName>Anette</ForeName>
+                </Author>
+                <Author>
+                    <LastName>Thomsen</LastName>
+                    <ForeName>Allan R</ForeName>
+                </Author>
+            </Authors>
+            <Affiliations>Institute of Medical Microbiology and Immunology, Panum Institute, 3C Blegdamsvej, 2200 Copenhagen, Denmark.</Affiliations>
+            <ArticleChemicalList>Antigens, Viral;CD28 Antigens;CD40 Antigens;Epitopes;Vaccines, DNA</ArticleChemicalList>
+            <ArticleMeshHeadingsList>Animals; Antigens, Viral(genetics; immunology); Arenaviridae Infections(immunology); CD28 Antigens(genetics; physiology); CD4-Positive T-Lymphocytes(immunology); CD40 Antigens(genetics); CD8-Positive T-Lymphocytes(immunology); Epitopes(genetics; immunology); Immunization; Lymphocyte Activation; Lymphocytic choriomeningitis virus(genetics; immunology); Mice; Mice, Inbred C57BL; Mice, Knockout; Plasmids(administration &amp; dosage; genetics); Rhabdoviridae Infections(immunology); Species Specificity; T-Lymphocytes, Cytotoxic(immunology); Th1 Cells(immunology); Vaccines, DNA(administration &amp; dosage; immunology); Vesicular stomatitis Indiana virus(genetics; immunology)</ArticleMeshHeadingsList>
+            <Journal>
+                <Volume>14</Volume>
+                <Issue>7</Issue>
+                <Title>International immunology</Title>
+                <Issn>0953-8178</Issn>
+                <MedlineTa>Int Immunol</MedlineTa>
+            </Journal>
+        </Article>
+        <Epitopes>
+            <Epitope>
+                <EpitopeName>NP52-59</EpitopeName>
+                <EpitopeStructure>
+                    <FragmentOfANaturalSequenceMolecule>
+                        <ChemicalType>Peptide from protein</ChemicalType>
+                        <LinearSequence>RGYVYQGL</LinearSequence>
+                        <StartingPosition>52</StartingPosition>
+                        <EndingPosition>59</EndingPosition>
+                        <SourceMolecule>
+                            <GenBankId>P11212.1</GenBankId>
+                        </SourceMolecule>
+                        <SourceOrganismId>11277</SourceOrganismId>
+                    </FragmentOfANaturalSequenceMolecule>
+                </EpitopeStructure>
+                <LocationOfData>Reference 56</LocationOfData>
+                <EpitopeId>54039</EpitopeId>
+                <ReferenceStartingPosition>52</ReferenceStartingPosition>
+                <ReferenceEndingPosition>59</ReferenceEndingPosition>
+                <EpitopeEvidenceCode>Not determined</EpitopeEvidenceCode>
+                <EpitopeStructureDefines>Exact Epitope</EpitopeStructureDefines>
+                <Assays>
+                    <TCell>
+                        <LocationOfData>Figure 1b</LocationOfData>
+                        <TCellId>23011</TCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>10000221</OrganismId>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Administration in vivo</InVivoProcessType>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Source Organism</EpitopeRelation>
+                                    <Object>
+                                        <Organism>
+                                            <SubType>Organism</SubType>
+                                            <SourceOrganismId>11277</SourceOrganismId>
+                                        </Organism>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenReferenceName>Vesicular stomatitis virus (Indiana)</ImmunogenReferenceName>
+                                <ImmunogenEvidenceCode>Not determined</ImmunogenEvidenceCode>
+                            </FirstInVivoProcess>
+                            <ImmunizationComments>Mice were immunized by experimental infection with Vesicular stomatitis virus (Indiana strain).</ImmunizationComments>
+                        </Immunization>
+                        <EffectorCells>
+                            <CellTissueType>Spleen</CellTissueType>
+                            <CellType>T cell CD8+</CellType>
+                            <CellCultureConditions>In Vivo</CellCultureConditions>
+                        </EffectorCells>
+                        <MhcAllele>
+                            <MhcAlleleId>122</MhcAlleleId>
+                            <MhcEvidenceCode>T cell assay -Single MHC type present</MhcEvidenceCode>
+                        </MhcAllele>
+                        <Antigen>
+                            <AntigenReferenceName>NP52-59</AntigenReferenceName>
+                            <AntigenObject>
+                                <EpitopeRelation>Epitope</EpitopeRelation>
+                                <Object>
+                                    <FragmentOfANaturalSequenceMolecule>
+                                        <ChemicalType>Peptide from protein</ChemicalType>
+                                        <LinearSequence>RGYVYQGL</LinearSequence>
+                                        <StartingPosition>52</StartingPosition>
+                                        <EndingPosition>59</EndingPosition>
+                                        <SourceMolecule>
+                                            <GenBankId>P11212.1</GenBankId>
+                                        </SourceMolecule>
+                                        <SourceOrganismId>11277</SourceOrganismId>
+                                    </FragmentOfANaturalSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Exact match to reference information</AntigenEvidenceCode>
+                        </Antigen>
+                        <AssayInformation>
+                            <AssayTypeId>47</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <AssayComments>Splenocytes from CD28-deficient mice experimentally infected with VSV (Indiana) were assyed by FACS on days 3, 5 and 7 post-infection in order to determine the percentage NP52-590-specific, H-2Kb-restricted tetramer staining.  The frequency of tetramer positive cells was significantly reduced in the CD28-deficient mice when compared to wild type CD28+/+.</AssayComments>
+                        </AssayInformation>
+                    </TCell>
+                </Assays>
+                <Assays>
+                    <TCell>
+                        <LocationOfData>Figure 1b</LocationOfData>
+                        <TCellId>24517</TCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>10000221</OrganismId>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Administration in vivo</InVivoProcessType>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Source Organism</EpitopeRelation>
+                                    <Object>
+                                        <Organism>
+                                            <SubType>Organism</SubType>
+                                            <SourceOrganismId>11277</SourceOrganismId>
+                                        </Organism>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenReferenceName>Vesicular stomatitis virus (Indiana)</ImmunogenReferenceName>
+                                <ImmunogenEvidenceCode>Not determined</ImmunogenEvidenceCode>
+                            </FirstInVivoProcess>
+                            <ImmunizationComments>Mice were immunized by infection with Vesicular stomatitis virus (Indiana strain).</ImmunizationComments>
+                        </Immunization>
+                        <EffectorCells>
+                            <CellTissueType>Spleen</CellTissueType>
+                            <CellType>T cell CD8+</CellType>
+                            <CellCultureConditions>In Vivo</CellCultureConditions>
+                        </EffectorCells>
+                        <MhcAllele>
+                            <MhcAlleleId>167</MhcAlleleId>
+                            <MhcEvidenceCode>T cell assay -T cell subset identification</MhcEvidenceCode>
+                        </MhcAllele>
+                        <Antigen>
+                            <AntigenReferenceName>NP52-59</AntigenReferenceName>
+                            <AntigenObject>
+                                <EpitopeRelation>Epitope</EpitopeRelation>
+                                <Object>
+                                    <FragmentOfANaturalSequenceMolecule>
+                                        <ChemicalType>Peptide from protein</ChemicalType>
+                                        <LinearSequence>RGYVYQGL</LinearSequence>
+                                        <StartingPosition>52</StartingPosition>
+                                        <EndingPosition>59</EndingPosition>
+                                        <SourceMolecule>
+                                            <GenBankId>P11212.1</GenBankId>
+                                        </SourceMolecule>
+                                        <SourceOrganismId>11277</SourceOrganismId>
+                                    </FragmentOfANaturalSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Exact match to reference information</AntigenEvidenceCode>
+                        </Antigen>
+                        <AssayInformation>
+                            <AssayTypeId>53</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <AssayComments>Splenocytes from CD28-deficient mice experimentally infected with VSV (Indiana) were assyed by FACS on days 3, 5 and 7 post-infection in order to determine the percentage NP52-590specific interferon gamma-producing CD8+ T cells.  The frequency of cytokine-producing CD8+ T cells was markedly reduced in CD28 deficient mice when compared to the normal phenotype CD28+/+.</AssayComments>
+                        </AssayInformation>
+                    </TCell>
+                </Assays>
+                <Assays>
+                    <TCell>
+                        <LocationOfData>Figure 6</LocationOfData>
+                        <TCellId>23015</TCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>10000221</OrganismId>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Administration in vivo</InVivoProcessType>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Epitope</EpitopeRelation>
+                                    <Object>
+                                        <FragmentOfANaturalSequenceMolecule>
+                                            <ChemicalType>Peptide from protein</ChemicalType>
+                                            <LinearSequence>RGYVYQGL</LinearSequence>
+                                            <StartingPosition>52</StartingPosition>
+                                            <EndingPosition>59</EndingPosition>
+                                            <SourceMolecule>
+                                                <GenBankId>P11212.1</GenBankId>
+                                            </SourceMolecule>
+                                            <SourceOrganismId>11277</SourceOrganismId>
+                                        </FragmentOfANaturalSequenceMolecule>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenReferenceName>GP33-10-hbeta2m</ImmunogenReferenceName>
+                                <ImmunogenEvidenceCode>Exact match to reference information</ImmunogenEvidenceCode>
+                                <ImmunogenContainingObject>
+                                    <Plasmid>
+                                        <SubType>Plasmid</SubType>
+                                    </Plasmid>
+                                </ImmunogenContainingObject>
+                                <Route>Intradermal</Route>
+                                <DoseSchedule>Mice received initial immunization and  boosted twice four weeks apart.</DoseSchedule>
+                            </FirstInVivoProcess>
+                            <InVitroAdministration>
+                                <ProcessType>Restimulation in vitro</ProcessType>
+                                <ResponderCellType>Splenocyte</ResponderCellType>
+                                <StimulatorCellType>Splenocyte</StimulatorCellType>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Epitope</EpitopeRelation>
+                                    <Object>
+                                        <FragmentOfANaturalSequenceMolecule>
+                                            <ChemicalType>Peptide from protein</ChemicalType>
+                                            <LinearSequence>RGYVYQGL</LinearSequence>
+                                            <StartingPosition>52</StartingPosition>
+                                            <EndingPosition>59</EndingPosition>
+                                            <SourceMolecule>
+                                                <GenBankId>P11212.1</GenBankId>
+                                            </SourceMolecule>
+                                            <SourceOrganismId>11277</SourceOrganismId>
+                                        </FragmentOfANaturalSequenceMolecule>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenEvidenceCode>Exact match to reference information</ImmunogenEvidenceCode>
+                            </InVitroAdministration>
+                            <ImmunizationComments>Mice were immunized by vaccination with DNA construct encoding VSV epitope NP52-59 linked to both murine and human beta-microglobin.  Four weeks after last immunization with plasmid construct splenocytes were -re-stimulated in vitro (6d) with irradiated splenocytes pulsed LCMV NP52-59. .</ImmunizationComments>
+                        </Immunization>
+                        <EffectorCells>
+                            <CellTissueType>Spleen</CellTissueType>
+                            <CellType>Splenocyte</CellType>
+                            <CellCultureConditions>Short Term Restimulated</CellCultureConditions>
+                        </EffectorCells>
+                        <AntigenPresentingCells>
+                            <CellTissueType>Lymphoid</CellTissueType>
+                            <CellType>RMA-lymphocyte</CellType>
+                            <CellCultureConditions>Cell Line / Clone</CellCultureConditions>
+                            <AutologousOrSyngeneic>Y</AutologousOrSyngeneic>
+                        </AntigenPresentingCells>
+                        <MhcAllele>
+                            <MhcAlleleId>167</MhcAlleleId>
+                            <MhcEvidenceCode>T cell assay -Biological process measured</MhcEvidenceCode>
+                        </MhcAllele>
+                        <Antigen>
+                            <AntigenReferenceName>NP52-59</AntigenReferenceName>
+                            <AntigenObject>
+                                <EpitopeRelation>Epitope</EpitopeRelation>
+                                <Object>
+                                    <FragmentOfANaturalSequenceMolecule>
+                                        <ChemicalType>Peptide from protein</ChemicalType>
+                                        <LinearSequence>RGYVYQGL</LinearSequence>
+                                        <StartingPosition>52</StartingPosition>
+                                        <EndingPosition>59</EndingPosition>
+                                        <SourceMolecule>
+                                            <GenBankId>P11212.1</GenBankId>
+                                        </SourceMolecule>
+                                        <SourceOrganismId>11277</SourceOrganismId>
+                                    </FragmentOfANaturalSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Exact match to reference information</AntigenEvidenceCode>
+                        </Antigen>
+                        <AssayInformation>
+                            <AssayTypeId>67</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <AssayComments>Splenocytes from CD28-deficient mice immunized repeatedly (total of 3 injections) with plasmid encoding NP52-10-hbeta2m were then assayed for recall CTL cytotoxicity.  CTLs were restimulated in vitro with peptide and then assayed for their ability to lyse peptide-pulsed targets.  The CTL response was significantly reduced (~16 fold) in CD28-deficient mice when compared to the normal phenotype CD28+/+.  This observation was independent of viral epitope (GP33 or NP52), suggesting that antigen presentation plays an improtant role in CD28 co-stimulation in vivo.</AssayComments>
+                        </AssayInformation>
+                    </TCell>
+                </Assays>
+            </Epitope>
+            <Epitope>
+                <EpitopeName>GP33-41</EpitopeName>
+                <EpitopeStructure>
+                    <FragmentOfANaturalSequenceMolecule>
+                        <ChemicalType>Peptide from protein</ChemicalType>
+                        <LinearSequence>KAVYNFATC</LinearSequence>
+                        <StartingPosition>33</StartingPosition>
+                        <EndingPosition>41</EndingPosition>
+                        <SourceMolecule>
+                            <GenBankId>P09991.1</GenBankId>
+                        </SourceMolecule>
+                        <SourceOrganismId>11624</SourceOrganismId>
+                    </FragmentOfANaturalSequenceMolecule>
+                </EpitopeStructure>
+                <LocationOfData>Reference 46</LocationOfData>
+                <EpitopeId>30001</EpitopeId>
+                <ReferenceStartingPosition>33</ReferenceStartingPosition>
+                <ReferenceEndingPosition>41</ReferenceEndingPosition>
+                <EpitopeEvidenceCode>Not determined</EpitopeEvidenceCode>
+                <EpitopeStructureDefines>Exact Epitope</EpitopeStructureDefines>
+                <Assays>
+                    <TCell>
+                        <LocationOfData>Figure 6</LocationOfData>
+                        <TCellId>23016</TCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>10000221</OrganismId>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Administration in vivo</InVivoProcessType>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Epitope</EpitopeRelation>
+                                    <Object>
+                                        <FragmentOfANaturalSequenceMolecule>
+                                            <ChemicalType>Peptide from protein</ChemicalType>
+                                            <LinearSequence>KAVYNFATC</LinearSequence>
+                                            <StartingPosition>33</StartingPosition>
+                                            <EndingPosition>41</EndingPosition>
+                                            <SourceMolecule>
+                                                <GenBankId>P09991.1</GenBankId>
+                                            </SourceMolecule>
+                                            <SourceOrganismId>11624</SourceOrganismId>
+                                        </FragmentOfANaturalSequenceMolecule>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenReferenceName>GP33-10-hbeta2m</ImmunogenReferenceName>
+                                <ImmunogenEvidenceCode>Exact match to reference information</ImmunogenEvidenceCode>
+                                <ImmunogenContainingObject>
+                                    <Plasmid>
+                                        <SubType>Plasmid</SubType>
+                                    </Plasmid>
+                                </ImmunogenContainingObject>
+                            </FirstInVivoProcess>
+                            <InVitroAdministration>
+                                <ProcessType>Restimulation in vitro</ProcessType>
+                                <ResponderCellType>Splenocyte</ResponderCellType>
+                                <StimulatorCellType>Splenocyte</StimulatorCellType>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Epitope</EpitopeRelation>
+                                    <Object>
+                                        <FragmentOfANaturalSequenceMolecule>
+                                            <ChemicalType>Peptide from protein</ChemicalType>
+                                            <LinearSequence>KAVYNFATC</LinearSequence>
+                                            <StartingPosition>33</StartingPosition>
+                                            <EndingPosition>41</EndingPosition>
+                                            <SourceMolecule>
+                                                <GenBankId>P09991.1</GenBankId>
+                                            </SourceMolecule>
+                                            <SourceOrganismId>11624</SourceOrganismId>
+                                        </FragmentOfANaturalSequenceMolecule>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenEvidenceCode>Exact match to reference information</ImmunogenEvidenceCode>
+                            </InVitroAdministration>
+                            <ImmunizationComments>Mice were immunized with DNA construct encoding LCMV Armstrong GP33-41 epitope linked to both human and murine microglobin.  Four weeks after last immunization with plasmid construct splenocytes were -re-stimulated in vitro (6d) with irradiated splenocytes pulsed LCMV GP33-41. .</ImmunizationComments>
+                        </Immunization>
+                        <EffectorCells>
+                            <CellTissueType>Spleen</CellTissueType>
+                            <CellType>Splenocyte</CellType>
+                            <CellCultureConditions>Short Term Restimulated</CellCultureConditions>
+                        </EffectorCells>
+                        <AntigenPresentingCells>
+                            <CellTissueType>Lymphoid</CellTissueType>
+                            <CellType>RMA-lymphocyte</CellType>
+                            <CellCultureConditions>Cell Line / Clone</CellCultureConditions>
+                            <AutologousOrSyngeneic>Y</AutologousOrSyngeneic>
+                        </AntigenPresentingCells>
+                        <MhcAllele>
+                            <MhcAlleleId>167</MhcAlleleId>
+                            <MhcEvidenceCode>T cell assay -Biological process measured</MhcEvidenceCode>
+                        </MhcAllele>
+                        <Antigen>
+                            <AntigenReferenceName>GP33-41</AntigenReferenceName>
+                            <AntigenObject>
+                                <EpitopeRelation>Epitope</EpitopeRelation>
+                                <Object>
+                                    <FragmentOfANaturalSequenceMolecule>
+                                        <ChemicalType>Peptide from protein</ChemicalType>
+                                        <LinearSequence>KAVYNFATC</LinearSequence>
+                                        <StartingPosition>33</StartingPosition>
+                                        <EndingPosition>41</EndingPosition>
+                                        <SourceMolecule>
+                                            <GenBankId>P09991.1</GenBankId>
+                                        </SourceMolecule>
+                                        <SourceOrganismId>11624</SourceOrganismId>
+                                    </FragmentOfANaturalSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Exact match to reference information</AntigenEvidenceCode>
+                        </Antigen>
+                        <AssayInformation>
+                            <AssayTypeId>67</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <AssayComments>Splenocytes from CD28-deficient mice immunized repeatedly (total of 3 injections) with plasmid encoding GP33-10-hbeta2m were then assayed for recall CTL cytotoxicity.  CTLs were restimulated in vitro with peptide and then assayed for their ability to lyse peptide-pulsed targets.  The CTL response was significantly reduced (~16 fold) in CD28-deficient mice when compared to the normal phenotype CD28+/+.  This observation was independent of viral epitope (GP33 or NP52), suggesting that antigen presentation plays an improtant role in CD28 co-stimulation in vivo.</AssayComments>
+                        </AssayInformation>
+                    </TCell>
+                </Assays>
+                <Assays>
+                    <TCell>
+                        <LocationOfData>Figure 4</LocationOfData>
+                        <TCellId>24206</TCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>10000221</OrganismId>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Administration in vivo</InVivoProcessType>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Taxonomic Sibling</EpitopeRelation>
+                                    <Object>
+                                        <Organism>
+                                            <SubType>Organism</SubType>
+                                            <SourceOrganismId>11626</SourceOrganismId>
+                                        </Organism>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenReferenceName>Lymphocytic choriomeningitis virus (strain Traub)</ImmunogenReferenceName>
+                                <ImmunogenEvidenceCode>Not determined</ImmunogenEvidenceCode>
+                            </FirstInVivoProcess>
+                            <ImmunizationComments>Mice were immunized by infection with LCMV(Traub) for 9 days.</ImmunizationComments>
+                        </Immunization>
+                        <EffectorCells>
+                            <CellTissueType>Spleen</CellTissueType>
+                            <CellType>T cell CD8+</CellType>
+                            <CellCultureConditions>Direct Ex Vivo</CellCultureConditions>
+                        </EffectorCells>
+                        <AntigenPresentingCells>
+                            <CellTissueType>Spleen</CellTissueType>
+                            <CellType>Splenocyte</CellType>
+                            <CellCultureConditions>Direct Ex Vivo</CellCultureConditions>
+                        </AntigenPresentingCells>
+                        <MhcAllele>
+                            <MhcAlleleId>167</MhcAlleleId>
+                            <MhcEvidenceCode>T cell assay -T cell subset identification</MhcEvidenceCode>
+                        </MhcAllele>
+                        <Antigen>
+                            <AntigenReferenceName>GP33-41</AntigenReferenceName>
+                            <AntigenObject>
+                                <EpitopeRelation>Epitope</EpitopeRelation>
+                                <Object>
+                                    <FragmentOfANaturalSequenceMolecule>
+                                        <ChemicalType>Peptide from protein</ChemicalType>
+                                        <LinearSequence>KAVYNFATC</LinearSequence>
+                                        <StartingPosition>33</StartingPosition>
+                                        <EndingPosition>41</EndingPosition>
+                                        <SourceMolecule>
+                                            <GenBankId>P09991.1</GenBankId>
+                                        </SourceMolecule>
+                                        <SourceOrganismId>11624</SourceOrganismId>
+                                    </FragmentOfANaturalSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Exact match to reference information</AntigenEvidenceCode>
+                        </Antigen>
+                        <AssayInformation>
+                            <AssayTypeId>53</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <AssayComments>Splenocytes harvested day 9 following LCMV (Traub) infection of CD28-deficient mice were capable of producing both interferon gamma and interleukin-2 in response to stimulation in vitro with GP33-41 peptide.  While the frequencies of interferon-gamma-producing CD8+ T cells are overlapping for CD28-deficient and wild type, there was a significant decrease in the production of IL-2 in CD28-deficient mice.  Results point to increased requirement for CD28 co-stimulation for IL-2 prodcution.</AssayComments>
+                        </AssayInformation>
+                    </TCell>
+                </Assays>
+                <Assays>
+                    <TCell>
+                        <LocationOfData>Figure 2</LocationOfData>
+                        <TCellId>23012</TCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>10000221</OrganismId>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Administration in vivo</InVivoProcessType>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Source Organism</EpitopeRelation>
+                                    <Object>
+                                        <Organism>
+                                            <SubType>Organism</SubType>
+                                            <SourceOrganismId>11624</SourceOrganismId>
+                                        </Organism>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenReferenceName>Lymphocytic choriomeningitis virus (strain Armstrong)</ImmunogenReferenceName>
+                                <ImmunogenEvidenceCode>Not determined</ImmunogenEvidenceCode>
+                            </FirstInVivoProcess>
+                            <ImmunizationComments>Mice were immunized by infection with LCMV Armstrong clone 13 for 10 days.</ImmunizationComments>
+                        </Immunization>
+                        <EffectorCells>
+                            <CellTissueType>Spleen</CellTissueType>
+                            <CellType>T cell CD8+</CellType>
+                            <CellCultureConditions>Direct Ex Vivo</CellCultureConditions>
+                        </EffectorCells>
+                        <AntigenPresentingCells>
+                            <CellTissueType>Spleen</CellTissueType>
+                            <CellType>Splenocyte</CellType>
+                            <CellCultureConditions>Direct Ex Vivo</CellCultureConditions>
+                        </AntigenPresentingCells>
+                        <MhcAllele>
+                            <MhcAlleleId>167</MhcAlleleId>
+                            <MhcEvidenceCode>T cell assay -T cell subset identification</MhcEvidenceCode>
+                        </MhcAllele>
+                        <Antigen>
+                            <AntigenReferenceName>GP33-41</AntigenReferenceName>
+                            <AntigenObject>
+                                <EpitopeRelation>Epitope</EpitopeRelation>
+                                <Object>
+                                    <FragmentOfANaturalSequenceMolecule>
+                                        <ChemicalType>Peptide from protein</ChemicalType>
+                                        <LinearSequence>KAVYNFATC</LinearSequence>
+                                        <StartingPosition>33</StartingPosition>
+                                        <EndingPosition>41</EndingPosition>
+                                        <SourceMolecule>
+                                            <GenBankId>P09991.1</GenBankId>
+                                        </SourceMolecule>
+                                        <SourceOrganismId>11624</SourceOrganismId>
+                                    </FragmentOfANaturalSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Exact match to reference information</AntigenEvidenceCode>
+                        </Antigen>
+                        <AssayInformation>
+                            <AssayTypeId>53</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <AssayComments>In contrast to the result obtained from VSV-infected mice, the frequency of LCMV-specific interferon-gamma-producing CD8+ T cells was not significantly reduced when compared to normal CD28+/+ phenoptype.  However, absolute cell numbers were reduced 30-50%.</AssayComments>
+                        </AssayInformation>
+                    </TCell>
+                </Assays>
+            </Epitope>
+            <Epitope>
+                <EpitopeName>GP276-286</EpitopeName>
+                <EpitopeStructure>
+                    <FragmentOfANaturalSequenceMolecule>
+                        <ChemicalType>Peptide from protein</ChemicalType>
+                        <LinearSequence>SGVENPGGYCL</LinearSequence>
+                        <StartingPosition>276</StartingPosition>
+                        <EndingPosition>286</EndingPosition>
+                        <SourceMolecule>
+                            <GenBankId>P09991.1</GenBankId>
+                        </SourceMolecule>
+                        <SourceOrganismId>11624</SourceOrganismId>
+                    </FragmentOfANaturalSequenceMolecule>
+                </EpitopeStructure>
+                <LocationOfData>Reference 46</LocationOfData>
+                <EpitopeId>58282</EpitopeId>
+                <ReferenceStartingPosition>276</ReferenceStartingPosition>
+                <ReferenceEndingPosition>286</ReferenceEndingPosition>
+                <EpitopeEvidenceCode>Not determined</EpitopeEvidenceCode>
+                <EpitopeStructureDefines>Exact Epitope</EpitopeStructureDefines>
+                <Assays>
+                    <TCell>
+                        <LocationOfData>Figure 2</LocationOfData>
+                        <TCellId>23013</TCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>10000221</OrganismId>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Administration in vivo</InVivoProcessType>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Source Organism</EpitopeRelation>
+                                    <Object>
+                                        <Organism>
+                                            <SubType>Organism</SubType>
+                                            <SourceOrganismId>11624</SourceOrganismId>
+                                        </Organism>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenReferenceName>Lymphocytic choriomeningitis virus (strain Armstrong)</ImmunogenReferenceName>
+                                <ImmunogenEvidenceCode>Not determined</ImmunogenEvidenceCode>
+                            </FirstInVivoProcess>
+                            <ImmunizationComments>Mice were immunized by infection with LCMV Armstrong clone 13 for 10 days.</ImmunizationComments>
+                        </Immunization>
+                        <EffectorCells>
+                            <CellTissueType>Spleen</CellTissueType>
+                            <CellType>T cell CD8+</CellType>
+                            <CellCultureConditions>Direct Ex Vivo</CellCultureConditions>
+                        </EffectorCells>
+                        <AntigenPresentingCells>
+                            <CellTissueType>Spleen</CellTissueType>
+                            <CellType>Splenocyte</CellType>
+                            <CellCultureConditions>Direct Ex Vivo</CellCultureConditions>
+                        </AntigenPresentingCells>
+                        <MhcAllele>
+                            <MhcAlleleId>167</MhcAlleleId>
+                            <MhcEvidenceCode>T cell assay -T cell subset identification</MhcEvidenceCode>
+                        </MhcAllele>
+                        <Antigen>
+                            <AntigenReferenceName>GP276-286</AntigenReferenceName>
+                            <AntigenObject>
+                                <EpitopeRelation>Epitope</EpitopeRelation>
+                                <Object>
+                                    <FragmentOfANaturalSequenceMolecule>
+                                        <ChemicalType>Peptide from protein</ChemicalType>
+                                        <LinearSequence>SGVENPGGYCL</LinearSequence>
+                                        <StartingPosition>276</StartingPosition>
+                                        <EndingPosition>286</EndingPosition>
+                                        <SourceMolecule>
+                                            <GenBankId>P09991.1</GenBankId>
+                                        </SourceMolecule>
+                                        <SourceOrganismId>11624</SourceOrganismId>
+                                    </FragmentOfANaturalSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Exact match to reference information</AntigenEvidenceCode>
+                        </Antigen>
+                        <AssayInformation>
+                            <AssayTypeId>53</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <AssayComments>In contrast to the result obtained from VSV-infected mice, the frequency of LCMV-specific interferon-gamma-producing CD8+ T cells was not significantly reduced when compared to normal CD28+/+ phenoptype.  However, absolute cell numbers were reduced 30-50%.</AssayComments>
+                        </AssayInformation>
+                    </TCell>
+                </Assays>
+            </Epitope>
+            <Epitope>
+                <EpitopeName>NP396-404</EpitopeName>
+                <EpitopeStructure>
+                    <FragmentOfANaturalSequenceMolecule>
+                        <ChemicalType>Peptide from protein</ChemicalType>
+                        <LinearSequence>FQPQNGQFI</LinearSequence>
+                        <StartingPosition>396</StartingPosition>
+                        <EndingPosition>404</EndingPosition>
+                        <SourceMolecule>
+                            <GenBankId>P09992.1</GenBankId>
+                        </SourceMolecule>
+                        <SourceOrganismId>11624</SourceOrganismId>
+                    </FragmentOfANaturalSequenceMolecule>
+                </EpitopeStructure>
+                <LocationOfData>Reference 46</LocationOfData>
+                <EpitopeId>17516</EpitopeId>
+                <ReferenceStartingPosition>396</ReferenceStartingPosition>
+                <ReferenceEndingPosition>404</ReferenceEndingPosition>
+                <EpitopeEvidenceCode>Not determined</EpitopeEvidenceCode>
+                <EpitopeStructureDefines>Exact Epitope</EpitopeStructureDefines>
+                <Assays>
+                    <TCell>
+                        <LocationOfData>Figure 2</LocationOfData>
+                        <TCellId>23014</TCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>10000221</OrganismId>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Administration in vivo</InVivoProcessType>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Source Organism</EpitopeRelation>
+                                    <Object>
+                                        <Organism>
+                                            <SubType>Organism</SubType>
+                                            <SourceOrganismId>11624</SourceOrganismId>
+                                        </Organism>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenReferenceName>LCMV Armstrong clone 13 (wt)</ImmunogenReferenceName>
+                                <ImmunogenEvidenceCode>Not determined</ImmunogenEvidenceCode>
+                            </FirstInVivoProcess>
+                            <ImmunizationComments>Mice were immunized by infection with LCMV Armstrong clone 13.</ImmunizationComments>
+                        </Immunization>
+                        <EffectorCells>
+                            <CellTissueType>Spleen</CellTissueType>
+                            <CellType>T cell CD8+</CellType>
+                            <CellCultureConditions>Direct Ex Vivo</CellCultureConditions>
+                        </EffectorCells>
+                        <AntigenPresentingCells>
+                            <AutologousOrSyngeneic>Y</AutologousOrSyngeneic>
+                        </AntigenPresentingCells>
+                        <MhcAllele>
+                            <MhcAlleleId>167</MhcAlleleId>
+                            <MhcEvidenceCode>T cell assay -T cell subset identification</MhcEvidenceCode>
+                        </MhcAllele>
+                        <Antigen>
+                            <AntigenReferenceName>NP396-404</AntigenReferenceName>
+                            <AntigenObject>
+                                <EpitopeRelation>Epitope</EpitopeRelation>
+                                <Object>
+                                    <FragmentOfANaturalSequenceMolecule>
+                                        <ChemicalType>Peptide from protein</ChemicalType>
+                                        <LinearSequence>FQPQNGQFI</LinearSequence>
+                                        <StartingPosition>396</StartingPosition>
+                                        <EndingPosition>404</EndingPosition>
+                                        <SourceMolecule>
+                                            <GenBankId>P09992.1</GenBankId>
+                                        </SourceMolecule>
+                                        <SourceOrganismId>11624</SourceOrganismId>
+                                    </FragmentOfANaturalSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Exact match to reference information</AntigenEvidenceCode>
+                        </Antigen>
+                        <AssayInformation>
+                            <AssayTypeId>53</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <AssayComments>Splenocytes from CD28-deficient mice infected with LCMV (clone 13)  were harvested day 10 post-infection and were assayed by FACS for interferon-gamma production following restimulation in vitro.  NP396-404-specific interferon production by CD8+ T cells was detected.  Identical experiments were performed using mice having normal CD28+/+ phenotype.  In contrast to the result obtained from VSV-infected mice, the frequency of LCMV-specific interferon-gamma-producing CD8+ T cells was not significantly reduced when compared to normal CD28+/+ phenoptype.  However, absolute cell numbers were reduced 30-50% (Figure 7).</AssayComments>
+                        </AssayInformation>
+                    </TCell>
+                </Assays>
+            </Epitope>
+        </Epitopes>
+    </Reference>
+</References>
+

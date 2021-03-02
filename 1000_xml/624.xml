@@ -1,0 +1,763 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<References xsi:schemaLocation="http://www.iedb.org/schema/CurationSchema http://beta.iedb.org/schema/Curation.xsd" xmlns="http://www.iedb.org/schema/CurationSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <Reference>
+        <ReferenceId>624</ReferenceId>
+        <DateLastUpdated>2020-09-10-07:00</DateLastUpdated>
+        <Article>
+            <PubmedId>15609329</PubmedId>
+            <Abstract>Cervical cancer (CaCx) is strongly associated with human papillomavirus (HPV) infection, particularly HPV types 16 and 18. The constitutive expression of HPV E6 and E7 proteins in CaCx makes them attractive targets for CTL based immunotherapy. However cervical carcinomas may have features, e.g., antigen processing defects, that limit the effectiveness of HPV specific CTL. Furthermore most vaccine development has concentrated on HPV type 16, and it is not clear whether such vaccines could induce CTL able to cross-react on related oncogenic HPV types, e.g., HPV31 and 52. To investigate these potentially important parameters in vitro, we used a CTL (D4) specific for HPV16 E7(11-20). D4 was able to kill a variety of HPV16+ CaCx cell lines including those with suspected (CaSki) or known antigen processing defects (C33A), and with low HPV DNA copy number (SiHa). D4 was also able to cross react on a related peptide from HPV52 E7 but not HPV31 E7. Further analysis suggested that D4 cross reactivity against related peptides was influenced both by TCR contact residues and a certain threshold for peptide binding. The HPV cross-reactivity was confirmed at the whole protein level as D4 was also able to recognize the endogenously processed forms of HPV16 and 52 E7 but not 31 E7. These results suggest that HPV16 E7(11-20) would be a useful epitope for immunotherapy in both HPV 16 and 52 tumours. Despite this, it is difficult to generate these CTL in response to vaccination, emphasizing the need for definition of novel epitopes and more efficient vaccination strategies.</Abstract>
+            <ArticleYear>2005</ArticleYear>
+            <ArticlePages>606-12</ArticlePages>
+            <ArticleTitle>Cross-typic specificity and immunotherapeutic potential of a human HPV16 E7-specific CTL line.</ArticleTitle>
+            <Authors>
+                <Author>
+                    <LastName>Youde</LastName>
+                    <ForeName>Sarah J</ForeName>
+                </Author>
+                <Author>
+                    <LastName>McCarthy</LastName>
+                    <ForeName>Corinna M</ForeName>
+                </Author>
+                <Author>
+                    <LastName>Thomas</LastName>
+                    <ForeName>Karen J</ForeName>
+                </Author>
+                <Author>
+                    <LastName>Smith</LastName>
+                    <ForeName>Kelly L</ForeName>
+                </Author>
+                <Author>
+                    <LastName>Man</LastName>
+                    <ForeName>Stephen</ForeName>
+                </Author>
+            </Authors>
+            <Affiliations>Section of Infection and Immunity, Henry Wellcome Building, Wales College of Medicine, Cardiff University, Heath Park, Cardiff, United Kingdom.</Affiliations>
+            <ArticleChemicalList>Epitopes, T-Lymphocyte;HLA-A Antigens;HLA-A*02:01 antigen;HLA-A2 Antigen;Oncogene Proteins, Viral;Papillomavirus E7 Proteins;Peptides;Receptors, Antigen, T-Cell;oncogene protein E7, Human papillomavirus type 16;DNA</ArticleChemicalList>
+            <ArticleMeshHeadingsList>Cell Line, Tumor; Cell Separation; DNA(metabolism); Enzyme-Linked Immunosorbent Assay; Epitopes, T-Lymphocyte(chemistry); Female; Flow Cytometry; HLA-A Antigens(chemistry); HLA-A2 Antigen; Humans; Immunotherapy(methods); Neoplasms(therapy; virology); Oncogene Proteins, Viral(metabolism); Papillomavirus E7 Proteins; Peptides(chemistry); Plasmids(metabolism); Receptors, Antigen, T-Cell(metabolism); T-Lymphocytes, Cytotoxic(immunology); Transfection; Uterine Cervical Neoplasms(metabolism; therapy)</ArticleMeshHeadingsList>
+            <Journal>
+                <Volume>114</Volume>
+                <Issue>4</Issue>
+                <Title>International journal of cancer. Journal international du cancer</Title>
+                <Issn>1097-0215</Issn>
+                <MedlineTa>Int J Cancer</MedlineTa>
+            </Journal>
+        </Article>
+        <Epitopes>
+            <Epitope>
+                <EpitopeName>HPV16 E7&lt;sub&gt;11-20&lt;/sub&gt;</EpitopeName>
+                <EpitopeStructure>
+                    <FragmentOfANaturalSequenceMolecule>
+                        <ChemicalType>Peptide from protein</ChemicalType>
+                        <LinearSequence>YMLDLQPETT</LinearSequence>
+                        <StartingPosition>11</StartingPosition>
+                        <EndingPosition>20</EndingPosition>
+                        <SourceMolecule>
+                            <GenBankId>ABL96585.1</GenBankId>
+                        </SourceMolecule>
+                        <SourceOrganismId>333760</SourceOrganismId>
+                    </FragmentOfANaturalSequenceMolecule>
+                </EpitopeStructure>
+                <LocationOfData>Table 1</LocationOfData>
+                <EpitopeId>75075</EpitopeId>
+                <ReferenceStartingPosition>11</ReferenceStartingPosition>
+                <ReferenceEndingPosition>20</ReferenceEndingPosition>
+                <EpitopeEvidenceCode>Representative selection</EpitopeEvidenceCode>
+                <EpitopeStructureDefines>Exact Epitope</EpitopeStructureDefines>
+                <Assays>
+                    <TCell>
+                        <LocationOfData>Figure 5</LocationOfData>
+                        <TCellId>5984</TCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>9606</OrganismId>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Occurrence of infectious disease</InVivoProcessType>
+                                <DiseaseState>DOID:934</DiseaseState>
+                                <DiseaseStage>Other</DiseaseStage>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Source Organism</EpitopeRelation>
+                                    <Object>
+                                        <Organism>
+                                            <SubType>Organism</SubType>
+                                            <SourceOrganismId>333760</SourceOrganismId>
+                                        </Organism>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenReferenceName>Human papillomavirus</ImmunogenReferenceName>
+                                <ImmunogenEvidenceCode>Not determined</ImmunogenEvidenceCode>
+                            </FirstInVivoProcess>
+                            <SecondInVivoProcess>
+                                <InVivoProcessType>Occurrence of cancer</InVivoProcessType>
+                                <DiseaseState>DOID:4362</DiseaseState>
+                                <DiseaseStage>Other</DiseaseStage>
+                            </SecondInVivoProcess>
+                            <InVitroAdministration>
+                                <ProcessType>Restimulation in vitro</ProcessType>
+                                <ResponderCellType>PBMC</ResponderCellType>
+                                <StimulatorCellType>PBMC</StimulatorCellType>
+                            </InVitroAdministration>
+                            <ImmunizationComments>Effector cells were D4, a monospecific polyclonal CTL line generated from one patient with stage IIB cervical cancer.</ImmunizationComments>
+                        </Immunization>
+                        <EffectorCells>
+                            <CellTissueType>Blood</CellTissueType>
+                            <CellType>T cell</CellType>
+                            <CellCultureConditions>Cell Line / Clone</CellCultureConditions>
+                        </EffectorCells>
+                        <AntigenPresentingCells>
+                            <CellTissueType>Lymphoid</CellTissueType>
+                            <CellType>B cell</CellType>
+                            <CellCultureConditions>Cell Line / Clone (EBV transformed, B-LCL)</CellCultureConditions>
+                        </AntigenPresentingCells>
+                        <MhcAllele>
+                            <MhcAlleleId>143</MhcAlleleId>
+                            <MhcEvidenceCode>MHC binding assay</MhcEvidenceCode>
+                        </MhcAllele>
+                        <Antigen>
+                            <AntigenReferenceName>Protein E7</AntigenReferenceName>
+                            <AntigenObject>
+                                <EpitopeRelation>Source Antigen</EpitopeRelation>
+                                <Object>
+                                    <AccessionSequenceMolecule>
+                                        <ChemicalType>Protein</ChemicalType>
+                                        <Molecule>
+                                            <GenBankId>ABL96585.1</GenBankId>
+                                        </Molecule>
+                                        <SourceOrganismId>333760</SourceOrganismId>
+                                    </AccessionSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Not determined</AntigenEvidenceCode>
+                        </Antigen>
+                        <AssayInformation>
+                            <AssayTypeId>48</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <NumberOfSubjectsTested>1</NumberOfSubjectsTested>
+                            <NumberOfSubjectsResponded>1</NumberOfSubjectsResponded>
+                            <ResponseFrequency>100</ResponseFrequency>
+                            <AssayComments>The target cells used were C33A HPV16 expressing the full HPV16 E7 protein.  A similar response was shown using target cells expressing the full HPV16 genome.</AssayComments>
+                        </AssayInformation>
+                    </TCell>
+                </Assays>
+                <Assays>
+                    <TCell>
+                        <LocationOfData>Figure 1A</LocationOfData>
+                        <TCellId>5975</TCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>9606</OrganismId>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Occurrence of infectious disease</InVivoProcessType>
+                                <DiseaseState>DOID:934</DiseaseState>
+                                <DiseaseStage>Other</DiseaseStage>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Source Organism</EpitopeRelation>
+                                    <Object>
+                                        <Organism>
+                                            <SubType>Organism</SubType>
+                                            <SourceOrganismId>333760</SourceOrganismId>
+                                        </Organism>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenReferenceName>Human papillomavirus</ImmunogenReferenceName>
+                                <ImmunogenEvidenceCode>Not determined</ImmunogenEvidenceCode>
+                            </FirstInVivoProcess>
+                            <SecondInVivoProcess>
+                                <InVivoProcessType>Occurrence of cancer</InVivoProcessType>
+                                <DiseaseState>DOID:4362</DiseaseState>
+                                <DiseaseStage>Other</DiseaseStage>
+                            </SecondInVivoProcess>
+                            <InVitroAdministration>
+                                <ProcessType>Restimulation in vitro</ProcessType>
+                                <ResponderCellType>PBMC</ResponderCellType>
+                                <StimulatorCellType>PBMC</StimulatorCellType>
+                            </InVitroAdministration>
+                            <ImmunizationComments>Effector cells were D4, a monospecific polyclonal CTL line generated from one patient with stage IIB cervical cancer.</ImmunizationComments>
+                        </Immunization>
+                        <EffectorCells>
+                            <CellTissueType>Blood</CellTissueType>
+                            <CellType>T cell</CellType>
+                            <CellCultureConditions>Cell Line / Clone</CellCultureConditions>
+                        </EffectorCells>
+                        <AntigenPresentingCells>
+                            <CellTissueType>Lymphoid</CellTissueType>
+                            <CellType>C1R cells-B cell</CellType>
+                            <CellCultureConditions>Cell Line / Clone</CellCultureConditions>
+                        </AntigenPresentingCells>
+                        <MhcAllele>
+                            <MhcAlleleId>143</MhcAlleleId>
+                            <MhcEvidenceCode>MHC binding assay</MhcEvidenceCode>
+                        </MhcAllele>
+                        <Antigen>
+                            <AntigenReferenceName>HPV16 E7&lt;sub&gt;11-20&lt;/sub&gt;</AntigenReferenceName>
+                            <AntigenObject>
+                                <EpitopeRelation>Epitope</EpitopeRelation>
+                                <Object>
+                                    <FragmentOfANaturalSequenceMolecule>
+                                        <ChemicalType>Peptide from protein</ChemicalType>
+                                        <LinearSequence>YMLDLQPETT</LinearSequence>
+                                        <StartingPosition>11</StartingPosition>
+                                        <EndingPosition>20</EndingPosition>
+                                        <SourceMolecule>
+                                            <GenBankId>ABL96585.1</GenBankId>
+                                        </SourceMolecule>
+                                        <SourceOrganismId>333760</SourceOrganismId>
+                                    </FragmentOfANaturalSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Exact match to reference information</AntigenEvidenceCode>
+                        </Antigen>
+                        <AssayInformation>
+                            <AssayTypeId>67</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <NumberOfSubjectsTested>1</NumberOfSubjectsTested>
+                            <NumberOfSubjectsResponded>1</NumberOfSubjectsResponded>
+                            <ResponseFrequency>100</ResponseFrequency>
+                        </AssayInformation>
+                    </TCell>
+                </Assays>
+                <Assays>
+                    <TCell>
+                        <LocationOfData>Figure 5</LocationOfData>
+                        <TCellId>8854</TCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>9606</OrganismId>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Occurrence of infectious disease</InVivoProcessType>
+                                <DiseaseState>DOID:934</DiseaseState>
+                                <DiseaseStage>Other</DiseaseStage>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Source Organism</EpitopeRelation>
+                                    <Object>
+                                        <Organism>
+                                            <SubType>Organism</SubType>
+                                            <SourceOrganismId>333760</SourceOrganismId>
+                                        </Organism>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenReferenceName>Human papillomavirus</ImmunogenReferenceName>
+                                <ImmunogenEvidenceCode>Not determined</ImmunogenEvidenceCode>
+                            </FirstInVivoProcess>
+                            <SecondInVivoProcess>
+                                <InVivoProcessType>Occurrence of cancer</InVivoProcessType>
+                                <DiseaseState>DOID:4362</DiseaseState>
+                                <DiseaseStage>Other</DiseaseStage>
+                            </SecondInVivoProcess>
+                            <InVitroAdministration>
+                                <ProcessType>Restimulation in vitro</ProcessType>
+                                <ResponderCellType>PBMC</ResponderCellType>
+                                <StimulatorCellType>PBMC</StimulatorCellType>
+                            </InVitroAdministration>
+                            <ImmunizationComments>Effector cells were D4, a monospecific polyclonal CTL line generated from one patient with stage IIB cervical cancer.</ImmunizationComments>
+                        </Immunization>
+                        <EffectorCells>
+                            <CellTissueType>Blood</CellTissueType>
+                            <CellType>T cell</CellType>
+                            <CellCultureConditions>Cell Line / Clone</CellCultureConditions>
+                        </EffectorCells>
+                        <AntigenPresentingCells>
+                            <CellTissueType>Lymphoid</CellTissueType>
+                            <CellType>B cell</CellType>
+                            <CellCultureConditions>Cell Line / Clone (EBV transformed, B-LCL)</CellCultureConditions>
+                        </AntigenPresentingCells>
+                        <MhcAllele>
+                            <MhcAlleleId>143</MhcAlleleId>
+                            <MhcEvidenceCode>MHC binding assay</MhcEvidenceCode>
+                        </MhcAllele>
+                        <Antigen>
+                            <AntigenReferenceName>E7</AntigenReferenceName>
+                            <AntigenObject>
+                                <EpitopeRelation>Taxonomic Sibling</EpitopeRelation>
+                                <Object>
+                                    <AccessionSequenceMolecule>
+                                        <ChemicalType>Protein</ChemicalType>
+                                        <Molecule>
+                                            <GenBankId>P36831.1</GenBankId>
+                                        </Molecule>
+                                        <SourceOrganismId>10618</SourceOrganismId>
+                                    </AccessionSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Not determined</AntigenEvidenceCode>
+                        </Antigen>
+                        <AssayInformation>
+                            <AssayTypeId>48</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <NumberOfSubjectsTested>1</NumberOfSubjectsTested>
+                            <NumberOfSubjectsResponded>1</NumberOfSubjectsResponded>
+                            <ResponseFrequency>100</ResponseFrequency>
+                            <AssayComments>The target cells used were C33A HPV52 expressing the full HPV52 protein.</AssayComments>
+                        </AssayInformation>
+                    </TCell>
+                </Assays>
+                <Assays>
+                    <MhcBinding>
+                        <LocationOfData>Figure 4</LocationOfData>
+                        <MhcBindingId>5983</MhcBindingId>
+                        <AssayInformation>
+                            <AssayTypeId>185</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <AssayComments>The peptide binding assay was conducted using the antigen processing defective cell line T2. These cells have low levels ofsurface HLA-A*0201, which increases when a peptide binds stably. The influenza matrix peptide (M1,58–66), which is known tobind strongly to this HLA allele, was used as a positive control. This peptide was found to bind to HLA-A*0201 stably for greater than 4 hours.</AssayComments>
+                        </AssayInformation>
+                        <MhcAlleleId>143</MhcAlleleId>
+                    </MhcBinding>
+                </Assays>
+            </Epitope>
+            <Epitope>
+                <EpitopeName>HPV16 E6&lt;sub&gt;29-38&lt;/sub&gt;</EpitopeName>
+                <EpitopeStructure>
+                    <FragmentOfANaturalSequenceMolecule>
+                        <ChemicalType>Peptide from protein</ChemicalType>
+                        <LinearSequence>TIHDIILECV</LinearSequence>
+                        <StartingPosition>29</StartingPosition>
+                        <EndingPosition>38</EndingPosition>
+                        <SourceMolecule>
+                            <GenBankId>P03126.1</GenBankId>
+                        </SourceMolecule>
+                        <SourceOrganismId>333760</SourceOrganismId>
+                    </FragmentOfANaturalSequenceMolecule>
+                </EpitopeStructure>
+                <LocationOfData>Table 1</LocationOfData>
+                <EpitopeId>64320</EpitopeId>
+                <ReferenceStartingPosition>29</ReferenceStartingPosition>
+                <ReferenceEndingPosition>38</ReferenceEndingPosition>
+                <EpitopeEvidenceCode>Representative selection</EpitopeEvidenceCode>
+                <EpitopeStructureDefines>Exact Epitope</EpitopeStructureDefines>
+                <Assays>
+                    <TCell>
+                        <LocationOfData>Figure 1B</LocationOfData>
+                        <TCellId>5991</TCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>9606</OrganismId>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Occurrence of infectious disease</InVivoProcessType>
+                                <DiseaseState>DOID:934</DiseaseState>
+                                <DiseaseStage>Other</DiseaseStage>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Source Organism</EpitopeRelation>
+                                    <Object>
+                                        <Organism>
+                                            <SubType>Organism</SubType>
+                                            <SourceOrganismId>333760</SourceOrganismId>
+                                        </Organism>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenReferenceName>Human papillomavirus</ImmunogenReferenceName>
+                                <ImmunogenEvidenceCode>Not determined</ImmunogenEvidenceCode>
+                            </FirstInVivoProcess>
+                            <InVitroAdministration>
+                                <ProcessType>Restimulation in vitro</ProcessType>
+                                <ResponderCellType>PBMC</ResponderCellType>
+                                <StimulatorCellType>PBMC</StimulatorCellType>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Epitope</EpitopeRelation>
+                                    <Object>
+                                        <FragmentOfANaturalSequenceMolecule>
+                                            <ChemicalType>Peptide from protein</ChemicalType>
+                                            <LinearSequence>TIHDIILECV</LinearSequence>
+                                            <StartingPosition>29</StartingPosition>
+                                            <EndingPosition>38</EndingPosition>
+                                            <SourceMolecule>
+                                                <GenBankId>P03126.1</GenBankId>
+                                            </SourceMolecule>
+                                            <SourceOrganismId>333760</SourceOrganismId>
+                                        </FragmentOfANaturalSequenceMolecule>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenEvidenceCode>Exact match to reference information</ImmunogenEvidenceCode>
+                            </InVitroAdministration>
+                            <ImmunizationComments>Effector cells were 7E7, a T-cell clone against the HPV16 E6 peptide.</ImmunizationComments>
+                        </Immunization>
+                        <EffectorCells>
+                            <CellTissueType>Blood</CellTissueType>
+                            <CellType>T cell</CellType>
+                            <CellCultureConditions>Cell Line / Clone</CellCultureConditions>
+                        </EffectorCells>
+                        <AntigenPresentingCells>
+                            <CellTissueType>Lymphoid</CellTissueType>
+                            <CellType>B cell</CellType>
+                            <CellCultureConditions>Cell Line / Clone (EBV transformed, B-LCL)</CellCultureConditions>
+                            <AutologousOrSyngeneic>Y</AutologousOrSyngeneic>
+                        </AntigenPresentingCells>
+                        <MhcAllele>
+                            <MhcAlleleId>143</MhcAlleleId>
+                            <MhcEvidenceCode>Cited reference</MhcEvidenceCode>
+                        </MhcAllele>
+                        <Antigen>
+                            <AntigenReferenceName>HPV16 E6&lt;sub&gt;29-38&lt;/sub&gt;</AntigenReferenceName>
+                            <AntigenObject>
+                                <EpitopeRelation>Epitope</EpitopeRelation>
+                                <Object>
+                                    <FragmentOfANaturalSequenceMolecule>
+                                        <ChemicalType>Peptide from protein</ChemicalType>
+                                        <LinearSequence>TIHDIILECV</LinearSequence>
+                                        <StartingPosition>29</StartingPosition>
+                                        <EndingPosition>38</EndingPosition>
+                                        <SourceMolecule>
+                                            <GenBankId>P03126.1</GenBankId>
+                                        </SourceMolecule>
+                                        <SourceOrganismId>333760</SourceOrganismId>
+                                    </FragmentOfANaturalSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Exact match to reference information</AntigenEvidenceCode>
+                        </Antigen>
+                        <AssayInformation>
+                            <AssayTypeId>67</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <NumberOfSubjectsTested>1</NumberOfSubjectsTested>
+                            <NumberOfSubjectsResponded>1</NumberOfSubjectsResponded>
+                            <ResponseFrequency>100</ResponseFrequency>
+                            <AssayComments>The target cells used were CaSki, an HLA-A*0201 positive cervical carcinoma cell line expressing HPV16 E6 and E7 proteins, which has been shown to express low levels of the antigen processing and presenting molecules LMP 2 and 7, and TAP 1 and 2.  A similar response was shown with SiHa cells cells transfected to express HLA A*0201 and pulsed with peptide.</AssayComments>
+                        </AssayInformation>
+                    </TCell>
+                </Assays>
+            </Epitope>
+            <Epitope>
+                <EpitopeName>HPV31 E7&lt;sub&gt;11-20&lt;/sub&gt;</EpitopeName>
+                <EpitopeStructure>
+                    <FragmentOfANaturalSequenceMolecule>
+                        <ChemicalType>Peptide from protein</ChemicalType>
+                        <LinearSequence>YVLDLQPEAT</LinearSequence>
+                        <StartingPosition>11</StartingPosition>
+                        <EndingPosition>20</EndingPosition>
+                        <SourceMolecule>
+                            <GenBankId>P17387.1</GenBankId>
+                        </SourceMolecule>
+                        <SourceOrganismId>10585</SourceOrganismId>
+                    </FragmentOfANaturalSequenceMolecule>
+                </EpitopeStructure>
+                <LocationOfData>Table 1</LocationOfData>
+                <EpitopeId>76334</EpitopeId>
+                <ReferenceStartingPosition>11</ReferenceStartingPosition>
+                <ReferenceEndingPosition>20</ReferenceEndingPosition>
+                <EpitopeEvidenceCode>Not determined</EpitopeEvidenceCode>
+                <EpitopeStructureDefines>Exact Epitope</EpitopeStructureDefines>
+                <Assays>
+                    <TCell>
+                        <LocationOfData>Figure 2</LocationOfData>
+                        <TCellId>8838</TCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>9606</OrganismId>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Occurrence of infectious disease</InVivoProcessType>
+                                <DiseaseState>DOID:934</DiseaseState>
+                                <DiseaseStage>Other</DiseaseStage>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Source Organism</EpitopeRelation>
+                                    <Object>
+                                        <Organism>
+                                            <SubType>Organism</SubType>
+                                            <SourceOrganismId>10585</SourceOrganismId>
+                                        </Organism>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenReferenceName>Human papillomavirus type 31</ImmunogenReferenceName>
+                                <ImmunogenEvidenceCode>Not determined</ImmunogenEvidenceCode>
+                            </FirstInVivoProcess>
+                            <SecondInVivoProcess>
+                                <InVivoProcessType>Occurrence of cancer</InVivoProcessType>
+                                <DiseaseState>DOID:4362</DiseaseState>
+                                <DiseaseStage>Other</DiseaseStage>
+                            </SecondInVivoProcess>
+                            <InVitroAdministration>
+                                <ProcessType>Restimulation in vitro</ProcessType>
+                                <ResponderCellType>PBMC</ResponderCellType>
+                                <StimulatorCellType>PBMC</StimulatorCellType>
+                            </InVitroAdministration>
+                            <ImmunizationComments>Effector cells were D4, a monospecific polyclonal CTL line generated from one patient with stage IIB cervical cancer.</ImmunizationComments>
+                        </Immunization>
+                        <EffectorCells>
+                            <CellTissueType>Blood</CellTissueType>
+                            <CellType>T cell</CellType>
+                            <CellCultureConditions>Cell Line / Clone</CellCultureConditions>
+                        </EffectorCells>
+                        <AntigenPresentingCells>
+                            <CellTissueType>Lymphoid</CellTissueType>
+                            <CellType>C1R cells-B cell</CellType>
+                            <CellCultureConditions>Cell Line / Clone</CellCultureConditions>
+                        </AntigenPresentingCells>
+                        <MhcAllele>
+                            <MhcAlleleId>143</MhcAlleleId>
+                            <MhcEvidenceCode>MHC binding assay</MhcEvidenceCode>
+                        </MhcAllele>
+                        <Antigen>
+                            <AntigenReferenceName>HPV31 E7&lt;sub&gt;11-20&lt;/sub&gt;</AntigenReferenceName>
+                            <AntigenObject>
+                                <EpitopeRelation>Epitope</EpitopeRelation>
+                                <Object>
+                                    <FragmentOfANaturalSequenceMolecule>
+                                        <ChemicalType>Peptide from protein</ChemicalType>
+                                        <LinearSequence>YVLDLQPEAT</LinearSequence>
+                                        <StartingPosition>11</StartingPosition>
+                                        <EndingPosition>20</EndingPosition>
+                                        <SourceMolecule>
+                                            <GenBankId>P17387.1</GenBankId>
+                                        </SourceMolecule>
+                                        <SourceOrganismId>10585</SourceOrganismId>
+                                    </FragmentOfANaturalSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Exact match to reference information</AntigenEvidenceCode>
+                        </Antigen>
+                        <AssayInformation>
+                            <AssayTypeId>67</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <NumberOfSubjectsTested>1</NumberOfSubjectsTested>
+                            <NumberOfSubjectsResponded>1</NumberOfSubjectsResponded>
+                            <ResponseFrequency>100</ResponseFrequency>
+                        </AssayInformation>
+                    </TCell>
+                </Assays>
+                <Assays>
+                    <MhcBinding>
+                        <LocationOfData>Figure 4</LocationOfData>
+                        <MhcBindingId>6019</MhcBindingId>
+                        <AssayInformation>
+                            <AssayTypeId>185</AssayTypeId>
+                            <QualitativeMeasurement>Negative</QualitativeMeasurement>
+                            <AssayComments>The peptide binding assay was conducted using the antigen processing defective cell line T2. These cells have low levels ofsurface HLA-A*0201, which increases when a peptide binds stably.  The influenza matrix peptide (M1,58–66), which is known tobind strongly to this HLA allele, was used as a positive control. This peptide did not bind stably to HLA-A*0201 for greater than 4 hours.</AssayComments>
+                        </AssayInformation>
+                        <MhcAlleleId>143</MhcAlleleId>
+                    </MhcBinding>
+                </Assays>
+            </Epitope>
+            <Epitope>
+                <EpitopeName>HPV52 E7&lt;sub&gt;11-20&lt;/sub&gt;</EpitopeName>
+                <EpitopeStructure>
+                    <FragmentOfANaturalSequenceMolecule>
+                        <ChemicalType>Peptide from protein</ChemicalType>
+                        <LinearSequence>YILDLQPETT</LinearSequence>
+                        <StartingPosition>11</StartingPosition>
+                        <EndingPosition>20</EndingPosition>
+                        <SourceMolecule>
+                            <GenBankId>P36831.1</GenBankId>
+                        </SourceMolecule>
+                        <SourceOrganismId>10618</SourceOrganismId>
+                    </FragmentOfANaturalSequenceMolecule>
+                </EpitopeStructure>
+                <LocationOfData>Table 1</LocationOfData>
+                <EpitopeId>74288</EpitopeId>
+                <ReferenceStartingPosition>11</ReferenceStartingPosition>
+                <ReferenceEndingPosition>20</ReferenceEndingPosition>
+                <EpitopeEvidenceCode>Not determined</EpitopeEvidenceCode>
+                <EpitopeStructureDefines>Exact Epitope</EpitopeStructureDefines>
+                <Assays>
+                    <TCell>
+                        <LocationOfData>Figure 2</LocationOfData>
+                        <TCellId>8834</TCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>9606</OrganismId>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Occurrence of infectious disease</InVivoProcessType>
+                                <DiseaseState>DOID:934</DiseaseState>
+                                <DiseaseStage>Other</DiseaseStage>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Source Organism</EpitopeRelation>
+                                    <Object>
+                                        <Organism>
+                                            <SubType>Organism</SubType>
+                                            <SourceOrganismId>10618</SourceOrganismId>
+                                        </Organism>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenReferenceName>Human papillomavirus type 52</ImmunogenReferenceName>
+                                <ImmunogenEvidenceCode>Not determined</ImmunogenEvidenceCode>
+                            </FirstInVivoProcess>
+                            <SecondInVivoProcess>
+                                <InVivoProcessType>Occurrence of cancer</InVivoProcessType>
+                                <DiseaseState>DOID:4362</DiseaseState>
+                                <DiseaseStage>Other</DiseaseStage>
+                            </SecondInVivoProcess>
+                            <InVitroAdministration>
+                                <ProcessType>Restimulation in vitro</ProcessType>
+                                <ResponderCellType>PBMC</ResponderCellType>
+                                <StimulatorCellType>PBMC</StimulatorCellType>
+                            </InVitroAdministration>
+                            <ImmunizationComments>Effector cells were D4, a monospecific polyclonal CTL line generated from one patient with stage IIB cervical cancer.</ImmunizationComments>
+                        </Immunization>
+                        <EffectorCells>
+                            <CellTissueType>Blood</CellTissueType>
+                            <CellType>T cell</CellType>
+                            <CellCultureConditions>Cell Line / Clone</CellCultureConditions>
+                        </EffectorCells>
+                        <AntigenPresentingCells>
+                            <CellTissueType>Lymphoid</CellTissueType>
+                            <CellType>C1R cells-B cell</CellType>
+                            <CellCultureConditions>Cell Line / Clone</CellCultureConditions>
+                        </AntigenPresentingCells>
+                        <MhcAllele>
+                            <MhcAlleleId>143</MhcAlleleId>
+                            <MhcEvidenceCode>MHC binding assay</MhcEvidenceCode>
+                        </MhcAllele>
+                        <Antigen>
+                            <AntigenReferenceName>HPV52 E7&lt;sub&gt;11-20&lt;/sub&gt;</AntigenReferenceName>
+                            <AntigenObject>
+                                <EpitopeRelation>Epitope</EpitopeRelation>
+                                <Object>
+                                    <FragmentOfANaturalSequenceMolecule>
+                                        <ChemicalType>Peptide from protein</ChemicalType>
+                                        <LinearSequence>YILDLQPETT</LinearSequence>
+                                        <StartingPosition>11</StartingPosition>
+                                        <EndingPosition>20</EndingPosition>
+                                        <SourceMolecule>
+                                            <GenBankId>P36831.1</GenBankId>
+                                        </SourceMolecule>
+                                        <SourceOrganismId>10618</SourceOrganismId>
+                                    </FragmentOfANaturalSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Exact match to reference information</AntigenEvidenceCode>
+                        </Antigen>
+                        <AssayInformation>
+                            <AssayTypeId>67</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <NumberOfSubjectsTested>1</NumberOfSubjectsTested>
+                            <NumberOfSubjectsResponded>1</NumberOfSubjectsResponded>
+                            <ResponseFrequency>100</ResponseFrequency>
+                        </AssayInformation>
+                    </TCell>
+                </Assays>
+                <Assays>
+                    <MhcBinding>
+                        <LocationOfData>Figure 4</LocationOfData>
+                        <MhcBindingId>6028</MhcBindingId>
+                        <AssayInformation>
+                            <AssayTypeId>185</AssayTypeId>
+                            <QualitativeMeasurement>Negative</QualitativeMeasurement>
+                            <AssayComments>The peptide binding assay was conducted using the antigen processing defective cell line T2. These cells have low levels ofsurface HLA-A*0201, which increases when a peptide binds stably. The influenza matrix peptide (M1,58–66), which is known tobind strongly to this HLA allele, was used as a positive control.  This peptide did not bind stably to HLA-A*0201 for greater than 4 hours.</AssayComments>
+                        </AssayInformation>
+                        <MhcAlleleId>143</MhcAlleleId>
+                    </MhcBinding>
+                </Assays>
+            </Epitope>
+            <Epitope>
+                <EpitopeName>Analog 52/31</EpitopeName>
+                <EpitopeStructure>
+                    <SequenceMoleculeNoNaturalSource>
+                        <ChemicalType>Peptide, no natural source</ChemicalType>
+                        <LinearSequence>YILDLQPEAT</LinearSequence>
+                    </SequenceMoleculeNoNaturalSource>
+                </EpitopeStructure>
+                <EpitopeRelatedObject>
+                    <RelatedObjectType>The epitope is an analog of:</RelatedObjectType>
+                    <RelatedObject>
+                        <FragmentOfANaturalSequenceMolecule>
+                            <ChemicalType>Peptide from protein</ChemicalType>
+                            <LinearSequence>YMLDLQPETT</LinearSequence>
+                            <StartingPosition>11</StartingPosition>
+                            <EndingPosition>20</EndingPosition>
+                            <SourceMolecule>
+                                <GenBankId>ABL96585.1</GenBankId>
+                            </SourceMolecule>
+                            <SourceOrganismId>333760</SourceOrganismId>
+                        </FragmentOfANaturalSequenceMolecule>
+                    </RelatedObject>
+                </EpitopeRelatedObject>
+                <LocationOfData>Table 1</LocationOfData>
+                <EpitopeId>74287</EpitopeId>
+                <EpitopeStructureDefines>Exact Epitope</EpitopeStructureDefines>
+                <Assays>
+                    <MhcBinding>
+                        <LocationOfData>Figure 4</LocationOfData>
+                        <MhcBindingId>6031</MhcBindingId>
+                        <AssayInformation>
+                            <AssayTypeId>185</AssayTypeId>
+                            <QualitativeMeasurement>Negative</QualitativeMeasurement>
+                            <AssayComments>The peptide binding assay was conducted using the antigen processing defective cell line T2. These cells have low levels ofsurface HLA-A*0201, which increases when a peptide binds stably. The influenza matrix peptide (M1,58–66), which is known tobind strongly to this HLA allele, was used as a positive control.  This peptide did not bind stably to HLA-A*0201 for greater than 4 hours.</AssayComments>
+                        </AssayInformation>
+                        <MhcAlleleId>143</MhcAlleleId>
+                    </MhcBinding>
+                </Assays>
+            </Epitope>
+            <Epitope>
+                <EpitopeName>Analog 31/52</EpitopeName>
+                <EpitopeStructure>
+                    <SequenceMoleculeNoNaturalSource>
+                        <ChemicalType>Peptide, no natural source</ChemicalType>
+                        <LinearSequence>YVLDLQPETT</LinearSequence>
+                    </SequenceMoleculeNoNaturalSource>
+                </EpitopeStructure>
+                <EpitopeRelatedObject>
+                    <RelatedObjectType>The epitope is an analog of:</RelatedObjectType>
+                    <RelatedObject>
+                        <FragmentOfANaturalSequenceMolecule>
+                            <ChemicalType>Peptide from protein</ChemicalType>
+                            <LinearSequence>YMLDLQPETT</LinearSequence>
+                            <StartingPosition>11</StartingPosition>
+                            <EndingPosition>20</EndingPosition>
+                            <SourceMolecule>
+                                <GenBankId>ABL96585.1</GenBankId>
+                            </SourceMolecule>
+                            <SourceOrganismId>333760</SourceOrganismId>
+                        </FragmentOfANaturalSequenceMolecule>
+                    </RelatedObject>
+                </EpitopeRelatedObject>
+                <LocationOfData>Table 1</LocationOfData>
+                <EpitopeId>76335</EpitopeId>
+                <EpitopeStructureDefines>Exact Epitope</EpitopeStructureDefines>
+                <Assays>
+                    <MhcBinding>
+                        <LocationOfData>Figure 4</LocationOfData>
+                        <MhcBindingId>6034</MhcBindingId>
+                        <AssayInformation>
+                            <AssayTypeId>185</AssayTypeId>
+                            <QualitativeMeasurement>Negative</QualitativeMeasurement>
+                            <AssayComments>The peptide binding assay was conducted using the antigen processing defective cell line T2. These cells have low levels ofsurface HLA-A*0201, which increases when a peptide binds stably. The influenza matrix peptide (M1,58–66), which is known tobind strongly to this HLA allele, was used as a positive control.  This peptide did not bind stably to HLA-A*0201 for greater than 4 hours.</AssayComments>
+                        </AssayInformation>
+                        <MhcAlleleId>143</MhcAlleleId>
+                    </MhcBinding>
+                </Assays>
+            </Epitope>
+            <Epitope>
+                <EpitopeName>HPV16 E7&lt;sub&gt;11–20&lt;/sub&gt; P9</EpitopeName>
+                <EpitopeStructure>
+                    <SequenceMoleculeNoNaturalSource>
+                        <ChemicalType>Peptide, no natural source</ChemicalType>
+                        <LinearSequence>YMLDLQPEAT</LinearSequence>
+                    </SequenceMoleculeNoNaturalSource>
+                </EpitopeStructure>
+                <EpitopeRelatedObject>
+                    <RelatedObjectType>The epitope is an analog of:</RelatedObjectType>
+                    <RelatedObject>
+                        <FragmentOfANaturalSequenceMolecule>
+                            <ChemicalType>Peptide from protein</ChemicalType>
+                            <LinearSequence>YMLDLQPETT</LinearSequence>
+                            <StartingPosition>11</StartingPosition>
+                            <EndingPosition>20</EndingPosition>
+                            <SourceMolecule>
+                                <GenBankId>ABL96585.1</GenBankId>
+                            </SourceMolecule>
+                            <SourceOrganismId>333760</SourceOrganismId>
+                        </FragmentOfANaturalSequenceMolecule>
+                    </RelatedObject>
+                </EpitopeRelatedObject>
+                <LocationOfData>Table 1</LocationOfData>
+                <EpitopeId>75073</EpitopeId>
+                <EpitopeStructureDefines>Exact Epitope</EpitopeStructureDefines>
+                <Assays>
+                    <MhcBinding>
+                        <LocationOfData>Figure 4</LocationOfData>
+                        <MhcBindingId>6039</MhcBindingId>
+                        <AssayInformation>
+                            <AssayTypeId>185</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <AssayComments>The peptide binding assay was conducted using the antigen processing defective cell line T2. These cells have low levels ofsurface HLA-A*0201, which increases when a peptide binds stably. The influenza matrix peptide (M1,58–66), which is known tobind strongly to this HLA allele, was used as a positive control.  This peptide was found to bind to HLA-A*0201 stably for greater than 4 hours.</AssayComments>
+                        </AssayInformation>
+                        <MhcAlleleId>143</MhcAlleleId>
+                    </MhcBinding>
+                </Assays>
+            </Epitope>
+        </Epitopes>
+    </Reference>
+</References>
+

@@ -1,0 +1,388 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<References xsi:schemaLocation="http://www.iedb.org/schema/CurationSchema http://beta.iedb.org/schema/Curation.xsd" xmlns="http://www.iedb.org/schema/CurationSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <Reference>
+        <ReferenceId>985</ReferenceId>
+        <DateLastUpdated>2020-09-10-07:00</DateLastUpdated>
+        <Article>
+            <PubmedId>8751939</PubmedId>
+            <Abstract>The ROP2 protein of Toxoplasma gondii possesses immunological and biological properties which have led to its proposal as a vaccine candidate. To identify epitopes recognized by human T cells in the ROP2 antigen, we submitted the sequence of this protein to three reported T-cell epitope prediction algorithms. Three sequences that were predicted by all three methods were selected (sequences 197 to 216, 393 to 410, and 501 to 524), and the corresponding peptides were synthesized. The peptides were first tested in a proliferation assay with a DPw4-restricted, ROP2-specific human T-cell clone, and the peptide corresponding to residues 197 to 216 was shown to stimulate the T-cell clone. The three peptides were further tested in proliferation assays with peripheral blood mononuclear cells from a panel of T. gondii-seropositive and -seronegative individuals. We found that cells from a high proportion of the seropositive donors (64%) recognized at least one of the three peptides. The most frequently recognized ones were peptides 197 to 216 (45%) and 501 to 524 (36%). None of the seronegative donors responded to any peptide. These results show that the ROP2 antigen of T. gondii contains T-cell epitopes recognized by a high percentage of the immune population and further strengthen its potential as a vaccine candidate.</Abstract>
+            <ArticleYear>1996</ArticleYear>
+            <ArticlePages>3858-62</ArticlePages>
+            <ArticleTitle>Epitopes recognized by human T lymphocytes in the ROP2 protein antigen of Toxoplasma gondii.</ArticleTitle>
+            <Authors>
+                <Author>
+                    <LastName>Saavedra</LastName>
+                    <ForeName>R</ForeName>
+                </Author>
+                <Author>
+                    <LastName>Becerril</LastName>
+                    <ForeName>M A</ForeName>
+                </Author>
+                <Author>
+                    <LastName>Dubeaux</LastName>
+                    <ForeName>C</ForeName>
+                </Author>
+                <Author>
+                    <LastName>Lippens</LastName>
+                    <ForeName>R</ForeName>
+                </Author>
+                <Author>
+                    <LastName>De Vos</LastName>
+                    <ForeName>M J</ForeName>
+                </Author>
+                <Author>
+                    <LastName>Hérion</LastName>
+                    <ForeName>P</ForeName>
+                </Author>
+                <Author>
+                    <LastName>Bollen</LastName>
+                    <ForeName>A</ForeName>
+                </Author>
+            </Authors>
+            <Affiliations>Departmento de Inmunologia, Universidad Nacional Autónoma de México, Mexico City, Mexico. saavedra@servidor.unam.mx.</Affiliations>
+            <ArticleChemicalList>Antigens, Protozoan;Membrane Proteins;Protozoan Proteins;ROP 2 protein, Toxoplasma gondii</ArticleChemicalList>
+            <ArticleMeshHeadingsList>Amino Acid Sequence; Animals; Antigens, Protozoan(immunology); Cell Line; Epitope Mapping; Humans; Lymphocyte Activation; Membrane Proteins(immunology); Molecular Sequence Data; Protozoan Proteins(immunology); T-Lymphocytes(immunology); Toxoplasma(immunology); Toxoplasmosis(immunology)</ArticleMeshHeadingsList>
+            <Journal>
+                <Volume>64</Volume>
+                <Issue>9</Issue>
+                <Title>Infection and immunity</Title>
+                <Issn>0019-9567</Issn>
+                <MedlineTa>Infect Immun</MedlineTa>
+            </Journal>
+        </Article>
+        <Epitopes>
+            <Epitope>
+                <EpitopeName>197-216</EpitopeName>
+                <EpitopeStructure>
+                    <FragmentOfANaturalSequenceMolecule>
+                        <ChemicalType>Peptide from protein</ChemicalType>
+                        <LinearSequence>TDPGDVVIEELFNRIPETSV</LinearSequence>
+                        <StartingPosition>195</StartingPosition>
+                        <EndingPosition>214</EndingPosition>
+                        <SourceMolecule>
+                            <GenBankId>A55235</GenBankId>
+                        </SourceMolecule>
+                        <SourceOrganismId>5811</SourceOrganismId>
+                    </FragmentOfANaturalSequenceMolecule>
+                </EpitopeStructure>
+                <LocationOfData>Table 1</LocationOfData>
+                <EpitopeId>63207</EpitopeId>
+                <ReferenceStartingPosition>197</ReferenceStartingPosition>
+                <ReferenceEndingPosition>216</ReferenceEndingPosition>
+                <EpitopeEvidenceCode>Not determined</EpitopeEvidenceCode>
+                <EpitopeStructureDefines>Epitope containing region/antigenic site</EpitopeStructureDefines>
+                <Assays>
+                    <TCell>
+                        <LocationOfData>Figure 2A</LocationOfData>
+                        <TCellId>12049</TCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>9606</OrganismId>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Exposure with existing immune reactivity without evidence for disease</InVivoProcessType>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Source Organism</EpitopeRelation>
+                                    <Object>
+                                        <Organism>
+                                            <SubType>Organism</SubType>
+                                            <SourceOrganismId>5811</SourceOrganismId>
+                                        </Organism>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenEvidenceCode>Not determined</ImmunogenEvidenceCode>
+                            </FirstInVivoProcess>
+                        </Immunization>
+                        <EffectorCells>
+                            <CellTissueType>Blood</CellTissueType>
+                            <CellType>PBMC</CellType>
+                            <CellCultureConditions>Direct Ex Vivo</CellCultureConditions>
+                        </EffectorCells>
+                        <AntigenPresentingCells>
+                            <CellTissueType>Blood</CellTissueType>
+                            <CellType>PBMC</CellType>
+                            <CellCultureConditions>Direct Ex Vivo</CellCultureConditions>
+                            <AutologousOrSyngeneic>Y</AutologousOrSyngeneic>
+                        </AntigenPresentingCells>
+                        <MhcAllele>
+                            <MhcAlleleId>304</MhcAlleleId>
+                            <MhcEvidenceCode>T cell assay -Biological process measured</MhcEvidenceCode>
+                        </MhcAllele>
+                        <Antigen>
+                            <AntigenReferenceName>197-216</AntigenReferenceName>
+                            <AntigenObject>
+                                <EpitopeRelation>Epitope</EpitopeRelation>
+                                <Object>
+                                    <FragmentOfANaturalSequenceMolecule>
+                                        <ChemicalType>Peptide from protein</ChemicalType>
+                                        <LinearSequence>TDPGDVVIEELFNRIPETSV</LinearSequence>
+                                        <StartingPosition>195</StartingPosition>
+                                        <EndingPosition>214</EndingPosition>
+                                        <SourceMolecule>
+                                            <GenBankId>A55235</GenBankId>
+                                        </SourceMolecule>
+                                        <SourceOrganismId>5811</SourceOrganismId>
+                                    </FragmentOfANaturalSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Exact match to reference information</AntigenEvidenceCode>
+                        </Antigen>
+                        <AssayInformation>
+                            <AssayTypeId>69</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <NumberOfSubjectsTested>11</NumberOfSubjectsTested>
+                            <NumberOfSubjectsResponded>5</NumberOfSubjectsResponded>
+                            <ResponseFrequency>45.5</ResponseFrequency>
+                            <AssayComments>Blood donors were seropositive for Toxoplasma gondii with no apparent symptoms of toxoplasmosis. Seronegative (non-exposed) individuals showed no proliferation in response to the peptide.</AssayComments>
+                        </AssayInformation>
+                    </TCell>
+                </Assays>
+                <Assays>
+                    <TCell>
+                        <LocationOfData>Figure 1</LocationOfData>
+                        <TCellId>12045</TCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>9606</OrganismId>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Occurrence of infectious disease</InVivoProcessType>
+                                <DiseaseState>DOID:9965</DiseaseState>
+                                <DiseaseStage>Chronic</DiseaseStage>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Source Organism</EpitopeRelation>
+                                    <Object>
+                                        <Organism>
+                                            <SubType>Organism</SubType>
+                                            <SourceOrganismId>5811</SourceOrganismId>
+                                        </Organism>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenEvidenceCode>Not determined</ImmunogenEvidenceCode>
+                            </FirstInVivoProcess>
+                            <InVitroAdministration>
+                                <ProcessType>Restimulation in vitro</ProcessType>
+                            </InVitroAdministration>
+                            <ImmunizationComments>The T cell clone was derived from a chronically infected/immune donor whose seroconversion had occurred at least one year before the beginning of the study.  The human T cell clone TCC32, specific for the ROP2 protein antigen of Toxoplasma gondii, was maintained in culture by stimulation every 2 to 3 weeks in the presence of allogeneic irradiated PBMC, phytohemagglutinin, and human recombinant interleukin-2.</ImmunizationComments>
+                        </Immunization>
+                        <EffectorCells>
+                            <CellType>T cell</CellType>
+                            <CellCultureConditions>Cell Line / Clone</CellCultureConditions>
+                        </EffectorCells>
+                        <AntigenPresentingCells>
+                            <CellTissueType>Lymphoid</CellTissueType>
+                            <CellType>B cell</CellType>
+                            <CellCultureConditions>Cell Line / Clone (EBV transformed, B-LCL)</CellCultureConditions>
+                            <AutologousOrSyngeneic>N</AutologousOrSyngeneic>
+                        </AntigenPresentingCells>
+                        <MhcAllele>
+                            <MhcAlleleId>81</MhcAlleleId>
+                            <MhcEvidenceCode>Not determined</MhcEvidenceCode>
+                        </MhcAllele>
+                        <Antigen>
+                            <AntigenReferenceName>197-216</AntigenReferenceName>
+                            <AntigenObject>
+                                <EpitopeRelation>Epitope</EpitopeRelation>
+                                <Object>
+                                    <FragmentOfANaturalSequenceMolecule>
+                                        <ChemicalType>Peptide from protein</ChemicalType>
+                                        <LinearSequence>TDPGDVVIEELFNRIPETSV</LinearSequence>
+                                        <StartingPosition>195</StartingPosition>
+                                        <EndingPosition>214</EndingPosition>
+                                        <SourceMolecule>
+                                            <GenBankId>A55235</GenBankId>
+                                        </SourceMolecule>
+                                        <SourceOrganismId>5811</SourceOrganismId>
+                                    </FragmentOfANaturalSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Exact match to reference information</AntigenEvidenceCode>
+                        </Antigen>
+                        <AssayInformation>
+                            <AssayTypeId>69</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <NumberOfSubjectsTested>1</NumberOfSubjectsTested>
+                            <NumberOfSubjectsResponded>1</NumberOfSubjectsResponded>
+                            <ResponseFrequency>100</ResponseFrequency>
+                        </AssayInformation>
+                    </TCell>
+                </Assays>
+            </Epitope>
+            <Epitope>
+                <EpitopeName>393-410</EpitopeName>
+                <EpitopeStructure>
+                    <FragmentOfANaturalSequenceMolecule>
+                        <ChemicalType>Peptide from protein</ChemicalType>
+                        <LinearSequence>LQLIRLAASLQHYGLVHA</LinearSequence>
+                        <StartingPosition>391</StartingPosition>
+                        <EndingPosition>408</EndingPosition>
+                        <SourceMolecule>
+                            <GenBankId>A55235</GenBankId>
+                        </SourceMolecule>
+                        <SourceOrganismId>5811</SourceOrganismId>
+                    </FragmentOfANaturalSequenceMolecule>
+                </EpitopeStructure>
+                <LocationOfData>Table 1</LocationOfData>
+                <EpitopeId>38875</EpitopeId>
+                <ReferenceStartingPosition>393</ReferenceStartingPosition>
+                <ReferenceEndingPosition>410</ReferenceEndingPosition>
+                <EpitopeEvidenceCode>Not determined</EpitopeEvidenceCode>
+                <EpitopeStructureDefines>Epitope containing region/antigenic site</EpitopeStructureDefines>
+                <Assays>
+                    <TCell>
+                        <LocationOfData>Figure 2B</LocationOfData>
+                        <TCellId>12051</TCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>9606</OrganismId>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Exposure with existing immune reactivity without evidence for disease</InVivoProcessType>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Source Organism</EpitopeRelation>
+                                    <Object>
+                                        <Organism>
+                                            <SubType>Organism</SubType>
+                                            <SourceOrganismId>5811</SourceOrganismId>
+                                        </Organism>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenEvidenceCode>Not determined</ImmunogenEvidenceCode>
+                            </FirstInVivoProcess>
+                        </Immunization>
+                        <EffectorCells>
+                            <CellTissueType>Blood</CellTissueType>
+                            <CellType>PBMC</CellType>
+                            <CellCultureConditions>Direct Ex Vivo</CellCultureConditions>
+                        </EffectorCells>
+                        <AntigenPresentingCells>
+                            <CellTissueType>Blood</CellTissueType>
+                            <CellType>PBMC</CellType>
+                            <CellCultureConditions>Direct Ex Vivo</CellCultureConditions>
+                            <AutologousOrSyngeneic>Y</AutologousOrSyngeneic>
+                        </AntigenPresentingCells>
+                        <MhcAllele>
+                            <MhcAlleleId>341</MhcAlleleId>
+                            <MhcEvidenceCode>Not determined</MhcEvidenceCode>
+                        </MhcAllele>
+                        <Antigen>
+                            <AntigenReferenceName>393-410</AntigenReferenceName>
+                            <AntigenObject>
+                                <EpitopeRelation>Epitope</EpitopeRelation>
+                                <Object>
+                                    <FragmentOfANaturalSequenceMolecule>
+                                        <ChemicalType>Peptide from protein</ChemicalType>
+                                        <LinearSequence>LQLIRLAASLQHYGLVHA</LinearSequence>
+                                        <StartingPosition>391</StartingPosition>
+                                        <EndingPosition>408</EndingPosition>
+                                        <SourceMolecule>
+                                            <GenBankId>A55235</GenBankId>
+                                        </SourceMolecule>
+                                        <SourceOrganismId>5811</SourceOrganismId>
+                                    </FragmentOfANaturalSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Exact match to reference information</AntigenEvidenceCode>
+                        </Antigen>
+                        <AssayInformation>
+                            <AssayTypeId>69</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <NumberOfSubjectsTested>11</NumberOfSubjectsTested>
+                            <NumberOfSubjectsResponded>1</NumberOfSubjectsResponded>
+                            <ResponseFrequency>9.1</ResponseFrequency>
+                            <AssayComments>Blood donors were seropositive for Toxoplasma gondii with no apparent symptoms of toxoplasmosis. Seronegative (non-exposed) individuals showed no proliferation in response to the peptide.</AssayComments>
+                        </AssayInformation>
+                    </TCell>
+                </Assays>
+            </Epitope>
+            <Epitope>
+                <EpitopeName>501-524</EpitopeName>
+                <EpitopeStructure>
+                    <FragmentOfANaturalSequenceMolecule>
+                        <ChemicalType>Peptide from protein</ChemicalType>
+                        <LinearSequence>IEWIYRRCKNIPQPVRALLEGFLR</LinearSequence>
+                        <StartingPosition>499</StartingPosition>
+                        <EndingPosition>522</EndingPosition>
+                        <SourceMolecule>
+                            <GenBankId>A55235</GenBankId>
+                        </SourceMolecule>
+                        <SourceOrganismId>5811</SourceOrganismId>
+                    </FragmentOfANaturalSequenceMolecule>
+                </EpitopeStructure>
+                <LocationOfData>Table 1</LocationOfData>
+                <EpitopeId>26011</EpitopeId>
+                <ReferenceStartingPosition>501</ReferenceStartingPosition>
+                <ReferenceEndingPosition>524</ReferenceEndingPosition>
+                <EpitopeEvidenceCode>Not determined</EpitopeEvidenceCode>
+                <EpitopeStructureDefines>Epitope containing region/antigenic site</EpitopeStructureDefines>
+                <Assays>
+                    <TCell>
+                        <LocationOfData>Figure 2C</LocationOfData>
+                        <TCellId>12055</TCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>9606</OrganismId>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Exposure with existing immune reactivity without evidence for disease</InVivoProcessType>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Source Organism</EpitopeRelation>
+                                    <Object>
+                                        <Organism>
+                                            <SubType>Organism</SubType>
+                                            <SourceOrganismId>5811</SourceOrganismId>
+                                        </Organism>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenEvidenceCode>Not determined</ImmunogenEvidenceCode>
+                            </FirstInVivoProcess>
+                        </Immunization>
+                        <EffectorCells>
+                            <CellTissueType>Blood</CellTissueType>
+                            <CellType>PBMC</CellType>
+                            <CellCultureConditions>Direct Ex Vivo</CellCultureConditions>
+                        </EffectorCells>
+                        <AntigenPresentingCells>
+                            <CellTissueType>Blood</CellTissueType>
+                            <CellType>PBMC</CellType>
+                            <CellCultureConditions>Direct Ex Vivo</CellCultureConditions>
+                            <AutologousOrSyngeneic>Y</AutologousOrSyngeneic>
+                        </AntigenPresentingCells>
+                        <MhcAllele>
+                            <MhcAlleleId>341</MhcAlleleId>
+                            <MhcEvidenceCode>Not determined</MhcEvidenceCode>
+                        </MhcAllele>
+                        <Antigen>
+                            <AntigenReferenceName>501-524</AntigenReferenceName>
+                            <AntigenObject>
+                                <EpitopeRelation>Epitope</EpitopeRelation>
+                                <Object>
+                                    <FragmentOfANaturalSequenceMolecule>
+                                        <ChemicalType>Peptide from protein</ChemicalType>
+                                        <LinearSequence>IEWIYRRCKNIPQPVRALLEGFLR</LinearSequence>
+                                        <StartingPosition>499</StartingPosition>
+                                        <EndingPosition>522</EndingPosition>
+                                        <SourceMolecule>
+                                            <GenBankId>A55235</GenBankId>
+                                        </SourceMolecule>
+                                        <SourceOrganismId>5811</SourceOrganismId>
+                                    </FragmentOfANaturalSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Exact match to reference information</AntigenEvidenceCode>
+                        </Antigen>
+                        <AssayInformation>
+                            <AssayTypeId>69</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <NumberOfSubjectsTested>11</NumberOfSubjectsTested>
+                            <NumberOfSubjectsResponded>4</NumberOfSubjectsResponded>
+                            <ResponseFrequency>36.4</ResponseFrequency>
+                            <AssayComments>Blood donors were seropositive for Toxoplasma gondii with no apparent symptoms of toxoplasmosis. Seronegative (non-exposed) individuals showed no proliferation in response to the peptide.</AssayComments>
+                        </AssayInformation>
+                    </TCell>
+                </Assays>
+            </Epitope>
+        </Epitopes>
+    </Reference>
+</References>
+

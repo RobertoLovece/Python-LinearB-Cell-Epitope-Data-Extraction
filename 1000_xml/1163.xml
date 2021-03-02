@@ -1,0 +1,638 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<References xsi:schemaLocation="http://www.iedb.org/schema/CurationSchema http://beta.iedb.org/schema/Curation.xsd" xmlns="http://www.iedb.org/schema/CurationSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <Reference>
+        <ReferenceId>1163</ReferenceId>
+        <DateLastUpdated>2020-09-10-07:00</DateLastUpdated>
+        <Article>
+            <PubmedId>15847794</PubmedId>
+            <Abstract>Identification of CD8+ T cell epitopes is important because detection of specific CD8+ T cells after infection or immunization requires prior knowledge of epitope specificity. Furthermore, identification of CD8+ T cell epitopes permits the development of specific preventive and therapeutic approaches to both infections and tumors. Thus far, CD8+ T cell epitopes have been identified either using an overlapping peptide library covering an entire protein, or using algorithms designed to identify likely peptides that bind to major histocompatibility complex (MHC) class I molecules. The synthesis of overlapping peptides can be prohibitively expensive, and the algorithm programs used to predict CD8+ T cell epitopes are not always accurate. Here we describe a retroviral expression system that specifically allows longer polypeptides and shorter peptides to be expressed in the cytoplasm, and thereby to be processed onto class I MHC molecules. T cells from mice that were immunized with a DNA vaccine encoding MPT-51 were probed against MHC-compatible cell lines retrovirally transduced with overlapping gene fragments encoding 120-140 amino acids of the MPT-51 molecule. After further testing of shorter peptide sequences, we identified a CD8+ T cell epitope using cell lines expressing a relatively small number of algorithm-predicted candidate epitopes. We found that one of the requirements for cell surface display of the 20-mer peptide was the need for cotranslational ubiquitination. The restriction molecule was identified as Dd following transduction with MHC class I genes followed by transduction with the oligonucleotide encoding the epitope. The retroviral expression system described here is cost-effective, particularly if the target molecule is large, and could be adapted to identifying T cell epitopes recognized in infectious disease and against tumor cell antigens.</Abstract>
+            <ArticleYear>2005</ArticleYear>
+            <ArticlePages>21-34</ArticlePages>
+            <ArticleTitle>Expression mapping using a retroviral vector for CD8+ T cell epitopes: definition of a Mycobacterium tuberculosis peptide presented by H2-Dd.</ArticleTitle>
+            <Authors>
+                <Author>
+                    <LastName>Aoshi</LastName>
+                    <ForeName>Taiki</ForeName>
+                </Author>
+                <Author>
+                    <LastName>Suzuki</LastName>
+                    <ForeName>Mina</ForeName>
+                </Author>
+                <Author>
+                    <LastName>Uchijima</LastName>
+                    <ForeName>Masato</ForeName>
+                </Author>
+                <Author>
+                    <LastName>Nagata</LastName>
+                    <ForeName>Toshi</ForeName>
+                </Author>
+                <Author>
+                    <LastName>Koide</LastName>
+                    <ForeName>Yukio</ForeName>
+                </Author>
+            </Authors>
+            <ArticleChemicalList>Antigens, Bacterial;Bacterial Proteins;Epitopes, T-Lymphocyte;H-2 Antigens;Histocompatibility Antigen H-2D;MPT51 protein, Mycobacterium;Mycobacterium tuberculosis antigens;Interferon-gamma</ArticleChemicalList>
+            <ArticleMeshHeadingsList>Algorithms; Amino Acid Sequence; Animals; Antigen Presentation(immunology); Antigens, Bacterial(immunology); Bacterial Proteins(immunology); CD8-Positive T-Lymphocytes; Epitope Mapping(methods); Epitopes, T-Lymphocyte(immunology); Genetic Vectors; H-2 Antigens(immunology); Histocompatibility Antigen H-2D; Interferon-gamma(biosynthesis; immunology); Mice; Mice, Inbred BALB C; Molecular Sequence Data; Mycobacterium tuberculosis(immunology); Retroviridae; Reverse Transcriptase Polymerase Chain Reaction; Transduction, Genetic</ArticleMeshHeadingsList>
+            <Journal>
+                <Volume>298</Volume>
+                <Issue>1-2</Issue>
+                <Title>Journal of immunological methods</Title>
+                <Issn>0022-1759</Issn>
+                <MedlineTa>J Immunol Methods</MedlineTa>
+            </Journal>
+        </Article>
+        <Epitopes>
+            <Epitope>
+                <EpitopeName>MPT51 24-32</EpitopeName>
+                <EpitopeStructure>
+                    <FragmentOfANaturalSequenceMolecule>
+                        <ChemicalType>Peptide from protein</ChemicalType>
+                        <LinearSequence>GGPHAVYLL</LinearSequence>
+                        <StartingPosition>57</StartingPosition>
+                        <EndingPosition>65</EndingPosition>
+                        <SourceMolecule>
+                            <GenBankId>P0A4V6.1</GenBankId>
+                        </SourceMolecule>
+                        <SourceOrganismId>1773</SourceOrganismId>
+                    </FragmentOfANaturalSequenceMolecule>
+                </EpitopeStructure>
+                <LocationOfData>Figure 5A</LocationOfData>
+                <EpitopeId>19956</EpitopeId>
+                <ReferenceStartingPosition>24</ReferenceStartingPosition>
+                <ReferenceEndingPosition>32</ReferenceEndingPosition>
+                <EpitopeEvidenceCode>Not determined</EpitopeEvidenceCode>
+                <EpitopeStructureDefines>Exact Epitope</EpitopeStructureDefines>
+                <Assays>
+                    <TCell>
+                        <LocationOfData>Figure 7</LocationOfData>
+                        <TCellId>16237</TCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>10000000</OrganismId>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Administration in vivo</InVivoProcessType>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Epitope</EpitopeRelation>
+                                    <Object>
+                                        <FragmentOfANaturalSequenceMolecule>
+                                            <ChemicalType>Peptide from protein</ChemicalType>
+                                            <LinearSequence>GGPHAVYLL</LinearSequence>
+                                            <StartingPosition>57</StartingPosition>
+                                            <EndingPosition>65</EndingPosition>
+                                            <SourceMolecule>
+                                                <GenBankId>P0A4V6.1</GenBankId>
+                                            </SourceMolecule>
+                                            <SourceOrganismId>1773</SourceOrganismId>
+                                        </FragmentOfANaturalSequenceMolecule>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenReferenceName>MPT51 24-32</ImmunogenReferenceName>
+                                <ImmunogenEvidenceCode>Exact match to reference information</ImmunogenEvidenceCode>
+                                <ImmunogenContainingObject>
+                                    <Plasmid>
+                                        <SubType>Plasmid</SubType>
+                                    </Plasmid>
+                                </ImmunogenContainingObject>
+                                <Route>Intraperitoneal (i.p.)</Route>
+                                <DoseSchedule>2 doses of gold particles</DoseSchedule>
+                            </FirstInVivoProcess>
+                            <ImmunizationComments>Mice were immunized with a gene gun system with a plasmid DNA vaccine encoding the mature MPT51 molecule.</ImmunizationComments>
+                        </Immunization>
+                        <EffectorCells>
+                            <CellTissueType>Spleen</CellTissueType>
+                            <CellType>Splenocyte</CellType>
+                            <CellCultureConditions>Direct Ex Vivo</CellCultureConditions>
+                        </EffectorCells>
+                        <MhcAllele>
+                            <MhcAlleleId>173</MhcAlleleId>
+                            <MhcEvidenceCode>Not determined</MhcEvidenceCode>
+                        </MhcAllele>
+                        <Antigen>
+                            <AntigenReferenceName>MPT51 24-32</AntigenReferenceName>
+                            <AntigenObject>
+                                <EpitopeRelation>Epitope</EpitopeRelation>
+                                <Object>
+                                    <FragmentOfANaturalSequenceMolecule>
+                                        <ChemicalType>Peptide from protein</ChemicalType>
+                                        <LinearSequence>GGPHAVYLL</LinearSequence>
+                                        <StartingPosition>57</StartingPosition>
+                                        <EndingPosition>65</EndingPosition>
+                                        <SourceMolecule>
+                                            <GenBankId>P0A4V6.1</GenBankId>
+                                        </SourceMolecule>
+                                        <SourceOrganismId>1773</SourceOrganismId>
+                                    </FragmentOfANaturalSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Exact match to reference information</AntigenEvidenceCode>
+                        </Antigen>
+                        <AssayInformation>
+                            <AssayTypeId>47</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <AssayComments>CD8+, but not CD4+ T cells in a population of splenocytes from immunized mice bound H2-Dd  tetramers presenting the epitope. Splenocytes from naive mice did not bind H2-Dd tetramers presenting the epitope.</AssayComments>
+                        </AssayInformation>
+                    </TCell>
+                </Assays>
+                <Assays>
+                    <TCell>
+                        <LocationOfData>Figures 5B and 6</LocationOfData>
+                        <TCellId>16228</TCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>10000000</OrganismId>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Administration in vivo</InVivoProcessType>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Epitope</EpitopeRelation>
+                                    <Object>
+                                        <FragmentOfANaturalSequenceMolecule>
+                                            <ChemicalType>Peptide from protein</ChemicalType>
+                                            <LinearSequence>GGPHAVYLL</LinearSequence>
+                                            <StartingPosition>57</StartingPosition>
+                                            <EndingPosition>65</EndingPosition>
+                                            <SourceMolecule>
+                                                <GenBankId>P0A4V6.1</GenBankId>
+                                            </SourceMolecule>
+                                            <SourceOrganismId>1773</SourceOrganismId>
+                                        </FragmentOfANaturalSequenceMolecule>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenReferenceName>MPT51 24-32</ImmunogenReferenceName>
+                                <ImmunogenEvidenceCode>Exact match to reference information</ImmunogenEvidenceCode>
+                                <ImmunogenContainingObject>
+                                    <Plasmid>
+                                        <SubType>Plasmid</SubType>
+                                    </Plasmid>
+                                </ImmunogenContainingObject>
+                                <Route>Intraperitoneal (i.p.)</Route>
+                                <DoseSchedule>2 doses of gold particles</DoseSchedule>
+                            </FirstInVivoProcess>
+                            <ImmunizationComments>Mice were immunized with a gene gun system with a plasmid DNA vaccine encoding the mature MPT51 molecule.</ImmunizationComments>
+                        </Immunization>
+                        <EffectorCells>
+                            <CellTissueType>Spleen</CellTissueType>
+                            <CellType>Splenocyte</CellType>
+                            <CellCultureConditions>Direct Ex Vivo</CellCultureConditions>
+                        </EffectorCells>
+                        <AntigenPresentingCells>
+                            <CellTissueType>Other</CellTissueType>
+                            <CellType>P815-Mast cell</CellType>
+                            <CellCultureConditions>Cell Line / Clone</CellCultureConditions>
+                            <AutologousOrSyngeneic>N</AutologousOrSyngeneic>
+                            <SourceOrganismId>10090</SourceOrganismId>
+                        </AntigenPresentingCells>
+                        <MhcAllele>
+                            <MhcAlleleId>173</MhcAlleleId>
+                            <MhcEvidenceCode>Not determined</MhcEvidenceCode>
+                        </MhcAllele>
+                        <Antigen>
+                            <AntigenReferenceName>MPT51 24-32</AntigenReferenceName>
+                            <AntigenObject>
+                                <EpitopeRelation>Epitope</EpitopeRelation>
+                                <Object>
+                                    <FragmentOfANaturalSequenceMolecule>
+                                        <ChemicalType>Peptide from protein</ChemicalType>
+                                        <LinearSequence>GGPHAVYLL</LinearSequence>
+                                        <StartingPosition>57</StartingPosition>
+                                        <EndingPosition>65</EndingPosition>
+                                        <SourceMolecule>
+                                            <GenBankId>P0A4V6.1</GenBankId>
+                                        </SourceMolecule>
+                                        <SourceOrganismId>1773</SourceOrganismId>
+                                    </FragmentOfANaturalSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Exact match to reference information</AntigenEvidenceCode>
+                            <AntigenContainingObject>
+                                <RecombinantOrganism>
+                                    <SubType>Recombinant Organism</SubType>
+                                    <RecombinantOrganismId>11632</RecombinantOrganismId>
+                                </RecombinantOrganism>
+                            </AntigenContainingObject>
+                        </Antigen>
+                        <AssayInformation>
+                            <AssayTypeId>73</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <AssayComments>Immunized splenocytes produced IFNg in response to P815 cells transduced with retrovirally-encoded epitope in context of H-2Dd and did not when the epitope was presented by  H2-Kd, Dd, or Ld, establishing the restriction as H-2Dd.</AssayComments>
+                        </AssayInformation>
+                    </TCell>
+                </Assays>
+            </Epitope>
+            <Epitope>
+                <EpitopeName>MPT51 21-40</EpitopeName>
+                <EpitopeStructure>
+                    <FragmentOfANaturalSequenceMolecule>
+                        <ChemicalType>Peptide from protein</ChemicalType>
+                        <LinearSequence>FLAGGPHAVYLLDAFNAGPD</LinearSequence>
+                        <StartingPosition>54</StartingPosition>
+                        <EndingPosition>73</EndingPosition>
+                        <SourceMolecule>
+                            <GenBankId>P0A4V6.1</GenBankId>
+                        </SourceMolecule>
+                        <SourceOrganismId>1773</SourceOrganismId>
+                    </FragmentOfANaturalSequenceMolecule>
+                </EpitopeStructure>
+                <LocationOfData>Figure 5</LocationOfData>
+                <EpitopeId>16507</EpitopeId>
+                <ReferenceStartingPosition>21</ReferenceStartingPosition>
+                <ReferenceEndingPosition>40</ReferenceEndingPosition>
+                <EpitopeEvidenceCode>Not determined</EpitopeEvidenceCode>
+                <EpitopeStructureDefines>Epitope containing region/antigenic site</EpitopeStructureDefines>
+                <Assays>
+                    <TCell>
+                        <LocationOfData>Figure 4</LocationOfData>
+                        <TCellId>16242</TCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>10000000</OrganismId>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Administration in vivo</InVivoProcessType>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Epitope</EpitopeRelation>
+                                    <Object>
+                                        <FragmentOfANaturalSequenceMolecule>
+                                            <ChemicalType>Peptide from protein</ChemicalType>
+                                            <LinearSequence>FLAGGPHAVYLLDAFNAGPD</LinearSequence>
+                                            <StartingPosition>54</StartingPosition>
+                                            <EndingPosition>73</EndingPosition>
+                                            <SourceMolecule>
+                                                <GenBankId>P0A4V6.1</GenBankId>
+                                            </SourceMolecule>
+                                            <SourceOrganismId>1773</SourceOrganismId>
+                                        </FragmentOfANaturalSequenceMolecule>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenReferenceName>pCI-MPT51</ImmunogenReferenceName>
+                                <ImmunogenEvidenceCode>Exact match to reference information</ImmunogenEvidenceCode>
+                                <ImmunogenContainingObject>
+                                    <Plasmid>
+                                        <SubType>Plasmid</SubType>
+                                    </Plasmid>
+                                </ImmunogenContainingObject>
+                                <Route>Intraperitoneal (i.p.)</Route>
+                                <DoseSchedule>2 doses coated on gold particles</DoseSchedule>
+                            </FirstInVivoProcess>
+                            <ImmunizationComments>Mice were immunized with a gene gun system with a plasmid DNA vaccine encoding the mature MPT51 molecule.</ImmunizationComments>
+                        </Immunization>
+                        <EffectorCells>
+                            <CellTissueType>Spleen</CellTissueType>
+                            <CellType>Splenocyte</CellType>
+                            <CellCultureConditions>Direct Ex Vivo</CellCultureConditions>
+                        </EffectorCells>
+                        <AntigenPresentingCells>
+                            <CellTissueType>Other</CellTissueType>
+                            <CellType>P815-Mast cell</CellType>
+                            <CellCultureConditions>Cell Line / Clone</CellCultureConditions>
+                            <AutologousOrSyngeneic>N</AutologousOrSyngeneic>
+                            <SourceOrganismId>10090</SourceOrganismId>
+                        </AntigenPresentingCells>
+                        <MhcAllele/>
+                        <Antigen>
+                            <AntigenReferenceName>MPT51 21-40</AntigenReferenceName>
+                            <AntigenObject>
+                                <EpitopeRelation>Epitope</EpitopeRelation>
+                                <Object>
+                                    <FragmentOfANaturalSequenceMolecule>
+                                        <ChemicalType>Peptide from protein</ChemicalType>
+                                        <LinearSequence>FLAGGPHAVYLLDAFNAGPD</LinearSequence>
+                                        <StartingPosition>54</StartingPosition>
+                                        <EndingPosition>73</EndingPosition>
+                                        <SourceMolecule>
+                                            <GenBankId>P0A4V6.1</GenBankId>
+                                        </SourceMolecule>
+                                        <SourceOrganismId>1773</SourceOrganismId>
+                                    </FragmentOfANaturalSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Exact match to reference information</AntigenEvidenceCode>
+                            <AntigenContainingObject>
+                                <RecombinantOrganism>
+                                    <SubType>Recombinant Organism</SubType>
+                                    <RecombinantOrganismId>11632</RecombinantOrganismId>
+                                </RecombinantOrganism>
+                            </AntigenContainingObject>
+                        </Antigen>
+                        <AssayInformation>
+                            <AssayTypeId>73</AssayTypeId>
+                            <QualitativeMeasurement>Negative</QualitativeMeasurement>
+                            <AssayComments>Immunized splenocytes did not produce IFNg in response to P815 cells transduced with retrovirally-encoded epitope, but did produce IFNg when the epitope was ubiquinated. IFNg was also produced in response to the region aa24-32 contained within the epitope.</AssayComments>
+                        </AssayInformation>
+                    </TCell>
+                </Assays>
+            </Epitope>
+            <Epitope>
+                <EpitopeName>MPT51 41-80</EpitopeName>
+                <EpitopeStructure>
+                    <FragmentOfANaturalSequenceMolecule>
+                        <ChemicalType>Peptide from protein</ChemicalType>
+                        <LinearSequence>VSNWVTAGNAMNTLAGKGISVVAPAGGAYSMYTNWEQDGS</LinearSequence>
+                        <StartingPosition>74</StartingPosition>
+                        <EndingPosition>113</EndingPosition>
+                        <SourceMolecule>
+                            <GenBankId>P0A4V6.1</GenBankId>
+                        </SourceMolecule>
+                        <SourceOrganismId>1773</SourceOrganismId>
+                    </FragmentOfANaturalSequenceMolecule>
+                </EpitopeStructure>
+                <LocationOfData>Figure 3</LocationOfData>
+                <EpitopeId>71068</EpitopeId>
+                <ReferenceStartingPosition>41</ReferenceStartingPosition>
+                <ReferenceEndingPosition>80</ReferenceEndingPosition>
+                <EpitopeEvidenceCode>Not determined</EpitopeEvidenceCode>
+                <EpitopeStructureDefines>Epitope containing region/antigenic site</EpitopeStructureDefines>
+                <Assays>
+                    <TCell>
+                        <LocationOfData>Figures 3 and 4</LocationOfData>
+                        <TCellId>16253</TCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>10000000</OrganismId>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Administration in vivo</InVivoProcessType>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Epitope</EpitopeRelation>
+                                    <Object>
+                                        <FragmentOfANaturalSequenceMolecule>
+                                            <ChemicalType>Peptide from protein</ChemicalType>
+                                            <LinearSequence>VSNWVTAGNAMNTLAGKGISVVAPAGGAYSMYTNWEQDGS</LinearSequence>
+                                            <StartingPosition>74</StartingPosition>
+                                            <EndingPosition>113</EndingPosition>
+                                            <SourceMolecule>
+                                                <GenBankId>P0A4V6.1</GenBankId>
+                                            </SourceMolecule>
+                                            <SourceOrganismId>1773</SourceOrganismId>
+                                        </FragmentOfANaturalSequenceMolecule>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenReferenceName>pCI-MPT51</ImmunogenReferenceName>
+                                <ImmunogenEvidenceCode>Exact match to reference information</ImmunogenEvidenceCode>
+                                <ImmunogenContainingObject>
+                                    <Plasmid>
+                                        <SubType>Plasmid</SubType>
+                                    </Plasmid>
+                                </ImmunogenContainingObject>
+                                <Route>Intraperitoneal (i.p.)</Route>
+                                <DoseSchedule>2 doses coated on gold particles</DoseSchedule>
+                            </FirstInVivoProcess>
+                            <ImmunizationComments>Mice were immunized with a gene gun system with a plasmid DNA vaccine encoding the mature MPT51 molecule.</ImmunizationComments>
+                        </Immunization>
+                        <EffectorCells>
+                            <CellTissueType>Spleen</CellTissueType>
+                            <CellType>Splenocyte</CellType>
+                            <CellCultureConditions>Direct Ex Vivo</CellCultureConditions>
+                        </EffectorCells>
+                        <AntigenPresentingCells>
+                            <CellTissueType>Other</CellTissueType>
+                            <CellType>P815-Mast cell</CellType>
+                            <CellCultureConditions>Cell Line / Clone</CellCultureConditions>
+                            <AutologousOrSyngeneic>N</AutologousOrSyngeneic>
+                            <SourceOrganismId>10090</SourceOrganismId>
+                        </AntigenPresentingCells>
+                        <MhcAllele/>
+                        <Antigen>
+                            <AntigenReferenceName>MPT51 41-80</AntigenReferenceName>
+                            <AntigenObject>
+                                <EpitopeRelation>Epitope</EpitopeRelation>
+                                <Object>
+                                    <FragmentOfANaturalSequenceMolecule>
+                                        <ChemicalType>Peptide from protein</ChemicalType>
+                                        <LinearSequence>VSNWVTAGNAMNTLAGKGISVVAPAGGAYSMYTNWEQDGS</LinearSequence>
+                                        <StartingPosition>74</StartingPosition>
+                                        <EndingPosition>113</EndingPosition>
+                                        <SourceMolecule>
+                                            <GenBankId>P0A4V6.1</GenBankId>
+                                        </SourceMolecule>
+                                        <SourceOrganismId>1773</SourceOrganismId>
+                                    </FragmentOfANaturalSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Exact match to reference information</AntigenEvidenceCode>
+                            <AntigenContainingObject>
+                                <RecombinantOrganism>
+                                    <SubType>Recombinant Organism</SubType>
+                                    <RecombinantOrganismId>11632</RecombinantOrganismId>
+                                </RecombinantOrganism>
+                            </AntigenContainingObject>
+                        </Antigen>
+                        <AssayInformation>
+                            <AssayTypeId>73</AssayTypeId>
+                            <QualitativeMeasurement>Negative</QualitativeMeasurement>
+                            <AssayComments>Immunized splenocytes did not produce IFNg in response to P815 cells transduced with retrovirally-encoded epitope. Immunized splenocytes also did not produce IFNg in response to cells expressing a smaller region contained within the epitope (MPT51 41-60) and further did not produce IFNg when the smaller epitope (MPT51 41-60Ub) was ubiquinated.</AssayComments>
+                        </AssayInformation>
+                    </TCell>
+                </Assays>
+            </Epitope>
+            <Epitope>
+                <EpitopeName>MPT51 61-100</EpitopeName>
+                <EpitopeStructure>
+                    <FragmentOfANaturalSequenceMolecule>
+                        <ChemicalType>Peptide from protein</ChemicalType>
+                        <LinearSequence>VVAPAGGAYSMYTNWEQDGSKQWDTFLSAELPDWLAANRG</LinearSequence>
+                        <StartingPosition>94</StartingPosition>
+                        <EndingPosition>133</EndingPosition>
+                        <SourceMolecule>
+                            <GenBankId>P0A4V6.1</GenBankId>
+                        </SourceMolecule>
+                        <SourceOrganismId>1773</SourceOrganismId>
+                    </FragmentOfANaturalSequenceMolecule>
+                </EpitopeStructure>
+                <LocationOfData>Figure 3</LocationOfData>
+                <EpitopeId>71605</EpitopeId>
+                <ReferenceStartingPosition>61</ReferenceStartingPosition>
+                <ReferenceEndingPosition>100</ReferenceEndingPosition>
+                <EpitopeEvidenceCode>Not determined</EpitopeEvidenceCode>
+                <EpitopeStructureDefines>Epitope containing region/antigenic site</EpitopeStructureDefines>
+                <Assays>
+                    <TCell>
+                        <LocationOfData>Figure 3</LocationOfData>
+                        <TCellId>16254</TCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>10000000</OrganismId>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Administration in vivo</InVivoProcessType>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Epitope</EpitopeRelation>
+                                    <Object>
+                                        <FragmentOfANaturalSequenceMolecule>
+                                            <ChemicalType>Peptide from protein</ChemicalType>
+                                            <LinearSequence>VVAPAGGAYSMYTNWEQDGSKQWDTFLSAELPDWLAANRG</LinearSequence>
+                                            <StartingPosition>94</StartingPosition>
+                                            <EndingPosition>133</EndingPosition>
+                                            <SourceMolecule>
+                                                <GenBankId>P0A4V6.1</GenBankId>
+                                            </SourceMolecule>
+                                            <SourceOrganismId>1773</SourceOrganismId>
+                                        </FragmentOfANaturalSequenceMolecule>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenReferenceName>pCI-MPT51</ImmunogenReferenceName>
+                                <ImmunogenEvidenceCode>Exact match to reference information</ImmunogenEvidenceCode>
+                                <ImmunogenContainingObject>
+                                    <Plasmid>
+                                        <SubType>Plasmid</SubType>
+                                    </Plasmid>
+                                </ImmunogenContainingObject>
+                                <Route>Intraperitoneal (i.p.)</Route>
+                                <DoseSchedule>2 doses coated on gold particles</DoseSchedule>
+                            </FirstInVivoProcess>
+                            <ImmunizationComments>Mice were immunized with a gene gun system with a plasmid DNA vaccine encoding the mature MPT51 molecule.</ImmunizationComments>
+                        </Immunization>
+                        <EffectorCells>
+                            <CellTissueType>Spleen</CellTissueType>
+                            <CellType>Splenocyte</CellType>
+                            <CellCultureConditions>Direct Ex Vivo</CellCultureConditions>
+                        </EffectorCells>
+                        <AntigenPresentingCells>
+                            <CellTissueType>Other</CellTissueType>
+                            <CellType>P815-Mast cell</CellType>
+                            <CellCultureConditions>Cell Line / Clone</CellCultureConditions>
+                            <AutologousOrSyngeneic>N</AutologousOrSyngeneic>
+                            <SourceOrganismId>10090</SourceOrganismId>
+                        </AntigenPresentingCells>
+                        <MhcAllele/>
+                        <Antigen>
+                            <AntigenReferenceName>MPT51 61-100</AntigenReferenceName>
+                            <AntigenObject>
+                                <EpitopeRelation>Epitope</EpitopeRelation>
+                                <Object>
+                                    <FragmentOfANaturalSequenceMolecule>
+                                        <ChemicalType>Peptide from protein</ChemicalType>
+                                        <LinearSequence>VVAPAGGAYSMYTNWEQDGSKQWDTFLSAELPDWLAANRG</LinearSequence>
+                                        <StartingPosition>94</StartingPosition>
+                                        <EndingPosition>133</EndingPosition>
+                                        <SourceMolecule>
+                                            <GenBankId>P0A4V6.1</GenBankId>
+                                        </SourceMolecule>
+                                        <SourceOrganismId>1773</SourceOrganismId>
+                                    </FragmentOfANaturalSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Exact match to reference information</AntigenEvidenceCode>
+                            <AntigenContainingObject>
+                                <RecombinantOrganism>
+                                    <SubType>Recombinant Organism</SubType>
+                                    <RecombinantOrganismId>11632</RecombinantOrganismId>
+                                </RecombinantOrganism>
+                            </AntigenContainingObject>
+                        </Antigen>
+                        <AssayInformation>
+                            <AssayTypeId>73</AssayTypeId>
+                            <QualitativeMeasurement>Negative</QualitativeMeasurement>
+                            <AssayComments>Immunized splenocytes did not produce IFNg in response to P815 cells transduced with retrovirally-encoded epitope.</AssayComments>
+                        </AssayInformation>
+                    </TCell>
+                </Assays>
+            </Epitope>
+            <Epitope>
+                <EpitopeName>MPT51 1-20</EpitopeName>
+                <EpitopeStructure>
+                    <FragmentOfANaturalSequenceMolecule>
+                        <ChemicalType>Peptide from protein</ChemicalType>
+                        <LinearSequence>APYENLMVPSPSMGRDIPVA</LinearSequence>
+                        <StartingPosition>34</StartingPosition>
+                        <EndingPosition>53</EndingPosition>
+                        <SourceMolecule>
+                            <GenBankId>P0A4V6.1</GenBankId>
+                        </SourceMolecule>
+                        <SourceOrganismId>1773</SourceOrganismId>
+                    </FragmentOfANaturalSequenceMolecule>
+                </EpitopeStructure>
+                <LocationOfData>Figure 4A</LocationOfData>
+                <EpitopeId>3905</EpitopeId>
+                <ReferenceStartingPosition>1</ReferenceStartingPosition>
+                <ReferenceEndingPosition>20</ReferenceEndingPosition>
+                <EpitopeEvidenceCode>Not determined</EpitopeEvidenceCode>
+                <EpitopeStructureDefines>Epitope containing region/antigenic site</EpitopeStructureDefines>
+                <Assays>
+                    <TCell>
+                        <LocationOfData>Figure 4</LocationOfData>
+                        <TCellId>16255</TCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>10000000</OrganismId>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Administration in vivo</InVivoProcessType>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Epitope</EpitopeRelation>
+                                    <Object>
+                                        <FragmentOfANaturalSequenceMolecule>
+                                            <ChemicalType>Peptide from protein</ChemicalType>
+                                            <LinearSequence>APYENLMVPSPSMGRDIPVA</LinearSequence>
+                                            <StartingPosition>34</StartingPosition>
+                                            <EndingPosition>53</EndingPosition>
+                                            <SourceMolecule>
+                                                <GenBankId>P0A4V6.1</GenBankId>
+                                            </SourceMolecule>
+                                            <SourceOrganismId>1773</SourceOrganismId>
+                                        </FragmentOfANaturalSequenceMolecule>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenReferenceName>pCI-MPT51</ImmunogenReferenceName>
+                                <ImmunogenEvidenceCode>Exact match to reference information</ImmunogenEvidenceCode>
+                                <ImmunogenContainingObject>
+                                    <Plasmid>
+                                        <SubType>Plasmid</SubType>
+                                    </Plasmid>
+                                </ImmunogenContainingObject>
+                                <Route>Intraperitoneal (i.p.)</Route>
+                                <DoseSchedule>2 doses coated on gold particles</DoseSchedule>
+                            </FirstInVivoProcess>
+                            <ImmunizationComments>Mice were immunized with a gene gun system with a plasmid DNA vaccine encoding the mature MPT51 molecule.</ImmunizationComments>
+                        </Immunization>
+                        <EffectorCells>
+                            <CellTissueType>Spleen</CellTissueType>
+                            <CellType>Splenocyte</CellType>
+                            <CellCultureConditions>Direct Ex Vivo</CellCultureConditions>
+                        </EffectorCells>
+                        <AntigenPresentingCells>
+                            <CellTissueType>Other</CellTissueType>
+                            <CellType>P815-Mast cell</CellType>
+                            <CellCultureConditions>Cell Line / Clone</CellCultureConditions>
+                            <AutologousOrSyngeneic>N</AutologousOrSyngeneic>
+                            <SourceOrganismId>10090</SourceOrganismId>
+                        </AntigenPresentingCells>
+                        <MhcAllele/>
+                        <Antigen>
+                            <AntigenReferenceName>MPT51 1-20</AntigenReferenceName>
+                            <AntigenObject>
+                                <EpitopeRelation>Epitope</EpitopeRelation>
+                                <Object>
+                                    <FragmentOfANaturalSequenceMolecule>
+                                        <ChemicalType>Peptide from protein</ChemicalType>
+                                        <LinearSequence>APYENLMVPSPSMGRDIPVA</LinearSequence>
+                                        <StartingPosition>34</StartingPosition>
+                                        <EndingPosition>53</EndingPosition>
+                                        <SourceMolecule>
+                                            <GenBankId>P0A4V6.1</GenBankId>
+                                        </SourceMolecule>
+                                        <SourceOrganismId>1773</SourceOrganismId>
+                                    </FragmentOfANaturalSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Exact match to reference information</AntigenEvidenceCode>
+                            <AntigenContainingObject>
+                                <RecombinantOrganism>
+                                    <SubType>Recombinant Organism</SubType>
+                                    <RecombinantOrganismId>11632</RecombinantOrganismId>
+                                </RecombinantOrganism>
+                            </AntigenContainingObject>
+                        </Antigen>
+                        <AssayInformation>
+                            <AssayTypeId>73</AssayTypeId>
+                            <QualitativeMeasurement>Negative</QualitativeMeasurement>
+                            <AssayComments>Immunized splenocytes did not produce IFNg in response to P815 cells transduced with retrovirally-encoded epitope and also did not produce IFNg when the epitope was ubiquinated.</AssayComments>
+                        </AssayInformation>
+                    </TCell>
+                </Assays>
+            </Epitope>
+        </Epitopes>
+    </Reference>
+</References>
+

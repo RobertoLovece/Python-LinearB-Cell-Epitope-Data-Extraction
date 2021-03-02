@@ -1,0 +1,613 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<References xsi:schemaLocation="http://www.iedb.org/schema/CurationSchema http://beta.iedb.org/schema/Curation.xsd" xmlns="http://www.iedb.org/schema/CurationSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <Reference>
+        <ReferenceId>368</ReferenceId>
+        <DateLastUpdated>2020-09-10-07:00</DateLastUpdated>
+        <Article>
+            <PubmedId>15261460</PubmedId>
+            <Abstract>We recently identified IgE-binding epitopes of bovine serum albumin (BSA), the major beef allergen, and found that the major epitope structure contains an EXXV motif. Here we report hypoallergenic analogue peptides of BSA that preserve T cell reactivity to retain the capacity to induce immunotolerance. Substitution of the glutamic acid in the EXXV sequence to aspartic acid leads to a remarkable reduction of IgE-binding ability and induces potent T cell proliferation. Moreover, in response to the substitutions, the production of INF-gamma is markedly increased compared with that elicited by the native peptides. Therefore, these analogue peptides represent potential candidates for specific immunotherapy.</Abstract>
+            <ArticleYear>2004</ArticleYear>
+            <ArticlePages>885-90</ArticlePages>
+            <ArticleTitle>Hypoallergenic and T cell reactive analogue peptides of bovine serum albumin, the major beef allergen.</ArticleTitle>
+            <Authors>
+                <Author>
+                    <LastName>Tanabe</LastName>
+                    <ForeName>Soichi</ForeName>
+                </Author>
+                <Author>
+                    <LastName>Shibata</LastName>
+                    <ForeName>Rumiko</ForeName>
+                </Author>
+                <Author>
+                    <LastName>Nishimura</LastName>
+                    <ForeName>Toshihide</ForeName>
+                </Author>
+            </Authors>
+            <Affiliations>Graduate School of Biosphere Science, Hiroshima University, 1-4-4 Kagamiyama, Higashi-hiroshima, Hiroshima 739-8528, Japan. stanabe@hiroshima-u.ac.jp.</Affiliations>
+            <ArticleChemicalList>Peptides;Interleukin-4;Serum Albumin, Bovine;Immunoglobulin E;Interferon-gamma</ArticleChemicalList>
+            <ArticleMeshHeadingsList>Amino Acid Substitution; Animals; Antibody Specificity(genetics; immunology); Cattle; Cell Division(immunology); Child, Preschool; Humans; Hypersensitivity(immunology); Immunoglobulin E(immunology); Interferon-gamma(metabolism); Interleukin-4(metabolism); Peptides(genetics; immunology; metabolism); Serum Albumin, Bovine(genetics; immunology); T-Lymphocytes(immunology)</ArticleMeshHeadingsList>
+            <Journal>
+                <Volume>41</Volume>
+                <Issue>9</Issue>
+                <Title>Molecular immunology</Title>
+                <Issn>1872-9142</Issn>
+                <MedlineTa>Mol Immunol</MedlineTa>
+            </Journal>
+        </Article>
+        <Epitopes>
+            <Epitope>
+                <EpitopeName>BSA p336-345</EpitopeName>
+                <EpitopeStructure>
+                    <FragmentOfANaturalSequenceMolecule>
+                        <ChemicalType>Peptide from protein</ChemicalType>
+                        <LinearSequence>HPEYAVSVLL</LinearSequence>
+                        <StartingPosition>336</StartingPosition>
+                        <EndingPosition>345</EndingPosition>
+                        <SourceMolecule>
+                            <GenBankId>754920A</GenBankId>
+                        </SourceMolecule>
+                        <SourceOrganismId>9913</SourceOrganismId>
+                    </FragmentOfANaturalSequenceMolecule>
+                </EpitopeStructure>
+                <LocationOfData>Table 1</LocationOfData>
+                <EpitopeId>24445</EpitopeId>
+                <EpitopeEvidenceCode>Representative selection</EpitopeEvidenceCode>
+                <EpitopeStructureDefines>Exact Epitope</EpitopeStructureDefines>
+                <Assays>
+                    <BCell>
+                        <LocationOfData>Figure 1</LocationOfData>
+                        <BCellId>1499473</BCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>9606</OrganismId>
+                                <Age>4 years</Age>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Occurrence of allergy</InVivoProcessType>
+                                <DiseaseState>DOID:1205</DiseaseState>
+                                <DiseaseStage>Chronic</DiseaseStage>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Derivative of Source Organism</EpitopeRelation>
+                                    <Object>
+                                        <DerivativeOfOrganism>
+                                            <SubType>Product of Organism</SubType>
+                                            <DerivativeType>Meat</DerivativeType>
+                                            <SourceOrganismId>9913</SourceOrganismId>
+                                        </DerivativeOfOrganism>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenEvidenceCode>Representative selection</ImmunogenEvidenceCode>
+                            </FirstInVivoProcess>
+                            <ImmunizationComments>Blood samples were obtained from children with atopic dermatitis and beef allergy proven by clinical symptoms and a positive RAST test.</ImmunizationComments>
+                        </Immunization>
+                        <AssayInformation>
+                            <AssayTypeId>311</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <NumberOfSubjectsTested>5</NumberOfSubjectsTested>
+                            <NumberOfSubjectsResponded>5</NumberOfSubjectsResponded>
+                            <ResponseFrequency>100</ResponseFrequency>
+                            <AssayComments>The epitope was able to inhibit binding of patients' IgE to BSA. An analog peptide with a one amino acid change of E to D with the sequence HPDYAVSVLL showed a marked reduction of IgE binding in all five patients.</AssayComments>
+                        </AssayInformation>
+                        <AssayedAntibody>
+                            <AssayedAntibodySourceMaterial>Serum</AssayedAntibodySourceMaterial>
+                            <AssayedAntibodyImmunoglobulinDomain>Entire Antibody</AssayedAntibodyImmunoglobulinDomain>
+                            <AssayedAntibodyPurificationStatus>Polyclonal</AssayedAntibodyPurificationStatus>
+                            <AssayedAntibodyHeavyChainType>IgE</AssayedAntibodyHeavyChainType>
+                        </AssayedAntibody>
+                        <Antigen>
+                            <AntigenConformation>Non-Native/Unknown</AntigenConformation>
+                            <AntigenObject>
+                                <EpitopeRelation>Epitope</EpitopeRelation>
+                                <Object>
+                                    <FragmentOfANaturalSequenceMolecule>
+                                        <ChemicalType>Peptide from protein</ChemicalType>
+                                        <LinearSequence>HPEYAVSVLL</LinearSequence>
+                                        <StartingPosition>336</StartingPosition>
+                                        <EndingPosition>345</EndingPosition>
+                                        <SourceMolecule>
+                                            <GenBankId>754920A</GenBankId>
+                                        </SourceMolecule>
+                                        <SourceOrganismId>9913</SourceOrganismId>
+                                    </FragmentOfANaturalSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Exact match to reference information</AntigenEvidenceCode>
+                        </Antigen>
+                    </BCell>
+                </Assays>
+                <Assays>
+                    <TCell>
+                        <LocationOfData>Figure 3</LocationOfData>
+                        <TCellId>1499518</TCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>9606</OrganismId>
+                                <Age>4 years</Age>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Occurrence of allergy</InVivoProcessType>
+                                <DiseaseState>DOID:1205</DiseaseState>
+                                <DiseaseStage>Chronic</DiseaseStage>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Derivative of Source Organism</EpitopeRelation>
+                                    <Object>
+                                        <DerivativeOfOrganism>
+                                            <SubType>Product of Organism</SubType>
+                                            <DerivativeType>Meat</DerivativeType>
+                                            <SourceOrganismId>9913</SourceOrganismId>
+                                        </DerivativeOfOrganism>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenEvidenceCode>Representative selection</ImmunogenEvidenceCode>
+                            </FirstInVivoProcess>
+                            <ImmunizationComments>Blood samples were obtained from children with atopic dermatitis and beef allergy proven by clinical symptoms and a positive RAST test.</ImmunizationComments>
+                        </Immunization>
+                        <EffectorCells>
+                            <CellTissueType>Blood</CellTissueType>
+                            <CellType>PBMC</CellType>
+                            <CellCultureConditions>Direct Ex Vivo</CellCultureConditions>
+                        </EffectorCells>
+                        <AntigenPresentingCells>
+                            <CellTissueType>Blood</CellTissueType>
+                            <CellType>PBMC</CellType>
+                            <CellCultureConditions>Direct Ex Vivo</CellCultureConditions>
+                        </AntigenPresentingCells>
+                        <MhcAllele>
+                            <MhcAlleleId>304</MhcAlleleId>
+                            <MhcEvidenceCode>T cell assay -Biological process measured</MhcEvidenceCode>
+                        </MhcAllele>
+                        <Antigen>
+                            <AntigenObject>
+                                <EpitopeRelation>Epitope</EpitopeRelation>
+                                <Object>
+                                    <FragmentOfANaturalSequenceMolecule>
+                                        <ChemicalType>Peptide from protein</ChemicalType>
+                                        <LinearSequence>HPEYAVSVLL</LinearSequence>
+                                        <StartingPosition>336</StartingPosition>
+                                        <EndingPosition>345</EndingPosition>
+                                        <SourceMolecule>
+                                            <GenBankId>754920A</GenBankId>
+                                        </SourceMolecule>
+                                        <SourceOrganismId>9913</SourceOrganismId>
+                                    </FragmentOfANaturalSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Exact match to reference information</AntigenEvidenceCode>
+                        </Antigen>
+                        <AssayInformation>
+                            <AssayTypeId>78</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <NumberOfSubjectsTested>1</NumberOfSubjectsTested>
+                            <NumberOfSubjectsResponded>1</NumberOfSubjectsResponded>
+                            <ResponseFrequency>100</ResponseFrequency>
+                            <AssayComments>The epitope was able to induce cytokine secretion. An analog peptide with a one amino acid change of E to D with the sequence HPDYAVSVLL showed similar IL-4 secretion.</AssayComments>
+                        </AssayInformation>
+                    </TCell>
+                </Assays>
+                <Assays>
+                    <TCell>
+                        <LocationOfData>Figure 2</LocationOfData>
+                        <TCellId>1499488</TCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>9606</OrganismId>
+                                <Age>4 years</Age>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Occurrence of allergy</InVivoProcessType>
+                                <DiseaseState>DOID:1205</DiseaseState>
+                                <DiseaseStage>Chronic</DiseaseStage>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Derivative of Source Organism</EpitopeRelation>
+                                    <Object>
+                                        <DerivativeOfOrganism>
+                                            <SubType>Product of Organism</SubType>
+                                            <DerivativeType>Meat</DerivativeType>
+                                            <SourceOrganismId>9913</SourceOrganismId>
+                                        </DerivativeOfOrganism>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenEvidenceCode>Representative selection</ImmunogenEvidenceCode>
+                            </FirstInVivoProcess>
+                            <ImmunizationComments>Blood samples were obtained from children with atopic dermatitis and beef allergy proven by clinical symptoms and a positive RAST test.</ImmunizationComments>
+                        </Immunization>
+                        <EffectorCells>
+                            <CellTissueType>Blood</CellTissueType>
+                            <CellType>PBMC</CellType>
+                            <CellCultureConditions>Direct Ex Vivo</CellCultureConditions>
+                        </EffectorCells>
+                        <AntigenPresentingCells>
+                            <CellTissueType>Blood</CellTissueType>
+                            <CellType>PBMC</CellType>
+                            <CellCultureConditions>Direct Ex Vivo</CellCultureConditions>
+                        </AntigenPresentingCells>
+                        <MhcAllele>
+                            <MhcAlleleId>304</MhcAlleleId>
+                            <MhcEvidenceCode>T cell assay -Biological process measured</MhcEvidenceCode>
+                        </MhcAllele>
+                        <Antigen>
+                            <AntigenObject>
+                                <EpitopeRelation>Epitope</EpitopeRelation>
+                                <Object>
+                                    <FragmentOfANaturalSequenceMolecule>
+                                        <ChemicalType>Peptide from protein</ChemicalType>
+                                        <LinearSequence>HPEYAVSVLL</LinearSequence>
+                                        <StartingPosition>336</StartingPosition>
+                                        <EndingPosition>345</EndingPosition>
+                                        <SourceMolecule>
+                                            <GenBankId>754920A</GenBankId>
+                                        </SourceMolecule>
+                                        <SourceOrganismId>9913</SourceOrganismId>
+                                    </FragmentOfANaturalSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Exact match to reference information</AntigenEvidenceCode>
+                        </Antigen>
+                        <AssayInformation>
+                            <AssayTypeId>200</AssayTypeId>
+                            <QualitativeMeasurement>Positive-Low</QualitativeMeasurement>
+                            <NumberOfSubjectsTested>4</NumberOfSubjectsTested>
+                            <NumberOfSubjectsResponded>4</NumberOfSubjectsResponded>
+                            <ResponseFrequency>100</ResponseFrequency>
+                            <AssayComments>The epitope was able to induce low level proliferative responses. An analog peptide with a one amino acid change of E to D with the sequence HPDYAVSVLL was able to induce an increase in proliferation.</AssayComments>
+                        </AssayInformation>
+                    </TCell>
+                </Assays>
+                <Assays>
+                    <TCell>
+                        <LocationOfData>Figure 3</LocationOfData>
+                        <TCellId>1499512</TCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>9606</OrganismId>
+                                <Age>4 years</Age>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Occurrence of allergy</InVivoProcessType>
+                                <DiseaseState>DOID:1205</DiseaseState>
+                                <DiseaseStage>Chronic</DiseaseStage>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Derivative of Source Organism</EpitopeRelation>
+                                    <Object>
+                                        <DerivativeOfOrganism>
+                                            <SubType>Product of Organism</SubType>
+                                            <DerivativeType>Meat</DerivativeType>
+                                            <SourceOrganismId>9913</SourceOrganismId>
+                                        </DerivativeOfOrganism>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenEvidenceCode>Representative selection</ImmunogenEvidenceCode>
+                            </FirstInVivoProcess>
+                            <ImmunizationComments>Blood samples were obtained from children with atopic dermatitis and beef allergy proven by clinical symptoms and a positive RAST test.</ImmunizationComments>
+                        </Immunization>
+                        <EffectorCells>
+                            <CellTissueType>Blood</CellTissueType>
+                            <CellType>PBMC</CellType>
+                            <CellCultureConditions>Direct Ex Vivo</CellCultureConditions>
+                        </EffectorCells>
+                        <AntigenPresentingCells>
+                            <CellTissueType>Blood</CellTissueType>
+                            <CellType>PBMC</CellType>
+                            <CellCultureConditions>Direct Ex Vivo</CellCultureConditions>
+                        </AntigenPresentingCells>
+                        <MhcAllele/>
+                        <Antigen>
+                            <AntigenObject>
+                                <EpitopeRelation>Epitope</EpitopeRelation>
+                                <Object>
+                                    <FragmentOfANaturalSequenceMolecule>
+                                        <ChemicalType>Peptide from protein</ChemicalType>
+                                        <LinearSequence>HPEYAVSVLL</LinearSequence>
+                                        <StartingPosition>336</StartingPosition>
+                                        <EndingPosition>345</EndingPosition>
+                                        <SourceMolecule>
+                                            <GenBankId>754920A</GenBankId>
+                                        </SourceMolecule>
+                                        <SourceOrganismId>9913</SourceOrganismId>
+                                    </FragmentOfANaturalSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Exact match to reference information</AntigenEvidenceCode>
+                        </Antigen>
+                        <AssayInformation>
+                            <AssayTypeId>73</AssayTypeId>
+                            <QualitativeMeasurement>Positive-Intermediate</QualitativeMeasurement>
+                            <NumberOfSubjectsTested>1</NumberOfSubjectsTested>
+                            <NumberOfSubjectsResponded>1</NumberOfSubjectsResponded>
+                            <ResponseFrequency>100</ResponseFrequency>
+                            <AssayComments>The epitope was able to induce low level cytokine secretion. An analog peptide with a one amino acid change of E to D with the sequence HPDYAVSVLL was able to induce an increase in INF-gamma secretion.</AssayComments>
+                        </AssayInformation>
+                    </TCell>
+                </Assays>
+            </Epitope>
+            <Epitope>
+                <EpitopeName>BSA p545-552</EpitopeName>
+                <EpitopeStructure>
+                    <FragmentOfANaturalSequenceMolecule>
+                        <ChemicalType>Peptide from protein</ChemicalType>
+                        <LinearSequence>VMENFVAF</LinearSequence>
+                        <StartingPosition>544</StartingPosition>
+                        <EndingPosition>551</EndingPosition>
+                        <SourceMolecule>
+                            <GenBankId>754920A</GenBankId>
+                        </SourceMolecule>
+                        <SourceOrganismId>9913</SourceOrganismId>
+                    </FragmentOfANaturalSequenceMolecule>
+                </EpitopeStructure>
+                <LocationOfData>Table 1</LocationOfData>
+                <EpitopeId>69942</EpitopeId>
+                <ReferenceStartingPosition>545</ReferenceStartingPosition>
+                <ReferenceEndingPosition>552</ReferenceEndingPosition>
+                <EpitopeEvidenceCode>Representative selection</EpitopeEvidenceCode>
+                <EpitopeStructureDefines>Exact Epitope</EpitopeStructureDefines>
+                <Assays>
+                    <BCell>
+                        <LocationOfData>Figure 1</LocationOfData>
+                        <BCellId>1499628</BCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>9606</OrganismId>
+                                <Age>4 years</Age>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Occurrence of allergy</InVivoProcessType>
+                                <DiseaseState>DOID:1205</DiseaseState>
+                                <DiseaseStage>Chronic</DiseaseStage>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Derivative of Source Organism</EpitopeRelation>
+                                    <Object>
+                                        <DerivativeOfOrganism>
+                                            <SubType>Product of Organism</SubType>
+                                            <DerivativeType>Meat</DerivativeType>
+                                            <SourceOrganismId>9913</SourceOrganismId>
+                                        </DerivativeOfOrganism>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenEvidenceCode>Representative selection</ImmunogenEvidenceCode>
+                            </FirstInVivoProcess>
+                            <ImmunizationComments>Blood samples were obtained from children with atopic dermatitis and beef allergy proven by clinical symptoms and a positive RAST test.</ImmunizationComments>
+                        </Immunization>
+                        <AssayInformation>
+                            <AssayTypeId>311</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <NumberOfSubjectsTested>5</NumberOfSubjectsTested>
+                            <NumberOfSubjectsResponded>2</NumberOfSubjectsResponded>
+                            <ResponseFrequency>40</ResponseFrequency>
+                            <AssayComments>The epitope was able to inhibit binding of patients' IgE to BSA. An analog peptide with a one amino acid change of E to D with the sequence VMDNFVAF showed a marked reduction of IgE binding.</AssayComments>
+                        </AssayInformation>
+                        <AssayedAntibody>
+                            <AssayedAntibodySourceMaterial>Serum</AssayedAntibodySourceMaterial>
+                            <AssayedAntibodyImmunoglobulinDomain>Entire Antibody</AssayedAntibodyImmunoglobulinDomain>
+                            <AssayedAntibodyPurificationStatus>Polyclonal</AssayedAntibodyPurificationStatus>
+                            <AssayedAntibodyHeavyChainType>IgE</AssayedAntibodyHeavyChainType>
+                        </AssayedAntibody>
+                        <Antigen>
+                            <AntigenConformation>Non-Native/Unknown</AntigenConformation>
+                            <AntigenObject>
+                                <EpitopeRelation>Epitope</EpitopeRelation>
+                                <Object>
+                                    <FragmentOfANaturalSequenceMolecule>
+                                        <ChemicalType>Peptide from protein</ChemicalType>
+                                        <LinearSequence>VMENFVAF</LinearSequence>
+                                        <StartingPosition>544</StartingPosition>
+                                        <EndingPosition>551</EndingPosition>
+                                        <SourceMolecule>
+                                            <GenBankId>754920A</GenBankId>
+                                        </SourceMolecule>
+                                        <SourceOrganismId>9913</SourceOrganismId>
+                                    </FragmentOfANaturalSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Exact match to reference information</AntigenEvidenceCode>
+                        </Antigen>
+                    </BCell>
+                </Assays>
+                <Assays>
+                    <TCell>
+                        <LocationOfData>Figure 2</LocationOfData>
+                        <TCellId>1499630</TCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>9606</OrganismId>
+                                <Age>4 years</Age>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Occurrence of allergy</InVivoProcessType>
+                                <DiseaseState>DOID:1205</DiseaseState>
+                                <DiseaseStage>Chronic</DiseaseStage>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Derivative of Source Organism</EpitopeRelation>
+                                    <Object>
+                                        <DerivativeOfOrganism>
+                                            <SubType>Product of Organism</SubType>
+                                            <DerivativeType>Meat</DerivativeType>
+                                            <SourceOrganismId>9913</SourceOrganismId>
+                                        </DerivativeOfOrganism>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenEvidenceCode>Representative selection</ImmunogenEvidenceCode>
+                            </FirstInVivoProcess>
+                            <ImmunizationComments>Blood samples were obtained from children with atopic dermatitis and beef allergy proven by clinical symptoms and a positive RAST test.</ImmunizationComments>
+                        </Immunization>
+                        <EffectorCells>
+                            <CellTissueType>Blood</CellTissueType>
+                            <CellType>PBMC</CellType>
+                            <CellCultureConditions>Direct Ex Vivo</CellCultureConditions>
+                        </EffectorCells>
+                        <AntigenPresentingCells>
+                            <CellTissueType>Blood</CellTissueType>
+                            <CellType>PBMC</CellType>
+                            <CellCultureConditions>Direct Ex Vivo</CellCultureConditions>
+                        </AntigenPresentingCells>
+                        <MhcAllele>
+                            <MhcAlleleId>304</MhcAlleleId>
+                            <MhcEvidenceCode>T cell assay -Biological process measured</MhcEvidenceCode>
+                        </MhcAllele>
+                        <Antigen>
+                            <AntigenObject>
+                                <EpitopeRelation>Epitope</EpitopeRelation>
+                                <Object>
+                                    <FragmentOfANaturalSequenceMolecule>
+                                        <ChemicalType>Peptide from protein</ChemicalType>
+                                        <LinearSequence>VMENFVAF</LinearSequence>
+                                        <StartingPosition>544</StartingPosition>
+                                        <EndingPosition>551</EndingPosition>
+                                        <SourceMolecule>
+                                            <GenBankId>754920A</GenBankId>
+                                        </SourceMolecule>
+                                        <SourceOrganismId>9913</SourceOrganismId>
+                                    </FragmentOfANaturalSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Exact match to reference information</AntigenEvidenceCode>
+                        </Antigen>
+                        <AssayInformation>
+                            <AssayTypeId>200</AssayTypeId>
+                            <QualitativeMeasurement>Positive-Low</QualitativeMeasurement>
+                            <NumberOfSubjectsTested>4</NumberOfSubjectsTested>
+                            <NumberOfSubjectsResponded>4</NumberOfSubjectsResponded>
+                            <ResponseFrequency>100</ResponseFrequency>
+                            <AssayComments>The epitope was able to induce low level proliferative responses. An analog peptide with a one amino acid change of E to D with the sequence VMDNFVAF was able to induce an increase in proliferation.</AssayComments>
+                        </AssayInformation>
+                    </TCell>
+                </Assays>
+                <Assays>
+                    <TCell>
+                        <LocationOfData>Figure 3</LocationOfData>
+                        <TCellId>1499629</TCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>9606</OrganismId>
+                                <Age>4 years</Age>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Occurrence of allergy</InVivoProcessType>
+                                <DiseaseState>DOID:1205</DiseaseState>
+                                <DiseaseStage>Chronic</DiseaseStage>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Derivative of Source Organism</EpitopeRelation>
+                                    <Object>
+                                        <DerivativeOfOrganism>
+                                            <SubType>Product of Organism</SubType>
+                                            <DerivativeType>Meat</DerivativeType>
+                                            <SourceOrganismId>9913</SourceOrganismId>
+                                        </DerivativeOfOrganism>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenEvidenceCode>Representative selection</ImmunogenEvidenceCode>
+                            </FirstInVivoProcess>
+                            <ImmunizationComments>Blood samples were obtained from children with atopic dermatitis and beef allergy proven by clinical symptoms and a positive RAST test.</ImmunizationComments>
+                        </Immunization>
+                        <EffectorCells>
+                            <CellTissueType>Blood</CellTissueType>
+                            <CellType>PBMC</CellType>
+                            <CellCultureConditions>Direct Ex Vivo</CellCultureConditions>
+                        </EffectorCells>
+                        <AntigenPresentingCells>
+                            <CellTissueType>Blood</CellTissueType>
+                            <CellType>PBMC</CellType>
+                            <CellCultureConditions>Direct Ex Vivo</CellCultureConditions>
+                        </AntigenPresentingCells>
+                        <MhcAllele>
+                            <MhcAlleleId>304</MhcAlleleId>
+                            <MhcEvidenceCode>T cell assay -Biological process measured</MhcEvidenceCode>
+                        </MhcAllele>
+                        <Antigen>
+                            <AntigenObject>
+                                <EpitopeRelation>Epitope</EpitopeRelation>
+                                <Object>
+                                    <FragmentOfANaturalSequenceMolecule>
+                                        <ChemicalType>Peptide from protein</ChemicalType>
+                                        <LinearSequence>VMENFVAF</LinearSequence>
+                                        <StartingPosition>544</StartingPosition>
+                                        <EndingPosition>551</EndingPosition>
+                                        <SourceMolecule>
+                                            <GenBankId>754920A</GenBankId>
+                                        </SourceMolecule>
+                                        <SourceOrganismId>9913</SourceOrganismId>
+                                    </FragmentOfANaturalSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Exact match to reference information</AntigenEvidenceCode>
+                        </Antigen>
+                        <AssayInformation>
+                            <AssayTypeId>78</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <NumberOfSubjectsTested>1</NumberOfSubjectsTested>
+                            <NumberOfSubjectsResponded>1</NumberOfSubjectsResponded>
+                            <ResponseFrequency>100</ResponseFrequency>
+                            <AssayComments>The epitope was able to induce cytokine secretion. An analog peptide with a one amino acid change of E to D with the sequence VMDNFVAF showed similar IL-4 secretion.</AssayComments>
+                        </AssayInformation>
+                    </TCell>
+                </Assays>
+                <Assays>
+                    <TCell>
+                        <LocationOfData>Figure 3</LocationOfData>
+                        <TCellId>1499631</TCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>9606</OrganismId>
+                                <Age>4 years</Age>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Occurrence of allergy</InVivoProcessType>
+                                <DiseaseState>DOID:1205</DiseaseState>
+                                <DiseaseStage>Chronic</DiseaseStage>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Derivative of Source Organism</EpitopeRelation>
+                                    <Object>
+                                        <DerivativeOfOrganism>
+                                            <SubType>Product of Organism</SubType>
+                                            <DerivativeType>Meat</DerivativeType>
+                                            <SourceOrganismId>9913</SourceOrganismId>
+                                        </DerivativeOfOrganism>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenEvidenceCode>Representative selection</ImmunogenEvidenceCode>
+                            </FirstInVivoProcess>
+                            <ImmunizationComments>Blood samples were obtained from children with atopic dermatitis and beef allergy proven by clinical symptoms and a positive RAST test.</ImmunizationComments>
+                        </Immunization>
+                        <EffectorCells>
+                            <CellTissueType>Blood</CellTissueType>
+                            <CellType>PBMC</CellType>
+                            <CellCultureConditions>Direct Ex Vivo</CellCultureConditions>
+                        </EffectorCells>
+                        <AntigenPresentingCells>
+                            <CellTissueType>Blood</CellTissueType>
+                            <CellType>PBMC</CellType>
+                            <CellCultureConditions>Direct Ex Vivo</CellCultureConditions>
+                        </AntigenPresentingCells>
+                        <MhcAllele/>
+                        <Antigen>
+                            <AntigenObject>
+                                <EpitopeRelation>Epitope</EpitopeRelation>
+                                <Object>
+                                    <FragmentOfANaturalSequenceMolecule>
+                                        <ChemicalType>Peptide from protein</ChemicalType>
+                                        <LinearSequence>VMENFVAF</LinearSequence>
+                                        <StartingPosition>544</StartingPosition>
+                                        <EndingPosition>551</EndingPosition>
+                                        <SourceMolecule>
+                                            <GenBankId>754920A</GenBankId>
+                                        </SourceMolecule>
+                                        <SourceOrganismId>9913</SourceOrganismId>
+                                    </FragmentOfANaturalSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Exact match to reference information</AntigenEvidenceCode>
+                        </Antigen>
+                        <AssayInformation>
+                            <AssayTypeId>73</AssayTypeId>
+                            <QualitativeMeasurement>Positive-Intermediate</QualitativeMeasurement>
+                            <NumberOfSubjectsTested>1</NumberOfSubjectsTested>
+                            <NumberOfSubjectsResponded>1</NumberOfSubjectsResponded>
+                            <ResponseFrequency>100</ResponseFrequency>
+                            <AssayComments>The epitope was able to induce low level cytokine secretion. An analog peptide with a one amino acid change of E to D with the sequence VMDNFVAF was able to induce an increase in INF-gamma secretion.</AssayComments>
+                        </AssayInformation>
+                    </TCell>
+                </Assays>
+            </Epitope>
+        </Epitopes>
+    </Reference>
+</References>
+

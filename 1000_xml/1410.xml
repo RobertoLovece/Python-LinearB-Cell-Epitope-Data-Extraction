@@ -1,0 +1,471 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<References xsi:schemaLocation="http://www.iedb.org/schema/CurationSchema http://beta.iedb.org/schema/Curation.xsd" xmlns="http://www.iedb.org/schema/CurationSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <Reference>
+        <ReferenceId>1410</ReferenceId>
+        <DateLastUpdated>2020-09-10-07:00</DateLastUpdated>
+        <Article>
+            <PubmedId>10222055</PubmedId>
+            <Abstract>CD4(+) T cells are critical for the control of many viruses; however, the numbers of virus-specific CD4(+) cells that are expanded following infection are unknown. We have addressed this issue by enumerating virus-specific, MHC class-II-restricted T cells following infection of mice with lymphocytic choriomeningitis virus (LCMV). We have found that the numbers of T cells that produce interferon-gamma in response to stimulation with three different class-II-restricted LCMV epitopes increase from undetectable numbers in noninfected animals to between 4 x 10(5) and 2 x 10(6) cells per spleen at the peak of the T cell response. This contrasts with the numbers of virus-specific class-I-restricted T cells which expand to 1 x 10(7) to 2 x 10(7) cells per spleen during the same time period. We could not reproducibly detect virus-specific class-I-restricted or class-II-restricted T cells that produced interleukin-4 at any time following LCMV infection, indicating that infection with this virus induces a predominantly type 1 cytokine response. In contrast to the rapid decrease in the numbers of class-I-restricted T cells, the numbers of LCMV-specific class-II-restricted T cells declined gradually following the peak of the T cell response. We demonstrate, therefore, that following infection with LCMV there is expansion of both class-I-restricted and class-II-restricted virus-specific T cells; however, the degree of expansion of class-II-restricted T cells is substantially less than that observed for class-I-restricted cells. Furthermore, the downregulation phase of the class-II-restricted response is protracted compared with the precipitous contraction of the antiviral CD8(+) T cell response.</Abstract>
+            <ArticleYear>1999</ArticleYear>
+            <ArticlePages>134-46</ArticlePages>
+            <ArticleTitle>Quantification of epitope-specific MHC class-II-restricted T cells following lymphocytic choriomeningitis virus infection.</ArticleTitle>
+            <Authors>
+                <Author>
+                    <LastName>Kamperschroer</LastName>
+                    <ForeName>C</ForeName>
+                </Author>
+                <Author>
+                    <LastName>Quinn</LastName>
+                    <ForeName>D G</ForeName>
+                </Author>
+            </Authors>
+            <Affiliations>Department of Microbiology and Immunology, Loyola University Chicago, 2160 South First Avenue, Maywood, Illinois 60153, USA.</Affiliations>
+            <ArticleChemicalList>Antigens, Viral;Cytokines;Epitopes;Glycoproteins;Peptide Fragments;Viral Proteins;Interferon-gamma</ArticleChemicalList>
+            <ArticleMeshHeadingsList>Amino Acid Sequence; Animals; Antigens, Viral(immunology); Cytokines(isolation &amp; purification); Epitopes; Genes, MHC Class II(immunology); Glycoproteins(immunology); Immunologic Memory; Interferon-gamma(metabolism); Lymphocyte Count; Lymphocytic Choriomeningitis(immunology); Mice; Mice, Inbred C57BL; Molecular Sequence Data; Peptide Fragments(immunology); Spleen(immunology); T-Lymphocytes(immunology); Viral Proteins(immunology)</ArticleMeshHeadingsList>
+            <Journal>
+                <Volume>193</Volume>
+                <Issue>2</Issue>
+                <Title>Cellular immunology</Title>
+                <Issn>1090-2163</Issn>
+                <MedlineTa>Cell Immunol</MedlineTa>
+            </Journal>
+        </Article>
+        <Epitopes>
+            <Epitope>
+                <EpitopeName>GP 33</EpitopeName>
+                <EpitopeStructure>
+                    <FragmentOfANaturalSequenceMolecule>
+                        <ChemicalType>Peptide from protein</ChemicalType>
+                        <LinearSequence>KAVYNFATM</LinearSequence>
+                        <SourceMolecule>
+                            <IedbAccession>SRC280130</IedbAccession>
+                        </SourceMolecule>
+                        <SourceOrganismId>11623</SourceOrganismId>
+                    </FragmentOfANaturalSequenceMolecule>
+                </EpitopeStructure>
+                <LocationOfData>Table 1</LocationOfData>
+                <EpitopeId>30015</EpitopeId>
+                <EpitopeEvidenceCode>Internal Identifier-no external match available</EpitopeEvidenceCode>
+                <EpitopeStructureDefines>Exact Epitope</EpitopeStructureDefines>
+                <EpitopeComments>The sequence of the natural GP33 epitope is KAVYNFATC. The Cys to Met substitution enhances solubility of the peptide without affecting T cell recognition.</EpitopeComments>
+                <Assays>
+                    <TCell>
+                        <LocationOfData>Table 2, figures 1, 2, and 3</LocationOfData>
+                        <TCellId>22051</TCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>10000067</OrganismId>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Administration in vivo</InVivoProcessType>
+                                <DiseaseState>DOID:12155</DiseaseState>
+                                <DiseaseStage>Acute/Recent onset</DiseaseStage>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Taxonomic Child</EpitopeRelation>
+                                    <Object>
+                                        <Organism>
+                                            <SubType>Organism</SubType>
+                                            <SourceOrganismId>11624</SourceOrganismId>
+                                        </Organism>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenEvidenceCode>Not determined</ImmunogenEvidenceCode>
+                                <Route>Intraperitoneal (i.p.)</Route>
+                                <DoseSchedule>1</DoseSchedule>
+                            </FirstInVivoProcess>
+                        </Immunization>
+                        <EffectorCells>
+                            <CellTissueType>Spleen</CellTissueType>
+                            <CellType>T cell CD8+</CellType>
+                            <CellCultureConditions>Direct Ex Vivo</CellCultureConditions>
+                        </EffectorCells>
+                        <AntigenPresentingCells>
+                            <CellTissueType>Spleen</CellTissueType>
+                            <CellType>Splenocyte</CellType>
+                            <CellCultureConditions>Direct Ex Vivo</CellCultureConditions>
+                        </AntigenPresentingCells>
+                        <MhcAllele>
+                            <MhcAlleleId>172</MhcAlleleId>
+                            <MhcEvidenceCode>T cell assay -T cell subset identification</MhcEvidenceCode>
+                        </MhcAllele>
+                        <Antigen>
+                            <AntigenReferenceName>GP 33</AntigenReferenceName>
+                            <AntigenObject>
+                                <EpitopeRelation>Epitope</EpitopeRelation>
+                                <Object>
+                                    <FragmentOfANaturalSequenceMolecule>
+                                        <ChemicalType>Peptide from protein</ChemicalType>
+                                        <LinearSequence>KAVYNFATM</LinearSequence>
+                                        <SourceMolecule>
+                                            <IedbAccession>SRC280130</IedbAccession>
+                                        </SourceMolecule>
+                                        <SourceOrganismId>11623</SourceOrganismId>
+                                    </FragmentOfANaturalSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Exact match to reference information</AntigenEvidenceCode>
+                        </Antigen>
+                        <AssayInformation>
+                            <AssayTypeId>48</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <AssayComments>IFNg was produced in response to the epitope by CD8+ T cells (by ELISPOT and intracellular cytokine staining) with the peak number of epitope-specific cells occurring at day 10 post LCMV infection, followed by a rapid decrease in numbers as compared to the gradual decrease seen in LCMV epitope specific CD4+ T cells. Depleting CD8+ T cells blocked the IFNg response to this epitope while depletion of CD4+ T or blocking the class II molecule had no effect.</AssayComments>
+                        </AssayInformation>
+                    </TCell>
+                </Assays>
+            </Epitope>
+            <Epitope>
+                <EpitopeName>GP 61</EpitopeName>
+                <EpitopeStructure>
+                    <FragmentOfANaturalSequenceMolecule>
+                        <ChemicalType>Peptide from protein</ChemicalType>
+                        <LinearSequence>GLKGPDIYKGVYQFKSVEFD</LinearSequence>
+                        <StartingPosition>61</StartingPosition>
+                        <EndingPosition>80</EndingPosition>
+                        <SourceMolecule>
+                            <GenBankId>P09991.1</GenBankId>
+                        </SourceMolecule>
+                        <SourceOrganismId>11623</SourceOrganismId>
+                    </FragmentOfANaturalSequenceMolecule>
+                </EpitopeStructure>
+                <LocationOfData>Table 1</LocationOfData>
+                <EpitopeId>20958</EpitopeId>
+                <ReferenceStartingPosition>61</ReferenceStartingPosition>
+                <ReferenceEndingPosition>80</ReferenceEndingPosition>
+                <EpitopeEvidenceCode>Not determined</EpitopeEvidenceCode>
+                <EpitopeStructureDefines>Epitope containing region/antigenic site</EpitopeStructureDefines>
+                <Assays>
+                    <TCell>
+                        <LocationOfData>Table 2, figures 1, 2, 3, and 4</LocationOfData>
+                        <TCellId>22052</TCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>10000067</OrganismId>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Administration in vivo</InVivoProcessType>
+                                <DiseaseState>DOID:12155</DiseaseState>
+                                <DiseaseStage>Acute/Recent onset</DiseaseStage>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Taxonomic Child</EpitopeRelation>
+                                    <Object>
+                                        <Organism>
+                                            <SubType>Organism</SubType>
+                                            <SourceOrganismId>10000496</SourceOrganismId>
+                                        </Organism>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenReferenceName>LCMV</ImmunogenReferenceName>
+                                <ImmunogenEvidenceCode>Not determined</ImmunogenEvidenceCode>
+                                <Route>Intraperitoneal (i.p.)</Route>
+                                <DoseSchedule>1</DoseSchedule>
+                            </FirstInVivoProcess>
+                        </Immunization>
+                        <EffectorCells>
+                            <CellTissueType>Spleen</CellTissueType>
+                            <CellType>T cell CD4+</CellType>
+                            <CellCultureConditions>Direct Ex Vivo</CellCultureConditions>
+                        </EffectorCells>
+                        <AntigenPresentingCells>
+                            <CellTissueType>Spleen</CellTissueType>
+                            <CellType>Splenocyte</CellType>
+                            <CellCultureConditions>Direct Ex Vivo</CellCultureConditions>
+                        </AntigenPresentingCells>
+                        <MhcAllele>
+                            <MhcAlleleId>181</MhcAlleleId>
+                            <MhcEvidenceCode>T cell assay -T cell subset identification</MhcEvidenceCode>
+                        </MhcAllele>
+                        <Antigen>
+                            <AntigenReferenceName>GP 61</AntigenReferenceName>
+                            <AntigenObject>
+                                <EpitopeRelation>Epitope</EpitopeRelation>
+                                <Object>
+                                    <FragmentOfANaturalSequenceMolecule>
+                                        <ChemicalType>Peptide from protein</ChemicalType>
+                                        <LinearSequence>GLKGPDIYKGVYQFKSVEFD</LinearSequence>
+                                        <StartingPosition>61</StartingPosition>
+                                        <EndingPosition>80</EndingPosition>
+                                        <SourceMolecule>
+                                            <GenBankId>P09991.1</GenBankId>
+                                        </SourceMolecule>
+                                        <SourceOrganismId>11623</SourceOrganismId>
+                                    </FragmentOfANaturalSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Exact match to reference information</AntigenEvidenceCode>
+                        </Antigen>
+                        <AssayInformation>
+                            <AssayTypeId>48</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <AssayComments>IFNg was produced in response to the epitope by CD4+ T cells (by ELISPOT and intracellular cytokine staining) with the peak number of epitope-specific cells occurring at day 10 post LCMV infection, followed by a gradual decrease in numbers as compared to the rapid decrease seen in LCMV epitope specific CD8+ T cells. Depleting CD4+ T cells or blocking the class II molecule blocked the IFNg response to this epitope while depletion of CD8+ T cells had no effect.</AssayComments>
+                        </AssayInformation>
+                    </TCell>
+                </Assays>
+            </Epitope>
+            <Epitope>
+                <EpitopeName>NP 309</EpitopeName>
+                <EpitopeStructure>
+                    <FragmentOfANaturalSequenceMolecule>
+                        <ChemicalType>Peptide from protein</ChemicalType>
+                        <LinearSequence>SGEGWPYIACRTSIVGRAWE</LinearSequence>
+                        <StartingPosition>309</StartingPosition>
+                        <EndingPosition>328</EndingPosition>
+                        <SourceMolecule>
+                            <GenBankId>P09992.1</GenBankId>
+                        </SourceMolecule>
+                        <SourceOrganismId>11623</SourceOrganismId>
+                    </FragmentOfANaturalSequenceMolecule>
+                </EpitopeStructure>
+                <LocationOfData>Table 1</LocationOfData>
+                <EpitopeId>58011</EpitopeId>
+                <ReferenceStartingPosition>309</ReferenceStartingPosition>
+                <ReferenceEndingPosition>328</ReferenceEndingPosition>
+                <EpitopeEvidenceCode>Not determined</EpitopeEvidenceCode>
+                <EpitopeStructureDefines>Epitope containing region/antigenic site</EpitopeStructureDefines>
+                <Assays>
+                    <TCell>
+                        <LocationOfData>Table 2, figures 1, 2, and 4</LocationOfData>
+                        <TCellId>22058</TCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>10000067</OrganismId>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Administration in vivo</InVivoProcessType>
+                                <DiseaseState>DOID:12155</DiseaseState>
+                                <DiseaseStage>Acute/Recent onset</DiseaseStage>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Taxonomic Child</EpitopeRelation>
+                                    <Object>
+                                        <Organism>
+                                            <SubType>Organism</SubType>
+                                            <SourceOrganismId>10000496</SourceOrganismId>
+                                        </Organism>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenReferenceName>LCMV</ImmunogenReferenceName>
+                                <ImmunogenEvidenceCode>Not determined</ImmunogenEvidenceCode>
+                                <Route>Intraperitoneal (i.p.)</Route>
+                                <DoseSchedule>1</DoseSchedule>
+                            </FirstInVivoProcess>
+                        </Immunization>
+                        <EffectorCells>
+                            <CellTissueType>Spleen</CellTissueType>
+                            <CellType>T cell CD4+</CellType>
+                            <CellCultureConditions>Direct Ex Vivo</CellCultureConditions>
+                        </EffectorCells>
+                        <AntigenPresentingCells>
+                            <CellTissueType>Spleen</CellTissueType>
+                            <CellType>Splenocyte</CellType>
+                            <CellCultureConditions>Direct Ex Vivo</CellCultureConditions>
+                        </AntigenPresentingCells>
+                        <MhcAllele>
+                            <MhcAlleleId>181</MhcAlleleId>
+                            <MhcEvidenceCode>T cell assay -T cell subset identification</MhcEvidenceCode>
+                        </MhcAllele>
+                        <Antigen>
+                            <AntigenReferenceName>NP 309</AntigenReferenceName>
+                            <AntigenObject>
+                                <EpitopeRelation>Epitope</EpitopeRelation>
+                                <Object>
+                                    <FragmentOfANaturalSequenceMolecule>
+                                        <ChemicalType>Peptide from protein</ChemicalType>
+                                        <LinearSequence>SGEGWPYIACRTSIVGRAWE</LinearSequence>
+                                        <StartingPosition>309</StartingPosition>
+                                        <EndingPosition>328</EndingPosition>
+                                        <SourceMolecule>
+                                            <GenBankId>P09992.1</GenBankId>
+                                        </SourceMolecule>
+                                        <SourceOrganismId>11623</SourceOrganismId>
+                                    </FragmentOfANaturalSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Exact match to reference information</AntigenEvidenceCode>
+                        </Antigen>
+                        <AssayInformation>
+                            <AssayTypeId>48</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <AssayComments>IFNg was produced in response to the epitope by CD4+ T cells (by ELISPOT and intracellular cytokine staining) with the peak number of epitope-specific cells occurring at day 10 post LCMV infection, followed by a gradual decrease in numbers as compared to the rapid decrease seen in LCMV epitope specific CD8+ T cells. Depleting CD4+ T cells or blocking the class II molecule blocked the IFNg response to this epitope while depletion of CD8+ T cells had no effect.</AssayComments>
+                        </AssayInformation>
+                    </TCell>
+                </Assays>
+            </Epitope>
+            <Epitope>
+                <EpitopeName>NP 118</EpitopeName>
+                <EpitopeStructure>
+                    <FragmentOfANaturalSequenceMolecule>
+                        <ChemicalType>Peptide from protein</ChemicalType>
+                        <LinearSequence>RPQASGVYM</LinearSequence>
+                        <StartingPosition>118</StartingPosition>
+                        <EndingPosition>126</EndingPosition>
+                        <SourceMolecule>
+                            <GenBankId>P09992.1</GenBankId>
+                        </SourceMolecule>
+                        <SourceOrganismId>11623</SourceOrganismId>
+                    </FragmentOfANaturalSequenceMolecule>
+                </EpitopeStructure>
+                <LocationOfData>Table 1</LocationOfData>
+                <EpitopeId>55289</EpitopeId>
+                <ReferenceStartingPosition>118</ReferenceStartingPosition>
+                <ReferenceEndingPosition>126</ReferenceEndingPosition>
+                <EpitopeEvidenceCode>Not determined</EpitopeEvidenceCode>
+                <EpitopeStructureDefines>Exact Epitope</EpitopeStructureDefines>
+                <Assays>
+                    <TCell>
+                        <LocationOfData>Table 3</LocationOfData>
+                        <TCellId>22059</TCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>10000063</OrganismId>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Administration in vivo</InVivoProcessType>
+                                <DiseaseState>DOID:12155</DiseaseState>
+                                <DiseaseStage>Acute/Recent onset</DiseaseStage>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Taxonomic Child</EpitopeRelation>
+                                    <Object>
+                                        <Organism>
+                                            <SubType>Organism</SubType>
+                                            <SourceOrganismId>10000496</SourceOrganismId>
+                                        </Organism>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenReferenceName>LCMV</ImmunogenReferenceName>
+                                <ImmunogenEvidenceCode>Not determined</ImmunogenEvidenceCode>
+                                <Route>Intraperitoneal (i.p.)</Route>
+                                <DoseSchedule>1</DoseSchedule>
+                            </FirstInVivoProcess>
+                        </Immunization>
+                        <EffectorCells>
+                            <CellTissueType>Spleen</CellTissueType>
+                            <CellType>T cell CD8+</CellType>
+                            <CellCultureConditions>Direct Ex Vivo</CellCultureConditions>
+                        </EffectorCells>
+                        <AntigenPresentingCells>
+                            <CellTissueType>Spleen</CellTissueType>
+                            <CellType>Splenocyte</CellType>
+                            <CellCultureConditions>Direct Ex Vivo</CellCultureConditions>
+                        </AntigenPresentingCells>
+                        <MhcAllele>
+                            <MhcAlleleId>126</MhcAlleleId>
+                            <MhcEvidenceCode>T cell assay -T cell subset identification</MhcEvidenceCode>
+                        </MhcAllele>
+                        <Antigen>
+                            <AntigenReferenceName>NP 118</AntigenReferenceName>
+                            <AntigenObject>
+                                <EpitopeRelation>Epitope</EpitopeRelation>
+                                <Object>
+                                    <FragmentOfANaturalSequenceMolecule>
+                                        <ChemicalType>Peptide from protein</ChemicalType>
+                                        <LinearSequence>RPQASGVYM</LinearSequence>
+                                        <StartingPosition>118</StartingPosition>
+                                        <EndingPosition>126</EndingPosition>
+                                        <SourceMolecule>
+                                            <GenBankId>P09992.1</GenBankId>
+                                        </SourceMolecule>
+                                        <SourceOrganismId>11623</SourceOrganismId>
+                                    </FragmentOfANaturalSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Exact match to reference information</AntigenEvidenceCode>
+                        </Antigen>
+                        <AssayInformation>
+                            <AssayTypeId>48</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <AssayComments>IFNg was produced in response to the epitope by CD8+ T cells after LCMV infection with much higher epitope specific cell numbers than observed in response to a class II LCMV epitope (GP 409-423).</AssayComments>
+                        </AssayInformation>
+                    </TCell>
+                </Assays>
+            </Epitope>
+            <Epitope>
+                <EpitopeName>GP 409</EpitopeName>
+                <EpitopeStructure>
+                    <FragmentOfANaturalSequenceMolecule>
+                        <ChemicalType>Peptide from protein</ChemicalType>
+                        <LinearSequence>IEQEADNMITEMLRK</LinearSequence>
+                        <StartingPosition>409</StartingPosition>
+                        <EndingPosition>423</EndingPosition>
+                        <SourceMolecule>
+                            <GenBankId>P09991.1</GenBankId>
+                        </SourceMolecule>
+                        <SourceOrganismId>11623</SourceOrganismId>
+                    </FragmentOfANaturalSequenceMolecule>
+                </EpitopeStructure>
+                <LocationOfData>Table 1</LocationOfData>
+                <EpitopeId>25935</EpitopeId>
+                <ReferenceStartingPosition>409</ReferenceStartingPosition>
+                <ReferenceEndingPosition>423</ReferenceEndingPosition>
+                <EpitopeEvidenceCode>Not determined</EpitopeEvidenceCode>
+                <EpitopeStructureDefines>Exact Epitope</EpitopeStructureDefines>
+                <Assays>
+                    <TCell>
+                        <LocationOfData>Table 3</LocationOfData>
+                        <TCellId>22060</TCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>10000063</OrganismId>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Administration in vivo</InVivoProcessType>
+                                <DiseaseState>DOID:12155</DiseaseState>
+                                <DiseaseStage>Acute/Recent onset</DiseaseStage>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Taxonomic Child</EpitopeRelation>
+                                    <Object>
+                                        <Organism>
+                                            <SubType>Organism</SubType>
+                                            <SourceOrganismId>10000496</SourceOrganismId>
+                                        </Organism>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenReferenceName>LCMV</ImmunogenReferenceName>
+                                <ImmunogenEvidenceCode>Not determined</ImmunogenEvidenceCode>
+                                <Route>Intraperitoneal (i.p.)</Route>
+                                <DoseSchedule>1</DoseSchedule>
+                            </FirstInVivoProcess>
+                        </Immunization>
+                        <EffectorCells>
+                            <CellTissueType>Spleen</CellTissueType>
+                            <CellType>T cell CD4+</CellType>
+                            <CellCultureConditions>Direct Ex Vivo</CellCultureConditions>
+                        </EffectorCells>
+                        <AntigenPresentingCells>
+                            <CellTissueType>Spleen</CellTissueType>
+                            <CellType>Splenocyte</CellType>
+                            <CellCultureConditions>Direct Ex Vivo</CellCultureConditions>
+                        </AntigenPresentingCells>
+                        <MhcAllele>
+                            <MhcAlleleId>110</MhcAlleleId>
+                            <MhcEvidenceCode>T cell assay -T cell subset identification</MhcEvidenceCode>
+                        </MhcAllele>
+                        <Antigen>
+                            <AntigenReferenceName>GP 409</AntigenReferenceName>
+                            <AntigenObject>
+                                <EpitopeRelation>Epitope</EpitopeRelation>
+                                <Object>
+                                    <FragmentOfANaturalSequenceMolecule>
+                                        <ChemicalType>Peptide from protein</ChemicalType>
+                                        <LinearSequence>IEQEADNMITEMLRK</LinearSequence>
+                                        <StartingPosition>409</StartingPosition>
+                                        <EndingPosition>423</EndingPosition>
+                                        <SourceMolecule>
+                                            <GenBankId>P09991.1</GenBankId>
+                                        </SourceMolecule>
+                                        <SourceOrganismId>11623</SourceOrganismId>
+                                    </FragmentOfANaturalSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Exact match to reference information</AntigenEvidenceCode>
+                        </Antigen>
+                        <AssayInformation>
+                            <AssayTypeId>48</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <AssayComments>IFNg was produced in response to the epitope by CD4+ T cells after LCMV infection with much lower epitope specific cell numbers than observed in response to a class I LCMV epitope (NP118).</AssayComments>
+                        </AssayInformation>
+                    </TCell>
+                </Assays>
+            </Epitope>
+        </Epitopes>
+    </Reference>
+</References>
+

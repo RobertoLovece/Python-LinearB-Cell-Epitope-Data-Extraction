@@ -1,0 +1,832 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<References xsi:schemaLocation="http://www.iedb.org/schema/CurationSchema http://beta.iedb.org/schema/Curation.xsd" xmlns="http://www.iedb.org/schema/CurationSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <Reference>
+        <ReferenceId>618</ReferenceId>
+        <DateLastUpdated>2020-09-10-07:00</DateLastUpdated>
+        <Article>
+            <PubmedId>15514011</PubmedId>
+            <Abstract>Cell-mediated immunity is essential for control of human cytomegalovirus (HCMV) infection. We used a pool of 138 synthetic overlapping pentadecapeptides overspanning the entire pp65 protein to generate polyclonal CMV-specific T-cell lines from 12 CMV-seropositive donors inheriting different HLA genotypes. Autologous monocyte-derived dendritic cells (DCs) pulsed with this complete pool consistently induced highly specific T cells that selectively recognized 1-3 pentadecapeptides identified by secondary responses to a mapping grid of pentadecapeptide subpools with single overlaps. Responses against peptide-loaded targets sharing single HLA class I or II alleles identified the restricting HLA alleles. HLA-A*0201+ donors consistently responded to pentadecapeptides containing HLA-A*0201-binding epitope(aa495-503)NLVPMVATV. T-cell lines from other donors contained high frequencies of CD4 and/or CD8 T cells selectively reactive against peptides presented by other HLA alleles, including both known epitopes such as (aa341-350)QYDPVAALF (HLA-A*2402) as well as unreported epitopes such as (aa267-275)HERNGFTVL (HLA-B*4001 and B*4002) and (aa513-523)FFWDANDIYRI (HLA-DRB1*1301). These T cells consistently lysed CMV-infected target cells. Thus, this approach fosters expansion and selection of HLA-restricted CMV-pp65-reactive T-cell lines of high specificity that also lyse CMV-infected targets, and from a functional and regulatory perspective, may have advantages for generating virus-specific T cells for adoptive immunotherapy.</Abstract>
+            <ArticleYear>2005</ArticleYear>
+            <ArticlePages>2793-801</ArticlePages>
+            <ArticleTitle>Generation of CMV-specific T lymphocytes using protein-spanning pools of pp65-derived overlapping pentadecapeptides for adoptive immunotherapy.</ArticleTitle>
+            <Authors>
+                <Author>
+                    <LastName>Trivedi</LastName>
+                    <ForeName>Deepa</ForeName>
+                </Author>
+                <Author>
+                    <LastName>Williams</LastName>
+                    <ForeName>Roxanne Y</ForeName>
+                </Author>
+                <Author>
+                    <LastName>O'Reilly</LastName>
+                    <ForeName>Richard J</ForeName>
+                </Author>
+                <Author>
+                    <LastName>Koehne</LastName>
+                    <ForeName>Guenther</ForeName>
+                </Author>
+            </Authors>
+            <Affiliations>Allogenic Bone Marrow Transplantation Service, Department of Pediatrics, Transplantation Biology Laboratory, Sloan-Kettering Institute, Memorial Sloan-Kettering Cancer Center, New York, NY, USA.</Affiliations>
+            <ArticleChemicalList>Epitopes, T-Lymphocyte;Histocompatibility Antigens Class II;Phosphoproteins;Viral Matrix Proteins;cytomegalovirus matrix protein 65kDa</ArticleChemicalList>
+            <ArticleMeshHeadingsList>Amino Acid Sequence; CD4-Positive T-Lymphocytes(immunology; virology); Cell Line; Cytomegalovirus Infections(immunology; therapy); Epitopes, T-Lymphocyte(immunology); Fibroblasts(cytology); Genotype; Histocompatibility Antigens Class II(genetics; immunology); Humans; Immunotherapy, Adoptive(methods); In Vitro Techniques; Molecular Sequence Data; Phosphoproteins(genetics; immunology); Viral Matrix Proteins(genetics; immunology)</ArticleMeshHeadingsList>
+            <Journal>
+                <Volume>105</Volume>
+                <Issue>7</Issue>
+                <Title>Blood</Title>
+                <Issn>0006-4971</Issn>
+                <MedlineTa>Blood</MedlineTa>
+            </Journal>
+        </Article>
+        <Epitopes>
+            <Epitope>
+                <EpitopeName>HERNGFTVL 267-275</EpitopeName>
+                <EpitopeStructure>
+                    <FragmentOfANaturalSequenceMolecule>
+                        <ChemicalType>Peptide from protein</ChemicalType>
+                        <LinearSequence>HERNGFTVL</LinearSequence>
+                        <StartingPosition>267</StartingPosition>
+                        <EndingPosition>275</EndingPosition>
+                        <SourceMolecule>
+                            <GenBankId>CAA35357.1</GenBankId>
+                        </SourceMolecule>
+                        <SourceOrganismId>10359</SourceOrganismId>
+                    </FragmentOfANaturalSequenceMolecule>
+                </EpitopeStructure>
+                <LocationOfData>Figure 6</LocationOfData>
+                <EpitopeId>23732</EpitopeId>
+                <ReferenceStartingPosition>267</ReferenceStartingPosition>
+                <ReferenceEndingPosition>275</ReferenceEndingPosition>
+                <EpitopeEvidenceCode>Representative selection</EpitopeEvidenceCode>
+                <EpitopeStructureDefines>Exact Epitope</EpitopeStructureDefines>
+                <EpitopeComments>Determined to be both HLA B*4001 and B*4002-restricted epitope.</EpitopeComments>
+                <Assays>
+                    <TCell>
+                        <LocationOfData>Table 1</LocationOfData>
+                        <TCellId>24279</TCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>9606</OrganismId>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Exposure with existing immune reactivity without evidence for disease</InVivoProcessType>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Source Organism</EpitopeRelation>
+                                    <Object>
+                                        <Organism>
+                                            <SubType>Organism</SubType>
+                                            <SourceOrganismId>10359</SourceOrganismId>
+                                        </Organism>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenEvidenceCode>Not determined</ImmunogenEvidenceCode>
+                            </FirstInVivoProcess>
+                            <InVitroAdministration>
+                                <ProcessType>Restimulation in vitro</ProcessType>
+                                <ResponderCellType>T cell CD3+</ResponderCellType>
+                                <StimulatorCellType>Dendritic cell</StimulatorCellType>
+                            </InVitroAdministration>
+                            <ImmunizationComments>T-cells were restimulated weekly at an effector:stimulator ratio of 20:1 .  5-10 IU/ml of IL-2 was added at day 10 and 2-3 times weekly thereafter.  CD3+ cells were originally restimulated with pooled-peptide pulsed DCs then subsequently restimulated with individual pentadecapeptides denoted 66 and 67 containing the minimal epitope sequence.  Cells were finally restimulated with EBV-BLCLs with individual MHC restrictions.</ImmunizationComments>
+                        </Immunization>
+                        <EffectorCells>
+                            <CellTissueType>Blood</CellTissueType>
+                            <CellType>T cell CD3+</CellType>
+                            <CellCultureConditions>Short Term Restimulated</CellCultureConditions>
+                        </EffectorCells>
+                        <AntigenPresentingCells>
+                            <CellTissueType>Lymphoid</CellTissueType>
+                            <CellType>B cell</CellType>
+                            <CellCultureConditions>Cell Line / Clone (EBV transformed, B-LCL)</CellCultureConditions>
+                            <AutologousOrSyngeneic>N</AutologousOrSyngeneic>
+                        </AntigenPresentingCells>
+                        <MhcAllele>
+                            <MhcAlleleId>29</MhcAlleleId>
+                            <MhcEvidenceCode>Not determined</MhcEvidenceCode>
+                        </MhcAllele>
+                        <Antigen>
+                            <AntigenReferenceName>HERNGFTVL 267-275</AntigenReferenceName>
+                            <AntigenObject>
+                                <EpitopeRelation>Epitope</EpitopeRelation>
+                                <Object>
+                                    <FragmentOfANaturalSequenceMolecule>
+                                        <ChemicalType>Peptide from protein</ChemicalType>
+                                        <LinearSequence>HERNGFTVL</LinearSequence>
+                                        <StartingPosition>267</StartingPosition>
+                                        <EndingPosition>275</EndingPosition>
+                                        <SourceMolecule>
+                                            <GenBankId>CAA35357.1</GenBankId>
+                                        </SourceMolecule>
+                                        <SourceOrganismId>10359</SourceOrganismId>
+                                    </FragmentOfANaturalSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Exact match to reference information</AntigenEvidenceCode>
+                        </Antigen>
+                        <AssayInformation>
+                            <AssayTypeId>61</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <NumberOfSubjectsTested>12</NumberOfSubjectsTested>
+                            <NumberOfSubjectsResponded>2</NumberOfSubjectsResponded>
+                            <ResponseFrequency>16.7</ResponseFrequency>
+                        </AssayInformation>
+                    </TCell>
+                </Assays>
+                <Assays>
+                    <TCell>
+                        <LocationOfData>Table 1</LocationOfData>
+                        <TCellId>5909</TCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>9606</OrganismId>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Exposure with existing immune reactivity without evidence for disease</InVivoProcessType>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Source Organism</EpitopeRelation>
+                                    <Object>
+                                        <Organism>
+                                            <SubType>Organism</SubType>
+                                            <SourceOrganismId>10359</SourceOrganismId>
+                                        </Organism>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenEvidenceCode>Not determined</ImmunogenEvidenceCode>
+                            </FirstInVivoProcess>
+                            <InVitroAdministration>
+                                <ProcessType>Restimulation in vitro</ProcessType>
+                                <ResponderCellType>T cell CD3+</ResponderCellType>
+                                <StimulatorCellType>Dendritic cell</StimulatorCellType>
+                            </InVitroAdministration>
+                            <ImmunizationComments>T-cells were restimulated weekly at an effector:stimulator ratio of 20:1 .  5-10 IU/ml of IL-2 was added at day 10 and 2-3 times weekly thereafter.  CD3+ cells were originally restimulated with pooled-peptide pulsed DCs then subsequently restimulated with individual pentadecapeptides denoted 66 and 67 containing the minimal epitope sequence.  Cells were finally restimulated with EBV-BLCLs with individual MHC restrictions.</ImmunizationComments>
+                        </Immunization>
+                        <EffectorCells>
+                            <CellTissueType>Blood</CellTissueType>
+                            <CellType>T cell CD3+</CellType>
+                            <CellCultureConditions>Short Term Restimulated</CellCultureConditions>
+                        </EffectorCells>
+                        <AntigenPresentingCells>
+                            <CellTissueType>Lymphoid</CellTissueType>
+                            <CellType>B cell</CellType>
+                            <CellCultureConditions>Cell Line / Clone (EBV transformed, B-LCL)</CellCultureConditions>
+                            <AutologousOrSyngeneic>N</AutologousOrSyngeneic>
+                        </AntigenPresentingCells>
+                        <MhcAllele>
+                            <MhcAlleleId>28</MhcAlleleId>
+                            <MhcEvidenceCode>Not determined</MhcEvidenceCode>
+                        </MhcAllele>
+                        <Antigen>
+                            <AntigenReferenceName>HERNGFTVL 267-275</AntigenReferenceName>
+                            <AntigenObject>
+                                <EpitopeRelation>Epitope</EpitopeRelation>
+                                <Object>
+                                    <FragmentOfANaturalSequenceMolecule>
+                                        <ChemicalType>Peptide from protein</ChemicalType>
+                                        <LinearSequence>HERNGFTVL</LinearSequence>
+                                        <StartingPosition>267</StartingPosition>
+                                        <EndingPosition>275</EndingPosition>
+                                        <SourceMolecule>
+                                            <GenBankId>CAA35357.1</GenBankId>
+                                        </SourceMolecule>
+                                        <SourceOrganismId>10359</SourceOrganismId>
+                                    </FragmentOfANaturalSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Exact match to reference information</AntigenEvidenceCode>
+                        </Antigen>
+                        <AssayInformation>
+                            <AssayTypeId>61</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <NumberOfSubjectsTested>12</NumberOfSubjectsTested>
+                            <NumberOfSubjectsResponded>2</NumberOfSubjectsResponded>
+                            <ResponseFrequency>16.7</ResponseFrequency>
+                        </AssayInformation>
+                    </TCell>
+                </Assays>
+            </Epitope>
+            <Epitope>
+                <EpitopeName>RPHERNGFTVL 265-275</EpitopeName>
+                <EpitopeStructure>
+                    <FragmentOfANaturalSequenceMolecule>
+                        <ChemicalType>Peptide from protein</ChemicalType>
+                        <LinearSequence>RPHERNGFTVL</LinearSequence>
+                        <StartingPosition>265</StartingPosition>
+                        <EndingPosition>275</EndingPosition>
+                        <SourceMolecule>
+                            <GenBankId>CAA35357.1</GenBankId>
+                        </SourceMolecule>
+                        <SourceOrganismId>10359</SourceOrganismId>
+                    </FragmentOfANaturalSequenceMolecule>
+                </EpitopeStructure>
+                <LocationOfData>Figure 6</LocationOfData>
+                <EpitopeId>55170</EpitopeId>
+                <ReferenceStartingPosition>265</ReferenceStartingPosition>
+                <ReferenceEndingPosition>275</ReferenceEndingPosition>
+                <EpitopeEvidenceCode>Representative selection</EpitopeEvidenceCode>
+                <EpitopeStructureDefines>Exact Epitope</EpitopeStructureDefines>
+                <Assays>
+                    <TCell>
+                        <LocationOfData>Table 1</LocationOfData>
+                        <TCellId>15916</TCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>9606</OrganismId>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Exposure with existing immune reactivity without evidence for disease</InVivoProcessType>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Source Organism</EpitopeRelation>
+                                    <Object>
+                                        <Organism>
+                                            <SubType>Organism</SubType>
+                                            <SourceOrganismId>10359</SourceOrganismId>
+                                        </Organism>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenEvidenceCode>Not determined</ImmunogenEvidenceCode>
+                            </FirstInVivoProcess>
+                            <InVitroAdministration>
+                                <ProcessType>Restimulation in vitro</ProcessType>
+                                <ResponderCellType>T cell CD3+</ResponderCellType>
+                                <StimulatorCellType>Dendritic cell</StimulatorCellType>
+                            </InVitroAdministration>
+                            <ImmunizationComments>T-cells were restimulated weekly at an effector:stimulator ratio of 20:1 .  5-10 IU/ml of IL-2 was added at day 10 and 2-3 times weekly thereafter.  CD3+ cells were originally restimulated with pooled-peptide pulsed DCs then subsequently restimulated with individual pentadecapeptides denoted 66 and 67 containing the minimal epitope sequence.  Cells were finally restimulated with EBV-BLCLs with individual MHC restrictions.</ImmunizationComments>
+                        </Immunization>
+                        <EffectorCells>
+                            <CellTissueType>Blood</CellTissueType>
+                            <CellType>T cell CD3+</CellType>
+                            <CellCultureConditions>Short Term Restimulated</CellCultureConditions>
+                        </EffectorCells>
+                        <AntigenPresentingCells>
+                            <CellTissueType>Lymphoid</CellTissueType>
+                            <CellType>B cell</CellType>
+                            <CellCultureConditions>Cell Line / Clone (EBV transformed, B-LCL)</CellCultureConditions>
+                            <AutologousOrSyngeneic>N</AutologousOrSyngeneic>
+                        </AntigenPresentingCells>
+                        <MhcAllele>
+                            <MhcAlleleId>32</MhcAlleleId>
+                            <MhcEvidenceCode>Not determined</MhcEvidenceCode>
+                        </MhcAllele>
+                        <Antigen>
+                            <AntigenReferenceName>RPHERNGFTVL 265-275</AntigenReferenceName>
+                            <AntigenObject>
+                                <EpitopeRelation>Epitope</EpitopeRelation>
+                                <Object>
+                                    <FragmentOfANaturalSequenceMolecule>
+                                        <ChemicalType>Peptide from protein</ChemicalType>
+                                        <LinearSequence>RPHERNGFTVL</LinearSequence>
+                                        <StartingPosition>265</StartingPosition>
+                                        <EndingPosition>275</EndingPosition>
+                                        <SourceMolecule>
+                                            <GenBankId>CAA35357.1</GenBankId>
+                                        </SourceMolecule>
+                                        <SourceOrganismId>10359</SourceOrganismId>
+                                    </FragmentOfANaturalSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Exact match to reference information</AntigenEvidenceCode>
+                        </Antigen>
+                        <AssayInformation>
+                            <AssayTypeId>61</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <NumberOfSubjectsTested>12</NumberOfSubjectsTested>
+                            <NumberOfSubjectsResponded>1</NumberOfSubjectsResponded>
+                            <ResponseFrequency>8.3</ResponseFrequency>
+                        </AssayInformation>
+                    </TCell>
+                </Assays>
+            </Epitope>
+            <Epitope>
+                <EpitopeName>RPHERNGFTV 265-274</EpitopeName>
+                <EpitopeStructure>
+                    <FragmentOfANaturalSequenceMolecule>
+                        <ChemicalType>Peptide from protein</ChemicalType>
+                        <LinearSequence>RPHERNGFTV</LinearSequence>
+                        <StartingPosition>265</StartingPosition>
+                        <EndingPosition>274</EndingPosition>
+                        <SourceMolecule>
+                            <GenBankId>CAA35357.1</GenBankId>
+                        </SourceMolecule>
+                        <SourceOrganismId>10359</SourceOrganismId>
+                    </FragmentOfANaturalSequenceMolecule>
+                </EpitopeStructure>
+                <LocationOfData>Figure 6</LocationOfData>
+                <EpitopeId>55169</EpitopeId>
+                <ReferenceStartingPosition>267</ReferenceStartingPosition>
+                <ReferenceEndingPosition>274</ReferenceEndingPosition>
+                <EpitopeEvidenceCode>Representative selection</EpitopeEvidenceCode>
+                <EpitopeStructureDefines>Exact Epitope</EpitopeStructureDefines>
+                <Assays>
+                    <TCell>
+                        <LocationOfData>Table 1</LocationOfData>
+                        <TCellId>15917</TCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>9606</OrganismId>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Exposure with existing immune reactivity without evidence for disease</InVivoProcessType>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Source Organism</EpitopeRelation>
+                                    <Object>
+                                        <Organism>
+                                            <SubType>Organism</SubType>
+                                            <SourceOrganismId>10359</SourceOrganismId>
+                                        </Organism>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenEvidenceCode>Not determined</ImmunogenEvidenceCode>
+                            </FirstInVivoProcess>
+                            <InVitroAdministration>
+                                <ProcessType>Restimulation in vitro</ProcessType>
+                                <ResponderCellType>T cell CD3+</ResponderCellType>
+                                <StimulatorCellType>Dendritic cell</StimulatorCellType>
+                            </InVitroAdministration>
+                            <ImmunizationComments>T-cells were restimulated weekly at an effector:stimulator ratio of 20:1 .  5-10 IU/ml of IL-2 was added at day 10 and 2-3 times weekly thereafter.  CD3+ cells were originally restimulated with pooled-peptide pulsed DCs then subsequently restimulated with individual pentadecapeptides denoted 66 and 67 containing the minimal epitope sequence.  Cells were finally restimulated with EBV-BLCLs with individual MHC restrictions.</ImmunizationComments>
+                        </Immunization>
+                        <EffectorCells>
+                            <CellTissueType>Blood</CellTissueType>
+                            <CellType>T cell CD3+</CellType>
+                            <CellCultureConditions>Short Term Restimulated</CellCultureConditions>
+                        </EffectorCells>
+                        <AntigenPresentingCells>
+                            <CellTissueType>Lymphoid</CellTissueType>
+                            <CellType>B cell</CellType>
+                            <CellCultureConditions>Cell Line / Clone (EBV transformed, B-LCL)</CellCultureConditions>
+                            <AutologousOrSyngeneic>N</AutologousOrSyngeneic>
+                        </AntigenPresentingCells>
+                        <MhcAllele>
+                            <MhcAlleleId>251</MhcAlleleId>
+                            <MhcEvidenceCode>Not determined</MhcEvidenceCode>
+                        </MhcAllele>
+                        <Antigen>
+                            <AntigenReferenceName>RPHERNGFTV 265-274</AntigenReferenceName>
+                            <AntigenObject>
+                                <EpitopeRelation>Epitope</EpitopeRelation>
+                                <Object>
+                                    <FragmentOfANaturalSequenceMolecule>
+                                        <ChemicalType>Peptide from protein</ChemicalType>
+                                        <LinearSequence>RPHERNGFTV</LinearSequence>
+                                        <StartingPosition>265</StartingPosition>
+                                        <EndingPosition>274</EndingPosition>
+                                        <SourceMolecule>
+                                            <GenBankId>CAA35357.1</GenBankId>
+                                        </SourceMolecule>
+                                        <SourceOrganismId>10359</SourceOrganismId>
+                                    </FragmentOfANaturalSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Exact match to reference information</AntigenEvidenceCode>
+                        </Antigen>
+                        <AssayInformation>
+                            <AssayTypeId>61</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <NumberOfSubjectsTested>12</NumberOfSubjectsTested>
+                            <NumberOfSubjectsResponded>1</NumberOfSubjectsResponded>
+                            <ResponseFrequency>8.3</ResponseFrequency>
+                        </AssayInformation>
+                    </TCell>
+                </Assays>
+            </Epitope>
+            <Epitope>
+                <EpitopeName>FFWDANDIYRI 513-523</EpitopeName>
+                <EpitopeStructure>
+                    <FragmentOfANaturalSequenceMolecule>
+                        <ChemicalType>Peptide from protein</ChemicalType>
+                        <LinearSequence>FFWDANDIYRI</LinearSequence>
+                        <StartingPosition>513</StartingPosition>
+                        <EndingPosition>523</EndingPosition>
+                        <SourceMolecule>
+                            <GenBankId>CAA35357.1</GenBankId>
+                        </SourceMolecule>
+                        <SourceOrganismId>10359</SourceOrganismId>
+                    </FragmentOfANaturalSequenceMolecule>
+                </EpitopeStructure>
+                <LocationOfData>Figure 6</LocationOfData>
+                <EpitopeId>15941</EpitopeId>
+                <ReferenceStartingPosition>513</ReferenceStartingPosition>
+                <ReferenceEndingPosition>523</ReferenceEndingPosition>
+                <EpitopeEvidenceCode>Representative selection</EpitopeEvidenceCode>
+                <EpitopeStructureDefines>Exact Epitope</EpitopeStructureDefines>
+                <Assays>
+                    <TCell>
+                        <LocationOfData>Table 1</LocationOfData>
+                        <TCellId>15918</TCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>9606</OrganismId>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Exposure with existing immune reactivity without evidence for disease</InVivoProcessType>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Source Organism</EpitopeRelation>
+                                    <Object>
+                                        <Organism>
+                                            <SubType>Organism</SubType>
+                                            <SourceOrganismId>10359</SourceOrganismId>
+                                        </Organism>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenEvidenceCode>Not determined</ImmunogenEvidenceCode>
+                            </FirstInVivoProcess>
+                            <InVitroAdministration>
+                                <ProcessType>Restimulation in vitro</ProcessType>
+                                <ResponderCellType>T cell CD3+</ResponderCellType>
+                                <StimulatorCellType>Dendritic cell</StimulatorCellType>
+                            </InVitroAdministration>
+                            <ImmunizationComments>T-cells were restimulated weekly at an effector:stimulator ratio of 20:1 .  5-10 IU/ml of IL-2 was added at day 10 and 2-3 times weekly thereafter.  CD3+ cells were originally restimulated with pooled-peptide pulsed DCs then subsequently restimulated with individual pentadecapeptides denoted 128 and 129 containing the minimal epitope sequence.  Cells were finally restimulated with EBV-BLCLs with individual MHC restrictions.</ImmunizationComments>
+                        </Immunization>
+                        <EffectorCells>
+                            <CellTissueType>Blood</CellTissueType>
+                            <CellType>T cell CD3+</CellType>
+                            <CellCultureConditions>Short Term Restimulated</CellCultureConditions>
+                        </EffectorCells>
+                        <AntigenPresentingCells>
+                            <CellTissueType>Lymphoid</CellTissueType>
+                            <CellType>B cell</CellType>
+                            <CellCultureConditions>Cell Line / Clone (EBV transformed, B-LCL)</CellCultureConditions>
+                            <AutologousOrSyngeneic>N</AutologousOrSyngeneic>
+                        </AntigenPresentingCells>
+                        <MhcAllele>
+                            <MhcAlleleId>424</MhcAlleleId>
+                            <MhcEvidenceCode>Not determined</MhcEvidenceCode>
+                        </MhcAllele>
+                        <Antigen>
+                            <AntigenReferenceName>FFWDANDIYRI 513-523</AntigenReferenceName>
+                            <AntigenObject>
+                                <EpitopeRelation>Epitope</EpitopeRelation>
+                                <Object>
+                                    <FragmentOfANaturalSequenceMolecule>
+                                        <ChemicalType>Peptide from protein</ChemicalType>
+                                        <LinearSequence>FFWDANDIYRI</LinearSequence>
+                                        <StartingPosition>513</StartingPosition>
+                                        <EndingPosition>523</EndingPosition>
+                                        <SourceMolecule>
+                                            <GenBankId>CAA35357.1</GenBankId>
+                                        </SourceMolecule>
+                                        <SourceOrganismId>10359</SourceOrganismId>
+                                    </FragmentOfANaturalSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Exact match to reference information</AntigenEvidenceCode>
+                        </Antigen>
+                        <AssayInformation>
+                            <AssayTypeId>61</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <NumberOfSubjectsTested>12</NumberOfSubjectsTested>
+                            <NumberOfSubjectsResponded>2</NumberOfSubjectsResponded>
+                            <ResponseFrequency>16.7</ResponseFrequency>
+                        </AssayInformation>
+                    </TCell>
+                </Assays>
+                <Assays>
+                    <TCell>
+                        <LocationOfData>Table 1</LocationOfData>
+                        <TCellId>24280</TCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>9606</OrganismId>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Exposure with existing immune reactivity without evidence for disease</InVivoProcessType>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Source Organism</EpitopeRelation>
+                                    <Object>
+                                        <Organism>
+                                            <SubType>Organism</SubType>
+                                            <SourceOrganismId>10359</SourceOrganismId>
+                                        </Organism>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenEvidenceCode>Not determined</ImmunogenEvidenceCode>
+                            </FirstInVivoProcess>
+                            <InVitroAdministration>
+                                <ProcessType>Restimulation in vitro</ProcessType>
+                                <ResponderCellType>T cell CD3+</ResponderCellType>
+                                <StimulatorCellType>Dendritic cell</StimulatorCellType>
+                            </InVitroAdministration>
+                            <ImmunizationComments>T-cells were restimulated weekly at an effector:stimulator ratio of 20:1 .  5-10 IU/ml of IL-2 was added at day 10 and 2-3 times weekly thereafter.  CD3+ cells were originally restimulated with pooled-peptide pulsed DCs then subsequently restimulated with individual pentadecapeptides denoted 128 and 129 containing the minimal epitope sequence.  Cells were finally restimulated with EBV-BLCLs with individual MHC restrictions.</ImmunizationComments>
+                        </Immunization>
+                        <EffectorCells>
+                            <CellTissueType>Blood</CellTissueType>
+                            <CellType>T cell CD3+</CellType>
+                            <CellCultureConditions>Short Term Restimulated</CellCultureConditions>
+                        </EffectorCells>
+                        <AntigenPresentingCells>
+                            <CellTissueType>Lymphoid</CellTissueType>
+                            <CellType>B cell</CellType>
+                            <CellCultureConditions>Cell Line / Clone (EBV transformed, B-LCL)</CellCultureConditions>
+                            <AutologousOrSyngeneic>N</AutologousOrSyngeneic>
+                        </AntigenPresentingCells>
+                        <MhcAllele>
+                            <MhcAlleleId>88</MhcAlleleId>
+                            <MhcEvidenceCode>Not determined</MhcEvidenceCode>
+                        </MhcAllele>
+                        <Antigen>
+                            <AntigenReferenceName>FFWDANDIYRI 513-523</AntigenReferenceName>
+                            <AntigenObject>
+                                <EpitopeRelation>Epitope</EpitopeRelation>
+                                <Object>
+                                    <FragmentOfANaturalSequenceMolecule>
+                                        <ChemicalType>Peptide from protein</ChemicalType>
+                                        <LinearSequence>FFWDANDIYRI</LinearSequence>
+                                        <StartingPosition>513</StartingPosition>
+                                        <EndingPosition>523</EndingPosition>
+                                        <SourceMolecule>
+                                            <GenBankId>CAA35357.1</GenBankId>
+                                        </SourceMolecule>
+                                        <SourceOrganismId>10359</SourceOrganismId>
+                                    </FragmentOfANaturalSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Exact match to reference information</AntigenEvidenceCode>
+                        </Antigen>
+                        <AssayInformation>
+                            <AssayTypeId>61</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <NumberOfSubjectsTested>12</NumberOfSubjectsTested>
+                            <NumberOfSubjectsResponded>2</NumberOfSubjectsResponded>
+                            <ResponseFrequency>16.7</ResponseFrequency>
+                        </AssayInformation>
+                    </TCell>
+                </Assays>
+            </Epitope>
+            <Epitope>
+                <EpitopeName>EHPTFTSQYRI 513-523</EpitopeName>
+                <EpitopeStructure>
+                    <FragmentOfANaturalSequenceMolecule>
+                        <ChemicalType>Peptide from protein</ChemicalType>
+                        <LinearSequence>EHPTFTSQYRI</LinearSequence>
+                        <StartingPosition>365</StartingPosition>
+                        <EndingPosition>375</EndingPosition>
+                        <SourceMolecule>
+                            <GenBankId>CAA35357.1</GenBankId>
+                        </SourceMolecule>
+                        <SourceOrganismId>10359</SourceOrganismId>
+                    </FragmentOfANaturalSequenceMolecule>
+                </EpitopeStructure>
+                <LocationOfData>Figure 6</LocationOfData>
+                <EpitopeId>12358</EpitopeId>
+                <ReferenceStartingPosition>513</ReferenceStartingPosition>
+                <ReferenceEndingPosition>523</ReferenceEndingPosition>
+                <EpitopeEvidenceCode>Representative selection</EpitopeEvidenceCode>
+                <EpitopeStructureDefines>Exact Epitope</EpitopeStructureDefines>
+                <Assays>
+                    <TCell>
+                        <LocationOfData>Table 1</LocationOfData>
+                        <TCellId>15920</TCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>9606</OrganismId>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Exposure with existing immune reactivity without evidence for disease</InVivoProcessType>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Source Organism</EpitopeRelation>
+                                    <Object>
+                                        <Organism>
+                                            <SubType>Organism</SubType>
+                                            <SourceOrganismId>10359</SourceOrganismId>
+                                        </Organism>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenEvidenceCode>Not determined</ImmunogenEvidenceCode>
+                            </FirstInVivoProcess>
+                            <InVitroAdministration>
+                                <ProcessType>Restimulation in vitro</ProcessType>
+                                <ResponderCellType>T cell CD3+</ResponderCellType>
+                                <StimulatorCellType>Dendritic cell</StimulatorCellType>
+                            </InVitroAdministration>
+                            <ImmunizationComments>T-cells were restimulated weekly at an effector:stimulator ratio of 20:1 .  5-10 IU/ml of IL-2 was added at day 10 and 2-3 times weekly thereafter.  CD3+ cells were originally restimulated with pooled-peptide pulsed DCs then subsequently restimulated with individual pentadecapeptides denoted 91 and 92 containing the minimal epitope sequence.  Cells were finally restimulated with EBV-BLCLs with individual MHC restrictions.</ImmunizationComments>
+                        </Immunization>
+                        <EffectorCells>
+                            <CellTissueType>Blood</CellTissueType>
+                            <CellType>T cell CD3+</CellType>
+                            <CellCultureConditions>Short Term Restimulated</CellCultureConditions>
+                        </EffectorCells>
+                        <AntigenPresentingCells>
+                            <CellTissueType>Lymphoid</CellTissueType>
+                            <CellType>B cell</CellType>
+                            <CellCultureConditions>Cell Line / Clone (EBV transformed, B-LCL)</CellCultureConditions>
+                            <AutologousOrSyngeneic>N</AutologousOrSyngeneic>
+                        </AntigenPresentingCells>
+                        <MhcAllele>
+                            <MhcAlleleId>419</MhcAlleleId>
+                            <MhcEvidenceCode>Not determined</MhcEvidenceCode>
+                        </MhcAllele>
+                        <Antigen>
+                            <AntigenReferenceName>EHPTFTSQYRI 513-523</AntigenReferenceName>
+                            <AntigenObject>
+                                <EpitopeRelation>Epitope</EpitopeRelation>
+                                <Object>
+                                    <FragmentOfANaturalSequenceMolecule>
+                                        <ChemicalType>Peptide from protein</ChemicalType>
+                                        <LinearSequence>EHPTFTSQYRI</LinearSequence>
+                                        <StartingPosition>365</StartingPosition>
+                                        <EndingPosition>375</EndingPosition>
+                                        <SourceMolecule>
+                                            <GenBankId>CAA35357.1</GenBankId>
+                                        </SourceMolecule>
+                                        <SourceOrganismId>10359</SourceOrganismId>
+                                    </FragmentOfANaturalSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Exact match to reference information</AntigenEvidenceCode>
+                        </Antigen>
+                        <AssayInformation>
+                            <AssayTypeId>61</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <NumberOfSubjectsTested>12</NumberOfSubjectsTested>
+                            <NumberOfSubjectsResponded>1</NumberOfSubjectsResponded>
+                            <ResponseFrequency>8.3</ResponseFrequency>
+                        </AssayInformation>
+                    </TCell>
+                </Assays>
+            </Epitope>
+            <Epitope>
+                <EpitopeName>QYDPVAALF 341-349</EpitopeName>
+                <EpitopeStructure>
+                    <FragmentOfANaturalSequenceMolecule>
+                        <ChemicalType>Peptide from protein</ChemicalType>
+                        <LinearSequence>QYDPVAALF</LinearSequence>
+                        <StartingPosition>341</StartingPosition>
+                        <EndingPosition>349</EndingPosition>
+                        <SourceMolecule>
+                            <GenBankId>CAA35357.1</GenBankId>
+                        </SourceMolecule>
+                        <SourceOrganismId>10359</SourceOrganismId>
+                    </FragmentOfANaturalSequenceMolecule>
+                </EpitopeStructure>
+                <LocationOfData>Figure 6</LocationOfData>
+                <EpitopeId>52886</EpitopeId>
+                <ReferenceStartingPosition>341</ReferenceStartingPosition>
+                <ReferenceEndingPosition>349</ReferenceEndingPosition>
+                <EpitopeEvidenceCode>Representative selection</EpitopeEvidenceCode>
+                <EpitopeStructureDefines>Exact Epitope</EpitopeStructureDefines>
+                <Assays>
+                    <TCell>
+                        <LocationOfData>Table 1</LocationOfData>
+                        <TCellId>15923</TCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>9606</OrganismId>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Exposure with existing immune reactivity without evidence for disease</InVivoProcessType>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Source Organism</EpitopeRelation>
+                                    <Object>
+                                        <Organism>
+                                            <SubType>Organism</SubType>
+                                            <SourceOrganismId>10359</SourceOrganismId>
+                                        </Organism>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenEvidenceCode>Not determined</ImmunogenEvidenceCode>
+                            </FirstInVivoProcess>
+                            <InVitroAdministration>
+                                <ProcessType>Restimulation in vitro</ProcessType>
+                                <ResponderCellType>T cell CD3+</ResponderCellType>
+                                <StimulatorCellType>Dendritic cell</StimulatorCellType>
+                            </InVitroAdministration>
+                            <ImmunizationComments>T-cells were restimulated weekly at an effector:stimulator ratio of 20:1 .  5-10 IU/ml of IL-2 was added at day 10 and 2-3 times weekly thereafter.  CD3+ cells were originally restimulated with pooled-peptide pulsed DCs then subsequently restimulated with individual pentadecapeptides denoted 85 and 86 containing the minimal epitope sequence.  Cells were finally restimulated with EBV-BLCLs with individual MHC restrictions.</ImmunizationComments>
+                        </Immunization>
+                        <EffectorCells>
+                            <CellTissueType>Blood</CellTissueType>
+                            <CellType>T cell CD3+</CellType>
+                            <CellCultureConditions>Short Term Restimulated</CellCultureConditions>
+                        </EffectorCells>
+                        <AntigenPresentingCells>
+                            <CellTissueType>Lymphoid</CellTissueType>
+                            <CellType>B cell</CellType>
+                            <CellCultureConditions>Cell Line / Clone (EBV transformed, B-LCL)</CellCultureConditions>
+                            <AutologousOrSyngeneic>N</AutologousOrSyngeneic>
+                        </AntigenPresentingCells>
+                        <MhcAllele>
+                            <MhcAlleleId>215</MhcAlleleId>
+                            <MhcEvidenceCode>Not determined</MhcEvidenceCode>
+                        </MhcAllele>
+                        <Antigen>
+                            <AntigenReferenceName>QYDPVAALF 341-349</AntigenReferenceName>
+                            <AntigenObject>
+                                <EpitopeRelation>Epitope</EpitopeRelation>
+                                <Object>
+                                    <FragmentOfANaturalSequenceMolecule>
+                                        <ChemicalType>Peptide from protein</ChemicalType>
+                                        <LinearSequence>QYDPVAALF</LinearSequence>
+                                        <StartingPosition>341</StartingPosition>
+                                        <EndingPosition>349</EndingPosition>
+                                        <SourceMolecule>
+                                            <GenBankId>CAA35357.1</GenBankId>
+                                        </SourceMolecule>
+                                        <SourceOrganismId>10359</SourceOrganismId>
+                                    </FragmentOfANaturalSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Exact match to reference information</AntigenEvidenceCode>
+                        </Antigen>
+                        <AssayInformation>
+                            <AssayTypeId>61</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <NumberOfSubjectsTested>12</NumberOfSubjectsTested>
+                            <NumberOfSubjectsResponded>3</NumberOfSubjectsResponded>
+                            <ResponseFrequency>25</ResponseFrequency>
+                        </AssayInformation>
+                    </TCell>
+                </Assays>
+            </Epitope>
+            <Epitope>
+                <EpitopeName>NLVPMVATV 495-503</EpitopeName>
+                <EpitopeStructure>
+                    <FragmentOfANaturalSequenceMolecule>
+                        <ChemicalType>Peptide from protein</ChemicalType>
+                        <LinearSequence>NLVPMVATV</LinearSequence>
+                        <StartingPosition>495</StartingPosition>
+                        <EndingPosition>503</EndingPosition>
+                        <SourceMolecule>
+                            <GenBankId>CAA35357.1</GenBankId>
+                        </SourceMolecule>
+                        <SourceOrganismId>10359</SourceOrganismId>
+                    </FragmentOfANaturalSequenceMolecule>
+                </EpitopeStructure>
+                <LocationOfData>Figure 6</LocationOfData>
+                <EpitopeId>44920</EpitopeId>
+                <ReferenceStartingPosition>495</ReferenceStartingPosition>
+                <ReferenceEndingPosition>503</ReferenceEndingPosition>
+                <EpitopeEvidenceCode>Representative selection</EpitopeEvidenceCode>
+                <EpitopeStructureDefines>Exact Epitope</EpitopeStructureDefines>
+                <Assays>
+                    <TCell>
+                        <LocationOfData>Table 1</LocationOfData>
+                        <TCellId>15924</TCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>9606</OrganismId>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Exposure with existing immune reactivity without evidence for disease</InVivoProcessType>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Source Organism</EpitopeRelation>
+                                    <Object>
+                                        <Organism>
+                                            <SubType>Organism</SubType>
+                                            <SourceOrganismId>10359</SourceOrganismId>
+                                        </Organism>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenEvidenceCode>Not determined</ImmunogenEvidenceCode>
+                            </FirstInVivoProcess>
+                            <InVitroAdministration>
+                                <ProcessType>Restimulation in vitro</ProcessType>
+                                <ResponderCellType>T cell CD3+</ResponderCellType>
+                                <StimulatorCellType>Dendritic cell</StimulatorCellType>
+                            </InVitroAdministration>
+                            <ImmunizationComments>T-cells were restimulated weekly at an effector:stimulator ratio of 20:1 .  5-10 IU/ml of IL-2 was added at day 10 and 2-3 times weekly thereafter.  CD3+ cells were originally restimulated with pooled-peptide pulsed DCs then subsequently restimulated with individual pentadecapeptides denoted 85 and 86 containing the minimal epitope sequence.  Cells were finally restimulated with EBV-BLCLs with individual MHC restrictions.</ImmunizationComments>
+                        </Immunization>
+                        <EffectorCells>
+                            <CellTissueType>Blood</CellTissueType>
+                            <CellType>T cell CD3+</CellType>
+                            <CellCultureConditions>Short Term Restimulated</CellCultureConditions>
+                        </EffectorCells>
+                        <AntigenPresentingCells>
+                            <CellTissueType>Lymphoid</CellTissueType>
+                            <CellType>B cell</CellType>
+                            <CellCultureConditions>Cell Line / Clone (EBV transformed, B-LCL)</CellCultureConditions>
+                            <AutologousOrSyngeneic>N</AutologousOrSyngeneic>
+                        </AntigenPresentingCells>
+                        <MhcAllele>
+                            <MhcAlleleId>215</MhcAlleleId>
+                            <MhcEvidenceCode>Not determined</MhcEvidenceCode>
+                        </MhcAllele>
+                        <Antigen>
+                            <AntigenReferenceName>NLVPMVATV 495-503</AntigenReferenceName>
+                            <AntigenObject>
+                                <EpitopeRelation>Epitope</EpitopeRelation>
+                                <Object>
+                                    <FragmentOfANaturalSequenceMolecule>
+                                        <ChemicalType>Peptide from protein</ChemicalType>
+                                        <LinearSequence>NLVPMVATV</LinearSequence>
+                                        <StartingPosition>495</StartingPosition>
+                                        <EndingPosition>503</EndingPosition>
+                                        <SourceMolecule>
+                                            <GenBankId>CAA35357.1</GenBankId>
+                                        </SourceMolecule>
+                                        <SourceOrganismId>10359</SourceOrganismId>
+                                    </FragmentOfANaturalSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Exact match to reference information</AntigenEvidenceCode>
+                        </Antigen>
+                        <AssayInformation>
+                            <AssayTypeId>61</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <NumberOfSubjectsTested>12</NumberOfSubjectsTested>
+                            <NumberOfSubjectsResponded>6</NumberOfSubjectsResponded>
+                            <ResponseFrequency>50</ResponseFrequency>
+                        </AssayInformation>
+                    </TCell>
+                </Assays>
+            </Epitope>
+        </Epitopes>
+    </Reference>
+</References>
+

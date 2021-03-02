@@ -1,0 +1,713 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<References xsi:schemaLocation="http://www.iedb.org/schema/CurationSchema http://beta.iedb.org/schema/Curation.xsd" xmlns="http://www.iedb.org/schema/CurationSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <Reference>
+        <ReferenceId>1064</ReferenceId>
+        <DateLastUpdated>2020-09-10-07:00</DateLastUpdated>
+        <Article>
+            <PubmedId>14580887</PubmedId>
+            <Abstract>The study of antigen processing and presentation by human antigen presenting cells (APC) has been limited by difficulties of producing and maintaining human T-cell clones. Murine T-cell hybridomas have advantages for detecting specific peptide-MHC complexes on APC. Human antigen-specific immortalized T-cell lines have not been successfully produced. We report and validate the use of transgenic mice with human MHC genes for HLA-A2, DR1 and DR4 to produce murine T-cell hybridomas that are restricted to human HLA alleles and respond to human macrophages, dendritic cells (DC), and B-cell lines. Hybridomas restricted by human MHC-I and -II specific for influenza matrix protein, tetanus toxoid, diphtheria antigen CRM(197), and various M. tuberculosis antigens were produced. Epitope specificity was determined for several hybridomas. T hybridomas recognized peptide-MHC complexes on fixed APC for analysis of kinetics or susceptibility to inhibitors of antigen processing. T hybridomas restricted by human MHC represent convenient and powerful tools for the study of antigen processing by human APC.</Abstract>
+            <ArticleYear>2003</ArticleYear>
+            <ArticlePages>129-42</ArticlePages>
+            <ArticleTitle>T-cell hybridomas from HLA-transgenic mice as tools for analysis of human antigen processing.</ArticleTitle>
+            <Authors>
+                <Author>
+                    <LastName>Canaday</LastName>
+                    <ForeName>David H</ForeName>
+                </Author>
+                <Author>
+                    <LastName>Gehring</LastName>
+                    <ForeName>Adam</ForeName>
+                </Author>
+                <Author>
+                    <LastName>Leonard</LastName>
+                    <ForeName>Ethan G</ForeName>
+                </Author>
+                <Author>
+                    <LastName>Eilertson</LastName>
+                    <ForeName>Brandon</ForeName>
+                </Author>
+                <Author>
+                    <LastName>Schreiber</LastName>
+                    <ForeName>John R</ForeName>
+                </Author>
+                <Author>
+                    <LastName>Harding</LastName>
+                    <ForeName>Clifford V</ForeName>
+                </Author>
+                <Author>
+                    <LastName>Boom</LastName>
+                    <ForeName>W Henry</ForeName>
+                </Author>
+            </Authors>
+            <Affiliations>Division of Infectious Disease, Case Western Reserve University and University Hospitals, Cleveland, OH 44106-4984, USA. dxc44@cwru.edu.</Affiliations>
+            <ArticleChemicalList>HLA-A2 Antigen;Interferon-gamma</ArticleChemicalList>
+            <ArticleMeshHeadingsList>Amino Acid Sequence; Animals; Antigen Presentation; Antigen-Presenting Cells(physiology); Cell Line; Epitope Mapping; HLA-A2 Antigen(physiology); Humans; Hybridomas(immunology); Interferon-gamma(pharmacology); Mice; Mice, Transgenic; Molecular Sequence Data; T-Lymphocytes(immunology)</ArticleMeshHeadingsList>
+            <Journal>
+                <Volume>281</Volume>
+                <Issue>1-2</Issue>
+                <Title>Journal of immunological methods</Title>
+                <Issn>1872-7905</Issn>
+                <MedlineTa>J Immunol Methods</MedlineTa>
+            </Journal>
+        </Article>
+        <Epitopes>
+            <Epitope>
+                <EpitopeName>85B  97-112</EpitopeName>
+                <EpitopeStructure>
+                    <FragmentOfANaturalSequenceMolecule>
+                        <ChemicalType>Peptide from protein</ChemicalType>
+                        <LinearSequence>PAFEWYYQSGLSIVMP</LinearSequence>
+                        <StartingPosition>96</StartingPosition>
+                        <EndingPosition>111</EndingPosition>
+                        <SourceMolecule>
+                            <GenBankId>P31952</GenBankId>
+                        </SourceMolecule>
+                        <SourceOrganismId>1773</SourceOrganismId>
+                    </FragmentOfANaturalSequenceMolecule>
+                </EpitopeStructure>
+                <LocationOfData>Table 1</LocationOfData>
+                <EpitopeId>46789</EpitopeId>
+                <ReferenceStartingPosition>97</ReferenceStartingPosition>
+                <ReferenceEndingPosition>112</ReferenceEndingPosition>
+                <EpitopeEvidenceCode>Not determined</EpitopeEvidenceCode>
+                <EpitopeStructureDefines>Epitope containing region/antigenic site</EpitopeStructureDefines>
+                <Assays>
+                    <TCell>
+                        <LocationOfData>Figure 5</LocationOfData>
+                        <TCellId>15673</TCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>10000601</OrganismId>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Administration in vivo</InVivoProcessType>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Source Antigen</EpitopeRelation>
+                                    <Object>
+                                        <AccessionSequenceMolecule>
+                                            <ChemicalType>Protein</ChemicalType>
+                                            <Molecule>
+                                                <GenBankId>P31952</GenBankId>
+                                            </Molecule>
+                                            <SourceOrganismId>1773</SourceOrganismId>
+                                        </AccessionSequenceMolecule>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenReferenceName>Antigen 85-B precursor (85B) (Extracellular alpha-antigen) (Antigen 85 complex B) (Ag85B) (Mycolyl transferase 85B)</ImmunogenReferenceName>
+                                <ImmunogenEvidenceCode>Not determined</ImmunogenEvidenceCode>
+                                <Adjuvant>Freund's complete</Adjuvant>
+                                <Route>Subcutaneous (s.c.)</Route>
+                                <DoseSchedule>1 dose in the footpad or base of the tail with 10Ã¢Â¿Â¿25 μg of protein</DoseSchedule>
+                            </FirstInVivoProcess>
+                            <InVitroAdministration>
+                                <ProcessType>Restimulation in vitro</ProcessType>
+                                <ResponderCellType>Lymph node cells</ResponderCellType>
+                                <StimulatorCellType>Lymph node cells</StimulatorCellType>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Source Antigen</EpitopeRelation>
+                                    <Object>
+                                        <AccessionSequenceMolecule>
+                                            <ChemicalType>Protein</ChemicalType>
+                                            <Molecule>
+                                                <GenBankId>P31952</GenBankId>
+                                            </Molecule>
+                                            <SourceOrganismId>1773</SourceOrganismId>
+                                        </AccessionSequenceMolecule>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenEvidenceCode>Not determined</ImmunogenEvidenceCode>
+                            </InVitroAdministration>
+                            <ImmunizationComments>Lymph node cells were stimulated with Antigen 85-B. Cells were harvested on Day 6 for fusion with either BW1100 or BW5147 partners.</ImmunizationComments>
+                        </Immunization>
+                        <EffectorCells>
+                            <CellTissueType>Lymphoid</CellTissueType>
+                            <CellType>T cell</CellType>
+                            <CellCultureConditions>Cell Line / Clone (Hybridoma)</CellCultureConditions>
+                        </EffectorCells>
+                        <AssayedTcrMolecule>
+                            <AssayedTcrMoleculeName>F9A, C3B, C9B, D2B, D3B, H2A</AssayedTcrMoleculeName>
+                        </AssayedTcrMolecule>
+                        <AntigenPresentingCells>
+                            <CellTissueType>Lymphoid</CellTissueType>
+                            <CellType>Lymphocyte</CellType>
+                            <CellCultureConditions>Cell Line / Clone</CellCultureConditions>
+                            <SourceOrganismId>9606</SourceOrganismId>
+                        </AntigenPresentingCells>
+                        <MhcAllele>
+                            <MhcAlleleId>327</MhcAlleleId>
+                            <MhcEvidenceCode>Not determined</MhcEvidenceCode>
+                        </MhcAllele>
+                        <Antigen>
+                            <AntigenReferenceName>85B  97-112</AntigenReferenceName>
+                            <AntigenObject>
+                                <EpitopeRelation>Epitope</EpitopeRelation>
+                                <Object>
+                                    <FragmentOfANaturalSequenceMolecule>
+                                        <ChemicalType>Peptide from protein</ChemicalType>
+                                        <LinearSequence>PAFEWYYQSGLSIVMP</LinearSequence>
+                                        <StartingPosition>96</StartingPosition>
+                                        <EndingPosition>111</EndingPosition>
+                                        <SourceMolecule>
+                                            <GenBankId>P31952</GenBankId>
+                                        </SourceMolecule>
+                                        <SourceOrganismId>1773</SourceOrganismId>
+                                    </FragmentOfANaturalSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Exact match to reference information</AntigenEvidenceCode>
+                        </Antigen>
+                        <AssayInformation>
+                            <AssayTypeId>62</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <AssayComments>A CTLL-2 bioassay was performed to map the epitopes from antigen 85B recognized by 7 anti-Ag85B hybridomas. Six of them recognize this peptide preferentially.</AssayComments>
+                        </AssayInformation>
+                    </TCell>
+                </Assays>
+            </Epitope>
+            <Epitope>
+                <EpitopeName>CRM 249-267</EpitopeName>
+                <EpitopeStructure>
+                    <FragmentOfANaturalSequenceMolecule>
+                        <ChemicalType>Peptide from protein</ChemicalType>
+                        <LinearSequence>DVNKSKTHISVNGRKI</LinearSequence>
+                        <StartingPosition>467</StartingPosition>
+                        <EndingPosition>482</EndingPosition>
+                        <SourceMolecule>
+                            <GenBankId>CAE11230.1</GenBankId>
+                        </SourceMolecule>
+                        <SourceOrganismId>1717</SourceOrganismId>
+                    </FragmentOfANaturalSequenceMolecule>
+                </EpitopeStructure>
+                <LocationOfData>Table 1</LocationOfData>
+                <EpitopeId>10684</EpitopeId>
+                <ReferenceStartingPosition>249</ReferenceStartingPosition>
+                <ReferenceEndingPosition>264</ReferenceEndingPosition>
+                <EpitopeEvidenceCode>Representative selection</EpitopeEvidenceCode>
+                <EpitopeStructureDefines>Epitope containing region/antigenic site</EpitopeStructureDefines>
+                <EpitopeComments>Precursor contains: Diphtheria toxin fragment A; Diphtheria toxin fragment B.  Sequence numbering given by authors is for the mature Diphtheria Toxin Fragment B which constitutes residues 219-560 in the precursor.  The diphtheria toxin is produced by Corynephage omega taxon id 10714.</EpitopeComments>
+                <Assays>
+                    <TCell>
+                        <LocationOfData>Figure 5</LocationOfData>
+                        <TCellId>15682</TCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>10000601</OrganismId>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Administration in vivo</InVivoProcessType>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Source Antigen</EpitopeRelation>
+                                    <Object>
+                                        <AccessionSequenceMolecule>
+                                            <ChemicalType>Protein</ChemicalType>
+                                            <Molecule>
+                                                <GenBankId>CAE11230.1</GenBankId>
+                                            </Molecule>
+                                            <SourceOrganismId>1717</SourceOrganismId>
+                                        </AccessionSequenceMolecule>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenReferenceName>Diphtheria toxin precursor (DT) (NAD(+)--diphthamide ADP-ribosyltransferase)</ImmunogenReferenceName>
+                                <ImmunogenEvidenceCode>Not determined</ImmunogenEvidenceCode>
+                                <Adjuvant>Freund's complete</Adjuvant>
+                                <Route>Subcutaneous (s.c.)</Route>
+                                <DoseSchedule>1 dose in the footpad or base of the tail with 10-25 μg of protein</DoseSchedule>
+                            </FirstInVivoProcess>
+                            <InVitroAdministration>
+                                <ProcessType>Restimulation in vitro</ProcessType>
+                                <ResponderCellType>Lymph node cells</ResponderCellType>
+                                <StimulatorCellType>Lymph node cells</StimulatorCellType>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Source Antigen</EpitopeRelation>
+                                    <Object>
+                                        <AccessionSequenceMolecule>
+                                            <ChemicalType>Protein</ChemicalType>
+                                            <Molecule>
+                                                <GenBankId>CAE11230.1</GenBankId>
+                                            </Molecule>
+                                            <SourceOrganismId>1717</SourceOrganismId>
+                                        </AccessionSequenceMolecule>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenEvidenceCode>Not determined</ImmunogenEvidenceCode>
+                            </InVitroAdministration>
+                            <ImmunizationComments>Lymph node cells were stimulated with CRM197. Cells were harvested on Day 6 for fusion with either BW1100 or BW5147 partners.</ImmunizationComments>
+                        </Immunization>
+                        <EffectorCells>
+                            <CellTissueType>Lymphoid</CellTissueType>
+                            <CellType>T cell</CellType>
+                            <CellCultureConditions>Cell Line / Clone (Hybridoma)</CellCultureConditions>
+                        </EffectorCells>
+                        <AntigenPresentingCells>
+                            <CellTissueType>Lymphoid</CellTissueType>
+                            <CellType>Lymphocyte</CellType>
+                            <CellCultureConditions>Cell Line / Clone</CellCultureConditions>
+                            <SourceOrganismId>9606</SourceOrganismId>
+                        </AntigenPresentingCells>
+                        <MhcAllele>
+                            <MhcAlleleId>327</MhcAlleleId>
+                            <MhcEvidenceCode>Not determined</MhcEvidenceCode>
+                        </MhcAllele>
+                        <Antigen>
+                            <AntigenReferenceName>CRM 249-267</AntigenReferenceName>
+                            <AntigenObject>
+                                <EpitopeRelation>Epitope</EpitopeRelation>
+                                <Object>
+                                    <FragmentOfANaturalSequenceMolecule>
+                                        <ChemicalType>Peptide from protein</ChemicalType>
+                                        <LinearSequence>DVNKSKTHISVNGRKI</LinearSequence>
+                                        <StartingPosition>467</StartingPosition>
+                                        <EndingPosition>482</EndingPosition>
+                                        <SourceMolecule>
+                                            <GenBankId>CAE11230.1</GenBankId>
+                                        </SourceMolecule>
+                                        <SourceOrganismId>1717</SourceOrganismId>
+                                    </FragmentOfANaturalSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Exact match to reference information</AntigenEvidenceCode>
+                        </Antigen>
+                        <AssayInformation>
+                            <AssayTypeId>62</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <AssayComments>A CTLL-2 bioassay was performed to map the epitope recognized by 2 anti-CRM 197 hybridomas. Both of them recognize this peptide and overlapping peptide 245-260 preferentially.</AssayComments>
+                        </AssayInformation>
+                    </TCell>
+                </Assays>
+            </Epitope>
+            <Epitope>
+                <EpitopeName>M2 58-66</EpitopeName>
+                <EpitopeStructure>
+                    <FragmentOfANaturalSequenceMolecule>
+                        <ChemicalType>Peptide from protein</ChemicalType>
+                        <LinearSequence>GLKGGPSTE</LinearSequence>
+                        <StartingPosition>58</StartingPosition>
+                        <EndingPosition>66</EndingPosition>
+                        <SourceMolecule>
+                            <GenBankId>P06821.1</GenBankId>
+                        </SourceMolecule>
+                        <SourceOrganismId>211044</SourceOrganismId>
+                    </FragmentOfANaturalSequenceMolecule>
+                </EpitopeStructure>
+                <LocationOfData>Table 1</LocationOfData>
+                <EpitopeId>20953</EpitopeId>
+                <ReferenceStartingPosition>58</ReferenceStartingPosition>
+                <ReferenceEndingPosition>66</ReferenceEndingPosition>
+                <EpitopeEvidenceCode>Not determined</EpitopeEvidenceCode>
+                <EpitopeStructureDefines>Exact Epitope</EpitopeStructureDefines>
+                <Assays>
+                    <TCell>
+                        <LocationOfData>Table 1</LocationOfData>
+                        <TCellId>15383</TCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>10000592</OrganismId>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Administration in vivo</InVivoProcessType>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Epitope</EpitopeRelation>
+                                    <Object>
+                                        <FragmentOfANaturalSequenceMolecule>
+                                            <ChemicalType>Peptide from protein</ChemicalType>
+                                            <LinearSequence>GLKGGPSTE</LinearSequence>
+                                            <StartingPosition>58</StartingPosition>
+                                            <EndingPosition>66</EndingPosition>
+                                            <SourceMolecule>
+                                                <GenBankId>P06821.1</GenBankId>
+                                            </SourceMolecule>
+                                            <SourceOrganismId>211044</SourceOrganismId>
+                                        </FragmentOfANaturalSequenceMolecule>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenReferenceName>M2 58-66</ImmunogenReferenceName>
+                                <ImmunogenEvidenceCode>Exact match to reference information</ImmunogenEvidenceCode>
+                                <Adjuvant>Freund's incomplete (IFA)</Adjuvant>
+                                <Route>Subcutaneous (s.c.)</Route>
+                                <DoseSchedule>Single inoculation (10-25 μg) into base of tail or the hindfoot pad</DoseSchedule>
+                            </FirstInVivoProcess>
+                            <InVitroAdministration>
+                                <ProcessType>Restimulation in vitro</ProcessType>
+                                <ResponderCellType>Lymph node cells</ResponderCellType>
+                                <StimulatorCellType>Splenocyte</StimulatorCellType>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Epitope</EpitopeRelation>
+                                    <Object>
+                                        <FragmentOfANaturalSequenceMolecule>
+                                            <ChemicalType>Peptide from protein</ChemicalType>
+                                            <LinearSequence>GLKGGPSTE</LinearSequence>
+                                            <StartingPosition>58</StartingPosition>
+                                            <EndingPosition>66</EndingPosition>
+                                            <SourceMolecule>
+                                                <GenBankId>P06821.1</GenBankId>
+                                            </SourceMolecule>
+                                            <SourceOrganismId>211044</SourceOrganismId>
+                                        </FragmentOfANaturalSequenceMolecule>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenEvidenceCode>Exact match to reference information</ImmunogenEvidenceCode>
+                            </InVitroAdministration>
+                            <ImmunizationComments>Lymph nodes from immunized HLA I-A*0201 transgenic mice were harvested on day 7 post immunization.  Draining lymph nodes were harvested and cultured with peptide 9 days.  Irradiated syngeneic splenocytes and peptide were added for a second round of stimulation of 7 days. Depletion of CD4+ cells with anti-CD4-labeled magnetic beads was performed prior.</ImmunizationComments>
+                        </Immunization>
+                        <EffectorCells>
+                            <CellTissueType>Lymphoid</CellTissueType>
+                            <CellType>T cell</CellType>
+                            <CellCultureConditions>Cell Line / Clone (Hybridoma)</CellCultureConditions>
+                        </EffectorCells>
+                        <AssayedTcrMolecule>
+                            <AssayedTcrMoleculeName>4VA1</AssayedTcrMoleculeName>
+                        </AssayedTcrMolecule>
+                        <AntigenPresentingCells>
+                            <CellTissueType>Blood</CellTissueType>
+                            <CellType>Mononuclear cell</CellType>
+                            <CellCultureConditions>Direct Ex Vivo</CellCultureConditions>
+                            <SourceOrganismId>9606</SourceOrganismId>
+                        </AntigenPresentingCells>
+                        <MhcAllele>
+                            <MhcAlleleId>235</MhcAlleleId>
+                            <MhcEvidenceCode>Not determined</MhcEvidenceCode>
+                        </MhcAllele>
+                        <Antigen>
+                            <AntigenReferenceName>Influenza A virus (A/Puerto Rico/8/34(H1N1))</AntigenReferenceName>
+                            <AntigenObject>
+                                <EpitopeRelation>Source Organism</EpitopeRelation>
+                                <Object>
+                                    <Organism>
+                                        <SubType>Organism</SubType>
+                                        <SourceOrganismId>211044</SourceOrganismId>
+                                    </Organism>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Not determined</AntigenEvidenceCode>
+                        </Antigen>
+                        <AssayInformation>
+                            <AssayTypeId>62</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <AssayComments>The hybridoma lines 4VA1 and 2VA5  were tested using several different antigen presenting cell types. Both were  was responsive to human monocytes and EBV-lymphoblastic cell lines, while only 4VA1 was responsive to dendritic cells and THP1 cells.</AssayComments>
+                        </AssayInformation>
+                    </TCell>
+                </Assays>
+                <Assays>
+                    <TCell>
+                        <LocationOfData>Figure 1</LocationOfData>
+                        <TCellId>1274446</TCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>10000592</OrganismId>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Administration in vivo</InVivoProcessType>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Epitope</EpitopeRelation>
+                                    <Object>
+                                        <FragmentOfANaturalSequenceMolecule>
+                                            <ChemicalType>Peptide from protein</ChemicalType>
+                                            <LinearSequence>GLKGGPSTE</LinearSequence>
+                                            <StartingPosition>58</StartingPosition>
+                                            <EndingPosition>66</EndingPosition>
+                                            <SourceMolecule>
+                                                <GenBankId>P06821.1</GenBankId>
+                                            </SourceMolecule>
+                                            <SourceOrganismId>211044</SourceOrganismId>
+                                        </FragmentOfANaturalSequenceMolecule>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenReferenceName>M2 58-66</ImmunogenReferenceName>
+                                <ImmunogenEvidenceCode>Exact match to reference information</ImmunogenEvidenceCode>
+                                <Adjuvant>Freund's incomplete (IFA)</Adjuvant>
+                                <Route>Subcutaneous (s.c.)</Route>
+                                <DoseSchedule>Single inoculation (10-25 μg) into base of tail or the hindfoot pad</DoseSchedule>
+                            </FirstInVivoProcess>
+                            <InVitroAdministration>
+                                <ProcessType>Restimulation in vitro</ProcessType>
+                                <ResponderCellType>Lymph node cells</ResponderCellType>
+                                <StimulatorCellType>Splenocyte</StimulatorCellType>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Epitope</EpitopeRelation>
+                                    <Object>
+                                        <FragmentOfANaturalSequenceMolecule>
+                                            <ChemicalType>Peptide from protein</ChemicalType>
+                                            <LinearSequence>GLKGGPSTE</LinearSequence>
+                                            <StartingPosition>58</StartingPosition>
+                                            <EndingPosition>66</EndingPosition>
+                                            <SourceMolecule>
+                                                <GenBankId>P06821.1</GenBankId>
+                                            </SourceMolecule>
+                                            <SourceOrganismId>211044</SourceOrganismId>
+                                        </FragmentOfANaturalSequenceMolecule>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenEvidenceCode>Exact match to reference information</ImmunogenEvidenceCode>
+                            </InVitroAdministration>
+                            <ImmunizationComments>Lymph nodes from immunized HLA I-A*0201 transgenic mice were harvested on day 7 post immunization.  Draining lymph nodes were harvested and cultured with peptide 9 days.  Irradiated syngeneic splenocytes and peptide were added for a second round of stimulation of 7 days.</ImmunizationComments>
+                        </Immunization>
+                        <EffectorCells>
+                            <CellTissueType>Lymphoid</CellTissueType>
+                            <CellType>T cell CD8+</CellType>
+                            <CellCultureConditions>Short Term Restimulated</CellCultureConditions>
+                        </EffectorCells>
+                        <AntigenPresentingCells>
+                            <CellTissueType>Spleen</CellTissueType>
+                            <CellType>Splenocyte</CellType>
+                            <CellCultureConditions>Direct Ex Vivo</CellCultureConditions>
+                        </AntigenPresentingCells>
+                        <MhcAllele>
+                            <MhcAlleleId>235</MhcAlleleId>
+                            <MhcEvidenceCode>Not determined</MhcEvidenceCode>
+                        </MhcAllele>
+                        <Antigen>
+                            <AntigenReferenceName>M2 58-66</AntigenReferenceName>
+                            <AntigenObject>
+                                <EpitopeRelation>Epitope</EpitopeRelation>
+                                <Object>
+                                    <FragmentOfANaturalSequenceMolecule>
+                                        <ChemicalType>Peptide from protein</ChemicalType>
+                                        <LinearSequence>GLKGGPSTE</LinearSequence>
+                                        <StartingPosition>58</StartingPosition>
+                                        <EndingPosition>66</EndingPosition>
+                                        <SourceMolecule>
+                                            <GenBankId>P06821.1</GenBankId>
+                                        </SourceMolecule>
+                                        <SourceOrganismId>211044</SourceOrganismId>
+                                    </FragmentOfANaturalSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Exact match to reference information</AntigenEvidenceCode>
+                        </Antigen>
+                        <AssayInformation>
+                            <AssayTypeId>53</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <QuantitativeMeasurement>2.7</QuantitativeMeasurement>
+                            <AssayComments>IFN-%gamma; response to peptide of the restimulated cells was tested previously to hybridoma production.</AssayComments>
+                        </AssayInformation>
+                    </TCell>
+                </Assays>
+            </Epitope>
+            <Epitope>
+                <EpitopeName>85B  281-296</EpitopeName>
+                <EpitopeStructure>
+                    <FragmentOfANaturalSequenceMolecule>
+                        <ChemicalType>Peptide from protein</ChemicalType>
+                        <LinearSequence>QDAYNAAGGHNAVFNF</LinearSequence>
+                        <StartingPosition>281</StartingPosition>
+                        <EndingPosition>296</EndingPosition>
+                        <SourceMolecule>
+                            <GenBankId>P31952</GenBankId>
+                        </SourceMolecule>
+                        <SourceOrganismId>1773</SourceOrganismId>
+                    </FragmentOfANaturalSequenceMolecule>
+                </EpitopeStructure>
+                <LocationOfData>Table 1</LocationOfData>
+                <EpitopeId>50441</EpitopeId>
+                <ReferenceStartingPosition>281</ReferenceStartingPosition>
+                <ReferenceEndingPosition>296</ReferenceEndingPosition>
+                <EpitopeEvidenceCode>Not determined</EpitopeEvidenceCode>
+                <EpitopeStructureDefines>Epitope containing region/antigenic site</EpitopeStructureDefines>
+                <Assays>
+                    <TCell>
+                        <LocationOfData>Figure 5</LocationOfData>
+                        <TCellId>1274889</TCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>10000601</OrganismId>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Administration in vivo</InVivoProcessType>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Source Antigen</EpitopeRelation>
+                                    <Object>
+                                        <AccessionSequenceMolecule>
+                                            <ChemicalType>Protein</ChemicalType>
+                                            <Molecule>
+                                                <GenBankId>P31952</GenBankId>
+                                            </Molecule>
+                                            <SourceOrganismId>1773</SourceOrganismId>
+                                        </AccessionSequenceMolecule>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenReferenceName>Antigen 85-B precursor (85B) (Extracellular alpha-antigen) (Antigen 85 complex B) (Ag85B) (Mycolyl transferase 85B)</ImmunogenReferenceName>
+                                <ImmunogenEvidenceCode>Not determined</ImmunogenEvidenceCode>
+                                <Adjuvant>Freund's complete</Adjuvant>
+                                <Route>Subcutaneous (s.c.)</Route>
+                                <DoseSchedule>1 dose in the footpad or base of the tail with 10â¿¿25 μg of protein</DoseSchedule>
+                            </FirstInVivoProcess>
+                            <InVitroAdministration>
+                                <ProcessType>Restimulation in vitro</ProcessType>
+                                <ResponderCellType>Lymph node cells</ResponderCellType>
+                                <StimulatorCellType>Lymph node cells</StimulatorCellType>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Source Antigen</EpitopeRelation>
+                                    <Object>
+                                        <AccessionSequenceMolecule>
+                                            <ChemicalType>Protein</ChemicalType>
+                                            <Molecule>
+                                                <GenBankId>P31952</GenBankId>
+                                            </Molecule>
+                                            <SourceOrganismId>1773</SourceOrganismId>
+                                        </AccessionSequenceMolecule>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenEvidenceCode>Not determined</ImmunogenEvidenceCode>
+                            </InVitroAdministration>
+                            <ImmunizationComments>Lymph node cells were stimulated with Antigen 85-B. Cells were harvested on Day 6 for fusion with either BW1100 or BW5147 partners.</ImmunizationComments>
+                        </Immunization>
+                        <EffectorCells>
+                            <CellTissueType>Lymphoid</CellTissueType>
+                            <CellType>T cell</CellType>
+                            <CellCultureConditions>Cell Line / Clone (Hybridoma)</CellCultureConditions>
+                        </EffectorCells>
+                        <AssayedTcrMolecule>
+                            <AssayedTcrMoleculeName>E9A</AssayedTcrMoleculeName>
+                        </AssayedTcrMolecule>
+                        <AntigenPresentingCells>
+                            <CellTissueType>Lymphoid</CellTissueType>
+                            <CellType>Lymphocyte</CellType>
+                            <CellCultureConditions>Cell Line / Clone</CellCultureConditions>
+                            <SourceOrganismId>9606</SourceOrganismId>
+                        </AntigenPresentingCells>
+                        <MhcAllele>
+                            <MhcAlleleId>327</MhcAlleleId>
+                            <MhcEvidenceCode>Not determined</MhcEvidenceCode>
+                        </MhcAllele>
+                        <Antigen>
+                            <AntigenReferenceName>85B  281-296</AntigenReferenceName>
+                            <AntigenObject>
+                                <EpitopeRelation>Epitope</EpitopeRelation>
+                                <Object>
+                                    <FragmentOfANaturalSequenceMolecule>
+                                        <ChemicalType>Peptide from protein</ChemicalType>
+                                        <LinearSequence>QDAYNAAGGHNAVFNF</LinearSequence>
+                                        <StartingPosition>281</StartingPosition>
+                                        <EndingPosition>296</EndingPosition>
+                                        <SourceMolecule>
+                                            <GenBankId>P31952</GenBankId>
+                                        </SourceMolecule>
+                                        <SourceOrganismId>1773</SourceOrganismId>
+                                    </FragmentOfANaturalSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Exact match to reference information</AntigenEvidenceCode>
+                        </Antigen>
+                        <AssayInformation>
+                            <AssayTypeId>62</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <AssayComments>A CTLL-2 bioassay was performed to map the epitopes from antigen 85B recognized by 7 anti-Ag85B hybridomas. One of them recognize this peptide preferentially.</AssayComments>
+                        </AssayInformation>
+                    </TCell>
+                </Assays>
+            </Epitope>
+            <Epitope>
+                <EpitopeName>CRM 245-260</EpitopeName>
+                <EpitopeStructure>
+                    <FragmentOfANaturalSequenceMolecule>
+                        <ChemicalType>Peptide from protein</ChemicalType>
+                        <LinearSequence>PGKLDVNKSKTHISVN</LinearSequence>
+                        <StartingPosition>463</StartingPosition>
+                        <EndingPosition>478</EndingPosition>
+                        <SourceMolecule>
+                            <GenBankId>CAE11230.1</GenBankId>
+                        </SourceMolecule>
+                        <SourceOrganismId>1717</SourceOrganismId>
+                    </FragmentOfANaturalSequenceMolecule>
+                </EpitopeStructure>
+                <LocationOfData>Table 1</LocationOfData>
+                <EpitopeId>47691</EpitopeId>
+                <ReferenceStartingPosition>245</ReferenceStartingPosition>
+                <ReferenceEndingPosition>260</ReferenceEndingPosition>
+                <EpitopeEvidenceCode>Representative selection</EpitopeEvidenceCode>
+                <EpitopeStructureDefines>Epitope containing region/antigenic site</EpitopeStructureDefines>
+                <EpitopeComments>Precursor contains: Diphtheria toxin fragment A; Diphtheria toxin fragment B.  Sequence numbering given by authors is for the mature Diphtheria Toxin Fragment B which constitutes residues 219-560 in the precursor.  The diphtheria toxin is produced by Corynephage omega taxon id 10714.</EpitopeComments>
+                <Assays>
+                    <TCell>
+                        <LocationOfData>Figure 5</LocationOfData>
+                        <TCellId>1275099</TCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>10000601</OrganismId>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Administration in vivo</InVivoProcessType>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Source Antigen</EpitopeRelation>
+                                    <Object>
+                                        <AccessionSequenceMolecule>
+                                            <ChemicalType>Protein</ChemicalType>
+                                            <Molecule>
+                                                <GenBankId>CAE11230.1</GenBankId>
+                                            </Molecule>
+                                            <SourceOrganismId>1717</SourceOrganismId>
+                                        </AccessionSequenceMolecule>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenReferenceName>Diphtheria toxin precursor (DT) (NAD(+)--diphthamide ADP-ribosyltransferase)</ImmunogenReferenceName>
+                                <ImmunogenEvidenceCode>Not determined</ImmunogenEvidenceCode>
+                                <Adjuvant>Freund's complete</Adjuvant>
+                                <Route>Subcutaneous (s.c.)</Route>
+                                <DoseSchedule>1 dose in the footpad or base of the tail with 10-25 μg of protein</DoseSchedule>
+                            </FirstInVivoProcess>
+                            <InVitroAdministration>
+                                <ProcessType>Restimulation in vitro</ProcessType>
+                                <ResponderCellType>Lymph node cells</ResponderCellType>
+                                <StimulatorCellType>Lymph node cells</StimulatorCellType>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Source Antigen</EpitopeRelation>
+                                    <Object>
+                                        <AccessionSequenceMolecule>
+                                            <ChemicalType>Protein</ChemicalType>
+                                            <Molecule>
+                                                <GenBankId>CAE11230.1</GenBankId>
+                                            </Molecule>
+                                            <SourceOrganismId>1717</SourceOrganismId>
+                                        </AccessionSequenceMolecule>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenEvidenceCode>Not determined</ImmunogenEvidenceCode>
+                            </InVitroAdministration>
+                            <ImmunizationComments>Lymph node cells were stimulated with CRM197. Cells were harvested on Day 6 for fusion with either BW1100 or BW5147 partners.</ImmunizationComments>
+                        </Immunization>
+                        <EffectorCells>
+                            <CellTissueType>Lymphoid</CellTissueType>
+                            <CellType>T cell</CellType>
+                            <CellCultureConditions>Cell Line / Clone (Hybridoma)</CellCultureConditions>
+                        </EffectorCells>
+                        <AntigenPresentingCells>
+                            <CellTissueType>Lymphoid</CellTissueType>
+                            <CellType>Lymphocyte</CellType>
+                            <CellCultureConditions>Cell Line / Clone</CellCultureConditions>
+                            <SourceOrganismId>9606</SourceOrganismId>
+                        </AntigenPresentingCells>
+                        <MhcAllele>
+                            <MhcAlleleId>327</MhcAlleleId>
+                            <MhcEvidenceCode>Not determined</MhcEvidenceCode>
+                        </MhcAllele>
+                        <Antigen>
+                            <AntigenReferenceName>CRM 245-260</AntigenReferenceName>
+                            <AntigenObject>
+                                <EpitopeRelation>Epitope</EpitopeRelation>
+                                <Object>
+                                    <FragmentOfANaturalSequenceMolecule>
+                                        <ChemicalType>Peptide from protein</ChemicalType>
+                                        <LinearSequence>PGKLDVNKSKTHISVN</LinearSequence>
+                                        <StartingPosition>463</StartingPosition>
+                                        <EndingPosition>478</EndingPosition>
+                                        <SourceMolecule>
+                                            <GenBankId>CAE11230.1</GenBankId>
+                                        </SourceMolecule>
+                                        <SourceOrganismId>1717</SourceOrganismId>
+                                    </FragmentOfANaturalSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Exact match to reference information</AntigenEvidenceCode>
+                        </Antigen>
+                        <AssayInformation>
+                            <AssayTypeId>62</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <AssayComments>A CTLL-2 bioassay was performed to map the epitope recognized by 2 anti-CRM 197 hybridomas. Both of them recognize this peptide and overlapping peptide 249-264 preferentially.</AssayComments>
+                        </AssayInformation>
+                    </TCell>
+                </Assays>
+            </Epitope>
+        </Epitopes>
+    </Reference>
+</References>
+

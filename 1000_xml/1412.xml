@@ -1,0 +1,738 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<References xsi:schemaLocation="http://www.iedb.org/schema/CurationSchema http://beta.iedb.org/schema/Curation.xsd" xmlns="http://www.iedb.org/schema/CurationSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <Reference>
+        <ReferenceId>1412</ReferenceId>
+        <DateLastUpdated>2020-09-10-07:00</DateLastUpdated>
+        <Article>
+            <PubmedId>10026170</PubmedId>
+            <Abstract>Recent investigations have suggested that pseudopeptides containing modified peptide bonds might advantageously replace natural peptides in therapeutic strategies. We have generated eight reduced peptide bond Psi(CH2-NH) analogues corresponding to the H-2Db-restricted CD8(+) T cell epitope (called GP33) of the glycoprotein of the lymphocytic choriomeningitis virus. One of these pseudopeptides, containing a reduced peptide bond between residues 6 and 7 (Psi(6-7)), displayed very similar properties of binding to major histocompatibility complex (MHC) and recognition by T cell receptor transgenic T cells specific for GP33 when compared with the parent peptide. We assessed in vitro and in vivo the proteolytic resistance of GP33 and Psi(6-7) and analyzed its contribution to the priming properties of these peptides. The Psi(6-7) analogue exhibited a dramatically increased proteolytic resistance when compared with GP33, and we show for the first time that MHC-peptide complexes formed in vivo with a pseudopeptide display a sustained half-life compared with the complexes formed with the natural peptide. Furthermore, in contrast to immunizations with GP33, three injections of Psi(6-7) in saline induced significant antiviral protection in mice. The enhanced ability of Psi(6-7) to induce antiviral protection may result from the higher stability of the analogue and/or of the MHC-analogue complexes.</Abstract>
+            <ArticleYear>1999</ArticleYear>
+            <ArticlePages>5550-6</ArticlePages>
+            <ArticleTitle>Protection against lymphocytic choriomeningitis virus infection induced by a reduced peptide bond analogue of the H-2Db-restricted CD8(+) T cell epitope GP33.</ArticleTitle>
+            <Authors>
+                <Author>
+                    <LastName>Stemmer</LastName>
+                    <ForeName>C</ForeName>
+                </Author>
+                <Author>
+                    <LastName>Quesnel</LastName>
+                    <ForeName>A</ForeName>
+                </Author>
+                <Author>
+                    <LastName>Prévost-Blondel</LastName>
+                    <ForeName>A</ForeName>
+                </Author>
+                <Author>
+                    <LastName>Zimmermann</LastName>
+                    <ForeName>C</ForeName>
+                </Author>
+                <Author>
+                    <LastName>Muller</LastName>
+                    <ForeName>S</ForeName>
+                </Author>
+                <Author>
+                    <LastName>Briand</LastName>
+                    <ForeName>J P</ForeName>
+                </Author>
+                <Author>
+                    <LastName>Pircher</LastName>
+                    <ForeName>H</ForeName>
+                </Author>
+            </Authors>
+            <Affiliations>Institute for Medical Microbiology and Hygiene, Department of Immunology, University of Freiburg, 79104 Freiburg, Germany.</Affiliations>
+            <ArticleChemicalList>Epitopes;H-2 Antigens;Histocompatibility Antigen H-2D;Peptides;Receptors, Antigen, T-Cell;Endopeptidases</ArticleChemicalList>
+            <ArticleMeshHeadingsList>Amino Acid Sequence; Animals; CD8-Positive T-Lymphocytes(immunology); Endopeptidases(metabolism); Epitopes(chemistry; immunology; metabolism); H-2 Antigens(immunology); Half-Life; Histocompatibility Antigen H-2D; Lymphocytic Choriomeningitis(immunology); Mice; Mice, Transgenic; Peptides(chemistry; metabolism); Receptors, Antigen, T-Cell(genetics)</ArticleMeshHeadingsList>
+            <Journal>
+                <Volume>274</Volume>
+                <Issue>9</Issue>
+                <Title>The Journal of biological chemistry</Title>
+                <Issn>1083-351X</Issn>
+                <MedlineTa>J Biol Chem</MedlineTa>
+            </Journal>
+        </Article>
+        <Epitopes>
+            <Epitope>
+                <EpitopeName>gp33(C41M)</EpitopeName>
+                <EpitopeStructure>
+                    <SequenceMoleculeNoNaturalSource>
+                        <ChemicalType>Peptide, no natural source</ChemicalType>
+                        <LinearSequence>KAVYNFATM</LinearSequence>
+                    </SequenceMoleculeNoNaturalSource>
+                </EpitopeStructure>
+                <EpitopeRelatedObject>
+                    <RelatedObjectType>The epitope is an analog of:</RelatedObjectType>
+                    <RelatedObject>
+                        <FragmentOfANaturalSequenceMolecule>
+                            <ChemicalType>Peptide from protein</ChemicalType>
+                            <LinearSequence>KAVYNFATC</LinearSequence>
+                            <StartingPosition>33</StartingPosition>
+                            <EndingPosition>41</EndingPosition>
+                            <SourceMolecule>
+                                <GenBankId>P09991.1</GenBankId>
+                            </SourceMolecule>
+                            <SourceOrganismId>11623</SourceOrganismId>
+                        </FragmentOfANaturalSequenceMolecule>
+                    </RelatedObject>
+                </EpitopeRelatedObject>
+                <LocationOfData>Table 1</LocationOfData>
+                <EpitopeId>30015</EpitopeId>
+                <EpitopeStructureDefines>Exact Epitope</EpitopeStructureDefines>
+                <EpitopeComments>This is an analog of the MHC I- restricted epitope, gp33, of LCMV. The terminal C was replaced with M.</EpitopeComments>
+                <Assays>
+                    <TCell>
+                        <LocationOfData>Figure 2A</LocationOfData>
+                        <TCellId>22071</TCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>10000287</OrganismId>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>No immunization</InVivoProcessType>
+                            </FirstInVivoProcess>
+                            <InVitroAdministration>
+                                <ProcessType>Primary induction in vitro</ProcessType>
+                            </InVitroAdministration>
+                        </Immunization>
+                        <EffectorCells>
+                            <CellTissueType>Lymphoid</CellTissueType>
+                            <CellType>T cell CD8+</CellType>
+                            <CellCultureConditions>Cell Line / Clone</CellCultureConditions>
+                        </EffectorCells>
+                        <AntigenPresentingCells>
+                            <CellTissueType>Spleen</CellTissueType>
+                            <CellType>Splenocyte</CellType>
+                            <CellCultureConditions>Direct Ex Vivo</CellCultureConditions>
+                            <AutologousOrSyngeneic>Y</AutologousOrSyngeneic>
+                        </AntigenPresentingCells>
+                        <MhcAllele>
+                            <MhcAlleleId>172</MhcAlleleId>
+                            <MhcEvidenceCode>Not determined</MhcEvidenceCode>
+                        </MhcAllele>
+                        <Antigen>
+                            <AntigenReferenceName>gp33(C41M)</AntigenReferenceName>
+                            <AntigenObject>
+                                <EpitopeRelation>Epitope</EpitopeRelation>
+                                <Object>
+                                    <SequenceMoleculeNoNaturalSource>
+                                        <ChemicalType>Peptide, no natural source</ChemicalType>
+                                        <LinearSequence>KAVYNFATM</LinearSequence>
+                                    </SequenceMoleculeNoNaturalSource>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Exact match to reference information</AntigenEvidenceCode>
+                        </Antigen>
+                        <AssayInformation>
+                            <AssayTypeId>69</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <AssayComments>T-cells used in the assay came from LCMV TCR+ mice; these mice are transgenic for a TCR specific for gp33 in a Db restriction context.</AssayComments>
+                        </AssayInformation>
+                    </TCell>
+                </Assays>
+                <Assays>
+                    <TCell>
+                        <LocationOfData>Figure 2B</LocationOfData>
+                        <TCellId>22070</TCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>10000287</OrganismId>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>No immunization</InVivoProcessType>
+                            </FirstInVivoProcess>
+                            <InVitroAdministration>
+                                <ProcessType>Primary induction in vitro</ProcessType>
+                                <ResponderCellType>T cell CD8+</ResponderCellType>
+                                <StimulatorCellType>Splenocyte</StimulatorCellType>
+                            </InVitroAdministration>
+                        </Immunization>
+                        <EffectorCells>
+                            <CellTissueType>Lymphoid</CellTissueType>
+                            <CellType>T cell CD8+</CellType>
+                            <CellCultureConditions>Cell Line / Clone</CellCultureConditions>
+                        </EffectorCells>
+                        <AntigenPresentingCells>
+                            <CellTissueType>Lymphoid</CellTissueType>
+                            <CellType>EL-4 cells-Lymphoblast</CellType>
+                            <CellCultureConditions>Cell Line / Clone</CellCultureConditions>
+                            <AutologousOrSyngeneic>N</AutologousOrSyngeneic>
+                        </AntigenPresentingCells>
+                        <MhcAllele>
+                            <MhcAlleleId>172</MhcAlleleId>
+                            <MhcEvidenceCode>Not determined</MhcEvidenceCode>
+                        </MhcAllele>
+                        <Antigen>
+                            <AntigenReferenceName>gp33(C41M)</AntigenReferenceName>
+                            <AntigenObject>
+                                <EpitopeRelation>Epitope</EpitopeRelation>
+                                <Object>
+                                    <SequenceMoleculeNoNaturalSource>
+                                        <ChemicalType>Peptide, no natural source</ChemicalType>
+                                        <LinearSequence>KAVYNFATM</LinearSequence>
+                                    </SequenceMoleculeNoNaturalSource>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Exact match to reference information</AntigenEvidenceCode>
+                        </Antigen>
+                        <AssayInformation>
+                            <AssayTypeId>67</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <AssayComments>T-cells used in the assay came from LCMV TCR+ mice; these mice are transgenic for a TCR specific for gp33 in a Db restriction context.</AssayComments>
+                        </AssayInformation>
+                    </TCell>
+                </Assays>
+                <Assays>
+                    <MhcBinding>
+                        <LocationOfData>Figure 1</LocationOfData>
+                        <MhcBindingId>22061</MhcBindingId>
+                        <AssayInformation>
+                            <AssayTypeId>185</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                        </AssayInformation>
+                        <MhcAlleleId>172</MhcAlleleId>
+                    </MhcBinding>
+                </Assays>
+            </Epitope>
+            <Epitope>
+                <EpitopeName>Ψ(1-2)</EpitopeName>
+                <EpitopeStructure>
+                    <SequenceMoleculeNoNaturalSource>
+                        <ChemicalType>Peptide, no natural source</ChemicalType>
+                        <LinearSequence>KAVYNFATM</LinearSequence>
+                        <ModifiedResidues>K1</ModifiedResidues>
+                        <Modifications>Main chain modification</Modifications>
+                    </SequenceMoleculeNoNaturalSource>
+                </EpitopeStructure>
+                <EpitopeRelatedObject>
+                    <RelatedObjectType>The epitope is an analog of:</RelatedObjectType>
+                    <RelatedObject>
+                        <FragmentOfANaturalSequenceMolecule>
+                            <ChemicalType>Peptide from protein</ChemicalType>
+                            <LinearSequence>KAVYNFATC</LinearSequence>
+                            <StartingPosition>33</StartingPosition>
+                            <EndingPosition>41</EndingPosition>
+                            <SourceMolecule>
+                                <GenBankId>P09991.1</GenBankId>
+                            </SourceMolecule>
+                            <SourceOrganismId>11623</SourceOrganismId>
+                        </FragmentOfANaturalSequenceMolecule>
+                    </RelatedObject>
+                </EpitopeRelatedObject>
+                <LocationOfData>Figure 1</LocationOfData>
+                <EpitopeId>30010</EpitopeId>
+                <EpitopeStructureDefines>Exact Epitope</EpitopeStructureDefines>
+                <EpitopeComments>This molecule is an analog of the MHC class I-restricted epitope, gp33, of LCMV with an M instead of a C as the terminal residue, and a methyl group substituting for the carbonyl that forms the peptide bond between amino acids 1 and 2.</EpitopeComments>
+                <Assays>
+                    <MhcBinding>
+                        <LocationOfData>Figure 1</LocationOfData>
+                        <MhcBindingId>22062</MhcBindingId>
+                        <AssayInformation>
+                            <AssayTypeId>185</AssayTypeId>
+                            <QualitativeMeasurement>Negative</QualitativeMeasurement>
+                        </AssayInformation>
+                        <MhcAlleleId>172</MhcAlleleId>
+                    </MhcBinding>
+                </Assays>
+            </Epitope>
+            <Epitope>
+                <EpitopeName>Ψ(2-3)</EpitopeName>
+                <EpitopeStructure>
+                    <SequenceMoleculeNoNaturalSource>
+                        <ChemicalType>Peptide, no natural source</ChemicalType>
+                        <LinearSequence>KAVYNFATM</LinearSequence>
+                        <ModifiedResidues>A2</ModifiedResidues>
+                        <Modifications>Main chain modification</Modifications>
+                    </SequenceMoleculeNoNaturalSource>
+                </EpitopeStructure>
+                <EpitopeRelatedObject>
+                    <RelatedObjectType>The epitope is an analog of:</RelatedObjectType>
+                    <RelatedObject>
+                        <FragmentOfANaturalSequenceMolecule>
+                            <ChemicalType>Peptide from protein</ChemicalType>
+                            <LinearSequence>KAVYNFATC</LinearSequence>
+                            <StartingPosition>33</StartingPosition>
+                            <EndingPosition>41</EndingPosition>
+                            <SourceMolecule>
+                                <GenBankId>P09991.1</GenBankId>
+                            </SourceMolecule>
+                            <SourceOrganismId>11623</SourceOrganismId>
+                        </FragmentOfANaturalSequenceMolecule>
+                    </RelatedObject>
+                </EpitopeRelatedObject>
+                <LocationOfData>Figure 1</LocationOfData>
+                <EpitopeId>30007</EpitopeId>
+                <EpitopeStructureDefines>Exact Epitope</EpitopeStructureDefines>
+                <EpitopeComments>This molecule is an analog of the MHC class I-restricted epitope, gp33, of LCMV with an M instead of a C as the terminal residue, and a methyl group substituting for the carbonyl that forms the peptide bond between amino acids 2 and 3.</EpitopeComments>
+                <Assays>
+                    <MhcBinding>
+                        <LocationOfData>Figure 1</LocationOfData>
+                        <MhcBindingId>22063</MhcBindingId>
+                        <AssayInformation>
+                            <AssayTypeId>185</AssayTypeId>
+                            <QualitativeMeasurement>Negative</QualitativeMeasurement>
+                        </AssayInformation>
+                        <MhcAlleleId>172</MhcAlleleId>
+                    </MhcBinding>
+                </Assays>
+            </Epitope>
+            <Epitope>
+                <EpitopeName>Ψ(3-4)</EpitopeName>
+                <EpitopeStructure>
+                    <SequenceMoleculeNoNaturalSource>
+                        <ChemicalType>Peptide, no natural source</ChemicalType>
+                        <LinearSequence>KAVYNFATM</LinearSequence>
+                        <ModifiedResidues>V3</ModifiedResidues>
+                        <Modifications>Main chain modification</Modifications>
+                    </SequenceMoleculeNoNaturalSource>
+                </EpitopeStructure>
+                <EpitopeRelatedObject>
+                    <RelatedObjectType>The epitope is an analog of:</RelatedObjectType>
+                    <RelatedObject>
+                        <FragmentOfANaturalSequenceMolecule>
+                            <ChemicalType>Peptide from protein</ChemicalType>
+                            <LinearSequence>KAVYNFATC</LinearSequence>
+                            <StartingPosition>33</StartingPosition>
+                            <EndingPosition>41</EndingPosition>
+                            <SourceMolecule>
+                                <GenBankId>P09991.1</GenBankId>
+                            </SourceMolecule>
+                            <SourceOrganismId>11623</SourceOrganismId>
+                        </FragmentOfANaturalSequenceMolecule>
+                    </RelatedObject>
+                </EpitopeRelatedObject>
+                <LocationOfData>Figure 1</LocationOfData>
+                <EpitopeId>30013</EpitopeId>
+                <EpitopeStructureDefines>Exact Epitope</EpitopeStructureDefines>
+                <EpitopeComments>This molecule is an analog of the MHC class I-restricted epitope, gp33, of LCMV with an M instead of a C as the terminal residue, and a methyl group substituting for the carbonyl that forms the peptide bond between amino acids 3 and 4.</EpitopeComments>
+                <Assays>
+                    <MhcBinding>
+                        <LocationOfData>Figure 1</LocationOfData>
+                        <MhcBindingId>22064</MhcBindingId>
+                        <AssayInformation>
+                            <AssayTypeId>185</AssayTypeId>
+                            <QualitativeMeasurement>Negative</QualitativeMeasurement>
+                        </AssayInformation>
+                        <MhcAlleleId>172</MhcAlleleId>
+                    </MhcBinding>
+                </Assays>
+            </Epitope>
+            <Epitope>
+                <EpitopeName>Ψ(4-5)</EpitopeName>
+                <EpitopeStructure>
+                    <SequenceMoleculeNoNaturalSource>
+                        <ChemicalType>Peptide, no natural source</ChemicalType>
+                        <LinearSequence>KAVYNFATM</LinearSequence>
+                        <ModifiedResidues>Y4</ModifiedResidues>
+                        <Modifications>Main chain modification</Modifications>
+                    </SequenceMoleculeNoNaturalSource>
+                </EpitopeStructure>
+                <EpitopeRelatedObject>
+                    <RelatedObjectType>The epitope is an analog of:</RelatedObjectType>
+                    <RelatedObject>
+                        <FragmentOfANaturalSequenceMolecule>
+                            <ChemicalType>Peptide from protein</ChemicalType>
+                            <LinearSequence>KAVYNFATC</LinearSequence>
+                            <StartingPosition>33</StartingPosition>
+                            <EndingPosition>41</EndingPosition>
+                            <SourceMolecule>
+                                <GenBankId>P09991.1</GenBankId>
+                            </SourceMolecule>
+                            <SourceOrganismId>11623</SourceOrganismId>
+                        </FragmentOfANaturalSequenceMolecule>
+                    </RelatedObject>
+                </EpitopeRelatedObject>
+                <LocationOfData>Figure 1</LocationOfData>
+                <EpitopeId>30014</EpitopeId>
+                <EpitopeStructureDefines>Exact Epitope</EpitopeStructureDefines>
+                <EpitopeComments>This molecule is an analog of the MHC class I-restricted epitope, gp33, of LCMV with an M instead of a C as the terminal residue, and a methyl group substituting for the carbonyl that forms the peptide bond between amino acids 4 and 5.</EpitopeComments>
+                <Assays>
+                    <MhcBinding>
+                        <LocationOfData>Figure 1</LocationOfData>
+                        <MhcBindingId>22065</MhcBindingId>
+                        <AssayInformation>
+                            <AssayTypeId>185</AssayTypeId>
+                            <QualitativeMeasurement>Negative</QualitativeMeasurement>
+                        </AssayInformation>
+                        <MhcAlleleId>172</MhcAlleleId>
+                    </MhcBinding>
+                </Assays>
+            </Epitope>
+            <Epitope>
+                <EpitopeName>Ψ(5-6)</EpitopeName>
+                <EpitopeStructure>
+                    <SequenceMoleculeNoNaturalSource>
+                        <ChemicalType>Peptide, no natural source</ChemicalType>
+                        <LinearSequence>KAVYNFATM</LinearSequence>
+                        <ModifiedResidues>N5</ModifiedResidues>
+                        <Modifications>Main chain modification</Modifications>
+                    </SequenceMoleculeNoNaturalSource>
+                </EpitopeStructure>
+                <EpitopeRelatedObject>
+                    <RelatedObjectType>The epitope is an analog of:</RelatedObjectType>
+                    <RelatedObject>
+                        <FragmentOfANaturalSequenceMolecule>
+                            <ChemicalType>Peptide from protein</ChemicalType>
+                            <LinearSequence>KAVYNFATC</LinearSequence>
+                            <StartingPosition>33</StartingPosition>
+                            <EndingPosition>41</EndingPosition>
+                            <SourceMolecule>
+                                <GenBankId>P09991.1</GenBankId>
+                            </SourceMolecule>
+                            <SourceOrganismId>11623</SourceOrganismId>
+                        </FragmentOfANaturalSequenceMolecule>
+                    </RelatedObject>
+                </EpitopeRelatedObject>
+                <LocationOfData>Figure 1</LocationOfData>
+                <EpitopeId>30011</EpitopeId>
+                <EpitopeStructureDefines>Exact Epitope</EpitopeStructureDefines>
+                <EpitopeComments>This molecule is an analog of the MHC class I-restricted epitope, gp33, of LCMV with an M instead of a C as the terminal residue, and a methyl group substituting for the carbonyl that forms the peptide bond between amino acids 5 and 6.</EpitopeComments>
+                <Assays>
+                    <TCell>
+                        <LocationOfData>Figure 2B</LocationOfData>
+                        <TCellId>22072</TCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>10000287</OrganismId>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>No immunization</InVivoProcessType>
+                            </FirstInVivoProcess>
+                            <InVitroAdministration>
+                                <ProcessType>Primary induction in vitro</ProcessType>
+                                <ResponderCellType>T cell CD8+</ResponderCellType>
+                                <StimulatorCellType>Splenocyte</StimulatorCellType>
+                            </InVitroAdministration>
+                        </Immunization>
+                        <EffectorCells>
+                            <CellTissueType>Lymphoid</CellTissueType>
+                            <CellType>T cell CD8+</CellType>
+                            <CellCultureConditions>Cell Line / Clone</CellCultureConditions>
+                        </EffectorCells>
+                        <AntigenPresentingCells>
+                            <CellTissueType>Lymphoid</CellTissueType>
+                            <CellType>EL-4 cells-Lymphoblast</CellType>
+                            <CellCultureConditions>Cell Line / Clone</CellCultureConditions>
+                            <AutologousOrSyngeneic>N</AutologousOrSyngeneic>
+                        </AntigenPresentingCells>
+                        <MhcAllele>
+                            <MhcAlleleId>172</MhcAlleleId>
+                            <MhcEvidenceCode>Not determined</MhcEvidenceCode>
+                        </MhcAllele>
+                        <Antigen>
+                            <AntigenReferenceName>Ψ(5-6)</AntigenReferenceName>
+                            <AntigenObject>
+                                <EpitopeRelation>Epitope</EpitopeRelation>
+                                <Object>
+                                    <SequenceMoleculeNoNaturalSource>
+                                        <ChemicalType>Peptide, no natural source</ChemicalType>
+                                        <LinearSequence>KAVYNFATM</LinearSequence>
+                                        <ModifiedResidues>N5</ModifiedResidues>
+                                        <Modifications>Main chain modification</Modifications>
+                                    </SequenceMoleculeNoNaturalSource>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Exact match to reference information</AntigenEvidenceCode>
+                        </Antigen>
+                        <AssayInformation>
+                            <AssayTypeId>67</AssayTypeId>
+                            <QualitativeMeasurement>Negative</QualitativeMeasurement>
+                            <AssayComments>T-cells used in the assay came from LCMV TCR+ mice; these mice are transgenic for a TCR specific for gp33 in a Db restriction context.</AssayComments>
+                        </AssayInformation>
+                    </TCell>
+                </Assays>
+                <Assays>
+                    <TCell>
+                        <LocationOfData>Figure 2A</LocationOfData>
+                        <TCellId>22073</TCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>10000287</OrganismId>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>No immunization</InVivoProcessType>
+                            </FirstInVivoProcess>
+                            <InVitroAdministration>
+                                <ProcessType>Primary induction in vitro</ProcessType>
+                            </InVitroAdministration>
+                        </Immunization>
+                        <EffectorCells>
+                            <CellTissueType>Lymphoid</CellTissueType>
+                            <CellType>T cell CD8+</CellType>
+                            <CellCultureConditions>Cell Line / Clone</CellCultureConditions>
+                        </EffectorCells>
+                        <AntigenPresentingCells>
+                            <CellTissueType>Spleen</CellTissueType>
+                            <CellType>Splenocyte</CellType>
+                            <CellCultureConditions>Direct Ex Vivo</CellCultureConditions>
+                            <AutologousOrSyngeneic>Y</AutologousOrSyngeneic>
+                        </AntigenPresentingCells>
+                        <MhcAllele>
+                            <MhcAlleleId>172</MhcAlleleId>
+                            <MhcEvidenceCode>Not determined</MhcEvidenceCode>
+                        </MhcAllele>
+                        <Antigen>
+                            <AntigenReferenceName>Ψ(5-6)</AntigenReferenceName>
+                            <AntigenObject>
+                                <EpitopeRelation>Epitope</EpitopeRelation>
+                                <Object>
+                                    <SequenceMoleculeNoNaturalSource>
+                                        <ChemicalType>Peptide, no natural source</ChemicalType>
+                                        <LinearSequence>KAVYNFATM</LinearSequence>
+                                        <ModifiedResidues>N5</ModifiedResidues>
+                                        <Modifications>Main chain modification</Modifications>
+                                    </SequenceMoleculeNoNaturalSource>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Exact match to reference information</AntigenEvidenceCode>
+                        </Antigen>
+                        <AssayInformation>
+                            <AssayTypeId>69</AssayTypeId>
+                            <QualitativeMeasurement>Negative</QualitativeMeasurement>
+                            <AssayComments>T-cells used in the assay came from LCMV TCR+ mice; these mice are transgenic for a TCR specific for gp33 in a Db restriction context.</AssayComments>
+                        </AssayInformation>
+                    </TCell>
+                </Assays>
+                <Assays>
+                    <MhcBinding>
+                        <LocationOfData>Figure 1</LocationOfData>
+                        <MhcBindingId>22066</MhcBindingId>
+                        <AssayInformation>
+                            <AssayTypeId>185</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                        </AssayInformation>
+                        <MhcAlleleId>172</MhcAlleleId>
+                    </MhcBinding>
+                </Assays>
+            </Epitope>
+            <Epitope>
+                <EpitopeName>Ψ(6-7)</EpitopeName>
+                <EpitopeStructure>
+                    <SequenceMoleculeNoNaturalSource>
+                        <ChemicalType>Peptide, no natural source</ChemicalType>
+                        <LinearSequence>KAVYNFATM</LinearSequence>
+                        <ModifiedResidues>F6</ModifiedResidues>
+                        <Modifications>Main chain modification</Modifications>
+                    </SequenceMoleculeNoNaturalSource>
+                </EpitopeStructure>
+                <EpitopeRelatedObject>
+                    <RelatedObjectType>The epitope is an analog of:</RelatedObjectType>
+                    <RelatedObject>
+                        <FragmentOfANaturalSequenceMolecule>
+                            <ChemicalType>Peptide from protein</ChemicalType>
+                            <LinearSequence>KAVYNFATC</LinearSequence>
+                            <StartingPosition>33</StartingPosition>
+                            <EndingPosition>41</EndingPosition>
+                            <SourceMolecule>
+                                <GenBankId>P09991.1</GenBankId>
+                            </SourceMolecule>
+                            <SourceOrganismId>11623</SourceOrganismId>
+                        </FragmentOfANaturalSequenceMolecule>
+                    </RelatedObject>
+                </EpitopeRelatedObject>
+                <LocationOfData>Figure 1</LocationOfData>
+                <EpitopeId>30009</EpitopeId>
+                <EpitopeStructureDefines>Exact Epitope</EpitopeStructureDefines>
+                <EpitopeComments>This molecule is an analog of the MHC class I-restricted epitope, gp33, of LCMV with an M instead of a C as the terminal residue, and a methyl group substituting for the carbonyl that forms the peptide bond between amino acids 6 and 7.</EpitopeComments>
+                <Assays>
+                    <TCell>
+                        <LocationOfData>Figure 2B</LocationOfData>
+                        <TCellId>22074</TCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>10000287</OrganismId>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>No immunization</InVivoProcessType>
+                            </FirstInVivoProcess>
+                            <InVitroAdministration>
+                                <ProcessType>Primary induction in vitro</ProcessType>
+                                <ResponderCellType>T cell CD8+</ResponderCellType>
+                                <StimulatorCellType>Splenocyte</StimulatorCellType>
+                            </InVitroAdministration>
+                        </Immunization>
+                        <EffectorCells>
+                            <CellTissueType>Lymphoid</CellTissueType>
+                            <CellType>T cell CD8+</CellType>
+                            <CellCultureConditions>Cell Line / Clone</CellCultureConditions>
+                        </EffectorCells>
+                        <AntigenPresentingCells>
+                            <CellTissueType>Lymphoid</CellTissueType>
+                            <CellType>EL-4 cells-Lymphoblast</CellType>
+                            <CellCultureConditions>Cell Line / Clone</CellCultureConditions>
+                            <AutologousOrSyngeneic>N</AutologousOrSyngeneic>
+                        </AntigenPresentingCells>
+                        <MhcAllele>
+                            <MhcAlleleId>172</MhcAlleleId>
+                            <MhcEvidenceCode>Not determined</MhcEvidenceCode>
+                        </MhcAllele>
+                        <Antigen>
+                            <AntigenReferenceName>Ψ(6-7)</AntigenReferenceName>
+                            <AntigenObject>
+                                <EpitopeRelation>Epitope</EpitopeRelation>
+                                <Object>
+                                    <SequenceMoleculeNoNaturalSource>
+                                        <ChemicalType>Peptide, no natural source</ChemicalType>
+                                        <LinearSequence>KAVYNFATM</LinearSequence>
+                                        <ModifiedResidues>F6</ModifiedResidues>
+                                        <Modifications>Main chain modification</Modifications>
+                                    </SequenceMoleculeNoNaturalSource>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Exact match to reference information</AntigenEvidenceCode>
+                        </Antigen>
+                        <AssayInformation>
+                            <AssayTypeId>67</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <AssayComments>T-cells used in the assay came from LCMV TCR+ mice; these mice are transgenic for a TCR specific for gp33 in a Db restriction context.</AssayComments>
+                        </AssayInformation>
+                    </TCell>
+                </Assays>
+                <Assays>
+                    <TCell>
+                        <LocationOfData>Figure 2A</LocationOfData>
+                        <TCellId>22075</TCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>10000287</OrganismId>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>No immunization</InVivoProcessType>
+                            </FirstInVivoProcess>
+                            <InVitroAdministration>
+                                <ProcessType>Primary induction in vitro</ProcessType>
+                            </InVitroAdministration>
+                        </Immunization>
+                        <EffectorCells>
+                            <CellTissueType>Lymphoid</CellTissueType>
+                            <CellType>T cell CD8+</CellType>
+                            <CellCultureConditions>Cell Line / Clone</CellCultureConditions>
+                        </EffectorCells>
+                        <AntigenPresentingCells>
+                            <CellTissueType>Spleen</CellTissueType>
+                            <CellType>Splenocyte</CellType>
+                            <CellCultureConditions>Direct Ex Vivo</CellCultureConditions>
+                            <AutologousOrSyngeneic>Y</AutologousOrSyngeneic>
+                        </AntigenPresentingCells>
+                        <MhcAllele>
+                            <MhcAlleleId>172</MhcAlleleId>
+                            <MhcEvidenceCode>Not determined</MhcEvidenceCode>
+                        </MhcAllele>
+                        <Antigen>
+                            <AntigenReferenceName>Ψ(6-7)</AntigenReferenceName>
+                            <AntigenObject>
+                                <EpitopeRelation>Epitope</EpitopeRelation>
+                                <Object>
+                                    <SequenceMoleculeNoNaturalSource>
+                                        <ChemicalType>Peptide, no natural source</ChemicalType>
+                                        <LinearSequence>KAVYNFATM</LinearSequence>
+                                        <ModifiedResidues>F6</ModifiedResidues>
+                                        <Modifications>Main chain modification</Modifications>
+                                    </SequenceMoleculeNoNaturalSource>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Exact match to reference information</AntigenEvidenceCode>
+                        </Antigen>
+                        <AssayInformation>
+                            <AssayTypeId>69</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <AssayComments>T-cells used in the assay came from LCMV TCR+ mice; these mice are transgenic for a TCR specific for gp33 in a Db restriction context.</AssayComments>
+                        </AssayInformation>
+                    </TCell>
+                </Assays>
+                <Assays>
+                    <MhcBinding>
+                        <LocationOfData>Figure 1</LocationOfData>
+                        <MhcBindingId>22067</MhcBindingId>
+                        <AssayInformation>
+                            <AssayTypeId>185</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                        </AssayInformation>
+                        <MhcAlleleId>172</MhcAlleleId>
+                    </MhcBinding>
+                </Assays>
+            </Epitope>
+            <Epitope>
+                <EpitopeName>Ψ(7-8)</EpitopeName>
+                <EpitopeStructure>
+                    <SequenceMoleculeNoNaturalSource>
+                        <ChemicalType>Peptide, no natural source</ChemicalType>
+                        <LinearSequence>KAVYNFATM</LinearSequence>
+                        <ModifiedResidues>A7</ModifiedResidues>
+                        <Modifications>Main chain modification</Modifications>
+                    </SequenceMoleculeNoNaturalSource>
+                </EpitopeStructure>
+                <EpitopeRelatedObject>
+                    <RelatedObjectType>The epitope is an analog of:</RelatedObjectType>
+                    <RelatedObject>
+                        <FragmentOfANaturalSequenceMolecule>
+                            <ChemicalType>Peptide from protein</ChemicalType>
+                            <LinearSequence>KAVYNFATC</LinearSequence>
+                            <StartingPosition>33</StartingPosition>
+                            <EndingPosition>41</EndingPosition>
+                            <SourceMolecule>
+                                <GenBankId>P09991.1</GenBankId>
+                            </SourceMolecule>
+                            <SourceOrganismId>11623</SourceOrganismId>
+                        </FragmentOfANaturalSequenceMolecule>
+                    </RelatedObject>
+                </EpitopeRelatedObject>
+                <LocationOfData>Figure 1</LocationOfData>
+                <EpitopeId>30008</EpitopeId>
+                <EpitopeStructureDefines>Exact Epitope</EpitopeStructureDefines>
+                <EpitopeComments>This molecule is an analog of the MHC class I-restricted epitope, gp33, of LCMV with an M instead of a C as the terminal residue, and a methyl group substituting for the carbonyl that forms the peptide bond between amino acids 7 and 8.</EpitopeComments>
+                <Assays>
+                    <MhcBinding>
+                        <LocationOfData>Figure 1</LocationOfData>
+                        <MhcBindingId>22068</MhcBindingId>
+                        <AssayInformation>
+                            <AssayTypeId>185</AssayTypeId>
+                            <QualitativeMeasurement>Negative</QualitativeMeasurement>
+                        </AssayInformation>
+                        <MhcAlleleId>172</MhcAlleleId>
+                    </MhcBinding>
+                </Assays>
+            </Epitope>
+            <Epitope>
+                <EpitopeName>Ψ(8-9)</EpitopeName>
+                <EpitopeStructure>
+                    <SequenceMoleculeNoNaturalSource>
+                        <ChemicalType>Peptide, no natural source</ChemicalType>
+                        <LinearSequence>KAVYNFATM</LinearSequence>
+                        <ModifiedResidues>T8</ModifiedResidues>
+                        <Modifications>Main chain modification</Modifications>
+                    </SequenceMoleculeNoNaturalSource>
+                </EpitopeStructure>
+                <EpitopeRelatedObject>
+                    <RelatedObjectType>The epitope is an analog of:</RelatedObjectType>
+                    <RelatedObject>
+                        <FragmentOfANaturalSequenceMolecule>
+                            <ChemicalType>Peptide from protein</ChemicalType>
+                            <LinearSequence>KAVYNFATC</LinearSequence>
+                            <StartingPosition>33</StartingPosition>
+                            <EndingPosition>41</EndingPosition>
+                            <SourceMolecule>
+                                <GenBankId>P09991.1</GenBankId>
+                            </SourceMolecule>
+                            <SourceOrganismId>11623</SourceOrganismId>
+                        </FragmentOfANaturalSequenceMolecule>
+                    </RelatedObject>
+                </EpitopeRelatedObject>
+                <LocationOfData>Figure 1</LocationOfData>
+                <EpitopeId>30012</EpitopeId>
+                <EpitopeStructureDefines>Exact Epitope</EpitopeStructureDefines>
+                <EpitopeComments>This molecule is an analog of the MHC class I-restricted epitope, gp33, of LCMV with an M instead of a C as the terminal residue, and a methyl group substituting for the carbonyl that forms the peptide bond between amino acids 8 and 9.</EpitopeComments>
+                <Assays>
+                    <MhcBinding>
+                        <LocationOfData>Figure 1</LocationOfData>
+                        <MhcBindingId>22069</MhcBindingId>
+                        <AssayInformation>
+                            <AssayTypeId>185</AssayTypeId>
+                            <QualitativeMeasurement>Negative</QualitativeMeasurement>
+                        </AssayInformation>
+                        <MhcAlleleId>172</MhcAlleleId>
+                    </MhcBinding>
+                </Assays>
+            </Epitope>
+        </Epitopes>
+    </Reference>
+</References>
+

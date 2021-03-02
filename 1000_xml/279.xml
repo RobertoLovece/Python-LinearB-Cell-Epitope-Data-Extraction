@@ -1,0 +1,470 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<References xsi:schemaLocation="http://www.iedb.org/schema/CurationSchema http://beta.iedb.org/schema/Curation.xsd" xmlns="http://www.iedb.org/schema/CurationSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <Reference>
+        <ReferenceId>279</ReferenceId>
+        <DateLastUpdated>2020-09-10-07:00</DateLastUpdated>
+        <Article>
+            <PubmedId>12842050</PubmedId>
+            <Abstract>The murine monoclonal antibody 26-2F neutralizes the angiogenic and ribonucleolytic activities of human angiogenin (ANG) and is highly effective in preventing the establishment and metastatic dissemination of human tumors in athymic mice. Here we report a 2.0 A resolution crystal structure for the complex of ANG with the Fab fragment of 26-2F that reveals the detailed interactions between ANG and the complementarity-determining regions (CDRs) of the antibody. Surprisingly, Fab binding induces a dramatic conformational change in the cell binding region of ANG at the opposite end of the molecule from the combining site; crosslinking experiments indicate that this rearrangement also occurs in solution. The ANG-Fab complex structure should be invaluable for designing maximally humanized versions of 26-2F for potential clinical use.</Abstract>
+            <ArticleYear>2003</ArticleYear>
+            <ArticlePages>875-85</ArticlePages>
+            <ArticleTitle>The crystal structure of human angiogenin in complex with an antitumor neutralizing antibody.</ArticleTitle>
+            <Authors>
+                <Author>
+                    <LastName>Chavali</LastName>
+                    <ForeName>Gayatri B</ForeName>
+                </Author>
+                <Author>
+                    <LastName>Papageorgiou</LastName>
+                    <ForeName>Anastassios C</ForeName>
+                </Author>
+                <Author>
+                    <LastName>Olson</LastName>
+                    <ForeName>Karen A</ForeName>
+                </Author>
+                <Author>
+                    <LastName>Fett</LastName>
+                    <ForeName>James W</ForeName>
+                </Author>
+                <Author>
+                    <LastName>Hu</LastName>
+                    <ForeName>Guo fu</ForeName>
+                </Author>
+                <Author>
+                    <LastName>Shapiro</LastName>
+                    <ForeName>Robert</ForeName>
+                </Author>
+                <Author>
+                    <LastName>Acharya</LastName>
+                    <ForeName>K Ravi</ForeName>
+                </Author>
+            </Authors>
+            <Affiliations>Department of Biology and Biochemistry, University of Bath, Claverton Down, BA2 7AY, Bath, United Kingdom.</Affiliations>
+            <ArticleChemicalList>Complementarity Determining Regions;Immunoglobulin Fab Fragments;angiogenin;Ribonuclease, Pancreatic</ArticleChemicalList>
+            <ArticleMeshHeadingsList>Amino Acid Sequence; Complementarity Determining Regions; Epitope Mapping; Humans; Immunoglobulin Fab Fragments(chemistry; immunology); Molecular Sequence Data; Neoplasms(immunology); Neutralization Tests; Protein Conformation; Ribonuclease, Pancreatic(chemistry; immunology)</ArticleMeshHeadingsList>
+            <Journal>
+                <Volume>11</Volume>
+                <Issue>7</Issue>
+                <Title>Structure (London, England)</Title>
+                <Issn>0969-2126</Issn>
+                <MedlineTa>Structure</MedlineTa>
+            </Journal>
+        </Article>
+        <Epitopes>
+            <Epitope>
+                <EpitopeName>26-2F Fab epitope on angiogenin</EpitopeName>
+                <EpitopeStructure>
+                    <DiscontinuousRegionOnAccessionSequenceMolecule>
+                        <ChemicalType>Discontinuous protein residues</ChemicalType>
+                        <DiscontinuousResidues>G58, L59, S61, P62, C63, K64, D65, G109, G110, S111, P112, W113, P114, P115</DiscontinuousResidues>
+                        <SourceMolecule>
+                            <GenBankId>P03950.1</GenBankId>
+                        </SourceMolecule>
+                        <SourceOrganismId>9606</SourceOrganismId>
+                    </DiscontinuousRegionOnAccessionSequenceMolecule>
+                </EpitopeStructure>
+                <LocationOfData>Table 2 and PDB 1H0D</LocationOfData>
+                <EpitopeId>77533</EpitopeId>
+                <ReferenceRegion>G34, L35, S37, P38, C39, K40, D41, G85, G86, S87, P88, W89, P90, P91</ReferenceRegion>
+                <EpitopeEvidenceCode>Representative selection</EpitopeEvidenceCode>
+                <EpitopeStructureDefines>Exact Epitope</EpitopeStructureDefines>
+                <Assays>
+                    <BCell>
+                        <LocationOfData>Figure 6</LocationOfData>
+                        <BCellId>1686197</BCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>10000000</OrganismId>
+                                <Age>8 weeks</Age>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Administration in vivo</InVivoProcessType>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Source Antigen</EpitopeRelation>
+                                    <Object>
+                                        <AccessionSequenceMolecule>
+                                            <ChemicalType>Protein</ChemicalType>
+                                            <Molecule>
+                                                <GenBankId>P03950.1</GenBankId>
+                                            </Molecule>
+                                            <SourceOrganismId>9606</SourceOrganismId>
+                                        </AccessionSequenceMolecule>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenEvidenceCode>Representative selection</ImmunogenEvidenceCode>
+                                <Adjuvant>Freund's complete</Adjuvant>
+                                <Adjuvant>Freund's incomplete (IFA)</Adjuvant>
+                                <Route>Subcutaneous (s.c.)</Route>
+                                <DoseSchedule>4 doses of 30 micrograms of protein, administered at intervals of 7-10 days.</DoseSchedule>
+                            </FirstInVivoProcess>
+                            <ImmunizationComments>Generation of the monoclonal antibody was previously described in the cited reference: Fett et al. (1994) Biochemistry 33: 5421-5427 [PMID: 7514035]. The first two boosts were performed with incomplete Freund's adjuvant and the final boost was delivered i.p. without adjuvant.</ImmunizationComments>
+                        </Immunization>
+                        <AssayInformation>
+                            <AssayTypeId>316</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <AssayComments>The epitope-specific 26-2F mAb inhibits the binding of angiogenin (ANG) to epithelial cell-derived angiogenin binding protein (ANGBP), as detected by the reduction in labelled ANG present in cross-linked complexes with ANGBP when ANG is preincubated with the mAb.</AssayComments>
+                        </AssayInformation>
+                        <AssayedAntibody>
+                            <AssayedAntibodySourceMaterial>Purified Immunoglobulin</AssayedAntibodySourceMaterial>
+                            <AssayedAntibodyImmunoglobulinDomain>Entire Antibody</AssayedAntibodyImmunoglobulinDomain>
+                            <AssayedAntibodyPurificationStatus>Monoclonal</AssayedAntibodyPurificationStatus>
+                            <AssayedAntibodyName>26-2F</AssayedAntibodyName>
+                            <AssayedAntibodyHeavyChainType>IgG1</AssayedAntibodyHeavyChainType>
+                            <AssayedAntibodyLightChainType>Kappa</AssayedAntibodyLightChainType>
+                            <AssayedAntibodyObject>
+                                <MultiChainMolecule>
+                                    <ChemicalType>Multi-Chain protein</ChemicalType>
+                                    <MoleculeName>26-2F</MoleculeName>
+                                    <Chain1>
+                                        <Molecule>
+                                            <GenBankId>1H0D_A</GenBankId>
+                                        </Molecule>
+                                        <SourceOrganismId>9606</SourceOrganismId>
+                                    </Chain1>
+                                    <Chain2>
+                                        <Molecule>
+                                            <GenBankId>1H0D_B</GenBankId>
+                                        </Molecule>
+                                        <SourceOrganismId>9606</SourceOrganismId>
+                                    </Chain2>
+                                </MultiChainMolecule>
+                            </AssayedAntibodyObject>
+                        </AssayedAntibody>
+                        <Antigen>
+                            <AntigenConformation>Native</AntigenConformation>
+                            <AntigenObject>
+                                <EpitopeRelation>Source Antigen</EpitopeRelation>
+                                <Object>
+                                    <AccessionSequenceMolecule>
+                                        <ChemicalType>Protein</ChemicalType>
+                                        <Molecule>
+                                            <GenBankId>P03950.1</GenBankId>
+                                        </Molecule>
+                                        <SourceOrganismId>9606</SourceOrganismId>
+                                    </AccessionSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Representative selection</AntigenEvidenceCode>
+                        </Antigen>
+                    </BCell>
+                </Assays>
+                <Assays>
+                    <BCell>
+                        <LocationOfData>Tables 1, 2, 3, Figures 1, 3, 4, 5 and PDB 1H0D</LocationOfData>
+                        <BCellId>32</BCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>10000000</OrganismId>
+                                <Age>8 weeks</Age>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Administration in vivo</InVivoProcessType>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Source Antigen</EpitopeRelation>
+                                    <Object>
+                                        <AccessionSequenceMolecule>
+                                            <ChemicalType>Protein</ChemicalType>
+                                            <Molecule>
+                                                <GenBankId>P03950.1</GenBankId>
+                                            </Molecule>
+                                            <SourceOrganismId>9606</SourceOrganismId>
+                                        </AccessionSequenceMolecule>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenEvidenceCode>Representative selection</ImmunogenEvidenceCode>
+                                <Adjuvant>Freund's complete</Adjuvant>
+                                <Adjuvant>Freund's incomplete (IFA)</Adjuvant>
+                                <Route>Subcutaneous (s.c.)</Route>
+                                <DoseSchedule>4 doses of 30 μg of protein, administered at intervals of 7-10 days.</DoseSchedule>
+                            </FirstInVivoProcess>
+                            <ImmunizationComments>Generation of the monoclonal antibody was previously described in the cited reference: Fett et al. (1994) Biochemistry 33: 5421-5427 [PMID: 7514035]. The first two boosts were performed with incomplete Freund's adjuvant and the final boost was delivered i.p. without adjuvant.</ImmunizationComments>
+                        </Immunization>
+                        <AssayInformation>
+                            <AssayTypeId>436</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <QuantitativeMeasurement>2.0</QuantitativeMeasurement>
+                            <MeasurementInequality>=</MeasurementInequality>
+                            <AssayComments>The epitope of Fab 26-2F on angiogenin was determined from the crystal structure of the complex, solved by molecular replacement. There is one Fab:angiogenin complex in the asymmetric unit.</AssayComments>
+                        </AssayInformation>
+                        <AssayedAntibody>
+                            <AssayedAntibodySourceMaterial>Purified Immunoglobulin</AssayedAntibodySourceMaterial>
+                            <AssayedAntibodyImmunoglobulinDomain>Fab</AssayedAntibodyImmunoglobulinDomain>
+                            <AssayedAntibodyPurificationStatus>Monoclonal</AssayedAntibodyPurificationStatus>
+                            <AssayedAntibodyName>26-2F</AssayedAntibodyName>
+                            <AssayedAntibodyHeavyChainType>IgG1</AssayedAntibodyHeavyChainType>
+                            <AssayedAntibodyLightChainType>Kappa</AssayedAntibodyLightChainType>
+                            <AssayedAntibodyObject>
+                                <MultiChainMolecule>
+                                    <ChemicalType>Multi-Chain protein</ChemicalType>
+                                    <MoleculeName>26-2F</MoleculeName>
+                                    <Chain1>
+                                        <Molecule>
+                                            <GenBankId>1H0D_B</GenBankId>
+                                        </Molecule>
+                                        <SourceOrganismId>9606</SourceOrganismId>
+                                    </Chain1>
+                                    <Chain2>
+                                        <Molecule>
+                                            <GenBankId>1H0D_A</GenBankId>
+                                        </Molecule>
+                                        <SourceOrganismId>9606</SourceOrganismId>
+                                    </Chain2>
+                                </MultiChainMolecule>
+                            </AssayedAntibodyObject>
+                        </AssayedAntibody>
+                        <Antigen>
+                            <AntigenConformation>Native</AntigenConformation>
+                            <AntigenObject>
+                                <EpitopeRelation>Source Antigen</EpitopeRelation>
+                                <Object>
+                                    <AccessionSequenceMolecule>
+                                        <ChemicalType>Protein</ChemicalType>
+                                        <Molecule>
+                                            <GenBankId>P03950.1</GenBankId>
+                                        </Molecule>
+                                        <SourceOrganismId>9606</SourceOrganismId>
+                                    </AccessionSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Representative selection</AntigenEvidenceCode>
+                        </Antigen>
+                        <ThreeDimensionalStructureOfComplex>
+                            <ComplexPdbId>1H0D</ComplexPdbId>
+                            <AntibodyChain1PdbChain>B</AntibodyChain1PdbChain>
+                            <AntibodyChain2PdbChain>A</AntibodyChain2PdbChain>
+                            <AntigenChainPdbChain>C</AntigenChainPdbChain>
+                            <ViewerFlag>Y</ViewerFlag>
+                            <Comments>Comparison of angiogenin (123 aa) in complex with Fab (this structure) with the structure of free angiogenin [PDB: 1B1I] revealed that antibody binding induces dramatic conformational changes in the cell binding region of angiogenin at the opposite end of the molecule from the antibody binding site. The epitope is located at two loops comprising residues 34-41 and 85-91. Their conformation does not change upon antibody binding. Residues 59-68 comprise the cell binding region. They change their conformation dramatically, Rmsd for ten Cα atoms is 13.2 Angstrom. In free angiogenin, residues 62-68 are part of a β-hairpin formed by β-strands 2 and 3 and the intervening loop 66-68; residues 59-61 lie on a loop that connects the hairpin structure with α-helix 3. In the complex, the β-strand 2 is lost, and the entire 58-67 segment forms a loop that extends much further out from the rest of the molecule than does β-hairpin. The authors show that antibody binding, not crystal packing, induces the conformational change. The native conformation is critical for the interaction of angiogenin with surface components on its endothelial cell targets. Antibody binding disables angiogenin by destroying the native conformation of the cell binding region.</Comments>
+                            <CuratedContacts>
+                                <EpitopeResidues>C: G34, L35, S37, P38, C39, K40, D41, G85, G86, S87, P88, W89, P90, P91</EpitopeResidues>
+                                <AntibodyResiduesInteractingWithAntigen>A: N30A:L1, Y30B:L1, F32:L1, S90:L3, K91:L3, E92:L3, V93:L3, L95:L3; B: T33:H1, T50:H2, S52:H2, S52A:H2, G53:H2, N56:H2, Y58:H2, Y98:H3, Y100B:H3</AntibodyResiduesInteractingWithAntigen>
+                                <ContactAreaForAntigen>649.0</ContactAreaForAntigen>
+                                <ContactAreaForAntibody>677.0</ContactAreaForAntibody>
+                                <InteractingAtomPairs>&lt;?xml version="1.0" encoding="UTF-8"?&gt;
+&lt;dataroot xmlns:od="urn:schemas-microsoft-com:officedata" generated="2005-02-16T14:14:54"&gt;
+&lt;contacts_xxxx&gt;
+&lt;AtomPairID&gt;1&lt;/AtomPairID&gt;
+&lt;BindingID&gt;1&lt;/BindingID&gt;
+&lt;PDB_ID&gt;1h0d&lt;/PDB_ID&gt;
+&lt;Antigen_Chain&gt;C&lt;/Antigen_Chain&gt;
+&lt;Antigen_Residue&gt;S (Ser)&lt;/Antigen_Residue&gt;
+&lt;Antigen_Residue_Position&gt;37&lt;/Antigen_Residue_Position&gt;
+&lt;Antigen_Residue_Atom&gt;N&lt;/Antigen_Residue_Atom&gt;
+&lt;Immunoglobulin_Chain&gt;A&lt;/Immunoglobulin_Chain&gt;
+&lt;Immunoglobulin_Residue&gt;Y (Tyr)&lt;/Immunoglobulin_Residue&gt;
+&lt;Immunoglobulin_Residue_Position&gt;30B&lt;/Immunoglobulin_Residue_Position&gt;
+&lt;Immunoglobulin_Residue_Atom&gt;OH&lt;/Immunoglobulin_Residue_Atom&gt;
+&lt;Contact_Type&gt;Hydrogen bond&lt;/Contact_Type&gt;
+&lt;/contacts_xxxx&gt;
+&lt;contacts_xxxx&gt;
+&lt;AtomPairID&gt;2&lt;/AtomPairID&gt;
+&lt;BindingID&gt;1&lt;/BindingID&gt;
+&lt;PDB_ID&gt;1h0d&lt;/PDB_ID&gt;
+&lt;Antigen_Chain&gt;C&lt;/Antigen_Chain&gt;
+&lt;Antigen_Residue&gt;W (Trp)&lt;/Antigen_Residue&gt;
+&lt;Antigen_Residue_Position&gt;89&lt;/Antigen_Residue_Position&gt;
+&lt;Antigen_Residue_Atom&gt;NE1&lt;/Antigen_Residue_Atom&gt;
+&lt;Immunoglobulin_Chain&gt;A&lt;/Immunoglobulin_Chain&gt;
+&lt;Immunoglobulin_Residue&gt;S (Ser)&lt;/Immunoglobulin_Residue&gt;
+&lt;Immunoglobulin_Residue_Position&gt;90&lt;/Immunoglobulin_Residue_Position&gt;
+&lt;Immunoglobulin_Residue_Atom&gt;O&lt;/Immunoglobulin_Residue_Atom&gt;
+&lt;Contact_Type&gt;Hydrogen bond&lt;/Contact_Type&gt;
+&lt;/contacts_xxxx&gt;
+&lt;contacts_xxxx&gt;
+&lt;AtomPairID&gt;3&lt;/AtomPairID&gt;
+&lt;BindingID&gt;1&lt;/BindingID&gt;
+&lt;PDB_ID&gt;1h0d&lt;/PDB_ID&gt;
+&lt;Antigen_Chain&gt;C&lt;/Antigen_Chain&gt;
+&lt;Antigen_Residue&gt;S (Ser)&lt;/Antigen_Residue&gt;
+&lt;Antigen_Residue_Position&gt;37&lt;/Antigen_Residue_Position&gt;
+&lt;Antigen_Residue_Atom&gt;OG&lt;/Antigen_Residue_Atom&gt;
+&lt;Immunoglobulin_Chain&gt;A&lt;/Immunoglobulin_Chain&gt;
+&lt;Immunoglobulin_Residue&gt;K (Lys)&lt;/Immunoglobulin_Residue&gt;
+&lt;Immunoglobulin_Residue_Position&gt;91&lt;/Immunoglobulin_Residue_Position&gt;
+&lt;Immunoglobulin_Residue_Atom&gt;NZ&lt;/Immunoglobulin_Residue_Atom&gt;
+&lt;Contact_Type&gt;Hydrogen bond&lt;/Contact_Type&gt;
+&lt;/contacts_xxxx&gt;
+&lt;contacts_xxxx&gt;
+&lt;AtomPairID&gt;4&lt;/AtomPairID&gt;
+&lt;BindingID&gt;1&lt;/BindingID&gt;
+&lt;PDB_ID&gt;1h0d&lt;/PDB_ID&gt;
+&lt;Antigen_Chain&gt;C&lt;/Antigen_Chain&gt;
+&lt;Antigen_Residue&gt;S (Ser)&lt;/Antigen_Residue&gt;
+&lt;Antigen_Residue_Position&gt;37&lt;/Antigen_Residue_Position&gt;
+&lt;Antigen_Residue_Atom&gt;O&lt;/Antigen_Residue_Atom&gt;
+&lt;Immunoglobulin_Chain&gt;A&lt;/Immunoglobulin_Chain&gt;
+&lt;Immunoglobulin_Residue&gt;K (Lys)&lt;/Immunoglobulin_Residue&gt;
+&lt;Immunoglobulin_Residue_Position&gt;91&lt;/Immunoglobulin_Residue_Position&gt;
+&lt;Immunoglobulin_Residue_Atom&gt;NZ&lt;/Immunoglobulin_Residue_Atom&gt;
+&lt;Contact_Type&gt;Hydrogen bond&lt;/Contact_Type&gt;
+&lt;/contacts_xxxx&gt;
+&lt;contacts_xxxx&gt;
+&lt;AtomPairID&gt;5&lt;/AtomPairID&gt;
+&lt;BindingID&gt;1&lt;/BindingID&gt;
+&lt;PDB_ID&gt;1h0d&lt;/PDB_ID&gt;
+&lt;Antigen_Chain&gt;C&lt;/Antigen_Chain&gt;
+&lt;Antigen_Residue&gt;P (Pro)&lt;/Antigen_Residue&gt;
+&lt;Antigen_Residue_Position&gt;38&lt;/Antigen_Residue_Position&gt;
+&lt;Antigen_Residue_Atom&gt;O&lt;/Antigen_Residue_Atom&gt;
+&lt;Immunoglobulin_Chain&gt;A&lt;/Immunoglobulin_Chain&gt;
+&lt;Immunoglobulin_Residue&gt;Y (Tyr)&lt;/Immunoglobulin_Residue&gt;
+&lt;Immunoglobulin_Residue_Position&gt;30B&lt;/Immunoglobulin_Residue_Position&gt;
+&lt;Immunoglobulin_Residue_Atom&gt;OH&lt;/Immunoglobulin_Residue_Atom&gt;
+&lt;Contact_Type&gt;Hydrogen bond&lt;/Contact_Type&gt;
+&lt;/contacts_xxxx&gt;
+&lt;contacts_xxxx&gt;
+&lt;AtomPairID&gt;6&lt;/AtomPairID&gt;
+&lt;BindingID&gt;1&lt;/BindingID&gt;
+&lt;PDB_ID&gt;1h0d&lt;/PDB_ID&gt;
+&lt;Antigen_Chain&gt;C&lt;/Antigen_Chain&gt;
+&lt;Antigen_Residue&gt;G (Gly)&lt;/Antigen_Residue&gt;
+&lt;Antigen_Residue_Position&gt;86&lt;/Antigen_Residue_Position&gt;
+&lt;Antigen_Residue_Atom&gt;O&lt;/Antigen_Residue_Atom&gt;
+&lt;Immunoglobulin_Chain&gt;B&lt;/Immunoglobulin_Chain&gt;
+&lt;Immunoglobulin_Residue&gt;T (Thr)&lt;/Immunoglobulin_Residue&gt;
+&lt;Immunoglobulin_Residue_Position&gt;33&lt;/Immunoglobulin_Residue_Position&gt;
+&lt;Immunoglobulin_Residue_Atom&gt;OG1&lt;/Immunoglobulin_Residue_Atom&gt;
+&lt;Contact_Type&gt;Hydrogen bond&lt;/Contact_Type&gt;
+&lt;/contacts_xxxx&gt;
+&lt;contacts_xxxx&gt;
+&lt;AtomPairID&gt;7&lt;/AtomPairID&gt;
+&lt;BindingID&gt;1&lt;/BindingID&gt;
+&lt;PDB_ID&gt;1h0d&lt;/PDB_ID&gt;
+&lt;Antigen_Chain&gt;C&lt;/Antigen_Chain&gt;
+&lt;Antigen_Residue&gt;G (Gly)&lt;/Antigen_Residue&gt;
+&lt;Antigen_Residue_Position&gt;85&lt;/Antigen_Residue_Position&gt;
+&lt;Antigen_Residue_Atom&gt;O&lt;/Antigen_Residue_Atom&gt;
+&lt;Immunoglobulin_Chain&gt;B&lt;/Immunoglobulin_Chain&gt;
+&lt;Immunoglobulin_Residue&gt;S (Ser)&lt;/Immunoglobulin_Residue&gt;
+&lt;Immunoglobulin_Residue_Position&gt;52A&lt;/Immunoglobulin_Residue_Position&gt;
+&lt;Immunoglobulin_Residue_Atom&gt;OG&lt;/Immunoglobulin_Residue_Atom&gt;
+&lt;Contact_Type&gt;Hydrogen bond&lt;/Contact_Type&gt;
+&lt;/contacts_xxxx&gt;
+&lt;contacts_xxxx&gt;
+&lt;AtomPairID&gt;8&lt;/AtomPairID&gt;
+&lt;BindingID&gt;1&lt;/BindingID&gt;
+&lt;PDB_ID&gt;1h0d&lt;/PDB_ID&gt;
+&lt;Antigen_Chain&gt;C&lt;/Antigen_Chain&gt;
+&lt;Antigen_Residue&gt;G (Gly)&lt;/Antigen_Residue&gt;
+&lt;Antigen_Residue_Position&gt;85&lt;/Antigen_Residue_Position&gt;
+&lt;Antigen_Residue_Atom&gt;O&lt;/Antigen_Residue_Atom&gt;
+&lt;Immunoglobulin_Chain&gt;B&lt;/Immunoglobulin_Chain&gt;
+&lt;Immunoglobulin_Residue&gt;G (Gly)&lt;/Immunoglobulin_Residue&gt;
+&lt;Immunoglobulin_Residue_Position&gt;53&lt;/Immunoglobulin_Residue_Position&gt;
+&lt;Immunoglobulin_Residue_Atom&gt;N&lt;/Immunoglobulin_Residue_Atom&gt;
+&lt;Contact_Type&gt;Hydrogen bond&lt;/Contact_Type&gt;
+&lt;/contacts_xxxx&gt;
+&lt;contacts_xxxx&gt;
+&lt;AtomPairID&gt;9&lt;/AtomPairID&gt;
+&lt;BindingID&gt;1&lt;/BindingID&gt;
+&lt;PDB_ID&gt;1h0d&lt;/PDB_ID&gt;
+&lt;Antigen_Chain&gt;C&lt;/Antigen_Chain&gt;
+&lt;Antigen_Residue&gt;P (Pro)&lt;/Antigen_Residue&gt;
+&lt;Antigen_Residue_Position&gt;91&lt;/Antigen_Residue_Position&gt;
+&lt;Antigen_Residue_Atom&gt;O&lt;/Antigen_Residue_Atom&gt;
+&lt;Immunoglobulin_Chain&gt;B&lt;/Immunoglobulin_Chain&gt;
+&lt;Immunoglobulin_Residue&gt;N (Asn)&lt;/Immunoglobulin_Residue&gt;
+&lt;Immunoglobulin_Residue_Position&gt;56&lt;/Immunoglobulin_Residue_Position&gt;
+&lt;Immunoglobulin_Residue_Atom&gt;OD1&lt;/Immunoglobulin_Residue_Atom&gt;
+&lt;Contact_Type&gt;Hydrogen bond&lt;/Contact_Type&gt;
+&lt;/contacts_xxxx&gt;
+&lt;contacts_xxxx&gt;
+&lt;AtomPairID&gt;10&lt;/AtomPairID&gt;
+&lt;BindingID&gt;1&lt;/BindingID&gt;
+&lt;PDB_ID&gt;1h0d&lt;/PDB_ID&gt;
+&lt;Antigen_Chain&gt;C&lt;/Antigen_Chain&gt;
+&lt;Antigen_Residue&gt;W (Trp)&lt;/Antigen_Residue&gt;
+&lt;Antigen_Residue_Position&gt;89&lt;/Antigen_Residue_Position&gt;
+&lt;Antigen_Residue_Atom&gt;O&lt;/Antigen_Residue_Atom&gt;
+&lt;Immunoglobulin_Chain&gt;B&lt;/Immunoglobulin_Chain&gt;
+&lt;Immunoglobulin_Residue&gt;Y (Tyr)&lt;/Immunoglobulin_Residue&gt;
+&lt;Immunoglobulin_Residue_Position&gt;58&lt;/Immunoglobulin_Residue_Position&gt;
+&lt;Immunoglobulin_Residue_Atom&gt;OH&lt;/Immunoglobulin_Residue_Atom&gt;
+&lt;Contact_Type&gt;Hydrogen bond&lt;/Contact_Type&gt;
+&lt;/contacts_xxxx&gt;
+&lt;contacts_xxxx&gt;
+&lt;AtomPairID&gt;11&lt;/AtomPairID&gt;
+&lt;BindingID&gt;1&lt;/BindingID&gt;
+&lt;PDB_ID&gt;1h0d&lt;/PDB_ID&gt;
+&lt;Antigen_Chain&gt;C&lt;/Antigen_Chain&gt;
+&lt;Antigen_Residue&gt;W (Trp)&lt;/Antigen_Residue&gt;
+&lt;Antigen_Residue_Position&gt;89&lt;/Antigen_Residue_Position&gt;
+&lt;Antigen_Residue_Atom&gt;N&lt;/Antigen_Residue_Atom&gt;
+&lt;Immunoglobulin_Chain&gt;B&lt;/Immunoglobulin_Chain&gt;
+&lt;Immunoglobulin_Residue&gt;Y (Tyr)&lt;/Immunoglobulin_Residue&gt;
+&lt;Immunoglobulin_Residue_Position&gt;58&lt;/Immunoglobulin_Residue_Position&gt;
+&lt;Immunoglobulin_Residue_Atom&gt;OH&lt;/Immunoglobulin_Residue_Atom&gt;
+&lt;Contact_Type&gt;Hydrogen bond&lt;/Contact_Type&gt;
+&lt;/contacts_xxxx&gt;
+&lt;contacts_xxxx&gt;
+&lt;AtomPairID&gt;12&lt;/AtomPairID&gt;
+&lt;BindingID&gt;1&lt;/BindingID&gt;
+&lt;PDB_ID&gt;1h0d&lt;/PDB_ID&gt;
+&lt;Antigen_Chain&gt;C&lt;/Antigen_Chain&gt;
+&lt;Antigen_Residue&gt;C (Cys)&lt;/Antigen_Residue&gt;
+&lt;Antigen_Residue_Position&gt;39&lt;/Antigen_Residue_Position&gt;
+&lt;Antigen_Residue_Atom&gt;O&lt;/Antigen_Residue_Atom&gt;
+&lt;Immunoglobulin_Chain&gt;B&lt;/Immunoglobulin_Chain&gt;
+&lt;Immunoglobulin_Residue&gt;Y (Tyr)&lt;/Immunoglobulin_Residue&gt;
+&lt;Immunoglobulin_Residue_Position&gt;100B&lt;/Immunoglobulin_Residue_Position&gt;
+&lt;Immunoglobulin_Residue_Atom&gt;OH&lt;/Immunoglobulin_Residue_Atom&gt;
+&lt;Contact_Type&gt;Hydrogen bond&lt;/Contact_Type&gt;
+&lt;/contacts_xxxx&gt;
+&lt;contacts_xxxx&gt;
+&lt;AtomPairID&gt;13&lt;/AtomPairID&gt;
+&lt;BindingID&gt;1&lt;/BindingID&gt;
+&lt;PDB_ID&gt;1h0d&lt;/PDB_ID&gt;
+&lt;Antigen_Chain&gt;C&lt;/Antigen_Chain&gt;
+&lt;Antigen_Residue&gt;G (Gly)&lt;/Antigen_Residue&gt;
+&lt;Antigen_Residue_Position&gt;86&lt;/Antigen_Residue_Position&gt;
+&lt;Antigen_Residue_Atom&gt;O&lt;/Antigen_Residue_Atom&gt;
+&lt;Immunoglobulin_Chain&gt;B&lt;/Immunoglobulin_Chain&gt;
+&lt;Immunoglobulin_Residue&gt;Y (Tyr)&lt;/Immunoglobulin_Residue&gt;
+&lt;Immunoglobulin_Residue_Position&gt;98&lt;/Immunoglobulin_Residue_Position&gt;
+&lt;Immunoglobulin_Residue_Atom&gt;N&lt;/Immunoglobulin_Residue_Atom&gt;
+&lt;Contact_Type&gt;Water-mediated Hydrogen bond&lt;/Contact_Type&gt;
+&lt;/contacts_xxxx&gt;
+&lt;contacts_xxxx&gt;
+&lt;AtomPairID&gt;14&lt;/AtomPairID&gt;
+&lt;BindingID&gt;1&lt;/BindingID&gt;
+&lt;PDB_ID&gt;1h0d&lt;/PDB_ID&gt;
+&lt;Antigen_Chain&gt;C&lt;/Antigen_Chain&gt;
+&lt;Antigen_Residue&gt;G (Gly)&lt;/Antigen_Residue&gt;
+&lt;Antigen_Residue_Position&gt;86&lt;/Antigen_Residue_Position&gt;
+&lt;Antigen_Residue_Atom&gt;O&lt;/Antigen_Residue_Atom&gt;
+&lt;Immunoglobulin_Chain&gt;B&lt;/Immunoglobulin_Chain&gt;
+&lt;Immunoglobulin_Residue&gt;Y (Tyr)&lt;/Immunoglobulin_Residue&gt;
+&lt;Immunoglobulin_Residue_Position&gt;102&lt;/Immunoglobulin_Residue_Position&gt;
+&lt;Immunoglobulin_Residue_Atom&gt;OH&lt;/Immunoglobulin_Residue_Atom&gt;
+&lt;Contact_Type&gt;Water-mediated Hydrogen bond&lt;/Contact_Type&gt;
+&lt;/contacts_xxxx&gt;
+&lt;contacts_xxxx&gt;
+&lt;AtomPairID&gt;15&lt;/AtomPairID&gt;
+&lt;BindingID&gt;1&lt;/BindingID&gt;
+&lt;PDB_ID&gt;1h0d&lt;/PDB_ID&gt;
+&lt;Antigen_Chain&gt;C&lt;/Antigen_Chain&gt;
+&lt;Antigen_Residue&gt;S (Ser)&lt;/Antigen_Residue&gt;
+&lt;Antigen_Residue_Position&gt;37&lt;/Antigen_Residue_Position&gt;
+&lt;Antigen_Residue_Atom&gt;O&lt;/Antigen_Residue_Atom&gt;
+&lt;Immunoglobulin_Chain&gt;A&lt;/Immunoglobulin_Chain&gt;
+&lt;Immunoglobulin_Residue&gt;N (Asn)&lt;/Immunoglobulin_Residue&gt;
+&lt;Immunoglobulin_Residue_Position&gt;30A&lt;/Immunoglobulin_Residue_Position&gt;
+&lt;Immunoglobulin_Residue_Atom&gt;ND2&lt;/Immunoglobulin_Residue_Atom&gt;
+&lt;Contact_Type&gt;Hydrogen bond&lt;/Contact_Type&gt;
+&lt;/contacts_xxxx&gt;
+&lt;/dataroot&gt;</InteractingAtomPairs>
+                            </CuratedContacts>
+                            <CalculatedContacts>
+                                <EpitopeResidues>C: G34, L35, T36, S37, P38, C39, K40, D41, L83, G85, G86, S87, P88, W89, P90, P91, Q93</EpitopeResidues>
+                                <AntibodyResiduesInteractingWithAntigen>A: Y30B, N30A, F32, S90, K91, E92, V93, L95; B: T33, T50, S52, S52A, G53, N56, Y58, L95, Y98, Y100B</AntibodyResiduesInteractingWithAntigen>
+                                <ContactAreaForAntigen>682.1</ContactAreaForAntigen>
+                                <ContactAreaForAntibody>628.0</ContactAreaForAntibody>
+                            </CalculatedContacts>
+                        </ThreeDimensionalStructureOfComplex>
+                    </BCell>
+                </Assays>
+            </Epitope>
+        </Epitopes>
+    </Reference>
+</References>
+

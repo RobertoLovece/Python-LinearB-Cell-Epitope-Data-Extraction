@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<References xsi:schemaLocation="http://www.iedb.org/schema/CurationSchema http://beta.iedb.org/schema/Curation.xsd" xmlns="http://www.iedb.org/schema/CurationSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <Reference>
+        <ReferenceId>989</ReferenceId>
+        <DateLastUpdated>2020-08-26-07:00</DateLastUpdated>
+        <Article>
+            <PubmedId>8698474</PubmedId>
+            <Abstract>In order to test the influence of the cell surface density of a specific H2-Kd-presented epitope on the subsequent level of the cytotoxic-T-lymphocyte (CTL) response directed against the epitope, we investigated the CTL response to two secreted products of Listeria monocytogenes from mice immunized with viable L. monocytogenes. We determined the response to the H2-Kd-presented amino acid 91 to 99 (aa91-99) immunodominant peptide of listeriolysin O (LLO) and to the aa217-225 immunodominant peptide of p60. The p60-derived peptide appears at the cell surface as an H2-Kd-complexed peptide at a level sixfold higher than that of LLO aa91-99. CTL frequency analysis of anti-LLO- or anti-p60-specific CTLs from mice immunized with wild-type L. monocytogenes showed that the numbers of immune spleen cell-derived CTLs specific for the two peptides were essentially equivalent. We have also found that Listeria-specific CTL populations lyse target cells pulsed with the p60 aa217-225 peptide with a magnitude of the lytic response markedly less than that for targets pulsed with the LLO aa91-99 peptide. Additionally, immunization with mutants of L. monocytogenes which do not stimulate anti-LLO-specific CTLs does not alter the CTL frequency of anti-p60-specific effector cells, with levels of anti-p60-specific CTLs similar to those seen in mice immunized with wild-type L. monocytogenes. These results suggest that the relative cell surface density of major histocompatibility complex class I-presented L. monocytogenes-derived epitopes is but one of the criteria which determine the magnitude of the cytotoxic effector cell response that develops in antilisterial immunity.</Abstract>
+            <ArticleYear>1996</ArticleYear>
+            <ArticlePages>2515-22</ArticlePages>
+            <ArticleTitle>Cytotoxic-T-lymphocyte responses to epitopes of listeriolysin O and p60 following infection with Listeria monocytogenes.</ArticleTitle>
+            <Authors>
+                <Author>
+                    <LastName>Bouwer</LastName>
+                    <ForeName>H G</ForeName>
+                </Author>
+                <Author>
+                    <LastName>Hinrichs</LastName>
+                    <ForeName>D J</ForeName>
+                </Author>
+            </Authors>
+            <Affiliations>Veterans Affairs Medical Center, Portland, Oregon 97201, USA.</Affiliations>
+            <ArticleChemicalList>60 kDa protein, Listeria monocytogenes;Bacterial Proteins;Bacterial Toxins;H-2 Antigens;H-2K(K) antigen;Heat-Shock Proteins;Hemolysin Proteins;Immunodominant Epitopes;hlyA protein, Listeria monocytogenes</ArticleChemicalList>
+            <ArticleMeshHeadingsList>Amino Acid Sequence; Animals; Antigen Presentation; Bacterial Proteins(genetics; immunology); Bacterial Toxins; Cells, Cultured; Cytotoxicity, Immunologic; Female; H-2 Antigens; Heat-Shock Proteins(genetics; immunology); Hemolysin Proteins; Immunization; Immunodominant Epitopes(genetics); In Vitro Techniques; Listeria monocytogenes(genetics; immunology; pathogenicity); Listeriosis(immunology; microbiology); Mice; Mice, Inbred BALB C; Molecular Sequence Data; Mutation; Spleen(cytology; immunology); T-Lymphocytes, Cytotoxic(immunology); Virulence(genetics)</ArticleMeshHeadingsList>
+            <Journal>
+                <Volume>64</Volume>
+                <Issue>7</Issue>
+                <Title>Infection and immunity</Title>
+                <Issn>0019-9567</Issn>
+                <MedlineTa>Infect Immun</MedlineTa>
+            </Journal>
+        </Article>
+        <Epitopes>
+            <Epitope>
+                <EpitopeName>aa 91-99</EpitopeName>
+                <EpitopeStructure>
+                    <FragmentOfANaturalSequenceMolecule>
+                        <ChemicalType>Peptide from protein</ChemicalType>
+                        <LinearSequence>GYKDGNEYI</LinearSequence>
+                        <StartingPosition>91</StartingPosition>
+                        <EndingPosition>99</EndingPosition>
+                        <SourceMolecule>
+                            <GenBankId>P13128.1</GenBankId>
+                        </SourceMolecule>
+                        <SourceOrganismId>1639</SourceOrganismId>
+                    </FragmentOfANaturalSequenceMolecule>
+                </EpitopeStructure>
+                <EpitopeId>23376</EpitopeId>
+                <EpitopeEvidenceCode>Not determined</EpitopeEvidenceCode>
+                <EpitopeStructureDefines>Exact Epitope</EpitopeStructureDefines>
+                <Assays>
+                    <TCell>
+                        <LocationOfData>Figure 2</LocationOfData>
+                        <TCellId>1270267</TCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>10000000</OrganismId>
+                                <Sex>F</Sex>
+                                <Age>8-weeks-old</Age>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Administration in vivo</InVivoProcessType>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Source Organism</EpitopeRelation>
+                                    <Object>
+                                        <Organism>
+                                            <SubType>Organism</SubType>
+                                            <SourceOrganismId>1639</SourceOrganismId>
+                                        </Organism>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenReferenceName>Listeria monocytogenes</ImmunogenReferenceName>
+                                <ImmunogenEvidenceCode>Not determined</ImmunogenEvidenceCode>
+                                <DoseSchedule>0.1 LD50 of Listeria monocytogenes</DoseSchedule>
+                            </FirstInVivoProcess>
+                            <ImmunizationComments>Mice were immunized with 0.1 LD50 of viable L. monocytogenes injected via the tail vein.</ImmunizationComments>
+                        </Immunization>
+                        <EffectorCells>
+                            <CellTissueType>Spleen</CellTissueType>
+                            <CellType>T cell</CellType>
+                            <CellCultureConditions>Direct Ex Vivo</CellCultureConditions>
+                        </EffectorCells>
+                        <AntigenPresentingCells>
+                            <CellTissueType>Other</CellTissueType>
+                            <CellType>P815-Mast cell</CellType>
+                            <CellCultureConditions>Cell Line / Clone</CellCultureConditions>
+                        </AntigenPresentingCells>
+                        <MhcAllele>
+                            <MhcAlleleId>124</MhcAlleleId>
+                            <MhcEvidenceCode>Not determined</MhcEvidenceCode>
+                        </MhcAllele>
+                        <Antigen>
+                            <AntigenReferenceName>aa 91-99</AntigenReferenceName>
+                            <AntigenObject>
+                                <EpitopeRelation>Epitope</EpitopeRelation>
+                                <Object>
+                                    <FragmentOfANaturalSequenceMolecule>
+                                        <ChemicalType>Peptide from protein</ChemicalType>
+                                        <LinearSequence>GYKDGNEYI</LinearSequence>
+                                        <StartingPosition>91</StartingPosition>
+                                        <EndingPosition>99</EndingPosition>
+                                        <SourceMolecule>
+                                            <GenBankId>P13128.1</GenBankId>
+                                        </SourceMolecule>
+                                        <SourceOrganismId>1639</SourceOrganismId>
+                                    </FragmentOfANaturalSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Exact match to reference information</AntigenEvidenceCode>
+                        </Antigen>
+                        <AssayInformation>
+                            <AssayTypeId>67</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <AssayComments>Spleen cells were obtained six days after immunization and were stimulated in culture with Con A for 72 hours and used as anti-listeria CTLs. The level of cytolysis was two to three fold more compared with that of anti-p60-specific lysis with primary CTLs.In another experiment, mice were immunized with mutant L. monocytogenes. CTLs obtained from these mice have reduced levels of LLO endogenous processing and presentation. Despite the reduction in presentation, the level of anti-LLO specific lysis by CTL was not reduced and was comparable to wild type L. monocytogenes. In addition, anti-p60-specific lysis by CTLs from these mutant mice was not enhanced or altered. Mutant bacteria producing less LLO have similar responses to the LLO peptide and that absence of an LLO response does not enhance p60 responses.</AssayComments>
+                        </AssayInformation>
+                    </TCell>
+                </Assays>
+            </Epitope>
+            <Epitope>
+                <EpitopeName>aa 217-225</EpitopeName>
+                <EpitopeStructure>
+                    <FragmentOfANaturalSequenceMolecule>
+                        <ChemicalType>Peptide from protein</ChemicalType>
+                        <LinearSequence>KYGVSVQDI</LinearSequence>
+                        <StartingPosition>217</StartingPosition>
+                        <EndingPosition>225</EndingPosition>
+                        <SourceMolecule>
+                            <GenBankId>P21171.2</GenBankId>
+                        </SourceMolecule>
+                        <SourceOrganismId>1639</SourceOrganismId>
+                    </FragmentOfANaturalSequenceMolecule>
+                </EpitopeStructure>
+                <EpitopeId>34446</EpitopeId>
+                <EpitopeEvidenceCode>Not determined</EpitopeEvidenceCode>
+                <EpitopeStructureDefines>Exact Epitope</EpitopeStructureDefines>
+                <Assays>
+                    <TCell>
+                        <LocationOfData>Figure 2</LocationOfData>
+                        <TCellId>1270268</TCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>10000000</OrganismId>
+                                <Sex>F</Sex>
+                                <Age>8-weeks-old</Age>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Administration in vivo</InVivoProcessType>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Source Organism</EpitopeRelation>
+                                    <Object>
+                                        <Organism>
+                                            <SubType>Organism</SubType>
+                                            <SourceOrganismId>1639</SourceOrganismId>
+                                        </Organism>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenReferenceName>Listeria monocytogenes</ImmunogenReferenceName>
+                                <ImmunogenEvidenceCode>Not determined</ImmunogenEvidenceCode>
+                                <DoseSchedule>0.1 LD50 of Listeria monocytogenes</DoseSchedule>
+                            </FirstInVivoProcess>
+                            <ImmunizationComments>Mice were immunized with 0.1 LD50 of viable L. monocytogenes injected via the tail vein.</ImmunizationComments>
+                        </Immunization>
+                        <EffectorCells>
+                            <CellTissueType>Spleen</CellTissueType>
+                            <CellType>T cell</CellType>
+                            <CellCultureConditions>Direct Ex Vivo</CellCultureConditions>
+                        </EffectorCells>
+                        <AntigenPresentingCells>
+                            <CellTissueType>Other</CellTissueType>
+                            <CellType>P815-Mast cell</CellType>
+                            <CellCultureConditions>Cell Line / Clone</CellCultureConditions>
+                        </AntigenPresentingCells>
+                        <MhcAllele>
+                            <MhcAlleleId>124</MhcAlleleId>
+                            <MhcEvidenceCode>Not determined</MhcEvidenceCode>
+                        </MhcAllele>
+                        <Antigen>
+                            <AntigenReferenceName>aa 217-225</AntigenReferenceName>
+                            <AntigenObject>
+                                <EpitopeRelation>Epitope</EpitopeRelation>
+                                <Object>
+                                    <FragmentOfANaturalSequenceMolecule>
+                                        <ChemicalType>Peptide from protein</ChemicalType>
+                                        <LinearSequence>KYGVSVQDI</LinearSequence>
+                                        <StartingPosition>217</StartingPosition>
+                                        <EndingPosition>225</EndingPosition>
+                                        <SourceMolecule>
+                                            <GenBankId>P21171.2</GenBankId>
+                                        </SourceMolecule>
+                                        <SourceOrganismId>1639</SourceOrganismId>
+                                    </FragmentOfANaturalSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Exact match to reference information</AntigenEvidenceCode>
+                        </Antigen>
+                        <AssayInformation>
+                            <AssayTypeId>67</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <AssayComments>Spleen cells were obtained six days after immunization and were stimulated in culture with Con A for 72 hours and used as anti-listeria CTLs. The level of cytolysis was two to three fold more compared with that of anti-LLO-specific lysis with primary CTLs.In another experiment, mice were immunized with mutant L. monocytogenes. CTLs obtained from these mice have reduced levels of LLO endogenous processing and presentation. Despite the reduction in presentation, the level of anti-LLO specific lysis by CTL was not reduced and was comparable to wild type L. monocytogenes. In addition, anti-p60-specific lysis by CTLs from these mutant mice was not enhanced or altered. Mutant bacteria producing less LLO have similar responses to the LLO peptide and that absence of an LLO response does not enhance p60 responses.</AssayComments>
+                        </AssayInformation>
+                    </TCell>
+                </Assays>
+            </Epitope>
+        </Epitopes>
+    </Reference>
+</References>
+

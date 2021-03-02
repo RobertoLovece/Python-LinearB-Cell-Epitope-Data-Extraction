@@ -1,0 +1,704 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<References xsi:schemaLocation="http://www.iedb.org/schema/CurationSchema http://beta.iedb.org/schema/Curation.xsd" xmlns="http://www.iedb.org/schema/CurationSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <Reference>
+        <ReferenceId>1368</ReferenceId>
+        <Keywords>The MHC allele entries are correct (HLA-A2.1), I don't know why this is choking up the promotions.</Keywords>
+        <DateLastUpdated>2020-09-10-07:00</DateLastUpdated>
+        <Article>
+            <PubmedId>15194781</PubmedId>
+            <Abstract>CD8(+) T lymphocytes have been shown to be involved in controlling poxvirus infection, but no protective cytotoxic T-lymphocyte (CTL) epitopes are defined for variola virus, the causative agent of smallpox, or for vaccinia virus. Of several peptides in vaccinia virus predicted to bind HLA-A2.1, three, VETFsm(498-506), A26L(6-14), and HRP2(74-82), were found to bind HLA-A2.1. Splenocytes from HLA-A2.1 transgenic mice immunized with vaccinia virus responded only to HRP2(74-82) at 1 week and to all three epitopes by ex vivo enzyme-linked immunosorbent spot (ELISPOT) assay at 4 weeks postimmunization. To determine if these epitopes could elicit a protective CD8(+) T-cell response, we challenged peptide-immunized HLA-A2.1 transgenic mice intranasally with a lethal dose of the WR strain of vaccinia virus. HRP2(74-82) peptide-immunized mice recovered from infection, while naïve mice died. Depletion of CD8(+) T cells eliminated protection. Protection of HHD-2 mice, lacking mouse class I major histocompatibility complex molecules, implicates CTLs restricted by human HLA-A2.1 as mediators of protection. These results suggest that HRP2(74-82), which is shared between vaccinia and variola viruses, may be a CD8(+) T-cell epitope of vaccinia virus that will provide cross-protection against smallpox in HLA-A2.1-positive individuals, representing almost half the population.</Abstract>
+            <ArticleYear>2004</ArticleYear>
+            <ArticlePages>7052-60</ArticlePages>
+            <ArticleTitle>Protection against lethal vaccinia virus challenge in HLA-A2 transgenic mice by immunization with a single CD8+ T-cell peptide epitope of vaccinia and variola viruses.</ArticleTitle>
+            <Authors>
+                <Author>
+                    <LastName>Snyder</LastName>
+                    <ForeName>James T</ForeName>
+                </Author>
+                <Author>
+                    <LastName>Belyakov</LastName>
+                    <ForeName>Igor M</ForeName>
+                </Author>
+                <Author>
+                    <LastName>Dzutsev</LastName>
+                    <ForeName>Amiran</ForeName>
+                </Author>
+                <Author>
+                    <LastName>Lemonnier</LastName>
+                    <ForeName>François</ForeName>
+                </Author>
+                <Author>
+                    <LastName>Berzofsky</LastName>
+                    <ForeName>Jay A</ForeName>
+                </Author>
+            </Authors>
+            <Affiliations>Vaccine Branch, Center for Cancer Research, National Cancer Institute, National Institutes of Health, Bethesda, MD 20892-1578, USA.</Affiliations>
+            <ArticleChemicalList>Epitopes, T-Lymphocyte;HLA-A2 Antigen;Immunodominant Epitopes;Peptides;Smallpox Vaccine</ArticleChemicalList>
+            <ArticleMeshHeadingsList>Amino Acid Sequence; Animals; CD8-Positive T-Lymphocytes(immunology); Cell Line; Epitopes, T-Lymphocyte(immunology); HLA-A2 Antigen(genetics); Humans; Immunodominant Epitopes; Mice; Mice, Inbred C57BL; Mice, Transgenic; Peptides(chemistry; immunology); Smallpox(immunology; prevention &amp; control); Smallpox Vaccine(administration &amp; dosage; immunology); Vaccination; Vaccinia virus(immunology; pathogenicity); Variola virus(immunology)</ArticleMeshHeadingsList>
+            <Journal>
+                <Volume>78</Volume>
+                <Issue>13</Issue>
+                <Title>Journal of virology</Title>
+                <Issn>1098-5514</Issn>
+                <MedlineTa>J Virol</MedlineTa>
+            </Journal>
+        </Article>
+        <Epitopes>
+            <Epitope>
+                <EpitopeName>HRP2(74-82)</EpitopeName>
+                <EpitopeStructure>
+                    <FragmentOfANaturalSequenceMolecule>
+                        <ChemicalType>Peptide from protein</ChemicalType>
+                        <LinearSequence>KVDDTFYYV</LinearSequence>
+                        <StartingPosition>74</StartingPosition>
+                        <EndingPosition>82</EndingPosition>
+                        <SourceMolecule>
+                            <GenBankId>P68600.1</GenBankId>
+                        </SourceMolecule>
+                        <SourceOrganismId>10245</SourceOrganismId>
+                    </FragmentOfANaturalSequenceMolecule>
+                </EpitopeStructure>
+                <LocationOfData>Table 1</LocationOfData>
+                <EpitopeId>33967</EpitopeId>
+                <ReferenceStartingPosition>74</ReferenceStartingPosition>
+                <ReferenceEndingPosition>82</ReferenceEndingPosition>
+                <EpitopeEvidenceCode>Not determined</EpitopeEvidenceCode>
+                <EpitopeStructureDefines>Exact Epitope</EpitopeStructureDefines>
+                <EpitopeComments>This sequence is identical in all known strains of vaccinia virus and in variola (smallpox) virus.</EpitopeComments>
+                <Assays>
+                    <TCell>
+                        <LocationOfData>Figure 5</LocationOfData>
+                        <TCellId>21539</TCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>10090</OrganismId>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Administration in vivo to prevent or reduce disease</InVivoProcessType>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Epitope</EpitopeRelation>
+                                    <Object>
+                                        <FragmentOfANaturalSequenceMolecule>
+                                            <ChemicalType>Peptide from protein</ChemicalType>
+                                            <LinearSequence>KVDDTFYYV</LinearSequence>
+                                            <StartingPosition>74</StartingPosition>
+                                            <EndingPosition>82</EndingPosition>
+                                            <SourceMolecule>
+                                                <GenBankId>P68600.1</GenBankId>
+                                            </SourceMolecule>
+                                            <SourceOrganismId>10245</SourceOrganismId>
+                                        </FragmentOfANaturalSequenceMolecule>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenReferenceName>HRP2(74-82)</ImmunogenReferenceName>
+                                <ImmunogenEvidenceCode>Exact match to reference information</ImmunogenEvidenceCode>
+                                <Adjuvant>Freund's incomplete (IFA)</Adjuvant>
+                                <Route>Subcutaneous (s.c.)</Route>
+                                <DoseSchedule>Three times in the base of the tail at 2-wk intervals with 50 nmol peptide, 50 nmol hepatitis B virus core helper peptide, 5 μg GM-CSFand 800 IU of IL-2 in IFA.</DoseSchedule>
+                            </FirstInVivoProcess>
+                            <ImmunizationComments>One month after the third immunization, the mice were challenged intranasally with a lethal amount (10&lt;SUP&gt;6&lt;/SUP&gt; PFU) of wild-type vaccinia virus (strain WR). Immunized mice from strain HHD-2 (C57BL/6 Db null, B2m null, A2.1 transgenic) and A2Kb (C57BL/6 Db/Kb, A2.1 transgenic) were used.</ImmunizationComments>
+                        </Immunization>
+                        <MhcAllele>
+                            <MhcAlleleId>143</MhcAlleleId>
+                            <MhcEvidenceCode>Not determined</MhcEvidenceCode>
+                        </MhcAllele>
+                        <Antigen>
+                            <AntigenObject>
+                                <EpitopeRelation>Source Organism</EpitopeRelation>
+                                <Object>
+                                    <Organism>
+                                        <SubType>Organism</SubType>
+                                        <SourceOrganismId>10245</SourceOrganismId>
+                                    </Organism>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Not determined</AntigenEvidenceCode>
+                        </Antigen>
+                        <AssayInformation>
+                            <AssayTypeId>127</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <QuantitativeMeasurement>100.0</QuantitativeMeasurement>
+                            <AssayComments>In addition to enhanced survival and lessened severity of disease as indicated by weight loss, the onset of disease following viral challenge was delayed for 2 days in immunized mice as compared to unimmunized mice. The protection against death was dependent on CD8&lt;SUP&gt;+&lt;/SUP&gt; T cells, as depletion of these with anti-CD8 prior to challenge resulted in weight loss and death indistinguishable from that in unimmunized mice. Similar, but lower (82%) survival was seen with A2Kb (A2.1 transgenic, Kb+, Db+) mice.</AssayComments>
+                        </AssayInformation>
+                    </TCell>
+                </Assays>
+                <Assays>
+                    <TCell>
+                        <LocationOfData>Figure 2</LocationOfData>
+                        <TCellId>21536</TCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>10000589</OrganismId>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Administration in vivo</InVivoProcessType>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Source Organism</EpitopeRelation>
+                                    <Object>
+                                        <Organism>
+                                            <SubType>Organism</SubType>
+                                            <SourceOrganismId>10245</SourceOrganismId>
+                                        </Organism>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenEvidenceCode>Not determined</ImmunogenEvidenceCode>
+                                <Route>Intraperitoneal (i.p.)</Route>
+                                <DoseSchedule>1 dose (1-2x10&lt;SUP&gt;7&lt;/SUP&gt; PFU) of vaccinia vSC8.</DoseSchedule>
+                            </FirstInVivoProcess>
+                            <ImmunizationComments>AAD transgenic mice (C57BL/6 Db/Kb, A2.1/Dd transgenic) were injected with the attenuated, replication-competent vaccinia virus vSC8.</ImmunizationComments>
+                        </Immunization>
+                        <EffectorCells>
+                            <CellTissueType>Spleen</CellTissueType>
+                            <CellType>T cell CD8+</CellType>
+                            <CellCultureConditions>Direct Ex Vivo</CellCultureConditions>
+                        </EffectorCells>
+                        <AntigenPresentingCells>
+                            <CellTissueType>Lymphoid</CellTissueType>
+                            <CellType>C1R cells-B cell</CellType>
+                            <CellCultureConditions>Cell Line / Clone</CellCultureConditions>
+                            <SourceOrganismId>9606</SourceOrganismId>
+                        </AntigenPresentingCells>
+                        <MhcAllele>
+                            <MhcAlleleId>143</MhcAlleleId>
+                            <MhcEvidenceCode>Not determined</MhcEvidenceCode>
+                        </MhcAllele>
+                        <Antigen>
+                            <AntigenReferenceName>HRP2(74-82)</AntigenReferenceName>
+                            <AntigenObject>
+                                <EpitopeRelation>Epitope</EpitopeRelation>
+                                <Object>
+                                    <FragmentOfANaturalSequenceMolecule>
+                                        <ChemicalType>Peptide from protein</ChemicalType>
+                                        <LinearSequence>KVDDTFYYV</LinearSequence>
+                                        <StartingPosition>74</StartingPosition>
+                                        <EndingPosition>82</EndingPosition>
+                                        <SourceMolecule>
+                                            <GenBankId>P68600.1</GenBankId>
+                                        </SourceMolecule>
+                                        <SourceOrganismId>10245</SourceOrganismId>
+                                    </FragmentOfANaturalSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Exact match to reference information</AntigenEvidenceCode>
+                        </Antigen>
+                        <AssayInformation>
+                            <AssayTypeId>48</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <AssayComments>The human cell line C1R.AAD (transfected with A2.1/Dd MHC) was used as APC. Epitope-specific, IFN-γ-secreting T lymphocytes were found at 1 wk and at 1 month postinfection.</AssayComments>
+                        </AssayInformation>
+                    </TCell>
+                </Assays>
+                <Assays>
+                    <TCell>
+                        <LocationOfData>Figures 3, 6</LocationOfData>
+                        <TCellId>21538</TCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>10090</OrganismId>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Administration in vivo</InVivoProcessType>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Epitope</EpitopeRelation>
+                                    <Object>
+                                        <FragmentOfANaturalSequenceMolecule>
+                                            <ChemicalType>Peptide from protein</ChemicalType>
+                                            <LinearSequence>KVDDTFYYV</LinearSequence>
+                                            <StartingPosition>74</StartingPosition>
+                                            <EndingPosition>82</EndingPosition>
+                                            <SourceMolecule>
+                                                <GenBankId>P68600.1</GenBankId>
+                                            </SourceMolecule>
+                                            <SourceOrganismId>10245</SourceOrganismId>
+                                        </FragmentOfANaturalSequenceMolecule>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenReferenceName>HRP2(74-82)</ImmunogenReferenceName>
+                                <ImmunogenEvidenceCode>Exact match to reference information</ImmunogenEvidenceCode>
+                                <Adjuvant>Freund's incomplete (IFA)</Adjuvant>
+                                <Route>Subcutaneous (s.c.)</Route>
+                                <DoseSchedule>Twice in the base of the tail at a 2-wk interval with 50 nmol peptide, 50 nmol hepatitis B virus core helper peptide, 5 μg GM-CSF and 800 IU of IL-2 in IFA.</DoseSchedule>
+                            </FirstInVivoProcess>
+                            <InVitroAdministration>
+                                <ProcessType>Restimulation in vitro</ProcessType>
+                                <ResponderCellType>Splenocyte</ResponderCellType>
+                                <StimulatorCellType>Splenocyte</StimulatorCellType>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Epitope</EpitopeRelation>
+                                    <Object>
+                                        <FragmentOfANaturalSequenceMolecule>
+                                            <ChemicalType>Peptide from protein</ChemicalType>
+                                            <LinearSequence>KVDDTFYYV</LinearSequence>
+                                            <StartingPosition>74</StartingPosition>
+                                            <EndingPosition>82</EndingPosition>
+                                            <SourceMolecule>
+                                                <GenBankId>P68600.1</GenBankId>
+                                            </SourceMolecule>
+                                            <SourceOrganismId>10245</SourceOrganismId>
+                                        </FragmentOfANaturalSequenceMolecule>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenEvidenceCode>Exact match to reference information</ImmunogenEvidenceCode>
+                            </InVitroAdministration>
+                            <ImmunizationComments>Immunized mice were A2.1 transgenic, either from strain A2Kb (C57BL/6 Db/Kb, A2.1/Kb transgenic) or HHD-2 (C57BL/6 Db null, B2m null, A2.1 transgenic)  Splenocytes were restimulated with peptide for 1 week, with 2 rounds of stimulation.</ImmunizationComments>
+                        </Immunization>
+                        <EffectorCells>
+                            <CellTissueType>Spleen</CellTissueType>
+                            <CellType>T cell CD8+</CellType>
+                            <CellCultureConditions>Short Term Restimulated</CellCultureConditions>
+                        </EffectorCells>
+                        <AntigenPresentingCells>
+                            <CellTissueType>Lymphoid</CellTissueType>
+                            <CellType>C1R cells-B cell</CellType>
+                            <CellCultureConditions>Cell Line / Clone</CellCultureConditions>
+                            <SourceOrganismId>9606</SourceOrganismId>
+                        </AntigenPresentingCells>
+                        <MhcAllele>
+                            <MhcAlleleId>143</MhcAlleleId>
+                            <MhcEvidenceCode>Not determined</MhcEvidenceCode>
+                        </MhcAllele>
+                        <Antigen>
+                            <AntigenObject>
+                                <EpitopeRelation>Source Organism</EpitopeRelation>
+                                <Object>
+                                    <Organism>
+                                        <SubType>Organism</SubType>
+                                        <SourceOrganismId>10245</SourceOrganismId>
+                                    </Organism>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Not determined</AntigenEvidenceCode>
+                        </Antigen>
+                        <AssayInformation>
+                            <AssayTypeId>48</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <AssayComments>CD8+ T cells raised by immunization and restimulation with peptide recognize cells infected with virus, indicating that the epitope is naturally processed endogenously and is presented on HLA-A2 molecules of infected cells. Similar results are seen in A2.1 transgenic strains A2Kb and HHD-2, implying the presence of the HLA molecule is related to the responses seen. When HHD-2 mice were challenged one month later with vaccinia virus, the epitope specific responsive CD8+ population is expanded, with the relative immunodominance of the epitope significantly increased, to a 50% of total virus specific CD8+ T cells recognizing this epitope, while ~1% do recognize it in the virus-immunized mice.</AssayComments>
+                        </AssayInformation>
+                    </TCell>
+                </Assays>
+                <Assays>
+                    <TCell>
+                        <LocationOfData>Figure 3</LocationOfData>
+                        <TCellId>21537</TCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>10000081</OrganismId>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Administration in vivo</InVivoProcessType>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Epitope</EpitopeRelation>
+                                    <Object>
+                                        <FragmentOfANaturalSequenceMolecule>
+                                            <ChemicalType>Peptide from protein</ChemicalType>
+                                            <LinearSequence>KVDDTFYYV</LinearSequence>
+                                            <StartingPosition>74</StartingPosition>
+                                            <EndingPosition>82</EndingPosition>
+                                            <SourceMolecule>
+                                                <GenBankId>P68600.1</GenBankId>
+                                            </SourceMolecule>
+                                            <SourceOrganismId>10245</SourceOrganismId>
+                                        </FragmentOfANaturalSequenceMolecule>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenReferenceName>HRP2(74-82)</ImmunogenReferenceName>
+                                <ImmunogenEvidenceCode>Exact match to reference information</ImmunogenEvidenceCode>
+                                <Adjuvant>Freund's incomplete (IFA)</Adjuvant>
+                                <Route>Subcutaneous (s.c.)</Route>
+                                <DoseSchedule>Twice in the base of the tail at a 2-wk interval with 50 nmol peptide, 50 nmol hepatitis B virus core helper peptide, 5 μg GM-CSF and 800 IU of IL-2 in IFA.</DoseSchedule>
+                            </FirstInVivoProcess>
+                            <InVitroAdministration>
+                                <ProcessType>Restimulation in vitro</ProcessType>
+                                <ResponderCellType>Splenocyte</ResponderCellType>
+                                <StimulatorCellType>Splenocyte</StimulatorCellType>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Epitope</EpitopeRelation>
+                                    <Object>
+                                        <FragmentOfANaturalSequenceMolecule>
+                                            <ChemicalType>Peptide from protein</ChemicalType>
+                                            <LinearSequence>KVDDTFYYV</LinearSequence>
+                                            <StartingPosition>74</StartingPosition>
+                                            <EndingPosition>82</EndingPosition>
+                                            <SourceMolecule>
+                                                <GenBankId>P68600.1</GenBankId>
+                                            </SourceMolecule>
+                                            <SourceOrganismId>10245</SourceOrganismId>
+                                        </FragmentOfANaturalSequenceMolecule>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenEvidenceCode>Exact match to reference information</ImmunogenEvidenceCode>
+                            </InVitroAdministration>
+                            <ImmunizationComments>Strain A2Kb mice (C57BL/6 Db/Kb, A2.1/Kb transgenic) were the source of immune splenocytes.  Splenocytes were restimulated in 2 rounds of weekly incubation with peptide.</ImmunizationComments>
+                        </Immunization>
+                        <EffectorCells>
+                            <CellTissueType>Spleen</CellTissueType>
+                            <CellType>T cell CD8+</CellType>
+                            <CellCultureConditions>Short Term Restimulated</CellCultureConditions>
+                        </EffectorCells>
+                        <AntigenPresentingCells>
+                            <CellTissueType>Lymphoid</CellTissueType>
+                            <CellType>C1R cells-B cell</CellType>
+                            <CellCultureConditions>Cell Line / Clone</CellCultureConditions>
+                            <SourceOrganismId>9606</SourceOrganismId>
+                        </AntigenPresentingCells>
+                        <MhcAllele>
+                            <MhcAlleleId>143</MhcAlleleId>
+                            <MhcEvidenceCode>Not determined</MhcEvidenceCode>
+                        </MhcAllele>
+                        <Antigen>
+                            <AntigenReferenceName>HRP2(74-82)</AntigenReferenceName>
+                            <AntigenObject>
+                                <EpitopeRelation>Epitope</EpitopeRelation>
+                                <Object>
+                                    <FragmentOfANaturalSequenceMolecule>
+                                        <ChemicalType>Peptide from protein</ChemicalType>
+                                        <LinearSequence>KVDDTFYYV</LinearSequence>
+                                        <StartingPosition>74</StartingPosition>
+                                        <EndingPosition>82</EndingPosition>
+                                        <SourceMolecule>
+                                            <GenBankId>P68600.1</GenBankId>
+                                        </SourceMolecule>
+                                        <SourceOrganismId>10245</SourceOrganismId>
+                                    </FragmentOfANaturalSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Exact match to reference information</AntigenEvidenceCode>
+                        </Antigen>
+                        <AssayInformation>
+                            <AssayTypeId>48</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <AssayComments>Epitope-pulsed human cell line C1R.AAD (transfected with A2.1/Dd MHC) induce IFN-γ production from, CD8&lt;SUP&gt;+&lt;/SUP&gt; T cells obtained after peptide immunization followed by 2 rounds of in vitro stimulation.</AssayComments>
+                        </AssayInformation>
+                    </TCell>
+                </Assays>
+                <Assays>
+                    <MhcBinding>
+                        <LocationOfData>Figure 1</LocationOfData>
+                        <MhcBindingId>21535</MhcBindingId>
+                        <AssayInformation>
+                            <AssayTypeId>185</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <AssayComments>The T2 mutant cell line was incubated 24 hrs with peptide + β2-microglobulin. A low level of binding is obtained with this peptide.</AssayComments>
+                        </AssayInformation>
+                        <MhcAlleleId>143</MhcAlleleId>
+                    </MhcBinding>
+                </Assays>
+            </Epitope>
+            <Epitope>
+                <EpitopeName>A26L(6-14)</EpitopeName>
+                <EpitopeStructure>
+                    <FragmentOfANaturalSequenceMolecule>
+                        <ChemicalType>Peptide from protein</ChemicalType>
+                        <LinearSequence>NLWNGIVPT</LinearSequence>
+                        <StartingPosition>6</StartingPosition>
+                        <EndingPosition>14</EndingPosition>
+                        <SourceMolecule>
+                            <GenBankId>P24758.1</GenBankId>
+                        </SourceMolecule>
+                        <SourceOrganismId>10245</SourceOrganismId>
+                    </FragmentOfANaturalSequenceMolecule>
+                </EpitopeStructure>
+                <LocationOfData>Table 1</LocationOfData>
+                <EpitopeId>44926</EpitopeId>
+                <ReferenceStartingPosition>6</ReferenceStartingPosition>
+                <ReferenceEndingPosition>14</ReferenceEndingPosition>
+                <EpitopeEvidenceCode>Not determined</EpitopeEvidenceCode>
+                <EpitopeStructureDefines>Exact Epitope</EpitopeStructureDefines>
+                <EpitopeComments>This sequence is identical in all known strains of vaccinia virus and highly homologous in variola (smallpox) virus.</EpitopeComments>
+                <Assays>
+                    <TCell>
+                        <LocationOfData>Figure 4</LocationOfData>
+                        <TCellId>21549</TCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>10000592</OrganismId>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Administration in vivo to prevent or reduce disease</InVivoProcessType>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Epitope</EpitopeRelation>
+                                    <Object>
+                                        <FragmentOfANaturalSequenceMolecule>
+                                            <ChemicalType>Peptide from protein</ChemicalType>
+                                            <LinearSequence>NLWNGIVPT</LinearSequence>
+                                            <StartingPosition>6</StartingPosition>
+                                            <EndingPosition>14</EndingPosition>
+                                            <SourceMolecule>
+                                                <GenBankId>P24758.1</GenBankId>
+                                            </SourceMolecule>
+                                            <SourceOrganismId>10245</SourceOrganismId>
+                                        </FragmentOfANaturalSequenceMolecule>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenReferenceName>A26L(6-14)</ImmunogenReferenceName>
+                                <ImmunogenEvidenceCode>Exact match to reference information</ImmunogenEvidenceCode>
+                                <Adjuvant>Freund's incomplete (IFA)</Adjuvant>
+                                <Route>Subcutaneous (s.c.)</Route>
+                                <DoseSchedule>Three times in the base of the tail at 2-wk intervals with 50 nmol peptide, 50 nmol hepatitis B virus core helper peptide, 5 μg GM-CSFand 800 IU of IL-2 in IFA.</DoseSchedule>
+                            </FirstInVivoProcess>
+                            <ImmunizationComments>Immunization was performed on A2Kb ( (C57BL/6 Db/Kb, A2.1/Dd transgenic) mice. Two weeks after the third immunization, the mice were challenged intranasally with a lethal amount (10&lt;SUP&gt;6&lt;/SUP&gt; PFU) of wild-type vaccinia virus (strain WR).</ImmunizationComments>
+                        </Immunization>
+                        <MhcAllele>
+                            <MhcAlleleId>143</MhcAlleleId>
+                            <MhcEvidenceCode>Not determined</MhcEvidenceCode>
+                        </MhcAllele>
+                        <Antigen>
+                            <AntigenObject>
+                                <EpitopeRelation>Source Organism</EpitopeRelation>
+                                <Object>
+                                    <Organism>
+                                        <SubType>Organism</SubType>
+                                        <SourceOrganismId>10245</SourceOrganismId>
+                                    </Organism>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Not determined</AntigenEvidenceCode>
+                        </Antigen>
+                        <AssayInformation>
+                            <AssayTypeId>127</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <QuantitativeMeasurement>100.0</QuantitativeMeasurement>
+                            <AssayComments>While HLA A2.1 transgenic mice also expressing MHC I K&lt;SUP&gt;b&lt;/SUP&gt; and D&lt;SUP&gt;b&lt;/SUP&gt; (strain A2Kb) are completely protected, transgenic mice expressing only HLA A2.1 (strain HHD-2) are only partially protected from lethality and illness (weight loss). This epitope also binds to mouse D&lt;SUP&gt;b&lt;/SUP&gt;, so part of the protection in A2/Kb mice may be conferred by the mouse MHC.</AssayComments>
+                        </AssayInformation>
+                    </TCell>
+                </Assays>
+                <Assays>
+                    <TCell>
+                        <LocationOfData>Figure 2</LocationOfData>
+                        <TCellId>21545</TCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>10000589</OrganismId>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Administration in vivo</InVivoProcessType>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Source Organism</EpitopeRelation>
+                                    <Object>
+                                        <Organism>
+                                            <SubType>Organism</SubType>
+                                            <SourceOrganismId>10245</SourceOrganismId>
+                                        </Organism>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenEvidenceCode>Not determined</ImmunogenEvidenceCode>
+                                <Route>Intraperitoneal (i.p.)</Route>
+                                <DoseSchedule>1 dose (1-2x10&lt;SUP&gt;7&lt;/SUP&gt; PFU) of vaccinia vSC8.</DoseSchedule>
+                            </FirstInVivoProcess>
+                            <ImmunizationComments>AAD mice (C57BL/6 Db/Kb, A2.1/Dd transgenic) were injected with the attenuated, replication-competent vaccinia virus vSC8.</ImmunizationComments>
+                        </Immunization>
+                        <EffectorCells>
+                            <CellTissueType>Spleen</CellTissueType>
+                            <CellType>T cell CD8+</CellType>
+                            <CellCultureConditions>Direct Ex Vivo</CellCultureConditions>
+                        </EffectorCells>
+                        <AntigenPresentingCells>
+                            <CellTissueType>Lymphoid</CellTissueType>
+                            <CellType>C1R cells-B cell</CellType>
+                            <CellCultureConditions>Cell Line / Clone</CellCultureConditions>
+                            <SourceOrganismId>9606</SourceOrganismId>
+                        </AntigenPresentingCells>
+                        <MhcAllele>
+                            <MhcAlleleId>143</MhcAlleleId>
+                            <MhcEvidenceCode>Not determined</MhcEvidenceCode>
+                        </MhcAllele>
+                        <Antigen>
+                            <AntigenReferenceName>A26L(6-14)</AntigenReferenceName>
+                            <AntigenObject>
+                                <EpitopeRelation>Epitope</EpitopeRelation>
+                                <Object>
+                                    <FragmentOfANaturalSequenceMolecule>
+                                        <ChemicalType>Peptide from protein</ChemicalType>
+                                        <LinearSequence>NLWNGIVPT</LinearSequence>
+                                        <StartingPosition>6</StartingPosition>
+                                        <EndingPosition>14</EndingPosition>
+                                        <SourceMolecule>
+                                            <GenBankId>P24758.1</GenBankId>
+                                        </SourceMolecule>
+                                        <SourceOrganismId>10245</SourceOrganismId>
+                                    </FragmentOfANaturalSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Exact match to reference information</AntigenEvidenceCode>
+                        </Antigen>
+                        <AssayInformation>
+                            <AssayTypeId>48</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <AssayComments>The human cell line C1R.ADD (transfected with A2.1/Dd MHC) was used as APC. Epitope-specific, IFN-γ-secreting T lymphocytes were found at 1 month postinfection, but not at 1 wk postinfection.</AssayComments>
+                        </AssayInformation>
+                    </TCell>
+                </Assays>
+                <Assays>
+                    <TCell>
+                        <LocationOfData>Figure 5</LocationOfData>
+                        <TCellId>23033</TCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>10000578</OrganismId>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Administration in vivo to prevent or reduce disease</InVivoProcessType>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Epitope</EpitopeRelation>
+                                    <Object>
+                                        <FragmentOfANaturalSequenceMolecule>
+                                            <ChemicalType>Peptide from protein</ChemicalType>
+                                            <LinearSequence>NLWNGIVPT</LinearSequence>
+                                            <StartingPosition>6</StartingPosition>
+                                            <EndingPosition>14</EndingPosition>
+                                            <SourceMolecule>
+                                                <GenBankId>P24758.1</GenBankId>
+                                            </SourceMolecule>
+                                            <SourceOrganismId>10245</SourceOrganismId>
+                                        </FragmentOfANaturalSequenceMolecule>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenReferenceName>A26L(6-14)</ImmunogenReferenceName>
+                                <ImmunogenEvidenceCode>Exact match to reference information</ImmunogenEvidenceCode>
+                                <Adjuvant>Freund's incomplete (IFA)</Adjuvant>
+                                <Route>Subcutaneous (s.c.)</Route>
+                                <DoseSchedule>Three times in the base of the tail at 2-wk intervals with 50 nmol peptide, 50 nmol hepatitis B virus core helper peptide, 5 μg GM-CSFand 800 IU of IL-2 in IFA.</DoseSchedule>
+                            </FirstInVivoProcess>
+                            <ImmunizationComments>Immunization was performed on HHD-2 (C57BL/6 Dbnull β2mnull, A2.1/Db transgenic) mice. Two weeks after the third immunization, the mice were challenged intranasally with a lethal amount (10&lt;SUP&gt;6&lt;/SUP&gt; PFU) of wild-type vaccinia virus (strain WR).</ImmunizationComments>
+                        </Immunization>
+                        <MhcAllele>
+                            <MhcAlleleId>143</MhcAlleleId>
+                            <MhcEvidenceCode>Not determined</MhcEvidenceCode>
+                        </MhcAllele>
+                        <Antigen>
+                            <AntigenObject>
+                                <EpitopeRelation>Source Organism</EpitopeRelation>
+                                <Object>
+                                    <Organism>
+                                        <SubType>Organism</SubType>
+                                        <SourceOrganismId>10245</SourceOrganismId>
+                                    </Organism>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Not determined</AntigenEvidenceCode>
+                        </Antigen>
+                        <AssayInformation>
+                            <AssayTypeId>127</AssayTypeId>
+                            <QualitativeMeasurement>Negative</QualitativeMeasurement>
+                            <QuantitativeMeasurement>30.0</QuantitativeMeasurement>
+                            <AssayComments>While transgenic mice expressing A2.1 on a null background for mouse MHC molecules (strain HHD-2) are only partially protected from lethality and illness (weight loss), A2/Kb mice that also express MHC I K&lt;SUP&gt;b&lt;/SUP&gt; and D&lt;SUP&gt;b&lt;/SUP&gt;, which also binds this epitope, are protected, implying that A2.1 binding is not sufficient for protection with this epitope.</AssayComments>
+                        </AssayInformation>
+                    </TCell>
+                </Assays>
+                <Assays>
+                    <MhcBinding>
+                        <LocationOfData>Figure 1</LocationOfData>
+                        <MhcBindingId>21544</MhcBindingId>
+                        <AssayInformation>
+                            <AssayTypeId>185</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <AssayComments>The T2 mutant cell line was incubated 24 hrs with peptide + β2-microglobulin. A high level of binding was obtained with this peptide.</AssayComments>
+                        </AssayInformation>
+                        <MhcAlleleId>143</MhcAlleleId>
+                    </MhcBinding>
+                </Assays>
+            </Epitope>
+            <Epitope>
+                <EpitopeName>VETFsm(498-506)</EpitopeName>
+                <EpitopeStructure>
+                    <FragmentOfANaturalSequenceMolecule>
+                        <ChemicalType>Peptide from protein</ChemicalType>
+                        <LinearSequence>VLPFDIKKL</LinearSequence>
+                        <StartingPosition>498</StartingPosition>
+                        <EndingPosition>506</EndingPosition>
+                        <SourceMolecule>
+                            <GenBankId>P04308.1</GenBankId>
+                        </SourceMolecule>
+                        <SourceOrganismId>10245</SourceOrganismId>
+                    </FragmentOfANaturalSequenceMolecule>
+                </EpitopeStructure>
+                <LocationOfData>Table 1</LocationOfData>
+                <EpitopeId>69686</EpitopeId>
+                <ReferenceStartingPosition>498</ReferenceStartingPosition>
+                <ReferenceEndingPosition>506</ReferenceEndingPosition>
+                <EpitopeEvidenceCode>Not determined</EpitopeEvidenceCode>
+                <EpitopeStructureDefines>Exact Epitope</EpitopeStructureDefines>
+                <EpitopeComments>This sequence is identical in all known strains of vaccinia virus and in variola (smallpox) virus.</EpitopeComments>
+                <Assays>
+                    <TCell>
+                        <LocationOfData>Figure 2</LocationOfData>
+                        <TCellId>21551</TCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>10000589</OrganismId>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Administration in vivo</InVivoProcessType>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Source Organism</EpitopeRelation>
+                                    <Object>
+                                        <Organism>
+                                            <SubType>Organism</SubType>
+                                            <SourceOrganismId>10245</SourceOrganismId>
+                                        </Organism>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenEvidenceCode>Not determined</ImmunogenEvidenceCode>
+                                <Route>Intraperitoneal (i.p.)</Route>
+                                <DoseSchedule>1 dose (1-2x10&lt;SUP&gt;7&lt;/SUP&gt; PFU) of vaccinia vSC8.</DoseSchedule>
+                            </FirstInVivoProcess>
+                            <ImmunizationComments>AAD (C57BL/6 Db/Kb, A2.1/Dd transgenic) mice were injected with the attenuated, replication-competent vaccinia virus vSC8.</ImmunizationComments>
+                        </Immunization>
+                        <EffectorCells>
+                            <CellTissueType>Spleen</CellTissueType>
+                            <CellType>T cell CD8+</CellType>
+                            <CellCultureConditions>Direct Ex Vivo</CellCultureConditions>
+                        </EffectorCells>
+                        <AntigenPresentingCells>
+                            <CellTissueType>Lymphoid</CellTissueType>
+                            <CellType>C1R cells-B cell</CellType>
+                            <CellCultureConditions>Cell Line / Clone</CellCultureConditions>
+                            <SourceOrganismId>9606</SourceOrganismId>
+                        </AntigenPresentingCells>
+                        <MhcAllele>
+                            <MhcAlleleId>143</MhcAlleleId>
+                            <MhcEvidenceCode>Not determined</MhcEvidenceCode>
+                        </MhcAllele>
+                        <Antigen>
+                            <AntigenReferenceName>VETFsm(498-506)</AntigenReferenceName>
+                            <AntigenObject>
+                                <EpitopeRelation>Epitope</EpitopeRelation>
+                                <Object>
+                                    <FragmentOfANaturalSequenceMolecule>
+                                        <ChemicalType>Peptide from protein</ChemicalType>
+                                        <LinearSequence>VLPFDIKKL</LinearSequence>
+                                        <StartingPosition>498</StartingPosition>
+                                        <EndingPosition>506</EndingPosition>
+                                        <SourceMolecule>
+                                            <GenBankId>P04308.1</GenBankId>
+                                        </SourceMolecule>
+                                        <SourceOrganismId>10245</SourceOrganismId>
+                                    </FragmentOfANaturalSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Exact match to reference information</AntigenEvidenceCode>
+                        </Antigen>
+                        <AssayInformation>
+                            <AssayTypeId>48</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <AssayComments>Epitope-specific, IFN-γ-secreting T lymphocytes were found at 1 month postinfection, but not at 1 wk postinfection. These mice, as well as immunized mice from other A2.1 bearing strains, are stated not to be protected against subsequent challenge with vaccinia virus.</AssayComments>
+                        </AssayInformation>
+                    </TCell>
+                </Assays>
+                <Assays>
+                    <MhcBinding>
+                        <LocationOfData>Figure 1</LocationOfData>
+                        <MhcBindingId>21550</MhcBindingId>
+                        <AssayInformation>
+                            <AssayTypeId>185</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <AssayComments>The T2 mutant cell line was incubated 24 hrs with peptide + β2-microglobulin.</AssayComments>
+                        </AssayInformation>
+                        <MhcAlleleId>143</MhcAlleleId>
+                    </MhcBinding>
+                </Assays>
+            </Epitope>
+        </Epitopes>
+    </Reference>
+</References>
+

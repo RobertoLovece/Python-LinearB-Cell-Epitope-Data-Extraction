@@ -1,0 +1,336 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<References xsi:schemaLocation="http://www.iedb.org/schema/CurationSchema http://beta.iedb.org/schema/Curation.xsd" xmlns="http://www.iedb.org/schema/CurationSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <Reference>
+        <ReferenceId>1023</ReferenceId>
+        <DateLastUpdated>2020-09-10-07:00</DateLastUpdated>
+        <Article>
+            <PubmedId>8701592</PubmedId>
+            <Abstract>The immunogenicity of a soluble, non-self protein or peptide can be greatly enhanced by injecting this antigen coupled to an antibody specific for class II MHC molecules in the recipient. This adjuvant-independent immunization strategy is known as immunotargeting. We have investigated the ability of a mouse anti-class II MHC antibody to provide the three-dimensional framework for the reconstitution of a heterologous conformational B-cell epitope, specifically the A loop epitope from the influenza virus hemagglutinin (HA). From a panel of three anti-class II MHC immunoglobulin (Ig)-A loop constructs, we found that one of these, an insertion into the FR3 region of the Ig molecule, retained its specificity for mouse I-Ak. Although mouse monoclonal antibodies specific for the A loop region in the HA molecule were unable to react with the Ig-A loop variants, we did find that the heavy chain CDR3 insertion construct was able to elicit an A loop-specific, HA-reactive antibody response when used as an immunogen in rabbits. These results demonstrate the potential for the Ig molecule to function successfully as a structural framework for the reconstitution and presentation of heterologous conformational B-cell epitopes.</Abstract>
+            <ArticleYear>1995</ArticleYear>
+            <ArticlePages>1770-8</ArticlePages>
+            <ArticleTitle>Recombinant antibodies containing an engineered B-cell epitope capable of eliciting conformation-specific antibody responses.</ArticleTitle>
+            <Authors>
+                <Author>
+                    <LastName>Cook</LastName>
+                    <ForeName>J</ForeName>
+                </Author>
+                <Author>
+                    <LastName>Barber</LastName>
+                    <ForeName>B H</ForeName>
+                </Author>
+            </Authors>
+            <Affiliations>Department of Immunology, University of Toronto, Ontario, Canada.</Affiliations>
+            <ArticleChemicalList>Antibodies, Monoclonal;Epitopes;Histocompatibility Antigens Class II;Immunoglobulin A;Immunoglobulin G;Recombinant Proteins</ArticleChemicalList>
+            <ArticleMeshHeadingsList>Amino Acid Sequence; Animals; Antibodies, Monoclonal; Antibody Formation; Antibody Specificity; Antigen-Antibody Reactions; B-Lymphocytes(immunology); Epitopes; Female; Genetic Engineering; Histocompatibility Antigens Class II(immunology); Immunoglobulin A(immunology); Immunoglobulin G(immunology); Mice; Molecular Sequence Data; Protein Conformation; Rabbits; Recombinant Proteins(immunology)</ArticleMeshHeadingsList>
+            <Journal>
+                <Volume>13</Volume>
+                <Issue>18</Issue>
+                <Title>Vaccine</Title>
+                <Issn>0264-410X</Issn>
+                <MedlineTa>Vaccine</MedlineTa>
+            </Journal>
+        </Article>
+        <Epitopes>
+            <Epitope>
+                <EpitopeName>A loop</EpitopeName>
+                <EpitopeStructure>
+                    <SequenceMoleculeNoNaturalSource>
+                        <ChemicalType>Peptide, no natural source</ChemicalType>
+                        <LinearSequence>SKRGPGSGF</LinearSequence>
+                    </SequenceMoleculeNoNaturalSource>
+                </EpitopeStructure>
+                <EpitopeRelatedObject>
+                    <RelatedObjectType>The epitope is an analog of:</RelatedObjectType>
+                    <RelatedObject>
+                        <FragmentOfANaturalSequenceMolecule>
+                            <ChemicalType>Peptide from protein</ChemicalType>
+                            <LinearSequence>CKRGPGSGF</LinearSequence>
+                            <StartingPosition>155</StartingPosition>
+                            <EndingPosition>163</EndingPosition>
+                            <SourceMolecule>
+                                <GenBankId>ABF83447.1</GenBankId>
+                            </SourceMolecule>
+                            <SourceOrganismId>11320</SourceOrganismId>
+                        </FragmentOfANaturalSequenceMolecule>
+                    </RelatedObject>
+                </EpitopeRelatedObject>
+                <LocationOfData>Figure 1</LocationOfData>
+                <EpitopeId>58932</EpitopeId>
+                <EpitopeStructureDefines>Exact Epitope</EpitopeStructureDefines>
+                <EpitopeComments>A serine replacement of C155 found in the natural sequence was made in order to avoid unwanted S-S bond formation.</EpitopeComments>
+                <Assays>
+                    <BCell>
+                        <LocationOfData>Figure 4A</LocationOfData>
+                        <BCellId>14647</BCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>10000206</OrganismId>
+                                <Sex>F</Sex>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Administration in vivo</InVivoProcessType>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Structurally Related</EpitopeRelation>
+                                    <Object>
+                                        <AccessionSequenceMolecule>
+                                            <ChemicalType>Protein</ChemicalType>
+                                            <Molecule>
+                                                <GenBankId>Q0PZR5</GenBankId>
+                                            </Molecule>
+                                            <SourceOrganismId>11320</SourceOrganismId>
+                                        </AccessionSequenceMolecule>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenReferenceName>No Natural Source</ImmunogenReferenceName>
+                                <ImmunogenEvidenceCode>Not determined</ImmunogenEvidenceCode>
+                                <Adjuvant>Freund's complete</Adjuvant>
+                                <Route>Subcutaneous (s.c.)</Route>
+                                <DoseSchedule>2 immunizations 3 wks apart, first with 100 micrograms in CFA and second with 50 micrograms in IFA.</DoseSchedule>
+                            </FirstInVivoProcess>
+                            <ImmunizationComments>2 weeks after 2nd immunization sera was collected.</ImmunizationComments>
+                        </Immunization>
+                        <AssayInformation>
+                            <AssayTypeId>34</AssayTypeId>
+                            <QualitativeMeasurement>Negative</QualitativeMeasurement>
+                            <AssayComments>Anti-source protein antisera did not  bind the epitopic peptide.</AssayComments>
+                        </AssayInformation>
+                        <AssayedAntibody>
+                            <AssayedAntibodySourceMaterial>Serum</AssayedAntibodySourceMaterial>
+                        </AssayedAntibody>
+                        <Antigen>
+                            <AntigenReferenceName>A loop</AntigenReferenceName>
+                            <AntigenConformation>Non-Native/Unknown</AntigenConformation>
+                            <AntigenObject>
+                                <EpitopeRelation>Epitope</EpitopeRelation>
+                                <Object>
+                                    <SequenceMoleculeNoNaturalSource>
+                                        <ChemicalType>Peptide, no natural source</ChemicalType>
+                                        <LinearSequence>SKRGPGSGF</LinearSequence>
+                                    </SequenceMoleculeNoNaturalSource>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Exact match to reference information</AntigenEvidenceCode>
+                            <AntigenContainingObject>
+                                <ComplexedMolecule>
+                                    <ComplexType>Protein conjugate</ComplexType>
+                                    <PeptideModifications/>
+                                    <SourceMolecule>
+                                        <GenBankId>P02769.4</GenBankId>
+                                    </SourceMolecule>
+                                    <MoleculeSourceOrganismId>9913</MoleculeSourceOrganismId>
+                                </ComplexedMolecule>
+                            </AntigenContainingObject>
+                        </Antigen>
+                    </BCell>
+                </Assays>
+                <Assays>
+                    <BCell>
+                        <LocationOfData>Figure 4</LocationOfData>
+                        <BCellId>14649</BCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>10000206</OrganismId>
+                                <Sex>F</Sex>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Administration in vivo</InVivoProcessType>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Epitope</EpitopeRelation>
+                                    <Object>
+                                        <SequenceMoleculeNoNaturalSource>
+                                            <ChemicalType>Peptide, no natural source</ChemicalType>
+                                            <LinearSequence>SKRGPGSGF</LinearSequence>
+                                        </SequenceMoleculeNoNaturalSource>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenReferenceName>A loop</ImmunogenReferenceName>
+                                <ImmunogenEvidenceCode>Exact match to reference information</ImmunogenEvidenceCode>
+                                <ImmunogenContainingObject>
+                                    <ComplexedMolecule>
+                                        <ComplexType>Protein conjugate</ComplexType>
+                                        <PeptideModifications/>
+                                        <SourceMolecule>
+                                            <IedbAccession>SRC40074</IedbAccession>
+                                        </SourceMolecule>
+                                        <MoleculeSourceOrganismId>55429</MoleculeSourceOrganismId>
+                                    </ComplexedMolecule>
+                                </ImmunogenContainingObject>
+                                <Adjuvant>Freund's complete</Adjuvant>
+                                <Route>Subcutaneous (s.c.)</Route>
+                                <DoseSchedule>2 immunization 3 wks apart, first in CFA and second in IFA.</DoseSchedule>
+                            </FirstInVivoProcess>
+                            <ImmunizationComments>2 weeks after 2nd immunization sera was collected.</ImmunizationComments>
+                        </Immunization>
+                        <AssayInformation>
+                            <AssayTypeId>34</AssayTypeId>
+                            <QualitativeMeasurement>Negative</QualitativeMeasurement>
+                            <AssayComments>Anti-peptide antisera failed to recognize the source protein.</AssayComments>
+                        </AssayInformation>
+                        <AssayedAntibody>
+                            <AssayedAntibodySourceMaterial>Serum</AssayedAntibodySourceMaterial>
+                        </AssayedAntibody>
+                        <Antigen>
+                            <AntigenReferenceName>No Natural Source</AntigenReferenceName>
+                            <AntigenConformation>Non-Native/Unknown</AntigenConformation>
+                            <AntigenObject>
+                                <EpitopeRelation>Structurally Related</EpitopeRelation>
+                                <Object>
+                                    <AccessionSequenceMolecule>
+                                        <ChemicalType>Protein</ChemicalType>
+                                        <Molecule>
+                                            <GenBankId>AAA79714.1</GenBankId>
+                                        </Molecule>
+                                        <SourceOrganismId>11320</SourceOrganismId>
+                                    </AccessionSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Not determined</AntigenEvidenceCode>
+                        </Antigen>
+                    </BCell>
+                </Assays>
+                <Assays>
+                    <BCell>
+                        <LocationOfData>Figures 4C and 4D</LocationOfData>
+                        <BCellId>14651</BCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>10000206</OrganismId>
+                                <Sex>F</Sex>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Administration in vivo</InVivoProcessType>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Epitope</EpitopeRelation>
+                                    <Object>
+                                        <SequenceMoleculeNoNaturalSource>
+                                            <ChemicalType>Peptide, no natural source</ChemicalType>
+                                            <LinearSequence>SKRGPGSGF</LinearSequence>
+                                        </SequenceMoleculeNoNaturalSource>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenReferenceName>A loop</ImmunogenReferenceName>
+                                <ImmunogenEvidenceCode>Exact match to reference information</ImmunogenEvidenceCode>
+                                <ImmunogenContainingObject>
+                                    <ComplexedMolecule>
+                                        <ComplexType>Protein conjugate</ComplexType>
+                                        <PeptideModifications/>
+                                        <SourceMolecule>
+                                            <IedbAccession>SRC40074</IedbAccession>
+                                        </SourceMolecule>
+                                        <MoleculeSourceOrganismId>55429</MoleculeSourceOrganismId>
+                                    </ComplexedMolecule>
+                                </ImmunogenContainingObject>
+                                <Adjuvant>Freund's complete</Adjuvant>
+                                <Route>Subcutaneous (s.c.)</Route>
+                                <DoseSchedule>2 immunizations 3 wks apart, first in CFA and second in IFA.</DoseSchedule>
+                            </FirstInVivoProcess>
+                            <ImmunizationComments>2 weeks after 2nd immunization sera was collected.</ImmunizationComments>
+                        </Immunization>
+                        <AssayInformation>
+                            <AssayTypeId>34</AssayTypeId>
+                            <QualitativeMeasurement>Negative</QualitativeMeasurement>
+                            <AssayComments>Anti peptide and anti source protein antisera were assayed for their recognition of constructs carryng the epitope on a mouse monoclonal IgG molecule, either in the CDR3 or FR3 domains. Both antisera failed to significantly recognize peptide-IgG constructs, regardless of the site of peptide insertion. A slightly better recognition of some constructs was seen in a 1/10 sera dilution but not at 1/100 dilution.</AssayComments>
+                        </AssayInformation>
+                        <AssayedAntibody>
+                            <AssayedAntibodySourceMaterial>Serum</AssayedAntibodySourceMaterial>
+                        </AssayedAntibody>
+                        <Antigen>
+                            <AntigenReferenceName>A loop</AntigenReferenceName>
+                            <AntigenConformation>Non-Native/Unknown</AntigenConformation>
+                            <AntigenObject>
+                                <EpitopeRelation>Epitope</EpitopeRelation>
+                                <Object>
+                                    <SequenceMoleculeNoNaturalSource>
+                                        <ChemicalType>Peptide, no natural source</ChemicalType>
+                                        <LinearSequence>SKRGPGSGF</LinearSequence>
+                                    </SequenceMoleculeNoNaturalSource>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Exact match to reference information</AntigenEvidenceCode>
+                            <AntigenContainingObject>
+                                <ComplexedMolecule>
+                                    <ComplexType>Peptide plus Multi-Chain</ComplexType>
+                                    <PeptideModifications/>
+                                    <PeptideSourceOrganismId>10090</PeptideSourceOrganismId>
+                                </ComplexedMolecule>
+                            </AntigenContainingObject>
+                        </Antigen>
+                    </BCell>
+                </Assays>
+                <Assays>
+                    <BCell>
+                        <LocationOfData>Figure 6</LocationOfData>
+                        <BCellId>14652</BCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>10000206</OrganismId>
+                                <Sex>F</Sex>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Administration in vivo</InVivoProcessType>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Epitope</EpitopeRelation>
+                                    <Object>
+                                        <SequenceMoleculeNoNaturalSource>
+                                            <ChemicalType>Peptide, no natural source</ChemicalType>
+                                            <LinearSequence>SKRGPGSGF</LinearSequence>
+                                        </SequenceMoleculeNoNaturalSource>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenReferenceName>A loop</ImmunogenReferenceName>
+                                <ImmunogenEvidenceCode>Exact match to reference information</ImmunogenEvidenceCode>
+                                <ImmunogenContainingObject>
+                                    <ComplexedMolecule>
+                                        <ComplexType>Peptide plus Multi-Chain</ComplexType>
+                                        <PeptideModifications/>
+                                        <PeptideSourceOrganismId>10090</PeptideSourceOrganismId>
+                                    </ComplexedMolecule>
+                                </ImmunogenContainingObject>
+                                <Adjuvant>Freund's complete</Adjuvant>
+                                <Route>Subcutaneous (s.c.)</Route>
+                                <DoseSchedule>2 immunizations 3 wks apart, first in CFA and second in IFA.</DoseSchedule>
+                            </FirstInVivoProcess>
+                            <ImmunizationComments>2 weeks after 2nd immunization sera was collected.</ImmunizationComments>
+                        </Immunization>
+                        <AssayInformation>
+                            <AssayTypeId>34</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <NumberOfSubjectsTested>4</NumberOfSubjectsTested>
+                            <NumberOfSubjectsResponded>2</NumberOfSubjectsResponded>
+                            <ResponseFrequency>50</ResponseFrequency>
+                            <AssayComments>Rabbits immunized with a construct carrying the epitope on a mouse monoclonal IgG molecule, as an insertion in the CDR3 loop, were able to recognize the epitopic peptide (2 out of 4 rabbits) and the source protein (3 out of 4 rabbits). This recognition of source protein and epitope was shown to be mediated by different subsets of antibodies present in the sera. The recognition of epitope by sera form animals immunized with an immunogen where the epitope replaces the complete CDR3 sequence was only positive in 1 out of 3 animals, while none recognized the source protein. Rabbits immunized with a construct where the epitope is inserted in the FR3 domain faied to recognize either the epitope or the source protein.</AssayComments>
+                        </AssayInformation>
+                        <AssayedAntibody>
+                            <AssayedAntibodySourceMaterial>Serum</AssayedAntibodySourceMaterial>
+                        </AssayedAntibody>
+                        <Antigen>
+                            <AntigenReferenceName>A loop</AntigenReferenceName>
+                            <AntigenConformation>Non-Native/Unknown</AntigenConformation>
+                            <AntigenObject>
+                                <EpitopeRelation>Epitope</EpitopeRelation>
+                                <Object>
+                                    <SequenceMoleculeNoNaturalSource>
+                                        <ChemicalType>Peptide, no natural source</ChemicalType>
+                                        <LinearSequence>SKRGPGSGF</LinearSequence>
+                                    </SequenceMoleculeNoNaturalSource>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Exact match to reference information</AntigenEvidenceCode>
+                            <AntigenContainingObject>
+                                <ComplexedMolecule>
+                                    <ComplexType>Protein conjugate</ComplexType>
+                                    <PeptideModifications/>
+                                    <SourceMolecule>
+                                        <GenBankId>P02769.4</GenBankId>
+                                    </SourceMolecule>
+                                    <MoleculeSourceOrganismId>9913</MoleculeSourceOrganismId>
+                                </ComplexedMolecule>
+                            </AntigenContainingObject>
+                        </Antigen>
+                    </BCell>
+                </Assays>
+            </Epitope>
+        </Epitopes>
+    </Reference>
+</References>
+

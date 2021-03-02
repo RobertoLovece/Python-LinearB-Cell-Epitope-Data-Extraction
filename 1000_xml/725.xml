@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<References xsi:schemaLocation="http://www.iedb.org/schema/CurationSchema http://beta.iedb.org/schema/Curation.xsd" xmlns="http://www.iedb.org/schema/CurationSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <Reference>
+        <ReferenceId>725</ReferenceId>
+        <DateLastUpdated>2020-09-10-07:00</DateLastUpdated>
+        <Article>
+            <PubmedId>14769912</PubmedId>
+            <Abstract>The MHC class II molecule DQ0602 confers strong susceptibility to narcolepsy but dominant protection against type 1 diabetes. The crystal structure of DQ0602 reveals the molecular features underlying these contrasting genetic properties. Structural comparisons to homologous DQ molecules with differential disease associations highlight a previously unrecognized interplay between the volume of the P6 pocket and the specificity of the P9 pocket, which implies that presentation of an expanded peptide repertoire is critical for dominant protection against type 1 diabetes. In narcolepsy, the volume of the P4 pocket appears central to the susceptibility, suggesting that the presentation of a specific peptide population plays a major role.</Abstract>
+            <ArticleYear>2004</ArticleYear>
+            <ArticlePages>1999-2004</ArticlePages>
+            <ArticleTitle>Crystal structure of HLA-DQ0602 that protects against type 1 diabetes and confers strong susceptibility to narcolepsy.</ArticleTitle>
+            <Authors>
+                <Author>
+                    <LastName>Siebold</LastName>
+                    <ForeName>Christian</ForeName>
+                </Author>
+                <Author>
+                    <LastName>Hansen</LastName>
+                    <ForeName>Bjarke E</ForeName>
+                </Author>
+                <Author>
+                    <LastName>Wyer</LastName>
+                    <ForeName>Jessica R</ForeName>
+                </Author>
+                <Author>
+                    <LastName>Harlos</LastName>
+                    <ForeName>Karl</ForeName>
+                </Author>
+                <Author>
+                    <LastName>Esnouf</LastName>
+                    <ForeName>Robert E</ForeName>
+                </Author>
+                <Author>
+                    <LastName>Svejgaard</LastName>
+                    <ForeName>Arne</ForeName>
+                </Author>
+                <Author>
+                    <LastName>Bell</LastName>
+                    <ForeName>John I</ForeName>
+                </Author>
+                <Author>
+                    <LastName>Strominger</LastName>
+                    <ForeName>Jack L</ForeName>
+                </Author>
+                <Author>
+                    <LastName>Jones</LastName>
+                    <ForeName>E Yvonne</ForeName>
+                </Author>
+                <Author>
+                    <LastName>Fugger</LastName>
+                    <ForeName>Lars</ForeName>
+                </Author>
+            </Authors>
+            <Affiliations>Division of Structural Biology, The Henry Wellcome Building for Genomic Medicine, University of Oxford, Roosevelt Drive, Oxford OX3 7BN, United Kingdom.</Affiliations>
+            <ArticleChemicalList>HLA-DQ Antigens;HLA-DQ beta-Chains;HLA-DQB1 antigen;Membrane Glycoproteins</ArticleChemicalList>
+            <ArticleMeshHeadingsList>Alleles; Amino Acid Sequence; Binding Sites; Crystallography, X-Ray; Diabetes Mellitus, Type 1(genetics); Genetic Predisposition to Disease; HLA-DQ Antigens(chemistry; genetics); HLA-DQ beta-Chains; Humans; Membrane Glycoproteins; Models, Molecular; Narcolepsy(genetics); Polymorphism, Genetic(genetics); Protein Binding; Protein Conformation; Structure-Activity Relationship</ArticleMeshHeadingsList>
+            <Journal>
+                <Volume>101</Volume>
+                <Issue>7</Issue>
+                <Title>Proceedings of the National Academy of Sciences of the United States of America</Title>
+                <Issn>0027-8424</Issn>
+                <MedlineTa>Proc Natl Acad Sci U S A</MedlineTa>
+            </Journal>
+        </Article>
+        <Epitopes>
+            <Epitope>
+                <EpitopeName>hypocretin 1-13</EpitopeName>
+                <EpitopeStructure>
+                    <FragmentOfANaturalSequenceMolecule>
+                        <ChemicalType>Peptide from protein</ChemicalType>
+                        <LinearSequence>MNLPSTKVSWAAV</LinearSequence>
+                        <StartingPosition>1</StartingPosition>
+                        <EndingPosition>13</EndingPosition>
+                        <SourceMolecule>
+                            <GenBankId>O43612.1</GenBankId>
+                        </SourceMolecule>
+                        <SourceOrganismId>9606</SourceOrganismId>
+                    </FragmentOfANaturalSequenceMolecule>
+                </EpitopeStructure>
+                <EpitopeId>42218</EpitopeId>
+                <ReferenceStartingPosition>1</ReferenceStartingPosition>
+                <ReferenceEndingPosition>13</ReferenceEndingPosition>
+                <EpitopeEvidenceCode>Exact match to reference information</EpitopeEvidenceCode>
+                <EpitopeStructureDefines>Exact Epitope</EpitopeStructureDefines>
+                <Assays>
+                    <MhcBinding>
+                        <MhcBindingId>7221</MhcBindingId>
+                        <AssayInformation>
+                            <AssayTypeId>175</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <QuantitativeMeasurement>1.8</QuantitativeMeasurement>
+                            <MeasurementInequality>=</MeasurementInequality>
+                            <AssayComments>To facilitate MHC-peptide complex formation, the peptide was linked through a 15-aa spacer to the encoded N terminus of the DQB1*0602 cDNA and expressed with DQA1*0102 in D.melanogaster S2 cells.</AssayComments>
+                        </AssayInformation>
+                        <MhcAlleleId>96</MhcAlleleId>
+                        <ThreeDimensionalStructureOfComplex>
+                            <ComplexPdbId>1UVQ</ComplexPdbId>
+                            <MhcChain1PdbChain>A</MhcChain1PdbChain>
+                            <MhcChain2PdbChain>B</MhcChain2PdbChain>
+                            <EpitopePdbChain>C</EpitopePdbChain>
+                            <EpitopeResidues>C: M1, N2, L3, P4, S5, T6, K7, V8, S9, W10, A11, A12, V13;</EpitopeResidues>
+                            <ViewerFlag>Y</ViewerFlag>
+                            <Comments>Superposition of MHC molecules DQ0602 and DQ0302 [PDB: 1JK8] reveals significant conformational changes for α 45-53 and β 85-90 regions.</Comments>
+                            <CuratedContacts>
+                                <EpitopeResidues>C: M1, N2, L3, P4, S5, T6, K7, V8, S9, W10, A11, A12, V13;</EpitopeResidues>
+                                <EpitopeResiduesInteractingWithMhc>C: ;</EpitopeResiduesInteractingWithMhc>
+                                <MhcResiduesInteractingWithEpitope>A: ; B: ;</MhcResiduesInteractingWithEpitope>
+                            </CuratedContacts>
+                            <CalculatedContacts>
+                                <EpitopeResiduesInteractingWithMhc>C: M1, N2, L3, P4, S5, T6, K7, V8, S9, W10, A11, A12, V13, G15, G16, G17, S18, L19, V20</EpitopeResiduesInteractingWithMhc>
+                                <MhcResiduesInteractingWithEpitope>A: C11, G12, N14, Y25, H27, Q34, F35, F54, G55, G56, F57, N65, V68, H71, N72, I75, I77, K78, R79, N81, S82; B: F11, G13, Y30, Y47, P56, D57, Y60, W61, V67, E74, T77, V78, N82, V85</MhcResiduesInteractingWithEpitope>
+                                <ContactAreaForEpitope>1392.0</ContactAreaForEpitope>
+                                <ContactAreaForMhc>1076.2</ContactAreaForMhc>
+                            </CalculatedContacts>
+                        </ThreeDimensionalStructureOfComplex>
+                    </MhcBinding>
+                </Assays>
+            </Epitope>
+        </Epitopes>
+    </Reference>
+</References>
+

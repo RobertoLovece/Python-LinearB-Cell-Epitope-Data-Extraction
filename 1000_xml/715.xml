@@ -1,0 +1,268 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<References xsi:schemaLocation="http://www.iedb.org/schema/CurationSchema http://beta.iedb.org/schema/Curation.xsd" xmlns="http://www.iedb.org/schema/CurationSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <Reference>
+        <ReferenceId>715</ReferenceId>
+        <DateLastUpdated>2020-09-10-07:00</DateLastUpdated>
+        <Article>
+            <PubmedId>11854234</PubmedId>
+            <Abstract>T-cell responses directed against the circumsporozoite protein (CS) of Plasmodium falciparum can mediate protection against malaria. We determined the frequency of T cells reactive to different regions of the CS in the blood of donors naturally exposed to P. falciparum by examining T1 (gamma interferon [IFN-gamma] ELISPOT assay), T2 (interleukin 4 [IL-4] ELISPOT assay), and proliferative T-cell responses. The proliferative responses were weak, which confirmed previous observations. The responses to the CS in the IL-4 and IFN-gamma ELISPOT assays were also weak (&lt;40 responding cells per 10(6) cells), much weaker than the response to the purified protein derivative of Mycobacterium tuberculosis in the same donors. Moreover, a response in one assay could not be used to predict a response in either of the other assays, suggesting that although these assays may measure different responding cells, all of the responses are weakly induced by natural exposure. Interestingly, the two different study populations used had significantly different T1 and T2 biases in their responses in the C terminus of the protein, suggesting that the extent of P. falciparum exposure can affect regulation of the immune system.</Abstract>
+            <ArticleYear>2002</ArticleYear>
+            <ArticlePages>1468-74</ArticlePages>
+            <ArticleTitle>Naturally exposed populations differ in their T1 and T2 responses to the circumsporozoite protein of Plasmodium falciparum.</ArticleTitle>
+            <Authors>
+                <Author>
+                    <LastName>Reece</LastName>
+                    <ForeName>W H H</ForeName>
+                </Author>
+                <Author>
+                    <LastName>Plebanski</LastName>
+                    <ForeName>M</ForeName>
+                </Author>
+                <Author>
+                    <LastName>Akinwunmi</LastName>
+                    <ForeName>P</ForeName>
+                </Author>
+                <Author>
+                    <LastName>Gothard</LastName>
+                    <ForeName>P</ForeName>
+                </Author>
+                <Author>
+                    <LastName>Flanagan</LastName>
+                    <ForeName>K L</ForeName>
+                </Author>
+                <Author>
+                    <LastName>Lee</LastName>
+                    <ForeName>E A M</ForeName>
+                </Author>
+                <Author>
+                    <LastName>Cortina-Borja</LastName>
+                    <ForeName>M</ForeName>
+                </Author>
+                <Author>
+                    <LastName>Hill</LastName>
+                    <ForeName>A V S</ForeName>
+                </Author>
+                <Author>
+                    <LastName>Pinder</LastName>
+                    <ForeName>M</ForeName>
+                </Author>
+            </Authors>
+            <Affiliations>Molecular Immunology Group, Institute of Molecular Medicine, Nuffield Department of Medicine, University of Oxford, John Radcliffe Hospital, Oxford OX3 9DU, United Kingdom. william.reece@ndm.ox.ac.uk.</Affiliations>
+            <ArticleChemicalList>Protozoan Proteins;Tuberculin;circumsporozoite protein, Protozoan;Interferon-gamma</ArticleChemicalList>
+            <ArticleMeshHeadingsList>Adolescent; Adult; Aged; Amino Acid Sequence; Animals; Epitope Mapping; Female; Gambia; Geography; Humans; Interferon-gamma(analysis); Malaria, Falciparum(epidemiology; immunology); Male; Middle Aged; Molecular Sequence Data; Plasmodium falciparum(immunology); Protozoan Proteins(immunology); Th1 Cells(immunology); Th2 Cells(immunology); Tuberculin(immunology)</ArticleMeshHeadingsList>
+            <Journal>
+                <Volume>70</Volume>
+                <Issue>3</Issue>
+                <Title>Infection and immunity</Title>
+                <Issn>0019-9567</Issn>
+                <MedlineTa>Infect Immun</MedlineTa>
+            </Journal>
+        </Article>
+        <Epitopes>
+            <Epitope>
+                <EpitopeName>Epitope 1</EpitopeName>
+                <EpitopeStructure>
+                    <FragmentOfANaturalSequenceMolecule>
+                        <ChemicalType>Peptide from protein</ChemicalType>
+                        <LinearSequence>NANPNANPNANPNA</LinearSequence>
+                        <StartingPosition>114</StartingPosition>
+                        <EndingPosition>127</EndingPosition>
+                        <SourceMolecule>
+                            <GenBankId>AAW78194.1</GenBankId>
+                        </SourceMolecule>
+                        <SourceOrganismId>5843</SourceOrganismId>
+                    </FragmentOfANaturalSequenceMolecule>
+                </EpitopeStructure>
+                <LocationOfData>Figure 1</LocationOfData>
+                <EpitopeId>43245</EpitopeId>
+                <ReferenceStartingPosition>196</ReferenceStartingPosition>
+                <ReferenceEndingPosition>209</ReferenceEndingPosition>
+                <EpitopeEvidenceCode>Representative selection</EpitopeEvidenceCode>
+                <EpitopeStructureDefines>Epitope containing region/antigenic site</EpitopeStructureDefines>
+                <Assays>
+                    <TCell>
+                        <LocationOfData>Figure 3</LocationOfData>
+                        <TCellId>7196</TCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>9606</OrganismId>
+                                <GeoLocId>http://purl.obolibrary.org/obo/GAZ_00000907</GeoLocId>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Environmental exposure to endemic/ubiquitous agent without evidence for disease</InVivoProcessType>
+                                <DiseaseState>ONTIE:0003423</DiseaseState>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Taxonomic Parent</EpitopeRelation>
+                                    <Object>
+                                        <Organism>
+                                            <SubType>Organism</SubType>
+                                            <SourceOrganismId>5833</SourceOrganismId>
+                                        </Organism>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenReferenceName>Plasmodium falciparum [Mosquito Stage] [sporozoite]</ImmunogenReferenceName>
+                                <ImmunogenEvidenceCode>Representative selection</ImmunogenEvidenceCode>
+                            </FirstInVivoProcess>
+                        </Immunization>
+                        <EffectorCells>
+                            <CellTissueType>Blood</CellTissueType>
+                            <CellType>PBMC</CellType>
+                        </EffectorCells>
+                        <MhcAllele/>
+                        <Antigen>
+                            <AntigenReferenceName>Epitope 1</AntigenReferenceName>
+                            <AntigenObject>
+                                <EpitopeRelation>Epitope</EpitopeRelation>
+                                <Object>
+                                    <FragmentOfANaturalSequenceMolecule>
+                                        <ChemicalType>Peptide from protein</ChemicalType>
+                                        <LinearSequence>NANPNANPNANPNA</LinearSequence>
+                                        <StartingPosition>114</StartingPosition>
+                                        <EndingPosition>127</EndingPosition>
+                                        <SourceMolecule>
+                                            <GenBankId>AAW78194.1</GenBankId>
+                                        </SourceMolecule>
+                                        <SourceOrganismId>5843</SourceOrganismId>
+                                    </FragmentOfANaturalSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Exact match to reference information</AntigenEvidenceCode>
+                        </Antigen>
+                        <AssayInformation>
+                            <AssayTypeId>48</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <NumberOfSubjectsTested>65</NumberOfSubjectsTested>
+                            <NumberOfSubjectsResponded>1</NumberOfSubjectsResponded>
+                            <ResponseFrequency>1.5</ResponseFrequency>
+                            <AssayComments>The assay was performed with the addition of 10 micro-g ml&lt;sup&gt;1&lt;/sup&gt; of the purified protein derivative of Mycobacterium tuberculosis [PPD].</AssayComments>
+                        </AssayInformation>
+                    </TCell>
+                </Assays>
+                <Assays>
+                    <TCell>
+                        <LocationOfData>Figure 4</LocationOfData>
+                        <TCellId>7197</TCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>9606</OrganismId>
+                                <GeoLocId>http://purl.obolibrary.org/obo/GAZ_00000907</GeoLocId>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Environmental exposure to endemic/ubiquitous agent without evidence for disease</InVivoProcessType>
+                                <DiseaseState>ONTIE:0003423</DiseaseState>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Taxonomic Parent</EpitopeRelation>
+                                    <Object>
+                                        <Organism>
+                                            <SubType>Organism</SubType>
+                                            <SourceOrganismId>5833</SourceOrganismId>
+                                        </Organism>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenReferenceName>Plasmodium falciparum [Mosquito Stage] [sporozoite]</ImmunogenReferenceName>
+                                <ImmunogenEvidenceCode>Representative selection</ImmunogenEvidenceCode>
+                            </FirstInVivoProcess>
+                        </Immunization>
+                        <EffectorCells>
+                            <CellTissueType>Blood</CellTissueType>
+                            <CellType>PBMC</CellType>
+                        </EffectorCells>
+                        <MhcAllele>
+                            <MhcAlleleId>304</MhcAlleleId>
+                            <MhcEvidenceCode>T cell assay -Biological process measured</MhcEvidenceCode>
+                        </MhcAllele>
+                        <Antigen>
+                            <AntigenReferenceName>Epitope 1</AntigenReferenceName>
+                            <AntigenObject>
+                                <EpitopeRelation>Epitope</EpitopeRelation>
+                                <Object>
+                                    <FragmentOfANaturalSequenceMolecule>
+                                        <ChemicalType>Peptide from protein</ChemicalType>
+                                        <LinearSequence>NANPNANPNANPNA</LinearSequence>
+                                        <StartingPosition>114</StartingPosition>
+                                        <EndingPosition>127</EndingPosition>
+                                        <SourceMolecule>
+                                            <GenBankId>AAW78194.1</GenBankId>
+                                        </SourceMolecule>
+                                        <SourceOrganismId>5843</SourceOrganismId>
+                                    </FragmentOfANaturalSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Exact match to reference information</AntigenEvidenceCode>
+                        </Antigen>
+                        <AssayInformation>
+                            <AssayTypeId>50</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <NumberOfSubjectsTested>53</NumberOfSubjectsTested>
+                            <NumberOfSubjectsResponded>2</NumberOfSubjectsResponded>
+                            <ResponseFrequency>3.8</ResponseFrequency>
+                            <AssayComments>10 µg/ml of PHA added.</AssayComments>
+                        </AssayInformation>
+                    </TCell>
+                </Assays>
+                <Assays>
+                    <TCell>
+                        <LocationOfData>Figure 2</LocationOfData>
+                        <TCellId>7198</TCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>9606</OrganismId>
+                                <GeoLocId>http://purl.obolibrary.org/obo/GAZ_00000907</GeoLocId>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Environmental exposure to endemic/ubiquitous agent without evidence for disease</InVivoProcessType>
+                                <DiseaseState>ONTIE:0003423</DiseaseState>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Taxonomic Parent</EpitopeRelation>
+                                    <Object>
+                                        <Organism>
+                                            <SubType>Organism</SubType>
+                                            <SourceOrganismId>5833</SourceOrganismId>
+                                        </Organism>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenReferenceName>Plasmodium falciparum [Mosquito Stage] [sporozoite]</ImmunogenReferenceName>
+                                <ImmunogenEvidenceCode>Representative selection</ImmunogenEvidenceCode>
+                            </FirstInVivoProcess>
+                        </Immunization>
+                        <EffectorCells>
+                            <CellTissueType>Blood</CellTissueType>
+                            <CellType>PBMC</CellType>
+                        </EffectorCells>
+                        <MhcAllele>
+                            <MhcAlleleId>304</MhcAlleleId>
+                            <MhcEvidenceCode>T cell assay -Biological process measured</MhcEvidenceCode>
+                        </MhcAllele>
+                        <Antigen>
+                            <AntigenReferenceName>Epitope 1</AntigenReferenceName>
+                            <AntigenObject>
+                                <EpitopeRelation>Epitope</EpitopeRelation>
+                                <Object>
+                                    <FragmentOfANaturalSequenceMolecule>
+                                        <ChemicalType>Peptide from protein</ChemicalType>
+                                        <LinearSequence>NANPNANPNANPNA</LinearSequence>
+                                        <StartingPosition>114</StartingPosition>
+                                        <EndingPosition>127</EndingPosition>
+                                        <SourceMolecule>
+                                            <GenBankId>AAW78194.1</GenBankId>
+                                        </SourceMolecule>
+                                        <SourceOrganismId>5843</SourceOrganismId>
+                                    </FragmentOfANaturalSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Exact match to reference information</AntigenEvidenceCode>
+                        </Antigen>
+                        <AssayInformation>
+                            <AssayTypeId>69</AssayTypeId>
+                            <QualitativeMeasurement>Negative</QualitativeMeasurement>
+                            <NumberOfSubjectsTested>53</NumberOfSubjectsTested>
+                            <NumberOfSubjectsResponded>0</NumberOfSubjectsResponded>
+                            <AssayComments>10 µg/ml of PHA added.</AssayComments>
+                        </AssayInformation>
+                    </TCell>
+                </Assays>
+            </Epitope>
+        </Epitopes>
+    </Reference>
+</References>
+

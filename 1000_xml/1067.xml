@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<References xsi:schemaLocation="http://www.iedb.org/schema/CurationSchema http://beta.iedb.org/schema/Curation.xsd" xmlns="http://www.iedb.org/schema/CurationSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <Reference>
+        <ReferenceId>1067</ReferenceId>
+        <DateLastUpdated>2020-09-10-07:00</DateLastUpdated>
+        <Article>
+            <PubmedId>7682624</PubmedId>
+            <Abstract>When mice were immunized with the A/Okuda/57 (H2N2) strain of influenza virus, a unique monoclonal antibody designated C179 was obtained. Although C179 was confirmed to recognize the hemagglutinin (HA) glycoprotein by immunoprecipitation assays, it did not show hemagglutination inhibition activity to any of the strains of the three subtypes of influenza A virus. However, it neutralized all of the H1 and H2 strains but not the H3 strains. Moreover, it inhibited polykaryon formation induced by the H1 and H2 strains but not by the H3 strains. Two antigenic variants against C179 were obtained, and nucleotide sequence analysis revealed that amino acid sequences, from 318 to 322 of HA1 and from 47 to 58 of HA2, conserved among H1 and H2 strains were responsible for the recognition of C179. Since the two sites were located close to each other at the middle of the stem region of the HA molecule, C179 seemed to recognize these sites conformationally. These data indicated that binding of C179 to the stem region of HA inhibits the fusion activity of HA and thus results in virus neutralization and inhibition of cell-cell fusion. This is the first report which describes the presence of conserved antigenic sites on HA not only in a specific subtype but also in two subtypes of influenza A virus.</Abstract>
+            <ArticleYear>1993</ArticleYear>
+            <ArticlePages>2552-8</ArticlePages>
+            <ArticleTitle>A common neutralizing epitope conserved between the hemagglutinins of influenza A virus H1 and H2 strains.</ArticleTitle>
+            <Authors>
+                <Author>
+                    <LastName>Okuno</LastName>
+                    <ForeName>Y</ForeName>
+                </Author>
+                <Author>
+                    <LastName>Isegawa</LastName>
+                    <ForeName>Y</ForeName>
+                </Author>
+                <Author>
+                    <LastName>Sasao</LastName>
+                    <ForeName>F</ForeName>
+                </Author>
+                <Author>
+                    <LastName>Ueda</LastName>
+                    <ForeName>S</ForeName>
+                </Author>
+            </Authors>
+            <Affiliations>Department of Preventive Medicine, Osaka University, Japan.</Affiliations>
+            <ArticleChemicalList>Antibodies, Monoclonal;Antibodies, Viral;Antigens, Viral;Epitopes;Hemagglutinin Glycoproteins, Influenza Virus;Hemagglutinins, Viral</ArticleChemicalList>
+            <ArticleMeshHeadingsList>Amino Acid Sequence; Animals; Antibodies, Monoclonal(immunology); Antibodies, Viral(immunology); Antibody Specificity; Antigens, Viral(genetics; immunology); Base Sequence; Cell Fusion; Cells, Cultured; Conserved Sequence; Epitopes; Hemagglutinin Glycoproteins, Influenza Virus; Hemagglutinins, Viral(genetics; immunology); Mice; Mice, Inbred BALB C; Models, Molecular; Molecular Sequence Data; Neutralization Tests; Orthomyxoviridae(genetics; immunology); Protein Conformation; Species Specificity</ArticleMeshHeadingsList>
+            <Journal>
+                <Volume>67</Volume>
+                <Issue>5</Issue>
+                <Title>Journal of virology</Title>
+                <Issn>1098-5514</Issn>
+                <MedlineTa>J Virol</MedlineTa>
+            </Journal>
+        </Article>
+        <Epitopes>
+            <Epitope>
+                <EpitopeStructure>
+                    <DiscontinuousRegionOnAccessionSequenceMolecule>
+                        <ChemicalType>Discontinuous protein residues</ChemicalType>
+                        <DiscontinuousResidues>T30, G31, L32, R33, N34, G88, I89, T90, N91, K92, V93, N94, S95, V96, I97, E98, K99</DiscontinuousResidues>
+                        <SourceMolecule>
+                            <GenBankId>BAA02770.1</GenBankId>
+                        </SourceMolecule>
+                        <SourceOrganismId>223935</SourceOrganismId>
+                    </DiscontinuousRegionOnAccessionSequenceMolecule>
+                </EpitopeStructure>
+                <LocationOfData>Figure 3</LocationOfData>
+                <EpitopeId>77209</EpitopeId>
+                <ReferenceRegion>T318, G319, L320, R321, N322, G47, I48, T49, N50, K51, V52, N53, S54, V55, I56, E57, K58</ReferenceRegion>
+                <EpitopeEvidenceCode>Not determined</EpitopeEvidenceCode>
+                <EpitopeStructureDefines>Partial Epitope</EpitopeStructureDefines>
+                <EpitopeComments>The epitope was identified based on the sequence variations in two Influenza variants that did not react with the monoclonal antibody.  Sequence homology between various strains in the vicinity of the variant amino acids led to the deduced epitopic regions.  The regions were located close to each other at the middle of the stem region of the Hemagglutinin molecule.</EpitopeComments>
+                <Assays>
+                    <BCell>
+                        <LocationOfData>Table 1</LocationOfData>
+                        <BCellId>15088</BCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>10000000</OrganismId>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Administration in vivo</InVivoProcessType>
+                                <DiseaseState>ONTIE:0003423</DiseaseState>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Source Organism</EpitopeRelation>
+                                    <Object>
+                                        <Organism>
+                                            <SubType>Organism</SubType>
+                                            <SourceOrganismId>223935</SourceOrganismId>
+                                        </Organism>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenReferenceName>Influenza A virus (A/Okuda/57(H2N2))</ImmunogenReferenceName>
+                                <ImmunogenEvidenceCode>Not determined</ImmunogenEvidenceCode>
+                                <Adjuvant>Freund's complete</Adjuvant>
+                                <Route>Intraperitoneal (i.p.)</Route>
+                                <DoseSchedule>Mice were immunized with two doses, one month apart.  A booster immunization was given 2 to 5 months after the second immunization.</DoseSchedule>
+                            </FirstInVivoProcess>
+                            <ImmunizationComments>Spleen cells from mice were fused with mouse myeloma cells (P3X63Ag8.653) by using polyethylene glycol.</ImmunizationComments>
+                        </Immunization>
+                        <AssayInformation>
+                            <AssayTypeId>316</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <AssayComments>The following influenza A strains showed positive responses: (A/Puerto Rico/8/34(H1N1)), A/Bangkok/10/83(H1N1)), (A/Yamagata/120/86 (H1N1)), (A/Osaka/930/88(H1N1)), (A/Suita/1/89(H1N1)), (A/Okuda/57(H2N2)), (A/Adachi/2/57(H2N2)), (A/Kumamoto/1/65(H2N2)), (A/Kaizuka/2/65(H2N2)), (A/Izumi/5/65(H2N2)). A fusion inhibition test was also performed in which the ability of the monoclonal antibody to inhibit cell-cell fusion was assessed.  A negative response was shown with a hemagglutination inhibition test.</AssayComments>
+                        </AssayInformation>
+                        <AssayedAntibody>
+                            <AssayedAntibodySourceMaterial>Ascitic Fluid</AssayedAntibodySourceMaterial>
+                            <AssayedAntibodyImmunoglobulinDomain>Entire Antibody</AssayedAntibodyImmunoglobulinDomain>
+                            <AssayedAntibodyPurificationStatus>Monoclonal</AssayedAntibodyPurificationStatus>
+                            <AssayedAntibodyName>C179</AssayedAntibodyName>
+                            <AssayedAntibodyHeavyChainType>IgG2a</AssayedAntibodyHeavyChainType>
+                        </AssayedAntibody>
+                        <Antigen>
+                            <AntigenReferenceName>Influenza A virus (A/Okuda/57(H2N2))</AntigenReferenceName>
+                            <AntigenConformation>Non-Native/Unknown</AntigenConformation>
+                            <AntigenObject>
+                                <EpitopeRelation>Source Organism</EpitopeRelation>
+                                <Object>
+                                    <Organism>
+                                        <SubType>Organism</SubType>
+                                        <SourceOrganismId>223935</SourceOrganismId>
+                                    </Organism>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Not determined</AntigenEvidenceCode>
+                        </Antigen>
+                    </BCell>
+                </Assays>
+                <Assays>
+                    <BCell>
+                        <LocationOfData>Table 1</LocationOfData>
+                        <BCellId>15148</BCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>10000000</OrganismId>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Administration in vivo</InVivoProcessType>
+                                <DiseaseState>ONTIE:0003423</DiseaseState>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Source Organism</EpitopeRelation>
+                                    <Object>
+                                        <Organism>
+                                            <SubType>Organism</SubType>
+                                            <SourceOrganismId>223935</SourceOrganismId>
+                                        </Organism>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenReferenceName>Influenza A virus (A/Okuda/57(H2N2))</ImmunogenReferenceName>
+                                <ImmunogenEvidenceCode>Not determined</ImmunogenEvidenceCode>
+                                <Adjuvant>Freund's complete</Adjuvant>
+                                <Route>Intraperitoneal (i.p.)</Route>
+                                <DoseSchedule>Mice were immunized with two doses, one month apart.  A booster immunization was given 2 to 5 months after the second immunization.</DoseSchedule>
+                            </FirstInVivoProcess>
+                            <ImmunizationComments>Spleen cells from mice were fused with mouse myeloma cells (P3X63Ag8.653) by using polyethylene glycol.</ImmunizationComments>
+                        </Immunization>
+                        <AssayInformation>
+                            <AssayTypeId>316</AssayTypeId>
+                            <QualitativeMeasurement>Negative</QualitativeMeasurement>
+                            <AssayComments>The following influenza A strains showed negative responses: (A/Aichi/2/68(H3N2)), (A/Fukuoka/C29/85(H3N2)), (A/Sichuan/02/87(H3N2)), (A/Ibaraki/1/90(H3N2)), (A/Suita/1/90(H3N2)).  The influenza B strain (B/Nagasaki/1/87) also gave a negative response.  A similar response was shown with a staining test, in which the ability of the monoclonal antibody to stain cells infected with Influenza virus was assessed. A  fusion inhibition test was also performed in which the ability of the monoclonal antibody to inhibit cell-cell fusion was assessed and was negative.  A negative response was also shown with a hemagglutination inhibition test. Based on the homology of inhibited and not inhibited strains, the residues involved in the recognition were deduced.</AssayComments>
+                        </AssayInformation>
+                        <AssayedAntibody>
+                            <AssayedAntibodySourceMaterial>Ascitic Fluid</AssayedAntibodySourceMaterial>
+                            <AssayedAntibodyPurificationStatus>Monoclonal</AssayedAntibodyPurificationStatus>
+                            <AssayedAntibodyName>C179</AssayedAntibodyName>
+                            <AssayedAntibodyHeavyChainType>IgG2a</AssayedAntibodyHeavyChainType>
+                        </AssayedAntibody>
+                        <Antigen>
+                            <AntigenReferenceName>Influenza A virus (A/Aichi/2/1968(H3N2))</AntigenReferenceName>
+                            <AntigenConformation>Native</AntigenConformation>
+                            <AntigenObject>
+                                <EpitopeRelation>Taxonomic Sibling</EpitopeRelation>
+                                <Object>
+                                    <Organism>
+                                        <SubType>Organism</SubType>
+                                        <SourceOrganismId>387139</SourceOrganismId>
+                                    </Organism>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Not determined</AntigenEvidenceCode>
+                        </Antigen>
+                    </BCell>
+                </Assays>
+                <Assays>
+                    <BCell>
+                        <LocationOfData>Figure 1</LocationOfData>
+                        <BCellId>15089</BCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>10000000</OrganismId>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Administration in vivo</InVivoProcessType>
+                                <DiseaseState>ONTIE:0003423</DiseaseState>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Source Organism</EpitopeRelation>
+                                    <Object>
+                                        <Organism>
+                                            <SubType>Organism</SubType>
+                                            <SourceOrganismId>223935</SourceOrganismId>
+                                        </Organism>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenReferenceName>Influenza A virus (A/Okuda/57(H2N2))</ImmunogenReferenceName>
+                                <ImmunogenEvidenceCode>Not determined</ImmunogenEvidenceCode>
+                                <Adjuvant>Freund's complete</Adjuvant>
+                                <Route>Intraperitoneal (i.p.)</Route>
+                                <DoseSchedule>Mice were immunized with two doses, one month apart.  A booster immunization was given 2 to 5 months after the second immunization.</DoseSchedule>
+                            </FirstInVivoProcess>
+                            <ImmunizationComments>Spleen cells from mice were fused with mouse myeloma cells (P3X63Ag8.653) by using polyethylene glycol.</ImmunizationComments>
+                        </Immunization>
+                        <AssayInformation>
+                            <AssayTypeId>39</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                        </AssayInformation>
+                        <AssayedAntibody>
+                            <AssayedAntibodySourceMaterial>Ascitic Fluid</AssayedAntibodySourceMaterial>
+                            <AssayedAntibodyPurificationStatus>Monoclonal</AssayedAntibodyPurificationStatus>
+                            <AssayedAntibodyName>C179</AssayedAntibodyName>
+                            <AssayedAntibodyHeavyChainType>IgG2a</AssayedAntibodyHeavyChainType>
+                        </AssayedAntibody>
+                        <Antigen>
+                            <AntigenReferenceName>hemagglutinin</AntigenReferenceName>
+                            <AntigenConformation>Non-Native/Unknown</AntigenConformation>
+                            <AntigenObject>
+                                <EpitopeRelation>Source Antigen</EpitopeRelation>
+                                <Object>
+                                    <AccessionSequenceMolecule>
+                                        <ChemicalType>Protein</ChemicalType>
+                                        <Molecule>
+                                            <GenBankId>BAA02770.1</GenBankId>
+                                        </Molecule>
+                                        <SourceOrganismId>223935</SourceOrganismId>
+                                    </AccessionSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Not determined</AntigenEvidenceCode>
+                        </Antigen>
+                    </BCell>
+                </Assays>
+            </Epitope>
+        </Epitopes>
+    </Reference>
+</References>
+

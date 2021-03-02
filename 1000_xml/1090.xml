@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<References xsi:schemaLocation="http://www.iedb.org/schema/CurationSchema http://beta.iedb.org/schema/Curation.xsd" xmlns="http://www.iedb.org/schema/CurationSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <Reference>
+        <ReferenceId>1090</ReferenceId>
+        <DateLastUpdated>2020-09-10-07:00</DateLastUpdated>
+        <Article>
+            <PubmedId>9641677</PubmedId>
+            <Abstract>The entry of human immunodeficiency virus (HIV) into cells requires the sequential interaction of the viral exterior envelope glycoprotein, gp120, with the CD4 glycoprotein and a chemokine receptor on the cell surface. These interactions initiate a fusion of the viral and cellular membranes. Although gp120 can elicit virus-neutralizing antibodies, HIV eludes the immune system. We have solved the X-ray crystal structure at 2.5 A resolution of an HIV-1 gp120 core complexed with a two-domain fragment of human CD4 and an antigen-binding fragment of a neutralizing antibody that blocks chemokine-receptor binding. The structure reveals a cavity-laden CD4-gp120 interface, a conserved binding site for the chemokine receptor, evidence for a conformational change upon CD4 binding, the nature of a CD4-induced antibody epitope, and specific mechanisms for immune evasion. Our results provide a framework for understanding the complex biology of HIV entry into cells and should guide efforts to intervene.</Abstract>
+            <ArticleYear>1998</ArticleYear>
+            <ArticlePages>648-59</ArticlePages>
+            <ArticleTitle>Structure of an HIV gp120 envelope glycoprotein in complex with the CD4 receptor and a neutralizing human antibody.</ArticleTitle>
+            <Authors>
+                <Author>
+                    <LastName>Kwong</LastName>
+                    <ForeName>P D</ForeName>
+                </Author>
+                <Author>
+                    <LastName>Wyatt</LastName>
+                    <ForeName>R</ForeName>
+                </Author>
+                <Author>
+                    <LastName>Robinson</LastName>
+                    <ForeName>J</ForeName>
+                </Author>
+                <Author>
+                    <LastName>Sweet</LastName>
+                    <ForeName>R W</ForeName>
+                </Author>
+                <Author>
+                    <LastName>Sodroski</LastName>
+                    <ForeName>J</ForeName>
+                </Author>
+                <Author>
+                    <LastName>Hendrickson</LastName>
+                    <ForeName>W A</ForeName>
+                </Author>
+            </Authors>
+            <Affiliations>Department of Biochemistry and Molecular Biophysics, Columbia University, New York, New York 10032, USA.</Affiliations>
+            <ArticleChemicalList>CD4 Antigens;HIV Antibodies;HIV Envelope Protein gp120;HIV Envelope Protein gp41;Immunoglobulin Fragments;Receptors, CCR5</ArticleChemicalList>
+            <ArticleMeshHeadingsList>Amino Acid Sequence; Animals; CD4 Antigens(chemistry; immunology; metabolism); CHO Cells; Cricetinae; Cricetulus; Crystallography, X-Ray; Glycosylation; HIV Antibodies(chemistry; immunology); HIV Envelope Protein gp120(chemistry; immunology; metabolism); HIV Envelope Protein gp41(metabolism); Humans; Immunoglobulin Fragments(chemistry; immunology); Membrane Fusion; Models, Molecular; Molecular Sequence Data; Neutralization Tests; Protein Conformation; Receptors, CCR5(metabolism)</ArticleMeshHeadingsList>
+            <Comments>9641673  Nature. 1998 Jun 18;393(6686):630-1</Comments>
+            <Journal>
+                <Volume>393</Volume>
+                <Issue>6686</Issue>
+                <Title>Nature</Title>
+                <Issn>1476-4687</Issn>
+                <MedlineTa>Nature</MedlineTa>
+            </Journal>
+        </Article>
+        <Epitopes>
+            <Epitope>
+                <EpitopeName>Epitope of 17b Fab on HIV gp120</EpitopeName>
+                <EpitopeStructure>
+                    <DiscontinuousRegionOnAccessionSequenceMolecule>
+                        <ChemicalType>Discontinuous protein residues</ChemicalType>
+                        <DiscontinuousResidues>C119, K121, V200, T202, Q203, R419, K421, Q422, I423, M434, P437</DiscontinuousResidues>
+                        <SourceMolecule>
+                            <GenBankId>P04578.2</GenBankId>
+                        </SourceMolecule>
+                        <SourceOrganismId>11706</SourceOrganismId>
+                    </DiscontinuousRegionOnAccessionSequenceMolecule>
+                </EpitopeStructure>
+                <LocationOfData>PDB 1GC1</LocationOfData>
+                <EpitopeId>164074</EpitopeId>
+                <ReferenceRegion>C119, K121, V200, T202, Q203, R419, K421, Q422, I423, M434, P437</ReferenceRegion>
+                <EpitopeEvidenceCode>Representative selection</EpitopeEvidenceCode>
+                <EpitopeStructureDefines>Exact Epitope</EpitopeStructureDefines>
+                <EpitopeComments>The epitope residues are calculated from the PDB structure [PDB: 1GC1] as the antigen residues at 4 Å distance from the antibody.</EpitopeComments>
+                <Assays>
+                    <BCell>
+                        <LocationOfData>Figures 1, 2, 3, 4, Table 1 and PDB 1GC1</LocationOfData>
+                        <BCellId>1841603</BCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>9606</OrganismId>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Occurrence of infectious disease</InVivoProcessType>
+                                <DiseaseState>DOID:526</DiseaseState>
+                                <DiseaseStage>Chronic</DiseaseStage>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Taxonomic Parent</EpitopeRelation>
+                                    <Object>
+                                        <Organism>
+                                            <SubType>Organism</SubType>
+                                            <SourceOrganismId>11676</SourceOrganismId>
+                                        </Organism>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenEvidenceCode>Representative selection</ImmunogenEvidenceCode>
+                            </FirstInVivoProcess>
+                            <ImmunizationComments>The monoclonal antibody was made from an HIV infected individual. The details were not provided in the reference.</ImmunizationComments>
+                        </Immunization>
+                        <AssayInformation>
+                            <AssayTypeId>436</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <QuantitativeMeasurement>2.5</QuantitativeMeasurement>
+                            <MeasurementInequality>=</MeasurementInequality>
+                            <AssayComments>The epitope for the monoclonal Fab was determined from the crystal structure of the Fab in complex with gp120 core and CD4. The deglycosylated gp120 core protein studied had deletions of 52 and 19 residues from the N- and C-termini, respectively and Gly-Ala-Gly tri-peptide substitutions for 67 V1/V2 loop residues and 32 V3 loop residues. The gp120 core retained near normal interaction with DID2 of CD4. There are no direct CD4-Fab 17b contacts.</AssayComments>
+                        </AssayInformation>
+                        <AssayedAntibody>
+                            <AssayedAntibodySourceMaterial>Purified Immunoglobulin</AssayedAntibodySourceMaterial>
+                            <AssayedAntibodyImmunoglobulinDomain>Fab</AssayedAntibodyImmunoglobulinDomain>
+                            <AssayedAntibodyPurificationStatus>Monoclonal</AssayedAntibodyPurificationStatus>
+                            <AssayedAntibodyName>17b</AssayedAntibodyName>
+                            <AssayedAntibodyHeavyChainType>IgG</AssayedAntibodyHeavyChainType>
+                            <AssayedAntibodyLightChainType>Kappa</AssayedAntibodyLightChainType>
+                            <AssayedAntibodyObject>
+                                <MultiChainMolecule>
+                                    <ChemicalType>Multi-Chain protein</ChemicalType>
+                                    <MoleculeName>17b</MoleculeName>
+                                    <Chain1>
+                                        <Molecule>
+                                            <GenBankId>1G9N_H</GenBankId>
+                                        </Molecule>
+                                        <SourceOrganismId>9606</SourceOrganismId>
+                                    </Chain1>
+                                    <Chain2>
+                                        <Molecule>
+                                            <GenBankId>1G9N_L</GenBankId>
+                                        </Molecule>
+                                        <SourceOrganismId>9606</SourceOrganismId>
+                                    </Chain2>
+                                </MultiChainMolecule>
+                            </AssayedAntibodyObject>
+                        </AssayedAntibody>
+                        <Antigen>
+                            <AntigenReferenceName>HIV-1 gp120 core</AntigenReferenceName>
+                            <AntigenConformation>Native</AntigenConformation>
+                            <AntigenObject>
+                                <EpitopeRelation>Fragment of Source Antigen</EpitopeRelation>
+                                <Object>
+                                    <FragmentOfANaturalSequenceMolecule>
+                                        <ChemicalType>Peptide from protein</ChemicalType>
+                                        <LinearSequence>EVVLVNVTENFNMWKNDMVEQMHEDIISLWDQSLKPCVKLTPLCVSLKCTDLKNDTNTNSSSGRMIMEKGEIKNCSFNISTSIRGKVQKEYAFFYKLDIIPIDNDTTSYKLTSCNTSVITQACPKVSFEPIPIHYCAPAGFAILKCNNKTFNGTGPCTNVSTVQCTHGIRPVVSTQLLLNGSLAEEEVVIRSVNFTDNAKTIIVQLNTSVEINCTRPNNNTRKRIRIQRGPGRAFVTIGKIGNMRQAHCNISRAKWNNTLKQIASKLREQFGNNKTIIFKQSSGGDPEIVTHSFNCGGEFFYCNSTQLFNSTWFNSTWSTEGSNNTEGSDTITLPCRIKQIINMWQKVGKAMYAPPISGQIRCSSNITGLLLTRDGGNSNNESEIFRPGGGDMRDNWRSELYKYKVVKIE</LinearSequence>
+                                        <StartingPosition>83</StartingPosition>
+                                        <EndingPosition>492</EndingPosition>
+                                        <SourceMolecule>
+                                            <GenBankId>P04578.2</GenBankId>
+                                        </SourceMolecule>
+                                        <SourceOrganismId>11706</SourceOrganismId>
+                                    </FragmentOfANaturalSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Exact match to reference information</AntigenEvidenceCode>
+                            <AntigenContainingObject>
+                                <ComplexedMolecule>
+                                    <ComplexType>Protein conjugate</ComplexType>
+                                    <PeptideSequence>KKVVLGKKGDTVELTCTASQKKSIQFHWKNSNQIKILGNQGSFLTKGPSK...</PeptideSequence>
+                                    <PeptideModifications/>
+                                    <PeptideSourceMolecule>
+                                        <GenBankId>P01730.1</GenBankId>
+                                    </PeptideSourceMolecule>
+                                    <PeptideSourceOrganismId>9606</PeptideSourceOrganismId>
+                                </ComplexedMolecule>
+                            </AntigenContainingObject>
+                        </Antigen>
+                        <ThreeDimensionalStructureOfComplex>
+                            <ComplexPdbId>1GC1</ComplexPdbId>
+                            <AntibodyChain1PdbChain>H</AntibodyChain1PdbChain>
+                            <AntibodyChain2PdbChain>L</AntibodyChain2PdbChain>
+                            <AntigenChainPdbChain>G</AntigenChainPdbChain>
+                            <ViewerFlag>Y</ViewerFlag>
+                            <CuratedContacts>
+                                <EpitopeResidues>G: ;</EpitopeResidues>
+                                <AntibodyResiduesInteractingWithAntigen>H: ; L: ;</AntibodyResiduesInteractingWithAntigen>
+                            </CuratedContacts>
+                            <CalculatedContacts>
+                                <EpitopeResidues>G: C119, K121, V200, T202, Q203, R419, K421, Q422, I423, M434, P437</EpitopeResidues>
+                                <AntibodyResiduesInteractingWithAntigen>H: L55, V57, H59, E103, E106, G107, E108, Y109, D110, N111; L: W94, P95</AntibodyResiduesInteractingWithAntigen>
+                                <ContactAreaForAntigen>604.3</ContactAreaForAntigen>
+                                <ContactAreaForAntibody>565.0</ContactAreaForAntibody>
+                            </CalculatedContacts>
+                        </ThreeDimensionalStructureOfComplex>
+                    </BCell>
+                </Assays>
+            </Epitope>
+        </Epitopes>
+    </Reference>
+</References>
+

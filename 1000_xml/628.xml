@@ -1,0 +1,539 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<References xsi:schemaLocation="http://www.iedb.org/schema/CurationSchema http://beta.iedb.org/schema/Curation.xsd" xmlns="http://www.iedb.org/schema/CurationSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <Reference>
+        <ReferenceId>628</ReferenceId>
+        <DateLastUpdated>2020-10-11-07:00</DateLastUpdated>
+        <Article>
+            <PubmedId>15344223</PubmedId>
+            <Abstract>The antigenic similarity between Neisseria meningitidis group B (NMGB) capsular polysaccharide (PS) and human polysialic acid (PSA) has hampered the development of a NMGB PS-based vaccine. But the possibility of a safe vaccine based on NMGB PS has been demonstrated by the existence of the NMGB PS-associated nonautoreactive epitope, which is distinct from those present on human PSA. To obtain peptide mimotopes of NMGB PS, we used HmenB3, a protective and nonautoreactive monoclonal antibody, to screen a phage library with 12 amino acids. We obtained 23 phage clones that bound to HmenB3 but not in the presence of E. coli K1 PS [which is alpha(2-8)-linked PSA like NMGB PS]. The clones contained 3 mimotopes and differed from previously described NMGB PS mimotopes. Immunization with a synthetic peptide of one mimotope elicited anti-NMGB antibodies in BALB/c mice. These mimotopes may be useful in the development of group B meningococcal vaccines.</Abstract>
+            <ArticleYear>2004</ArticleYear>
+            <ArticlePages>755-8</ArticlePages>
+            <ArticleTitle>Peptide mimotopes of Neisseria meningitidis group B capsular polysaccharide.</ArticleTitle>
+            <Authors>
+                <Author>
+                    <LastName>Park</LastName>
+                    <ForeName>Inho</ForeName>
+                </Author>
+                <Author>
+                    <LastName>Choi</LastName>
+                    <ForeName>In-Hong</ForeName>
+                </Author>
+                <Author>
+                    <LastName>Kim</LastName>
+                    <ForeName>Se Jong</ForeName>
+                </Author>
+                <Author>
+                    <LastName>Shin</LastName>
+                    <ForeName>Jeon-Soo</ForeName>
+                </Author>
+            </Authors>
+            <Affiliations>Department of Microbiology, Brain Korea 21 Project for Medical Science, Yonsei University College of Medicine, 134 Shin chon-dong, Seodaemoon-gu, Seoul 120-752, Korea.</Affiliations>
+            <ArticleChemicalList>Bacterial Vaccines;Polysaccharides, Bacterial</ArticleChemicalList>
+            <ArticleMeshHeadingsList>Amino Acid Sequence; Animals; Bacterial Vaccines(immunology); Cloning, Molecular; Female; Meningococcal Infections(immunology; prevention &amp; control); Mice; Mice, Inbred BALB C; Molecular Sequence Data; Neisseria meningitidis, Serogroup B(genetics; immunology); Polysaccharides, Bacterial(genetics; immunology)</ArticleMeshHeadingsList>
+            <Journal>
+                <Volume>45</Volume>
+                <Issue>4</Issue>
+                <Title>Yonsei medical journal.</Title>
+                <Issn>0513-5796</Issn>
+                <MedlineTa>Yonsei Med J</MedlineTa>
+            </Journal>
+        </Article>
+        <Epitopes>
+            <Epitope>
+                <EpitopeName>PepB3L12-3</EpitopeName>
+                <EpitopeStructure>
+                    <SequenceMoleculeNoNaturalSource>
+                        <ChemicalType>Peptide, no natural source</ChemicalType>
+                        <LinearSequence>HHSHSILQSDWF</LinearSequence>
+                    </SequenceMoleculeNoNaturalSource>
+                </EpitopeStructure>
+                <EpitopeRelatedObject>
+                    <RelatedObjectType>The epitope is a mimotope of:</RelatedObjectType>
+                    <RelatedObject>
+                        <AccessionNonSequenceMolecule>
+                            <ChemicalType>Carbohydrate</ChemicalType>
+                            <Molecule>
+                                <ChEBIId>CHEBI:18154</ChEBIId>
+                            </Molecule>
+                            <SourceOrganismId>491</SourceOrganismId>
+                        </AccessionNonSequenceMolecule>
+                    </RelatedObject>
+                </EpitopeRelatedObject>
+                <LocationOfData>Table 1</LocationOfData>
+                <EpitopeId>24019</EpitopeId>
+                <EpitopeEvidenceCode>Exact match to reference information</EpitopeEvidenceCode>
+                <EpitopeStructureDefines>Epitope containing region/antigenic site</EpitopeStructureDefines>
+                <EpitopeComments>The epitope is a mimotope of Neiserria meningitidis Group B capsular polysaccharide (PS).</EpitopeComments>
+                <Assays>
+                    <BCell>
+                        <LocationOfData>Figure 1B</LocationOfData>
+                        <BCellId>1859939</BCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>10000019</OrganismId>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Administration in vivo</InVivoProcessType>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Other</EpitopeRelation>
+                                    <Object>
+                                        <Organism>
+                                            <SubType>Organism</SubType>
+                                            <SourceOrganismId>1392869</SourceOrganismId>
+                                        </Organism>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenReferenceName>Escherichia Coli K1</ImmunogenReferenceName>
+                                <ImmunogenEvidenceCode>Exact match to reference information</ImmunogenEvidenceCode>
+                                <Route>Intraperitoneal (i.p.)</Route>
+                            </FirstInVivoProcess>
+                            <ImmunizationComments>Mice were immunized with E. coli K1 four times, twice with 10&lt;sup&gt;7&lt;/sup&gt; CFU, on days 0 and 4, and twice with 10&lt;sup&gt;8&lt;/sup&gt; CFU, on days 7 and 10. Details for the production of HmenB3 mAb were provided in Shin et al. Infect Immun 2001;69:3335-3342 [PMID: 11292756].</ImmunizationComments>
+                        </Immunization>
+                        <AssayInformation>
+                            <AssayTypeId>311</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <AssayComments>The epitope-specific monoclonal antibody, HmenB3, specifically bound E. coli K1 polysaccharide.</AssayComments>
+                        </AssayInformation>
+                        <AssayedAntibody>
+                            <AssayedAntibodySourceMaterial>Purified Immunoglobulin</AssayedAntibodySourceMaterial>
+                            <AssayedAntibodyImmunoglobulinDomain>Entire Antibody</AssayedAntibodyImmunoglobulinDomain>
+                            <AssayedAntibodyPurificationStatus>Monoclonal</AssayedAntibodyPurificationStatus>
+                            <AssayedAntibodyName>HmenB3</AssayedAntibodyName>
+                            <AssayedAntibodyHeavyChainType>IgM</AssayedAntibodyHeavyChainType>
+                            <AssayedAntibodyLightChainType>Kappa</AssayedAntibodyLightChainType>
+                        </AssayedAntibody>
+                        <Antigen>
+                            <AntigenReferenceName>Escherichia coli K1 PS</AntigenReferenceName>
+                            <AntigenConformation>Native</AntigenConformation>
+                            <AntigenObject>
+                                <EpitopeRelation>Structurally Related</EpitopeRelation>
+                                <Object>
+                                    <AccessionNonSequenceMolecule>
+                                        <ChemicalType>Carbohydrate</ChemicalType>
+                                        <Molecule>
+                                            <ChEBIId>CHEBI:18154</ChEBIId>
+                                        </Molecule>
+                                        <SourceOrganismId>1392869</SourceOrganismId>
+                                    </AccessionNonSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Exact match to reference information</AntigenEvidenceCode>
+                        </Antigen>
+                    </BCell>
+                </Assays>
+                <Assays>
+                    <BCell>
+                        <LocationOfData>Figure 1A and Table 1</LocationOfData>
+                        <BCellId>6914</BCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>10000019</OrganismId>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Administration in vivo</InVivoProcessType>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Other</EpitopeRelation>
+                                    <Object>
+                                        <Organism>
+                                            <SubType>Organism</SubType>
+                                            <SourceOrganismId>1392869</SourceOrganismId>
+                                        </Organism>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenReferenceName>Escherichia Coli K1</ImmunogenReferenceName>
+                                <ImmunogenEvidenceCode>Exact match to reference information</ImmunogenEvidenceCode>
+                                <Route>Intraperitoneal (i.p.)</Route>
+                            </FirstInVivoProcess>
+                            <ImmunizationComments>Mice were immunized with E. coli K1 four times, twice with 10&lt;sup&gt;7&lt;/sup&gt; CFU, on days 0 and 4, and twice with 10&lt;sup&gt;8&lt;/sup&gt; CFU, on days 7 and 10. Details for the production of HmenB3 mAb were provided in Shin et al. Infect Immun 2001;69:3335-3342 [PMID: 11292756].</ImmunizationComments>
+                        </Immunization>
+                        <AssayInformation>
+                            <AssayTypeId>195</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <AssayComments>The E.coli polysaccharide-specific monoclonal antibody, HmenB3, specifically bound a phage clone expressing the epitope.</AssayComments>
+                        </AssayInformation>
+                        <AssayedAntibody>
+                            <AssayedAntibodySourceMaterial>Purified Immunoglobulin</AssayedAntibodySourceMaterial>
+                            <AssayedAntibodyImmunoglobulinDomain>Entire Antibody</AssayedAntibodyImmunoglobulinDomain>
+                            <AssayedAntibodyPurificationStatus>Monoclonal</AssayedAntibodyPurificationStatus>
+                            <AssayedAntibodyName>HmenB3</AssayedAntibodyName>
+                            <AssayedAntibodyHeavyChainType>IgM</AssayedAntibodyHeavyChainType>
+                            <AssayedAntibodyLightChainType>Kappa</AssayedAntibodyLightChainType>
+                        </AssayedAntibody>
+                        <Antigen>
+                            <AntigenConformation>Non-Native/Unknown</AntigenConformation>
+                            <AntigenObject>
+                                <EpitopeRelation>Epitope</EpitopeRelation>
+                                <Object>
+                                    <SequenceMoleculeNoNaturalSource>
+                                        <ChemicalType>Peptide, no natural source</ChemicalType>
+                                        <LinearSequence>HHSHSILQSDWF</LinearSequence>
+                                    </SequenceMoleculeNoNaturalSource>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Exact match to reference information</AntigenEvidenceCode>
+                            <AntigenContainingObject>
+                                <ObjectLibrary>
+                                    <DisplaySystemType>Phage display</DisplaySystemType>
+                                </ObjectLibrary>
+                            </AntigenContainingObject>
+                        </Antigen>
+                    </BCell>
+                </Assays>
+            </Epitope>
+            <Epitope>
+                <EpitopeName>PepB3L12-1</EpitopeName>
+                <EpitopeStructure>
+                    <SequenceMoleculeNoNaturalSource>
+                        <ChemicalType>Peptide, no natural source</ChemicalType>
+                        <LinearSequence>NKVIWDRDWMYP</LinearSequence>
+                    </SequenceMoleculeNoNaturalSource>
+                </EpitopeStructure>
+                <EpitopeRelatedObject>
+                    <RelatedObjectType>The epitope is a mimotope of:</RelatedObjectType>
+                    <RelatedObject>
+                        <AccessionNonSequenceMolecule>
+                            <ChemicalType>Carbohydrate</ChemicalType>
+                            <Molecule>
+                                <ChEBIId>CHEBI:18154</ChEBIId>
+                            </Molecule>
+                            <SourceOrganismId>491</SourceOrganismId>
+                        </AccessionNonSequenceMolecule>
+                    </RelatedObject>
+                </EpitopeRelatedObject>
+                <LocationOfData>Table 1</LocationOfData>
+                <EpitopeId>44616</EpitopeId>
+                <EpitopeEvidenceCode>Exact match to reference information</EpitopeEvidenceCode>
+                <EpitopeStructureDefines>Epitope containing region/antigenic site</EpitopeStructureDefines>
+                <EpitopeComments>The epitope is a mimotope of Neiserria meningitidis Group B capsular polysaccharide (PS).</EpitopeComments>
+                <Assays>
+                    <BCell>
+                        <LocationOfData>Figure1, 2A and Table 1</LocationOfData>
+                        <BCellId>6920</BCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>10000019</OrganismId>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Administration in vivo</InVivoProcessType>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Other</EpitopeRelation>
+                                    <Object>
+                                        <Organism>
+                                            <SubType>Organism</SubType>
+                                            <SourceOrganismId>1392869</SourceOrganismId>
+                                        </Organism>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenReferenceName>Escherichia Coli K1</ImmunogenReferenceName>
+                                <ImmunogenEvidenceCode>Exact match to reference information</ImmunogenEvidenceCode>
+                                <Route>Intraperitoneal (i.p.)</Route>
+                            </FirstInVivoProcess>
+                            <ImmunizationComments>Mice were immunized with E. coli K1 four times, twice with 107  CFU, on days 0 and 4, and twice with 108 CFU, on days 7 and 10. Details for the production of HmenB3 mAb were provided in Shin et al. Infect Immun 2001;69:3335-3342 [PMID: 11292756].</ImmunizationComments>
+                        </Immunization>
+                        <AssayInformation>
+                            <AssayTypeId>34</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <AssayComments>The E. coli polysaccharide-specific mAb, HmenB3, recognized the epitope by phage display immunopanning and ELISA. Amino acids CGA were added at the N-terminus of the peptide, and G to the C-terminus, for improved solubility and conjugation with carrier protein. The polysaccharide (PS) from E.coli K1 is identical to the Neisseria meningitidis PS.</AssayComments>
+                        </AssayInformation>
+                        <AssayedAntibody>
+                            <AssayedAntibodySourceMaterial>Purified Immunoglobulin</AssayedAntibodySourceMaterial>
+                            <AssayedAntibodyImmunoglobulinDomain>Entire Antibody</AssayedAntibodyImmunoglobulinDomain>
+                            <AssayedAntibodyPurificationStatus>Monoclonal</AssayedAntibodyPurificationStatus>
+                            <AssayedAntibodyName>HmenB3</AssayedAntibodyName>
+                            <AssayedAntibodyHeavyChainType>IgM</AssayedAntibodyHeavyChainType>
+                            <AssayedAntibodyLightChainType>Kappa</AssayedAntibodyLightChainType>
+                        </AssayedAntibody>
+                        <Antigen>
+                            <AntigenReferenceName>CGANKVIWDRDWMYPG</AntigenReferenceName>
+                            <AntigenConformation>Non-Native/Unknown</AntigenConformation>
+                            <AntigenObject>
+                                <EpitopeRelation>Epitope</EpitopeRelation>
+                                <Object>
+                                    <SequenceMoleculeNoNaturalSource>
+                                        <ChemicalType>Peptide, no natural source</ChemicalType>
+                                        <LinearSequence>NKVIWDRDWMYP</LinearSequence>
+                                    </SequenceMoleculeNoNaturalSource>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Exact match to reference information</AntigenEvidenceCode>
+                            <AntigenContainingObject>
+                                <ComplexedMolecule>
+                                    <ComplexType>Protein conjugate</ComplexType>
+                                    <PeptideModifications/>
+                                    <SourceMolecule>
+                                        <GenBankId>P02769.4</GenBankId>
+                                    </SourceMolecule>
+                                    <MoleculeSourceOrganismId>9913</MoleculeSourceOrganismId>
+                                </ComplexedMolecule>
+                            </AntigenContainingObject>
+                        </Antigen>
+                    </BCell>
+                </Assays>
+                <Assays>
+                    <BCell>
+                        <LocationOfData>Figure 2B</LocationOfData>
+                        <BCellId>6921</BCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>10000000</OrganismId>
+                                <Sex>F</Sex>
+                                <Age>6-8 weeks</Age>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Administration in vivo</InVivoProcessType>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Epitope</EpitopeRelation>
+                                    <Object>
+                                        <SequenceMoleculeNoNaturalSource>
+                                            <ChemicalType>Peptide, no natural source</ChemicalType>
+                                            <LinearSequence>NKVIWDRDWMYP</LinearSequence>
+                                        </SequenceMoleculeNoNaturalSource>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenEvidenceCode>Exact match to reference information</ImmunogenEvidenceCode>
+                                <ImmunogenContainingObject>
+                                    <ComplexedMolecule>
+                                        <ComplexType>Protein conjugate</ComplexType>
+                                        <PeptideModifications/>
+                                        <SourceMolecule>
+                                            <GenBankId>P02769.4</GenBankId>
+                                        </SourceMolecule>
+                                        <MoleculeSourceOrganismId>9913</MoleculeSourceOrganismId>
+                                    </ComplexedMolecule>
+                                </ImmunogenContainingObject>
+                                <Adjuvant>Freund's complete</Adjuvant>
+                                <Adjuvant>Freund's incomplete (IFA)</Adjuvant>
+                                <Route>Intraperitoneal (i.p.)</Route>
+                                <DoseSchedule>4 doses of 50ug epitope-BSA at 2-week intervals</DoseSchedule>
+                            </FirstInVivoProcess>
+                            <ImmunizationComments>Mice immunized with peptide-BSA in complete Freund's adjuvant and were then boosted 3 times with incomplete Freund's adjuvant at 2 week intervals. Serum was collected 7 days after the final injection.</ImmunizationComments>
+                        </Immunization>
+                        <AssayInformation>
+                            <AssayTypeId>34</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <AssayComments>The epitope conjugated to BSA elicited significant anti-Neisseria meningitidis group B (NMGB) antibody production in mice. This reactivity was considered to be specific to the NMGB polysaccharide.</AssayComments>
+                        </AssayInformation>
+                        <AssayedAntibody>
+                            <AssayedAntibodySourceMaterial>Serum</AssayedAntibodySourceMaterial>
+                            <AssayedAntibodyImmunoglobulinDomain>Entire Antibody</AssayedAntibodyImmunoglobulinDomain>
+                            <AssayedAntibodyPurificationStatus>Polyclonal</AssayedAntibodyPurificationStatus>
+                        </AssayedAntibody>
+                        <Antigen>
+                            <AntigenReferenceName>Neisseria meningitidis Group B</AntigenReferenceName>
+                            <AntigenConformation>Non-Native/Unknown</AntigenConformation>
+                            <AntigenObject>
+                                <EpitopeRelation>Other</EpitopeRelation>
+                                <Object>
+                                    <Organism>
+                                        <SubType>Organism</SubType>
+                                        <SourceOrganismId>491</SourceOrganismId>
+                                    </Organism>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Representative selection</AntigenEvidenceCode>
+                        </Antigen>
+                    </BCell>
+                </Assays>
+                <Assays>
+                    <BCell>
+                        <LocationOfData>Figure 1B</LocationOfData>
+                        <BCellId>1859942</BCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>10000019</OrganismId>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Administration in vivo</InVivoProcessType>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Other</EpitopeRelation>
+                                    <Object>
+                                        <Organism>
+                                            <SubType>Organism</SubType>
+                                            <SourceOrganismId>1392869</SourceOrganismId>
+                                        </Organism>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenReferenceName>Escherichia Coli K1</ImmunogenReferenceName>
+                                <ImmunogenEvidenceCode>Exact match to reference information</ImmunogenEvidenceCode>
+                                <Route>Intraperitoneal (i.p.)</Route>
+                            </FirstInVivoProcess>
+                            <ImmunizationComments>Mice were immunized with E. coli K1 four times, twice with 10&lt;sup&gt;7&lt;/sup&gt; CFU, on days 0 and 4, and twice with 10&lt;sup&gt;8&lt;/sup&gt; CFU, on days 7 and 10. Details for the production of HmenB3 mAb were provided in Shin et al. Infect Immun 2001;69:3335-3342 [PMID: 11292756].</ImmunizationComments>
+                        </Immunization>
+                        <AssayInformation>
+                            <AssayTypeId>311</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <AssayComments>The epitope-specific monoclonal antibody, HmenB3, specifically bound E. coli K1 polysaccharide.</AssayComments>
+                        </AssayInformation>
+                        <AssayedAntibody>
+                            <AssayedAntibodySourceMaterial>Purified Immunoglobulin</AssayedAntibodySourceMaterial>
+                            <AssayedAntibodyImmunoglobulinDomain>Entire Antibody</AssayedAntibodyImmunoglobulinDomain>
+                            <AssayedAntibodyPurificationStatus>Monoclonal</AssayedAntibodyPurificationStatus>
+                            <AssayedAntibodyName>HmenB3</AssayedAntibodyName>
+                            <AssayedAntibodyHeavyChainType>IgM</AssayedAntibodyHeavyChainType>
+                            <AssayedAntibodyLightChainType>Kappa</AssayedAntibodyLightChainType>
+                        </AssayedAntibody>
+                        <Antigen>
+                            <AntigenReferenceName>Escherichia coli K1 PS</AntigenReferenceName>
+                            <AntigenConformation>Native</AntigenConformation>
+                            <AntigenObject>
+                                <EpitopeRelation>Structurally Related</EpitopeRelation>
+                                <Object>
+                                    <AccessionNonSequenceMolecule>
+                                        <ChemicalType>Carbohydrate</ChemicalType>
+                                        <Molecule>
+                                            <ChEBIId>CHEBI:18154</ChEBIId>
+                                        </Molecule>
+                                        <SourceOrganismId>1392869</SourceOrganismId>
+                                    </AccessionNonSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Exact match to reference information</AntigenEvidenceCode>
+                        </Antigen>
+                    </BCell>
+                </Assays>
+            </Epitope>
+            <Epitope>
+                <EpitopeName>PepB3L12-2</EpitopeName>
+                <EpitopeStructure>
+                    <SequenceMoleculeNoNaturalSource>
+                        <ChemicalType>Peptide, no natural source</ChemicalType>
+                        <LinearSequence>NKVIWEADWAFS</LinearSequence>
+                    </SequenceMoleculeNoNaturalSource>
+                </EpitopeStructure>
+                <EpitopeRelatedObject>
+                    <RelatedObjectType>The epitope is a mimotope of:</RelatedObjectType>
+                    <RelatedObject>
+                        <AccessionNonSequenceMolecule>
+                            <ChemicalType>Carbohydrate</ChemicalType>
+                            <Molecule>
+                                <ChEBIId>CHEBI:18154</ChEBIId>
+                            </Molecule>
+                            <SourceOrganismId>491</SourceOrganismId>
+                        </AccessionNonSequenceMolecule>
+                    </RelatedObject>
+                </EpitopeRelatedObject>
+                <LocationOfData>Table 1</LocationOfData>
+                <EpitopeId>44617</EpitopeId>
+                <EpitopeEvidenceCode>Exact match to reference information</EpitopeEvidenceCode>
+                <EpitopeStructureDefines>Epitope containing region/antigenic site</EpitopeStructureDefines>
+                <EpitopeComments>The epitope is a mimotope of Neiserria meningitidis Group B capsular polysaccharide (PS).</EpitopeComments>
+                <Assays>
+                    <BCell>
+                        <LocationOfData>Figure 1A</LocationOfData>
+                        <BCellId>1855219</BCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>10000019</OrganismId>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Administration in vivo</InVivoProcessType>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Other</EpitopeRelation>
+                                    <Object>
+                                        <Organism>
+                                            <SubType>Organism</SubType>
+                                            <SourceOrganismId>1392869</SourceOrganismId>
+                                        </Organism>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenReferenceName>Escherichia Coli K1</ImmunogenReferenceName>
+                                <ImmunogenEvidenceCode>Exact match to reference information</ImmunogenEvidenceCode>
+                                <Route>Intraperitoneal (i.p.)</Route>
+                            </FirstInVivoProcess>
+                            <ImmunizationComments>Mice were immunized with E. coli K1 four times, twice with 10&lt;sup&gt;7&lt;/sup&gt; CFU, on days 0 and 4, and twice with 10&lt;sup&gt;8&lt;/sup&gt; CFU, on days 7 and 10. Details for the production of HmenB3 mAb were provided in Shin et al. Infect Immun 2001;69:3335-3342 [PMID: 11292756].</ImmunizationComments>
+                        </Immunization>
+                        <AssayInformation>
+                            <AssayTypeId>195</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <AssayComments>The E.coli polysaccharide-specific monoclonal antibody, HmenB3, specifically bound a phage clone expressing the epitope.</AssayComments>
+                        </AssayInformation>
+                        <AssayedAntibody>
+                            <AssayedAntibodySourceMaterial>Purified Immunoglobulin</AssayedAntibodySourceMaterial>
+                            <AssayedAntibodyImmunoglobulinDomain>Entire Antibody</AssayedAntibodyImmunoglobulinDomain>
+                            <AssayedAntibodyPurificationStatus>Monoclonal</AssayedAntibodyPurificationStatus>
+                            <AssayedAntibodyName>HmenB3</AssayedAntibodyName>
+                            <AssayedAntibodyHeavyChainType>IgM</AssayedAntibodyHeavyChainType>
+                            <AssayedAntibodyLightChainType>Kappa</AssayedAntibodyLightChainType>
+                        </AssayedAntibody>
+                        <Antigen>
+                            <AntigenConformation>Non-Native/Unknown</AntigenConformation>
+                            <AntigenObject>
+                                <EpitopeRelation>Epitope</EpitopeRelation>
+                                <Object>
+                                    <SequenceMoleculeNoNaturalSource>
+                                        <ChemicalType>Peptide, no natural source</ChemicalType>
+                                        <LinearSequence>NKVIWEADWAFS</LinearSequence>
+                                    </SequenceMoleculeNoNaturalSource>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Exact match to reference information</AntigenEvidenceCode>
+                            <AntigenContainingObject>
+                                <ObjectLibrary>
+                                    <DisplaySystemType>Phage display</DisplaySystemType>
+                                </ObjectLibrary>
+                            </AntigenContainingObject>
+                        </Antigen>
+                    </BCell>
+                </Assays>
+                <Assays>
+                    <BCell>
+                        <LocationOfData>Figure 1B</LocationOfData>
+                        <BCellId>1859943</BCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>10000019</OrganismId>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Administration in vivo</InVivoProcessType>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Other</EpitopeRelation>
+                                    <Object>
+                                        <Organism>
+                                            <SubType>Organism</SubType>
+                                            <SourceOrganismId>1392869</SourceOrganismId>
+                                        </Organism>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenReferenceName>Escherichia Coli K1</ImmunogenReferenceName>
+                                <ImmunogenEvidenceCode>Exact match to reference information</ImmunogenEvidenceCode>
+                                <Route>Intraperitoneal (i.p.)</Route>
+                            </FirstInVivoProcess>
+                            <ImmunizationComments>Mice were immunized with E. coli K1 four times, twice with 10&lt;sup&gt;7&lt;/sup&gt; CFU, on days 0 and 4, and twice with 10&lt;sup&gt;8&lt;/sup&gt; CFU, on days 7 and 10. Details for the production of HmenB3 mAb were provided in Shin et al. Infect Immun 2001;69:3335-3342 [PMID: 11292756].</ImmunizationComments>
+                        </Immunization>
+                        <AssayInformation>
+                            <AssayTypeId>311</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <AssayComments>The epitope-specific monoclonal antibody, HmenB3, specifically bound E. coli K1 polysaccharide.</AssayComments>
+                        </AssayInformation>
+                        <AssayedAntibody>
+                            <AssayedAntibodySourceMaterial>Purified Immunoglobulin</AssayedAntibodySourceMaterial>
+                            <AssayedAntibodyImmunoglobulinDomain>Entire Antibody</AssayedAntibodyImmunoglobulinDomain>
+                            <AssayedAntibodyPurificationStatus>Monoclonal</AssayedAntibodyPurificationStatus>
+                            <AssayedAntibodyName>HmenB3</AssayedAntibodyName>
+                            <AssayedAntibodyHeavyChainType>IgM</AssayedAntibodyHeavyChainType>
+                            <AssayedAntibodyLightChainType>Kappa</AssayedAntibodyLightChainType>
+                        </AssayedAntibody>
+                        <Antigen>
+                            <AntigenReferenceName>Escherichia coli K1 PS</AntigenReferenceName>
+                            <AntigenConformation>Native</AntigenConformation>
+                            <AntigenObject>
+                                <EpitopeRelation>Structurally Related</EpitopeRelation>
+                                <Object>
+                                    <AccessionNonSequenceMolecule>
+                                        <ChemicalType>Carbohydrate</ChemicalType>
+                                        <Molecule>
+                                            <ChEBIId>CHEBI:18154</ChEBIId>
+                                        </Molecule>
+                                        <SourceOrganismId>1392869</SourceOrganismId>
+                                    </AccessionNonSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Exact match to reference information</AntigenEvidenceCode>
+                        </Antigen>
+                    </BCell>
+                </Assays>
+            </Epitope>
+        </Epitopes>
+    </Reference>
+</References>
+

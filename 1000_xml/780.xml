@@ -1,0 +1,997 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<References xsi:schemaLocation="http://www.iedb.org/schema/CurationSchema http://beta.iedb.org/schema/Curation.xsd" xmlns="http://www.iedb.org/schema/CurationSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <Reference>
+        <ReferenceId>780</ReferenceId>
+        <Keywords>ok</Keywords>
+        <DateLastUpdated>2020-09-10-07:00</DateLastUpdated>
+        <Article>
+            <PubmedId>12628550</PubmedId>
+            <Abstract>New influenza vaccines have been designed based on the fact that the extracellular domain of M2 protein (M2e) is nearly invariant in all influenza A strains. To clarify which exact region of M2e could induce antibodies with inhibitory activities against influenza virus replication, four overlapping peptides covering M2e were synthesized and then coupled to the carrier protein bovine serum albumin through the cysteine of the peptides. After a vaccination course, all these four peptide vaccines could induce high levels of rabbit antibodies with predefined peptide specificity (antibody dilution: 1:6400-1:25600). Besides, the anti-N-terminal antibodies (AS2) reacted strongly with M2e, and reacted weakly with the middle part and C-terminus of M2e. The MDCK assay for cytopathic effect proved that antibodies recognizing the N-terminus of M2e could obviously inhibit replication of influenza A virus (A/wuhan/359/95) and influenza B virus (B/wuhan/321/99) in vitro in a dose-dependent manner, while antibodies recognizing the middle part and the C-terminus of M2e did not show such significant inhibitory activities. Sequence analysis indicates that the first nine N-terminal amino acid residues of M2e are extremely conservative. Just this region containing the first nine amino acid residues could induce antibodies with inhibitory activity against influenza A and influenza B virus replication, suggesting that the N-terminus of M2e may contain an epitope that could induce inhibitory antibodies against influenza virus replication in vitro.</Abstract>
+            <ArticleYear>2003</ArticleYear>
+            <ArticlePages>141-6</ArticlePages>
+            <ArticleTitle>N-terminus of M2 protein could induce antibodies with inhibitory activity against influenza virus replication.</ArticleTitle>
+            <Authors>
+                <Author>
+                    <LastName>Liu</LastName>
+                    <ForeName>Wanli</ForeName>
+                </Author>
+                <Author>
+                    <LastName>Li</LastName>
+                    <ForeName>Hua</ForeName>
+                </Author>
+                <Author>
+                    <LastName>Chen</LastName>
+                    <ForeName>Ying-Hua</ForeName>
+                </Author>
+            </Authors>
+            <Affiliations>Laboratory of Immunology, Research Centre for Medical Science and Department of Biology, Tsinghua University, Protein Science Laboratory of MOE, Beijing 100084, PR China.</Affiliations>
+            <ArticleChemicalList>Antibodies, Viral;M-protein, influenza virus;M2 protein, Influenza A virus;Peptide Fragments;Viral Matrix Proteins</ArticleChemicalList>
+            <ArticleMeshHeadingsList>Amino Acid Sequence; Animals; Antibodies, Viral(immunology); Cell Line; Dogs; Molecular Sequence Data; Orthomyxoviridae(immunology; physiology); Peptide Fragments(immunology); Viral Matrix Proteins(chemistry; immunology); Virus Replication</ArticleMeshHeadingsList>
+            <Journal>
+                <Volume>35</Volume>
+                <Issue>2</Issue>
+                <Title>FEMS immunology and medical microbiology</Title>
+                <Issn>0928-8244</Issn>
+                <MedlineTa>FEMS Immunol Med Microbiol</MedlineTa>
+            </Journal>
+        </Article>
+        <Epitopes>
+            <Epitope>
+                <EpitopeName>P2</EpitopeName>
+                <EpitopeStructure>
+                    <FragmentOfANaturalSequenceMolecule>
+                        <ChemicalType>Peptide from protein</ChemicalType>
+                        <LinearSequence>SLLTEVETPIR</LinearSequence>
+                        <StartingPosition>2</StartingPosition>
+                        <EndingPosition>12</EndingPosition>
+                        <SourceMolecule>
+                            <GenBankId>P35938.1</GenBankId>
+                        </SourceMolecule>
+                        <SourceOrganismId>11320</SourceOrganismId>
+                    </FragmentOfANaturalSequenceMolecule>
+                </EpitopeStructure>
+                <LocationOfData>Figure 1</LocationOfData>
+                <EpitopeId>59316</EpitopeId>
+                <ReferenceStartingPosition>2</ReferenceStartingPosition>
+                <ReferenceEndingPosition>12</ReferenceEndingPosition>
+                <EpitopeEvidenceCode>Not determined</EpitopeEvidenceCode>
+                <EpitopeStructureDefines>Exact Epitope</EpitopeStructureDefines>
+                <Assays>
+                    <BCell>
+                        <LocationOfData>Figure 2B</LocationOfData>
+                        <BCellId>8939</BCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>9986</OrganismId>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Administration in vivo</InVivoProcessType>
+                                <DiseaseState>ONTIE:0003423</DiseaseState>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Epitope</EpitopeRelation>
+                                    <Object>
+                                        <FragmentOfANaturalSequenceMolecule>
+                                            <ChemicalType>Peptide from protein</ChemicalType>
+                                            <LinearSequence>SLLTEVETPIR</LinearSequence>
+                                            <StartingPosition>2</StartingPosition>
+                                            <EndingPosition>12</EndingPosition>
+                                            <SourceMolecule>
+                                                <GenBankId>P35938.1</GenBankId>
+                                            </SourceMolecule>
+                                            <SourceOrganismId>11320</SourceOrganismId>
+                                        </FragmentOfANaturalSequenceMolecule>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenReferenceName>P2</ImmunogenReferenceName>
+                                <ImmunogenEvidenceCode>Exact match to reference information</ImmunogenEvidenceCode>
+                                <ImmunogenContainingObject>
+                                    <ComplexedMolecule>
+                                        <ComplexType>Protein conjugate</ComplexType>
+                                        <PeptideModifications/>
+                                        <SourceMolecule>
+                                            <GenBankId>P02769.4</GenBankId>
+                                        </SourceMolecule>
+                                        <MoleculeSourceOrganismId>9913</MoleculeSourceOrganismId>
+                                    </ComplexedMolecule>
+                                </ImmunogenContainingObject>
+                                <Adjuvant>Freund's complete</Adjuvant>
+                                <Adjuvant>Freund's incomplete (IFA)</Adjuvant>
+                                <Route>Subcutaneous (s.c.)</Route>
+                                <DoseSchedule>Rabbits were immunized subcutaneously with 50 micrograms peptide per rabbit in complete Freundâ¿¿s adjuvant  at a final volume of 300 microliters. Boosters were given in incomplete Freundâ¿¿s adjuvant on days 14 and 28.</DoseSchedule>
+                            </FirstInVivoProcess>
+                            <ImmunizationComments>The immunogen and antigen contained two linked, repeated epitopes which were  chemically linked to the carrier protein bovine serum albumin by 3-maleimidobenzoic acid N-hydroxysuccinimide ester.</ImmunizationComments>
+                        </Immunization>
+                        <AssayInformation>
+                            <AssayTypeId>34</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <AssayComments>The cross reactive response was weak.</AssayComments>
+                        </AssayInformation>
+                        <AssayedAntibody>
+                            <AssayedAntibodySourceMaterial>Serum</AssayedAntibodySourceMaterial>
+                            <AssayedAntibodyPurificationStatus>Polyclonal</AssayedAntibodyPurificationStatus>
+                        </AssayedAntibody>
+                        <Antigen>
+                            <AntigenReferenceName>P3</AntigenReferenceName>
+                            <AntigenConformation>Non-Native/Unknown</AntigenConformation>
+                            <AntigenObject>
+                                <EpitopeRelation>Taxonomic Child</EpitopeRelation>
+                                <Object>
+                                    <FragmentOfANaturalSequenceMolecule>
+                                        <ChemicalType>Peptide from protein</ChemicalType>
+                                        <LinearSequence>ETPIRNEWGCR</LinearSequence>
+                                        <StartingPosition>8</StartingPosition>
+                                        <EndingPosition>18</EndingPosition>
+                                        <SourceMolecule>
+                                            <GenBankId>P35938.1</GenBankId>
+                                        </SourceMolecule>
+                                        <SourceOrganismId>381516</SourceOrganismId>
+                                    </FragmentOfANaturalSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Exact match to reference information</AntigenEvidenceCode>
+                        </Antigen>
+                    </BCell>
+                </Assays>
+                <Assays>
+                    <BCell>
+                        <LocationOfData>Figure 2B</LocationOfData>
+                        <BCellId>8941</BCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>9986</OrganismId>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Administration in vivo</InVivoProcessType>
+                                <DiseaseState>ONTIE:0003423</DiseaseState>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Epitope</EpitopeRelation>
+                                    <Object>
+                                        <FragmentOfANaturalSequenceMolecule>
+                                            <ChemicalType>Peptide from protein</ChemicalType>
+                                            <LinearSequence>SLLTEVETPIR</LinearSequence>
+                                            <StartingPosition>2</StartingPosition>
+                                            <EndingPosition>12</EndingPosition>
+                                            <SourceMolecule>
+                                                <GenBankId>P35938.1</GenBankId>
+                                            </SourceMolecule>
+                                            <SourceOrganismId>11320</SourceOrganismId>
+                                        </FragmentOfANaturalSequenceMolecule>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenReferenceName>P2</ImmunogenReferenceName>
+                                <ImmunogenEvidenceCode>Exact match to reference information</ImmunogenEvidenceCode>
+                                <ImmunogenContainingObject>
+                                    <ComplexedMolecule>
+                                        <ComplexType>Protein conjugate</ComplexType>
+                                        <PeptideModifications/>
+                                        <SourceMolecule>
+                                            <GenBankId>P02769.4</GenBankId>
+                                        </SourceMolecule>
+                                        <MoleculeSourceOrganismId>9913</MoleculeSourceOrganismId>
+                                    </ComplexedMolecule>
+                                </ImmunogenContainingObject>
+                                <Adjuvant>Freund's complete</Adjuvant>
+                                <Adjuvant>Freund's incomplete (IFA)</Adjuvant>
+                                <Route>Subcutaneous (s.c.)</Route>
+                                <DoseSchedule>Rabbits were immunized subcutaneously with 50 micrograms peptide per rabbit in complete Freundâ¿¿s adjuvant  at a final volume of 300 microliters. Boosters were given in incomplete Freundâ¿¿s adjuvant on days 14 and 28.</DoseSchedule>
+                            </FirstInVivoProcess>
+                            <ImmunizationComments>The immunogen and antigen contained two linked, repeated epitopes which were  chemically linked to the carrier protein bovine serum albumin by 3-maleimidobenzoic acid N-hydroxysuccinimide ester.</ImmunizationComments>
+                        </Immunization>
+                        <AssayInformation>
+                            <AssayTypeId>34</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <AssayComments>The cross reactive response was weak.</AssayComments>
+                        </AssayInformation>
+                        <AssayedAntibody>
+                            <AssayedAntibodySourceMaterial>Serum</AssayedAntibodySourceMaterial>
+                            <AssayedAntibodyPurificationStatus>Polyclonal</AssayedAntibodyPurificationStatus>
+                        </AssayedAntibody>
+                        <Antigen>
+                            <AntigenReferenceName>P4</AntigenReferenceName>
+                            <AntigenConformation>Non-Native/Unknown</AntigenConformation>
+                            <AntigenObject>
+                                <EpitopeRelation>Taxonomic Child</EpitopeRelation>
+                                <Object>
+                                    <FragmentOfANaturalSequenceMolecule>
+                                        <ChemicalType>Peptide from protein</ChemicalType>
+                                        <LinearSequence>NEWGCRCNDSSD</LinearSequence>
+                                        <StartingPosition>13</StartingPosition>
+                                        <EndingPosition>24</EndingPosition>
+                                        <SourceMolecule>
+                                            <GenBankId>P35938.1</GenBankId>
+                                        </SourceMolecule>
+                                        <SourceOrganismId>381516</SourceOrganismId>
+                                    </FragmentOfANaturalSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Exact match to reference information</AntigenEvidenceCode>
+                        </Antigen>
+                    </BCell>
+                </Assays>
+                <Assays>
+                    <BCell>
+                        <LocationOfData>Figures 3A, 3B, and 4</LocationOfData>
+                        <BCellId>8133</BCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>9986</OrganismId>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Administration in vivo</InVivoProcessType>
+                                <DiseaseState>ONTIE:0003423</DiseaseState>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Epitope</EpitopeRelation>
+                                    <Object>
+                                        <FragmentOfANaturalSequenceMolecule>
+                                            <ChemicalType>Peptide from protein</ChemicalType>
+                                            <LinearSequence>SLLTEVETPIR</LinearSequence>
+                                            <StartingPosition>2</StartingPosition>
+                                            <EndingPosition>12</EndingPosition>
+                                            <SourceMolecule>
+                                                <GenBankId>P35938.1</GenBankId>
+                                            </SourceMolecule>
+                                            <SourceOrganismId>11320</SourceOrganismId>
+                                        </FragmentOfANaturalSequenceMolecule>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenReferenceName>P2</ImmunogenReferenceName>
+                                <ImmunogenEvidenceCode>Exact match to reference information</ImmunogenEvidenceCode>
+                                <ImmunogenContainingObject>
+                                    <ComplexedMolecule>
+                                        <ComplexType>Protein conjugate</ComplexType>
+                                        <PeptideModifications/>
+                                        <SourceMolecule>
+                                            <GenBankId>P02769.4</GenBankId>
+                                        </SourceMolecule>
+                                        <MoleculeSourceOrganismId>9913</MoleculeSourceOrganismId>
+                                    </ComplexedMolecule>
+                                </ImmunogenContainingObject>
+                                <Adjuvant>Freund's complete</Adjuvant>
+                                <Adjuvant>Freund's incomplete (IFA)</Adjuvant>
+                                <Route>Subcutaneous (s.c.)</Route>
+                            </FirstInVivoProcess>
+                            <ImmunizationComments>The peptide contained two linked, repeated epitopes which were  chemically linked to the carrier protein bovine serum albumin by 3-maleimidobenzoic acid N-hydroxysuccinimide ester. Rabbits were immunized subcutaneously with 50 micrograms peptide per rabbit in complete Freund's adjuvant  at a final volume of 300 microliters. Boosters were given in incomplete Freund's.</ImmunizationComments>
+                        </Immunization>
+                        <AssayInformation>
+                            <AssayTypeId>316</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <AssayComments>The assay measured the inhibitory effect of antibodies against influenza viruses A and B replication in vitro by the Madin-Darby canine kidney cytopathic effect inhibitory assay.  A similar inhibitory effect was shown against the influenza B virus B/wuhan/321/99 strain. The first eight residues of this epitope were found to be highly conserved among all 188 influenza A virus strains with available M2 protein amino acid sequences.</AssayComments>
+                        </AssayInformation>
+                        <AssayedAntibody>
+                            <AssayedAntibodySourceMaterial>Serum</AssayedAntibodySourceMaterial>
+                            <AssayedAntibodyPurificationStatus>Polyclonal</AssayedAntibodyPurificationStatus>
+                        </AssayedAntibody>
+                        <Antigen>
+                            <AntigenReferenceName>Influenza A virus (A/Wuhan/359/95(H3N2))</AntigenReferenceName>
+                            <AntigenConformation>Native</AntigenConformation>
+                            <AntigenObject>
+                                <EpitopeRelation>Taxonomic Child</EpitopeRelation>
+                                <Object>
+                                    <Organism>
+                                        <SubType>Organism</SubType>
+                                        <SourceOrganismId>63106</SourceOrganismId>
+                                    </Organism>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Not determined</AntigenEvidenceCode>
+                        </Antigen>
+                    </BCell>
+                </Assays>
+                <Assays>
+                    <BCell>
+                        <LocationOfData>Figure 2B</LocationOfData>
+                        <BCellId>8938</BCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>9986</OrganismId>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Administration in vivo</InVivoProcessType>
+                                <DiseaseState>ONTIE:0003423</DiseaseState>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Epitope</EpitopeRelation>
+                                    <Object>
+                                        <FragmentOfANaturalSequenceMolecule>
+                                            <ChemicalType>Peptide from protein</ChemicalType>
+                                            <LinearSequence>SLLTEVETPIR</LinearSequence>
+                                            <StartingPosition>2</StartingPosition>
+                                            <EndingPosition>12</EndingPosition>
+                                            <SourceMolecule>
+                                                <GenBankId>P35938.1</GenBankId>
+                                            </SourceMolecule>
+                                            <SourceOrganismId>11320</SourceOrganismId>
+                                        </FragmentOfANaturalSequenceMolecule>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenReferenceName>P2</ImmunogenReferenceName>
+                                <ImmunogenEvidenceCode>Exact match to reference information</ImmunogenEvidenceCode>
+                                <ImmunogenContainingObject>
+                                    <ComplexedMolecule>
+                                        <ComplexType>Protein conjugate</ComplexType>
+                                        <PeptideModifications/>
+                                        <SourceMolecule>
+                                            <GenBankId>P02769.4</GenBankId>
+                                        </SourceMolecule>
+                                        <MoleculeSourceOrganismId>9913</MoleculeSourceOrganismId>
+                                    </ComplexedMolecule>
+                                </ImmunogenContainingObject>
+                                <Adjuvant>Freund's complete</Adjuvant>
+                                <Adjuvant>Freund's incomplete (IFA)</Adjuvant>
+                                <Route>Subcutaneous (s.c.)</Route>
+                                <DoseSchedule>Rabbits were immunized subcutaneously with 50 micrograms peptide per rabbit in complete Freund’s adjuvant  at a final volume of 300 microliters. Boosters were given in incomplete Freund’s adjuvant on days 14 and 28.</DoseSchedule>
+                            </FirstInVivoProcess>
+                            <ImmunizationComments>The immunogen and antigen contained two linked, repeated epitopes which were  chemically linked to the carrier protein bovine serum albumin by 3-maleimidobenzoic acid N-hydroxysuccinimide ester.</ImmunizationComments>
+                        </Immunization>
+                        <AssayInformation>
+                            <AssayTypeId>34</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                        </AssayInformation>
+                        <AssayedAntibody>
+                            <AssayedAntibodySourceMaterial>Serum</AssayedAntibodySourceMaterial>
+                            <AssayedAntibodyPurificationStatus>Polyclonal</AssayedAntibodyPurificationStatus>
+                        </AssayedAntibody>
+                        <Antigen>
+                            <AntigenReferenceName>P2</AntigenReferenceName>
+                            <AntigenConformation>Non-Native/Unknown</AntigenConformation>
+                            <AntigenObject>
+                                <EpitopeRelation>Epitope</EpitopeRelation>
+                                <Object>
+                                    <FragmentOfANaturalSequenceMolecule>
+                                        <ChemicalType>Peptide from protein</ChemicalType>
+                                        <LinearSequence>SLLTEVETPIR</LinearSequence>
+                                        <StartingPosition>2</StartingPosition>
+                                        <EndingPosition>12</EndingPosition>
+                                        <SourceMolecule>
+                                            <GenBankId>P35938.1</GenBankId>
+                                        </SourceMolecule>
+                                        <SourceOrganismId>11320</SourceOrganismId>
+                                    </FragmentOfANaturalSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Exact match to reference information</AntigenEvidenceCode>
+                        </Antigen>
+                    </BCell>
+                </Assays>
+            </Epitope>
+            <Epitope>
+                <EpitopeName>P3</EpitopeName>
+                <EpitopeStructure>
+                    <FragmentOfANaturalSequenceMolecule>
+                        <ChemicalType>Peptide from protein</ChemicalType>
+                        <LinearSequence>ETPIRNEWGCR</LinearSequence>
+                        <StartingPosition>8</StartingPosition>
+                        <EndingPosition>18</EndingPosition>
+                        <SourceMolecule>
+                            <GenBankId>P35938.1</GenBankId>
+                        </SourceMolecule>
+                        <SourceOrganismId>63106</SourceOrganismId>
+                    </FragmentOfANaturalSequenceMolecule>
+                </EpitopeStructure>
+                <LocationOfData>Figure 1</LocationOfData>
+                <EpitopeId>14504</EpitopeId>
+                <ReferenceStartingPosition>8</ReferenceStartingPosition>
+                <ReferenceEndingPosition>18</ReferenceEndingPosition>
+                <EpitopeEvidenceCode>Not determined</EpitopeEvidenceCode>
+                <EpitopeStructureDefines>Exact Epitope</EpitopeStructureDefines>
+                <Assays>
+                    <BCell>
+                        <LocationOfData>Figures 3A, 3B, and 4</LocationOfData>
+                        <BCellId>8179</BCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>9986</OrganismId>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Administration in vivo</InVivoProcessType>
+                                <DiseaseState>ONTIE:0003423</DiseaseState>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Epitope</EpitopeRelation>
+                                    <Object>
+                                        <FragmentOfANaturalSequenceMolecule>
+                                            <ChemicalType>Peptide from protein</ChemicalType>
+                                            <LinearSequence>ETPIRNEWGCR</LinearSequence>
+                                            <StartingPosition>8</StartingPosition>
+                                            <EndingPosition>18</EndingPosition>
+                                            <SourceMolecule>
+                                                <GenBankId>P35938.1</GenBankId>
+                                            </SourceMolecule>
+                                            <SourceOrganismId>63106</SourceOrganismId>
+                                        </FragmentOfANaturalSequenceMolecule>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenReferenceName>P3</ImmunogenReferenceName>
+                                <ImmunogenEvidenceCode>Exact match to reference information</ImmunogenEvidenceCode>
+                                <ImmunogenContainingObject>
+                                    <ComplexedMolecule>
+                                        <ComplexType>Protein conjugate</ComplexType>
+                                        <PeptideModifications/>
+                                        <SourceMolecule>
+                                            <GenBankId>P02769.4</GenBankId>
+                                        </SourceMolecule>
+                                        <MoleculeSourceOrganismId>9913</MoleculeSourceOrganismId>
+                                    </ComplexedMolecule>
+                                </ImmunogenContainingObject>
+                                <Adjuvant>Freund's complete</Adjuvant>
+                                <Adjuvant>Freund's incomplete (IFA)</Adjuvant>
+                                <Route>Subcutaneous (s.c.)</Route>
+                                <DoseSchedule>Rabbits were immunized subcutaneously with 50 micrograms peptide per rabbit in complete Freund’s adjuvant  at a final volume of 300 microliters. Boosters were given in incomplete Freund’s adjuvant on days 14 and 28.</DoseSchedule>
+                            </FirstInVivoProcess>
+                            <ImmunizationComments>The peptide contained two linked, repeated epitopes which were  chemically linked to the carrier protein bovine serum albumin by 3-maleimidobenzoic acid N-hydroxysuccinimide ester.</ImmunizationComments>
+                        </Immunization>
+                        <AssayInformation>
+                            <AssayTypeId>316</AssayTypeId>
+                            <QualitativeMeasurement>Negative</QualitativeMeasurement>
+                            <AssayComments>The assay measured the inhibitory effect of antibodies against influenza viruses A and B replication in vitro by the Madin-Darby canine kidney cytopathic effect inhibitory assay.  A similar lack of inhibitory effect was shown against the influenza B virus B/wuhan/321/99 strain.</AssayComments>
+                        </AssayInformation>
+                        <AssayedAntibody>
+                            <AssayedAntibodySourceMaterial>Serum</AssayedAntibodySourceMaterial>
+                            <AssayedAntibodyPurificationStatus>Polyclonal</AssayedAntibodyPurificationStatus>
+                        </AssayedAntibody>
+                        <Antigen>
+                            <AntigenReferenceName>Influenza A virus</AntigenReferenceName>
+                            <AntigenConformation>Native</AntigenConformation>
+                            <AntigenObject>
+                                <EpitopeRelation>Source Organism</EpitopeRelation>
+                                <Object>
+                                    <Organism>
+                                        <SubType>Organism</SubType>
+                                        <SourceOrganismId>63106</SourceOrganismId>
+                                    </Organism>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Not determined</AntigenEvidenceCode>
+                        </Antigen>
+                    </BCell>
+                </Assays>
+                <Assays>
+                    <BCell>
+                        <LocationOfData>Figure 2B</LocationOfData>
+                        <BCellId>8945</BCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>9986</OrganismId>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Administration in vivo</InVivoProcessType>
+                                <DiseaseState>ONTIE:0003423</DiseaseState>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Epitope</EpitopeRelation>
+                                    <Object>
+                                        <FragmentOfANaturalSequenceMolecule>
+                                            <ChemicalType>Peptide from protein</ChemicalType>
+                                            <LinearSequence>ETPIRNEWGCR</LinearSequence>
+                                            <StartingPosition>8</StartingPosition>
+                                            <EndingPosition>18</EndingPosition>
+                                            <SourceMolecule>
+                                                <GenBankId>P35938.1</GenBankId>
+                                            </SourceMolecule>
+                                            <SourceOrganismId>63106</SourceOrganismId>
+                                        </FragmentOfANaturalSequenceMolecule>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenReferenceName>P3</ImmunogenReferenceName>
+                                <ImmunogenEvidenceCode>Exact match to reference information</ImmunogenEvidenceCode>
+                                <ImmunogenContainingObject>
+                                    <ComplexedMolecule>
+                                        <ComplexType>Protein conjugate</ComplexType>
+                                        <PeptideModifications/>
+                                        <SourceMolecule>
+                                            <GenBankId>P02769.4</GenBankId>
+                                        </SourceMolecule>
+                                        <MoleculeSourceOrganismId>9913</MoleculeSourceOrganismId>
+                                    </ComplexedMolecule>
+                                </ImmunogenContainingObject>
+                                <Adjuvant>Freund's complete</Adjuvant>
+                                <Adjuvant>Freund's incomplete (IFA)</Adjuvant>
+                                <Route>Subcutaneous (s.c.)</Route>
+                                <DoseSchedule>Rabbits were immunized subcutaneously with 50 micrograms peptide per rabbit in complete Freund’s adjuvant  at a final volume of 300 microliters. Boosters were given in incomplete Freund’s adjuvant on days 14 and 28.</DoseSchedule>
+                            </FirstInVivoProcess>
+                            <ImmunizationComments>The immunogen and antigen contained two linked, repeated epitopes which were  chemically linked to the carrier protein bovine serum albumin by 3-maleimidobenzoic acid N-hydroxysuccinimide ester.</ImmunizationComments>
+                        </Immunization>
+                        <AssayInformation>
+                            <AssayTypeId>34</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <AssayComments>The cross reactive response was weak.</AssayComments>
+                        </AssayInformation>
+                        <AssayedAntibody>
+                            <AssayedAntibodySourceMaterial>Serum</AssayedAntibodySourceMaterial>
+                            <AssayedAntibodyPurificationStatus>Polyclonal</AssayedAntibodyPurificationStatus>
+                        </AssayedAntibody>
+                        <Antigen>
+                            <AntigenReferenceName>P3</AntigenReferenceName>
+                            <AntigenConformation>Non-Native/Unknown</AntigenConformation>
+                            <AntigenObject>
+                                <EpitopeRelation>Epitope</EpitopeRelation>
+                                <Object>
+                                    <FragmentOfANaturalSequenceMolecule>
+                                        <ChemicalType>Peptide from protein</ChemicalType>
+                                        <LinearSequence>ETPIRNEWGCR</LinearSequence>
+                                        <StartingPosition>8</StartingPosition>
+                                        <EndingPosition>18</EndingPosition>
+                                        <SourceMolecule>
+                                            <GenBankId>P35938.1</GenBankId>
+                                        </SourceMolecule>
+                                        <SourceOrganismId>63106</SourceOrganismId>
+                                    </FragmentOfANaturalSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Exact match to reference information</AntigenEvidenceCode>
+                        </Antigen>
+                    </BCell>
+                </Assays>
+                <Assays>
+                    <BCell>
+                        <LocationOfData>Figure 2B</LocationOfData>
+                        <BCellId>8942</BCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>9986</OrganismId>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Administration in vivo</InVivoProcessType>
+                                <DiseaseState>ONTIE:0003423</DiseaseState>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Epitope</EpitopeRelation>
+                                    <Object>
+                                        <FragmentOfANaturalSequenceMolecule>
+                                            <ChemicalType>Peptide from protein</ChemicalType>
+                                            <LinearSequence>ETPIRNEWGCR</LinearSequence>
+                                            <StartingPosition>8</StartingPosition>
+                                            <EndingPosition>18</EndingPosition>
+                                            <SourceMolecule>
+                                                <GenBankId>P35938.1</GenBankId>
+                                            </SourceMolecule>
+                                            <SourceOrganismId>63106</SourceOrganismId>
+                                        </FragmentOfANaturalSequenceMolecule>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenReferenceName>P3</ImmunogenReferenceName>
+                                <ImmunogenEvidenceCode>Exact match to reference information</ImmunogenEvidenceCode>
+                                <ImmunogenContainingObject>
+                                    <ComplexedMolecule>
+                                        <ComplexType>Protein conjugate</ComplexType>
+                                        <PeptideModifications/>
+                                        <SourceMolecule>
+                                            <GenBankId>P02769.4</GenBankId>
+                                        </SourceMolecule>
+                                        <MoleculeSourceOrganismId>9913</MoleculeSourceOrganismId>
+                                    </ComplexedMolecule>
+                                </ImmunogenContainingObject>
+                                <Adjuvant>Freund's complete</Adjuvant>
+                                <Adjuvant>Freund's incomplete (IFA)</Adjuvant>
+                                <Route>Subcutaneous (s.c.)</Route>
+                                <DoseSchedule>Rabbits were immunized subcutaneously with 50 micrograms peptide per rabbit in complete Freundâ¿¿s adjuvant  at a final volume of 300 microliters. Boosters were given in incomplete Freundâ¿¿s adjuvant on days 14 and 28.</DoseSchedule>
+                            </FirstInVivoProcess>
+                            <ImmunizationComments>The immunogen and antigen contained two linked, repeated epitopes which were  chemically linked to the carrier protein bovine serum albumin by 3-maleimidobenzoic acid N-hydroxysuccinimide ester.</ImmunizationComments>
+                        </Immunization>
+                        <AssayInformation>
+                            <AssayTypeId>34</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <AssayComments>The cross reactive response was weak.</AssayComments>
+                        </AssayInformation>
+                        <AssayedAntibody>
+                            <AssayedAntibodySourceMaterial>Serum</AssayedAntibodySourceMaterial>
+                            <AssayedAntibodyPurificationStatus>Polyclonal</AssayedAntibodyPurificationStatus>
+                        </AssayedAntibody>
+                        <Antigen>
+                            <AntigenReferenceName>P2</AntigenReferenceName>
+                            <AntigenConformation>Non-Native/Unknown</AntigenConformation>
+                            <AntigenObject>
+                                <EpitopeRelation>Taxonomic Sibling</EpitopeRelation>
+                                <Object>
+                                    <FragmentOfANaturalSequenceMolecule>
+                                        <ChemicalType>Peptide from protein</ChemicalType>
+                                        <LinearSequence>SLLTEVETPIR</LinearSequence>
+                                        <StartingPosition>2</StartingPosition>
+                                        <EndingPosition>12</EndingPosition>
+                                        <SourceMolecule>
+                                            <GenBankId>P35938.1</GenBankId>
+                                        </SourceMolecule>
+                                        <SourceOrganismId>381516</SourceOrganismId>
+                                    </FragmentOfANaturalSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Exact match to reference information</AntigenEvidenceCode>
+                        </Antigen>
+                    </BCell>
+                </Assays>
+                <Assays>
+                    <BCell>
+                        <LocationOfData>Figure 2B</LocationOfData>
+                        <BCellId>8944</BCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>9986</OrganismId>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Administration in vivo</InVivoProcessType>
+                                <DiseaseState>ONTIE:0003423</DiseaseState>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Epitope</EpitopeRelation>
+                                    <Object>
+                                        <FragmentOfANaturalSequenceMolecule>
+                                            <ChemicalType>Peptide from protein</ChemicalType>
+                                            <LinearSequence>ETPIRNEWGCR</LinearSequence>
+                                            <StartingPosition>8</StartingPosition>
+                                            <EndingPosition>18</EndingPosition>
+                                            <SourceMolecule>
+                                                <GenBankId>P35938.1</GenBankId>
+                                            </SourceMolecule>
+                                            <SourceOrganismId>63106</SourceOrganismId>
+                                        </FragmentOfANaturalSequenceMolecule>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenReferenceName>P3</ImmunogenReferenceName>
+                                <ImmunogenEvidenceCode>Exact match to reference information</ImmunogenEvidenceCode>
+                                <ImmunogenContainingObject>
+                                    <ComplexedMolecule>
+                                        <ComplexType>Protein conjugate</ComplexType>
+                                        <PeptideModifications/>
+                                        <SourceMolecule>
+                                            <GenBankId>P02769.4</GenBankId>
+                                        </SourceMolecule>
+                                        <MoleculeSourceOrganismId>9913</MoleculeSourceOrganismId>
+                                    </ComplexedMolecule>
+                                </ImmunogenContainingObject>
+                                <Adjuvant>Freund's complete</Adjuvant>
+                                <Adjuvant>Freund's incomplete (IFA)</Adjuvant>
+                                <Route>Subcutaneous (s.c.)</Route>
+                                <DoseSchedule>Rabbits were immunized subcutaneously with 50 micrograms peptide per rabbit in complete Freundâ¿¿s adjuvant  at a final volume of 300 microliters. Boosters were given in incomplete Freundâ¿¿s adjuvant on days 14 and 28.</DoseSchedule>
+                            </FirstInVivoProcess>
+                            <ImmunizationComments>The immunogen and antigen contained two linked, repeated epitopes which were  chemically linked to the carrier protein bovine serum albumin by 3-maleimidobenzoic acid N-hydroxysuccinimide ester.</ImmunizationComments>
+                        </Immunization>
+                        <AssayInformation>
+                            <AssayTypeId>34</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <AssayComments>The cross reactive response was weak.</AssayComments>
+                        </AssayInformation>
+                        <AssayedAntibody>
+                            <AssayedAntibodySourceMaterial>Serum</AssayedAntibodySourceMaterial>
+                            <AssayedAntibodyPurificationStatus>Polyclonal</AssayedAntibodyPurificationStatus>
+                        </AssayedAntibody>
+                        <Antigen>
+                            <AntigenReferenceName>P4</AntigenReferenceName>
+                            <AntigenConformation>Non-Native/Unknown</AntigenConformation>
+                            <AntigenObject>
+                                <EpitopeRelation>Taxonomic Sibling</EpitopeRelation>
+                                <Object>
+                                    <FragmentOfANaturalSequenceMolecule>
+                                        <ChemicalType>Peptide from protein</ChemicalType>
+                                        <LinearSequence>NEWGCRCNDSSD</LinearSequence>
+                                        <StartingPosition>13</StartingPosition>
+                                        <EndingPosition>24</EndingPosition>
+                                        <SourceMolecule>
+                                            <GenBankId>P35938.1</GenBankId>
+                                        </SourceMolecule>
+                                        <SourceOrganismId>381516</SourceOrganismId>
+                                    </FragmentOfANaturalSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Exact match to reference information</AntigenEvidenceCode>
+                        </Antigen>
+                    </BCell>
+                </Assays>
+            </Epitope>
+            <Epitope>
+                <EpitopeName>P4</EpitopeName>
+                <EpitopeStructure>
+                    <FragmentOfANaturalSequenceMolecule>
+                        <ChemicalType>Peptide from protein</ChemicalType>
+                        <LinearSequence>NEWGCRCNDSSD</LinearSequence>
+                        <StartingPosition>13</StartingPosition>
+                        <EndingPosition>24</EndingPosition>
+                        <SourceMolecule>
+                            <GenBankId>P35938.1</GenBankId>
+                        </SourceMolecule>
+                        <SourceOrganismId>63106</SourceOrganismId>
+                    </FragmentOfANaturalSequenceMolecule>
+                </EpitopeStructure>
+                <LocationOfData>Figure 1</LocationOfData>
+                <EpitopeId>43792</EpitopeId>
+                <ReferenceStartingPosition>13</ReferenceStartingPosition>
+                <ReferenceEndingPosition>24</ReferenceEndingPosition>
+                <EpitopeEvidenceCode>Not determined</EpitopeEvidenceCode>
+                <EpitopeStructureDefines>Epitope containing region/antigenic site</EpitopeStructureDefines>
+                <Assays>
+                    <BCell>
+                        <LocationOfData>Figure 2B</LocationOfData>
+                        <BCellId>8946</BCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>9986</OrganismId>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Administration in vivo</InVivoProcessType>
+                                <DiseaseState>ONTIE:0003423</DiseaseState>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Epitope</EpitopeRelation>
+                                    <Object>
+                                        <FragmentOfANaturalSequenceMolecule>
+                                            <ChemicalType>Peptide from protein</ChemicalType>
+                                            <LinearSequence>NEWGCRCNDSSD</LinearSequence>
+                                            <StartingPosition>13</StartingPosition>
+                                            <EndingPosition>24</EndingPosition>
+                                            <SourceMolecule>
+                                                <GenBankId>P35938.1</GenBankId>
+                                            </SourceMolecule>
+                                            <SourceOrganismId>63106</SourceOrganismId>
+                                        </FragmentOfANaturalSequenceMolecule>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenReferenceName>P4</ImmunogenReferenceName>
+                                <ImmunogenEvidenceCode>Exact match to reference information</ImmunogenEvidenceCode>
+                                <ImmunogenContainingObject>
+                                    <ComplexedMolecule>
+                                        <ComplexType>Protein conjugate</ComplexType>
+                                        <PeptideModifications/>
+                                        <SourceMolecule>
+                                            <GenBankId>P02769.4</GenBankId>
+                                        </SourceMolecule>
+                                        <MoleculeSourceOrganismId>9913</MoleculeSourceOrganismId>
+                                    </ComplexedMolecule>
+                                </ImmunogenContainingObject>
+                                <Adjuvant>Freund's complete</Adjuvant>
+                                <Adjuvant>Freund's incomplete (IFA)</Adjuvant>
+                                <Route>Subcutaneous (s.c.)</Route>
+                                <DoseSchedule>Rabbits were immunized subcutaneously with 50 micrograms peptide per rabbit in complete Freund’s adjuvant  at a final volume of 300 microliters. Boosters were given in incomplete Freund’s adjuvant on days 14 and 28.</DoseSchedule>
+                            </FirstInVivoProcess>
+                            <ImmunizationComments>The immunogen and antigen contained two linked, repeated epitopes which were  chemically linked to the carrier protein bovine serum albumin by 3-maleimidobenzoic acid N-hydroxysuccinimide ester.</ImmunizationComments>
+                        </Immunization>
+                        <AssayInformation>
+                            <AssayTypeId>34</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <AssayComments>The cross reactive response was weak.</AssayComments>
+                        </AssayInformation>
+                        <AssayedAntibody>
+                            <AssayedAntibodySourceMaterial>Serum</AssayedAntibodySourceMaterial>
+                            <AssayedAntibodyPurificationStatus>Polyclonal</AssayedAntibodyPurificationStatus>
+                        </AssayedAntibody>
+                        <Antigen>
+                            <AntigenReferenceName>P4</AntigenReferenceName>
+                            <AntigenConformation>Non-Native/Unknown</AntigenConformation>
+                            <AntigenObject>
+                                <EpitopeRelation>Epitope</EpitopeRelation>
+                                <Object>
+                                    <FragmentOfANaturalSequenceMolecule>
+                                        <ChemicalType>Peptide from protein</ChemicalType>
+                                        <LinearSequence>NEWGCRCNDSSD</LinearSequence>
+                                        <StartingPosition>13</StartingPosition>
+                                        <EndingPosition>24</EndingPosition>
+                                        <SourceMolecule>
+                                            <GenBankId>P35938.1</GenBankId>
+                                        </SourceMolecule>
+                                        <SourceOrganismId>63106</SourceOrganismId>
+                                    </FragmentOfANaturalSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Exact match to reference information</AntigenEvidenceCode>
+                        </Antigen>
+                    </BCell>
+                </Assays>
+                <Assays>
+                    <BCell>
+                        <LocationOfData>Figure 2B</LocationOfData>
+                        <BCellId>8948</BCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>9986</OrganismId>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Administration in vivo</InVivoProcessType>
+                                <DiseaseState>ONTIE:0003423</DiseaseState>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Epitope</EpitopeRelation>
+                                    <Object>
+                                        <FragmentOfANaturalSequenceMolecule>
+                                            <ChemicalType>Peptide from protein</ChemicalType>
+                                            <LinearSequence>NEWGCRCNDSSD</LinearSequence>
+                                            <StartingPosition>13</StartingPosition>
+                                            <EndingPosition>24</EndingPosition>
+                                            <SourceMolecule>
+                                                <GenBankId>P35938.1</GenBankId>
+                                            </SourceMolecule>
+                                            <SourceOrganismId>63106</SourceOrganismId>
+                                        </FragmentOfANaturalSequenceMolecule>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenReferenceName>P4</ImmunogenReferenceName>
+                                <ImmunogenEvidenceCode>Exact match to reference information</ImmunogenEvidenceCode>
+                                <ImmunogenContainingObject>
+                                    <ComplexedMolecule>
+                                        <ComplexType>Protein conjugate</ComplexType>
+                                        <PeptideModifications/>
+                                        <SourceMolecule>
+                                            <GenBankId>P02769.4</GenBankId>
+                                        </SourceMolecule>
+                                        <MoleculeSourceOrganismId>9913</MoleculeSourceOrganismId>
+                                    </ComplexedMolecule>
+                                </ImmunogenContainingObject>
+                                <Adjuvant>Freund's complete</Adjuvant>
+                                <Adjuvant>Freund's incomplete (IFA)</Adjuvant>
+                                <Route>Subcutaneous (s.c.)</Route>
+                                <DoseSchedule>Rabbits were immunized subcutaneously with 50 micrograms peptide per rabbit in complete Freundâ¿¿s adjuvant  at a final volume of 300 microliters. Boosters were given in incomplete Freundâ¿¿s adjuvant on days 14 and 28.</DoseSchedule>
+                            </FirstInVivoProcess>
+                            <ImmunizationComments>The immunogen and antigen contained two linked, repeated epitopes which were  chemically linked to the carrier protein bovine serum albumin by 3-maleimidobenzoic acid N-hydroxysuccinimide ester.</ImmunizationComments>
+                        </Immunization>
+                        <AssayInformation>
+                            <AssayTypeId>34</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <AssayComments>The cross reactive response was weak.</AssayComments>
+                        </AssayInformation>
+                        <AssayedAntibody>
+                            <AssayedAntibodySourceMaterial>Serum</AssayedAntibodySourceMaterial>
+                            <AssayedAntibodyPurificationStatus>Polyclonal</AssayedAntibodyPurificationStatus>
+                        </AssayedAntibody>
+                        <Antigen>
+                            <AntigenReferenceName>P3</AntigenReferenceName>
+                            <AntigenConformation>Non-Native/Unknown</AntigenConformation>
+                            <AntigenObject>
+                                <EpitopeRelation>Taxonomic Sibling</EpitopeRelation>
+                                <Object>
+                                    <FragmentOfANaturalSequenceMolecule>
+                                        <ChemicalType>Peptide from protein</ChemicalType>
+                                        <LinearSequence>ETPIRNEWGCR</LinearSequence>
+                                        <StartingPosition>8</StartingPosition>
+                                        <EndingPosition>18</EndingPosition>
+                                        <SourceMolecule>
+                                            <GenBankId>P35938.1</GenBankId>
+                                        </SourceMolecule>
+                                        <SourceOrganismId>381516</SourceOrganismId>
+                                    </FragmentOfANaturalSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Exact match to reference information</AntigenEvidenceCode>
+                        </Antigen>
+                    </BCell>
+                </Assays>
+                <Assays>
+                    <BCell>
+                        <LocationOfData>Figures 3A, 3B, and 4</LocationOfData>
+                        <BCellId>8180</BCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>9986</OrganismId>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Administration in vivo</InVivoProcessType>
+                                <DiseaseState>ONTIE:0003423</DiseaseState>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Epitope</EpitopeRelation>
+                                    <Object>
+                                        <FragmentOfANaturalSequenceMolecule>
+                                            <ChemicalType>Peptide from protein</ChemicalType>
+                                            <LinearSequence>NEWGCRCNDSSD</LinearSequence>
+                                            <StartingPosition>13</StartingPosition>
+                                            <EndingPosition>24</EndingPosition>
+                                            <SourceMolecule>
+                                                <GenBankId>P35938.1</GenBankId>
+                                            </SourceMolecule>
+                                            <SourceOrganismId>63106</SourceOrganismId>
+                                        </FragmentOfANaturalSequenceMolecule>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenReferenceName>P4</ImmunogenReferenceName>
+                                <ImmunogenEvidenceCode>Exact match to reference information</ImmunogenEvidenceCode>
+                                <ImmunogenContainingObject>
+                                    <ComplexedMolecule>
+                                        <ComplexType>Protein conjugate</ComplexType>
+                                        <PeptideModifications/>
+                                        <SourceMolecule>
+                                            <GenBankId>P02769.4</GenBankId>
+                                        </SourceMolecule>
+                                        <MoleculeSourceOrganismId>9913</MoleculeSourceOrganismId>
+                                    </ComplexedMolecule>
+                                </ImmunogenContainingObject>
+                                <Adjuvant>Freund's complete</Adjuvant>
+                                <Adjuvant>Freund's incomplete (IFA)</Adjuvant>
+                                <Route>Subcutaneous (s.c.)</Route>
+                                <DoseSchedule>Rabbits were immunized subcutaneously with 50 micrograms peptide per rabbit in complete Freund’s adjuvant  at a final volume of 300 microliters. Boosters were given in incomplete Freund’s adjuvant on days 14 and 28.</DoseSchedule>
+                            </FirstInVivoProcess>
+                            <ImmunizationComments>The peptide contained two linked, repeated epitopes which were  chemically linked to the carrier protein bovine serum albumin by 3-maleimidobenzoic acid N-hydroxysuccinimide ester.</ImmunizationComments>
+                        </Immunization>
+                        <AssayInformation>
+                            <AssayTypeId>316</AssayTypeId>
+                            <QualitativeMeasurement>Negative</QualitativeMeasurement>
+                            <AssayComments>The assay measured the inhibitory effect of antibodies against influenza viruses A and B replication in vitro by the Madin-Darby canine kidney cytopathic effect inhibitory assay.  A similar lack of inhibitory effect was shown against the influenza B virus B/wuhan/321/99 strain.</AssayComments>
+                        </AssayInformation>
+                        <AssayedAntibody>
+                            <AssayedAntibodySourceMaterial>Serum</AssayedAntibodySourceMaterial>
+                            <AssayedAntibodyPurificationStatus>Polyclonal</AssayedAntibodyPurificationStatus>
+                        </AssayedAntibody>
+                        <Antigen>
+                            <AntigenReferenceName>Influenza A virus</AntigenReferenceName>
+                            <AntigenConformation>Native</AntigenConformation>
+                            <AntigenObject>
+                                <EpitopeRelation>Source Organism</EpitopeRelation>
+                                <Object>
+                                    <Organism>
+                                        <SubType>Organism</SubType>
+                                        <SourceOrganismId>63106</SourceOrganismId>
+                                    </Organism>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Not determined</AntigenEvidenceCode>
+                        </Antigen>
+                    </BCell>
+                </Assays>
+                <Assays>
+                    <BCell>
+                        <LocationOfData>Figure 2B</LocationOfData>
+                        <BCellId>8947</BCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>9986</OrganismId>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Administration in vivo</InVivoProcessType>
+                                <DiseaseState>ONTIE:0003423</DiseaseState>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Epitope</EpitopeRelation>
+                                    <Object>
+                                        <FragmentOfANaturalSequenceMolecule>
+                                            <ChemicalType>Peptide from protein</ChemicalType>
+                                            <LinearSequence>NEWGCRCNDSSD</LinearSequence>
+                                            <StartingPosition>13</StartingPosition>
+                                            <EndingPosition>24</EndingPosition>
+                                            <SourceMolecule>
+                                                <GenBankId>P35938.1</GenBankId>
+                                            </SourceMolecule>
+                                            <SourceOrganismId>63106</SourceOrganismId>
+                                        </FragmentOfANaturalSequenceMolecule>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenReferenceName>P4</ImmunogenReferenceName>
+                                <ImmunogenEvidenceCode>Exact match to reference information</ImmunogenEvidenceCode>
+                                <ImmunogenContainingObject>
+                                    <ComplexedMolecule>
+                                        <ComplexType>Protein conjugate</ComplexType>
+                                        <PeptideModifications/>
+                                        <SourceMolecule>
+                                            <GenBankId>P02769.4</GenBankId>
+                                        </SourceMolecule>
+                                        <MoleculeSourceOrganismId>9913</MoleculeSourceOrganismId>
+                                    </ComplexedMolecule>
+                                </ImmunogenContainingObject>
+                                <Adjuvant>Freund's complete</Adjuvant>
+                                <Adjuvant>Freund's incomplete (IFA)</Adjuvant>
+                                <Route>Subcutaneous (s.c.)</Route>
+                                <DoseSchedule>Rabbits were immunized subcutaneously with 50 micrograms peptide per rabbit in complete Freundâ¿¿s adjuvant  at a final volume of 300 microliters. Boosters were given in incomplete Freundâ¿¿s adjuvant on days 14 and 28.</DoseSchedule>
+                            </FirstInVivoProcess>
+                            <ImmunizationComments>The immunogen and antigen contained two linked, repeated epitopes which were  chemically linked to the carrier protein bovine serum albumin by 3-maleimidobenzoic acid N-hydroxysuccinimide ester.</ImmunizationComments>
+                        </Immunization>
+                        <AssayInformation>
+                            <AssayTypeId>34</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <AssayComments>The cross reactive response was weak.</AssayComments>
+                        </AssayInformation>
+                        <AssayedAntibody>
+                            <AssayedAntibodySourceMaterial>Serum</AssayedAntibodySourceMaterial>
+                            <AssayedAntibodyPurificationStatus>Polyclonal</AssayedAntibodyPurificationStatus>
+                        </AssayedAntibody>
+                        <Antigen>
+                            <AntigenReferenceName>P2</AntigenReferenceName>
+                            <AntigenConformation>Non-Native/Unknown</AntigenConformation>
+                            <AntigenObject>
+                                <EpitopeRelation>Taxonomic Sibling</EpitopeRelation>
+                                <Object>
+                                    <FragmentOfANaturalSequenceMolecule>
+                                        <ChemicalType>Peptide from protein</ChemicalType>
+                                        <LinearSequence>SLLTEVETPIR</LinearSequence>
+                                        <StartingPosition>2</StartingPosition>
+                                        <EndingPosition>12</EndingPosition>
+                                        <SourceMolecule>
+                                            <GenBankId>P35938.1</GenBankId>
+                                        </SourceMolecule>
+                                        <SourceOrganismId>381516</SourceOrganismId>
+                                    </FragmentOfANaturalSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Exact match to reference information</AntigenEvidenceCode>
+                        </Antigen>
+                    </BCell>
+                </Assays>
+            </Epitope>
+        </Epitopes>
+    </Reference>
+</References>
+

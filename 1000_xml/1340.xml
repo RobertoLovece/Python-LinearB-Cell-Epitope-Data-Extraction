@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<References xsi:schemaLocation="http://www.iedb.org/schema/CurationSchema http://beta.iedb.org/schema/Curation.xsd" xmlns="http://www.iedb.org/schema/CurationSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <Reference>
+        <ReferenceId>1340</ReferenceId>
+        <DateLastUpdated>2020-09-10-07:00</DateLastUpdated>
+        <Article>
+            <PubmedId>12066851</PubmedId>
+            <Abstract>Diagnosis of tuberculosis a problem, specially in the regions harboring an abundance of both pathogenic and non-pathogenic mycobacteria. This study was undertaken to assess in such a situation the predictive value of proliferative T cell response to a peptide epitope ('38G') of the 38 kDa membrane protein of Mycobacterium tuberculosis. 3[H]-thymidine incorporation assays were done with peripheral blood mononuclear cells of tuberculoid leprosy and pulmonary tuberculosis patients. The donors were also classified as PPD responders (Stimulation Index, SI&gt; 3) or non-responders (SI &lt; or = 3) on the basis of their T cell response to the 'Purified Protein Derivative (PPD)' of M. tuberculosis. 38G peptide was used in either free or liposome-associated form prepared by the technique of 'Dehydration-rehydration Vesicles' (Kirby and Gregoriadis, 1984). While free peptide failed to induce a positive response in study subjects, its liposomal form was T cell stimulatory and distinguished, to certain extent, between PPD responders (corresponding SI &gt; 3 in 54% subjects) and non-responders (SI &gt; 3 in 29% subjects). However, it did not differentiate between leprosy and tuberculosis. The study supports use of liposomes as adjuvant vehicles for antigenic peptides designed to activate human T cells.</Abstract>
+            <ArticleYear>2002</ArticleYear>
+            <ArticlePages>255-63</ArticlePages>
+            <ArticleTitle>Enhancement of human T cell response to a peptide epitope of 38 kDa antigen of Mycobacterium tuberculosis by liposomes.</ArticleTitle>
+            <Authors>
+                <Author>
+                    <LastName>Bala</LastName>
+                    <ForeName>Lakshmi</ForeName>
+                </Author>
+                <Author>
+                    <LastName>Anand</LastName>
+                    <ForeName>Sukumar</ForeName>
+                </Author>
+                <Author>
+                    <LastName>Sinha</LastName>
+                    <ForeName>Sudhir</ForeName>
+                </Author>
+            </Authors>
+            <Affiliations>Division of Biochemistry, Central Drug Research Institute, Lucknow, India.</Affiliations>
+            <ArticleChemicalList>Antigens, Bacterial;Epitopes;Liposomes;Mycobacterium tuberculosis antigens</ArticleChemicalList>
+            <ArticleMeshHeadingsList>Amino Acid Sequence; Antigens, Bacterial(administration &amp; dosage; chemistry; genetics); Diagnosis, Differential; Epitopes(administration &amp; dosage; chemistry; genetics); Humans; In Vitro Techniques; Leprosy, Tuberculoid(diagnosis; immunology); Liposomes; Lymphocyte Activation; Molecular Sequence Data; Molecular Weight; Mycobacterium tuberculosis(chemistry; genetics; immunology); T-Lymphocytes(immunology); Tuberculin Test; Tuberculosis, Pulmonary(diagnosis; immunology)</ArticleMeshHeadingsList>
+            <Journal>
+                <Volume>24</Volume>
+                <Issue>2</Issue>
+                <Title>Immunopharmacology and immunotoxicology</Title>
+                <Issn>0892-3973</Issn>
+                <MedlineTa>Immunopharmacol Immunotoxicol</MedlineTa>
+            </Journal>
+        </Article>
+        <Epitopes>
+            <Epitope>
+                <EpitopeName>38G</EpitopeName>
+                <EpitopeStructure>
+                    <FragmentOfANaturalSequenceMolecule>
+                        <ChemicalType>Peptide from protein</ChemicalType>
+                        <LinearSequence>DQVHFQPLPPAVVKLSDALI</LinearSequence>
+                        <StartingPosition>350</StartingPosition>
+                        <EndingPosition>369</EndingPosition>
+                        <SourceMolecule>
+                            <GenBankId>P15712.1</GenBankId>
+                        </SourceMolecule>
+                        <SourceOrganismId>1773</SourceOrganismId>
+                    </FragmentOfANaturalSequenceMolecule>
+                </EpitopeStructure>
+                <LocationOfData>Page 257</LocationOfData>
+                <EpitopeId>9924</EpitopeId>
+                <ReferenceStartingPosition>350</ReferenceStartingPosition>
+                <ReferenceEndingPosition>369</ReferenceEndingPosition>
+                <EpitopeEvidenceCode>Not determined</EpitopeEvidenceCode>
+                <EpitopeStructureDefines>Epitope containing region/antigenic site</EpitopeStructureDefines>
+                <Assays>
+                    <TCell>
+                        <LocationOfData>Figures 2 and 3</LocationOfData>
+                        <TCellId>21081</TCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>9606</OrganismId>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Occurrence of infectious disease</InVivoProcessType>
+                                <DiseaseState>DOID:1025</DiseaseState>
+                                <DiseaseStage>Chronic</DiseaseStage>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Taxonomic Sibling</EpitopeRelation>
+                                    <Object>
+                                        <Organism>
+                                            <SubType>Organism</SubType>
+                                            <SourceOrganismId>1769</SourceOrganismId>
+                                        </Organism>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenReferenceName>Mycobacterium leprae</ImmunogenReferenceName>
+                                <ImmunogenEvidenceCode>Representative selection</ImmunogenEvidenceCode>
+                            </FirstInVivoProcess>
+                        </Immunization>
+                        <EffectorCells>
+                            <CellTissueType>Blood</CellTissueType>
+                            <CellType>T cell</CellType>
+                            <CellCultureConditions>Direct Ex Vivo</CellCultureConditions>
+                        </EffectorCells>
+                        <AntigenPresentingCells>
+                            <CellTissueType>Blood</CellTissueType>
+                            <CellType>PBMC</CellType>
+                            <CellCultureConditions>Direct Ex Vivo</CellCultureConditions>
+                            <AutologousOrSyngeneic>Y</AutologousOrSyngeneic>
+                        </AntigenPresentingCells>
+                        <MhcAllele>
+                            <MhcAlleleId>304</MhcAlleleId>
+                            <MhcEvidenceCode>T cell assay -Biological process measured</MhcEvidenceCode>
+                        </MhcAllele>
+                        <Antigen>
+                            <AntigenReferenceName>38G</AntigenReferenceName>
+                            <AntigenObject>
+                                <EpitopeRelation>Epitope</EpitopeRelation>
+                                <Object>
+                                    <FragmentOfANaturalSequenceMolecule>
+                                        <ChemicalType>Peptide from protein</ChemicalType>
+                                        <LinearSequence>DQVHFQPLPPAVVKLSDALI</LinearSequence>
+                                        <StartingPosition>350</StartingPosition>
+                                        <EndingPosition>369</EndingPosition>
+                                        <SourceMolecule>
+                                            <GenBankId>P15712.1</GenBankId>
+                                        </SourceMolecule>
+                                        <SourceOrganismId>1773</SourceOrganismId>
+                                    </FragmentOfANaturalSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Exact match to reference information</AntigenEvidenceCode>
+                        </Antigen>
+                        <AssayInformation>
+                            <AssayTypeId>69</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <NumberOfSubjectsTested>16</NumberOfSubjectsTested>
+                            <NumberOfSubjectsResponded>8</NumberOfSubjectsResponded>
+                            <ResponseFrequency>50</ResponseFrequency>
+                            <AssayComments>Of the 8 responders, 6 were PPD-positive and 2 were PPD-negative.  Therefore the liposome-associated peptide showed a degree of discrimination for the PPD status of the donor.  The liposome-associated peptide was not able to discriminate between leprosy and tuberculosis donors.</AssayComments>
+                        </AssayInformation>
+                    </TCell>
+                </Assays>
+                <Assays>
+                    <TCell>
+                        <LocationOfData>Figures 2 and 3</LocationOfData>
+                        <TCellId>21082</TCellId>
+                        <Immunization>
+                            <HostOrganism>
+                                <OrganismId>9606</OrganismId>
+                            </HostOrganism>
+                            <FirstInVivoProcess>
+                                <InVivoProcessType>Occurrence of infectious disease</InVivoProcessType>
+                                <DiseaseState>DOID:399</DiseaseState>
+                                <DiseaseStage>Chronic</DiseaseStage>
+                                <ImmunogenObject>
+                                    <EpitopeRelation>Source Organism</EpitopeRelation>
+                                    <Object>
+                                        <Organism>
+                                            <SubType>Organism</SubType>
+                                            <SourceOrganismId>1773</SourceOrganismId>
+                                        </Organism>
+                                    </Object>
+                                </ImmunogenObject>
+                                <ImmunogenEvidenceCode>Representative selection</ImmunogenEvidenceCode>
+                            </FirstInVivoProcess>
+                        </Immunization>
+                        <EffectorCells>
+                            <CellTissueType>Blood</CellTissueType>
+                            <CellType>T cell</CellType>
+                            <CellCultureConditions>Direct Ex Vivo</CellCultureConditions>
+                        </EffectorCells>
+                        <AntigenPresentingCells>
+                            <CellTissueType>Blood</CellTissueType>
+                            <CellType>PBMC</CellType>
+                            <CellCultureConditions>Direct Ex Vivo</CellCultureConditions>
+                            <AutologousOrSyngeneic>Y</AutologousOrSyngeneic>
+                        </AntigenPresentingCells>
+                        <MhcAllele>
+                            <MhcAlleleId>304</MhcAlleleId>
+                            <MhcEvidenceCode>T cell assay -Biological process measured</MhcEvidenceCode>
+                        </MhcAllele>
+                        <Antigen>
+                            <AntigenReferenceName>38G</AntigenReferenceName>
+                            <AntigenObject>
+                                <EpitopeRelation>Epitope</EpitopeRelation>
+                                <Object>
+                                    <FragmentOfANaturalSequenceMolecule>
+                                        <ChemicalType>Peptide from protein</ChemicalType>
+                                        <LinearSequence>DQVHFQPLPPAVVKLSDALI</LinearSequence>
+                                        <StartingPosition>350</StartingPosition>
+                                        <EndingPosition>369</EndingPosition>
+                                        <SourceMolecule>
+                                            <GenBankId>P15712.1</GenBankId>
+                                        </SourceMolecule>
+                                        <SourceOrganismId>1773</SourceOrganismId>
+                                    </FragmentOfANaturalSequenceMolecule>
+                                </Object>
+                            </AntigenObject>
+                            <AntigenEvidenceCode>Exact match to reference information</AntigenEvidenceCode>
+                        </Antigen>
+                        <AssayInformation>
+                            <AssayTypeId>69</AssayTypeId>
+                            <QualitativeMeasurement>Positive</QualitativeMeasurement>
+                            <NumberOfSubjectsTested>4</NumberOfSubjectsTested>
+                            <NumberOfSubjectsResponded>1</NumberOfSubjectsResponded>
+                            <ResponseFrequency>25</ResponseFrequency>
+                            <AssayComments>The responder was PPD-positive.  The liposome-associated peptide was not able to discriminate between leprosy and tuberculosis donors.</AssayComments>
+                        </AssayInformation>
+                    </TCell>
+                </Assays>
+            </Epitope>
+        </Epitopes>
+    </Reference>
+</References>
+

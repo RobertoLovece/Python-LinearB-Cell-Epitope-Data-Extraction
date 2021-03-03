@@ -30,8 +30,8 @@ def ncbi_extract(df):
     unique_split = [unique[x:x+200] for x in range(0, len(unique), 200)]
 
     count = 0
+    accver_array = []
     while count < len(ids):
-        accver_array = []
         id_request = ids[count]
         unique_item = unique_split[count]
 
@@ -52,10 +52,13 @@ def ncbi_extract(df):
                     accver_array.append(accver)
                     protein_dict[accver] = process_record(record)
 
-            need_repeating.extend(list(set(unique_item) - set(accver_array)))
+            #need_repeating.extend(list(set(unique_item) - set(accver_array)))
         except:
             print("Bad Request - Query id's not found")
         count += 1
+
+    need_repeating = (list(set(unique) - set(accver_array)))
+    print(need_repeating)
 
     print("Repeating failed " + str(len(need_repeating)) + " queries")
     for repeat in need_repeating:
@@ -70,6 +73,8 @@ def ncbi_extract(df):
             print("protein_id '" + repeat + "' Bad Request - Protein_Id was not found")
 
     processed_arrays = []
+
+
 
     for key in protein_dict:
         record = protein_dict[key]

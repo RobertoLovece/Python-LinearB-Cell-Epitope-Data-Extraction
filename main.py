@@ -77,14 +77,15 @@ def windowing(df):
 
     row_list = []
 
-    for row in zip(df['protein_id'], df['epitope_id'], df['epit_seq'], df['start_pos'], df['end_pos'], df['sequence']):
+    for row in zip(df['protein_id'], df['epitope_id'], df['epit_seq'], df['start_pos'], df['end_pos'], df['majority_class'], df['sequence']):
 
         protein_id = str(row[0])
         epitope_id = str(row[1])
         epit_seq = str(row[2])
         start_pos = int(row[3])
         end_pos = int(row[4])
-        sequence = np.asarray(list(str(row[5])))
+        majority_class = str(row[5])
+        sequence = np.asarray(list(str(row[6])))
 
         #print(epit_seq + " = " + str(len(epit_seq)))
 
@@ -122,10 +123,11 @@ def windowing(df):
 
             dict["AA_position"] = AA_pos
             dict["AA_window"] = AA_window_string
+            dict["class"] = majority_class
 
             row_list.append(dict)
 
-    df = pd.DataFrame(row_list, columns=['protein_id', 'epitope_id', 'AA_position', 'AA_window'])
+    df = pd.DataFrame(row_list, columns=['protein_id', 'epitope_id', 'AA_position', 'AA_window', 'class'])
     df.to_csv("output/windowed.csv", index = False)
 
 if __name__ == "__main__":

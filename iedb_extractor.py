@@ -8,16 +8,16 @@ import glob
 import os
 
 path = "{http://www.iedb.org/schema/CurationSchema}"
-xml_path = 'iedb_export/*.xml'
-file_path = 'output/iedb_extractor_output.csv'
+xml_path = '1000_xml/*.xml'
 
 def iedb_extract():
 
     # array of all processed epitopes
     processed_array = []
 
+    no_dominant_class = []
+
     # iterates through all xml files in xml_path directory
-    # replace glob maybe
     for xml in glob.iglob(xml_path):
         try:
             root = et.parse(xml).getroot()
@@ -26,43 +26,57 @@ def iedb_extract():
                 # path to each epitope
                 epitope_path = path +"Reference/"+ path +"Epitopes/"+ path +"Epitope"
 
-                # final output of each bit of data
-                final_array = None
-
                 # get the article information first
-                article_array = get_article_information(root)
+                article_dict = get_article_information(root)
 
                 # go through all the epitopes in the xml file
                 for epitope in root.findall(epitope_path):
-                    epitope_array = process_epitope(epitope)
+                    epitope_dict = process_epitope(epitope)
 
+                    # prints the epitope being processed if it has a name
                     if(epitope.find(path + "EpitopeName") != None):
                         print(epitope.find(path + "EpitopeName").text)
 
                     if (check_assay(epitope) == True):
-                        assay_array = process_assays(epitope)
+                        assay_dict = process_assays(epitope)
 
-                        # combines the epitope and assay data into one array
-                        final_array = np.append(article_array, epitope_array)
-                        final_array = np.append(final_array, assay_array)
+                        # combines all dictonaries of data into one
+                        final_dict = {**article_dict, **epitope_dict, **assay_dict}
+
+                    # when there's no assay
                     else:
-                        empty_array = np.array(["NA","NA","NA","NA"])
-                        final_array = np.append(article_array, epitope_array)
-                        final_array = np.append(final_array, empty_array)
+                        empty_dict = {'host_id': "NA",'bcell_id': "NA",'assay_class': "NA",'majority_class': "NA",'assay_type': "NA"}
+                        final_dict = {**article_dict, **epitope_dict, **empty_dict}
 
-                    # 15 parameters need to get passed to the DataFrame
-                    df = pd.DataFrame([final_array],columns=["pubmed_id","year","epit_name","epitope_id","evid_code","epit_struc_def","sourceOrg_id","protein_id","epit_seq","start_pos","end_pos","host_id","bcell_id","assay_class","assay_type"])
+                    # if the assay has no dominant class make a dictonary from
+                    # it's pubmed_id, epit_name, epitope_id, protein_id and
+                    # assay_class then add it to a list
+                    if (final_dict.get('majority_class') == "No dominant class"):
+                        dict = {}
 
-                    if (add_to_dataframe(df) == True):
-                        processed_array.append(final_array)
+                        dict['pubmed_id'] = final_dict.get('pubmed_id')
+                        dict['epit_name'] = final_dict.get('epit_name')
+                        dict['epitope_id'] = final_dict.get('epitope_id')
+                        dict['protein_id'] = final_dict.get('protein_id')
+                        dict['assay_class'] = final_dict.get('assay_class')
+
+                        no_dominant_class.append(dict)
+
+                    if (check_add_to_dataframe(final_dict) == True):
+                        processed_array.append(final_dict)
 
         except et.ParseError:
             print("Parse error in "+ xml +",invalid xml format")
 
+    # output the epitopes missing a dominant class to a file
+    if (len(no_dominant_class) != 0):
+        df = pd.DataFrame(no_dominant_class)
+        df.to_csv('output/no_dominant_class.csv',index=False)
+
+    # turn the final data extracted into a dataframe
     if (len(processed_array) != 0):
-        output_array = np.vstack(processed_array)
-        df = pd.DataFrame.from_records(output_array,columns=["pubmed_id","year","epit_name","epitope_id","evid_code","epit_struc_def","sourceOrg_id","protein_id","epit_seq","start_pos","end_pos","host_id","bcell_id","assay_class","assay_type"])
-        df.to_csv(file_path,index=False)
+        df = pd.DataFrame(processed_array)
+        df.to_csv('output/iedb_extractor_output.csv',index=False)
         return df
 
 # finds out if a Linear B-Cell epitopes is present to process file
@@ -89,18 +103,25 @@ def check_linear_bcell_epitopes(root):
 
 # gets the article part of the xml file
 def get_article_information(root):
-        # part of the article section
-        pubmed_id_path = path +"Reference/"+ path +"Article/"+ path +"PubmedId"
-        year_path = path +"Reference/"+ path +"Article/"+ path +"ArticleYear"
+    # dictonary to return values with key as name of field they represent
+    dict = {}
 
-        pubmed_id = process_epitope_data(root, pubmed_id_path)
-        year = process_epitope_data(root, year_path)
+    # part of the article section
+    pubmed_id_path = path +"Reference/"+ path +"Article/"+ path +"PubmedId"
+    year_path = path +"Reference/"+ path +"Article/"+ path +"ArticleYear"
 
-        article_array = np.array([pubmed_id, year])
+    # adds the values for pubmed_id and year with the respective names as
+    # keys
+    dict['pubmed_id'] = process_epitope_data(root, pubmed_id_path)
+    dict['year'] = process_epitope_data(root, year_path)
 
-        return article_array
+    return dict
 
 def process_epitope(epitope):
+
+    # dictonary to return values with key as name of field they represent
+    dict = {}
+
     # the paths to all the parameters that need processing
     # part of the the epitope section
     epit_name_path = path +"EpitopeName"
@@ -113,37 +134,36 @@ def process_epitope(epitope):
     start_pos_path = path +"EpitopeStructure/"+ path +"FragmentOfANaturalSequenceMolecule/"+ path +"StartingPosition"
     end_pos_path = path +"EpitopeStructure/"+ path +"FragmentOfANaturalSequenceMolecule/"+ path +"EndingPosition"
 
-    # processes the parameter that are required
-    epit_name = process_epitope_data(epitope, epit_name_path)
-    epitope_id = process_epitope_data(epitope, epitope_id_path)
-    evid_code = process_epitope_data(epitope, evid_code_path)
-    epit_struc_def = process_epitope_data(epitope, epit_struc_def_path)
-    sourceorg_id = process_epitope_data(epitope, sourceorg_id_path)
-    protein_id = process_epitope_data(epitope, protein_id_path)
-    epit_seq = process_epitope_data(epitope, epit_seq_path)
+    # processes the parameter that are required and add them to dict
+    dict['epit_name'] = process_epitope_data(epitope, epit_name_path)
+    dict['epitope_id'] = process_epitope_data(epitope, epitope_id_path)
+    dict['evid_code'] = process_epitope_data(epitope, evid_code_path)
+    dict['epit_struc_def'] = process_epitope_data(epitope, epit_struc_def_path)
+    dict['sourceOrg_id'] = process_epitope_data(epitope, sourceorg_id_path)
+    dict['protein_id'] = process_epitope_data(epitope, protein_id_path)
+    dict['epit_seq'] = process_epitope_data(epitope, epit_seq_path)
 
     # If the starting or end positions tags are empty we check another location
     if(epitope.find(start_pos_path) != None):
-        start_pos = epitope.find(start_pos_path).text
+        dict['start_pos'] = epitope.find(start_pos_path).text
     else:
         start_pos_path = path +"ReferenceStartingPosition"
+
         if(epitope.find(start_pos_path) != None):
-            start_pos = epitope.find(start_pos_path).text
+            dict['start_pos'] = epitope.find(start_pos_path).text
         else:
-            start_pos = "NA"
+            dict['start_pos'] = "NA"
 
     if(epitope.find(end_pos_path) != None):
-        end_pos = epitope.find(end_pos_path).text
+        dict['end_pos'] = epitope.find(end_pos_path).text
     else:
         end_pos_path = path +"ReferenceEndingPosition"
         if(epitope.find(end_pos_path) != None):
-            end_pos = epitope.find(end_pos_path).text
+            dict['end_pos'] = epitope.find(end_pos_path).text
         else:
-            end_pos = "NA"
+            dict['end_pos'] = "NA"
 
-    epitope_array = np.array([epit_name, epitope_id, evid_code, epit_struc_def, sourceorg_id, protein_id, epit_seq, start_pos, end_pos])
-
-    return epitope_array
+    return dict
 
 # check if there is an array present in the epitope
 def check_assay(epitope):
@@ -169,12 +189,12 @@ def check_assay(epitope):
         else:
             return False
 
-def add_to_dataframe(df):
-    if(df.get('protein_id')[0] == "NA"):
+def check_add_to_dataframe(dict):
+    if(dict.get('protein_id') == "NA"):
         return False
-    elif(df.get('epit_seq')[0] == "NA"):
+    elif(dict.get('epit_seq') == "NA"):
         return False
-    elif(df.get('assay_type')[0] == "NA"):
+    elif(dict.get('assay_type') == "NA"):
         return False
     else:
         return True
@@ -189,6 +209,10 @@ def process_epitope_data(root, path):
 
 # process the data from each assay section of the epitope
 def process_assays(epitope):
+
+    # dictonary to return values with key as name of field they represent
+    dict = {}
+
     # paths for the assay parameters that need processing
     host_id_path = path +"Assays/"+ path +"BCell/"+ path +"Immunization/"+ path +"HostOrganism/"+ path +"OrganismId"
     bcell_id_path = path +"Assays/"+ path +"BCell/"+ path +"BCellId"
@@ -199,7 +223,6 @@ def process_assays(epitope):
     # then appends it to a string so it's outputted correctly
     loop_list = []
 
-
     for host_id in epitope.findall(host_id_path):
         if (len(epitope.findall(host_id_path)) == 1):
             loop_list.append('"'+ host_id.text + '"')
@@ -209,7 +232,7 @@ def process_assays(epitope):
             loop_list.append(host_id.text + '"')
         else:
             loop_list.append(host_id.text)
-        host_ids = ','.join(loop_list)
+        dict['host_id'] = ','.join(loop_list)
 
     loop_list.clear()
 
@@ -222,9 +245,11 @@ def process_assays(epitope):
             loop_list.append(bcell_id.text + '"')
         else:
             loop_list.append(bcell_id.text)
-        bcell_ids = ','.join(loop_list)
+        dict['bcell_id'] = ','.join(loop_list)
 
     loop_list.clear()
+
+    class_array = []
 
     for assay_class in epitope.findall(class_path):
 
@@ -232,6 +257,8 @@ def process_assays(epitope):
             class_value = "1"
         else:
             class_value = "-1"
+
+        class_array.append(class_value)
 
         if (len(epitope.findall(class_path)) == 1):
             loop_list.append('"'+ class_value +'"')
@@ -241,7 +268,9 @@ def process_assays(epitope):
             loop_list.append(class_value + '"')
         else:
             loop_list.append(class_value)
-        classes = ','.join(loop_list)
+        dict['assay_class'] = ','.join(loop_list)
+
+    dict['majority_class'] = get_majority_class(class_array)
 
     loop_list.clear()
 
@@ -254,8 +283,19 @@ def process_assays(epitope):
             loop_list.append(assay_type.text + '"')
         else:
             loop_list.append(assay_type.text)
-        assay_types = ','.join(loop_list)
+        dict['assay_type'] = ','.join(loop_list)
 
-    assay_array = np.array([host_ids, bcell_ids, classes, assay_types])
+    return dict
 
-    return assay_array
+def get_majority_class(array):
+    positive_count = array.count("1")
+    negative_count = array.count("-1")
+
+    if (positive_count > negative_count):
+        majority_class = "1"
+    elif(negative_count > positive_count):
+        majority_class = "-1"
+    else:
+        majority_class = "No dominant class"
+
+    return majority_class

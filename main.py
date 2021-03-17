@@ -11,15 +11,22 @@ def main():
     print("Extacting IEDB")
     iedb_df = iedb.iedb_extract()
     print("Finished Extacting IEDB")
+    iedb_df = pd.read_csv("output/iedb_extractor_output.csv")
 
     print("Extacting NCBI")
     ncbi_df = ncbi.ncbi_extract(iedb_df)
+    print("Finished Extacting NCBI")
 
     df = iedb_df.merge(ncbi_df, how='left', on='protein_id')
     df.to_csv("output/left_join.csv", index = False)
-    #df = pd.read_csv("padding_test.csv")
+    df = pd.read_csv("output/left_join.csv")
+    print("Checking Sequencing...")
     df = check_sequencing(df)
+    print("Sequencing Finished")
+
+    print("Starting Windowing Process...")
     windowing(df)
+    print("Finished Windowing Process")
 
 def check_sequencing(df):
     passed = 0
@@ -48,17 +55,20 @@ def check_sequencing(df):
     return df
 
 def check(row):
-    epit_seq = str(row[1])
-    start_pos = int(row[2])
-    end_pos = int(row[3])
-    sequence = np.asarray(list(str(row[4])))
+    try:
+        epit_seq = str(row[1])
+        start_pos = int(row[2])
+        end_pos = int(row[3])
+        sequence = np.asarray(list(str(row[4])))
 
-    sample_list = sequence[start_pos-1:end_pos]
-    sample_string = ''.join(sample_list)
+        sample_list = sequence[start_pos-1:end_pos]
+        sample_string = ''.join(sample_list)
 
-    if (sample_string == epit_seq):
-        return True
-    else:
+        if (sample_string == epit_seq):
+            return True
+        else:
+            return False
+    except:
         return False
 
 def windowing(df):
@@ -66,8 +76,6 @@ def windowing(df):
     window_right = 7
 
     row_list = []
-
-    print("Starting Windowing Process...")
 
     for row in zip(df['protein_id'], df['epitope_id'], df['epit_seq'], df['start_pos'], df['end_pos'], df['sequence']):
 
@@ -119,8 +127,6 @@ def windowing(df):
 
     df = pd.DataFrame(row_list, columns=['protein_id', 'epitope_id', 'AA_position', 'AA_window'])
     df.to_csv("output/windowed.csv", index = False)
-
-    print("Finished Windowing Process")
 
 if __name__ == "__main__":
     main()

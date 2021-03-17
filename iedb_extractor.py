@@ -8,7 +8,7 @@ import glob
 import os
 
 path = "{http://www.iedb.org/schema/CurationSchema}"
-xml_path = '10000_xml/*.xml'
+xml_path = 'iedb_export/*.xml'
 file_path = 'output/iedb_extractor_output.csv'
 
 def iedb_extract():

@@ -58,9 +58,12 @@ def ncbi_extract(df):
         count += 1
 
     need_repeating = (list(set(unique) - set(accver_array)))
-    print(need_repeating)
 
-    print("Repeating failed " + str(len(need_repeating)) + " queries")
+    print("Repeating Failed " + str(len(need_repeating)) + " Queries")
+
+    count = 1
+    bad_requests = []
+
     for repeat in need_repeating:
         try:
             handle = Entrez.efetch(db="protein", id=repeat, retmode="xml", rettype="fasta")
@@ -68,13 +71,16 @@ def ncbi_extract(df):
             handle.close()
             protein_dict[repeat] = process_record(record[0])
 
-            print("protein_id '" + repeat + "' returned " + str(handle))
+            print("(" + str(count) + "/" + str(len(need_repeating)) + ") Protein_Id '" + repeat + "' Returned " + str(handle))
         except:
-            print("protein_id '" + repeat + "' Bad Request - Protein_Id was not found")
+            print("(" + str(count) + "/" + str(len(need_repeating)) + ") Protein_Id '" + repeat + "' Bad Request - Protein_Id was not found")
+            bad_requests.append(repeat)
+        count += 1
+
+    bad = pd.DataFrame(bad_requests, columns = ["protein_id"])
+    bad.to_csv("output/bad_requests.csv", index = False)
 
     processed_arrays = []
-
-
 
     for key in protein_dict:
         record = protein_dict[key]
@@ -83,8 +89,8 @@ def ncbi_extract(df):
         processed_arrays.append(final_array)
 
     output_array = np.vstack(processed_arrays)
-    df = pd.DataFrame.from_records(output_array,columns=["accver","taxid","orgname","defline","length","sequence","sid","protein_id","DB"])
-    df.to_csv("output/ncbi_extractor_output.csv",index=False)
+    df = pd.DataFrame.from_records(output_array,columns = ["accver","taxid","orgname","defline","length","sequence","sid","protein_id","DB"])
+    df.to_csv("output/ncbi_extractor_output.csv", index = False)
 
     return df
 

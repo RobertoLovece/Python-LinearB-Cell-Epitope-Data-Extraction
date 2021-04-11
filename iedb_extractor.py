@@ -62,18 +62,8 @@ def check_linear_bcell_epitopes(root):
     bcell_path = path +"Reference/"+ path +"Epitopes/"+ path +"Epitope/"+ path + "Assays/"+ path +"BCell"
     linear_path = path +"Reference/"+ path +"Epitopes/"+ path +"Epitope/"+ path +"EpitopeStructure/"+ path +"FragmentOfANaturalSequenceMolecule"
 
-    bcell_array = []
-    linear_array = []
-
-    # checks if xml contains bcell tag and linear
-    for bcell in root.findall(bcell_path):
-        bcell_array.append(bcell)
-
-    for linear in root.findall(linear_path):
-        linear_array.append(linear)
-
     # if it has the tags return true otherwise false
-    if (len(linear_array) != 0 and len(bcell_array) != 0):
+    if (len(root.findall(bcell_path)) != 0 and len(root.findall(linear_path)) != 0):
         return True
     else:
         return False

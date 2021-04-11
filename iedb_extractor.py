@@ -60,7 +60,7 @@ def iedb_extract(xml_path):
 def check_linear_bcell_epitopes(root):
 
     bcell_path = path +"Reference/"+ path +"Epitopes/"+ path +"Epitope/"+ path + "Assays/"+ path +"BCell"
-    linear_path = path +"Reference/"+ path +"Epitopes/"+ path +"Epitope/"+ path +"EpitopeStructure/"+ path +"FragmentOfANaturalSequenceMolecule"
+    linear_path = path +"Reference/"+ path +"Epitopes/"+ path +"Epitope/"+ path +"EpitopeStructure/"+ path +"FragmentOfANaturalSequenceMolecule/" + path + "LinearSequence"
 
     # if it has the tags return true otherwise false
     if (len(root.findall(bcell_path)) != 0 and len(root.findall(linear_path)) != 0):

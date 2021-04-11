@@ -3,8 +3,6 @@
 
 import pandas as pd
 import numpy as np
-import eutils
-import time
 
 from Bio import Entrez
 from Bio import SeqIO
@@ -31,6 +29,7 @@ def ncbi_extract(df):
 
     count = 0
     accver_array = []
+
     while count < len(ids):
         id_request = ids[count]
         unique_item = unique_split[count]
@@ -40,9 +39,11 @@ def ncbi_extract(df):
         try:
             handle = Entrez.efetch(db="protein", id=id_request, retmode="xml", rettype="fasta")
             records = Entrez.read(handle)
+
             handle.close()
 
             for record in records:
+
                 accver = record.get('TSeq_accver')
 
                 # if the accver matches the protein_id add the record to a

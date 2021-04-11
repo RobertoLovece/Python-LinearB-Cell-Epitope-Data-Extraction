@@ -5,23 +5,19 @@ import pandas as pd
 import numpy as np
 import xml.etree.ElementTree as et
 import glob
-import os
 
 path = "{http://www.iedb.org/schema/CurationSchema}"
-xml_path = '1000_xml/*.xml'
 
-def iedb_extract():
+def iedb_extract(xml_path):
 
     # array of all processed epitopes
     processed_array = []
-
-    no_dominant_class = []
 
     # iterates through all xml files in xml_path directory
     for xml in glob.iglob(xml_path):
         try:
             root = et.parse(xml).getroot()
-            print(xml)
+            print("Reading " + str(xml) + " XML File")
             if (check_linear_bcell_epitopes(root) == True):
                 # path to each epitope
                 epitope_path = path +"Reference/"+ path +"Epitopes/"+ path +"Epitope"
@@ -35,7 +31,7 @@ def iedb_extract():
 
                     # prints the epitope being processed if it has a name
                     if(epitope.find(path + "EpitopeName") != None):
-                        print(epitope.find(path + "EpitopeName").text)
+                        print("Processing Epitope " + epitope.find(path + "EpitopeName").text + " From XMLA")
 
                     if (check_assay(epitope) == True):
                         assay_dict = process_assays(epitope)
@@ -48,30 +44,11 @@ def iedb_extract():
                         empty_dict = {'host_id': "NA",'bcell_id': "NA",'assay_class': "NA",'majority_class': "NA",'assay_type': "NA"}
                         final_dict = {**article_dict, **epitope_dict, **empty_dict}
 
-                    # if the assay has no dominant class make a dictonary from
-                    # it's pubmed_id, epit_name, epitope_id, protein_id and
-                    # assay_class then add it to a list
-                    if (final_dict.get('majority_class') == "No dominant class"):
-                        dict = {}
-
-                        dict['pubmed_id'] = final_dict.get('pubmed_id')
-                        dict['epit_name'] = final_dict.get('epit_name')
-                        dict['epitope_id'] = final_dict.get('epitope_id')
-                        dict['protein_id'] = final_dict.get('protein_id')
-                        dict['assay_class'] = final_dict.get('assay_class')
-
-                        no_dominant_class.append(dict)
-
                     if (check_add_to_dataframe(final_dict) == True):
                         processed_array.append(final_dict)
 
         except et.ParseError:
             print("Parse error in "+ xml +",invalid xml format")
-
-    # output the epitopes missing a dominant class to a file
-    if (len(no_dominant_class) != 0):
-        df = pd.DataFrame(no_dominant_class)
-        df.to_csv('output/no_dominant_class.csv',index=False)
 
     # turn the final data extracted into a dataframe
     if (len(processed_array) != 0):

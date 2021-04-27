@@ -6,6 +6,7 @@ import numpy as np
 import xml.etree.ElementTree as et
 import glob
 
+# the namespace of the xml
 path = "{http://www.iedb.org/schema/CurationSchema}"
 
 def iedb_extract(xml_path):
@@ -15,72 +16,73 @@ def iedb_extract(xml_path):
 
     # iterates through all xml files in xml_path directory
     for xml in glob.iglob(xml_path):
+        print("Reading " + str(xml) + " XML File")
         try:
-            root = et.parse(xml).getroot()
-            print("Reading " + str(xml) + " XML File")
-            if (check_linear_bcell_epitopes(root) == True):
-                # path to each epitope
-                epitope_path = path +"Reference/"+ path +"Epitopes/"+ path +"Epitope"
+            # parse the xml bit by bit
+            for event, elem in et.iterparse(xml):
+                if elem.tag == et.QName("http://www.iedb.org/schema/CurationSchema", 'Article'):
+                    article_dict = get_article_information(elem)
 
-                # get the article information first
-                article_dict = get_article_information(root)
+                if elem.tag == et.QName("http://www.iedb.org/schema/CurationSchema", 'Epitope'):
+                    if (check_linear_bcell_epitopes(elem) == True):
+                        epitope_dict = process_epitope(elem)
 
-                # go through all the epitopes in the xml file
-                for epitope in root.findall(epitope_path):
-                    epitope_dict = process_epitope(epitope)
+                        if(elem.find(path + "EpitopeName") != None):
+                            print("Processing Epitope " + elem.find(path + "EpitopeName").text + " (" + str(xml) + ")")
 
-                    # prints the epitope being processed if it has a name
-                    if(epitope.find(path + "EpitopeName") != None):
-                        print("Processing Epitope " + epitope.find(path + "EpitopeName").text + " From XMLA")
+                        if (check_assay(elem) == True):
+                            assay_dict = process_assays(elem)
 
-                    if (check_assay(epitope) == True):
-                        assay_dict = process_assays(epitope)
+                            # combines all dictonaries of data into one
+                            final_dict = {**article_dict, **epitope_dict, **assay_dict}
 
-                        # combines all dictonaries of data into one
-                        final_dict = {**article_dict, **epitope_dict, **assay_dict}
+                        # when there's no assay
+                        else:
+                            empty_dict = {'host_id': "NA",'bcell_id': "NA",'assay_class': "NA",'majority_class': "NA",'assay_type': "NA"}
+                            final_dict = {**article_dict, **epitope_dict, **empty_dict}
 
-                    # when there's no assay
+                        if (check_add_to_dataframe(final_dict) == True):
+                            processed_array.append(final_dict)
+
+                        elem.clear()
+
                     else:
-                        empty_dict = {'host_id': "NA",'bcell_id': "NA",'assay_class': "NA",'majority_class': "NA",'assay_type': "NA"}
-                        final_dict = {**article_dict, **epitope_dict, **empty_dict}
-
-                    if (check_add_to_dataframe(final_dict) == True):
-                        processed_array.append(final_dict)
+                        elem.clear()
 
         except et.ParseError:
             print("Parse error in "+ xml +",invalid xml format")
 
     # turn the final data extracted into a dataframe
     if (len(processed_array) != 0):
+        print("Processed " + str(len(processed_array)) + " epitopes from IEDB")
         df = pd.DataFrame(processed_array)
         df.to_csv('output/iedb_extractor_output.csv',index=False)
         return df
 
-# finds out if a Linear B-Cell epitopes is present to process file
-def check_linear_bcell_epitopes(root):
+def check_linear_bcell_epitopes(elem):
 
-    bcell_path = path +"Reference/"+ path +"Epitopes/"+ path +"Epitope/"+ path + "Assays/"+ path +"BCell"
-    linear_path = path +"Reference/"+ path +"Epitopes/"+ path +"Epitope/"+ path +"EpitopeStructure/"+ path +"FragmentOfANaturalSequenceMolecule/" + path + "LinearSequence"
+    bcell_path = path + "Assays/" + path + "BCell"
+    linear_path = path + "EpitopeStructure/" + path + "FragmentOfANaturalSequenceMolecule/" + path + "LinearSequence"
 
     # if it has the tags return true otherwise false
-    if (len(root.findall(bcell_path)) != 0 and len(root.findall(linear_path)) != 0):
+    if (elem.find(bcell_path) != None and elem.find(linear_path) != None):
         return True
     else:
         return False
 
 # gets the article part of the xml file
-def get_article_information(root):
+def get_article_information(article):
     # dictonary to return values with key as name of field they represent
     dict = {}
 
     # part of the article section
-    pubmed_id_path = path +"Reference/"+ path +"Article/"+ path +"PubmedId"
-    year_path = path +"Reference/"+ path +"Article/"+ path +"ArticleYear"
+    pubmed_id_path = path +"PubmedId"
+    year_path = path +"ArticleYear"
 
     # adds the values for pubmed_id and year with the respective names as
     # keys
-    dict['pubmed_id'] = process_epitope_data(root, pubmed_id_path)
-    dict['year'] = process_epitope_data(root, year_path)
+    dict['pubmed_id'] = process_epitope_data(article, pubmed_id_path)
+    dict['year'] = process_epitope_data(article, year_path)
 
     return dict
 
@@ -167,9 +169,9 @@ def check_add_to_dataframe(dict):
         return True
 
 # get the data from each parameter
-def process_epitope_data(root, path):
-    if(root.find(path) != None):
-        processed = root.find(path).text
+def process_epitope_data(elem, path):
+    if(elem.find(path) != None):
+        processed = elem.find(path).text
     else:
         processed = "NA"
     return processed

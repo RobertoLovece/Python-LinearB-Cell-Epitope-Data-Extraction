@@ -9,10 +9,9 @@ import ncbi_extractor as ncbi
 import post_processing as post
 
 def main():
-    #print("Extacting IEDB")
-    #iedb_df = iedb.iedb_extract('input/example_xml/*.xml')
-    #print("Finished Extacting IEDB")
-    iedb_df = pd.read_csv("output/iedb_extractor_output.csv")
+    print("Extacting IEDB")
+    iedb_df = iedb.iedb_extract('input/example_xml/*.xml')
+    print("Finished Extacting IEDB")
 
     print("Extacting NCBI")
     ncbi_df = ncbi.ncbi_extract(iedb_df)

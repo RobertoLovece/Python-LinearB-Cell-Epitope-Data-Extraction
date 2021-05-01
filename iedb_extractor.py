@@ -18,11 +18,13 @@ def iedb_extract(xml_path):
     for xml in glob.iglob(xml_path):
         print("Reading " + str(xml) + " XML File")
         try:
-            # parse the xml bit by bit
+            # parse the xml bit by bit using the iterparse
             for event, elem in et.iterparse(xml):
+                # if the xml tag encountered is Article process article data
                 if elem.tag == et.QName("http://www.iedb.org/schema/CurationSchema", 'Article'):
                     article_dict = get_article_information(elem)
 
+                # if the xml tag encountered is Epitope process epitope data
                 if elem.tag == et.QName("http://www.iedb.org/schema/CurationSchema", 'Epitope'):
                     if (check_linear_bcell_epitopes(elem) == True):
                         epitope_dict = process_epitope(elem)
@@ -44,6 +46,7 @@ def iedb_extract(xml_path):
                         if (check_add_to_dataframe(final_dict) == True):
                             processed_array.append(final_dict)
 
+                        # clear the current iterator focus after it's processed
                         elem.clear()
 
                     else:
@@ -59,6 +62,7 @@ def iedb_extract(xml_path):
         df.to_csv('output/iedb_extractor_output.csv',index=False)
         return df
 
+# checks if an eptiope contains is a linear bcell
 def check_linear_bcell_epitopes(elem):
 
     bcell_path = path + "Assays/" + path + "BCell"
@@ -158,6 +162,7 @@ def check_assay(epitope):
         else:
             return False
 
+# checks if any of the required parameters are equal to "NA"
 def check_add_to_dataframe(dict):
     if(dict.get('protein_id') == "NA"):
         return False
@@ -192,6 +197,8 @@ def process_assays(epitope):
     # then appends it to a string so it's outputted correctly
     loop_list = []
 
+    # finds all the host ids of an epitope and appends them to a string
+    # according
     for host_id in epitope.findall(host_id_path):
         if (len(epitope.findall(host_id_path)) == 1):
             loop_list.append('"'+ host_id.text + '"')
@@ -205,6 +212,8 @@ def process_assays(epitope):
 
     loop_list.clear()
 
+    # finds all the bcell ids of an epitope and appends them to a string
+    # according
     for bcell_id in epitope.findall(bcell_id_path):
         if (len(epitope.findall(bcell_id_path)) == 1):
             loop_list.append('"'+ bcell_id.text + '"')
@@ -220,6 +229,8 @@ def process_assays(epitope):
 
     class_array = []
 
+    # finds all the assay class of an epitope and appends them to a string
+    # according
     for assay_class in epitope.findall(class_path):
 
         if(assay_class.text == "Positive"):
@@ -243,6 +254,8 @@ def process_assays(epitope):
 
     loop_list.clear()
 
+    # finds all the assay types of an epitope and appends them to a string
+    # according
     for assay_type in epitope.findall(assay_type_path):
         if (len(epitope.findall(assay_type_path)) == 1):
             loop_list.append('"'+ assay_type.text +'"')
@@ -256,6 +269,8 @@ def process_assays(epitope):
 
     return dict
 
+# get an epitope assays classes as as an array and determines is it has
+# more positives or negative or equal
 def get_majority_class(array):
     positive_count = array.count("1")
     negative_count = array.count("-1")

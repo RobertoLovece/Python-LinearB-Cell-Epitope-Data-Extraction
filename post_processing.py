@@ -4,6 +4,7 @@
 import pandas as pd
 import numpy as np
 
+# check the sequence of epitopes from the left join
 def check_sequencing(df):
     passed = 0
     failed = 0
@@ -11,6 +12,7 @@ def check_sequencing(df):
     to_remove = []
     index = 0
 
+    # iterate through the dataframe and get these parameters
     for row in zip(df['protein_id'], df['epit_seq'], df['start_pos'], df['end_pos'], df['sequence']):
         if (check(row) == True):
             passed += 1
@@ -31,6 +33,8 @@ def check_sequencing(df):
     return df
 
 def check(row):
+    # check if epitope sequence is inside the protein sequence where it should
+    # be using start_pos and end_pos
     try:
         epit_seq = str(row[1])
         start_pos = int(row[2])
@@ -48,14 +52,19 @@ def check(row):
         return False
 
 def windowing(df):
+    # windowing sizes
     window_left = 7
     window_right = 7
+    # how many epitopes have been windowed
     windowed_count = 0
 
+    # rows of values
     row_list = []
 
+    # epitopes with no dominant class
     no_dominant_class = []
 
+    # iterate through dataframe
     for row in zip(df['protein_id'], df['epitope_id'], df['epit_seq'], df['start_pos'], df['end_pos'], df['majority_class'], df['sequence']):
 
         protein_id = str(row[0])
@@ -66,7 +75,6 @@ def windowing(df):
         majority_class = str(row[5])
         sequence = np.asarray(list(str(row[6])))
 
-        #print(epit_seq + " = " + str(len(epit_seq)))
 
         if (majority_class != "No dominant class"):
             windowed_count += 1
@@ -79,21 +87,31 @@ def windowing(df):
                 offset_left = 0
                 offset_right = 0
 
+                # padding is required at the start of the sequence change the
+                # offset left as not to exceed the sequence bounds
                 if (AA_pos - window_left <= 0):
                     offset_left = -(AA_pos - window_left) + 1
 
+                # if padding is required at the end of the sequence change the
+                # offset right as not to exceed the sequence bounds
                 if (AA_pos + window_right > len(sequence)):
                     offset_right = AA_pos + window_right - len(sequence)
 
+                # get the area of the sequence without exceed the bounds
                 AA_window_list = list(sequence[offset_left+pos-window_left:pos+window_right+1])
 
 
+                # if padding is required left
                 if (offset_left != 0):
+                    # get the value the padding will be
                     padded_value = sequence[0]
 
+                    # get the amount of values need to be padded
                     padding_left = [padded_value for x in range(0, offset_left)]
+                    # add it to the AA_window
                     AA_window_list = padding_left + AA_window_list
 
+                # if padding is required right
                 if (offset_right != 0):
                     padded_value = sequence[len(sequence)-1]
 
@@ -109,6 +127,7 @@ def windowing(df):
 
                 row_list.append(dict)
         else:
+            # if the epitope has no dominant class
             dict = {}
             dict["protein_id"] = protein_id
             dict["epitope_id"] = epitope_id
@@ -122,3 +141,5 @@ def windowing(df):
 
     df = pd.DataFrame(row_list, columns=['protein_id', 'epitope_id', 'AA_position', 'AA_window', 'class'])
     df.to_csv("output/windowed.csv", index = False)
+
+    return df
